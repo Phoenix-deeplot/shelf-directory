@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self' https://api.github.com http://127.0.0.1:* http://localhost:*; base-uri 'none'; form-action 'none'; frame-ancestors 'none'">
+<title>目录管理</title>
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<header class="bar">
+  <h1>目录管理</h1>
+  <span id="repoName" class="muted"></span>
+  <span class="grow"></span>
+  <button type="button" id="refreshBtn" hidden>刷新</button>
+  <button type="button" id="dailyBtn" hidden title="立即重新读取所有来源并更新目录">立即更新目录</button>
+  <button type="button" id="logoutBtn" hidden>退出</button>
+</header>
+
+<main>
+  <section id="login" hidden>
+    <h2>连接你的 GitHub</h2>
+    <p>这个页面没有后台：它用你的 GitHub 令牌，直接在你的浏览器里读写这个仓库的申请（issue）和触发更新。令牌不会发给任何别的地方。</p>
+    <form id="loginForm" autocomplete="off">
+      <label for="token">GitHub 令牌（fine-grained personal access token）</label>
+      <input id="token" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…">
+      <label class="check"><input type="checkbox" id="remember"> 在这个浏览器里记住令牌（不勾选则关闭标签页就忘掉）</label>
+      <button type="submit" class="primary">连接</button>
+      <p id="loginMsg" class="msg" role="status"></p>
+    </form>
+    <details>
+      <summary>怎么拿令牌</summary>
+      <ol>
+        <li>GitHub → 右上角头像 → Settings → Developer settings → Personal access tokens → <b>Fine-grained tokens</b> → Generate new token。</li>
+        <li>Repository access 选 <b>Only select repositories</b>，只选目录这个仓库。</li>
+        <li>Permissions → Repository permissions：<b>Issues: Read and write</b>，<b>Actions: Read and write</b>（Metadata 自动是只读）。</li>
+        <li>设一个有效期（比如 90 天），生成后复制到上面。这个令牌只能操作这一个仓库。</li>
+      </ol>
+    </details>
+  </section>
+
+  <section id="app" hidden>
+    <nav class="tabs" role="tablist">
+      <button type="button" role="tab" data-tab="pending" aria-selected="true">待审 <span id="nPending" class="n">0</span></button>
+      <button type="button" role="tab" data-tab="listed" aria-selected="false">已收录 <span id="nListed" class="n">0</span></button>
+      <button type="button" role="tab" data-tab="done" aria-selected="false">已处理</button>
+    </nav>
+    <p id="status" class="msg" role="status"></p>
+    <div id="pending" class="list"></div>
+    <div id="listed" class="list" hidden></div>
+    <div id="done" class="list" hidden></div>
+  </section>
+</main>
+
+<script src="vendor/marked.min.js"></script>
+<script src="vendor/purify.min.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>

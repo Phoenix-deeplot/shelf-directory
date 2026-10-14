@@ -1,0 +1,43 @@
+name: 投稿文章 / Submit a post
+description: 把一篇 Markdown 文章交给本站托管并出现在目录里 / Hand in a Markdown article to be hosted and listed
+title: "[投稿] "
+labels: ["post-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        没有 GitHub 账号也可以投稿：在目录页点“收录”，选“写文章”。
+        文章会由本站托管成一个静态页面，署你填的作者名，**公开可见**；你可以随时要求下架。只支持 Markdown，图片不会显示（只保留链接）。
+        You do not need a GitHub account: use “Submit” on the directory page. The text is hosted as a static page under the author name you give; it is public, and you can ask for removal at any time.
+  - type: input
+    id: title
+    attributes:
+      label: 标题
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: 作者（可选）
+      description: 显示在文章页上，可以用笔名
+  - type: input
+    id: tags
+    attributes:
+      label: 标签（可选）
+      description: 用逗号分隔，最多 5 个
+  - type: textarea
+    id: body
+    attributes:
+      label: 正文
+      description: Markdown，60 到 50000 个字符
+    validations:
+      required: true
+  - type: dropdown
+    id: rights
+    attributes:
+      label: 权利确认
+      description: 请确认你是作者，并同意公开发布 / Confirm that you are the author and agree to publish
+      options:
+        - 我是作者并同意公开发布 / I am the author and agree to publish
+    validations:
+      required: true

@@ -5,7 +5,9 @@
   python aggregate.py issue --event FILE --out FILE  check a submission issue (used by the GitHub Action)
   python aggregate.py approve URL [--tags a,b]       register a checked address (what the "approved" label does)
   python aggregate.py approve --event FILE --out FILE
-  python aggregate.py remove ID                      take a shelf out of the directory
+  python aggregate.py reject --event FILE --out FILE remember a refused submission (its hash only) and close it
+  python aggregate.py apply --result FILE            post the result of `issue` / `approve` / `reject` in the issue (GitHub Action)
+  python aggregate.py remove ID | post:SLUG          take a shelf, or a hosted post, out of the directory
   python aggregate.py fetch [--only ID]              read every registered source into registry/snapshots/
   python aggregate.py build                          write docs/ (directory.json, feeds, shelves.opml) from the snapshots
   python aggregate.py run                            fetch + build (the daily job)
@@ -37,6 +39,8 @@ import urllib.robotparser
 import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 from xml.sax.saxutils import escape as xml_escape
+
+import mdsafe
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
@@ -129,7 +133,7 @@ def config():
 
 def base_url():
     """Where docs/ is published: registry/config.json "base_url", else guessed from the GitHub Actions environment."""
-    b = str(config().get('base_url') or '').strip()
+    b = str(os.environ.get('SHELF_BASE_URL') or config().get('base_url') or '').strip()
     if not b:
         repo = os.environ.get('GITHUB_REPOSITORY', '')
         if '/' in repo:
@@ -263,6 +267,36 @@ def host_is(host, domain):
     return host == domain or host.endswith('.' + domain)
 
 
+TRACKING = re.compile(r'^(utm_.*|fbclid|gclid|dclid|msclkid|mc_cid|mc_eid|igshid|spm|share_token|xtor|_hsenc|_hsmi|yclid|ref_src|vero_id|oly_enc_id|oly_anon_id)$', re.I)
+
+
+def url_key(url):
+    """Two addresses with the same key are the same page: http / https, www., the default port, a trailing slash, index.html, a fragment,
+    the order of the parameters and tracking parameters (utm_*, fbclid, ...) do not count. youtu.be/ID is youtube.com/watch?v=ID, github.com/o/r.git is github.com/o/r."""
+    try:
+        p = urllib.parse.urlsplit(str(url).strip())
+        host = (p.hostname or '').lower()
+    except ValueError:
+        return str(url).strip().lower()
+    host = re.sub(r'^www\.', '', host)
+    path = re.sub(r'/{2,}', '/', urllib.parse.unquote(p.path))
+    path = re.sub(r'/index\.(html?|php)$', '', path).rstrip('/')
+    query = sorted((k, v) for k, v in urllib.parse.parse_qsl(p.query, keep_blank_values=True) if not TRACKING.match(k))
+    segs = [s for s in path.split('/') if s]
+    if host == 'm.youtube.com':
+        host = 'youtube.com'
+    if host == 'youtu.be' and segs:
+        host, path, query = 'youtube.com', '/watch', [('v', segs[0])]
+    elif host == 'youtube.com':
+        if segs[:1] in (['shorts'], ['embed']) and len(segs) > 1:
+            path, query = '/watch', [('v', segs[1])]
+        elif path == '/watch':
+            query = [kv for kv in query if kv[0] == 'v']
+    elif host == 'github.com':
+        path = re.sub(r'\.git$', '', path).lower()
+    return host + path + ('?' + urllib.parse.urlencode(query) if query else '')
+
+
 def guess_type(url, mime='', hint=''):
     if hint in TYPES:
         return hint
@@ -298,6 +332,30 @@ def is_public_ip(ip):
     if ip.version == 6 and ip.ipv4_mapped:
         ip = ip.ipv4_mapped
     return ip.is_global
+
+
+def check_url_syntax(url):
+    """What check_url refuses without asking the network (nothing is resolved or fetched): for the public submit function, which must never
+    touch an address an outsider names. https, port 443, no credentials, and no IP literal or name of this machine / a private network."""
+    try:
+        p = urllib.parse.urlsplit(url)
+        port = p.port
+    except ValueError:
+        raise Refused('网址格式不对', 'Malformed address')
+    host = (p.hostname or '').lower()
+    if p.scheme != 'https':
+        raise Refused('只支持 https 网址', 'Only https addresses are supported')
+    if not host or p.username or p.password or not re.fullmatch(r'[\w.:-]+', host) or ('.' not in host and ':' not in host):
+        raise Refused('网址格式不对', 'Malformed address')
+    if port not in (None, 443):
+        raise Refused('只支持标准的 https 端口（443）', 'Only the standard https port (443) is supported')
+    try:
+        ipaddress.ip_address(host)
+        literal = True
+    except ValueError:
+        literal = False
+    if (literal and not is_public_ip(host)) or host == 'localhost' or host.endswith(('.localhost', '.local', '.internal', '.localdomain')):
+        raise Refused('不允许访问内网或本机地址', 'Private and local addresses are not allowed')
 
 
 def via_proxy(host):
@@ -495,6 +553,8 @@ def parse_jsonfeed(d, base):
                 break
         es = e.get('_shelf') if isinstance(e.get('_shelf'), dict) else {}
         summary = e.get('summary') or e.get('content_text') or strip_html(e.get('content_html') or '')
+        if es.get('listed') is False:                  # the owner keeps this one on the site but out of every directory
+            continue
         tags = e.get('tags') if isinstance(e.get('tags'), list) else []
         if es.get('category'):                         # a site that lists its category among the tags: the category is not a tag of the directory
             tags = [t for t in tags if str(t).casefold() != str(es['category']).casefold()]
@@ -694,6 +754,12 @@ def front_matter(text):
         kv = re.match(r'^([A-Za-z_][\w-]*)\s*[:=]\s*(.*)$', line)
         if kv:
             cur, v = kv.group(1).lower(), kv.group(2).strip()
+            if v.startswith('"') and v.endswith('"') and len(v) > 1:          # a double-quoted scalar is JSON (that is how hosted posts are written)
+                try:
+                    meta[cur] = json.loads(v)
+                    continue
+                except ValueError:
+                    pass
             meta[cur] = v if v.startswith('[') else v.strip('"\'')
         elif cur and re.match(r'^\s*-\s+', line):
             val = re.sub(r'^\s*-\s+', '', line).strip().strip('"\'')
@@ -855,15 +921,20 @@ def read_repo(spec, prev=None):
     info = gh_json('/repos/%s/%s' % (urllib.parse.quote(o), urllib.parse.quote(r)))
     if not isinstance(info, dict) or info.get('private'):
         raise Refused('找不到这个仓库或它不是公开的', 'Not found, or not public')
+    if info.get('fork'):                                  # a copy lists the same files as the original
+        parent = (info.get('parent') or {}).get('full_name') or (info.get('source') or {}).get('full_name') or ''
+        raise Refused('这是一个 fork（复制品）%s，请改为收录原仓库' % ('，原仓库是 ' + parent if parent else ''),
+                      'This is a fork%s; list the original repository instead' % (' of ' + parent if parent else ''))
     ref = spec.get('ref') or info.get('default_branch') or 'main'
     tree = gh_json('/repos/%s/%s/git/trees/%s?recursive=1' % (urllib.parse.quote(o), urllib.parse.quote(r), urllib.parse.quote(ref)), 8 * 1024 * 1024)
     prefix = (spec.get('path') or '').strip('/')
     pre = prefix + '/' if prefix else ''
-    cands = []
+    cands, shas = [], {}
     for e in tree.get('tree') or []:
         p = e.get('path') or ''
         if e.get('type') != 'blob' or (pre and not p.startswith(pre)):
             continue
+        shas[p] = e.get('sha') or ''
         parts = p[len(pre):].split('/')
         name = parts[-1]
         stem, ext = posixpath.splitext(name)
@@ -878,6 +949,13 @@ def read_repo(spec, prev=None):
     if tree.get('truncated'):
         warnings.append(('仓库太大，只读取了其中一部分文件', 'The repository is large; only part of it was read'))
     cands.sort(key=natural_key, reverse=True)
+    seen_sha, unique = set(), []                          # git gives every file a hash of its content: the same text twice in one repository is listed once
+    for p in cands:
+        if shas.get(p) and shas[p] in seen_sha:
+            continue
+        seen_sha.add(shas.get(p))
+        unique.append(p)
+    cands = unique
     if len(cands) > REPO_FILES:
         warnings.append(('有 %d 个文件，只收录前 %d 个（按路径倒序）' % (len(cands), REPO_FILES), '%d files found, the first %d are listed' % (len(cands), REPO_FILES)))
         cands = cands[:REPO_FILES]
@@ -905,6 +983,7 @@ def read_repo(spec, prev=None):
         link = 'https://%s/%s' % (r, urllib.parse.quote(p)) if pages_root and ext in ('.html', '.htm') else blob_url(o, r, ref, p)
         it = make_item(link, title, summary, '', date, itags, lang, 'note' if ext in ('.md', '.markdown') else 'pdf' if ext == '.pdf' else 'article')
         if it:
+            it['sha'] = shas.get(p, '')                       # also lets the build drop a file that another shelf lists with the same content
             items.append(it)
             (read_langs if got else unread).append(it)
     if not items:
@@ -1141,30 +1220,72 @@ def make_id(entry, taken):
     return cand
 
 
+def _repo_key(spec):
+    return tuple(str(spec.get(k) or '').lower().strip('/') for k in ('owner', 'repo', 'ref', 'path'))
+
+
 def find_entry(reg, entry):
+    """The registered shelf that is this very source (addresses compared with url_key, so www / https / a trailing slash do not make a new one)."""
     for e in reg['shelves']:
-        if e['kind'] == entry['kind'] and (e.get('source') == entry.get('source') if entry['kind'] != 'repo' else e.get('repo') == entry.get('repo')):
+        if e['kind'] != entry['kind']:
+            continue
+        if entry['kind'] == 'repo':
+            if _repo_key(e.get('repo') or {}) == _repo_key(entry.get('repo') or {}):
+                return e
+        elif url_key(e.get('source') or '') == url_key(entry.get('source') or '') or (entry['kind'] == 'feed' and entry.get('url') and url_key(e.get('url') or '') == url_key(entry['url'])):
             return e
+    return None
+
+
+DUPLICATE_TEXT = {
+    'shelf': ('已经在目录里了（%s）', 'Already in the directory (%s)'),
+    'repo': ('这个仓库（或它的上层文件夹）已经收录了（%s）', 'This repository (or a folder above it) is listed already (%s)'),
+    'item': ('这一篇已经收录了（在书架 %s 里）', 'This one is listed already (in shelf %s)'),
+}
+
+
+def find_duplicate(entry, items):
+    """What the directory already has of this. -> (kind, shelf id) or None.
+    'shelf': the same source; 'repo': the repository (or a folder above) is listed; 'item': a single page that another shelf lists already."""
+    reg = load_registry()
+    e = find_entry(reg, entry)
+    if e:
+        return 'shelf', e['id']
+    if entry['kind'] == 'repo':
+        want = _repo_key(entry['repo'])
+        for r in reg['shelves']:
+            if r['kind'] == 'repo' and _repo_key(r['repo'])[:2] == want[:2]:
+                have_path, path = _repo_key(r['repo'])[3], want[3]
+                if not have_path or path == have_path or path.startswith(have_path + '/'):
+                    return 'repo', r['id']
+    if entry['kind'] == 'link':
+        keys = {url_key(i['url']) for i in items}
+        for r in reg['shelves']:
+            snap = load_snapshot(r['id'])
+            if snap and any(url_key(i['url']) in keys for i in snap.get('items', [])):
+                return 'item', r['id']
     return None
 
 
 def probe(raw):
     """Everything a maintainer needs to decide: what it is, what was found, and why not if it cannot be listed."""
     entry, pre, warnings = discover(raw)
-    if blocked(entry):
+    if blocked(entry) or rejected(url_key(entry.get('source') or entry['url'])):
         raise Refused('这个网站不在收录范围内', 'This site is not accepted')
     res = read_source(entry, None, pre)
     entry.setdefault('source', entry['url'])
     if entry['kind'] == 'repo':
         entry['source'] = 'github:%s/%s' % (entry['repo']['owner'], entry['repo']['repo'])
-    existing = find_entry(load_registry(), entry)
-    return {'entry': entry, 'shelf': res['shelf'], 'items': res['items'], 'warnings': warnings + res.get('warnings', []), 'existing': existing['id'] if existing else ''}
+    dup = find_duplicate(entry, res['items'])
+    return {'entry': entry, 'shelf': res['shelf'], 'items': res['items'], 'warnings': warnings + res.get('warnings', []),
+            'duplicate': dup, 'existing': dup[1] if dup and dup[0] == 'shelf' else ''}
 
 
 def approve(raw, tags=None, issue=None):
     r = probe(raw)
-    if r['existing']:
-        raise Refused('已经在目录里了（%s）' % r['existing'], 'Already in the directory (%s)' % r['existing'])
+    if r['duplicate']:
+        zh, en = DUPLICATE_TEXT[r['duplicate'][0]]
+        raise Refused(zh % r['duplicate'][1], en % r['duplicate'][1])
     reg = load_registry()
     e = r['entry']
     e['id'] = make_id(e, {x['id'] for x in reg['shelves']})
@@ -1180,6 +1301,14 @@ def approve(raw, tags=None, issue=None):
 
 
 def remove(sid):
+    """A shelf (its id), or a hosted post ('post:<slug>')."""
+    if (sid or '').startswith('post:'):
+        name = sid[5:]
+        path = os.path.join(posts_dir(), name + '.md')
+        if not re.fullmatch(r'[\w.-]+', name) or not os.path.isfile(path):
+            raise Refused('没有这篇投稿：' + name, 'No such post: ' + name)
+        os.remove(path)
+        return
     if not re.fullmatch(r'[a-z0-9-]+', sid or ''):
         raise Refused('书架编号不对', 'Bad shelf id')
     reg = load_registry()
@@ -1238,12 +1367,6 @@ def fetch_all(only=None, log=print):
 
 
 # ======================================================================= build docs/
-def dedupe_key(url):
-    p = urllib.parse.urlsplit(url)
-    q = [kv for kv in urllib.parse.parse_qsl(p.query) if not kv[0].lower().startswith('utm_')]
-    return '%s%s?%s' % ((p.hostname or '').lower(), p.path.rstrip('/'), urllib.parse.urlencode(q))
-
-
 def atom_feed(title, subtitle, self_url, home, items, shelves):
     latest = max([i['date'] for i in items if i['date']] or ['1970-01-01']) + 'T00:00:00Z'
     out = ['<?xml version="1.0" encoding="utf-8"?>', '<feed xmlns="http://www.w3.org/2005/Atom">', '  <id>%s</id>' % xml_escape(self_url or home or 'urn:shelf-directory'),
@@ -1300,29 +1423,48 @@ def build():
     alias = read_json(os.path.join(ROOT, 'registry', 'tags.json'), {})
     alias = {tag_key(k): v for k, v in alias.items() if not str(k).startswith('_')} if isinstance(alias, dict) else {}
     repo = str(cfg.get('repo') or os.environ.get('GITHUB_REPOSITORY') or '').strip()
-    shelves, items, seen = {}, [], set()
+    shelves, items, seen, seen_sha = {}, [], set(), set()
+    sources = []
     for e in reg['shelves']:
         s = load_snapshot(e['id'])
-        if not s or not s.get('items') or s.get('fails', 0) >= DOWN_AFTER:
-            continue
+        if s and s.get('items') and s.get('fails', 0) < DOWN_AFTER:
+            sources.append((e, s))
+    posts, post_pages = load_posts(), {}
+    if posts and base:                                       # hosted posts are one more shelf; each has its own static page
+        post_items = []
+        for p in posts:
+            post_items.append({'url': '%sp/%s/' % (base, urllib.parse.quote(p['slug'])), 'title': p['title'], 'summary': clean(mdsafe.plain_text(p['body']), SUMMARY), 'image': '',
+                               'date': p['date'], 'tags': p['tags'], 'lang': p['lang'], 'type': 'article', 'sha': 'post:' + p['hash'], 'hash': p['hash']})
+            post_pages['p/%s/index.html' % p['slug']] = post_page(p, cfg, repo)
+        pname = cfg.get('posts_title') or '社区投稿'
+        sources.append(({'id': 'posts', 'kind': 'post', 'name': pname, 'tags': [], 'source': ''},
+                        {'shelf': {'name': pname, 'description': '读者投稿、由本站托管的文章', 'home': base, 'lang': '', 'license': ''}, 'items': post_items, 'status': 'ok'}))
+    elif posts:
+        print('build: %d hosted post(s) NOT published: set "base_url" in registry/config.json (or SHELF_BASE_URL) so that their addresses are known' % len(posts))
+    for e, s in sources:
         info = s.get('shelf') or {}
         stags = norm_tags(list(e.get('tags') or []) + list(info.get('tags') or []), 5)
         shelves[e['id']] = {'id': e['id'], 'name': e.get('name') or info.get('name') or e['id'], 'description': info.get('description', ''), 'home': info.get('home', ''),
                             'kind': e['kind'], 'lang': info.get('lang') or '', 'license': info.get('license', ''), 'tags': stags, 'n': 0, 'updated': '',
                             'feed': e['source'] if e['kind'] == 'feed' else '', 'status': s.get('status', 'ok')}
         for i in s['items']:
-            k = dedupe_key(i['url'])
-            if k in seen:
+            k = url_key(i['url'])
+            if k in seen or (i.get('sha') and i['sha'] in seen_sha):     # the same page, or (a repository file) the same content, from an earlier shelf
                 continue
             seen.add(k)
+            if i.get('sha'):
+                seen_sha.add(i['sha'])
             tags, keys = [], set()
             for t in list(i.get('tags') or []) + stags:
                 t = clean(alias.get(tag_key(t), t))
                 if tag_key(t) not in keys and t:
                     keys.add(tag_key(t))
                     tags.append(t)
-            items.append({'id': hashlib.sha1(i['url'].encode()).hexdigest()[:10], 'title': i['title'], 'summary': i.get('summary', ''), 'url': i['url'], 'image': i.get('image', ''),
-                          'date': i.get('date', ''), 'type': i.get('type') if i.get('type') in TYPES else 'article', 'lang': i.get('lang') or 'en', 'tags': tags[:TAGS_PER_ITEM], 'shelf': e['id']})
+            row = {'id': hashlib.sha1(i['url'].encode()).hexdigest()[:10], 'title': i['title'], 'summary': i.get('summary', ''), 'url': i['url'], 'image': i.get('image', ''),
+                   'date': i.get('date', ''), 'type': i.get('type') if i.get('type') in TYPES else 'article', 'lang': i.get('lang') or 'en', 'tags': tags[:TAGS_PER_ITEM], 'shelf': e['id']}
+            if i.get('hash'):                                        # a hosted post: the submit function compares new texts with this
+                row['hash'] = i['hash']
+            items.append(row)
     items.sort(key=lambda i: (i['date'], i['shelf'], i['title']), reverse=True)
     items = items[:MAX_DIRECTORY_ITEMS]
     for i in items:
@@ -1352,7 +1494,8 @@ def build():
         s['shelf_feed'] = 'feed/shelf/%s' % s['id']
     day = today().isoformat()
     out = {}                                                # relative path -> text
-    out['directory.json'] = json.dumps({'spec': 1, 'title': cfg.get('title') or 'Shelf directory', 'repo': repo, 'generated': day, 'base': base, 'count': len(items), 'types': types, 'shelves': shelf_list,
+    out.update(post_pages)
+    out['directory.json'] = json.dumps({'spec': 1, 'title': cfg.get('title') or 'Shelf directory', 'repo': repo, 'submit_api': str(cfg.get('submit_api') or '').strip(), 'generated': day, 'base': base, 'count': len(items), 'types': types, 'shelves': shelf_list,
                                         'tags': tags[:300], 'feeds': {'all': 'feed/all', 'type': 'feed/type/{type}', 'tag': 'feed/tag/{slug}', 'shelf': 'feed/shelf/{id}'},
                                         'items': items}, ensure_ascii=False, separators=(',', ':')) + '\n'
     title = cfg.get('title') or 'Shelf directory'
@@ -1389,18 +1532,172 @@ def build():
     changed = 0
     for rel, text in out.items():
         changed += write_text(os.path.join(docs, *rel.split('/')), text)
-    feed_root = os.path.join(docs, 'feed')                    # feeds of a tag or shelf that no longer exists: gone. Nothing else in docs/ (a CNAME file, say) is touched.
-    for d, dns, fns in os.walk(feed_root):
-        for f in fns:
-            rel = os.path.relpath(os.path.join(d, f), docs).replace(os.sep, '/')
-            if rel not in out:
-                os.remove(os.path.join(d, f))
-                changed += 1
-    for d, dns, fns in os.walk(feed_root, topdown=False):
-        if not os.listdir(d):
-            os.rmdir(d)
+    for generated in ('feed', 'p'):                           # feeds and post pages that no longer exist: gone. Nothing else in docs/ (a CNAME file, the admin page) is touched.
+        root = os.path.join(docs, generated)
+        for d, dns, fns in os.walk(root):
+            for f in fns:
+                rel = os.path.relpath(os.path.join(d, f), docs).replace(os.sep, '/')
+                if rel not in out:
+                    os.remove(os.path.join(d, f))
+                    changed += 1
+        for d, dns, fns in os.walk(root, topdown=False):
+            if not os.listdir(d):
+                os.rmdir(d)
     print('build: %d items, %d shelves, %d tags, %d files (%d changed) in docs/' % (len(items), len(shelf_list), len(tags), len(out), changed))
     return out
+
+
+# ======================================================================= hosted posts: text written by readers, kept in posts/, published as static pages in docs/p/
+POST_TITLE_MAX, POST_AUTHOR_MAX, POST_BODY_MAX, POST_BODY_MIN, POST_LINKS_WARN = 120, 40, 50000, 60, 15
+POST_NAME = re.compile(r'^[\w.-]+\.md$')
+
+
+def posts_dir():
+    return os.path.join(ROOT, 'posts')
+
+
+def post_hash(body):
+    """The same text sent again (other spacing, other case, other Markdown marks) has the same hash."""
+    return hashlib.sha1(re.sub(r'\s+', ' ', mdsafe.plain_text(body)).strip().lower().encode('utf-8')).hexdigest()
+
+
+def load_posts():
+    d, out = posts_dir(), []
+    if not os.path.isdir(d):
+        return out
+    for name in sorted(os.listdir(d)):
+        if not POST_NAME.match(name):
+            continue
+        try:
+            with open(os.path.join(d, name), 'r', encoding='utf-8-sig') as f:
+                meta, body = front_matter(f.read())
+        except OSError:
+            continue
+        title = clean(meta.get('title'), POST_TITLE_MAX) or name[:-3]
+        out.append({'slug': name[:-3], 'title': title, 'author': clean(meta.get('author'), POST_AUTHOR_MAX), 'date': parse_date(meta.get('date')),
+                    'tags': norm_tags(_list_value(meta.get('tags')), 5), 'lang': norm_lang(meta.get('lang'), title + ' ' + body[:300]), 'body': body,
+                    'hash': post_hash(body), 'issue': str(meta.get('issue') or '')})
+    return out
+
+
+def blockwords():
+    try:
+        with open(os.path.join(ROOT, 'registry', 'blockwords.txt'), 'r', encoding='utf-8-sig') as f:
+            return [l.strip().lower() for l in f if l.strip() and not l.strip().startswith('#')]
+    except OSError:
+        return []
+
+
+def check_post(sub):
+    """Hard limits raise Refused; everything else is information for the person who decides. -> dict."""
+    title, author, body = clean(sub.get('title')), clean(sub.get('author')), str(sub.get('body') or '').replace('\r\n', '\n').replace('\r', '\n').strip()
+    if not title:
+        raise Refused('请填写标题', 'A title is needed')
+    if len(title) > POST_TITLE_MAX or len(author) > POST_AUTHOR_MAX:
+        raise Refused('标题最多 %d 个字，作者名最多 %d 个字' % (POST_TITLE_MAX, POST_AUTHOR_MAX), 'The title may have %d characters, the author name %d' % (POST_TITLE_MAX, POST_AUTHOR_MAX))
+    text = mdsafe.plain_text(body)
+    if len(text) < POST_BODY_MIN:
+        raise Refused('正文太短（至少 %d 个字符）' % POST_BODY_MIN, 'The text is too short (at least %d characters)' % POST_BODY_MIN)
+    if len(body) > POST_BODY_MAX:
+        raise Refused('正文太长（最多 %d 个字符）' % POST_BODY_MAX, 'The text is too long (at most %d characters)' % POST_BODY_MAX)
+    low = (title + ' ' + body).lower()
+    if any(w in low for w in blockwords()):
+        raise Refused('内容里有不允许的词', 'The text contains a word that is not accepted')
+    h = post_hash(body)
+    if rejected(h):
+        raise Refused('这篇文章暂时不能收录', 'This text cannot be accepted')
+    dup = next((p['slug'] for p in load_posts() if p['hash'] == h), '')
+    if dup:
+        raise Refused('这篇文章已经投过了（%s）' % dup, 'This text was submitted already (%s)' % dup)
+    links = re.findall(r'https?://[^\s<>)\]]+', body)
+    domains = sorted({(urllib.parse.urlsplit(u).hostname or '') for u in links})
+    warnings = []
+    if len(links) > POST_LINKS_WARN:
+        warnings.append(('链接很多（%d 个），请留意是不是广告' % len(links), '%d links: check that it is not an advertisement' % len(links)))
+    if links and len(text) < 40 * len(links):
+        warnings.append(('链接比文字还多，像是链接列表', 'More links than text: it looks like a list of links'))
+    return {'title': title, 'author': author, 'tags': norm_tags(sub.get('tags'), 5), 'chars': len(text), 'links': len(links), 'domains': domains[:8], 'warnings': warnings,
+            'hash': h, 'excerpt': clean(text, 300), 'lang': norm_lang('', title + ' ' + text), 'body': body}
+
+
+def describe_post(info):
+    lines = ['**识别为 / Recognised as：** 读者投稿的文章（由本站托管） · A hosted post', '', '| | |', '|---|---|', '| 标题 / Title | %s |' % md_esc(info['title']),
+             '| 作者 / Author | %s |' % (md_esc(info['author']) if info['author'] else '（未填 / none）'), '| 字数 / Length | %d |' % info['chars'],
+             '| 语言 / Language | %s |' % info['lang'], '| 链接 / Links | %d%s |' % (info['links'], ('：' + md_esc(', '.join(info['domains']))) if info['domains'] else '')]
+    if info['tags']:
+        lines.append('| 标签 / Tags | %s |' % md_esc(', '.join(info['tags'])))
+    lines += ['', '开头 / Beginning:', '', '> ' + md_esc(info['excerpt'])]
+    for zhw, enw in info['warnings']:
+        lines += ['', '⚠️ %s / %s' % (md_esc(zhw), md_esc(enw))]
+    return '\n'.join(lines)
+
+
+def publish_post(sub, number):
+    """Write the post into posts/ (the build turns it into a page). -> (slug, info)."""
+    info = check_post(sub)
+    d = posts_dir()
+    os.makedirs(d, exist_ok=True)
+    base_slug = 'p%s-%s' % (number or 'x', slug(info['title'], 'post')[:40])
+    name, n = base_slug, 1
+    while os.path.exists(os.path.join(d, name + '.md')):
+        n += 1
+        name = '%s-%d' % (base_slug, n)
+    head = ['---', 'title: ' + json.dumps(info['title'], ensure_ascii=False), 'author: ' + json.dumps(info['author'], ensure_ascii=False), 'date: ' + today().isoformat(),
+            'tags: ' + json.dumps(info['tags'], ensure_ascii=False), 'lang: ' + info['lang']] + (['issue: %s' % number] if number else []) + ['---', '']
+    write_text(os.path.join(d, name + '.md'), '\n'.join(head) + info['body'] + '\n')
+    return name, info
+
+
+POST_CSS = ('body{margin:0;background:#FBFBF9;color:#1A2229;font:17px/1.85 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}'
+            '.doc{max-width:44em;margin:0 auto;padding:40px 22px 90px}.meta{font-size:14px;color:#5A6670;margin:0 0 6px}'
+            'h1,h2,h3,h4{line-height:1.35;margin:1.7em 0 .6em;font-family:"Noto Serif SC","Songti SC",Georgia,serif}h1{font-size:2em;margin-top:.3em}'
+            'a{color:#1F7A6D}blockquote{border-left:3px solid #1F7A6D;margin:0 0 1.1em;padding:2px 0 2px 16px;color:#5A6670}'
+            'pre{background:#F0F2F1;border-radius:8px;padding:14px 16px;overflow-x:auto}code{background:#F0F2F1;border-radius:4px;padding:.1em .35em}pre code{background:none;padding:0}'
+            'table{border-collapse:collapse;display:block;overflow-x:auto}th,td{border-bottom:1px solid #DDE1DF;padding:8px 10px;text-align:left;vertical-align:top}'
+            'hr{border:0;border-top:1px solid #DDE1DF;margin:2em 0}footer{margin-top:3em;padding-top:1em;border-top:1px solid #DDE1DF;font-size:15px;color:#5A6670}'
+            '@media (prefers-color-scheme:dark){body{background:#15191C;color:#E2E7E9}.meta,blockquote,footer{color:#9AA7AE}a{color:#5CC2B1}pre,code{background:#1F262B}th,td,hr,footer{border-color:#2C363C}}')
+
+
+def post_page(p, cfg, repo):
+    """The static page of a hosted post. The text went through mdsafe, the rest is escaped here; the page carries no script."""
+    site, title = str(cfg.get('site') or '').strip(), cfg.get('title') or 'Shelf directory'
+    meta = ' · '.join(x for x in ('读者投稿 / A reader\'s post', p['author'], p['date']) if x)
+    take = 'https://github.com/%s/issues/new?template=takedown.yml' % repo if repo else ''
+    links = ['<a href="%s">返回目录</a>' % xml_escape(site, {'"': '&quot;'})] if httpish(site) else []
+    if take:
+        links.append('<a href="%s" rel="nofollow">申请下架或修改</a>' % xml_escape(take, {'"': '&quot;'}))
+    return ('<!DOCTYPE html>\n<html lang="%s"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
+            '<meta name="robots" content="noindex, follow"><meta name="referrer" content="no-referrer"><title>%s · %s</title><meta name="description" content="%s">'
+            '<style>%s</style></head><body><article class="doc"><p class="meta">%s</p><h1>%s</h1>\n%s\n<footer>本文由读者投稿，版权归作者所有，不代表本站观点。%s</footer></article></body></html>\n'
+            % ('zh-CN' if p['lang'] == 'zh' else 'en', xml_escape(p['title']), xml_escape(title), xml_escape(clean(mdsafe.plain_text(p['body']), 160), {'"': '&quot;'}),
+               POST_CSS, xml_escape(meta), xml_escape(p['title']), mdsafe.render(p['body']), ' · '.join(links)))
+
+
+def httpish(u):
+    return bool(re.match(r'^https?://[^\s"<>]+$', str(u or '')))
+
+
+# ======================================================================= what was refused: only hashes are kept, the text itself is not
+def rejected_path():
+    return os.path.join(ROOT, 'registry', 'rejected.json')
+
+
+def key_hash(key):
+    return hashlib.sha1(str(key).lower().encode('utf-8')).hexdigest()
+
+
+def rejected(key):
+    d = read_json(rejected_path(), {})
+    return key_hash(key) in set(d.get('keys', [])) if isinstance(d, dict) else False
+
+
+def remember_rejected(key):
+    d = read_json(rejected_path(), {})
+    d = d if isinstance(d, dict) else {}
+    keys = list(d.get('keys', []))
+    if key_hash(key) not in keys:
+        keys.append(key_hash(key))
+    write_json(rejected_path(), {'keys': keys})
 
 
 # ======================================================================= issues (GitHub Action)
@@ -1415,7 +1712,7 @@ KIND_NAMES = {
 
 def md_esc(s):
     s = re.sub(r'([\\`*_{}\[\]<>|~])', r'\\\1', str(s))
-    return s.replace('@', '@\u200b').replace('\n', ' ')
+    return s.replace('@', '@​').replace('\n', ' ')
 
 
 def md_link(text, url):
@@ -1424,37 +1721,56 @@ def md_link(text, url):
     return '[%s](%s)' % (md_esc(text), url)
 
 
+ISSUE_FIELDS = (('url', r'^(网址|url|address|link)'), ('title', r'^(标题|title)'), ('author', r'^(作者|author)'), ('tags', r'^(标签|tags?)'),
+                ('body', r'^(正文|body|content)'), ('rights', r'^(权利|rights?)'))
+
+
 def issue_fields(body):
-    """GitHub issue forms write '### Label' headings followed by the answer."""
-    secs, cur = {}, None
+    """GitHub issue forms write '### Label' followed by the answer. Only the heading of a KNOWN field that has not come yet starts a field:
+    a '### ' line inside the text of a post is just text."""
+    fields, cur, seen = {}, None, set()
     for line in (body or '').replace('\r', '').split('\n'):
         m = re.match(r'^###\s+(.+?)\s*$', line)
-        if m:
-            cur = m.group(1)
-            secs[cur] = []
+        key = next((k for k, pat in ISSUE_FIELDS if k not in seen and re.match(pat, m.group(1), re.I)), None) if m else None
+        if key:
+            cur = key
+            seen.add(key)
+            fields[key] = []
         elif cur is not None:
-            secs[cur].append(line)
-    return {k: '\n'.join(v).strip() for k, v in secs.items()}
+            fields[cur].append(line)
+    return {k: '\n'.join(v).strip() for k, v in fields.items()}
 
 
-def read_submission(event):
-    """-> (url, tags, rights ok, issue number). Only the text of the form is used, and only as data."""
+def _answer(s):
+    s = (s or '').strip()
+    return '' if re.match(r'^_?no response_?$', s, re.I) else s
+
+
+def parse_issue(event):
+    """What a submission issue says (only as data). kind is 'post' when the form has a title and a text, else 'shelf'."""
     issue = (event or {}).get('issue') or {}
     body = issue.get('body') or ''
     f = issue_fields(body)
-    pick = lambda *pats: next((v for k, v in f.items() if any(re.search(p, k, re.I) for p in pats)), '')
-    url_text = pick(r'网址', r'\burl\b', r'link', r'地址') or body
+    kind = 'post' if f.get('title') and f.get('body') else 'shelf'
+    url_text = f.get('url') if _answer(f.get('url')) else (body if kind == 'shelf' else '')
     m = re.search(r'https?://[^\s<>"\')\]]+', url_text)
     if m:
         url = m.group(0)
     else:                                                       # "example.com/blog" typed without https://
         first = next((l.strip() for l in url_text.splitlines() if l.strip()), '')
         url = first if re.match(r'^[\w.-]+\.[A-Za-z]{2,}(/\S*)?$', first) else ''
-    url = url.rstrip('.,;:!?，。；')
-    rights = pick(r'权利', r'right')
-    ok = bool(rights) and not re.match(r'^_?no response_?$', rights, re.I) and not (re.search(r'\[[ ]\]', rights) and not re.search(r'\[[xX]\]', rights))
-    tags = [t for t in re.split(r'[,，、\n]', pick(r'标签', r'tag')) if t.strip() and not re.match(r'^_?no response_?$', t.strip(), re.I)]
-    return url.strip(), tags, ok, issue.get('number')
+    rights = _answer(f.get('rights'))
+    ok = bool(rights) and not (re.search(r'\[[ ]\]', rights) and not re.search(r'\[[xX]\]', rights))
+    tags = [t.strip() for t in re.split(r'[,，、\n]', _answer(f.get('tags'))) if t.strip()]
+    zw = lambda s: s.replace('​', '')                      # the submit function puts one after "###" in a line that looks like a heading of the form
+    return {'kind': kind, 'number': issue.get('number'), 'url': url.rstrip('.,;:!?，。；').strip(), 'tags': [zw(t) for t in tags], 'rights': ok,
+            'title': zw(_answer(f.get('title'))), 'author': zw(_answer(f.get('author'))), 'body': zw(_answer(f.get('body')))}
+
+
+def read_submission(event):
+    """-> (url, tags, rights ok, issue number) of an address submission."""
+    s = parse_issue(event)
+    return s['url'], s['tags'], s['rights'], s['number']
 
 
 def describe(r):
@@ -1481,28 +1797,119 @@ def describe(r):
 
 
 def handle_issue(event, mode):
-    """mode 'check' (opened / edited) or 'approve' (the maintainer added the label). -> dict for the workflow."""
-    url, tags, rights, number = read_submission(event)
+    """mode 'check' (opened / edited), 'approve' or 'reject' (the maintainer added that label). -> dict for the workflow."""
+    sub = parse_issue(event)
+    number = sub['number']
     res = {'number': number, 'ok': False, 'comment': '', 'add': [], 'remove': [], 'close': False}
     try:
-        if not url:
+        if mode == 'reject':                                   # remember what it was, so that it is not asked again; the text itself is not kept
+            if sub['kind'] == 'post' and sub['body']:
+                remember_rejected(post_hash(sub['body']))
+            elif sub['url']:
+                remember_rejected(url_key(sub['url']))
+            res.update({'ok': True, 'close': True, 'add': ['rejected'], 'remove': ['checked', 'invalid', 'approved', 'duplicate'],
+                        'comment': '🚫 已拒绝，这个 issue 将被关闭。/ Rejected; this issue is closed.', 'redact': sub['kind'] == 'post'})   # a refused text does not stay in the public list
+            return res
+        if sub['kind'] == 'shelf' and not sub['url']:
             raise Refused('没有在表单里找到网址。请用「收录申请」表单提交。', 'No address found. Please use the submission form.')
-        if not rights:
+        if not sub['rights']:
             raise Refused('请在表单里确认「我有权发布这些内容」。', 'Please confirm that you have the right to publish this content in the form.')
-        if mode == 'approve':
-            e, r = approve(url, tags, number)
-            res.update({'ok': True, 'close': True, 'add': ['listed'], 'remove': ['checked', 'invalid'],
+        if sub['kind'] == 'post':
+            if mode == 'approve':
+                name, info = publish_post(sub, number)
+                res.update({'ok': True, 'close': True, 'add': ['listed'], 'remove': ['checked', 'invalid', 'duplicate'],
+                            'comment': '✅ 已发布，页面编号 `%s`。/ Published as `%s`.\n\n%s' % (name, name, describe_post(info))})
+            else:
+                info = check_post(sub)
+                res.update({'ok': True, 'add': ['checked'], 'remove': ['invalid', 'duplicate'], 'comment': describe_post(info) + '\n\n' + TAIL_CHECKED})
+        elif mode == 'approve':
+            e, r = approve(sub['url'], sub['tags'], number)
+            res.update({'ok': True, 'close': True, 'add': ['listed'], 'remove': ['checked', 'invalid', 'duplicate'],
                         'comment': '✅ 已收录，编号 `%s`，每天自动更新。/ Listed as `%s`; it is refreshed every day.\n\n%s' % (e['id'], e['id'], describe(r))})
         else:
-            r = probe(url)
-            tail = ('ℹ️ 这个地址已经在目录里（`%s`）。/ Already listed.' % r['existing']) if r['existing'] else \
-                   '✅ **自动检查通过，等待维护者审核。** 审核通过后维护者会给这个 issue 加上 `approved` 标签，之后会自动进入目录。\n\n' \
-                   '✅ **Automatic checks passed; waiting for a maintainer.** Once approved (label `approved`) it is listed automatically.'
-            res.update({'ok': True, 'add': ['checked'], 'remove': ['invalid'], 'comment': describe(r) + '\n\n' + tail})
+            r = probe(sub['url'])
+            if r['duplicate']:
+                zh, en = DUPLICATE_TEXT[r['duplicate'][0]]
+                res.update({'ok': False, 'add': ['duplicate'], 'remove': ['checked', 'invalid'],
+                            'comment': describe(r) + '\n\nℹ️ **重复 / Duplicate：** %s。无需重复提交，可以关闭这个 issue。\n%s' % (md_esc(zh % r['duplicate'][1]), md_esc(en % r['duplicate'][1]))})
+            else:
+                res.update({'ok': True, 'add': ['checked'], 'remove': ['invalid', 'duplicate'], 'comment': describe(r) + '\n\n' + TAIL_CHECKED})
     except Refused as ex:
-        res.update({'ok': False, 'add': ['invalid'], 'remove': ['checked'],
-                    'comment': '❌ **暂时无法收录 / Cannot be listed:** %s\n\n%s\n\n修改上面的网址后（编辑本 issue）会自动重新检查。Edit the address above and it is checked again.' % (md_esc(str(ex)), md_esc(ex.en))})
+        res.update({'ok': False, 'add': ['invalid'], 'remove': ['checked', 'duplicate'],
+                    'comment': '❌ **暂时无法收录 / Cannot be listed:** %s\n\n%s\n\n修改上面的内容后（编辑本 issue）会自动重新检查。Edit the issue and it is checked again.' % (md_esc(str(ex)), md_esc(ex.en))})
     return res
+
+
+TAIL_CHECKED = ('✅ **自动检查通过，等待维护者审核。** 审核通过后维护者会给这个 issue 加上 `approved` 标签，之后会自动进入目录。\n\n'
+                '✅ **Automatic checks passed; waiting for a maintainer.** Once approved (label `approved`) it is listed automatically.')
+
+
+# ======================================================================= answering in the issue (GitHub REST, with the Action's token)
+BOT_MARKER = '<!-- shelf-directory-bot -->'
+LABEL_COLORS = {'shelf-submission': '1F7A6D', 'post-submission': '1F7A6D', 'checked': '0E8A16', 'invalid': 'B60205', 'duplicate': 'CFD3D7', 'approved': '5319E7',
+                'rejected': '6A737D', 'listed': '0052CC', 'takedown': 'FBCA04'}
+
+
+def gh_call(method, path, body=None, token=None):
+    """One GitHub REST call -> (status, decoded JSON or None). Never raises on an HTTP error: the caller decides what it means."""
+    token = token or os.environ.get('GITHUB_TOKEN') or os.environ.get('GH_TOKEN')
+    if not token:
+        raise Refused('没有 GITHUB_TOKEN（只能在 GitHub Action 里回复 issue）', 'No GITHUB_TOKEN (replying to an issue works inside the GitHub Action only)')
+    data = json.dumps(body).encode('utf-8') if body is not None else None
+    headers = {'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28', 'User-Agent': UA}
+    if data is not None:
+        headers['Content-Type'] = 'application/json'
+    handlers = [urllib.request.ProxyHandler({})] if ALLOW_LOCAL else []
+    req = urllib.request.Request(GITHUB_API + path, data=data, method=method, headers=headers)
+    try:
+        with urllib.request.build_opener(*handlers).open(req, timeout=TIMEOUT) as r:
+            raw = r.read(MAX_BYTES)
+            return r.status, (json.loads(raw.decode('utf-8')) if raw else None)
+    except urllib.error.HTTPError as e:
+        raw = e.read(4000)
+        e.close()
+        try:
+            return e.code, json.loads(raw.decode('utf-8'))
+        except ValueError:
+            return e.code, {'message': raw.decode('utf-8', 'replace')}
+    except (urllib.error.URLError, socket.timeout, TimeoutError, ConnectionError, OSError) as e:
+        raise Refused('连不上 GitHub：%s' % e, 'Could not reach GitHub: %s' % e)
+
+
+def apply_result(res, repo):
+    """Post what handle_issue found: the comment (our earlier one is edited, not repeated), the labels, and closing the issue. -> list of problems."""
+    n = res.get('number')
+    if not n or not re.fullmatch(r'[\w.-]+/[\w.-]+', repo or ''):
+        return ['no issue number or repository (GITHUB_REPOSITORY) to answer in']
+    base, problems = '/repos/%s/issues/%s' % (repo, n), []
+
+    def check(what, st, data):
+        if st not in (200, 201, 204):
+            problems.append('%s: HTTP %s %s' % (what, st, (data or {}).get('message', '') if isinstance(data, dict) else ''))
+        return st in (200, 201, 204)
+
+    body = BOT_MARKER + '\n' + (res.get('comment') or '')
+    st, comments = gh_call('GET', base + '/comments?per_page=100')
+    mine = next((c for c in comments if isinstance(c, dict) and BOT_MARKER in (c.get('body') or '')), None) if st == 200 and isinstance(comments, list) else None
+    if mine:
+        check('edit comment', *gh_call('PATCH', '/repos/%s/issues/comments/%s' % (repo, mine['id']), {'body': body}))
+    else:
+        check('create comment', *gh_call('POST', base + '/comments', {'body': body}))
+    for name in res.get('add', []):
+        st, _ = gh_call('POST', '/repos/%s/labels' % repo, {'name': name, 'color': LABEL_COLORS.get(name, 'ededed')})
+        if st not in (200, 201, 422):                              # 422: it exists already
+            problems.append('create label %s: HTTP %s' % (name, st))
+    if res.get('add'):
+        check('add labels', *gh_call('POST', base + '/labels', {'labels': res['add']}))
+    for name in res.get('remove', []):
+        st, data = gh_call('DELETE', base + '/labels/' + urllib.parse.quote(name, safe=''))
+        if st not in (200, 204, 404):                              # 404: it was not on the issue
+            check('remove label ' + name, st, data)
+    if res.get('redact'):                                          # the text of a refused post is replaced (GitHub may keep the edit history)
+        check('clear the text', *gh_call('PATCH', base, {'body': '（投稿内容已清除 / the text has been removed）\n\n### 权利确认\n\n已拒绝 / rejected\n'}))
+    if res.get('close'):
+        check('close issue', *gh_call('PATCH', base, {'state': 'closed', 'state_reason': 'completed'}))
+    return problems
 
 
 # ======================================================================= command line
@@ -1556,11 +1963,17 @@ def main(argv=None):
     p.add_argument('--tags', default='')
     p.add_argument('--event')
     p.add_argument('--out')
+    p = sub.add_parser('reject')
+    p.add_argument('--event', required=True)
+    p.add_argument('--out', required=True)
+    p = sub.add_parser('apply')
+    p.add_argument('--result', required=True)
     p = sub.add_parser('remove')
     p.add_argument('id')
     p = sub.add_parser('fetch')
     p.add_argument('--only')
-    sub.add_parser('build')
+    p = sub.add_parser('build')
+    p.add_argument('--base', default='', help='public address of docs/ (else registry/config.json base_url, else guessed from GITHUB_REPOSITORY)')
     sub.add_parser('run')
     p = sub.add_parser('serve')
     p.add_argument('--port', type=int, default=8770)
@@ -1586,6 +1999,15 @@ def main(argv=None):
             show(r)
             build()
             print('listed as', e['id'])
+        elif a.cmd == 'reject':
+            res = handle_issue(read_json(a.event, {}), 'reject')
+            write_json(a.out, res)
+            print(res['comment'])
+        elif a.cmd == 'apply':                                   # the last step of the workflows: answer in the issue, loudly if that fails
+            problems = apply_result(read_json(a.result, {}), os.environ.get('GITHUB_REPOSITORY', ''))
+            for line in problems:
+                print('apply: ' + line, file=sys.stderr)
+            return 1 if problems else 0
         elif a.cmd == 'remove':
             remove(a.id)
             build()
@@ -1593,6 +2015,8 @@ def main(argv=None):
         elif a.cmd == 'fetch':
             fetch_all(a.only)
         elif a.cmd == 'build':
+            if a.base:
+                os.environ['SHELF_BASE_URL'] = a.base
             build()
         elif a.cmd == 'run':
             fetch_all()

@@ -2,6 +2,7 @@ name: Submissions
 # opened / edited issue made with the "收录申请" form -> the bot checks the address and answers in the issue.
 # a maintainer adds the label "approved"            -> the address is registered, fetched, and the issue is closed.
 # The text of the issue is untrusted: it is only ever read from the event file by aggregate.py, never put into a shell command.
+# Answering (comment, labels, closing) is done by `aggregate.py apply` through the GitHub REST API; if that fails the step fails and prints why.
 on:
   issues:
     types: [opened, edited, labeled]
@@ -21,6 +22,7 @@ jobs:
       && github.event.issue.state == 'open'
       && contains(github.event.issue.body, '权利确认')
       && !contains(join(github.event.issue.labels.*.name, ','), 'listed')
+      && !contains(join(github.event.issue.labels.*.name, ','), 'rejected')
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -30,16 +32,10 @@ jobs:
           python-version: '3.12'
       - name: Check the address
         env:
-          GH_TOKEN: ${{ github.token }}
           GITHUB_TOKEN: ${{ github.token }}
-          NUMBER: ${{ github.event.issue.number }}
         run: |
-          python aggregate.py issue --event "$GITHUB_EVENT_PATH" --out result.json > /dev/null
-          for l in shelf-submission checked invalid approved listed; do gh label create "$l" 2>/dev/null || true; done
-          jq -r .comment result.json > comment.md
-          gh issue comment "$NUMBER" --body-file comment.md --edit-last --create-if-none
-          for l in $(jq -r '.add[]' result.json); do gh issue edit "$NUMBER" --add-label "$l"; done
-          for l in $(jq -r '.remove[]' result.json); do gh issue edit "$NUMBER" --remove-label "$l" 2>/dev/null || true; done
+          python aggregate.py issue --event "$GITHUB_EVENT_PATH" --out result.json
+          python aggregate.py apply --result result.json
 
   approve:
     if: >-
@@ -57,20 +53,42 @@ jobs:
       - name: Register, fetch, build
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: python aggregate.py approve --event "$GITHUB_EVENT_PATH" --out result.json > /dev/null || true
+        run: python aggregate.py approve --event "$GITHUB_EVENT_PATH" --out result.json || true   # result.json says what happened, also when it was refused
       - name: Commit
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A registry docs
+          git add -A registry docs posts
           if git diff --cached --quiet; then echo 'nothing changed'; else git commit -m "list: issue #${{ github.event.issue.number }}" && git pull --rebase && git push; fi
       - name: Answer in the issue
         env:
-          GH_TOKEN: ${{ github.token }}
-          NUMBER: ${{ github.event.issue.number }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python aggregate.py apply --result result.json
+
+  reject:
+    if: >-
+      github.event.action == 'labeled'
+      && github.event.label.name == 'rejected'
+      && github.event.issue.state == 'open'
+      && contains(github.event.issue.body, '权利确认')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Remember the refusal (a hash only), close the issue
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python aggregate.py reject --event "$GITHUB_EVENT_PATH" --out result.json
+      - name: Commit
         run: |
-          jq -r .comment result.json > comment.md
-          gh issue comment "$NUMBER" --body-file comment.md
-          for l in $(jq -r '.add[]' result.json); do gh issue edit "$NUMBER" --add-label "$l"; done
-          for l in $(jq -r '.remove[]' result.json); do gh issue edit "$NUMBER" --remove-label "$l" 2>/dev/null || true; done
-          if [ "$(jq -r .close result.json)" = "true" ]; then gh issue close "$NUMBER"; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A registry
+          if git diff --cached --quiet; then echo 'nothing changed'; else git commit -m "reject: issue #${{ github.event.issue.number }}" && git pull --rebase && git push; fi
+      - name: Answer in the issue
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python aggregate.py apply --result result.json

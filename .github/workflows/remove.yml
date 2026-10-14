@@ -1,0 +1,39 @@
+name: Remove
+# Started by the admin page ("删除"), or by hand: Actions > Remove > Run workflow, with a shelf id, or post:<slug> for a hosted post.
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'Shelf id (e.g. books-zhitree-cn) or post:<slug>'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: registry
+  cancel-in-progress: false
+
+jobs:
+  remove:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Remove and rebuild
+        env:
+          TARGET: ${{ inputs.target }}
+        run: |
+          python aggregate.py remove "$TARGET"
+      - name: Commit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A registry docs posts
+          if git diff --cached --quiet; then echo 'nothing changed'; else git commit -m "remove: $TARGET" && git pull --rebase && git push; fi
+        env:
+          TARGET: ${{ inputs.target }}

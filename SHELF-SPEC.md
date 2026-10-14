@@ -48,6 +48,8 @@
 - `_shelf.spec`：规范版本，现在是 `1`。
 - `_shelf.license`（可选）：站点的许可说明，目录里会显示出来。在站点的 `site.json` 里写 `"license"` 即可。
 - 条目的 `_shelf.type`：`note` / `tool` / `pdf` 等，取值同上面的类型；`_shelf.category` 是站内分类。
+- 条目的 `_shelf.listed`：写 `false` 表示这一条留在你的站点和订阅源里，但请任何公共目录不要收录（本站在文章 front matter 里写 `directory: false`，或在卡片上点“不进公共目录”）。
+- 订阅源条目的 `tags` 里如果带着 `_shelf.category` 的同名标签，目录会把它去掉（分类不是标签）。
 - 没有这个扩展也完全可以被收录，目录会自己推断。
 
 ## 4. 公共目录的数据格式（`directory.json`）
@@ -56,7 +58,7 @@
 
 ```json
 {
-  "spec": 1, "title": "公共目录", "repo": "用户/仓库", "generated": "2026-10-14", "base": "https://…/", "count": 120,
+  "spec": 1, "title": "公共目录", "repo": "用户/仓库", "submit_api": "https://…/api/submit（可为空）", "generated": "2026-10-14", "base": "https://…/", "count": 120,
   "types": { "article": 90, "note": 20, "video": 10 },
   "shelves": [ { "id": "books-zhitree-cn", "name": "…", "description": "…", "home": "…", "kind": "feed|repo|link", "lang": "zh",
                  "license": "", "tags": [], "n": 6, "updated": "2026-10-13", "feed": "源订阅源地址（仅 feed 类）", "shelf_feed": "feed/shelf/books-zhitree-cn" } ],
@@ -68,10 +70,16 @@
 ```
 
 - `items` 按 `date` 从新到旧；没有自己日期的订阅源条目，`date` 是目录第一次看到它的那天；GitHub 仓库里没有日期的文件，`date` 为空，排在最后。
-- 同一个链接出现在多个来源里只留一条。
+- 同一个链接出现在多个来源里只留一条（网址归一后比较：`http`/`https`、`www`、末尾斜杠、`index.html`、跟踪参数都不算区别）；GitHub 仓库里内容完全相同的文件（git 内容哈希）也只留一条，fork 不收录。
 - 每个 `feeds` 模板加上 `.xml`（Atom）或 `.json`（JSON Feed）就是一个可以订阅的地址，只含最新 50 条。标签的 `slug` 是 ASCII：英文标签用它本身，中文标签是一个固定的短代码。
 - `shelves.opml`：所有书架的订阅源清单，可一次导入阅读器。
 
-## 5. 下架
+`submit_api` 非空时，网页的「收录」直接把申请发给它（`POST`，JSON：`{"kind":"url","url":"…","rights":true}` 或 `{"kind":"post","title":"…","author":"…","tags":[…],"body":"Markdown","rights":true}`，另有一个必须留空的隐藏字段 `website`）。成功返回 `{"ok":true,"status":"queued"}`；失败返回 `{"ok":false,"error":"…","message":"中文","message_en":"English"}`，`error` 是 `url` `post` `rights` `listed` `pending` `rejected` `rate` `full` `origin` `size` `github` `not_configured` 之一。
+
+## 5. 托管投稿
+
+读者可以把一篇 Markdown 文章交给目录托管（没有自己的网站、也不想用 Gist 的人）。通过审核后，文章存为仓库里的 `posts/<编号>.md`，构建成静态页面 `p/<编号>/`，并作为书架 `posts`（名称默认“社区投稿”）出现在 `shelves` 和 `items` 里（条目有 `hash` 字段，用来识别同一篇文字）。限制：标题 ≤120 字，作者名 ≤40 字，正文 60 到 50000 个字符，标签 ≤5 个；图片不显示，只保留链接；页面不含脚本、`noindex`。作者保留版权，可以随时要求下架或修改。
+
+## 6. 下架
 
 任何人都可以要求移除自己的内容：在仓库里提一个「下架」issue，或删掉原来的订阅源 / 页面（连续读不到会自动隐藏）。维护者也可以用 `python aggregate.py remove 编号`，或把网站写进 `registry/blocklist.txt`。

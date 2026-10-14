@@ -31,7 +31,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          for l in shelf-submission checked invalid approved listed takedown; do gh label create "$l" 2>/dev/null || true; done
+          for l in shelf-submission post-submission checked invalid duplicate approved rejected listed takedown; do gh label create "$l" 2>/dev/null || true; done
       - name: Commit
         run: |
           git config user.name 'github-actions[bot]'

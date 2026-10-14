@@ -23,10 +23,26 @@ class Site:
     """A fake web server: routes maps a path (with its query) to (status, headers, body)."""
 
     def __init__(self):
-        self.routes, self.hits = {}, []
+        self.routes, self.hits, self.calls, self.mroutes = {}, [], [], {}
         site = self
 
         class H(BaseHTTPRequestHandler):
+            def _write(self, status, payload):
+                body = payload if isinstance(payload, bytes) else json.dumps(payload).encode('utf-8')
+                self.send_response(status)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Content-Length', str(len(body)))
+                self.end_headers()
+                self.wfile.write(body)
+
+            def _other(self):                                     # POST / PATCH / DELETE: recorded, answered from site.mroutes
+                raw = self.rfile.read(int(self.headers.get('Content-Length') or 0))
+                site.calls.append((self.command, self.path, json.loads(raw) if raw else None, dict(self.headers)))
+                status, payload = site.mroutes.get((self.command, self.path), (404, {'message': 'Not Found'}))
+                self._write(status, payload)
+
+            do_POST = do_PATCH = do_DELETE = _other
+
             def do_GET(self):
                 site.hits.append((self.path, dict(self.headers)))
                 r = site.routes.get(self.path)
@@ -56,6 +72,9 @@ class Site:
 
     def put(self, path, body, ctype='text/html; charset=utf-8', status=200, **headers):
         self.routes[path] = (status, {'Content-Type': ctype, **headers}, body)
+
+    def on(self, method, path, status=200, payload=None):
+        self.mroutes[(method, path)] = (status, payload if payload is not None else {})
 
     def close(self):
         self.srv.shutdown()
@@ -753,7 +772,7 @@ def event(url='https://example.com/', tags='_No response_', rights='我有权发
 class TestIssues(Base):
     def test_parse_form(self):
         url, tags, rights, n = agg.read_submission(event('https://a.example/blog.', 'ops, 采购，供应链'))
-        self.assertEqual((url, tags, rights, n), ('https://a.example/blog', ['ops', ' 采购', '供应链'], True, 7))
+        self.assertEqual((url, tags, rights, n), ('https://a.example/blog', ['ops', '采购', '供应链'], True, 7))
         self.assertFalse(agg.read_submission(event(rights='_No response_'))[2])
         self.assertFalse(agg.read_submission(event(rights='- [ ] 我有权发布'))[2])
         self.assertTrue(agg.read_submission(event(rights='- [X] 我有权发布'))[2])
@@ -766,7 +785,7 @@ class TestIssues(Base):
                                    '<link>https://x.example/p/1</link><pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate></item></channel></rss>', 'application/rss+xml')
         res = agg.handle_issue(event(self.site.url + '/feed.xml'), 'check')
         self.assertTrue(res['ok'])
-        self.assertEqual((res['add'], res['remove']), (['checked'], ['invalid']))
+        self.assertEqual((res['add'], res['remove']), (['checked'], ['invalid', 'duplicate']))
         self.assertIn('自动检查通过', res['comment'])
         self.assertNotIn('@everyone', res['comment'])                              # no pinging strangers from a bot comment
         self.assertNotIn('@owner', res['comment'])
@@ -776,7 +795,7 @@ class TestIssues(Base):
     def test_check_fails_with_a_reason(self):
         res = agg.handle_issue(event(self.site.url + '/nothing'), 'check')
         self.assertFalse(res['ok'])
-        self.assertEqual((res['add'], res['remove']), (['invalid'], ['checked']))
+        self.assertEqual((res['add'], res['remove']), (['invalid'], ['checked', 'duplicate']))
         self.assertIn('暂时无法收录', res['comment'])
         res = agg.handle_issue(event(self.site.url + '/feed.xml', rights='_No response_'), 'check')
         self.assertIn('我有权发布', res['comment'])
@@ -799,6 +818,72 @@ class TestIssues(Base):
         agg.approve(self.site.url + '/feed.xml')
         res = agg.handle_issue(event(self.site.url + '/feed.xml'), 'check')
         self.assertIn('已经在目录里', res['comment'])
+
+    RES = {'number': 7, 'ok': True, 'comment': 'checked **ok**', 'add': ['checked'], 'remove': ['invalid'], 'close': False}
+
+    def api(self, **statuses):
+        """The fake GitHub for issue 7 of o/r: every call succeeds unless a status is given for its name."""
+        s, base = self.site, '/api/repos/o/r'
+        os.environ['GITHUB_TOKEN'] = 'tok'
+        self.addCleanup(os.environ.pop, 'GITHUB_TOKEN', None)
+        s.put(base + '/issues/7/comments?per_page=100', json.dumps(statuses.get('comments', [])), 'application/json')
+        s.on('POST', base + '/issues/7/comments', statuses.get('post', 201), {'id': 1})
+        s.on('PATCH', base + '/issues/comments/99', statuses.get('patch', 200), {'id': 99})
+        s.on('POST', base + '/labels', statuses.get('label', 201), {})
+        s.on('POST', base + '/issues/7/labels', statuses.get('labels', 200), [])
+        s.on('DELETE', base + '/issues/7/labels/invalid', statuses.get('unlabel', 200), [])
+        s.on('PATCH', base + '/issues/7', statuses.get('close', 200), {})
+
+    def test_apply_creates_the_comment_and_sets_the_labels(self):
+        self.api()
+        self.assertEqual(agg.apply_result(self.RES, 'o/r'), [])
+        sent = {(m, p): b for m, p, b, h in self.site.calls}
+        comment = sent[('POST', '/api/repos/o/r/issues/7/comments')]['body']
+        self.assertTrue(comment.startswith(agg.BOT_MARKER) and 'checked **ok**' in comment)
+        self.assertEqual(sent[('POST', '/api/repos/o/r/issues/7/labels')], {'labels': ['checked']})
+        self.assertIn(('DELETE', '/api/repos/o/r/issues/7/labels/invalid'), sent)
+        self.assertNotIn(('PATCH', '/api/repos/o/r/issues/7'), sent)                   # not closed
+        self.assertTrue(all(h.get('Authorization') == 'Bearer tok' for _, _, _, h in self.site.calls))
+
+    def test_apply_edits_its_earlier_comment_instead_of_adding_another(self):
+        self.api(comments=[{'id': 5, 'body': 'someone else'}, {'id': 99, 'body': agg.BOT_MARKER + '\nold'}])
+        self.assertEqual(agg.apply_result({**self.RES, 'close': True}, 'o/r'), [])
+        methods = [(m, p) for m, p, b, h in self.site.calls]
+        self.assertIn(('PATCH', '/api/repos/o/r/issues/comments/99'), methods)
+        self.assertNotIn(('POST', '/api/repos/o/r/issues/7/comments'), methods)
+        self.assertIn(('PATCH', '/api/repos/o/r/issues/7'), methods)                   # closed
+        self.assertEqual([b for m, p, b, h in self.site.calls if (m, p) == ('PATCH', '/api/repos/o/r/issues/7')], [{'state': 'closed', 'state_reason': 'completed'}])
+
+    def test_apply_reports_what_failed_with_the_reason(self):
+        self.api(post=403, labels=403)
+        self.site.on('POST', '/api/repos/o/r/issues/7/comments', 403, {'message': 'Resource not accessible by integration'})
+        problems = agg.apply_result(self.RES, 'o/r')
+        self.assertTrue(any('create comment: HTTP 403 Resource not accessible by integration' in p for p in problems), problems)
+        self.assertTrue(any('add labels' in p for p in problems), problems)
+
+    def test_apply_tolerates_an_existing_label_and_a_label_that_is_not_on_the_issue(self):
+        self.api(label=422, unlabel=404)
+        self.assertEqual(agg.apply_result(self.RES, 'o/r'), [])
+
+    def test_apply_needs_a_token_and_a_repository(self):
+        with self.assertRaises(agg.Refused):
+            agg.apply_result(self.RES, 'o/r')                                             # no GITHUB_TOKEN
+        os.environ['GITHUB_TOKEN'] = 'tok'
+        try:
+            self.assertTrue(agg.apply_result(self.RES, ''))
+            self.assertTrue(agg.apply_result({**self.RES, 'number': None}, 'o/r'))
+        finally:
+            del os.environ['GITHUB_TOKEN']
+
+    def test_apply_command(self):
+        self.api()
+        path = os.path.join(self.tmp, 'result.json')
+        agg.write_json(path, self.RES)
+        os.environ['GITHUB_REPOSITORY'] = 'o/r'
+        self.addCleanup(os.environ.pop, 'GITHUB_REPOSITORY', None)
+        self.assertEqual(agg.main(['apply', '--result', path]), 0)
+        self.site.on('POST', '/api/repos/o/r/issues/7/comments', 500, {'message': 'boom'})
+        self.assertEqual(agg.main(['apply', '--result', path]), 1)                        # a failure is a failed step, not a silent one
 
     def test_cli(self):
         feed_site(self.site)
