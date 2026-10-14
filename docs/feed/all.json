@@ -9,27 +9,6 @@
   },
   "items": [
     {
-      "id": "https://job-helper.zhitree.cn/",
-      "url": "https://job-helper.zhitree.cn/",
-      "title": "BOSS直聘职位筛选与 AI 简历匹配插件 | Job-helper",
-      "content_text": "Job-helper 求职浏览器插件：在 BOSS直聘、猎聘、51job、智联招聘和 LinkedIn 高亮 JD 岗位要求，按排除词筛选职位，对照简历查看匹配报告和优化建议。支持网页免费试用。",
-      "summary": "Job-helper 求职浏览器插件：在 BOSS直聘、猎聘、51job、智联招聘和 LinkedIn 高亮 JD 岗位要求，按排除词筛选职位，对照简历查看匹配报告和优化建议。支持网页免费试用。",
-      "date_published": "2026-10-14T00:00:00Z",
-      "image": "https://job-helper.zhitree.cn/assets/job_helper_cover.png",
-      "tags": [
-        "工具"
-      ],
-      "authors": [
-        {
-          "name": "job-helper.zhitree.cn"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "link-7e6e4c96"
-      }
-    },
-    {
       "id": "https://books.zhitree.cn/tools/supplychain/",
       "url": "https://books.zhitree.cn/tools/supplychain/",
       "title": "牛鞭效应模拟",
