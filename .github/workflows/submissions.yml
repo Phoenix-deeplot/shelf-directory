@@ -1,0 +1,76 @@
+name: Submissions
+# opened / edited issue made with the "收录申请" form -> the bot checks the address and answers in the issue.
+# a maintainer adds the label "approved"            -> the address is registered, fetched, and the issue is closed.
+# The text of the issue is untrusted: it is only ever read from the event file by aggregate.py, never put into a shell command.
+on:
+  issues:
+    types: [opened, edited, labeled]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: registry
+  cancel-in-progress: false
+
+jobs:
+  check:
+    if: >-
+      (github.event.action == 'opened' || github.event.action == 'edited')
+      && github.event.issue.state == 'open'
+      && contains(github.event.issue.body, '权利确认')
+      && !contains(join(github.event.issue.labels.*.name, ','), 'listed')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check the address
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
+          NUMBER: ${{ github.event.issue.number }}
+        run: |
+          python aggregate.py issue --event "$GITHUB_EVENT_PATH" --out result.json > /dev/null
+          for l in shelf-submission checked invalid approved listed; do gh label create "$l" 2>/dev/null || true; done
+          jq -r .comment result.json > comment.md
+          gh issue comment "$NUMBER" --body-file comment.md --edit-last --create-if-none
+          for l in $(jq -r '.add[]' result.json); do gh issue edit "$NUMBER" --add-label "$l"; done
+          for l in $(jq -r '.remove[]' result.json); do gh issue edit "$NUMBER" --remove-label "$l" 2>/dev/null || true; done
+
+  approve:
+    if: >-
+      github.event.action == 'labeled'
+      && github.event.label.name == 'approved'
+      && github.event.issue.state == 'open'
+      && contains(github.event.issue.body, '权利确认')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Register, fetch, build
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python aggregate.py approve --event "$GITHUB_EVENT_PATH" --out result.json > /dev/null || true
+      - name: Commit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A registry docs
+          if git diff --cached --quiet; then echo 'nothing changed'; else git commit -m "list: issue #${{ github.event.issue.number }}" && git pull --rebase && git push; fi
+      - name: Answer in the issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMBER: ${{ github.event.issue.number }}
+        run: |
+          jq -r .comment result.json > comment.md
+          gh issue comment "$NUMBER" --body-file comment.md
+          for l in $(jq -r '.add[]' result.json); do gh issue edit "$NUMBER" --add-label "$l"; done
+          for l in $(jq -r '.remove[]' result.json); do gh issue edit "$NUMBER" --remove-label "$l" 2>/dev/null || true; done
+          if [ "$(jq -r .close result.json)" = "true" ]; then gh issue close "$NUMBER"; fi

@@ -1,0 +1,28 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · tool",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://books.zhitree.cn/tools/supplychain/",
+      "url": "https://books.zhitree.cn/tools/supplychain/",
+      "title": "牛鞭效应模拟",
+      "content_text": "以订单流、货物流和库存位置解释牛鞭效应的互动模拟。",
+      "summary": "以订单流、货物流和库存位置解释牛鞭效应的互动模拟。",
+      "date_published": "2026-10-13T00:00:00Z",
+      "tags": [],
+      "authors": [
+        {
+          "name": "个人数字图书馆"
+        }
+      ],
+      "_shelf": {
+        "type": "tool",
+        "shelf": "books-zhitree-cn"
+      }
+    }
+  ]
+}

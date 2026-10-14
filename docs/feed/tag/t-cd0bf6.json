@@ -1,0 +1,50 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #经济",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://phoenix-wu.cn//blog/subject",
+      "url": "https://phoenix-wu.cn//blog/subject",
+      "title": "Ai时代，什么专业价值权重增加",
+      "content_text": "Ai的冲击，金融、会计、工商管理、市场营销、英语、法学、电商、汉语言文学不可避免地衰落",
+      "summary": "Ai的冲击，金融、会计、工商管理、市场营销、英语、法学、电商、汉语言文学不可避免地衰落",
+      "date_published": "2026-07-24T00:00:00Z",
+      "tags": [
+        "经济"
+      ],
+      "authors": [
+        {
+          "name": "Phoenix — Blog"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "phoenix-wu-cn"
+      }
+    },
+    {
+      "id": "https://phoenix-wu.cn//blog/teaching",
+      "url": "https://phoenix-wu.cn//blog/teaching",
+      "title": "AI+经济下行，教培行业的发展",
+      "content_text": "AI+经济下行，教培行业也将出现K字型结构",
+      "summary": "AI+经济下行，教培行业也将出现K字型结构",
+      "date_published": "2026-07-24T00:00:00Z",
+      "tags": [
+        "经济"
+      ],
+      "authors": [
+        {
+          "name": "Phoenix — Blog"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "phoenix-wu-cn"
+      }
+    }
+  ]
+}

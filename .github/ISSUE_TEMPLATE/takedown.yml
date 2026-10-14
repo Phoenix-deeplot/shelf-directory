@@ -1,0 +1,21 @@
+name: 下架 / Takedown
+description: 请求把一个来源从公共目录里移除 / Ask for a source to be removed
+title: "[下架] "
+labels: ["takedown"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        目录里只有标题、摘要、封面图地址和回到原站的链接。你可以随时要求移除；移除一般在一两天内完成。
+        The directory lists only titles, short summaries, cover image addresses and links back. You can ask for removal at any time.
+  - type: input
+    id: what
+    attributes:
+      label: 要移除的网址（目录里显示的，或你的网站）
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 原因（可选）

@@ -1,0 +1,41 @@
+name: 收录申请 / Submit
+description: 把一个网址加入公共目录：博客、文章、GitHub 仓库、Gist 都行 / Add an address to the directory
+title: "[收录] "
+labels: ["shelf-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **贴一个网址就够了。** 机器人会自动识别它是什么，并在下面回复检查结果，通常一两分钟。维护者看过之后会收录。
+        **One address is enough.** A bot recognises it and replies here; a maintainer then reviews it.
+
+        | 你贴的 | 收录什么 |
+        |---|---|
+        | 博客或网站首页、订阅源（RSS / Atom / JSON Feed）、YouTube 频道 | 整个网站，之后每天自动更新 |
+        | `github.com/用户/仓库` 或其中的文件夹 `…/tree/main/docs` | 仓库里的 .md / .html / .pdf，每天自动更新 |
+        | 单篇文章、视频、`.md` 文件、Gist | 这一篇 |
+
+        只收录标题、一句摘要、封面图地址和回到原站的链接，不复制正文。
+        没有地方发文章？去 https://gist.github.com 新建一个 Gist，把 Markdown 粘进去，再把 Gist 的网址贴在这里。
+  - type: input
+    id: url
+    attributes:
+      label: 网址
+      description: 复制浏览器地址栏里的网址 / The address of the site, post or repository
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: tags
+    attributes:
+      label: 标签（可选）
+      description: 用逗号分隔，最多 5 个。不填也可以，会从来源自动推断。
+  - type: dropdown
+    id: rights
+    attributes:
+      label: 权利确认
+      description: 请确认你是这些内容的作者或所有者，或已获得授权 / Confirm you own this content or have permission
+      options:
+        - 我有权发布这些内容 / I have the right to publish this content
+    validations:
+      required: true

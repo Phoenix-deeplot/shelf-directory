@@ -1,0 +1,40 @@
+name: Daily
+# Reads every registered source, rebuilds docs/ (directory.json, feeds, shelves.opml) and commits what changed.
+# Also runnable by hand: Actions > Daily > Run workflow.
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: registry
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch and build
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python aggregate.py run
+      - name: Make sure the labels exist
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for l in shelf-submission checked invalid approved listed takedown; do gh label create "$l" 2>/dev/null || true; done
+      - name: Commit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A registry docs
+          if git diff --cached --quiet; then echo 'nothing changed'; else git commit -m "daily: refresh the directory" && git pull --rebase && git push; fi
