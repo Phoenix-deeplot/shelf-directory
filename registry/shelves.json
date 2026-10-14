@@ -17,6 +17,19 @@
    "name": "Phoenix — Blog",
    "tags": [],
    "added": "2026-10-14"
+  },
+  {
+   "id": "link-7e6e4c96",
+   "kind": "link",
+   "sub": "page",
+   "url": "https://job-helper.zhitree.cn/",
+   "source": "https://job-helper.zhitree.cn/",
+   "name": "job-helper.zhitree.cn",
+   "tags": [
+    "工具"
+   ],
+   "added": "2026-10-14",
+   "issue": 1
   }
  ]
 }
