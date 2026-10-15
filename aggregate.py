@@ -31,6 +31,7 @@ import shutil
 import socket
 import ssl
 import sys
+import time
 import unicodedata
 import urllib.error
 import urllib.parse
@@ -49,6 +50,7 @@ UA_TOKEN = 'ShelfDirectoryBot'
 UA = UA_TOKEN + '/1 (link directory; reads public feeds and page metadata only)'
 MAX_BYTES = 2 * 1024 * 1024        # one response
 TIMEOUT = 15                       # seconds, per network operation
+DEADLINE = None                    # time.monotonic() value by which all reading must be over (None: no limit); set by the submit function
 MAX_REDIRECTS = 5
 MAX_ITEMS = 500                    # items read from one source
 FEED_KEEP = 50                     # newest items kept from a feed
@@ -472,6 +474,12 @@ def decode(body, headers=None):
 def fetch(url, accept='*/*', max_bytes=MAX_BYTES, headers=None, truncate=False):
     """-> (final address, response headers in lower case, body). Raises Refused, or Unchanged on 304."""
     check_url(url)
+    timeout = TIMEOUT
+    if DEADLINE is not None:                                    # a caller with a time limit of its own (the submit function): the whole reading must end by then
+        left = DEADLINE - time.monotonic()
+        if left <= 0:
+            raise Refused('读取这个网站花的时间太长了', 'Reading this site took too long')
+        timeout = min(TIMEOUT, left)
     req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept': accept, 'Accept-Encoding': 'identity', **(headers or {})})
     handlers = [_Redirect]
     if ALLOW_LOCAL:
@@ -479,7 +487,7 @@ def fetch(url, accept='*/*', max_bytes=MAX_BYTES, headers=None, truncate=False):
     elif not urllib.request.getproxies().get('https'):          # no proxy (the Action, a Vercel function): connect only to the address that was checked
         handlers.append(_PinnedHTTPSHandler())
     try:
-        with urllib.request.build_opener(*handlers).open(req, timeout=TIMEOUT) as r:
+        with urllib.request.build_opener(*handlers).open(req, timeout=timeout) as r:
             body = r.read(max_bytes + 1)
             if len(body) > max_bytes:
                 if not truncate:

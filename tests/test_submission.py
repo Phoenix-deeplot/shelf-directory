@@ -294,6 +294,20 @@ class TestCheck(SubBase):
         self.send({'kind': 'check', 'what': 'url', 'url': 'https://blog.example.org/'})
         self.assertEqual(seen, [(7, 6)])
 
+    def test_the_whole_read_has_a_deadline_and_it_is_given_back(self):
+        sub.probe_for_check = self.real_probe
+        seen = []
+        real = agg.probe
+        agg.probe = lambda url: (seen.append(agg.DEADLINE - time.monotonic()), canned_probe())[1]
+        self.addCleanup(setattr, agg, 'probe', real)
+        self.send({'kind': 'check', 'what': 'url', 'url': 'https://blog.example.org/'})
+        self.assertTrue(0 < seen[0] <= sub.CHECK_SECONDS)
+        self.assertIsNone(agg.DEADLINE)
+        agg.DEADLINE = time.monotonic() - 1                                                                           # past the deadline: no request is made at all
+        self.addCleanup(setattr, agg, 'DEADLINE', None)
+        with self.assertRaises(agg.Refused):
+            agg.fetch(self.site.url + '/dir/directory.json')
+
     def test_a_post_is_checked_with_the_same_rules(self):
         st, body = self.send({'kind': 'check', 'what': 'post', 'title': '读者的文章', 'author': '小明', 'tags': ['笔记'], 'body': POST_BODY})
         self.assertEqual((st, body['result']['what'], body['result']['title'], body['result']['links'], body['result']['domains']), (200, 'post', '读者的文章', 1, ['example.com']))

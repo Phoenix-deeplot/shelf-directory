@@ -220,7 +220,8 @@ def submit_post(payload, cfg):
     return sub, info, issues
 
 
-CHECK_LIMIT = (20, 600)             # checks (they fetch) per sender in 10 minutes, counted per warm instance: a soft limit, the real ones are Vercel's
+CHECK_SECONDS = 20          # of the 30 seconds a Vercel function here may run (vercel.json maxDuration): the rest is for GitHub and the answer
+CHECK_LIMIT = (20, 600)           # checks (they fetch) per sender in 10 minutes, counted per warm instance: a soft limit, the real ones are Vercel's
 _CHECKS = {}
 
 
@@ -237,14 +238,15 @@ def soft_limit(who, now):
 
 def probe_for_check(url):
     """Read the address with the same code the Action uses (https only, public addresses only, pinned connection, size and time limits), a little tighter."""
-    old = (agg.TIMEOUT, agg.REPO_READ)
+    old = (agg.TIMEOUT, agg.REPO_READ, agg.DEADLINE)
     agg.TIMEOUT, agg.REPO_READ = 7, 6                                       # a function has seconds, not minutes
+    agg.DEADLINE = time.monotonic() + CHECK_SECONDS                         # and all of the reading together must end before the platform cuts the function off
     try:
         return agg.probe(url)
     except agg.Refused as e:
         raise Reply(422, 'unreachable', str(e), e.en)
     finally:
-        agg.TIMEOUT, agg.REPO_READ = old
+        agg.TIMEOUT, agg.REPO_READ, agg.DEADLINE = old
 
 
 def summarize_probe(r):
