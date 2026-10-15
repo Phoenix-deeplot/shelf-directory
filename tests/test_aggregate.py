@@ -503,16 +503,34 @@ class TestDiscover(Base):
     def test_robots_txt_is_respected_for_pages_not_for_feeds(self):
         self.site.put('/robots.txt', 'User-agent: *\nDisallow: /private/\n', 'text/plain')
         self.site.put('/private/post', PAGE % {'base': self.site.url})
-        with self.assertRaises(agg.Refused) as cm:
-            agg.probe(self.site.url + '/private/post')
-        self.assertIn('robots', str(cm.exception))
+        r = agg.probe(self.site.url + '/private/post')                          # a page that is not read is still a link: listed unread, for the maintainer to look at
+        self.assertTrue(r['unread'])
+        self.assertIn('robots', r['warnings'][0][0])
+        self.assertFalse(any('/private/post' in p for p, h in self.site.hits))   # and it really was not read
         self.site.put('/private/feed.xml', RSS, 'application/rss+xml')
         self.assertEqual(agg.probe(self.site.url + '/private/feed.xml')['entry']['kind'], 'feed')
 
     def test_page_without_title(self):
         self.site.put('/x/y', '<html><body>login please</body></html>')
-        with self.assertRaises(agg.Refused):
-            agg.probe(self.site.url + '/x/y')
+        r = agg.probe(self.site.url + '/x/y')                                   # nothing to read in it (a script, a login): the link can still be listed, as it is
+        self.assertTrue(r['unread'])
+        self.assertEqual(r['items'][0]['title'], 'y')
+
+    def test_a_dead_page_or_an_unsafe_address_is_not_listed_unread(self):
+        with self.assertRaises(agg.Refused):                                    # 404: the link is bad
+            agg.probe(self.site.url + '/nothing-here')
+        agg.ALLOW_LOCAL = False
+        self.addCleanup(setattr, agg, 'ALLOW_LOCAL', True)
+        for url in ('https://127.0.0.1/x', 'https://localhost/x', 'https://user:pw@blog.example.org/x'):       # nothing here is asked of the network: these are refused by what they are
+            with self.assertRaises(agg.Refused):
+                agg.probe(url)
+
+    def test_soft_failures_are_told_from_hard_ones(self):
+        soft = [agg.Refused('网站返回了错误（HTTP %d）' % c, '', c) for c in (401, 403, 429, 500, 503)] + [agg.Refused('连不上这个网站：timed out'), agg.Refused('这个网站的 robots.txt 不允许读取这个页面'),
+                agg.Refused('读不到这个页面的标题（可能需要登录）')]
+        hard = [agg.Refused('网站返回了错误（HTTP %d）' % c, '', c) for c in (404, 410)] + [agg.Refused('不允许访问内网或本机地址'), agg.Refused('找不到这个网站（域名无法解析）'), agg.Refused('这个网站不在收录范围内')]
+        self.assertTrue(all(agg.soft_failure(e) for e in soft))
+        self.assertFalse(any(agg.soft_failure(e) for e in hard))
 
     def test_title_and_feed_link_after_the_body_starts(self):
         pad = '<script>var x = "%s";</script>' % ('a' * 500000)           # a big site: the tags come after a lot of script, and after <body>
@@ -853,7 +871,7 @@ class TestIssues(Base):
                                    '<link>https://x.example/p/1</link><pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate></item></channel></rss>', 'application/rss+xml')
         res = agg.handle_issue(event(self.site.url + '/feed.xml'), 'check')
         self.assertTrue(res['ok'])
-        self.assertEqual((res['add'], res['remove']), (['checked'], ['invalid', 'duplicate']))
+        self.assertEqual((res['add'], res['remove']), (['checked'], ['invalid', 'duplicate', 'similar']))
         self.assertIn('自动检查通过', res['comment'])
         self.assertNotIn('@everyone', res['comment'])                              # no pinging strangers from a bot comment
         self.assertNotIn('@owner', res['comment'])
@@ -863,7 +881,7 @@ class TestIssues(Base):
     def test_check_fails_with_a_reason(self):
         res = agg.handle_issue(event(self.site.url + '/nothing'), 'check')
         self.assertFalse(res['ok'])
-        self.assertEqual((res['add'], res['remove']), (['invalid'], ['checked', 'duplicate']))
+        self.assertEqual((res['add'], res['remove']), (['invalid'], ['checked', 'duplicate', 'similar']))
         self.assertIn('暂时无法收录', res['comment'])
         res = agg.handle_issue(event(self.site.url + '/feed.xml', rights='_No response_'), 'check')
         self.assertIn('我有权发布', res['comment'])

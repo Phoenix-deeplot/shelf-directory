@@ -165,7 +165,7 @@ class TestPosts(Base):
     def test_check_describes_the_post(self):
         res = agg.handle_issue(post_event(), 'check')
         self.assertTrue(res['ok'], res['comment'])
-        self.assertEqual((res['add'], res['remove']), (['checked'], ['invalid', 'duplicate']))
+        self.assertEqual((res['add'], res['remove']), (['checked'], ['invalid', 'duplicate', 'similar']))
         self.assertIn('读者的文章', res['comment'])
         self.assertIn('example.com', res['comment'])
         self.assertFalse(os.path.exists(os.path.join(self.tmp, 'posts')))                    # nothing is written before the approval

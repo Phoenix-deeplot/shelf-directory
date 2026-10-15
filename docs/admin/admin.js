@@ -51,16 +51,17 @@ function markdown(md){
 function doc(md){ const d = el('div', { class: 'doc' }); d.innerHTML = markdown(md); return d; }       // sanitized above
 
 /* the same reading of an issue form as aggregate.py: only the heading of a known field that has not come yet starts a field */
-const FIELDS = [['url', /^(网址|url|address|link)/i], ['title', /^(标题|title)/i], ['author', /^(作者|author)/i], ['tags', /^(标签|tags?)/i], ['body', /^(正文|body|content)/i], ['rights', /^(权利|rights?)/i]];
+const FIELDS = [['url', /^(网址|url|address|link)/i], ['title', /^(标题|title)/i], ['author', /^(作者|author)/i], ['tags', /^(标签|tags?)/i], ['summary', /^(摘要|summary)/i], ['body', /^(正文|body|content)/i], ['rights', /^(权利|rights?)/i]];
 function parseIssue(body){
   const f = {}; let cur = null; const seen = new Set();
   for(const line of String(body || '').replace(/\r/g, '').split('\n')){
-    const m = line.match(/^###\s+(.+?)\s*$/); const key = m ? (FIELDS.find(([k, re]) => !seen.has(k) && re.test(m[1])) || [])[0] : null;
+    const m = line.match(/^###\s+(.+?)\s*$/); const key = m ? (FIELDS.find(([k, re]) => !seen.has(k) && (cur !== 'body' || k === 'rights') && re.test(m[1])) || [])[0] : null;   // in a post's text only the confirmation ends the text
     if(key){ cur = key; seen.add(key); f[key] = []; } else if(cur) f[cur].push(line);
   }
   const out = {}; for(const k in f){ const v = f[k].join('\n').trim().replace(/​/g, ''); out[k] = /^_?no response_?$/i.test(v) ? '' : v; }
-  out.kind = out.title && out.body ? 'post' : 'shelf';
+  out.kind = out.title && out.body ? 'post' : out.title && out.summary ? 'record' : 'shelf';       // a card: a title and a summary, no text
   if(out.kind === 'shelf'){ const m = (out.url || body || '').match(/https?:\/\/[^\s<>"')\]]+/); out.url = m ? m[0].replace(/[.,;:!?，。；]+$/, '') : (out.url || ''); }
+  else if(out.url){ const m = out.url.match(/https?:\/\/[^\s<>"')\]]+/); out.url = m ? m[0] : ''; }
   return out;
 }
 
@@ -80,16 +81,20 @@ async function botComment(n){
 }
 function pendingCard(issue){
   const p = parseIssue(issue.body), labels = labelsOf(issue), status = el('p', { class: 'msg', role: 'status' });
-  const head = p.kind === 'post' ? (p.title || issue.title) : (p.url || issue.title);
+  const head = p.kind === 'shelf' ? (p.url || issue.title) : (p.title || issue.title);
   const viaWeb = /<!--\s*via:web/.test(issue.body || '');                      // written by the submit function (a visitor without GitHub) or made with the GitHub form
-  const badges = [el('span', { class: 'badge ' + (p.kind === 'post' ? 'post' : ''), text: p.kind === 'post' ? '个人文章' : '网址' }), el('span', { class: 'badge', text: viaWeb ? '网页提交' : 'GitHub 表单' })];
-  for(const l of ['checked', 'invalid', 'duplicate']) if(labels.includes(l)) badges.push(el('span', { class: 'badge ' + l, text: { checked: '检查通过', invalid: '检查未通过', duplicate: '重复' }[l] }));
-  if(!['checked', 'invalid', 'duplicate', 'approved'].some(l => labels.includes(l))) badges.push(el('span', { class: 'badge', title: '机器人还没有检查这个申请（Action 还在排队，或没有触发：看仓库的 Actions 页）', text: '尚未检查' }));
+  const badges = [el('span', { class: 'badge ' + (p.kind === 'shelf' ? '' : 'post'), text: { post: '个人文章', record: '资料卡', shelf: '网址' }[p.kind] }), el('span', { class: 'badge', text: viaWeb ? '网页提交' : 'GitHub 表单' })];
+  for(const l of ['checked', 'invalid', 'duplicate', 'similar']) if(labels.includes(l)) badges.push(el('span', { class: 'badge ' + (l === 'similar' ? 'duplicate' : l), title: l === 'similar' ? '和目录里已有的很像（标题、作者或摘要）。如果确实不同，仍然可以通过。' : '', text: { checked: '检查通过', invalid: '检查未通过', duplicate: '重复', similar: '疑似重复' }[l] }));
+  if(!['checked', 'invalid', 'duplicate', 'similar', 'approved'].some(l => labels.includes(l))) badges.push(el('span', { class: 'badge', title: '机器人还没有检查这个申请（Action 还在排队，或没有触发：看仓库的 Actions 页）', text: '尚未检查' }));
   if(labels.includes('approved')) badges.push(el('span', { class: 'badge', text: '已批准，处理中' }));
   const body = el('div');
   if(p.kind === 'shelf'){
     body.append(el('p', { class: 'url' }, p.url ? el('a', { href: p.url, target: '_blank', rel: 'nofollow noopener noreferrer', text: p.url }) : '（没有找到网址）'));
     if(p.tags) body.append(el('p', { class: 'muted', text: '标签：' + p.tags }));
+  }else if(p.kind === 'record'){
+    body.append(el('p', { class: 'muted', text: [p.author ? '作者：' + p.author : '作者：（未填）', p.tags ? '标签：' + p.tags : ''].filter(Boolean).join(' · ') }));
+    body.append(el('p', { text: p.summary }));
+    if(p.url) body.append(el('p', { class: 'url' }, el('a', { href: p.url, target: '_blank', rel: 'nofollow noopener noreferrer', text: p.url })));
   }else{
     body.append(el('p', { class: 'muted', text: [p.author ? '作者：' + p.author : '', p.tags ? '标签：' + p.tags : '', p.body.length + ' 个字符'].filter(Boolean).join(' · ') }));
     body.append(el('p', { text: p.body.replace(/\s+/g, ' ').slice(0, 220) + (p.body.length > 220 ? '…' : '') }));

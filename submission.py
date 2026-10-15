@@ -30,6 +30,7 @@ _CACHE = {}
 
 RIGHTS_URL = '我有权发布这些内容 / I have the right to publish this content'
 RIGHTS_POST = '我是作者并同意公开发布 / I am the author and agree to publish'
+RIGHTS_RECORD = '我有权公开这些信息 / I have the right to publish this information'
 
 
 class Reply(Exception):
@@ -124,7 +125,7 @@ def ip_hash(ip, salt):
 
 def neutralize(text):
     """A line of the visitor's text that looks like a heading of the issue form would cut the form in the wrong place."""
-    return re.sub(r'(?im)^(###)(\s+(?:标题|作者|标签|正文|权利|网址|title|author|tags?|body|content|rights?|url|address|link))', '\\1\u200b\\2', str(text))
+    return re.sub(r'(?im)^(###)(\s+(?:标题|作者|标签|摘要|正文|权利|网址|title|author|tags?|summary|body|content|rights?|url|address|link))', '\\1\u200b\\2', str(text))
 
 
 def _created_within(issue, seconds, now):
@@ -142,6 +143,39 @@ def url_issue(url, tags, who):
 def post_issue(sub, who):
     return ('### 标题\n\n%s\n\n### 作者（可选）\n\n%s\n\n### 标签（可选）\n\n%s\n\n### 正文\n\n%s\n\n### 权利确认\n\n%s\n\n<!-- via:web ip:%s -->\n'
             % (neutralize(sub['title']), neutralize(sub['author']) or '_No response_', neutralize(', '.join(sub['tags'])) or '_No response_', neutralize(sub['body']), RIGHTS_POST, who))
+
+
+def record_issue(sub, who):
+    return ('### 标题\n\n%s\n\n### 作者（可选）\n\n%s\n\n### 标签（可选）\n\n%s\n\n### 摘要\n\n%s\n\n### 网址（可选）\n\n%s\n\n### 权利确认\n\n%s\n\n<!-- via:web ip:%s -->\n'
+            % (neutralize(sub['title']), neutralize(sub['author']) or '_No response_', neutralize(', '.join(sub['tags'])) or '_No response_', neutralize(sub['summary']),
+               sub['url'] or '_No response_', RIGHTS_RECORD, who))
+
+
+def directory_pool(directory, issues=()):
+    """What the directory has, as entries to compare a new one with: from the published directory.json, and from the submissions that are waiting
+    (a waiting one has the id '#<number>')."""
+    pool = [{'level': 'shelf', 'id': str(s.get('id')), 'title': s.get('name') or '', 'author': '', 'summary': s.get('description') or ''}
+            for s in directory.get('shelves') or [] if isinstance(s, dict)]
+    pool += [{'level': 'item', 'id': str(i.get('shelf') or ''), 'title': i.get('title') or '', 'author': i.get('author') or '', 'summary': i.get('summary') or ''}
+             for i in directory.get('items') or [] if isinstance(i, dict)]
+    for issue in issues:
+        sub = agg.parse_issue({'issue': issue})
+        if sub['kind'] in ('post', 'record'):
+            text = sub['summary'] if sub['kind'] == 'record' else agg.clean(agg.mdsafe.plain_text(sub['body']), agg.SUMMARY)
+            pool.append({'level': 'item', 'id': '#%s' % issue.get('number'), 'title': sub['title'], 'author': sub['author'], 'summary': text})
+    return pool
+
+
+def refuse_similar(cand, pool, level, what):
+    """409 when the directory (or the waiting submissions) already has what `cand` looks like the same as."""
+    found = agg.find_similar(cand, pool, level)
+    if not found:
+        return
+    why, sid, stitle = found
+    zh, en = agg.SIMILAR_TEXT[why]
+    if sid.startswith('#'):
+        raise Reply(409, 'pending', '有一个正在审核的申请和这个很像（%s）' % zh, 'A submission that is waiting for review looks like this one (%s)' % en)
+    raise Reply(409, 'similar', '目录里已经有很像的了：《%s》（%s）' % (stitle, zh), 'The directory has something very like it: “%s” (%s)' % (stitle, en))
 
 
 def listed_in(directory, entry_url, classified, registry=None):
@@ -177,8 +211,11 @@ def check_common(payload, cfg):
 
 
 def submit_url(payload, cfg, who, now):
+    raw = str(payload.get('url') or '').strip()
+    if '#read/' in raw:                                                     # the address bar of someone's reader: the part after "#" never reaches a server, so it would only be read as the site's home page
+        raise Reply(400, 'reader', '这是阅读器里的地址，别人打不开，不是公开网址。请用书架卡片上的地球图标申请，或贴这个内容真正的网址',
+                    'This is a reader address, not a public one. Use the globe on the card of the item, or give the real address of the content')
     try:
-        raw = str(payload.get('url') or '').strip()
         url = agg.normalize_input('https://' + raw[7:] if raw.lower().startswith('http://') else raw)      # always the secure address of the same page
         agg.check_url_syntax(url)
     except agg.Refused as e:
@@ -217,6 +254,32 @@ def submit_post(payload, cfg):
         other = agg.parse_issue({'issue': i})
         if other['kind'] == 'post' and other['body'] and agg.post_hash(other['body']) == h:
             raise Reply(409, 'pending', '这篇文章已经提交过了，正在审核', 'This text is waiting for review already')
+    refuse_similar({'title': info['title'], 'author': info['author'], 'summary': info['excerpt']}, directory_pool(load_directory(cfg), issues), 'item', 'post')
+    return sub, info, issues
+
+
+def submit_record(payload, cfg):
+    """A catalogue card (title, author, summary; an address if there is one). -> (sub, info, open issues)."""
+    sub = {'title': agg.clean(payload.get('title')), 'author': agg.clean(payload.get('author')), 'summary': agg.clean(payload.get('summary')), 'url': agg.clean(payload.get('url')),
+           'tags': agg.norm_tags(payload.get('tags') if isinstance(payload.get('tags'), list) else str(payload.get('tags') or '').replace('，', ',').split(','), 5)}
+    if '#read/' in sub['url']:
+        raise Reply(400, 'reader', '这是阅读器里的地址，不是公开网址：这一栏可以留空', 'This is a reader address, not a public one: leave the address empty')
+    try:
+        info = agg.check_record(sub)                                          # sizes, blocked words, a safe address, and the rules the Action applies
+    except agg.Refused as e:
+        raise Reply(400, 'record', str(e), e.en)
+    if agg.key_hash(info['key']) in load_rejected(cfg):
+        raise Reply(409, 'rejected', '这张资料卡暂时不能收录', 'This card cannot be accepted')
+    directory, issues = load_directory(cfg), open_submissions(cfg)
+    refuse_similar({'title': info['title'], 'author': info['author'], 'summary': info['summary']}, directory_pool(directory, issues), 'item', 'record')
+    if info['url']:                                                           # with an address of its own it is also a question of that address
+        key = agg.url_key(info['url'])
+        if listed_in(directory, info['url'], agg.classify(info['url']), load_registry_live(cfg)):
+            raise Reply(409, 'listed', '这个网址已经在目录里了', 'This address is in the directory already')
+        for i in issues:
+            other = agg.parse_issue({'issue': i})
+            if other['url'] and agg.url_key(other['url']) == key:
+                raise Reply(409, 'pending', '这个网址已经提交过了，正在审核', 'This address is waiting for review already')
     return sub, info, issues
 
 
@@ -256,7 +319,11 @@ def summarize_probe(r):
     return {'what': 'url', 'kind_zh': zh, 'kind_en': en, 'name': s.get('name', ''), 'source': e.get('source') or e.get('url', ''), 'found': len(r['items']), 'lang': s.get('lang', ''),
             'description': s.get('description', ''), 'license': s.get('license', ''), 'tags': tags,
             'latest': [{'title': i['title'], 'url': i['url'], 'date': i['date'], 'type': i['type']} for i in sorted(r['items'], key=lambda i: i['date'], reverse=True)[:5]],
-            'warnings': [list(w) for w in r.get('warnings', [])]}
+            'warnings': [list(w) for w in r.get('warnings', [])], 'unread': bool(r.get('unread'))}
+
+
+def summarize_record(info):
+    return {'what': 'record', 'title': info['title'], 'author': info['author'], 'tags': info['tags'], 'summary': info['summary'], 'url': info['url'], 'lang': info['lang'], 'warnings': []}
 
 
 def summarize_post(info):
@@ -284,10 +351,16 @@ def handle(payload, ip, env, now=None):
                 if r.get('duplicate'):                                      # the copy of the registry that came with this deployment knows it too
                     zh, en = agg.DUPLICATE_TEXT[r['duplicate'][0]]
                     raise Reply(409, 'listed', zh % r['duplicate'][1], en % r['duplicate'][1])
+                if not r.get('unread'):                                     # what was read is compared with what the directory has (an address that could not be read has only its guessed title)
+                    cand, level = agg.candidate_of(r)
+                    refuse_similar(cand, directory_pool(load_directory(cfg), issues), level, 'url')
                 return 200, {'ok': True, 'status': 'checked', 'result': summarize_probe(r)}
             if payload.get('what') == 'post':
                 sub, info, issues = submit_post(payload, cfg)
                 return 200, {'ok': True, 'status': 'checked', 'result': summarize_post(info)}
+            if payload.get('what') == 'record':
+                sub, info, issues = submit_record(payload, cfg)
+                return 200, {'ok': True, 'status': 'checked', 'result': summarize_record(info)}
             raise Reply(400, 'request', '请求格式不对', 'Bad request')
         check_common(payload, cfg)
         kind = payload.get('kind')
@@ -295,6 +368,8 @@ def handle(payload, ip, env, now=None):
             url, c, tags, issues = submit_url(payload, cfg, who, now)
         elif kind == 'post':
             sub, info, issues = submit_post(payload, cfg)
+        elif kind == 'record':
+            sub, info, issues = submit_record(payload, cfg)
         else:
             raise Reply(400, 'request', '请求格式不对', 'Bad request')
         if len(issues) >= MAX_OPEN:
@@ -303,6 +378,8 @@ def handle(payload, ip, env, now=None):
             raise Reply(429, 'rate', '今天提交得太多了，请明天再试', 'Too many submissions today; please try again tomorrow')
         if kind == 'url':
             title, body, labels = ('[收录] ' + urllib.parse.urlsplit(url).hostname + urllib.parse.urlsplit(url).path)[:80], url_issue(url, tags, who), ['shelf-submission']
+        elif kind == 'record':
+            title, body, labels = ('[资料卡] ' + sub['title'])[:80], record_issue(info, who), ['post-submission']
         else:
             title, body, labels = ('[投稿] ' + sub['title'])[:80], post_issue(sub, who), ['post-submission']
         if len(body) > ISSUE_MAX:
@@ -310,7 +387,7 @@ def handle(payload, ip, env, now=None):
         st, data = agg.gh_call('POST', '/repos/%s/issues' % cfg['repo'], {'title': title, 'body': body, 'labels': labels}, token=cfg['token'])
         if st not in (200, 201):
             raise Reply(502, 'github', '暂时连不上审核系统，请稍后再试', 'The review system cannot be reached; try again later')
-        return 200, {'ok': True, 'status': 'queued', 'kind': c['kind'] if kind == 'url' else 'post'}
+        return 200, {'ok': True, 'status': 'queued', 'kind': c['kind'] if kind == 'url' else kind}
     except Reply as r:
         return r.status, r.body()
     except agg.Refused as e:                                                 # GitHub could not be reached at all

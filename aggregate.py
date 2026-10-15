@@ -67,7 +67,7 @@ GITHUB_API = 'https://api.github.com'
 GITHUB_RAW = 'https://raw.githubusercontent.com'
 
 PARSER = 2                         # raise it whenever what is read from a source changes: snapshots of older rules are then read again, not "not modified"
-TYPES = ('article', 'note', 'video', 'audio', 'pdf', 'tool')
+TYPES = ('article', 'note', 'video', 'audio', 'pdf', 'tool', 'book')
 VIDEO_HOSTS = ('youtube.com', 'youtu.be', 'bilibili.com', 'vimeo.com')
 COMMON_FEEDS = ('/feed.xml', '/atom.xml', '/rss.xml', '/index.xml', '/feed', '/rss', '/feed.json')
 REPO_EXT = ('.md', '.markdown', '.html', '.htm', '.pdf')
@@ -1211,7 +1211,8 @@ def discover(raw):
     if home or disallowed:
         linked = page['feeds'] if page else []
         tries = linked + [urllib.parse.urljoin(final, c) for c in COMMON_FEEDS if not linked]
-        seen, failed = set(), []
+        seen, failed, shared = set(), [], ''
+        sub_dir = bool(urllib.parse.urlsplit(final).path.strip('/'))              # a folder of a site (example.com/blog/), not the site itself
         for f in tries[:7]:
             if f in seen:
                 continue
@@ -1223,12 +1224,18 @@ def discover(raw):
                     failed.append((f, str(ex)))
                 continue
             if sniff(fp[1], fp[2]) != 'other':
+                if sub_dir and find_entry(load_registry(), {'kind': 'feed', 'url': url, 'source': fp[0]}):
+                    shared = fp[0]                                                 # the feed of the whole site, which is listed: this folder is judged as a link of its own
+                    break
                 return {'kind': 'feed', 'url': url, 'source': fp[0]}, fp, []
             if f in linked:
                 failed.append((f, '不是订阅源'))
-        if disallowed:
+        if shared:
+            warnings.append(('这个目录用的是整个网站的订阅源（%s），而这个网站已经收录了，所以只把这个地址作为一个链接收录' % shared,
+                             'This folder uses the feed of the whole site (%s), which is listed already, so only this address is listed, as a link' % shared))
+        elif disallowed:
             raise Refused('这个网站的 robots.txt 不允许读取这个页面，也没有找到订阅源。可以改贴它的订阅源（RSS / Atom）地址', 'robots.txt does not allow reading this page and no feed was found; give the feed address instead')
-        if failed:
+        elif failed:
             warnings.append(('找到了订阅源（%s）但读取失败：%s。只收录这一个页面' % failed[0], 'A feed was found (%s) but could not be read: %s. Only this page is listed' % failed[0]))
         else:
             warnings.append(('没有找到这个网站的订阅源，只收录这一个页面', 'No feed found for this site; only this page is listed'))
@@ -1321,6 +1328,104 @@ def find_duplicate(entry, items):
     return None
 
 
+# ======================================================================= the same thing under another address: title, author, summary
+SIMILAR_SUMMARY, SIMILAR_SUMMARY_LOOSE, MIN_SUMMARY, SUMMARY_COMPARED = 0.8, 0.4, 20, 200
+GENERIC_TITLES = {'home', 'index', 'readme', 'about', 'blog', 'untitled', 'introduction', '首页', '主页', '博客', '关于', '无标题', '简介'}
+SIMILAR_TEXT = {'summary': ('摘要几乎一样', 'the summary is almost the same'), 'title': ('标题和作者相同', 'the title and the author are the same')}
+
+
+def norm_words(s):
+    """Letters and digits only, lower case, full-width forms folded: what is left when spacing, punctuation and brackets are ignored."""
+    return re.sub(r'[\W_]+', '', unicodedata.normalize('NFKC', str(s or '')).lower())
+
+
+def summary_similarity(a, b):
+    """0..1: how much of the opening of two summaries is the same (overlap of 3-character pieces). 0 when either is too short to say anything."""
+    a, b = (norm_words(clean(x, SUMMARY))[:SUMMARY_COMPARED] for x in (a, b))      # the directory keeps 160 characters of a summary: both sides are cut the same way first
+    if len(a) < MIN_SUMMARY or len(b) < MIN_SUMMARY:
+        return 0.0
+    sa, sb = {a[i:i + 3] for i in range(len(a) - 2)}, {b[i:i + 3] for i in range(len(b) - 2)}
+    return len(sa & sb) / len(sa | sb)
+
+
+def similar_to(a, b):
+    """Are two entries (dicts with title, author, summary) the same thing, kept under two addresses? -> '' or 'summary' / 'title'.
+    A summary that is almost the same is enough. The same title is enough when the authors are the same (or one is unknown and the summaries
+    do not speak against it); a title that says nothing (Home, README) never is, and neither is one with a different author."""
+    sim = summary_similarity(a.get('summary'), b.get('summary'))
+    if sim >= SIMILAR_SUMMARY:
+        return 'summary'
+    ta = norm_words(a.get('title'))
+    if len(ta) >= 4 and ta == norm_words(b.get('title')) and ta not in GENERIC_TITLES:
+        aa, ab = norm_words(a.get('author')), norm_words(b.get('author'))
+        if aa and ab:
+            return 'title' if aa == ab else ''
+        both = len(norm_words(a.get('summary'))) >= MIN_SUMMARY and len(norm_words(b.get('summary'))) >= MIN_SUMMARY
+        return 'title' if sim >= SIMILAR_SUMMARY_LOOSE or not both else ''
+    return ''
+
+
+def find_similar(cand, pool, level=''):
+    """The first entry of `pool` (dicts: id, title, author, summary, level 'shelf' or 'item') that `cand` repeats. -> (reason, id, title) or None."""
+    for e in pool:
+        if level and e.get('level') != level:
+            continue
+        why = similar_to(cand, e)
+        if why:
+            return why, str(e.get('id') or ''), str(e.get('title') or '')
+    return None
+
+
+def registry_pool():
+    """Everything this directory has, as entries to compare with: each shelf (name, about), the items read from them, hosted posts and records."""
+    pool = []
+    for e in load_registry()['shelves']:
+        snap = load_snapshot(e['id']) or {}
+        sh = snap.get('shelf') or {}
+        pool.append({'level': 'shelf', 'id': e['id'], 'title': sh.get('name') or e.get('name') or '', 'author': '', 'summary': sh.get('description') or ''})
+        pool += [{'level': 'item', 'id': e['id'], 'title': i.get('title') or '', 'author': i.get('author') or '', 'summary': i.get('summary') or ''} for i in snap.get('items') or []]
+    pool += [{'level': 'item', 'id': 'post:' + p['slug'], 'title': p['title'], 'author': p['author'], 'summary': clean(mdsafe.plain_text(p['body']), SUMMARY)} for p in load_posts()]
+    return pool
+
+
+def candidate_of(r):
+    """What a read address is, as one entry to compare: a site or repository by its name and about, a single page by its title and summary. -> (entry, level)."""
+    if r['entry']['kind'] in ('feed', 'repo'):
+        return {'title': r['shelf'].get('name', ''), 'author': '', 'summary': r['shelf'].get('description', '')}, 'shelf'
+    i = (r['items'] or [{}])[0]
+    return {'title': i.get('title', ''), 'author': '', 'summary': i.get('summary', '')}, 'item'
+
+
+# ======================================================================= a page that cannot be read says nothing against its address
+def soft_failure(ex):
+    """The reasons for not being able to read a page that do not make the link itself bad: a site that does not let programs in (401, 403, 429),
+    one that is down or slow, a robots.txt that says no, a page that needs a script. A dead page (404, 410) or an unsafe address is not one."""
+    code = getattr(ex, 'code', None)
+    if code is not None:
+        return code in (401, 403, 429, 451) or code >= 500
+    s = str(ex)
+    return s.startswith('连不上这个网站') or 'robots.txt' in s or s.startswith(('读不到这个页面的标题', '没有读到可以收录的内容'))
+
+
+def unread_probe(raw, ex):
+    """The answer for an address that could not be read: the link is listed as it is, with a title guessed from the address, and a warning for the maintainer."""
+    url = normalize_input(raw)
+    if not ALLOW_LOCAL:
+        check_url_syntax(url)                                      # the address itself still has to be a safe one
+    sub = {'doc': 'doc', 'pdf': 'pdf', 'video': 'video'}.get(classify(url)['kind'], 'page')
+    entry = {'kind': 'link', 'sub': sub, 'url': url, 'source': url}
+    if blocked(entry) or rejected(url_key(url)):
+        raise Refused('这个网站不在收录范围内', 'This site is not accepted')
+    p = urllib.parse.urlsplit(url)
+    host = re.sub(r'^www\.', '', p.hostname or '')
+    path = urllib.parse.unquote(p.path).strip('/')
+    item = make_item(url, humanize(path)[0] if path else host)
+    shelf = {'name': host, 'description': '', 'home': '%s://%s/' % (p.scheme, p.netloc), 'lang': '', 'license': '', 'tags': []}
+    dup = find_duplicate(entry, [item])
+    warn = ('读不到这个页面（%s），标题是按网址猜的。请维护者手动确认这个链接' % ex, 'This page could not be read (%s); its title is guessed from the address. The maintainer checks the link by hand' % ex.en)
+    return {'entry': entry, 'shelf': shelf, 'items': [item], 'warnings': [warn], 'duplicate': dup, 'existing': dup[1] if dup and dup[0] == 'shelf' else '', 'unread': True, 'similar': None}
+
+
 def registered_by_address(url):
     """A registered source that has this very address (compared with url_key: www, https, a trailing slash, index.html and tracking parameters do not matter).
     Looked up before anything is fetched, so that an address of a listed site is a duplicate even when its other spelling cannot be opened."""
@@ -1337,17 +1442,26 @@ def probe(raw):
     if quick:                                                  # already listed: the answer comes from what is kept, with no request to the site
         snap = load_snapshot(quick['id']) or {}
         return {'entry': quick, 'shelf': snap.get('shelf') or {'name': quick.get('name', ''), 'lang': '', 'description': '', 'license': ''}, 'items': snap.get('items') or [],
-                'warnings': [], 'duplicate': ('shelf', quick['id']), 'existing': quick['id']}
-    entry, pre, warnings = discover(raw)
-    if blocked(entry) or rejected(url_key(entry.get('source') or entry['url'])):
-        raise Refused('这个网站不在收录范围内', 'This site is not accepted')
-    res = read_source(entry, None, pre)
+                'warnings': [], 'duplicate': ('shelf', quick['id']), 'existing': quick['id'], 'similar': None}
+    try:
+        entry, pre, warnings = discover(raw)
+        if blocked(entry) or rejected(url_key(entry.get('source') or entry['url'])):
+            raise Refused('这个网站不在收录范围内', 'This site is not accepted')
+        res = read_source(entry, None, pre)
+    except Refused as ex:
+        if soft_failure(ex) and classify(normalize_input(raw))['kind'] in ('web', 'doc', 'pdf', 'video'):      # only the link is judged: it is safe, so it can be listed unread
+            return unread_probe(raw, ex)
+        raise
     entry.setdefault('source', entry['url'])
     if entry['kind'] == 'repo':
         entry['source'] = 'github:%s/%s' % (entry['repo']['owner'], entry['repo']['repo'])
     dup = find_duplicate(entry, res['items'])
-    return {'entry': entry, 'shelf': res['shelf'], 'items': res['items'], 'warnings': warnings + res.get('warnings', []),
-            'duplicate': dup, 'existing': dup[1] if dup and dup[0] == 'shelf' else ''}
+    out = {'entry': entry, 'shelf': res['shelf'], 'items': res['items'], 'warnings': warnings + res.get('warnings', []),
+           'duplicate': dup, 'existing': dup[1] if dup and dup[0] == 'shelf' else '', 'similar': None}
+    if not dup:                                                # nothing with the same address: is it the same thing under another one?
+        cand, level = candidate_of(out)
+        out['similar'] = find_similar(cand, registry_pool(), level)
+    return out
 
 
 def approve(raw, tags=None, issue=None):
@@ -1363,9 +1477,14 @@ def approve(raw, tags=None, issue=None):
     e['added'] = today().isoformat()
     if issue:
         e['issue'] = issue
-    reg['shelves'].append({k: e[k] for k in ('id', 'kind', 'sub', 'url', 'source', 'repo', 'gist', 'name', 'tags', 'added', 'issue') if k in e})
+    if r.get('unread'):
+        e['bare'] = True                                       # listed without having been read: what is kept of it is the address and a guessed title
+    reg['shelves'].append({k: e[k] for k in ('id', 'kind', 'sub', 'url', 'source', 'repo', 'gist', 'name', 'tags', 'added', 'issue', 'bare') if k in e})
     write_json(reg_path(), reg)
-    fetch_all(only=e['id'])
+    if r.get('unread'):
+        write_json(os.path.join(snap_dir(), e['id'] + '.json'), {'id': e['id'], 'kind': e['kind'], 'parser': PARSER, 'status': 'ok', 'error': '', 'fails': 0, 'shelf': r['shelf'], 'items': r['items']})
+    else:
+        fetch_all(only=e['id'])
     return e, r
 
 
@@ -1422,9 +1541,14 @@ def fetch_all(only=None, log=print):
             ok += 1
             log('same  %-28s (not modified)' % e['id'])
         except Refused as ex:
-            snap.update({'status': 'error', 'error': str(ex), 'fails': snap.get('fails', 0) + 1})
-            bad += 1
-            log('FAIL  %-28s %s' % (e['id'], ex))
+            if e.get('bare') and soft_failure(ex) and prev and prev.get('items'):      # listed unread, still unreadable: what is kept stays, and this is no failure
+                snap.update({'status': 'ok', 'error': '', 'fails': 0})
+                ok += 1
+                log('keep  %-28s (still cannot be read: %s)' % (e['id'], ex))
+            else:
+                snap.update({'status': 'error', 'error': str(ex), 'fails': snap.get('fails', 0) + 1})
+                bad += 1
+                log('FAIL  %-28s %s' % (e['id'], ex))
         except Exception as ex:                       # one broken source must never stop the run
             snap.update({'status': 'error', 'error': '%s: %s' % (type(ex).__name__, ex), 'fails': snap.get('fails', 0) + 1})
             bad += 1
@@ -1503,7 +1627,8 @@ def build():
         post_items = []
         for p in posts:
             post_items.append({'url': '%sp/%s/' % (base, urllib.parse.quote(p['slug'])), 'title': p['title'], 'summary': clean(mdsafe.plain_text(p['body']), SUMMARY), 'image': '',
-                               'date': p['date'], 'tags': p['tags'], 'lang': p['lang'], 'type': 'article', 'sha': 'post:' + p['hash'], 'hash': p['hash']})
+                               'date': p['date'], 'tags': p['tags'], 'lang': p['lang'], 'type': 'book' if p['kind'] == 'record' else 'article', 'sha': 'post:' + p['hash'], 'hash': p['hash'],
+                               'author': p['author']})
             post_pages['p/%s/index.html' % p['slug']] = post_page(p, cfg, repo)
         pname = cfg.get('posts_title') or '社区投稿'
         sources.append(({'id': 'posts', 'kind': 'post', 'name': pname, 'tags': [], 'source': ''},
@@ -1533,6 +1658,8 @@ def build():
                    'date': i.get('date', ''), 'type': i.get('type') if i.get('type') in TYPES else 'article', 'lang': i.get('lang') or 'en', 'tags': tags[:TAGS_PER_ITEM], 'shelf': e['id']}
             if i.get('hash'):                                        # a hosted post: the submit function compares new texts with this
                 row['hash'] = i['hash']
+            if i.get('author'):                                      # and new ones with this title + author
+                row['author'] = i['author']
             items.append(row)
     items.sort(key=lambda i: (i['date'], i['shelf'], i['title']), reverse=True)
     items = items[:MAX_DIRECTORY_ITEMS]
@@ -1645,7 +1772,8 @@ def load_posts():
         title = clean(meta.get('title'), POST_TITLE_MAX) or name[:-3]
         out.append({'slug': name[:-3], 'title': title, 'author': clean(meta.get('author'), POST_AUTHOR_MAX), 'date': parse_date(meta.get('date')),
                     'tags': norm_tags(_list_value(meta.get('tags')), 5), 'lang': norm_lang(meta.get('lang'), title + ' ' + body[:300]), 'body': body,
-                    'hash': post_hash(body), 'issue': str(meta.get('issue') or '')})
+                    'hash': post_hash(body), 'issue': str(meta.get('issue') or ''),
+                    'kind': 'record' if str(meta.get('kind') or '') == 'record' else 'post', 'url': clean(meta.get('url')) if httpish(clean(meta.get('url'))) else ''})
     return out
 
 
@@ -1717,6 +1845,70 @@ def publish_post(sub, number):
     return name, info
 
 
+# ----------------------------------------------------------------------- records: a catalogue card for something that has no address (a book, a PDF, a tool): title, author, summary
+RECORD_SUMMARY_MIN, RECORD_SUMMARY_MAX = 10, 1000
+
+
+def record_key(title, author=''):
+    return 'record:%s|%s' % (norm_words(title), norm_words(author))
+
+
+def check_record(sub):
+    """Hard limits raise Refused; everything else is information for the person who decides. -> dict. The address is optional."""
+    title, author, summary = clean(sub.get('title')), clean(sub.get('author')), clean(sub.get('summary'))
+    if not title:
+        raise Refused('请填写标题', 'A title is needed')
+    if len(title) > POST_TITLE_MAX or len(author) > POST_AUTHOR_MAX:
+        raise Refused('标题最多 %d 个字，作者名最多 %d 个字' % (POST_TITLE_MAX, POST_AUTHOR_MAX), 'The title may have %d characters, the author name %d' % (POST_TITLE_MAX, POST_AUTHOR_MAX))
+    if len(summary) < RECORD_SUMMARY_MIN:
+        raise Refused('请写一句摘要（至少 %d 个字）' % RECORD_SUMMARY_MIN, 'Please write a summary (at least %d characters)' % RECORD_SUMMARY_MIN)
+    if len(summary) > RECORD_SUMMARY_MAX:
+        raise Refused('摘要太长（最多 %d 个字）' % RECORD_SUMMARY_MAX, 'The summary is too long (at most %d characters)' % RECORD_SUMMARY_MAX)
+    if any(w in (title + ' ' + author + ' ' + summary).lower() for w in blockwords()):
+        raise Refused('内容里有不允许的词', 'The text contains a word that is not accepted')
+    url = ''
+    if clean(sub.get('url')):
+        raw = clean(sub.get('url'))
+        url = normalize_input('https://' + raw[7:] if raw.lower().startswith('http://') else raw)      # always the secure address of the same page
+        check_url_syntax(url)
+        if blocked({'url': url, 'source': url}) or rejected(url_key(url)):
+            raise Refused('这个网址暂时不能收录', 'This address cannot be accepted')
+    key = record_key(title, author)
+    if rejected(key):
+        raise Refused('这张资料卡暂时不能收录', 'This card cannot be accepted')
+    dup = next((p['slug'] for p in load_posts() if p['kind'] == 'record' and record_key(p['title'], p['author']) == key), '')
+    if dup:
+        raise Refused('这张资料卡已经提交过了（%s）' % dup, 'This card was submitted already (%s)' % dup)
+    return {'title': title, 'author': author, 'summary': summary, 'url': url, 'tags': norm_tags(sub.get('tags'), 5), 'key': key, 'lang': norm_lang('', title + ' ' + summary),
+            'hash': post_hash(summary), 'warnings': []}
+
+
+def describe_record(info):
+    lines = ['**识别为 / Recognised as：** 资料卡（没有文件、只有这几项文字，由本站托管页面） · A catalogue card', '', '| | |', '|---|---|', '| 标题 / Title | %s |' % md_esc(info['title']),
+             '| 作者 / Author | %s |' % (md_esc(info['author']) if info['author'] else '（未填 / none）'), '| 网址 / Address | %s |' % (md_link(info['url'], info['url']) if info['url'] else '（没有 / none）')]
+    if info['tags']:
+        lines.append('| 标签 / Tags | %s |' % md_esc(', '.join(info['tags'])))
+    lines += ['', '摘要 / Summary:', '', '> ' + md_esc(info['summary'])]
+    return '\n'.join(lines)
+
+
+def publish_record(sub, number):
+    """Write the card into posts/ (the build turns it into a page; it is a post whose text is the summary). -> (slug, info)."""
+    info = check_record(sub)
+    d = posts_dir()
+    os.makedirs(d, exist_ok=True)
+    base_slug = 'r%s-%s' % (number or 'x', slug(info['title'], 'card')[:40])
+    name, n = base_slug, 1
+    while os.path.exists(os.path.join(d, name + '.md')):
+        n += 1
+        name = '%s-%d' % (base_slug, n)
+    head = ['---', 'kind: record', 'title: ' + json.dumps(info['title'], ensure_ascii=False), 'author: ' + json.dumps(info['author'], ensure_ascii=False), 'date: ' + today().isoformat(),
+            'tags: ' + json.dumps(info['tags'], ensure_ascii=False), 'lang: ' + info['lang']] + (['url: ' + json.dumps(info['url'])] if info['url'] else []) \
+        + (['issue: %s' % number] if number else []) + ['---', '']
+    write_text(os.path.join(d, name + '.md'), '\n'.join(head) + info['summary'] + '\n')
+    return name, info
+
+
 POST_CSS = ('body{margin:0;background:#FBFBF9;color:#1A2229;font:17px/1.85 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}'
             '.doc{max-width:44em;margin:0 auto;padding:40px 22px 90px}.meta{font-size:14px;color:#5A6670;margin:0 0 6px}'
             'h1,h2,h3,h4{line-height:1.35;margin:1.7em 0 .6em;font-family:"Noto Serif SC","Songti SC",Georgia,serif}h1{font-size:2em;margin-top:.3em}'
@@ -1730,16 +1922,20 @@ POST_CSS = ('body{margin:0;background:#FBFBF9;color:#1A2229;font:17px/1.85 -appl
 def post_page(p, cfg, repo):
     """The static page of a hosted post. The text went through mdsafe, the rest is escaped here; the page carries no script."""
     site, title = str(cfg.get('site') or '').strip(), cfg.get('title') or 'Shelf directory'
-    meta = ' · '.join(x for x in ('读者投稿 / A reader\'s post', p['author'], p['date']) if x)
+    record = p.get('kind') == 'record'
+    meta = ' · '.join(x for x in ('资料卡 / A catalogue card' if record else '读者投稿 / A reader\'s post', p['author'], p['date']) if x)
     take = 'https://github.com/%s/issues/new?template=takedown.yml' % repo if repo else ''
     links = ['<a href="%s">返回目录</a>' % xml_escape(site, {'"': '&quot;'})] if httpish(site) else []
     if take:
         links.append('<a href="%s" rel="nofollow">申请下架或修改</a>' % xml_escape(take, {'"': '&quot;'}))
     return ('<!DOCTYPE html>\n<html lang="%s"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
             '<meta name="robots" content="noindex, follow"><meta name="referrer" content="no-referrer"><title>%s · %s</title><meta name="description" content="%s">'
-            '<style>%s</style></head><body><article class="doc"><p class="meta">%s</p><h1>%s</h1>\n%s\n<footer>本文由读者投稿，版权归作者所有，不代表本站观点。%s</footer></article></body></html>\n'
+            '<style>%s</style></head><body><article class="doc"><p class="meta">%s</p><h1>%s</h1>\n%s\n<footer>%s%s</footer></article></body></html>\n'
             % ('zh-CN' if p['lang'] == 'zh' else 'en', xml_escape(p['title']), xml_escape(title), xml_escape(clean(mdsafe.plain_text(p['body']), 160), {'"': '&quot;'}),
-               POST_CSS, xml_escape(meta), xml_escape(p['title']), mdsafe.render(p['body']), ' · '.join(links)))
+               POST_CSS, xml_escape(meta), xml_escape(p['title']),
+               '<p>%s</p>' % xml_escape(p['body']).replace('\n', '<br>') + (('\n<p><a href="%s" rel="nofollow ugc noopener noreferrer">%s</a></p>' % (xml_escape(p['url'], {'"': '&quot;'}), xml_escape(p['url']))) if p['url'] else '') if record
+               else mdsafe.render(p['body']),
+               '这是读者提交的资料卡，只有标题、作者和摘要，不含书籍或文件本身，版权归原作者所有。' if record else '本文由读者投稿，版权归作者所有，不代表本站观点。', ' ' + ' · '.join(links) if links else ''))
 
 
 def httpish(u):
@@ -1791,7 +1987,7 @@ def md_link(text, url):
 
 
 ISSUE_FIELDS = (('url', r'^(网址|url|address|link)'), ('title', r'^(标题|title)'), ('author', r'^(作者|author)'), ('tags', r'^(标签|tags?)'),
-                ('body', r'^(正文|body|content)'), ('rights', r'^(权利|rights?)'))
+                ('summary', r'^(摘要|summary)'), ('body', r'^(正文|body|content)'), ('rights', r'^(权利|rights?)'))
 
 
 def issue_fields(body):
@@ -1800,7 +1996,7 @@ def issue_fields(body):
     fields, cur, seen = {}, None, set()
     for line in (body or '').replace('\r', '').split('\n'):
         m = re.match(r'^###\s+(.+?)\s*$', line)
-        key = next((k for k, pat in ISSUE_FIELDS if k not in seen and re.match(pat, m.group(1), re.I)), None) if m else None
+        key = next((k for k, pat in ISSUE_FIELDS if k not in seen and (cur != 'body' or k == 'rights') and re.match(pat, m.group(1), re.I)), None) if m else None   # in a post's text only the confirmation ends the text
         if key:
             cur = key
             seen.add(key)
@@ -1816,11 +2012,11 @@ def _answer(s):
 
 
 def parse_issue(event):
-    """What a submission issue says (only as data). kind is 'post' when the form has a title and a text, else 'shelf'."""
+    """What a submission issue says (only as data). kind is 'post' when the form has a title and a text, 'record' when it has a title and a summary, else 'shelf'."""
     issue = (event or {}).get('issue') or {}
     body = issue.get('body') or ''
     f = issue_fields(body)
-    kind = 'post' if f.get('title') and f.get('body') else 'shelf'
+    kind = 'post' if f.get('title') and f.get('body') else 'record' if f.get('title') and f.get('summary') else 'shelf'
     url_text = f.get('url') if _answer(f.get('url')) else (body if kind == 'shelf' else '')
     m = re.search(r'https?://[^\s<>"\')\]]+', url_text)
     if m:
@@ -1833,7 +2029,7 @@ def parse_issue(event):
     tags = [t.strip() for t in re.split(r'[,，、\n]', _answer(f.get('tags'))) if t.strip()]
     zw = lambda s: s.replace('​', '')                      # the submit function puts one after "###" in a line that looks like a heading of the form
     return {'kind': kind, 'number': issue.get('number'), 'url': url.rstrip('.,;:!?，。；').strip(), 'tags': [zw(t) for t in tags], 'rights': ok,
-            'title': zw(_answer(f.get('title'))), 'author': zw(_answer(f.get('author'))), 'body': zw(_answer(f.get('body')))}
+            'title': zw(_answer(f.get('title'))), 'author': zw(_answer(f.get('author'))), 'body': zw(_answer(f.get('body'))), 'summary': zw(_answer(f.get('summary')))}
 
 
 def read_submission(event):
@@ -1874,39 +2070,73 @@ def handle_issue(event, mode):
         if mode == 'reject':                                   # remember what it was, so that it is not asked again; the text itself is not kept
             if sub['kind'] == 'post' and sub['body']:
                 remember_rejected(post_hash(sub['body']))
+            elif sub['kind'] == 'record':
+                remember_rejected(record_key(sub['title'], sub['author']))
             elif sub['url']:
                 remember_rejected(url_key(sub['url']))
-            res.update({'ok': True, 'close': True, 'add': ['rejected'], 'remove': ['checked', 'invalid', 'approved', 'duplicate'],
-                        'comment': '🚫 已拒绝，这个 issue 将被关闭。/ Rejected; this issue is closed.', 'redact': sub['kind'] == 'post'})   # a refused text does not stay in the public list
+            res.update({'ok': True, 'close': True, 'add': ['rejected'], 'remove': ['checked', 'invalid', 'approved', 'duplicate', 'similar'],
+                        'comment': '🚫 已拒绝，这个 issue 将被关闭。/ Rejected; this issue is closed.', 'redact': sub['kind'] != 'shelf'})   # a refused text does not stay in the public list
             return res
         if sub['kind'] == 'shelf' and not sub['url']:
             raise Refused('没有在表单里找到网址。请用「收录申请」表单提交。', 'No address found. Please use the submission form.')
         if not sub['rights']:
             raise Refused('请在表单里确认「我有权发布这些内容」。', 'Please confirm that you have the right to publish this content in the form.')
-        if sub['kind'] == 'post':
+        if sub['kind'] == 'record':
+            if mode == 'approve':
+                name, info = publish_record(sub, number)
+                res.update({'ok': True, 'close': True, 'add': ['listed'], 'remove': ['checked', 'invalid', 'duplicate', 'similar'],
+                            'comment': '✅ 已发布，页面编号 `%s`。/ Published as `%s`.\n\n%s' % (name, name, describe_record(info))})
+            else:
+                info = check_record(sub)
+                if info['url'] and registered_by_address(info['url']):
+                    sid = registered_by_address(info['url'])['id']
+                    res.update({'ok': False, 'add': ['duplicate'], 'remove': ['checked', 'invalid', 'similar'],
+                                'comment': describe_record(info) + '\n\nℹ️ **重复 / Duplicate：** 这个网址已经在目录里了（%s）。/ This address is in the directory already (%s).' % (md_esc(sid), md_esc(sid))})
+                else:
+                    sim = find_similar({'title': info['title'], 'author': info['author'], 'summary': info['summary']}, registry_pool(), 'item')
+                    if sim:
+                        res.update(_similar_result(sim, describe_record(info)))
+                    else:
+                        res.update({'ok': True, 'add': ['checked'], 'remove': ['invalid', 'duplicate', 'similar'], 'comment': describe_record(info) + '\n\n' + TAIL_CHECKED})
+        elif sub['kind'] == 'post':
             if mode == 'approve':
                 name, info = publish_post(sub, number)
                 res.update({'ok': True, 'close': True, 'add': ['listed'], 'remove': ['checked', 'invalid', 'duplicate'],
                             'comment': '✅ 已发布，页面编号 `%s`。/ Published as `%s`.\n\n%s' % (name, name, describe_post(info))})
             else:
                 info = check_post(sub)
-                res.update({'ok': True, 'add': ['checked'], 'remove': ['invalid', 'duplicate'], 'comment': describe_post(info) + '\n\n' + TAIL_CHECKED})
+                sim = find_similar({'title': info['title'], 'author': info['author'], 'summary': info['excerpt']}, registry_pool(), 'item')
+                if sim:
+                    res.update(_similar_result(sim, describe_post(info)))
+                else:
+                    res.update({'ok': True, 'add': ['checked'], 'remove': ['invalid', 'duplicate', 'similar'], 'comment': describe_post(info) + '\n\n' + TAIL_CHECKED})
         elif mode == 'approve':
-            e, r = approve(sub['url'], sub['tags'], number)
-            res.update({'ok': True, 'close': True, 'add': ['listed'], 'remove': ['checked', 'invalid', 'duplicate'],
+            e, r = approve(sub['url'], sub['tags'], number)                 # the maintainer's decision stands over a "possibly the same": only the same address is refused
+            res.update({'ok': True, 'close': True, 'add': ['listed'], 'remove': ['checked', 'invalid', 'duplicate', 'similar'],
                         'comment': '✅ 已收录，编号 `%s`，每天自动更新。/ Listed as `%s`; it is refreshed every day.\n\n%s' % (e['id'], e['id'], describe(r))})
         else:
             r = probe(sub['url'])
             if r['duplicate']:
                 zh, en = DUPLICATE_TEXT[r['duplicate'][0]]
-                res.update({'ok': False, 'add': ['duplicate'], 'remove': ['checked', 'invalid'],
+                res.update({'ok': False, 'add': ['duplicate'], 'remove': ['checked', 'invalid', 'similar'],
                             'comment': describe(r) + '\n\nℹ️ **重复 / Duplicate：** %s。无需重复提交，可以关闭这个 issue。\n%s' % (md_esc(zh % r['duplicate'][1]), md_esc(en % r['duplicate'][1]))})
+            elif r.get('similar'):
+                res.update(_similar_result(r['similar'], describe(r)))
             else:
-                res.update({'ok': True, 'add': ['checked'], 'remove': ['invalid', 'duplicate'], 'comment': describe(r) + '\n\n' + TAIL_CHECKED})
+                res.update({'ok': True, 'add': ['checked'], 'remove': ['invalid', 'duplicate', 'similar'], 'comment': describe(r) + '\n\n' + TAIL_CHECKED})
     except Refused as ex:
-        res.update({'ok': False, 'add': ['invalid'], 'remove': ['checked', 'duplicate'],
+        res.update({'ok': False, 'add': ['invalid'], 'remove': ['checked', 'duplicate', 'similar'],
                     'comment': '❌ **暂时无法收录 / Cannot be listed:** %s\n\n%s\n\n修改上面的内容后（编辑本 issue）会自动重新检查。Edit the issue and it is checked again.' % (md_esc(str(ex)), md_esc(ex.en))})
     return res
+
+
+def _similar_result(sim, described):
+    """-> what handle_issue answers when what was submitted looks like something the directory has: it is marked, not refused: the maintainer decides."""
+    why, sid, stitle = sim
+    zh, en = SIMILAR_TEXT[why]
+    return {'ok': False, 'add': ['similar'], 'remove': ['checked', 'invalid', 'duplicate'],
+            'comment': described + '\n\n⚠️ **疑似重复 / Possibly the same：** 和目录里的《%s》（%s）很像：%s。如果确实不同，维护者仍然可以批准。\n%s'
+                       % (md_esc(stitle), md_esc(sid), md_esc(zh), md_esc('It looks like “%s” (%s) in the directory: %s. If it is a different one the maintainer can still approve it.' % (stitle, sid, en)))}
 
 
 TAIL_CHECKED = ('✅ **自动检查通过，等待维护者审核。** 审核通过后维护者会给这个 issue 加上 `approved` 标签，之后会自动进入目录。\n\n'
@@ -1916,7 +2146,7 @@ TAIL_CHECKED = ('✅ **自动检查通过，等待维护者审核。** 审核通
 # ======================================================================= answering in the issue (GitHub REST, with the Action's token)
 BOT_MARKER = '<!-- shelf-directory-bot -->'
 LABEL_COLORS = {'shelf-submission': '1F7A6D', 'post-submission': '1F7A6D', 'checked': '0E8A16', 'invalid': 'B60205', 'duplicate': 'CFD3D7', 'approved': '5319E7',
-                'rejected': '6A737D', 'listed': '0052CC', 'takedown': 'FBCA04'}
+                'rejected': '6A737D', 'listed': '0052CC', 'takedown': 'FBCA04', 'similar': 'FBCA04'}
 
 
 def gh_call(method, path, body=None, token=None):

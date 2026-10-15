@@ -99,6 +99,14 @@ class TestUrl(SubBase):
             self.assertEqual((st, body['error']), (400, 'url'), url)
         self.assertEqual(self.created(), [])
 
+    def test_the_address_bar_of_a_reader_is_not_a_public_address(self):
+        self.directory({'shelves': [{'id': 'books', 'home': 'https://books.example.org/', 'kind': 'feed'}]})
+        for url in ('https://books.example.org/#read/local%3Amv9c3hossw0sd', 'https://elsewhere.example.org/#read/x'):
+            st, body = self.send({**URL, 'url': url})
+            self.assertEqual((st, body['error']), (400, 'reader'), url)                                   # not "already listed", which is what the home page it falls back to would say
+            self.assertEqual(self.send({'kind': 'check', 'what': 'url', 'url': url})[1]['error'], 'reader')
+        self.assertEqual(self.created(), [])
+
     def test_nothing_is_fetched_from_the_address(self):
         self.send({**URL, 'url': 'https://blog.example.org/post'})
         self.assertFalse(any('blog.example.org' in p for p, h in self.site.hits))
