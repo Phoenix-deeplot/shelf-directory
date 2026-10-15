@@ -5,6 +5,7 @@
     <outline text="公共目录" title="公共目录">
       <outline type="rss" text="个人数字图书馆" title="个人数字图书馆" xmlUrl="https://books.zhitree.cn/feed.json" htmlUrl="https://books.zhitree.cn/"/>
       <outline type="rss" text="Phoenix — Blog" title="Phoenix — Blog" xmlUrl="https://phoenix-wu.cn/rss.xml" htmlUrl="https://phoenix-wu.cn/"/>
+      <outline type="rss" text="社区投稿" title="社区投稿" xmlUrl="https://phoenix-deeplot.github.io/shelf-directory/feed/shelf/posts.xml" htmlUrl="https://phoenix-deeplot.github.io/shelf-directory/"/>
     </outline>
   </body>
 </opml>

@@ -1,0 +1,32 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #社会观察",
+  "home_page_url": "https://phoenix-deeplot.github.io/shelf-directory/",
+  "feed_url": "https://phoenix-deeplot.github.io/shelf-directory/feed/tag/t-d9a6dd.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://phoenix-deeplot.github.io/shelf-directory/p/p5-post/",
+      "url": "https://phoenix-deeplot.github.io/shelf-directory/p/p5-post/",
+      "title": "从社会关系节点看\"特殊地位\"",
+      "content_text": "我们尊崇的，究竟是什么人？ Oct 15, 2026 · @phoenix 一、尊崇从何而来 如果剥离物质层面的因素，社会上是否仍有一类人能赢得普遍的尊敬、享有某种特殊地位？我想是有的：那些处于社会关系中心，并且具有利他倾向的人。 这一点，可以从一个长期的历史变化中得到印证。在相当长的时间里，大致从古代一直到市场经济兴…",
+      "summary": "我们尊崇的，究竟是什么人？ Oct 15, 2026 · @phoenix 一、尊崇从何而来 如果剥离物质层面的因素，社会上是否仍有一类人能赢得普遍的尊敬、享有某种特殊地位？我想是有的：那些处于社会关系中心，并且具有利他倾向的人。 这一点，可以从一个长期的历史变化中得到印证。在相当长的时间里，大致从古代一直到市场经济兴…",
+      "date_published": "2026-10-15T00:00:00Z",
+      "tags": [
+        "社会观察"
+      ],
+      "authors": [
+        {
+          "name": "社区投稿"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "posts"
+      }
+    }
+  ]
+}
