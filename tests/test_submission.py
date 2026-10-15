@@ -33,6 +33,12 @@ class SubBase(Base):
         self.open_issues([], [])
         self.site.on('POST', '/api/repos/o/r/issues', 201, {'number': 41})
         self.site.put('/api/repos/o/r/contents/registry/rejected.json', json.dumps({'message': 'Not Found'}), 'application/json', status=404)
+        self.site.put('/api/repos/o/r/contents/registry/shelves.json', json.dumps({'message': 'Not Found'}), 'application/json', status=404)
+
+    def registry(self, *shelves):
+        content = base64.b64encode(json.dumps({'shelves': list(shelves)}).encode()).decode()
+        self.site.put('/api/repos/o/r/contents/registry/shelves.json', json.dumps({'content': content}), 'application/json')
+        sub._CACHE.clear()
 
     def directory(self, d):
         self.site.put('/dir/directory.json', json.dumps({'spec': 1, **d}), 'application/json')
@@ -111,6 +117,29 @@ class TestUrl(SubBase):
         for url in ('https://github.com/o/r', 'https://github.com/o/r/tree/main/docs', 'https://github.com/O/R/tree/dev/a/b'):
             self.assertEqual(self.send({**URL, 'url': url})[1]['error'], 'listed', url)
         self.assertEqual(self.send({**URL, 'url': 'https://github.com/o/other'})[0], 200)
+
+    def test_listed_in_the_repository_but_not_yet_in_the_published_directory(self):
+        """Approved a minute ago: registry/shelves.json has it, the published directory.json (rebuilt later, cached by the CDN) does not."""
+        self.registry({'id': 'blog', 'kind': 'feed', 'url': 'https://blog.example.org/', 'source': 'https://blog.example.org/feed.xml'},
+                      {'id': 'gh-o-r', 'kind': 'repo', 'url': 'https://github.com/o/r/tree/main/docs', 'source': 'github:o/r/docs', 'repo': {'owner': 'o', 'repo': 'r', 'ref': '', 'path': 'docs'}})
+        for url in ('https://blog.example.org', 'http://www.blog.example.org/?utm_source=x', 'https://blog.example.org/feed.xml', 'https://github.com/o/r/tree/main/docs/a'):
+            st, body = self.send({**URL, 'url': url})
+            self.assertEqual((st, body['error']), (409, 'listed'), url)
+        self.assertEqual(self.send({**URL, 'url': 'https://github.com/o/r'})[0], 200)      # the whole repository is more than the folder that is listed
+        self.assertEqual(self.created().__len__(), 1)
+
+    def test_the_repository_cannot_be_read_is_not_an_answer_of_not_listed(self):
+        self.site.put('/api/repos/o/r/contents/registry/shelves.json', json.dumps({'message': 'Server Error'}), 'application/json', status=500)
+        sub._CACHE.clear()
+        st, body = self.send(URL)
+        self.assertEqual((st, body['error']), (502, 'github'))
+        self.assertEqual(self.created(), [])
+
+    def test_a_token_that_may_not_read_files_falls_back_to_the_published_directory(self):
+        self.site.put('/api/repos/o/r/contents/registry/shelves.json', json.dumps({'message': 'Resource not accessible by personal access token'}), 'application/json', status=403)
+        self.directory({'shelves': [{'id': 'blog', 'home': 'https://blog.example.org/', 'kind': 'feed'}]})
+        self.assertEqual(self.send(URL)[1]['error'], 'listed')                              # still refused, from directory.json
+        self.assertEqual(self.send({**URL, 'url': 'https://other.example.org/'})[0], 200)   # and the others still go through
 
     def test_already_waiting(self):
         self.open_issues([{'number': 3, 'body': sub.url_issue('https://blog.example.org/', [], 'abc'), 'created_at': '2026-10-14T00:00:00Z'}], [])
@@ -204,6 +233,92 @@ class TestPost(SubBase):
         self.assertEqual(self.send(POST)[1]['error'], 'rejected')
 
 
+def canned_probe(duplicate=None, warnings=()):
+    items = [{'url': 'https://blog.example.org/p/%d' % n, 'title': 'Post %d' % n, 'summary': '', 'image': '', 'date': '2026-10-0%d' % n, 'tags': ['供应链'] if n % 2 else [], 'lang': 'zh', 'type': 'article'} for n in range(1, 8)]
+    return {'entry': {'kind': 'feed', 'url': 'https://blog.example.org/', 'source': 'https://blog.example.org/feed.xml'}, 'shelf': {'name': 'Example blog', 'lang': 'zh', 'description': 'About it', 'license': 'CC BY'},
+            'items': items, 'warnings': list(warnings), 'duplicate': duplicate, 'existing': ''}
+
+
+class TestCheck(SubBase):
+    """The "check" step of the dialog: what will become of this address / text? Nothing is created."""
+
+    def setUp(self):
+        super().setUp()
+        self.probed = []
+        self.real_probe = sub.probe_for_check
+        sub.probe_for_check = lambda url: (self.probed.append(url), canned_probe())[1]
+        self.addCleanup(setattr, sub, 'probe_for_check', self.real_probe)
+        sub._CHECKS.clear()
+
+    def test_an_address_is_read_and_described_without_creating_anything(self):
+        st, body = self.send({'kind': 'check', 'what': 'url', 'url': 'https://blog.example.org/'})                    # no tick is needed to look
+        self.assertEqual((st, body['status']), (200, 'checked'))
+        r = body['result']
+        self.assertEqual((r['kind_zh'], r['name'], r['found'], r['lang'], r['license']), ('订阅源书架（整个网站 / 博客 / 频道）', 'Example blog', 7, 'zh', 'CC BY'))
+        self.assertEqual([i['title'] for i in r['latest']], ['Post 7', 'Post 6', 'Post 5', 'Post 4', 'Post 3'])      # five, newest first
+        self.assertEqual(r['tags'], ['供应链'])
+        self.assertEqual(self.probed, ['https://blog.example.org/'])
+        self.assertEqual(self.created(), [])
+
+    def test_the_cheap_checks_come_first_and_nothing_is_read_for_them(self):
+        self.directory({'shelves': [{'id': 'blog', 'home': 'https://blog.example.org/', 'feed': '', 'kind': 'feed'}]})
+        self.assertEqual(self.send({'kind': 'check', 'what': 'url', 'url': 'http://www.blog.example.org?utm_source=x'})[1]['error'], 'listed')
+        self.directory({})
+        for bad in ('https://127.0.0.1/x', 'https://localhost/', 'not a url', 'https://github.com/someone'):
+            self.assertEqual(self.send({'kind': 'check', 'what': 'url', 'url': bad})[1]['error'], 'url', bad)
+        self.open_issues([{'number': 3, 'body': sub.url_issue('https://blog.example.org/', [], 'abc'), 'created_at': '2026-10-14T00:00:00Z'}], [])
+        self.assertEqual(self.send({'kind': 'check', 'what': 'url', 'url': 'https://blog.example.org/'})[1]['error'], 'pending')
+        self.assertEqual(self.probed, [])                                                                              # no request to any of these sites
+
+    def test_a_listed_address_found_only_by_the_registry_that_came_with_the_deployment(self):
+        sub.probe_for_check = lambda url: canned_probe(duplicate=('shelf', 'blog-example-org'))
+        st, body = self.send({'kind': 'check', 'what': 'url', 'url': 'https://blog.example.org/'})
+        self.assertEqual((st, body['error']), (409, 'listed'))
+
+    def test_an_address_that_cannot_be_read(self):
+        sub.probe_for_check = self.real_probe
+        real = agg.probe
+        agg.probe = lambda url: (_ for _ in ()).throw(agg.Refused('网站返回了错误（HTTP 404）', 'The site answered with HTTP 404', 404))
+        self.addCleanup(setattr, agg, 'probe', real)
+        old = (agg.TIMEOUT, agg.REPO_READ)
+        st, body = self.send({'kind': 'check', 'what': 'url', 'url': 'https://blog.example.org/nothing'})
+        self.assertEqual((st, body['error'], body['message']), (422, 'unreachable', '网站返回了错误（HTTP 404）'))
+        self.assertEqual((agg.TIMEOUT, agg.REPO_READ), old)                                                           # the tighter limits are for this call only
+
+    def test_the_read_runs_with_tighter_limits(self):
+        sub.probe_for_check = self.real_probe
+        seen = []
+        real = agg.probe
+        agg.probe = lambda url: (seen.append((agg.TIMEOUT, agg.REPO_READ)), canned_probe())[1]
+        self.addCleanup(setattr, agg, 'probe', real)
+        self.send({'kind': 'check', 'what': 'url', 'url': 'https://blog.example.org/'})
+        self.assertEqual(seen, [(7, 6)])
+
+    def test_a_post_is_checked_with_the_same_rules(self):
+        st, body = self.send({'kind': 'check', 'what': 'post', 'title': '读者的文章', 'author': '小明', 'tags': ['笔记'], 'body': POST_BODY})
+        self.assertEqual((st, body['result']['what'], body['result']['title'], body['result']['links'], body['result']['domains']), (200, 'post', '读者的文章', 1, ['example.com']))
+        self.assertEqual(self.created(), [])
+        for p in ({'title': '', 'body': POST_BODY}, {'title': 'x', 'body': '太短'}):
+            self.assertEqual(self.send({'kind': 'check', 'what': 'post', **p})[1]['error'], 'post')
+        self.directory({'items': [{'url': 'https://dir.example/p/x/', 'shelf': 'posts', 'hash': agg.post_hash(POST_BODY)}]})
+        self.assertEqual(self.send({'kind': 'check', 'what': 'post', 'title': '另一个标题', 'body': POST_BODY})[1]['error'], 'listed')
+
+    def test_checks_are_limited_per_sender(self):
+        for n in range(sub.CHECK_LIMIT[0]):
+            self.assertEqual(self.send({'kind': 'check', 'what': 'url', 'url': 'https://blog.example.org/'}, ip='5.5.5.5')[0], 200)
+        st, body = self.send({'kind': 'check', 'what': 'url', 'url': 'https://blog.example.org/'}, ip='5.5.5.5')
+        self.assertEqual((st, body['error']), (429, 'rate'))
+        self.assertEqual(self.send({'kind': 'check', 'what': 'url', 'url': 'https://blog.example.org/'}, ip='6.6.6.6')[0], 200)
+        later = time.time() + sub.CHECK_LIMIT[1] + 1
+        self.assertEqual(sub.handle({'kind': 'check', 'what': 'url', 'url': 'https://blog.example.org/'}, '5.5.5.5', self.env, now=later)[0], 200)
+
+    def test_robots_and_unknown_requests(self):
+        self.assertEqual(self.send({'kind': 'check', 'what': 'url', 'url': 'https://blog.example.org/', 'website': 'spam'})[0], 200)         # told it worked
+        self.assertEqual(self.probed, [])
+        self.assertEqual(self.send({'kind': 'check', 'what': 'other'})[1]['error'], 'request')
+        self.assertEqual(sub.handle({'kind': 'check', 'what': 'url', 'url': 'https://blog.example.org/'}, '1.1.1.1', {})[0], 503)
+
+
 class Srv(ThreadingHTTPServer):
     def server_bind(self):
         socketserver.TCPServer.server_bind(self)
@@ -272,7 +387,8 @@ class TestHttp(SubBase):
     def test_health_shows_no_secret(self):
         port = self.serve(self.handler())
         st, _, body = self.request(port, 'GET')
-        self.assertEqual((st, body), (200, {'ok': True, 'service': 'shelf-submit', 'configured': True}))
+        self.assertEqual((st, body), (200, {'ok': True, 'service': 'shelf-submit', 'configured': True, 'repo': 'o/r', 'directory': self.site.url + '/dir/'}))
+        self.assertNotIn('tok', json.dumps(body))                                          # the token is never shown
 
     def test_local_origins_only_when_asked_for(self):
         port = self.serve(self.handler())

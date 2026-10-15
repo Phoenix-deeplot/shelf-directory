@@ -114,7 +114,8 @@ def write_text(path, text):
                 return False
     except OSError:
         pass
-    os.makedirs(os.path.dirname(path), exist_ok=True)
+    if os.path.dirname(path):                                  # "result.json" has no folder: makedirs('') would fail (this broke every workflow run)
+        os.makedirs(os.path.dirname(path), exist_ok=True)
     tmp = path + '.tmp'
     with open(tmp, 'w', encoding='utf-8', newline='\n') as f:
         f.write(text)
@@ -416,6 +417,36 @@ class _Redirect(urllib.request.HTTPRedirectHandler):
         return new
 
 
+class _PinnedHTTPSConnection(http.client.HTTPSConnection):
+    """Resolves the name once, HERE, refuses it unless every address is public, and connects to one of those addresses itself.
+    check_url alone leaves a gap (a name can answer "public" to the check and "10.0.0.5" to the connection a moment later: DNS rebinding);
+    this closes it. TLS still verifies the certificate against the name."""
+
+    def connect(self):
+        port = self.port or 443
+        try:
+            infos = socket.getaddrinfo(self.host, port, type=socket.SOCK_STREAM)
+        except OSError:
+            raise Refused('找不到这个网站（域名无法解析）', 'The host name does not resolve')
+        if not infos or any(not is_public_ip(i[4][0]) for i in infos):
+            raise Refused('不允许访问内网或本机地址', 'Private and local addresses are not allowed')
+        last = None
+        for info in infos:
+            try:
+                sock = socket.create_connection((info[4][0], port), self.timeout)
+                break
+            except OSError as e:
+                last = e
+        else:
+            raise last
+        self.sock = self._context.wrap_socket(sock, server_hostname=self.host)
+
+
+class _PinnedHTTPSHandler(urllib.request.HTTPSHandler):
+    def https_open(self, req):
+        return self.do_open(_PinnedHTTPSConnection, req, context=self._context)
+
+
 def decode(body, headers=None):
     ctype = (headers or {}).get('content-type', '')
     m = re.search(r'charset=["\']?([\w-]+)', ctype, re.I)
@@ -445,6 +476,8 @@ def fetch(url, accept='*/*', max_bytes=MAX_BYTES, headers=None, truncate=False):
     handlers = [_Redirect]
     if ALLOW_LOCAL:
         handlers.append(urllib.request.ProxyHandler({}))
+    elif not urllib.request.getproxies().get('https'):          # no proxy (the Action, a Vercel function): connect only to the address that was checked
+        handlers.append(_PinnedHTTPSHandler())
     try:
         with urllib.request.build_opener(*handlers).open(req, timeout=TIMEOUT) as r:
             body = r.read(max_bytes + 1)
@@ -686,6 +719,17 @@ class _Page(HTMLParser):
             self.title += data
 
 
+def strip_site_suffix(title, site=''):
+    """"Article title - Site name" -> "Article title": a short tail after a separator is the site's name (only for a title long enough to lose it)."""
+    t = clean(title)
+    if len(t) < 20:
+        return t
+    m = re.match(r'^(.{12,}?)\s*(?:[-–—|·_｜]|\s[-–—|·]\s)\s*([^-–—|·_｜]{1,16})$', t)
+    if m and (not site or site.lower() in m.group(2).lower() or m.group(2).lower() in site.lower() or len(m.group(2)) <= 10):
+        return m.group(1).strip()
+    return t
+
+
 def parse_page(text, base):
     p = _Page()
     try:
@@ -705,8 +749,9 @@ def parse_page(text, base):
             if u:
                 feeds.append((0 if 'json' in typ else 1 if 'atom' in typ else 2, u))
     canonical = next((abs_url(l.get('href'), base) for l in p.links if 'canonical' in l.get('rel', '').lower().split()), '')
-    tags = list(p.multi.get('article:tag', [])) + re.split(r'[,，、;；]', m.get('keywords', ''))
-    return {'title': first('og:title', 'twitter:title') or clean(p.title), 'description': first('og:description', 'description', 'twitter:description'),
+    keywords = [k for k in re.split(r'[,，、;；]', m.get('keywords', '')) if k.strip()]
+    tags = list(p.multi.get('article:tag', [])) + (keywords if len(keywords) <= 6 else [])        # a long keywords list is the whole site's, not this page's
+    return {'title': strip_site_suffix(first('og:title', 'twitter:title') or clean(p.title), first('og:site_name', 'application-name')), 'description': first('og:description', 'description', 'twitter:description'),
             'image': first('og:image', 'twitter:image', 'twitter:image:src'), 'site': first('og:site_name', 'application-name'),
             'lang': p.lang or first('og:locale'), 'date': first('article:published_time', 'og:article:published_time', 'datepublished', 'date', 'dc.date', 'pubdate'),
             'tags': tags, 'og_type': first('og:type'), 'canonical': canonical, 'feeds': [u for _, u in sorted(feeds, key=lambda x: x[0])]}
@@ -838,7 +883,8 @@ def normalize_input(raw):
         raise Refused('网址格式不对', 'Malformed address')
     if not p.hostname or len(u) > 1500 or not re.fullmatch(r'[\w.:-]+', p.hostname):
         raise Refused('网址格式不对', 'Malformed address')
-    return urllib.parse.urlunsplit((p.scheme.lower(), p.netloc, p.path, p.query, ''))
+    query = '&'.join(part for part in p.query.split('&') if part and not TRACKING.match(part.split('=')[0]))      # ?utm_source=x is not a different page
+    return urllib.parse.urlunsplit((p.scheme.lower(), p.netloc, p.path, query, ''))
 
 
 def classify(url):
@@ -1267,8 +1313,23 @@ def find_duplicate(entry, items):
     return None
 
 
+def registered_by_address(url):
+    """A registered source that has this very address (compared with url_key: www, https, a trailing slash, index.html and tracking parameters do not matter).
+    Looked up before anything is fetched, so that an address of a listed site is a duplicate even when its other spelling cannot be opened."""
+    key = url_key(url)
+    for e in load_registry()['shelves']:
+        if key in (url_key(e.get('url') or ''), url_key(e.get('source') or '')):
+            return e
+    return None
+
+
 def probe(raw):
     """Everything a maintainer needs to decide: what it is, what was found, and why not if it cannot be listed."""
+    quick = registered_by_address(normalize_input(raw))
+    if quick:                                                  # already listed: the answer comes from what is kept, with no request to the site
+        snap = load_snapshot(quick['id']) or {}
+        return {'entry': quick, 'shelf': snap.get('shelf') or {'name': quick.get('name', ''), 'lang': '', 'description': '', 'license': ''}, 'items': snap.get('items') or [],
+                'warnings': [], 'duplicate': ('shelf', quick['id']), 'existing': quick['id']}
     entry, pre, warnings = discover(raw)
     if blocked(entry) or rejected(url_key(entry.get('source') or entry['url'])):
         raise Refused('这个网站不在收录范围内', 'This site is not accepted')
@@ -2004,6 +2065,9 @@ def main(argv=None):
             write_json(a.out, res)
             print(res['comment'])
         elif a.cmd == 'apply':                                   # the last step of the workflows: answer in the issue, loudly if that fails
+            if not os.path.isfile(a.result):
+                print('apply: %s was not written: the step before this one failed, read its log' % a.result, file=sys.stderr)
+                return 1
             problems = apply_result(read_json(a.result, {}), os.environ.get('GITHUB_REPOSITORY', ''))
             for line in problems:
                 print('apply: ' + line, file=sys.stderr)

@@ -2,7 +2,10 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": { "api/*.py": { "maxDuration": 30 } },
   "outputDirectory": "docs",
+  "redirects": [
+    { "source": "/admin", "destination": "/admin/", "statusCode": 308 }
+  ],
   "headers": [
-    { "source": "/admin/(.*)", "headers": [ { "key": "X-Robots-Tag", "value": "noindex, nofollow" }, { "key": "Referrer-Policy", "value": "no-referrer" } ] }
+    { "source": "/admin/(.*)", "headers": [ { "key": "X-Robots-Tag", "value": "noindex, nofollow" }, { "key": "Referrer-Policy", "value": "no-referrer" }, { "key": "X-Frame-Options", "value": "DENY" } ] }
   ]
 }

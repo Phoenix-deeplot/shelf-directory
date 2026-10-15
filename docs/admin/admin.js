@@ -8,7 +8,7 @@ const params = new URLSearchParams(location.search);
 const LOCAL = /^(127\.0\.0\.1|localhost)$/.test(location.hostname);       // ?api= and ?repo= exist to try this page against a fake GitHub on this computer
 const API = (LOCAL && params.get('api')) || 'https://api.github.com';
 const BOT = '<!-- shelf-directory-bot -->';
-const state = { repo: '', token: '', branch: 'main', directory: null, busy: false };
+const state = { repo: '', token: '', branch: 'main', directory: null, directoryUrl: '', directoryFrom: '', busy: false };
 
 /* ---------- token ---------- */
 const store = {
@@ -81,8 +81,10 @@ async function botComment(n){
 function pendingCard(issue){
   const p = parseIssue(issue.body), labels = labelsOf(issue), status = el('p', { class: 'msg', role: 'status' });
   const head = p.kind === 'post' ? (p.title || issue.title) : (p.url || issue.title);
-  const badges = [el('span', { class: 'badge ' + (p.kind === 'post' ? 'post' : ''), text: p.kind === 'post' ? '投稿' : '网址' })];
+  const viaWeb = /<!--\s*via:web/.test(issue.body || '');                      // written by the submit function (a visitor without GitHub) or made with the GitHub form
+  const badges = [el('span', { class: 'badge ' + (p.kind === 'post' ? 'post' : ''), text: p.kind === 'post' ? '个人文章' : '网址' }), el('span', { class: 'badge', text: viaWeb ? '网页提交' : 'GitHub 表单' })];
   for(const l of ['checked', 'invalid', 'duplicate']) if(labels.includes(l)) badges.push(el('span', { class: 'badge ' + l, text: { checked: '检查通过', invalid: '检查未通过', duplicate: '重复' }[l] }));
+  if(!['checked', 'invalid', 'duplicate', 'approved'].some(l => labels.includes(l))) badges.push(el('span', { class: 'badge', title: '机器人还没有检查这个申请（Action 还在排队，或没有触发：看仓库的 Actions 页）', text: '尚未检查' }));
   if(labels.includes('approved')) badges.push(el('span', { class: 'badge', text: '已批准，处理中' }));
   const body = el('div');
   if(p.kind === 'shelf'){
@@ -101,7 +103,9 @@ function pendingCard(issue){
   const cancel = el('button', { type: 'button', hidden: true, text: '取消' });
   const approveBtn = el('button', { type: 'button', class: 'ok', text: '通过' });
   const rejectBtn = el('button', { type: 'button', class: 'danger', text: '拒绝…' });
-  const lock = on => [approveBtn, rejectBtn, confirmReject].forEach(b => { b.disabled = on; });
+  const isDuplicate = labels.includes('duplicate');                           // the bot found it in the directory already: nothing to approve, only to close
+  if(isDuplicate){ approveBtn.disabled = true; approveBtn.title = '目录里已经有这个了，不能再通过；用“拒绝”把它关掉'; }
+  const lock = on => [approveBtn, rejectBtn, confirmReject].forEach(b => { b.disabled = on || (b === approveBtn && isDuplicate); });
   rejectBtn.addEventListener('click', () => { [reason, confirmReject, cancel].forEach(x => { x.hidden = false; }); rejectBtn.hidden = true; reason.focus(); });
   cancel.addEventListener('click', () => { [reason, confirmReject, cancel].forEach(x => { x.hidden = true; }); rejectBtn.hidden = false; });
   approveBtn.addEventListener('click', async () => {
@@ -162,6 +166,7 @@ function renderListed(){
   const d = state.directory;
   if(!d){ box.append(el('p', { class: 'empty', text: '读不到 directory.json（网站刚发布时要等一两分钟）。' })); return; }
   $('#nListed').textContent = (d.shelves || []).length;
+  box.append(el('p', { class: 'muted', text: '数据日期 ' + (d.generated || '?') + ' · 来自' + (state.directoryFrom === 'repo' ? '仓库里最新提交的文件' : '已发布的网页（可能比仓库晚一两分钟）') }));
   const askRemove = async (target, label) => {
     if(!confirm('从目录里删除「' + label + '」？\n删除由 GitHub Action 执行，约 1 分钟生效。')) return;
     try{ await dispatch('remove.yml', { target }); say('已提交删除「' + label + '」，约 1 分钟后点“刷新”。', 'good'); }catch(e){ say(e.message, 'bad'); }
@@ -194,8 +199,27 @@ async function renderDone(){
 }
 
 /* ---------- start ---------- */
+/* Where the data lives: on GitHub Pages (next to this page) it is ../directory.json. On the submit function's own site (Vercel) that file is only a copy from the last deploy,
+   so the function says (GET ../api/submit) which repository and which published address to use. */
+async function discover(){
+  if(LOCAL && params.get('repo')) return { repo: params.get('repo'), directory: '' };
+  try{
+    const r = await fetch('../api/submit', { cache: 'no-store' });
+    if(r.ok){ const d = await r.json(); if(d && d.repo) return { repo: d.repo, directory: /^https:\/\/[^\s]+\/$/.test(d.directory || '') ? d.directory : '' }; }
+  }catch(e){}
+  return { repo: '', directory: '' };
+}
+/* With a token the list of what is listed is read from the repository itself (the committed docs/directory.json): it is right the moment an approval has been committed,
+   without waiting for GitHub Pages to rebuild. Without one (or if that fails) the published copy is used. */
 async function loadDirectory(){
-  try{ const r = await fetch('../directory.json', { cache: 'no-cache' }); state.directory = r.ok ? await r.json() : null; }catch(e){ state.directory = null; }
+  state.directory = null; state.directoryFrom = '';
+  if(state.token && state.repo){
+    try{
+      const r = await fetch(API + `/repos/${state.repo}/contents/docs/directory.json`, { cache: 'no-store', headers: { Authorization: 'Bearer ' + state.token, Accept: 'application/vnd.github.raw+json', 'X-GitHub-Api-Version': '2022-11-28' } });
+      if(r.ok){ state.directory = await r.json(); state.directoryFrom = 'repo'; return; }
+    }catch(e){}
+  }
+  try{ const r = await fetch((state.directoryUrl || '../') + 'directory.json', { cache: 'no-cache' }); state.directory = r.ok ? await r.json() : null; state.directoryFrom = 'pages'; }catch(e){ state.directory = null; }
 }
 async function refresh(){
   if(state.busy) return; state.busy = true; say('正在读取…');
@@ -229,8 +253,10 @@ document.querySelectorAll('[data-tab]').forEach(b => b.addEventListener('click',
 }));
 
 (async function boot(){
+  const found = await discover();
+  state.directoryUrl = found.directory;
   await loadDirectory();
-  state.repo = (LOCAL && params.get('repo')) || (state.directory && state.directory.repo) || '';
+  state.repo = found.repo || (state.directory && state.directory.repo) || '';
   $('#repoName').textContent = state.repo;
   if(!state.repo){ showLogin('读不到目录信息（directory.json 里没有仓库名）。确认目录已经发布过。'); return; }
   const saved = store.get();

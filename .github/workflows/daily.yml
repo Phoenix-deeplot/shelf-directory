@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: '17 3 * * *'
   workflow_dispatch:
+  push:
+    paths:                          # a changed setting (title, submit_api, base_url, ...) shows up in directory.json at once
+      - 'registry/config.json'
 
 permissions:
   contents: write

@@ -295,6 +295,63 @@ class TestSafety(unittest.TestCase):
             agg.urllib.request.getproxies, agg.urllib.request.proxy_bypass = real_g, real_b
 
 
+class TestPinnedConnection(unittest.TestCase):
+    """DNS rebinding: the name must not be allowed to answer "public" to the check and "private" to the connection."""
+
+    def setUp(self):
+        self.old = (agg.ALLOW_LOCAL, agg.socket.getaddrinfo, agg.socket.create_connection, agg.urllib.request.getproxies, agg.via_proxy)
+        agg.ALLOW_LOCAL = False
+        agg.urllib.request.getproxies = lambda: {}
+        agg.via_proxy = lambda h: False
+        self.seen = {'resolve': 0, 'connect': []}
+
+    def tearDown(self):
+        agg.ALLOW_LOCAL, agg.socket.getaddrinfo, agg.socket.create_connection, agg.urllib.request.getproxies, agg.via_proxy = self.old
+
+    def answers(self, *per_call):
+        def gai(host, port, *a, **k):
+            i = min(self.seen['resolve'], len(per_call) - 1)
+            self.seen['resolve'] += 1
+            return [(2, 1, 6, '', (ip, 443)) for ip in per_call[i]]
+
+        def cc(addr, timeout=None, *a, **k):
+            self.seen['connect'].append(addr)
+            raise OSError('stop here: the test needs no real server')
+        agg.socket.getaddrinfo, agg.socket.create_connection = gai, cc
+
+    def test_a_name_that_turns_private_after_the_check_is_not_connected_to(self):
+        self.answers(['93.184.216.34'], ['127.0.0.1'])                         # the check sees a public address, the connection would see loopback
+        with self.assertRaises(agg.Refused) as cm:
+            agg.fetch('https://rebind.example/x')
+        self.assertIn('内网', str(cm.exception))
+        self.assertEqual(self.seen['connect'], [])
+
+    def test_a_name_with_one_private_address_among_public_ones_is_refused(self):
+        self.answers(['93.184.216.34', '10.0.0.5'])
+        with self.assertRaises(agg.Refused):
+            agg.fetch('https://mixed.example/x')
+        self.assertEqual(self.seen['connect'], [])
+
+    def test_the_connection_goes_to_the_checked_address_not_to_the_name(self):
+        self.answers(['93.184.216.34'])
+        with self.assertRaises(agg.Refused):                                    # the fake connect stops everything with an OSError -> "could not connect"
+            agg.fetch('https://good.example/x')
+        self.assertEqual(self.seen['connect'], [('93.184.216.34', 443)])        # an address, resolved once more only inside the connection
+
+    def test_a_proxy_means_no_pinning(self):
+        agg.urllib.request.getproxies = lambda: {'https': 'http://127.0.0.1:1'}
+        handlers = []
+        real = agg.urllib.request.build_opener
+        agg.urllib.request.build_opener = lambda *h: (handlers.extend(h), real(*h))[1]
+        try:
+            self.answers(['93.184.216.34'])
+            with self.assertRaises(agg.Refused):
+                agg.fetch('https://good.example/x')
+        finally:
+            agg.urllib.request.build_opener = real
+        self.assertFalse(any(isinstance(h, agg._PinnedHTTPSHandler) for h in handlers))
+
+
 class TestFetch(Base):
     def test_size_limit_and_truncate(self):
         self.site.put('/big', b'x' * (agg.MAX_BYTES + 10), 'text/plain')
@@ -463,6 +520,17 @@ class TestDiscover(Base):
         self.site.put('/late.xml', RSS, 'application/rss+xml')
         r = agg.probe(self.site.url + '/')
         self.assertEqual((r['entry']['kind'], r['entry']['source']), ('feed', self.site.url + '/late.xml'))
+
+    def test_site_name_suffix_and_site_wide_keywords(self):
+        self.assertEqual(agg.strip_site_suffix('供应链系统架构的设计与实践供应链系统是现代企业管理中不可或缺的一部分 - 掘金'), '供应链系统架构的设计与实践供应链系统是现代企业管理中不可或缺的一部分')
+        self.assertEqual(agg.strip_site_suffix('How inventory turnover really works | Acme Blog', 'Acme Blog'), 'How inventory turnover really works')
+        self.assertEqual(agg.strip_site_suffix('Python - 入门'), 'Python - 入门')                     # short: nothing to lose
+        self.assertEqual(agg.strip_site_suffix('一个很长很长很长很长的标题而且没有任何后缀所以不应该被截断的'), '一个很长很长很长很长的标题而且没有任何后缀所以不应该被截断的')
+        many = ','.join('关键词%d' % i for i in range(10))
+        pg = agg.parse_page('<html><head><title>T</title><meta name="keywords" content="%s"></head></html>' % many, 'https://x.example/')
+        self.assertEqual([t for t in pg['tags'] if t.strip()], [])                                    # ten keywords: boilerplate, dropped
+        few = agg.parse_page('<html><head><title>T</title><meta name="keywords" content="库存, 计划"></head></html>', 'https://x.example/')
+        self.assertEqual([t.strip() for t in few['tags']], ['库存', '计划'])
 
     def test_gbk_page(self):
         body = '<html><head><meta http-equiv="Content-Type" content="text/html; charset=gb2312"><title>库存管理</title></head></html>'.encode('gb18030')
@@ -884,6 +952,24 @@ class TestIssues(Base):
         self.assertEqual(agg.main(['apply', '--result', path]), 0)
         self.site.on('POST', '/api/repos/o/r/issues/7/comments', 500, {'message': 'boom'})
         self.assertEqual(agg.main(['apply', '--result', path]), 1)                        # a failure is a failed step, not a silent one
+        self.assertEqual(agg.main(['apply', '--result', os.path.join(self.tmp, 'never-written.json')]), 1)      # and so is a missing result file
+
+    def test_the_workflows_pass_a_bare_file_name(self):
+        """`--out result.json` is how the Action calls it: no folder in the name. Every real run failed on this once."""
+        feed_site(self.site)
+        ev = os.path.join(self.tmp, 'event.json')
+        agg.write_json(ev, event(self.site.url + '/feed.xml'))
+        old = os.getcwd()
+        os.chdir(self.tmp)
+        try:
+            for cmd in ('issue', 'approve', 'reject'):
+                agg.write_json('event.json', event(self.site.url + '/feed.xml' if cmd != 'approve' else self.site.url + '/feed.xml'))
+                code = agg.main([cmd, '--event', 'event.json', '--out', 'result.json'])
+                self.assertTrue(os.path.isfile('result.json'), cmd)
+                self.assertIn('number', json.load(open('result.json', encoding='utf-8')), cmd)
+                os.remove('result.json')
+        finally:
+            os.chdir(old)
 
     def test_cli(self):
         feed_site(self.site)

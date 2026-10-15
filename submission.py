@@ -25,6 +25,7 @@ PER_IP_PER_DAY = 5            # submissions per sender in 24 hours (counted from
 BODY_LIMIT = 120_000          # bytes of request body
 ISSUE_MAX = 60_000            # characters of an issue (GitHub allows 65536)
 CACHE_SECONDS = 300
+REGISTRY_SECONDS = 20         # the registry in the repository changes when something is approved: short, so that the next visitor already sees it
 _CACHE = {}
 
 RIGHTS_URL = '我有权发布这些内容 / I have the right to publish this content'
@@ -51,9 +52,9 @@ def settings(env):
             'origins': origins, 'salt': str(env.get('IP_SALT') or ''), 'allow_local': str(env.get('ALLOW_LOCAL_ORIGIN') or '') == '1'}
 
 
-def _cached(key, fn):
+def _cached(key, fn, seconds=CACHE_SECONDS):
     hit = _CACHE.get(key)
-    if hit and time.time() - hit[0] < CACHE_SECONDS:
+    if hit and time.time() - hit[0] < seconds:
         return hit[1]
     value = fn()
     _CACHE[key] = (time.time(), value)
@@ -70,6 +71,27 @@ def load_directory(cfg):
         except (agg.Refused, ValueError):
             return {}
     return _cached('dir:' + cfg['directory'], read) if cfg['directory'] else {}
+
+
+def load_registry_live(cfg):
+    """registry/shelves.json as it is in the repository right now (read with the token): an approval counts at once, without waiting for the published
+    directory to be rebuilt and for its caches to expire. [] when the file does not exist yet, None when it cannot be read this way (the token has no read
+    access to files, or the file is too big): the published directory is then all there is. Raises Reply(502) when GitHub cannot be asked at all:
+    better no answer than a wrong "not listed"."""
+    def read():
+        st, d = agg.gh_call('GET', '/repos/%s/contents/registry/shelves.json' % cfg['repo'], token=cfg['token'])
+        if st == 404:
+            return []
+        if st in (401, 403):                                                # this token may not read the repository's files: the published directory has to do
+            return None
+        if st != 200 or not isinstance(d, dict):
+            raise Reply(502, 'github', '暂时连不上审核系统，请稍后再试', 'The review system cannot be reached; try again later')
+        try:
+            shelves = json.loads(base64.b64decode(d.get('content') or '').decode('utf-8')).get('shelves') if d.get('content') else None
+        except (ValueError, TypeError, AttributeError):
+            shelves = None
+        return [e for e in shelves if isinstance(e, dict)] if isinstance(shelves, list) else None
+    return _cached('reg:' + cfg['repo'], read, REGISTRY_SECONDS)
 
 
 def load_rejected(cfg):
@@ -122,9 +144,16 @@ def post_issue(sub, who):
             % (neutralize(sub['title']), neutralize(sub['author']) or '_No response_', neutralize(', '.join(sub['tags'])) or '_No response_', neutralize(sub['body']), RIGHTS_POST, who))
 
 
-def listed_in(directory, entry_url, classified):
-    """Is this address in the published directory already? -> shelf id or ''."""
+def listed_in(directory, entry_url, classified, registry=None):
+    """Is this address in the directory already (the registry in the repository, which is the fresh truth, and the published directory.json)? -> shelf id or ''."""
     key = agg.url_key(entry_url)
+    for e in registry or []:
+        if key in {agg.url_key(e.get('url') or ''), agg.url_key(e.get('source') or '')} - {agg.url_key('')}:
+            return str(e.get('id'))
+        if classified.get('kind') == 'repo' and e.get('kind') == 'repo' and isinstance(e.get('repo'), dict):
+            have_spec, want = agg._repo_key(e['repo']), agg._repo_key(classified)
+            if have_spec[:2] == want[:2] and (not have_spec[3] or want[3] == have_spec[3] or want[3].startswith(have_spec[3] + '/')):
+                return str(e.get('id'))
     for s in directory.get('shelves') or []:
         if isinstance(s, dict) and key in {agg.url_key(s.get('home') or ''), agg.url_key(s.get('feed') or '')} - {agg.url_key('')}:
             return str(s.get('id'))
@@ -160,7 +189,7 @@ def submit_url(payload, cfg, who, now):
     key = agg.url_key(url)
     if agg.key_hash(key) in load_rejected(cfg):
         raise Reply(409, 'rejected', '这个网址暂时不能收录', 'This address cannot be accepted')
-    if listed_in(load_directory(cfg), url, c):
+    if listed_in(load_directory(cfg), url, c, load_registry_live(cfg)):
         raise Reply(409, 'listed', '这个网址已经在目录里了', 'This address is in the directory already')
     tags = agg.norm_tags(payload.get('tags') if isinstance(payload.get('tags'), list) else str(payload.get('tags') or '').replace('，', ',').split(','), 5)
     issues = open_submissions(cfg)
@@ -191,6 +220,48 @@ def submit_post(payload, cfg):
     return sub, info, issues
 
 
+CHECK_LIMIT = (20, 600)             # checks (they fetch) per sender in 10 minutes, counted per warm instance: a soft limit, the real ones are Vercel's
+_CHECKS = {}
+
+
+def soft_limit(who, now):
+    recent = [t for t in _CHECKS.get(who, []) if now - t < CHECK_LIMIT[1]]
+    if len(recent) >= CHECK_LIMIT[0]:
+        raise Reply(429, 'rate', '检查得太频繁了，请稍等几分钟', 'Too many checks; wait a few minutes')
+    recent.append(now)
+    _CHECKS[who] = recent
+    if len(_CHECKS) > 2000:                                                  # never grows without bound
+        for k in [k for k, v in _CHECKS.items() if not v or now - v[-1] > CHECK_LIMIT[1]]:
+            _CHECKS.pop(k, None)
+
+
+def probe_for_check(url):
+    """Read the address with the same code the Action uses (https only, public addresses only, pinned connection, size and time limits), a little tighter."""
+    old = (agg.TIMEOUT, agg.REPO_READ)
+    agg.TIMEOUT, agg.REPO_READ = 7, 6                                       # a function has seconds, not minutes
+    try:
+        return agg.probe(url)
+    except agg.Refused as e:
+        raise Reply(422, 'unreachable', str(e), e.en)
+    finally:
+        agg.TIMEOUT, agg.REPO_READ = old
+
+
+def summarize_probe(r):
+    e, s = r['entry'], r['shelf']
+    zh, en = agg.KIND_NAMES.get((e['kind'], e.get('sub', '')), (e['kind'], e['kind']))
+    tags = agg.norm_tags(sorted({t for i in r['items'] for t in i['tags']}, key=lambda t: -sum(t in i['tags'] for i in r['items'])), 6)
+    return {'what': 'url', 'kind_zh': zh, 'kind_en': en, 'name': s.get('name', ''), 'source': e.get('source') or e.get('url', ''), 'found': len(r['items']), 'lang': s.get('lang', ''),
+            'description': s.get('description', ''), 'license': s.get('license', ''), 'tags': tags,
+            'latest': [{'title': i['title'], 'url': i['url'], 'date': i['date'], 'type': i['type']} for i in sorted(r['items'], key=lambda i: i['date'], reverse=True)[:5]],
+            'warnings': [list(w) for w in r.get('warnings', [])]}
+
+
+def summarize_post(info):
+    return {'what': 'post', 'title': info['title'], 'author': info['author'], 'tags': info['tags'], 'chars': info['chars'], 'links': info['links'], 'domains': info['domains'],
+            'excerpt': info['excerpt'], 'lang': info['lang'], 'warnings': [list(w) for w in info['warnings']]}
+
+
 def handle(payload, ip, env, now=None):
     """-> (HTTP status, JSON-able dict)."""
     now = now if now is not None else time.time()
@@ -200,8 +271,23 @@ def handle(payload, ip, env, now=None):
             raise Reply(400, 'request', '请求格式不对', 'Bad request')
         if str(payload.get('website') or '').strip():                       # the hidden field of the form: only a program fills it. It is told it worked.
             return 200, {'ok': True, 'status': 'queued'}
-        check_common(payload, cfg)
         who = ip_hash(ip, cfg['salt'])
+        if payload.get('kind') == 'check':                                  # "what will become of this?": every cheap check, then the address is read; nothing is created
+            if not cfg['repo'] or not cfg['token']:
+                raise Reply(503, 'not_configured', '提交功能还没有配置好', 'Submissions are not set up yet')
+            soft_limit(who, now)
+            if payload.get('what') == 'url':
+                url, c, tags, issues = submit_url(payload, cfg, who, now)
+                r = probe_for_check(url)
+                if r.get('duplicate'):                                      # the copy of the registry that came with this deployment knows it too
+                    zh, en = agg.DUPLICATE_TEXT[r['duplicate'][0]]
+                    raise Reply(409, 'listed', zh % r['duplicate'][1], en % r['duplicate'][1])
+                return 200, {'ok': True, 'status': 'checked', 'result': summarize_probe(r)}
+            if payload.get('what') == 'post':
+                sub, info, issues = submit_post(payload, cfg)
+                return 200, {'ok': True, 'status': 'checked', 'result': summarize_post(info)}
+            raise Reply(400, 'request', '请求格式不对', 'Bad request')
+        check_common(payload, cfg)
         kind = payload.get('kind')
         if kind == 'url':
             url, c, tags, issues = submit_url(payload, cfg, who, now)
@@ -254,15 +340,24 @@ def respond(h, env, method):
 
     if method == 'OPTIONS':
         return send(204, None, {'Access-Control-Allow-Methods': 'POST, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type', 'Access-Control-Max-Age': '86400'} if cors else {})
-    if method == 'GET':
-        return send(200, {'ok': True, 'service': 'shelf-submit', 'configured': bool(cfg['repo'] and cfg['token'])})
-    if origin and not cors:                                                  # a browser page of another site: refused (programs send no Origin and meet the rate limit)
-        return send(403, {'ok': False, 'error': 'origin', 'message': '这个来源不允许提交', 'message_en': 'This origin is not allowed'})
+    if method == 'GET':                                                      # no secret in here: the admin page reads the repository and the data address from it
+        return send(200, {'ok': True, 'service': 'shelf-submit', 'configured': bool(cfg['repo'] and cfg['token']), 'repo': cfg['repo'], 'directory': cfg['directory']})
     try:
         length = int(h.headers.get('Content-Length') or 0)
     except ValueError:
         length = -1
+
+    def drain():                                                              # read (a bounded amount of) what was sent, so that the sender gets the answer, not a reset
+        try:
+            h.rfile.read(max(0, min(length, 2 * BODY_LIMIT)))
+        except OSError:
+            pass
+
+    if origin and not cors:                                                  # a browser page of another site: refused (programs send no Origin and meet the rate limit)
+        drain()
+        return send(403, {'ok': False, 'error': 'origin', 'message': '这个来源不允许提交', 'message_en': 'This origin is not allowed'})
     if length < 0 or length > BODY_LIMIT:
+        drain()
         return send(413, {'ok': False, 'error': 'size', 'message': '内容太大', 'message_en': 'Too large'})
     try:
         payload = json.loads(h.rfile.read(length).decode('utf-8')) if length else None

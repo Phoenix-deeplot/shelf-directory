@@ -4,10 +4,11 @@
 **只记标题、摘要、封面图地址和回到原站的链接**（投稿文章除外，那是读者交给本站托管的）。数据放在这个独立的仓库里，由 GitHub Pages 发布，网页的「公共目录」直接读它。
 
 ```
-访客在网页上贴一个网址，或写 / 选一篇 Markdown 文章（不需要 GitHub 账号）
-        │  POST /api/submit  （Vercel 函数：只做检查和排重，把申请写成这个仓库里的一个 issue）
-        ▼
-   GitHub issue ──▶ Action 自动检查并回复结果（识别类型、找到几篇、重复、警告）
+访客在网页上贴一个网址，或在书架里点文章的地球图标（不需要 GitHub 账号）      GitHub 上的申请表（要 GitHub 账号）
+        │  POST /api/submit  kind:check  → 显示检查结果（读这个网址、对照目录排重）          │
+        │  POST /api/submit  kind:url / post → 写成这个仓库里的一个 issue                  │
+        ▼                                                                                ▼
+   GitHub issue（三种来源同一个队列）──▶ Action 自动检查并回复结果（识别类型、找到几篇、重复、警告）
         │
         ▼
    你在管理页 /admin/ 点「通过」或「拒绝」（管理页直接用你的 GitHub 令牌操作 issue，没有后台）
@@ -41,14 +42,21 @@
    | 名字 | 值 |
    |---|---|
    | `SHELF_REPO` | `用户名/仓库名` |
-   | `SUBMIT_GITHUB_TOKEN` | 一个 fine-grained 令牌：只选这个仓库，权限只给 **Issues: Read and write** |
+   | `SUBMIT_GITHUB_TOKEN` | 一个 fine-grained 令牌：只选这个仓库，权限给 **Issues: Read and write**，再加 **Contents: Read-only**（让排重直接读仓库里最新的登记表，刚通过的网址马上算“已收录”；不给也能用，只是要等目录页面重新生成） |
    | `ALLOWED_ORIGINS` | 允许提交的网页来源，逗号分隔，默认 `https://books.zhitree.cn` |
    | `IP_SALT` | 一长串随机文字（用来给发送者地址做不可逆的短哈希，用于限流） |
 
 3. 改完环境变量要再 `vercel --prod` 一次。把 Vercel 给你的地址加上 `/api/submit`，写进 `registry/config.json` 的 `"submit_api"`，推送。下一次 Action 生成的 `directory.json` 里就有它，网页的「收录」对话框会自动换成"直接提交 + 写文章"两个标签。
-4. 用浏览器打开 `https://…/api/submit`，应该看到 `{"ok": true, "service": "shelf-submit", "configured": true}`。
+4. 用浏览器打开 `https://…/api/submit`，应该看到 `{"ok": true, "service": "shelf-submit", "configured": true, …}`。
 
-这个函数**从不请求访客给的网址**（只看网址的样子并和目录比对），不用数据库：队列就是仓库里待审的 issue，限流靠 issue 里的一个加盐哈希。
+   **想要一次 `git push` 就全部更新**：在 Vercel 里把这个项目连接到 GitHub 仓库（项目 Settings → Git → Connect），以后推送就会自动部署函数和管理页，不用再手动 `vercel --prod`。（环境变量改了仍要重新部署一次。）
+
+函数有两个动作，都不需要访客有 GitHub 账号：
+
+- **检查**（`kind: "check"`，什么都不创建）：先对照目录和审核队列排重（已收录、正在审核、已被拒绝都直接告诉访客），再**去读这个网址**，返回它是什么、找到几篇、最近几条、语言、许可、警告，或者读不了的原因。读取用的是和 Action 同一套受限代码（只走 https:443、只连公网地址并固定到解析出的那个 IP、重定向每一跳重查、大小和时间有限、网页要看 robots.txt），每个发送者 10 分钟最多 20 次。文章只做本地检查（长度、链接、屏蔽词、内容哈希），不联网。
+- **提交**（`kind: "url" | "post"`）：同样的排重，再写成 issue。不读这个网址，读取留给 Action。
+
+排重先读**仓库里的** `registry/shelves.json`（刚通过的马上算），再读已发布的 `directory.json`；不用数据库：队列就是仓库里待审的 issue，限流靠 issue 里的一个加盐哈希。
 
 ### C. 管理页
 
@@ -68,7 +76,7 @@
 ## 重复是怎么过滤的
 
 1. **网址归一**：`http` / `https`、`www`、末尾斜杠、`index.html`、`utm_*` 等跟踪参数、参数顺序、`youtu.be/ID` 与 `youtube.com/watch?v=ID`、`github.com/o/r.git`，都算同一个。
-2. **提交时**（函数和 Action 各查一次）：已在目录里（同一来源、同一篇、仓库或它的上层文件夹）、已在审核中、已被拒绝（只记哈希，不告诉理由）、同一篇文章（忽略空白和 Markdown 标记）。
+2. **提交前后查三次**：网页在你敲网址时就用已加载的目录比对（已有就直接说，不让提交）；函数在“检查”和“提交”时各查一次（读仓库里最新的登记表 + 已发布的目录 + 待审队列）；Action 在 issue 打开时和通过时再查一次。查的内容：已在目录里（同一来源、同一篇、仓库或它的上层文件夹）、已在审核中、已被拒绝（只记哈希，不告诉理由）、同一篇文章（忽略空白和 Markdown 标记）。只有走 GitHub 申请表（绕过了网页和函数）的重复申请会先变成 issue，由 Action 贴上“重复”标签，管理页里“通过”按钮不可点。
 3. **GitHub 仓库**：fork 直接拒绝并指出原仓库；同一个文件内容（git 的内容哈希）在一个或多个仓库里只留最早登记的那份。
 4. **订阅源条目**：同一个链接出现在多个来源里只留一条。站点主人可以在订阅源里用 `_shelf.listed = false` 让某一条不进任何目录（本站的 `directory: false`）。
 
@@ -92,7 +100,7 @@ python -X utf8 -m unittest discover -s tests -v          # 测试（不联网）
 ## 它怎么保证安全
 
 - 聚合器：只走 https:443，域名必须解析到公网地址（有代理时由代理解析，IP 字面量和 localhost 之类仍拒绝），重定向每一跳都重新检查；响应 ≤2 MB；每次请求 15 秒超时；XML 里有 DOCTYPE / ENTITY 的订阅源直接拒绝；网页只在 `robots.txt` 允许时读取。
-- 提交函数：不请求访客给的任何地址；只用一个只能写 issue 的令牌；来源页面必须在 `ALLOWED_ORIGINS` 里；每个发送者每天 5 条、待审队列最多 100 条；隐藏字段防机器人；不记录发送者的地址（只存加盐哈希）。
+- 提交函数：只有“检查”会读访客给的地址，用和聚合器同一套受限读取（见上）；令牌只能写 issue、读文件；来源页面必须在 `ALLOWED_ORIGINS` 里；每个发送者每天 5 条、待审队列最多 100 条；隐藏字段防机器人；不记录发送者的地址（只存加盐哈希）。
 - 托管文章：Markdown 经 `mdsafe.py` 转成页面，其中一切都转义，**不含脚本**；链接只允许 http(s) 并带 `rel="nofollow ugc noopener noreferrer"`；**图片不内嵌**（只留链接）；超长行和过深嵌套有限制；页面 `noindex`。
 - issue 里的文字只当数据读：由 Python 从事件文件里解析，从不拼进 shell 命令；机器人回复里的标题、链接都做了转义（不会 @ 到别人）。
 - 管理页：没有后台，令牌只在你的浏览器里；页面带严格的内容安全策略（只允许自己的脚本和 GitHub 的接口）；issue 里的文字只用 textContent 或经 DOMPurify 后显示。

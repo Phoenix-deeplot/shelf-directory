@@ -12,6 +12,9 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'
 import aggregate as agg  # noqa: E402
 from test_aggregate import Base, JSON_FEED, event, feed_site, repo  # noqa: E402
 
+PAGE_WITH_FEED = '<html><head><title>Home</title><link rel="alternate" type="application/rss+xml" href="%s/feed.xml"></head><body>hi</body></html>'
+RSS_ONE = '<rss version="2.0"><channel><title>Home</title><item><title>One</title><link>https://x.example/one</link></item></channel></rss>'
+
 
 class TestUrlKey(unittest.TestCase):
     def test_same_page_different_spelling(self):
@@ -48,10 +51,33 @@ class TestDuplicates(Base):
             agg.approve(self.site.url + '/feed.xml?utm_campaign=x')
         self.assertIn('已经在目录里了', str(cm.exception))
 
+    def test_tracking_parameters_do_not_make_a_home_page_a_plain_page(self):
+        """Found on the live repository: books.zhitree.cn?utm_source=x was "checked" as a new single page instead of the listed site."""
+        self.site.put('/', PAGE_WITH_FEED % self.site.url)
+        self.site.put('/feed.xml', RSS_ONE, 'application/rss+xml')
+        agg.approve(self.site.url + '/')
+        self.assertEqual(agg.normalize_input(self.site.url + '/?utm_source=twitter&fbclid=1'), self.site.url + '/')
+        self.assertEqual(agg.normalize_input(self.site.url + '/p?id=3&utm_medium=x&b=2'), self.site.url + '/p?id=3&b=2')           # real parameters stay, in their order
+        r = agg.probe(self.site.url + '?utm_source=twitter')
+        self.assertEqual(r['duplicate'][0], 'shelf')
+
+    def test_a_listed_site_is_a_duplicate_even_if_another_spelling_cannot_be_opened(self):
+        """Found on the live repository: http://www.<listed site>/ failed to load and was reported as "cannot be listed" instead of "listed"."""
+        agg.write_json(agg.reg_path(), {'shelves': [{'id': 'blog-example-org', 'kind': 'feed', 'url': 'https://blog.example.org/', 'source': 'https://blog.example.org/feed.xml', 'name': 'Blog', 'tags': [], 'added': '2026-10-14'}]})
+        agg.write_json(os.path.join(agg.snap_dir(), 'blog-example-org.json'), {'id': 'blog-example-org', 'status': 'ok', 'fails': 0, 'shelf': {'name': 'Blog', 'lang': 'en'}, 'items': [{'url': 'https://blog.example.org/a', 'title': 'A', 'summary': '', 'image': '', 'date': '2026-10-01', 'tags': [], 'lang': 'en', 'type': 'article'}]})
+        hits_before = len(self.site.hits)
+        for url in ('http://www.blog.example.org/', 'https://blog.example.org', 'https://blog.example.org/index.html?utm_source=x', 'https://blog.example.org/feed.xml'):
+            r = agg.probe(url)                                                        # nothing is requested: there is no such server here, and none is needed
+            self.assertEqual((r['duplicate'], r['entry']['id']), (('shelf', 'blog-example-org'), 'blog-example-org'), url)
+        self.assertEqual(len(self.site.hits), hits_before)
+        res = agg.handle_issue(event('http://www.blog.example.org/'), 'check')
+        self.assertEqual((res['ok'], res['add']), (False, ['duplicate']))
+        self.assertIn('已经在目录里了', res['comment'])
+
     def test_a_single_page_that_a_listed_feed_already_has(self):
         self.site.put('/feed.xml', '<rss version="2.0"><channel><title>T</title><item><title>One</title><link>%s/post/one</link></item></channel></rss>' % self.site.url, 'application/rss+xml')
         agg.approve(self.site.url + '/feed.xml')
-        self.site.put('/post/one?utm_source=a', '<html><head><title>One</title></head><body>x</body></html>')
+        self.site.put('/post/one', '<html><head><title>One</title></head><body>x</body></html>')          # the tracking parameter is dropped before the address is requested
         r = agg.probe(self.site.url + '/post/one?utm_source=a')
         self.assertEqual(r['duplicate'][0], 'item')
         with self.assertRaises(agg.Refused) as cm:

@@ -2,6 +2,6 @@
   "title": "公共目录",
   "base_url": "",
   "repo": "",
-  "submit_api": "",
+  "submit_api": "https://admin-dic.vercel.app/api/submit",
   "site": ""
 }
