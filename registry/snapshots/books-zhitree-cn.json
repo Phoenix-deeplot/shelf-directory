@@ -2,6 +2,40 @@
  "id": "books-zhitree-cn",
  "items": [
   {
+   "url": "https://books.zhitree.cn/articles/notes/n-7d829a.html",
+   "title": "收藏库使用说明",
+   "summary": "怎么往收藏库里加内容、怎么隐藏和恢复，以及 HTML、Markdown、TXT、PDF 各自的显示方式。",
+   "image": "",
+   "date": "2026-10-16",
+   "tags": [
+    "使用说明",
+    "archive",
+    "markdown"
+   ],
+   "lang": "zh",
+   "type": "note"
+  },
+  {
+   "url": "https://books.zhitree.cn/articles/notes/marked-license.html",
+   "title": "License information",
+   "summary": "If you contribute code to this project, you are implicitly allowing your code to be distributed under the MIT license. You are also implicitly verifying that al…",
+   "image": "",
+   "date": "2026-10-16",
+   "tags": [],
+   "lang": "en",
+   "type": "note"
+  },
+  {
+   "url": "https://books.zhitree.cn/articles/notes/readme.html",
+   "title": "个人数字图书馆 · My Archive",
+   "summary": "一个放笔记与收藏的个人网页：自动读取 library/ 里的 HTML、Markdown、TXT 和 PDF，生成带封面的卡片，左侧是分类和卡片目录，支持中英文界面、关键词筛选、隐藏与恢复，以及站内阅读。",
+   "image": "",
+   "date": "2026-10-16",
+   "tags": [],
+   "lang": "zh",
+   "type": "note"
+  },
+  {
    "url": "https://books.zhitree.cn/tools/supplychain/",
    "title": "牛鞭效应模拟",
    "summary": "以订单流、货物流和库存位置解释牛鞭效应的互动模拟。",
@@ -22,7 +56,7 @@
    "type": "note"
   },
   {
-   "url": "https://books.zhitree.cn/books/%E4%BE%9B%E5%BA%94%E9%93%BE%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E5%90%88%E9%9B%86.html",
+   "url": "https://books.zhitree.cn/books/n-ec52a8.html",
    "title": "供应链读书笔记：刘宝红两本书合读",
    "summary": "两本书合起来是一条完整的决策链：第 1 本回答为什么重资产会拖垮企业、哪些该外包；第 2 本回答外包之后供应商怎么选、怎么管，以及采购职能如何从“小采购”升级为“大采购”。",
    "image": "",
@@ -32,7 +66,7 @@
    "type": "note"
   },
   {
-   "url": "https://books.zhitree.cn/books/%E9%87%87%E8%B4%AD%E4%B8%8E%E4%BE%9B%E5%BA%94%E9%93%BE%E7%AE%A1%E7%90%86-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html",
+   "url": "https://books.zhitree.cn/books/n-af90f1.html",
    "title": "读书笔记｜采购与供应链管理：一个实践者的角度（第3版）",
    "summary": "全书从大到小、从宽到窄：先给供应链的全局观（三大职能、三条流、复杂度、牛鞭、库存、降本三台阶），再聚焦供应商管理（三大误区、五步流程、整合、下级与指定供应商），最后落到采购职能本身——从围着订单转的“小采购”，升级为管需求、管供应商、管总成本的“大采购”。",
    "image": "",
@@ -42,7 +76,7 @@
    "type": "note"
   },
   {
-   "url": "https://books.zhitree.cn/books/%E9%87%8D%E8%B5%84%E4%BA%A7%E5%88%B0%E8%BD%BB%E8%B5%84%E4%BA%A7-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.html",
+   "url": "https://books.zhitree.cn/books/n-909083.html",
    "title": "读书笔记｜供应链管理：重资产到轻资产的解决方案",
    "summary": "全书一条主线：垂直整合换来了控制力，也带来了两个改不掉的结构性缺陷——需求单一、竞争不充分。内部挖潜只能治标，外包才治本；而外包能否成功，取决于企业有没有三项能力：识别核心竞争力、模块化设计、选好管好供应商。",
    "image": "",
@@ -53,8 +87,8 @@
   }
  ],
  "shelf": {
-  "name": "个人数字图书馆",
-  "description": "个人收藏库：读书笔记、网页小工具和个人笔记，收录 HTML、Markdown 与 PDF，可搜索、可站内阅读。",
+  "name": "知识树 - 个人数字图书馆",
+  "description": "知识树 · 个人数字图书馆：收藏、搜索和在线阅读读书笔记、PDF、Markdown 与网页小工具，支持 RSS 订阅；还有公共目录，聚合博客与文章，投稿无需注册。",
   "home": "https://books.zhitree.cn/",
   "lang": "zh",
   "license": "",
@@ -64,7 +98,7 @@
  "kind": "feed",
  "status": "ok",
  "error": "",
- "etag": "\"54aa64b29fe15d3b9ba0e8834137ad7a\"",
- "modified": "Thu, 15 Oct 2026 07:44:59 GMT",
+ "etag": "\"babb87351f0ada4eb9da8587fa9f5b09\"",
+ "modified": "Fri, 16 Oct 2026 08:09:24 GMT",
  "parser": 2
 }

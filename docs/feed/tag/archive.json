@@ -1,0 +1,34 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #archive",
+  "home_page_url": "https://phoenix-deeplot.github.io/shelf-directory/",
+  "feed_url": "https://phoenix-deeplot.github.io/shelf-directory/feed/tag/archive.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://books.zhitree.cn/articles/notes/n-7d829a.html",
+      "url": "https://books.zhitree.cn/articles/notes/n-7d829a.html",
+      "title": "收藏库使用说明",
+      "content_text": "怎么往收藏库里加内容、怎么隐藏和恢复，以及 HTML、Markdown、TXT、PDF 各自的显示方式。",
+      "summary": "怎么往收藏库里加内容、怎么隐藏和恢复，以及 HTML、Markdown、TXT、PDF 各自的显示方式。",
+      "date_published": "2026-10-16T00:00:00Z",
+      "tags": [
+        "使用说明",
+        "archive",
+        "markdown"
+      ],
+      "authors": [
+        {
+          "name": "个人数字图书馆"
+        }
+      ],
+      "_shelf": {
+        "type": "note",
+        "shelf": "books-zhitree-cn"
+      }
+    }
+  ]
+}
