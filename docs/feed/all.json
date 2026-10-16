@@ -1,13 +1,30 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "公共目录",
-  "home_page_url": "https://phoenix-deeplot.github.io/shelf-directory/",
-  "feed_url": "https://phoenix-deeplot.github.io/shelf-directory/feed/all.json",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/all.json",
   "description": "公共目录",
   "_shelf": {
     "spec": 1
   },
   "items": [
+    {
+      "id": "https://books.zhitree.cn/books/z-library-sk-1lib-sk-z-lib-sk-988be9.pdf",
+      "url": "https://books.zhitree.cn/books/z-library-sk-1lib-sk-z-lib-sk-988be9.pdf",
+      "title": "政治的人生 (王沪宁)",
+      "content_text": "政治的人生 (王沪宁)",
+      "date_published": "2026-10-16T00:00:00Z",
+      "tags": [],
+      "authors": [
+        {
+          "name": "个人数字图书馆"
+        }
+      ],
+      "_shelf": {
+        "type": "pdf",
+        "shelf": "books-zhitree-cn"
+      }
+    },
     {
       "id": "https://books.zhitree.cn/articles/notes/n-7d829a.html",
       "url": "https://books.zhitree.cn/articles/notes/n-7d829a.html",
@@ -67,8 +84,8 @@
       }
     },
     {
-      "id": "https://phoenix-deeplot.github.io/shelf-directory/p/r6-card/",
-      "url": "https://phoenix-deeplot.github.io/shelf-directory/p/r6-card/",
+      "id": "https://adminbook.zhitree.cn/p/r6-card/",
+      "url": "https://adminbook.zhitree.cn/p/r6-card/",
       "title": "政治的人生 (王沪宁)",
       "content_text": "三朝国师王沪宁的个人日记",
       "summary": "三朝国师王沪宁的个人日记",
@@ -85,8 +102,8 @@
       }
     },
     {
-      "id": "https://phoenix-deeplot.github.io/shelf-directory/p/p5-post/",
-      "url": "https://phoenix-deeplot.github.io/shelf-directory/p/p5-post/",
+      "id": "https://adminbook.zhitree.cn/p/p5-post/",
+      "url": "https://adminbook.zhitree.cn/p/p5-post/",
       "title": "从社会关系节点看\"特殊地位\"",
       "content_text": "我们尊崇的，究竟是什么人？ Oct 15, 2026 · @phoenix 一、尊崇从何而来 如果剥离物质层面的因素，社会上是否仍有一类人能赢得普遍的尊敬、享有某种特殊地位？我想是有的：那些处于社会关系中心，并且具有利他倾向的人。 这一点，可以从一个长期的历史变化中得到印证。在相当长的时间里，大致从古代一直到市场经济兴…",
       "summary": "我们尊崇的，究竟是什么人？ Oct 15, 2026 · @phoenix 一、尊崇从何而来 如果剥离物质层面的因素，社会上是否仍有一类人能赢得普遍的尊敬、享有某种特殊地位？我想是有的：那些处于社会关系中心，并且具有利他倾向的人。 这一点，可以从一个长期的历史变化中得到印证。在相当长的时间里，大致从古代一直到市场经济兴…",

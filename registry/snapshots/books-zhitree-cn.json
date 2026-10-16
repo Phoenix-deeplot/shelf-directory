@@ -2,6 +2,16 @@
  "id": "books-zhitree-cn",
  "items": [
   {
+   "url": "https://books.zhitree.cn/books/z-library-sk-1lib-sk-z-lib-sk-988be9.pdf",
+   "title": "政治的人生 (王沪宁)",
+   "summary": "",
+   "image": "",
+   "date": "2026-10-16",
+   "tags": [],
+   "lang": "zh",
+   "type": "pdf"
+  },
+  {
    "url": "https://books.zhitree.cn/articles/notes/n-7d829a.html",
    "title": "收藏库使用说明",
    "summary": "怎么往收藏库里加内容、怎么隐藏和恢复，以及 HTML、Markdown、TXT、PDF 各自的显示方式。",
@@ -98,7 +108,7 @@
  "kind": "feed",
  "status": "ok",
  "error": "",
- "etag": "\"babb87351f0ada4eb9da8587fa9f5b09\"",
- "modified": "Fri, 16 Oct 2026 08:09:24 GMT",
+ "etag": "\"4092d651452c933b0d0582982e32d79a\"",
+ "modified": "Fri, 16 Oct 2026 08:19:55 GMT",
  "parser": 2
 }
