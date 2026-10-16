@@ -1,7 +1,7 @@
 {
   "title": "公共目录",
-  "base_url": "",
+  "base_url": "https://adminbook.zhitree.cn/",
   "repo": "",
   "submit_api": "https://adminbook.zhitree.cn/api/submit",
-  "site": ""
+  "site": "https://books.zhitree.cn/#directory"
 }
