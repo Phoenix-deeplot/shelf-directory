@@ -1,8 +1,8 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "公共目录 · #archive",
-  "home_page_url": "https://phoenix-deeplot.github.io/shelf-directory/",
-  "feed_url": "https://phoenix-deeplot.github.io/shelf-directory/feed/tag/archive.json",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/archive.json",
   "description": "公共目录",
   "_shelf": {
     "spec": 1

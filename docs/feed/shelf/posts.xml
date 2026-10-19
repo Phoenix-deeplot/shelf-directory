@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://phoenix-deeplot.github.io/shelf-directory/feed/shelf/posts.xml</id>
+  <id>https://adminbook.zhitree.cn/feed/shelf/posts.xml</id>
   <title>公共目录 · 社区投稿</title>
   <subtitle>公共目录</subtitle>
-  <link rel="self" type="application/atom+xml" href="https://phoenix-deeplot.github.io/shelf-directory/feed/shelf/posts.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/posts.xml"/>
   <updated>2026-10-15T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://phoenix-deeplot.github.io/shelf-directory/p/r6-card/</id>
+    <id>https://adminbook.zhitree.cn/p/r6-card/</id>
     <title>政治的人生 (王沪宁)</title>
-    <link rel="alternate" type="text/html" href="https://phoenix-deeplot.github.io/shelf-directory/p/r6-card/"/>
+    <link rel="alternate" type="text/html" href="https://adminbook.zhitree.cn/p/r6-card/"/>
     <updated>2026-10-15T00:00:00Z</updated>
     <published>2026-10-15T00:00:00Z</published>
     <summary type="text">三朝国师王沪宁的个人日记</summary>
     <source><title>社区投稿</title></source>
   </entry>
   <entry>
-    <id>https://phoenix-deeplot.github.io/shelf-directory/p/p5-post/</id>
+    <id>https://adminbook.zhitree.cn/p/p5-post/</id>
     <title>从社会关系节点看"特殊地位"</title>
-    <link rel="alternate" type="text/html" href="https://phoenix-deeplot.github.io/shelf-directory/p/p5-post/"/>
+    <link rel="alternate" type="text/html" href="https://adminbook.zhitree.cn/p/p5-post/"/>
     <updated>2026-10-15T00:00:00Z</updated>
     <published>2026-10-15T00:00:00Z</published>
     <summary type="text">我们尊崇的，究竟是什么人？ Oct 15, 2026 · @phoenix 一、尊崇从何而来 如果剥离物质层面的因素，社会上是否仍有一类人能赢得普遍的尊敬、享有某种特殊地位？我想是有的：那些处于社会关系中心，并且具有利他倾向的人。 这一点，可以从一个长期的历史变化中得到印证。在相当长的时间里，大致从古代一直到市场经济兴…</summary>
