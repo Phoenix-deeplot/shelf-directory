@@ -2,6 +2,26 @@
  "id": "books-zhitree-cn",
  "items": [
   {
+   "url": "https://books.zhitree.cn/tools/supplychain/",
+   "title": "牛鞭效应模拟",
+   "summary": "以订单流、货物流和库存位置解释牛鞭效应的互动模拟。",
+   "image": "",
+   "date": "2026-10-19",
+   "tags": [],
+   "lang": "zh",
+   "type": "tool"
+  },
+  {
+   "url": "https://books.zhitree.cn/notes/personal-note.html",
+   "title": "出海 × 供应链：图谱化研究笔记 V3",
+   "summary": "不是ERP替代品，不是单纯APS，也不是让AI直接下采购决策，而是建立在现有业务系统之上的“策略与控制层”。",
+   "image": "",
+   "date": "2026-10-19",
+   "tags": [],
+   "lang": "zh",
+   "type": "note"
+  },
+  {
    "url": "https://books.zhitree.cn/tools/image-to-svg/",
    "title": "图片转高保真 SVG · 本地 Demo",
    "summary": "本地运行的 PNG/JPG 到原生 SVG 矢量化与可复现相似度验收 Demo。",
@@ -56,26 +76,6 @@
    "type": "note"
   },
   {
-   "url": "https://books.zhitree.cn/tools/supplychain/",
-   "title": "牛鞭效应模拟",
-   "summary": "以订单流、货物流和库存位置解释牛鞭效应的互动模拟。",
-   "image": "",
-   "date": "2026-10-13",
-   "tags": [],
-   "lang": "zh",
-   "type": "tool"
-  },
-  {
-   "url": "https://books.zhitree.cn/notes/personal-note.html",
-   "title": "出海 × 供应链：图谱化研究笔记 V3",
-   "summary": "不是ERP替代品，不是单纯APS，也不是让AI直接下采购决策，而是建立在现有业务系统之上的“策略与控制层”。",
-   "image": "",
-   "date": "2026-10-13",
-   "tags": [],
-   "lang": "zh",
-   "type": "note"
-  },
-  {
    "url": "https://books.zhitree.cn/books/n-ec52a8.html",
    "title": "供应链读书笔记：刘宝红两本书合读",
    "summary": "两本书合起来是一条完整的决策链：第 1 本回答为什么重资产会拖垮企业、哪些该外包；第 2 本回答外包之后供应商怎么选、怎么管，以及采购职能如何从“小采购”升级为“大采购”。",
@@ -118,7 +118,7 @@
  "kind": "feed",
  "status": "ok",
  "error": "",
- "etag": "\"45671292e829a76596f1e741021583da\"",
- "modified": "Mon, 19 Oct 2026 02:36:12 GMT",
+ "etag": "\"3951a3f22c20fcfd987c75c1443b23f7\"",
+ "modified": "Mon, 19 Oct 2026 08:50:48 GMT",
  "parser": 2
 }

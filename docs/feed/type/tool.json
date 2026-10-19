@@ -9,11 +9,11 @@
   },
   "items": [
     {
-      "id": "https://books.zhitree.cn/tools/image-to-svg/",
-      "url": "https://books.zhitree.cn/tools/image-to-svg/",
-      "title": "图片转高保真 SVG · 本地 Demo",
-      "content_text": "本地运行的 PNG/JPG 到原生 SVG 矢量化与可复现相似度验收 Demo。",
-      "summary": "本地运行的 PNG/JPG 到原生 SVG 矢量化与可复现相似度验收 Demo。",
+      "id": "https://books.zhitree.cn/tools/supplychain/",
+      "url": "https://books.zhitree.cn/tools/supplychain/",
+      "title": "牛鞭效应模拟",
+      "content_text": "以订单流、货物流和库存位置解释牛鞭效应的互动模拟。",
+      "summary": "以订单流、货物流和库存位置解释牛鞭效应的互动模拟。",
       "date_published": "2026-10-19T00:00:00Z",
       "tags": [],
       "authors": [
@@ -27,12 +27,12 @@
       }
     },
     {
-      "id": "https://books.zhitree.cn/tools/supplychain/",
-      "url": "https://books.zhitree.cn/tools/supplychain/",
-      "title": "牛鞭效应模拟",
-      "content_text": "以订单流、货物流和库存位置解释牛鞭效应的互动模拟。",
-      "summary": "以订单流、货物流和库存位置解释牛鞭效应的互动模拟。",
-      "date_published": "2026-10-13T00:00:00Z",
+      "id": "https://books.zhitree.cn/tools/image-to-svg/",
+      "url": "https://books.zhitree.cn/tools/image-to-svg/",
+      "title": "图片转高保真 SVG · 本地 Demo",
+      "content_text": "本地运行的 PNG/JPG 到原生 SVG 矢量化与可复现相似度验收 Demo。",
+      "summary": "本地运行的 PNG/JPG 到原生 SVG 矢量化与可复现相似度验收 Demo。",
+      "date_published": "2026-10-19T00:00:00Z",
       "tags": [],
       "authors": [
         {

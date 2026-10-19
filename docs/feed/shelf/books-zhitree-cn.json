@@ -9,6 +9,24 @@
   },
   "items": [
     {
+      "id": "https://books.zhitree.cn/tools/supplychain/",
+      "url": "https://books.zhitree.cn/tools/supplychain/",
+      "title": "牛鞭效应模拟",
+      "content_text": "以订单流、货物流和库存位置解释牛鞭效应的互动模拟。",
+      "summary": "以订单流、货物流和库存位置解释牛鞭效应的互动模拟。",
+      "date_published": "2026-10-19T00:00:00Z",
+      "tags": [],
+      "authors": [
+        {
+          "name": "个人数字图书馆"
+        }
+      ],
+      "_shelf": {
+        "type": "tool",
+        "shelf": "books-zhitree-cn"
+      }
+    },
+    {
       "id": "https://books.zhitree.cn/tools/image-to-svg/",
       "url": "https://books.zhitree.cn/tools/image-to-svg/",
       "title": "图片转高保真 SVG · 本地 Demo",
@@ -23,6 +41,24 @@
       ],
       "_shelf": {
         "type": "tool",
+        "shelf": "books-zhitree-cn"
+      }
+    },
+    {
+      "id": "https://books.zhitree.cn/notes/personal-note.html",
+      "url": "https://books.zhitree.cn/notes/personal-note.html",
+      "title": "出海 × 供应链：图谱化研究笔记 V3",
+      "content_text": "不是ERP替代品，不是单纯APS，也不是让AI直接下采购决策，而是建立在现有业务系统之上的“策略与控制层”。",
+      "summary": "不是ERP替代品，不是单纯APS，也不是让AI直接下采购决策，而是建立在现有业务系统之上的“策略与控制层”。",
+      "date_published": "2026-10-19T00:00:00Z",
+      "tags": [],
+      "authors": [
+        {
+          "name": "个人数字图书馆"
+        }
+      ],
+      "_shelf": {
+        "type": "note",
         "shelf": "books-zhitree-cn"
       }
     },
@@ -90,42 +126,6 @@
       "content_text": "If you contribute code to this project, you are implicitly allowing your code to be distributed under the MIT license. You are also implicitly verifying that al…",
       "summary": "If you contribute code to this project, you are implicitly allowing your code to be distributed under the MIT license. You are also implicitly verifying that al…",
       "date_published": "2026-10-16T00:00:00Z",
-      "tags": [],
-      "authors": [
-        {
-          "name": "个人数字图书馆"
-        }
-      ],
-      "_shelf": {
-        "type": "note",
-        "shelf": "books-zhitree-cn"
-      }
-    },
-    {
-      "id": "https://books.zhitree.cn/tools/supplychain/",
-      "url": "https://books.zhitree.cn/tools/supplychain/",
-      "title": "牛鞭效应模拟",
-      "content_text": "以订单流、货物流和库存位置解释牛鞭效应的互动模拟。",
-      "summary": "以订单流、货物流和库存位置解释牛鞭效应的互动模拟。",
-      "date_published": "2026-10-13T00:00:00Z",
-      "tags": [],
-      "authors": [
-        {
-          "name": "个人数字图书馆"
-        }
-      ],
-      "_shelf": {
-        "type": "tool",
-        "shelf": "books-zhitree-cn"
-      }
-    },
-    {
-      "id": "https://books.zhitree.cn/notes/personal-note.html",
-      "url": "https://books.zhitree.cn/notes/personal-note.html",
-      "title": "出海 × 供应链：图谱化研究笔记 V3",
-      "content_text": "不是ERP替代品，不是单纯APS，也不是让AI直接下采购决策，而是建立在现有业务系统之上的“策略与控制层”。",
-      "summary": "不是ERP替代品，不是单纯APS，也不是让AI直接下采购决策，而是建立在现有业务系统之上的“策略与控制层”。",
-      "date_published": "2026-10-13T00:00:00Z",
       "tags": [],
       "authors": [
         {

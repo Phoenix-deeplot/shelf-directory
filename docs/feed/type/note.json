@@ -9,6 +9,24 @@
   },
   "items": [
     {
+      "id": "https://books.zhitree.cn/notes/personal-note.html",
+      "url": "https://books.zhitree.cn/notes/personal-note.html",
+      "title": "出海 × 供应链：图谱化研究笔记 V3",
+      "content_text": "不是ERP替代品，不是单纯APS，也不是让AI直接下采购决策，而是建立在现有业务系统之上的“策略与控制层”。",
+      "summary": "不是ERP替代品，不是单纯APS，也不是让AI直接下采购决策，而是建立在现有业务系统之上的“策略与控制层”。",
+      "date_published": "2026-10-19T00:00:00Z",
+      "tags": [],
+      "authors": [
+        {
+          "name": "个人数字图书馆"
+        }
+      ],
+      "_shelf": {
+        "type": "note",
+        "shelf": "books-zhitree-cn"
+      }
+    },
+    {
       "id": "https://books.zhitree.cn/articles/notes/n-7d829a.html",
       "url": "https://books.zhitree.cn/articles/notes/n-7d829a.html",
       "title": "收藏库使用说明",
@@ -55,24 +73,6 @@
       "content_text": "If you contribute code to this project, you are implicitly allowing your code to be distributed under the MIT license. You are also implicitly verifying that al…",
       "summary": "If you contribute code to this project, you are implicitly allowing your code to be distributed under the MIT license. You are also implicitly verifying that al…",
       "date_published": "2026-10-16T00:00:00Z",
-      "tags": [],
-      "authors": [
-        {
-          "name": "个人数字图书馆"
-        }
-      ],
-      "_shelf": {
-        "type": "note",
-        "shelf": "books-zhitree-cn"
-      }
-    },
-    {
-      "id": "https://books.zhitree.cn/notes/personal-note.html",
-      "url": "https://books.zhitree.cn/notes/personal-note.html",
-      "title": "出海 × 供应链：图谱化研究笔记 V3",
-      "content_text": "不是ERP替代品，不是单纯APS，也不是让AI直接下采购决策，而是建立在现有业务系统之上的“策略与控制层”。",
-      "summary": "不是ERP替代品，不是单纯APS，也不是让AI直接下采购决策，而是建立在现有业务系统之上的“策略与控制层”。",
-      "date_published": "2026-10-13T00:00:00Z",
       "tags": [],
       "authors": [
         {
