@@ -1,13 +1,15 @@
 {
  "shelves": [
   {
-   "id": "books-zhitree-cn",
-   "kind": "feed",
-   "url": "https://books.zhitree.cn/",
-   "source": "https://books.zhitree.cn/feed.json",
-   "name": "个人数字图书馆",
+   "id": "link-a1bb3f0a",
+   "kind": "link",
+   "sub": "page",
+   "url": "https://books.zhitree.cn/notes/guide/index.html",
+   "source": "https://books.zhitree.cn/notes/guide/index.html",
+   "name": "知识树",
    "tags": [],
-   "added": "2026-10-14"
+   "added": "2026-10-19",
+   "issue": 7
   }
  ]
 }
