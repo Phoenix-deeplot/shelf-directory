@@ -1,5 +1,7 @@
 /* Directory admin: the applications (GitHub issues), approve / reject, and what is listed (with delete).
-   There is no back end: this page talks to the GitHub API with the maintainer's own token, in the maintainer's own browser.
+   Two ways in. With a password (when the site's function /api/admin is set up) the GitHub token stays on the server: this page only holds a session that
+   expires, and every GitHub request goes through that function, which allows a short list of them. Without it, this page talks to the GitHub API
+   itself, with the maintainer's own token, in the maintainer's own browser.
    Everything that comes from outside (issue texts, titles, addresses) is put on the page as text, or through DOMPurify; the page's CSP forbids inline script. */
 (function(){
 'use strict';
@@ -7,24 +9,42 @@ const $ = s => document.querySelector(s);
 const params = new URLSearchParams(location.search);
 const LOCAL = /^(127\.0\.0\.1|localhost)$/.test(location.hostname);       // ?api= and ?repo= exist to try this page against a fake GitHub on this computer
 const API = (LOCAL && params.get('api')) || 'https://api.github.com';
+const ADMIN_API = '../api/admin';
 const BOT = '<!-- shelf-directory-bot -->';
-const state = { repo: '', token: '', branch: 'main', directory: null, directoryUrl: '', directoryFrom: '', busy: false };
+const state = { repo: '', token: '', session: '', mode: 'token', passwordSite: false, branch: 'main', directory: null, directoryUrl: '', directoryFrom: '', busy: false };
 
-/* ---------- token ---------- */
-const store = {
-  get(){ try{ return localStorage.getItem('shelf.token') || sessionStorage.getItem('shelf.token') || ''; }catch(e){ return ''; } },
-  set(t, remember){ try{ (remember ? localStorage : sessionStorage).setItem('shelf.token', t); (remember ? sessionStorage : localStorage).removeItem('shelf.token'); }catch(e){} },
-  clear(){ try{ localStorage.removeItem('shelf.token'); sessionStorage.removeItem('shelf.token'); }catch(e){} }
-};
+/* ---------- token / session (in this browser only) ---------- */
+function keeper(name){
+  return {
+    get(){ try{ return localStorage.getItem(name) || sessionStorage.getItem(name) || ''; }catch(e){ return ''; } },
+    remembered(){ try{ return !!localStorage.getItem(name); }catch(e){ return false; } },
+    set(t, remember){ try{ (remember ? localStorage : sessionStorage).setItem(name, t); (remember ? sessionStorage : localStorage).removeItem(name); }catch(e){} },
+    clear(){ try{ localStorage.removeItem(name); sessionStorage.removeItem(name); }catch(e){} }
+  };
+}
+const store = keeper('shelf.token'), sessions = keeper('shelf.session');
 
 /* ---------- GitHub ---------- */
 async function gh(method, path, body){
+  if(state.mode === 'password') return ghViaServer(method, path, body);
   const headers = { Authorization: 'Bearer ' + state.token, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' };
   if(body !== undefined) headers['Content-Type'] = 'application/json';
   const r = await fetch(API + path, { method, headers, body: body === undefined ? undefined : JSON.stringify(body) });
   let data = null; try{ data = r.status === 204 ? null : await r.json(); }catch(e){}
   return { status: r.status, ok: r.ok, data };
 }
+/* The same call, asked of the site's function: it checks the session, allows only what this page does, and adds the token. */
+async function ghViaServer(method, path, body){
+  let r, j = null;
+  try{
+    r = await fetch(ADMIN_API, { method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + state.session }, body: JSON.stringify({ action: 'gh', method, path, body: body === undefined ? null : body }) });
+    try{ j = await r.json(); }catch(e){}
+  }catch(e){ throw new Error('连不上管理服务，请检查网络后再试'); }
+  if(r.status === 401 && j && j.error === 'session'){ signedOut('登录已过期，请重新输入密码'); throw new Error('登录已过期，请重新输入密码'); }
+  if(!j || !j.ok) throw new Error((j && j.message) || ('管理服务出错：HTTP ' + r.status));
+  return { status: j.status, ok: j.status >= 200 && j.status < 300, data: j.data };
+}
+function signedOut(msg){ sessions.clear(); state.session = ''; showLogin(msg); }
 const need = (r, what) => { if(!r.ok) throw new Error(what + '：HTTP ' + r.status + (r.data && r.data.message ? ' ' + r.data.message : '')); return r.data; };
 
 /* ---------- small helpers ---------- */
@@ -207,18 +227,28 @@ async function renderDone(){
 /* Where the data lives: on GitHub Pages (next to this page) it is ../directory.json. On the submit function's own site (Vercel) that file is only a copy from the last deploy,
    so the function says (GET ../api/submit) which repository and which published address to use. */
 async function discover(){
-  if(LOCAL && params.get('repo')) return { repo: params.get('repo'), directory: '' };
+  let password = false;
+  try{                                                                      // is there a password on this site? (only the site that serves the function answers)
+    const r = await fetch(ADMIN_API, { cache: 'no-store' });
+    if(r.ok){ const d = await r.json(); password = !!(d && d.service === 'shelf-admin' && d.configured); }
+  }catch(e){}
+  if(LOCAL && params.get('repo')) return { repo: params.get('repo'), directory: '', password };
   try{
     const r = await fetch('../api/submit', { cache: 'no-store' });
-    if(r.ok){ const d = await r.json(); if(d && d.repo) return { repo: d.repo, directory: /^https:\/\/[^\s]+\/$/.test(d.directory || '') ? d.directory : '' }; }
+    if(r.ok){ const d = await r.json(); if(d && d.repo) return { repo: d.repo, directory: /^https:\/\/[^\s]+\/$/.test(d.directory || '') ? d.directory : '', password }; }
   }catch(e){}
-  return { repo: '', directory: '' };
+  return { repo: '', directory: '', password };
 }
 /* With a token the list of what is listed is read from the repository itself (the committed docs/directory.json): it is right the moment an approval has been committed,
    without waiting for GitHub Pages to rebuild. Without one (or if that fails) the published copy is used. */
 async function loadDirectory(){
   state.directory = null; state.directoryFrom = '';
-  if(state.token && state.repo){
+  if(state.mode === 'password' && state.session && state.repo){
+    try{
+      const r = await gh('GET', `/repos/${state.repo}/contents/docs/directory.json`);
+      if(r.ok && r.data && typeof r.data === 'object'){ state.directory = r.data; state.directoryFrom = 'repo'; return; }
+    }catch(e){}
+  }else if(state.token && state.repo){
     try{
       const r = await fetch(API + `/repos/${state.repo}/contents/docs/directory.json`, { cache: 'no-store', headers: { Authorization: 'Bearer ' + state.token, Accept: 'application/vnd.github.raw+json', 'X-GitHub-Api-Version': '2022-11-28' } });
       if(r.ok){ state.directory = await r.json(); state.directoryFrom = 'repo'; return; }
@@ -232,25 +262,57 @@ async function refresh(){
   catch(e){ say(e.message, 'bad'); }
   state.busy = false;
 }
-async function connect(token, remember){
-  state.token = token;
-  const info = need(await gh('GET', `/repos/${state.repo}`), '连接仓库 ' + state.repo + '（令牌是否选了这个仓库？）');
+async function enter(info, weak){
   state.branch = info.default_branch || 'main';
-  if(info.permissions && !info.permissions.push) throw new Error('这个令牌对仓库没有写权限（Issues 和 Actions 要选 Read and write）');
-  store.set(token, remember);
+  if(info.permissions && !info.permissions.push) throw new Error(weak);
   $('#login').hidden = true; $('#app').hidden = false;
   ['#refreshBtn', '#dailyBtn', '#logoutBtn'].forEach(s => { $(s).hidden = false; });
   await refresh();
 }
-function showLogin(msg){ $('#app').hidden = true; $('#login').hidden = false; ['#refreshBtn', '#dailyBtn', '#logoutBtn'].forEach(s => { $(s).hidden = true; }); $('#loginMsg').textContent = msg || ''; $('#loginMsg').className = 'msg' + (msg ? ' bad' : ''); }
+async function connect(token, remember){                                    // the maintainer's own GitHub token, used from this browser
+  state.mode = 'token'; state.token = token;
+  const info = need(await gh('GET', `/repos/${state.repo}`), '连接仓库 ' + state.repo + '（令牌是否选了这个仓库？）');
+  if(info.permissions && !info.permissions.push) throw new Error('这个令牌对仓库没有写权限（Issues 和 Actions 要选 Read and write）');
+  if(!state.passwordSite) store.set(token, remember);                       // where a password exists no token is ever kept in the browser
+  await enter(info);
+}
+async function connectSession(session, remember){                          // a session from the password form (or kept from an earlier visit)
+  state.mode = 'password'; state.session = session;
+  const info = need(await gh('GET', `/repos/${state.repo}`), '连接仓库 ' + state.repo);
+  sessions.set(session, remember);
+  await enter(info, '服务器上的 GitHub 令牌对仓库没有写权限（Issues 和 Actions 要选 Read and write）');
+}
+function showLogin(msg){
+  state.session = ''; state.token = ''; state.mode = state.passwordSite ? 'password' : 'token';
+  $('#app').hidden = true; $('#login').hidden = false; ['#refreshBtn', '#dailyBtn', '#logoutBtn'].forEach(s => { $(s).hidden = true; });
+  $('#pwBox').hidden = !state.passwordSite; $('#setupPw').hidden = state.passwordSite;
+  $('#tokenBox').open = !state.passwordSite; $('#rememberRow').hidden = state.passwordSite;
+  $('#tokenSummary').textContent = state.passwordSite ? '改用 GitHub 令牌登录（高级）' : '用 GitHub 令牌登录';
+  $('#loginMsg').textContent = msg || ''; $('#loginMsg').className = 'msg' + (msg ? ' bad' : '');
+}
 
 $('#loginForm').addEventListener('submit', async e => {
   e.preventDefault(); const t = $('#token').value.trim(); if(!t) return;
   $('#loginMsg').textContent = '连接中…'; $('#loginMsg').className = 'msg';
   try{ await connect(t, $('#remember').checked); $('#token').value = ''; }catch(err){ showLogin(err.message); }
 });
+$('#pwForm').addEventListener('submit', async e => {
+  e.preventDefault(); const pw = $('#pw').value; if(!pw) return;
+  $('#loginMsg').textContent = '登录中…'; $('#loginMsg').className = 'msg';
+  const remember = $('#pwRemember').checked;
+  try{
+    let r, j = null;
+    try{
+      r = await fetch(ADMIN_API, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ action: 'login', password: pw, remember }) });
+      try{ j = await r.json(); }catch(x){}
+    }catch(x){ throw new Error('连不上管理服务，请检查网络后再试'); }
+    if(!j || !j.ok || !j.session) throw new Error((j && j.message) || ('登录失败：HTTP ' + r.status));
+    $('#pw').value = '';
+    await connectSession(j.session, remember);
+  }catch(err){ showLogin(err.message); }
+});
 $('#refreshBtn').addEventListener('click', refresh);
-$('#logoutBtn').addEventListener('click', () => { store.clear(); state.token = ''; showLogin(''); });
+$('#logoutBtn').addEventListener('click', () => { store.clear(); sessions.clear(); state.token = ''; state.session = ''; showLogin(''); });
 $('#dailyBtn').addEventListener('click', async () => { try{ await dispatch('daily.yml'); say('已触发更新，约 1–2 分钟后点“刷新”。', 'good'); }catch(e){ say(e.message, 'bad'); } });
 document.querySelectorAll('[data-tab]').forEach(b => b.addEventListener('click', () => {
   document.querySelectorAll('[data-tab]').forEach(x => x.setAttribute('aria-selected', String(x === b)));
@@ -260,10 +322,17 @@ document.querySelectorAll('[data-tab]').forEach(b => b.addEventListener('click',
 (async function boot(){
   const found = await discover();
   state.directoryUrl = found.directory;
+  state.passwordSite = found.password; state.mode = found.password ? 'password' : 'token';
   await loadDirectory();
   state.repo = found.repo || (state.directory && state.directory.repo) || '';
   $('#repoName').textContent = state.repo;
   if(!state.repo){ showLogin('读不到目录信息（directory.json 里没有仓库名）。确认目录已经发布过。'); return; }
+  if(state.passwordSite){
+    store.clear();                                                          // a GitHub token kept here by the old way of signing in is not needed any more: do not leave it lying around
+    const kept = sessions.get();
+    if(kept){ try{ await connectSession(kept, sessions.remembered()); return; }catch(e){ sessions.clear(); showLogin(e.message); return; } }
+    showLogin(''); return;
+  }
   const saved = store.get();
   if(saved){ try{ await connect(saved, !!localStorage.getItem('shelf.token')); return; }catch(e){ store.clear(); showLogin(e.message); return; } }
   showLogin('');

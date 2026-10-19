@@ -2149,20 +2149,21 @@ LABEL_COLORS = {'shelf-submission': '1F7A6D', 'post-submission': '1F7A6D', 'chec
                 'rejected': '6A737D', 'listed': '0052CC', 'takedown': 'FBCA04', 'similar': 'FBCA04'}
 
 
-def gh_call(method, path, body=None, token=None):
-    """One GitHub REST call -> (status, decoded JSON or None). Never raises on an HTTP error: the caller decides what it means."""
+def gh_call(method, path, body=None, token=None, accept=None, limit=None):
+    """One GitHub REST call -> (status, decoded JSON or None). Never raises on an HTTP error: the caller decides what it means.
+    `accept` (for example the raw media type, to get a file's own JSON) and `limit` (bytes) are for the few callers that read a big file."""
     token = token or os.environ.get('GITHUB_TOKEN') or os.environ.get('GH_TOKEN')
     if not token:
         raise Refused('没有 GITHUB_TOKEN（只能在 GitHub Action 里回复 issue）', 'No GITHUB_TOKEN (replying to an issue works inside the GitHub Action only)')
     data = json.dumps(body).encode('utf-8') if body is not None else None
-    headers = {'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28', 'User-Agent': UA}
+    headers = {'Authorization': 'Bearer ' + token, 'Accept': accept or 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28', 'User-Agent': UA}
     if data is not None:
         headers['Content-Type'] = 'application/json'
     handlers = [urllib.request.ProxyHandler({})] if ALLOW_LOCAL else []
     req = urllib.request.Request(GITHUB_API + path, data=data, method=method, headers=headers)
     try:
         with urllib.request.build_opener(*handlers).open(req, timeout=TIMEOUT) as r:
-            raw = r.read(MAX_BYTES)
+            raw = r.read(limit or MAX_BYTES)
             return r.status, (json.loads(raw.decode('utf-8')) if raw else None)
     except urllib.error.HTTPError as e:
         raw = e.read(4000)

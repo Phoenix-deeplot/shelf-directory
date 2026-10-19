@@ -22,22 +22,42 @@
 
 <main>
   <section id="login" hidden>
-    <h2>连接你的 GitHub</h2>
-    <p>这个页面没有后台：它用你的 GitHub 令牌，直接在你的浏览器里读写这个仓库的申请（issue）和触发更新。令牌不会发给任何别的地方。</p>
-    <form id="loginForm" autocomplete="off">
-      <label for="token">GitHub 令牌（fine-grained personal access token）</label>
-      <input id="token" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…">
-      <label class="check"><input type="checkbox" id="remember"> 在这个浏览器里记住令牌（不勾选则关闭标签页就忘掉）</label>
-      <button type="submit" class="primary">连接</button>
-      <p id="loginMsg" class="msg" role="status"></p>
-    </form>
-    <details>
-      <summary>怎么拿令牌</summary>
+    <div id="pwBox" hidden>
+      <h2>输入管理密码</h2>
+      <p>密码在服务器上核对。GitHub 令牌放在服务器的环境变量里，不会出现在这个浏览器里；登录后拿到的只是一个会过期的通行证，只能做管理页上的几件事（看申请、通过 / 拒绝、删除已收录的、更新目录）。</p>
+      <form id="pwForm">
+        <label for="pw">管理密码</label>
+        <input id="pw" type="password" autocomplete="current-password" spellcheck="false">
+        <label class="check"><input type="checkbox" id="pwRemember"> 在这台设备上记住登录（14 天；不勾选则关闭标签页或 8 小时后要重新输入）</label>
+        <button type="submit" class="primary">登录</button>
+      </form>
+    </div>
+    <p id="loginMsg" class="msg" role="status"></p>
+    <details id="tokenBox">
+      <summary id="tokenSummary">用 GitHub 令牌登录</summary>
+      <p id="tokenIntro">这个页面也可以不经过服务器：用你的 GitHub 令牌，直接在你的浏览器里读写这个仓库的申请（issue）和触发更新。令牌不会发给 GitHub 以外的任何地方。</p>
+      <form id="loginForm" autocomplete="off">
+        <label for="token">GitHub 令牌（fine-grained personal access token）</label>
+        <input id="token" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…">
+        <label class="check" id="rememberRow"><input type="checkbox" id="remember"> 在这个浏览器里记住令牌（不勾选则关闭标签页就忘掉）</label>
+        <button type="submit" class="primary">连接</button>
+      </form>
+      <details>
+        <summary>怎么拿令牌</summary>
+        <ol>
+          <li>GitHub → 右上角头像 → Settings → Developer settings → Personal access tokens → <b>Fine-grained tokens</b> → Generate new token。</li>
+          <li>Repository access 选 <b>Only select repositories</b>，只选目录这个仓库。</li>
+          <li>Permissions → Repository permissions：<b>Issues: Read and write</b>，<b>Actions: Read and write</b>（Metadata 自动是只读）。</li>
+          <li>设一个有效期（比如 90 天），生成后复制到上面。这个令牌只能操作这一个仓库。</li>
+        </ol>
+      </details>
+    </details>
+    <details id="setupPw" hidden>
+      <summary>想改成输入密码就能管理？</summary>
       <ol>
-        <li>GitHub → 右上角头像 → Settings → Developer settings → Personal access tokens → <b>Fine-grained tokens</b> → Generate new token。</li>
-        <li>Repository access 选 <b>Only select repositories</b>，只选目录这个仓库。</li>
-        <li>Permissions → Repository permissions：<b>Issues: Read and write</b>，<b>Actions: Read and write</b>（Metadata 自动是只读）。</li>
-        <li>设一个有效期（比如 90 天），生成后复制到上面。这个令牌只能操作这一个仓库。</li>
+        <li>在 GitHub 再生成一个令牌（同上：只选这个仓库，<b>Issues</b> 和 <b>Actions</b> 读写，再加 <b>Contents: Read-only</b>），<b>不要</b>和访客提交用的那个共用。</li>
+        <li>在 Vercel 的这个项目里加两个环境变量：<code>ADMIN_GITHUB_TOKEN</code>（上面的令牌）和 <code>ADMIN_PASSWORD</code>（你想用的密码，至少 12 个字符，最好是一句长长的话）。</li>
+        <li>重新部署一次（<code>vercel --prod</code>），刷新这个页面，就会出现密码框。</li>
       </ol>
     </details>
   </section>
