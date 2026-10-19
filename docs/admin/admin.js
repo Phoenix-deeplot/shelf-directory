@@ -11,7 +11,7 @@ const LOCAL = /^(127\.0\.0\.1|localhost)$/.test(location.hostname);       // ?ap
 const API = (LOCAL && params.get('api')) || 'https://api.github.com';
 const ADMIN_API = '../api/admin';
 const BOT = '<!-- shelf-directory-bot -->';
-const state = { repo: '', token: '', session: '', mode: 'token', passwordSite: false, branch: 'main', directory: null, directoryUrl: '', directoryFrom: '', busy: false };
+const state = { repo: '', token: '', session: '', mode: 'token', passwordSite: false, pwProblem: '', branch: 'main', directory: null, directoryUrl: '', directoryFrom: '', busy: false };
 
 /* ---------- token / session (in this browser only) ---------- */
 function keeper(name){
@@ -226,18 +226,26 @@ async function renderDone(){
 /* ---------- start ---------- */
 /* Where the data lives: on GitHub Pages (next to this page) it is ../directory.json. On the submit function's own site (Vercel) that file is only a copy from the last deploy,
    so the function says (GET ../api/submit) which repository and which published address to use. */
+const WHY = {
+  short: '服务器上已经有 ADMIN_PASSWORD，但不到 12 个字符，所以密码登录没有启用。换一个至少 12 个字符的，再重新部署。',
+  password: '服务器上还没有 ADMIN_PASSWORD（要加在 Production 环境里；加完要重新部署一次才生效）。',
+  token: '服务器上还没有 ADMIN_GITHUB_TOKEN（要加在 Production 环境里；加完要重新部署一次才生效）。',
+  repo: '服务器上的 SHELF_REPO 不对：要写成 用户名/仓库名。',
+  absent: '这个站点上没有找到 /api/admin：管理密码功能还没有部署到这里（GitHub Pages 上的管理页没有它，只能用令牌）。',
+  unknown: '服务器上的管理密码还没有配置好。'
+};
 async function discover(){
-  let password = false;
+  let password = false, problem = 'absent';
   try{                                                                      // is there a password on this site? (only the site that serves the function answers)
     const r = await fetch(ADMIN_API, { cache: 'no-store' });
-    if(r.ok){ const d = await r.json(); password = !!(d && d.service === 'shelf-admin' && d.configured); }
+    if(r.ok){ const d = await r.json(); if(d && d.service === 'shelf-admin'){ password = !!d.configured; problem = d.configured ? '' : (d.problem || 'unknown'); } }
   }catch(e){}
-  if(LOCAL && params.get('repo')) return { repo: params.get('repo'), directory: '', password };
+  if(LOCAL && params.get('repo')) return { repo: params.get('repo'), directory: '', password, problem };
   try{
     const r = await fetch('../api/submit', { cache: 'no-store' });
-    if(r.ok){ const d = await r.json(); if(d && d.repo) return { repo: d.repo, directory: /^https:\/\/[^\s]+\/$/.test(d.directory || '') ? d.directory : '', password }; }
+    if(r.ok){ const d = await r.json(); if(d && d.repo) return { repo: d.repo, directory: /^https:\/\/[^\s]+\/$/.test(d.directory || '') ? d.directory : '', password, problem }; }
   }catch(e){}
-  return { repo: '', directory: '', password };
+  return { repo: '', directory: '', password, problem };
 }
 /* With a token the list of what is listed is read from the repository itself (the committed docs/directory.json): it is right the moment an approval has been committed,
    without waiting for GitHub Pages to rebuild. Without one (or if that fails) the published copy is used. */
@@ -286,6 +294,7 @@ function showLogin(msg){
   state.session = ''; state.token = ''; state.mode = state.passwordSite ? 'password' : 'token';
   $('#app').hidden = true; $('#login').hidden = false; ['#refreshBtn', '#dailyBtn', '#logoutBtn'].forEach(s => { $(s).hidden = true; });
   $('#pwBox').hidden = !state.passwordSite; $('#setupPw').hidden = state.passwordSite;
+  if(!state.passwordSite){ $('#setupWhy').textContent = WHY[state.pwProblem] || ''; $('#setupPw').open = !!WHY[state.pwProblem]; }          // say what is missing, instead of leaving a guess
   $('#tokenBox').open = !state.passwordSite; $('#rememberRow').hidden = state.passwordSite;
   $('#tokenSummary').textContent = state.passwordSite ? '改用 GitHub 令牌登录（高级）' : '用 GitHub 令牌登录';
   $('#loginMsg').textContent = msg || ''; $('#loginMsg').className = 'msg' + (msg ? ' bad' : '');
@@ -322,7 +331,7 @@ document.querySelectorAll('[data-tab]').forEach(b => b.addEventListener('click',
 (async function boot(){
   const found = await discover();
   state.directoryUrl = found.directory;
-  state.passwordSite = found.password; state.mode = found.password ? 'password' : 'token';
+  state.passwordSite = found.password; state.pwProblem = found.problem; state.mode = found.password ? 'password' : 'token';
   await loadDirectory();
   state.repo = found.repo || (state.directory && state.directory.repo) || '';
   $('#repoName').textContent = state.repo;

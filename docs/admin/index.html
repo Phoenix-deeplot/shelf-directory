@@ -54,6 +54,7 @@
     </details>
     <details id="setupPw" hidden>
       <summary>想改成输入密码就能管理？</summary>
+      <p id="setupWhy" class="msg bad" role="status"></p>
       <ol>
         <li>在 GitHub 再生成一个令牌（同上：只选这个仓库，<b>Issues</b> 和 <b>Actions</b> 读写，再加 <b>Contents: Read-only</b>），<b>不要</b>和访客提交用的那个共用。</li>
         <li>在 Vercel 的这个项目里加两个环境变量：<code>ADMIN_GITHUB_TOKEN</code>（上面的令牌）和 <code>ADMIN_PASSWORD</code>（你想用的密码，至少 12 个字符，最好是一句长长的话）。</li>

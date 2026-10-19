@@ -39,8 +39,22 @@ def settings(env):
             'password': str(env.get('ADMIN_PASSWORD') or '').strip(), 'salt': str(env.get('IP_SALT') or '')}
 
 
+def problem(cfg):
+    """What is missing, as a short code ('' when all is set): the admin page says it, so that nobody has to guess which of three environment variables is wrong.
+    Only the *name* of what is missing is told, never a value."""
+    if not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', cfg['repo']):
+        return 'repo'
+    if not cfg['password']:
+        return 'password'
+    if len(cfg['password']) < MIN_PASSWORD:
+        return 'short'
+    if not cfg['token']:
+        return 'token'
+    return ''
+
+
 def configured(cfg):
-    return bool(re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', cfg['repo']) and cfg['token'] and len(cfg['password']) >= MIN_PASSWORD)
+    return not problem(cfg)
 
 
 # ---------------------------------------------------------------- sessions
@@ -199,7 +213,8 @@ def respond(h, env, method):
         h.wfile.write(data)
 
     if method == 'GET':                                                      # no secret in here: the admin page asks whether to show the password form
-        return send(200, {'ok': True, 'service': 'shelf-admin', 'configured': configured(cfg)})
+        why = problem(cfg)
+        return send(200, {'ok': True, 'service': 'shelf-admin', 'configured': not why, **({'problem': why} if why else {})})
     try:
         length = int(h.headers.get('Content-Length') or 0)
     except ValueError:

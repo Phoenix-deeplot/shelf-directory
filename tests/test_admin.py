@@ -101,6 +101,13 @@ class TestLogin(AdminBase):
             self.assertEqual((st, body['error']), (503, 'not_configured'))
         self.assertTrue(adm.configured(adm.settings(self.env)))
 
+    def test_what_is_missing_is_named_never_shown(self):
+        self.assertEqual(adm.problem(adm.settings(self.env)), '')
+        for change, code in (({'ADMIN_PASSWORD': ''}, 'password'), ({'ADMIN_PASSWORD': 'short'}, 'short'), ({'ADMIN_PASSWORD': '12345678901'}, 'short'), ({'ADMIN_GITHUB_TOKEN': ''}, 'token'),
+                             ({'SHELF_REPO': ''}, 'repo'), ({'SHELF_REPO': 'no slash'}, 'repo')):
+            self.assertEqual(adm.problem(adm.settings({**self.env, **change})), code, change)
+        self.assertEqual(adm.problem(adm.settings({**self.env, 'ADMIN_PASSWORD': '123456789012'})), '')           # exactly 12 is enough
+
     def test_nothing_secret_is_ever_in_an_answer(self):
         everything = [self.login(), self.login('no'), self.gh(self.session(), 'GET', '/repos/o/r')]
         text = json.dumps(everything)
@@ -283,8 +290,13 @@ class TestHttp(AdminBase):
         self.assertEqual((st, body), (200, {'ok': True, 'service': 'shelf-admin', 'configured': True}))
         self.assertEqual(h.get('Cache-Control'), 'no-store')
         self.env['ADMIN_PASSWORD'] = 'short'
-        self.assertEqual(self.request(port, 'GET')[2]['configured'], False)
-        self.assertNotIn(PASSWORD, json.dumps(body))
+        st, _, body = self.request(port, 'GET')
+        self.assertEqual((st, body), (200, {'ok': True, 'service': 'shelf-admin', 'configured': False, 'problem': 'short'}))       # says what is wrong, not the value
+        self.env['ADMIN_PASSWORD'] = ''
+        self.assertEqual(self.request(port, 'GET')[2]['problem'], 'password')
+        self.env['ADMIN_PASSWORD'] = PASSWORD
+        self.env['ADMIN_GITHUB_TOKEN'] = ''
+        self.assertEqual(self.request(port, 'GET')[2]['problem'], 'token')
 
     def test_sign_in_and_use_over_http(self):
         port = self.serve()
