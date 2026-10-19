@@ -9,6 +9,24 @@
   },
   "items": [
     {
+      "id": "https://books.zhitree.cn/tools/image-to-svg/",
+      "url": "https://books.zhitree.cn/tools/image-to-svg/",
+      "title": "图片转高保真 SVG · 本地 Demo",
+      "content_text": "本地运行的 PNG/JPG 到原生 SVG 矢量化与可复现相似度验收 Demo。",
+      "summary": "本地运行的 PNG/JPG 到原生 SVG 矢量化与可复现相似度验收 Demo。",
+      "date_published": "2026-10-19T00:00:00Z",
+      "tags": [],
+      "authors": [
+        {
+          "name": "个人数字图书馆"
+        }
+      ],
+      "_shelf": {
+        "type": "tool",
+        "shelf": "books-zhitree-cn"
+      }
+    },
+    {
       "id": "https://books.zhitree.cn/books/z-library-sk-1lib-sk-z-lib-sk-988be9.pdf",
       "url": "https://books.zhitree.cn/books/z-library-sk-1lib-sk-z-lib-sk-988be9.pdf",
       "title": "政治的人生 (王沪宁)",
