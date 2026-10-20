@@ -58,6 +58,15 @@
 
 排重先读**仓库里的** `registry/shelves.json`（刚通过的马上算），再读已发布的 `directory.json`；不用数据库：队列就是仓库里待审的 issue，限流靠 issue 里的一个加盐哈希。
 
+### B2. 读者订阅的“更新服务”（`api/feed.py`，不用任何设置）
+
+主站的读者可以在“添加 → 订阅”里订阅自己想读的博客和文章源，订阅清单和文章只存在他们自己的浏览器里。网页读不了别人的网站，所以由这个函数代读。它**不存任何东西**：没有数据库、不要 GitHub 令牌、不要环境变量，和提交服务部署在同一个 Vercel 项目里，部署完就有。
+
+- `POST /api/feed`，两个动作：`{"action":"discover","url":…}`（这个网址是订阅源还是一个页面？订阅源返回名字和最近几篇，页面返回标题和摘要）；`{"action":"update","feeds":[{"url","etag","modified"}]}`（一次最多 20 个，返回每个源的新文章，没变化的返回 `unchanged`，读不了的返回原因，一个出错不影响别的）。
+- 读取用的是目录自己的受限代码（`aggregate.py`：只走 https:443、只连公网地址并固定到检查过的那个 IP、重定向每一跳重查、限制大小和时间；普通页面还要 robots.txt 允许），比 Action 里的更紧；返回的只有标题、摘要、链接、日期、语言、类型，不返回页面正文。GitHub 仓库暂时不能订阅。
+- 每个来访者每 10 分钟最多 15 次查找、40 次更新（按暖实例计的软限制，真正的限流在 Vercel）；页面来源和提交服务一样由 `ALLOWED_ORIGINS` 控制（默认 `https://books.zhitree.cn`）。
+- 主站页面通过 `directory.json` 里的 `submit_api` 找到它（末尾的 `/submit` 换成 `/feed`）；想指向别处，在 `registry/config.json` 里写 `"feed_api": "https://…/api/feed"`。打开 `https://你的目录站点/api/feed`，应该看到 `{"ok": true, "service": "shelf-feed"}`。
+
 ### C. 管理页
 
 打开 Vercel 项目的 `/admin/`（例如 `https://adminbook.zhitree.cn/admin/`）。有两种登录方式：

@@ -1691,7 +1691,8 @@ def build():
     day = today().isoformat()
     out = {}                                                # relative path -> text
     out.update(post_pages)
-    out['directory.json'] = json.dumps({'spec': 1, 'title': cfg.get('title') or 'Shelf directory', 'repo': repo, 'submit_api': str(cfg.get('submit_api') or '').strip(), 'generated': day, 'base': base, 'count': len(items), 'types': types, 'shelves': shelf_list,
+    out['directory.json'] = json.dumps({'spec': 1, 'title': cfg.get('title') or 'Shelf directory', 'repo': repo, 'submit_api': str(cfg.get('submit_api') or '').strip(),
+                                        **({'feed_api': str(cfg['feed_api']).strip()} if str(cfg.get('feed_api') or '').strip() else {}), 'generated': day, 'base': base, 'count': len(items), 'types': types, 'shelves': shelf_list,
                                         'tags': tags[:300], 'feeds': {'all': 'feed/all', 'type': 'feed/type/{type}', 'tag': 'feed/tag/{slug}', 'shelf': 'feed/shelf/{id}'},
                                         'items': items}, ensure_ascii=False, separators=(',', ':')) + '\n'
     title = cfg.get('title') or 'Shelf directory'
