@@ -1,0 +1,222 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #工具",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-a72ef1.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://sspai.com/post/115090",
+      "url": "https://sspai.com/post/115090",
+      "title": "终于吃到了那颗梦寐以求的小药丸：我的 ADHD 诊疗记",
+      "content_text": "药物不能解决所有问题，这是是我学到的重要一课。查看全文",
+      "summary": "药物不能解决所有问题，这是是我学到的重要一课。查看全文",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "效率",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "少数派"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sspai-com"
+      }
+    },
+    {
+      "id": "https://sspai.com/post/116953",
+      "url": "https://sspai.com/post/116953",
+      "title": "派早报：荣耀发布 WIN2 系列新品、Google 开源 TorchTPU 等",
+      "content_text": "OpenBSD 8.0 正式发布、腾讯宣布元宝搜索对外开放等。查看全文",
+      "summary": "OpenBSD 8.0 正式发布、腾讯宣布元宝搜索对外开放等。查看全文",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "效率",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "少数派"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sspai-com"
+      }
+    },
+    {
+      "id": "https://sspai.com/post/115437",
+      "url": "https://sspai.com/post/115437",
+      "title": "把 Muse 装进 ESP-Mosaico：做一个没用的东西，证明 Vibe Coding 也在硬件领域快速成长",
+      "content_text": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
+      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "效率",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "少数派"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sspai-com"
+      }
+    },
+    {
+      "id": "https://sspai.com/post/116923",
+      "url": "https://sspai.com/post/116923",
+      "title": "前瞻｜Apple 新品看点：MacBook 或将推出 OLED 触屏版本",
+      "content_text": "配备触摸屏的 OLED 版 MacBook 型号很可能是这次活动的主角。查看全文",
+      "summary": "配备触摸屏的 OLED 版 MacBook 型号很可能是这次活动的主角。查看全文",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "效率",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "少数派"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sspai-com"
+      }
+    },
+    {
+      "id": "https://sspai.com/post/116820",
+      "url": "https://sspai.com/post/116820",
+      "title": "社区速递 162 | MUJI 靠垫、中兴路由器与派友们的长假吃灰装备",
+      "content_text": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文",
+      "summary": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "效率",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "少数派"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sspai-com"
+      }
+    },
+    {
+      "id": "https://sspai.com/post/116887",
+      "url": "https://sspai.com/post/116887",
+      "title": "派早报：美国政府指示各机构停用 DeepSeek、理想发布「连山」自研三电体系等",
+      "content_text": "工信部就自动泊车等五项强制性国标征求意见，万事达卡 Apple Pay 新增 3 家合作银行等。查看全文",
+      "summary": "工信部就自动泊车等五项强制性国标征求意见，万事达卡 Apple Pay 新增 3 家合作银行等。查看全文",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "效率",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "少数派"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sspai-com"
+      }
+    },
+    {
+      "id": "https://sspai.com/post/115107",
+      "url": "https://sspai.com/post/115107",
+      "title": "怀旧手记｜世界首台 UMPC：三星 Q1，和当下平板有什么关系？",
+      "content_text": "电脑与平板之间的界限，早在 20 年前的三星 Q1 上就已经可以随意切换了。查看全文",
+      "summary": "电脑与平板之间的界限，早在 20 年前的三星 Q1 上就已经可以随意切换了。查看全文",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "效率",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "少数派"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sspai-com"
+      }
+    },
+    {
+      "id": "https://sspai.com/post/116445",
+      "url": "https://sspai.com/post/116445",
+      "title": "Vitals：什么在拖慢你的 Mac？它比「活动监视器」更直观易用",
+      "content_text": "如果你希望更直观地分析 App 资源消耗、追踪历史变化，或者经常在 Mac 上进行开发和本地 AI 推理，Vitals 提供的整合式监控与 AI 协作能力更值得尝试。查看全文",
+      "summary": "如果你希望更直观地分析 App 资源消耗、追踪历史变化，或者经常在 Mac 上进行开发和本地 AI 推理，Vitals 提供的整合式监控与 AI 协作能力更值得尝试。查看全文",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "效率",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "少数派"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sspai-com"
+      }
+    },
+    {
+      "id": "https://sspai.com/prime/story/inside-release-notes-261020",
+      "url": "https://sspai.com/prime/story/inside-release-notes-261020",
+      "title": "具透 Plus：Firefox 被「中途喝止」的界面现代化改造；Pixel 不再为 VoLTE 发愁",
+      "content_text": "FirefoxNova：被「中途喝止」的界面现代化改造@PlatyHsu:9月29日，Mozilla随Firefox157推出了代号为Nova的全新设计。这是继2021年Proton改版以来，Fire ...查看全文 本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
+      "summary": "FirefoxNova：被「中途喝止」的界面现代化改造@PlatyHsu:9月29日，Mozilla随Firefox157推出了代号为Nova的全新设计。这是继2021年Proton改版以来，Fire ...查看全文 本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
+      "date_published": "2026-10-20T00:00:00Z",
+      "tags": [
+        "效率",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "少数派"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sspai-com"
+      }
+    },
+    {
+      "id": "https://sspai.com/post/115475",
+      "url": "https://sspai.com/post/115475",
+      "title": "TDS REVIEW｜vivo Buds Clip 耳夹式无线耳机体验",
+      "content_text": "在 TWS 5 系列获得我们不错评价之后，Buds Clip 能否延续他们「来得晚但完成度更高」的特点呢？查看全文",
+      "summary": "在 TWS 5 系列获得我们不错评价之后，Buds Clip 能否延续他们「来得晚但完成度更高」的特点呢？查看全文",
+      "date_published": "2026-10-20T00:00:00Z",
+      "tags": [
+        "效率",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "少数派"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sspai-com"
+      }
+    }
+  ]
+}

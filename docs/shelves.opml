@@ -3,6 +3,7 @@
   <head><title>公共目录 · shelves</title></head>
   <body>
     <outline text="公共目录" title="公共目录">
+      <outline type="rss" text="少数派" title="少数派" xmlUrl="https://sspai.com/feed" htmlUrl="https://sspai.com"/>
       <outline type="rss" text="社区投稿" title="社区投稿" xmlUrl="https://adminbook.zhitree.cn/feed/shelf/posts.xml" htmlUrl="https://adminbook.zhitree.cn/"/>
       <outline type="rss" text="知识树" title="知识树" xmlUrl="https://adminbook.zhitree.cn/feed/shelf/link-a1bb3f0a.xml" htmlUrl="https://books.zhitree.cn/"/>
       <outline type="rss" text="知识树" title="知识树" xmlUrl="https://adminbook.zhitree.cn/feed/shelf/link-6836d471.xml" htmlUrl="https://books.zhitree.cn/"/>

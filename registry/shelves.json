@@ -21,6 +21,19 @@
    "tags": [],
    "added": "2026-10-19",
    "issue": 8
+  },
+  {
+   "id": "sspai-com",
+   "kind": "feed",
+   "url": "https://sspai.com/feed",
+   "source": "https://sspai.com/feed",
+   "name": "少数派",
+   "tags": [
+    "效率",
+    "工具"
+   ],
+   "added": "2026-10-22",
+   "issue": 11
   }
  ]
 }
