@@ -72,9 +72,10 @@
 
 主站的读者可以在“添加 → 订阅”里订阅自己想读的博客和文章源，订阅清单和文章只存在他们自己的浏览器里。网页读不了别人的网站，所以由这个函数代读。它**不存任何东西**：没有数据库、不要 GitHub 令牌、不要环境变量，和提交服务部署在同一个 Vercel 项目里，部署完就有。
 
-- `POST /api/feed`，两个动作：`{"action":"discover","url":…}`（这个网址是订阅源还是一个页面？订阅源返回名字和最近几篇，页面返回标题和摘要）；`{"action":"update","feeds":[{"url","etag","modified","content"}]}`（一次最多 20 个，返回每个源的新文章，没变化的返回 `unchanged`，读不了的返回原因，一个出错不影响别的）。`"content": true` 时，每个源最新的 12 篇里，订阅源**自己带了全文**的会多一个 `content`（经 `htmlsafe.py` 从白名单重建的 HTML：没有脚本、样式、框架、表单、事件属性，地址都是 http(s)，图片升到 https）和 `content_cut`（超过 6 万字符被截断）；只带摘要的源（文字不够 500 字）没有这个字段；一次回答的正文总量限约 150 万字符，后面的源先丢。
+- `POST /api/feed`，三个动作：`{"action":"read","url":…}`（这个地址上的文章：标题、作者、日期和正文，正文是白名单重建的安全 HTML；读不了的返回 422 和原因 `reason`：`login` / `paywall` / `blocked` / `needs_js` / `empty` / `pdf` / `gone` / `unreachable` / `unsupported` / `robots`，网页据此改去原站）；`{"action":"discover","url":…}`（这个网址是订阅源还是一个页面？订阅源返回名字和最近几篇，页面返回标题和摘要，**单个页面能读的话还带上正文**）；`{"action":"update","feeds":[{"url","etag","modified","content"}]}`（一次最多 20 个，返回每个源的新文章，没变化的返回 `unchanged`，读不了的返回原因，一个出错不影响别的）。`"content": true` 时，每个源最新的 12 篇里，订阅源**自己带了全文**的会多一个 `content`（经 `htmlsafe.py` 从白名单重建的 HTML：没有脚本、样式、框架、表单、事件属性，地址都是 http(s)，图片升到 https）和 `content_cut`（超过 6 万字符被截断）；只带摘要的源（文字不够 500 字）没有这个字段；一次回答的正文总量限约 150 万字符，后面的源先丢。
 - 读取用的是目录自己的受限代码（`aggregate.py`：只走 https:443、只连公网地址并固定到检查过的那个 IP、重定向每一跳重查、限制大小和时间；普通页面还要 robots.txt 允许），比 Action 里的更紧；返回的是标题、摘要、链接、日期、语言、类型；只有读者要求（`content: true`）且订阅源自己带了全文时才多返回那篇文章的正文，不会再去抓网页，每天的目录构建也不保存任何正文。GitHub 仓库暂时不能订阅。
-- 每个来访者每 10 分钟最多 15 次查找、40 次更新（按暖实例计的软限制，真正的限流在 Vercel）；页面来源和提交服务一样由 `ALLOWED_ORIGINS` 控制（默认 `https://books.zhitree.cn`）。
+- **`read` 怎么读**（`readable.py`，只用标准库）：读者点开一篇文章时才读一次，不带 cookie、不登录、用户代理自报 `ZhiTreeBooks-Reader/1 (+https://books.zhitree.cn; …)`，**遵守对方的 robots.txt**（环境变量 `READ_IGNORE_ROBOTS=1` 才忽略，不建议）；找出正文（`article` / `main` / 文字最密的块，去掉导航、侧栏、页脚、广告），重建成安全 HTML，每篇限 15 万字符，超出会说明；要登录、付费墙、人机验证、靠脚本显示、PDF 和别的文件类型识别出来后返回原因。**什么都不保存**。GitHub、视频这类地址不走 `read`。
+- 每个来访者每 10 分钟最多 15 次查找、40 次更新、40 次阅读（按暖实例计的软限制，真正的限流在 Vercel）；页面来源和提交服务一样由 `ALLOWED_ORIGINS` 控制（默认 `https://books.zhitree.cn`）。
 - 主站页面通过 `directory.json` 里的 `submit_api` 找到它（末尾的 `/submit` 换成 `/feed`）；想指向别处，在 `registry/config.json` 里写 `"feed_api": "https://…/api/feed"`。打开 `https://你的目录站点/api/feed`，应该看到 `{"ok": true, "service": "shelf-feed"}`。
 
 ### C. 管理页
@@ -137,7 +138,7 @@
 
 ```bash
 python aggregate.py probe https://example.com/blog      # 看看一个网址会被识别成什么（什么都不写）
-python aggregate.py approve https://example.com/blog --tags 供应链,笔记   # 直接收录
+python aggregate.py approve https://example.com/blog --tags 供应链,笔记   # 直接收录（加 --starter：同时在读者的“添加 → 订阅”里当作“试试这些”推荐，只对订阅源有效）
 python aggregate.py fetch            # 读取所有来源
 python aggregate.py build [--base http://127.0.0.1:8770/]   # 生成 docs/（托管文章的网址需要 base）
 python aggregate.py run              # fetch + build

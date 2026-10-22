@@ -3,7 +3,7 @@
 
   python aggregate.py probe URL                      what is this address, and can it be listed? (writes nothing)
   python aggregate.py issue --event FILE --out FILE  check a submission issue (used by the GitHub Action)
-  python aggregate.py approve URL [--tags a,b]       register a checked address (what the "approved" label does)
+  python aggregate.py approve URL [--tags a,b] [--starter]   register a checked address (what the "approved" label does); --starter: also offered as "try these" to new readers
   python aggregate.py approve --event FILE --out FILE
   python aggregate.py reject --event FILE --out FILE remember a refused submission (its hash only) and close it
   python aggregate.py apply --result FILE            post the result of `issue` / `approve` / `reject` in the issue (GitHub Action)
@@ -1506,7 +1506,7 @@ def probe(raw):
     return out
 
 
-def approve(raw, tags=None, issue=None):
+def approve(raw, tags=None, issue=None, starter=False):
     r = probe(raw)
     if r['duplicate']:
         zh, en = DUPLICATE_TEXT[r['duplicate'][0]]
@@ -1521,7 +1521,9 @@ def approve(raw, tags=None, issue=None):
         e['issue'] = issue
     if r.get('unread'):
         e['bare'] = True                                       # listed without having been read: what is kept of it is the address and a guessed title
-    reg['shelves'].append({k: e[k] for k in ('id', 'kind', 'sub', 'url', 'source', 'repo', 'gist', 'name', 'tags', 'added', 'issue', 'bare') if k in e})
+    if starter and e['kind'] == 'feed':
+        e['starter'] = True                                    # offered to a new reader as "try these" in the subscribe window (directory.json: shelves[].starter)
+    reg['shelves'].append({k: e[k] for k in ('id', 'kind', 'sub', 'url', 'source', 'repo', 'gist', 'name', 'tags', 'added', 'issue', 'bare', 'starter') if k in e})
     write_json(reg_path(), reg)
     if r.get('unread'):
         write_json(os.path.join(snap_dir(), e['id'] + '.json'), {'id': e['id'], 'kind': e['kind'], 'parser': PARSER, 'status': 'ok', 'error': '', 'fails': 0, 'shelf': r['shelf'], 'items': r['items']})
@@ -1683,6 +1685,8 @@ def build():
         shelves[e['id']] = {'id': e['id'], 'name': e.get('name') or info.get('name') or e['id'], 'description': info.get('description', ''), 'home': info.get('home', ''),
                             'kind': e['kind'], 'lang': info.get('lang') or '', 'license': info.get('license', ''), 'tags': stags, 'n': 0, 'updated': '',
                             'feed': e['source'] if e['kind'] == 'feed' else '', 'status': s.get('status', 'ok')}
+        if e.get('starter') is True and e['kind'] == 'feed':
+            shelves[e['id']]['starter'] = True
         for i in s['items']:
             k = url_key(i['url'])
             if k in seen or (i.get('sha') and i['sha'] in seen_sha):     # the same page, or (a repository file) the same content, from an earlier shelf
@@ -2304,6 +2308,7 @@ def main(argv=None):
     p = sub.add_parser('approve')
     p.add_argument('url', nargs='?')
     p.add_argument('--tags', default='')
+    p.add_argument('--starter', action='store_true', help='also offer it to new readers as "try these" when they subscribe (feeds only)')
     p.add_argument('--event')
     p.add_argument('--out')
     p = sub.add_parser('reject')
@@ -2338,7 +2343,7 @@ def main(argv=None):
         elif a.cmd == 'approve':
             if not a.url:
                 ap.error('give an address, or --event FILE')
-            e, r = approve(a.url, [t for t in re.split(r'[,，]', a.tags) if t.strip()])
+            e, r = approve(a.url, [t for t in re.split(r'[,，]', a.tags) if t.strip()], starter=a.starter)
             show(r)
             build()
             print('listed as', e['id'])

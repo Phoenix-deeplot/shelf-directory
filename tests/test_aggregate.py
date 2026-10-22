@@ -733,6 +733,22 @@ class TestRegistryAndBuild(Base):
         self.assertEqual(opml.find('.//outline[@type="rss"]').get('xmlUrl'), self.site.url + '/feed.xml')
         self.assertTrue(os.path.exists(os.path.join(self.tmp, 'docs', 'directory.json')))
 
+    def test_a_starter_feed_is_marked_in_the_directory_and_nothing_else_is(self):
+        feed_site(self.site, title='Good', posts=(('One', '2026-10-01'),), path='/a.xml')
+        feed_site(self.site, title='Other', posts=(('Two', '2026-10-02'),), path='/b.xml')
+        e, _ = agg.approve(self.site.url + '/a.xml', starter=True)
+        agg.approve(self.site.url + '/b.xml')
+        self.assertTrue(agg.load_registry()['shelves'][0]['starter'])
+        self.assertNotIn('starter', agg.load_registry()['shelves'][1])
+        d = json.loads(agg.build()['directory.json'])
+        marked = {s['id']: s.get('starter') for s in d['shelves']}
+        self.assertEqual(marked[e['id']], True)
+        self.assertEqual(sum(1 for v in marked.values() if v), 1)                  # only the one that was asked for
+        reg = agg.load_registry()
+        reg['shelves'][1]['starter'] = 'yes'                                       # anything but a real true is ignored
+        agg.write_json(agg.reg_path(), reg)
+        self.assertEqual(sum(1 for s in json.loads(agg.build()['directory.json'])['shelves'] if s.get('starter')), 1)
+
     def test_first_seen_date_is_kept_and_feed_updates(self):
         site = self.site
         site.put('/f.xml', '<rss version="2.0"><channel><title>No dates</title><item><title>A</title><link>https://x.example/a</link></item></channel></rss>', 'application/rss+xml')

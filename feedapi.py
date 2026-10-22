@@ -5,10 +5,13 @@ A page in a browser cannot read someone else's feed (the other site does not all
 
     {"action": "discover", "url": "…"}                              what is this address?  -> a feed (name, latest items), or a single page (title, summary)
     {"action": "update", "feeds": [{"url", "etag", "modified", "content"}]}    what is new in these feeds?  -> per feed: items, "unchanged", or why not
+    {"action": "read", "url": "…"}                                  the article at this address, for reading in the page: title, author, date and the text as safe html
 
 No database, no GitHub token, no list of subscriptions is kept here: the addresses are read while the request lasts, and what comes back is titles, summaries,
 links and dates. With "content": true the text of the newest articles comes along too, when the feed itself carries it (it is the feed's own text, not a page that was
-fetched), rebuilt as a small safe subset of HTML (htmlsafe.py), bounded per article and per answer; a feed that carries only excerpts gets none. The reading is the
+fetched), rebuilt as a small safe subset of HTML (htmlsafe.py), bounded per article and per answer; a feed that carries only excerpts gets none. "read" fetches the page once, at the reader's request (an honest user agent, no cookies, no log-in, robots.txt respected unless READ_IGNORE_ROBOTS=1), finds the article in it
+(readable.py) and hands it back; a page that is not an article (a login or subscription wall, a bot check, a page drawn by scripts, a PDF, a video) is answered with the reason
+instead (422, "reason"), and the page then offers the original address. Nothing is kept here. The reading is the
 directory's own bounded reading (aggregate.py: https only, public addresses only, the connection pinned to the address that was checked, size and time limits, feeds are
 read as feeds), a little tighter, and a sender can ask only so often.
 
@@ -22,6 +25,7 @@ import time
 
 import aggregate as agg
 import htmlsafe
+import readable
 import submission
 from submission import Reply
 
@@ -34,7 +38,10 @@ CONTENT_ITEMS = 12                   # of a feed's newest items, those whose tex
 CONTENT_ITEM_CHARS = 60_000          # of one article; the rest is left out and the reader is told
 CONTENT_TOTAL = 1_500_000            # of one answer (a Vercel function may answer 4.5 MB at most; Chinese text is 3 bytes a character)
 CONTENT_MIN_TEXT = 500               # characters of text: a feed's 300-character description is an excerpt, not the article
-LIMITS = {'discover': (15, 600), 'update': (40, 600)}      # requests per sender in 10 minutes, counted per warm instance: a soft limit, the real ones are Vercel's
+READ_CHARS = 150_000                 # of one article read from its page (the rest is left out and the reader is told)
+READ_UA = 'ZhiTreeBooks-Reader/1 (+https://books.zhitree.cn; fetched because a reader opened this address; nothing is stored)'
+READ_ACCEPT = 'text/html,application/xhtml+xml;q=0.9,*/*;q=0.5'
+LIMITS = {'discover': (15, 600), 'update': (40, 600), 'read': (40, 600)}      # requests per sender in 10 minutes, counted per warm instance: a soft limit, the real ones are Vercel's
 _USED = {}
 
 
@@ -79,6 +86,42 @@ def _content(i):
     return (safe, cut) if htmlsafe.text_len(safe) >= CONTENT_MIN_TEXT else None
 
 
+def _unreadable(e):
+    """An Unreadable as the answer of the service: the reason as a code and in words, both languages."""
+    return {'ok': False, 'error': 'unreadable', 'reason': e.code, 'message': e.zh, 'message_en': e.en}
+
+
+def _page_article(addr, pre=None, env=None):
+    """The article at an address -> dict (see readable.extract) with 'url' (where it ended up). Raises readable.Unreadable. `pre` is a page that was fetched already."""
+    kind = agg.classify(addr)['kind']
+    if kind == 'pdf':
+        raise readable.Unreadable('pdf')
+    if kind != 'web':
+        raise readable.Unreadable('unsupported')
+    if pre is None:
+        if not (env or {}).get('READ_IGNORE_ROBOTS') and not agg.feed_like(addr) and not agg.robots_allows(addr):
+            raise readable.Unreadable('robots')
+        try:
+            pre = agg.fetch(addr, READ_ACCEPT, headers={'User-Agent': READ_UA}, truncate=True)
+        except agg.Refused as e:
+            code = e.code or 0
+            raise readable.Unreadable('login' if code in (401, 402, 407) else 'blocked' if code in (403, 429, 451) else 'gone' if code in (404, 410) else 'unreachable')
+    final, h, body = pre
+    ctype = (h.get('content-type') or '').lower()
+    if 'pdf' in ctype:
+        raise readable.Unreadable('pdf')
+    if ctype and not any(x in ctype for x in ('html', 'xml', 'text')):
+        raise readable.Unreadable('unsupported')
+    art = readable.extract(agg.decode(body, h), final, READ_CHARS)
+    art['url'] = final
+    return art
+
+
+def read(raw, env=None):
+    art = _page_article(_checked(raw), None, env)
+    return {'ok': True, 'kind': 'article', **art}
+
+
 def _shelf(s):
     return {'title': s.get('name', ''), 'home': s.get('home', ''), 'description': s.get('description', ''), 'lang': s.get('lang', '')}
 
@@ -112,6 +155,17 @@ def discover(raw):
         first = items[0]
         out.update({'kind': 'link', 'url': first['url'], 'title': first['title'], 'summary': first['summary'], 'image': first['image'], 'date': first['date'],
                     'site': shelf['title'], 'items': [_item(first)]})
+        try:                                                                 # the page was read once for its title: the same text is its article, if it has one
+            if not pre:
+                raise readable.Unreadable('pdf' if agg.classify(url)['kind'] == 'pdf' else 'unsupported')
+            art = _page_article(url, pre)
+            out.update({'readable': True, 'content': art['content'], 'content_cut': art['cut'], 'author': art['author']})
+            if art['title']:
+                out['title'] = art['title']
+            if art['date'] and not out['date']:
+                out['date'] = art['date']
+        except readable.Unreadable as e:
+            out.update({'readable': False, 'reason': e.code, 'reason_message': e.zh, 'reason_message_en': e.en})
     return out
 
 
@@ -196,6 +250,12 @@ def handle(payload, ip, env, now=None):
             limited(who, 'discover', now)
             with reading():
                 return 200, discover(payload['url'])
+        if action == 'read':
+            if not isinstance(payload.get('url'), str):
+                raise Reply(400, 'request', '请求格式不对', 'Bad request')
+            limited(who, 'read', now)
+            with reading():
+                return 200, read(payload['url'], env)
         if action == 'update':
             feeds = payload.get('feeds')
             if not isinstance(feeds, list) or not feeds or len(feeds) > MAX_FEEDS:
@@ -209,6 +269,8 @@ def handle(payload, ip, env, now=None):
         raise Reply(400, 'request', '请求格式不对', 'Bad request')
     except Reply as r:
         return r.status, r.body()
+    except readable.Unreadable as e:                                          # a page that is not an article: the reason, so that the page can offer the original instead
+        return 422, _unreadable(e)
     except agg.Refused as e:                                                 # an address that cannot be read, or is not a safe one: the same answer the submit function gives a check
         return 422, {'ok': False, 'error': 'unreachable', 'message': str(e), 'message_en': e.en, 'code': e.code or 0}
 
