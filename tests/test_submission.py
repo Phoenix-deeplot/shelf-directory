@@ -172,6 +172,22 @@ class TestUrl(SubBase):
         self.open_issues([{**i, 'created_at': old} for i in recent], [])
         self.assertEqual(self.send(URL, ip='9.9.9.9')[0], 200)                              # three days ago does not count
 
+    def test_the_owner_can_raise_the_limits_and_nobody_can_break_them(self):
+        mine = sub.ip_hash('9.9.9.9', 'salt')
+        now = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+        recent = [{'number': n, 'body': sub.url_issue('https://s%d.example.org/' % n, [], mine), 'created_at': now} for n in range(sub.PER_IP_PER_DAY)]
+        self.open_issues(recent, [])
+        self.assertEqual(self.send(URL, ip='9.9.9.9')[1]['error'], 'rate')                  # the default
+        self.env['SUBMIT_PER_DAY'] = '60'
+        self.assertEqual(self.send(URL, ip='9.9.9.9')[0], 200)                              # raised by the owner (bulk-listing the recommended sources)
+        self.assertEqual(sub.settings({**self.env, 'SUBMIT_PER_DAY': 'many'})['per_day'], sub.PER_IP_PER_DAY)       # not a number: the default
+        self.assertEqual(sub.settings({**self.env, 'SUBMIT_PER_DAY': '0'})['per_day'], 1)                          # never zero
+        self.assertEqual(sub.settings({**self.env, 'SUBMIT_PER_DAY': '99999'})['per_day'], 500)                    # never unbounded
+        self.assertEqual(sub.settings({**self.env, 'SUBMIT_MAX_OPEN': '99999'})['max_open'], 1000)
+        self.open_issues([{'number': n, 'body': sub.url_issue('https://s%d.example.org/' % n, [], 'x%d' % n), 'created_at': '2026-10-14T00:00:00Z'} for n in range(sub.MAX_OPEN)], [])
+        self.env['SUBMIT_MAX_OPEN'] = '150'
+        self.assertEqual(self.send(URL)[0], 200)                                           # 100 are waiting, the owner allows 150
+
     def test_the_queue_can_be_full(self):
         self.open_issues([{'number': n, 'body': sub.url_issue('https://s%d.example.org/' % n, [], 'x%d' % n), 'created_at': '2026-10-14T00:00:00Z'} for n in range(sub.MAX_OPEN)], [])
         st, body = self.send(URL)

@@ -44,6 +44,7 @@
    | `SHELF_REPO` | `用户名/仓库名` |
    | `SUBMIT_GITHUB_TOKEN` | 一个 fine-grained 令牌：只选这个仓库，权限给 **Issues: Read and write**，再加 **Contents: Read-only**（让排重直接读仓库里最新的登记表，刚通过的网址马上算“已收录”；不给也能用，只是要等目录页面重新生成） |
    | `ALLOWED_ORIGINS` | 允许提交的网页来源，逗号分隔，默认 `https://books.zhitree.cn` |
+   | `SUBMIT_PER_DAY`、`SUBMIT_MAX_OPEN`（可选） | 每个发送者每天最多提交几条（默认 5，最大 500）、待审队列最多几条（默认 100，最大 1000）。站长要把主站“推荐订阅”页里的几十个源一次推进来时，临时调高 |
    | `IP_SALT` | 一长串随机文字（用来给发送者地址做不可逆的短哈希，用于限流） |
 
 3. 改完环境变量要再 `vercel --prod` 一次。把 Vercel 给你的地址加上 `/api/submit`，写进 `registry/config.json` 的 `"submit_api"`，推送。下一次 Action 生成的 `directory.json` 里就有它，网页的「收录」对话框会自动换成"直接提交 + 写文章"两个标签。

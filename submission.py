@@ -42,6 +42,15 @@ class Reply(Exception):
         return {'ok': False, 'error': self.code, 'message': self.zh, 'message_en': self.en}
 
 
+def _number(raw, default, top):
+    """An optional whole number from the environment (SUBMIT_PER_DAY, SUBMIT_MAX_OPEN): the default when it is missing or not a number, never above `top`."""
+    try:
+        n = int(str(raw).strip())
+    except ValueError:
+        return default
+    return max(1, min(top, n))
+
+
 def settings(env):
     repo = str(env.get('SHELF_REPO') or '').strip()
     directory = str(env.get('DIRECTORY_URL') or '').strip()
@@ -50,7 +59,8 @@ def settings(env):
         directory = 'https://%s.github.io/%s/' % (owner.lower(), name) if name.lower() != owner.lower() + '.github.io' else 'https://%s.github.io/' % owner.lower()
     origins = [o.strip().rstrip('/') for o in str(env.get('ALLOWED_ORIGINS') or 'https://books.zhitree.cn').split(',') if o.strip()]
     return {'repo': repo, 'token': str(env.get('SUBMIT_GITHUB_TOKEN') or '').strip(), 'directory': directory.rstrip('/') + '/' if directory else '',
-            'origins': origins, 'salt': str(env.get('IP_SALT') or ''), 'allow_local': str(env.get('ALLOW_LOCAL_ORIGIN') or '') == '1'}
+            'origins': origins, 'salt': str(env.get('IP_SALT') or ''), 'allow_local': str(env.get('ALLOW_LOCAL_ORIGIN') or '') == '1',
+            'per_day': _number(env.get('SUBMIT_PER_DAY'), PER_IP_PER_DAY, 500), 'max_open': _number(env.get('SUBMIT_MAX_OPEN'), MAX_OPEN, 1000)}
 
 
 def _cached(key, fn, seconds=CACHE_SECONDS):
@@ -372,9 +382,9 @@ def handle(payload, ip, env, now=None):
             sub, info, issues = submit_record(payload, cfg)
         else:
             raise Reply(400, 'request', '请求格式不对', 'Bad request')
-        if len(issues) >= MAX_OPEN:
+        if len(issues) >= cfg['max_open']:
             raise Reply(429, 'full', '待审核的申请太多了，请过几天再来', 'Too many submissions are waiting; please come back in a few days')
-        if sum(1 for i in issues if ('ip:' + who) in (i.get('body') or '') and _created_within(i, 86400, now)) >= PER_IP_PER_DAY:
+        if sum(1 for i in issues if ('ip:' + who) in (i.get('body') or '') and _created_within(i, 86400, now)) >= cfg['per_day']:
             raise Reply(429, 'rate', '今天提交得太多了，请明天再试', 'Too many submissions today; please try again tomorrow')
         if kind == 'url':
             title, body, labels = ('[收录] ' + urllib.parse.urlsplit(url).hostname + urllib.parse.urlsplit(url).path)[:80], url_issue(url, tags, who), ['shelf-submission']
