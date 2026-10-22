@@ -21,6 +21,16 @@
    "tags": [],
    "added": "2026-10-19",
    "issue": 8
+  },
+  {
+   "id": "appinn-com",
+   "kind": "feed",
+   "url": "https://www.appinn.com/feed/",
+   "source": "https://www.appinn.com/feed/",
+   "name": "小众软件",
+   "tags": [],
+   "added": "2026-10-22",
+   "issue": 9
   }
  ]
 }

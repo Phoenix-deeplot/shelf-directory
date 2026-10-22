@@ -4,8 +4,103 @@
   <title>公共目录</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/all.xml"/>
-  <updated>2026-10-20T00:00:00Z</updated>
+  <updated>2026-10-22T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.appinn.com/emudhra-certificate-smart-speaker-root/</id>
+    <title>印度证书泄漏后，一台智能音箱被破解了</title>
+    <link rel="alternate" type="text/html" href="https://www.appinn.com/emudhra-certificate-smart-speaker-root/"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">昨天刚介绍了印度证书机构 eMudhra 的离谱安全事故，其中一枚证书的私钥竟然只有一个数字：4。 没想到，这么快就有人用上了这批泄漏的私钥。 10 月 20 日，一位开发者发布了 yandex mi</summary>
+    <source><title>小众软件</title></source>
+    <category term="业界消息"/>
+    <category term="安全漏洞"/>
+  </entry>
+  <entry>
+    <id>https://www.appinn.com/vmpal/</id>
+    <title>VMPal：M 系列 Mac 专属虚拟机，AI Agent 的独立电脑</title>
+    <link rel="alternate" type="text/html" href="https://www.appinn.com/vmpal/"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">今天给大家带来一款全新上架的 Mac 虚拟机工具 —— VMPal ，专为 Apple Silicon 芯片深度优化，兼顾颜值、性能，更是为 AI 智能体量身打造的虚拟机解决方案！ 🚀 多系</summary>
+    <source><title>小众软件</title></source>
+    <category term="macOS"/>
+    <category term="虚拟机"/>
+  </entry>
+  <entry>
+    <id>https://www.appinn.com/strata-0-2-2/</id>
+    <title>Strata 0.2.2 发布：新增多显卡自由分工，Gyro 推理提速最高 30%</title>
+    <link rel="alternate" type="text/html" href="https://www.appinn.com/strata-0-2-2/"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">Strata 是什么？Strata 是一款免费开源的本地大模型运行工具，支持 Windows、macOS 和 Linux，能够让普通电脑运行大型 AI 模型，最低只需要 8GB 显存。 前天刚介绍了</summary>
+    <source><title>小众软件</title></source>
+    <category term="AI"/>
+    <category term="Strata"/>
+    <category term="track-Strata"/>
+    <category term="本地大模型"/>
+  </entry>
+  <entry>
+    <id>https://www.appinn.com/test-browser-security-emudhra-certificate/</id>
+    <title>测试你的浏览器安全性：如果能打开这个网站，就踩中了印度证书机构的离谱大雷</title>
+    <link rel="alternate" type="text/html" href="https://www.appinn.com/test-browser-security-emudhra-certificate/"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">现在，测试一下你的浏览器 如果能打开这个网址，就证明你的浏览器中了印度证书机构的离谱大雷。 如果打不开，你的浏览器安全，已更新！ 印度证书机构出了什么离谱大雷？ 这是青小蛙使用 OpenSSL 随机生</summary>
+    <source><title>小众软件</title></source>
+    <category term="业界消息"/>
+    <category term="安全漏洞"/>
+  </entry>
+  <entry>
+    <id>https://www.appinn.com/splash-1-4/</id>
+    <title>卷起来了！昨天 Strata 刚升级，今天 Splash 1.4 就宣布快了 30%</title>
+    <link rel="alternate" type="text/html" href="https://www.appinn.com/splash-1-4/"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">昨天，青小蛙刚刚介绍了 Strata 的更新：Strata 0.2 测试版发布：性能升级，门槛再降低｜低配电脑运行本地大模型 没想到，今天另一款开源本地 AI 推理工具 Splash 就发布了 1.4</summary>
+    <source><title>小众软件</title></source>
+    <category term="AI"/>
+    <category term="Splash-ai"/>
+    <category term="本地大模型"/>
+  </entry>
+  <entry>
+    <id>https://www.appinn.com/lizhi-2610/</id>
+    <title>别等双 11 了！数码荔枝「十」惠抢先享，8 款热门软件 5 折起</title>
+    <link rel="alternate" type="text/html" href="https://www.appinn.com/lizhi-2610/"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">数码荔枝十月特惠活动正式开启，会场软件低至 5 折！ Bartender 7 Mac 的菜单栏本身挺好用的，但偏偏遇见了刘海屏设计……它们组合起来简直是噩梦！ 装了十几个软件，图标们挤过来</summary>
+    <source><title>小众软件</title></source>
+    <category term="团购"/>
+    <category term="数码荔枝"/>
+  </entry>
+  <entry>
+    <id>https://www.appinn.com/win11debloat/</id>
+    <title>Win11Debloat 官方中文版 – 一键卸载 90+ 款 Windows 11 预装软件[2026.10.21更新]</title>
+    <link rel="alternate" type="text/html" href="https://www.appinn.com/win11debloat/"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">两件事： Win11Debloat 已经在最新源码中加入了多语言界面，已经支持英文、意大利文、日文、荷兰文、葡萄牙文。简体中文在 10 月 11 日合入，目前位于上游 master 开发分支，最新正式</summary>
+    <source><title>小众软件</title></source>
+    <category term="Windows"/>
+    <category term="卸载"/>
+    <category term="微软"/>
+    <category term="性能"/>
+    <category term="预装"/>
+  </entry>
+  <entry>
+    <id>https://www.appinn.com/php-critical-rce-vulnerability-2026/</id>
+    <title>PHP 官方罕见提前预警：两项 9.2 分严重漏洞，今晚 10 点发布修复｜请加班</title>
+    <link rel="alternate" type="text/html" href="https://www.appinn.com/php-critical-rce-vulnerability-2026/"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">全世界还在运行 PHP 的网站需要注意了，PHP 官方预警！ 10 月 20 日，PHP 官方突然发布了一份安全预警：PHP 核心存在两个严重安全漏洞，CVSS v4.0 评分均达到 9.2 分（满分</summary>
+    <source><title>小众软件</title></source>
+    <category term="业界消息"/>
+    <category term="PHP"/>
+    <category term="安全漏洞"/>
+  </entry>
   <entry>
     <id>https://books.zhitree.cn/notes/guide/</id>
     <title>知树阅读使用指南：图文教程</title>
@@ -20,6 +115,32 @@
     <category term="在线阅读"/>
     <category term="电子书阅读"/>
     <category term="订阅 RSS"/>
+  </entry>
+  <entry>
+    <id>https://www.appinn.com/plex-aomei-security-alert/</id>
+    <title>安全提醒：Plex 遭黑客攻击，AOMEI 两款软件更新渠道被劫持</title>
+    <link rel="alternate" type="text/html" href="https://www.appinn.com/plex-aomei-security-alert/"/>
+    <updated>2026-10-20T00:00:00Z</updated>
+    <published>2026-10-20T00:00:00Z</published>
+    <summary type="text">最近两起热门软件安全事件，涉及影音服务器 Plex，以及 AOMEI 的两款软件：备份软件 AOMEI Backupper、远程桌面软件 AnyViewer。 其中，Plex 的多个安全漏洞已经被黑客</summary>
+    <source><title>小众软件</title></source>
+    <category term="业界消息"/>
+    <category term="Plex"/>
+    <category term="傲梅"/>
+    <category term="安全漏洞"/>
+  </entry>
+  <entry>
+    <id>https://www.appinn.com/workbuddy-education/</id>
+    <title>全国老师都能领：腾讯送出一年 AI 助手，备课、做 PPT 都能用</title>
+    <link rel="alternate" type="text/html" href="https://www.appinn.com/workbuddy-education/"/>
+    <updated>2026-10-20T00:00:00Z</updated>
+    <published>2026-10-20T00:00:00Z</published>
+    <summary type="text">10 月 19 日，腾讯正式发布 WorkBuddy 教育公益版，面向全国在职教师开放，帮助教师使用 AI 完成备课、制作课件、设计作业、家校沟通、学情分析等日常工作。 这款 AI 教学助理由腾讯 S</summary>
+    <source><title>小众软件</title></source>
+    <category term="业界消息"/>
+    <category term="教室"/>
+    <category term="老师"/>
+    <category term="腾讯WorkBuddy"/>
   </entry>
   <entry>
     <id>https://adminbook.zhitree.cn/p/r6-card/</id>

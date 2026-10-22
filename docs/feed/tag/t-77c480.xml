@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/t-77c480.xml</id>
+  <title>公共目录 · #业界消息</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-77c480.xml"/>
+  <updated>2026-10-22T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.appinn.com/emudhra-certificate-smart-speaker-root/</id>
+    <title>印度证书泄漏后，一台智能音箱被破解了</title>
+    <link rel="alternate" type="text/html" href="https://www.appinn.com/emudhra-certificate-smart-speaker-root/"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">昨天刚介绍了印度证书机构 eMudhra 的离谱安全事故，其中一枚证书的私钥竟然只有一个数字：4。 没想到，这么快就有人用上了这批泄漏的私钥。 10 月 20 日，一位开发者发布了 yandex mi</summary>
+    <source><title>小众软件</title></source>
+    <category term="业界消息"/>
+    <category term="安全漏洞"/>
+  </entry>
+  <entry>
+    <id>https://www.appinn.com/test-browser-security-emudhra-certificate/</id>
+    <title>测试你的浏览器安全性：如果能打开这个网站，就踩中了印度证书机构的离谱大雷</title>
+    <link rel="alternate" type="text/html" href="https://www.appinn.com/test-browser-security-emudhra-certificate/"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">现在，测试一下你的浏览器 如果能打开这个网址，就证明你的浏览器中了印度证书机构的离谱大雷。 如果打不开，你的浏览器安全，已更新！ 印度证书机构出了什么离谱大雷？ 这是青小蛙使用 OpenSSL 随机生</summary>
+    <source><title>小众软件</title></source>
+    <category term="业界消息"/>
+    <category term="安全漏洞"/>
+  </entry>
+  <entry>
+    <id>https://www.appinn.com/php-critical-rce-vulnerability-2026/</id>
+    <title>PHP 官方罕见提前预警：两项 9.2 分严重漏洞，今晚 10 点发布修复｜请加班</title>
+    <link rel="alternate" type="text/html" href="https://www.appinn.com/php-critical-rce-vulnerability-2026/"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">全世界还在运行 PHP 的网站需要注意了，PHP 官方预警！ 10 月 20 日，PHP 官方突然发布了一份安全预警：PHP 核心存在两个严重安全漏洞，CVSS v4.0 评分均达到 9.2 分（满分</summary>
+    <source><title>小众软件</title></source>
+    <category term="业界消息"/>
+    <category term="PHP"/>
+    <category term="安全漏洞"/>
+  </entry>
+  <entry>
+    <id>https://www.appinn.com/plex-aomei-security-alert/</id>
+    <title>安全提醒：Plex 遭黑客攻击，AOMEI 两款软件更新渠道被劫持</title>
+    <link rel="alternate" type="text/html" href="https://www.appinn.com/plex-aomei-security-alert/"/>
+    <updated>2026-10-20T00:00:00Z</updated>
+    <published>2026-10-20T00:00:00Z</published>
+    <summary type="text">最近两起热门软件安全事件，涉及影音服务器 Plex，以及 AOMEI 的两款软件：备份软件 AOMEI Backupper、远程桌面软件 AnyViewer。 其中，Plex 的多个安全漏洞已经被黑客</summary>
+    <source><title>小众软件</title></source>
+    <category term="业界消息"/>
+    <category term="Plex"/>
+    <category term="傲梅"/>
+    <category term="安全漏洞"/>
+  </entry>
+  <entry>
+    <id>https://www.appinn.com/workbuddy-education/</id>
+    <title>全国老师都能领：腾讯送出一年 AI 助手，备课、做 PPT 都能用</title>
+    <link rel="alternate" type="text/html" href="https://www.appinn.com/workbuddy-education/"/>
+    <updated>2026-10-20T00:00:00Z</updated>
+    <published>2026-10-20T00:00:00Z</published>
+    <summary type="text">10 月 19 日，腾讯正式发布 WorkBuddy 教育公益版，面向全国在职教师开放，帮助教师使用 AI 完成备课、制作课件、设计作业、家校沟通、学情分析等日常工作。 这款 AI 教学助理由腾讯 S</summary>
+    <source><title>小众软件</title></source>
+    <category term="业界消息"/>
+    <category term="教室"/>
+    <category term="老师"/>
+    <category term="腾讯WorkBuddy"/>
+  </entry>
+</feed>
