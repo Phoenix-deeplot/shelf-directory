@@ -4,11 +4,13 @@ A reader of the site subscribes to the blogs and article feeds they want to foll
 A page in a browser cannot read someone else's feed (the other site does not allow it), so the page asks this function instead:
 
     {"action": "discover", "url": "…"}                              what is this address?  -> a feed (name, latest items), or a single page (title, summary)
-    {"action": "update", "feeds": [{"url", "etag", "modified"}]}    what is new in these feeds?  -> per feed: items, "unchanged", or why not
+    {"action": "update", "feeds": [{"url", "etag", "modified", "content"}]}    what is new in these feeds?  -> per feed: items, "unchanged", or why not
 
 No database, no GitHub token, no list of subscriptions is kept here: the addresses are read while the request lasts, and what comes back is titles, summaries,
-links and dates, never a page's own text. The reading is the directory's own bounded reading (aggregate.py: https only, public addresses only, the connection
-pinned to the address that was checked, size and time limits, feeds are read as feeds), a little tighter, and a sender can ask only so often.
+links and dates. With "content": true the text of the newest articles comes along too, when the feed itself carries it (it is the feed's own text, not a page that was
+fetched), rebuilt as a small safe subset of HTML (htmlsafe.py), bounded per article and per answer; a feed that carries only excerpts gets none. The reading is the
+directory's own bounded reading (aggregate.py: https only, public addresses only, the connection pinned to the address that was checked, size and time limits, feeds are
+read as feeds), a little tighter, and a sender can ask only so often.
 
 Standard library only. api/feed.py is the thin Vercel wrapper; the tests run `handle` / `respond` against fake sites.
 Environment (all optional): ALLOWED_ORIGINS (the page's origin, default https://books.zhitree.cn), IP_SALT (only to make the limit's key unreadable).
@@ -19,6 +21,7 @@ import re
 import time
 
 import aggregate as agg
+import htmlsafe
 import submission
 from submission import Reply
 
@@ -27,6 +30,10 @@ MAX_FEEDS = 20                       # feeds in one update request
 WORKERS = 5
 READ_SECONDS = 20                    # of the 30 seconds a Vercel function here may run (vercel.json maxDuration): the rest is for the answer
 DISCOVER_ITEMS = 8                   # latest items shown when a feed is looked up
+CONTENT_ITEMS = 12                   # of a feed's newest items, those whose text may come along
+CONTENT_ITEM_CHARS = 60_000          # of one article; the rest is left out and the reader is told
+CONTENT_TOTAL = 1_500_000            # of one answer (a Vercel function may answer 4.5 MB at most; Chinese text is 3 bytes a character)
+CONTENT_MIN_TEXT = 500               # characters of text: a feed's 300-character description is an excerpt, not the article
 LIMITS = {'discover': (15, 600), 'update': (40, 600)}      # requests per sender in 10 minutes, counted per warm instance: a soft limit, the real ones are Vercel's
 _USED = {}
 
@@ -61,6 +68,15 @@ def _item(i, with_tags=True):
     if with_tags:
         out['tags'] = list(i['tags'])[:agg.TAGS_PER_ITEM]
     return out
+
+
+def _content(i):
+    """-> (safe html, cut) when the feed carries the article itself, else None."""
+    raw = i.get('_content') or ''
+    if not raw:
+        return None
+    safe, cut = htmlsafe.sanitize(raw, i['url'], CONTENT_ITEM_CHARS)
+    return (safe, cut) if htmlsafe.text_len(safe) >= CONTENT_MIN_TEXT else None
 
 
 def _shelf(s):
@@ -105,15 +121,17 @@ def _spec(raw):
     url = str(raw.get('url') or '').strip()
     if not url or len(url) > 1500:
         raise ValueError
-    return {'url': url, 'etag': str(raw.get('etag') or '')[:300], 'modified': str(raw.get('modified') or '')[:100]}
+    return {'url': url, 'etag': str(raw.get('etag') or '')[:300], 'modified': str(raw.get('modified') or '')[:100], 'content': raw.get('content') is True}
 
 
 def update_one(spec):
     """One feed -> {'url', 'status': 'ok' | 'unchanged' | 'error', ...}. Never raises: one bad feed must not spoil the others."""
     url = spec['url']
+    want = bool(spec.get('content'))
     try:
         addr = _checked(url)
         prev = {'parser': agg.PARSER, 'etag': spec['etag'], 'modified': spec['modified']} if (spec['etag'] or spec['modified']) else None
+        agg._OPT.content = want                                              # (this thread only; the text is read along with the feed)
         res = agg.read_feed({'source': addr}, prev)
     except agg.Unchanged:
         return {'url': url, 'status': 'unchanged'}
@@ -121,11 +139,24 @@ def update_one(spec):
         return {'url': url, 'status': 'error', 'message': str(e), 'message_en': e.en, 'code': e.code or 0}
     except Exception as e:                                                   # a feed that breaks the parser is that feed's problem only
         return {'url': url, 'status': 'error', 'message': '读取失败', 'message_en': 'Could not be read (%s)' % type(e).__name__, 'code': 0}
+    finally:
+        agg._OPT.content = False
     items = [i for i in res['items'] if i]
     if not items:
         return {'url': url, 'status': 'error', 'message': '没有读到文章', 'message_en': 'No articles were found', 'code': 0}
-    return {'url': url, 'status': 'ok', **_shelf(res['shelf']), 'etag': res.get('etag', ''), 'modified': res.get('modified', ''),
-            'items': [_item(i) for i in sorted(items, key=lambda i: i['date'], reverse=True)[:agg.FEED_KEEP]]}
+    out = []
+    for n, i in enumerate(sorted(items, key=lambda i: i['date'], reverse=True)[:agg.FEED_KEEP]):
+        it = _item(i)
+        c = _content(i) if want and n < CONTENT_ITEMS else None
+        if c:
+            it['content'] = c[0]
+            if c[1]:
+                it['content_cut'] = True
+        out.append(it)
+    res_out = {'url': url, 'status': 'ok', **_shelf(res['shelf']), 'etag': res.get('etag', ''), 'modified': res.get('modified', ''), 'items': out}
+    if want:
+        res_out['content_mode'] = True                                       # "text was asked for and looked at": the page need not ask again for what has none
+    return res_out
 
 
 def update(raws):
@@ -138,6 +169,15 @@ def update(raws):
     with reading():
         with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as pool:
             results = list(pool.map(update_one, specs))
+    total = 0
+    for r in results:                                                        # one answer carries so much text and no more: the later feeds' articles lose theirs first
+        for it in r.get('items', []):
+            if 'content' in it:
+                if total + len(it['content']) > CONTENT_TOTAL:
+                    del it['content']
+                    it.pop('content_cut', None)
+                else:
+                    total += len(it['content'])
     return {'ok': True, 'results': results}
 
 

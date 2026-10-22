@@ -168,6 +168,148 @@ class TestUpdate(FeedBase):
         self.assertEqual((agg.TIMEOUT, agg.DEADLINE), before)
 
 
+LONG = '<p>' + 'This sentence is about supply chains and how lead time moves with the order. ' * 12 + '</p>'          # > 500 characters of text
+ZH_LONG = '<p>' + '这是一段关于库存周转率的正文，讲的是周转天数怎么算，以及为什么它比库存金额更能说明问题。' * 12 + '</p>'
+HOSTILE = ('<p onclick="x()">Intro ' + 'word ' * 120 + '</p><script>alert(1)</script><img src="https://cdn.example/a.png" onerror="y()" alt="A"><a href="javascript:alert(2)">bad</a>'
+           '<iframe src="https://evil.example/"></iframe><a href="/rel">rel</a>')
+
+
+def json_feed(items):
+    return json.dumps({'version': 'https://jsonfeed.org/version/1.1', 'title': 'Texts', 'home_page_url': 'https://a.example/', 'items': items})
+
+
+def jitem(i, html=None, text=None, day=None, summary=None):
+    d = {'id': str(i), 'url': 'https://a.example/p/%d' % i, 'title': 'Post %d' % i, 'date_published': '2026-09-%02dT08:00:00Z' % (day or i)}
+    if html is not None:
+        d['content_html'] = html
+    if text is not None:
+        d['content_text'] = text
+    if summary is not None:
+        d['summary'] = summary
+    return d
+
+
+class TestArticleText(FeedBase):
+    """With "content": true the text of the newest articles comes along when the feed itself carries it: rebuilt as safe html, bounded, and never for an excerpt."""
+
+    def read(self, path, **spec):
+        st, body = self.update([{'url': self.u + path, **spec}])
+        self.assertEqual(st, 200)
+        return body['results'][0]
+
+    def test_it_is_off_unless_asked_for(self):
+        self.site.put('/t.json', json_feed([jitem(1, LONG)]), 'application/json')
+        r = self.read('/t.json')
+        self.assertNotIn('content', r['items'][0])
+        self.assertNotIn('content_mode', r)
+        r = self.read('/t.json', content='true')                                            # only a real true counts
+        self.assertNotIn('content', r['items'][0])
+        self.assertNotIn('content_mode', r)
+
+    def test_json_feed_text_comes_along(self):
+        self.site.put('/t.json', json_feed([jitem(1, LONG), jitem(2, '<p>Just an excerpt.</p>', day=2)]), 'application/json')
+        r = self.read('/t.json', content=True)
+        self.assertTrue(r['content_mode'])
+        by = {i['title']: i for i in r['items']}
+        self.assertIn('lead time', by['Post 1']['content'])
+        self.assertNotIn('content', by['Post 2'])                                           # an excerpt is not the article
+        self.assertNotIn('<', by['Post 1']['summary'])                                      # the summary is still plain text
+
+    def test_plain_text_content_becomes_paragraphs(self):
+        text = '\n\n'.join(['Paragraph %d of the article. ' % n + 'More words here. ' * 20 for n in range(4)])
+        self.site.put('/t.json', json_feed([jitem(1, text=text)]), 'application/json')
+        c = self.read('/t.json', content=True)['items'][0]['content']
+        self.assertEqual(c.count('<p>'), 4)
+
+    def test_atom_html_xhtml_and_text(self):
+        esc_long = LONG.replace('<', '&lt;').replace('>', '&gt;')
+        atom = ('<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>A</title><link href="https://a.example/"/>'
+                '<entry><title>H</title><link href="https://a.example/h"/><updated>2026-09-03T08:00:00Z</updated><content type="html">%s</content></entry>'
+                '<entry><title>X</title><link href="https://a.example/x"/><updated>2026-09-02T08:00:00Z</updated><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">%s</div></content></entry>'
+                '<entry><title>T</title><link href="https://a.example/t"/><updated>2026-09-01T08:00:00Z</updated><content type="text">%s</content></entry>'
+                '<entry><title>S</title><link href="https://a.example/s"/><updated>2026-08-30T08:00:00Z</updated><summary>only a summary</summary></entry></feed>'
+                % (esc_long, LONG, 'Plain text words go here. ' * 30))
+        self.site.put('/a.xml', atom, 'application/atom+xml')
+        r = self.read('/a.xml', content=True)
+        by = {i['title']: i for i in r['items']}
+        for name in ('H', 'X', 'T'):
+            self.assertIn('content', by[name], name)
+            self.assertGreater(len(by[name]['content']), 500, name)
+        self.assertIn('<p>', by['H']['content'])
+        self.assertIn('lead time', by['X']['content'])
+        self.assertNotIn('content', by['S'])
+
+    def test_rss_content_encoded_but_not_a_short_description(self):
+        rss = ('<?xml version="1.0"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>R</title><link>https://a.example/</link>'
+               '<item><title>Full</title><link>https://a.example/full</link><pubDate>Thu, 03 Sep 2026 08:00:00 GMT</pubDate><description>An excerpt of it.</description>'
+               '<content:encoded><![CDATA[%s]]></content:encoded></item>'
+               '<item><title>Excerpt</title><link>https://a.example/ex</link><pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate><description>%s</description></item>'
+               '<item><title>Whole in description</title><link>https://a.example/wd</link><pubDate>Tue, 01 Sep 2026 08:00:00 GMT</pubDate><description><![CDATA[%s]]></description></item>'
+               '</channel></rss>' % (LONG, 'A two-line excerpt of the post. ' * 3, ZH_LONG))
+        self.site.put('/r.xml', rss, 'application/rss+xml')
+        by = {i['title']: i for i in self.read('/r.xml', content=True)['items']}
+        self.assertIn('lead time', by['Full']['content'])
+        self.assertNotIn('content', by['Excerpt'])
+        self.assertIn('库存周转率', by['Whole in description']['content'])
+
+    def test_what_arrives_is_the_safe_subset_with_absolute_addresses(self):
+        self.site.put('/t.json', json_feed([jitem(1, HOSTILE)]), 'application/json')
+        c = self.read('/t.json', content=True)['items'][0]['content']
+        for bad in ('<script', 'alert', 'onclick', 'onerror', 'javascript:', '<iframe', 'evil.example'):
+            self.assertNotIn(bad, c)
+        self.assertIn('<img src="https://cdn.example/a.png" alt="A"', c)
+        self.assertIn('href="https://a.example/rel"', c)                                    # resolved against the article's own address
+
+    def test_a_long_article_is_cut_and_says_so(self):
+        big = ''.join('<p>%s</p>' % ('long text of the article goes on ' * 20) for _ in range(300))
+        self.site.put('/t.json', json_feed([jitem(1, big)]), 'application/json')
+        it = self.read('/t.json', content=True)['items'][0]
+        self.assertTrue(it['content_cut'])
+        self.assertLessEqual(len(it['content']), fa.CONTENT_ITEM_CHARS + 200)
+        self.assertEqual(it['content'].count('<p>'), it['content'].count('</p>'))
+
+    def test_only_the_newest_items_carry_text(self):
+        self.site.put('/t.json', json_feed([jitem(i, LONG, day=i) for i in range(1, 21)]), 'application/json')
+        items = self.read('/t.json', content=True)['items']
+        with_text = [i['title'] for i in items if 'content' in i]
+        self.assertEqual(len(with_text), fa.CONTENT_ITEMS)
+        self.assertEqual(set(with_text), {'Post %d' % n for n in range(20, 20 - fa.CONTENT_ITEMS, -1)})
+        self.assertEqual(len(items), 20)
+
+    def test_one_answer_carries_only_so_much_text(self):
+        old = fa.CONTENT_TOTAL
+        fa.CONTENT_TOTAL = 6000
+        try:
+            for n in range(3):
+                self.site.put('/f%d.json' % n, json_feed([jitem(i, LONG, day=i) for i in range(1, 5)]), 'application/json')
+            st, body = self.update([{'url': self.u + '/f%d.json' % n, 'content': True} for n in range(3)])
+            total = sum(len(i['content']) for r in body['results'] for i in r['items'] if 'content' in i)
+            self.assertLessEqual(total, 6000)
+            self.assertGreater(total, 0)
+            self.assertTrue(any('content' not in i for r in body['results'] for i in r['items']))     # the later ones lost theirs
+        finally:
+            fa.CONTENT_TOTAL = old
+
+    def test_asking_for_text_does_not_leak_into_the_next_request(self):
+        self.site.put('/t.json', json_feed([jitem(1, LONG)]), 'application/json')
+        self.read('/t.json', content=True)
+        self.assertFalse(getattr(agg._OPT, 'content', False))
+        self.assertNotIn('content', self.read('/t.json')['items'][0])
+        st, body = self.discover(self.u + '/t.json')
+        self.assertNotIn('content', body['items'][0])
+        res = agg.read_feed({'source': self.u + '/t.json'})                                 # the directory's own reading keeps no text of anybody
+        self.assertTrue(all('_content' not in i for i in res['items']))
+
+    def test_unchanged_feeds_stay_cheap(self):
+        self.site.put('/t.json', '', 'application/json', status=304)
+        r = self.read('/t.json', content=True, etag='"v1"')
+        self.assertEqual(r['status'], 'unchanged')
+
+    def test_chinese_text_counts_as_text(self):
+        self.site.put('/t.json', json_feed([jitem(1, ZH_LONG)]), 'application/json')
+        it = self.read('/t.json', content=True)['items'][0]
+        self.assertIn('库存周转率', it['content'])
+
 class TestSafety(FeedBase):
     def setUp(self):
         super().setUp()

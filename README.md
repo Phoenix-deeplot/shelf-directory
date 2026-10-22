@@ -58,12 +58,22 @@
 
 排重先读**仓库里的** `registry/shelves.json`（刚通过的马上算），再读已发布的 `directory.json`；不用数据库：队列就是仓库里待审的 issue，限流靠 issue 里的一个加盐哈希。
 
+### B3. 可选的“同步码”服务（`api/sync.py`，需要一个 Redis）
+
+让读者在几台设备上用同一个书架，不要账号。浏览器自己生成一个长随机同步码，算出三样东西（id、证明身份的密钥、加密钥匙），之后只把**加密后的东西**发到这个函数；加密钥匙从不离开浏览器，服务端读不了标题和内容，同步码只以哈希保存，丢了无法找回。
+
+- **存储**：一个能用 HTTPS 访问的 Redis，推荐 Vercel Marketplace 的 **Upstash Redis**（连到项目后自动写入 `KV_REST_API_URL` + `KV_REST_API_TOKEN`，或 `UPSTASH_REDIS_REST_URL` + `UPSTASH_REDIS_REST_TOKEN`，两种都认），部署后 `GET /api/sync` 显示 `"configured": true`；没配置时页面不显示“同步”。
+- **接口**（都是 `POST /api/sync`）：`pull`（取加密的书单，没变化时只回 `unchanged`）、`push`（用修订号做比较并替换，别的设备刚同步过就回 409）、`body_put` / `body_get` / `body_del`（加密并压缩过的小文本，名字由浏览器用 HMAC 取）、`destroy`、`poll`（“愿意付费吗”的匿名计数）。比较并替换用一段 Lua 脚本，是原子的。
+- **限制**：每个同步码约 1200 万个字符（`SYNC_QUOTA`），一份书单 ≤ 100 万、一份文本 ≤ 70 万字符、最多 600 份文本；`SYNC_TTL_DAYS`（默认 180）天不用就由 Redis 自己清掉（每次使用都续期）；`SYNC_MAX_KEYS`（默认 6000，约 1000 个同步码）：数据库里的键超过它就不再接收新的同步码；每个访客每天最多新建 3 个，拉取 / 推送 / 文本有每分钟的软限制。来源只认 `ALLOWED_ORIGINS`。
+- **付费**：现在没有付费；每个同步空间有一个可以以后接“授权码”的位置，但还没做。页面在用满 20 分钟后问一次“愿意付费吗”，回答用 `poll` 计数，`GET /api/sync` 里的 `poll` 就是结果。
+- 测试：`tests/test_syncapi.py`（32 个：权限、比较并替换、并发、额度、过期、限流、HTTP 面、Upstash 的线上格式）；页面一侧的两设备端到端测试在草稿目录里。
+
 ### B2. 读者订阅的“更新服务”（`api/feed.py`，不用任何设置）
 
 主站的读者可以在“添加 → 订阅”里订阅自己想读的博客和文章源，订阅清单和文章只存在他们自己的浏览器里。网页读不了别人的网站，所以由这个函数代读。它**不存任何东西**：没有数据库、不要 GitHub 令牌、不要环境变量，和提交服务部署在同一个 Vercel 项目里，部署完就有。
 
-- `POST /api/feed`，两个动作：`{"action":"discover","url":…}`（这个网址是订阅源还是一个页面？订阅源返回名字和最近几篇，页面返回标题和摘要）；`{"action":"update","feeds":[{"url","etag","modified"}]}`（一次最多 20 个，返回每个源的新文章，没变化的返回 `unchanged`，读不了的返回原因，一个出错不影响别的）。
-- 读取用的是目录自己的受限代码（`aggregate.py`：只走 https:443、只连公网地址并固定到检查过的那个 IP、重定向每一跳重查、限制大小和时间；普通页面还要 robots.txt 允许），比 Action 里的更紧；返回的只有标题、摘要、链接、日期、语言、类型，不返回页面正文。GitHub 仓库暂时不能订阅。
+- `POST /api/feed`，两个动作：`{"action":"discover","url":…}`（这个网址是订阅源还是一个页面？订阅源返回名字和最近几篇，页面返回标题和摘要）；`{"action":"update","feeds":[{"url","etag","modified","content"}]}`（一次最多 20 个，返回每个源的新文章，没变化的返回 `unchanged`，读不了的返回原因，一个出错不影响别的）。`"content": true` 时，每个源最新的 12 篇里，订阅源**自己带了全文**的会多一个 `content`（经 `htmlsafe.py` 从白名单重建的 HTML：没有脚本、样式、框架、表单、事件属性，地址都是 http(s)，图片升到 https）和 `content_cut`（超过 6 万字符被截断）；只带摘要的源（文字不够 500 字）没有这个字段；一次回答的正文总量限约 150 万字符，后面的源先丢。
+- 读取用的是目录自己的受限代码（`aggregate.py`：只走 https:443、只连公网地址并固定到检查过的那个 IP、重定向每一跳重查、限制大小和时间；普通页面还要 robots.txt 允许），比 Action 里的更紧；返回的是标题、摘要、链接、日期、语言、类型；只有读者要求（`content: true`）且订阅源自己带了全文时才多返回那篇文章的正文，不会再去抓网页，每天的目录构建也不保存任何正文。GitHub 仓库暂时不能订阅。
 - 每个来访者每 10 分钟最多 15 次查找、40 次更新（按暖实例计的软限制，真正的限流在 Vercel）；页面来源和提交服务一样由 `ALLOWED_ORIGINS` 控制（默认 `https://books.zhitree.cn`）。
 - 主站页面通过 `directory.json` 里的 `submit_api` 找到它（末尾的 `/submit` 换成 `/feed`）；想指向别处，在 `registry/config.json` 里写 `"feed_api": "https://…/api/feed"`。打开 `https://你的目录站点/api/feed`，应该看到 `{"ok": true, "service": "shelf-feed"}`。
 

@@ -31,6 +31,7 @@ import shutil
 import socket
 import ssl
 import sys
+import threading
 import time
 import unicodedata
 import urllib.error
@@ -527,6 +528,41 @@ def robots_allows(url):
 # ======================================================================= feeds: JSON Feed, Atom, RSS
 NS_MEDIA, NS_XML = 'http://search.yahoo.com/mrss/', 'http://www.w3.org/XML/1998/namespace'
 
+# Besides the summary, the update service (feedapi.py) can ask for the text of each article when the feed carries it. The asker sets this for its own thread; it is off for
+# everybody else (the daily directory build keeps no text of anybody's page), and what is read is raw: htmlsafe.py makes it safe before it goes anywhere.
+_OPT = threading.local()
+RAW_CONTENT = 600_000
+
+
+def _want_content():
+    return bool(getattr(_OPT, 'content', False))
+
+
+def _text_html(s):
+    """Plain text -> paragraphs."""
+    paras = [p.strip() for p in re.split(r'\n\s*\n', str(s or '')) if p.strip()]
+    return ''.join('<p>%s</p>' % html.escape(p, quote=False).replace('\n', '<br>') for p in paras)
+
+
+def _xhtml(el):
+    """An element of Atom type="xhtml" content as html text (namespaces dropped; only the attributes a page needs)."""
+    tag = _l(el)
+    inner = html.escape(el.text or '', quote=False) + ''.join(_xhtml(c) + html.escape(c.tail or '', quote=False) for c in el if isinstance(c.tag, str))
+    attrs = ''.join(' %s="%s"' % (k.rsplit('}', 1)[-1], html.escape(v)) for k, v in el.attrib.items() if k.rsplit('}', 1)[-1] in ('href', 'src', 'alt', 'title', 'width', 'height'))
+    return '<%s%s>' % (tag, attrs) if tag in ('br', 'hr', 'img') else '<%s%s>%s</%s>' % (tag, attrs, inner, tag)
+
+
+def _atom_content(e):
+    el = _kid(e, 'content')
+    if el is None:
+        return ''
+    typ = (el.get('type') or 'text').lower()
+    if typ in ('html', 'text/html'):
+        return _txt(el)                                                  # the markup is escaped text inside the element
+    if typ == 'xhtml':
+        return ''.join(_xhtml(c) for c in el if isinstance(c.tag, str))
+    return _text_html(_txt(el)) if typ == 'text' or typ.startswith('text/') else ''
+
 
 def _l(el):
     return el.tag.rsplit('}', 1)[-1] if isinstance(el.tag, str) else ''
@@ -602,6 +638,8 @@ def parse_jsonfeed(d, base):
         it = make_item(e.get('url') or e.get('external_url'), e.get('title'), strip_html(summary), e.get('image') or e.get('banner_image'),
                        e.get('date_published') or e.get('date_modified'), tags, e.get('language') or shelf['lang'], es.get('type'), base, mime)
         if it:
+            if _want_content():
+                it['_content'] = str(e.get('content_html') or _text_html(e.get('content_text')) or '')[:RAW_CONTENT]
             items.append(it)
     return shelf, items
 
@@ -641,6 +679,8 @@ def parse_atom(root, base):
         it = make_item(link, _xml_text(_kid(e, 'title')), summary, _media_image(e), _txt(_kid(e, 'published')) or _txt(_kid(e, 'updated')),
                        [c.get('term') or c.get('label') for c in _kids(e, 'category')], e.get('{%s}lang' % NS_XML) or shelf['lang'], hint, base, mime)
         if it:
+            if _want_content():
+                it['_content'] = _atom_content(e)[:RAW_CONTENT]
             items.append(it)
     return shelf, items
 
@@ -671,6 +711,8 @@ def parse_rss(root, base):
                        [_txt(c) for c in _kids(e, 'category')] + [_txt(c) for c in _kids(e, 'subject')], shelf['lang'], '', base,
                        mime if not mime.startswith('image/') else '')
         if it:
+            if _want_content():
+                it['_content'] = (_txt(_kid(e, 'encoded')) or _txt(_kid(e, 'description')))[:RAW_CONTENT]
             items.append(it)
     return shelf, items
 
