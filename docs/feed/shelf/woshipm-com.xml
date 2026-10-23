@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/shelf/woshipm-com.xml</id>
+  <title>公共目录 · 人人都是产品经理</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/woshipm-com.xml"/>
+  <updated>2026-10-23T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.woshipm.com/ai/6483093.html</id>
+    <title>长视频变知识库，3个 Skills 跑通全自动流水线（附源）</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483093.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">把 Dan Koe 十几小时的视频洗成可检索的知识库：下载、总结、网页生成三个 Skills 串成一条流水线，Qwen3.8-Max 负责理解与图文对齐，金句、板书、时间戳都能一键跳回。原作者的情绪与语境被保留，而不是磨成干瘪骨架。 Token 花不完，前两天用我的视频下载 Skills 下载了 Dan Koe 202…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI编程"/>
+    <category term="Dan Koe"/>
+    <category term="Qwen"/>
+    <category term="经验分享"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6482980.html</id>
+    <title>角色设定图提示词合集分享！码住随时用。</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6482980.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">做 AI 角色视频，最缺的往往不是模型，而是一套稳定的设定图。这篇把几十套提示词按用途分好类：基础立绘、转面、表情口型、动作关键帧、镜头透视，连动物和机械角色都备了模板，白底可直接复用。 之前一直有朋友问我，角色设定图的提示词怎么写？今天阿真总结一套比较全的，朋友们可以存存以后指不定能用。 这些都是可直接拿去用的提示词…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="AI应用"/>
+    <category term="提示词"/>
+    <category term="经验分享"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6476868.html</id>
+    <title>竞品的本质是生意的边界：四类竞品分类、进攻型学习与防御型竞争全解析</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6476868.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">做竞品分析，大多数人只看身边的同行，但从生意的维度要回答：你想抢谁的生意、谁想抢你的生意、大家各自用什么方式抢。定竞品就是定战略，决定资源往哪投、仗该怎么打、生意能做多大。 做竞品分析，大多数人只看身边的同行。但从生意的维度，需要回答三大问题：你想抢谁的生意？谁想抢你的生意？大家各自用什么方式抢？ 定竞品就是定战略。这…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="案例分析"/>
+    <category term="特斯拉"/>
+    <category term="王者荣耀"/>
+    <category term="竞品分析"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6482970.html</id>
+    <title>空降的品牌总监行不行，只需一周就知道</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6482970.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">判断空降的品牌总监有没有真本事，不用等到试用期结束。看他第一周做三件事就够：是不是真热爱这个品类，是继承品牌资产还是急着推翻过去，做的事是为了品牌好看，还是为了生意真的增长。 判断一个空降的品牌总监到底有没有真本事，其实根本不用等到试用期结束。 看TA上班第一周都在干什么，基本上就能判断个八九不离十。 很多品牌总监，履…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="个人成长"/>
+    <category term="个人观点"/>
+    <category term="企业管理"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/it/6483008.html</id>
+    <title>直播电商：成也逼单，败也逼单！</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6483008.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">直播电商的“逼单”话术看似高效，实则暗藏退货率飙升、ROI崩塌甚至封店风险。本文从一线操盘经验出发，拆解逼单为何成为行业惯例，又为何是一把双刃剑，并给出“软逼单”与“小闭环逼单”的高质量成交方法论，帮助主播与运营在转化与体验间找到平衡。 其实我不喜欢「逼单」这个词，不过我亲自做项目之后，大家都这么说，不这么说，用其他词…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="业界动态"/>
+    <category term="ROI"/>
+    <category term="主播培训"/>
+    <category term="抖音电商"/>
+    <category term="电商运营"/>
+    <category term="直播电商"/>
+    <category term="逼单"/>
+    <category term="产品"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6482953.html</id>
+    <title>昨夜 PHP 大漏洞背后，极其诡异的 96 小时</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6482953.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">PHP 两个漏洞合成 PHP2Shell，日本从首相官网到 pixiv 集体停服，48 小时内攻击尝试从几千次涨到几百万次。更诡异的是这次是 AI 先发现了漏洞，各家说法却对不上——这 96 小时，是攻防的分水岭。 昨夜，一个潜伏了 14 年的 PHP 漏洞，几乎震动了全球互联网。相信昨晚全球有不少程序员、网络安全人员…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="Hugging Face"/>
+    <category term="OpenAI"/>
+    <category term="行业分析"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/it/6482999.html</id>
+    <title>拉美短剧：流量按吨卖，收入按克算</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6482999.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">拉美短剧下载量占海外22.5%，收入却仅约7%，高增长背后是流量幻觉。本文拆解支付、锚价、单用户经济三道闸门，剖析巴西监管罚单如何撞上增长机制，并盘点Globo、快手、TelevisaUnivision、Idilio TV四路人马的绕门策略与代价。 拉美用户看短剧的热情是真的，掏钱是另一回事。 2026 年上半年，拉美…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="业界动态"/>
+    <category term="内容监管"/>
+    <category term="拉美市场"/>
+    <category term="支付基建"/>
+    <category term="本地化运营"/>
+    <category term="案例分析"/>
+    <category term="短剧出海"/>
+    <category term="产品"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6483070.html</id>
+    <title>对话 Google Labs 负责人：大团队正在拖垮 AI 产品创新，我们用 2-3 个人、100 天验证一个方向</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483070.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">Google Labs 的 Josh Woodward 把做产品的方法说得很实在：盯住「什么几乎成为可能」，用 50 到 100 天推到里程碑，早期判断需求先看用户的眼睛有没有亮，而不是 DAU 和 D7 留存。两三人的小队，也能把一个方向验证透。 当模型每隔几个月就改写一次能力边界，产品团队该如何判断：哪些只是令人惊…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="AI产品"/>
+    <category term="Gemini"/>
+    <category term="Google Labs"/>
+    <category term="NotebookLM"/>
+    <category term="企业管理"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6482994.html</id>
+    <title>产品经理怎么做好培训</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6482994.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">系统上线前的培训，往往是产品经理最容易踩坑的环节。你以为自己熟悉系统就能讲好，但听众可能是第一次接触，甚至对电脑都不熟。本文从对象分析、环境准备、流程讲解到现场节奏，拆解产品经理如何做好培训，让不同角色都能真正上手。 系统快上线的时候，产品经理一般都很忙。 这边还要盯着几个bug没改完，那边要催业务准备迁移的数据，还要…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="案例分析"/>
+    <category term="用户培训"/>
+    <category term="系统上线"/>
+    <category term="项目管理"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6483135.html</id>
+    <title>YC CEO 谈小团队的时代：一个人干一百个人的活，创业的根本却一点没变</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483135.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">一个人真能干一百个人的活，公司、投资、招聘会变成什么样？YC 掌门人 Garry Tan 的判断是：执行成本在塌，判断成本没塌。软件可以即时生成，但了解用户、把东西放到人面前、相信身边那几个认识的人，一点没变。 你有没有想过，如果一个人真的能干 100 个人的活，那公司、投资、招聘，这三件事会变成什么样子？这不是一句口…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="Anthropic"/>
+    <category term="OpenClaw"/>
+    <category term="Supabase"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6483146.html</id>
+    <title>WorkBuddy悄悄上线「收入变现」，可自主定价技能和专家</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483146.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">WorkBuddy 悄悄上线「收入变现」，让技能和专家能直接上架售卖，支持一次性买断与按月订阅，平台服务费仅 1%。无需写代码，上传 zip 包即可发布，审核与签约实测都很快。这不只是多了一个变现口子，更是生态建设的信号：让创造有价值，让价值有回报。 突然发现，在 WorkBuddy 悄悄上线了一个「收入变现」的功能。…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI产品"/>
+    <category term="WorkBuddy"/>
+    <category term="功能分析"/>
+    <category term="收入变现"/>
+    <category term="经验总结"/>
+    <category term="行业观察"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6483080.html</id>
+    <title>Windows 想清爽一点？试试 Win11Debloat：功能、用法与避坑指南</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6483080.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">重装完 Windows 11，第一件事往往不是装软件，而是清干净预装应用、资讯流和后台管家。开源脚本 Win11Debloat 用一条 PowerShell 命令处理四类系统冗余，6 万 Star、MIT 协议，但默认勾选和注册表改动，动手前得看清。 每次给新电脑开荒，或者重装完 Windows 11，总有一段让人血压…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="Copilot"/>
+    <category term="Github"/>
+    <category term="Windows"/>
+    <category term="功能分析"/>
+    <category term="经验分享"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6482962.html</id>
+    <title>Meta翻盘：广告撑场，Muse烧钱</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6482962.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">Meta 三季度营收 646 亿美元，广告贡献 630.6 亿，占掉 97.6%；可 Muse 的投入把自由现金流打成负 21.2 亿，第一次转负。大厂想抄 Muse，得先算清这笔账：一台云端虚拟机换一个用户，究竟值不值？ Q3的Meta可能是一众科技大厂中反转最大的一个，3个月前，它还是一个只会画AI“大饼”、只有高…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="Meta"/>
+    <category term="Muse"/>
+    <category term="行业分析"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6483114.html</id>
+    <title>Claude Duet上线：关掉电脑后，AI助理还能继续工作</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483114.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">截至 10 月 20 日，Meta Muse 在美国下载约 1020 万次；10 月 21 日 Anthropic 开放 Claude Duet 研究预览，能接 6000 多种工具，关掉电脑任务仍在云端继续。全天候的边界、额度会不会被跑光，比产品名更值得弄清。 你可能并不缺一个能回答问题的 AI，真正费时间的是在邮箱、…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI产品"/>
+    <category term="Anthropic"/>
+    <category term="Claude"/>
+    <category term="Meta Muse"/>
+    <category term="功能分析"/>
+    <category term="产品"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6483099.html</id>
+    <title>1号位想要拿到结果，需要具备怎样的决策能力？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6483099.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">很多业务负责人能把数据讲清楚、知道该做哪些动作，一到资源怎么投、项目该不该继续，就没了完整思考。从经营目标到业务结构拆解，再到归因与验证，1 号位的决策能力，说到底是把「做对选择」放在「提高执行效率」前面。 这几年做本地生活，接触过不少业务负责人，我发现一个问题，很多人能够把业务数据讲清楚，也知道应该做哪些运营动作，但…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="个人观点"/>
+    <category term="企业管理"/>
+    <category term="本地生活"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+</feed>

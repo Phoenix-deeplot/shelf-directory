@@ -1,0 +1,38 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #AI应用",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/ai-3.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.woshipm.com/ai/6482980.html",
+      "url": "https://www.woshipm.com/ai/6482980.html",
+      "title": "角色设定图提示词合集分享！码住随时用。",
+      "content_text": "做 AI 角色视频，最缺的往往不是模型，而是一套稳定的设定图。这篇把几十套提示词按用途分好类：基础立绘、转面、表情口型、动作关键帧、镜头透视，连动物和机械角色都备了模板，白底可直接复用。 之前一直有朋友问我，角色设定图的提示词怎么写？今天阿真总结一套比较全的，朋友们可以存存以后指不定能用。 这些都是可直接拿去用的提示词…",
+      "summary": "做 AI 角色视频，最缺的往往不是模型，而是一套稳定的设定图。这篇把几十套提示词按用途分好类：基础立绘、转面、表情口型、动作关键帧、镜头透视，连动物和机械角色都备了模板，白底可直接复用。 之前一直有朋友问我，角色设定图的提示词怎么写？今天阿真总结一套比较全的，朋友们可以存存以后指不定能用。 这些都是可直接拿去用的提示词…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "AI",
+        "AI应用",
+        "提示词",
+        "经验分享",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    }
+  ]
+}

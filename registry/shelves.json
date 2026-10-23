@@ -62,6 +62,20 @@
    ],
    "added": "2026-10-23",
    "issue": 17
+  },
+  {
+   "id": "woshipm-com",
+   "kind": "feed",
+   "url": "https://www.woshipm.com/feed",
+   "source": "https://www.woshipm.com/feed",
+   "name": "人人都是产品经理",
+   "tags": [
+    "产品",
+    "运营",
+    "商业"
+   ],
+   "added": "2026-10-23",
+   "issue": 12
   }
  ]
 }

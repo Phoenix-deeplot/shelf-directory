@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/ai-2.xml</id>
+  <title>公共目录 · #AI产品</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/ai-2.xml"/>
+  <updated>2026-10-23T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.woshipm.com/ai/6483070.html</id>
+    <title>对话 Google Labs 负责人：大团队正在拖垮 AI 产品创新，我们用 2-3 个人、100 天验证一个方向</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483070.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">Google Labs 的 Josh Woodward 把做产品的方法说得很实在：盯住「什么几乎成为可能」，用 50 到 100 天推到里程碑，早期判断需求先看用户的眼睛有没有亮，而不是 DAU 和 D7 留存。两三人的小队，也能把一个方向验证透。 当模型每隔几个月就改写一次能力边界，产品团队该如何判断：哪些只是令人惊…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="AI产品"/>
+    <category term="Gemini"/>
+    <category term="Google Labs"/>
+    <category term="NotebookLM"/>
+    <category term="企业管理"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6483146.html</id>
+    <title>WorkBuddy悄悄上线「收入变现」，可自主定价技能和专家</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483146.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">WorkBuddy 悄悄上线「收入变现」，让技能和专家能直接上架售卖，支持一次性买断与按月订阅，平台服务费仅 1%。无需写代码，上传 zip 包即可发布，审核与签约实测都很快。这不只是多了一个变现口子，更是生态建设的信号：让创造有价值，让价值有回报。 突然发现，在 WorkBuddy 悄悄上线了一个「收入变现」的功能。…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI产品"/>
+    <category term="WorkBuddy"/>
+    <category term="功能分析"/>
+    <category term="收入变现"/>
+    <category term="经验总结"/>
+    <category term="行业观察"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6483114.html</id>
+    <title>Claude Duet上线：关掉电脑后，AI助理还能继续工作</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483114.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">截至 10 月 20 日，Meta Muse 在美国下载约 1020 万次；10 月 21 日 Anthropic 开放 Claude Duet 研究预览，能接 6000 多种工具，关掉电脑任务仍在云端继续。全天候的边界、额度会不会被跑光，比产品名更值得弄清。 你可能并不缺一个能回答问题的 AI，真正费时间的是在邮箱、…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI产品"/>
+    <category term="Anthropic"/>
+    <category term="Claude"/>
+    <category term="Meta Muse"/>
+    <category term="功能分析"/>
+    <category term="产品"/>
+  </entry>
+</feed>

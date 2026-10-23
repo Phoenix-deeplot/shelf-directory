@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/hugging-face.xml</id>
+  <title>公共目录 · #Hugging Face</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/hugging-face.xml"/>
+  <updated>2026-10-23T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.woshipm.com/ai/6482953.html</id>
+    <title>昨夜 PHP 大漏洞背后，极其诡异的 96 小时</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6482953.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">PHP 两个漏洞合成 PHP2Shell，日本从首相官网到 pixiv 集体停服，48 小时内攻击尝试从几千次涨到几百万次。更诡异的是这次是 AI 先发现了漏洞，各家说法却对不上——这 96 小时，是攻防的分水岭。 昨夜，一个潜伏了 14 年的 PHP 漏洞，几乎震动了全球互联网。相信昨晚全球有不少程序员、网络安全人员…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="Hugging Face"/>
+    <category term="OpenAI"/>
+    <category term="行业分析"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+</feed>

@@ -1,0 +1,39 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Supabase",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/supabase.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.woshipm.com/ai/6483135.html",
+      "url": "https://www.woshipm.com/ai/6483135.html",
+      "title": "YC CEO 谈小团队的时代：一个人干一百个人的活，创业的根本却一点没变",
+      "content_text": "一个人真能干一百个人的活，公司、投资、招聘会变成什么样？YC 掌门人 Garry Tan 的判断是：执行成本在塌，判断成本没塌。软件可以即时生成，但了解用户、把东西放到人面前、相信身边那几个认识的人，一点没变。 你有没有想过，如果一个人真的能干 100 个人的活，那公司、投资、招聘，这三件事会变成什么样子？这不是一句口…",
+      "summary": "一个人真能干一百个人的活，公司、投资、招聘会变成什么样？YC 掌门人 Garry Tan 的判断是：执行成本在塌，判断成本没塌。软件可以即时生成，但了解用户、把东西放到人面前、相信身边那几个认识的人，一点没变。 你有没有想过，如果一个人真的能干 100 个人的活，那公司、投资、招聘，这三件事会变成什么样子？这不是一句口…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "Anthropic",
+        "OpenClaw",
+        "Supabase",
+        "行业观察",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    }
+  ]
+}
