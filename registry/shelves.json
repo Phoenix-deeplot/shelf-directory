@@ -102,6 +102,19 @@
    ],
    "added": "2026-10-23",
    "issue": 15
+  },
+  {
+   "id": "reddit-com",
+   "kind": "feed",
+   "url": "https://www.reddit.com/r/popular/top/.rss?t=day",
+   "source": "https://www.reddit.com/r/popular/top/.rss?t=day",
+   "name": "top scoring links : popular",
+   "tags": [
+    "社区",
+    "热榜"
+   ],
+   "added": "2026-10-23",
+   "issue": 19
   }
  ]
 }

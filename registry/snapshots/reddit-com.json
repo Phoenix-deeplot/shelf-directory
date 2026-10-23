@@ -1,0 +1,8 @@
+{
+ "id": "reddit-com",
+ "items": [],
+ "shelf": {},
+ "fails": 1,
+ "status": "error",
+ "error": "网站返回了错误（HTTP 429）"
+}
