@@ -155,7 +155,12 @@ function pendingCard(issue){
     toggle('检查结果', async () => { const c = await botComment(issue.number); return c ? doc(c.body.replace(BOT, '')) : el('p', { class: 'muted', text: '机器人还没有回复（Action 可能还在运行，或没有触发：看仓库的 Actions 页）。' }); }),
     p.kind === 'post' ? toggle('全文预览', async () => doc(p.body)) : null,
     el('a', { href: issue.html_url, target: '_blank', rel: 'noopener noreferrer', text: 'GitHub ↗' }));
-  return el('article', { class: 'card' }, el('h3', { text: head }), el('p', { class: 'meta' }, ...badges, '#' + issue.number + ' · ' + ago(issue.created_at)), body, actions, slot, status);
+  const pick = el('input', { type: 'checkbox', class: 'pick', 'aria-label': '选择这个申请', 'data-n': String(issue.number) });
+  if(!handable(labels)){ pick.disabled = true; pick.title = '这个申请现在不能通过（重复、检查未通过或正在处理）'; }
+  pick.addEventListener('change', updateBatchBar);
+  const card = el('article', { class: 'card' }, el('h3', {}, pick, el('span', { text: head })), el('p', { class: 'meta' }, ...badges, '#' + issue.number + ' · ' + ago(issue.created_at)), body, actions, slot, status);
+  card.dataset.n = String(issue.number); card.dataset.passed = passed(labels) ? '1' : '';
+  return card;
 }
 async function watch(n, botBefore, status, unlock){
   for(let i = 0; i < 45; i++){
@@ -177,8 +182,79 @@ async function renderPending(){
   const box = $('#pending'); box.textContent = '';
   const issues = await listIssues('open', ['shelf-submission', 'post-submission']);
   $('#nPending').textContent = issues.length;
-  if(!issues.length) box.append(el('p', { class: 'empty', text: '没有待审的申请。' }));
+  if(!issues.length){ box.append(el('p', { class: 'empty', text: '没有待审的申请。' })); return; }
+  box.append(batchBar());
   issues.forEach(i => box.append(pendingCard(i)));
+  updateBatchBar();
+}
+
+/* ---------- several at once ----------
+   One run of the "Batch review" workflow decides them all (labels added to many issues at once would start as many runs, and GitHub keeps only the first and the last).
+   "Handable": the maintainer can approve it (not a duplicate, not refused by the check, not on its way already). "Passed": the check found nothing to say against it. */
+const BATCH_MAX = 60;
+const handable = labels => !['duplicate', 'invalid', 'approved'].some(l => labels.includes(l));
+const passed = labels => labels.includes('checked') && !['duplicate', 'invalid', 'similar', 'approved'].some(l => labels.includes(l));
+const cardsOf = () => [...document.querySelectorAll('#pending article.card')];
+const ticked = () => cardsOf().filter(c => c.querySelector('input.pick:checked')).map(c => +c.dataset.n);
+const passedNumbers = () => cardsOf().filter(c => c.dataset.passed === '1' && !c.querySelector('input.pick:disabled')).map(c => +c.dataset.n);
+let batchBusy = false;
+function batchBar(){
+  const mk = (id, cls, text, extra) => el('button', { type: 'button', id, class: cls || '', text, ...(extra || {}) });
+  const reason = el('input', { type: 'text', id: 'batchReason', class: 'reason', placeholder: '拒绝的原因（可不填；会写进每个被拒绝的申请里）', hidden: true, maxlength: '300' });
+  const bar = el('div', { class: 'batchbar', id: 'batchBar' },
+    el('span', { class: 'muted', id: 'batchSum' }),
+    mk('batchPassed', '', ''), mk('batchClear', '', '清除选择'),
+    el('span', { class: 'grow' }),
+    mk('batchApprove', 'ok', ''), mk('batchReject', 'danger', ''), reason, mk('batchRejectGo', 'danger', '确认拒绝', { hidden: true }), mk('batchRejectNo', '', '取消', { hidden: true }),
+    mk('batchAll', 'primary', ''));
+  const setReject = on => { ['batchReason', 'batchRejectGo', 'batchRejectNo'].forEach(id => { document.getElementById(id).hidden = !on; }); document.getElementById('batchReject').hidden = on; if(on) reason.focus(); };
+  bar.addEventListener('click', e => {
+    const id = e.target.id; if(!id || batchBusy) return;
+    if(id === 'batchPassed'){ cardsOf().forEach(c => { const b = c.querySelector('input.pick'); if(b && !b.disabled) b.checked = c.dataset.passed === '1'; }); updateBatchBar(); }
+    else if(id === 'batchClear'){ cardsOf().forEach(c => { c.querySelector('input.pick').checked = false; }); updateBatchBar(); }
+    else if(id === 'batchApprove') runBatch('approve', ticked());
+    else if(id === 'batchAll'){ const n = passedNumbers(); if(n.length && confirm('通过这 ' + Math.min(n.length, BATCH_MAX) + ' 个“检查通过”的申请，并把它们收录进目录？')) runBatch('approve', n); }
+    else if(id === 'batchReject') setReject(true);
+    else if(id === 'batchRejectNo') setReject(false);
+    else if(id === 'batchRejectGo'){ const n = ticked(); if(n.length && confirm('拒绝这 ' + Math.min(n.length, BATCH_MAX) + ' 个申请？拒绝以后它们不会再被收录。')){ runBatch('reject', n, reason.value.trim()); setReject(false); } }
+  });
+  return bar;
+}
+function updateBatchBar(){
+  const bar = document.getElementById('batchBar'); if(!bar) return;
+  const sel = ticked().length, ok = passedNumbers().length;
+  const set = (id, text, off) => { const b = document.getElementById(id); b.textContent = text; b.disabled = batchBusy || !!off; };
+  document.getElementById('batchSum').textContent = '已选 ' + sel + ' 个';
+  set('batchPassed', '选中检查通过的（' + ok + '）', !ok);
+  set('batchClear', '清除选择', !sel);
+  set('batchApprove', '通过所选（' + sel + '）', !sel);
+  set('batchReject', '拒绝所选…', !sel);
+  set('batchRejectGo', '确认拒绝', !sel);
+  set('batchAll', '一键通过全部检查通过的（' + ok + '）', !ok);
+}
+async function runBatch(mode, numbers, reason){
+  numbers = numbers.slice(0, BATCH_MAX);
+  if(!numbers.length || batchBusy) return;
+  batchBusy = true; updateBatchBar(); cardsOf().forEach(c => { c.querySelector('input.pick').disabled = true; });
+  const verb = mode === 'approve' ? '通过' : '拒绝', before = new Map();
+  try{
+    (await listIssues('open', ['shelf-submission', 'post-submission'])).forEach(i => before.set(i.number, i.updated_at));
+    await dispatch('batch.yml', { mode, numbers: numbers.join(','), ...(reason ? { reason } : {}) });
+    say('已提交：' + verb + ' ' + numbers.length + ' 个申请，GitHub Action 在一次运行里处理（通常 1–3 分钟）…', '');
+    let done = 0;
+    for(let i = 0; i < 45; i++){
+      await new Promise(r => setTimeout(r, 6000));
+      const open = await listIssues('open', ['shelf-submission', 'post-submission']), now = new Map(open.map(x => [x.number, x.updated_at]));
+      done = numbers.filter(n => !now.has(n) || now.get(n) !== before.get(n)).length;           // closed, or answered again (the check refused it)
+      say('已处理 ' + done + ' / ' + numbers.length + ' …', '');
+      if(done >= numbers.length) break;
+    }
+    const open = await listIssues('open', ['shelf-submission', 'post-submission']), left = numbers.filter(n => open.some(x => x.number === n)).length;
+    if(done < numbers.length) say('还没有处理完（' + done + ' / ' + numbers.length + '）。到仓库的 Actions 页看看运行情况，稍后点“刷新”。', 'bad');
+    else say(left ? ('完成：' + (numbers.length - left) + ' 个已' + (mode === 'approve' ? '收录' : '拒绝') + '；' + left + ' 个没有成功，还在待审里，点它的“检查结果”看原因。') : ('✅ 完成：' + numbers.length + ' 个都已' + (mode === 'approve' ? '收录' : '拒绝') + '。'), left ? 'bad' : 'good');
+  }catch(e){ say(e.message, 'bad'); }
+  batchBusy = false;
+  setTimeout(refresh, 600);
 }
 
 /* ---------- what is listed ---------- */

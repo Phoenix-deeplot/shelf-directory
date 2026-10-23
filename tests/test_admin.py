@@ -221,6 +221,30 @@ class TestWhatASessionMayDo(AdminBase):
         self.refused('POST', '/repos/o/r/actions/workflows/daily.yml/dispatches', {'ref': 'main', 'inputs': {'target': 'x'}})
         self.assertEqual(self.site.calls, [])
 
+    def test_a_batch_is_one_workflow_run_with_checked_inputs(self):
+        wf = '/repos/o/r/actions/workflows/batch.yml/dispatches'
+        self.site.on('POST', '/api' + wf, 204, {})
+        self.assertEqual(self.gh(self.s, 'POST', wf, {'ref': 'evil', 'inputs': {'mode': 'approve', 'numbers': '12,13,40'}})[1]['status'], 204)
+        self.assertEqual(self.gh(self.s, 'POST', wf, {'inputs': {'mode': 'reject', 'numbers': '7', 'reason': '  太像已有的了\n请换一个  '}})[1]['status'], 204)
+        self.assertEqual(self.gh(self.s, 'POST', wf, {'inputs': {'mode': 'approve', 'numbers': '7', 'reason': 'ignored for an approval'}})[1]['status'], 204)
+        sent = [b for m, p, b, h in self.site.calls]
+        self.assertEqual(sent, [{'ref': 'trunk', 'inputs': {'mode': 'approve', 'numbers': '12,13,40'}},
+                                {'ref': 'trunk', 'inputs': {'mode': 'reject', 'numbers': '7', 'reason': '太像已有的了 请换一个'}},
+                                {'ref': 'trunk', 'inputs': {'mode': 'approve', 'numbers': '7'}}])
+
+    def test_a_batch_takes_only_numbers_and_a_mode(self):
+        wf = '/repos/o/r/actions/workflows/batch.yml/dispatches'
+        for inputs in ({'mode': 'list', 'numbers': '1'}, {'mode': 'approve'}, {'numbers': '1'}, {'mode': 'approve', 'numbers': ''}, {'mode': 'approve', 'numbers': '1,'},
+                       {'mode': 'approve', 'numbers': '1, 2'}, {'mode': 'approve', 'numbers': '1;id'}, {'mode': 'approve', 'numbers': 'a'}, {'mode': 'approve', 'numbers': 5},
+                       {'mode': 'approve', 'numbers': ','.join(str(i) for i in range(1, 62))}, {'mode': 'approve', 'numbers': '12345678'},
+                       {'mode': 'reject', 'numbers': '1', 'reason': 'x' * (adm.COMMENT_MAX + 1)}, {'mode': 'reject', 'numbers': '1', 'reason': 5},
+                       {'mode': 'approve', 'numbers': '1', 'target': 'x'}, None, []):
+            self.refused('POST', wf, {'ref': 'main', 'inputs': inputs})
+        self.refused('POST', wf, {'ref': 'main'})
+        self.assertEqual(self.site.calls, [])
+        self.site.on('POST', '/api' + wf, 204, {})
+        self.assertEqual(self.gh(self.s, 'POST', wf, {'inputs': {'mode': 'approve', 'numbers': ','.join(str(i) for i in range(1, 61))}})[1]['status'], 204)     # sixty is the most
+
     def test_the_directory_file_comes_back_as_the_document(self):
         doc = {'spec': 1, 'shelves': [{'id': 'a'}], 'items': []}
         self.site.put('/api/repos/o/r/contents/docs/directory.json', json.dumps(doc), 'application/json')

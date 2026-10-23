@@ -1,0 +1,57 @@
+name: Batch review
+# The admin page's "approve the selected" / "approve all that passed" / "reject the selected": several submissions decided in ONE run, so that the registry is changed,
+# built and committed once. (Adding the label `approved` to many issues at once starts as many runs of the Submissions workflow, and GitHub keeps only the first one that
+# is running and the last one that is waiting: the ones in between are cancelled and stay unprocessed.)
+# The inputs are untrusted text: they go into the environment and are validated by aggregate.py, never put into a shell command.
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: approve or reject
+        required: true
+        default: approve
+      numbers:
+        description: issue numbers, comma separated (at most 60)
+        required: true
+      reason:
+        description: a sentence added to the answer of a refusal (reject only)
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: registry
+  cancel-in-progress: false
+
+jobs:
+  batch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Decide
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          MODE: ${{ inputs.mode }}
+          NUMBERS: ${{ inputs.numbers }}
+          REASON: ${{ inputs.reason }}
+        run: python aggregate.py batch --mode "$MODE" --numbers "$NUMBERS" --reason "$REASON" --out results.json || true   # results.json says what happened to each
+      - name: Commit
+        env:
+          MODE: ${{ inputs.mode }}
+          NUMBERS: ${{ inputs.numbers }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A registry docs posts
+          if git diff --cached --quiet; then echo 'nothing changed'; else git commit -m "batch: $MODE $NUMBERS" && git pull --rebase && git push; fi
+      - name: Answer in the issues
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python aggregate.py apply --result results.json

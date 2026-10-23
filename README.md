@@ -79,6 +79,34 @@
 - 每个来访者每 10 分钟最多 15 次查找、40 次更新、40 次阅读（按暖实例计的软限制，真正的限流在 Vercel）；页面来源和提交服务一样由 `ALLOWED_ORIGINS` 控制（默认 `https://books.zhitree.cn`）。
 - 主站页面通过 `directory.json` 里的 `submit_api` 找到它（末尾的 `/submit` 换成 `/feed`）；想指向别处，在 `registry/config.json` 里写 `"feed_api": "https://…/api/feed"`。打开 `https://你的目录站点/api/feed`，应该看到 `{"ok": true, "service": "shelf-feed"}`。
 
+### B3. 批量审核（`batch.yml`）
+
+管理页的待审列表里每条申请有个勾：“通过所选”“拒绝所选…”“选中检查通过的”“一键通过全部检查通过的”。这些**不是**给每个 issue 加 `approved` 标签：一次给几十个 issue 加标签会同时启动几十次 `Submissions` 运行，而 GitHub 的并发组里**只留下正在跑的那一个和最后排队的那一个**，中间的会被取消，留下“已批准却没处理”的申请。所以管理页只启动**一次** `batch.yml`（输入：`mode` = approve / reject、`numbers` = 最多 60 个 issue 编号、`reject` 时可带一句 `reason`），在这一次运行里：逐个读 issue（只处理仍然开着、属于待审队列、没有 `listed` / `rejected` 的，其余原样跳过）→ 和单个加标签时完全一样地检查、登记、抓取 → **只构建、提交一次** → 逐个在 issue 里回复、改标签、关闭。输入只通过环境变量进入，由 `aggregate.py batch` 校验（编号只能是数字和逗号，最多 60 个），管理接口的白名单也同样校验。命令行：`python aggregate.py batch --mode approve --numbers 12,13,14 --out results.json` 然后 `python aggregate.py apply --result results.json`（需要 `GITHUB_TOKEN` 和 `GITHUB_REPOSITORY`）。“一键通过”只包含机器人检查通过的；疑似重复的要自己勾。
+
+### B4. 热榜订阅服务（`api/hot.py`，不用任何设置）
+
+“热榜网站”做的事：向平台**自己网页用的那个小接口**（和你在浏览器里打开那个榜单页时发出的请求一样，带浏览器的请求头）要一份 JSON，取出名次、标题、热度和链接，几分钟缓存一下再转给你；**不读、不存任何文章正文**。这里转成一份普通的 RSS，所以读者在“推荐订阅”里点一下就能订阅，之后每次更新就是平台当前的榜单：条目标题是榜上的标题，说明里写“第 N 名 · 热度”，点开去平台自己的页面。和提交服务、更新服务在同一个 Vercel 项目里，部署完就有，不要环境变量。
+
+- `GET /api/hot` 返回现在提供哪些榜（JSON，允许任何页面读取，主站据此只显示服务真的提供的榜）；`GET /api/hot?p=github&n=30` 返回那一个榜的 RSS（`&format=json` 是 JSON）。结果在每个暖实例里缓存 3 分钟，CDN 缓存 10 分钟，平台读不到时最长一小时内用上一份。
+- **默认开启（5 个）**：`github`（GitHub Trending 今日）、`juejin`、`v2ex`、`bilibili`（综合热门）、`netease`（飙升榜）。**默认关闭（新闻类 4 个）**：`weibo`、`zhihu`、`baidu`、`toutiao`——榜上是当天全国在聊什么，要不要转发由站长决定：在 Vercel 环境变量里写 `HOT_ENABLE=weibo,zhihu`（或 `all`）打开；`HOT_DISABLE=juejin,v2ex` 可以再关掉任何一个，关掉的返回 404。
+- **这些是平台网页自己的接口，不是公开的、有文档的 API**：可能随时改格式或关闭，使用条款以平台自己的为准；格式变了会返回 502 和原因，而不是一份空的订阅。几个没做的：抖音（要先走一步游客 cookie 才拿得到榜单，不稳）、小红书（接口带签名）、X、YouTube 趋势、同花顺——没有稳定的公开来源，不勉强。
+- 安全：每个榜的地址写死在 `hotapi.py` 的 `PLATFORMS` 里，请求能选的只有“哪个榜、几条”，不会读读者给的任何网址；读取走 `aggregate.py` 的受限抓取（只走 https、只连公网地址、限大小和时间）。
+- 订阅它：主站的 `recommended.json` 里把条目的 `feed` 写成 `hot:github`（`hot:` 加榜单编号），页面会换成这个服务的地址；也可以直接订阅 `https://你的目录站点/api/hot?p=github`。测试：`tests/test_hot.py`（14 个，不联网）。
+
+### B5. 匿名计数（`api/stat.py`，需要和同步一样的 Redis）
+
+公共目录页上的“热度”“热门订阅 / 文章 Top 3”和“热度”排序，来自这里：只记**每条内容被打开、被收藏、被订阅了几次**，别的什么都不记。
+
+- `POST /api/stat` `{"events":[{"t":"open|save|sub","k":"item|shelf","id":"…"}]}`（一次最多 20 个，页面每人每条每天只发一次）；`GET /api/stat` 返回最热的 400 条和 400 个书架 `{"items":{id:{o,s,u,h}},…}`（`o` 打开、`s` 收藏、`u` 订阅的总数，`h` 热度 = 最近 7 天的 打开 ×1 + 收藏 ×4 + 订阅 ×6），CDN 缓存 10 分钟。
+- **不存什么**：不存地址、不用 Cookie、不记时间、不建账号。每条每种事件只有“一天一个数字”（保留 40 天）和“总数”。为了让同一个人对同一条一天只算一次，用（盐、当天日期、网络地址、事件类型、条目编号）做一个单向哈希放进 Redis，**两天后自动作废**，不能还原成地址，也没法把同一个人从今天跟到明天；另一个（盐、日期、地址）的哈希数一数这个人今天发了多少个事件，超过 `STAT_DAILY_EVENTS`（默认 200，最大 5000）就丢弃，防止一台机器刷热度。
+- 页面在浏览器开了“请勿跟踪”或“全球隐私控制”时什么都不发；只统计目录里有的内容（编号要符合 `[A-Za-z0-9._-]{1,64}`）。
+- 需要的环境变量：和同步服务一样的 Redis（`UPSTASH_REDIS_REST_URL` + `UPSTASH_REDIS_REST_TOKEN`，或 `KV_REST_API_URL` + `KV_REST_API_TOKEN`）、`IP_SALT`、`ALLOWED_ORIGINS`（来源只认它）；没有 Redis 时 `GET` 说 `"configured": false`，页面就不显示热度。测试：`tests/test_stat.py`（19 个）。
+
+### B6. 站长推荐和领域标签
+
+- **站长推荐**：给一个已收录的书架标上推荐和一句话：`python aggregate.py feature 书架编号 --blurb "每周一篇，读完就能用"`（`--off` 取消；收录时也可以直接 `approve 网址 --featured --blurb …`）。标过的书架在 `directory.json` 里有 `featured: true` 和 `blurb`，主站目录页顶部的“站长推荐”和“合集”下拉框里的“站长推荐”用它。
+- **领域标签页**（科技、编程、商业、金融、学术、读书、人文、供应链、音乐、生活）：`directory.json` 里的 `topics`，一条内容（或它的书架）带有某个领域的任一标签就算这个领域，不分大小写。想改领域，在 `registry/topics.json` 写 `{"topics":[{"id":"tech","zh":"科技","en":"Tech","tags":["科技","tech",…]}]}`（`id` 小写字母、数字、`-`，最多 30 个领域、每个 60 个标签）；没有这个文件或里面一个有效的都没有，就用内置的十个。“平台”标签页不需要任何设置，主站按网址判断。
+
 ### C. 管理页
 
 打开 Vercel 项目的 `/admin/`（例如 `https://adminbook.zhitree.cn/admin/`）。有两种登录方式：
@@ -144,6 +172,7 @@ python aggregate.py fetch            # 读取所有来源
 python aggregate.py build [--base http://127.0.0.1:8770/]   # 生成 docs/（托管文章的网址需要 base）
 python aggregate.py run              # fetch + build
 python aggregate.py serve            # 在 http://127.0.0.1:8770/ 预览 docs/（带 CORS，给本机的网页用）
+python aggregate.py feature 编号 --blurb "一句话"     # 标成站长推荐（--off 取消）
 python aggregate.py remove 编号       # 或 post:文章编号
 python -X utf8 -m unittest discover -s tests -v          # 测试（不联网）
 ```

@@ -3,7 +3,8 @@
 
   python aggregate.py probe URL                      what is this address, and can it be listed? (writes nothing)
   python aggregate.py issue --event FILE --out FILE  check a submission issue (used by the GitHub Action)
-  python aggregate.py approve URL [--tags a,b] [--starter]   register a checked address (what the "approved" label does); --starter: also offered as "try these" to new readers
+  python aggregate.py approve URL [--tags a,b] [--starter] [--featured --blurb TEXT]   register a checked address (what the "approved" label does); --starter: also offered as "try these" to new readers;
+                                                              --featured: one of the owner's picks (python aggregate.py feature ID [--off] [--blurb TEXT] changes it later)
   python aggregate.py approve --event FILE --out FILE
   python aggregate.py reject --event FILE --out FILE remember a refused submission (its hash only) and close it
   python aggregate.py apply --result FILE            post the result of `issue` / `approve` / `reject` in the issue (GitHub Action)
@@ -1287,6 +1288,35 @@ def discover(raw):
 
 
 # ======================================================================= registry
+# The domains of the directory page's tabs: a topic holds an entry when one of its tags (the entry's own, or its shelf's) is one of the topic's tags (case does not matter).
+# registry/topics.json ({"topics": [{"id", "zh", "en", "tags": [...]}]}) replaces this list when the owner writes one.
+DEFAULT_TOPICS = [
+    {'id': 'tech', 'zh': '科技', 'en': 'Tech', 'tags': ['科技', '数码', '互联网', 'AI', '软件', '工具', 'tech', 'technology', 'gadgets', 'software', 'tools']},
+    {'id': 'dev', 'zh': '编程', 'en': 'Programming', 'tags': ['编程', '前端', '开源', '架构', '工程', 'programming', 'python', 'javascript', 'devops', 'open source', 'engineering']},
+    {'id': 'business', 'zh': '商业', 'en': 'Business', 'tags': ['商业', '创业', '产品', '运营', 'business', 'startup', 'startups', 'marketing', 'product']},
+    {'id': 'finance', 'zh': '金融', 'en': 'Finance', 'tags': ['金融', '投资', '经济', '理财', 'finance', 'economics', 'investing']},
+    {'id': 'academic', 'zh': '学术', 'en': 'Academic', 'tags': ['学术', '科学', '研究', '物理', '数学', 'science', 'research', 'academic', 'physics', 'mathematics']},
+    {'id': 'books', 'zh': '读书', 'en': 'Books', 'tags': ['读书', '书评', '文学', '电子书', '阅读', '书单', 'books', 'literature', 'reading', 'ebooks']},
+    {'id': 'culture', 'zh': '人文', 'en': 'Culture', 'tags': ['人文', '思考', '哲学', '文化', '社会', 'culture', 'philosophy', 'essays', 'thinking', 'ideas', 'humanities']},
+    {'id': 'supply', 'zh': '供应链', 'en': 'Supply chain', 'tags': ['供应链', '物流', '采购', '库存', '仓储', '货运', 'supply chain', 'logistics', 'procurement', 'freight', 'warehouse']},
+    {'id': 'music', 'zh': '音乐', 'en': 'Music', 'tags': ['音乐', 'music']},
+    {'id': 'life', 'zh': '生活', 'en': 'Life', 'tags': ['生活', '美食', '旅行', '效率', '餐饮', 'life', 'food', 'travel', 'productivity', 'restaurants']},
+]
+
+
+def load_topics():
+    """-> the topics of the page's tabs: registry/topics.json when it is valid, else DEFAULT_TOPICS."""
+    data = read_json(os.path.join(ROOT, 'registry', 'topics.json'), None)
+    out = []
+    for t in (data.get('topics') if isinstance(data, dict) else None) or []:
+        if not isinstance(t, dict) or not re.fullmatch(r'[a-z0-9][a-z0-9-]{0,19}', str(t.get('id') or '')) or not isinstance(t.get('tags'), list):
+            continue
+        tags = [clean(x, 30) for x in t['tags'] if isinstance(x, str) and clean(x, 30)][:60]
+        if tags and len(out) < 30:
+            out.append({'id': t['id'], 'zh': clean(t.get('zh') or t.get('en') or t['id'], 20), 'en': clean(t.get('en') or t.get('zh') or t['id'], 24), 'tags': tags})
+    return out or DEFAULT_TOPICS
+
+
 def load_registry():
     r = read_json(reg_path(), {})
     r = r if isinstance(r, dict) else {}
@@ -1506,7 +1536,7 @@ def probe(raw):
     return out
 
 
-def approve(raw, tags=None, issue=None, starter=False):
+def approve(raw, tags=None, issue=None, starter=False, featured=False, blurb=''):
     r = probe(raw)
     if r['duplicate']:
         zh, en = DUPLICATE_TEXT[r['duplicate'][0]]
@@ -1523,13 +1553,39 @@ def approve(raw, tags=None, issue=None, starter=False):
         e['bare'] = True                                       # listed without having been read: what is kept of it is the address and a guessed title
     if starter and e['kind'] == 'feed':
         e['starter'] = True                                    # offered to a new reader as "try these" in the subscribe window (directory.json: shelves[].starter)
-    reg['shelves'].append({k: e[k] for k in ('id', 'kind', 'sub', 'url', 'source', 'repo', 'gist', 'name', 'tags', 'added', 'issue', 'bare', 'starter') if k in e})
+    if featured:
+        e['featured'] = True                                   # the owner's pick: shown first on the directory page (directory.json: shelves[].featured, with blurb)
+        if blurb:
+            e['blurb'] = clean(blurb, 120)
+    reg['shelves'].append({k: e[k] for k in ('id', 'kind', 'sub', 'url', 'source', 'repo', 'gist', 'name', 'tags', 'added', 'issue', 'bare', 'starter', 'featured', 'blurb') if k in e})
     write_json(reg_path(), reg)
     if r.get('unread'):
         write_json(os.path.join(snap_dir(), e['id'] + '.json'), {'id': e['id'], 'kind': e['kind'], 'parser': PARSER, 'status': 'ok', 'error': '', 'fails': 0, 'shelf': r['shelf'], 'items': r['items']})
     else:
         fetch_all(only=e['id'])
     return e, r
+
+
+def feature(sid, on=True, blurb=None):
+    """Mark a listed shelf as one of the owner's picks (or take the mark away); `blurb` is the one sentence shown with it."""
+    if not re.fullmatch(r'[a-z0-9-]+', sid or ''):
+        raise Refused('书架编号不对', 'Bad shelf id')
+    reg = load_registry()
+    for e in reg['shelves']:
+        if e['id'] == sid:
+            if on:
+                e['featured'] = True
+                if blurb is not None:
+                    if clean(blurb, 120):
+                        e['blurb'] = clean(blurb, 120)
+                    else:
+                        e.pop('blurb', None)
+            else:
+                e.pop('featured', None)
+                e.pop('blurb', None)
+            write_json(reg_path(), reg)
+            return e
+    raise Refused('没有这个书架：' + sid, 'No such shelf: ' + sid)
 
 
 def remove(sid):
@@ -1687,6 +1743,10 @@ def build():
                             'feed': e['source'] if e['kind'] == 'feed' else '', 'status': s.get('status', 'ok')}
         if e.get('starter') is True and e['kind'] == 'feed':
             shelves[e['id']]['starter'] = True
+        if e.get('featured') is True:
+            shelves[e['id']]['featured'] = True
+            if isinstance(e.get('blurb'), str) and e['blurb'].strip():
+                shelves[e['id']]['blurb'] = clean(e['blurb'], 120)
         for i in s['items']:
             k = url_key(i['url'])
             if k in seen or (i.get('sha') and i['sha'] in seen_sha):     # the same page, or (a repository file) the same content, from an earlier shelf
@@ -1739,7 +1799,7 @@ def build():
     out.update(post_pages)
     out['directory.json'] = json.dumps({'spec': 1, 'title': cfg.get('title') or 'Shelf directory', 'repo': repo, 'submit_api': str(cfg.get('submit_api') or '').strip(),
                                         **({'feed_api': str(cfg['feed_api']).strip()} if str(cfg.get('feed_api') or '').strip() else {}), 'generated': day, 'base': base, 'count': len(items), 'types': types, 'shelves': shelf_list,
-                                        'tags': tags[:300], 'feeds': {'all': 'feed/all', 'type': 'feed/type/{type}', 'tag': 'feed/tag/{slug}', 'shelf': 'feed/shelf/{id}'},
+                                        'topics': load_topics(), 'tags': tags[:300], 'feeds': {'all': 'feed/all', 'type': 'feed/type/{type}', 'tag': 'feed/tag/{slug}', 'shelf': 'feed/shelf/{id}'},
                                         'items': items}, ensure_ascii=False, separators=(',', ':')) + '\n'
     title = cfg.get('title') or 'Shelf directory'
 
@@ -2177,6 +2237,39 @@ def handle_issue(event, mode):
     return res
 
 
+BATCH_MAX = 60                                                     # submissions decided in one run of the batch workflow
+QUEUE_LABELS = ('shelf-submission', 'post-submission')
+
+
+def batch_issues(numbers, mode, repo, reason='', token=None):
+    """The maintainer's decision on several submissions at once (the admin page's "approve the selected" / "approve all that passed"). Each issue is read from GitHub and handled
+    exactly as if the label had been added to it; what happened to each is returned, in the order given. Something that is not an open submission of the queue (closed, a pull
+    request, listed or rejected already, not found) is left alone: its answer says `skipped`. One run does all of them, so that the registry is changed, built and committed once
+    (labels added to many issues at once would start as many runs of which GitHub keeps only the first and the last)."""
+    if mode not in ('approve', 'reject'):
+        raise Refused('批量处理的方式只能是 approve 或 reject', 'The batch mode is approve or reject')
+    nums = []
+    for n in numbers:
+        if isinstance(n, int) and n > 0 and n not in nums:
+            nums.append(n)
+    if not nums or len(nums) > BATCH_MAX:
+        raise Refused('一次处理 1 到 %d 个申请' % BATCH_MAX, 'Between 1 and %d submissions at a time' % BATCH_MAX)
+    if not re.fullmatch(r'[\w.-]+/[\w.-]+', repo or ''):
+        raise Refused('没有仓库名（GITHUB_REPOSITORY）', 'No repository (GITHUB_REPOSITORY)')
+    out = []
+    for n in nums:
+        st, issue = gh_call('GET', '/repos/%s/issues/%d' % (repo, n), token=token)
+        labels = {x.get('name') for x in (issue or {}).get('labels', []) if isinstance(x, dict)} if st == 200 and isinstance(issue, dict) else set()
+        if st != 200 or not isinstance(issue, dict) or issue.get('pull_request') or issue.get('state') != 'open' or not labels & set(QUEUE_LABELS) or labels & {'listed', 'rejected'}:
+            out.append({'number': n, 'ok': False, 'skipped': True, 'comment': '', 'add': [], 'remove': [], 'close': False})
+            continue
+        res = handle_issue({'issue': issue}, mode)
+        if mode == 'reject' and reason:
+            res['comment'] += '\n\n' + md_esc(reason)
+        out.append(res)
+    return out
+
+
 def _similar_result(sim, described):
     """-> what handle_issue answers when what was submitted looks like something the directory has: it is marked, not refused: the maintainer decides."""
     why, sid, stitle = sim
@@ -2309,13 +2402,24 @@ def main(argv=None):
     p.add_argument('url', nargs='?')
     p.add_argument('--tags', default='')
     p.add_argument('--starter', action='store_true', help='also offer it to new readers as "try these" when they subscribe (feeds only)')
+    p.add_argument('--featured', action='store_true', help="one of the owner's picks: shown first on the directory page")
+    p.add_argument('--blurb', default='', help='the one sentence shown with a featured shelf')
     p.add_argument('--event')
     p.add_argument('--out')
     p = sub.add_parser('reject')
     p.add_argument('--event', required=True)
     p.add_argument('--out', required=True)
+    p = sub.add_parser('batch')
+    p.add_argument('--mode', required=True, choices=['approve', 'reject'])
+    p.add_argument('--numbers', required=True, help='issue numbers, comma separated (at most %d)' % BATCH_MAX)
+    p.add_argument('--reason', default='', help='a sentence added to the answer of a refusal')
+    p.add_argument('--out', required=True)
     p = sub.add_parser('apply')
     p.add_argument('--result', required=True)
+    p = sub.add_parser('feature', help="mark a listed shelf as one of the owner's picks (--off takes the mark away)")
+    p.add_argument('id')
+    p.add_argument('--off', action='store_true')
+    p.add_argument('--blurb', default=None)
     p = sub.add_parser('remove')
     p.add_argument('id')
     p = sub.add_parser('fetch')
@@ -2343,7 +2447,7 @@ def main(argv=None):
         elif a.cmd == 'approve':
             if not a.url:
                 ap.error('give an address, or --event FILE')
-            e, r = approve(a.url, [t for t in re.split(r'[,，]', a.tags) if t.strip()], starter=a.starter)
+            e, r = approve(a.url, [t for t in re.split(r'[,，]', a.tags) if t.strip()], starter=a.starter, featured=a.featured, blurb=a.blurb)
             show(r)
             build()
             print('listed as', e['id'])
@@ -2351,14 +2455,34 @@ def main(argv=None):
             res = handle_issue(read_json(a.event, {}), 'reject')
             write_json(a.out, res)
             print(res['comment'])
+        elif a.cmd == 'batch':
+            if not re.fullmatch(r'\d{1,7}(,\d{1,7}){0,%d}' % (BATCH_MAX - 1), a.numbers):
+                ap.error('--numbers: whole numbers separated by commas, at most %d' % BATCH_MAX)
+            results = batch_issues([int(x) for x in a.numbers.split(',')], a.mode, os.environ.get('GITHUB_REPOSITORY', ''), re.sub(r'\s+', ' ', a.reason).strip()[:300])
+            if a.mode == 'approve' and any(r.get('ok') for r in results):
+                build()                                          # once, for all of them
+            write_json(a.out, results)
+            for r in results:
+                print('#%s: %s' % (r['number'], 'skipped' if r.get('skipped') else 'done' if r['ok'] else 'not done'))
         elif a.cmd == 'apply':                                   # the last step of the workflows: answer in the issue, loudly if that fails
             if not os.path.isfile(a.result):
                 print('apply: %s was not written: the step before this one failed, read its log' % a.result, file=sys.stderr)
                 return 1
-            problems = apply_result(read_json(a.result, {}), os.environ.get('GITHUB_REPOSITORY', ''))
+            data = read_json(a.result, {})
+            repo, problems = os.environ.get('GITHUB_REPOSITORY', ''), []
+            if isinstance(data, list):                           # a batch: one answer per issue (the skipped ones are not touched)
+                for res in data:
+                    if isinstance(res, dict) and not res.get('skipped'):
+                        problems += ['#%s: %s' % (res.get('number'), x) for x in apply_result(res, repo)]
+            else:
+                problems = apply_result(data, repo)
             for line in problems:
                 print('apply: ' + line, file=sys.stderr)
             return 1 if problems else 0
+        elif a.cmd == 'feature':
+            e = feature(a.id, not a.off, a.blurb)
+            build()
+            print('featured' if e.get('featured') else 'not featured any more', e['id'])
         elif a.cmd == 'remove':
             remove(a.id)
             build()

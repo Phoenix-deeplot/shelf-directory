@@ -749,6 +749,54 @@ class TestRegistryAndBuild(Base):
         agg.write_json(agg.reg_path(), reg)
         self.assertEqual(sum(1 for s in json.loads(agg.build()['directory.json'])['shelves'] if s.get('starter')), 1)
 
+    def test_a_featured_shelf_is_marked_with_its_sentence_and_can_be_unmarked(self):
+        feed_site(self.site, title='Pick', posts=(('One', '2026-10-01'),), path='/a.xml')
+        feed_site(self.site, title='Plain', posts=(('Two', '2026-10-02'),), path='/b.xml')
+        e, _ = agg.approve(self.site.url + '/a.xml', featured=True, blurb='  值得每周看一眼\n的一个博客  ')
+        o, _ = agg.approve(self.site.url + '/b.xml')
+        sh = {s['id']: s for s in json.loads(agg.build()['directory.json'])['shelves']}
+        self.assertEqual((sh[e['id']]['featured'], sh[e['id']]['blurb']), (True, '值得每周看一眼 的一个博客'))
+        self.assertNotIn('featured', sh[o['id']])
+        self.assertNotIn('blurb', sh[o['id']])
+        reg = agg.load_registry()
+        reg['shelves'][1]['featured'] = 'yes'                                      # anything but a real true is ignored
+        agg.write_json(agg.reg_path(), reg)
+        self.assertNotIn('featured', {s['id']: s for s in json.loads(agg.build()['directory.json'])['shelves']}[o['id']])
+        agg.feature(o['id'], True, 'Second')
+        agg.feature(e['id'], False)
+        sh = {s['id']: s for s in json.loads(agg.build()['directory.json'])['shelves']}
+        self.assertEqual((sh[o['id']].get('featured'), sh[o['id']].get('blurb')), (True, 'Second'))
+        self.assertNotIn('featured', sh[e['id']])
+        with self.assertRaises(agg.Refused):
+            agg.feature('nothing-here')
+        with self.assertRaises(agg.Refused):
+            agg.feature('../x')
+        self.assertEqual(agg.main(['feature', o['id'], '--off']), 0)
+        self.assertNotIn('featured', agg.load_registry()['shelves'][1])
+        feed_site(self.site, title='Third', path='/c.xml')
+        self.assertEqual(agg.main(['approve', self.site.url + '/c.xml', '--featured', '--blurb', 'from the command line']), 0)
+        last = agg.load_registry()['shelves'][-1]
+        self.assertEqual((last['featured'], last['blurb']), (True, 'from the command line'))
+
+    def test_the_topics_of_the_tabs_are_the_defaults_or_the_owners_valid_ones(self):
+        feed_site(self.site, title='Blog', path='/a.xml')
+        agg.approve(self.site.url + '/a.xml')
+        topics = json.loads(agg.build()['directory.json'])['topics']
+        self.assertEqual([x['id'] for x in topics][:3], ['tech', 'dev', 'business'])
+        self.assertTrue(all(x['zh'] and x['en'] and x['tags'] for x in topics))
+        path = os.path.join(self.tmp, 'registry', 'topics.json')
+        agg.write_json(path, {'topics': [{'id': 'mine', 'zh': '我的', 'en': 'Mine', 'tags': ['a', ' b ', 5, '']}, {'id': 'Bad Id', 'zh': 'x', 'tags': ['x']}, {'id': 'empty', 'tags': []}, 'junk',
+                                         {'id': 'notags'}, {'id': 'ok2', 'zh': '二', 'tags': ['z' * 80]}]})
+        topics = json.loads(agg.build()['directory.json'])['topics']
+        self.assertEqual([x['id'] for x in topics], ['mine', 'ok2'])
+        self.assertEqual(topics[0]['tags'], ['a', 'b'])
+        self.assertEqual((topics[0]['en'], topics[1]['en']), ('Mine', '二'))
+        self.assertLessEqual(len(topics[1]['tags'][0]), 31)
+        agg.write_json(path, {'topics': [{'id': 'Bad Id', 'tags': ['x']}]})
+        self.assertEqual(len(json.loads(agg.build()['directory.json'])['topics']), len(agg.DEFAULT_TOPICS))      # nothing valid: the defaults
+        agg.write_json(path, ['not', 'a', 'dict'])
+        self.assertEqual(len(json.loads(agg.build()['directory.json'])['topics']), len(agg.DEFAULT_TOPICS))
+
     def test_first_seen_date_is_kept_and_feed_updates(self):
         site = self.site
         site.put('/f.xml', '<rss version="2.0"><channel><title>No dates</title><item><title>A</title><link>https://x.example/a</link></item></channel></rss>', 'application/rss+xml')

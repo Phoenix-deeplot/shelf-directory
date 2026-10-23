@@ -38,6 +38,10 @@ summary{cursor:pointer;color:var(--ink)}
 .card p{margin:4px 0;word-break:break-word}
 .card .url{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px}
 .actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px}
+.batchbar{position:sticky;top:64px;z-index:1;display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 12px;padding:8px 12px;background:var(--surface);border:1px solid var(--rule);border-radius:8px;box-shadow:0 4px 14px rgba(0,0,0,.08)}
+.batchbar .grow{flex:1;min-width:8px}
+.card h3 .pick{width:18px;height:18px;margin:0 8px -2px 0;accent-color:var(--accent)}
+@media (max-width:620px){.batchbar{top:0;position:static}.batchbar button{flex:1 1 auto}}
 .reason{flex:1;min-width:200px}
 .doc{border:1px solid var(--rule);border-radius:6px;padding:8px 12px;margin:8px 0;background:var(--bg);max-height:420px;overflow:auto}
 .doc img{display:none}

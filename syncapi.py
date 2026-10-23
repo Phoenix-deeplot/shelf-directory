@@ -118,6 +118,16 @@ class MemoryStore:
             return 1 if new else 0
         if op == 'HGET':
             return self.d[a[0]].get(a[1]) if self._live(a[0]) else None
+        if op == 'HINCRBY':
+            if not self._live(a[0]):
+                self.d[a[0]] = {}
+            h = self.d[a[0]]
+            h[a[1]] = str(int(h.get(a[1], '0')) + int(a[2]))
+            return int(h[a[1]])
+        if op == 'HGETALL':                                              # flat, as Redis answers over the wire: [field, value, field, value ...]
+            if not self._live(a[0]):
+                return []
+            return [x for kv in self.d[a[0]].items() for x in kv]
         if op == 'HSTRLEN':
             return len(self.d[a[0]].get(a[1], '')) if self._live(a[0]) else 0
         if op == 'HLEN':

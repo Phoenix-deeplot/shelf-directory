@@ -104,6 +104,7 @@ def login(payload, cfg, who, now):
 LABELS = ('approved', 'rejected')
 WORKFLOWS = {'remove': True, 'daily': False}                               # workflow -> needs a target
 TARGET = re.compile(r'^(post:)?[A-Za-z0-9][A-Za-z0-9._-]{0,120}$')
+BATCH_NUMBERS = re.compile(r'^\d{1,7}(,\d{1,7}){0,59}$')                      # the batch workflow: up to 60 issue numbers
 
 
 def _forbidden():
@@ -142,6 +143,17 @@ def plan(method, path, body, cfg, branch):
             if not (isinstance(text, str) and 0 < len(text) <= COMMENT_MAX):
                 raise _forbidden()
             return 'plain', 'POST', '%s/issues/%d/comments' % (r, int(m.group(1))), {'body': text}, None
+        if re.fullmatch(e + r'/actions/workflows/batch\.yml/dispatches', path):          # decide several submissions in one run
+            inputs = body.get('inputs') if isinstance(body, dict) else None
+            if not (isinstance(inputs, dict) and {'mode', 'numbers'} <= set(inputs) <= {'mode', 'numbers', 'reason'}):
+                raise _forbidden()
+            mode, numbers, reason = inputs['mode'], inputs['numbers'], inputs.get('reason', '')
+            if mode not in ('approve', 'reject') or not (isinstance(numbers, str) and BATCH_NUMBERS.match(numbers)) or not isinstance(reason, str) or len(reason) > COMMENT_MAX:
+                raise _forbidden()
+            clean = {'mode': mode, 'numbers': numbers}
+            if mode == 'reject' and reason.strip():
+                clean['reason'] = re.sub(r'\s+', ' ', reason).strip()
+            return 'plain', 'POST', '%s/actions/workflows/batch.yml/dispatches' % r, {'ref': branch(), 'inputs': clean}, None
         m = re.fullmatch(e + r'/actions/workflows/(remove|daily)\.yml/dispatches', path)
         if m:
             inputs = body.get('inputs') if isinstance(body, dict) else None

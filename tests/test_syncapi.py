@@ -9,6 +9,7 @@ import json
 import os
 import sys
 import threading
+import time
 import unittest
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
@@ -335,6 +336,10 @@ class TestHttp(unittest.TestCase):
         self.assertEqual((st, body['error']), (400, 'request'))
 
     def test_the_sender_address_is_what_is_limited_not_the_origin_header(self):
+        window = sa.LIMITS['pull'][1]                                         # (the limit counts per fixed window: not across the turn of one)
+        left = window - (time.time() % window)
+        if left < 5:
+            time.sleep(left + 0.2)
         for i in range(sa.LIMITS['pull'][0]):
             self.assertEqual(self.req('POST', {'action': 'pull', 'id': VID, 'auth': AUTH})[0], 200)
         self.assertEqual(self.req('POST', {'action': 'pull', 'id': VID, 'auth': AUTH})[0], 429)
