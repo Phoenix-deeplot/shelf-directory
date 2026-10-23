@@ -1,0 +1,490 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Trucking",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/trucking.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/us-trailer-orders-soar-385-as-class-8-truck-market-sends-mixed-signals",
+      "url": "https://www.freightwaves.com/news/us-trailer-orders-soar-385-as-class-8-truck-market-sends-mixed-signals",
+      "title": "US trailer orders soar 385% as Class 8 truck market sends mixed signals",
+      "content_text": "Trailer orders jumped sharply in September as carriers moved to secure equipment ahead of potential price increases, while heavy-duty truck purchases showed mix…",
+      "summary": "Trailer orders jumped sharply in September as carriers moved to secure equipment ahead of potential price increases, while heavy-duty truck purchases showed mix…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "News",
+        "Trucking",
+        "Trucking Equipment",
+        "ACT Research",
+        "Class 8 truck orders",
+        "FTR",
+        "Trailer orders",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/tesla-semi-enters-volume-production-as-2027-rollout-approaches",
+      "url": "https://www.freightwaves.com/news/tesla-semi-enters-volume-production-as-2027-rollout-approaches",
+      "title": "Tesla Semi enters volume production as 2027 rollout approaches",
+      "content_text": "Automaker Tesla says it began volume production of its Class 8 electric Semi truck in the third quarter, marking a major milestone ahead of its planned 2027 com…",
+      "summary": "Automaker Tesla says it began volume production of its Class 8 electric Semi truck in the third quarter, marking a major milestone ahead of its planned 2027 com…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "Electric Trucks",
+        "News",
+        "Trucking",
+        "Tesla",
+        "Tesla Semi",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/ryder-fleet-facing-possible-growth-need-as-epa-27-nears",
+      "url": "https://www.freightwaves.com/news/ryder-fleet-facing-possible-growth-need-as-epa-27-nears",
+      "title": "Ryder fleet facing possible growth need as EPA ‘27 nears",
+      "content_text": "With the EPA ‘27 engine rules impacting nitrogen oxide (NoX) emissions in heavy duty vehicles getting closer every day, the new rules will have a major impact o…",
+      "summary": "With the EPA ‘27 engine rules impacting nitrogen oxide (NoX) emissions in heavy duty vehicles getting closer every day, the new rules will have a major impact o…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "News",
+        "OEM Trucking",
+        "Top Stories",
+        "Trucking",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/motive-launches-ai-agents-fleets",
+      "url": "https://www.freightwaves.com/news/motive-launches-ai-agents-fleets",
+      "title": "Motive launches AI Agents as fleets weigh how to prevent problems",
+      "content_text": "Motive, an AI platform for physical operations, launched Agents on Monday at the American Trucking Associations’ Management Conference & Exhibition (MCE) in Cha…",
+      "summary": "Motive, an AI platform for physical operations, launched Agents on Monday at the American Trucking Associations’ Management Conference & Exhibition (MCE) in Cha…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "News",
+        "Technology",
+        "Top Stories",
+        "Trucking",
+        "AI Dashcam Plus",
+        "ATA MCE",
+        "ATA MCE 2026",
+        "Atlas AI assistant"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/first-look-almost-all-strong-numbers-in-ryders-third-quarter-earnings",
+      "url": "https://www.freightwaves.com/news/first-look-almost-all-strong-numbers-in-ryders-third-quarter-earnings",
+      "title": "First look: almost all strong numbers in Ryder’s third quarter earnings",
+      "content_text": "It was a solid third quarter for Ryder, with improvement in just about every metric compared to the third quarter of 2025. The numbers have been good enough tha…",
+      "summary": "It was a solid third quarter for Ryder, with improvement in just about every metric compared to the third quarter of 2025. The numbers have been good enough tha…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "News",
+        "Top Stories",
+        "Trucking",
+        "Ryder",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/feds-charge-driver-in-alleged-12m-cargo-theft-scheme-built-on-hijacked-carrier-identities",
+      "url": "https://www.freightwaves.com/news/feds-charge-driver-in-alleged-12m-cargo-theft-scheme-built-on-hijacked-carrier-identities",
+      "title": "Feds charge driver in alleged $12M cargo theft scheme built on hijacked carrier identities",
+      "content_text": "At least 24 shipments vanished after drivers collected merchandise from distribution centers. Authorities also uncovered fraudulent licenses, altered identities…",
+      "summary": "At least 24 shipments vanished after drivers collected merchandise from distribution centers. Authorities also uncovered fraudulent licenses, altered identities…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "Business",
+        "Fraud",
+        "Playbook: Cash & Capital",
+        "Top Stories",
+        "cargo theft",
+        "logistics",
+        "Trucking",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement",
+      "url": "https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement",
+      "title": "Daimler Truck sues former fleet manager over alleged $3.8M embezzlement",
+      "content_text": "Daimler Truck North America is seeking $6.6 million in damages after accusing a former employee and his wife of misappropriating nearly $3.8 million. The post D…",
+      "summary": "Daimler Truck North America is seeking $6.6 million in damages after accusing a former employee and his wife of misappropriating nearly $3.8 million. The post D…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "Legal issues",
+        "News",
+        "Trucking",
+        "Daimler",
+        "Daimler Truck North America",
+        "Embezzlement",
+        "lawsuit",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/cbp-seizes-2-5m-in-meth-hidden-in-tomatillo-truck-at-otay-mesa-drivers-visa-canceled",
+      "url": "https://www.freightwaves.com/news/cbp-seizes-2-5m-in-meth-hidden-in-tomatillo-truck-at-otay-mesa-drivers-visa-canceled",
+      "title": "CBP seizes $2.5M in meth hidden in tomatillo truck at Otay Mesa; driver’s visa canceled",
+      "content_text": "Nearly 1,600 pounds of narcotics, a federal investigation and an unexpected development involving the trucker. New details obtained by FreightWaves reveal what…",
+      "summary": "Nearly 1,600 pounds of narcotics, a federal investigation and an unexpected development involving the trucker. New details obtained by FreightWaves reveal what…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "Borderlands: Mexico",
+        "Playbook: Cash & Capital",
+        "Top Stories",
+        "CBP",
+        "cross border",
+        "drug seizures",
+        "Trucking",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/phillips-connect-insights-trailersignal-launch",
+      "url": "https://www.freightwaves.com/news/phillips-connect-insights-trailersignal-launch",
+      "title": "Phillips Connect moves trailer sensor alerts into the yard",
+      "content_text": "Phillips Connect launched two smart trailer products Sunday at the American Trucking Associations’ Management Conference & Exhibition in Charlotte, North Caroli…",
+      "summary": "Phillips Connect launched two smart trailer products Sunday at the American Trucking Associations’ Management Conference & Exhibition in Charlotte, North Caroli…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "News",
+        "Technology",
+        "Trucking",
+        "Trucking Equipment",
+        "ATA MCE",
+        "ATA MCE 2026",
+        "Phillips Connect",
+        "Phillips Connect Insights"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/new-trucking-bankruptcies-expose-mounting-debt-and-shrinking-fleets",
+      "url": "https://www.freightwaves.com/news/new-trucking-bankruptcies-expose-mounting-debt-and-shrinking-fleets",
+      "title": "New trucking bankruptcies expose mounting debt and shrinking fleets",
+      "content_text": "Sixteen recent trucking bankruptcy cases span multiple states as carriers confront mounting financial challenges. The post New trucking bankruptcies expose moun…",
+      "summary": "Sixteen recent trucking bankruptcy cases span multiple states as carriers confront mounting financial challenges. The post New trucking bankruptcies expose moun…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "Layoffs and Bankruptcies",
+        "News",
+        "Trucking",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/nearly-1m-in-pokemon-and-sports-cards-vanish-from-fedex-truck-driver-discovers-missing-lock",
+      "url": "https://www.freightwaves.com/news/nearly-1m-in-pokemon-and-sports-cards-vanish-from-fedex-truck-driver-discovers-missing-lock",
+      "title": "Nearly $1M in Pokémon and sports cards vanish from FedEx truck, driver discovers missing lock",
+      "content_text": "A FedEx driver discovered a missing cargo-door lock and nearly $1 million in stolen trading cards outside a California grading facility. Detectives are reviewin…",
+      "summary": "A FedEx driver discovered a missing cargo-door lock and nearly $1 million in stolen trading cards outside a California grading facility. Detectives are reviewin…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "Business",
+        "Fraud",
+        "Playbook: Cash & Capital",
+        "Top Stories",
+        "California",
+        "cargo theft",
+        "FedEx",
+        "Trucking"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/highway-shared-standards-freight-fraud",
+      "url": "https://www.freightwaves.com/news/highway-shared-standards-freight-fraud",
+      "title": "Highway pitches shared standards as freight fraud shifts",
+      "content_text": "Highway has lost one load out of a million under its $100,000 performance guarantee. Its CCO says the next step is getting insurers, factors and ELD vendors to…",
+      "summary": "Highway has lost one load out of a million under its $100,000 performance guarantee. Its CCO says the next step is getting insurers, factors and ELD vendors to…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "News",
+        "Top Stories",
+        "Trucking",
+        "Trucking Compliance",
+        "cargo theft",
+        "carrier vetting",
+        "freight broker fraud",
+        "freight fraud"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/from-freight-management-to-self-improving-networks",
+      "url": "https://www.freightwaves.com/news/from-freight-management-to-self-improving-networks",
+      "title": "From Freight Management to Self-Improving Networks",
+      "content_text": "Customers expect a Managed Transportation partner to run their freight reliably and cost efficiently. They should get more: experts who understand their network…",
+      "summary": "Customers expect a Managed Transportation partner to run their freight reliably and cost efficiently. They should get more: experts who understand their network…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "Business",
+        "News",
+        "Sponsored Insights",
+        "Amir Pelleg",
+        "Freight",
+        "FreightWaves",
+        "logistics",
+        "Trucking"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/dsv-expands-us-mexico-freight-network-with-90m-laredo-facility",
+      "url": "https://www.freightwaves.com/news/dsv-expands-us-mexico-freight-network-with-90m-laredo-facility",
+      "title": "DSV expands US-Mexico freight network with $90M Laredo facility",
+      "content_text": "DSV has opened a $90 million logistics facility in Laredo, consolidating cross-border transportation, warehousing and customs services along the Texas-Mexico bo…",
+      "summary": "DSV has opened a $90 million logistics facility in Laredo, consolidating cross-border transportation, warehousing and customs services along the Texas-Mexico bo…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "Borderlands: Mexico",
+        "News",
+        "Trucking",
+        "DSV",
+        "Laredo texas",
+        "logistics centers",
+        "US-Mexico trucking",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/ceos-letter-boasts-of-lots-of-arrows-pointing-up-at-triumph-financial",
+      "url": "https://www.freightwaves.com/news/ceos-letter-boasts-of-lots-of-arrows-pointing-up-at-triumph-financial",
+      "title": "CEO’s letter boasts of lots of arrows pointing up at Triumph Financial",
+      "content_text": "It was hard not to read the quarterly letter to shareholders by Aaron Graft, the CEO of Triumph Financial, and not get a sense that he was taking the first few…",
+      "summary": "It was hard not to read the quarterly letter to shareholders by Aaron Graft, the CEO of Triumph Financial, and not get a sense that he was taking the first few…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "News",
+        "Top Stories",
+        "Trucking",
+        "Factoring",
+        "Triumph Financial",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/partner-of-choice-why-the-best-shipper-carrier-relationships-now-go-beyond-shipper-of-choice",
+      "url": "https://www.freightwaves.com/news/partner-of-choice-why-the-best-shipper-carrier-relationships-now-go-beyond-shipper-of-choice",
+      "title": "Partner of Choice: Why the Best Shipper-Carrier Relationships Now Go Beyond Shipper of Choice",
+      "content_text": "Tender rejections are 2.5x last year and contract rates are up 18%. SONAR's new sitrep shows how shippers go from shipper of choice to partner of choice. The po…",
+      "summary": "Tender rejections are 2.5x last year and contract rates are up 18%. SONAR's new sitrep shows how shippers go from shipper of choice to partner of choice. The po…",
+      "date_published": "2026-10-20T00:00:00Z",
+      "tags": [
+        "Inside SONAR",
+        "logistics",
+        "Shipper of choice",
+        "Trucking",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/paccar-connect-kenworth-peterbilt-launch",
+      "url": "https://www.freightwaves.com/news/paccar-connect-kenworth-peterbilt-launch",
+      "title": "PACCAR builds a fleet app platform into Kenworth, Peterbilt",
+      "content_text": "PACCAR Connect arrives in early 2027 and links Kenworth and Peterbilt drivers to Platform Science's Virtual Vehicle app marketplace, days before PACCAR reports…",
+      "summary": "PACCAR Connect arrives in early 2027 and links Kenworth and Peterbilt drivers to Platform Science's Virtual Vehicle app marketplace, days before PACCAR reports…",
+      "date_published": "2026-10-20T00:00:00Z",
+      "tags": [
+        "News",
+        "OEM Trucking",
+        "Technology",
+        "Trucking",
+        "Trucking Tech",
+        "Class 8 telematics",
+        "Kenworth",
+        "OEM"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/a-duie-pyle-expands-ltl-network-with-new-ohio-pennsylvania-facilities",
+      "url": "https://www.freightwaves.com/news/a-duie-pyle-expands-ltl-network-with-new-ohio-pennsylvania-facilities",
+      "title": "A. Duie Pyle expands LTL network with new Ohio, Pennsylvania facilities",
+      "content_text": "A. Duie Pyle is expanding its regional freight network with a new Cincinnati-area LTL service center and an integrated warehouse facility in Camp Hill, Pennsylv…",
+      "summary": "A. Duie Pyle is expanding its regional freight network with a new Cincinnati-area LTL service center and an integrated warehouse facility in Camp Hill, Pennsylv…",
+      "date_published": "2026-10-20T00:00:00Z",
+      "tags": [
+        "Less than Truckload (LTL)",
+        "News",
+        "Trucking",
+        "A. Duie Pyle",
+        "Cincinnati",
+        "Less than truckload",
+        "Pennslyvania",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}

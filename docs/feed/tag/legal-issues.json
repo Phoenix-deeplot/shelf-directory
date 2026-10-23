@@ -1,0 +1,66 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Legal issues",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/legal-issues.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement",
+      "url": "https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement",
+      "title": "Daimler Truck sues former fleet manager over alleged $3.8M embezzlement",
+      "content_text": "Daimler Truck North America is seeking $6.6 million in damages after accusing a former employee and his wife of misappropriating nearly $3.8 million. The post D…",
+      "summary": "Daimler Truck North America is seeking $6.6 million in damages after accusing a former employee and his wife of misappropriating nearly $3.8 million. The post D…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "Legal issues",
+        "News",
+        "Trucking",
+        "Daimler",
+        "Daimler Truck North America",
+        "Embezzlement",
+        "lawsuit",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/tqls-rico-response-rips-carriers-poor-business-practices",
+      "url": "https://www.freightwaves.com/news/tqls-rico-response-rips-carriers-poor-business-practices",
+      "title": "TQL’s RICO response: rips carriers’ ‘poor business practices’",
+      "content_text": "The first response in the RICO case initiated by a group of carriers against giant 3PLs C.H. Robinson and TQL has been filed by the latter, and it has two key a…",
+      "summary": "The first response in the RICO case initiated by a group of carriers against giant 3PLs C.H. Robinson and TQL has been filed by the latter, and it has two key a…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "3PL and Brokerage",
+        "Legal issues",
+        "News",
+        "Top Stories",
+        "C.H. Robinson",
+        "TQL",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #数据",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-54b8a9.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/tesla-semi-enters-volume-production-as-2027-rollout-approaches",
+      "url": "https://www.freightwaves.com/news/tesla-semi-enters-volume-production-as-2027-rollout-approaches",
+      "title": "Tesla Semi enters volume production as 2027 rollout approaches",
+      "content_text": "Automaker Tesla says it began volume production of its Class 8 electric Semi truck in the third quarter, marking a major milestone ahead of its planned 2027 com…",
+      "summary": "Automaker Tesla says it began volume production of its Class 8 electric Semi truck in the third quarter, marking a major milestone ahead of its planned 2027 com…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "Electric Trucks",
+        "News",
+        "Trucking",
+        "Tesla",
+        "Tesla Semi",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/sonar-launches-new-routing-guide-and-contract-rate-data-plus-expanded-searchcarriers-monitoring",
+      "url": "https://www.freightwaves.com/news/sonar-launches-new-routing-guide-and-contract-rate-data-plus-expanded-searchcarriers-monitoring",
+      "title": "SONAR launches new routing guide and contract rate data, plus expanded SearchCarriers monitoring",
+      "content_text": "New SONAR datasets show what shippers pay brokers and carriers when freight falls past the first tender, plus SearchCarriers watchlists and alerts. The post SON…",
+      "summary": "New SONAR datasets show what shippers pay brokers and carriers when freight falls past the first tender, plus SearchCarriers watchlists and alerts. The post SON…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "Inside SONAR",
+        "carrier qualification",
+        "Shippers",
+        "SONAR",
+        "sonar data",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/ryder-fleet-facing-possible-growth-need-as-epa-27-nears",
+      "url": "https://www.freightwaves.com/news/ryder-fleet-facing-possible-growth-need-as-epa-27-nears",
+      "title": "Ryder fleet facing possible growth need as EPA ‘27 nears",
+      "content_text": "With the EPA ‘27 engine rules impacting nitrogen oxide (NoX) emissions in heavy duty vehicles getting closer every day, the new rules will have a major impact o…",
+      "summary": "With the EPA ‘27 engine rules impacting nitrogen oxide (NoX) emissions in heavy duty vehicles getting closer every day, the new rules will have a major impact o…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "News",
+        "OEM Trucking",
+        "Top Stories",
+        "Trucking",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/how-triumph-financials-ceo-beat-the-longest-freight-recession",
+      "url": "https://www.freightwaves.com/news/how-triumph-financials-ceo-beat-the-longest-freight-recession",
+      "title": "How Triumph Financial’s CEO Beat the Longest Freight Recession",
+      "content_text": "Triumph Financial CEO Aaron Graft joins FreightWaves to discuss how his company achieved a remarkable 38% transportation revenue growth during one of the longes…",
+      "summary": "Triumph Financial CEO Aaron Graft joins FreightWaves to discuss how his company achieved a remarkable 38% transportation revenue growth during one of the longes…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/first-look-almost-all-strong-numbers-in-ryders-third-quarter-earnings",
+      "url": "https://www.freightwaves.com/news/first-look-almost-all-strong-numbers-in-ryders-third-quarter-earnings",
+      "title": "First look: almost all strong numbers in Ryder’s third quarter earnings",
+      "content_text": "It was a solid third quarter for Ryder, with improvement in just about every metric compared to the third quarter of 2025. The numbers have been good enough tha…",
+      "summary": "It was a solid third quarter for Ryder, with improvement in just about every metric compared to the third quarter of 2025. The numbers have been good enough tha…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "News",
+        "Top Stories",
+        "Trucking",
+        "Ryder",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/commodity-markets-whip-up-railfreight-gains",
+      "url": "https://www.freightwaves.com/news/commodity-markets-whip-up-railfreight-gains",
+      "title": "Commodity markets whip up railfreight gains",
+      "content_text": "Intermodal and commodity traffic helped U.S. freight railroads to strong volume gains in the latest week data. The post Commodity markets whip up railfreight ga…",
+      "summary": "Intermodal and commodity traffic helped U.S. freight railroads to strong volume gains in the latest week data. The post Commodity markets whip up railfreight ga…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "News",
+        "Railroad",
+        "carloads",
+        "intermodal",
+        "railroads",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/cass-q3-earnings-soar-19-eps-growth-freight-market-boom",
+      "url": "https://www.freightwaves.com/news/cass-q3-earnings-soar-19-eps-growth-freight-market-boom",
+      "title": "Cass Q3 Earnings Soar: 19% EPS Growth & Freight Market Boom",
+      "content_text": "Cass Information Systems CFO Mike Normile reveals how rising freight rates, fuel surcharges, and higher interest rates fueled a 19% increase in earnings per sha…",
+      "summary": "Cass Information Systems CFO Mike Normile reveals how rising freight rates, fuel surcharges, and higher interest rates fueled a 19% increase in earnings per sha…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/vertical-aerospace-evtol-the-future-of-urgent-air-cargo",
+      "url": "https://www.freightwaves.com/news/vertical-aerospace-evtol-the-future-of-urgent-air-cargo",
+      "title": "Vertical Aerospace eVTOL: The Future of Urgent Air Cargo",
+      "content_text": "Vertical Aerospace’s Michael Cervenka explains how their Velocopter eVTOL aircraft is set to transform urgent freight and remote logistics. This electric vertic…",
+      "summary": "Vertical Aerospace’s Michael Cervenka explains how their Velocopter eVTOL aircraft is set to transform urgent freight and remote logistics. This electric vertic…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/union-pacific-cfo-to-retire",
+      "url": "https://www.freightwaves.com/news/union-pacific-cfo-to-retire",
+      "title": "Union Pacific CFO to retire",
+      "content_text": "Union Pacific CFO Jennifer Hamann will retire after 35 years with the railroad. The post Union Pacific CFO to retire appeared first on FreightWaves.",
+      "summary": "Union Pacific CFO Jennifer Hamann will retire after 35 years with the railroad. The post Union Pacific CFO to retire appeared first on FreightWaves.",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "News",
+        "Railroad",
+        "leadership",
+        "Management",
+        "Union Pacific",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/truckload-pricing-power-diesel-is-eating-it-up",
+      "url": "https://www.freightwaves.com/news/truckload-pricing-power-diesel-is-eating-it-up",
+      "title": "Truckload Pricing Power? Diesel Is Eating It Up",
+      "content_text": "Truckload rates are up, but carrier profits still aren’t following. JB Hunt, Werner and Heartland earnings all point to the same freight market story: pricing p…",
+      "summary": "Truckload rates are up, but carrier profits still aren’t following. JB Hunt, Werner and Heartland earnings all point to the same freight market story: pricing p…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/the-data-your-truck-sends-home-is-becoming-your-new-credit-score-and-your-insurance-rate-too",
+      "url": "https://www.freightwaves.com/news/the-data-your-truck-sends-home-is-becoming-your-new-credit-score-and-your-insurance-rate-too",
+      "title": "The Data Your Truck Sends Home Is Becoming Your New Credit Score, And Your Insurance Rate Too",
+      "content_text": "Somewhere in your truck right now, a connected system is quietly recording how it is driven, how hard it works, where it goes, and how healthy its engine is, an…",
+      "summary": "Somewhere in your truck right now, a connected system is quietly recording how it is driven, how hard it works, where it goes, and how healthy its engine is, an…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "Fleet and Maintenance",
+        "Logistics/Supply Chains",
+        "Playbook: Risk & Insurance",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/tqls-rico-response-rips-carriers-poor-business-practices",
+      "url": "https://www.freightwaves.com/news/tqls-rico-response-rips-carriers-poor-business-practices",
+      "title": "TQL’s RICO response: rips carriers’ ‘poor business practices’",
+      "content_text": "The first response in the RICO case initiated by a group of carriers against giant 3PLs C.H. Robinson and TQL has been filed by the latter, and it has two key a…",
+      "summary": "The first response in the RICO case initiated by a group of carriers against giant 3PLs C.H. Robinson and TQL has been filed by the latter, and it has two key a…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "3PL and Brokerage",
+        "Legal issues",
+        "News",
+        "Top Stories",
+        "C.H. Robinson",
+        "TQL",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/rail-traffic-surge-why-intermodal-volume-is-climbing",
+      "url": "https://www.freightwaves.com/news/rail-traffic-surge-why-intermodal-volume-is-climbing",
+      "title": "Rail Traffic SURGE: Why Intermodal Volume is Climbing",
+      "content_text": "The latest weekly rail traffic numbers show a significant intermodal volume surge, propelled by high diesel fuel prices and tight truck capacity, causing shippe…",
+      "summary": "The latest weekly rail traffic numbers show a significant intermodal volume surge, propelled by high diesel fuel prices and tight truck capacity, causing shippe…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/new-trucking-bankruptcies-expose-mounting-debt-and-shrinking-fleets",
+      "url": "https://www.freightwaves.com/news/new-trucking-bankruptcies-expose-mounting-debt-and-shrinking-fleets",
+      "title": "New trucking bankruptcies expose mounting debt and shrinking fleets",
+      "content_text": "Sixteen recent trucking bankruptcy cases span multiple states as carriers confront mounting financial challenges. The post New trucking bankruptcies expose moun…",
+      "summary": "Sixteen recent trucking bankruptcy cases span multiple states as carriers confront mounting financial challenges. The post New trucking bankruptcies expose moun…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "Layoffs and Bankruptcies",
+        "News",
+        "Trucking",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/nearly-1m-in-pokemon-cards-stolen-from-fedex",
+      "url": "https://www.freightwaves.com/news/nearly-1m-in-pokemon-cards-stolen-from-fedex",
+      "title": "Nearly $1M in Pokémon Cards STOLEN from FedEx",
+      "content_text": "A FedEx truck carrying nearly $1 million in Pokémon and sports cards was robbed in California. FreightWaves’ Phil Brink and Highway’s Brennan Bailey break down…",
+      "summary": "A FedEx truck carrying nearly $1 million in Pokémon and sports cards was robbed in California. FreightWaves’ Phil Brink and Highway’s Brennan Bailey break down…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/ceos-letter-boasts-of-lots-of-arrows-pointing-up-at-triumph-financial",
+      "url": "https://www.freightwaves.com/news/ceos-letter-boasts-of-lots-of-arrows-pointing-up-at-triumph-financial",
+      "title": "CEO’s letter boasts of lots of arrows pointing up at Triumph Financial",
+      "content_text": "It was hard not to read the quarterly letter to shareholders by Aaron Graft, the CEO of Triumph Financial, and not get a sense that he was taking the first few…",
+      "summary": "It was hard not to read the quarterly letter to shareholders by Aaron Graft, the CEO of Triumph Financial, and not get a sense that he was taking the first few…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "News",
+        "Top Stories",
+        "Trucking",
+        "Factoring",
+        "Triumph Financial",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/reefer-truckload-rejections-soar-1-in-5-loads-rejected-nationally",
+      "url": "https://www.freightwaves.com/news/reefer-truckload-rejections-soar-1-in-5-loads-rejected-nationally",
+      "title": "Reefer Truckload Rejections Soar: 1 in 5 Loads Rejected Nationally",
+      "content_text": "The freight market is seeing fluctuating volumes and steady tender rejections, with a particular spotlight on the refrigerated sector. Learn why 1 in 5 reefer l…",
+      "summary": "The freight market is seeing fluctuating volumes and steady tender rejections, with a particular spotlight on the refrigerated sector. Learn why 1 in 5 reefer l…",
+      "date_published": "2026-10-20T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/partner-of-choice-why-the-best-shipper-carrier-relationships-now-go-beyond-shipper-of-choice",
+      "url": "https://www.freightwaves.com/news/partner-of-choice-why-the-best-shipper-carrier-relationships-now-go-beyond-shipper-of-choice",
+      "title": "Partner of Choice: Why the Best Shipper-Carrier Relationships Now Go Beyond Shipper of Choice",
+      "content_text": "Tender rejections are 2.5x last year and contract rates are up 18%. SONAR's new sitrep shows how shippers go from shipper of choice to partner of choice. The po…",
+      "summary": "Tender rejections are 2.5x last year and contract rates are up 18%. SONAR's new sitrep shows how shippers go from shipper of choice to partner of choice. The po…",
+      "date_published": "2026-10-20T00:00:00Z",
+      "tags": [
+        "Inside SONAR",
+        "logistics",
+        "Shipper of choice",
+        "Trucking",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/diesel-prices-up-down-or-stuck",
+      "url": "https://www.freightwaves.com/news/diesel-prices-up-down-or-stuck",
+      "title": "Diesel Prices: Up, Down, or Stuck?",
+      "content_text": "FreightWaves editor-at-large John Kingston breaks down the latest diesel price trends and the bombshell $700M nuclear verdict against CH Robinson. Discover what…",
+      "summary": "FreightWaves editor-at-large John Kingston breaks down the latest diesel price trends and the bombshell $700M nuclear verdict against CH Robinson. Discover what…",
+      "date_published": "2026-10-20T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/bot-autos-secret-to-an-affordable-future",
+      "url": "https://www.freightwaves.com/news/bot-autos-secret-to-an-affordable-future",
+      "title": "Bot Auto’s Secret to an Affordable Future",
+      "content_text": "Bot Auto’s President & COO, Brett Suma, explains how their unique foundational model and advanced software, developed by an AI-first team, slashed the cost of a…",
+      "summary": "Bot Auto’s President & COO, Brett Suma, explains how their unique foundational model and advanced software, developed by an AI-first team, slashed the cost of a…",
+      "date_published": "2026-10-20T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}

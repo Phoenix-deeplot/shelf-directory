@@ -47,6 +47,19 @@
    ],
    "added": "2026-10-23",
    "issue": 13
+  },
+  {
+   "id": "freightwaves-com",
+   "kind": "feed",
+   "url": "https://www.freightwaves.com/feed",
+   "source": "https://www.freightwaves.com/feed",
+   "name": "FreightWaves",
+   "tags": [
+    "货运",
+    "数据"
+   ],
+   "added": "2026-10-23",
+   "issue": 14
   }
  ]
 }

@@ -1,0 +1,39 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #forecast",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/forecast.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/first-look-union-pacific-earnings-4",
+      "url": "https://www.freightwaves.com/news/first-look-union-pacific-earnings-4",
+      "title": "First look: Union Pacific earnings",
+      "content_text": "Union Pacific’s third-quarter profit rose 16% as higher freight volumes and pricing gains boosted revenue. The post First look: Union Pacific earnings appeared…",
+      "summary": "Union Pacific’s third-quarter profit rose 16% as higher freight volumes and pricing gains boosted revenue. The post First look: Union Pacific earnings appeared…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "Business",
+        "Company Earnings",
+        "Finance",
+        "News",
+        "Railroad",
+        "carloads",
+        "earnings",
+        "forecast"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/layoffs-and-bankruptcies.xml</id>
+  <title>公共目录 · #Layoffs and Bankruptcies</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/layoffs-and-bankruptcies.xml"/>
+  <updated>2026-10-21T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/new-trucking-bankruptcies-expose-mounting-debt-and-shrinking-fleets</id>
+    <title>New trucking bankruptcies expose mounting debt and shrinking fleets</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/new-trucking-bankruptcies-expose-mounting-debt-and-shrinking-fleets"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">Sixteen recent trucking bankruptcy cases span multiple states as carriers confront mounting financial challenges. The post New trucking bankruptcies expose moun…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Layoffs and Bankruptcies"/>
+    <category term="News"/>
+    <category term="Trucking"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+</feed>

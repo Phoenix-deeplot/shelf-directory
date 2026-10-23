@@ -1,0 +1,93 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #FreightWaves",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/freightwaves.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/f3-preview-ai-autonomous-trucking-and-freight-technology-take-center-stage",
+      "url": "https://www.freightwaves.com/news/f3-preview-ai-autonomous-trucking-and-freight-technology-take-center-stage",
+      "title": "F3 preview: AI, autonomous trucking and freight technology take center stage",
+      "content_text": "FreightWaves’ F3: Future of Freight Festival returns to Chattanooga next week, with sessions on AI adoption, autonomous trucking and the technologies reshaping…",
+      "summary": "FreightWaves’ F3: Future of Freight Festival returns to Chattanooga next week, with sessions on AI adoption, autonomous trucking and the technologies reshaping…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "Awards",
+        "F3: Future of Freight Festival",
+        "FreightTech Award",
+        "AI",
+        "autonomous trucking",
+        "FreightWaves",
+        "logistics",
+        "Technology"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/from-freight-management-to-self-improving-networks",
+      "url": "https://www.freightwaves.com/news/from-freight-management-to-self-improving-networks",
+      "title": "From Freight Management to Self-Improving Networks",
+      "content_text": "Customers expect a Managed Transportation partner to run their freight reliably and cost efficiently. They should get more: experts who understand their network…",
+      "summary": "Customers expect a Managed Transportation partner to run their freight reliably and cost efficiently. They should get more: experts who understand their network…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "Business",
+        "News",
+        "Sponsored Insights",
+        "Amir Pelleg",
+        "Freight",
+        "FreightWaves",
+        "logistics",
+        "Trucking"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/freightos-founder-takes-board-fight-to-shareholder-vote",
+      "url": "https://www.freightwaves.com/news/freightos-founder-takes-board-fight-to-shareholder-vote",
+      "title": "Freightos founder takes board fight to shareholder vote",
+      "content_text": "Freightos’ board has agreed to put founder Zvi Schreiber’s proposals to a vote at its December annual meeting, escalating a dispute over the company’s focus on…",
+      "summary": "Freightos’ board has agreed to put founder Zvi Schreiber’s proposals to a vote at its December annual meeting, escalating a dispute over the company’s focus on…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "News",
+        "AI",
+        "Freightos",
+        "FreightWaves",
+        "logistics",
+        "SaaS",
+        "Technology",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}

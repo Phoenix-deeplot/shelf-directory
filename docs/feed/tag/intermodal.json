@@ -1,0 +1,38 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #intermodal",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/intermodal.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/commodity-markets-whip-up-railfreight-gains",
+      "url": "https://www.freightwaves.com/news/commodity-markets-whip-up-railfreight-gains",
+      "title": "Commodity markets whip up railfreight gains",
+      "content_text": "Intermodal and commodity traffic helped U.S. freight railroads to strong volume gains in the latest week data. The post Commodity markets whip up railfreight ga…",
+      "summary": "Intermodal and commodity traffic helped U.S. freight railroads to strong volume gains in the latest week data. The post Commodity markets whip up railfreight ga…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "News",
+        "Railroad",
+        "carloads",
+        "intermodal",
+        "railroads",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}

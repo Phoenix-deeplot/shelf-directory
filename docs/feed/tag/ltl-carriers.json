@@ -1,0 +1,39 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #LTL carriers",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/ltl-carriers.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/first-look-knight-swifts-q3-beats-expectations",
+      "url": "https://www.freightwaves.com/news/first-look-knight-swifts-q3-beats-expectations",
+      "title": "First look: Knight-Swift’s Q3 beats expectations",
+      "content_text": "Knight-Swift Transportation beat third-quarter expectations and issued a fourth-quarter outlook that was in line with the consensus estimate. The post First loo…",
+      "summary": "Knight-Swift Transportation beat third-quarter expectations and issued a fourth-quarter outlook that was in line with the consensus estimate. The post First loo…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "News",
+        "Truckload Carriers",
+        "AAA Cooper",
+        "Knight-Swift",
+        "Knight-Swift Transportation",
+        "LTL carriers",
+        "TL capacity"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}

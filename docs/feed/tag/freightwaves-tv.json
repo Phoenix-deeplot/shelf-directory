@@ -1,0 +1,219 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #FreightWaves TV",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/freightwaves-tv.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/how-triumph-financials-ceo-beat-the-longest-freight-recession",
+      "url": "https://www.freightwaves.com/news/how-triumph-financials-ceo-beat-the-longest-freight-recession",
+      "title": "How Triumph Financial’s CEO Beat the Longest Freight Recession",
+      "content_text": "Triumph Financial CEO Aaron Graft joins FreightWaves to discuss how his company achieved a remarkable 38% transportation revenue growth during one of the longes…",
+      "summary": "Triumph Financial CEO Aaron Graft joins FreightWaves to discuss how his company achieved a remarkable 38% transportation revenue growth during one of the longes…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/cass-q3-earnings-soar-19-eps-growth-freight-market-boom",
+      "url": "https://www.freightwaves.com/news/cass-q3-earnings-soar-19-eps-growth-freight-market-boom",
+      "title": "Cass Q3 Earnings Soar: 19% EPS Growth & Freight Market Boom",
+      "content_text": "Cass Information Systems CFO Mike Normile reveals how rising freight rates, fuel surcharges, and higher interest rates fueled a 19% increase in earnings per sha…",
+      "summary": "Cass Information Systems CFO Mike Normile reveals how rising freight rates, fuel surcharges, and higher interest rates fueled a 19% increase in earnings per sha…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/vertical-aerospace-evtol-the-future-of-urgent-air-cargo",
+      "url": "https://www.freightwaves.com/news/vertical-aerospace-evtol-the-future-of-urgent-air-cargo",
+      "title": "Vertical Aerospace eVTOL: The Future of Urgent Air Cargo",
+      "content_text": "Vertical Aerospace’s Michael Cervenka explains how their Velocopter eVTOL aircraft is set to transform urgent freight and remote logistics. This electric vertic…",
+      "summary": "Vertical Aerospace’s Michael Cervenka explains how their Velocopter eVTOL aircraft is set to transform urgent freight and remote logistics. This electric vertic…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/truckload-pricing-power-diesel-is-eating-it-up",
+      "url": "https://www.freightwaves.com/news/truckload-pricing-power-diesel-is-eating-it-up",
+      "title": "Truckload Pricing Power? Diesel Is Eating It Up",
+      "content_text": "Truckload rates are up, but carrier profits still aren’t following. JB Hunt, Werner and Heartland earnings all point to the same freight market story: pricing p…",
+      "summary": "Truckload rates are up, but carrier profits still aren’t following. JB Hunt, Werner and Heartland earnings all point to the same freight market story: pricing p…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/rail-traffic-surge-why-intermodal-volume-is-climbing",
+      "url": "https://www.freightwaves.com/news/rail-traffic-surge-why-intermodal-volume-is-climbing",
+      "title": "Rail Traffic SURGE: Why Intermodal Volume is Climbing",
+      "content_text": "The latest weekly rail traffic numbers show a significant intermodal volume surge, propelled by high diesel fuel prices and tight truck capacity, causing shippe…",
+      "summary": "The latest weekly rail traffic numbers show a significant intermodal volume surge, propelled by high diesel fuel prices and tight truck capacity, causing shippe…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/nearly-1m-in-pokemon-cards-stolen-from-fedex",
+      "url": "https://www.freightwaves.com/news/nearly-1m-in-pokemon-cards-stolen-from-fedex",
+      "title": "Nearly $1M in Pokémon Cards STOLEN from FedEx",
+      "content_text": "A FedEx truck carrying nearly $1 million in Pokémon and sports cards was robbed in California. FreightWaves’ Phil Brink and Highway’s Brennan Bailey break down…",
+      "summary": "A FedEx truck carrying nearly $1 million in Pokémon and sports cards was robbed in California. FreightWaves’ Phil Brink and Highway’s Brennan Bailey break down…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/reefer-truckload-rejections-soar-1-in-5-loads-rejected-nationally",
+      "url": "https://www.freightwaves.com/news/reefer-truckload-rejections-soar-1-in-5-loads-rejected-nationally",
+      "title": "Reefer Truckload Rejections Soar: 1 in 5 Loads Rejected Nationally",
+      "content_text": "The freight market is seeing fluctuating volumes and steady tender rejections, with a particular spotlight on the refrigerated sector. Learn why 1 in 5 reefer l…",
+      "summary": "The freight market is seeing fluctuating volumes and steady tender rejections, with a particular spotlight on the refrigerated sector. Learn why 1 in 5 reefer l…",
+      "date_published": "2026-10-20T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/diesel-prices-up-down-or-stuck",
+      "url": "https://www.freightwaves.com/news/diesel-prices-up-down-or-stuck",
+      "title": "Diesel Prices: Up, Down, or Stuck?",
+      "content_text": "FreightWaves editor-at-large John Kingston breaks down the latest diesel price trends and the bombshell $700M nuclear verdict against CH Robinson. Discover what…",
+      "summary": "FreightWaves editor-at-large John Kingston breaks down the latest diesel price trends and the bombshell $700M nuclear verdict against CH Robinson. Discover what…",
+      "date_published": "2026-10-20T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/bot-autos-secret-to-an-affordable-future",
+      "url": "https://www.freightwaves.com/news/bot-autos-secret-to-an-affordable-future",
+      "title": "Bot Auto’s Secret to an Affordable Future",
+      "content_text": "Bot Auto’s President & COO, Brett Suma, explains how their unique foundational model and advanced software, developed by an AI-first team, slashed the cost of a…",
+      "summary": "Bot Auto’s President & COO, Brett Suma, explains how their unique foundational model and advanced software, developed by an AI-first team, slashed the cost of a…",
+      "date_published": "2026-10-20T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}

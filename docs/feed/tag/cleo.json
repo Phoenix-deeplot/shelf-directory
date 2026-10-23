@@ -1,0 +1,39 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Cleo",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/cleo.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/cleo-otif-failures-cost-cpg-100-billion",
+      "url": "https://www.freightwaves.com/news/cleo-otif-failures-cost-cpg-100-billion",
+      "title": "Late, short deliveries cost food and CPG makers $100 billion",
+      "content_text": "Cleo's OTIF report models $10 billion to $11 billion in direct costs and $85 billion to $90 billion in indirect losses for North American CPG and food manufactu…",
+      "summary": "Cleo's OTIF report models $10 billion to $11 billion in direct costs and $85 billion to $90 billion in indirect losses for North American CPG and food manufactu…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Fulfillment",
+        "Logistics/Supply Chains",
+        "News",
+        "Cleo",
+        "Cleo OTIF Report",
+        "CPG",
+        "CPG retailers"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}
