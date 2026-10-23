@@ -49,6 +49,19 @@
    ],
    "added": "2026-10-23",
    "issue": 14
+  },
+  {
+   "id": "eater-com",
+   "kind": "feed",
+   "url": "https://www.eater.com/rss/index.xml",
+   "source": "https://www.eater.com/rss/index.xml",
+   "name": "Eater",
+   "tags": [
+    "美食",
+    "餐饮"
+   ],
+   "added": "2026-10-23",
+   "issue": 17
   }
  ]
 }

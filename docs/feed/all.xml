@@ -539,6 +539,18 @@
     <category term="货运"/>
   </entry>
   <entry>
+    <id>https://www.eater.com/dining-out/993334/substitutions-boundaries-pre-shift</id>
+    <title>Has Substitution Culture Gone Too Far?</title>
+    <link rel="alternate" type="text/html" href="https://www.eater.com/dining-out/993334/substitutions-boundaries-pre-shift"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">This excerpt was originally published in Pre Shift, our newsletter for the hospitality industry. Subscribe for more first-person accounts, advice, and interview…</summary>
+    <source><title>Eater</title></source>
+    <category term="Dining Out"/>
+    <category term="美食"/>
+    <category term="餐饮"/>
+  </entry>
+  <entry>
     <id>https://sspai.com/post/116820</id>
     <title>社区速递 162 | MUJI 靠垫、中兴路由器与派友们的长假吃灰装备</title>
     <link rel="alternate" type="text/html" href="https://sspai.com/post/116820"/>
@@ -701,22 +713,5 @@
     <category term="FreightWaves TV"/>
     <category term="货运"/>
     <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/phillips-connect-insights-trailersignal-launch</id>
-    <title>Phillips Connect moves trailer sensor alerts into the yard</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/phillips-connect-insights-trailersignal-launch"/>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <published>2026-10-21T00:00:00Z</published>
-    <summary type="text">Phillips Connect launched two smart trailer products Sunday at the American Trucking Associations’ Management Conference &amp; Exhibition in Charlotte, North Caroli…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="News"/>
-    <category term="Technology"/>
-    <category term="Trucking"/>
-    <category term="Trucking Equipment"/>
-    <category term="ATA MCE"/>
-    <category term="ATA MCE 2026"/>
-    <category term="Phillips Connect"/>
-    <category term="Phillips Connect Insights"/>
   </entry>
 </feed>

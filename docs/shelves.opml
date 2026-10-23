@@ -4,6 +4,7 @@
   <body>
     <outline text="公共目录" title="公共目录">
       <outline type="rss" text="FreightWaves" title="FreightWaves" xmlUrl="https://www.freightwaves.com/feed" htmlUrl="https://www.freightwaves.com/"/>
+      <outline type="rss" text="Eater" title="Eater" xmlUrl="https://www.eater.com/rss/index.xml" htmlUrl="https://www.eater.com"/>
       <outline type="rss" text="少数派" title="少数派" xmlUrl="https://sspai.com/feed" htmlUrl="https://sspai.com"/>
       <outline type="rss" text="美团 · 技术团队" title="美团 · 技术团队" xmlUrl="https://tech.meituan.com/rss.xml" htmlUrl="https://tech.meituan.com/"/>
       <outline type="rss" text="社区投稿" title="社区投稿" xmlUrl="https://adminbook.zhitree.cn/feed/shelf/posts.xml" htmlUrl="https://adminbook.zhitree.cn/"/>
