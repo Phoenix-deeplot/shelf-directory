@@ -368,6 +368,18 @@
     <category term="工程"/>
   </entry>
   <entry>
+    <id>http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html</id>
+    <title>科技爱好者周刊（第 416 期）：编程已经面目全非</title>
+    <link rel="alternate" type="text/html" href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 本周启用的上海大歌剧院内部装修。（via） 编程已经面目全非 大多数人只看到，AI 改变了程序员这个职业。很少有人提到，AI 也改变了编程。…</summary>
+    <source><title>阮一峰的网络日志</title></source>
+    <category term="Weekly"/>
+    <category term="科技"/>
+    <category term="周刊"/>
+  </entry>
+  <entry>
     <id>https://sspai.com/post/115090</id>
     <title>终于吃到了那颗梦寐以求的小药丸：我的 ADHD 诊疗记</title>
     <link rel="alternate" type="text/html" href="https://sspai.com/post/115090"/>
@@ -739,19 +751,6 @@
     <category term="carloads"/>
     <category term="intermodal"/>
     <category term="railroads"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/cass-q3-earnings-soar-19-eps-growth-freight-market-boom</id>
-    <title>Cass Q3 Earnings Soar: 19% EPS Growth &amp; Freight Market Boom</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/cass-q3-earnings-soar-19-eps-growth-freight-market-boom"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Cass Information Systems CFO Mike Normile reveals how rising freight rates, fuel surcharges, and higher interest rates fueled a 19% increase in earnings per sha…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="FreightWaves Today"/>
-    <category term="FreightWaves TV"/>
     <category term="货运"/>
     <category term="数据"/>
   </entry>

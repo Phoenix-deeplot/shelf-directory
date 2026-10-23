@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/t-c00da5.xml</id>
+  <title>公共目录 · #科技</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-c00da5.xml"/>
+  <updated>2026-10-23T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html</id>
+    <title>科技爱好者周刊（第 416 期）：编程已经面目全非</title>
+    <link rel="alternate" type="text/html" href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 本周启用的上海大歌剧院内部装修。（via） 编程已经面目全非 大多数人只看到，AI 改变了程序员这个职业。很少有人提到，AI 也改变了编程。…</summary>
+    <source><title>阮一峰的网络日志</title></source>
+    <category term="Weekly"/>
+    <category term="科技"/>
+    <category term="周刊"/>
+  </entry>
+  <entry>
+    <id>http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html</id>
+    <title>科技爱好者周刊（第 415 期）：3D 版《看不见的城市》</title>
+    <link rel="alternate" type="text/html" href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html"/>
+    <updated>2026-10-16T00:00:00Z</updated>
+    <published>2026-10-16T00:00:00Z</published>
+    <summary type="text">这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 湖北咸宁梓山湖度假区的美术馆。（via） 3D 版《看不见的城市》 意大利小说家卡尔维诺有一本著名的幻想小说《看不见的城市》。 小说讲述旅行…</summary>
+    <source><title>阮一峰的网络日志</title></source>
+    <category term="Weekly"/>
+    <category term="科技"/>
+    <category term="周刊"/>
+  </entry>
+  <entry>
+    <id>http://www.ruanyifeng.com/blog/2026/10/weekly-issue-414.html</id>
+    <title>科技爱好者周刊（第 414 期）：Jev 决策模型有什么用</title>
+    <link rel="alternate" type="text/html" href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-414.html"/>
+    <updated>2026-10-08T00:00:00Z</updated>
+    <published>2026-10-08T00:00:00Z</published>
+    <summary type="text">这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 国产首列数字地铁列车 VELLINK，完全无人驾驶，车头改成了大幅玻璃，用于观光。（via） Jev 决策模型有什么用 上个月，最大的 AI…</summary>
+    <source><title>阮一峰的网络日志</title></source>
+    <category term="Weekly"/>
+    <category term="科技"/>
+    <category term="周刊"/>
+  </entry>
+  <entry>
+    <id>http://www.ruanyifeng.com/blog/2026/09/weekly-issue-413.html</id>
+    <title>科技爱好者周刊（第 413 期）：再见了，React Native</title>
+    <link rel="alternate" type="text/html" href="http://www.ruanyifeng.com/blog/2026/09/weekly-issue-413.html"/>
+    <updated>2026-09-18T00:00:00Z</updated>
+    <published>2026-09-18T00:00:00Z</published>
+    <summary type="text">这里记录每周值得分享的科技内容，周五发布。（[通知] 下周五开始的中秋和十一假期，周刊休息。） 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 华东师范大学闵行校区新启用的西校门，仿造了它的前身之一光华大学的校门。（via） 再见了…</summary>
+    <source><title>阮一峰的网络日志</title></source>
+    <category term="Weekly"/>
+    <category term="科技"/>
+    <category term="周刊"/>
+  </entry>
+  <entry>
+    <id>http://www.ruanyifeng.com/blog/2026/09/weekly-issue-412.html</id>
+    <title>科技爱好者周刊（第 412 期）：禁止 issue，只用 PR</title>
+    <link rel="alternate" type="text/html" href="http://www.ruanyifeng.com/blog/2026/09/weekly-issue-412.html"/>
+    <updated>2026-09-11T00:00:00Z</updated>
+    <published>2026-09-11T00:00:00Z</published>
+    <summary type="text">这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面 上海前滩太古里举办的"英雄联盟15周年"展览。（via） 禁止 issue，只用 PR 上周，PHP 框架 Laravel 宣布了一个新规定：…</summary>
+    <source><title>阮一峰的网络日志</title></source>
+    <category term="Weekly"/>
+    <category term="科技"/>
+    <category term="周刊"/>
+  </entry>
+  <entry>
+    <id>http://www.ruanyifeng.com/blog/2026/09/weekly-issue-411.html</id>
+    <title>科技爱好者周刊（第 411 期）：OpenClaw 2.0 是一个缩影</title>
+    <link rel="alternate" type="text/html" href="http://www.ruanyifeng.com/blog/2026/09/weekly-issue-411.html"/>
+    <updated>2026-09-04T00:00:00Z</updated>
+    <published>2026-09-04T00:00:00Z</published>
+    <summary type="text">这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 宁夏西夏陵使用金属网，将残片还原成石像生。（via） OpenClaw 2.0 是一个缩影 本周，OpenClaw 发布了2.0版。 是不是…</summary>
+    <source><title>阮一峰的网络日志</title></source>
+    <category term="Weekly"/>
+    <category term="科技"/>
+    <category term="周刊"/>
+  </entry>
+</feed>

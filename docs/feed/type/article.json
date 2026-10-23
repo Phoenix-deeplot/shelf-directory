@@ -630,6 +630,28 @@
       }
     },
     {
+      "id": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html",
+      "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html",
+      "title": "科技爱好者周刊（第 416 期）：编程已经面目全非",
+      "content_text": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 本周启用的上海大歌剧院内部装修。（via） 编程已经面目全非 大多数人只看到，AI 改变了程序员这个职业。很少有人提到，AI 也改变了编程。…",
+      "summary": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 本周启用的上海大歌剧院内部装修。（via） 编程已经面目全非 大多数人只看到，AI 改变了程序员这个职业。很少有人提到，AI 也改变了编程。…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "Weekly",
+        "科技",
+        "周刊"
+      ],
+      "authors": [
+        {
+          "name": "阮一峰的网络日志"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "feeds-feedburner-com"
+      }
+    },
+    {
       "id": "https://sspai.com/post/115090",
       "url": "https://sspai.com/post/115090",
       "title": "终于吃到了那颗梦寐以求的小药丸：我的 ADHD 诊疗记",
@@ -1231,29 +1253,6 @@
         "carloads",
         "intermodal",
         "railroads",
-        "货运",
-        "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/cass-q3-earnings-soar-19-eps-growth-freight-market-boom",
-      "url": "https://www.freightwaves.com/news/cass-q3-earnings-soar-19-eps-growth-freight-market-boom",
-      "title": "Cass Q3 Earnings Soar: 19% EPS Growth & Freight Market Boom",
-      "content_text": "Cass Information Systems CFO Mike Normile reveals how rising freight rates, fuel surcharges, and higher interest rates fueled a 19% increase in earnings per sha…",
-      "summary": "Cass Information Systems CFO Mike Normile reveals how rising freight rates, fuel surcharges, and higher interest rates fueled a 19% increase in earnings per sha…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "FreightWaves Today",
-        "FreightWaves TV",
         "货运",
         "数据"
       ],
