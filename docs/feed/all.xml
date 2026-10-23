@@ -424,6 +424,28 @@
     <category term="工具"/>
   </entry>
   <entry>
+    <id>https://www.industryweek.com/leadership/strategic-planning-execution/article/55413780/the-power-and-potential-trap-of-reverse-innovation-lessons-from-ge-mercedes-benz-dewalt</id>
+    <title>The Power and Potential Trap of Reverse Innovation: Lessons from GE, Mercedes-Benz, Dewalt</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/leadership/strategic-planning-execution/article/55413780/the-power-and-potential-trap-of-reverse-innovation-lessons-from-ge-mercedes-benz-dewalt"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">Proper product differentiation ensures that new, higher value items are visually and materially distinct.</summary>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.industryweek.com/leadership/companies-executives/news/55413632/buyers-of-metal-are-prioritizing-certainty-over-price-which-means-metals-ceos-are-pushing-price</id>
+    <title>Buyers of Metal Are Prioritizing Certainty Over Price. Which Means Metals CEOs Are Pushing Price.</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/leadership/companies-executives/news/55413632/buyers-of-metal-are-prioritizing-certainty-over-price-which-means-metals-ceos-are-pushing-price"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">The leaders of Cleveland-Cliffs and Steel Dynamics have recently told investors that demand remains healthy while supplies are often limited. Expect prices to k…</summary>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
     <id>https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits</id>
     <title>Union Pacific posts record third-quarter revenue and profits</title>
     <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits"/>
@@ -720,38 +742,5 @@
     <category term="Alpamayo 2 Super"/>
     <category term="autonomous trucking"/>
     <category term="driverless trucks"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement</id>
-    <title>Daimler Truck sues former fleet manager over alleged $3.8M embezzlement</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Daimler Truck North America is seeking $6.6 million in damages after accusing a former employee and his wife of misappropriating nearly $3.8 million. The post D…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Legal issues"/>
-    <category term="News"/>
-    <category term="Trucking"/>
-    <category term="Daimler"/>
-    <category term="Daimler Truck North America"/>
-    <category term="Embezzlement"/>
-    <category term="lawsuit"/>
-    <category term="货运"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/commodity-markets-whip-up-railfreight-gains</id>
-    <title>Commodity markets whip up railfreight gains</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/commodity-markets-whip-up-railfreight-gains"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Intermodal and commodity traffic helped U.S. freight railroads to strong volume gains in the latest week data. The post Commodity markets whip up railfreight ga…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="News"/>
-    <category term="Railroad"/>
-    <category term="carloads"/>
-    <category term="intermodal"/>
-    <category term="railroads"/>
-    <category term="货运"/>
-    <category term="数据"/>
   </entry>
 </feed>

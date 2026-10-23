@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/leadership-corporate-finance.xml</id>
+  <title>公共目录 · #Leadership / Corporate Finance</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/leadership-corporate-finance.xml"/>
+  <updated>2026-10-21T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.industryweek.com/leadership/corporate-finance/article/55413569/musk-can-wall-off-shanghai-he-cannot-wall-off-chinas-supply-chain</id>
+    <title>Musk Can Wall Off Shanghai. He Cannot Wall Off China’s Supply Chain.</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/leadership/corporate-finance/article/55413569/musk-can-wall-off-shanghai-he-cannot-wall-off-chinas-supply-chain"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">Separating a Chinese factory is the easy part. The harder problem sits one or two tiers upstream, in the minerals and machines China controls.</summary>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="Leadership / Corporate Finance"/>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
+</feed>

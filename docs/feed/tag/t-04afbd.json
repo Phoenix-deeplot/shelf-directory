@@ -1,0 +1,574 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #制造",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-04afbd.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.industryweek.com/leadership/strategic-planning-execution/article/55413780/the-power-and-potential-trap-of-reverse-innovation-lessons-from-ge-mercedes-benz-dewalt",
+      "url": "https://www.industryweek.com/leadership/strategic-planning-execution/article/55413780/the-power-and-potential-trap-of-reverse-innovation-lessons-from-ge-mercedes-benz-dewalt",
+      "title": "The Power and Potential Trap of Reverse Innovation: Lessons from GE, Mercedes-Benz, Dewalt",
+      "content_text": "Proper product differentiation ensures that new, higher value items are visually and materially distinct.",
+      "summary": "Proper product differentiation ensures that new, higher value items are visually and materially distinct.",
+      "date_published": "2026-10-22T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ada3ddeb80196bc2ff5c536-dreamstime_m_146436223.png",
+      "tags": [
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/leadership/companies-executives/news/55413632/buyers-of-metal-are-prioritizing-certainty-over-price-which-means-metals-ceos-are-pushing-price",
+      "url": "https://www.industryweek.com/leadership/companies-executives/news/55413632/buyers-of-metal-are-prioritizing-certainty-over-price-which-means-metals-ceos-are-pushing-price",
+      "title": "Buyers of Metal Are Prioritizing Certainty Over Price. Which Means Metals CEOs Are Pushing Price.",
+      "content_text": "The leaders of Cleveland-Cliffs and Steel Dynamics have recently told investors that demand remains healthy while supplies are often limited. Expect prices to k…",
+      "summary": "The leaders of Cleveland-Cliffs and Steel Dynamics have recently told investors that demand remains healthy while supplies are often limited. Expect prices to k…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad94f95d1d86f20dc3f12a9-stld_sinton_1.png",
+      "tags": [
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/leadership/corporate-finance/article/55413569/musk-can-wall-off-shanghai-he-cannot-wall-off-chinas-supply-chain",
+      "url": "https://www.industryweek.com/leadership/corporate-finance/article/55413569/musk-can-wall-off-shanghai-he-cannot-wall-off-chinas-supply-chain",
+      "title": "Musk Can Wall Off Shanghai. He Cannot Wall Off China’s Supply Chain.",
+      "content_text": "Separating a Chinese factory is the easy part. The harder problem sits one or two tiers upstream, in the minerals and machines China controls.",
+      "summary": "Separating a Chinese factory is the easy part. The harder problem sits one or two tiers upstream, in the minerals and machines China controls.",
+      "date_published": "2026-10-21T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad91b7ad4c3ec9700591bef-3_gigafactoryshanghai_01.png",
+      "tags": [
+        "Leadership / Corporate Finance",
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/leadership/companies-executives/news/55413295/gm-cfo-recent-inflation-jump-could-cut-27-ebitda-by-15b",
+      "url": "https://www.industryweek.com/leadership/companies-executives/news/55413295/gm-cfo-recent-inflation-jump-could-cut-27-ebitda-by-15b",
+      "title": "GM CFO: Recent Inflation Jump Could Cut ’27 EBIT by $1.5B",
+      "content_text": "“We obviously have work to do and we plan to do it,” Chair and CEO Mary Barra told analysts about finding ways to become more efficient next year.",
+      "summary": "“We obviously have work to do and we plan to do it,” Chair and CEO Mary Barra told analysts about finding ways to become more efficient next year.",
+      "date_published": "2026-10-21T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad7d560aade3fb629c1b185-gm_27_gmc_sierra_chevy_silverado.png",
+      "tags": [
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/industry-events/manufacturing-day/article/55413265/faces-of-manufacturing-ceo-steps-out-of-tech-steps-into-manufacturing",
+      "url": "https://www.industryweek.com/industry-events/manufacturing-day/article/55413265/faces-of-manufacturing-ceo-steps-out-of-tech-steps-into-manufacturing",
+      "title": "Faces of Manufacturing: CEO Steps Out of Tech, Steps Into Manufacturing",
+      "content_text": "\"The transition into manufacturing was a deliberate one. The tech world is being commodified due to cheap and effective LLMs. I wanted to get into both the real…",
+      "summary": "\"The transition into manufacturing was a deliberate one. The tech world is being commodified due to cheap and effective LLMs. I wanted to get into both the real…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad905a1efab1730dace5af6-remconceoseanjohnston.png",
+      "tags": [
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/members/article/55413410/are-rogue-ai-agents-pushing-the-buttons-on-your-manufacturing-shop-floor-so-that-happened",
+      "url": "https://www.industryweek.com/members/article/55413410/are-rogue-ai-agents-pushing-the-buttons-on-your-manufacturing-shop-floor-so-that-happened",
+      "title": "Are Rogue AI Agents Pushing the Buttons on Your Shop Floor? So That Happened",
+      "content_text": "Also, optimism prevails across trade shows, MillerKnoll names new leader, Misumi launches educational foundation, cyber threats frighten manufacturing boards, a…",
+      "summary": "Also, optimism prevails across trade shows, MillerKnoll names new leader, Misumi launches educational foundation, cyber threats frighten manufacturing boards, a…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad8e464e11d93f4c199fdfa-computerbuttonsdreamstime_m_157587733.png",
+      "tags": [
+        "Members Only",
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/leadership/strategic-planning-execution/article/55413131/go-and-see-before-you-restructure-around-ai",
+      "url": "https://www.industryweek.com/leadership/strategic-planning-execution/article/55413131/go-and-see-before-you-restructure-around-ai",
+      "title": "Go and See Before You Restructure Around AI",
+      "content_text": "Before deciding that a management layer is redundant, it's vital to understand how information actually moves through that layer.",
+      "summary": "Before deciding that a management layer is redundant, it's vital to understand how information actually moves through that layer.",
+      "date_published": "2026-10-20T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad7999d0659b191d64049a8-dreamstime_m_119420139.png",
+      "tags": [
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/operations/podcast/55412884/effective-daily-huddles-the-importance-of-accountability",
+      "url": "https://www.industryweek.com/operations/podcast/55412884/effective-daily-huddles-the-importance-of-accountability",
+      "title": "Effective Daily Huddles: the Importance of Accountability",
+      "content_text": "Accountability is not punishment or blame; it is a two-way commitment between workers and leaders.",
+      "summary": "Accountability is not punishment or blame; it is a two-way commitment between workers and leaders.",
+      "date_published": "2026-10-20T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad66c2a9e3f57f9d56caef3-grouparoundboarddreamstime_m_419846052.png",
+      "tags": [
+        "Operations",
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/supply-chain/news/55388479/strait-of-hormuz-watch-weekly-snapshot-of-energy-disruptions-and-maritime-conditions",
+      "url": "https://www.industryweek.com/supply-chain/news/55388479/strait-of-hormuz-watch-weekly-snapshot-of-energy-disruptions-and-maritime-conditions",
+      "title": "Strait of Hormuz Watch: Commercial Vessel Attacks Intensify",
+      "content_text": "Data and insights tracking transit activity, oil prices, petroleum reserves, supply chain impacts and geopolitical developments affecting the waterway.",
+      "summary": "Data and insights tracking transit activity, oil prices, petroleum reserves, supply chain impacts and geopolitical developments affecting the waterway.",
+      "date_published": "2026-10-19T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/07/6a46a3de1f56184995d3086c-dreamstime_xxl_368153131.png",
+      "tags": [
+        "Supply Chain",
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/industryweek-us-500/media-gallery/55411240/iw-us-500-top-pharmaceutical-and-biotechnology-manufacturing-companies",
+      "url": "https://www.industryweek.com/industryweek-us-500/media-gallery/55411240/iw-us-500-top-pharmaceutical-and-biotechnology-manufacturing-companies",
+      "title": "IW U.S. 500: Top Pharmaceutical and Biotechnology Manufacturing Companies",
+      "content_text": "Most of the pharmaceutical and biotechnology manufacturing companies on the 2026 IW 500 list enjoyed revenue growth in fiscal 2025. Sales for the category grew…",
+      "summary": "Most of the pharmaceutical and biotechnology manufacturing companies on the 2026 IW 500 list enjoyed revenue growth in fiscal 2025. Sales for the category grew…",
+      "date_published": "2026-10-19T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6acfe2b89e3f57f9d5586ffd-pharmaceutical_image_dreamstime_m_478600565.png",
+      "tags": [
+        "IndustryWeek US 500",
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/resources/industryweek-best-plants-awards/article/55412435/2026-industryweek-best-plants-bullen-ultrasonics-excels-by-being-different-for-all-the-right-reasons",
+      "url": "https://www.industryweek.com/resources/industryweek-best-plants-awards/article/55412435/2026-industryweek-best-plants-bullen-ultrasonics-excels-by-being-different-for-all-the-right-reasons",
+      "title": "2026 IndustryWeek Best Plants: Bullen Ultrasonics Excels by Being Different for All the Right Reasons",
+      "content_text": "Bullen’s commitment to supportive leadership, teamwork and workforce development fosters strong performance and creates an environment for employees to thrive.",
+      "summary": "Bullen’s commitment to supportive leadership, teamwork and workforce development fosters strong performance and creates an environment for employees to thrive.",
+      "date_published": "2026-10-19T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad258626bbb8c6bb9bfe699-bullenultrasonics_ultrasonicmaching_semiconductor_.png",
+      "tags": [
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/the-economy/article/55412419/tooling-takedown-census-smarts-and-additives-sweet-spot-industryweeks-weekly-review",
+      "url": "https://www.industryweek.com/the-economy/article/55412419/tooling-takedown-census-smarts-and-additives-sweet-spot-industryweeks-weekly-review",
+      "title": "Tooling Takedown, Census Smarts and Additive's Sweet Spot: IndustryWeek's Weekly Review",
+      "content_text": "Also, Cambodia pushes to raise its manufacturing profile, visual management's key to success, and more from Manufacturing Day and Month.",
+      "summary": "Also, Cambodia pushes to raise its manufacturing profile, visual management's key to success, and more from Manufacturing Day and Month.",
+      "date_published": "2026-10-16T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad241f59e3f57f9d5601504-chocolates_dreamstime_m_27150405.png",
+      "tags": [
+        "The Economy",
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/leadership/companies-executives/news/55412573/fastenal-finding-success-with-a-more-with-less-model-that-leans-on-tech",
+      "url": "https://www.industryweek.com/leadership/companies-executives/news/55412573/fastenal-finding-success-with-a-more-with-less-model-that-leans-on-tech",
+      "title": "Fastenal Finding Success With a More-With-Less Model That Leans on Tech",
+      "content_text": "The sales force of the industrial products distributor shrank by 400 in the third quarter. Executives say they need fewer people at customer sites these days an…",
+      "summary": "The sales force of the industrial products distributor shrank by 400 in the third quarter. Executives say they need fewer people at customer sites these days an…",
+      "date_published": "2026-10-16T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad2841855a0c53ae5690c37-fast_vending_1.png",
+      "tags": [
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/leadership/growth-strategies/podcast/55412005/podcast-what-happened-when-fidelity-manufacturing-changed-from-family-owned-to-employee-owned",
+      "url": "https://www.industryweek.com/leadership/growth-strategies/podcast/55412005/podcast-what-happened-when-fidelity-manufacturing-changed-from-family-owned-to-employee-owned",
+      "title": "Podcast: What Happened When Fidelity Manufacturing Changed From Family-Owned To Employee-Owned",
+      "content_text": "In this episode of Great Question: a Manufacturing Podcast, Mitch Twardosky, CEO of Fidelity Manufacturing discusses the manufacturing company's recent ownershi…",
+      "summary": "In this episode of Great Question: a Manufacturing Podcast, Mitch Twardosky, CEO of Fidelity Manufacturing discusses the manufacturing company's recent ownershi…",
+      "date_published": "2026-10-15T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6acff8bd19dfcf00182c4263-fidelity1mirrorgq.png",
+      "tags": [
+        "Leadership / Growth Strategies",
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/talent/recruiting-retention/article/55412231/manufacturing-day-2026-celebrating-spacecraft-innovation-and-high-tech-shipbuilding",
+      "url": "https://www.industryweek.com/talent/recruiting-retention/article/55412231/manufacturing-day-2026-celebrating-spacecraft-innovation-and-high-tech-shipbuilding",
+      "title": "Manufacturing Day 2026: Celebrating Spacecraft Innovation and High-Tech Shipbuilding",
+      "content_text": "Welders, machinists and fabricators are finding jobs building autonomous vessels and rocket engines.",
+      "summary": "Welders, machinists and fabricators are finding jobs building autonomous vessels and rocket engines.",
+      "date_published": "2026-10-15T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad1262919dfcf0018303ff6-industryweek_3.png",
+      "tags": [
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/industry-events/manufacturing-day/article/55412272/faces-of-manufacturing-i-love-that-manufacturing-mixes-technical-work-with-teamwork",
+      "url": "https://www.industryweek.com/industry-events/manufacturing-day/article/55412272/faces-of-manufacturing-i-love-that-manufacturing-mixes-technical-work-with-teamwork",
+      "title": "Faces of Manufacturing: 'I Love That Manufacturing Mixes Technical Work with Teamwork'",
+      "content_text": "\"You get to use science and engineering every day, but you also rely on collaboration and problem solving to turn ideas into tangible products,\" says Gustavo Su…",
+      "summary": "\"You get to use science and engineering every day, but you also rely on collaboration and problem solving to turn ideas into tangible products,\" says Gustavo Su…",
+      "date_published": "2026-10-15T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad12b377a1551ee5fe4b915-gustavo_suarez_elcon2.png",
+      "tags": [
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/talent/labor-employment-policy/news/55411724/littler-survey-ai-and-leadership-communication-shape-labor-relations-in-2026",
+      "url": "https://www.industryweek.com/talent/labor-employment-policy/news/55411724/littler-survey-ai-and-leadership-communication-shape-labor-relations-in-2026",
+      "title": "Littler Survey: AI and Leadership Communication Shape Labor Relations in 2026",
+      "content_text": "The report underscores the importance of consistent communication, planning for union activity and addressing employee concerns about AI to maintain positive la…",
+      "summary": "The report underscores the importance of consistent communication, planning for union activity and addressing employee concerns about AI to maintain positive la…",
+      "date_published": "2026-10-14T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6acf8a93dd36c6174ea5cf7d-dreamstime_xxl_32705447.png",
+      "tags": [
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/leadership/strategic-planning-execution/article/55411932/ai-makes-expensive-information-cheap-how-should-that-change-company-structure",
+      "url": "https://www.industryweek.com/leadership/strategic-planning-execution/article/55411932/ai-makes-expensive-information-cheap-how-should-that-change-company-structure",
+      "title": "AI Makes Expensive Information Cheap. How Should That Change Company Structure?",
+      "content_text": "Manufacturers face two traps in organizational design as the economics of information change.",
+      "summary": "Manufacturers face two traps in organizational design as the economics of information change.",
+      "date_published": "2026-10-14T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6acfdb319e3f57f9d5585bea-dreamstime_m_146301159.png",
+      "tags": [
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/operations/podcast/55411304/why-visual-management-fails-and-what-to-do-about-it",
+      "url": "https://www.industryweek.com/operations/podcast/55411304/why-visual-management-fails-and-what-to-do-about-it",
+      "title": "Why Visual Management Fails and What to Do About It",
+      "content_text": "Without transparency, visual management is merely decoration.",
+      "summary": "Without transparency, visual management is merely decoration.",
+      "date_published": "2026-10-13T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6acd42b6590b102da7a8db95-visualdisplaydreamstime_m_333440410.png",
+      "tags": [
+        "Operations",
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/talent/media-gallery/55409367/manufacturing-day-2026-in-pictures",
+      "url": "https://www.industryweek.com/talent/media-gallery/55409367/manufacturing-day-2026-in-pictures",
+      "title": "Updated: Manufacturing Day 2026 in Pictures",
+      "content_text": "A look at tours and celebrations all over the U.S., featuring Honda, Lincoln Electric, Rockwell Automation and more.",
+      "summary": "A look at tours and celebrations all over the U.S., featuring Honda, Lincoln Electric, Rockwell Automation and more.",
+      "date_published": "2026-10-13T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6abff860b0b0ab4df409aa92-kab_6911.png",
+      "tags": [
+        "Talent",
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/technology-and-iiot/artificial-intelligence/article/55411651/ais-honest-path-forward-making-workers-more-effective",
+      "url": "https://www.industryweek.com/technology-and-iiot/artificial-intelligence/article/55411651/ais-honest-path-forward-making-workers-more-effective",
+      "title": "AI's Honest Path Forward: Making Workers More Effective",
+      "content_text": "Amplifying people is critical as the available skilled workforce shrinks.",
+      "summary": "Amplifying people is critical as the available skilled workforce shrinks.",
+      "date_published": "2026-10-13T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ace8f6c2ef519255c96639e-dreamstime_xxl_194830064.png",
+      "tags": [
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/industry-events/manufacturing-day/article/55411122/faces-of-manufacturing-i-get-to-invest-in-people-every-day",
+      "url": "https://www.industryweek.com/industry-events/manufacturing-day/article/55411122/faces-of-manufacturing-i-get-to-invest-in-people-every-day",
+      "title": "Faces of Manufacturing: ‘I Get to Invest in People Every Day’",
+      "content_text": "“It's rewarding to help others discover opportunities in manufacturing and build careers they're passionate about,” says Hannah Bennett, engineering senior team…",
+      "summary": "“It's rewarding to help others discover opportunities in manufacturing and build careers they're passionate about,” says Hannah Bennett, engineering senior team…",
+      "date_published": "2026-10-12T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6accfe9c2d95c798fb22913e-hannah_bennet_f.png",
+      "tags": [
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/the-economy/emerging-markets/article/55411224/cambodias-push-to-become-a-manufacturing-hub",
+      "url": "https://www.industryweek.com/the-economy/emerging-markets/article/55411224/cambodias-push-to-become-a-manufacturing-hub",
+      "title": "Cambodia's Push to Become a Manufacturing Hub",
+      "content_text": "Improved infrastructure, clean-energy initiatives and favorable trade policy are attracting production and logistics.",
+      "summary": "Improved infrastructure, clean-energy initiatives and favorable trade policy are attracting production and logistics.",
+      "date_published": "2026-10-12T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6acd2f4db01a4b4dc05a83ea-dreamstime_xxl_20672802.png",
+      "tags": [
+        "The Economy / Emerging Markets",
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/the-economy/article/55410849/why-manufacturing-is-rewarding-leaning-into-leader-curiosity-industryweeks-weekly-review",
+      "url": "https://www.industryweek.com/the-economy/article/55410849/why-manufacturing-is-rewarding-leaning-into-leader-curiosity-industryweeks-weekly-review",
+      "title": "Why Manufacturing Is Rewarding; Leaning Into Leader Curiosity: IndustryWeek's Weekly Review",
+      "content_text": "Also, manufacturing expansion continues, manufacturers prepared to invest, and think twice about the success of your kaizen event.",
+      "summary": "Also, manufacturing expansion continues, manufacturers prepared to invest, and think twice about the success of your kaizen event.",
+      "date_published": "2026-10-09T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ac90f3f7837be7bc93b2490-newspapersdreamstime_l_107290783.png",
+      "tags": [
+        "The Economy",
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/talent/engagement/article/55410034/manufacturing-day-lets-us-show-how-the-work-has-changed",
+      "url": "https://www.industryweek.com/talent/engagement/article/55410034/manufacturing-day-lets-us-show-how-the-work-has-changed",
+      "title": "Manufacturing Day Lets Us Show How the Work Has Changed",
+      "content_text": "Knowledge-sharing and nurturing talent involve more than a single event on the calendar.",
+      "summary": "Knowledge-sharing and nurturing talent involve more than a single event on the calendar.",
+      "date_published": "2026-10-09T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ac906c9606490f16ac851ad-10.png",
+      "tags": [
+        "Talent / Engagement",
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    }
+  ]
+}

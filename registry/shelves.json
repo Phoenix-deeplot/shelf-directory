@@ -89,6 +89,19 @@
    ],
    "added": "2026-10-23",
    "issue": 10
+  },
+  {
+   "id": "industryweek-com",
+   "kind": "feed",
+   "url": "https://www.industryweek.com/__rss/website-scheduled-content.xml?input=%7B%22sectionAlias%22%3A%22home%22%7D",
+   "source": "https://www.industryweek.com/__rss/website-scheduled-content.xml?input=%7B%22sectionAlias%22%3A%22home%22%7D",
+   "name": "Home | IndustryWeek",
+   "tags": [
+    "制造",
+    "运营"
+   ],
+   "added": "2026-10-23",
+   "issue": 15
   }
  ]
 }

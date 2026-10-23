@@ -34,6 +34,52 @@
         "type": "article",
         "shelf": "freightwaves-com"
       }
+    },
+    {
+      "id": "https://www.industryweek.com/operations/podcast/55412884/effective-daily-huddles-the-importance-of-accountability",
+      "url": "https://www.industryweek.com/operations/podcast/55412884/effective-daily-huddles-the-importance-of-accountability",
+      "title": "Effective Daily Huddles: the Importance of Accountability",
+      "content_text": "Accountability is not punishment or blame; it is a two-way commitment between workers and leaders.",
+      "summary": "Accountability is not punishment or blame; it is a two-way commitment between workers and leaders.",
+      "date_published": "2026-10-20T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad66c2a9e3f57f9d56caef3-grouparoundboarddreamstime_m_419846052.png",
+      "tags": [
+        "Operations",
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/operations/podcast/55411304/why-visual-management-fails-and-what-to-do-about-it",
+      "url": "https://www.industryweek.com/operations/podcast/55411304/why-visual-management-fails-and-what-to-do-about-it",
+      "title": "Why Visual Management Fails and What to Do About It",
+      "content_text": "Without transparency, visual management is merely decoration.",
+      "summary": "Without transparency, visual management is merely decoration.",
+      "date_published": "2026-10-13T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6acd42b6590b102da7a8db95-visualdisplaydreamstime_m_333440410.png",
+      "tags": [
+        "Operations",
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
     }
   ]
 }

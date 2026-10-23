@@ -23,4 +23,28 @@
     <category term="Management"/>
     <category term="Operations"/>
   </entry>
+  <entry>
+    <id>https://www.industryweek.com/operations/podcast/55412884/effective-daily-huddles-the-importance-of-accountability</id>
+    <title>Effective Daily Huddles: the Importance of Accountability</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/operations/podcast/55412884/effective-daily-huddles-the-importance-of-accountability"/>
+    <updated>2026-10-20T00:00:00Z</updated>
+    <published>2026-10-20T00:00:00Z</published>
+    <summary type="text">Accountability is not punishment or blame; it is a two-way commitment between workers and leaders.</summary>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="Operations"/>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.industryweek.com/operations/podcast/55411304/why-visual-management-fails-and-what-to-do-about-it</id>
+    <title>Why Visual Management Fails and What to Do About It</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/operations/podcast/55411304/why-visual-management-fails-and-what-to-do-about-it"/>
+    <updated>2026-10-13T00:00:00Z</updated>
+    <published>2026-10-13T00:00:00Z</published>
+    <summary type="text">Without transparency, visual management is merely decoration.</summary>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="Operations"/>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
 </feed>
