@@ -1,0 +1,39 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Temu",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/temu.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.woshipm.com/it/6482998.html",
+      "url": "https://www.woshipm.com/it/6482998.html",
+      "title": "中国企业出海的下一站：从品牌“敲门”，到跨境电商“搭桥”",
+      "content_text": "今年双十一，卖货只是表象，京东、阿里、字节纷纷借大促窗口亮出长期战略。速卖通联合天猫推出“中国品牌全球增长计划”，从试水走向全品牌出海覆盖，甚至下场孵化AI硬件品牌。本文深度拆解跨境电商分化格局下，速卖通如何与Temu、SHEIN走出差异化路线，以及中国品牌全球化从输出产能到输出品牌的必然跃迁。 今年双十一，是个有点不…",
+      "summary": "今年双十一，卖货只是表象，京东、阿里、字节纷纷借大促窗口亮出长期战略。速卖通联合天猫推出“中国品牌全球增长计划”，从试水走向全品牌出海覆盖，甚至下场孵化AI硬件品牌。本文深度拆解跨境电商分化格局下，速卖通如何与Temu、SHEIN走出差异化路线，以及中国品牌全球化从输出产能到输出品牌的必然跃迁。 今年双十一，是个有点不…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "业界动态",
+        "Temu",
+        "双十一",
+        "品牌出海",
+        "行业观察",
+        "跨境电商",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    }
+  ]
+}

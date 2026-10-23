@@ -1,0 +1,39 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #costco",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/costco.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.woshipm.com/chuangye/6476870.html",
+      "url": "https://www.woshipm.com/chuangye/6476870.html",
+      "title": "好的商业模式三句话就能讲清楚：从真伪需求判断到护城河构建的实战指南",
+      "content_text": "好的商业模式标准是实战派与系统化的结合。它的第一性原理是价值，是一个企业如何发现价值、创造价值和获取价值的过程。要素不是几个概念的孤立堆砌，而是要能说的人好表达、听的人好理解，大道至简。 很多分析商业模式的文章，要么太学术，要么不系统。 好的标准是「实战派+系统化」的结合，这样才能从本质上理解商业模式，来真正为自己所用…",
+      "summary": "好的商业模式标准是实战派与系统化的结合。它的第一性原理是价值，是一个企业如何发现价值、创造价值和获取价值的过程。要素不是几个概念的孤立堆砌，而是要能说的人好表达、听的人好理解，大道至简。 很多分析商业模式的文章，要么太学术，要么不系统。 好的标准是「实战派+系统化」的结合，这样才能从本质上理解商业模式，来真正为自己所用…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "创业学院",
+        "costco",
+        "会员制",
+        "商业模式",
+        "拼多多",
+        "瑞幸咖啡",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    }
+  ]
+}

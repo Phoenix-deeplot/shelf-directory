@@ -4,8 +4,41 @@
   <title>公共目录 · #工具</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-a72ef1.xml"/>
-  <updated>2026-10-22T00:00:00Z</updated>
+  <updated>2026-10-23T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://sspai.com/post/116979</id>
+    <title>破与立：设计视角下的 iPhone Duo</title>
+    <link rel="alternate" type="text/html" href="https://sspai.com/post/116979"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文</summary>
+    <source><title>少数派</title></source>
+    <category term="效率"/>
+    <category term="工具"/>
+  </entry>
+  <entry>
+    <id>https://sspai.com/post/117104</id>
+    <title>派早报：Insta360 发布 Insta360 Mic，Anthropic 推出 Claude Duet 等</title>
+    <link rel="alternate" type="text/html" href="https://sspai.com/post/117104"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">少数派的近期动态和少数派一起，在海口明日公园来一场创造之约吧。活动详情iPhone少数派共创配件上新，自由选择保护、充电、线缆和支架组合。欢迎选购你可能错过的文章终于吃到了那颗梦寐以求的小药丸：我的A ...查看全文</summary>
+    <source><title>少数派</title></source>
+    <category term="效率"/>
+    <category term="工具"/>
+  </entry>
+  <entry>
+    <id>https://sspai.com/post/116398</id>
+    <title>TDS REVIEW｜OPPO Enco X4 降噪真无线耳机体验</title>
+    <link rel="alternate" type="text/html" href="https://sspai.com/post/116398"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">放在欧加体系里，Enco X4 显然是值得买的：它在千元档有着第一档的降噪综合能力且没有明显短板，有着手机厂产品里不错的素质和相对饱满、流行化但不过分两头翘的调音，同时操作和细节体验没有明显问题……查看全文</summary>
+    <source><title>少数派</title></source>
+    <category term="效率"/>
+    <category term="工具"/>
+  </entry>
   <entry>
     <id>https://sspai.com/post/115090</id>
     <title>终于吃到了那颗梦寐以求的小药丸：我的 ADHD 诊疗记</title>
@@ -62,17 +95,6 @@
     <category term="工具"/>
   </entry>
   <entry>
-    <id>https://sspai.com/post/116887</id>
-    <title>派早报：美国政府指示各机构停用 DeepSeek、理想发布「连山」自研三电体系等</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/116887"/>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <published>2026-10-21T00:00:00Z</published>
-    <summary type="text">工信部就自动泊车等五项强制性国标征求意见，万事达卡 Apple Pay 新增 3 家合作银行等。查看全文</summary>
-    <source><title>少数派</title></source>
-    <category term="效率"/>
-    <category term="工具"/>
-  </entry>
-  <entry>
     <id>https://sspai.com/post/115107</id>
     <title>怀旧手记｜世界首台 UMPC：三星 Q1，和当下平板有什么关系？</title>
     <link rel="alternate" type="text/html" href="https://sspai.com/post/115107"/>
@@ -90,28 +112,6 @@
     <updated>2026-10-21T00:00:00Z</updated>
     <published>2026-10-21T00:00:00Z</published>
     <summary type="text">如果你希望更直观地分析 App 资源消耗、追踪历史变化，或者经常在 Mac 上进行开发和本地 AI 推理，Vitals 提供的整合式监控与 AI 协作能力更值得尝试。查看全文</summary>
-    <source><title>少数派</title></source>
-    <category term="效率"/>
-    <category term="工具"/>
-  </entry>
-  <entry>
-    <id>https://sspai.com/prime/story/inside-release-notes-261020</id>
-    <title>具透 Plus：Firefox 被「中途喝止」的界面现代化改造；Pixel 不再为 VoLTE 发愁</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/prime/story/inside-release-notes-261020"/>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <published>2026-10-20T00:00:00Z</published>
-    <summary type="text">FirefoxNova：被「中途喝止」的界面现代化改造@PlatyHsu:9月29日，Mozilla随Firefox157推出了代号为Nova的全新设计。这是继2021年Proton改版以来，Fire ...查看全文 本文为会员文章，出自《单篇文章》，订阅后可阅读全文。</summary>
-    <source><title>少数派</title></source>
-    <category term="效率"/>
-    <category term="工具"/>
-  </entry>
-  <entry>
-    <id>https://sspai.com/post/115475</id>
-    <title>TDS REVIEW｜vivo Buds Clip 耳夹式无线耳机体验</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/115475"/>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <published>2026-10-20T00:00:00Z</published>
-    <summary type="text">在 TWS 5 系列获得我们不错评价之后，Buds Clip 能否延续他们「来得晚但完成度更高」的特点呢？查看全文</summary>
     <source><title>少数派</title></source>
     <category term="效率"/>
     <category term="工具"/>

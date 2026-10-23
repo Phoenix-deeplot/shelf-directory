@@ -1,0 +1,39 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #DataEye",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/dataeye.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.woshipm.com/ai/6483147.html",
+      "url": "https://www.woshipm.com/ai/6483147.html",
+      "title": "AI漫剧的老板们在给算力打工",
+      "content_text": "AI 漫剧一分钟的制作成本从 1.5 万元跌到 400 元，做剧的人却没觉得手头宽裕。人力占比从六成掉到三四成，算力成了大头，一集算力成本从 17 元涨到 80 到 100 元，抽卡式生成还要为废片买单。省下来的钱，换了个地方交。 AI漫剧玩家分两种： 一种自己掏钱做剧，赌平台分账。另一种接单代工，按分钟收制作费，片子…",
+      "summary": "AI 漫剧一分钟的制作成本从 1.5 万元跌到 400 元，做剧的人却没觉得手头宽裕。人力占比从六成掉到三四成，算力成了大头，一集算力成本从 17 元涨到 80 到 100 元，抽卡式生成还要为废片买单。省下来的钱，换了个地方交。 AI漫剧玩家分两种： 一种自己掏钱做剧，赌平台分账。另一种接单代工，按分钟收制作费，片子…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "AI应用",
+        "DataEye",
+        "抖音",
+        "行业观察",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    }
+  ]
+}

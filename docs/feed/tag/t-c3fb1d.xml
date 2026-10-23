@@ -7,19 +7,19 @@
   <updated>2026-10-23T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/share/6476868.html</id>
-    <title>竞品的本质是生意的边界：四类竞品分类、进攻型学习与防御型竞争全解析</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6476868.html"/>
+    <id>https://www.woshipm.com/it/6482998.html</id>
+    <title>中国企业出海的下一站：从品牌“敲门”，到跨境电商“搭桥”</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6482998.html"/>
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">做竞品分析，大多数人只看身边的同行，但从生意的维度要回答：你想抢谁的生意、谁想抢你的生意、大家各自用什么方式抢。定竞品就是定战略，决定资源往哪投、仗该怎么打、生意能做多大。 做竞品分析，大多数人只看身边的同行。但从生意的维度，需要回答三大问题：你想抢谁的生意？谁想抢你的生意？大家各自用什么方式抢？ 定竞品就是定战略。这…</summary>
+    <summary type="text">今年双十一，卖货只是表象，京东、阿里、字节纷纷借大促窗口亮出长期战略。速卖通联合天猫推出“中国品牌全球增长计划”，从试水走向全品牌出海覆盖，甚至下场孵化AI硬件品牌。本文深度拆解跨境电商分化格局下，速卖通如何与Temu、SHEIN走出差异化路线，以及中国品牌全球化从输出产能到输出品牌的必然跃迁。 今年双十一，是个有点不…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="案例分析"/>
-    <category term="特斯拉"/>
-    <category term="王者荣耀"/>
-    <category term="竞品分析"/>
+    <category term="业界动态"/>
+    <category term="Temu"/>
+    <category term="双十一"/>
+    <category term="品牌出海"/>
     <category term="行业观察"/>
+    <category term="跨境电商"/>
     <category term="产品"/>
     <category term="运营"/>
   </entry>
@@ -41,20 +41,37 @@
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6483146.html</id>
-    <title>WorkBuddy悄悄上线「收入变现」，可自主定价技能和专家</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483146.html"/>
+    <id>https://www.woshipm.com/ai/6483288.html</id>
+    <title>Claude Duet 来了，Personal Agent 大战又添一员</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483288.html"/>
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">WorkBuddy 悄悄上线「收入变现」，让技能和专家能直接上架售卖，支持一次性买断与按月订阅，平台服务费仅 1%。无需写代码，上传 zip 包即可发布，审核与签约实测都很快。这不只是多了一个变现口子，更是生态建设的信号：让创造有价值，让价值有回报。 突然发现，在 WorkBuddy 悄悄上线了一个「收入变现」的功能。…</summary>
+    <summary type="text">当AI助手不再只是被动应答，而是主动替你梳理任务、推进工作，Personal Agent的竞争便进入了新阶段。Anthropic推出的Claude Duet，能跨应用持续跟进任务，在需要时向你确认。本文从产品设计、交互逻辑与行业格局出发，拆解这款助手如何重新定义人机协作的边界。 早上拿起手机，AI 先发来一句：“5件事…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI产品"/>
-    <category term="WorkBuddy"/>
-    <category term="功能分析"/>
-    <category term="收入变现"/>
-    <category term="经验总结"/>
+    <category term="AI助手"/>
+    <category term="Claude Duet"/>
+    <category term="Personal Agent"/>
+    <category term="产品分析"/>
+    <category term="任务管理"/>
     <category term="行业观察"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6483147.html</id>
+    <title>AI漫剧的老板们在给算力打工</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483147.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">AI 漫剧一分钟的制作成本从 1.5 万元跌到 400 元，做剧的人却没觉得手头宽裕。人力占比从六成掉到三四成，算力成了大头，一集算力成本从 17 元涨到 80 到 100 元，抽卡式生成还要为废片买单。省下来的钱，换了个地方交。 AI漫剧玩家分两种： 一种自己掏钱做剧，赌平台分账。另一种接单代工，按分钟收制作费，片子…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI应用"/>
+    <category term="DataEye"/>
+    <category term="抖音"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+    <category term="运营"/>
   </entry>
 </feed>

@@ -7,83 +7,52 @@
   <updated>2026-10-23T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6482980.html</id>
-    <title>角色设定图提示词合集分享！码住随时用。</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6482980.html"/>
+    <id>https://www.woshipm.com/share/6479427.html</id>
+    <title>无爆品，不谈品牌</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6479427.html"/>
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">做 AI 角色视频，最缺的往往不是模型，而是一套稳定的设定图。这篇把几十套提示词按用途分好类：基础立绘、转面、表情口型、动作关键帧、镜头透视，连动物和机械角色都备了模板，白底可直接复用。 之前一直有朋友问我，角色设定图的提示词怎么写？今天阿真总结一套比较全的，朋友们可以存存以后指不定能用。 这些都是可直接拿去用的提示词…</summary>
+    <summary type="text">没有爆品，请不要谈品牌。这句话听起来很刺耳，但这是一个扎心的事实。很多创业者开口闭口就是品牌定位、品牌调性、品牌故事，PPT做了几十页，却始终答不上来自己的爆品是哪一款。 “没有爆品，请不要谈品牌。” 这句话听起来很刺耳，但这是一个扎心的事实。 很多创业者、品牌负责人聊天，开口闭口就是“品牌定位”“品牌调性”“品牌故事…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="产品营销"/>
+    <category term="品牌建设"/>
+    <category term="电商运营"/>
+    <category term="营销策略"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/chuangye/6483393.html</id>
+    <title>不能和朋友住在一起，就在手机里合租：这个像素 App 吸引了25万用户</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6483393.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">Peeps 用像素小屋把异地朋友装进同一个房间，靠自然传播做到 25 万用户、台湾 App Store 总榜第一。团队本想靠游戏留住人，分析长期行为后才发现，30 天留存提升 68% 的关键是「有人在意你回来」。 今天分享一个很温暖的 App，我很喜欢：Peeps，和朋友同居，https://playpeeps.app…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="创业学院"/>
     <category term="AI应用"/>
-    <category term="提示词"/>
-    <category term="经验分享"/>
+    <category term="产品体验"/>
+    <category term="用户增长"/>
+    <category term="社交产品"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/share/6482970.html</id>
-    <title>空降的品牌总监行不行，只需一周就知道</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6482970.html"/>
+    <id>https://www.woshipm.com/ai/6478947.html</id>
+    <title>Prompt、Skill、Project、MCP，一套完整的 AI 工作流！</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6478947.html"/>
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">判断空降的品牌总监有没有真本事，不用等到试用期结束。看他第一周做三件事就够：是不是真热爱这个品类，是继承品牌资产还是急着推翻过去，做的事是为了品牌好看，还是为了生意真的增长。 判断一个空降的品牌总监到底有没有真本事，其实根本不用等到试用期结束。 看TA上班第一周都在干什么，基本上就能判断个八九不离十。 很多品牌总监，履…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="个人成长"/>
-    <category term="个人观点"/>
-    <category term="企业管理"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6482953.html</id>
-    <title>昨夜 PHP 大漏洞背后，极其诡异的 96 小时</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6482953.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">PHP 两个漏洞合成 PHP2Shell，日本从首相官网到 pixiv 集体停服，48 小时内攻击尝试从几千次涨到几百万次。更诡异的是这次是 AI 先发现了漏洞，各家说法却对不上——这 96 小时，是攻防的分水岭。 昨夜，一个潜伏了 14 年的 PHP 漏洞，几乎震动了全球互联网。相信昨晚全球有不少程序员、网络安全人员…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="Hugging Face"/>
-    <category term="OpenAI"/>
-    <category term="行业分析"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6482994.html</id>
-    <title>产品经理怎么做好培训</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6482994.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">系统上线前的培训，往往是产品经理最容易踩坑的环节。你以为自己熟悉系统就能讲好，但听众可能是第一次接触，甚至对电脑都不熟。本文从对象分析、环境准备、流程讲解到现场节奏，拆解产品经理如何做好培训，让不同角色都能真正上手。 系统快上线的时候，产品经理一般都很忙。 这边还要盯着几个bug没改完，那边要催业务准备迁移的数据，还要…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="案例分析"/>
-    <category term="用户培训"/>
-    <category term="系统上线"/>
-    <category term="项目管理"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6482962.html</id>
-    <title>Meta翻盘：广告撑场，Muse烧钱</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6482962.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">Meta 三季度营收 646 亿美元，广告贡献 630.6 亿，占掉 97.6%；可 Muse 的投入把自由现金流打成负 21.2 亿，第一次转负。大厂想抄 Muse，得先算清这笔账：一台云端虚拟机换一个用户，究竟值不值？ Q3的Meta可能是一众科技大厂中反转最大的一个，3个月前，它还是一个只会画AI“大饼”、只有高…</summary>
+    <summary type="text">Prompt、Skill、Project、MCP 频繁出现，成为解锁 AI 高效工作的关键，但很多人对这四个词一知半解。文章逐个拆解它们的概念、特点与适用场景，并说明各自能为设计环节带来的提效作用，帮你在合适的任务里用对工具。 当下 AI 技术迭代速度飞快，Prompt、Skill、Project、MCP 这四个词汇频…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="Meta"/>
-    <category term="Muse"/>
-    <category term="行业分析"/>
+    <category term="Claude"/>
+    <category term="MCP"/>
+    <category term="基础知识"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>

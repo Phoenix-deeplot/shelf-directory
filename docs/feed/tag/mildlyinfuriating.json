@@ -1,0 +1,58 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #mildlyinfuriating",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/mildlyinfuriating.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.reddit.com/r/mildlyinfuriating/comments/1xcg2ro/tesla_back_in_2021/",
+      "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1xcg2ro/tesla_back_in_2021/",
+      "title": "Tesla back in 2021",
+      "content_text": "Buying a feature that already built in your car is crazy submitted by /u/Opposite_Bowl657 to r/mildlyinfuriating [link] [comments]",
+      "summary": "Buying a feature that already built in your car is crazy submitted by /u/Opposite_Bowl657 to r/mildlyinfuriating [link] [comments]",
+      "date_published": "2026-10-22T00:00:00Z",
+      "image": "https://preview.redd.it/7xsgg9tp80xh1.jpeg?width=640&crop=smart&auto=webp&s=c7799a209b1f5c6492dece3b8a9f5106ecf3560e",
+      "tags": [
+        "mildlyinfuriating",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/mildlyinfuriating/comments/1xcu98o/new_tattoo_transferred_to_sheets/",
+      "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1xcu98o/new_tattoo_transferred_to_sheets/",
+      "title": "New tattoo transferred to sheets",
+      "content_text": "jump scare waking up today i took the wrap off and forgot to re wrap and fell asleep lol, he’s very fresh and any colored tattoo weaps a lot so it’s normal but…",
+      "summary": "jump scare waking up today i took the wrap off and forgot to re wrap and fell asleep lol, he’s very fresh and any colored tattoo weaps a lot so it’s normal but…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "image": "https://preview.redd.it/5dh1btfvy2xh1.jpeg?width=140&height=140&crop=1:1,smart&auto=webp&s=4e9c1339c279989664299929c02a7fe6ff9047a7",
+      "tags": [
+        "mildlyinfuriating",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    }
+  ]
+}

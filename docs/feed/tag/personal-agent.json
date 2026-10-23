@@ -1,0 +1,39 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Personal Agent",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/personal-agent.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.woshipm.com/ai/6483288.html",
+      "url": "https://www.woshipm.com/ai/6483288.html",
+      "title": "Claude Duet 来了，Personal Agent 大战又添一员",
+      "content_text": "当AI助手不再只是被动应答，而是主动替你梳理任务、推进工作，Personal Agent的竞争便进入了新阶段。Anthropic推出的Claude Duet，能跨应用持续跟进任务，在需要时向你确认。本文从产品设计、交互逻辑与行业格局出发，拆解这款助手如何重新定义人机协作的边界。 早上拿起手机，AI 先发来一句：“5件事…",
+      "summary": "当AI助手不再只是被动应答，而是主动替你梳理任务、推进工作，Personal Agent的竞争便进入了新阶段。Anthropic推出的Claude Duet，能跨应用持续跟进任务，在需要时向你确认。本文从产品设计、交互逻辑与行业格局出发，拆解这款助手如何重新定义人机协作的边界。 早上拿起手机，AI 先发来一句：“5件事…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "AI助手",
+        "Claude Duet",
+        "Personal Agent",
+        "产品分析",
+        "任务管理",
+        "行业观察"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    }
+  ]
+}

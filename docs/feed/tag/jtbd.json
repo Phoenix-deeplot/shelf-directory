@@ -1,0 +1,39 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #JTBD",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/jtbd.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.woshipm.com/share/6483209.html",
+      "url": "https://www.woshipm.com/share/6483209.html",
+      "title": "从“反复比较”到“安心决策”：一套可操作的用户洞察公式",
+      "content_text": "用户行为只是表象，真正的洞察藏在情境、矛盾与期待的交织中。本文拆解“真实情境+内在矛盾+未满足期待”的推导链，结合JTBD框架与实战案例，教你从货架前的犹豫瞬间，挖出可验证、可行动的用户心理机制，让运营决策不再停留在“正确的废话”。 用户在货架前举起手机扫描、放下、又拿起另一瓶……这个动作本身不是洞察。洞察要回答的是：…",
+      "summary": "用户行为只是表象，真正的洞察藏在情境、矛盾与期待的交织中。本文拆解“真实情境+内在矛盾+未满足期待”的推导链，结合JTBD框架与实战案例，教你从货架前的犹豫瞬间，挖出可验证、可行动的用户心理机制，让运营决策不再停留在“正确的废话”。 用户在货架前举起手机扫描、放下、又拿起另一瓶……这个动作本身不是洞察。洞察要回答的是：…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "个人随笔",
+        "JTBD",
+        "场景营销",
+        "案例分析",
+        "用户洞察",
+        "运营方法论",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    }
+  ]
+}

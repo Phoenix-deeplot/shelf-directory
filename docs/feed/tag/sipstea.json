@@ -1,0 +1,81 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #SipsTea",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/sipstea.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.reddit.com/r/SipsTea/comments/1xco4nj/hey_google_how_do_i_avoid_california_wealth_tax/",
+      "url": "https://www.reddit.com/r/SipsTea/comments/1xco4nj/hey_google_how_do_i_avoid_california_wealth_tax/",
+      "title": "Hey Google, how do I avoid California wealth tax? Move to Florida, Larry",
+      "content_text": "https://finance.yahoo.com/economy/policy/articles/larry-page-could-dodge-nearly-070700156.html submitted by /u/Conscious-Weight4569 to r/SipsTea [link] [comment…",
+      "summary": "https://finance.yahoo.com/economy/policy/articles/larry-page-could-dodge-nearly-070700156.html submitted by /u/Conscious-Weight4569 to r/SipsTea [link] [comment…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "image": "https://preview.redd.it/rw0o8v2ku1xh1.jpeg?width=640&crop=smart&auto=webp&s=dc406d72bbb0bb4a687c05207d80967e2af8907d",
+      "tags": [
+        "SipsTea",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/SipsTea/comments/1xce7ad/a_reflection_of_the_world_right_now/",
+      "url": "https://www.reddit.com/r/SipsTea/comments/1xce7ad/a_reflection_of_the_world_right_now/",
+      "title": "A reflection of the world right now",
+      "content_text": "submitted by /u/untitledprp4 to r/SipsTea [link] [comments]",
+      "summary": "submitted by /u/untitledprp4 to r/SipsTea [link] [comments]",
+      "date_published": "2026-10-22T00:00:00Z",
+      "image": "https://preview.redd.it/87xvap32qzwh1.jpeg?width=640&crop=smart&auto=webp&s=187a743cce37a74ef1fb432864f977098b836c75",
+      "tags": [
+        "SipsTea",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/SipsTea/comments/1xcfj27/a_bruh_moment/",
+      "url": "https://www.reddit.com/r/SipsTea/comments/1xcfj27/a_bruh_moment/",
+      "title": "A bruh moment.",
+      "content_text": "submitted by /u/Apprehensive_Sky4558 to r/SipsTea [link] [comments]",
+      "summary": "submitted by /u/Apprehensive_Sky4558 to r/SipsTea [link] [comments]",
+      "date_published": "2026-10-22T00:00:00Z",
+      "image": "https://preview.redd.it/9pz9dqmh30xh1.jpeg?width=640&crop=smart&auto=webp&s=bcbe27e26add33234c8ccd746a21ada5f60ce8d1",
+      "tags": [
+        "SipsTea",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    }
+  ]
+}

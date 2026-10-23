@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/ai-2.xml</id>
-  <title>公共目录 · #AI产品</title>
+  <title>公共目录 · #AI应用</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/ai-2.xml"/>
   <updated>2026-10-23T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6483070.html</id>
-    <title>对话 Google Labs 负责人：大团队正在拖垮 AI 产品创新，我们用 2-3 个人、100 天验证一个方向</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483070.html"/>
+    <id>https://www.woshipm.com/ai/6483431.html</id>
+    <title>普通人做 AI 自媒体，根本赚不到钱</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483431.html"/>
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">Google Labs 的 Josh Woodward 把做产品的方法说得很实在：盯住「什么几乎成为可能」，用 50 到 100 天推到里程碑，早期判断需求先看用户的眼睛有没有亮，而不是 DAU 和 D7 留存。两三人的小队，也能把一个方向验证透。 当模型每隔几个月就改写一次能力边界，产品团队该如何判断：哪些只是令人惊…</summary>
+    <summary type="text">作者把 AI 自媒体分成「讲 AI」和「用 AI」两类：前者拼资讯速度，后者拼你自己用 AI 做成了什么事。普通人扎堆做资讯号往往赚不到钱；把 AI 用进熟悉的行业，反而是还没人占的蓝海。 去年初在新项目的时候，我看了几个方向：电器测评、美妆测评、AI自媒体…… 电器测评和美妆测评，已经看到有很多人在闷声赚钱在小红书，…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
-    <category term="AI产品"/>
-    <category term="Gemini"/>
-    <category term="Google Labs"/>
-    <category term="NotebookLM"/>
-    <category term="企业管理"/>
+    <category term="个人随笔"/>
+    <category term="AI应用"/>
+    <category term="个人观点"/>
+    <category term="内容创作"/>
+    <category term="自媒体"/>
     <category term="产品"/>
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6483146.html</id>
-    <title>WorkBuddy悄悄上线「收入变现」，可自主定价技能和专家</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483146.html"/>
+    <id>https://www.woshipm.com/chuangye/6483393.html</id>
+    <title>不能和朋友住在一起，就在手机里合租：这个像素 App 吸引了25万用户</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6483393.html"/>
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">WorkBuddy 悄悄上线「收入变现」，让技能和专家能直接上架售卖，支持一次性买断与按月订阅，平台服务费仅 1%。无需写代码，上传 zip 包即可发布，审核与签约实测都很快。这不只是多了一个变现口子，更是生态建设的信号：让创造有价值，让价值有回报。 突然发现，在 WorkBuddy 悄悄上线了一个「收入变现」的功能。…</summary>
+    <summary type="text">Peeps 用像素小屋把异地朋友装进同一个房间，靠自然传播做到 25 万用户、台湾 App Store 总榜第一。团队本想靠游戏留住人，分析长期行为后才发现，30 天留存提升 68% 的关键是「有人在意你回来」。 今天分享一个很温暖的 App，我很喜欢：Peeps，和朋友同居，https://playpeeps.app…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI产品"/>
-    <category term="WorkBuddy"/>
-    <category term="功能分析"/>
-    <category term="收入变现"/>
-    <category term="经验总结"/>
-    <category term="行业观察"/>
+    <category term="创业学院"/>
+    <category term="AI应用"/>
+    <category term="产品体验"/>
+    <category term="用户增长"/>
+    <category term="社交产品"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6483114.html</id>
-    <title>Claude Duet上线：关掉电脑后，AI助理还能继续工作</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483114.html"/>
+    <id>https://www.woshipm.com/ai/6483147.html</id>
+    <title>AI漫剧的老板们在给算力打工</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483147.html"/>
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">截至 10 月 20 日，Meta Muse 在美国下载约 1020 万次；10 月 21 日 Anthropic 开放 Claude Duet 研究预览，能接 6000 多种工具，关掉电脑任务仍在云端继续。全天候的边界、额度会不会被跑光，比产品名更值得弄清。 你可能并不缺一个能回答问题的 AI，真正费时间的是在邮箱、…</summary>
+    <summary type="text">AI 漫剧一分钟的制作成本从 1.5 万元跌到 400 元，做剧的人却没觉得手头宽裕。人力占比从六成掉到三四成，算力成了大头，一集算力成本从 17 元涨到 80 到 100 元，抽卡式生成还要为废片买单。省下来的钱，换了个地方交。 AI漫剧玩家分两种： 一种自己掏钱做剧，赌平台分账。另一种接单代工，按分钟收制作费，片子…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI产品"/>
-    <category term="Anthropic"/>
-    <category term="Claude"/>
-    <category term="Meta Muse"/>
-    <category term="功能分析"/>
+    <category term="AI应用"/>
+    <category term="DataEye"/>
+    <category term="抖音"/>
+    <category term="行业观察"/>
     <category term="产品"/>
+    <category term="运营"/>
   </entry>
 </feed>
