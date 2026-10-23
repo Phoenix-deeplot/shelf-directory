@@ -9,6 +9,226 @@
   },
   "items": [
     {
+      "id": "https://tech.meituan.com/2026/07/28/CatPaw-LongCat.html",
+      "url": "https://tech.meituan.com/2026/07/28/CatPaw-LongCat.html",
+      "title": "美团正式发布 CatPaw：全场景 AI Agent，从个人提效到企业智能化",
+      "content_text": "搭载美团 LongCat 2.0 的全场景 AI Agent 平台 CatPaw 正式上线，我们将模型能力从“跑得动”推向“用得好”。CatPaw 提供开箱即用的 AI 智能工作台与企业级 Agent 开发托管能力。",
+      "summary": "搭载美团 LongCat 2.0 的全场景 AI Agent 平台 CatPaw 正式上线，我们将模型能力从“跑得动”推向“用得好”。CatPaw 提供开箱即用的 AI 智能工作台与企业级 Agent 开发托管能力。",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://p0.meituan.net/meituantechblog/a690ba49597fd8720f96ea56573b54cc151290.png",
+      "tags": [
+        "架构",
+        "工程"
+      ],
+      "authors": [
+        {
+          "name": "美团 · 技术团队"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "tech-meituan-com"
+      }
+    },
+    {
+      "id": "https://tech.meituan.com/2026/09/03/meituan-Digital-Human-practice.html",
+      "url": "https://tech.meituan.com/2026/09/03/meituan-Digital-Human-practice.html",
+      "title": "美团智播——数字人直播技术创新与实践",
+      "content_text": "美团智播围绕 AI 主播「长得真→动得准→演得活→卖得好」构建了完整技术闭环：真人 1:1 复刻、换装换背景身份不跑偏；动作自然流畅，告别「木偶戏」；边说边动、音画一致；背后还有推理加速技术支撑万路并发开播，让普惠落地成为可能。",
+      "summary": "美团智播围绕 AI 主播「长得真→动得准→演得活→卖得好」构建了完整技术闭环：真人 1:1 复刻、换装换背景身份不跑偏；动作自然流畅，告别「木偶戏」；边说边动、音画一致；背后还有推理加速技术支撑万路并发开播，让普惠落地成为可能。",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://p0.meituan.net/meituantechblog/a7c5a936998959a941d145ac3eebe7334801382.png",
+      "tags": [
+        "架构",
+        "工程"
+      ],
+      "authors": [
+        {
+          "name": "美团 · 技术团队"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "tech-meituan-com"
+      }
+    },
+    {
+      "id": "https://tech.meituan.com/2026/08/20/01-meituan-Query-3.0.html",
+      "url": "https://tech.meituan.com/2026/08/20/01-meituan-Query-3.0.html",
+      "title": "美团搜索3.0：LLM 语义表征在排序模型的探索与应用",
+      "content_text": "美团搜索团队正依托团垂融合新架构与生成式大模型新技术，全面重构本地生活搜索底座。本系列技术博客将持续介绍美团搜索 3.0 的技术探索，本文聚焦 LLM 语义表征在服务零售排序场景上的三期实践——从单点特征验证到系统性表征体系构建，再到跨场景迁移复用，探索语义匹配信号在搜索排序中的应用路径。",
+      "summary": "美团搜索团队正依托团垂融合新架构与生成式大模型新技术，全面重构本地生活搜索底座。本系列技术博客将持续介绍美团搜索 3.0 的技术探索，本文聚焦 LLM 语义表征在服务零售排序场景上的三期实践——从单点特征验证到系统性表征体系构建，再到跨场景迁移复用，探索语义匹配信号在搜索排序中的应用路径。",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://p1.meituan.net/meituantechblog/8f6d0d2a1b53e0fbe26ec7f5426bd45a302269.png",
+      "tags": [
+        "架构",
+        "工程"
+      ],
+      "authors": [
+        {
+          "name": "美团 · 技术团队"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "tech-meituan-com"
+      }
+    },
+    {
+      "id": "https://tech.meituan.com/2026/10/22/LOOP-AutoResearch.html",
+      "url": "https://tech.meituan.com/2026/10/22/LOOP-AutoResearch.html",
+      "title": "从 LOOP 到图探索 —— 算法模型的 AutoResearch 自进化系统架构演进之路",
+      "content_text": "本文分享这套系统的设计理念、架构演进与可信度设计，希望对大家有所帮助或启发。",
+      "summary": "本文分享这套系统的设计理念、架构演进与可信度设计，希望对大家有所帮助或启发。",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://p0.meituan.net/meituantechblog/f96887d93b880574e0fb9ebad114faba529816.png",
+      "tags": [
+        "架构",
+        "工程"
+      ],
+      "authors": [
+        {
+          "name": "美团 · 技术团队"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "tech-meituan-com"
+      }
+    },
+    {
+      "id": "https://tech.meituan.com/2026/09/10/Agent-Evaluation-White-Paper-01.html",
+      "url": "https://tech.meituan.com/2026/09/10/Agent-Evaluation-White-Paper-01.html",
+      "title": "《Agent 评测白皮书》系列01：Agent 评测全览",
+      "content_text": "我们推出了《Agent评测白皮书》系列博客，体系化地为大家讲解评测的落地指南，分为《评测全览》、《冷启动篇》、《扩量篇》、《自进化篇》等共4篇，本文为系列的第一篇。",
+      "summary": "我们推出了《Agent评测白皮书》系列博客，体系化地为大家讲解评测的落地指南，分为《评测全览》、《冷启动篇》、《扩量篇》、《自进化篇》等共4篇，本文为系列的第一篇。",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://p0.meituan.net/meituantechblog/714ba0bf48f2186bd418d3778da7e214293923.png",
+      "tags": [
+        "架构",
+        "工程"
+      ],
+      "authors": [
+        {
+          "name": "美团 · 技术团队"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "tech-meituan-com"
+      }
+    },
+    {
+      "id": "https://tech.meituan.com/2026/10/15/Small-Language-Model-in-meituan.html",
+      "url": "https://tech.meituan.com/2026/10/15/Small-Language-Model-in-meituan.html",
+      "title": "SLM 生成式高并发推理引擎：延迟约束下的有效吞吐优化",
+      "content_text": "本文为SLM（Small Language Model， 小参数量语言模型0.5~1B）在搜推场景的大规模落地提供了一套高性能、可复用的工程实践。",
+      "summary": "本文为SLM（Small Language Model， 小参数量语言模型0.5~1B）在搜推场景的大规模落地提供了一套高性能、可复用的工程实践。",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://p0.meituan.net/meituantechblog/449102302ea0d472417c6fff369dd63882001.png",
+      "tags": [
+        "架构",
+        "工程"
+      ],
+      "authors": [
+        {
+          "name": "美团 · 技术团队"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "tech-meituan-com"
+      }
+    },
+    {
+      "id": "https://tech.meituan.com/2026/09/22/Meituan-Foundation-Model-for-Recommendation.html",
+      "url": "https://tech.meituan.com/2026/09/22/Meituan-Foundation-Model-for-Recommendation.html",
+      "title": "MTFM：美团统一推荐基座大模型在外卖多业务场景的落地实践",
+      "content_text": "美团在 MTGR 基础上提出统一推荐基座大模型 MTFM，首次实现外卖多个主要业务的统一精排模型。",
+      "summary": "美团在 MTGR 基础上提出统一推荐基座大模型 MTFM，首次实现外卖多个主要业务的统一精排模型。",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://p0.meituan.net/meituantechblog/5dcc2af83b5b9da04717c9fcff76b69a1943722.png",
+      "tags": [
+        "架构",
+        "工程"
+      ],
+      "authors": [
+        {
+          "name": "美团 · 技术团队"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "tech-meituan-com"
+      }
+    },
+    {
+      "id": "https://tech.meituan.com/2026/08/13/KDD-2026-meituan-papers.html",
+      "url": "https://tech.meituan.com/2026/08/13/KDD-2026-meituan-papers.html",
+      "title": "KDD&apos;26美团学术论文精选及KDD Cup&apos;26 DataAgents赛道冠军思路解读",
+      "content_text": "本文精选了美团技术团队被 KDD 2026 收录的 8 篇论文进行分享，这些论文覆盖了推荐大模型、生成与奖励建模框架、智能体搜索、Transformer 框架、元泛化框架等技术领域。",
+      "summary": "本文精选了美团技术团队被 KDD 2026 收录的 8 篇论文进行分享，这些论文覆盖了推荐大模型、生成与奖励建模框架、智能体搜索、Transformer 框架、元泛化框架等技术领域。",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://p0.meituan.net/meituantechblog/9720828f0ff8f07f6ce01f56d9e3f820362245.png",
+      "tags": [
+        "架构",
+        "工程"
+      ],
+      "authors": [
+        {
+          "name": "美团 · 技术团队"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "tech-meituan-com"
+      }
+    },
+    {
+      "id": "https://tech.meituan.com/2026/08/27/ACL-Outstanding-Paper-GeoRA.html",
+      "url": "https://tech.meituan.com/2026/08/27/ACL-Outstanding-Paper-GeoRA.html",
+      "title": "GeoRA: 为RLVR设计的LoRA——ACL 2026杰出论文解析",
+      "content_text": "ACL 2026杰出论文奖（Outstanding Paper）揭晓，全球共 18 篇入选，其中包含美团履约技术团队的1篇论文。本文介绍了一种专为 RLVR 设计的低秩训练方法，以及它在业务 Agentic RL 中的落地经验。",
+      "summary": "ACL 2026杰出论文奖（Outstanding Paper）揭晓，全球共 18 篇入选，其中包含美团履约技术团队的1篇论文。本文介绍了一种专为 RLVR 设计的低秩训练方法，以及它在业务 Agentic RL 中的落地经验。",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://p0.meituan.net/meituantechblog/97ea31d07a6d2933012521da83d6af45614059.png",
+      "tags": [
+        "架构",
+        "工程"
+      ],
+      "authors": [
+        {
+          "name": "美团 · 技术团队"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "tech-meituan-com"
+      }
+    },
+    {
+      "id": "https://tech.meituan.com/2026/08/07/Agent-Evaluation.html",
+      "url": "https://tech.meituan.com/2026/08/07/Agent-Evaluation.html",
+      "title": "Agent评测漫谈 —— 由浅入深讲解Agent评测",
+      "content_text": "本篇博客是一篇科普文章，由浅入深的介绍Agent评测。其中前两章系统介绍了评测是什么，以及如何建立评测体系；其中第二章是美团图灵Agent评测团队深入美团各业务团队BP总结出的实践经验，是我们在两年实践过程中逐步打磨出来的认知。",
+      "summary": "本篇博客是一篇科普文章，由浅入深的介绍Agent评测。其中前两章系统介绍了评测是什么，以及如何建立评测体系；其中第二章是美团图灵Agent评测团队深入美团各业务团队BP总结出的实践经验，是我们在两年实践过程中逐步打磨出来的认知。",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://p0.meituan.net/meituantechblog/5a8954c2e7b681ee8fb8d2c8a73868cd157865.png",
+      "tags": [
+        "架构",
+        "工程"
+      ],
+      "authors": [
+        {
+          "name": "美团 · 技术团队"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "tech-meituan-com"
+      }
+    },
+    {
       "id": "https://sspai.com/post/115090",
       "url": "https://sspai.com/post/115090",
       "title": "终于吃到了那颗梦寐以求的小药丸：我的 ADHD 诊疗记",

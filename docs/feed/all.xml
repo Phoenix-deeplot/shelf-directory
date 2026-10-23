@@ -4,8 +4,118 @@
   <title>公共目录</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/all.xml"/>
-  <updated>2026-10-22T00:00:00Z</updated>
+  <updated>2026-10-23T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://tech.meituan.com/2026/07/28/CatPaw-LongCat.html</id>
+    <title>美团正式发布 CatPaw：全场景 AI Agent，从个人提效到企业智能化</title>
+    <link rel="alternate" type="text/html" href="https://tech.meituan.com/2026/07/28/CatPaw-LongCat.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">搭载美团 LongCat 2.0 的全场景 AI Agent 平台 CatPaw 正式上线，我们将模型能力从“跑得动”推向“用得好”。CatPaw 提供开箱即用的 AI 智能工作台与企业级 Agent 开发托管能力。</summary>
+    <source><title>美团 · 技术团队</title></source>
+    <category term="架构"/>
+    <category term="工程"/>
+  </entry>
+  <entry>
+    <id>https://tech.meituan.com/2026/09/03/meituan-Digital-Human-practice.html</id>
+    <title>美团智播——数字人直播技术创新与实践</title>
+    <link rel="alternate" type="text/html" href="https://tech.meituan.com/2026/09/03/meituan-Digital-Human-practice.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">美团智播围绕 AI 主播「长得真→动得准→演得活→卖得好」构建了完整技术闭环：真人 1:1 复刻、换装换背景身份不跑偏；动作自然流畅，告别「木偶戏」；边说边动、音画一致；背后还有推理加速技术支撑万路并发开播，让普惠落地成为可能。</summary>
+    <source><title>美团 · 技术团队</title></source>
+    <category term="架构"/>
+    <category term="工程"/>
+  </entry>
+  <entry>
+    <id>https://tech.meituan.com/2026/08/20/01-meituan-Query-3.0.html</id>
+    <title>美团搜索3.0：LLM 语义表征在排序模型的探索与应用</title>
+    <link rel="alternate" type="text/html" href="https://tech.meituan.com/2026/08/20/01-meituan-Query-3.0.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">美团搜索团队正依托团垂融合新架构与生成式大模型新技术，全面重构本地生活搜索底座。本系列技术博客将持续介绍美团搜索 3.0 的技术探索，本文聚焦 LLM 语义表征在服务零售排序场景上的三期实践——从单点特征验证到系统性表征体系构建，再到跨场景迁移复用，探索语义匹配信号在搜索排序中的应用路径。</summary>
+    <source><title>美团 · 技术团队</title></source>
+    <category term="架构"/>
+    <category term="工程"/>
+  </entry>
+  <entry>
+    <id>https://tech.meituan.com/2026/10/22/LOOP-AutoResearch.html</id>
+    <title>从 LOOP 到图探索 —— 算法模型的 AutoResearch 自进化系统架构演进之路</title>
+    <link rel="alternate" type="text/html" href="https://tech.meituan.com/2026/10/22/LOOP-AutoResearch.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">本文分享这套系统的设计理念、架构演进与可信度设计，希望对大家有所帮助或启发。</summary>
+    <source><title>美团 · 技术团队</title></source>
+    <category term="架构"/>
+    <category term="工程"/>
+  </entry>
+  <entry>
+    <id>https://tech.meituan.com/2026/09/10/Agent-Evaluation-White-Paper-01.html</id>
+    <title>《Agent 评测白皮书》系列01：Agent 评测全览</title>
+    <link rel="alternate" type="text/html" href="https://tech.meituan.com/2026/09/10/Agent-Evaluation-White-Paper-01.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">我们推出了《Agent评测白皮书》系列博客，体系化地为大家讲解评测的落地指南，分为《评测全览》、《冷启动篇》、《扩量篇》、《自进化篇》等共4篇，本文为系列的第一篇。</summary>
+    <source><title>美团 · 技术团队</title></source>
+    <category term="架构"/>
+    <category term="工程"/>
+  </entry>
+  <entry>
+    <id>https://tech.meituan.com/2026/10/15/Small-Language-Model-in-meituan.html</id>
+    <title>SLM 生成式高并发推理引擎：延迟约束下的有效吞吐优化</title>
+    <link rel="alternate" type="text/html" href="https://tech.meituan.com/2026/10/15/Small-Language-Model-in-meituan.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">本文为SLM（Small Language Model， 小参数量语言模型0.5~1B）在搜推场景的大规模落地提供了一套高性能、可复用的工程实践。</summary>
+    <source><title>美团 · 技术团队</title></source>
+    <category term="架构"/>
+    <category term="工程"/>
+  </entry>
+  <entry>
+    <id>https://tech.meituan.com/2026/09/22/Meituan-Foundation-Model-for-Recommendation.html</id>
+    <title>MTFM：美团统一推荐基座大模型在外卖多业务场景的落地实践</title>
+    <link rel="alternate" type="text/html" href="https://tech.meituan.com/2026/09/22/Meituan-Foundation-Model-for-Recommendation.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">美团在 MTGR 基础上提出统一推荐基座大模型 MTFM，首次实现外卖多个主要业务的统一精排模型。</summary>
+    <source><title>美团 · 技术团队</title></source>
+    <category term="架构"/>
+    <category term="工程"/>
+  </entry>
+  <entry>
+    <id>https://tech.meituan.com/2026/08/13/KDD-2026-meituan-papers.html</id>
+    <title>KDD&amp;apos;26美团学术论文精选及KDD Cup&amp;apos;26 DataAgents赛道冠军思路解读</title>
+    <link rel="alternate" type="text/html" href="https://tech.meituan.com/2026/08/13/KDD-2026-meituan-papers.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">本文精选了美团技术团队被 KDD 2026 收录的 8 篇论文进行分享，这些论文覆盖了推荐大模型、生成与奖励建模框架、智能体搜索、Transformer 框架、元泛化框架等技术领域。</summary>
+    <source><title>美团 · 技术团队</title></source>
+    <category term="架构"/>
+    <category term="工程"/>
+  </entry>
+  <entry>
+    <id>https://tech.meituan.com/2026/08/27/ACL-Outstanding-Paper-GeoRA.html</id>
+    <title>GeoRA: 为RLVR设计的LoRA——ACL 2026杰出论文解析</title>
+    <link rel="alternate" type="text/html" href="https://tech.meituan.com/2026/08/27/ACL-Outstanding-Paper-GeoRA.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">ACL 2026杰出论文奖（Outstanding Paper）揭晓，全球共 18 篇入选，其中包含美团履约技术团队的1篇论文。本文介绍了一种专为 RLVR 设计的低秩训练方法，以及它在业务 Agentic RL 中的落地经验。</summary>
+    <source><title>美团 · 技术团队</title></source>
+    <category term="架构"/>
+    <category term="工程"/>
+  </entry>
+  <entry>
+    <id>https://tech.meituan.com/2026/08/07/Agent-Evaluation.html</id>
+    <title>Agent评测漫谈 —— 由浅入深讲解Agent评测</title>
+    <link rel="alternate" type="text/html" href="https://tech.meituan.com/2026/08/07/Agent-Evaluation.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">本篇博客是一篇科普文章，由浅入深的介绍Agent评测。其中前两章系统介绍了评测是什么，以及如何建立评测体系；其中第二章是美团图灵Agent评测团队深入美团各业务团队BP总结出的实践经验，是我们在两年实践过程中逐步打磨出来的认知。</summary>
+    <source><title>美团 · 技术团队</title></source>
+    <category term="架构"/>
+    <category term="工程"/>
+  </entry>
   <entry>
     <id>https://sspai.com/post/115090</id>
     <title>终于吃到了那颗梦寐以求的小药丸：我的 ADHD 诊疗记</title>

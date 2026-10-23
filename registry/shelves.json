@@ -34,6 +34,19 @@
    ],
    "added": "2026-10-22",
    "issue": 11
+  },
+  {
+   "id": "tech-meituan-com",
+   "kind": "feed",
+   "url": "https://tech.meituan.com/rss.xml",
+   "source": "https://tech.meituan.com/rss.xml",
+   "name": "美团 · 技术团队",
+   "tags": [
+    "架构",
+    "工程"
+   ],
+   "added": "2026-10-23",
+   "issue": 13
   }
  ]
 }
