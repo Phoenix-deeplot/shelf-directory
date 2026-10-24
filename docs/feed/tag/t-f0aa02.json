@@ -1,0 +1,66 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #内容创作",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-f0aa02.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.woshipm.com/ai/6483435.html",
+      "url": "https://www.woshipm.com/ai/6483435.html",
+      "title": "我把 AI 做自媒体的 13 个 AI 技能，免费开源了",
+      "content_text": "作者把两年做自媒体沉淀的流程做成 13 个 AI 技能，全部免费开源：账号定位、选题、笔记分析、日复盘、录音处理都在里面。他讲了为什么放出来，以及一个新手该按什么顺序用。 我从2020年开始做小红书，2025年开始把 AI 用到自媒体运营上，到现在积累了很多工作流程，也做了自己的知识库、工作台之类的。 现在我把一套做自…",
+      "summary": "作者把两年做自媒体沉淀的流程做成 13 个 AI 技能，全部免费开源：账号定位、选题、笔记分析、日复盘、录音处理都在里面。他讲了为什么放出来，以及一个新手该按什么顺序用。 我从2020年开始做小红书，2025年开始把 AI 用到自媒体运营上，到现在积累了很多工作流程，也做了自己的知识库、工作台之类的。 现在我把一套做自…",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "AI工具",
+        "AI应用",
+        "内容创作",
+        "自媒体",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6483642.html",
+      "url": "https://www.woshipm.com/ai/6483642.html",
+      "title": "从角色聊天到互动叙事世界，AI原生娱乐的下一站",
+      "content_text": "字节旗下猫箱一季度内购收入超2200万美元，登顶中国iOS生成式AI应用；同期Character.AI申请Chapter 11，每月亏损800万至900万美元。角色聊天之后，互动叙事世界成为下一站。 虚拟角色的新生活。 Sensor Tower发布的2026年全球AI应用趋势报告显示，字节跳动旗下的猫箱位居第一季度中国…",
+      "summary": "字节旗下猫箱一季度内购收入超2200万美元，登顶中国iOS生成式AI应用；同期Character.AI申请Chapter 11，每月亏损800万至900万美元。角色聊天之后，互动叙事世界成为下一站。 虚拟角色的新生活。 Sensor Tower发布的2026年全球AI应用趋势报告显示，字节跳动旗下的猫箱位居第一季度中国…",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "AI",
+        "AI应用",
+        "Character.ai",
+        "内容创作",
+        "行业分析",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Leadership",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/leadership.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.industryweek.com/leadership/article/55414048/different-by-design-formalizing-accountability-and-who-watches-the-ai-agents-industryweeks-weekly-review",
+      "url": "https://www.industryweek.com/leadership/article/55414048/different-by-design-formalizing-accountability-and-who-watches-the-ai-agents-industryweeks-weekly-review",
+      "title": "Different by Design, Formalizing Accountability and Who Watches the AI Agents? IndustryWeek's Weekly Review",
+      "content_text": "Also, the status of the Strait of Hormuz and manufacturing history by the numbers.",
+      "summary": "Also, the status of the Strait of Hormuz and manufacturing history by the numbers.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6adb7e3e0340641c28a587db-dreamstime_xxl_14811976.png",
+      "tags": [
+        "Leadership",
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    }
+  ]
+}

@@ -9,6 +9,33 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/roadrunner-announces-canada-outbound-service",
+      "url": "https://www.freightwaves.com/news/roadrunner-announces-canada-outbound-service",
+      "title": "Roadrunner announces Canada-outbound service",
+      "content_text": "Less-than-truckload carrier Roadrunner announced a new outbound Canada-to-U.S. service on Friday, alongside a 5.9% general rate increase taking effect on Nov. 2…",
+      "summary": "Less-than-truckload carrier Roadrunner announced a new outbound Canada-to-U.S. service on Friday, alongside a 5.9% general rate increase taking effect on Nov. 2…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "Less than Truckload (LTL)",
+        "News",
+        "less-than-truckload carriers",
+        "LTL carriers",
+        "LTL GRIs",
+        "LTL yields",
+        "roadrunner",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/first-look-knight-swifts-q3-beats-expectations",
       "url": "https://www.freightwaves.com/news/first-look-knight-swifts-q3-beats-expectations",
       "title": "First look: Knight-Swift’s Q3 beats expectations",

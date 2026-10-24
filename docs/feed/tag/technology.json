@@ -9,13 +9,13 @@
   },
   "items": [
     {
-      "id": "https://www.reddit.com/r/technology/comments/1xcg8as/pure_arrogance_anger_in_finland_as_google/",
-      "url": "https://www.reddit.com/r/technology/comments/1xcg8as/pure_arrogance_anger_in_finland_as_google/",
-      "title": "‘Pure arrogance’: anger in Finland as Google illegally fells 250,000 trees for datacentre",
-      "content_text": "submitted by /u/WombatusMighty to r/technology [link] [comments]",
-      "summary": "submitted by /u/WombatusMighty to r/technology [link] [comments]",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://external-preview.redd.it/lFXQEMQFV6biLNRdb5GCAM5QH6hE_uoy07Oh_R_8gGY.jpeg?width=640&crop=smart&auto=webp&s=63a777f52d7ebe5e8805ffb926e4bca2f7c560c6",
+      "id": "https://www.reddit.com/r/technology/comments/1xdawdy/wolves_roam_into_finnish_villages_after_google/",
+      "url": "https://www.reddit.com/r/technology/comments/1xdawdy/wolves_roam_into_finnish_villages_after_google/",
+      "title": "Wolves roam into Finnish villages after Google destroys 1,300 acres of forest for AI data centers",
+      "content_text": "submitted by /u/Miserable_Phase_2519 to r/technology [link] [comments]",
+      "summary": "submitted by /u/Miserable_Phase_2519 to r/technology [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://external-preview.redd.it/uIm8pRm1Ro4viPHbrizplw3S8dJwvvukgeWRGgbSzVs.jpeg?width=640&crop=smart&auto=webp&s=d6523dc28889cdd61e1fc16c8a2324a9862f6c6d",
       "tags": [
         "technology",
         "社区",
@@ -29,6 +29,33 @@
       "_shelf": {
         "type": "article",
         "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness",
+      "url": "https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness",
+      "title": "Workforce gaps keep supply chain AI stuck in pilot mode",
+      "content_text": "AI adoption across 13 supply chain functions averages 1.94 on a five-point scale. ASCM CEO Abe Eshkenazi says companies are buying the tool before fixing the pr…",
+      "summary": "AI adoption across 13 supply chain functions averages 1.94 on a five-point scale. ASCM CEO Abe Eshkenazi says companies are buying the tool before fixing the pr…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Logistics/Supply Chains",
+        "News",
+        "Technology",
+        "Abe Eshkenazi",
+        "AI agents",
+        "AI pilots",
+        "ASCM"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
       }
     },
     {
@@ -182,33 +209,6 @@
         "SaaS",
         "Technology",
         "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/paccar-connect-kenworth-peterbilt-launch",
-      "url": "https://www.freightwaves.com/news/paccar-connect-kenworth-peterbilt-launch",
-      "title": "PACCAR builds a fleet app platform into Kenworth, Peterbilt",
-      "content_text": "PACCAR Connect arrives in early 2027 and links Kenworth and Peterbilt drivers to Platform Science's Virtual Vehicle app marketplace, days before PACCAR reports…",
-      "summary": "PACCAR Connect arrives in early 2027 and links Kenworth and Peterbilt drivers to Platform Science's Virtual Vehicle app marketplace, days before PACCAR reports…",
-      "date_published": "2026-10-20T00:00:00Z",
-      "tags": [
-        "News",
-        "OEM Trucking",
-        "Technology",
-        "Trucking",
-        "Trucking Tech",
-        "Class 8 telematics",
-        "Kenworth",
-        "OEM"
       ],
       "authors": [
         {

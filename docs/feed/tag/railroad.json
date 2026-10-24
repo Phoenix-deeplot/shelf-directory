@@ -9,6 +9,60 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/wabtec-earnings-rise-on-higher-freight-and-transit-sales",
+      "url": "https://www.freightwaves.com/news/wabtec-earnings-rise-on-higher-freight-and-transit-sales",
+      "title": "Wabtec earnings rise on higher freight and transit sales",
+      "content_text": "Rail equipment supplier Wabtec raised its outlook on higher third-quarter revenue and earnings. The post Wabtec earnings rise on higher freight and transit sale…",
+      "summary": "Rail equipment supplier Wabtec raised its outlook on higher third-quarter revenue and earnings. The post Wabtec earnings rise on higher freight and transit sale…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "Business",
+        "Company Earnings",
+        "Finance",
+        "News",
+        "Railroad",
+        "Equipment",
+        "locomotives",
+        "railroads"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/a-new-pnw-container-port-205m-for-oregon-rail-project",
+      "url": "https://www.freightwaves.com/news/a-new-pnw-container-port-205m-for-oregon-rail-project",
+      "title": "A new PNW container port? $205M for Oregon rail project",
+      "content_text": "Oregon port wins $205 million in federal funding to upgrade its rail line and boost a proposed container terminal project. The post A new PNW container port? $2…",
+      "summary": "Oregon port wins $205 million in federal funding to upgrade its rail line and boost a proposed container terminal project. The post A new PNW container port? $2…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "Container Shipping",
+        "Maritime",
+        "News",
+        "Railroad",
+        "Top Stories",
+        "trade",
+        "CRISI program",
+        "Development"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits",
       "url": "https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits",
       "title": "Union Pacific posts record third-quarter revenue and profits",
@@ -170,32 +224,6 @@
       }
     },
     {
-      "id": "https://www.freightwaves.com/news/union-pacific-cfo-to-retire",
-      "url": "https://www.freightwaves.com/news/union-pacific-cfo-to-retire",
-      "title": "Union Pacific CFO to retire",
-      "content_text": "Union Pacific CFO Jennifer Hamann will retire after 35 years with the railroad. The post Union Pacific CFO to retire appeared first on FreightWaves.",
-      "summary": "Union Pacific CFO Jennifer Hamann will retire after 35 years with the railroad. The post Union Pacific CFO to retire appeared first on FreightWaves.",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "News",
-        "Railroad",
-        "leadership",
-        "Management",
-        "Union Pacific",
-        "货运",
-        "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
       "id": "https://www.freightwaves.com/news/new-york-short-line-wins-11-2-million-federal-rail-grant",
       "url": "https://www.freightwaves.com/news/new-york-short-line-wins-11-2-million-federal-rail-grant",
       "title": "New York short line wins $11.2 million federal rail grant",
@@ -209,60 +237,6 @@
         "federal grants",
         "Infrastructure",
         "New York",
-        "railroads",
-        "short lines"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/csx-eliminates-more-than-100-management-positions",
-      "url": "https://www.freightwaves.com/news/csx-eliminates-more-than-100-management-positions",
-      "title": "CSX eliminates more than 100 management positions",
-      "content_text": "Management layoffs mark railroad’s engineering department restructuring. The post CSX eliminates more than 100 management positions appeared first on FreightWav…",
-      "summary": "Management layoffs mark railroad’s engineering department restructuring. The post CSX eliminates more than 100 management positions appeared first on FreightWav…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "News",
-        "Railroad",
-        "Top Stories",
-        "CSX",
-        "earnings",
-        "layoffs",
-        "Management",
-        "Operations"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/autonomous-railcar-technology-earns-16m-federal-grant",
-      "url": "https://www.freightwaves.com/news/autonomous-railcar-technology-earns-16m-federal-grant",
-      "title": "Autonomous railcar technology earns $16M federal grant",
-      "content_text": "A federal grant will support deployment of autonomous railcar technology on a Missouri short line. The post Autonomous railcar technology earns $16M federal gra…",
-      "summary": "A federal grant will support deployment of autonomous railcar technology on a Missouri short line. The post Autonomous railcar technology earns $16M federal gra…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "News",
-        "Railroad",
-        "Top Stories",
-        "Autonomous trains",
-        "CRISI program",
-        "Intramotev",
         "railroads",
         "short lines"
       ],

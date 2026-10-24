@@ -9,6 +9,33 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/range-zero-emissions-medium-duty-electric-trucks",
+      "url": "https://www.freightwaves.com/news/range-zero-emissions-medium-duty-electric-trucks",
+      "title": "Why one zero-emission truck dealer wants big rigs to wait",
+      "content_text": "Johannes Ariens sells everything from electric motorcycles to hydrogen semis. He says the industry is trying to skip a step, and that small fleets with medium-d…",
+      "summary": "Johannes Ariens sells everything from electric motorcycles to hydrogen semis. He says the industry is trying to skip a step, and that small fleets with medium-d…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "Electric Trucks",
+        "News",
+        "Top Stories",
+        "Trucking",
+        "battery-electric trucks",
+        "Class 5 electric trucks",
+        "HVIP",
+        "Hyundai XCIENT Fuel Cell"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/tesla-semi-enters-volume-production-as-2027-rollout-approaches",
       "url": "https://www.freightwaves.com/news/tesla-semi-enters-volume-production-as-2027-rollout-approaches",
       "title": "Tesla Semi enters volume production as 2027 rollout approaches",

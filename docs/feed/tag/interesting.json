@@ -1,0 +1,58 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #interesting",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/interesting.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.reddit.com/r/interesting/comments/1xd86lq/this_how_they_cheat_in_cycling_races/",
+      "url": "https://www.reddit.com/r/interesting/comments/1xd86lq/this_how_they_cheat_in_cycling_races/",
+      "title": "This how they cheat in cycling races",
+      "content_text": "submitted by /u/No-Lock216 to r/interesting [link] [comments]",
+      "summary": "submitted by /u/No-Lock216 to r/interesting [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://external-preview.redd.it/enR5cHlia2RlNnhoMff6DDeKdKcox98NY1HdPIcmUJxyy0yOKP7qCp3Y00W5.jpeg?width=640&crop=smart&auto=webp&s=89372a985712868027f5969c7b00d15dcbaf84e3",
+      "tags": [
+        "interesting",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/interesting/comments/1xde1zv/grandma_always_kept_the_kids_in_line_with_her/",
+      "url": "https://www.reddit.com/r/interesting/comments/1xde1zv/grandma_always_kept_the_kids_in_line_with_her/",
+      "title": "Grandma always kept the kids in line with her slippers. For her birthday, she showed her aim is still on point",
+      "content_text": "submitted by /u/Separate_Finance_183 to r/interesting [link] [comments]",
+      "summary": "submitted by /u/Separate_Finance_183 to r/interesting [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://external-preview.redd.it/emJlaWpwYmd4N3hoMYk8C-OP6FcnIGK1L_kmHpGhVJILtOyAnzLaeG5dgZUK.png?width=320&crop=smart&auto=webp&s=746e853b4261afcef9b649461c27350b8d52d6dd",
+      "tags": [
+        "interesting",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    }
+  ]
+}

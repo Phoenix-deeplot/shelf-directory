@@ -63,33 +63,6 @@
       }
     },
     {
-      "id": "https://www.freightwaves.com/news/from-freight-management-to-self-improving-networks",
-      "url": "https://www.freightwaves.com/news/from-freight-management-to-self-improving-networks",
-      "title": "From Freight Management to Self-Improving Networks",
-      "content_text": "Customers expect a Managed Transportation partner to run their freight reliably and cost efficiently. They should get more: experts who understand their network…",
-      "summary": "Customers expect a Managed Transportation partner to run their freight reliably and cost efficiently. They should get more: experts who understand their network…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "Business",
-        "News",
-        "Sponsored Insights",
-        "Amir Pelleg",
-        "Freight",
-        "FreightWaves",
-        "logistics",
-        "Trucking"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
       "id": "https://www.freightwaves.com/news/freightos-founder-takes-board-fight-to-shareholder-vote",
       "url": "https://www.freightwaves.com/news/freightos-founder-takes-board-fight-to-shareholder-vote",
       "title": "Freightos founder takes board fight to shareholder vote",
@@ -105,31 +78,6 @@
         "SaaS",
         "Technology",
         "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/partner-of-choice-why-the-best-shipper-carrier-relationships-now-go-beyond-shipper-of-choice",
-      "url": "https://www.freightwaves.com/news/partner-of-choice-why-the-best-shipper-carrier-relationships-now-go-beyond-shipper-of-choice",
-      "title": "Partner of Choice: Why the Best Shipper-Carrier Relationships Now Go Beyond Shipper of Choice",
-      "content_text": "Tender rejections are 2.5x last year and contract rates are up 18%. SONAR's new sitrep shows how shippers go from shipper of choice to partner of choice. The po…",
-      "summary": "Tender rejections are 2.5x last year and contract rates are up 18%. SONAR's new sitrep shows how shippers go from shipper of choice to partner of choice. The po…",
-      "date_published": "2026-10-20T00:00:00Z",
-      "tags": [
-        "Inside SONAR",
-        "logistics",
-        "Shipper of choice",
-        "Trucking",
-        "货运",
-        "数据"
       ],
       "authors": [
         {

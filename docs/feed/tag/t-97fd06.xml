@@ -4,227 +4,226 @@
   <title>公共目录 · #运营</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-97fd06.xml"/>
-  <updated>2026-10-23T00:00:00Z</updated>
+  <updated>2026-10-24T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6483093.html</id>
-    <title>长视频变知识库，3个 Skills 跑通全自动流水线（附源）</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483093.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">把 Dan Koe 十几小时的视频洗成可检索的知识库：下载、总结、网页生成三个 Skills 串成一条流水线，Qwen3.8-Max 负责理解与图文对齐，金句、板书、时间戳都能一键跳回。原作者的情绪与语境被保留，而不是磨成干瘪骨架。 Token 花不完，前两天用我的视频下载 Skills 下载了 Dan Koe 202…</summary>
+    <id>https://www.woshipm.com/ai/6483631.html</id>
+    <title>这些动画，都是 AI 写代码画出来的：我实测了 4 种风格</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483631.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">照小红书博主Vincent公开的提示词和代码，用Claude的Opus 5.5试做4种风格的动画短片，再和自己手写提示词做的那三支网球视频对比，招牌特征、画面失控、字压字的问题都暴露得很具体。 前几天在小红书刷到 Vincent 的帖子。他用 Claude 的Opus 5.5模型，一种风格写一段提示词，做出了 15 种…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
     <category term="AI编程"/>
-    <category term="Dan Koe"/>
-    <category term="Qwen"/>
+    <category term="Claude"/>
+    <category term="短视频"/>
     <category term="经验分享"/>
     <category term="产品"/>
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6483431.html</id>
-    <title>普通人做 AI 自媒体，根本赚不到钱</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483431.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">作者把 AI 自媒体分成「讲 AI」和「用 AI」两类：前者拼资讯速度，后者拼你自己用 AI 做成了什么事。普通人扎堆做资讯号往往赚不到钱；把 AI 用进熟悉的行业，反而是还没人占的蓝海。 去年初在新项目的时候，我看了几个方向：电器测评、美妆测评、AI自媒体…… 电器测评和美妆测评，已经看到有很多人在闷声赚钱在小红书，…</summary>
+    <id>https://www.woshipm.com/share/6483439.html</id>
+    <title>跟车一周我才看清：押运数字化卡住的不是技术，是三本旧账</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6483439.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">押运行业的数字化，难点不在技术，而在三本算了很多年的旧账：手写登记对不上、交接纠纷说不清、功能堆砌翻不完。本文从一线跟车体验出发，拆解如何用产品思维把纸换成系统、把印象换成证据、把菜单换成入口，让数字化真正落地。 凌晨四点半的金库，比大多数写字楼清醒。点箱、核封签、领枪、登记——一本手写登记簿、一支笔，记着这个行业二十…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="b端产品"/>
+    <category term="传统行业"/>
+    <category term="数字化"/>
+    <category term="经验总结"/>
+    <category term="需求分析"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/it/6483634.html</id>
+    <title>被嘲笑土鳖的短剧，正在让优爱腾芒“去死”？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6483634.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">2026年7月红果日活达1.68亿，超过优爱腾芒四家之和；长视频日均视听时长一年少了21亿分钟，约76%流向红果。S级项目播到十几集就裸播，短剧不是让影视去死，而是逼它新生。 2026年7月，一个叫红果的App日活达到1.68亿。 而腾讯视频、爱奇艺、优酷、芒果TV四家加起来，日活总和约1.55亿。换句话说，一个短剧平…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="业界动态"/>
+    <category term="商业模式"/>
+    <category term="短视频"/>
+    <category term="腾讯"/>
+    <category term="行业分析"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/embodied/6483693.html</id>
+    <title>机器人领域的OpenAI，来了？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/embodied/6483693.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">Physical Intelligence 推出 Pi API beta，开始把「机器人大脑」按 API 卖。具身智能不缺融资和 demo，难的是私有化部署、数据合规与验收责任，这三关决定谁能把它卖成生意。 具身智能行业最近被一个老问题重新击中，机器人“大脑”，到底该怎么卖？ 过去两年，具身大脑公司普遍不缺融资、不缺论…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="具身智能"/>
+    <category term="企业服务"/>
+    <category term="机器人"/>
+    <category term="行业分析"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6483435.html</id>
+    <title>我把 AI 做自媒体的 13 个 AI 技能，免费开源了</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483435.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">作者把两年做自媒体沉淀的流程做成 13 个 AI 技能，全部免费开源：账号定位、选题、笔记分析、日复盘、录音处理都在里面。他讲了为什么放出来，以及一个新手该按什么顺序用。 我从2020年开始做小红书，2025年开始把 AI 用到自媒体运营上，到现在积累了很多工作流程，也做了自己的知识库、工作台之类的。 现在我把一套做自…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
+    <category term="AI工具"/>
     <category term="AI应用"/>
-    <category term="个人观点"/>
     <category term="内容创作"/>
     <category term="自媒体"/>
     <category term="产品"/>
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/share/6479427.html</id>
-    <title>无爆品，不谈品牌</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6479427.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">没有爆品，请不要谈品牌。这句话听起来很刺耳，但这是一个扎心的事实。很多创业者开口闭口就是品牌定位、品牌调性、品牌故事，PPT做了几十页，却始终答不上来自己的爆品是哪一款。 “没有爆品，请不要谈品牌。” 这句话听起来很刺耳，但这是一个扎心的事实。 很多创业者、品牌负责人聊天，开口闭口就是“品牌定位”“品牌调性”“品牌故事…</summary>
+    <id>https://www.woshipm.com/share/6483667.html</id>
+    <title>广告界教务长韦伯·扬：23条“旧元素新组合”的创意生成法则</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6483667.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">智威汤逊首席创作总监韦伯·扬留下两条判断：创意不过是旧元素的新组合，优秀广告人是通才而非专才。23条法则从创意五步法讲到魔岛理论，配可口可乐、美国陆军等经典案例。 詹姆斯・韦伯・扬（James Webb Young），智威汤逊（JWT）首席创作总监，广告生涯长达 60 余年，美国广告史上影响力最深远的创意大师之一。少年…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="个人随笔"/>
-    <category term="产品营销"/>
-    <category term="品牌建设"/>
-    <category term="电商运营"/>
-    <category term="营销策略"/>
+    <category term="案例分析"/>
+    <category term="经验分享"/>
+    <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6483130.html</id>
-    <title>我好像陷入了某种，AI时代的虚无主义。</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483130.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">AI 让过去要折腾几个月的软件，现在几句话就能做出来，可写完稿坐在凌晨六点的人，只觉得空。做产品、写代码、做设计、做内容的朋友在饭桌上说的是同一句：一切好像都没什么意思了。这不是抑郁，是能力过剩之后的虚无。 最近一段时间，我好像得了某种怪病。 我开始变得容易暴躁，开始更加没有耐心，我明明可以创造、改变很多东西了，但是我…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="Claude"/>
-    <category term="Codex"/>
-    <category term="个人成长"/>
-    <category term="个人观点"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/chuangye/6476870.html</id>
-    <title>好的商业模式三句话就能讲清楚：从真伪需求判断到护城河构建的实战指南</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6476870.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">好的商业模式标准是实战派与系统化的结合。它的第一性原理是价值，是一个企业如何发现价值、创造价值和获取价值的过程。要素不是几个概念的孤立堆砌，而是要能说的人好表达、听的人好理解，大道至简。 很多分析商业模式的文章，要么太学术，要么不系统。 好的标准是「实战派+系统化」的结合，这样才能从本质上理解商业模式，来真正为自己所用…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="创业学院"/>
-    <category term="costco"/>
-    <category term="会员制"/>
-    <category term="商业模式"/>
-    <category term="拼多多"/>
-    <category term="瑞幸咖啡"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6483209.html</id>
-    <title>从“反复比较”到“安心决策”：一套可操作的用户洞察公式</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6483209.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">用户行为只是表象，真正的洞察藏在情境、矛盾与期待的交织中。本文拆解“真实情境+内在矛盾+未满足期待”的推导链，结合JTBD框架与实战案例，教你从货架前的犹豫瞬间，挖出可验证、可行动的用户心理机制，让运营决策不再停留在“正确的废话”。 用户在货架前举起手机扫描、放下、又拿起另一瓶……这个动作本身不是洞察。洞察要回答的是：…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="JTBD"/>
-    <category term="场景营销"/>
-    <category term="案例分析"/>
-    <category term="用户洞察"/>
-    <category term="运营方法论"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/it/6482998.html</id>
-    <title>中国企业出海的下一站：从品牌“敲门”，到跨境电商“搭桥”</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6482998.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">今年双十一，卖货只是表象，京东、阿里、字节纷纷借大促窗口亮出长期战略。速卖通联合天猫推出“中国品牌全球增长计划”，从试水走向全品牌出海覆盖，甚至下场孵化AI硬件品牌。本文深度拆解跨境电商分化格局下，速卖通如何与Temu、SHEIN走出差异化路线，以及中国品牌全球化从输出产能到输出品牌的必然跃迁。 今年双十一，是个有点不…</summary>
+    <id>https://www.woshipm.com/it/6483828.html</id>
+    <title>小鹏汽车最美00后产品经理，喊“老登”喊到道歉</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6483828.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">小鹏汽车最近的一位00后美女产品经理，因为在发布会上喊了几声“老登”，不得不专门录视频道歉。 事情发生在10月15日的小鹏MONA L05预售发布会上。 图片来自微博用户@ArthurShen_Origin 当天，何小鹏人在巴黎，没能亲自到场，于是把舞台交给了年轻的产品团队。这群年轻人也确实没让老板失望，产品介绍得挺热…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="业界动态"/>
-    <category term="Temu"/>
-    <category term="双十一"/>
-    <category term="品牌出海"/>
-    <category term="行业观察"/>
-    <category term="跨境电商"/>
+    <category term="ai"/>
+    <category term="Monica"/>
+    <category term="华为"/>
+    <category term="小米"/>
+    <category term="美团"/>
     <category term="产品"/>
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/chuangye/6483393.html</id>
-    <title>不能和朋友住在一起，就在手机里合租：这个像素 App 吸引了25万用户</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6483393.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">Peeps 用像素小屋把异地朋友装进同一个房间，靠自然传播做到 25 万用户、台湾 App Store 总榜第一。团队本想靠游戏留住人，分析长期行为后才发现，30 天留存提升 68% 的关键是「有人在意你回来」。 今天分享一个很温暖的 App，我很喜欢：Peeps，和朋友同居，https://playpeeps.app…</summary>
+    <id>https://www.woshipm.com/pd/6483649.html</id>
+    <title>双11预售开始了，定金、尾款和退款怎么管？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/pd/6483649.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">双11预售里，一笔订单客户付900元、退200元，商家银行账户最终只收到680元。把每笔钱放回对应的订单和交易阶段，才能判断定金、尾款、退款各走到哪一步，差额该不该追。 双11进入预售期，商家的订单里开始同时出现几种情况： 有人刚付定金，有人在等付尾款，有人已经买了现货，还有人付完钱又申请退款。 运营看订单，客服看售后…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="创业学院"/>
-    <category term="AI应用"/>
-    <category term="产品体验"/>
-    <category term="用户增长"/>
-    <category term="社交产品"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6483135.html</id>
-    <title>YC CEO 谈小团队的时代：一个人干一百个人的活，创业的根本却一点没变</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483135.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">一个人真能干一百个人的活，公司、投资、招聘会变成什么样？YC 掌门人 Garry Tan 的判断是：执行成本在塌，判断成本没塌。软件可以即时生成，但了解用户、把东西放到人面前、相信身边那几个认识的人，一点没变。 你有没有想过，如果一个人真的能干 100 个人的活，那公司、投资、招聘，这三件事会变成什么样子？这不是一句口…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="Anthropic"/>
-    <category term="OpenClaw"/>
-    <category term="Supabase"/>
-    <category term="行业观察"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6483080.html</id>
-    <title>Windows 想清爽一点？试试 Win11Debloat：功能、用法与避坑指南</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6483080.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">重装完 Windows 11，第一件事往往不是装软件，而是清干净预装应用、资讯流和后台管家。开源脚本 Win11Debloat 用一条 PowerShell 命令处理四类系统冗余，6 万 Star、MIT 协议，但默认勾选和注册表改动，动手前得看清。 每次给新电脑开荒，或者重装完 Windows 11，总有一段让人血压…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="Copilot"/>
-    <category term="Github"/>
-    <category term="Windows"/>
-    <category term="功能分析"/>
+    <category term="产品设计"/>
+    <category term="支付宝"/>
+    <category term="淘宝"/>
+    <category term="电商运营"/>
     <category term="经验分享"/>
     <category term="产品"/>
     <category term="运营"/>
+    <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6478947.html</id>
-    <title>Prompt、Skill、Project、MCP，一套完整的 AI 工作流！</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6478947.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">Prompt、Skill、Project、MCP 频繁出现，成为解锁 AI 高效工作的关键，但很多人对这四个词一知半解。文章逐个拆解它们的概念、特点与适用场景，并说明各自能为设计环节带来的提效作用，帮你在合适的任务里用对工具。 当下 AI 技术迭代速度飞快，Prompt、Skill、Project、MCP 这四个词汇频…</summary>
+    <id>https://www.woshipm.com/ai/6483646.html</id>
+    <title>别再争谁是“中国版Muse”了，卖铲子的ICT厂商先赚到了钱</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483646.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">常驻型 Agent 将 AI 搬上云端，重写了机房的 CPU、存储与网络配比。国内跨平台 Agent 受阻，基础设施先拿订单，成色仍看应用层。 硅谷大厂在 AI 应用层的新一轮抢位，已经把战火烧到了云端机房。 10 月 22 日凌晨，正处于 IPO 冲刺期的 Anthropic 发布了全新的个人与工作智能体应用 Cla…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="Claude"/>
-    <category term="MCP"/>
-    <category term="基础知识"/>
+    <category term="Meta"/>
+    <category term="Muse"/>
+    <category term="企业服务"/>
+    <category term="行业分析"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6483147.html</id>
-    <title>AI漫剧的老板们在给算力打工</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483147.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">AI 漫剧一分钟的制作成本从 1.5 万元跌到 400 元，做剧的人却没觉得手头宽裕。人力占比从六成掉到三四成，算力成了大头，一集算力成本从 17 元涨到 80 到 100 元，抽卡式生成还要为废片买单。省下来的钱，换了个地方交。 AI漫剧玩家分两种： 一种自己掏钱做剧，赌平台分账。另一种接单代工，按分钟收制作费，片子…</summary>
+    <id>https://www.woshipm.com/ai/6483642.html</id>
+    <title>从角色聊天到互动叙事世界，AI原生娱乐的下一站</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483642.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">字节旗下猫箱一季度内购收入超2200万美元，登顶中国iOS生成式AI应用；同期Character.AI申请Chapter 11，每月亏损800万至900万美元。角色聊天之后，互动叙事世界成为下一站。 虚拟角色的新生活。 Sensor Tower发布的2026年全球AI应用趋势报告显示，字节跳动旗下的猫箱位居第一季度中国…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
-    <category term="个人随笔"/>
     <category term="AI应用"/>
-    <category term="DataEye"/>
-    <category term="抖音"/>
-    <category term="行业观察"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6483099.html</id>
-    <title>1号位想要拿到结果，需要具备怎样的决策能力？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6483099.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">很多业务负责人能把数据讲清楚、知道该做哪些动作，一到资源怎么投、项目该不该继续，就没了完整思考。从经营目标到业务结构拆解，再到归因与验证，1 号位的决策能力，说到底是把「做对选择」放在「提高执行效率」前面。 这几年做本地生活，接触过不少业务负责人，我发现一个问题，很多人能够把业务数据讲清楚，也知道应该做哪些运营动作，但…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="个人观点"/>
-    <category term="企业管理"/>
-    <category term="本地生活"/>
+    <category term="Character.ai"/>
+    <category term="内容创作"/>
+    <category term="行业分析"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6483690.html</id>
+    <title>WorkBuddy干活变慢还费token，一招教你瘦身加速</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483690.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">WorkBuddy 用久了变慢还费 token，老马说这是 Skill、MCP 和记忆规则越滚越大，每轮对话都塞进上下文。他给出按报告瘦身的办法：关技能、关连接器、蒸馏记忆文件。 经常有小伙伴跟老马反馈，WorkBuddy一开始安装完使用的时候，还算蛮快的，后面使用了一段时间，发现干活速度变慢了，还特别消耗token，…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI产品"/>
+    <category term="WorkBuddy"/>
+    <category term="经验分享"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.industryweek.com/leadership/companies-executives/news/55413917/musk-and-tesla-target-a-big-2030-sales-target</id>
+    <title>Musk and Tesla Target a Big 2030 Milestone</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/leadership/companies-executives/news/55413917/musk-and-tesla-target-a-big-2030-sales-target"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">The CEO of the automotive, energy and robotics manufacturer thinks vehicle production can be double the company’s total capacity by 2030. Tesla’s vehicle engine…</summary>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.industryweek.com/industry-events/manufacturing-day/article/55414146/manufacturing-day-2026-building-a-strong-talent-pipeline-in-florida</id>
+    <title>Manufacturing Day 2026: Building a Strong Talent Pipeline in Florida</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/industry-events/manufacturing-day/article/55414146/manufacturing-day-2026-building-a-strong-talent-pipeline-in-florida"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">Gulf Coast manufacturer Merrick Industries collaborates with community partners every step of the way.</summary>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.industryweek.com/leadership/article/55414048/different-by-design-formalizing-accountability-and-who-watches-the-ai-agents-industryweeks-weekly-review</id>
+    <title>Different by Design, Formalizing Accountability and Who Watches the AI Agents? IndustryWeek's Weekly Review</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/leadership/article/55414048/different-by-design-formalizing-accountability-and-who-watches-the-ai-agents-industryweeks-weekly-review"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">Also, the status of the Strait of Hormuz and manufacturing history by the numbers.</summary>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="Leadership"/>
+    <category term="制造"/>
+    <category term="运营"/>
   </entry>
   <entry>
     <id>https://www.industryweek.com/leadership/strategic-planning-execution/article/55413780/the-power-and-potential-trap-of-reverse-innovation-lessons-from-ge-mercedes-benz-dewalt</id>
@@ -467,17 +466,6 @@
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.industryweek.com/industry-events/manufacturing-day/article/55411122/faces-of-manufacturing-i-get-to-invest-in-people-every-day</id>
-    <title>Faces of Manufacturing: ‘I Get to Invest in People Every Day’</title>
-    <link rel="alternate" type="text/html" href="https://www.industryweek.com/industry-events/manufacturing-day/article/55411122/faces-of-manufacturing-i-get-to-invest-in-people-every-day"/>
-    <updated>2026-10-12T00:00:00Z</updated>
-    <published>2026-10-12T00:00:00Z</published>
-    <summary type="text">“It's rewarding to help others discover opportunities in manufacturing and build careers they're passionate about,” says Hannah Bennett, engineering senior team…</summary>
-    <source><title>Home | IndustryWeek</title></source>
-    <category term="制造"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
     <id>https://www.industryweek.com/the-economy/emerging-markets/article/55411224/cambodias-push-to-become-a-manufacturing-hub</id>
     <title>Cambodia's Push to Become a Manufacturing Hub</title>
     <link rel="alternate" type="text/html" href="https://www.industryweek.com/the-economy/emerging-markets/article/55411224/cambodias-push-to-become-a-manufacturing-hub"/>
@@ -486,30 +474,6 @@
     <summary type="text">Improved infrastructure, clean-energy initiatives and favorable trade policy are attracting production and logistics.</summary>
     <source><title>Home | IndustryWeek</title></source>
     <category term="The Economy / Emerging Markets"/>
-    <category term="制造"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.industryweek.com/the-economy/article/55410849/why-manufacturing-is-rewarding-leaning-into-leader-curiosity-industryweeks-weekly-review</id>
-    <title>Why Manufacturing Is Rewarding; Leaning Into Leader Curiosity: IndustryWeek's Weekly Review</title>
-    <link rel="alternate" type="text/html" href="https://www.industryweek.com/the-economy/article/55410849/why-manufacturing-is-rewarding-leaning-into-leader-curiosity-industryweeks-weekly-review"/>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <published>2026-10-09T00:00:00Z</published>
-    <summary type="text">Also, manufacturing expansion continues, manufacturers prepared to invest, and think twice about the success of your kaizen event.</summary>
-    <source><title>Home | IndustryWeek</title></source>
-    <category term="The Economy"/>
-    <category term="制造"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.industryweek.com/talent/engagement/article/55410034/manufacturing-day-lets-us-show-how-the-work-has-changed</id>
-    <title>Manufacturing Day Lets Us Show How the Work Has Changed</title>
-    <link rel="alternate" type="text/html" href="https://www.industryweek.com/talent/engagement/article/55410034/manufacturing-day-lets-us-show-how-the-work-has-changed"/>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <published>2026-10-09T00:00:00Z</published>
-    <summary type="text">Knowledge-sharing and nurturing talent involve more than a single event on the calendar.</summary>
-    <source><title>Home | IndustryWeek</title></source>
-    <category term="Talent / Engagement"/>
     <category term="制造"/>
     <category term="运营"/>
   </entry>

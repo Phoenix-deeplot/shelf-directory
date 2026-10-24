@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/fde.xml</id>
+  <title>公共目录 · #FDE</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/fde.xml"/>
+  <updated>2026-10-24T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.woshipm.com/ai/6483681.html</id>
+    <title>企业上AI项目，FDE到底在做什么？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483681.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">AI带火了FDE岗位，但它的价值远不止于驻场开发。本文深入拆解FDE如何从业务现场挖掘真实需求、通过七步工作流将模糊问题转化为可运行系统，并厘清其与产品经理、工程团队的协作边界。最终揭示：一个成功的FDE项目，是让系统在FDE离场后依然能自主运转。 AI直接带火了FDE这个岗位，很多公司已经开始开始招募FDE，或者是要…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI落地"/>
+    <category term="FDE"/>
+    <category term="工作流程"/>
+    <category term="经验总结"/>
+    <category term="项目交付"/>
+    <category term="产品"/>
+  </entry>
+</feed>

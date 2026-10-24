@@ -4,57 +4,57 @@
   <title>公共目录 · #AI应用</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/ai-2.xml"/>
-  <updated>2026-10-23T00:00:00Z</updated>
+  <updated>2026-10-24T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6483431.html</id>
-    <title>普通人做 AI 自媒体，根本赚不到钱</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483431.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">作者把 AI 自媒体分成「讲 AI」和「用 AI」两类：前者拼资讯速度，后者拼你自己用 AI 做成了什么事。普通人扎堆做资讯号往往赚不到钱；把 AI 用进熟悉的行业，反而是还没人占的蓝海。 去年初在新项目的时候，我看了几个方向：电器测评、美妆测评、AI自媒体…… 电器测评和美妆测评，已经看到有很多人在闷声赚钱在小红书，…</summary>
+    <id>https://www.woshipm.com/ai/6483435.html</id>
+    <title>我把 AI 做自媒体的 13 个 AI 技能，免费开源了</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483435.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">作者把两年做自媒体沉淀的流程做成 13 个 AI 技能，全部免费开源：账号定位、选题、笔记分析、日复盘、录音处理都在里面。他讲了为什么放出来，以及一个新手该按什么顺序用。 我从2020年开始做小红书，2025年开始把 AI 用到自媒体运营上，到现在积累了很多工作流程，也做了自己的知识库、工作台之类的。 现在我把一套做自…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
+    <category term="AI工具"/>
     <category term="AI应用"/>
-    <category term="个人观点"/>
     <category term="内容创作"/>
     <category term="自媒体"/>
     <category term="产品"/>
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/chuangye/6483393.html</id>
-    <title>不能和朋友住在一起，就在手机里合租：这个像素 App 吸引了25万用户</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6483393.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">Peeps 用像素小屋把异地朋友装进同一个房间，靠自然传播做到 25 万用户、台湾 App Store 总榜第一。团队本想靠游戏留住人，分析长期行为后才发现，30 天留存提升 68% 的关键是「有人在意你回来」。 今天分享一个很温暖的 App，我很喜欢：Peeps，和朋友同居，https://playpeeps.app…</summary>
+    <id>https://www.woshipm.com/ai/6483642.html</id>
+    <title>从角色聊天到互动叙事世界，AI原生娱乐的下一站</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483642.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">字节旗下猫箱一季度内购收入超2200万美元，登顶中国iOS生成式AI应用；同期Character.AI申请Chapter 11，每月亏损800万至900万美元。角色聊天之后，互动叙事世界成为下一站。 虚拟角色的新生活。 Sensor Tower发布的2026年全球AI应用趋势报告显示，字节跳动旗下的猫箱位居第一季度中国…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="创业学院"/>
+    <category term="AI"/>
     <category term="AI应用"/>
-    <category term="产品体验"/>
-    <category term="用户增长"/>
-    <category term="社交产品"/>
+    <category term="Character.ai"/>
+    <category term="内容创作"/>
+    <category term="行业分析"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6483147.html</id>
-    <title>AI漫剧的老板们在给算力打工</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483147.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">AI 漫剧一分钟的制作成本从 1.5 万元跌到 400 元，做剧的人却没觉得手头宽裕。人力占比从六成掉到三四成，算力成了大头，一集算力成本从 17 元涨到 80 到 100 元，抽卡式生成还要为废片买单。省下来的钱，换了个地方交。 AI漫剧玩家分两种： 一种自己掏钱做剧，赌平台分账。另一种接单代工，按分钟收制作费，片子…</summary>
+    <id>https://www.woshipm.com/share/6483648.html</id>
+    <title>AI辅助鸿蒙开发初体验：用大模型加速ArkUI页面搭建 #1024鸿蒙实战共创#</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6483648.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">鸿蒙开发新手用AI辅助写ArkTS代码，结果踩坑不断：语法混用、API版本错乱、报错误判……本文真实记录了一次备忘录Demo的实践过程，总结AI在鸿蒙开发中的适用边界与避坑指南，给同样入门的你一份实用参考。 作为一名刚接触鸿蒙开发的新手，刚开始写ArkTS、搭建ArkUI页面的时候，经常会被语法规则、组件属性、布局嵌套…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
     <category term="个人随笔"/>
+    <category term="鸿蒙"/>
     <category term="AI应用"/>
-    <category term="DataEye"/>
-    <category term="抖音"/>
-    <category term="行业观察"/>
-    <category term="产品"/>
-    <category term="运营"/>
+    <category term="ArkTS"/>
+    <category term="经验总结"/>
+    <category term="鸿蒙开发"/>
+    <category term="鸿蒙生态"/>
+    <category term="鸿蒙系统"/>
   </entry>
 </feed>

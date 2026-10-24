@@ -9,6 +9,33 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/wabtec-earnings-rise-on-higher-freight-and-transit-sales",
+      "url": "https://www.freightwaves.com/news/wabtec-earnings-rise-on-higher-freight-and-transit-sales",
+      "title": "Wabtec earnings rise on higher freight and transit sales",
+      "content_text": "Rail equipment supplier Wabtec raised its outlook on higher third-quarter revenue and earnings. The post Wabtec earnings rise on higher freight and transit sale…",
+      "summary": "Rail equipment supplier Wabtec raised its outlook on higher third-quarter revenue and earnings. The post Wabtec earnings rise on higher freight and transit sale…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "Business",
+        "Company Earnings",
+        "Finance",
+        "News",
+        "Railroad",
+        "Equipment",
+        "locomotives",
+        "railroads"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits",
       "url": "https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits",
       "title": "Union Pacific posts record third-quarter revenue and profits",
@@ -213,60 +240,6 @@
         "Top Stories",
         "carloads",
         "earnings"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/nearly-1m-in-pokemon-and-sports-cards-vanish-from-fedex-truck-driver-discovers-missing-lock",
-      "url": "https://www.freightwaves.com/news/nearly-1m-in-pokemon-and-sports-cards-vanish-from-fedex-truck-driver-discovers-missing-lock",
-      "title": "Nearly $1M in Pokémon and sports cards vanish from FedEx truck, driver discovers missing lock",
-      "content_text": "A FedEx driver discovered a missing cargo-door lock and nearly $1 million in stolen trading cards outside a California grading facility. Detectives are reviewin…",
-      "summary": "A FedEx driver discovered a missing cargo-door lock and nearly $1 million in stolen trading cards outside a California grading facility. Detectives are reviewin…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "Business",
-        "Fraud",
-        "Playbook: Cash & Capital",
-        "Top Stories",
-        "California",
-        "cargo theft",
-        "FedEx",
-        "Trucking"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/from-freight-management-to-self-improving-networks",
-      "url": "https://www.freightwaves.com/news/from-freight-management-to-self-improving-networks",
-      "title": "From Freight Management to Self-Improving Networks",
-      "content_text": "Customers expect a Managed Transportation partner to run their freight reliably and cost efficiently. They should get more: experts who understand their network…",
-      "summary": "Customers expect a Managed Transportation partner to run their freight reliably and cost efficiently. They should get more: experts who understand their network…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "Business",
-        "News",
-        "Sponsored Insights",
-        "Amir Pelleg",
-        "Freight",
-        "FreightWaves",
-        "logistics",
-        "Trucking"
       ],
       "authors": [
         {

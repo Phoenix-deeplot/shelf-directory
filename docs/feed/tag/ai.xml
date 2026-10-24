@@ -4,143 +4,143 @@
   <title>公共目录 · #AI</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/ai.xml"/>
-  <updated>2026-10-23T00:00:00Z</updated>
+  <updated>2026-10-24T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6483093.html</id>
-    <title>长视频变知识库，3个 Skills 跑通全自动流水线（附源）</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483093.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">把 Dan Koe 十几小时的视频洗成可检索的知识库：下载、总结、网页生成三个 Skills 串成一条流水线，Qwen3.8-Max 负责理解与图文对齐，金句、板书、时间戳都能一键跳回。原作者的情绪与语境被保留，而不是磨成干瘪骨架。 Token 花不完，前两天用我的视频下载 Skills 下载了 Dan Koe 202…</summary>
+    <id>https://www.woshipm.com/ai/6483631.html</id>
+    <title>这些动画，都是 AI 写代码画出来的：我实测了 4 种风格</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483631.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">照小红书博主Vincent公开的提示词和代码，用Claude的Opus 5.5试做4种风格的动画短片，再和自己手写提示词做的那三支网球视频对比，招牌特征、画面失控、字压字的问题都暴露得很具体。 前几天在小红书刷到 Vincent 的帖子。他用 Claude 的Opus 5.5模型，一种风格写一段提示词，做出了 15 种…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
     <category term="AI编程"/>
-    <category term="Dan Koe"/>
-    <category term="Qwen"/>
+    <category term="Claude"/>
+    <category term="短视频"/>
     <category term="经验分享"/>
     <category term="产品"/>
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6483431.html</id>
-    <title>普通人做 AI 自媒体，根本赚不到钱</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483431.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">作者把 AI 自媒体分成「讲 AI」和「用 AI」两类：前者拼资讯速度，后者拼你自己用 AI 做成了什么事。普通人扎堆做资讯号往往赚不到钱；把 AI 用进熟悉的行业，反而是还没人占的蓝海。 去年初在新项目的时候，我看了几个方向：电器测评、美妆测评、AI自媒体…… 电器测评和美妆测评，已经看到有很多人在闷声赚钱在小红书，…</summary>
+    <id>https://www.woshipm.com/ai/6483435.html</id>
+    <title>我把 AI 做自媒体的 13 个 AI 技能，免费开源了</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483435.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">作者把两年做自媒体沉淀的流程做成 13 个 AI 技能，全部免费开源：账号定位、选题、笔记分析、日复盘、录音处理都在里面。他讲了为什么放出来，以及一个新手该按什么顺序用。 我从2020年开始做小红书，2025年开始把 AI 用到自媒体运营上，到现在积累了很多工作流程，也做了自己的知识库、工作台之类的。 现在我把一套做自…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
+    <category term="AI工具"/>
     <category term="AI应用"/>
-    <category term="个人观点"/>
     <category term="内容创作"/>
     <category term="自媒体"/>
     <category term="产品"/>
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6483130.html</id>
-    <title>我好像陷入了某种，AI时代的虚无主义。</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483130.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">AI 让过去要折腾几个月的软件，现在几句话就能做出来，可写完稿坐在凌晨六点的人，只觉得空。做产品、写代码、做设计、做内容的朋友在饭桌上说的是同一句：一切好像都没什么意思了。这不是抑郁，是能力过剩之后的虚无。 最近一段时间，我好像得了某种怪病。 我开始变得容易暴躁，开始更加没有耐心，我明明可以创造、改变很多东西了，但是我…</summary>
+    <id>https://www.woshipm.com/it/6483828.html</id>
+    <title>小鹏汽车最美00后产品经理，喊“老登”喊到道歉</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6483828.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">小鹏汽车最近的一位00后美女产品经理，因为在发布会上喊了几声“老登”，不得不专门录视频道歉。 事情发生在10月15日的小鹏MONA L05预售发布会上。 图片来自微博用户@ArthurShen_Origin 当天，何小鹏人在巴黎，没能亲自到场，于是把舞台交给了年轻的产品团队。这群年轻人也确实没让老板失望，产品介绍得挺热…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="Claude"/>
-    <category term="Codex"/>
-    <category term="个人成长"/>
-    <category term="个人观点"/>
+    <category term="业界动态"/>
+    <category term="ai"/>
+    <category term="Monica"/>
+    <category term="华为"/>
+    <category term="小米"/>
+    <category term="美团"/>
     <category term="产品"/>
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6483135.html</id>
-    <title>YC CEO 谈小团队的时代：一个人干一百个人的活，创业的根本却一点没变</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483135.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">一个人真能干一百个人的活，公司、投资、招聘会变成什么样？YC 掌门人 Garry Tan 的判断是：执行成本在塌，判断成本没塌。软件可以即时生成，但了解用户、把东西放到人面前、相信身边那几个认识的人，一点没变。 你有没有想过，如果一个人真的能干 100 个人的活，那公司、投资、招聘，这三件事会变成什么样子？这不是一句口…</summary>
+    <id>https://www.woshipm.com/ai/6483646.html</id>
+    <title>别再争谁是“中国版Muse”了，卖铲子的ICT厂商先赚到了钱</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483646.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">常驻型 Agent 将 AI 搬上云端，重写了机房的 CPU、存储与网络配比。国内跨平台 Agent 受阻，基础设施先拿订单，成色仍看应用层。 硅谷大厂在 AI 应用层的新一轮抢位，已经把战火烧到了云端机房。 10 月 22 日凌晨，正处于 IPO 冲刺期的 Anthropic 发布了全新的个人与工作智能体应用 Cla…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="Anthropic"/>
-    <category term="OpenClaw"/>
-    <category term="Supabase"/>
-    <category term="行业观察"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6478947.html</id>
-    <title>Prompt、Skill、Project、MCP，一套完整的 AI 工作流！</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6478947.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">Prompt、Skill、Project、MCP 频繁出现，成为解锁 AI 高效工作的关键，但很多人对这四个词一知半解。文章逐个拆解它们的概念、特点与适用场景，并说明各自能为设计环节带来的提效作用，帮你在合适的任务里用对工具。 当下 AI 技术迭代速度飞快，Prompt、Skill、Project、MCP 这四个词汇频…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="Claude"/>
-    <category term="MCP"/>
-    <category term="基础知识"/>
+    <category term="Meta"/>
+    <category term="Muse"/>
+    <category term="企业服务"/>
+    <category term="行业分析"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6483114.html</id>
-    <title>Claude Duet上线：关掉电脑后，AI助理还能继续工作</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483114.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">截至 10 月 20 日，Meta Muse 在美国下载约 1020 万次；10 月 21 日 Anthropic 开放 Claude Duet 研究预览，能接 6000 多种工具，关掉电脑任务仍在云端继续。全天候的边界、额度会不会被跑光，比产品名更值得弄清。 你可能并不缺一个能回答问题的 AI，真正费时间的是在邮箱、…</summary>
+    <id>https://www.woshipm.com/ai/6483681.html</id>
+    <title>企业上AI项目，FDE到底在做什么？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483681.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">AI带火了FDE岗位，但它的价值远不止于驻场开发。本文深入拆解FDE如何从业务现场挖掘真实需求、通过七步工作流将模糊问题转化为可运行系统，并厘清其与产品经理、工程团队的协作边界。最终揭示：一个成功的FDE项目，是让系统在FDE离场后依然能自主运转。 AI直接带火了FDE这个岗位，很多公司已经开始开始招募FDE，或者是要…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI落地"/>
+    <category term="FDE"/>
+    <category term="工作流程"/>
+    <category term="经验总结"/>
+    <category term="项目交付"/>
+    <category term="产品"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6483642.html</id>
+    <title>从角色聊天到互动叙事世界，AI原生娱乐的下一站</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483642.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">字节旗下猫箱一季度内购收入超2200万美元，登顶中国iOS生成式AI应用；同期Character.AI申请Chapter 11，每月亏损800万至900万美元。角色聊天之后，互动叙事世界成为下一站。 虚拟角色的新生活。 Sensor Tower发布的2026年全球AI应用趋势报告显示，字节跳动旗下的猫箱位居第一季度中国…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="AI应用"/>
+    <category term="Character.ai"/>
+    <category term="内容创作"/>
+    <category term="行业分析"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6483690.html</id>
+    <title>WorkBuddy干活变慢还费token，一招教你瘦身加速</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483690.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">WorkBuddy 用久了变慢还费 token，老马说这是 Skill、MCP 和记忆规则越滚越大，每轮对话都塞进上下文。他给出按报告瘦身的办法：关技能、关连接器、蒸馏记忆文件。 经常有小伙伴跟老马反馈，WorkBuddy一开始安装完使用的时候，还算蛮快的，后面使用了一段时间，发现干活速度变慢了，还特别消耗token，…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
     <category term="AI产品"/>
-    <category term="Anthropic"/>
-    <category term="Claude"/>
-    <category term="Meta Muse"/>
-    <category term="功能分析"/>
-    <category term="产品"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6483288.html</id>
-    <title>Claude Duet 来了，Personal Agent 大战又添一员</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483288.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">当AI助手不再只是被动应答，而是主动替你梳理任务、推进工作，Personal Agent的竞争便进入了新阶段。Anthropic推出的Claude Duet，能跨应用持续跟进任务，在需要时向你确认。本文从产品设计、交互逻辑与行业格局出发，拆解这款助手如何重新定义人机协作的边界。 早上拿起手机，AI 先发来一句：“5件事…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI助手"/>
-    <category term="Claude Duet"/>
-    <category term="Personal Agent"/>
-    <category term="产品分析"/>
-    <category term="任务管理"/>
-    <category term="行业观察"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6483147.html</id>
-    <title>AI漫剧的老板们在给算力打工</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483147.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">AI 漫剧一分钟的制作成本从 1.5 万元跌到 400 元，做剧的人却没觉得手头宽裕。人力占比从六成掉到三四成，算力成了大头，一集算力成本从 17 元涨到 80 到 100 元，抽卡式生成还要为废片买单。省下来的钱，换了个地方交。 AI漫剧玩家分两种： 一种自己掏钱做剧，赌平台分账。另一种接单代工，按分钟收制作费，片子…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI应用"/>
-    <category term="DataEye"/>
-    <category term="抖音"/>
-    <category term="行业观察"/>
+    <category term="WorkBuddy"/>
+    <category term="经验分享"/>
     <category term="产品"/>
     <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6479433.html</id>
+    <title>AI让市场调研效率提升300%</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6479433.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">一份完整调研从需求落地到出具洞察报告，少则7天，多则半个月甚至更久，耗时耗力耗钱。AI的入局直接把调研效率拉到新高度，整体效率提升不止300%，成本砍掉60%，洞察精准度翻倍。 一份完整调研从需求落地到出具洞察报告，少则7天，多则半个月，甚至更久，耗时、耗力、耗钱。AI的入局，直接把调研效率拉到新高度——整体效率提升不…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI工具"/>
+    <category term="市场洞察"/>
+    <category term="市场调研"/>
+    <category term="提示词"/>
+    <category term="竞品分析"/>
+    <category term="产品"/>
   </entry>
   <entry>
     <id>https://www.freightwaves.com/news/f3-preview-ai-autonomous-trucking-and-freight-technology-take-center-stage</id>

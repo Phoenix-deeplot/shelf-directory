@@ -9,18 +9,18 @@
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/ai/6483093.html",
-      "url": "https://www.woshipm.com/ai/6483093.html",
-      "title": "长视频变知识库，3个 Skills 跑通全自动流水线（附源）",
-      "content_text": "把 Dan Koe 十几小时的视频洗成可检索的知识库：下载、总结、网页生成三个 Skills 串成一条流水线，Qwen3.8-Max 负责理解与图文对齐，金句、板书、时间戳都能一键跳回。原作者的情绪与语境被保留，而不是磨成干瘪骨架。 Token 花不完，前两天用我的视频下载 Skills 下载了 Dan Koe 202…",
-      "summary": "把 Dan Koe 十几小时的视频洗成可检索的知识库：下载、总结、网页生成三个 Skills 串成一条流水线，Qwen3.8-Max 负责理解与图文对齐，金句、板书、时间戳都能一键跳回。原作者的情绪与语境被保留，而不是磨成干瘪骨架。 Token 花不完，前两天用我的视频下载 Skills 下载了 Dan Koe 202…",
-      "date_published": "2026-10-23T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6483631.html",
+      "url": "https://www.woshipm.com/ai/6483631.html",
+      "title": "这些动画，都是 AI 写代码画出来的：我实测了 4 种风格",
+      "content_text": "照小红书博主Vincent公开的提示词和代码，用Claude的Opus 5.5试做4种风格的动画短片，再和自己手写提示词做的那三支网球视频对比，招牌特征、画面失控、字压字的问题都暴露得很具体。 前几天在小红书刷到 Vincent 的帖子。他用 Claude 的Opus 5.5模型，一种风格写一段提示词，做出了 15 种…",
+      "summary": "照小红书博主Vincent公开的提示词和代码，用Claude的Opus 5.5试做4种风格的动画短片，再和自己手写提示词做的那三支网球视频对比，招牌特征、画面失控、字压字的问题都暴露得很具体。 前几天在小红书刷到 Vincent 的帖子。他用 Claude 的Opus 5.5模型，一种风格写一段提示词，做出了 15 种…",
+      "date_published": "2026-10-24T00:00:00Z",
       "tags": [
         "AI",
         "个人随笔",
         "AI编程",
-        "Dan Koe",
-        "Qwen",
+        "Claude",
+        "短视频",
         "经验分享",
         "产品",
         "运营"

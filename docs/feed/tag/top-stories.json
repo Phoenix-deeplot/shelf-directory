@@ -9,6 +9,168 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/range-zero-emissions-medium-duty-electric-trucks",
+      "url": "https://www.freightwaves.com/news/range-zero-emissions-medium-duty-electric-trucks",
+      "title": "Why one zero-emission truck dealer wants big rigs to wait",
+      "content_text": "Johannes Ariens sells everything from electric motorcycles to hydrogen semis. He says the industry is trying to skip a step, and that small fleets with medium-d…",
+      "summary": "Johannes Ariens sells everything from electric motorcycles to hydrogen semis. He says the industry is trying to skip a step, and that small fleets with medium-d…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "Electric Trucks",
+        "News",
+        "Top Stories",
+        "Trucking",
+        "battery-electric trucks",
+        "Class 5 electric trucks",
+        "HVIP",
+        "Hyundai XCIENT Fuel Cell"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/russian-diesel-tanker-heads-for-u-s-following-trump-putin-deal",
+      "url": "https://www.freightwaves.com/news/russian-diesel-tanker-heads-for-u-s-following-trump-putin-deal",
+      "title": "Russian diesel tanker heads for U.S. following Trump-Putin deal",
+      "content_text": "The first shipment of Russian diesel fuel heads for the U.S. as Trump looks for boost ahead of midterm elections. The post Russian diesel tanker heads for U.S.…",
+      "summary": "The first shipment of Russian diesel fuel heads for the U.S. as Trump looks for boost ahead of midterm elections. The post Russian diesel tanker heads for U.S.…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Fuel News",
+        "Maritime",
+        "News",
+        "Top Stories",
+        "Diesel fuel",
+        "Russia",
+        "sanctions"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates",
+      "url": "https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates",
+      "title": "New Drewry data shows import demand boosting trans-Pacific rates",
+      "content_text": "Drewry’s World Container Index rose on higher rates on trans-Pacific and Asia-Europe routes. The post New Drewry data shows import demand boosting trans-Pacific…",
+      "summary": "Drewry’s World Container Index rose on higher rates on trans-Pacific and Asia-Europe routes. The post New Drewry data shows import demand boosting trans-Pacific…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Container Shipping",
+        "Maritime",
+        "News",
+        "Top Stories",
+        "Capacity",
+        "Drewry",
+        "imports"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/nlrb-ordered-amazon-to-bargain-with-staten-island-workers-its-now-in-federal-court",
+      "url": "https://www.freightwaves.com/news/nlrb-ordered-amazon-to-bargain-with-staten-island-workers-its-now-in-federal-court",
+      "title": "NLRB ordered Amazon to bargain with Staten Island workers; it’s now in federal court",
+      "content_text": "Four and a half years after a grassroots union was voted in by workers at an Amazon warehouse in Staten Island, New York, the battles in court over Amazon’s pus…",
+      "summary": "Four and a half years after a grassroots union was voted in by workers at an Amazon warehouse in Staten Island, New York, the battles in court over Amazon’s pus…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "Legal issues",
+        "News",
+        "Top Stories",
+        "Truck Driver Issues",
+        "Amazon",
+        "National Labor Relations Board",
+        "Teamsters",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/cost-pressures-sink-marten-transports-q3",
+      "url": "https://www.freightwaves.com/news/cost-pressures-sink-marten-transports-q3",
+      "title": "Cost pressures sink Marten Transport’s Q3",
+      "content_text": "Shares of refrigerated carrier Marten Transport dropped 7% in midday trading on Friday after a disappointing third-quarter report, which noted that rising fuel…",
+      "summary": "Shares of refrigerated carrier Marten Transport dropped 7% in midday trading on Friday after a disappointing third-quarter report, which noted that rising fuel…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "News",
+        "Top Stories",
+        "Truckload Carriers",
+        "Marten Transport",
+        "reefer capacity",
+        "Reefer TL rates",
+        "refrigerated trucking"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/a-new-pnw-container-port-205m-for-oregon-rail-project",
+      "url": "https://www.freightwaves.com/news/a-new-pnw-container-port-205m-for-oregon-rail-project",
+      "title": "A new PNW container port? $205M for Oregon rail project",
+      "content_text": "Oregon port wins $205 million in federal funding to upgrade its rail line and boost a proposed container terminal project. The post A new PNW container port? $2…",
+      "summary": "Oregon port wins $205 million in federal funding to upgrade its rail line and boost a proposed container terminal project. The post A new PNW container port? $2…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "Container Shipping",
+        "Maritime",
+        "News",
+        "Railroad",
+        "Top Stories",
+        "trade",
+        "CRISI program",
+        "Development"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits",
       "url": "https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits",
       "title": "Union Pacific posts record third-quarter revenue and profits",
@@ -303,114 +465,6 @@
       }
     },
     {
-      "id": "https://www.freightwaves.com/news/stord-acquires-e-commerce-competitor-ams-fulfillment-in-large-deal",
-      "url": "https://www.freightwaves.com/news/stord-acquires-e-commerce-competitor-ams-fulfillment-in-large-deal",
-      "title": "Stord acquires e-commerce competitor AMS Fulfillment in large deal",
-      "content_text": "Retail fulfillment provider Stord has acquired AMS fulfillment, a large competitor. The post Stord acquires e-commerce competitor AMS Fulfillment in large deal…",
-      "summary": "Retail fulfillment provider Stord has acquired AMS fulfillment, a large competitor. The post Stord acquires e-commerce competitor AMS Fulfillment in large deal…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "Fulfillment",
-        "M&A",
-        "News",
-        "Top Stories",
-        "e-commerce",
-        "fulfillment centers",
-        "STORD",
-        "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/nearly-1m-in-pokemon-and-sports-cards-vanish-from-fedex-truck-driver-discovers-missing-lock",
-      "url": "https://www.freightwaves.com/news/nearly-1m-in-pokemon-and-sports-cards-vanish-from-fedex-truck-driver-discovers-missing-lock",
-      "title": "Nearly $1M in Pokémon and sports cards vanish from FedEx truck, driver discovers missing lock",
-      "content_text": "A FedEx driver discovered a missing cargo-door lock and nearly $1 million in stolen trading cards outside a California grading facility. Detectives are reviewin…",
-      "summary": "A FedEx driver discovered a missing cargo-door lock and nearly $1 million in stolen trading cards outside a California grading facility. Detectives are reviewin…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "Business",
-        "Fraud",
-        "Playbook: Cash & Capital",
-        "Top Stories",
-        "California",
-        "cargo theft",
-        "FedEx",
-        "Trucking"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/highway-shared-standards-freight-fraud",
-      "url": "https://www.freightwaves.com/news/highway-shared-standards-freight-fraud",
-      "title": "Highway pitches shared standards as freight fraud shifts",
-      "content_text": "Highway has lost one load out of a million under its $100,000 performance guarantee. Its CCO says the next step is getting insurers, factors and ELD vendors to…",
-      "summary": "Highway has lost one load out of a million under its $100,000 performance guarantee. Its CCO says the next step is getting insurers, factors and ELD vendors to…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "News",
-        "Top Stories",
-        "Trucking",
-        "Trucking Compliance",
-        "cargo theft",
-        "carrier vetting",
-        "freight broker fraud",
-        "freight fraud"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/csx-eliminates-more-than-100-management-positions",
-      "url": "https://www.freightwaves.com/news/csx-eliminates-more-than-100-management-positions",
-      "title": "CSX eliminates more than 100 management positions",
-      "content_text": "Management layoffs mark railroad’s engineering department restructuring. The post CSX eliminates more than 100 management positions appeared first on FreightWav…",
-      "summary": "Management layoffs mark railroad’s engineering department restructuring. The post CSX eliminates more than 100 management positions appeared first on FreightWav…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "News",
-        "Railroad",
-        "Top Stories",
-        "CSX",
-        "earnings",
-        "layoffs",
-        "Management",
-        "Operations"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
       "id": "https://www.freightwaves.com/news/ceos-letter-boasts-of-lots-of-arrows-pointing-up-at-triumph-financial",
       "url": "https://www.freightwaves.com/news/ceos-letter-boasts-of-lots-of-arrows-pointing-up-at-triumph-financial",
       "title": "CEO’s letter boasts of lots of arrows pointing up at Triumph Financial",
@@ -426,33 +480,6 @@
         "Triumph Financial",
         "货运",
         "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/autonomous-railcar-technology-earns-16m-federal-grant",
-      "url": "https://www.freightwaves.com/news/autonomous-railcar-technology-earns-16m-federal-grant",
-      "title": "Autonomous railcar technology earns $16M federal grant",
-      "content_text": "A federal grant will support deployment of autonomous railcar technology on a Missouri short line. The post Autonomous railcar technology earns $16M federal gra…",
-      "summary": "A federal grant will support deployment of autonomous railcar technology on a Missouri short line. The post Autonomous railcar technology earns $16M federal gra…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "News",
-        "Railroad",
-        "Top Stories",
-        "Autonomous trains",
-        "CRISI program",
-        "Intramotev",
-        "railroads",
-        "short lines"
       ],
       "authors": [
         {

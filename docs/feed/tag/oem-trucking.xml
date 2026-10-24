@@ -21,21 +21,4 @@
     <category term="货运"/>
     <category term="数据"/>
   </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/paccar-connect-kenworth-peterbilt-launch</id>
-    <title>PACCAR builds a fleet app platform into Kenworth, Peterbilt</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/paccar-connect-kenworth-peterbilt-launch"/>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <published>2026-10-20T00:00:00Z</published>
-    <summary type="text">PACCAR Connect arrives in early 2027 and links Kenworth and Peterbilt drivers to Platform Science's Virtual Vehicle app marketplace, days before PACCAR reports…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="News"/>
-    <category term="OEM Trucking"/>
-    <category term="Technology"/>
-    <category term="Trucking"/>
-    <category term="Trucking Tech"/>
-    <category term="Class 8 telematics"/>
-    <category term="Kenworth"/>
-    <category term="OEM"/>
-  </entry>
 </feed>

@@ -1,0 +1,39 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Marten Transport",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/marten-transport.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/cost-pressures-sink-marten-transports-q3",
+      "url": "https://www.freightwaves.com/news/cost-pressures-sink-marten-transports-q3",
+      "title": "Cost pressures sink Marten Transport’s Q3",
+      "content_text": "Shares of refrigerated carrier Marten Transport dropped 7% in midday trading on Friday after a disappointing third-quarter report, which noted that rising fuel…",
+      "summary": "Shares of refrigerated carrier Marten Transport dropped 7% in midday trading on Friday after a disappointing third-quarter report, which noted that rising fuel…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "News",
+        "Top Stories",
+        "Truckload Carriers",
+        "Marten Transport",
+        "reefer capacity",
+        "Reefer TL rates",
+        "refrigerated trucking"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}

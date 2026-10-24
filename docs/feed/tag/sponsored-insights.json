@@ -61,33 +61,6 @@
         "type": "article",
         "shelf": "freightwaves-com"
       }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/from-freight-management-to-self-improving-networks",
-      "url": "https://www.freightwaves.com/news/from-freight-management-to-self-improving-networks",
-      "title": "From Freight Management to Self-Improving Networks",
-      "content_text": "Customers expect a Managed Transportation partner to run their freight reliably and cost efficiently. They should get more: experts who understand their network…",
-      "summary": "Customers expect a Managed Transportation partner to run their freight reliably and cost efficiently. They should get more: experts who understand their network…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "Business",
-        "News",
-        "Sponsored Insights",
-        "Amir Pelleg",
-        "Freight",
-        "FreightWaves",
-        "logistics",
-        "Trucking"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
     }
   ]
 }

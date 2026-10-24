@@ -9,6 +9,73 @@
   },
   "items": [
     {
+      "id": "https://www.industryweek.com/leadership/companies-executives/news/55413917/musk-and-tesla-target-a-big-2030-sales-target",
+      "url": "https://www.industryweek.com/leadership/companies-executives/news/55413917/musk-and-tesla-target-a-big-2030-sales-target",
+      "title": "Musk and Tesla Target a Big 2030 Milestone",
+      "content_text": "The CEO of the automotive, energy and robotics manufacturer thinks vehicle production can be double the company’s total capacity by 2030. Tesla’s vehicle engine…",
+      "summary": "The CEO of the automotive, energy and robotics manufacturer thinks vehicle production can be double the company’s total capacity by 2030. Tesla’s vehicle engine…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ada78526b561efdc6c949d9-tsla_cybercab_1.png",
+      "tags": [
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/industry-events/manufacturing-day/article/55414146/manufacturing-day-2026-building-a-strong-talent-pipeline-in-florida",
+      "url": "https://www.industryweek.com/industry-events/manufacturing-day/article/55414146/manufacturing-day-2026-building-a-strong-talent-pipeline-in-florida",
+      "title": "Manufacturing Day 2026: Building a Strong Talent Pipeline in Florida",
+      "content_text": "Gulf Coast manufacturer Merrick Industries collaborates with community partners every step of the way.",
+      "summary": "Gulf Coast manufacturer Merrick Industries collaborates with community partners every step of the way.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6adba84c6d89c4afca770982-merrick_company800.png",
+      "tags": [
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/leadership/article/55414048/different-by-design-formalizing-accountability-and-who-watches-the-ai-agents-industryweeks-weekly-review",
+      "url": "https://www.industryweek.com/leadership/article/55414048/different-by-design-formalizing-accountability-and-who-watches-the-ai-agents-industryweeks-weekly-review",
+      "title": "Different by Design, Formalizing Accountability and Who Watches the AI Agents? IndustryWeek's Weekly Review",
+      "content_text": "Also, the status of the Strait of Hormuz and manufacturing history by the numbers.",
+      "summary": "Also, the status of the Strait of Hormuz and manufacturing history by the numbers.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6adb7e3e0340641c28a587db-dreamstime_xxl_14811976.png",
+      "tags": [
+        "Leadership",
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
       "id": "https://www.industryweek.com/leadership/strategic-planning-execution/article/55413780/the-power-and-potential-trap-of-reverse-innovation-lessons-from-ge-mercedes-benz-dewalt",
       "url": "https://www.industryweek.com/leadership/strategic-planning-execution/article/55413780/the-power-and-potential-trap-of-reverse-innovation-lessons-from-ge-mercedes-benz-dewalt",
       "title": "The Power and Potential Trap of Reverse Innovation: Lessons from GE, Mercedes-Benz, Dewalt",
@@ -480,28 +547,6 @@
       }
     },
     {
-      "id": "https://www.industryweek.com/industry-events/manufacturing-day/article/55411122/faces-of-manufacturing-i-get-to-invest-in-people-every-day",
-      "url": "https://www.industryweek.com/industry-events/manufacturing-day/article/55411122/faces-of-manufacturing-i-get-to-invest-in-people-every-day",
-      "title": "Faces of Manufacturing: ‘I Get to Invest in People Every Day’",
-      "content_text": "“It's rewarding to help others discover opportunities in manufacturing and build careers they're passionate about,” says Hannah Bennett, engineering senior team…",
-      "summary": "“It's rewarding to help others discover opportunities in manufacturing and build careers they're passionate about,” says Hannah Bennett, engineering senior team…",
-      "date_published": "2026-10-12T00:00:00Z",
-      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6accfe9c2d95c798fb22913e-hannah_bennet_f.png",
-      "tags": [
-        "制造",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "Home | IndustryWeek"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "industryweek-com"
-      }
-    },
-    {
       "id": "https://www.industryweek.com/the-economy/emerging-markets/article/55411224/cambodias-push-to-become-a-manufacturing-hub",
       "url": "https://www.industryweek.com/the-economy/emerging-markets/article/55411224/cambodias-push-to-become-a-manufacturing-hub",
       "title": "Cambodia's Push to Become a Manufacturing Hub",
@@ -511,52 +556,6 @@
       "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6acd2f4db01a4b4dc05a83ea-dreamstime_xxl_20672802.png",
       "tags": [
         "The Economy / Emerging Markets",
-        "制造",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "Home | IndustryWeek"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "industryweek-com"
-      }
-    },
-    {
-      "id": "https://www.industryweek.com/the-economy/article/55410849/why-manufacturing-is-rewarding-leaning-into-leader-curiosity-industryweeks-weekly-review",
-      "url": "https://www.industryweek.com/the-economy/article/55410849/why-manufacturing-is-rewarding-leaning-into-leader-curiosity-industryweeks-weekly-review",
-      "title": "Why Manufacturing Is Rewarding; Leaning Into Leader Curiosity: IndustryWeek's Weekly Review",
-      "content_text": "Also, manufacturing expansion continues, manufacturers prepared to invest, and think twice about the success of your kaizen event.",
-      "summary": "Also, manufacturing expansion continues, manufacturers prepared to invest, and think twice about the success of your kaizen event.",
-      "date_published": "2026-10-09T00:00:00Z",
-      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ac90f3f7837be7bc93b2490-newspapersdreamstime_l_107290783.png",
-      "tags": [
-        "The Economy",
-        "制造",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "Home | IndustryWeek"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "industryweek-com"
-      }
-    },
-    {
-      "id": "https://www.industryweek.com/talent/engagement/article/55410034/manufacturing-day-lets-us-show-how-the-work-has-changed",
-      "url": "https://www.industryweek.com/talent/engagement/article/55410034/manufacturing-day-lets-us-show-how-the-work-has-changed",
-      "title": "Manufacturing Day Lets Us Show How the Work Has Changed",
-      "content_text": "Knowledge-sharing and nurturing talent involve more than a single event on the calendar.",
-      "summary": "Knowledge-sharing and nurturing talent involve more than a single event on the calendar.",
-      "date_published": "2026-10-09T00:00:00Z",
-      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ac906c9606490f16ac851ad-10.png",
-      "tags": [
-        "Talent / Engagement",
         "制造",
         "运营"
       ],

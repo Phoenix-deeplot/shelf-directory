@@ -2,6 +2,38 @@
  "id": "industryweek-com",
  "items": [
   {
+   "url": "https://www.industryweek.com/industry-events/manufacturing-day/article/55414146/manufacturing-day-2026-building-a-strong-talent-pipeline-in-florida",
+   "title": "Manufacturing Day 2026: Building a Strong Talent Pipeline in Florida",
+   "summary": "Gulf Coast manufacturer Merrick Industries collaborates with community partners every step of the way.",
+   "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6adba84c6d89c4afca770982-merrick_company800.png",
+   "date": "2026-10-23",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.industryweek.com/leadership/article/55414048/different-by-design-formalizing-accountability-and-who-watches-the-ai-agents-industryweeks-weekly-review",
+   "title": "Different by Design, Formalizing Accountability and Who Watches the AI Agents? IndustryWeek's Weekly Review",
+   "summary": "Also, the status of the Strait of Hormuz and manufacturing history by the numbers.",
+   "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6adb7e3e0340641c28a587db-dreamstime_xxl_14811976.png",
+   "date": "2026-10-23",
+   "tags": [
+    "Leadership"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.industryweek.com/leadership/companies-executives/news/55413917/musk-and-tesla-target-a-big-2030-sales-target",
+   "title": "Musk and Tesla Target a Big 2030 Milestone",
+   "summary": "The CEO of the automotive, energy and robotics manufacturer thinks vehicle production can be double the company’s total capacity by 2030. Tesla’s vehicle engine…",
+   "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ada78526b561efdc6c949d9-tsla_cybercab_1.png",
+   "date": "2026-10-23",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.industryweek.com/leadership/strategic-planning-execution/article/55413780/the-power-and-potential-trap-of-reverse-innovation-lessons-from-ge-mercedes-benz-dewalt",
    "title": "The Power and Potential Trap of Reverse Innovation: Lessons from GE, Mercedes-Benz, Dewalt",
    "summary": "Proper product differentiation ensures that new, higher value items are visually and materially distinct.",
@@ -240,40 +272,6 @@
    ],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://www.industryweek.com/industry-events/manufacturing-day/article/55411122/faces-of-manufacturing-i-get-to-invest-in-people-every-day",
-   "title": "Faces of Manufacturing: ‘I Get to Invest in People Every Day’",
-   "summary": "“It's rewarding to help others discover opportunities in manufacturing and build careers they're passionate about,” says Hannah Bennett, engineering senior team…",
-   "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6accfe9c2d95c798fb22913e-hannah_bennet_f.png",
-   "date": "2026-10-12",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.industryweek.com/talent/engagement/article/55410034/manufacturing-day-lets-us-show-how-the-work-has-changed",
-   "title": "Manufacturing Day Lets Us Show How the Work Has Changed",
-   "summary": "Knowledge-sharing and nurturing talent involve more than a single event on the calendar.",
-   "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ac906c9606490f16ac851ad-10.png",
-   "date": "2026-10-09",
-   "tags": [
-    "Talent / Engagement"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.industryweek.com/the-economy/article/55410849/why-manufacturing-is-rewarding-leaning-into-leader-curiosity-industryweeks-weekly-review",
-   "title": "Why Manufacturing Is Rewarding; Leaning Into Leader Curiosity: IndustryWeek's Weekly Review",
-   "summary": "Also, manufacturing expansion continues, manufacturers prepared to invest, and think twice about the success of your kaizen event.",
-   "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ac90f3f7837be7bc93b2490-newspapersdreamstime_l_107290783.png",
-   "date": "2026-10-09",
-   "tags": [
-    "The Economy"
-   ],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -290,5 +288,5 @@
  "status": "ok",
  "error": "",
  "etag": "",
- "modified": "Fri, 23 Oct 2026 08:25:00 GMT"
+ "modified": "Sat, 24 Oct 2026 07:24:17 GMT"
 }

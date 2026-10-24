@@ -9,6 +9,52 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/truckings-ruthless-vs-conservative-whos-winning",
+      "url": "https://www.freightwaves.com/news/truckings-ruthless-vs-conservative-whos-winning",
+      "title": "Trucking’s “Ruthless” vs. “Conservative:” Who’s Winning?",
+      "content_text": "In a lukewarm freight market, not all carriers are feeling the same heat. Craig Fuller and Paul Tonsager dive deep into why Knight-Swift’s ‘ruthless’ approach m…",
+      "summary": "In a lukewarm freight market, not all carriers are feeling the same heat. Craig Fuller and Paul Tonsager dive deep into why Knight-Swift’s ‘ruthless’ approach m…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/how-much-do-rejected-loads-really-cost-shippers",
+      "url": "https://www.freightwaves.com/news/how-much-do-rejected-loads-really-cost-shippers",
+      "title": "How Much Do Rejected Loads REALLY Cost Shippers?",
+      "content_text": "Discover how new Sonar indices are revolutionizing freight cost transparency. Shippers can now accurately track the real premiums paid for rejected loads and un…",
+      "summary": "Discover how new Sonar indices are revolutionizing freight cost transparency. Shippers can now accurately track the real premiums paid for rejected loads and un…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/how-triumph-financials-ceo-beat-the-longest-freight-recession",
       "url": "https://www.freightwaves.com/news/how-triumph-financials-ceo-beat-the-longest-freight-recession",
       "title": "How Triumph Financial’s CEO Beat the Longest Freight Recession",
@@ -130,75 +176,6 @@
       "content_text": "A FedEx truck carrying nearly $1 million in Pokémon and sports cards was robbed in California. FreightWaves’ Phil Brink and Highway’s Brennan Bailey break down…",
       "summary": "A FedEx truck carrying nearly $1 million in Pokémon and sports cards was robbed in California. FreightWaves’ Phil Brink and Highway’s Brennan Bailey break down…",
       "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "FreightWaves Today",
-        "FreightWaves TV",
-        "货运",
-        "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/reefer-truckload-rejections-soar-1-in-5-loads-rejected-nationally",
-      "url": "https://www.freightwaves.com/news/reefer-truckload-rejections-soar-1-in-5-loads-rejected-nationally",
-      "title": "Reefer Truckload Rejections Soar: 1 in 5 Loads Rejected Nationally",
-      "content_text": "The freight market is seeing fluctuating volumes and steady tender rejections, with a particular spotlight on the refrigerated sector. Learn why 1 in 5 reefer l…",
-      "summary": "The freight market is seeing fluctuating volumes and steady tender rejections, with a particular spotlight on the refrigerated sector. Learn why 1 in 5 reefer l…",
-      "date_published": "2026-10-20T00:00:00Z",
-      "tags": [
-        "FreightWaves Today",
-        "FreightWaves TV",
-        "货运",
-        "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/diesel-prices-up-down-or-stuck",
-      "url": "https://www.freightwaves.com/news/diesel-prices-up-down-or-stuck",
-      "title": "Diesel Prices: Up, Down, or Stuck?",
-      "content_text": "FreightWaves editor-at-large John Kingston breaks down the latest diesel price trends and the bombshell $700M nuclear verdict against CH Robinson. Discover what…",
-      "summary": "FreightWaves editor-at-large John Kingston breaks down the latest diesel price trends and the bombshell $700M nuclear verdict against CH Robinson. Discover what…",
-      "date_published": "2026-10-20T00:00:00Z",
-      "tags": [
-        "FreightWaves Today",
-        "FreightWaves TV",
-        "货运",
-        "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/bot-autos-secret-to-an-affordable-future",
-      "url": "https://www.freightwaves.com/news/bot-autos-secret-to-an-affordable-future",
-      "title": "Bot Auto’s Secret to an Affordable Future",
-      "content_text": "Bot Auto’s President & COO, Brett Suma, explains how their unique foundational model and advanced software, developed by an AI-first team, slashed the cost of a…",
-      "summary": "Bot Auto’s President & COO, Brett Suma, explains how their unique foundational model and advanced software, developed by an AI-first team, slashed the cost of a…",
-      "date_published": "2026-10-20T00:00:00Z",
       "tags": [
         "FreightWaves Today",
         "FreightWaves TV",

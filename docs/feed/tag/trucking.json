@@ -9,6 +9,60 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/range-zero-emissions-medium-duty-electric-trucks",
+      "url": "https://www.freightwaves.com/news/range-zero-emissions-medium-duty-electric-trucks",
+      "title": "Why one zero-emission truck dealer wants big rigs to wait",
+      "content_text": "Johannes Ariens sells everything from electric motorcycles to hydrogen semis. He says the industry is trying to skip a step, and that small fleets with medium-d…",
+      "summary": "Johannes Ariens sells everything from electric motorcycles to hydrogen semis. He says the industry is trying to skip a step, and that small fleets with medium-d…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "Electric Trucks",
+        "News",
+        "Top Stories",
+        "Trucking",
+        "battery-electric trucks",
+        "Class 5 electric trucks",
+        "HVIP",
+        "Hyundai XCIENT Fuel Cell"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/5-us-manufacturing-projects-bring-more-than-1-6b-in-investments",
+      "url": "https://www.freightwaves.com/news/5-us-manufacturing-projects-bring-more-than-1-6b-in-investments",
+      "title": "5 US manufacturing projects bring more than $1.6B in investments",
+      "content_text": "Five shippers are investing more than $1.6 billion in new or expanded U.S. facilities, adding production capacity for commercial trailers, school buses, cooling…",
+      "summary": "Five shippers are investing more than $1.6 billion in new or expanded U.S. facilities, adding production capacity for commercial trailers, school buses, cooling…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "News",
+        "Reindustrialization",
+        "Trucking",
+        "Carrier Global",
+        "Hyundai",
+        "Niagara",
+        "Primo",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/us-trailer-orders-soar-385-as-class-8-truck-market-sends-mixed-signals",
       "url": "https://www.freightwaves.com/news/us-trailer-orders-soar-385-as-class-8-truck-market-sends-mixed-signals",
       "title": "US trailer orders soar 385% as Class 8 truck market sends mixed signals",
@@ -273,87 +327,6 @@
       }
     },
     {
-      "id": "https://www.freightwaves.com/news/nearly-1m-in-pokemon-and-sports-cards-vanish-from-fedex-truck-driver-discovers-missing-lock",
-      "url": "https://www.freightwaves.com/news/nearly-1m-in-pokemon-and-sports-cards-vanish-from-fedex-truck-driver-discovers-missing-lock",
-      "title": "Nearly $1M in Pokémon and sports cards vanish from FedEx truck, driver discovers missing lock",
-      "content_text": "A FedEx driver discovered a missing cargo-door lock and nearly $1 million in stolen trading cards outside a California grading facility. Detectives are reviewin…",
-      "summary": "A FedEx driver discovered a missing cargo-door lock and nearly $1 million in stolen trading cards outside a California grading facility. Detectives are reviewin…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "Business",
-        "Fraud",
-        "Playbook: Cash & Capital",
-        "Top Stories",
-        "California",
-        "cargo theft",
-        "FedEx",
-        "Trucking"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/highway-shared-standards-freight-fraud",
-      "url": "https://www.freightwaves.com/news/highway-shared-standards-freight-fraud",
-      "title": "Highway pitches shared standards as freight fraud shifts",
-      "content_text": "Highway has lost one load out of a million under its $100,000 performance guarantee. Its CCO says the next step is getting insurers, factors and ELD vendors to…",
-      "summary": "Highway has lost one load out of a million under its $100,000 performance guarantee. Its CCO says the next step is getting insurers, factors and ELD vendors to…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "News",
-        "Top Stories",
-        "Trucking",
-        "Trucking Compliance",
-        "cargo theft",
-        "carrier vetting",
-        "freight broker fraud",
-        "freight fraud"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/from-freight-management-to-self-improving-networks",
-      "url": "https://www.freightwaves.com/news/from-freight-management-to-self-improving-networks",
-      "title": "From Freight Management to Self-Improving Networks",
-      "content_text": "Customers expect a Managed Transportation partner to run their freight reliably and cost efficiently. They should get more: experts who understand their network…",
-      "summary": "Customers expect a Managed Transportation partner to run their freight reliably and cost efficiently. They should get more: experts who understand their network…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "Business",
-        "News",
-        "Sponsored Insights",
-        "Amir Pelleg",
-        "Freight",
-        "FreightWaves",
-        "logistics",
-        "Trucking"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
       "id": "https://www.freightwaves.com/news/dsv-expands-us-mexico-freight-network-with-90m-laredo-facility",
       "url": "https://www.freightwaves.com/news/dsv-expands-us-mexico-freight-network-with-90m-laredo-facility",
       "title": "DSV expands US-Mexico freight network with $90M Laredo facility",
@@ -396,85 +369,6 @@
         "Triumph Financial",
         "货运",
         "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/partner-of-choice-why-the-best-shipper-carrier-relationships-now-go-beyond-shipper-of-choice",
-      "url": "https://www.freightwaves.com/news/partner-of-choice-why-the-best-shipper-carrier-relationships-now-go-beyond-shipper-of-choice",
-      "title": "Partner of Choice: Why the Best Shipper-Carrier Relationships Now Go Beyond Shipper of Choice",
-      "content_text": "Tender rejections are 2.5x last year and contract rates are up 18%. SONAR's new sitrep shows how shippers go from shipper of choice to partner of choice. The po…",
-      "summary": "Tender rejections are 2.5x last year and contract rates are up 18%. SONAR's new sitrep shows how shippers go from shipper of choice to partner of choice. The po…",
-      "date_published": "2026-10-20T00:00:00Z",
-      "tags": [
-        "Inside SONAR",
-        "logistics",
-        "Shipper of choice",
-        "Trucking",
-        "货运",
-        "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/paccar-connect-kenworth-peterbilt-launch",
-      "url": "https://www.freightwaves.com/news/paccar-connect-kenworth-peterbilt-launch",
-      "title": "PACCAR builds a fleet app platform into Kenworth, Peterbilt",
-      "content_text": "PACCAR Connect arrives in early 2027 and links Kenworth and Peterbilt drivers to Platform Science's Virtual Vehicle app marketplace, days before PACCAR reports…",
-      "summary": "PACCAR Connect arrives in early 2027 and links Kenworth and Peterbilt drivers to Platform Science's Virtual Vehicle app marketplace, days before PACCAR reports…",
-      "date_published": "2026-10-20T00:00:00Z",
-      "tags": [
-        "News",
-        "OEM Trucking",
-        "Technology",
-        "Trucking",
-        "Trucking Tech",
-        "Class 8 telematics",
-        "Kenworth",
-        "OEM"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/a-duie-pyle-expands-ltl-network-with-new-ohio-pennsylvania-facilities",
-      "url": "https://www.freightwaves.com/news/a-duie-pyle-expands-ltl-network-with-new-ohio-pennsylvania-facilities",
-      "title": "A. Duie Pyle expands LTL network with new Ohio, Pennsylvania facilities",
-      "content_text": "A. Duie Pyle is expanding its regional freight network with a new Cincinnati-area LTL service center and an integrated warehouse facility in Camp Hill, Pennsylv…",
-      "summary": "A. Duie Pyle is expanding its regional freight network with a new Cincinnati-area LTL service center and an integrated warehouse facility in Camp Hill, Pennsylv…",
-      "date_published": "2026-10-20T00:00:00Z",
-      "tags": [
-        "Less than Truckload (LTL)",
-        "News",
-        "Trucking",
-        "A. Duie Pyle",
-        "Cincinnati",
-        "Less than truckload",
-        "Pennslyvania",
-        "货运"
       ],
       "authors": [
         {

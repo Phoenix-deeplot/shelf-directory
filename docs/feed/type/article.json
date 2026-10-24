@@ -9,18 +9,45 @@
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/ai/6483093.html",
-      "url": "https://www.woshipm.com/ai/6483093.html",
-      "title": "长视频变知识库，3个 Skills 跑通全自动流水线（附源）",
-      "content_text": "把 Dan Koe 十几小时的视频洗成可检索的知识库：下载、总结、网页生成三个 Skills 串成一条流水线，Qwen3.8-Max 负责理解与图文对齐，金句、板书、时间戳都能一键跳回。原作者的情绪与语境被保留，而不是磨成干瘪骨架。 Token 花不完，前两天用我的视频下载 Skills 下载了 Dan Koe 202…",
-      "summary": "把 Dan Koe 十几小时的视频洗成可检索的知识库：下载、总结、网页生成三个 Skills 串成一条流水线，Qwen3.8-Max 负责理解与图文对齐，金句、板书、时间戳都能一键跳回。原作者的情绪与语境被保留，而不是磨成干瘪骨架。 Token 花不完，前两天用我的视频下载 Skills 下载了 Dan Koe 202…",
-      "date_published": "2026-10-23T00:00:00Z",
+      "id": "https://www.woshipm.com/evaluating/6483248.html",
+      "url": "https://www.woshipm.com/evaluating/6483248.html",
+      "title": "闲鱼用户交易痛点分析与改进思路",
+      "content_text": "在闲鱼上买卖闲置，你最怕遇到什么？货不对板、描述隐瞒、举证困难、到手刀……本文基于闲鱼小法庭真实案例，剖析C2C轻模式与重信任需求之间的错配，并给出验货宝扩品类、瑕疵勾选模板、发货存证、信用体系等四大改进方案，为平台优化提供参考。 一、研究背景与样本来源 上一篇文章（闲鱼用户体验报告）主要介绍了闲鱼 APP 的用户群体…",
+      "summary": "在闲鱼上买卖闲置，你最怕遇到什么？货不对板、描述隐瞒、举证困难、到手刀……本文基于闲鱼小法庭真实案例，剖析C2C轻模式与重信任需求之间的错配，并给出验货宝扩品类、瑕疵勾选模板、发货存证、信用体系等四大改进方案，为平台优化提供参考。 一、研究背景与样本来源 上一篇文章（闲鱼用户体验报告）主要介绍了闲鱼 APP 的用户群体…",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "分析评测",
+        "C2C",
+        "交易纠纷",
+        "信用体系",
+        "案例分析",
+        "用户体验",
+        "闲鱼",
+        "产品"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6483631.html",
+      "url": "https://www.woshipm.com/ai/6483631.html",
+      "title": "这些动画，都是 AI 写代码画出来的：我实测了 4 种风格",
+      "content_text": "照小红书博主Vincent公开的提示词和代码，用Claude的Opus 5.5试做4种风格的动画短片，再和自己手写提示词做的那三支网球视频对比，招牌特征、画面失控、字压字的问题都暴露得很具体。 前几天在小红书刷到 Vincent 的帖子。他用 Claude 的Opus 5.5模型，一种风格写一段提示词，做出了 15 种…",
+      "summary": "照小红书博主Vincent公开的提示词和代码，用Claude的Opus 5.5试做4种风格的动画短片，再和自己手写提示词做的那三支网球视频对比，招牌特征、画面失控、字压字的问题都暴露得很具体。 前几天在小红书刷到 Vincent 的帖子。他用 Claude 的Opus 5.5模型，一种风格写一段提示词，做出了 15 种…",
+      "date_published": "2026-10-24T00:00:00Z",
       "tags": [
         "AI",
         "个人随笔",
         "AI编程",
-        "Dan Koe",
-        "Qwen",
+        "Claude",
+        "短视频",
         "经验分享",
         "产品",
         "运营"
@@ -36,17 +63,97 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6483431.html",
-      "url": "https://www.woshipm.com/ai/6483431.html",
-      "title": "普通人做 AI 自媒体，根本赚不到钱",
-      "content_text": "作者把 AI 自媒体分成「讲 AI」和「用 AI」两类：前者拼资讯速度，后者拼你自己用 AI 做成了什么事。普通人扎堆做资讯号往往赚不到钱；把 AI 用进熟悉的行业，反而是还没人占的蓝海。 去年初在新项目的时候，我看了几个方向：电器测评、美妆测评、AI自媒体…… 电器测评和美妆测评，已经看到有很多人在闷声赚钱在小红书，…",
-      "summary": "作者把 AI 自媒体分成「讲 AI」和「用 AI」两类：前者拼资讯速度，后者拼你自己用 AI 做成了什么事。普通人扎堆做资讯号往往赚不到钱；把 AI 用进熟悉的行业，反而是还没人占的蓝海。 去年初在新项目的时候，我看了几个方向：电器测评、美妆测评、AI自媒体…… 电器测评和美妆测评，已经看到有很多人在闷声赚钱在小红书，…",
-      "date_published": "2026-10-23T00:00:00Z",
+      "id": "https://www.woshipm.com/share/6483439.html",
+      "url": "https://www.woshipm.com/share/6483439.html",
+      "title": "跟车一周我才看清：押运数字化卡住的不是技术，是三本旧账",
+      "content_text": "押运行业的数字化，难点不在技术，而在三本算了很多年的旧账：手写登记对不上、交接纠纷说不清、功能堆砌翻不完。本文从一线跟车体验出发，拆解如何用产品思维把纸换成系统、把印象换成证据、把菜单换成入口，让数字化真正落地。 凌晨四点半的金库，比大多数写字楼清醒。点箱、核封签、领枪、登记——一本手写登记簿、一支笔，记着这个行业二十…",
+      "summary": "押运行业的数字化，难点不在技术，而在三本算了很多年的旧账：手写登记对不上、交接纠纷说不清、功能堆砌翻不完。本文从一线跟车体验出发，拆解如何用产品思维把纸换成系统、把印象换成证据、把菜单换成入口，让数字化真正落地。 凌晨四点半的金库，比大多数写字楼清醒。点箱、核封签、领枪、登记——一本手写登记簿、一支笔，记着这个行业二十…",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "个人随笔",
+        "b端产品",
+        "传统行业",
+        "数字化",
+        "经验总结",
+        "需求分析",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/it/6483634.html",
+      "url": "https://www.woshipm.com/it/6483634.html",
+      "title": "被嘲笑土鳖的短剧，正在让优爱腾芒“去死”？",
+      "content_text": "2026年7月红果日活达1.68亿，超过优爱腾芒四家之和；长视频日均视听时长一年少了21亿分钟，约76%流向红果。S级项目播到十几集就裸播，短剧不是让影视去死，而是逼它新生。 2026年7月，一个叫红果的App日活达到1.68亿。 而腾讯视频、爱奇艺、优酷、芒果TV四家加起来，日活总和约1.55亿。换句话说，一个短剧平…",
+      "summary": "2026年7月红果日活达1.68亿，超过优爱腾芒四家之和；长视频日均视听时长一年少了21亿分钟，约76%流向红果。S级项目播到十几集就裸播，短剧不是让影视去死，而是逼它新生。 2026年7月，一个叫红果的App日活达到1.68亿。 而腾讯视频、爱奇艺、优酷、芒果TV四家加起来，日活总和约1.55亿。换句话说，一个短剧平…",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "业界动态",
+        "商业模式",
+        "短视频",
+        "腾讯",
+        "行业分析",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/embodied/6483693.html",
+      "url": "https://www.woshipm.com/embodied/6483693.html",
+      "title": "机器人领域的OpenAI，来了？",
+      "content_text": "Physical Intelligence 推出 Pi API beta，开始把「机器人大脑」按 API 卖。具身智能不缺融资和 demo，难的是私有化部署、数据合规与验收责任，这三关决定谁能把它卖成生意。 具身智能行业最近被一个老问题重新击中，机器人“大脑”，到底该怎么卖？ 过去两年，具身大脑公司普遍不缺融资、不缺论…",
+      "summary": "Physical Intelligence 推出 Pi API beta，开始把「机器人大脑」按 API 卖。具身智能不缺融资和 demo，难的是私有化部署、数据合规与验收责任，这三关决定谁能把它卖成生意。 具身智能行业最近被一个老问题重新击中，机器人“大脑”，到底该怎么卖？ 过去两年，具身大脑公司普遍不缺融资、不缺论…",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "具身智能",
+        "企业服务",
+        "机器人",
+        "行业分析",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6483435.html",
+      "url": "https://www.woshipm.com/ai/6483435.html",
+      "title": "我把 AI 做自媒体的 13 个 AI 技能，免费开源了",
+      "content_text": "作者把两年做自媒体沉淀的流程做成 13 个 AI 技能，全部免费开源：账号定位、选题、笔记分析、日复盘、录音处理都在里面。他讲了为什么放出来，以及一个新手该按什么顺序用。 我从2020年开始做小红书，2025年开始把 AI 用到自媒体运营上，到现在积累了很多工作流程，也做了自己的知识库、工作台之类的。 现在我把一套做自…",
+      "summary": "作者把两年做自媒体沉淀的流程做成 13 个 AI 技能，全部免费开源：账号定位、选题、笔记分析、日复盘、录音处理都在里面。他讲了为什么放出来，以及一个新手该按什么顺序用。 我从2020年开始做小红书，2025年开始把 AI 用到自媒体运营上，到现在积累了很多工作流程，也做了自己的知识库、工作台之类的。 现在我把一套做自…",
+      "date_published": "2026-10-24T00:00:00Z",
       "tags": [
         "AI",
         "个人随笔",
+        "AI工具",
         "AI应用",
-        "个人观点",
         "内容创作",
         "自媒体",
         "产品",
@@ -63,18 +170,17 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/share/6479427.html",
-      "url": "https://www.woshipm.com/share/6479427.html",
-      "title": "无爆品，不谈品牌",
-      "content_text": "没有爆品，请不要谈品牌。这句话听起来很刺耳，但这是一个扎心的事实。很多创业者开口闭口就是品牌定位、品牌调性、品牌故事，PPT做了几十页，却始终答不上来自己的爆品是哪一款。 “没有爆品，请不要谈品牌。” 这句话听起来很刺耳，但这是一个扎心的事实。 很多创业者、品牌负责人聊天，开口闭口就是“品牌定位”“品牌调性”“品牌故事…",
-      "summary": "没有爆品，请不要谈品牌。这句话听起来很刺耳，但这是一个扎心的事实。很多创业者开口闭口就是品牌定位、品牌调性、品牌故事，PPT做了几十页，却始终答不上来自己的爆品是哪一款。 “没有爆品，请不要谈品牌。” 这句话听起来很刺耳，但这是一个扎心的事实。 很多创业者、品牌负责人聊天，开口闭口就是“品牌定位”“品牌调性”“品牌故事…",
-      "date_published": "2026-10-23T00:00:00Z",
+      "id": "https://www.woshipm.com/share/6483667.html",
+      "url": "https://www.woshipm.com/share/6483667.html",
+      "title": "广告界教务长韦伯·扬：23条“旧元素新组合”的创意生成法则",
+      "content_text": "智威汤逊首席创作总监韦伯·扬留下两条判断：创意不过是旧元素的新组合，优秀广告人是通才而非专才。23条法则从创意五步法讲到魔岛理论，配可口可乐、美国陆军等经典案例。 詹姆斯・韦伯・扬（James Webb Young），智威汤逊（JWT）首席创作总监，广告生涯长达 60 余年，美国广告史上影响力最深远的创意大师之一。少年…",
+      "summary": "智威汤逊首席创作总监韦伯·扬留下两条判断：创意不过是旧元素的新组合，优秀广告人是通才而非专才。23条法则从创意五步法讲到魔岛理论，配可口可乐、美国陆军等经典案例。 詹姆斯・韦伯・扬（James Webb Young），智威汤逊（JWT）首席创作总监，广告生涯长达 60 余年，美国广告史上影响力最深远的创意大师之一。少年…",
+      "date_published": "2026-10-24T00:00:00Z",
       "tags": [
         "个人随笔",
-        "产品营销",
-        "品牌建设",
-        "电商运营",
-        "营销策略",
+        "案例分析",
+        "经验分享",
+        "行业观察",
         "产品",
         "运营",
         "商业"
@@ -90,100 +196,19 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6483130.html",
-      "url": "https://www.woshipm.com/ai/6483130.html",
-      "title": "我好像陷入了某种，AI时代的虚无主义。",
-      "content_text": "AI 让过去要折腾几个月的软件，现在几句话就能做出来，可写完稿坐在凌晨六点的人，只觉得空。做产品、写代码、做设计、做内容的朋友在饭桌上说的是同一句：一切好像都没什么意思了。这不是抑郁，是能力过剩之后的虚无。 最近一段时间，我好像得了某种怪病。 我开始变得容易暴躁，开始更加没有耐心，我明明可以创造、改变很多东西了，但是我…",
-      "summary": "AI 让过去要折腾几个月的软件，现在几句话就能做出来，可写完稿坐在凌晨六点的人，只觉得空。做产品、写代码、做设计、做内容的朋友在饭桌上说的是同一句：一切好像都没什么意思了。这不是抑郁，是能力过剩之后的虚无。 最近一段时间，我好像得了某种怪病。 我开始变得容易暴躁，开始更加没有耐心，我明明可以创造、改变很多东西了，但是我…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "AI",
-        "个人随笔",
-        "Claude",
-        "Codex",
-        "个人成长",
-        "个人观点",
-        "产品",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/chuangye/6476870.html",
-      "url": "https://www.woshipm.com/chuangye/6476870.html",
-      "title": "好的商业模式三句话就能讲清楚：从真伪需求判断到护城河构建的实战指南",
-      "content_text": "好的商业模式标准是实战派与系统化的结合。它的第一性原理是价值，是一个企业如何发现价值、创造价值和获取价值的过程。要素不是几个概念的孤立堆砌，而是要能说的人好表达、听的人好理解，大道至简。 很多分析商业模式的文章，要么太学术，要么不系统。 好的标准是「实战派+系统化」的结合，这样才能从本质上理解商业模式，来真正为自己所用…",
-      "summary": "好的商业模式标准是实战派与系统化的结合。它的第一性原理是价值，是一个企业如何发现价值、创造价值和获取价值的过程。要素不是几个概念的孤立堆砌，而是要能说的人好表达、听的人好理解，大道至简。 很多分析商业模式的文章，要么太学术，要么不系统。 好的标准是「实战派+系统化」的结合，这样才能从本质上理解商业模式，来真正为自己所用…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "创业学院",
-        "costco",
-        "会员制",
-        "商业模式",
-        "拼多多",
-        "瑞幸咖啡",
-        "产品",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/share/6483209.html",
-      "url": "https://www.woshipm.com/share/6483209.html",
-      "title": "从“反复比较”到“安心决策”：一套可操作的用户洞察公式",
-      "content_text": "用户行为只是表象，真正的洞察藏在情境、矛盾与期待的交织中。本文拆解“真实情境+内在矛盾+未满足期待”的推导链，结合JTBD框架与实战案例，教你从货架前的犹豫瞬间，挖出可验证、可行动的用户心理机制，让运营决策不再停留在“正确的废话”。 用户在货架前举起手机扫描、放下、又拿起另一瓶……这个动作本身不是洞察。洞察要回答的是：…",
-      "summary": "用户行为只是表象，真正的洞察藏在情境、矛盾与期待的交织中。本文拆解“真实情境+内在矛盾+未满足期待”的推导链，结合JTBD框架与实战案例，教你从货架前的犹豫瞬间，挖出可验证、可行动的用户心理机制，让运营决策不再停留在“正确的废话”。 用户在货架前举起手机扫描、放下、又拿起另一瓶……这个动作本身不是洞察。洞察要回答的是：…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "个人随笔",
-        "JTBD",
-        "场景营销",
-        "案例分析",
-        "用户洞察",
-        "运营方法论",
-        "产品",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/it/6482998.html",
-      "url": "https://www.woshipm.com/it/6482998.html",
-      "title": "中国企业出海的下一站：从品牌“敲门”，到跨境电商“搭桥”",
-      "content_text": "今年双十一，卖货只是表象，京东、阿里、字节纷纷借大促窗口亮出长期战略。速卖通联合天猫推出“中国品牌全球增长计划”，从试水走向全品牌出海覆盖，甚至下场孵化AI硬件品牌。本文深度拆解跨境电商分化格局下，速卖通如何与Temu、SHEIN走出差异化路线，以及中国品牌全球化从输出产能到输出品牌的必然跃迁。 今年双十一，是个有点不…",
-      "summary": "今年双十一，卖货只是表象，京东、阿里、字节纷纷借大促窗口亮出长期战略。速卖通联合天猫推出“中国品牌全球增长计划”，从试水走向全品牌出海覆盖，甚至下场孵化AI硬件品牌。本文深度拆解跨境电商分化格局下，速卖通如何与Temu、SHEIN走出差异化路线，以及中国品牌全球化从输出产能到输出品牌的必然跃迁。 今年双十一，是个有点不…",
-      "date_published": "2026-10-23T00:00:00Z",
+      "id": "https://www.woshipm.com/it/6483828.html",
+      "url": "https://www.woshipm.com/it/6483828.html",
+      "title": "小鹏汽车最美00后产品经理，喊“老登”喊到道歉",
+      "content_text": "小鹏汽车最近的一位00后美女产品经理，因为在发布会上喊了几声“老登”，不得不专门录视频道歉。 事情发生在10月15日的小鹏MONA L05预售发布会上。 图片来自微博用户@ArthurShen_Origin 当天，何小鹏人在巴黎，没能亲自到场，于是把舞台交给了年轻的产品团队。这群年轻人也确实没让老板失望，产品介绍得挺热…",
+      "summary": "小鹏汽车最近的一位00后美女产品经理，因为在发布会上喊了几声“老登”，不得不专门录视频道歉。 事情发生在10月15日的小鹏MONA L05预售发布会上。 图片来自微博用户@ArthurShen_Origin 当天，何小鹏人在巴黎，没能亲自到场，于是把舞台交给了年轻的产品团队。这群年轻人也确实没让老板失望，产品介绍得挺热…",
+      "date_published": "2026-10-24T00:00:00Z",
       "tags": [
         "业界动态",
-        "Temu",
-        "双十一",
-        "品牌出海",
-        "行业观察",
-        "跨境电商",
+        "ai",
+        "Monica",
+        "华为",
+        "小米",
+        "美团",
         "产品",
         "运营"
       ],
@@ -198,75 +223,21 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/chuangye/6483393.html",
-      "url": "https://www.woshipm.com/chuangye/6483393.html",
-      "title": "不能和朋友住在一起，就在手机里合租：这个像素 App 吸引了25万用户",
-      "content_text": "Peeps 用像素小屋把异地朋友装进同一个房间，靠自然传播做到 25 万用户、台湾 App Store 总榜第一。团队本想靠游戏留住人，分析长期行为后才发现，30 天留存提升 68% 的关键是「有人在意你回来」。 今天分享一个很温暖的 App，我很喜欢：Peeps，和朋友同居，https://playpeeps.app…",
-      "summary": "Peeps 用像素小屋把异地朋友装进同一个房间，靠自然传播做到 25 万用户、台湾 App Store 总榜第一。团队本想靠游戏留住人，分析长期行为后才发现，30 天留存提升 68% 的关键是「有人在意你回来」。 今天分享一个很温暖的 App，我很喜欢：Peeps，和朋友同居，https://playpeeps.app…",
-      "date_published": "2026-10-23T00:00:00Z",
+      "id": "https://www.woshipm.com/pd/6483649.html",
+      "url": "https://www.woshipm.com/pd/6483649.html",
+      "title": "双11预售开始了，定金、尾款和退款怎么管？",
+      "content_text": "双11预售里，一笔订单客户付900元、退200元，商家银行账户最终只收到680元。把每笔钱放回对应的订单和交易阶段，才能判断定金、尾款、退款各走到哪一步，差额该不该追。 双11进入预售期，商家的订单里开始同时出现几种情况： 有人刚付定金，有人在等付尾款，有人已经买了现货，还有人付完钱又申请退款。 运营看订单，客服看售后…",
+      "summary": "双11预售里，一笔订单客户付900元、退200元，商家银行账户最终只收到680元。把每笔钱放回对应的订单和交易阶段，才能判断定金、尾款、退款各走到哪一步，差额该不该追。 双11进入预售期，商家的订单里开始同时出现几种情况： 有人刚付定金，有人在等付尾款，有人已经买了现货，还有人付完钱又申请退款。 运营看订单，客服看售后…",
+      "date_published": "2026-10-24T00:00:00Z",
       "tags": [
-        "创业学院",
-        "AI应用",
-        "产品体验",
-        "用户增长",
-        "社交产品",
-        "产品",
-        "运营",
-        "商业"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/ai/6483135.html",
-      "url": "https://www.woshipm.com/ai/6483135.html",
-      "title": "YC CEO 谈小团队的时代：一个人干一百个人的活，创业的根本却一点没变",
-      "content_text": "一个人真能干一百个人的活，公司、投资、招聘会变成什么样？YC 掌门人 Garry Tan 的判断是：执行成本在塌，判断成本没塌。软件可以即时生成，但了解用户、把东西放到人面前、相信身边那几个认识的人，一点没变。 你有没有想过，如果一个人真的能干 100 个人的活，那公司、投资、招聘，这三件事会变成什么样子？这不是一句口…",
-      "summary": "一个人真能干一百个人的活，公司、投资、招聘会变成什么样？YC 掌门人 Garry Tan 的判断是：执行成本在塌，判断成本没塌。软件可以即时生成，但了解用户、把东西放到人面前、相信身边那几个认识的人，一点没变。 你有没有想过，如果一个人真的能干 100 个人的活，那公司、投资、招聘，这三件事会变成什么样子？这不是一句口…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "AI",
-        "个人随笔",
-        "Anthropic",
-        "OpenClaw",
-        "Supabase",
-        "行业观察",
-        "产品",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/share/6483080.html",
-      "url": "https://www.woshipm.com/share/6483080.html",
-      "title": "Windows 想清爽一点？试试 Win11Debloat：功能、用法与避坑指南",
-      "content_text": "重装完 Windows 11，第一件事往往不是装软件，而是清干净预装应用、资讯流和后台管家。开源脚本 Win11Debloat 用一条 PowerShell 命令处理四类系统冗余，6 万 Star、MIT 协议，但默认勾选和注册表改动，动手前得看清。 每次给新电脑开荒，或者重装完 Windows 11，总有一段让人血压…",
-      "summary": "重装完 Windows 11，第一件事往往不是装软件，而是清干净预装应用、资讯流和后台管家。开源脚本 Win11Debloat 用一条 PowerShell 命令处理四类系统冗余，6 万 Star、MIT 协议，但默认勾选和注册表改动，动手前得看清。 每次给新电脑开荒，或者重装完 Windows 11，总有一段让人血压…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "个人随笔",
-        "Copilot",
-        "Github",
-        "Windows",
-        "功能分析",
+        "产品设计",
+        "支付宝",
+        "淘宝",
+        "电商运营",
         "经验分享",
         "产品",
-        "运营"
+        "运营",
+        "商业"
       ],
       "authors": [
         {
@@ -279,18 +250,18 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6478947.html",
-      "url": "https://www.woshipm.com/ai/6478947.html",
-      "title": "Prompt、Skill、Project、MCP，一套完整的 AI 工作流！",
-      "content_text": "Prompt、Skill、Project、MCP 频繁出现，成为解锁 AI 高效工作的关键，但很多人对这四个词一知半解。文章逐个拆解它们的概念、特点与适用场景，并说明各自能为设计环节带来的提效作用，帮你在合适的任务里用对工具。 当下 AI 技术迭代速度飞快，Prompt、Skill、Project、MCP 这四个词汇频…",
-      "summary": "Prompt、Skill、Project、MCP 频繁出现，成为解锁 AI 高效工作的关键，但很多人对这四个词一知半解。文章逐个拆解它们的概念、特点与适用场景，并说明各自能为设计环节带来的提效作用，帮你在合适的任务里用对工具。 当下 AI 技术迭代速度飞快，Prompt、Skill、Project、MCP 这四个词汇频…",
-      "date_published": "2026-10-23T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6483646.html",
+      "url": "https://www.woshipm.com/ai/6483646.html",
+      "title": "别再争谁是“中国版Muse”了，卖铲子的ICT厂商先赚到了钱",
+      "content_text": "常驻型 Agent 将 AI 搬上云端，重写了机房的 CPU、存储与网络配比。国内跨平台 Agent 受阻，基础设施先拿订单，成色仍看应用层。 硅谷大厂在 AI 应用层的新一轮抢位，已经把战火烧到了云端机房。 10 月 22 日凌晨，正处于 IPO 冲刺期的 Anthropic 发布了全新的个人与工作智能体应用 Cla…",
+      "summary": "常驻型 Agent 将 AI 搬上云端，重写了机房的 CPU、存储与网络配比。国内跨平台 Agent 受阻，基础设施先拿订单，成色仍看应用层。 硅谷大厂在 AI 应用层的新一轮抢位，已经把战火烧到了云端机房。 10 月 22 日凌晨，正处于 IPO 冲刺期的 Anthropic 发布了全新的个人与工作智能体应用 Cla…",
+      "date_published": "2026-10-24T00:00:00Z",
       "tags": [
         "AI",
-        "个人随笔",
-        "Claude",
-        "MCP",
-        "基础知识",
+        "Meta",
+        "Muse",
+        "企业服务",
+        "行业分析",
         "产品",
         "运营",
         "商业"
@@ -306,20 +277,20 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6483114.html",
-      "url": "https://www.woshipm.com/ai/6483114.html",
-      "title": "Claude Duet上线：关掉电脑后，AI助理还能继续工作",
-      "content_text": "截至 10 月 20 日，Meta Muse 在美国下载约 1020 万次；10 月 21 日 Anthropic 开放 Claude Duet 研究预览，能接 6000 多种工具，关掉电脑任务仍在云端继续。全天候的边界、额度会不会被跑光，比产品名更值得弄清。 你可能并不缺一个能回答问题的 AI，真正费时间的是在邮箱、…",
-      "summary": "截至 10 月 20 日，Meta Muse 在美国下载约 1020 万次；10 月 21 日 Anthropic 开放 Claude Duet 研究预览，能接 6000 多种工具，关掉电脑任务仍在云端继续。全天候的边界、额度会不会被跑光，比产品名更值得弄清。 你可能并不缺一个能回答问题的 AI，真正费时间的是在邮箱、…",
-      "date_published": "2026-10-23T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6483681.html",
+      "url": "https://www.woshipm.com/ai/6483681.html",
+      "title": "企业上AI项目，FDE到底在做什么？",
+      "content_text": "AI带火了FDE岗位，但它的价值远不止于驻场开发。本文深入拆解FDE如何从业务现场挖掘真实需求、通过七步工作流将模糊问题转化为可运行系统，并厘清其与产品经理、工程团队的协作边界。最终揭示：一个成功的FDE项目，是让系统在FDE离场后依然能自主运转。 AI直接带火了FDE这个岗位，很多公司已经开始开始招募FDE，或者是要…",
+      "summary": "AI带火了FDE岗位，但它的价值远不止于驻场开发。本文深入拆解FDE如何从业务现场挖掘真实需求、通过七步工作流将模糊问题转化为可运行系统，并厘清其与产品经理、工程团队的协作边界。最终揭示：一个成功的FDE项目，是让系统在FDE离场后依然能自主运转。 AI直接带火了FDE这个岗位，很多公司已经开始开始招募FDE，或者是要…",
+      "date_published": "2026-10-24T00:00:00Z",
       "tags": [
         "AI",
         "个人随笔",
-        "AI产品",
-        "Anthropic",
-        "Claude",
-        "Meta Muse",
-        "功能分析",
+        "AI落地",
+        "FDE",
+        "工作流程",
+        "经验总结",
+        "项目交付",
         "产品"
       ],
       "authors": [
@@ -333,74 +304,102 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6483288.html",
-      "url": "https://www.woshipm.com/ai/6483288.html",
-      "title": "Claude Duet 来了，Personal Agent 大战又添一员",
-      "content_text": "当AI助手不再只是被动应答，而是主动替你梳理任务、推进工作，Personal Agent的竞争便进入了新阶段。Anthropic推出的Claude Duet，能跨应用持续跟进任务，在需要时向你确认。本文从产品设计、交互逻辑与行业格局出发，拆解这款助手如何重新定义人机协作的边界。 早上拿起手机，AI 先发来一句：“5件事…",
-      "summary": "当AI助手不再只是被动应答，而是主动替你梳理任务、推进工作，Personal Agent的竞争便进入了新阶段。Anthropic推出的Claude Duet，能跨应用持续跟进任务，在需要时向你确认。本文从产品设计、交互逻辑与行业格局出发，拆解这款助手如何重新定义人机协作的边界。 早上拿起手机，AI 先发来一句：“5件事…",
-      "date_published": "2026-10-23T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6483642.html",
+      "url": "https://www.woshipm.com/ai/6483642.html",
+      "title": "从角色聊天到互动叙事世界，AI原生娱乐的下一站",
+      "content_text": "字节旗下猫箱一季度内购收入超2200万美元，登顶中国iOS生成式AI应用；同期Character.AI申请Chapter 11，每月亏损800万至900万美元。角色聊天之后，互动叙事世界成为下一站。 虚拟角色的新生活。 Sensor Tower发布的2026年全球AI应用趋势报告显示，字节跳动旗下的猫箱位居第一季度中国…",
+      "summary": "字节旗下猫箱一季度内购收入超2200万美元，登顶中国iOS生成式AI应用；同期Character.AI申请Chapter 11，每月亏损800万至900万美元。角色聊天之后，互动叙事世界成为下一站。 虚拟角色的新生活。 Sensor Tower发布的2026年全球AI应用趋势报告显示，字节跳动旗下的猫箱位居第一季度中国…",
+      "date_published": "2026-10-24T00:00:00Z",
       "tags": [
         "AI",
-        "个人随笔",
-        "AI助手",
-        "Claude Duet",
-        "Personal Agent",
-        "产品分析",
-        "任务管理",
-        "行业观察"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/ai/6483147.html",
-      "url": "https://www.woshipm.com/ai/6483147.html",
-      "title": "AI漫剧的老板们在给算力打工",
-      "content_text": "AI 漫剧一分钟的制作成本从 1.5 万元跌到 400 元，做剧的人却没觉得手头宽裕。人力占比从六成掉到三四成，算力成了大头，一集算力成本从 17 元涨到 80 到 100 元，抽卡式生成还要为废片买单。省下来的钱，换了个地方交。 AI漫剧玩家分两种： 一种自己掏钱做剧，赌平台分账。另一种接单代工，按分钟收制作费，片子…",
-      "summary": "AI 漫剧一分钟的制作成本从 1.5 万元跌到 400 元，做剧的人却没觉得手头宽裕。人力占比从六成掉到三四成，算力成了大头，一集算力成本从 17 元涨到 80 到 100 元，抽卡式生成还要为废片买单。省下来的钱，换了个地方交。 AI漫剧玩家分两种： 一种自己掏钱做剧，赌平台分账。另一种接单代工，按分钟收制作费，片子…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "AI",
-        "个人随笔",
         "AI应用",
-        "DataEye",
-        "抖音",
-        "行业观察",
-        "产品",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/share/6483099.html",
-      "url": "https://www.woshipm.com/share/6483099.html",
-      "title": "1号位想要拿到结果，需要具备怎样的决策能力？",
-      "content_text": "很多业务负责人能把数据讲清楚、知道该做哪些动作，一到资源怎么投、项目该不该继续，就没了完整思考。从经营目标到业务结构拆解，再到归因与验证，1 号位的决策能力，说到底是把「做对选择」放在「提高执行效率」前面。 这几年做本地生活，接触过不少业务负责人，我发现一个问题，很多人能够把业务数据讲清楚，也知道应该做哪些运营动作，但…",
-      "summary": "很多业务负责人能把数据讲清楚、知道该做哪些动作，一到资源怎么投、项目该不该继续，就没了完整思考。从经营目标到业务结构拆解，再到归因与验证，1 号位的决策能力，说到底是把「做对选择」放在「提高执行效率」前面。 这几年做本地生活，接触过不少业务负责人，我发现一个问题，很多人能够把业务数据讲清楚，也知道应该做哪些运营动作，但…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "个人随笔",
-        "个人观点",
-        "企业管理",
-        "本地生活",
+        "Character.ai",
+        "内容创作",
+        "行业分析",
         "产品",
         "运营",
         "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6483690.html",
+      "url": "https://www.woshipm.com/ai/6483690.html",
+      "title": "WorkBuddy干活变慢还费token，一招教你瘦身加速",
+      "content_text": "WorkBuddy 用久了变慢还费 token，老马说这是 Skill、MCP 和记忆规则越滚越大，每轮对话都塞进上下文。他给出按报告瘦身的办法：关技能、关连接器、蒸馏记忆文件。 经常有小伙伴跟老马反馈，WorkBuddy一开始安装完使用的时候，还算蛮快的，后面使用了一段时间，发现干活速度变慢了，还特别消耗token，…",
+      "summary": "WorkBuddy 用久了变慢还费 token，老马说这是 Skill、MCP 和记忆规则越滚越大，每轮对话都塞进上下文。他给出按报告瘦身的办法：关技能、关连接器、蒸馏记忆文件。 经常有小伙伴跟老马反馈，WorkBuddy一开始安装完使用的时候，还算蛮快的，后面使用了一段时间，发现干活速度变慢了，还特别消耗token，…",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "AI产品",
+        "WorkBuddy",
+        "经验分享",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/share/6483648.html",
+      "url": "https://www.woshipm.com/share/6483648.html",
+      "title": "AI辅助鸿蒙开发初体验：用大模型加速ArkUI页面搭建 #1024鸿蒙实战共创#",
+      "content_text": "鸿蒙开发新手用AI辅助写ArkTS代码，结果踩坑不断：语法混用、API版本错乱、报错误判……本文真实记录了一次备忘录Demo的实践过程，总结AI在鸿蒙开发中的适用边界与避坑指南，给同样入门的你一份实用参考。 作为一名刚接触鸿蒙开发的新手，刚开始写ArkTS、搭建ArkUI页面的时候，经常会被语法规则、组件属性、布局嵌套…",
+      "summary": "鸿蒙开发新手用AI辅助写ArkTS代码，结果踩坑不断：语法混用、API版本错乱、报错误判……本文真实记录了一次备忘录Demo的实践过程，总结AI在鸿蒙开发中的适用边界与避坑指南，给同样入门的你一份实用参考。 作为一名刚接触鸿蒙开发的新手，刚开始写ArkTS、搭建ArkUI页面的时候，经常会被语法规则、组件属性、布局嵌套…",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "个人随笔",
+        "鸿蒙",
+        "AI应用",
+        "ArkTS",
+        "经验总结",
+        "鸿蒙开发",
+        "鸿蒙生态",
+        "鸿蒙系统"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6479433.html",
+      "url": "https://www.woshipm.com/ai/6479433.html",
+      "title": "AI让市场调研效率提升300%",
+      "content_text": "一份完整调研从需求落地到出具洞察报告，少则7天，多则半个月甚至更久，耗时耗力耗钱。AI的入局直接把调研效率拉到新高度，整体效率提升不止300%，成本砍掉60%，洞察精准度翻倍。 一份完整调研从需求落地到出具洞察报告，少则7天，多则半个月，甚至更久，耗时、耗力、耗钱。AI的入局，直接把调研效率拉到新高度——整体效率提升不…",
+      "summary": "一份完整调研从需求落地到出具洞察报告，少则7天，多则半个月甚至更久，耗时耗力耗钱。AI的入局直接把调研效率拉到新高度，整体效率提升不止300%，成本砍掉60%，洞察精准度翻倍。 一份完整调研从需求落地到出具洞察报告，少则7天，多则半个月，甚至更久，耗时、耗力、耗钱。AI的入局，直接把调研效率拉到新高度——整体效率提升不…",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "AI工具",
+        "市场洞察",
+        "市场调研",
+        "提示词",
+        "竞品分析",
+        "产品"
       ],
       "authors": [
         {
@@ -675,6 +674,27 @@
       }
     },
     {
+      "id": "https://sspai.com/post/117169",
+      "url": "https://sspai.com/post/117169",
+      "title": "本周看什么 | 最近值得一看的 12 部作品",
+      "content_text": "📅本周新预告《指环王：力量之戒第三季》正式预告10月22日，剧集《指环王：力量之戒第三季》发布了正式预告，将于11月11日上线PrimeVideo。故事发生在第二季事件的数年之后，正值精灵与索伦之战的 ...查看全文",
+      "summary": "📅本周新预告《指环王：力量之戒第三季》正式预告10月22日，剧集《指环王：力量之戒第三季》发布了正式预告，将于11月11日上线PrimeVideo。故事发生在第二季事件的数年之后，正值精灵与索伦之战的 ...查看全文",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "效率",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "少数派"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sspai-com"
+      }
+    },
+    {
       "id": "https://sspai.com/post/116398",
       "url": "https://sspai.com/post/116398",
       "title": "TDS REVIEW｜OPPO Enco X4 降噪真无线耳机体验",
@@ -696,121 +716,15 @@
       }
     },
     {
-      "id": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html",
-      "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html",
-      "title": "科技爱好者周刊（第 416 期）：编程已经面目全非",
-      "content_text": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 本周启用的上海大歌剧院内部装修。（via） 编程已经面目全非 大多数人只看到，AI 改变了程序员这个职业。很少有人提到，AI 也改变了编程。…",
-      "summary": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 本周启用的上海大歌剧院内部装修。（via） 编程已经面目全非 大多数人只看到，AI 改变了程序员这个职业。很少有人提到，AI 也改变了编程。…",
+      "id": "https://www.reddit.com/r/memes/comments/1xd9q2w/that_would_be_the_final_straw/",
+      "url": "https://www.reddit.com/r/memes/comments/1xd9q2w/that_would_be_the_final_straw/",
+      "title": "that would be the final straw!",
+      "content_text": "submitted by /u/Better-Compote399 to r/memes [link] [comments]",
+      "summary": "submitted by /u/Better-Compote399 to r/memes [link] [comments]",
       "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://preview.redd.it/dpt7cxzev6xh1.jpeg?width=320&crop=smart&auto=webp&s=84535092ad8c5d73c9e5a25fa287babc67e9b70e",
       "tags": [
-        "Weekly",
-        "科技",
-        "周刊"
-      ],
-      "authors": [
-        {
-          "name": "阮一峰的网络日志"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "feeds-feedburner-com"
-      }
-    },
-    {
-      "id": "https://sspai.com/post/115090",
-      "url": "https://sspai.com/post/115090",
-      "title": "终于吃到了那颗梦寐以求的小药丸：我的 ADHD 诊疗记",
-      "content_text": "药物不能解决所有问题，这是是我学到的重要一课。查看全文",
-      "summary": "药物不能解决所有问题，这是是我学到的重要一课。查看全文",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "效率",
-        "工具"
-      ],
-      "authors": [
-        {
-          "name": "少数派"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "sspai-com"
-      }
-    },
-    {
-      "id": "https://sspai.com/post/116953",
-      "url": "https://sspai.com/post/116953",
-      "title": "派早报：荣耀发布 WIN2 系列新品、Google 开源 TorchTPU 等",
-      "content_text": "OpenBSD 8.0 正式发布、腾讯宣布元宝搜索对外开放等。查看全文",
-      "summary": "OpenBSD 8.0 正式发布、腾讯宣布元宝搜索对外开放等。查看全文",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "效率",
-        "工具"
-      ],
-      "authors": [
-        {
-          "name": "少数派"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "sspai-com"
-      }
-    },
-    {
-      "id": "https://sspai.com/post/115437",
-      "url": "https://sspai.com/post/115437",
-      "title": "把 Muse 装进 ESP-Mosaico：做一个没用的东西，证明 Vibe Coding 也在硬件领域快速成长",
-      "content_text": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
-      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "效率",
-        "工具"
-      ],
-      "authors": [
-        {
-          "name": "少数派"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "sspai-com"
-      }
-    },
-    {
-      "id": "https://sspai.com/post/116923",
-      "url": "https://sspai.com/post/116923",
-      "title": "前瞻｜Apple 新品看点：MacBook 或将推出 OLED 触屏版本",
-      "content_text": "配备触摸屏的 OLED 版 MacBook 型号很可能是这次活动的主角。查看全文",
-      "summary": "配备触摸屏的 OLED 版 MacBook 型号很可能是这次活动的主角。查看全文",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "效率",
-        "工具"
-      ],
-      "authors": [
-        {
-          "name": "少数派"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "sspai-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/PoursTea/comments/1xcgl6e/_/",
-      "url": "https://www.reddit.com/r/PoursTea/comments/1xcgl6e/_/",
-      "title": "💯",
-      "content_text": "submitted by /u/No_Cow5624 to r/PoursTea [link] [comments]",
-      "summary": "submitted by /u/No_Cow5624 to r/PoursTea [link] [comments]",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://preview.redd.it/29ybhawdd0xh1.jpeg?width=640&crop=smart&auto=webp&s=df5bb28534d0d33f5dc6c3c92b8ca745e5aa92c1",
-      "tags": [
-        "PoursTea",
+        "memes",
         "社区",
         "热榜"
       ],
@@ -825,13 +739,59 @@
       }
     },
     {
-      "id": "https://www.reddit.com/r/technology/comments/1xcg8as/pure_arrogance_anger_in_finland_as_google/",
-      "url": "https://www.reddit.com/r/technology/comments/1xcg8as/pure_arrogance_anger_in_finland_as_google/",
-      "title": "‘Pure arrogance’: anger in Finland as Google illegally fells 250,000 trees for datacentre",
-      "content_text": "submitted by /u/WombatusMighty to r/technology [link] [comments]",
-      "summary": "submitted by /u/WombatusMighty to r/technology [link] [comments]",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://external-preview.redd.it/lFXQEMQFV6biLNRdb5GCAM5QH6hE_uoy07Oh_R_8gGY.jpeg?width=640&crop=smart&auto=webp&s=63a777f52d7ebe5e8805ffb926e4bca2f7c560c6",
+      "id": "https://www.reddit.com/r/OneOrangeBraincell/comments/1xdbfqc/orange_cat_sleeping_on_a_road/",
+      "url": "https://www.reddit.com/r/OneOrangeBraincell/comments/1xdbfqc/orange_cat_sleeping_on_a_road/",
+      "title": "orange cat sleeping on a road",
+      "content_text": "submitted by /u/Zestyclose-Salad-290 to r/OneOrangeBraincell [link] [comments]",
+      "summary": "submitted by /u/Zestyclose-Salad-290 to r/OneOrangeBraincell [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://external-preview.redd.it/emduM2d0cnFjN3hoMbr7hYoyRGYUlv7IJfsYSGoY7q8rNbi06HJAYJhzEPM2.png?width=640&crop=smart&auto=webp&s=0f42c952180ed0502c3e12bbb77b652a7ea8a4e8",
+      "tags": [
+        "OneOrangeBraincell",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/AbsoluteUnits/comments/1xdtosk/of_garfield_i_mean_of_a_cat/",
+      "url": "https://www.reddit.com/r/AbsoluteUnits/comments/1xdtosk/of_garfield_i_mean_of_a_cat/",
+      "title": "of garfield I mean of a cat",
+      "content_text": "submitted by /u/Uunicorned to r/AbsoluteUnits [link] [comments]",
+      "summary": "submitted by /u/Uunicorned to r/AbsoluteUnits [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://preview.redd.it/qf2qwvnyzaxh1.jpeg?width=320&crop=smart&auto=webp&s=1285beec7b0d4b5b472ef351337c8c4906dac329",
+      "tags": [
+        "AbsoluteUnits",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/technology/comments/1xdawdy/wolves_roam_into_finnish_villages_after_google/",
+      "url": "https://www.reddit.com/r/technology/comments/1xdawdy/wolves_roam_into_finnish_villages_after_google/",
+      "title": "Wolves roam into Finnish villages after Google destroys 1,300 acres of forest for AI data centers",
+      "content_text": "submitted by /u/Miserable_Phase_2519 to r/technology [link] [comments]",
+      "summary": "submitted by /u/Miserable_Phase_2519 to r/technology [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://external-preview.redd.it/uIm8pRm1Ro4viPHbrizplw3S8dJwvvukgeWRGgbSzVs.jpeg?width=640&crop=smart&auto=webp&s=d6523dc28889cdd61e1fc16c8a2324a9862f6c6d",
       "tags": [
         "technology",
         "社区",
@@ -848,15 +808,15 @@
       }
     },
     {
-      "id": "https://www.reddit.com/r/interestingasfuck/comments/1xcfa65/workers_manually_throw_a_torch_to_ignite_the/",
-      "url": "https://www.reddit.com/r/interestingasfuck/comments/1xcfa65/workers_manually_throw_a_torch_to_ignite_the/",
-      "title": "workers manually throw a torch to ignite the ignition system, when the automatic ignition system fails",
-      "content_text": "submitted by /u/Proof_Juggernaut1582 to r/interestingasfuck [link] [comments]",
-      "summary": "submitted by /u/Proof_Juggernaut1582 to r/interestingasfuck [link] [comments]",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://external-preview.redd.it/Y2xhcndqMjMxMHhoMVipXMgujeoXLs3x4NEFpjLDnWvWsPNPS2WeKazLtzh0.png?width=640&crop=smart&auto=webp&s=8d2dab7cd1f91acf12e55945186ec33015f7a7ab",
+      "id": "https://www.reddit.com/r/politics/comments/1xdj125/white_house_directly_intervened_to_shut_down/",
+      "url": "https://www.reddit.com/r/politics/comments/1xdj125/white_house_directly_intervened_to_shut_down/",
+      "title": "White House Directly Intervened to Shut Down Epstein Files Probe",
+      "content_text": "submitted by /u/Aggravating_Money992 to r/politics [link] [comments]",
+      "summary": "submitted by /u/Aggravating_Money992 to r/politics [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://external-preview.redd.it/hpoPu3NlGE2buDsjDC6yEC7V4prc_zg2ZIWNJR3Z-fM.jpeg?width=640&crop=smart&auto=webp&s=032c354dcdb44a78dcf61dd95f5db5d6ad2616bb",
       "tags": [
-        "interestingasfuck",
+        "politics",
         "社区",
         "热榜"
       ],
@@ -871,36 +831,13 @@
       }
     },
     {
-      "id": "https://www.reddit.com/r/meirl/comments/1xctmzy/meirl/",
-      "url": "https://www.reddit.com/r/meirl/comments/1xctmzy/meirl/",
-      "title": "meirl",
-      "content_text": "submitted by /u/writeitregreddit to r/meirl [link] [comments]",
-      "summary": "submitted by /u/writeitregreddit to r/meirl [link] [comments]",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://preview.redd.it/1widnfrnu2xh1.png?width=640&crop=smart&auto=webp&s=b012dff2dafeb183429e72adb84a9f60f3cb4324",
-      "tags": [
-        "meirl",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/MadeMeSmile/comments/1xcfmf7/when_you_discover_something_fascinating_for_the/",
-      "url": "https://www.reddit.com/r/MadeMeSmile/comments/1xcfmf7/when_you_discover_something_fascinating_for_the/",
-      "title": "When you discover something fascinating for the first time.",
-      "content_text": "submitted by /u/Main_Locksmith_2543 to r/MadeMeSmile [link] [comments]",
-      "summary": "submitted by /u/Main_Locksmith_2543 to r/MadeMeSmile [link] [comments]",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://external-preview.redd.it/YWtleXlnMGY0MHhoMaSyPOfKi7G8Rxyk2jWf2-4W-xODnJCDDx-Sh6dAw9Yb.jpeg?width=640&crop=smart&auto=webp&s=3cafd0c24bc1ecd65ca9edfef1826eba25fd4d62",
+      "id": "https://www.reddit.com/r/MadeMeSmile/comments/1xdpq7z/true_friendship_he_politely_pushes_his_owners/",
+      "url": "https://www.reddit.com/r/MadeMeSmile/comments/1xdpq7z/true_friendship_he_politely_pushes_his_owners/",
+      "title": "True friendship: He politely pushes his owner's hand to feed his blind buddy before taking his own treat.",
+      "content_text": "Kugen was born without eyes, but he never has to worry about being left behind because Xiao Huang is always looking out for him. Every single time their owner o…",
+      "summary": "Kugen was born without eyes, but he never has to worry about being left behind because Xiao Huang is always looking out for him. Every single time their owner o…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://external-preview.redd.it/cWw5cjYwejk1YXhoMWmoTVYDxccryP2JPzgZi-bruIh5V5cAjZydz6dg1Ieg.jpeg?width=640&crop=smart&auto=webp&s=eedcd101d3126092db4c5215dca4ff56827c9b0d",
       "tags": [
         "MadeMeSmile",
         "社区",
@@ -917,242 +854,13 @@
       }
     },
     {
-      "id": "https://www.reddit.com/r/whatisit/comments/1xcmsv4/what_is_this_small_object_i_found_in_my_sons_room/",
-      "url": "https://www.reddit.com/r/whatisit/comments/1xcmsv4/what_is_this_small_object_i_found_in_my_sons_room/",
-      "title": "What is this small object I found in my son’s room?",
-      "content_text": "Found in a pill bottle but I don’t think it’s a pill. Around the size of a grain of rice, when I asked him about he would only tell me he ‘just found it’ and re…",
-      "summary": "Found in a pill bottle but I don’t think it’s a pill. Around the size of a grain of rice, when I asked him about he would only tell me he ‘just found it’ and re…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://preview.redd.it/6dd32iuvl1xh1.jpeg?width=640&crop=smart&auto=webp&s=4320ef633727d6c758b13c159519da8b19d1318d",
-      "tags": [
-        "whatisit",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/pcmasterrace/comments/1xcn2pr/we_moved_our_gaming_project_in_yemen_to_a_safer/",
-      "url": "https://www.reddit.com/r/pcmasterrace/comments/1xcn2pr/we_moved_our_gaming_project_in_yemen_to_a_safer/",
-      "title": "We moved our gaming project in Yemen to a safer location. Thanks to a donated RTX 4060, the games go on",
-      "content_text": "submitted by /u/maho90 to r/pcmasterrace [link] [comments]",
-      "summary": "submitted by /u/maho90 to r/pcmasterrace [link] [comments]",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://preview.redd.it/ol0gz0kmn1xh1.jpeg?width=640&crop=smart&auto=webp&s=52d7947bd4299cace68b59599d7b9a8d3fb0b489",
-      "tags": [
-        "pcmasterrace",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/BeAmazed/comments/1xcnjox/the_alljapan_costume_contest/",
-      "url": "https://www.reddit.com/r/BeAmazed/comments/1xcnjox/the_alljapan_costume_contest/",
-      "title": "The All-Japan Costume Contest",
-      "content_text": "submitted by /u/IdristheInt to r/BeAmazed [link] [comments]",
-      "summary": "submitted by /u/IdristheInt to r/BeAmazed [link] [comments]",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://external-preview.redd.it/eGVsZTNqanBxMXhoMRgh2t6Sz9eWoQ2k-jRheXmOSRjiiYIRkm3orKk9N-V8.jpeg?width=320&crop=smart&auto=webp&s=4b1e3c3f14b01f2e3580d3c2140bb0d66dd92dcb",
-      "tags": [
-        "BeAmazed",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/mildlyinfuriating/comments/1xcg2ro/tesla_back_in_2021/",
-      "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1xcg2ro/tesla_back_in_2021/",
-      "title": "Tesla back in 2021",
-      "content_text": "Buying a feature that already built in your car is crazy submitted by /u/Opposite_Bowl657 to r/mildlyinfuriating [link] [comments]",
-      "summary": "Buying a feature that already built in your car is crazy submitted by /u/Opposite_Bowl657 to r/mildlyinfuriating [link] [comments]",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://preview.redd.it/7xsgg9tp80xh1.jpeg?width=640&crop=smart&auto=webp&s=c7799a209b1f5c6492dece3b8a9f5106ecf3560e",
-      "tags": [
-        "mildlyinfuriating",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/mildlyinfuriating/comments/1xcu98o/new_tattoo_transferred_to_sheets/",
-      "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1xcu98o/new_tattoo_transferred_to_sheets/",
-      "title": "New tattoo transferred to sheets",
-      "content_text": "jump scare waking up today i took the wrap off and forgot to re wrap and fell asleep lol, he’s very fresh and any colored tattoo weaps a lot so it’s normal but…",
-      "summary": "jump scare waking up today i took the wrap off and forgot to re wrap and fell asleep lol, he’s very fresh and any colored tattoo weaps a lot so it’s normal but…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://preview.redd.it/5dh1btfvy2xh1.jpeg?width=140&height=140&crop=1:1,smart&auto=webp&s=4e9c1339c279989664299929c02a7fe6ff9047a7",
-      "tags": [
-        "mildlyinfuriating",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/MadeMeSmile/comments/1xcuydo/michael_j_fox_wishes_christopher_lloyd_a_happy/",
-      "url": "https://www.reddit.com/r/MadeMeSmile/comments/1xcuydo/michael_j_fox_wishes_christopher_lloyd_a_happy/",
-      "title": "Michael J. Fox Wishes Christopher Lloyd a Happy 88th Birthday on Instagram",
-      "content_text": "submitted by /u/MOinthepast to r/MadeMeSmile [link] [comments]",
-      "summary": "submitted by /u/MOinthepast to r/MadeMeSmile [link] [comments]",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://preview.redd.it/n57i3tup33xh1.jpeg?width=640&crop=smart&auto=webp&s=db77c40c83dd2d91a25a1ba42d751c509a7065a9",
-      "tags": [
-        "MadeMeSmile",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/interestingasfuck/comments/1xcwnp5/mexican_student_invented_an_ultrasonic_fire/",
-      "url": "https://www.reddit.com/r/interestingasfuck/comments/1xcwnp5/mexican_student_invented_an_ultrasonic_fire/",
-      "title": "Mexican Student invented an Ultrasonic fire Extinguisher and won a golden medal in Indonesia",
-      "content_text": "submitted by /u/liomisse94 to r/interestingasfuck [link] [comments]",
-      "summary": "submitted by /u/liomisse94 to r/interestingasfuck [link] [comments]",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://external-preview.redd.it/ZTd3c2xpZGJnM3hoMdL0Ja0_tyG7-RupAhsaqacyBXq2HzrMF8uoUrRN9kA6.png?width=320&crop=smart&auto=webp&s=9cb811c39e6484b216d92dbe54fb1cc361b22880",
-      "tags": [
-        "interestingasfuck",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/meirl/comments/1xcdo4p/meirl/",
-      "url": "https://www.reddit.com/r/meirl/comments/1xcdo4p/meirl/",
-      "title": "Meirl",
-      "content_text": "submitted by /u/Distinct_Ad456 to r/meirl [link] [comments]",
-      "summary": "submitted by /u/Distinct_Ad456 to r/meirl [link] [comments]",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://preview.redd.it/he0qcx32kzwh1.jpeg?width=640&crop=smart&auto=webp&s=51c453ad21628defdde992e6bf9f1f0d5a9d9058",
-      "tags": [
-        "meirl",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/meirl/comments/1xcm3c9/meirl/",
-      "url": "https://www.reddit.com/r/meirl/comments/1xcm3c9/meirl/",
-      "title": "Meirl",
-      "content_text": "submitted by /u/Ill-Instruction8466 to r/meirl [link] [comments]",
-      "summary": "submitted by /u/Ill-Instruction8466 to r/meirl [link] [comments]",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://preview.redd.it/a702lma6h1xh1.jpeg?width=640&crop=smart&auto=webp&s=c7821e505d4718b0c48cd8569dd51991eba1761c",
-      "tags": [
-        "meirl",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/news/comments/1xclnum/judge_orders_trump_to_sit_for_a_deposition_in_his/",
-      "url": "https://www.reddit.com/r/news/comments/1xclnum/judge_orders_trump_to_sit_for_a_deposition_in_his/",
-      "title": "Judge orders Trump to sit for a deposition in his defamation lawsuit against the BBC by Dec. 11",
-      "content_text": "submitted by /u/minervascats to r/news [link] [comments]",
-      "summary": "submitted by /u/minervascats to r/news [link] [comments]",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "news",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/interesting/comments/1xcq5hb/i_thought_it_was_a_unicorn/",
-      "url": "https://www.reddit.com/r/interesting/comments/1xcq5hb/i_thought_it_was_a_unicorn/",
-      "title": "I thought it was a unicorn",
-      "content_text": "submitted by /u/Leather_Whole_2078 to r/interesting [link] [comments]",
-      "summary": "submitted by /u/Leather_Whole_2078 to r/interesting [link] [comments]",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://external-preview.redd.it/b3JybHExZGw3MnhoMeynuH-6lt13rATK5IEwEUyGt4vpv6dz5yqaI9Vhuqq1.png?width=320&crop=smart&auto=webp&s=1fdb3d9be1eae83cb7303899faf0ad1dc6136351",
+      "id": "https://www.reddit.com/r/interesting/comments/1xd86lq/this_how_they_cheat_in_cycling_races/",
+      "url": "https://www.reddit.com/r/interesting/comments/1xd86lq/this_how_they_cheat_in_cycling_races/",
+      "title": "This how they cheat in cycling races",
+      "content_text": "submitted by /u/No-Lock216 to r/interesting [link] [comments]",
+      "summary": "submitted by /u/No-Lock216 to r/interesting [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://external-preview.redd.it/enR5cHlia2RlNnhoMff6DDeKdKcox98NY1HdPIcmUJxyy0yOKP7qCp3Y00W5.jpeg?width=640&crop=smart&auto=webp&s=89372a985712868027f5969c7b00d15dcbaf84e3",
       "tags": [
         "interesting",
         "社区",
@@ -1169,15 +877,313 @@
       }
     },
     {
-      "id": "https://www.reddit.com/r/SipsTea/comments/1xco4nj/hey_google_how_do_i_avoid_california_wealth_tax/",
-      "url": "https://www.reddit.com/r/SipsTea/comments/1xco4nj/hey_google_how_do_i_avoid_california_wealth_tax/",
-      "title": "Hey Google, how do I avoid California wealth tax? Move to Florida, Larry",
-      "content_text": "https://finance.yahoo.com/economy/policy/articles/larry-page-could-dodge-nearly-070700156.html submitted by /u/Conscious-Weight4569 to r/SipsTea [link] [comment…",
-      "summary": "https://finance.yahoo.com/economy/policy/articles/larry-page-could-dodge-nearly-070700156.html submitted by /u/Conscious-Weight4569 to r/SipsTea [link] [comment…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://preview.redd.it/rw0o8v2ku1xh1.jpeg?width=640&crop=smart&auto=webp&s=dc406d72bbb0bb4a687c05207d80967e2af8907d",
+      "id": "https://www.reddit.com/r/interestingasfuck/comments/1xdgr7s/the_defensive_posture_of_a_wild_hamster/",
+      "url": "https://www.reddit.com/r/interestingasfuck/comments/1xdgr7s/the_defensive_posture_of_a_wild_hamster/",
+      "title": "The defensive posture of a wild hamster",
+      "content_text": "submitted by /u/smooth_vesselHPAUM to r/interestingasfuck [link] [comments]",
+      "summary": "submitted by /u/smooth_vesselHPAUM to r/interestingasfuck [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://external-preview.redd.it/Ym5qbjVmeW1nOHhoMfimVqNmOVMv1zUn-MFiVfT5n0_8A-OaGqIK8zpxsPE1.png?width=320&crop=smart&auto=webp&s=1906c8ce4fe58a355508b326fc17ec2619fa7d36",
+      "tags": [
+        "interestingasfuck",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/Damnthatsinteresting/comments/1xd88yl/the_duck_in_avenida_place_hotel_barcelona_spain/",
+      "url": "https://www.reddit.com/r/Damnthatsinteresting/comments/1xd88yl/the_duck_in_avenida_place_hotel_barcelona_spain/",
+      "title": "The \"Duck\" in Avenida Place hotel, Barcelona, Spain.",
+      "content_text": "submitted by /u/NathanCS741 to r/Damnthatsinteresting [link] [comments]",
+      "summary": "submitted by /u/NathanCS741 to r/Damnthatsinteresting [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://preview.redd.it/u1f9c718f6xh1.jpeg?width=320&crop=smart&auto=webp&s=ded377ac210fc58963e0cb44d4416130a2397f39",
+      "tags": [
+        "Damnthatsinteresting",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/oddlysatisfying/comments/1xdchwt/the_duck_in_avenida_place_hotel_barcelona_spain/",
+      "url": "https://www.reddit.com/r/oddlysatisfying/comments/1xdchwt/the_duck_in_avenida_place_hotel_barcelona_spain/",
+      "title": "The \"Duck\" in Avenida Place hotel, Barcelona, Spain.",
+      "content_text": "submitted by /u/willis7747 to r/oddlysatisfying [link] [comments]",
+      "summary": "submitted by /u/willis7747 to r/oddlysatisfying [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://preview.redd.it/hzqyc0l5m7xh1.png?width=320&crop=smart&auto=webp&s=a9f4f046cb9eab43c8666fde1e36a4c3e292bc98",
+      "tags": [
+        "oddlysatisfying",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/todayilearned/comments/1xdi9o8/til_tobey_maguire_never_told_the_producers_of/",
+      "url": "https://www.reddit.com/r/todayilearned/comments/1xdi9o8/til_tobey_maguire_never_told_the_producers_of/",
+      "title": "TIL Tobey Maguire never told the producers of Spider-Man (2002) about his claustrophobia. He nearly blacked out during a plaster body cast,…",
+      "content_text": "submitted by /u/MOinthepast to r/todayilearned [link] [comments]",
+      "summary": "submitted by /u/MOinthepast to r/todayilearned [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "todayilearned",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/Snorkblot/comments/1xd9llg/leonardos_satellite_view_map_of_imola_1502/",
+      "url": "https://www.reddit.com/r/Snorkblot/comments/1xd9llg/leonardos_satellite_view_map_of_imola_1502/",
+      "title": "Leonardo's \"satellite view\" map of Imola, 1502.",
+      "content_text": "https://www.rct.uk/collection/912284/a-map-of-imola submitted by /u/LordJim11 to r/Snorkblot [link] [comments]",
+      "summary": "https://www.rct.uk/collection/912284/a-map-of-imola submitted by /u/LordJim11 to r/Snorkblot [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://preview.redd.it/szlctsrvt6xh1.png?width=640&crop=smart&auto=webp&s=c6aaa244bd76c0370862c31f963d87c599d45f03",
+      "tags": [
+        "Snorkblot",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/SipsTea/comments/1xdop5l/jared_kushner_exposed_for_taking_2_billion_in/",
+      "url": "https://www.reddit.com/r/SipsTea/comments/1xdop5l/jared_kushner_exposed_for_taking_2_billion_in/",
+      "title": "Jared Kushner exposed for taking $2 Billion in bribes from Saudi and the UAE for “influencing US Politics and striking a deal to end the war…",
+      "content_text": "Source: CBS News submitted by /u/Prime-Paradox to r/SipsTea [link] [comments]",
+      "summary": "Source: CBS News submitted by /u/Prime-Paradox to r/SipsTea [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://external-preview.redd.it/bXFpNmJuaXl4OXhoMeDTGRDOi7jDNOBMoSyewgtq0QMDHHYtQoNojVsBrQU3.jpeg?width=640&crop=smart&auto=webp&s=db8a1720c5d0f2d1859e081fb6d61f5213297bbd",
       "tags": [
         "SipsTea",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/funny/comments/1xd98rx/it_was_an_honest_mistake/",
+      "url": "https://www.reddit.com/r/funny/comments/1xd98rx/it_was_an_honest_mistake/",
+      "title": "It was an honest mistake...",
+      "content_text": "submitted by /u/lectric_7166 to r/funny [link] [comments]",
+      "summary": "submitted by /u/lectric_7166 to r/funny [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://preview.redd.it/c0m6llgeq6xh1.jpeg?width=640&crop=smart&auto=webp&s=5e8c98a57f214b8dbde8186e54de4ebfd0c4e102",
+      "tags": [
+        "funny",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/HolUp/comments/1xdlrdb/is_this_a_bad_idea_i_feel_like_this_is_a_bad_idea/",
+      "url": "https://www.reddit.com/r/HolUp/comments/1xdlrdb/is_this_a_bad_idea_i_feel_like_this_is_a_bad_idea/",
+      "title": "Is this a bad idea? I feel like this is a bad idea.",
+      "content_text": "submitted by /u/welderzworld to r/HolUp [link] [comments]",
+      "summary": "submitted by /u/welderzworld to r/HolUp [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://preview.redd.it/qgykzkr3e9xh1.jpeg?width=640&crop=smart&auto=webp&s=98ae890d493ae3124928e8b6595b810b24d7efcf",
+      "tags": [
+        "HolUp",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/interestingasfuck/comments/1xdcgmq/interesting_human_bone_and_skull_collection_from/",
+      "url": "https://www.reddit.com/r/interestingasfuck/comments/1xdcgmq/interesting_human_bone_and_skull_collection_from/",
+      "title": "Interesting human bone and skull collection from the Bone Museum in Brooklyn, New York.",
+      "content_text": "submitted by /u/HimelTy to r/interestingasfuck [link] [comments]",
+      "summary": "submitted by /u/HimelTy to r/interestingasfuck [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://external-preview.redd.it/b3o4M2k4bXVsN3hoMQR2y-7cM4fbWVyc7WZf6NivLVad00ph9xvc3T9hNIA5.png?width=320&crop=smart&auto=webp&s=10a111be60b71754b84b08e92eb57a5481d7eb4d",
+      "tags": [
+        "interestingasfuck",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/aww/comments/1xdes6o/i_carry_shelter_dogs_around_nyc_in_a_dog_backpack/",
+      "url": "https://www.reddit.com/r/aww/comments/1xdes6o/i_carry_shelter_dogs_around_nyc_in_a_dog_backpack/",
+      "title": "I carry shelter dogs around NYC in a dog backpack to help them get adopted. Meet Grits!",
+      "content_text": "submitted by /u/kittytime to r/aww [link] [comments]",
+      "summary": "submitted by /u/kittytime to r/aww [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://external-preview.redd.it/eTFveTF3M2QzOHhoMRMOd0lFt_a5CHG9z2XvcNCC1qaxFVQPC7puKOf9xlUh.png?width=640&crop=smart&auto=webp&s=aceadf421dd2ac277b3959028d6756026bd3c894",
+      "tags": [
+        "aww",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/dashcams/comments/1xd8gaj/highjackers_chose_the_wrong_car_3_suspects_dead/",
+      "url": "https://www.reddit.com/r/dashcams/comments/1xd8gaj/highjackers_chose_the_wrong_car_3_suspects_dead/",
+      "title": "Highjackers chose the wrong car, 3 suspects dead. Durban, South Africa",
+      "content_text": "submitted by /u/PWahl97 to r/dashcams [link] [comments]",
+      "summary": "submitted by /u/PWahl97 to r/dashcams [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://external-preview.redd.it/aG0wMWI5OGtoNnhoMQLP8s1C_BB_GPlNZXfxioGwBuMwG6NuM-Hqzwhv4tTV.png?width=320&crop=smart&auto=webp&s=47cb6438b83d6fe8d7dc125f14aa283adfd0a13f",
+      "tags": [
+        "dashcams",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/SipsTea/comments/1xdjmqm/guy_finds_wallet_with_1450/",
+      "url": "https://www.reddit.com/r/SipsTea/comments/1xdjmqm/guy_finds_wallet_with_1450/",
+      "title": "Guy finds wallet with $1450",
+      "content_text": "submitted by /u/Square_Law5624 to r/SipsTea [link] [comments]",
+      "summary": "submitted by /u/Square_Law5624 to r/SipsTea [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://preview.redd.it/v1t9s3quz8xh1.jpeg?width=140&height=140&crop=1:1,smart&auto=webp&s=1d69953c78031c25baa98b882d6fa87d991c11dd",
+      "tags": [
+        "SipsTea",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/interesting/comments/1xde1zv/grandma_always_kept_the_kids_in_line_with_her/",
+      "url": "https://www.reddit.com/r/interesting/comments/1xde1zv/grandma_always_kept_the_kids_in_line_with_her/",
+      "title": "Grandma always kept the kids in line with her slippers. For her birthday, she showed her aim is still on point",
+      "content_text": "submitted by /u/Separate_Finance_183 to r/interesting [link] [comments]",
+      "summary": "submitted by /u/Separate_Finance_183 to r/interesting [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://external-preview.redd.it/emJlaWpwYmd4N3hoMYk8C-OP6FcnIGK1L_kmHpGhVJILtOyAnzLaeG5dgZUK.png?width=320&crop=smart&auto=webp&s=746e853b4261afcef9b649461c27350b8d52d6dd",
+      "tags": [
+        "interesting",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/comics/comments/1xdci6e/gorilla_comic_oc/",
+      "url": "https://www.reddit.com/r/comics/comments/1xdci6e/gorilla_comic_oc/",
+      "title": "Gorilla comic [OC]",
+      "content_text": "submitted by /u/JuntheBold to r/comics [link] [comments]",
+      "summary": "submitted by /u/JuntheBold to r/comics [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://preview.redd.it/9chma516m7xh1.jpeg?width=140&height=140&crop=1:1,smart&auto=webp&s=5a190a39d6372805de5975a696ba47865c8d3a9e",
+      "tags": [
+        "comics",
         "社区",
         "热榜"
       ],

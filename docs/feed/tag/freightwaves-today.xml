@@ -4,8 +4,34 @@
   <title>公共目录 · #FreightWaves Today</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/freightwaves-today.xml"/>
-  <updated>2026-10-22T00:00:00Z</updated>
+  <updated>2026-10-23T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/truckings-ruthless-vs-conservative-whos-winning</id>
+    <title>Trucking’s “Ruthless” vs. “Conservative:” Who’s Winning?</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/truckings-ruthless-vs-conservative-whos-winning"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">In a lukewarm freight market, not all carriers are feeling the same heat. Craig Fuller and Paul Tonsager dive deep into why Knight-Swift’s ‘ruthless’ approach m…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="FreightWaves Today"/>
+    <category term="FreightWaves TV"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/how-much-do-rejected-loads-really-cost-shippers</id>
+    <title>How Much Do Rejected Loads REALLY Cost Shippers?</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/how-much-do-rejected-loads-really-cost-shippers"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">Discover how new Sonar indices are revolutionizing freight cost transparency. Shippers can now accurately track the real premiums paid for rejected loads and un…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="FreightWaves Today"/>
+    <category term="FreightWaves TV"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/how-triumph-financials-ceo-beat-the-longest-freight-recession</id>
     <title>How Triumph Financial’s CEO Beat the Longest Freight Recession</title>
@@ -78,45 +104,6 @@
     <updated>2026-10-21T00:00:00Z</updated>
     <published>2026-10-21T00:00:00Z</published>
     <summary type="text">A FedEx truck carrying nearly $1 million in Pokémon and sports cards was robbed in California. FreightWaves’ Phil Brink and Highway’s Brennan Bailey break down…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="FreightWaves Today"/>
-    <category term="FreightWaves TV"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/reefer-truckload-rejections-soar-1-in-5-loads-rejected-nationally</id>
-    <title>Reefer Truckload Rejections Soar: 1 in 5 Loads Rejected Nationally</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/reefer-truckload-rejections-soar-1-in-5-loads-rejected-nationally"/>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <published>2026-10-20T00:00:00Z</published>
-    <summary type="text">The freight market is seeing fluctuating volumes and steady tender rejections, with a particular spotlight on the refrigerated sector. Learn why 1 in 5 reefer l…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="FreightWaves Today"/>
-    <category term="FreightWaves TV"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/diesel-prices-up-down-or-stuck</id>
-    <title>Diesel Prices: Up, Down, or Stuck?</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/diesel-prices-up-down-or-stuck"/>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <published>2026-10-20T00:00:00Z</published>
-    <summary type="text">FreightWaves editor-at-large John Kingston breaks down the latest diesel price trends and the bombshell $700M nuclear verdict against CH Robinson. Discover what…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="FreightWaves Today"/>
-    <category term="FreightWaves TV"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/bot-autos-secret-to-an-affordable-future</id>
-    <title>Bot Auto’s Secret to an Affordable Future</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/bot-autos-secret-to-an-affordable-future"/>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <published>2026-10-20T00:00:00Z</published>
-    <summary type="text">Bot Auto’s President &amp; COO, Brett Suma, explains how their unique foundational model and advanced software, developed by an AI-first team, slashed the cost of a…</summary>
     <source><title>FreightWaves</title></source>
     <category term="FreightWaves Today"/>
     <category term="FreightWaves TV"/>

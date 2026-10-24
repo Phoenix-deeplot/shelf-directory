@@ -1,26 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/ai-3.xml</id>
-  <title>公共目录 · #AI产品</title>
+  <title>公共目录 · #AI工具</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/ai-3.xml"/>
-  <updated>2026-10-23T00:00:00Z</updated>
+  <updated>2026-10-24T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6483114.html</id>
-    <title>Claude Duet上线：关掉电脑后，AI助理还能继续工作</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483114.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">截至 10 月 20 日，Meta Muse 在美国下载约 1020 万次；10 月 21 日 Anthropic 开放 Claude Duet 研究预览，能接 6000 多种工具，关掉电脑任务仍在云端继续。全天候的边界、额度会不会被跑光，比产品名更值得弄清。 你可能并不缺一个能回答问题的 AI，真正费时间的是在邮箱、…</summary>
+    <id>https://www.woshipm.com/ai/6483435.html</id>
+    <title>我把 AI 做自媒体的 13 个 AI 技能，免费开源了</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483435.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">作者把两年做自媒体沉淀的流程做成 13 个 AI 技能，全部免费开源：账号定位、选题、笔记分析、日复盘、录音处理都在里面。他讲了为什么放出来，以及一个新手该按什么顺序用。 我从2020年开始做小红书，2025年开始把 AI 用到自媒体运营上，到现在积累了很多工作流程，也做了自己的知识库、工作台之类的。 现在我把一套做自…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI产品"/>
-    <category term="Anthropic"/>
-    <category term="Claude"/>
-    <category term="Meta Muse"/>
-    <category term="功能分析"/>
+    <category term="AI工具"/>
+    <category term="AI应用"/>
+    <category term="内容创作"/>
+    <category term="自媒体"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6479433.html</id>
+    <title>AI让市场调研效率提升300%</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6479433.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">一份完整调研从需求落地到出具洞察报告，少则7天，多则半个月甚至更久，耗时耗力耗钱。AI的入局直接把调研效率拉到新高度，整体效率提升不止300%，成本砍掉60%，洞察精准度翻倍。 一份完整调研从需求落地到出具洞察报告，少则7天，多则半个月，甚至更久，耗时、耗力、耗钱。AI的入局，直接把调研效率拉到新高度——整体效率提升不…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI工具"/>
+    <category term="市场洞察"/>
+    <category term="市场调研"/>
+    <category term="提示词"/>
+    <category term="竞品分析"/>
     <category term="产品"/>
   </entry>
 </feed>

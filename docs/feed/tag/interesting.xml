@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/interesting.xml</id>
+  <title>公共目录 · #interesting</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/interesting.xml"/>
+  <updated>2026-10-23T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.reddit.com/r/interesting/comments/1xd86lq/this_how_they_cheat_in_cycling_races/</id>
+    <title>This how they cheat in cycling races</title>
+    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/interesting/comments/1xd86lq/this_how_they_cheat_in_cycling_races/"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">submitted by /u/No-Lock216 to r/interesting [link] [comments]</summary>
+    <source><title>top scoring links : popular</title></source>
+    <category term="interesting"/>
+    <category term="社区"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.reddit.com/r/interesting/comments/1xde1zv/grandma_always_kept_the_kids_in_line_with_her/</id>
+    <title>Grandma always kept the kids in line with her slippers. For her birthday, she showed her aim is still on point</title>
+    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/interesting/comments/1xde1zv/grandma_always_kept_the_kids_in_line_with_her/"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">submitted by /u/Separate_Finance_183 to r/interesting [link] [comments]</summary>
+    <source><title>top scoring links : popular</title></source>
+    <category term="interesting"/>
+    <category term="社区"/>
+    <category term="热榜"/>
+  </entry>
+</feed>

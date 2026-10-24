@@ -9,6 +9,33 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/a-new-pnw-container-port-205m-for-oregon-rail-project",
+      "url": "https://www.freightwaves.com/news/a-new-pnw-container-port-205m-for-oregon-rail-project",
+      "title": "A new PNW container port? $205M for Oregon rail project",
+      "content_text": "Oregon port wins $205 million in federal funding to upgrade its rail line and boost a proposed container terminal project. The post A new PNW container port? $2…",
+      "summary": "Oregon port wins $205 million in federal funding to upgrade its rail line and boost a proposed container terminal project. The post A new PNW container port? $2…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "Container Shipping",
+        "Maritime",
+        "News",
+        "Railroad",
+        "Top Stories",
+        "trade",
+        "CRISI program",
+        "Development"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/new-york-short-line-wins-11-2-million-federal-rail-grant",
       "url": "https://www.freightwaves.com/news/new-york-short-line-wins-11-2-million-federal-rail-grant",
       "title": "New York short line wins $11.2 million federal rail grant",
@@ -22,33 +49,6 @@
         "federal grants",
         "Infrastructure",
         "New York",
-        "railroads",
-        "short lines"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/autonomous-railcar-technology-earns-16m-federal-grant",
-      "url": "https://www.freightwaves.com/news/autonomous-railcar-technology-earns-16m-federal-grant",
-      "title": "Autonomous railcar technology earns $16M federal grant",
-      "content_text": "A federal grant will support deployment of autonomous railcar technology on a Missouri short line. The post Autonomous railcar technology earns $16M federal gra…",
-      "summary": "A federal grant will support deployment of autonomous railcar technology on a Missouri short line. The post Autonomous railcar technology earns $16M federal gra…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "News",
-        "Railroad",
-        "Top Stories",
-        "Autonomous trains",
-        "CRISI program",
-        "Intramotev",
         "railroads",
         "short lines"
       ],

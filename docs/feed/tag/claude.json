@@ -9,75 +9,21 @@
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/ai/6483130.html",
-      "url": "https://www.woshipm.com/ai/6483130.html",
-      "title": "我好像陷入了某种，AI时代的虚无主义。",
-      "content_text": "AI 让过去要折腾几个月的软件，现在几句话就能做出来，可写完稿坐在凌晨六点的人，只觉得空。做产品、写代码、做设计、做内容的朋友在饭桌上说的是同一句：一切好像都没什么意思了。这不是抑郁，是能力过剩之后的虚无。 最近一段时间，我好像得了某种怪病。 我开始变得容易暴躁，开始更加没有耐心，我明明可以创造、改变很多东西了，但是我…",
-      "summary": "AI 让过去要折腾几个月的软件，现在几句话就能做出来，可写完稿坐在凌晨六点的人，只觉得空。做产品、写代码、做设计、做内容的朋友在饭桌上说的是同一句：一切好像都没什么意思了。这不是抑郁，是能力过剩之后的虚无。 最近一段时间，我好像得了某种怪病。 我开始变得容易暴躁，开始更加没有耐心，我明明可以创造、改变很多东西了，但是我…",
-      "date_published": "2026-10-23T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6483631.html",
+      "url": "https://www.woshipm.com/ai/6483631.html",
+      "title": "这些动画，都是 AI 写代码画出来的：我实测了 4 种风格",
+      "content_text": "照小红书博主Vincent公开的提示词和代码，用Claude的Opus 5.5试做4种风格的动画短片，再和自己手写提示词做的那三支网球视频对比，招牌特征、画面失控、字压字的问题都暴露得很具体。 前几天在小红书刷到 Vincent 的帖子。他用 Claude 的Opus 5.5模型，一种风格写一段提示词，做出了 15 种…",
+      "summary": "照小红书博主Vincent公开的提示词和代码，用Claude的Opus 5.5试做4种风格的动画短片，再和自己手写提示词做的那三支网球视频对比，招牌特征、画面失控、字压字的问题都暴露得很具体。 前几天在小红书刷到 Vincent 的帖子。他用 Claude 的Opus 5.5模型，一种风格写一段提示词，做出了 15 种…",
+      "date_published": "2026-10-24T00:00:00Z",
       "tags": [
         "AI",
         "个人随笔",
+        "AI编程",
         "Claude",
-        "Codex",
-        "个人成长",
-        "个人观点",
+        "短视频",
+        "经验分享",
         "产品",
         "运营"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/ai/6478947.html",
-      "url": "https://www.woshipm.com/ai/6478947.html",
-      "title": "Prompt、Skill、Project、MCP，一套完整的 AI 工作流！",
-      "content_text": "Prompt、Skill、Project、MCP 频繁出现，成为解锁 AI 高效工作的关键，但很多人对这四个词一知半解。文章逐个拆解它们的概念、特点与适用场景，并说明各自能为设计环节带来的提效作用，帮你在合适的任务里用对工具。 当下 AI 技术迭代速度飞快，Prompt、Skill、Project、MCP 这四个词汇频…",
-      "summary": "Prompt、Skill、Project、MCP 频繁出现，成为解锁 AI 高效工作的关键，但很多人对这四个词一知半解。文章逐个拆解它们的概念、特点与适用场景，并说明各自能为设计环节带来的提效作用，帮你在合适的任务里用对工具。 当下 AI 技术迭代速度飞快，Prompt、Skill、Project、MCP 这四个词汇频…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "AI",
-        "个人随笔",
-        "Claude",
-        "MCP",
-        "基础知识",
-        "产品",
-        "运营",
-        "商业"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/ai/6483114.html",
-      "url": "https://www.woshipm.com/ai/6483114.html",
-      "title": "Claude Duet上线：关掉电脑后，AI助理还能继续工作",
-      "content_text": "截至 10 月 20 日，Meta Muse 在美国下载约 1020 万次；10 月 21 日 Anthropic 开放 Claude Duet 研究预览，能接 6000 多种工具，关掉电脑任务仍在云端继续。全天候的边界、额度会不会被跑光，比产品名更值得弄清。 你可能并不缺一个能回答问题的 AI，真正费时间的是在邮箱、…",
-      "summary": "截至 10 月 20 日，Meta Muse 在美国下载约 1020 万次；10 月 21 日 Anthropic 开放 Claude Duet 研究预览，能接 6000 多种工具，关掉电脑任务仍在云端继续。全天候的边界、额度会不会被跑光，比产品名更值得弄清。 你可能并不缺一个能回答问题的 AI，真正费时间的是在邮箱、…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "AI",
-        "个人随笔",
-        "AI产品",
-        "Anthropic",
-        "Claude",
-        "Meta Muse",
-        "功能分析",
-        "产品"
       ],
       "authors": [
         {

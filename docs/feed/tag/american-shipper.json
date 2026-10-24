@@ -9,6 +9,114 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness",
+      "url": "https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness",
+      "title": "Workforce gaps keep supply chain AI stuck in pilot mode",
+      "content_text": "AI adoption across 13 supply chain functions averages 1.94 on a five-point scale. ASCM CEO Abe Eshkenazi says companies are buying the tool before fixing the pr…",
+      "summary": "AI adoption across 13 supply chain functions averages 1.94 on a five-point scale. ASCM CEO Abe Eshkenazi says companies are buying the tool before fixing the pr…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Logistics/Supply Chains",
+        "News",
+        "Technology",
+        "Abe Eshkenazi",
+        "AI agents",
+        "AI pilots",
+        "ASCM"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/russian-diesel-tanker-heads-for-u-s-following-trump-putin-deal",
+      "url": "https://www.freightwaves.com/news/russian-diesel-tanker-heads-for-u-s-following-trump-putin-deal",
+      "title": "Russian diesel tanker heads for U.S. following Trump-Putin deal",
+      "content_text": "The first shipment of Russian diesel fuel heads for the U.S. as Trump looks for boost ahead of midterm elections. The post Russian diesel tanker heads for U.S.…",
+      "summary": "The first shipment of Russian diesel fuel heads for the U.S. as Trump looks for boost ahead of midterm elections. The post Russian diesel tanker heads for U.S.…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Fuel News",
+        "Maritime",
+        "News",
+        "Top Stories",
+        "Diesel fuel",
+        "Russia",
+        "sanctions"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates",
+      "url": "https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates",
+      "title": "New Drewry data shows import demand boosting trans-Pacific rates",
+      "content_text": "Drewry’s World Container Index rose on higher rates on trans-Pacific and Asia-Europe routes. The post New Drewry data shows import demand boosting trans-Pacific…",
+      "summary": "Drewry’s World Container Index rose on higher rates on trans-Pacific and Asia-Europe routes. The post New Drewry data shows import demand boosting trans-Pacific…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Container Shipping",
+        "Maritime",
+        "News",
+        "Top Stories",
+        "Capacity",
+        "Drewry",
+        "imports"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/airbus-sees-46-freighter-increase-by-2045-amid-stable-air-cargo-growth",
+      "url": "https://www.freightwaves.com/news/airbus-sees-46-freighter-increase-by-2045-amid-stable-air-cargo-growth",
+      "title": "Airbus sees 46% freighter increase by 2045 amid stable air cargo growth",
+      "content_text": "The Airbus 20-year outlook for freighter demand is little changed from last year, showing a global fleet nearly 50% larger than today. The post Airbus sees 46%…",
+      "summary": "The Airbus 20-year outlook for freighter demand is little changed from last year, showing a global fleet nearly 50% larger than today. The post Airbus sees 46%…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "Air Cargo",
+        "American Shipper",
+        "News",
+        "air cargo industry outlook",
+        "Airbus",
+        "forecast",
+        "freighter aircraft",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/cleo-otif-failures-cost-cpg-100-billion",
       "url": "https://www.freightwaves.com/news/cleo-otif-failures-cost-cpg-100-billion",
       "title": "Late, short deliveries cost food and CPG makers $100 billion",

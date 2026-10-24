@@ -1,0 +1,35 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #AbsoluteUnits",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/absoluteunits.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.reddit.com/r/AbsoluteUnits/comments/1xdtosk/of_garfield_i_mean_of_a_cat/",
+      "url": "https://www.reddit.com/r/AbsoluteUnits/comments/1xdtosk/of_garfield_i_mean_of_a_cat/",
+      "title": "of garfield I mean of a cat",
+      "content_text": "submitted by /u/Uunicorned to r/AbsoluteUnits [link] [comments]",
+      "summary": "submitted by /u/Uunicorned to r/AbsoluteUnits [link] [comments]",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://preview.redd.it/qf2qwvnyzaxh1.jpeg?width=320&crop=smart&auto=webp&s=1285beec7b0d4b5b472ef351337c8c4906dac329",
+      "tags": [
+        "AbsoluteUnits",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    }
+  ]
+}

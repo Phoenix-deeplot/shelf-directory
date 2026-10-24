@@ -9,6 +9,33 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/wabtec-earnings-rise-on-higher-freight-and-transit-sales",
+      "url": "https://www.freightwaves.com/news/wabtec-earnings-rise-on-higher-freight-and-transit-sales",
+      "title": "Wabtec earnings rise on higher freight and transit sales",
+      "content_text": "Rail equipment supplier Wabtec raised its outlook on higher third-quarter revenue and earnings. The post Wabtec earnings rise on higher freight and transit sale…",
+      "summary": "Rail equipment supplier Wabtec raised its outlook on higher third-quarter revenue and earnings. The post Wabtec earnings rise on higher freight and transit sale…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "Business",
+        "Company Earnings",
+        "Finance",
+        "News",
+        "Railroad",
+        "Equipment",
+        "locomotives",
+        "railroads"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/commodity-markets-whip-up-railfreight-gains",
       "url": "https://www.freightwaves.com/news/commodity-markets-whip-up-railfreight-gains",
       "title": "Commodity markets whip up railfreight gains",
@@ -48,33 +75,6 @@
         "federal grants",
         "Infrastructure",
         "New York",
-        "railroads",
-        "short lines"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/autonomous-railcar-technology-earns-16m-federal-grant",
-      "url": "https://www.freightwaves.com/news/autonomous-railcar-technology-earns-16m-federal-grant",
-      "title": "Autonomous railcar technology earns $16M federal grant",
-      "content_text": "A federal grant will support deployment of autonomous railcar technology on a Missouri short line. The post Autonomous railcar technology earns $16M federal gra…",
-      "summary": "A federal grant will support deployment of autonomous railcar technology on a Missouri short line. The post Autonomous railcar technology earns $16M federal gra…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "News",
-        "Railroad",
-        "Top Stories",
-        "Autonomous trains",
-        "CRISI program",
-        "Intramotev",
         "railroads",
         "short lines"
       ],
