@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/ai-3.xml</id>
-  <title>公共目录 · #AI工具</title>
+  <title>公共目录 · #AI应用</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/ai-3.xml"/>
-  <updated>2026-10-24T00:00:00Z</updated>
+  <updated>2026-10-25T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6483435.html</id>
-    <title>我把 AI 做自媒体的 13 个 AI 技能，免费开源了</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483435.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">作者把两年做自媒体沉淀的流程做成 13 个 AI 技能，全部免费开源：账号定位、选题、笔记分析、日复盘、录音处理都在里面。他讲了为什么放出来，以及一个新手该按什么顺序用。 我从2020年开始做小红书，2025年开始把 AI 用到自媒体运营上，到现在积累了很多工作流程，也做了自己的知识库、工作台之类的。 现在我把一套做自…</summary>
+    <id>https://www.woshipm.com/ai/6483437.html</id>
+    <title>靠 AI 赚钱的人，赚的到底是谁的钱</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483437.html"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <published>2026-10-25T00:00:00Z</published>
+    <summary type="text">拿「第一性原理」拆 AI 赛道：用户为产品付费、商家为效率付费、平台为流量付费、投资人为增长付费。作者逐个看钱是谁给的、为什么给、理由合不合理，判断哪些钱能长期赚，哪些只能赚一阵子。 前天分享了枯燥乏味的赚钱第一性原理，赚钱的第一性原理，是看懂钱怎么流动，今天拿这个方法来分析下，「靠 AI 赚钱的人，赚的到底是谁的钱」…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI工具"/>
     <category term="AI应用"/>
-    <category term="内容创作"/>
-    <category term="自媒体"/>
+    <category term="个人观点"/>
+    <category term="商业模式"/>
+    <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6479433.html</id>
-    <title>AI让市场调研效率提升300%</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6479433.html"/>
+    <id>https://www.woshipm.com/chuangye/6483396.html</id>
+    <title>花 499元给猫买个 AI 项圈，它居然开始每天给主人写日记</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6483396.html"/>
     <updated>2026-10-24T00:00:00Z</updated>
     <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">一份完整调研从需求落地到出具洞察报告，少则7天，多则半个月甚至更久，耗时耗力耗钱。AI的入局直接把调研效率拉到新高度，整体效率提升不止300%，成本砍掉60%，洞察精准度翻倍。 一份完整调研从需求落地到出具洞察报告，少则7天，多则半个月，甚至更久，耗时、耗力、耗钱。AI的入局，直接把调研效率拉到新高度——整体效率提升不…</summary>
+    <summary type="text">PurrPurr 用 17.9 克的项圈，把猫的叫声、活动与休息变成第一人称日记，一天能生成八条动态。499 元硬件加订阅，卖的是情绪价值；数据够不够准、故事够不够真，决定新鲜感过后还有没有人续费。 今天分享的产品，很可爱： PurrPurr， https://www.purrpurr.cn/ 一只叫“小满”的英国短毛…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI工具"/>
-    <category term="市场洞察"/>
-    <category term="市场调研"/>
-    <category term="提示词"/>
-    <category term="竞品分析"/>
+    <category term="创业学院"/>
+    <category term="AI应用"/>
+    <category term="商业模式"/>
+    <category term="宠物经济"/>
+    <category term="智能硬件"/>
     <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
   </entry>
 </feed>

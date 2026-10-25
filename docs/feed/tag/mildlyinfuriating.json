@@ -1,0 +1,58 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #mildlyinfuriating",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/mildlyinfuriating.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.reddit.com/r/mildlyinfuriating/comments/1xebvuh/the_realization_of_how_much_scrub_daddy_sponges/",
+      "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1xebvuh/the_realization_of_how_much_scrub_daddy_sponges/",
+      "title": "The realization of how much Scrub Daddy sponges contribute to microplastics in our environment.",
+      "content_text": "Never buying another one. submitted by /u/dingdongbannu88 to r/mildlyinfuriating [link] [comments]",
+      "summary": "Never buying another one. submitted by /u/dingdongbannu88 to r/mildlyinfuriating [link] [comments]",
+      "date_published": "2026-10-24T00:00:00Z",
+      "image": "https://preview.redd.it/4dnl7r7wqfxh1.jpeg?width=640&crop=smart&auto=webp&s=c2bcd81c6ad65553b0542eee1ee857601f719c7e",
+      "tags": [
+        "mildlyinfuriating",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/mildlyinfuriating/comments/1xeehbz/not_the_view_you_dream_of_booking/",
+      "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1xeehbz/not_the_view_you_dream_of_booking/",
+      "title": "Not the view you dream of booking",
+      "content_text": "submitted by /u/Separate_Finance_183 to r/mildlyinfuriating [link] [comments]",
+      "summary": "submitted by /u/Separate_Finance_183 to r/mildlyinfuriating [link] [comments]",
+      "date_published": "2026-10-24T00:00:00Z",
+      "image": "https://external-preview.redd.it/YWd4dWJnN2Y5Z3hoMY-OQ0zNvNIRzRVtxJ-nZ8ITK3E9-9FYYgK-qIoAWv_i.png?width=640&crop=smart&auto=webp&s=a03d8aa88f97ec1dca26db841e946e016f7682f4",
+      "tags": [
+        "mildlyinfuriating",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    }
+  ]
+}

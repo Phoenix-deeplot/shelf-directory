@@ -4,39 +4,40 @@
   <title>公共目录 · #案例分析</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-ade9be.xml"/>
-  <updated>2026-10-24T00:00:00Z</updated>
+  <updated>2026-10-25T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/evaluating/6483248.html</id>
-    <title>闲鱼用户交易痛点分析与改进思路</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/evaluating/6483248.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">在闲鱼上买卖闲置，你最怕遇到什么？货不对板、描述隐瞒、举证困难、到手刀……本文基于闲鱼小法庭真实案例，剖析C2C轻模式与重信任需求之间的错配，并给出验货宝扩品类、瑕疵勾选模板、发货存证、信用体系等四大改进方案，为平台优化提供参考。 一、研究背景与样本来源 上一篇文章（闲鱼用户体验报告）主要介绍了闲鱼 APP 的用户群体…</summary>
+    <id>https://www.woshipm.com/operate/6483720.html</id>
+    <title>业财产品实战-对账中心0-1产品设计</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/operate/6483720.html"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <published>2026-10-25T00:00:00Z</published>
+    <summary type="text">对账不只是算钱，更是交易双方围绕业务记录展开的核对与确认。本文从制造业OMS项目出发，拆解对账单的流转过程与设计要点，厘清对账与结算的边界，帮助产品经理构建清晰、可落地的对账中心方案。 很多人第一次接触“对账”，会把它理解成算钱，算什么钱？ 实际上，对账不是简单地把两边金额相加减，而是交易双方按照约定的周期，把一段时间…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="分析评测"/>
-    <category term="C2C"/>
-    <category term="交易纠纷"/>
-    <category term="信用体系"/>
+    <category term="产品运营"/>
+    <category term="b端产品"/>
+    <category term="OMS"/>
+    <category term="对账中心"/>
     <category term="案例分析"/>
-    <category term="用户体验"/>
-    <category term="闲鱼"/>
+    <category term="订单管理"/>
     <category term="产品"/>
+    <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/share/6483667.html</id>
-    <title>广告界教务长韦伯·扬：23条“旧元素新组合”的创意生成法则</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6483667.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">智威汤逊首席创作总监韦伯·扬留下两条判断：创意不过是旧元素的新组合，优秀广告人是通才而非专才。23条法则从创意五步法讲到魔岛理论，配可口可乐、美国陆军等经典案例。 詹姆斯・韦伯・扬（James Webb Young），智威汤逊（JWT）首席创作总监，广告生涯长达 60 余年，美国广告史上影响力最深远的创意大师之一。少年…</summary>
+    <id>https://www.woshipm.com/ai/6483874.html</id>
+    <title>AI短剧公司几乎不要基础岗，老干妈用AI把600人裁到48人，国办发文，AI赢，不能让劳动者输</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483874.html"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <published>2026-10-25T00:00:00Z</published>
+    <summary type="text">AI短剧公司把几十人的剧组压到三五人；老干妈视觉分拣后，600名挑辣椒工只剩48人。省下的钱没变成新岗位，反而流向了平台流量竞价。国办新文件划下边界：机器可以上岗，但劳动者不能被甩下。 AI短剧公司几乎不要基础岗上了微博热搜。 一网友感叹去朋友的短剧公司参观，回来发感受称，公司前几年还是小作坊，今年被大集团收了，搬进一…</summary>
     <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
     <category term="个人随笔"/>
+    <category term="AI短剧"/>
     <category term="案例分析"/>
-    <category term="经验分享"/>
+    <category term="消费降级"/>
     <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
-    <category term="商业"/>
   </entry>
 </feed>

@@ -4,39 +4,56 @@
   <title>公共目录 · #AI</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/ai.xml"/>
-  <updated>2026-10-24T00:00:00Z</updated>
+  <updated>2026-10-25T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6483631.html</id>
-    <title>这些动画，都是 AI 写代码画出来的：我实测了 4 种风格</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483631.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">照小红书博主Vincent公开的提示词和代码，用Claude的Opus 5.5试做4种风格的动画短片，再和自己手写提示词做的那三支网球视频对比，招牌特征、画面失控、字压字的问题都暴露得很具体。 前几天在小红书刷到 Vincent 的帖子。他用 Claude 的Opus 5.5模型，一种风格写一段提示词，做出了 15 种…</summary>
+    <id>https://www.woshipm.com/ai/6483437.html</id>
+    <title>靠 AI 赚钱的人，赚的到底是谁的钱</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483437.html"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <published>2026-10-25T00:00:00Z</published>
+    <summary type="text">拿「第一性原理」拆 AI 赛道：用户为产品付费、商家为效率付费、平台为流量付费、投资人为增长付费。作者逐个看钱是谁给的、为什么给、理由合不合理，判断哪些钱能长期赚，哪些只能赚一阵子。 前天分享了枯燥乏味的赚钱第一性原理，赚钱的第一性原理，是看懂钱怎么流动，今天拿这个方法来分析下，「靠 AI 赚钱的人，赚的到底是谁的钱」…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI编程"/>
-    <category term="Claude"/>
-    <category term="短视频"/>
-    <category term="经验分享"/>
+    <category term="AI应用"/>
+    <category term="个人观点"/>
+    <category term="商业模式"/>
+    <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6483435.html</id>
-    <title>我把 AI 做自媒体的 13 个 AI 技能，免费开源了</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483435.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">作者把两年做自媒体沉淀的流程做成 13 个 AI 技能，全部免费开源：账号定位、选题、笔记分析、日复盘、录音处理都在里面。他讲了为什么放出来，以及一个新手该按什么顺序用。 我从2020年开始做小红书，2025年开始把 AI 用到自媒体运营上，到现在积累了很多工作流程，也做了自己的知识库、工作台之类的。 现在我把一套做自…</summary>
+    <id>https://www.woshipm.com/ai/6483815.html</id>
+    <title>逐渐被淘汰的AI产品设计与交互</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483815.html"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <published>2026-10-25T00:00:00Z</published>
+    <summary type="text">AI模型能力飞速跃迁，产品设计正经历一场静默革命。复杂Prompt、独立功能入口、纯聊天交互等曾被视为标配的设计，正被Agent化、多模态与主动执行的新范式取代。本文深度剖析5种正在被淘汰的设计思路，揭示其背后的逻辑变迁，并为AI产品经理指明从“弥补模型缺陷”转向“解决用户长期需求”的迭代方向。 从2024到2026…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI工具"/>
-    <category term="AI应用"/>
-    <category term="内容创作"/>
-    <category term="自媒体"/>
+    <category term="Agent"/>
+    <category term="AI产品"/>
+    <category term="人机交互"/>
+    <category term="多模态"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6483874.html</id>
+    <title>AI短剧公司几乎不要基础岗，老干妈用AI把600人裁到48人，国办发文，AI赢，不能让劳动者输</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483874.html"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <published>2026-10-25T00:00:00Z</published>
+    <summary type="text">AI短剧公司把几十人的剧组压到三五人；老干妈视觉分拣后，600名挑辣椒工只剩48人。省下的钱没变成新岗位，反而流向了平台流量竞价。国办新文件划下边界：机器可以上岗，但劳动者不能被甩下。 AI短剧公司几乎不要基础岗上了微博热搜。 一网友感叹去朋友的短剧公司参观，回来发感受称，公司前几年还是小作坊，今年被大集团收了，搬进一…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI短剧"/>
+    <category term="案例分析"/>
+    <category term="消费降级"/>
+    <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
   </entry>
@@ -56,57 +73,6 @@
     <category term="美团"/>
     <category term="产品"/>
     <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6483646.html</id>
-    <title>别再争谁是“中国版Muse”了，卖铲子的ICT厂商先赚到了钱</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483646.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">常驻型 Agent 将 AI 搬上云端，重写了机房的 CPU、存储与网络配比。国内跨平台 Agent 受阻，基础设施先拿订单，成色仍看应用层。 硅谷大厂在 AI 应用层的新一轮抢位，已经把战火烧到了云端机房。 10 月 22 日凌晨，正处于 IPO 冲刺期的 Anthropic 发布了全新的个人与工作智能体应用 Cla…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="Meta"/>
-    <category term="Muse"/>
-    <category term="企业服务"/>
-    <category term="行业分析"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6483681.html</id>
-    <title>企业上AI项目，FDE到底在做什么？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483681.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">AI带火了FDE岗位，但它的价值远不止于驻场开发。本文深入拆解FDE如何从业务现场挖掘真实需求、通过七步工作流将模糊问题转化为可运行系统，并厘清其与产品经理、工程团队的协作边界。最终揭示：一个成功的FDE项目，是让系统在FDE离场后依然能自主运转。 AI直接带火了FDE这个岗位，很多公司已经开始开始招募FDE，或者是要…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI落地"/>
-    <category term="FDE"/>
-    <category term="工作流程"/>
-    <category term="经验总结"/>
-    <category term="项目交付"/>
-    <category term="产品"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6483642.html</id>
-    <title>从角色聊天到互动叙事世界，AI原生娱乐的下一站</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483642.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">字节旗下猫箱一季度内购收入超2200万美元，登顶中国iOS生成式AI应用；同期Character.AI申请Chapter 11，每月亏损800万至900万美元。角色聊天之后，互动叙事世界成为下一站。 虚拟角色的新生活。 Sensor Tower发布的2026年全球AI应用趋势报告显示，字节跳动旗下的猫箱位居第一季度中国…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="AI应用"/>
-    <category term="Character.ai"/>
-    <category term="内容创作"/>
-    <category term="行业分析"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
   </entry>
   <entry>
     <id>https://www.woshipm.com/ai/6483690.html</id>

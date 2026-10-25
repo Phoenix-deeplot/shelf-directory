@@ -1,0 +1,58 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #meirl",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/meirl.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.reddit.com/r/meirl/comments/1xejqdj/meirl/",
+      "url": "https://www.reddit.com/r/meirl/comments/1xejqdj/meirl/",
+      "title": "meirl",
+      "content_text": "submitted by /u/danielminds to r/meirl [link] [comments]",
+      "summary": "submitted by /u/danielminds to r/meirl [link] [comments]",
+      "date_published": "2026-10-24T00:00:00Z",
+      "image": "https://preview.redd.it/vjpwmosmbhxh1.png?width=640&crop=smart&auto=webp&s=ee3253bac316e84b43e8daf563bc259b7f54715d",
+      "tags": [
+        "meirl",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/meirl/comments/1xei91o/meirl/",
+      "url": "https://www.reddit.com/r/meirl/comments/1xei91o/meirl/",
+      "title": "Meirl",
+      "content_text": "submitted by /u/Apprehensive_Emu9588 to r/meirl [link] [comments]",
+      "summary": "submitted by /u/Apprehensive_Emu9588 to r/meirl [link] [comments]",
+      "date_published": "2026-10-24T00:00:00Z",
+      "image": "https://preview.redd.it/2a4mqcbj0hxh1.jpeg?width=640&crop=smart&auto=webp&s=999885db7b3eb9bf2483b00ffb1eb55be05cc4d6",
+      "tags": [
+        "meirl",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    }
+  ]
+}

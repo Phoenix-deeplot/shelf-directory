@@ -170,6 +170,42 @@
     <category term="社会"/>
   </entry>
   <entry>
+    <id>https://www.producthunt.com/products/yourcast</id>
+    <title>Yourcast 2.0</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/yourcast"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">AI summaries with tap-to-jump timestamps, right in Telegram Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/papermark-2</id>
+    <title>Papermark Virtual Data Room</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/papermark-2"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">Secure data rooms your AI agents can run. Live in &lt; 60 sec. Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/agentgrid-io</id>
+    <title>AgentGrid.io</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/agentgrid-io"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">Shared workspace for humans and agents Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
     <id>https://www.wired.com/gallery/iphone-buying-guide/</id>
     <title>What’s the Best iPhone to Buy or Avoid Right Now? (2026)</title>
     <link rel="alternate" type="text/html" href="https://www.wired.com/gallery/iphone-buying-guide/"/>
@@ -382,6 +418,18 @@
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
     <summary type="text">Local AI for dictation, meetings, background tasks and more Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/llama-windows</id>
+    <title>Llama Windows</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/llama-windows"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">One local AI server for all your Windows apps Discussion | Link</summary>
     <source><title>Product Hunt — The best new products, every day</title></source>
     <category term="产品"/>
     <category term="科技"/>
@@ -672,55 +720,5 @@
     <category term="A Sound Discount"/>
     <category term="科技"/>
     <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/ice-age-beginning-then-humans-started-burning-fossil-fuels/</id>
-    <title>A New Ice Age Was Beginning. Then Humans Started Burning Fossil Fuels</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/ice-age-beginning-then-humans-started-burning-fossil-fuels/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Ancient plants reveal that the vestiges of the North American ice sheet started expanding a few thousand years ago, but that climate change caused it to reverse…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Environment"/>
-    <category term="Ice, Ice Maybe"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/truffle-music-tag-editor</id>
-    <title>Truffle</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/truffle-music-tag-editor"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Fix messy tags, covers and duplicates in your Mac library Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/termi-protocol</id>
-    <title>Termi Protocol</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/termi-protocol"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Watch AI agents code in 3D and hand off the work Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/shogunai</id>
-    <title>ShogunAI</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/shogunai"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Your personal AGI on your pc Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
   </entry>
 </feed>

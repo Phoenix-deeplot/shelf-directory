@@ -2,6 +2,21 @@
  "id": "freightwaves-com",
  "items": [
   {
+   "url": "https://www.freightwaves.com/news/truckload-contract-rate-increases-riding-steady-above-10",
+   "title": "Truckload contract rate increases riding steady above 10%",
+   "summary": "The new index from SONAR shows that carriers have been trying to get rate increases since before the market turned, now they are getting what would have been th…",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [
+    "Chart of the Week",
+    "trucking capacity",
+    "truckload contract rates",
+    "Truckload rates"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates",
    "title": "New Drewry data shows import demand boosting trans-Pacific rates",
    "summary": "Drewry’s World Container Index rose on higher rates on trans-Pacific and Asia-Europe routes. The post New Drewry data shows import demand boosting trans-Pacific…",
@@ -249,8 +264,8 @@
   },
   {
    "url": "https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement",
-   "title": "Daimler Truck sues former fleet manager over alleged $3.8M embezzlement",
-   "summary": "Daimler Truck North America is seeking $6.6 million in damages after accusing a former employee and his wife of misappropriating nearly $3.8 million. The post D…",
+   "title": "UPDATE: Daimler Truck sues former fleet manager over alleged $3.8M embezzlement",
+   "summary": "Daimler Truck North America is seeking $6.6 million in damages after accusing a former employee and his wife of misappropriating nearly $3.8 million. The post U…",
    "image": "",
    "date": "2026-10-22",
    "tags": [
@@ -844,25 +859,6 @@
    ],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://www.freightwaves.com/news/phillips-connect-insights-trailersignal-launch",
-   "title": "Phillips Connect moves trailer sensor alerts into the yard",
-   "summary": "Phillips Connect launched two smart trailer products Sunday at the American Trucking Associations’ Management Conference & Exhibition in Charlotte, North Caroli…",
-   "image": "",
-   "date": "2026-10-21",
-   "tags": [
-    "News",
-    "Technology",
-    "Trucking",
-    "Trucking Equipment",
-    "ATA MCE",
-    "ATA MCE 2026",
-    "Phillips Connect",
-    "Phillips Connect Insights"
-   ],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -878,6 +874,6 @@
  "parser": 2,
  "status": "ok",
  "error": "",
- "etag": "\"68624c5a7908380fbd4f8c48fda0d346\"",
- "modified": "Fri, 23 Oct 2026 21:12:27 GMT"
+ "etag": "\"498b068997e54fa728d18539023815d1\"",
+ "modified": "Fri, 23 Oct 2026 16:51:29 GMT"
 }

@@ -34,33 +34,6 @@
         "type": "article",
         "shelf": "freightwaves-com"
       }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/phillips-connect-insights-trailersignal-launch",
-      "url": "https://www.freightwaves.com/news/phillips-connect-insights-trailersignal-launch",
-      "title": "Phillips Connect moves trailer sensor alerts into the yard",
-      "content_text": "Phillips Connect launched two smart trailer products Sunday at the American Trucking Associations’ Management Conference & Exhibition in Charlotte, North Caroli…",
-      "summary": "Phillips Connect launched two smart trailer products Sunday at the American Trucking Associations’ Management Conference & Exhibition in Charlotte, North Caroli…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "News",
-        "Technology",
-        "Trucking",
-        "Trucking Equipment",
-        "ATA MCE",
-        "ATA MCE 2026",
-        "Phillips Connect",
-        "Phillips Connect Insights"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
     }
   ]
 }

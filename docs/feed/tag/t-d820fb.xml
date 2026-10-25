@@ -4,8 +4,23 @@
   <title>公共目录 · #货运</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-d820fb.xml"/>
-  <updated>2026-10-23T00:00:00Z</updated>
+  <updated>2026-10-25T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/truckload-contract-rate-increases-riding-steady-above-10</id>
+    <title>Truckload contract rate increases riding steady above 10%</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/truckload-contract-rate-increases-riding-steady-above-10"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <published>2026-10-25T00:00:00Z</published>
+    <summary type="text">The new index from SONAR shows that carriers have been trying to get rate increases since before the market turned, now they are getting what would have been th…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Chart of the Week"/>
+    <category term="trucking capacity"/>
+    <category term="truckload contract rates"/>
+    <category term="Truckload rates"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/truckings-ruthless-vs-conservative-whos-winning</id>
     <title>Trucking’s “Ruthless” vs. “Conservative:” Who’s Winning?</title>
@@ -118,6 +133,23 @@
     <category term="货运"/>
   </entry>
   <entry>
+    <id>https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement</id>
+    <title>UPDATE: Daimler Truck sues former fleet manager over alleged $3.8M embezzlement</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">Daimler Truck North America is seeking $6.6 million in damages after accusing a former employee and his wife of misappropriating nearly $3.8 million. The post U…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Legal issues"/>
+    <category term="News"/>
+    <category term="Trucking"/>
+    <category term="Daimler"/>
+    <category term="Daimler Truck North America"/>
+    <category term="Embezzlement"/>
+    <category term="lawsuit"/>
+    <category term="货运"/>
+  </entry>
+  <entry>
     <id>https://www.freightwaves.com/news/tesla-semi-enters-volume-production-as-2027-rollout-approaches</id>
     <title>Tesla Semi enters volume production as 2027 rollout approaches</title>
     <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/tesla-semi-enters-volume-production-as-2027-rollout-approaches"/>
@@ -209,23 +241,6 @@
     <category term="cargo theft"/>
     <category term="logistics"/>
     <category term="Trucking"/>
-    <category term="货运"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement</id>
-    <title>Daimler Truck sues former fleet manager over alleged $3.8M embezzlement</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Daimler Truck North America is seeking $6.6 million in damages after accusing a former employee and his wife of misappropriating nearly $3.8 million. The post D…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Legal issues"/>
-    <category term="News"/>
-    <category term="Trucking"/>
-    <category term="Daimler"/>
-    <category term="Daimler Truck North America"/>
-    <category term="Embezzlement"/>
-    <category term="lawsuit"/>
     <category term="货运"/>
   </entry>
   <entry>

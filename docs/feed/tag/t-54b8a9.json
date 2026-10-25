@@ -9,6 +9,31 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/truckload-contract-rate-increases-riding-steady-above-10",
+      "url": "https://www.freightwaves.com/news/truckload-contract-rate-increases-riding-steady-above-10",
+      "title": "Truckload contract rate increases riding steady above 10%",
+      "content_text": "The new index from SONAR shows that carriers have been trying to get rate increases since before the market turned, now they are getting what would have been th…",
+      "summary": "The new index from SONAR shows that carriers have been trying to get rate increases since before the market turned, now they are getting what would have been th…",
+      "date_published": "2026-10-25T00:00:00Z",
+      "tags": [
+        "Chart of the Week",
+        "trucking capacity",
+        "truckload contract rates",
+        "Truckload rates",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/truckings-ruthless-vs-conservative-whos-winning",
       "url": "https://www.freightwaves.com/news/truckings-ruthless-vs-conservative-whos-winning",
       "title": "Trucking’s “Ruthless” vs. “Conservative:” Who’s Winning?",

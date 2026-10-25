@@ -2,6 +2,16 @@
  "id": "cnbc-com",
  "items": [
   {
+   "url": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
+   "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
+   "summary": "French unrest pushed bond yields to a 24-year high as investors weigh budget, growth and sectors risks ahead of more protests.",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.cnbc.com/2026/10/24/amgen-imdelltra-lung-cancer-data.html",
    "title": "Amgen says drug combo cuts risk of death by 58% in patients with aggressive lung cancer",
    "summary": "A drug from Amgen could give patients with an aggressive form of lung cancer significantly more time to live when added to an immunotherapy from AstraZeneca.",
@@ -25,16 +35,6 @@
    "url": "https://www.cnbc.com/2026/10/24/spirit-airlines-planes-scrapped-engine-shortage.html",
    "title": "Why popular airplanes are getting scrapped years early",
    "summary": "Airplanes are getting dismantled for parts years ahead of schedule because engines and other components are in short supply.",
-   "image": "",
-   "date": "2026-10-24",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
-   "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
-   "summary": "French unrest pushed bond yields to a 24-year high as investors weigh budget, growth and sectors risks ahead of more protests.",
    "image": "",
    "date": "2026-10-24",
    "tags": [],

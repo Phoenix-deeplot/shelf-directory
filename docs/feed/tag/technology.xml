@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/technology.xml</id>
-  <title>公共目录 · #technology</title>
+  <title>公共目录 · #Technology</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/technology.xml"/>
   <updated>2026-10-23T00:00:00Z</updated>
   <author><name>公共目录</name></author>
-  <entry>
-    <id>https://www.reddit.com/r/technology/comments/1xdawdy/wolves_roam_into_finnish_villages_after_google/</id>
-    <title>Wolves roam into Finnish villages after Google destroys 1,300 acres of forest for AI data centers</title>
-    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/technology/comments/1xdawdy/wolves_roam_into_finnish_villages_after_google/"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">submitted by /u/Miserable_Phase_2519 to r/technology [link] [comments]</summary>
-    <source><title>top scoring links : popular</title></source>
-    <category term="technology"/>
-    <category term="社区"/>
-    <category term="热榜"/>
-  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness</id>
     <title>Workforce gaps keep supply chain AI stuck in pilot mode</title>
@@ -115,23 +103,6 @@
     <category term="Technology"/>
     <category term="文化"/>
     <category term="免费资源"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/phillips-connect-insights-trailersignal-launch</id>
-    <title>Phillips Connect moves trailer sensor alerts into the yard</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/phillips-connect-insights-trailersignal-launch"/>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <published>2026-10-21T00:00:00Z</published>
-    <summary type="text">Phillips Connect launched two smart trailer products Sunday at the American Trucking Associations’ Management Conference &amp; Exhibition in Charlotte, North Caroli…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="News"/>
-    <category term="Technology"/>
-    <category term="Trucking"/>
-    <category term="Trucking Equipment"/>
-    <category term="ATA MCE"/>
-    <category term="ATA MCE 2026"/>
-    <category term="Phillips Connect"/>
-    <category term="Phillips Connect Insights"/>
   </entry>
   <entry>
     <id>https://www.freightwaves.com/news/freightos-founder-takes-board-fight-to-shareholder-vote</id>

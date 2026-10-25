@@ -1,6 +1,6 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #AI产品",
+  "title": "公共目录 · #AI工具",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/ai-4.json",
   "description": "公共目录",
@@ -9,21 +9,21 @@
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/ai/6483690.html",
-      "url": "https://www.woshipm.com/ai/6483690.html",
-      "title": "WorkBuddy干活变慢还费token，一招教你瘦身加速",
-      "content_text": "WorkBuddy 用久了变慢还费 token，老马说这是 Skill、MCP 和记忆规则越滚越大，每轮对话都塞进上下文。他给出按报告瘦身的办法：关技能、关连接器、蒸馏记忆文件。 经常有小伙伴跟老马反馈，WorkBuddy一开始安装完使用的时候，还算蛮快的，后面使用了一段时间，发现干活速度变慢了，还特别消耗token，…",
-      "summary": "WorkBuddy 用久了变慢还费 token，老马说这是 Skill、MCP 和记忆规则越滚越大，每轮对话都塞进上下文。他给出按报告瘦身的办法：关技能、关连接器、蒸馏记忆文件。 经常有小伙伴跟老马反馈，WorkBuddy一开始安装完使用的时候，还算蛮快的，后面使用了一段时间，发现干活速度变慢了，还特别消耗token，…",
+      "id": "https://www.woshipm.com/ai/6479433.html",
+      "url": "https://www.woshipm.com/ai/6479433.html",
+      "title": "AI让市场调研效率提升300%",
+      "content_text": "一份完整调研从需求落地到出具洞察报告，少则7天，多则半个月甚至更久，耗时耗力耗钱。AI的入局直接把调研效率拉到新高度，整体效率提升不止300%，成本砍掉60%，洞察精准度翻倍。 一份完整调研从需求落地到出具洞察报告，少则7天，多则半个月，甚至更久，耗时、耗力、耗钱。AI的入局，直接把调研效率拉到新高度——整体效率提升不…",
+      "summary": "一份完整调研从需求落地到出具洞察报告，少则7天，多则半个月甚至更久，耗时耗力耗钱。AI的入局直接把调研效率拉到新高度，整体效率提升不止300%，成本砍掉60%，洞察精准度翻倍。 一份完整调研从需求落地到出具洞察报告，少则7天，多则半个月，甚至更久，耗时、耗力、耗钱。AI的入局，直接把调研效率拉到新高度——整体效率提升不…",
       "date_published": "2026-10-24T00:00:00Z",
       "tags": [
         "AI",
         "个人随笔",
-        "AI产品",
-        "WorkBuddy",
-        "经验分享",
-        "产品",
-        "运营",
-        "商业"
+        "AI工具",
+        "市场洞察",
+        "市场调研",
+        "提示词",
+        "竞品分析",
+        "产品"
       ],
       "authors": [
         {

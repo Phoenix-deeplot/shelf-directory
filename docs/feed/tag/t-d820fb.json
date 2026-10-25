@@ -9,6 +9,31 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/truckload-contract-rate-increases-riding-steady-above-10",
+      "url": "https://www.freightwaves.com/news/truckload-contract-rate-increases-riding-steady-above-10",
+      "title": "Truckload contract rate increases riding steady above 10%",
+      "content_text": "The new index from SONAR shows that carriers have been trying to get rate increases since before the market turned, now they are getting what would have been th…",
+      "summary": "The new index from SONAR shows that carriers have been trying to get rate increases since before the market turned, now they are getting what would have been th…",
+      "date_published": "2026-10-25T00:00:00Z",
+      "tags": [
+        "Chart of the Week",
+        "trucking capacity",
+        "truckload contract rates",
+        "Truckload rates",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/truckings-ruthless-vs-conservative-whos-winning",
       "url": "https://www.freightwaves.com/news/truckings-ruthless-vs-conservative-whos-winning",
       "title": "Trucking’s “Ruthless” vs. “Conservative:” Who’s Winning?",
@@ -190,6 +215,33 @@
       }
     },
     {
+      "id": "https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement",
+      "url": "https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement",
+      "title": "UPDATE: Daimler Truck sues former fleet manager over alleged $3.8M embezzlement",
+      "content_text": "Daimler Truck North America is seeking $6.6 million in damages after accusing a former employee and his wife of misappropriating nearly $3.8 million. The post U…",
+      "summary": "Daimler Truck North America is seeking $6.6 million in damages after accusing a former employee and his wife of misappropriating nearly $3.8 million. The post U…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "Legal issues",
+        "News",
+        "Trucking",
+        "Daimler",
+        "Daimler Truck North America",
+        "Embezzlement",
+        "lawsuit",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/tesla-semi-enters-volume-production-as-2027-rollout-approaches",
       "url": "https://www.freightwaves.com/news/tesla-semi-enters-volume-production-as-2027-rollout-approaches",
       "title": "Tesla Semi enters volume production as 2027 rollout approaches",
@@ -331,33 +383,6 @@
         "cargo theft",
         "logistics",
         "Trucking",
-        "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement",
-      "url": "https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement",
-      "title": "Daimler Truck sues former fleet manager over alleged $3.8M embezzlement",
-      "content_text": "Daimler Truck North America is seeking $6.6 million in damages after accusing a former employee and his wife of misappropriating nearly $3.8 million. The post D…",
-      "summary": "Daimler Truck North America is seeking $6.6 million in damages after accusing a former employee and his wife of misappropriating nearly $3.8 million. The post D…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Legal issues",
-        "News",
-        "Trucking",
-        "Daimler",
-        "Daimler Truck North America",
-        "Embezzlement",
-        "lawsuit",
         "货运"
       ],
       "authors": [

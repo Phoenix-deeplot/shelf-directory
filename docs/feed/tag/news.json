@@ -387,6 +387,33 @@
       }
     },
     {
+      "id": "https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement",
+      "url": "https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement",
+      "title": "UPDATE: Daimler Truck sues former fleet manager over alleged $3.8M embezzlement",
+      "content_text": "Daimler Truck North America is seeking $6.6 million in damages after accusing a former employee and his wife of misappropriating nearly $3.8 million. The post U…",
+      "summary": "Daimler Truck North America is seeking $6.6 million in damages after accusing a former employee and his wife of misappropriating nearly $3.8 million. The post U…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "Legal issues",
+        "News",
+        "Trucking",
+        "Daimler",
+        "Daimler Truck North America",
+        "Embezzlement",
+        "lawsuit",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/tesla-semi-enters-volume-production-as-2027-rollout-approaches",
       "url": "https://www.freightwaves.com/news/tesla-semi-enters-volume-production-as-2027-rollout-approaches",
       "title": "Tesla Semi enters volume production as 2027 rollout approaches",
@@ -681,33 +708,6 @@
       }
     },
     {
-      "id": "https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement",
-      "url": "https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement",
-      "title": "Daimler Truck sues former fleet manager over alleged $3.8M embezzlement",
-      "content_text": "Daimler Truck North America is seeking $6.6 million in damages after accusing a former employee and his wife of misappropriating nearly $3.8 million. The post D…",
-      "summary": "Daimler Truck North America is seeking $6.6 million in damages after accusing a former employee and his wife of misappropriating nearly $3.8 million. The post D…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Legal issues",
-        "News",
-        "Trucking",
-        "Daimler",
-        "Daimler Truck North America",
-        "Embezzlement",
-        "lawsuit",
-        "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
       "id": "https://www.freightwaves.com/news/commodity-markets-whip-up-railfreight-gains",
       "url": "https://www.freightwaves.com/news/commodity-markets-whip-up-railfreight-gains",
       "title": "Commodity markets whip up railfreight gains",
@@ -776,33 +776,6 @@
         "TQL",
         "货运",
         "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/phillips-connect-insights-trailersignal-launch",
-      "url": "https://www.freightwaves.com/news/phillips-connect-insights-trailersignal-launch",
-      "title": "Phillips Connect moves trailer sensor alerts into the yard",
-      "content_text": "Phillips Connect launched two smart trailer products Sunday at the American Trucking Associations’ Management Conference & Exhibition in Charlotte, North Caroli…",
-      "summary": "Phillips Connect launched two smart trailer products Sunday at the American Trucking Associations’ Management Conference & Exhibition in Charlotte, North Caroli…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "News",
-        "Technology",
-        "Trucking",
-        "Trucking Equipment",
-        "ATA MCE",
-        "ATA MCE 2026",
-        "Phillips Connect",
-        "Phillips Connect Insights"
       ],
       "authors": [
         {

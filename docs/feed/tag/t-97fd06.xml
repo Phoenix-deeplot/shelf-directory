@@ -4,69 +4,137 @@
   <title>公共目录 · #运营</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-97fd06.xml"/>
-  <updated>2026-10-24T00:00:00Z</updated>
+  <updated>2026-10-25T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6483631.html</id>
-    <title>这些动画，都是 AI 写代码画出来的：我实测了 4 种风格</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483631.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">照小红书博主Vincent公开的提示词和代码，用Claude的Opus 5.5试做4种风格的动画短片，再和自己手写提示词做的那三支网球视频对比，招牌特征、画面失控、字压字的问题都暴露得很具体。 前几天在小红书刷到 Vincent 的帖子。他用 Claude 的Opus 5.5模型，一种风格写一段提示词，做出了 15 种…</summary>
+    <id>https://www.woshipm.com/ai/6483437.html</id>
+    <title>靠 AI 赚钱的人，赚的到底是谁的钱</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483437.html"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <published>2026-10-25T00:00:00Z</published>
+    <summary type="text">拿「第一性原理」拆 AI 赛道：用户为产品付费、商家为效率付费、平台为流量付费、投资人为增长付费。作者逐个看钱是谁给的、为什么给、理由合不合理，判断哪些钱能长期赚，哪些只能赚一阵子。 前天分享了枯燥乏味的赚钱第一性原理，赚钱的第一性原理，是看懂钱怎么流动，今天拿这个方法来分析下，「靠 AI 赚钱的人，赚的到底是谁的钱」…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI编程"/>
-    <category term="Claude"/>
-    <category term="短视频"/>
-    <category term="经验分享"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6483439.html</id>
-    <title>跟车一周我才看清：押运数字化卡住的不是技术，是三本旧账</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6483439.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">押运行业的数字化，难点不在技术，而在三本算了很多年的旧账：手写登记对不上、交接纠纷说不清、功能堆砌翻不完。本文从一线跟车体验出发，拆解如何用产品思维把纸换成系统、把印象换成证据、把菜单换成入口，让数字化真正落地。 凌晨四点半的金库，比大多数写字楼清醒。点箱、核封签、领枪、登记——一本手写登记簿、一支笔，记着这个行业二十…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="b端产品"/>
-    <category term="传统行业"/>
-    <category term="数字化"/>
-    <category term="经验总结"/>
-    <category term="需求分析"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/it/6483634.html</id>
-    <title>被嘲笑土鳖的短剧，正在让优爱腾芒“去死”？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6483634.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">2026年7月红果日活达1.68亿，超过优爱腾芒四家之和；长视频日均视听时长一年少了21亿分钟，约76%流向红果。S级项目播到十几集就裸播，短剧不是让影视去死，而是逼它新生。 2026年7月，一个叫红果的App日活达到1.68亿。 而腾讯视频、爱奇艺、优酷、芒果TV四家加起来，日活总和约1.55亿。换句话说，一个短剧平…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="业界动态"/>
+    <category term="AI应用"/>
+    <category term="个人观点"/>
     <category term="商业模式"/>
-    <category term="短视频"/>
-    <category term="腾讯"/>
-    <category term="行业分析"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/operate/6483720.html</id>
+    <title>业财产品实战-对账中心0-1产品设计</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/operate/6483720.html"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <published>2026-10-25T00:00:00Z</published>
+    <summary type="text">对账不只是算钱，更是交易双方围绕业务记录展开的核对与确认。本文从制造业OMS项目出发，拆解对账单的流转过程与设计要点，厘清对账与结算的边界，帮助产品经理构建清晰、可落地的对账中心方案。 很多人第一次接触“对账”，会把它理解成算钱，算什么钱？ 实际上，对账不是简单地把两边金额相加减，而是交易双方按照约定的周期，把一段时间…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="产品运营"/>
+    <category term="b端产品"/>
+    <category term="OMS"/>
+    <category term="对账中心"/>
+    <category term="案例分析"/>
+    <category term="订单管理"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/chuangye/6483400.html</id>
+    <title>一条视频 1160万播放，为什么几乎没人下载 App？191个创业者的增长复盘</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6483400.html"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <published>2026-10-25T00:00:00Z</published>
+    <summary type="text">370 次观看带来 3 个付费客户，1160 万播放却几乎没人下载——191 位创业者的获客复盘说明，播放量不等于生意。真正区分成败的是三个问题：内容吸引了谁、他们为什么看、看完知道下一步做什么。 今天分享一个周末刚看的初创 AI 公司获客方式的复盘研究，原文我放在文末的“阅读全文”里。 一位软件创业者在 YouTub…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="创业学院"/>
+    <category term="内容创作"/>
+    <category term="内容营销"/>
+    <category term="用户增长"/>
+    <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/embodied/6483693.html</id>
-    <title>机器人领域的OpenAI，来了？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/embodied/6483693.html"/>
+    <id>https://www.woshipm.com/share/6479455.html</id>
+    <title>KOL 品牌大使合作保姆级流程</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6479455.html"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <published>2026-10-25T00:00:00Z</published>
+    <summary type="text">单次KOL合作只能赚短期曝光，而品牌大使的长期绑定，能更好地实现口碑沉淀与持续转化。很多人第一次谈海外品牌大使合作都会陷入迷茫：品牌该掏什么、做什么，KOL又要配合哪些事？ 单次KOL合作只能赚短期曝光，而品牌大使的长期绑定，能更好的实现口碑沉淀、持续转化。 但很多人第一次谈海外品牌大使合作，都会陷入迷茫：品牌该掏什么…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="KOL"/>
+    <category term="内容营销"/>
+    <category term="品牌营销"/>
+    <category term="海外营销"/>
+    <category term="红人营销"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6483874.html</id>
+    <title>AI短剧公司几乎不要基础岗，老干妈用AI把600人裁到48人，国办发文，AI赢，不能让劳动者输</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483874.html"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <published>2026-10-25T00:00:00Z</published>
+    <summary type="text">AI短剧公司把几十人的剧组压到三五人；老干妈视觉分拣后，600名挑辣椒工只剩48人。省下的钱没变成新岗位，反而流向了平台流量竞价。国办新文件划下边界：机器可以上岗，但劳动者不能被甩下。 AI短剧公司几乎不要基础岗上了微博热搜。 一网友感叹去朋友的短剧公司参观，回来发感受称，公司前几年还是小作坊，今年被大集团收了，搬进一…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI短剧"/>
+    <category term="案例分析"/>
+    <category term="消费降级"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/zhichang/6479439.html</id>
+    <title>50条血的教训：培养错了人，比招错人更可怕</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/zhichang/6479439.html"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <published>2026-10-25T00:00:00Z</published>
+    <summary type="text">为什么我花了大价钱培养的员工，转头就去了竞争对手那里？为什么招的人看起来履历光鲜，实际干活却一塌糊涂？小公司每一分钱、每一分钟都要花在刀刃上，培养错了人比招错人更可怕。 “为什么我花了大价钱培养的员工，转头就去了竞争对手那里？” “为什么我招的人，看起来履历光鲜，实际干活却一塌糊涂？” “为什么我的团队总是内耗不断，老…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="职场攻略"/>
+    <category term="团队管理"/>
+    <category term="经验分享"/>
+    <category term="职业规划"/>
+    <category term="项目管理"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/chuangye/6483396.html</id>
+    <title>花 499元给猫买个 AI 项圈，它居然开始每天给主人写日记</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6483396.html"/>
     <updated>2026-10-24T00:00:00Z</updated>
     <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">Physical Intelligence 推出 Pi API beta，开始把「机器人大脑」按 API 卖。具身智能不缺融资和 demo，难的是私有化部署、数据合规与验收责任，这三关决定谁能把它卖成生意。 具身智能行业最近被一个老问题重新击中，机器人“大脑”，到底该怎么卖？ 过去两年，具身大脑公司普遍不缺融资、不缺论…</summary>
+    <summary type="text">PurrPurr 用 17.9 克的项圈，把猫的叫声、活动与休息变成第一人称日记，一天能生成八条动态。499 元硬件加订阅，卖的是情绪价值；数据够不够准、故事够不够真，决定新鲜感过后还有没有人续费。 今天分享的产品，很可爱： PurrPurr， https://www.purrpurr.cn/ 一只叫“小满”的英国短毛…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="创业学院"/>
+    <category term="AI应用"/>
+    <category term="商业模式"/>
+    <category term="宠物经济"/>
+    <category term="智能硬件"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/embodied/6483697.html</id>
+    <title>狂揽千亿融资之后，DeepSeek 具身投资版图浮出水面</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/embodied/6483697.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">梁文锋最近密集约见具身智能创业者，三张底牌已落桌：物理躯干、具身大脑、全身运控。刚完成约千亿元融资、投前估值约五千亿元的 DeepSeek，正把大模型带出虚拟世界。 梁文锋最近的行程表异常密集。 过去几周，这位一向低调的 DeepSeek 创始人频繁约见具身智能赛道的创业者，探讨的焦点始终围绕同一个命题：大模型如何走出…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="具身智能"/>
-    <category term="企业服务"/>
+    <category term="DeepSeek"/>
     <category term="机器人"/>
     <category term="行业分析"/>
     <category term="产品"/>
@@ -74,34 +142,17 @@
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6483435.html</id>
-    <title>我把 AI 做自媒体的 13 个 AI 技能，免费开源了</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483435.html"/>
+    <id>https://www.woshipm.com/share/6483703.html</id>
+    <title>微信观察：微信公众号推出“不喜欢”作者文章功能</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6483703.html"/>
     <updated>2026-10-24T00:00:00Z</updated>
     <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">作者把两年做自媒体沉淀的流程做成 13 个 AI 技能，全部免费开源：账号定位、选题、笔记分析、日复盘、录音处理都在里面。他讲了为什么放出来，以及一个新手该按什么顺序用。 我从2020年开始做小红书，2025年开始把 AI 用到自媒体运营上，到现在积累了很多工作流程，也做了自己的知识库、工作台之类的。 现在我把一套做自…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI工具"/>
-    <category term="AI应用"/>
-    <category term="内容创作"/>
-    <category term="自媒体"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6483667.html</id>
-    <title>广告界教务长韦伯·扬：23条“旧元素新组合”的创意生成法则</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6483667.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">智威汤逊首席创作总监韦伯·扬留下两条判断：创意不过是旧元素的新组合，优秀广告人是通才而非专才。23条法则从创意五步法讲到魔岛理论，配可口可乐、美国陆军等经典案例。 詹姆斯・韦伯・扬（James Webb Young），智威汤逊（JWT）首席创作总监，广告生涯长达 60 余年，美国广告史上影响力最深远的创意大师之一。少年…</summary>
+    <summary type="text">微信公众号文章页右下角新增「不喜欢」按钮，可选我不想看、此账号内容，还能同时勾选标题误导、内容低质、AI低质创作。这个新功能背后，明显指向两个方向：盘活流量与满足需求。 日前，微信在新版本中针对微信公众号又做出了新的调整，即文章页的右下角支持“不喜欢”作者文章功能，当用户浏览文章到最下面时，右下角就会出现“不喜欢”按钮…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="个人随笔"/>
-    <category term="案例分析"/>
-    <category term="经验分享"/>
-    <category term="行业观察"/>
+    <category term="产品分析"/>
+    <category term="微信"/>
+    <category term="行业动态"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
@@ -124,52 +175,17 @@
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/pd/6483649.html</id>
-    <title>双11预售开始了，定金、尾款和退款怎么管？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/pd/6483649.html"/>
+    <id>https://www.woshipm.com/share/6484007.html</id>
+    <title>别把响应式布局当作多端适配：HarmonyOS 7「一多」的工程落点与检查清单#1024鸿蒙实战共创#</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484007.html"/>
     <updated>2026-10-24T00:00:00Z</updated>
     <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">双11预售里，一笔订单客户付900元、退200元，商家银行账户最终只收到680元。把每笔钱放回对应的订单和交易阶段，才能判断定金、尾款、退款各走到哪一步，差额该不该追。 双11进入预售期，商家的订单里开始同时出现几种情况： 有人刚付定金，有人在等付尾款，有人已经买了现货，还有人付完钱又申请退款。 运营看订单，客服看售后…</summary>
+    <summary type="text">刚做多设备适配时，最容易犯的错是：把手机页面拉宽，然后宣布平板适配完成。实际把同一个应用放到手机、折叠屏、平板和更大屏幕上，问题往往不是“控件能不能铺开”，而是用户在不同设备上的任务是否仍然顺手。 HarmonyOS 的一次开发、多端部署，价值也不应只用“少维护几套页面”来衡量。对产品经理和工程团队而言，更值得关注的是…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="产品设计"/>
-    <category term="支付宝"/>
-    <category term="淘宝"/>
-    <category term="电商运营"/>
-    <category term="经验分享"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6483646.html</id>
-    <title>别再争谁是“中国版Muse”了，卖铲子的ICT厂商先赚到了钱</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483646.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">常驻型 Agent 将 AI 搬上云端，重写了机房的 CPU、存储与网络配比。国内跨平台 Agent 受阻，基础设施先拿订单，成色仍看应用层。 硅谷大厂在 AI 应用层的新一轮抢位，已经把战火烧到了云端机房。 10 月 22 日凌晨，正处于 IPO 冲刺期的 Anthropic 发布了全新的个人与工作智能体应用 Cla…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="Meta"/>
-    <category term="Muse"/>
-    <category term="企业服务"/>
-    <category term="行业分析"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6483642.html</id>
-    <title>从角色聊天到互动叙事世界，AI原生娱乐的下一站</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483642.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">字节旗下猫箱一季度内购收入超2200万美元，登顶中国iOS生成式AI应用；同期Character.AI申请Chapter 11，每月亏损800万至900万美元。角色聊天之后，互动叙事世界成为下一站。 虚拟角色的新生活。 Sensor Tower发布的2026年全球AI应用趋势报告显示，字节跳动旗下的猫箱位居第一季度中国…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="AI应用"/>
-    <category term="Character.ai"/>
-    <category term="内容创作"/>
-    <category term="行业分析"/>
+    <category term="个人随笔"/>
+    <category term="鸿蒙"/>
+    <category term="响应式布局"/>
+    <category term="鸿蒙系统"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>

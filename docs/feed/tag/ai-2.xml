@@ -1,60 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/ai-2.xml</id>
-  <title>公共目录 · #AI应用</title>
+  <title>公共目录 · #AI产品</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/ai-2.xml"/>
-  <updated>2026-10-24T00:00:00Z</updated>
+  <updated>2026-10-25T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6483435.html</id>
-    <title>我把 AI 做自媒体的 13 个 AI 技能，免费开源了</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483435.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">作者把两年做自媒体沉淀的流程做成 13 个 AI 技能，全部免费开源：账号定位、选题、笔记分析、日复盘、录音处理都在里面。他讲了为什么放出来，以及一个新手该按什么顺序用。 我从2020年开始做小红书，2025年开始把 AI 用到自媒体运营上，到现在积累了很多工作流程，也做了自己的知识库、工作台之类的。 现在我把一套做自…</summary>
+    <id>https://www.woshipm.com/ai/6483815.html</id>
+    <title>逐渐被淘汰的AI产品设计与交互</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483815.html"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <published>2026-10-25T00:00:00Z</published>
+    <summary type="text">AI模型能力飞速跃迁，产品设计正经历一场静默革命。复杂Prompt、独立功能入口、纯聊天交互等曾被视为标配的设计，正被Agent化、多模态与主动执行的新范式取代。本文深度剖析5种正在被淘汰的设计思路，揭示其背后的逻辑变迁，并为AI产品经理指明从“弥补模型缺陷”转向“解决用户长期需求”的迭代方向。 从2024到2026…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI工具"/>
-    <category term="AI应用"/>
-    <category term="内容创作"/>
-    <category term="自媒体"/>
+    <category term="Agent"/>
+    <category term="AI产品"/>
+    <category term="人机交互"/>
+    <category term="多模态"/>
+    <category term="行业观察"/>
     <category term="产品"/>
-    <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6483642.html</id>
-    <title>从角色聊天到互动叙事世界，AI原生娱乐的下一站</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483642.html"/>
+    <id>https://www.woshipm.com/ai/6483690.html</id>
+    <title>WorkBuddy干活变慢还费token，一招教你瘦身加速</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483690.html"/>
     <updated>2026-10-24T00:00:00Z</updated>
     <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">字节旗下猫箱一季度内购收入超2200万美元，登顶中国iOS生成式AI应用；同期Character.AI申请Chapter 11，每月亏损800万至900万美元。角色聊天之后，互动叙事世界成为下一站。 虚拟角色的新生活。 Sensor Tower发布的2026年全球AI应用趋势报告显示，字节跳动旗下的猫箱位居第一季度中国…</summary>
+    <summary type="text">WorkBuddy 用久了变慢还费 token，老马说这是 Skill、MCP 和记忆规则越滚越大，每轮对话都塞进上下文。他给出按报告瘦身的办法：关技能、关连接器、蒸馏记忆文件。 经常有小伙伴跟老马反馈，WorkBuddy一开始安装完使用的时候，还算蛮快的，后面使用了一段时间，发现干活速度变慢了，还特别消耗token，…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
-    <category term="AI应用"/>
-    <category term="Character.ai"/>
-    <category term="内容创作"/>
-    <category term="行业分析"/>
+    <category term="个人随笔"/>
+    <category term="AI产品"/>
+    <category term="WorkBuddy"/>
+    <category term="经验分享"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6483648.html</id>
-    <title>AI辅助鸿蒙开发初体验：用大模型加速ArkUI页面搭建 #1024鸿蒙实战共创#</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6483648.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">鸿蒙开发新手用AI辅助写ArkTS代码，结果踩坑不断：语法混用、API版本错乱、报错误判……本文真实记录了一次备忘录Demo的实践过程，总结AI在鸿蒙开发中的适用边界与避坑指南，给同样入门的你一份实用参考。 作为一名刚接触鸿蒙开发的新手，刚开始写ArkTS、搭建ArkUI页面的时候，经常会被语法规则、组件属性、布局嵌套…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="鸿蒙"/>
-    <category term="AI应用"/>
-    <category term="ArkTS"/>
-    <category term="经验总结"/>
-    <category term="鸿蒙开发"/>
-    <category term="鸿蒙生态"/>
-    <category term="鸿蒙系统"/>
   </entry>
 </feed>

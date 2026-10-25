@@ -293,6 +293,72 @@
       }
     },
     {
+      "id": "https://www.producthunt.com/products/yourcast",
+      "url": "https://www.producthunt.com/products/yourcast",
+      "title": "Yourcast 2.0",
+      "content_text": "AI summaries with tap-to-jump timestamps, right in Telegram Discussion | Link",
+      "summary": "AI summaries with tap-to-jump timestamps, right in Telegram Discussion | Link",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/papermark-2",
+      "url": "https://www.producthunt.com/products/papermark-2",
+      "title": "Papermark Virtual Data Room",
+      "content_text": "Secure data rooms your AI agents can run. Live in < 60 sec. Discussion | Link",
+      "summary": "Secure data rooms your AI agents can run. Live in < 60 sec. Discussion | Link",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/agentgrid-io",
+      "url": "https://www.producthunt.com/products/agentgrid-io",
+      "title": "AgentGrid.io",
+      "content_text": "Shared workspace for humans and agents Discussion | Link",
+      "summary": "Shared workspace for humans and agents Discussion | Link",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/gallery/iphone-buying-guide/",
       "url": "https://www.wired.com/gallery/iphone-buying-guide/",
       "title": "What’s the Best iPhone to Buy or Avoid Right Now? (2026)",
@@ -658,6 +724,28 @@
       "title": "sideOS.ai",
       "content_text": "Local AI for dictation, meetings, background tasks and more Discussion | Link",
       "summary": "Local AI for dictation, meetings, background tasks and more Discussion | Link",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/llama-windows",
+      "url": "https://www.producthunt.com/products/llama-windows",
+      "title": "Llama Windows",
+      "content_text": "One local AI server for all your Windows apps Discussion | Link",
+      "summary": "One local AI server for all your Windows apps Discussion | Link",
       "date_published": "2026-10-23T00:00:00Z",
       "tags": [
         "产品",
@@ -1175,97 +1263,6 @@
       "_shelf": {
         "type": "article",
         "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/ice-age-beginning-then-humans-started-burning-fossil-fuels/",
-      "url": "https://www.wired.com/story/ice-age-beginning-then-humans-started-burning-fossil-fuels/",
-      "title": "A New Ice Age Was Beginning. Then Humans Started Burning Fossil Fuels",
-      "content_text": "Ancient plants reveal that the vestiges of the North American ice sheet started expanding a few thousand years ago, but that climate change caused it to reverse…",
-      "summary": "Ancient plants reveal that the vestiges of the North American ice sheet started expanding a few thousand years ago, but that climate change caused it to reverse…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad93d4fded54679300f8db7/master/pass/GettyImages-53043931.jpg",
-      "tags": [
-        "Science",
-        "Science / Environment",
-        "Ice, Ice Maybe",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/truffle-music-tag-editor",
-      "url": "https://www.producthunt.com/products/truffle-music-tag-editor",
-      "title": "Truffle",
-      "content_text": "Fix messy tags, covers and duplicates in your Mac library Discussion | Link",
-      "summary": "Fix messy tags, covers and duplicates in your Mac library Discussion | Link",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/termi-protocol",
-      "url": "https://www.producthunt.com/products/termi-protocol",
-      "title": "Termi Protocol",
-      "content_text": "Watch AI agents code in 3D and hand off the work Discussion | Link",
-      "summary": "Watch AI agents code in 3D and hand off the work Discussion | Link",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/shogunai",
-      "url": "https://www.producthunt.com/products/shogunai",
-      "title": "ShogunAI",
-      "content_text": "Your personal AGI on your pc Discussion | Link",
-      "summary": "Your personal AGI on your pc Discussion | Link",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
       }
     }
   ]

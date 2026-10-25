@@ -2,6 +2,26 @@
  "id": "sspai-com",
  "items": [
   {
+   "url": "https://sspai.com/post/114741",
+   "title": "60 元打造你的 vibe coding 神器：小米蓝牙遥控器 2 pro",
+   "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://sspai.com/post/116128",
+   "title": "在硅谷，遇见个人计算机历史",
+   "summary": "从硅谷计算机历史博物馆出发，让书里的故事变得更加具体。查看全文",
+   "image": "",
+   "date": "2026-10-24",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
    "url": "https://sspai.com/post/117169",
    "title": "本周看什么 | 最近值得一看的 12 部作品",
    "summary": "📅本周新预告《指环王：力量之戒第三季》正式预告10月22日，剧集《指环王：力量之戒第三季》发布了正式预告，将于11月11日上线PrimeVideo。故事发生在第二季事件的数年之后，正值精灵与索伦之战的 ...查看全文",
@@ -77,26 +97,6 @@
    "summary": "OpenBSD 8.0 正式发布、腾讯宣布元宝搜索对外开放等。查看全文",
    "image": "",
    "date": "2026-10-22",
-   "tags": [],
-   "lang": "zh",
-   "type": "article"
-  },
-  {
-   "url": "https://sspai.com/post/116820",
-   "title": "社区速递 162 | MUJI 靠垫、中兴路由器与派友们的长假吃灰装备",
-   "summary": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文",
-   "image": "",
-   "date": "2026-10-21",
-   "tags": [],
-   "lang": "zh",
-   "type": "article"
-  },
-  {
-   "url": "https://sspai.com/post/116445",
-   "title": "Vitals：什么在拖慢你的 Mac？它比「活动监视器」更直观易用",
-   "summary": "如果你希望更直观地分析 App 资源消耗、追踪历史变化，或者经常在 Mac 上进行开发和本地 AI 推理，Vitals 提供的整合式监控与 AI 协作能力更值得尝试。查看全文",
-   "image": "",
-   "date": "2026-10-21",
    "tags": [],
    "lang": "zh",
    "type": "article"

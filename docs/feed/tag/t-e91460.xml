@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/t-e91460.xml</id>
+  <title>公共目录 · #创业学院</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-e91460.xml"/>
+  <updated>2026-10-25T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.woshipm.com/chuangye/6483400.html</id>
+    <title>一条视频 1160万播放，为什么几乎没人下载 App？191个创业者的增长复盘</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6483400.html"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <published>2026-10-25T00:00:00Z</published>
+    <summary type="text">370 次观看带来 3 个付费客户，1160 万播放却几乎没人下载——191 位创业者的获客复盘说明，播放量不等于生意。真正区分成败的是三个问题：内容吸引了谁、他们为什么看、看完知道下一步做什么。 今天分享一个周末刚看的初创 AI 公司获客方式的复盘研究，原文我放在文末的“阅读全文”里。 一位软件创业者在 YouTub…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="创业学院"/>
+    <category term="内容创作"/>
+    <category term="内容营销"/>
+    <category term="用户增长"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/chuangye/6483396.html</id>
+    <title>花 499元给猫买个 AI 项圈，它居然开始每天给主人写日记</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6483396.html"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">PurrPurr 用 17.9 克的项圈，把猫的叫声、活动与休息变成第一人称日记，一天能生成八条动态。499 元硬件加订阅，卖的是情绪价值；数据够不够准、故事够不够真，决定新鲜感过后还有没有人续费。 今天分享的产品，很可爱： PurrPurr， https://www.purrpurr.cn/ 一只叫“小满”的英国短毛…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="创业学院"/>
+    <category term="AI应用"/>
+    <category term="商业模式"/>
+    <category term="宠物经济"/>
+    <category term="智能硬件"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+</feed>

@@ -4,8 +4,44 @@
   <title>公共目录 · Product Hunt — The best new products, every day</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/producthunt-com.xml"/>
-  <updated>2026-10-23T00:00:00Z</updated>
+  <updated>2026-10-24T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.producthunt.com/products/yourcast</id>
+    <title>Yourcast 2.0</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/yourcast"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">AI summaries with tap-to-jump timestamps, right in Telegram Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/papermark-2</id>
+    <title>Papermark Virtual Data Room</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/papermark-2"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">Secure data rooms your AI agents can run. Live in &lt; 60 sec. Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/agentgrid-io</id>
+    <title>AgentGrid.io</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/agentgrid-io"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">Shared workspace for humans and agents Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
   <entry>
     <id>https://www.producthunt.com/products/sideos-ai</id>
     <title>sideOS.ai</title>
@@ -13,6 +49,18 @@
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
     <summary type="text">Local AI for dictation, meetings, background tasks and more Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/llama-windows</id>
+    <title>Llama Windows</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/llama-windows"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">One local AI server for all your Windows apps Discussion | Link</summary>
     <source><title>Product Hunt — The best new products, every day</title></source>
     <category term="产品"/>
     <category term="科技"/>
@@ -139,6 +187,18 @@
     <category term="热榜"/>
   </entry>
   <entry>
+    <id>https://www.producthunt.com/products/mrraudit</id>
+    <title>MRRaudit</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/mrraudit"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">Understand why your MRR differs and get a number you trust Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
     <id>https://www.producthunt.com/products/instant-search-2</id>
     <title>Instant Search</title>
     <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/instant-search-2"/>
@@ -211,30 +271,6 @@
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.producthunt.com/products/teclo</id>
-    <title>Teclo</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/teclo"/>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <published>2026-10-21T00:00:00Z</published>
-    <summary type="text">Mechanical keyboard sounds and a keycap pet for your Mac Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/resend</id>
-    <title>Resend Inboxes</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/resend"/>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <published>2026-10-21T00:00:00Z</published>
-    <summary type="text">Create shared inboxes, connect your agents, build workflows Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
     <id>https://www.producthunt.com/products/polylane</id>
     <title>Polylane for Cloudflare</title>
     <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/polylane"/>
@@ -259,42 +295,6 @@
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.producthunt.com/products/mercury-412</id>
-    <title>Mercury 3</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/mercury-412"/>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <published>2026-10-21T00:00:00Z</published>
-    <summary type="text">The diffusion LLM that scaled 40x without slowing down Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/kugelaudio</id>
-    <title>Kugel Ear</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/kugelaudio"/>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <published>2026-10-21T00:00:00Z</published>
-    <summary type="text">Speech-to-text that only asks when it's unsure Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/claude</id>
-    <title>Claude Duet</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/claude"/>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <published>2026-10-21T00:00:00Z</published>
-    <summary type="text">Proactive agent that understands what needs your attention Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
     <id>https://www.producthunt.com/products/byter</id>
     <title>Byter</title>
     <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/byter"/>
@@ -307,24 +307,12 @@
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.producthunt.com/products/bits-4</id>
-    <title>Bits</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/bits-4"/>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <published>2026-10-21T00:00:00Z</published>
-    <summary type="text">An open-source personal agent that gets you things done Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/cleanslop</id>
-    <title>Agentic CleanSlop</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/cleanslop"/>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <published>2026-10-21T00:00:00Z</published>
-    <summary type="text">Authenticate, scan and fix your app from your agent Discussion | Link</summary>
+    <id>https://www.producthunt.com/products/pawl</id>
+    <title>pawl</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/pawl"/>
+    <updated>2026-10-20T00:00:00Z</updated>
+    <published>2026-10-20T00:00:00Z</published>
+    <summary type="text">a tiny mac focus timer you start by pulling a paw Discussion | Link</summary>
     <source><title>Product Hunt — The best new products, every day</title></source>
     <category term="产品"/>
     <category term="科技"/>
@@ -337,18 +325,6 @@
     <updated>2026-10-20T00:00:00Z</updated>
     <published>2026-10-20T00:00:00Z</published>
     <summary type="text">Get back the space Xcode, Docker and node_modules ate Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/mistral-7b</id>
-    <title>Mistral Voxtral 3</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/mistral-7b"/>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <published>2026-10-20T00:00:00Z</published>
-    <summary type="text">Mistral’s speech models for transcription, TTS and agents Discussion | Link</summary>
     <source><title>Product Hunt — The best new products, every day</title></source>
     <category term="产品"/>
     <category term="科技"/>
@@ -391,30 +367,6 @@
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.producthunt.com/products/dotmd-3</id>
-    <title>DotMD</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/dotmd-3"/>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <published>2026-10-20T00:00:00Z</published>
-    <summary type="text">Review your AI agent's Markdown specs like a pull request Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/deepcell</id>
-    <title>DeepCell</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/deepcell"/>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <published>2026-10-20T00:00:00Z</published>
-    <summary type="text">Your deadline survival kit for office work Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
     <id>https://www.producthunt.com/products/cloudflare</id>
     <title>Cloudflare Clairic</title>
     <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/cloudflare"/>
@@ -439,12 +391,24 @@
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.producthunt.com/products/whiteboard-5</id>
-    <title>Whiteboard</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/whiteboard-5"/>
+    <id>https://www.producthunt.com/products/tower</id>
+    <title>git-flow-next</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/tower"/>
     <updated>2026-10-19T00:00:00Z</updated>
     <published>2026-10-19T00:00:00Z</published>
-    <summary type="text">the open-source IDE for thoughtful software design Discussion | Link</summary>
+    <summary type="text">Your favorite Git workflow. Reimagined. Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/how-it-spread</id>
+    <title>How It Spread</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/how-it-spread"/>
+    <updated>2026-10-19T00:00:00Z</updated>
+    <published>2026-10-19T00:00:00Z</published>
+    <summary type="text">See how anything went viral, from the first post Discussion | Link</summary>
     <source><title>Product Hunt — The best new products, every day</title></source>
     <category term="产品"/>
     <category term="科技"/>
@@ -475,12 +439,48 @@
     <category term="热榜"/>
   </entry>
   <entry>
+    <id>https://www.producthunt.com/products/specsight</id>
+    <title>Specsight</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/specsight"/>
+    <updated>2026-10-18T00:00:00Z</updated>
+    <published>2026-10-18T00:00:00Z</published>
+    <summary type="text">Product observability for teams shipping fast with AI Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/openstatus-2</id>
+    <title>Openstatus Incident Management</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/openstatus-2"/>
+    <updated>2026-10-17T00:00:00Z</updated>
+    <published>2026-10-17T00:00:00Z</published>
+    <summary type="text">Incident management for small teams Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
     <id>https://www.producthunt.com/products/how-it-went</id>
     <title>How It Went</title>
     <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/how-it-went"/>
     <updated>2026-10-17T00:00:00Z</updated>
     <published>2026-10-17T00:00:00Z</published>
     <summary type="text">Your route, photos and clips as a short film Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/clips-by-plastic</id>
+    <title>Clips by Plastic</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/clips-by-plastic"/>
+    <updated>2026-10-17T00:00:00Z</updated>
+    <published>2026-10-17T00:00:00Z</published>
+    <summary type="text">Lyric video ads for every part of your song, on the beat Discussion | Link</summary>
     <source><title>Product Hunt — The best new products, every day</title></source>
     <category term="产品"/>
     <category term="科技"/>
@@ -559,12 +559,12 @@
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.producthunt.com/products/claire-mail</id>
-    <title>Claire Mail</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/claire-mail"/>
-    <updated>2026-10-13T00:00:00Z</updated>
-    <published>2026-10-13T00:00:00Z</published>
-    <summary type="text">Email, calendar and reminders, in one fast app Discussion | Link</summary>
+    <id>https://www.producthunt.com/products/lexmount-browser</id>
+    <title>Moli by Lexmount</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/lexmount-browser"/>
+    <updated>2026-10-12T00:00:00Z</updated>
+    <published>2026-10-12T00:00:00Z</published>
+    <summary type="text">The fastest headless browser for agents and harnesses Discussion | Link</summary>
     <source><title>Product Hunt — The best new products, every day</title></source>
     <category term="产品"/>
     <category term="科技"/>
@@ -583,12 +583,12 @@
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.producthunt.com/products/heal-dev</id>
-    <title>heal.dev</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/heal-dev"/>
-    <updated>2026-10-01T00:00:00Z</updated>
-    <published>2026-10-01T00:00:00Z</published>
-    <summary type="text">Find bugs and vulnerabilities code review misses Discussion | Link</summary>
+    <id>https://www.producthunt.com/products/badgey</id>
+    <title>Badgey</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/badgey"/>
+    <updated>2026-10-08T00:00:00Z</updated>
+    <published>2026-10-08T00:00:00Z</published>
+    <summary type="text">Your iPhone becomes a name badge that faces the room Discussion | Link</summary>
     <source><title>Product Hunt — The best new products, every day</title></source>
     <category term="产品"/>
     <category term="科技"/>

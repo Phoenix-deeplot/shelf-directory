@@ -16,19 +16,6 @@
    "type": "article"
   },
   {
-   "url": "https://slate.com/life/2026/10/word-game-slate-pears-436-for-october-24-2026.html?via=rss",
-   "title": "Slate Pears Game 436: Oct. 24, 2026",
-   "summary": "Today's puzzle has four pears.",
-   "image": "https://compote.slate.com/images/61d47363-da12-4f08-a295-7bf3f3f4f236.png",
-   "date": "2026-10-24",
-   "tags": [
-    "Slate Games",
-    "Pears"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
    "url": "https://slate.com/advice/2026/10/sex-advice-roommates-house-bedroom-secret.html?via=rss",
    "title": "My Roommates Think They’re Having a Silent, Sneaky Love Affair. They’re Not.",
    "summary": "They think I don't know but they're wrong.",
@@ -37,6 +24,19 @@
    "tags": [
     "Advice",
     "Sex"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://slate.com/life/2026/10/word-game-slate-pears-436-for-october-24-2026.html?via=rss",
+   "title": "Slate Pears Game 436: Oct. 24, 2026",
+   "summary": "Today's puzzle has four pears.",
+   "image": "https://compote.slate.com/images/61d47363-da12-4f08-a295-7bf3f3f4f236.png",
+   "date": "2026-10-24",
+   "tags": [
+    "Slate Games",
+    "Pears"
    ],
    "lang": "en",
    "type": "article"
@@ -176,16 +176,6 @@
    "type": "article"
   },
   {
-   "url": "https://slate.com/podcasts/amicus/2026/10/trump-impeachment-crimes-boat-strikes-corruption-congress?via=rss",
-   "title": "Impeaching Trump Is a Legal and Constitutional Slam Dunk. It’s Also a Bad Idea.",
-   "summary": "It is entirely possible that America has broken its impeachment process beyond use.",
-   "image": "https://compote.slate.com/images/24c63d16-8900-46e1-a529-a8c4f6aeab2d.png?crop=1080%2C720%2Cx100%2Cy0",
-   "date": "2026-10-24",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
    "url": "https://slate.com/podcasts/icymi/2026/10/tradwives-are-rebranding-as-girlbosses?via=rss",
    "title": "The “Tradwife” To Girlboss Pipeline",
    "summary": "Nara Smith and Hannah Neelemen, aka Ballerina Farm, are distancing themselves from the “tradwife” label.",
@@ -196,6 +186,16 @@
     "Religion",
     "Social Media"
    ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://slate.com/podcasts/amicus/2026/10/trump-impeachment-crimes-boat-strikes-corruption-congress?via=rss",
+   "title": "Impeaching Trump Is a Legal and Constitutional Slam Dunk. It’s Also a Bad Idea.",
+   "summary": "It is entirely possible that America has broken its impeachment process beyond use.",
+   "image": "https://compote.slate.com/images/24c63d16-8900-46e1-a529-a8c4f6aeab2d.png?crop=1080%2C720%2Cx100%2Cy0",
+   "date": "2026-10-24",
+   "tags": [],
    "lang": "en",
    "type": "article"
   },
@@ -371,6 +371,6 @@
  "parser": 2,
  "status": "ok",
  "error": "",
- "etag": "W/\"6c81-0KQiJY/CWPyagNWHAgDB5wsBCFo\"",
+ "etag": "W/\"6c81-dHLObY7gJfcjCdShsZweCMQaLhU\"",
  "modified": ""
 }

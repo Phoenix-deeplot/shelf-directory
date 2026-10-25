@@ -1,0 +1,38 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Data Monster",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/data-monster.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.wired.com/story/google-home-speaker-bug-oct-2026/",
+      "url": "https://www.wired.com/story/google-home-speaker-bug-oct-2026/",
+      "title": "The Google Home Speaker Has Been Secretly Eating My Wi-Fi Data",
+      "content_text": "My Google Home Speaker had been burning through more data than all the rest of my devices combined. As I looked into it further, I found other smart home device…",
+      "summary": "My Google Home Speaker had been burning through more data than all the rest of my devices combined. As I looked into it further, I found other smart home device…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ada2a91587bb57d09e564bf/master/pass/The%20Google%20Home%20Speaker%20Bug%20Is%20Gobbling%20Up%20Wi-Fi%20102026%20top%20art%20SOURCE%20Google.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Gear News and Events",
+        "Gear / Products / Smart Home",
+        "Data Monster",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    }
+  ]
+}
