@@ -1,7 +1,7 @@
 """statapi.py: anonymous, aggregate counters for the public directory: how often an entry was opened, saved to a shelf, or subscribed to. Nothing else.
 
-    POST {"events": [{"t": "open" | "save" | "sub", "k": "item" | "shelf", "id": "..."}]}      (at most 20; the page sends each once a day per entry)
-    GET                                                                                       {"items": {id: {"o", "s", "u", "h"}}, "shelves": {...}}   the busiest, for the page to sort and show
+    POST {"events": [{"t": "open" | "save" | "sub" | "like" | "dislike" | "unlike" | "undislike", "k": "item" | "shelf", "id": "..."}]}      (at most 20; the page sends each once a day per entry)
+    GET                                                                                       {"items": {id: {"o", "s", "u", "l", "d", "h"}}, "shelves": {...}}   the busiest, for the page to sort and show
 
 What it keeps, and what not:
   - per entry, a number for each kind of event, per day (40 days) and for ever. That is all: no cookie, no account, no address, no browser, no time of day.
@@ -9,7 +9,8 @@ What it keeps, and what not:
     days and then Redis forgets it; the hash cannot be turned back into an address, and tomorrow's hash is another one (the date is in it), so nobody can be followed from one day
     to the next. A second hash (salt, date, address) counts how many events one reader may send in a day (200): beyond that they are dropped, so one machine cannot make an entry "hot".
   - the page sends nothing when the browser says Do Not Track or Global Privacy Control, and nothing for what is not in the public directory.
-The heat of an entry is its last 7 days: opens + 4 x saves + 6 x subscriptions (SCORE below); the page shows the all-time numbers next to it.
+The heat of an entry is its last 7 days: opens + 3 x likes + 4 x saves + 6 x subscriptions (SCORE below); the page shows the all-time numbers next to it. A like / dislike is a state the page keeps for
+the reader (and can take back): "unlike" / "undislike" count one less (never below zero) and make the same reader's like of today count again.
 
 The storage is the one the sync service uses (a Redis over HTTPS: UPSTASH_REDIS_REST_URL + UPSTASH_REDIS_REST_TOKEN, or KV_REST_API_URL + KV_REST_API_TOKEN). Without it GET says
 "configured": false and the page shows no heat. Other environment (optional): ALLOWED_ORIGINS and IP_SALT (as in submission.py), STAT_DAILY_EVENTS.
@@ -26,8 +27,9 @@ import syncapi
 from submission import Reply
 from syncapi import StoreError
 
-EVENTS = ('open', 'save', 'sub')
-SCORE = {'open': 1, 'save': 4, 'sub': 6}
+EVENTS = ('open', 'save', 'sub', 'like', 'dislike')
+UNDO = {'unlike': 'like', 'undislike': 'dislike'}
+SCORE = {'open': 1, 'save': 4, 'sub': 6, 'like': 3, 'dislike': 0}
 KINDS = {'item': 'i', 'shelf': 's'}
 ID_RE = re.compile(r'^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$')
 BODY_LIMIT = 6_000
@@ -59,7 +61,7 @@ def count(store, payload, ip, env, now=None):
         raise Reply(400, 'request', '请求格式不对', 'Bad request')
     clean = []
     for e in ev:
-        if not (isinstance(e, dict) and e.get('t') in EVENTS and e.get('k') in KINDS and isinstance(e.get('id'), str) and ID_RE.match(e['id'])):
+        if not (isinstance(e, dict) and (e.get('t') in EVENTS or e.get('t') in UNDO) and e.get('k') in KINDS and isinstance(e.get('id'), str) and ID_RE.match(e['id'])):
             raise Reply(400, 'request', '请求格式不对', 'Bad request')
         clean.append((e['t'], KINDS[e['k']] + ':' + e['id']))
     cfg = submission.settings(env)
@@ -72,16 +74,27 @@ def count(store, payload, ip, env, now=None):
     used = store.run([('INCRBY', 'stat:q:%s:%s' % (day, who), len(clean)), ('EXPIRE', 'stat:q:%s:%s' % (day, who), 2 * 86400)])[0]
     if used > cap:
         raise Reply(429, 'rate', '今天的统计次数用完了', 'Too many events today')
-    firsts = store.run([('SET', 'stat:s:%s:%s' % (day, _h(who, t, member)), '1', 'NX', 'EX', 2 * 86400) for t, member in clean])
-    new = [c for c, r in zip(clean, firsts) if r == 'OK']
-    if new:
-        cmds = []
-        for t, member in new:
-            cmds += [('HINCRBY', 'stat:d:%s:%s' % (day, t), member, 1), ('HINCRBY', 'stat:all:' + t, member, 1)]
-        for t in {t for t, _ in new}:
-            cmds.append(('EXPIRE', 'stat:d:%s:%s' % (day, t), KEEP_DAYS * 86400))
-        store.run(cmds)
-    return {'ok': True, 'counted': len(new)}
+    plus = [c for c in clean if c[0] in EVENTS]
+    minus = [(UNDO[t], member) for t, member in clean if t in UNDO]
+    firsts = store.run([('SET', 'stat:s:%s:%s' % (day, _h(who, t, member)), '1', 'NX', 'EX', 2 * 86400) for t, member in plus]) if plus else []
+    new = [c for c, r in zip(plus, firsts) if r == 'OK']
+    cmds, totals = [], []
+    for t, member in new:
+        cmds += [('HINCRBY', 'stat:d:%s:%s' % (day, t), member, 1), ('HINCRBY', 'stat:all:' + t, member, 1)]
+    for t, member in minus:                                                  # taken back: one less today and in all, and the reader may like it again today
+        cmds += [('HINCRBY', 'stat:d:%s:%s' % (day, t), member, -1), ('HINCRBY', 'stat:all:' + t, member, -1), ('DEL', 'stat:s:%s:%s' % (day, _h(who, t, member)))]
+        totals.append((len(cmds) - 2, t, member))
+    for t in {t for t, _ in new} | {t for t, _ in minus}:
+        cmds.append(('EXPIRE', 'stat:d:%s:%s' % (day, t), KEEP_DAYS * 86400))
+    if cmds:
+        out = store.run(cmds)
+        fix = []
+        for i, t, member in totals:                                          # never below zero: what was never given cannot be taken back (today's count is put right too)
+            if isinstance(out[i], int) and out[i] < 0:
+                fix += [('HINCRBY', 'stat:all:' + t, member, 1), ('HINCRBY', 'stat:d:%s:%s' % (day, t), member, 1)]
+        if fix:
+            store.run(fix)
+    return {'ok': True, 'counted': len(new) + len(minus)}
 
 
 def _map(flat):
@@ -107,8 +120,8 @@ def read(store, now=None):
         members |= set(recent[t]) | set(total[t])
     rows = {}
     for m in members:
-        heat = sum(SCORE[t] * recent[t].get(m, 0) for t in EVENTS)
-        rows[m] = {'o': total['open'].get(m, 0), 's': total['save'].get(m, 0), 'u': total['sub'].get(m, 0), 'h': heat}
+        heat = max(0, sum(SCORE[t] * recent[t].get(m, 0) for t in EVENTS))
+        rows[m] = {'o': total['open'].get(m, 0), 's': total['save'].get(m, 0), 'u': total['sub'].get(m, 0), 'l': max(0, total['like'].get(m, 0)), 'd': max(0, total['dislike'].get(m, 0)), 'h': heat}
     result = {'items': {}, 'shelves': {}}
     for kind, prefix in (('items', 'i:'), ('shelves', 's:')):
         mine = sorted(((m[2:], r) for m, r in rows.items() if m.startswith(prefix)), key=lambda x: (-x[1]['h'], -(x[1]['o'] + 4 * x[1]['s'] + 6 * x[1]['u']), x[0]))[:TOP]

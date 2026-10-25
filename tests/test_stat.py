@@ -41,8 +41,8 @@ class TestCounting(Base):
         self.assertEqual(self.count([ev(), ev('save')]), {'ok': True, 'counted': 0})               # the same reader, the same day
         self.assertEqual(self.count([ev(), ev('save')], ip='5.6.7.8')['counted'], 2)               # another reader
         r = self.read()
-        self.assertEqual(r['items']['abc123'], {'o': 2, 's': 2, 'u': 0, 'h': 2 + 4 * 2})
-        self.assertEqual(r['shelves']['my-shelf'], {'o': 0, 's': 0, 'u': 1, 'h': 6})
+        self.assertEqual(r['items']['abc123'], {'o': 2, 's': 2, 'u': 0, 'l': 0, 'd': 0, 'h': 2 + 4 * 2})
+        self.assertEqual(r['shelves']['my-shelf'], {'o': 0, 's': 0, 'u': 1, 'l': 0, 'd': 0, 'h': 6})
 
     def test_the_next_day_counts_again(self):
         self.count([ev()])
@@ -80,6 +80,47 @@ class TestCounting(Base):
             self.assertEqual(st.count(self.store, {'events': [ev(i='z')]}, '3.3.3.%d' % n, {**ENV, 'STAT_DAILY_EVENTS': bad}, now=T0 + 5 * DAY)['counted'], 1)
 
 
+class TestLikes(Base):
+    def test_a_like_and_a_dislike_are_counted_shown_and_a_like_weighs_three_in_the_heat(self):
+        self.count([ev('like', 'x')], ip='1.1.1.1')
+        self.count([ev('like', 'x')], ip='2.2.2.2')
+        self.count([ev('dislike', 'x')], ip='3.3.3.3')
+        r = self.read()['items']['x']
+        self.assertEqual((r['l'], r['d'], r['h']), (2, 1, 6))                                    # a dislike is shown, it does not rank
+        self.assertEqual(self.count([ev('like', 'x')], ip='1.1.1.1')['counted'], 0)              # the same reader, the same day: once
+
+    def test_taking_it_back_counts_one_less_and_lets_the_reader_like_again_the_same_day(self):
+        self.count([ev('like', 'x')])
+        self.assertEqual(self.read()['items']['x']['l'], 1)
+        self.assertEqual(self.count([ev('unlike', 'x')])['counted'], 1)
+        self.assertEqual((self.read()['items']['x']['l'], self.read()['items']['x']['h']), (0, 0))
+        self.assertEqual(self.count([ev('like', 'x')])['counted'], 1)                             # liked again: counted again
+        self.assertEqual(self.read()['items']['x']['l'], 1)
+        self.count([ev('dislike', 'x'), ev('undislike', 'x')])
+        self.assertEqual(self.read()['items']['x']['d'], 0)
+
+    def test_taking_back_what_was_never_given_does_not_go_below_zero(self):
+        self.assertEqual(self.count([ev('unlike', 'never'), ev('unlike', 'never')])['counted'], 2)
+        self.count([ev('like', 'never')], ip='2.2.2.2')
+        r = self.read()['items']['never']
+        self.assertEqual((r['l'], r['h']), (1, 3))                                                # it did not start from minus two
+        self.count([ev('undislike', 'nodis')], ip='3.3.3.3')
+        self.assertEqual(self.read()['items'].get('nodis', {'d': 0})['d'], 0)
+
+    def test_a_like_of_yesterday_taken_back_today_nets_to_zero_in_the_heat(self):
+        self.count([ev('like', 'y')], now=T0 - DAY)
+        self.count([ev('unlike', 'y')])
+        r = self.read()['items'].get('y', {'l': 0, 'h': 0})
+        self.assertEqual((r['l'], r['h']), (0, 0))
+
+    def test_the_like_events_count_against_the_daily_cap_like_any_other(self):
+        env = {**ENV, 'STAT_DAILY_EVENTS': '3'}
+        self.count([ev('like', 'a'), ev('unlike', 'a'), ev('like', 'a')], env=env)
+        with self.assertRaises(Reply) as cm:
+            self.count([ev('dislike', 'a')], env=env)
+        self.assertEqual(cm.exception.status, 429)
+
+
 class TestHeat(Base):
     def test_heat_is_the_last_seven_days_and_weighs_a_subscription_over_a_save_over_an_open(self):
         self.count([ev('open', 'old')], ip='1.1.1.1', now=T0 - 9 * DAY)                           # outside the window: counted for good, but cold
@@ -88,7 +129,7 @@ class TestHeat(Base):
         self.count([ev('open', 'warm')], ip='1.1.1.1', now=T0 - 6 * DAY)
         self.count([ev('open', 'warm')], ip='2.2.2.2', now=T0 - 1 * DAY)
         r = self.read()['items']
-        self.assertEqual(r['hot'], {'o': 1, 's': 1, 'u': 1, 'h': 1 + 4 + 6})
+        self.assertEqual(r['hot'], {'o': 1, 's': 1, 'u': 1, 'l': 0, 'd': 0, 'h': 1 + 4 + 6})
         self.assertEqual(r['warm']['h'], 2)
         self.assertEqual((r['old']['h'], r['old']['o']), (0, 2))
         self.assertEqual(list(r), ['hot', 'warm', 'old'])                                          # hottest first, then by all-time numbers

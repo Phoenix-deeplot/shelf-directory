@@ -1291,7 +1291,7 @@ def discover(raw):
 # The domains of the directory page's tabs: a topic holds an entry when one of its tags (the entry's own, or its shelf's) is one of the topic's tags (case does not matter).
 # registry/topics.json ({"topics": [{"id", "zh", "en", "tags": [...]}]}) replaces this list when the owner writes one.
 DEFAULT_TOPICS = [
-    {'id': 'tech', 'zh': '科技', 'en': 'Tech', 'tags': ['科技', '数码', '互联网', 'AI', '软件', '工具', 'tech', 'technology', 'gadgets', 'software', 'tools']},
+    {'id': 'tech', 'zh': '科技', 'en': 'Tech', 'tags': ['科技', '数码', '互联网', 'AI', '软件', 'tech', 'technology', 'gadgets', 'software']},
     {'id': 'dev', 'zh': '编程', 'en': 'Programming', 'tags': ['编程', '前端', '开源', '架构', '工程', 'programming', 'python', 'javascript', 'devops', 'open source', 'engineering']},
     {'id': 'business', 'zh': '商业', 'en': 'Business', 'tags': ['商业', '创业', '产品', '运营', 'business', 'startup', 'startups', 'marketing', 'product']},
     {'id': 'finance', 'zh': '金融', 'en': 'Finance', 'tags': ['金融', '投资', '经济', '理财', 'finance', 'economics', 'investing']},
@@ -1301,6 +1301,13 @@ DEFAULT_TOPICS = [
     {'id': 'supply', 'zh': '供应链', 'en': 'Supply chain', 'tags': ['供应链', '物流', '采购', '库存', '仓储', '货运', 'supply chain', 'logistics', 'procurement', 'freight', 'warehouse']},
     {'id': 'music', 'zh': '音乐', 'en': 'Music', 'tags': ['音乐', 'music']},
     {'id': 'life', 'zh': '生活', 'en': 'Life', 'tags': ['生活', '美食', '旅行', '效率', '餐饮', 'life', 'food', 'travel', 'productivity', 'restaurants']},
+    {'id': 'entertainment', 'zh': '娱乐', 'en': 'Entertainment', 'tags': ['娱乐', '影视', '电影', '电视剧', '综艺', '动漫', '明星', 'entertainment', 'movies', 'film', 'tv', 'anime', 'celebrity']},
+    {'id': 'education', 'zh': '教育', 'en': 'Education', 'tags': ['教育', '学习', '考试', '留学', '课程', '教学', 'education', 'learning', 'study', 'school', 'university', 'course', 'teaching']},
+    {'id': 'tools', 'zh': '工具', 'en': 'Tools', 'tags': ['工具', '应用', '自动化', 'tools', 'apps', 'utilities', 'automation', 'no-code']},
+    {'id': 'news', 'zh': '新闻', 'en': 'News', 'tags': ['新闻', '时事', '资讯', '快讯', '头条', 'news', 'headlines', 'breaking', 'current affairs']},
+    {'id': 'games', 'zh': '游戏', 'en': 'Games', 'tags': ['游戏', '电竞', '主机', 'steam', 'games', 'gaming', 'esports']},
+    {'id': 'health', 'zh': '健康', 'en': 'Health', 'tags': ['健康', '医疗', '养生', '健身', '运动', 'health', 'medicine', 'fitness', 'wellness', 'sports']},
+    {'id': 'design', 'zh': '设计', 'en': 'Design', 'tags': ['设计', 'ui', 'ux', '视觉', '摄影', '艺术', 'design', 'typography', 'photography', 'art']},
 ]
 
 
