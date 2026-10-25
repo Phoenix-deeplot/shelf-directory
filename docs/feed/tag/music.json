@@ -1,0 +1,60 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Music",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/music.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://slate.com/life/2026/10/eris-drew-octo-octa-juliana-huxtable-mixes-transmission-dc.html?via=rss",
+      "url": "https://slate.com/life/2026/10/eris-drew-octo-octa-juliana-huxtable-mixes-transmission-dc.html?via=rss",
+      "title": "The GOP’s Attacks Against Them Have Been Relentless. They‘re Still Reshaping an Entire Industry in Their Image.",
+      "content_text": "It’s time to get on your feet.",
+      "summary": "It’s time to get on your feet.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "image": "https://compote.slate.com/images/4bbc96fb-dc5b-4a89-b692-eea1452c292e.jpeg?crop=6000%2C4000%2Cx0%2Cy0",
+      "tags": [
+        "Outward",
+        "History",
+        "Music",
+        "LGBTQ+",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://www.openculture.com/2026/10/how-clare-torry-made-gig-in-the-sky-great.html",
+      "url": "https://www.openculture.com/2026/10/how-clare-torry-made-gig-in-the-sky-great.html",
+      "title": "Hear How Clare Torry’s Vocals on Pink Floyd’s “The Great Gig in the Sky” Made the Song Go from Pretty Good to Downright Great",
+      "content_text": "Smack in the middle of Pink Floyd’s classic Dark Side of the Moon sits a song many listeners may hear as an extended bridge between the two true centerpieces, “…",
+      "summary": "Smack in the middle of Pink Floyd’s classic Dark Side of the Moon sits a song many listeners may hear as an extended bridge between the two true centerpieces, “…",
+      "date_published": "2026-10-20T00:00:00Z",
+      "tags": [
+        "Music",
+        "文化",
+        "免费资源"
+      ],
+      "authors": [
+        {
+          "name": "Open Culture"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "openculture-com"
+      }
+    }
+  ]
+}

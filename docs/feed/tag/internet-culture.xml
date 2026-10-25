@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/internet-culture.xml</id>
+  <title>公共目录 · #Internet Culture</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/internet-culture.xml"/>
+  <updated>2026-10-24T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://slate.com/podcasts/icymi/2026/10/tradwives-are-rebranding-as-girlbosses?via=rss</id>
+    <title>The “Tradwife” To Girlboss Pipeline</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/podcasts/icymi/2026/10/tradwives-are-rebranding-as-girlbosses?via=rss"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">Nara Smith and Hannah Neelemen, aka Ballerina Farm, are distancing themselves from the “tradwife” label.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Internet Culture"/>
+    <category term="Religion"/>
+    <category term="Social Media"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/life/2026/10/ethan-klein-hila-cheating-affair-youtube-podcast.html?via=rss</id>
+    <title>One of the Original Wife Guys Really Seems to Have Cheated on His Wife. Let Me Explain Why Everyone Is Rejoicing.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/ethan-klein-hila-cheating-affair-youtube-podcast.html?via=rss"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">Sorry, how is Hasan Piker involved?</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Dating and Relationships"/>
+    <category term="Internet"/>
+    <category term="Internet Culture"/>
+    <category term="Marriage"/>
+    <category term="YouTube"/>
+    <category term="Podcasts"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+</feed>

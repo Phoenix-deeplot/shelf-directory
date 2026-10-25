@@ -4,8 +4,21 @@
   <title>公共目录 · #Media</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/media.xml"/>
-  <updated>2026-10-22T00:00:00Z</updated>
+  <updated>2026-10-23T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://slate.com/podcasts/what-next/2026/10/what-next-news-live-reveal-on-the-media?via=rss</id>
+    <title>Plus: How We Survive the News</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/podcasts/what-next/2026/10/what-next-news-live-reveal-on-the-media?via=rss"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">Our lives are election deniers, Pentagon influencers, and non-stop Trump.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Journalism"/>
+    <category term="Media"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/safety-should-be-provable-not-just-compliant</id>
     <title>Safety Should Be Provable, Not Just Compliant</title>

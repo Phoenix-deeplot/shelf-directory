@@ -9,6 +9,34 @@
   },
   "items": [
     {
+      "id": "https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-nathan-fielder-documentary.html?via=rss",
+      "url": "https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-nathan-fielder-documentary.html?via=rss",
+      "title": "<em>You Can See Everything </em>Is the Year’s Most Twisted Romance",
+      "content_text": "The movie’s final shot reveals what it’s been about all along.",
+      "summary": "The movie’s final shot reveals what it’s been about all along.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "image": "https://compote.slate.com/images/50e78647-97e3-4311-8f1d-1966d2abb9ff.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Crime",
+        "Dating and Relationships",
+        "Fraud",
+        "Movies",
+        "Relationships",
+        "Silicon Valley",
+        "Romance",
+        "Documentaries"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/feds-charge-driver-in-alleged-12m-cargo-theft-scheme-built-on-hijacked-carrier-identities",
       "url": "https://www.freightwaves.com/news/feds-charge-driver-in-alleged-12m-cargo-theft-scheme-built-on-hijacked-carrier-identities",
       "title": "Feds charge driver in alleged $12M cargo theft scheme built on hijacked carrier identities",

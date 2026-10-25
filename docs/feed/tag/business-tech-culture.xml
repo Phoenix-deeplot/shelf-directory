@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/business-tech-culture.xml</id>
+  <title>公共目录 · #Business / Tech Culture</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/business-tech-culture.xml"/>
+  <updated>2026-10-23T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.wired.com/story/how-many-billions-would-it-take-to-hold-meta-accountable/</id>
+    <title>How Many Billions Would It Take to Hold Meta Accountable?</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/how-many-billions-would-it-take-to-hold-meta-accountable/"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">Meta got hit this week with its biggest fine yet, the latest in a mounting pile of court-ordered payments.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Business / Tech Culture"/>
+    <category term="Backchannel"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/uncanny-valley-podcast-inside-the-secret-nathan-fielder-interview/</id>
+    <title>Inside the Exclusive Nathan Fielder Interview</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/uncanny-valley-podcast-inside-the-secret-nathan-fielder-interview/"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">This week on “Uncanny Valley,” we go behind the scenes of our Nathan Fielder cover story, unpack tech billionaires’ generous promises, and discuss the suspiciou…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Business / Big Tech"/>
+    <category term="Business / Tech Culture"/>
+    <category term="Science / Biotech"/>
+    <category term="Uncanny Valley"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/airbnb-hosts-are-furious-they-can-no-longer-make-guests-do-their-chores/</id>
+    <title>Airbnb Hosts Are Furious They Can No Longer Make Guests Do Their Chores</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/airbnb-hosts-are-furious-they-can-no-longer-make-guests-do-their-chores/"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">Some hosts are threatening to strike, while others are plotting ways around Airbnb’s new restrictions. Guests, meanwhile, are celebrating.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Business / Tech Culture"/>
+    <category term="Dirty Laundry"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+</feed>

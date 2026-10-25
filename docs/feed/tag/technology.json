@@ -167,6 +167,29 @@
       }
     },
     {
+      "id": "https://www.openculture.com/2026/10/in-1897-londons-lampposts-dispensed-hot-coffee-tea-and-fluid-beef.html",
+      "url": "https://www.openculture.com/2026/10/in-1897-londons-lampposts-dispensed-hot-coffee-tea-and-fluid-beef.html",
+      "title": "In 1897, London’s Lampposts Dispensed Hot Coffee, Tea, and “Fluid Beef”",
+      "content_text": "Any reader of Victorian literature will wonder how much a ha’penny was actually worth in those days. For a little more than a year at the very end of that perio…",
+      "summary": "Any reader of Victorian literature will wonder how much a ha’penny was actually worth in those days. For a little more than a year at the very end of that perio…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "History",
+        "Technology",
+        "文化",
+        "免费资源"
+      ],
+      "authors": [
+        {
+          "name": "Open Culture"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "openculture-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/phillips-connect-insights-trailersignal-launch",
       "url": "https://www.freightwaves.com/news/phillips-connect-insights-trailersignal-launch",
       "title": "Phillips Connect moves trailer sensor alerts into the yard",
@@ -218,6 +241,30 @@
       "_shelf": {
         "type": "article",
         "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.openculture.com/2026/10/doctor-whos-tom-baker-plays-douglas-adams.html",
+      "url": "https://www.openculture.com/2026/10/doctor-whos-tom-baker-plays-douglas-adams.html",
+      "title": "Doctor Who’s Tom Baker Plays Douglas Adams’ Digital “Agent” in the AI-Predicting Hyperland (1990)",
+      "content_text": "Cast your mind, if you will, back to the year 2020. It now feels like a different time, what with the spreading COVID-19 pandemic and the heated sociopolitical…",
+      "summary": "Cast your mind, if you will, back to the year 2020. It now feels like a different time, what with the spreading COVID-19 pandemic and the heated sociopolitical…",
+      "date_published": "2026-10-20T00:00:00Z",
+      "tags": [
+        "Artificial Intelligence",
+        "Technology",
+        "Television",
+        "文化",
+        "免费资源"
+      ],
+      "authors": [
+        {
+          "name": "Open Culture"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "openculture-com"
       }
     }
   ]

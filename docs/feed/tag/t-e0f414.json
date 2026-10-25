@@ -1,0 +1,262 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #人文",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-e0f414.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://daily.jstor.org/teaching-students-to-see-what-they-miss/",
+      "url": "https://daily.jstor.org/teaching-students-to-see-what-they-miss/",
+      "title": "Teaching Students to See What They Miss",
+      "content_text": "A classroom exercise in slow looking uses art to sharpen observation skills and encourage more attentive listening. The post Teaching Students to See What They…",
+      "summary": "A classroom exercise in slow looking uses art to sharpen observation skills and encourage more attentive listening. The post Teaching Students to See What They…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "Education",
+        "Education & Society",
+        "Health",
+        "Science & Technology",
+        "art history",
+        "medicine",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    },
+    {
+      "id": "https://daily.jstor.org/the-art-of-the-thousand-bloom-chrysanthemum/",
+      "url": "https://daily.jstor.org/the-art-of-the-thousand-bloom-chrysanthemum/",
+      "title": "The Art of the Thousand Bloom Chrysanthemum",
+      "content_text": "How do horticulturists coax more than 1,000 flowers from a single plant? The answer lies in a centuries-old Japanese tradition. The post The Art of the Thousand…",
+      "summary": "How do horticulturists coax more than 1,000 flowers from a single plant? The answer lies in a centuries-old Japanese tradition. The post The Art of the Thousand…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "Plants & Animals",
+        "Science & Technology",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    },
+    {
+      "id": "https://daily.jstor.org/editors-picks-halloween/",
+      "url": "https://daily.jstor.org/editors-picks-halloween/",
+      "title": "Ghosts, Witches, and Other Halloween Stories",
+      "content_text": "A spine-tingling roundup of historical mysteries, supernatural folklore, and the strange things that have frightened us for centuries. The post Ghosts, Witches,…",
+      "summary": "A spine-tingling roundup of historical mysteries, supernatural folklore, and the strange things that have frightened us for centuries. The post Ghosts, Witches,…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "Arts & Culture",
+        "Halloween",
+        "holidays",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    },
+    {
+      "id": "https://daily.jstor.org/the-forgotten-stories-behind-presidential-campaign-buttons/",
+      "url": "https://daily.jstor.org/the-forgotten-stories-behind-presidential-campaign-buttons/",
+      "title": "The Forgotten Stories Behind Presidential Campaign Buttons",
+      "content_text": "The race for the White House has always inspired unusual publicity stunts. A vast collection shows just how strange they could get. The post The Forgotten Stori…",
+      "summary": "The race for the White House has always inspired unusual publicity stunts. A vast collection shows just how strange they could get. The post The Forgotten Stori…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "Arts & Culture",
+        "elections",
+        "presidents",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    },
+    {
+      "id": "https://daily.jstor.org/frankenstein-the-vampyre-and-the-spirit-of-the-humanities/",
+      "url": "https://daily.jstor.org/frankenstein-the-vampyre-and-the-spirit-of-the-humanities/",
+      "title": "Frankenstein, The Vampyre, and the Spirit of the Humanities",
+      "content_text": "How one ghost story competition continues to haunt the humanities—just in time for Halloween. The post <em>Frankenstein</em>, <em>The Vampyre</em>, and the Spir…",
+      "summary": "How one ghost story competition continues to haunt the humanities—just in time for Halloween. The post <em>Frankenstein</em>, <em>The Vampyre</em>, and the Spir…",
+      "date_published": "2026-10-20T00:00:00Z",
+      "tags": [
+        "Arts & Culture",
+        "Language & Literature",
+        "Halloween",
+        "horror",
+        "liberal arts",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    },
+    {
+      "id": "https://daily.jstor.org/why-washing-machines-took-decades-to-catch-on/",
+      "url": "https://daily.jstor.org/why-washing-machines-took-decades-to-catch-on/",
+      "title": "Why Washing Machines Took Decades to Catch On",
+      "content_text": "Early electric laundry appliances promised to make housework easier. But convincing American households to buy them was another matter. The post Why Washing Mac…",
+      "summary": "Early electric laundry appliances promised to make housework easier. But convincing American households to buy them was another matter. The post Why Washing Mac…",
+      "date_published": "2026-10-19T00:00:00Z",
+      "tags": [
+        "Arts & Culture",
+        "housework",
+        "race",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    },
+    {
+      "id": "https://daily.jstor.org/the-women-breaking-the-rules-of-balinese-dance/",
+      "url": "https://daily.jstor.org/the-women-breaking-the-rules-of-balinese-dance/",
+      "title": "The Women Breaking the Rules of Balinese Dance",
+      "content_text": "Middle-aged performers are taking on roles once reserved for men, challenging expectations about age and gender in Bali. The post The Women Breaking the Rules o…",
+      "summary": "Middle-aged performers are taking on roles once reserved for men, challenging expectations about age and gender in Bali. The post The Women Breaking the Rules o…",
+      "date_published": "2026-10-16T00:00:00Z",
+      "tags": [
+        "Politics & History",
+        "Social History",
+        "dance",
+        "gender",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    },
+    {
+      "id": "https://daily.jstor.org/ten-poems-about-sleep-and-dreaming/",
+      "url": "https://daily.jstor.org/ten-poems-about-sleep-and-dreaming/",
+      "title": "Ten Poems about Sleep and Dreaming",
+      "content_text": "Visions of the unconscious by Emily Dickinson, Louise Glück, Lucille Clifton, Carl Phillips, and more. The post Ten Poems about Sleep and Dreaming appeared firs…",
+      "summary": "Visions of the unconscious by Emily Dickinson, Louise Glück, Lucille Clifton, Carl Phillips, and more. The post Ten Poems about Sleep and Dreaming appeared firs…",
+      "date_published": "2026-10-15T00:00:00Z",
+      "tags": [
+        "Arts & Culture",
+        "Language & Literature",
+        "poems and poetry",
+        "sleep",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    },
+    {
+      "id": "https://daily.jstor.org/the-photographer-who-preserved-everyday-architecture/",
+      "url": "https://daily.jstor.org/the-photographer-who-preserved-everyday-architecture/",
+      "title": "The Photographer Who Preserved Everyday Architecture",
+      "content_text": "Frances Benjamin Johnston looked beyond grand estates to document the ordinary buildings that defined American life. The post The Photographer Who Preserved Eve…",
+      "summary": "Frances Benjamin Johnston looked beyond grand estates to document the ordinary buildings that defined American life. The post The Photographer Who Preserved Eve…",
+      "date_published": "2026-10-14T00:00:00Z",
+      "tags": [
+        "Arts & Culture",
+        "Film & Media",
+        "Politics & History",
+        "U.S. History",
+        "architecture",
+        "photography",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    },
+    {
+      "id": "https://daily.jstor.org/what-do-cops-train-for/",
+      "url": "https://daily.jstor.org/what-do-cops-train-for/",
+      "title": "What Do Cops Train For?",
+      "content_text": "Research on police training finds that realistic simulations may reinforce expectations of violence instead of preventing it. The post What Do Cops Train For? a…",
+      "summary": "Research on police training finds that realistic simulations may reinforce expectations of violence instead of preventing it. The post What Do Cops Train For? a…",
+      "date_published": "2026-10-13T00:00:00Z",
+      "tags": [
+        "Politics & History",
+        "U.S. History",
+        "criminal justice reform",
+        "police",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    }
+  ]
+}

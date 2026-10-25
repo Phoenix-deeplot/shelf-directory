@@ -1,0 +1,89 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Politics & History",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/politics-history.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://daily.jstor.org/the-women-breaking-the-rules-of-balinese-dance/",
+      "url": "https://daily.jstor.org/the-women-breaking-the-rules-of-balinese-dance/",
+      "title": "The Women Breaking the Rules of Balinese Dance",
+      "content_text": "Middle-aged performers are taking on roles once reserved for men, challenging expectations about age and gender in Bali. The post The Women Breaking the Rules o…",
+      "summary": "Middle-aged performers are taking on roles once reserved for men, challenging expectations about age and gender in Bali. The post The Women Breaking the Rules o…",
+      "date_published": "2026-10-16T00:00:00Z",
+      "tags": [
+        "Politics & History",
+        "Social History",
+        "dance",
+        "gender",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    },
+    {
+      "id": "https://daily.jstor.org/the-photographer-who-preserved-everyday-architecture/",
+      "url": "https://daily.jstor.org/the-photographer-who-preserved-everyday-architecture/",
+      "title": "The Photographer Who Preserved Everyday Architecture",
+      "content_text": "Frances Benjamin Johnston looked beyond grand estates to document the ordinary buildings that defined American life. The post The Photographer Who Preserved Eve…",
+      "summary": "Frances Benjamin Johnston looked beyond grand estates to document the ordinary buildings that defined American life. The post The Photographer Who Preserved Eve…",
+      "date_published": "2026-10-14T00:00:00Z",
+      "tags": [
+        "Arts & Culture",
+        "Film & Media",
+        "Politics & History",
+        "U.S. History",
+        "architecture",
+        "photography",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    },
+    {
+      "id": "https://daily.jstor.org/what-do-cops-train-for/",
+      "url": "https://daily.jstor.org/what-do-cops-train-for/",
+      "title": "What Do Cops Train For?",
+      "content_text": "Research on police training finds that realistic simulations may reinforce expectations of violence instead of preventing it. The post What Do Cops Train For? a…",
+      "summary": "Research on police training finds that realistic simulations may reinforce expectations of violence instead of preventing it. The post What Do Cops Train For? a…",
+      "date_published": "2026-10-13T00:00:00Z",
+      "tags": [
+        "Politics & History",
+        "U.S. History",
+        "criminal justice reform",
+        "police",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    }
+  ]
+}

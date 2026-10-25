@@ -9,6 +9,88 @@
   },
   "items": [
     {
+      "id": "https://slate.com/culture/2026/10/matthew-mcconaughey-movies-rom-coms-politics-independent-republican.html?via=rss",
+      "url": "https://slate.com/culture/2026/10/matthew-mcconaughey-movies-rom-coms-politics-independent-republican.html?via=rss",
+      "title": "I’m Begging Matthew McConaughey to Go Back to What He Does Best",
+      "content_text": "Frankly, I don’t want to hear from him again unless he’s announcing another movie like The Wedding Planner.",
+      "summary": "Frankly, I don’t want to hear from him again unless he’s announcing another movie like The Wedding Planner.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "image": "https://compote.slate.com/images/550833ba-7b18-4bac-a310-f39df8991dcc.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Celebrities",
+        "Comedy",
+        "Movies",
+        "Politics",
+        "Romance",
+        "Rom-Coms",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-nathan-fielder-documentary.html?via=rss",
+      "url": "https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-nathan-fielder-documentary.html?via=rss",
+      "title": "<em>You Can See Everything </em>Is the Year’s Most Twisted Romance",
+      "content_text": "The movie’s final shot reveals what it’s been about all along.",
+      "summary": "The movie’s final shot reveals what it’s been about all along.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "image": "https://compote.slate.com/images/50e78647-97e3-4311-8f1d-1966d2abb9ff.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Crime",
+        "Dating and Relationships",
+        "Fraud",
+        "Movies",
+        "Relationships",
+        "Silicon Valley",
+        "Romance",
+        "Documentaries"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/life/2026/10/eggs-documentary-you-can-see-everything-elizabeth-holmes-nathan-fielder.html?via=rss",
+      "url": "https://slate.com/life/2026/10/eggs-documentary-you-can-see-everything-elizabeth-holmes-nathan-fielder.html?via=rss",
+      "title": "I Made the Elizabeth Holmes Eggs. I Have to Side With Billy on This One.",
+      "content_text": "For Elizabeth’s version, I weakly turned the eggs in the bowl with the stunned limpness of someone facing a looming prison sentence.",
+      "summary": "For Elizabeth’s version, I weakly turned the eggs in the bowl with the stunned limpness of someone facing a looming prison sentence.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://compote.slate.com/images/8655fe16-8cbb-462f-b182-d448f5fd062b.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Cooking",
+        "Movies",
+        "Documentaries",
+        "You Can See Everything",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
       "id": "https://www.eater.com/food-culture/993909/you-can-see-everything-scrambled-eggs-scene-analysis-review",
       "url": "https://www.eater.com/food-culture/993909/you-can-see-everything-scrambled-eggs-scene-analysis-review",
       "title": "The Eggs Scene in ‘You Can See Everything’ Scrambles Reality",

@@ -1,0 +1,113 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Kids",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/kids.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://slate.com/advice/2026/10/parent-advice-wife-family-photos-online.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/parent-advice-wife-family-photos-online.html?via=rss",
+      "title": "My Wife Is Robbing Our Newborn of a Basic Right. She’ll Regret It When Our Daughter’s Older.",
+      "content_text": "This is not appropriate.",
+      "summary": "This is not appropriate.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "image": "https://compote.slate.com/images/f5ffc936-d2f1-4443-91a5-d5b9a2d387aa.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Family",
+        "Kids",
+        "Parenting",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/parenting-advice-offensive-costume-ex.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/parenting-advice-offensive-costume-ex.html?via=rss",
+      "title": "My Ex Is Encouraging My 12-Year-Old to Wear an Offensive Halloween Costume",
+      "content_text": "He won't listen to reason.",
+      "summary": "He won't listen to reason.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "image": "https://compote.slate.com/images/806f0d9c-61af-4653-a888-76e39ed594a2.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Family",
+        "Kids",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/parenting-advice-daughter-self-esteem-solution.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/parenting-advice-daughter-self-esteem-solution.html?via=rss",
+      "title": "Our Daughter Thinks She’s Ugly. My Husband’s “Solution” Is Going to Make It Worse.",
+      "content_text": "I won't let this happen.",
+      "summary": "I won't let this happen.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://compote.slate.com/images/e980a6e6-45b3-48f9-8c79-5b75bc804e9a.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Family",
+        "Kids",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/parenting-advice-unsafe-son-in-law.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/parenting-advice-unsafe-son-in-law.html?via=rss",
+      "title": "I Picked My Grandson Up When My Son-in-Law Was a No-Show. What We Saw When We Got Home Haunts Me.",
+      "content_text": "I'm so worried.",
+      "summary": "I'm so worried.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://compote.slate.com/images/e1a66d14-1a2c-4067-be33-cbf5127a4aaa.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Family",
+        "Kids",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    }
+  ]
+}

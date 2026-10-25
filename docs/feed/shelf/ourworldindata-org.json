@@ -1,0 +1,222 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · Our World in Data",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/shelf/ourworldindata-org.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://ourworldindata.org/when-do-people-experience-mental-health-conditions-for-the-first-time",
+      "url": "https://ourworldindata.org/when-do-people-experience-mental-health-conditions-for-the-first-time",
+      "title": "When do people experience mental health conditions for the first time?",
+      "content_text": "Knowing when people are most at risk allows us to offer support when it might make the biggest difference.<br><br><a href=\"https://ourworldindata.org/when-do-pe…",
+      "summary": "Knowing when people are most at risk allows us to offer support when it might make the biggest difference.<br><br><a href=\"https://ourworldindata.org/when-do-pe…",
+      "date_published": "2026-10-19T00:00:00Z",
+      "tags": [
+        "数据",
+        "经济"
+      ],
+      "authors": [
+        {
+          "name": "Our World in Data"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "ourworldindata-org"
+      }
+    },
+    {
+      "id": "https://ourworldindata.org/2026-lpi-update",
+      "url": "https://ourworldindata.org/2026-lpi-update",
+      "title": "A 73% average decline in wildlife populations: an overview of the 2026 Living Planet Index report",
+      "content_text": "A guide to understanding the Living Planet Index and what it does and doesn’t mean.<br><br><a href=\"https://ourworldindata.org/2026-lpi-update\"><img src=\"https:…",
+      "summary": "A guide to understanding the Living Planet Index and what it does and doesn’t mean.<br><br><a href=\"https://ourworldindata.org/2026-lpi-update\"><img src=\"https:…",
+      "date_published": "2026-10-08T00:00:00Z",
+      "tags": [
+        "数据",
+        "经济"
+      ],
+      "authors": [
+        {
+          "name": "Our World in Data"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "ourworldindata-org"
+      }
+    },
+    {
+      "id": "https://ourworldindata.org/what-impact-will-climate-change-have-on-malaria",
+      "url": "https://ourworldindata.org/what-impact-will-climate-change-have-on-malaria",
+      "title": "What impact will climate change have on malaria?",
+      "content_text": "More than 600,000 people die from malaria every year. Will climate change make this worse?<br><br><a href=\"https://ourworldindata.org/what-impact-will-climate-c…",
+      "summary": "More than 600,000 people die from malaria every year. Will climate change make this worse?<br><br><a href=\"https://ourworldindata.org/what-impact-will-climate-c…",
+      "date_published": "2026-10-05T00:00:00Z",
+      "tags": [
+        "数据",
+        "经济"
+      ],
+      "authors": [
+        {
+          "name": "Our World in Data"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "ourworldindata-org"
+      }
+    },
+    {
+      "id": "https://ourworldindata.org/how-high-is-current-immigration-to-the-united-states-in-historical-perspective",
+      "url": "https://ourworldindata.org/how-high-is-current-immigration-to-the-united-states-in-historical-perspective",
+      "title": "How high is current immigration to the United States in historical perspective?",
+      "content_text": "We use long-run census data to understand the scale of recent US migration trends, and how these compare to previous centuries.<br><br><a href=\"https://ourworld…",
+      "summary": "We use long-run census data to understand the scale of recent US migration trends, and how these compare to previous centuries.<br><br><a href=\"https://ourworld…",
+      "date_published": "2026-09-21T00:00:00Z",
+      "tags": [
+        "数据",
+        "经济"
+      ],
+      "authors": [
+        {
+          "name": "Our World in Data"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "ourworldindata-org"
+      }
+    },
+    {
+      "id": "https://ourworldindata.org/is-organic-farming-better-for-the-environment-than-conventional-farming",
+      "url": "https://ourworldindata.org/is-organic-farming-better-for-the-environment-than-conventional-farming",
+      "title": "Is organic farming better for the environment than conventional farming?",
+      "content_text": "Organic farming often wins when we compare impacts on one unit of land, but there is no clear winner when we look at impacts per unit of food production.<br><br…",
+      "summary": "Organic farming often wins when we compare impacts on one unit of land, but there is no clear winner when we look at impacts per unit of food production.<br><br…",
+      "date_published": "2026-09-14T00:00:00Z",
+      "tags": [
+        "数据",
+        "经济"
+      ],
+      "authors": [
+        {
+          "name": "Our World in Data"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "ourworldindata-org"
+      }
+    },
+    {
+      "id": "https://ourworldindata.org/a-never-ending-childhood-of-malaria",
+      "url": "https://ourworldindata.org/a-never-ending-childhood-of-malaria",
+      "title": "A never-ending childhood of malaria",
+      "content_text": "How often do people in high-burden areas get malaria? Studies suggest that many children can experience five or more malaria infections a year.<br><br><a href=\"…",
+      "summary": "How often do people in high-burden areas get malaria? Studies suggest that many children can experience five or more malaria infections a year.<br><br><a href=\"…",
+      "date_published": "2026-09-07T00:00:00Z",
+      "tags": [
+        "数据",
+        "经济"
+      ],
+      "authors": [
+        {
+          "name": "Our World in Data"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "ourworldindata-org"
+      }
+    },
+    {
+      "id": "https://ourworldindata.org/beef-production-in-brazil-has-been-the-largest-driver-of-global-deforestation-in-recent-decades",
+      "url": "https://ourworldindata.org/beef-production-in-brazil-has-been-the-largest-driver-of-global-deforestation-in-recent-decades",
+      "title": "Beef production in Brazil has been the largest driver of global deforestation in recent decades",
+      "content_text": "Most beef production in Brazil is to meet domestic rather than international demand.<br><br><a href=\"https://ourworldindata.org/beef-production-in-brazil-has-be…",
+      "summary": "Most beef production in Brazil is to meet domestic rather than international demand.<br><br><a href=\"https://ourworldindata.org/beef-production-in-brazil-has-be…",
+      "date_published": "2026-08-31T00:00:00Z",
+      "tags": [
+        "数据",
+        "经济"
+      ],
+      "authors": [
+        {
+          "name": "Our World in Data"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "ourworldindata-org"
+      }
+    },
+    {
+      "id": "https://ourworldindata.org/the-rise-of-electoral-democracy",
+      "url": "https://ourworldindata.org/the-rise-of-electoral-democracy",
+      "title": "The rise of electoral democracy",
+      "content_text": "How elections spread, voting rights expanded, and political competition developed around the world over the last two centuries.<br><br><a href=\"https://ourworld…",
+      "summary": "How elections spread, voting rights expanded, and political competition developed around the world over the last two centuries.<br><br><a href=\"https://ourworld…",
+      "date_published": "2026-08-24T00:00:00Z",
+      "tags": [
+        "数据",
+        "经济"
+      ],
+      "authors": [
+        {
+          "name": "Our World in Data"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "ourworldindata-org"
+      }
+    },
+    {
+      "id": "https://ourworldindata.org/which-countries-have-already-passed-peak-population-and-when-will-the-rest-do-so",
+      "url": "https://ourworldindata.org/which-countries-have-already-passed-peak-population-and-when-will-the-rest-do-so",
+      "title": "Which countries have already passed peak population, and when will the rest do so?",
+      "content_text": "Falling fertility rates have created a unique scenario in human history: many countries are experiencing structural population decline.<br><br><a href=\"https://…",
+      "summary": "Falling fertility rates have created a unique scenario in human history: many countries are experiencing structural population decline.<br><br><a href=\"https://…",
+      "date_published": "2026-08-17T00:00:00Z",
+      "tags": [
+        "数据",
+        "经济"
+      ],
+      "authors": [
+        {
+          "name": "Our World in Data"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "ourworldindata-org"
+      }
+    },
+    {
+      "id": "https://ourworldindata.org/138-million-children-are-in-child-labor-what-does-this-actually-mean",
+      "url": "https://ourworldindata.org/138-million-children-are-in-child-labor-what-does-this-actually-mean",
+      "title": "138 million children are in child labor. What does this actually mean?",
+      "content_text": "According to a UN report published last year, there are 138 million children in child labor. In this article, we look at what this estimate exactly captures.<br…",
+      "summary": "According to a UN report published last year, there are 138 million children in child labor. In this article, we look at what this estimate exactly captures.<br…",
+      "date_published": "2026-08-10T00:00:00Z",
+      "tags": [
+        "数据",
+        "经济"
+      ],
+      "authors": [
+        {
+          "name": "Our World in Data"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "ourworldindata-org"
+      }
+    }
+  ]
+}

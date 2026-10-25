@@ -1,0 +1,235 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Advice",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/advice.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://slate.com/advice/2026/10/parent-advice-wife-family-photos-online.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/parent-advice-wife-family-photos-online.html?via=rss",
+      "title": "My Wife Is Robbing Our Newborn of a Basic Right. She’ll Regret It When Our Daughter’s Older.",
+      "content_text": "This is not appropriate.",
+      "summary": "This is not appropriate.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "image": "https://compote.slate.com/images/f5ffc936-d2f1-4443-91a5-d5b9a2d387aa.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Family",
+        "Kids",
+        "Parenting",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/dear-prudence-wedding-grave-offense-history-books.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/dear-prudence-wedding-grave-offense-history-books.html?via=rss",
+      "title": "My Uncle Gravely Offended a Friend at My Wedding. What Happened Next Is One for the History Books.",
+      "content_text": "How in the world did we get here?",
+      "summary": "How in the world did we get here?",
+      "date_published": "2026-10-24T00:00:00Z",
+      "image": "https://compote.slate.com/images/c89f3c37-b689-4613-8c7c-a2603e7a3233.jpeg?crop=1558%2C1038%2Cx0%2Cy1",
+      "tags": [
+        "Advice",
+        "Dear Prudence",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/sex-advice-roommates-house-bedroom-secret.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/sex-advice-roommates-house-bedroom-secret.html?via=rss",
+      "title": "My Roommates Think They’re Having a Silent, Sneaky Love Affair. They’re Not.",
+      "content_text": "They think I don't know but they're wrong.",
+      "summary": "They think I don't know but they're wrong.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "image": "https://compote.slate.com/images/99b68e2a-2584-4473-95a8-e9df70829561.gif?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Sex",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/parenting-advice-offensive-costume-ex.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/parenting-advice-offensive-costume-ex.html?via=rss",
+      "title": "My Ex Is Encouraging My 12-Year-Old to Wear an Offensive Halloween Costume",
+      "content_text": "He won't listen to reason.",
+      "summary": "He won't listen to reason.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "image": "https://compote.slate.com/images/806f0d9c-61af-4653-a888-76e39ed594a2.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Family",
+        "Kids",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/parenting-advice-daughter-self-esteem-solution.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/parenting-advice-daughter-self-esteem-solution.html?via=rss",
+      "title": "Our Daughter Thinks She’s Ugly. My Husband’s “Solution” Is Going to Make It Worse.",
+      "content_text": "I won't let this happen.",
+      "summary": "I won't let this happen.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://compote.slate.com/images/e980a6e6-45b3-48f9-8c79-5b75bc804e9a.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Family",
+        "Kids",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/sex-advice-improv-in-bed.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/sex-advice-improv-in-bed.html?via=rss",
+      "title": "My Boyfriend Likes to Play Out Scenarios in Bed. Some of His Latest Ones Have Gotten a Little Personal.",
+      "content_text": "I'm not into this.",
+      "summary": "I'm not into this.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://compote.slate.com/images/5c7b739f-89cc-4ba2-af66-87c5c59396ea.gif?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Dating and Relationships",
+        "Sex",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/money-advice.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/money-advice.html?via=rss",
+      "title": "I’m Getting Something Many Divorced People Would Be So Happy With. I Don’t Want It!",
+      "content_text": "What a mess.",
+      "summary": "What a mess.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://compote.slate.com/images/36d92480-88ac-47bc-9e37-73ad4fd363b5.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Family",
+        "Personal Finance",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/parenting-advice-unsafe-son-in-law.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/parenting-advice-unsafe-son-in-law.html?via=rss",
+      "title": "I Picked My Grandson Up When My Son-in-Law Was a No-Show. What We Saw When We Got Home Haunts Me.",
+      "content_text": "I'm so worried.",
+      "summary": "I'm so worried.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://compote.slate.com/images/e1a66d14-1a2c-4067-be33-cbf5127a4aaa.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Family",
+        "Kids",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/neighbor-advice-halloween-decorations-scary.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/neighbor-advice-halloween-decorations-scary.html?via=rss",
+      "title": "A Woman in Our Neighborhood Claims There’s One Decoration “Too Scary” for Her Child",
+      "content_text": "Prudie replies to readers’ comments and suggestions.",
+      "summary": "Prudie replies to readers’ comments and suggestions.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://compote.slate.com/images/0a554c7e-0db4-473e-a2b1-b71945fa2f90.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Dear Prudence",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    }
+  ]
+}

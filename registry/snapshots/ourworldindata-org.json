@@ -1,0 +1,120 @@
+{
+ "id": "ourworldindata-org",
+ "items": [
+  {
+   "url": "https://ourworldindata.org/when-do-people-experience-mental-health-conditions-for-the-first-time",
+   "title": "When do people experience mental health conditions for the first time?",
+   "summary": "Knowing when people are most at risk allows us to offer support when it might make the biggest difference.<br><br><a href=\"https://ourworldindata.org/when-do-pe…",
+   "image": "",
+   "date": "2026-10-19",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://ourworldindata.org/2026-lpi-update",
+   "title": "A 73% average decline in wildlife populations: an overview of the 2026 Living Planet Index report",
+   "summary": "A guide to understanding the Living Planet Index and what it does and doesn’t mean.<br><br><a href=\"https://ourworldindata.org/2026-lpi-update\"><img src=\"https:…",
+   "image": "",
+   "date": "2026-10-08",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://ourworldindata.org/what-impact-will-climate-change-have-on-malaria",
+   "title": "What impact will climate change have on malaria?",
+   "summary": "More than 600,000 people die from malaria every year. Will climate change make this worse?<br><br><a href=\"https://ourworldindata.org/what-impact-will-climate-c…",
+   "image": "",
+   "date": "2026-10-05",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://ourworldindata.org/how-high-is-current-immigration-to-the-united-states-in-historical-perspective",
+   "title": "How high is current immigration to the United States in historical perspective?",
+   "summary": "We use long-run census data to understand the scale of recent US migration trends, and how these compare to previous centuries.<br><br><a href=\"https://ourworld…",
+   "image": "",
+   "date": "2026-09-21",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://ourworldindata.org/is-organic-farming-better-for-the-environment-than-conventional-farming",
+   "title": "Is organic farming better for the environment than conventional farming?",
+   "summary": "Organic farming often wins when we compare impacts on one unit of land, but there is no clear winner when we look at impacts per unit of food production.<br><br…",
+   "image": "",
+   "date": "2026-09-14",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://ourworldindata.org/a-never-ending-childhood-of-malaria",
+   "title": "A never-ending childhood of malaria",
+   "summary": "How often do people in high-burden areas get malaria? Studies suggest that many children can experience five or more malaria infections a year.<br><br><a href=\"…",
+   "image": "",
+   "date": "2026-09-07",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://ourworldindata.org/beef-production-in-brazil-has-been-the-largest-driver-of-global-deforestation-in-recent-decades",
+   "title": "Beef production in Brazil has been the largest driver of global deforestation in recent decades",
+   "summary": "Most beef production in Brazil is to meet domestic rather than international demand.<br><br><a href=\"https://ourworldindata.org/beef-production-in-brazil-has-be…",
+   "image": "",
+   "date": "2026-08-31",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://ourworldindata.org/the-rise-of-electoral-democracy",
+   "title": "The rise of electoral democracy",
+   "summary": "How elections spread, voting rights expanded, and political competition developed around the world over the last two centuries.<br><br><a href=\"https://ourworld…",
+   "image": "",
+   "date": "2026-08-24",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://ourworldindata.org/which-countries-have-already-passed-peak-population-and-when-will-the-rest-do-so",
+   "title": "Which countries have already passed peak population, and when will the rest do so?",
+   "summary": "Falling fertility rates have created a unique scenario in human history: many countries are experiencing structural population decline.<br><br><a href=\"https://…",
+   "image": "",
+   "date": "2026-08-17",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://ourworldindata.org/138-million-children-are-in-child-labor-what-does-this-actually-mean",
+   "title": "138 million children are in child labor. What does this actually mean?",
+   "summary": "According to a UN report published last year, there are 138 million children in child labor. In this article, we look at what this estimate exactly captures.<br…",
+   "image": "",
+   "date": "2026-08-10",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  }
+ ],
+ "shelf": {
+  "name": "Our World in Data",
+  "description": "Research and data to make progress against the world’s largest problems",
+  "home": "https://ourworldindata.org",
+  "lang": "en",
+  "license": "",
+  "tags": []
+ },
+ "fails": 0,
+ "kind": "feed",
+ "parser": 2,
+ "status": "ok",
+ "error": "",
+ "etag": "\"b36c3840cd11eaeb4b267c5aa8031da4\"",
+ "modified": ""
+}

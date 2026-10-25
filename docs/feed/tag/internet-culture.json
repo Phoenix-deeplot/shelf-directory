@@ -1,0 +1,65 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Internet Culture",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/internet-culture.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://slate.com/podcasts/icymi/2026/10/tradwives-are-rebranding-as-girlbosses?via=rss",
+      "url": "https://slate.com/podcasts/icymi/2026/10/tradwives-are-rebranding-as-girlbosses?via=rss",
+      "title": "The “Tradwife” To Girlboss Pipeline",
+      "content_text": "Nara Smith and Hannah Neelemen, aka Ballerina Farm, are distancing themselves from the “tradwife” label.",
+      "summary": "Nara Smith and Hannah Neelemen, aka Ballerina Farm, are distancing themselves from the “tradwife” label.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "image": "https://compote.slate.com/images/d50db8b8-4029-4400-8ba8-f9a9cd0dd3d9.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Internet Culture",
+        "Religion",
+        "Social Media",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/life/2026/10/ethan-klein-hila-cheating-affair-youtube-podcast.html?via=rss",
+      "url": "https://slate.com/life/2026/10/ethan-klein-hila-cheating-affair-youtube-podcast.html?via=rss",
+      "title": "One of the Original Wife Guys Really Seems to Have Cheated on His Wife. Let Me Explain Why Everyone Is Rejoicing.",
+      "content_text": "Sorry, how is Hasan Piker involved?",
+      "summary": "Sorry, how is Hasan Piker involved?",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://compote.slate.com/images/73a18474-6bf7-48db-88fb-c069fe57f62b.jpeg?crop=2978%2C1985%2Cx815%2Cy0",
+      "tags": [
+        "Dating and Relationships",
+        "Internet",
+        "Internet Culture",
+        "Marriage",
+        "YouTube",
+        "Podcasts",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    }
+  ]
+}

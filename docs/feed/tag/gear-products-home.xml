@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/gear-products-home.xml</id>
+  <title>公共目录 · #Gear / Products / Home</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/gear-products-home.xml"/>
+  <updated>2026-10-24T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.wired.com/story/joybird-semi-annual-sale-2026/</id>
+    <title>My Favorite Sofa Is Discounted for Joybird’s Semiannual Sale</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/joybird-semi-annual-sale-2026/"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">The Joybird Eliot Sleeper, plus hundreds of other options, are up to 40 percent off during the brand’s Semiannual sale.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Gear / Products / Home"/>
+    <category term="Have Several Seats"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/revival-rugs-birthday-sale-october-2026/</id>
+    <title>Revival Rugs Birthday Sale: 20 Percent Off Sitewide Through Sunday</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/revival-rugs-birthday-sale-october-2026/"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">The brand’s lovely selection of hand-knotted and handwoven wool rugs at reasonable prices make it a WIRED-staff favorite.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Gear / Products / Home"/>
+    <category term="Carpet diem!"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/dyson-week-deals-oct-2026/</id>
+    <title>Best Dyson Week Deals (2026): Dyson V15 Detect, Dyson Airwrap</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/dyson-week-deals-oct-2026/"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">Dyson’s sale event is happening now, and you can save up to $300 on vacuums, hair tools, and more.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Gear / Products / Home"/>
+    <category term="Blown Away"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/greenlight-hub-voice-assistant-feature/</id>
+    <title>Greenlight Family Hub (2026): Finally, a Digital Wall Calendar With a Voice Assistant</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/greenlight-hub-voice-assistant-feature/"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">After testing multiple models, I’m convinced voice control belongs on the family calendar. Greenlight’s Family Hub shows why.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Reviews"/>
+    <category term="Gear / Products / Home"/>
+    <category term="Gear / Products / Smart Home"/>
+    <category term="Speak Easy"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/ruggable-october-hosting-sale-2026/</id>
+    <title>Ruggable’s Washable Rugs Are Worth It and Now on Sale (2026)</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/ruggable-october-hosting-sale-2026/"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">If you’re going to nest, you might as well do it at a discount.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Gear / Products / Home"/>
+    <category term="Pile On"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/eufy-security-camera-deals-october-2026/</id>
+    <title>Eufy Security Wall Light Cam S4 Deal: Save $80 on This Versatile Gadget</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/eufy-security-camera-deals-october-2026/"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">This feature-packed security camera is the perfect way to keep an eye on your home and fam from afar.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Gear / Products / Smart Home"/>
+    <category term="Gear / Products / Home"/>
+    <category term="Eye Spy"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+</feed>

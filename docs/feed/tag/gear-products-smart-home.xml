@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/gear-products-smart-home.xml</id>
+  <title>公共目录 · #Gear / Products / Smart Home</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/gear-products-smart-home.xml"/>
+  <updated>2026-10-24T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.wired.com/gallery/best-pet-cameras/</id>
+    <title>Best Pet Camera of 2026: Furbo, Petcube, and Enabot</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/gallery/best-pet-cameras/"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">Whether you’re near or far, keep an eye on your fur baby with our favorite pet cameras.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Buying Guides"/>
+    <category term="Gear / Products / Smart Home"/>
+    <category term="Snoot Snooping"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/google-home-speaker-bug-oct-2026/</id>
+    <title>The Google Home Speaker Has Been Secretly Eating My Wi-Fi Data</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/google-home-speaker-bug-oct-2026/"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">My Google Home Speaker had been burning through more data than all the rest of my devices combined. As I looked into it further, I found other smart home device…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Gear News and Events"/>
+    <category term="Gear / Products / Smart Home"/>
+    <category term="Data Monster"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/greenlight-hub-voice-assistant-feature/</id>
+    <title>Greenlight Family Hub (2026): Finally, a Digital Wall Calendar With a Voice Assistant</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/greenlight-hub-voice-assistant-feature/"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">After testing multiple models, I’m convinced voice control belongs on the family calendar. Greenlight’s Family Hub shows why.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Reviews"/>
+    <category term="Gear / Products / Home"/>
+    <category term="Gear / Products / Smart Home"/>
+    <category term="Speak Easy"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/eufy-security-camera-deals-october-2026/</id>
+    <title>Eufy Security Wall Light Cam S4 Deal: Save $80 on This Versatile Gadget</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/eufy-security-camera-deals-october-2026/"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">This feature-packed security camera is the perfect way to keep an eye on your home and fam from afar.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Gear / Products / Smart Home"/>
+    <category term="Gear / Products / Home"/>
+    <category term="Eye Spy"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+</feed>

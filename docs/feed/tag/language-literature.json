@@ -1,0 +1,63 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Language & Literature",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/language-literature.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://daily.jstor.org/frankenstein-the-vampyre-and-the-spirit-of-the-humanities/",
+      "url": "https://daily.jstor.org/frankenstein-the-vampyre-and-the-spirit-of-the-humanities/",
+      "title": "Frankenstein, The Vampyre, and the Spirit of the Humanities",
+      "content_text": "How one ghost story competition continues to haunt the humanities—just in time for Halloween. The post <em>Frankenstein</em>, <em>The Vampyre</em>, and the Spir…",
+      "summary": "How one ghost story competition continues to haunt the humanities—just in time for Halloween. The post <em>Frankenstein</em>, <em>The Vampyre</em>, and the Spir…",
+      "date_published": "2026-10-20T00:00:00Z",
+      "tags": [
+        "Arts & Culture",
+        "Language & Literature",
+        "Halloween",
+        "horror",
+        "liberal arts",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    },
+    {
+      "id": "https://daily.jstor.org/ten-poems-about-sleep-and-dreaming/",
+      "url": "https://daily.jstor.org/ten-poems-about-sleep-and-dreaming/",
+      "title": "Ten Poems about Sleep and Dreaming",
+      "content_text": "Visions of the unconscious by Emily Dickinson, Louise Glück, Lucille Clifton, Carl Phillips, and more. The post Ten Poems about Sleep and Dreaming appeared firs…",
+      "summary": "Visions of the unconscious by Emily Dickinson, Louise Glück, Lucille Clifton, Carl Phillips, and more. The post Ten Poems about Sleep and Dreaming appeared firs…",
+      "date_published": "2026-10-15T00:00:00Z",
+      "tags": [
+        "Arts & Culture",
+        "Language & Literature",
+        "poems and poetry",
+        "sleep",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    }
+  ]
+}

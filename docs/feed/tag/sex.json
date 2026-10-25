@@ -1,0 +1,61 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Sex",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/sex.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://slate.com/advice/2026/10/sex-advice-roommates-house-bedroom-secret.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/sex-advice-roommates-house-bedroom-secret.html?via=rss",
+      "title": "My Roommates Think They’re Having a Silent, Sneaky Love Affair. They’re Not.",
+      "content_text": "They think I don't know but they're wrong.",
+      "summary": "They think I don't know but they're wrong.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "image": "https://compote.slate.com/images/99b68e2a-2584-4473-95a8-e9df70829561.gif?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Sex",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/sex-advice-improv-in-bed.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/sex-advice-improv-in-bed.html?via=rss",
+      "title": "My Boyfriend Likes to Play Out Scenarios in Bed. Some of His Latest Ones Have Gotten a Little Personal.",
+      "content_text": "I'm not into this.",
+      "summary": "I'm not into this.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://compote.slate.com/images/5c7b739f-89cc-4ba2-af66-87c5c59396ea.gif?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Dating and Relationships",
+        "Sex",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    }
+  ]
+}

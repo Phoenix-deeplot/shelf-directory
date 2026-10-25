@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/architecture.xml</id>
+  <title>公共目录 · #Architecture</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/architecture.xml"/>
+  <updated>2026-10-23T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.openculture.com/2026/10/watch-rome-rise-fall-and-rise-again-in-a-three-minute-3d-timelapse.html</id>
+    <title>Watch Rome Rise, Fall, and Rise Again in a Three-Minute 3D Timelapse</title>
+    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/watch-rome-rise-fall-and-rise-again-in-a-three-minute-3d-timelapse.html"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">Scholars disagree on when, exactly, Rome fell. But if you watch the new video from City 3D Timelapse above, you’ll understand the lack of debate on the question…</summary>
+    <source><title>Open Culture</title></source>
+    <category term="Architecture"/>
+    <category term="History"/>
+    <category term="文化"/>
+    <category term="免费资源"/>
+  </entry>
+  <entry>
+    <id>https://www.openculture.com/2026/10/sears-sold-75000-diy-mail-order-homes-transformed-american-life.html</id>
+    <title>Sears Sold 75,000 DIY Mail Order Homes Between 1908 and 1939, and Transformed American Life</title>
+    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/sears-sold-75000-diy-mail-order-homes-transformed-american-life.html"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">Two of the books that most shaped American culture both happened to bear the nickname “The Big Book.” While the second of these, the A.A. Manual, published in 1…</summary>
+    <source><title>Open Culture</title></source>
+    <category term="Architecture"/>
+    <category term="History"/>
+    <category term="文化"/>
+    <category term="免费资源"/>
+  </entry>
+  <entry>
+    <id>https://daily.jstor.org/the-photographer-who-preserved-everyday-architecture/</id>
+    <title>The Photographer Who Preserved Everyday Architecture</title>
+    <link rel="alternate" type="text/html" href="https://daily.jstor.org/the-photographer-who-preserved-everyday-architecture/"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <published>2026-10-14T00:00:00Z</published>
+    <summary type="text">Frances Benjamin Johnston looked beyond grand estates to document the ordinary buildings that defined American life. The post The Photographer Who Preserved Eve…</summary>
+    <source><title>JSTOR Daily</title></source>
+    <category term="Arts &amp; Culture"/>
+    <category term="Film &amp; Media"/>
+    <category term="Politics &amp; History"/>
+    <category term="U.S. History"/>
+    <category term="architecture"/>
+    <category term="photography"/>
+    <category term="学术"/>
+    <category term="人文"/>
+  </entry>
+</feed>

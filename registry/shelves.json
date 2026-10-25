@@ -142,6 +142,71 @@
    ],
    "added": "2026-10-25",
    "issue": 20
+  },
+  {
+   "id": "wired-com",
+   "kind": "feed",
+   "url": "https://www.wired.com/feed/rss",
+   "source": "https://www.wired.com/feed/rss",
+   "name": "WIRED",
+   "tags": [
+    "科技",
+    "社会"
+   ],
+   "added": "2026-10-25",
+   "issue": 26
+  },
+  {
+   "id": "openculture-com",
+   "kind": "feed",
+   "url": "https://www.openculture.com/feed",
+   "source": "https://www.openculture.com/feed",
+   "name": "Open Culture",
+   "tags": [
+    "文化",
+    "免费资源"
+   ],
+   "added": "2026-10-25",
+   "issue": 25
+  },
+  {
+   "id": "daily-jstor-org",
+   "kind": "feed",
+   "url": "https://daily.jstor.org/feed/",
+   "source": "https://daily.jstor.org/feed/",
+   "name": "JSTOR Daily",
+   "tags": [
+    "学术",
+    "人文"
+   ],
+   "added": "2026-10-25",
+   "issue": 24
+  },
+  {
+   "id": "slate-com",
+   "kind": "feed",
+   "url": "https://slate.com/feeds/all.rss",
+   "source": "https://slate.com/feeds/all.rss",
+   "name": "Slate Magazine",
+   "tags": [
+    "评论",
+    "文化"
+   ],
+   "added": "2026-10-25",
+   "issue": 23
+  },
+  {
+   "id": "ourworldindata-org",
+   "kind": "feed",
+   "url": "https://ourworldindata.org/atom.xml",
+   "source": "https://ourworldindata.org/atom.xml",
+   "name": "Our World in Data",
+   "tags": [
+    "数据",
+    "经济"
+   ],
+   "added": "2026-10-25",
+   "issue": 22
   }
  ]
 }

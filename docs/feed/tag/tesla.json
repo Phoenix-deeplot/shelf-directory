@@ -9,6 +9,32 @@
   },
   "items": [
     {
+      "id": "https://slate.com/podcasts/slate-money/2026/10/musk-zuckerberg-spacex-meta-merge-billionaire-tax-airbnb-stock-market?via=rss",
+      "url": "https://slate.com/podcasts/slate-money/2026/10/musk-zuckerberg-spacex-meta-merge-billionaire-tax-airbnb-stock-market?via=rss",
+      "title": "Musk and Zuck: Can They Have It All?",
+      "content_text": "Meta makes a deal to keep Zuckerberg happy as Musk eyes a power-consolidating merger.",
+      "summary": "Meta makes a deal to keep Zuckerberg happy as Musk eyes a power-consolidating merger.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "image": "https://compote.slate.com/images/0ad4cce0-1643-405e-b092-a65cc2f24b9e.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Mark Zuckerberg",
+        "Tesla",
+        "Elon Musk",
+        "Airbnb",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/tesla-semi-enters-volume-production-as-2027-rollout-approaches",
       "url": "https://www.freightwaves.com/news/tesla-semi-enters-volume-production-as-2027-rollout-approaches",
       "title": "Tesla Semi enters volume production as 2027 rollout approaches",

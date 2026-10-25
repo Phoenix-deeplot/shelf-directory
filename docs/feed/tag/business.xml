@@ -7,6 +7,20 @@
   <updated>2026-10-23T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
+    <id>https://www.wired.com/story/how-many-billions-would-it-take-to-hold-meta-accountable/</id>
+    <title>How Many Billions Would It Take to Hold Meta Accountable?</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/how-many-billions-would-it-take-to-hold-meta-accountable/"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">Meta got hit this week with its biggest fine yet, the latest in a mounting pile of court-ordered payments.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Business / Tech Culture"/>
+    <category term="Backchannel"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
     <id>https://www.freightwaves.com/news/wabtec-earnings-rise-on-higher-freight-and-transit-sales</id>
     <title>Wabtec earnings rise on higher freight and transit sales</title>
     <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/wabtec-earnings-rise-on-higher-freight-and-transit-sales"/>
@@ -22,6 +36,78 @@
     <category term="Equipment"/>
     <category term="locomotives"/>
     <category term="railroads"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/aged-intelligence-society-interview/</id>
+    <title>The Social Society Helping Women Join the AI Boom</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/aged-intelligence-society-interview/"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">WIRED spoke with the founders of the Aged Intelligence Society, a fast-growing events startup that brings women together to “solve midlife problems using fronti…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Model Behavior"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/cool-cool-cool-palmer-luckey-made-a-genetically-modified-military-dog-startup/</id>
+    <title>Palmer Luckey and Ben Lamm Made a Genetically Modified Military Dog Startup</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/cool-cool-cool-palmer-luckey-made-a-genetically-modified-military-dog-startup/"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">Warhound came out of stealth on Wednesday with $200 million in funding and a mission to create “elite working dogs” equipped with "advanced body armor."</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Business / Startups"/>
+    <category term="Woof"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/metas-ad-sales-suffering-now-europeans-can-pick-less-personalization/</id>
+    <title>Meta’s Ad Sales Are Suffering Now That Europeans Can Pick Less Personalization</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/metas-ad-sales-suffering-now-europeans-can-pick-less-personalization/"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">An earnings briefing on Wednesday revealed ad revenue has slowed since the European Union introduced the Less-Personalized Ads model at the beginning of this ye…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Business / Big Tech"/>
+    <category term="Slow Burn"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/uncanny-valley-podcast-inside-the-secret-nathan-fielder-interview/</id>
+    <title>Inside the Exclusive Nathan Fielder Interview</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/uncanny-valley-podcast-inside-the-secret-nathan-fielder-interview/"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">This week on “Uncanny Valley,” we go behind the scenes of our Nathan Fielder cover story, unpack tech billionaires’ generous promises, and discuss the suspiciou…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Business / Big Tech"/>
+    <category term="Business / Tech Culture"/>
+    <category term="Science / Biotech"/>
+    <category term="Uncanny Valley"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/</id>
+    <title>Hugging Face’s New AI Biology Model Lets You Chat With DNA</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Science"/>
+    <category term="Science / Health"/>
+    <category term="Business"/>
+    <category term="ChatDNA"/>
+    <category term="科技"/>
+    <category term="社会"/>
   </entry>
   <entry>
     <id>https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits</id>
@@ -158,5 +244,33 @@
     <category term="Top Stories"/>
     <category term="carloads"/>
     <category term="earnings"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/mark-zuckerberg-agrees-to-stay-in-california-despite-billionaires-tax-ballot-measure/</id>
+    <title>Mark Zuckerberg Agrees to Stay in California Despite Billionaires’ Tax Ballot Measure</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/mark-zuckerberg-agrees-to-stay-in-california-despite-billionaires-tax-ballot-measure/"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">Meta’s board feared that its CEO’s departure could disrupt the company’s AI ambitions. A new stock agreement gives him financial incentives to stay put.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Business / Big Tech"/>
+    <category term="California Dreamin’"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/airbnb-hosts-are-furious-they-can-no-longer-make-guests-do-their-chores/</id>
+    <title>Airbnb Hosts Are Furious They Can No Longer Make Guests Do Their Chores</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/airbnb-hosts-are-furious-they-can-no-longer-make-guests-do-their-chores/"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">Some hosts are threatening to strike, while others are plotting ways around Airbnb’s new restrictions. Guests, meanwhile, are celebrating.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Business / Tech Culture"/>
+    <category term="Dirty Laundry"/>
+    <category term="科技"/>
+    <category term="社会"/>
   </entry>
 </feed>

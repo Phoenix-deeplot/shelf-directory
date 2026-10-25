@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/literature.xml</id>
+  <title>公共目录 · #Literature</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/literature.xml"/>
+  <updated>2026-10-22T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.openculture.com/2026/10/christopher-lee-reads-edgar-allan-poe-the-fall-of-the-house-of-usher.html</id>
+    <title>Christopher Lee Reads Edgar Allan Poe: “The Raven,” “The Fall of the House of Usher,” “The Murders in the Rue Morgue” &amp; More</title>
+    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/christopher-lee-reads-edgar-allan-poe-the-fall-of-the-house-of-usher.html"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">Sir Christopher Lee and Edgar Allan Poe went way back. Or at least they went as far back as 1969, the year of The Oblong Box, a loose and lurid film adaptation…</summary>
+    <source><title>Open Culture</title></source>
+    <category term="Literature"/>
+    <category term="文化"/>
+    <category term="免费资源"/>
+  </entry>
+  <entry>
+    <id>https://www.openculture.com/2026/10/the-dark-story-behind-edgar-allan-poes-most-famous-photograph.html</id>
+    <title>The Dark Story Behind Edgar Allan Poe’s Most Famous Photograph, Taken Four Days After a Laudanum Overdose</title>
+    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/the-dark-story-behind-edgar-allan-poes-most-famous-photograph.html"/>
+    <updated>2026-10-19T00:00:00Z</updated>
+    <published>2026-10-19T00:00:00Z</published>
+    <summary type="text">In the Halloween season, one American writer comes to mind more often than any other: Edgar Allan Poe. That owes in large part to his famously macabre tales lik…</summary>
+    <source><title>Open Culture</title></source>
+    <category term="History"/>
+    <category term="Literature"/>
+    <category term="Photography"/>
+    <category term="文化"/>
+    <category term="免费资源"/>
+  </entry>
+  <entry>
+    <id>https://www.openculture.com/2026/10/soviet-era-illustrations-of-j-r-r-tolkiens-the-hobbit-1976.html</id>
+    <title>Soviet-Era Illustrations of J. R. R. Tolkien’s The Hobbit (1976)</title>
+    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/soviet-era-illustrations-of-j-r-r-tolkiens-the-hobbit-1976.html"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <published>2026-10-14T00:00:00Z</published>
+    <summary type="text">Until I read J. R. R. Tolkien’s The Lord of the Rings, my favorite book growing up was, by far, The Hobbit. Growing up in Russia, however, meant that instead of…</summary>
+    <source><title>Open Culture</title></source>
+    <category term="Art"/>
+    <category term="Literature"/>
+    <category term="文化"/>
+    <category term="免费资源"/>
+  </entry>
+</feed>

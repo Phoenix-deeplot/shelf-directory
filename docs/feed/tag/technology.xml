@@ -104,6 +104,19 @@
     <category term="driverless trucks"/>
   </entry>
   <entry>
+    <id>https://www.openculture.com/2026/10/in-1897-londons-lampposts-dispensed-hot-coffee-tea-and-fluid-beef.html</id>
+    <title>In 1897, London’s Lampposts Dispensed Hot Coffee, Tea, and “Fluid Beef”</title>
+    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/in-1897-londons-lampposts-dispensed-hot-coffee-tea-and-fluid-beef.html"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">Any reader of Victorian literature will wonder how much a ha’penny was actually worth in those days. For a little more than a year at the very end of that perio…</summary>
+    <source><title>Open Culture</title></source>
+    <category term="History"/>
+    <category term="Technology"/>
+    <category term="文化"/>
+    <category term="免费资源"/>
+  </entry>
+  <entry>
     <id>https://www.freightwaves.com/news/phillips-connect-insights-trailersignal-launch</id>
     <title>Phillips Connect moves trailer sensor alerts into the yard</title>
     <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/phillips-connect-insights-trailersignal-launch"/>
@@ -136,5 +149,19 @@
     <category term="SaaS"/>
     <category term="Technology"/>
     <category term="货运"/>
+  </entry>
+  <entry>
+    <id>https://www.openculture.com/2026/10/doctor-whos-tom-baker-plays-douglas-adams.html</id>
+    <title>Doctor Who’s Tom Baker Plays Douglas Adams’ Digital “Agent” in the AI-Predicting Hyperland (1990)</title>
+    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/doctor-whos-tom-baker-plays-douglas-adams.html"/>
+    <updated>2026-10-20T00:00:00Z</updated>
+    <published>2026-10-20T00:00:00Z</published>
+    <summary type="text">Cast your mind, if you will, back to the year 2020. It now feels like a different time, what with the spreading COVID-19 pandemic and the heated sociopolitical…</summary>
+    <source><title>Open Culture</title></source>
+    <category term="Artificial Intelligence"/>
+    <category term="Technology"/>
+    <category term="Television"/>
+    <category term="文化"/>
+    <category term="免费资源"/>
   </entry>
 </feed>

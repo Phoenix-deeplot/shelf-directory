@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/politics.xml</id>
+  <title>公共目录 · #Politics</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/politics.xml"/>
+  <updated>2026-10-24T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://slate.com/culture/2026/10/matthew-mcconaughey-movies-rom-coms-politics-independent-republican.html?via=rss</id>
+    <title>I’m Begging Matthew McConaughey to Go Back to What He Does Best</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/culture/2026/10/matthew-mcconaughey-movies-rom-coms-politics-independent-republican.html?via=rss"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">Frankly, I don’t want to hear from him again unless he’s announcing another movie like The Wedding Planner.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Celebrities"/>
+    <category term="Comedy"/>
+    <category term="Movies"/>
+    <category term="Politics"/>
+    <category term="Romance"/>
+    <category term="Rom-Coms"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/elon-musk-just-dumped-another-dollar76-million-into-the-midterms/</id>
+    <title>Elon Musk Just Dumped Another $76 Million Into the Midterms</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/elon-musk-just-dumped-another-dollar76-million-into-the-midterms/"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">The trillionaire has given more than $445 million to Republican political groups this election cycle, as Democrats vow to investigate him.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Politics"/>
+    <category term="Midterms 2026"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.reddit.com/r/politics/comments/1xdj125/white_house_directly_intervened_to_shut_down/</id>
+    <title>White House Directly Intervened to Shut Down Epstein Files Probe</title>
+    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/politics/comments/1xdj125/white_house_directly_intervened_to_shut_down/"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">submitted by /u/Aggravating_Money992 to r/politics [link] [comments]</summary>
+    <source><title>top scoring links : popular</title></source>
+    <category term="politics"/>
+    <category term="社区"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/they-believe-2020-was-stolen-they-could-be-in-charge-of-elections-in-2028/</id>
+    <title>They Believe 2020 Was Stolen. They Could Be in Charge of Elections in 2028</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/they-believe-2020-was-stolen-they-could-be-in-charge-of-elections-in-2028/"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">A host of election-denying candidates are running for attorney general in states across the country.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Politics"/>
+    <category term="Politics / Disinformation"/>
+    <category term="Midterms 2026"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/its-the-presidents-fault-the-white-house-blame-game-starts-early-ahead-of-the-midterms/</id>
+    <title>‘It’s the President’s Fault’: The White House Blame Game Starts Early Ahead of the Midterms</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/its-the-presidents-fault-the-white-house-blame-game-starts-early-ahead-of-the-midterms/"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">As the White House contemplates losing Congress, there has been an unusually early effort to find a Republican scapegoat.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Politics"/>
+    <category term="Politics / Politics News"/>
+    <category term="Inner Loop"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+</feed>

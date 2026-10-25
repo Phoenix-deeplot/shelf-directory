@@ -1,0 +1,170 @@
+{
+ "id": "daily-jstor-org",
+ "items": [
+  {
+   "url": "https://daily.jstor.org/teaching-students-to-see-what-they-miss/",
+   "title": "Teaching Students to See What They Miss",
+   "summary": "A classroom exercise in slow looking uses art to sharpen observation skills and encourage more attentive listening. The post Teaching Students to See What They…",
+   "image": "",
+   "date": "2026-10-23",
+   "tags": [
+    "Education",
+    "Education & Society",
+    "Health",
+    "Science & Technology",
+    "art history",
+    "medicine"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://daily.jstor.org/the-art-of-the-thousand-bloom-chrysanthemum/",
+   "title": "The Art of the Thousand Bloom Chrysanthemum",
+   "summary": "How do horticulturists coax more than 1,000 flowers from a single plant? The answer lies in a centuries-old Japanese tradition. The post The Art of the Thousand…",
+   "image": "",
+   "date": "2026-10-22",
+   "tags": [
+    "Plants & Animals",
+    "Science & Technology"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://daily.jstor.org/editors-picks-halloween/",
+   "title": "Ghosts, Witches, and Other Halloween Stories",
+   "summary": "A spine-tingling roundup of historical mysteries, supernatural folklore, and the strange things that have frightened us for centuries. The post Ghosts, Witches,…",
+   "image": "",
+   "date": "2026-10-22",
+   "tags": [
+    "Arts & Culture",
+    "Halloween",
+    "holidays"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://daily.jstor.org/the-forgotten-stories-behind-presidential-campaign-buttons/",
+   "title": "The Forgotten Stories Behind Presidential Campaign Buttons",
+   "summary": "The race for the White House has always inspired unusual publicity stunts. A vast collection shows just how strange they could get. The post The Forgotten Stori…",
+   "image": "",
+   "date": "2026-10-21",
+   "tags": [
+    "Arts & Culture",
+    "elections",
+    "presidents"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://daily.jstor.org/frankenstein-the-vampyre-and-the-spirit-of-the-humanities/",
+   "title": "Frankenstein, The Vampyre, and the Spirit of the Humanities",
+   "summary": "How one ghost story competition continues to haunt the humanities—just in time for Halloween. The post <em>Frankenstein</em>, <em>The Vampyre</em>, and the Spir…",
+   "image": "",
+   "date": "2026-10-20",
+   "tags": [
+    "Arts & Culture",
+    "Language & Literature",
+    "Halloween",
+    "horror",
+    "liberal arts"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://daily.jstor.org/why-washing-machines-took-decades-to-catch-on/",
+   "title": "Why Washing Machines Took Decades to Catch On",
+   "summary": "Early electric laundry appliances promised to make housework easier. But convincing American households to buy them was another matter. The post Why Washing Mac…",
+   "image": "",
+   "date": "2026-10-19",
+   "tags": [
+    "Arts & Culture",
+    "housework",
+    "race"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://daily.jstor.org/the-women-breaking-the-rules-of-balinese-dance/",
+   "title": "The Women Breaking the Rules of Balinese Dance",
+   "summary": "Middle-aged performers are taking on roles once reserved for men, challenging expectations about age and gender in Bali. The post The Women Breaking the Rules o…",
+   "image": "",
+   "date": "2026-10-16",
+   "tags": [
+    "Politics & History",
+    "Social History",
+    "dance",
+    "gender"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://daily.jstor.org/ten-poems-about-sleep-and-dreaming/",
+   "title": "Ten Poems about Sleep and Dreaming",
+   "summary": "Visions of the unconscious by Emily Dickinson, Louise Glück, Lucille Clifton, Carl Phillips, and more. The post Ten Poems about Sleep and Dreaming appeared firs…",
+   "image": "",
+   "date": "2026-10-15",
+   "tags": [
+    "Arts & Culture",
+    "Language & Literature",
+    "poems and poetry",
+    "sleep"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://daily.jstor.org/the-photographer-who-preserved-everyday-architecture/",
+   "title": "The Photographer Who Preserved Everyday Architecture",
+   "summary": "Frances Benjamin Johnston looked beyond grand estates to document the ordinary buildings that defined American life. The post The Photographer Who Preserved Eve…",
+   "image": "",
+   "date": "2026-10-14",
+   "tags": [
+    "Arts & Culture",
+    "Film & Media",
+    "Politics & History",
+    "U.S. History",
+    "architecture",
+    "photography"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://daily.jstor.org/what-do-cops-train-for/",
+   "title": "What Do Cops Train For?",
+   "summary": "Research on police training finds that realistic simulations may reinforce expectations of violence instead of preventing it. The post What Do Cops Train For? a…",
+   "image": "",
+   "date": "2026-10-13",
+   "tags": [
+    "Politics & History",
+    "U.S. History",
+    "criminal justice reform",
+    "police"
+   ],
+   "lang": "en",
+   "type": "article"
+  }
+ ],
+ "shelf": {
+  "name": "JSTOR Daily",
+  "description": "from JSTOR, nonprofit library for the intellectually curious",
+  "home": "https://daily.jstor.org/",
+  "lang": "en",
+  "license": "",
+  "tags": []
+ },
+ "fails": 0,
+ "kind": "feed",
+ "parser": 2,
+ "status": "ok",
+ "error": "",
+ "etag": "\"1170f3500f5b4d4480eee81494a373a0\"",
+ "modified": "Fri, 23 Oct 2026 13:52:00 GMT"
+}

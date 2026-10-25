@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/crossword.xml</id>
+  <title>公共目录 · #Crossword</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/crossword.xml"/>
+  <updated>2026-10-23T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://slate.com/life/2026/10/crossword-slate-daily-puzzle-oct-23-2026.html?via=rss</id>
+    <title>Slate Crossword: Where Slop Is Rampant (Three Letters)</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/crossword-slate-daily-puzzle-oct-23-2026.html?via=rss"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">Ready for some wordplay? Sharpen your skills with Slate’s puzzle for Oct. 23, 2026.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Slate Games"/>
+    <category term="Crossword"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+</feed>

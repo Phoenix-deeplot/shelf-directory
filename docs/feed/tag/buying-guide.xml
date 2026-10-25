@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/buying-guide.xml</id>
+  <title>公共目录 · #Buying Guide</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/buying-guide.xml"/>
+  <updated>2026-10-24T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.wired.com/story/best-laptops/</id>
+    <title>Best Laptops (2026): My Top Recommendations After Testing Hundreds</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/best-laptops/"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <published>2026-10-24T00:00:00Z</published>
+    <summary type="text">I’ve tested laptops for more than a decade, and here’s my advice for finding the right laptop for you.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Products"/>
+    <category term="Gear / Buying Guides"/>
+    <category term="Gear / Products / Computers"/>
+    <category term="Buying Guide"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/gallery/iphone-buying-guide/</id>
+    <title>What’s the Best iPhone to Buy or Avoid Right Now? (2026)</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/gallery/iphone-buying-guide/"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">The first folding iPhone Duo is here, alongside the 18 Pro and 18 Pro Max, but they’re not your only options. We have all the details on Apple’s smartphone line…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Buying Guides"/>
+    <category term="Gear / Products / Phones"/>
+    <category term="Buying Guide"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/microsoft-surface-buying-guide/</id>
+    <title>Best Microsoft Surface Laptop (2026): Which Models to Buy and Avoid</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/microsoft-surface-buying-guide/"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">With pricing in flux and new models available, here’s which Surface Laptop and Surface Pro to buy.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Buying Guides"/>
+    <category term="Gear / Products / Computers"/>
+    <category term="Buying Guide"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+</feed>

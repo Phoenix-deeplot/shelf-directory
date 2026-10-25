@@ -1,0 +1,62 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Science & Technology",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/science-technology.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://daily.jstor.org/teaching-students-to-see-what-they-miss/",
+      "url": "https://daily.jstor.org/teaching-students-to-see-what-they-miss/",
+      "title": "Teaching Students to See What They Miss",
+      "content_text": "A classroom exercise in slow looking uses art to sharpen observation skills and encourage more attentive listening. The post Teaching Students to See What They…",
+      "summary": "A classroom exercise in slow looking uses art to sharpen observation skills and encourage more attentive listening. The post Teaching Students to See What They…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "Education",
+        "Education & Society",
+        "Health",
+        "Science & Technology",
+        "art history",
+        "medicine",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    },
+    {
+      "id": "https://daily.jstor.org/the-art-of-the-thousand-bloom-chrysanthemum/",
+      "url": "https://daily.jstor.org/the-art-of-the-thousand-bloom-chrysanthemum/",
+      "title": "The Art of the Thousand Bloom Chrysanthemum",
+      "content_text": "How do horticulturists coax more than 1,000 flowers from a single plant? The answer lies in a centuries-old Japanese tradition. The post The Art of the Thousand…",
+      "summary": "How do horticulturists coax more than 1,000 flowers from a single plant? The answer lies in a centuries-old Japanese tradition. The post The Art of the Thousand…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "Plants & Animals",
+        "Science & Technology",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    }
+  ]
+}

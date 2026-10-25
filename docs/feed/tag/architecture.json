@@ -1,0 +1,85 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Architecture",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/architecture.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.openculture.com/2026/10/watch-rome-rise-fall-and-rise-again-in-a-three-minute-3d-timelapse.html",
+      "url": "https://www.openculture.com/2026/10/watch-rome-rise-fall-and-rise-again-in-a-three-minute-3d-timelapse.html",
+      "title": "Watch Rome Rise, Fall, and Rise Again in a Three-Minute 3D Timelapse",
+      "content_text": "Scholars disagree on when, exactly, Rome fell. But if you watch the new video from City 3D Timelapse above, you’ll understand the lack of debate on the question…",
+      "summary": "Scholars disagree on when, exactly, Rome fell. But if you watch the new video from City 3D Timelapse above, you’ll understand the lack of debate on the question…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "Architecture",
+        "History",
+        "文化",
+        "免费资源"
+      ],
+      "authors": [
+        {
+          "name": "Open Culture"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "openculture-com"
+      }
+    },
+    {
+      "id": "https://www.openculture.com/2026/10/sears-sold-75000-diy-mail-order-homes-transformed-american-life.html",
+      "url": "https://www.openculture.com/2026/10/sears-sold-75000-diy-mail-order-homes-transformed-american-life.html",
+      "title": "Sears Sold 75,000 DIY Mail Order Homes Between 1908 and 1939, and Transformed American Life",
+      "content_text": "Two of the books that most shaped American culture both happened to bear the nickname “The Big Book.” While the second of these, the A.A. Manual, published in 1…",
+      "summary": "Two of the books that most shaped American culture both happened to bear the nickname “The Big Book.” While the second of these, the A.A. Manual, published in 1…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "Architecture",
+        "History",
+        "文化",
+        "免费资源"
+      ],
+      "authors": [
+        {
+          "name": "Open Culture"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "openculture-com"
+      }
+    },
+    {
+      "id": "https://daily.jstor.org/the-photographer-who-preserved-everyday-architecture/",
+      "url": "https://daily.jstor.org/the-photographer-who-preserved-everyday-architecture/",
+      "title": "The Photographer Who Preserved Everyday Architecture",
+      "content_text": "Frances Benjamin Johnston looked beyond grand estates to document the ordinary buildings that defined American life. The post The Photographer Who Preserved Eve…",
+      "summary": "Frances Benjamin Johnston looked beyond grand estates to document the ordinary buildings that defined American life. The post The Photographer Who Preserved Eve…",
+      "date_published": "2026-10-14T00:00:00Z",
+      "tags": [
+        "Arts & Culture",
+        "Film & Media",
+        "Politics & History",
+        "U.S. History",
+        "architecture",
+        "photography",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    }
+  ]
+}

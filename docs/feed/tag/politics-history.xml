@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/politics-history.xml</id>
+  <title>公共目录 · #Politics &amp; History</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/politics-history.xml"/>
+  <updated>2026-10-16T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://daily.jstor.org/the-women-breaking-the-rules-of-balinese-dance/</id>
+    <title>The Women Breaking the Rules of Balinese Dance</title>
+    <link rel="alternate" type="text/html" href="https://daily.jstor.org/the-women-breaking-the-rules-of-balinese-dance/"/>
+    <updated>2026-10-16T00:00:00Z</updated>
+    <published>2026-10-16T00:00:00Z</published>
+    <summary type="text">Middle-aged performers are taking on roles once reserved for men, challenging expectations about age and gender in Bali. The post The Women Breaking the Rules o…</summary>
+    <source><title>JSTOR Daily</title></source>
+    <category term="Politics &amp; History"/>
+    <category term="Social History"/>
+    <category term="dance"/>
+    <category term="gender"/>
+    <category term="学术"/>
+    <category term="人文"/>
+  </entry>
+  <entry>
+    <id>https://daily.jstor.org/the-photographer-who-preserved-everyday-architecture/</id>
+    <title>The Photographer Who Preserved Everyday Architecture</title>
+    <link rel="alternate" type="text/html" href="https://daily.jstor.org/the-photographer-who-preserved-everyday-architecture/"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <published>2026-10-14T00:00:00Z</published>
+    <summary type="text">Frances Benjamin Johnston looked beyond grand estates to document the ordinary buildings that defined American life. The post The Photographer Who Preserved Eve…</summary>
+    <source><title>JSTOR Daily</title></source>
+    <category term="Arts &amp; Culture"/>
+    <category term="Film &amp; Media"/>
+    <category term="Politics &amp; History"/>
+    <category term="U.S. History"/>
+    <category term="architecture"/>
+    <category term="photography"/>
+    <category term="学术"/>
+    <category term="人文"/>
+  </entry>
+  <entry>
+    <id>https://daily.jstor.org/what-do-cops-train-for/</id>
+    <title>What Do Cops Train For?</title>
+    <link rel="alternate" type="text/html" href="https://daily.jstor.org/what-do-cops-train-for/"/>
+    <updated>2026-10-13T00:00:00Z</updated>
+    <published>2026-10-13T00:00:00Z</published>
+    <summary type="text">Research on police training finds that realistic simulations may reinforce expectations of violence instead of preventing it. The post What Do Cops Train For? a…</summary>
+    <source><title>JSTOR Daily</title></source>
+    <category term="Politics &amp; History"/>
+    <category term="U.S. History"/>
+    <category term="criminal justice reform"/>
+    <category term="police"/>
+    <category term="学术"/>
+    <category term="人文"/>
+  </entry>
+</feed>

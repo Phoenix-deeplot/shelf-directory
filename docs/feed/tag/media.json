@@ -9,6 +9,30 @@
   },
   "items": [
     {
+      "id": "https://slate.com/podcasts/what-next/2026/10/what-next-news-live-reveal-on-the-media?via=rss",
+      "url": "https://slate.com/podcasts/what-next/2026/10/what-next-news-live-reveal-on-the-media?via=rss",
+      "title": "Plus: How We Survive the News",
+      "content_text": "Our lives are election deniers, Pentagon influencers, and non-stop Trump.",
+      "summary": "Our lives are election deniers, Pentagon influencers, and non-stop Trump.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://compote.slate.com/images/fbfe64a2-0a4f-4ab7-bfc9-2634dbbe8b69.jpeg",
+      "tags": [
+        "Journalism",
+        "Media",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/safety-should-be-provable-not-just-compliant",
       "url": "https://www.freightwaves.com/news/safety-should-be-provable-not-just-compliant",
       "title": "Safety Should Be Provable, Not Just Compliant",
