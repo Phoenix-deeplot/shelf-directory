@@ -279,6 +279,7 @@ class TestCheck(SubBase):
         self.assertEqual((st, body['status']), (200, 'checked'))
         r = body['result']
         self.assertEqual((r['kind_zh'], r['name'], r['found'], r['lang'], r['license']), ('订阅源书架（整个网站 / 博客 / 频道）', 'Example blog', 7, 'zh', 'CC BY'))
+        self.assertEqual(r['kind'], 'feed')                                                                              # (the page offers "subscribe just for me" only for a feed)
         self.assertEqual([i['title'] for i in r['latest']], ['Post 7', 'Post 6', 'Post 5', 'Post 4', 'Post 3'])      # five, newest first
         self.assertEqual(r['tags'], ['供应链'])
         self.assertEqual(self.probed, ['https://blog.example.org/'])

@@ -326,7 +326,7 @@ def summarize_probe(r):
     e, s = r['entry'], r['shelf']
     zh, en = agg.KIND_NAMES.get((e['kind'], e.get('sub', '')), (e['kind'], e['kind']))
     tags = agg.norm_tags(sorted({t for i in r['items'] for t in i['tags']}, key=lambda t: -sum(t in i['tags'] for i in r['items'])), 6)
-    return {'what': 'url', 'kind_zh': zh, 'kind_en': en, 'name': s.get('name', ''), 'source': e.get('source') or e.get('url', ''), 'found': len(r['items']), 'lang': s.get('lang', ''),
+    return {'what': 'url', 'kind': e['kind'], 'kind_zh': zh, 'kind_en': en, 'name': s.get('name', ''), 'source': e.get('source') or e.get('url', ''), 'found': len(r['items']), 'lang': s.get('lang', ''),
             'description': s.get('description', ''), 'license': s.get('license', ''), 'tags': tags,
             'latest': [{'title': i['title'], 'url': i['url'], 'date': i['date'], 'type': i['type']} for i in sorted(r['items'], key=lambda i: i['date'], reverse=True)[:5]],
             'warnings': [list(w) for w in r.get('warnings', [])], 'unread': bool(r.get('unread'))}
