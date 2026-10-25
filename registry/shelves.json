@@ -115,6 +115,33 @@
    ],
    "added": "2026-10-23",
    "issue": 19
+  },
+  {
+   "id": "cnbc-com",
+   "kind": "feed",
+   "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+   "source": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+   "name": "US Top News and Analysis",
+   "tags": [
+    "金融",
+    "新闻"
+   ],
+   "added": "2026-10-25",
+   "issue": 21
+  },
+  {
+   "id": "producthunt-com",
+   "kind": "feed",
+   "url": "https://www.producthunt.com/feed",
+   "source": "https://www.producthunt.com/feed",
+   "name": "Product Hunt — The best new products, every day",
+   "tags": [
+    "产品",
+    "科技",
+    "热榜"
+   ],
+   "added": "2026-10-25",
+   "issue": 20
   }
  ]
 }

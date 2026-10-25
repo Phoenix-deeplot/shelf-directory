@@ -7,6 +7,42 @@
   <updated>2026-10-23T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
+    <id>https://www.producthunt.com/products/sideos-ai</id>
+    <title>sideOS.ai</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/sideos-ai"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">Local AI for dictation, meetings, background tasks and more Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/canva</id>
+    <title>Canva Craft</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/canva"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">Turn prompts into design-ready images you can edit Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/basedash</id>
+    <title>Basedash Scheduled CSV Exports</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/basedash"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">Ask once. Get a fresh CSV in Slack or email every week. Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
     <id>http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html</id>
     <title>科技爱好者周刊（第 416 期）：编程已经面目全非</title>
     <link rel="alternate" type="text/html" href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html"/>
@@ -17,6 +53,462 @@
     <category term="Weekly"/>
     <category term="科技"/>
     <category term="周刊"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/truffle-music-tag-editor</id>
+    <title>Truffle</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/truffle-music-tag-editor"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">Fix messy tags, covers and duplicates in your Mac library Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/termi-protocol</id>
+    <title>Termi Protocol</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/termi-protocol"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">Watch AI agents code in 3D and hand off the work Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/shogunai</id>
+    <title>ShogunAI</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/shogunai"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">Your personal AGI on your pc Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/river-writer</id>
+    <title>River Writer</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/river-writer"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">A quiet Mac app for screenplays, stage plays and novels Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/producthunt</id>
+    <title>Product Hunt Visual Launch Editor</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/producthunt"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">See your launch as you build it Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/plango</id>
+    <title>Plango</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/plango"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">Use AI to defend against AI Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/peras</id>
+    <title>Peras</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/peras"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">Pause Claude Code and Codex before they burn your week Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/monish</id>
+    <title>Monish</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/monish"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">Your AI agents, live on your iPhone lock screen Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/instant-search-2</id>
+    <title>Instant Search</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/instant-search-2"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">The fastest, most precise local AI Search for your files. Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/gerty</id>
+    <title>Gerty</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/gerty"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">Private ChatGPT alternative that sets itself up on your Mac Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/dots-7</id>
+    <title>Dots</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/dots-7"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">A customizable workspace built into your Mac's notch Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/bloblings</id>
+    <title>Bloblings</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/bloblings"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">A pet for every Claude Code session Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/monid</id>
+    <title>Agent Hunt</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/monid"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">Live rankings of the tools AI agents use most Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/1password</id>
+    <title>1Password for Agents</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/1password"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <published>2026-10-22T00:00:00Z</published>
+    <summary type="text">Let AI agents sign in for you without seeing your passwords Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/teclo</id>
+    <title>Teclo</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/teclo"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">Mechanical keyboard sounds and a keycap pet for your Mac Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/resend</id>
+    <title>Resend Inboxes</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/resend"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">Create shared inboxes, connect your agents, build workflows Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/polylane</id>
+    <title>Polylane for Cloudflare</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/polylane"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">An AI on-call engineer for your Cloudflare apps Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/penta-cd-player-changer</id>
+    <title>Penta</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/penta-cd-player-changer"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">A ’90s 5-disc CD changer on iPhone Duo Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/mercury-412</id>
+    <title>Mercury 3</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/mercury-412"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">The diffusion LLM that scaled 40x without slowing down Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/kugelaudio</id>
+    <title>Kugel Ear</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/kugelaudio"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">Speech-to-text that only asks when it's unsure Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/claude</id>
+    <title>Claude Duet</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/claude"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">Proactive agent that understands what needs your attention Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/byter</id>
+    <title>Byter</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/byter"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">Know exactly how much data you use, on every network Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/bits-4</id>
+    <title>Bits</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/bits-4"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">An open-source personal agent that gets you things done Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/cleanslop</id>
+    <title>Agentic CleanSlop</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/cleanslop"/>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <published>2026-10-21T00:00:00Z</published>
+    <summary type="text">Authenticate, scan and fix your app from your agent Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/shedi</id>
+    <title>Shedi</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/shedi"/>
+    <updated>2026-10-20T00:00:00Z</updated>
+    <published>2026-10-20T00:00:00Z</published>
+    <summary type="text">Get back the space Xcode, Docker and node_modules ate Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/mistral-7b</id>
+    <title>Mistral Voxtral 3</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/mistral-7b"/>
+    <updated>2026-10-20T00:00:00Z</updated>
+    <published>2026-10-20T00:00:00Z</published>
+    <summary type="text">Mistral’s speech models for transcription, TTS and agents Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/realtime-max-mini</id>
+    <title>ElevenLabs Realtime</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/realtime-max-mini"/>
+    <updated>2026-10-20T00:00:00Z</updated>
+    <published>2026-10-20T00:00:00Z</published>
+    <summary type="text">Realtime voice agent models with 570ms to first audio Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/dub</id>
+    <title>Dub Startup Program</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/dub"/>
+    <updated>2026-10-20T00:00:00Z</updated>
+    <published>2026-10-20T00:00:00Z</published>
+    <summary type="text">Launch your partner-led growth program Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/dots-phone</id>
+    <title>Dots Phone</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/dots-phone"/>
+    <updated>2026-10-20T00:00:00Z</updated>
+    <published>2026-10-20T00:00:00Z</published>
+    <summary type="text">A phone-calling plugin for OpenAI Dots Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/dotmd-3</id>
+    <title>DotMD</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/dotmd-3"/>
+    <updated>2026-10-20T00:00:00Z</updated>
+    <published>2026-10-20T00:00:00Z</published>
+    <summary type="text">Review your AI agent's Markdown specs like a pull request Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/deepcell</id>
+    <title>DeepCell</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/deepcell"/>
+    <updated>2026-10-20T00:00:00Z</updated>
+    <published>2026-10-20T00:00:00Z</published>
+    <summary type="text">Your deadline survival kit for office work Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/cloudflare</id>
+    <title>Cloudflare Clairic</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/cloudflare"/>
+    <updated>2026-10-20T00:00:00Z</updated>
+    <published>2026-10-20T00:00:00Z</published>
+    <summary type="text">Cloudflare's AI model for fast, cheap data extraction Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/agentvalley</id>
+    <title>AgentValley</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/agentvalley"/>
+    <updated>2026-10-20T00:00:00Z</updated>
+    <published>2026-10-20T00:00:00Z</published>
+    <summary type="text">Every Claude Code agent, at a glance, in your Mac's notch Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/whiteboard-5</id>
+    <title>Whiteboard</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/whiteboard-5"/>
+    <updated>2026-10-19T00:00:00Z</updated>
+    <published>2026-10-19T00:00:00Z</published>
+    <summary type="text">the open-source IDE for thoughtful software design Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/fal-ai</id>
+    <title>FLUX 3 Max</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/fal-ai"/>
+    <updated>2026-10-19T00:00:00Z</updated>
+    <published>2026-10-19T00:00:00Z</published>
+    <summary type="text">fal’s FLUX 3 Max: 10-second AI video in about 12 seconds Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/context-engine-2</id>
+    <title>Context Engine</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/context-engine-2"/>
+    <updated>2026-10-19T00:00:00Z</updated>
+    <published>2026-10-19T00:00:00Z</published>
+    <summary type="text">One memory for your AI agents and human team members. Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/how-it-went</id>
+    <title>How It Went</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/how-it-went"/>
+    <updated>2026-10-17T00:00:00Z</updated>
+    <published>2026-10-17T00:00:00Z</published>
+    <summary type="text">Your route, photos and clips as a short film Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/inyon</id>
+    <title>Inyon</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/inyon"/>
+    <updated>2026-10-16T00:00:00Z</updated>
+    <published>2026-10-16T00:00:00Z</published>
+    <summary type="text">Answer your coding agents from your phone Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
   </entry>
   <entry>
     <id>http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html</id>
@@ -31,51 +523,87 @@
     <category term="周刊"/>
   </entry>
   <entry>
-    <id>http://www.ruanyifeng.com/blog/2026/10/weekly-issue-414.html</id>
-    <title>科技爱好者周刊（第 414 期）：Jev 决策模型有什么用</title>
-    <link rel="alternate" type="text/html" href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-414.html"/>
+    <id>https://www.producthunt.com/products/zcad-ai</id>
+    <title>zCAD AI</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/zcad-ai"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <published>2026-10-15T00:00:00Z</published>
+    <summary type="text">AI 3D that creates real parts, not just shapes Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/mypip-2</id>
+    <title>myPip</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/mypip-2"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <published>2026-10-15T00:00:00Z</published>
+    <summary type="text">Vibe code, publish, and monetize games with AI Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/many-displays</id>
+    <title>Many Displays</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/many-displays"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <published>2026-10-14T00:00:00Z</published>
+    <summary type="text">Zero clicks: windows back after sleep, unlock or replugging Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/linkintel</id>
+    <title>LinkIntel</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/linkintel"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <published>2026-10-14T00:00:00Z</published>
+    <summary type="text">Post insights delivered direct to your AI Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/headroom-5</id>
+    <title>Headroom</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/headroom-5"/>
+    <updated>2026-10-13T00:00:00Z</updated>
+    <published>2026-10-13T00:00:00Z</published>
+    <summary type="text">Your Mac on iPhone Duo: fold it, and the keyboard appears Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/claire-mail</id>
+    <title>Claire Mail</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/claire-mail"/>
+    <updated>2026-10-13T00:00:00Z</updated>
+    <published>2026-10-13T00:00:00Z</published>
+    <summary type="text">Email, calendar and reminders, in one fast app Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/ovren</id>
+    <title>Ovren Live Preview</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/ovren"/>
     <updated>2026-10-08T00:00:00Z</updated>
     <published>2026-10-08T00:00:00Z</published>
-    <summary type="text">这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 国产首列数字地铁列车 VELLINK，完全无人驾驶，车头改成了大幅玻璃，用于观光。（via） Jev 决策模型有什么用 上个月，最大的 AI…</summary>
-    <source><title>阮一峰的网络日志</title></source>
-    <category term="Weekly"/>
+    <summary type="text">See your product change live before it ships Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
     <category term="科技"/>
-    <category term="周刊"/>
-  </entry>
-  <entry>
-    <id>http://www.ruanyifeng.com/blog/2026/09/weekly-issue-413.html</id>
-    <title>科技爱好者周刊（第 413 期）：再见了，React Native</title>
-    <link rel="alternate" type="text/html" href="http://www.ruanyifeng.com/blog/2026/09/weekly-issue-413.html"/>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <published>2026-09-18T00:00:00Z</published>
-    <summary type="text">这里记录每周值得分享的科技内容，周五发布。（[通知] 下周五开始的中秋和十一假期，周刊休息。） 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 华东师范大学闵行校区新启用的西校门，仿造了它的前身之一光华大学的校门。（via） 再见了…</summary>
-    <source><title>阮一峰的网络日志</title></source>
-    <category term="Weekly"/>
-    <category term="科技"/>
-    <category term="周刊"/>
-  </entry>
-  <entry>
-    <id>http://www.ruanyifeng.com/blog/2026/09/weekly-issue-412.html</id>
-    <title>科技爱好者周刊（第 412 期）：禁止 issue，只用 PR</title>
-    <link rel="alternate" type="text/html" href="http://www.ruanyifeng.com/blog/2026/09/weekly-issue-412.html"/>
-    <updated>2026-09-11T00:00:00Z</updated>
-    <published>2026-09-11T00:00:00Z</published>
-    <summary type="text">这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面 上海前滩太古里举办的"英雄联盟15周年"展览。（via） 禁止 issue，只用 PR 上周，PHP 框架 Laravel 宣布了一个新规定：…</summary>
-    <source><title>阮一峰的网络日志</title></source>
-    <category term="Weekly"/>
-    <category term="科技"/>
-    <category term="周刊"/>
-  </entry>
-  <entry>
-    <id>http://www.ruanyifeng.com/blog/2026/09/weekly-issue-411.html</id>
-    <title>科技爱好者周刊（第 411 期）：OpenClaw 2.0 是一个缩影</title>
-    <link rel="alternate" type="text/html" href="http://www.ruanyifeng.com/blog/2026/09/weekly-issue-411.html"/>
-    <updated>2026-09-04T00:00:00Z</updated>
-    <published>2026-09-04T00:00:00Z</published>
-    <summary type="text">这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 宁夏西夏陵使用金属网，将残片还原成石像生。（via） OpenClaw 2.0 是一个缩影 本周，OpenClaw 发布了2.0版。 是不是…</summary>
-    <source><title>阮一峰的网络日志</title></source>
-    <category term="Weekly"/>
-    <category term="科技"/>
-    <category term="周刊"/>
+    <category term="热榜"/>
   </entry>
 </feed>

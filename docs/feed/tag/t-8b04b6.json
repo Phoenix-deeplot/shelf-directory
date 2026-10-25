@@ -1,0 +1,642 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #金融",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-8b04b6.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.cnbc.com/2026/10/24/spirit-airlines-planes-scrapped-engine-shortage.html",
+      "url": "https://www.cnbc.com/2026/10/24/spirit-airlines-planes-scrapped-engine-shortage.html",
+      "title": "Why popular airplanes are getting scrapped years early",
+      "content_text": "Airplanes are getting dismantled for parts years ahead of schedule because engines and other components are in short supply.",
+      "summary": "Airplanes are getting dismantled for parts years ahead of schedule because engines and other components are in short supply.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
+      "url": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
+      "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
+      "content_text": "French unrest pushed bond yields to a 24-year high as investors weigh budget, growth and sectors risks ahead of more protests.",
+      "summary": "French unrest pushed bond yields to a 24-year high as investors weigh budget, growth and sectors risks ahead of more protests.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/24/ai-customer-service-jobs-work.html",
+      "url": "https://www.cnbc.com/2026/10/24/ai-customer-service-jobs-work.html",
+      "title": "What a day in customer service looks like — as AI changes everything",
+      "content_text": "Customer service can be a \"really, really difficult job.\" Will AI make it easier — or cause even more headaches?",
+      "summary": "Customer service can be a \"really, really difficult job.\" Will AI make it easier — or cause even more headaches?",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
+      "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
+      "title": "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
+      "content_text": "Stock slumps, pulled IPOs and rising spreads on credit default swaps this week sets stage for hyperscaler earnings.",
+      "summary": "Stock slumps, pulled IPOs and rising spreads on credit default swaps this week sets stage for hyperscaler earnings.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/24/trump-ai-data-centers-voter-backlash-midterms.html",
+      "url": "https://www.cnbc.com/2026/10/24/trump-ai-data-centers-voter-backlash-midterms.html",
+      "title": "Trump is pushing a massive AI buildout. His own voters are wary of what comes with it",
+      "content_text": "A new CNBC survey finds broad voter opposition to nearby AI data centers, creating a political challenge for Trump and Republicans ahead of the midterm election…",
+      "summary": "A new CNBC survey finds broad voter opposition to nearby AI data centers, creating a political challenge for Trump and Republicans ahead of the midterm election…",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/24/stock-picking-could-hurt-investors-warns-former-hedge-fund-manager.html",
+      "url": "https://www.cnbc.com/2026/10/24/stock-picking-could-hurt-investors-warns-former-hedge-fund-manager.html",
+      "title": "Retail investors are not more sophisticated than 30 years ago, says former hedge fund manager",
+      "content_text": "Retail investors trying to beat the market by buying individual stocks and complex exchange-traded funds may be better off with broad market index funds.",
+      "summary": "Retail investors trying to beat the market by buying individual stocks and complex exchange-traded funds may be better off with broad market index funds.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+      "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+      "title": "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
+      "content_text": "As Nvidia has gone from chipmaker to industry financier, some investors see the company taking on outsized risk tied to the AI buildout.",
+      "summary": "As Nvidia has gone from chipmaker to industry financier, some investors see the company taking on outsized risk tied to the AI buildout.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/make-it/2026/10/24/quit-marketing-job-walk-dogs.html",
+      "url": "https://www.cnbc.com/make-it/2026/10/24/quit-marketing-job-walk-dogs.html",
+      "title": "I quit my marketing job to walk dogs for 4 months: It's 'one of the most valuable professional experiences I've ever had'",
+      "content_text": "\"People sometimes assume dog walking was a gap or detour in my career. I see it as one of the most valuable professional experiences I've had,\" says Sally Simmo…",
+      "summary": "\"People sometimes assume dog walking was a gap or detour in my career. I see it as one of the most valuable professional experiences I've had,\" says Sally Simmo…",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/23/airfare-airline-capacity.html",
+      "url": "https://www.cnbc.com/2026/10/23/airfare-airline-capacity.html",
+      "title": "Fewer people are flying as airfare soars. Here's why airlines aren't worried",
+      "content_text": "Airlines are reporting fewer people flew in the third quarter as airfare surged on fuel costs, but executives say travelers are mostly swallowing higher fares.",
+      "summary": "Airlines are reporting fewer people flew in the third quarter as airfare surged on fuel costs, but executives say travelers are mostly swallowing higher fares.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/24/alaska-senate-doj-certification-lawsuit.html",
+      "url": "https://www.cnbc.com/2026/10/24/alaska-senate-doj-certification-lawsuit.html",
+      "title": "Democrats, voting-rights groups challenge Trump's bid to block Alaska Senate certification",
+      "content_text": "Lawsuits filed by candidate Mary Peltola and a voters' rights group challenge Trump's preemptive efforts to block a Democratic Senate victory in Alaska.",
+      "summary": "Lawsuits filed by candidate Mary Peltola and a voters' rights group challenge Trump's preemptive efforts to block a Democratic Senate victory in Alaska.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/24/berkshire-record-high-without-buffett.html",
+      "url": "https://www.cnbc.com/2026/10/24/berkshire-record-high-without-buffett.html",
+      "title": "Berkshire shares shake the Buffett blues with new all-time highs",
+      "content_text": "After almost 18 months, Berkshire Hathaway shares have entirely erased all the ground they lost in the wake of Warren Buffett's surprise announcement at the 202…",
+      "summary": "After almost 18 months, Berkshire Hathaway shares have entirely erased all the ground they lost in the wake of Warren Buffett's surprise announcement at the 202…",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/make-it/2026/10/24/sewing-workshop-business-stitch-lab-atx.html",
+      "url": "https://www.cnbc.com/make-it/2026/10/24/sewing-workshop-business-stitch-lab-atx.html",
+      "title": "An ex-bookkeeper spent $375 to launch a sewing business: 'I hadn't felt so sure about something like that in a long time'",
+      "content_text": "Eric Lugo runs Stitch Lab ATX, a sewing studio that offers group classes and events to teach basic sewing skills.",
+      "summary": "Eric Lugo runs Stitch Lab ATX, a sewing studio that offers group classes and events to teach basic sewing skills.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/24/amgen-imdelltra-lung-cancer-data.html",
+      "url": "https://www.cnbc.com/2026/10/24/amgen-imdelltra-lung-cancer-data.html",
+      "title": "Amgen says drug combo cuts risk of death by 58% in patients with aggressive lung cancer",
+      "content_text": "A drug from Amgen could give patients with an aggressive form of lung cancer significantly more time to live when added to an immunotherapy from AstraZeneca.",
+      "summary": "A drug from Amgen could give patients with an aggressive form of lung cancer significantly more time to live when added to an immunotherapy from AstraZeneca.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/24/iran-threats-us-embassies-middle-east.html",
+      "url": "https://www.cnbc.com/2026/10/24/iran-threats-us-embassies-middle-east.html",
+      "title": "American embassies tighten security as Iran threat warnings intensify ahead of U.S. midterm elections",
+      "content_text": "A memo from DNI director Jay Clayton said Iran is in the \"advanced stages\" of planning attacks against Americans.",
+      "summary": "A memo from DNI director Jay Clayton said Iran is in the \"advanced stages\" of planning attacks against Americans.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/23/america-by-the-numbers-how-voters-feel-about-the-economy-inflation-ai-and-trump.html",
+      "url": "https://www.cnbc.com/2026/10/23/america-by-the-numbers-how-voters-feel-about-the-economy-inflation-ai-and-trump.html",
+      "title": "America by the numbers: How voters feel about the economy, inflation, AI and Trump",
+      "content_text": "With the U.S. midterm elections looming, Americans are nearly as gloomy about the economy as they were when the nation was emerging from the pandemic.",
+      "summary": "With the U.S. midterm elections looming, Americans are nearly as gloomy about the economy as they were when the nation was emerging from the pandemic.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html",
+      "url": "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html",
+      "title": "After SpaceX restores high-speed service, Musk claims Ukraine violated Starlink agreement",
+      "content_text": "Ukraine says restrictions on Starlink and Starshield have been lifted, restoring connectivity to fast-moving military systems after disruptions.",
+      "summary": "Ukraine says restrictions on Starlink and Starshield have been lifted, restoring connectivity to fast-moving military systems after disruptions.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/investingclub/2026/10/24/ai-funding-fears-rattle-wall-street-heres-how-were-adjusting-our-portfolio.html",
+      "url": "https://www.cnbc.com/investingclub/2026/10/24/ai-funding-fears-rattle-wall-street-heres-how-were-adjusting-our-portfolio.html",
+      "title": "AI funding fears rattle Wall Street. Here's how we're adjusting our portfolio",
+      "content_text": "The rotation out of AI stocks benefited several defensive Club stocks.",
+      "summary": "The rotation out of AI stocks benefited several defensive Club stocks.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/23/trump-mortgage-executive-order-costs.html",
+      "url": "https://www.cnbc.com/2026/10/23/trump-mortgage-executive-order-costs.html",
+      "title": "Trump's executive order targets mortgage insurance, refinance costs. What it means for borrowers",
+      "content_text": "Trump's executive order on housing aims to lower mortgage costs. Here's what it means for homeowners and buyers.",
+      "summary": "Trump's executive order on housing aims to lower mortgage costs. Here's what it means for homeowners and buyers.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/23/alaska-senate-election-doj-lawsuit-sullivan.html",
+      "url": "https://www.cnbc.com/2026/10/23/alaska-senate-election-doj-lawsuit-sullivan.html",
+      "title": "Trump says he ordered DOJ suit to block Alaska Senate race certification if Republican loses",
+      "content_text": "There are two Dan Sullivans on the ballot in the Senate race in Alaska. The DOJ says that fact could help Democratic nominee Mary Peltola defeat both of them.",
+      "summary": "There are two Dan Sullivans on the ballot in the Senate race in Alaska. The DOJ says that fact could help Democratic nominee Mary Peltola defeat both of them.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/23/trump-tariffs-canada-susan-collins.html",
+      "url": "https://www.cnbc.com/2026/10/23/trump-tariffs-canada-susan-collins.html",
+      "title": "Trump dropping some Canada tariffs but 'replacing' them with other products",
+      "content_text": "Sen. Susan Collins announced Canada was dropping Canadian tariffs, but the White House later said it was \"replacing\" the ones removed from the list.",
+      "summary": "Sen. Susan Collins announced Canada was dropping Canadian tariffs, but the White House later said it was \"replacing\" the ones removed from the list.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/23/tiktok-us-compute-capacity.html",
+      "url": "https://www.cnbc.com/2026/10/23/tiktok-us-compute-capacity.html",
+      "title": "TikTok U.S. hunts for multiple gigawatts of computing capacity, sources tell CNBC",
+      "content_text": "The operator of the social media platform in the U.S. has sounded out opportunities to obtain capacity over the coming years.",
+      "summary": "The operator of the social media platform in the U.S. has sounded out opportunities to obtain capacity over the coming years.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/23/apple-iphone-duo-china-launch.html",
+      "url": "https://www.cnbc.com/2026/10/23/apple-iphone-duo-china-launch.html",
+      "title": "Scalpers offer Apple iPhone Duo buyers hundreds extra outside Beijing launch",
+      "content_text": "Apple's global launch of the foldable iPhone Duo brought scalpers to the Beijing flagship store looking to pay big for the already pricey devices.",
+      "summary": "Apple's global launch of the foldable iPhone Duo brought scalpers to the Beijing flagship store looking to pay big for the already pricey devices.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/23/cheniere-qatar-energy-lng-natural-gas-iran-war-strait-hormuz.html",
+      "url": "https://www.cnbc.com/2026/10/23/cheniere-qatar-energy-lng-natural-gas-iran-war-strait-hormuz.html",
+      "title": "Qatar deal to buy U.S. natural gas shows how Iran war has redrawn global energy markets",
+      "content_text": "The Iran war is transforming global energy markets and benefiting U.S. companies, especially liquefied natural gas exporters.",
+      "summary": "The Iran war is transforming global energy markets and benefiting U.S. companies, especially liquefied natural gas exporters.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/23/ukraine-says-starlink-restrictions-remain-despite-trump-assurances.html",
+      "url": "https://www.cnbc.com/2026/10/23/ukraine-says-starlink-restrictions-remain-despite-trump-assurances.html",
+      "title": "Musk's SpaceX is still restricting Starlink in Ukraine and the toll is rising",
+      "content_text": "Since last week, Ukraine has reported restrictions on Starshield, a version of SpaceX's Starlink, hampering its military operations against Russia.",
+      "summary": "Since last week, Ukraine has reported restrictions on Starshield, a version of SpaceX's Starlink, hampering its military operations against Russia.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html",
+      "url": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html",
+      "title": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
+      "content_text": "Moody's left its credit rating on France at Aa3, giving the country some relief in a week of unrest.",
+      "summary": "Moody's left its credit rating on France at Aa3, giving the country some relief in a week of unrest.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/23/meta-shares-rough-week-mike-khouw-is-buying.html",
+      "url": "https://www.cnbc.com/2026/10/23/meta-shares-rough-week-mike-khouw-is-buying.html",
+      "title": "Meta shares are down 9% this week. Here's why Mike Khouw is buying now",
+      "content_text": "Meta shares just had their worst week in four years. Here's why Mike Khouw is buying now",
+      "summary": "Meta shares just had their worst week in four years. Here's why Mike Khouw is buying now",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/23/ukraine-partners-with-nokia-and-iceye-for-starlink-alternative.html",
+      "url": "https://www.cnbc.com/2026/10/23/ukraine-partners-with-nokia-and-iceye-for-starlink-alternative.html",
+      "title": "In hunt for Starlink alternative, Ukraine partners with Nokia and satellite maker ICEYE",
+      "content_text": "With SpaceX imposing speed limits on Starlink in Ukraine and hampering military operations, Kyiv is looking for alternatives.",
+      "summary": "With SpaceX imposing speed limits on Starlink in Ukraine and hampering military operations, Kyiv is looking for alternatives.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/23/janeese-lewis-george-democratic-socialist-washington-dc-mayor.html",
+      "url": "https://www.cnbc.com/2026/10/23/janeese-lewis-george-democratic-socialist-washington-dc-mayor.html",
+      "title": "Democratic socialist set to become D.C. mayor — and face Trump's pushback",
+      "content_text": "Following Zohran Mamdani's election as New York City mayor, another democratic socialist is set to become mayor of Washington, D.C.",
+      "summary": "Following Zohran Mamdani's election as New York City mayor, another democratic socialist is set to become mayor of Washington, D.C.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/23/corruption-midterm-election-cnbc-poll-trump.html",
+      "url": "https://www.cnbc.com/2026/10/23/corruption-midterm-election-cnbc-poll-trump.html",
+      "title": "Corruption is voters' top issue ahead of midterm election, CNBC survey shows",
+      "content_text": "Democrats have worked to contrast economic hardship with President Trump's surging net worth and his family's lucrative business dealings.",
+      "summary": "Democrats have worked to contrast economic hardship with President Trump's surging net worth and his family's lucrative business dealings.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/23/php-vulnerabilities-ai-cybersecurity.html",
+      "url": "https://www.cnbc.com/2026/10/23/php-vulnerabilities-ai-cybersecurity.html",
+      "title": "AI's 'Black October': Critical PHP flaws set off global security scramble",
+      "content_text": "Governments and businesses around the globe are scrambling to contain the fallout after the PHP vulnerabilities leaked online.",
+      "summary": "Governments and businesses around the globe are scrambling to contain the fallout after the PHP vulnerabilities leaked online.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    }
+  ]
+}
