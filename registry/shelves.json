@@ -220,6 +220,19 @@
    ],
    "added": "2026-10-26",
    "issue": 29
+  },
+  {
+   "id": "feeds-npr-org",
+   "kind": "feed",
+   "url": "https://feeds.npr.org/510318/podcast.xml",
+   "source": "https://feeds.npr.org/510318/podcast.xml",
+   "name": "Up First from NPR",
+   "tags": [
+    "新闻",
+    "英语听力"
+   ],
+   "added": "2026-10-26",
+   "issue": 30
   }
  ]
 }
