@@ -238,7 +238,7 @@ def get_contents(cur):
     cur.execute("""SELECT c.id,c.content_key,c.title,c.language,c.kind,c.cover_url,c.external_published_at,
                 p.name program_name,p.directory_id,COALESCE(o.editorial_weight,0) editorial_weight,
                 COALESCE(o.hidden,false) hidden,o.cover_mode,o.cover_preset_id,o.editorial_note,
-                COALESCE((SELECT jsonb_agg(cm.slug ORDER BY cm.sort_order)
+                COALESCE((SELECT jsonb_agg(cm.slug ORDER BY cm.slug)
                  FROM ops.content_placements cp JOIN ops.channel_modules cm ON cm.id=cp.module_id
                  WHERE cp.content_id=c.id), '[]'::jsonb) placement_slugs,
                 COALESCE(SUM(m.opens),0) opens,COALESCE(SUM(m.saves),0) saves,COALESCE(SUM(m.likes),0) likes
@@ -380,9 +380,14 @@ def handle(payload, bearer, ip, env, now=None):
     except Reply as reply:
         return reply.status, reply.body()
     except Exception as exc:
-        # Database messages can expose SQL/table details; keep them in function logs only.
+        # Keep SQL details in the server log. The short database error code lets
+        # the maintainer distinguish an unapplied migration from an API failure.
         print("opsapi error:", type(exc).__name__, str(exc))
-        return 500, {"ok": False, "error": "server", "message": "运营服务暂时出错，请稍后再试", "message_en": "Operations service error"}
+        schema_hint = ""
+        name = type(exc).__name__
+        if name in {"UndefinedColumn", "UndefinedTable", "UndefinedFunction"}:
+            schema_hint = "（数据库结构尚未与运营后台同步，请执行迁移并确认 ops 表字段）"
+        return 500, {"ok": False, "error": "schema" if schema_hint else "server", "message": "运营服务暂时出错" + schema_hint, "message_en": "Operations service error"}
 
 
 def respond(h, env, method):
