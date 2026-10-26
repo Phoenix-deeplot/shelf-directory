@@ -233,6 +233,19 @@
    ],
    "added": "2026-10-26",
    "issue": 30
+  },
+  {
+   "id": "feeds-npr-org-2",
+   "kind": "feed",
+   "url": "https://feeds.npr.org/510298/podcast.xml",
+   "source": "https://feeds.npr.org/510298/podcast.xml",
+   "name": "TED Radio Hour",
+   "tags": [
+    "演讲",
+    "思考"
+   ],
+   "added": "2026-10-26",
+   "issue": 31
   }
  ]
 }
