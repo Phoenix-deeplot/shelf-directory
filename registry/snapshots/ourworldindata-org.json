@@ -2,6 +2,16 @@
  "id": "ourworldindata-org",
  "items": [
   {
+   "url": "https://ourworldindata.org/how-much-development-aid-is-spent-on-climate-change",
+   "title": "How much development aid is spent on climate change?",
+   "summary": "Around one-fifth of development aid is spent on climate-related projects. But what does climate-related mean, and does it crowd out other aid projects?<br><br><…",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://ourworldindata.org/when-do-people-experience-mental-health-conditions-for-the-first-time",
    "title": "When do people experience mental health conditions for the first time?",
    "summary": "Knowing when people are most at risk allows us to offer support when it might make the biggest difference.<br><br><a href=\"https://ourworldindata.org/when-do-pe…",
@@ -90,16 +100,6 @@
    "tags": [],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://ourworldindata.org/138-million-children-are-in-child-labor-what-does-this-actually-mean",
-   "title": "138 million children are in child labor. What does this actually mean?",
-   "summary": "According to a UN report published last year, there are 138 million children in child labor. In this article, we look at what this estimate exactly captures.<br…",
-   "image": "",
-   "date": "2026-08-10",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -108,6 +108,7 @@
   "home": "https://ourworldindata.org",
   "lang": "en",
   "license": "",
+  "image": "",
   "tags": []
  },
  "fails": 0,
@@ -115,6 +116,6 @@
  "parser": 2,
  "status": "ok",
  "error": "",
- "etag": "\"b36c3840cd11eaeb4b267c5aa8031da4\"",
+ "etag": "\"1ded4cfbbeb088e4baf567cd834342ca\"",
  "modified": ""
 }

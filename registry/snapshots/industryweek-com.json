@@ -280,6 +280,7 @@
   "home": "https://www.industryweek.com/",
   "lang": "en",
   "license": "",
+  "image": "",
   "tags": []
  },
  "fails": 0,
@@ -288,5 +289,5 @@
  "status": "ok",
  "error": "",
  "etag": "",
- "modified": "Sun, 25 Oct 2026 07:30:58 GMT"
+ "modified": "Mon, 26 Oct 2026 08:04:48 GMT"
 }

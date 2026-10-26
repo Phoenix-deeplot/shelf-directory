@@ -9,6 +9,34 @@
   },
   "items": [
     {
+      "id": "https://slate.com/life/2026/10/men-women-dating-app-boring.html?via=rss",
+      "url": "https://slate.com/life/2026/10/men-women-dating-app-boring.html?via=rss",
+      "title": "Women Are Clamoring for More Exciting, Vivacious Men. Well, I Met One. It Sucked.",
+      "content_text": "We’re constantly asking men to be more interesting and romantic. Maybe we shouldn’t.",
+      "summary": "We’re constantly asking men to be more interesting and romantic. Maybe we shouldn’t.",
+      "date_published": "2026-10-25T00:00:00Z",
+      "image": "https://compote.slate.com/images/edd87a19-e459-4a93-9b20-7f2f5e4e6a87.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Celebrities",
+        "Dating and Relationships",
+        "Movies",
+        "Relationships",
+        "Travel",
+        "Women",
+        "Rom-Coms",
+        "Men"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
       "id": "https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-nathan-fielder-documentary.html?via=rss",
       "url": "https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-nathan-fielder-documentary.html?via=rss",
       "title": "<em>You Can See Everything </em>Is the Year’s Most Twisted Romance",
@@ -51,31 +79,6 @@
         "Marriage",
         "YouTube",
         "Podcasts",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/advice/2026/10/sex-advice-improv-in-bed.html?via=rss",
-      "url": "https://slate.com/advice/2026/10/sex-advice-improv-in-bed.html?via=rss",
-      "title": "My Boyfriend Likes to Play Out Scenarios in Bed. Some of His Latest Ones Have Gotten a Little Personal.",
-      "content_text": "I'm not into this.",
-      "summary": "I'm not into this.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://compote.slate.com/images/5c7b739f-89cc-4ba2-af66-87c5c59396ea.gif?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "Advice",
-        "Dating and Relationships",
-        "Sex",
         "评论",
         "文化"
       ],

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/cad.xml</id>
+  <title>公共目录 · #CAD</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/cad.xml"/>
+  <updated>2026-10-26T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.woshipm.com/ai/6483986.html</id>
+    <title>月之暗面发布Kimi K3.1 Pro。这把超Astra了？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483986.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Kimi K3.1 Pro 建在 7 月发布的 K3 之后，通过后训练提升代码、3D 创作、金融、幻觉控制和网络安全能力。本文中的分数主要来自模型方公布的 Benchmark，个人案例只代表特定提示词和工具链下的结果，选型还得用自己的仓库复验。 Kimi K3.1 Pro 建立在 7 月发布的 K3 之后，通过后训练提…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="CAD"/>
+    <category term="Kimi"/>
+    <category term="月之暗面"/>
+    <category term="模型评测"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+</feed>

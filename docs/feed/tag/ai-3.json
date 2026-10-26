@@ -1,6 +1,6 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #AI应用",
+  "title": "公共目录 · #AI产品",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/ai-3.json",
   "description": "公共目录",
@@ -9,19 +9,19 @@
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/ai/6483437.html",
-      "url": "https://www.woshipm.com/ai/6483437.html",
-      "title": "靠 AI 赚钱的人，赚的到底是谁的钱",
-      "content_text": "拿「第一性原理」拆 AI 赛道：用户为产品付费、商家为效率付费、平台为流量付费、投资人为增长付费。作者逐个看钱是谁给的、为什么给、理由合不合理，判断哪些钱能长期赚，哪些只能赚一阵子。 前天分享了枯燥乏味的赚钱第一性原理，赚钱的第一性原理，是看懂钱怎么流动，今天拿这个方法来分析下，「靠 AI 赚钱的人，赚的到底是谁的钱」…",
-      "summary": "拿「第一性原理」拆 AI 赛道：用户为产品付费、商家为效率付费、平台为流量付费、投资人为增长付费。作者逐个看钱是谁给的、为什么给、理由合不合理，判断哪些钱能长期赚，哪些只能赚一阵子。 前天分享了枯燥乏味的赚钱第一性原理，赚钱的第一性原理，是看懂钱怎么流动，今天拿这个方法来分析下，「靠 AI 赚钱的人，赚的到底是谁的钱」…",
-      "date_published": "2026-10-25T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6484205.html",
+      "url": "https://www.woshipm.com/ai/6484205.html",
+      "title": "开源“印钞机”、每代降价90%，DeepSeek这几年那些「神播种」",
+      "content_text": "DeepSeek 把内部推理框架 DeepInfer 开源，号称自家的印钞机。从 MoE、MLA 到开源周、再到 DeepInfer，这条路线把缓存命中折扣压到 97%，每百万 token 的价格一路降了九成。 最近，DeepSeek又把一项核心的技术开源出来了，号称是 DeepSeek 的印钞机。 它就是10月20日…",
+      "summary": "DeepSeek 把内部推理框架 DeepInfer 开源，号称自家的印钞机。从 MoE、MLA 到开源周、再到 DeepInfer，这条路线把缓存命中折扣压到 97%，每百万 token 的价格一路降了九成。 最近，DeepSeek又把一项核心的技术开源出来了，号称是 DeepSeek 的印钞机。 它就是10月20日…",
+      "date_published": "2026-10-26T00:00:00Z",
       "tags": [
         "AI",
-        "个人随笔",
-        "AI应用",
-        "个人观点",
-        "商业模式",
-        "行业观察",
+        "AI产品",
+        "DeepInfer",
+        "DeepSeek",
+        "发展历史",
+        "开源项目",
         "产品",
         "运营"
       ],
@@ -36,21 +36,21 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/chuangye/6483396.html",
-      "url": "https://www.woshipm.com/chuangye/6483396.html",
-      "title": "花 499元给猫买个 AI 项圈，它居然开始每天给主人写日记",
-      "content_text": "PurrPurr 用 17.9 克的项圈，把猫的叫声、活动与休息变成第一人称日记，一天能生成八条动态。499 元硬件加订阅，卖的是情绪价值；数据够不够准、故事够不够真，决定新鲜感过后还有没有人续费。 今天分享的产品，很可爱： PurrPurr， https://www.purrpurr.cn/ 一只叫“小满”的英国短毛…",
-      "summary": "PurrPurr 用 17.9 克的项圈，把猫的叫声、活动与休息变成第一人称日记，一天能生成八条动态。499 元硬件加订阅，卖的是情绪价值；数据够不够准、故事够不够真，决定新鲜感过后还有没有人续费。 今天分享的产品，很可爱： PurrPurr， https://www.purrpurr.cn/ 一只叫“小满”的英国短毛…",
-      "date_published": "2026-10-24T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6484197.html",
+      "url": "https://www.woshipm.com/ai/6484197.html",
+      "title": "Personal AI，请先personal一点",
+      "content_text": "本文分享了作者实测 today.ai：授权日程与健康数据后它确实很快懂你，但频繁推送很快变成打扰。Personal AI 的壁垒不在读懂数据，而在被信任的循环，以及该主动时主动、该安静时安静的分寸。 01 today.ai：一下子懂我，之后呢？ 这周体验了today.ai。我授权了本地、日程和健康相关数据，它对我的刻画…",
+      "summary": "本文分享了作者实测 today.ai：授权日程与健康数据后它确实很快懂你，但频繁推送很快变成打扰。Personal AI 的壁垒不在读懂数据，而在被信任的循环，以及该主动时主动、该安静时安静的分寸。 01 today.ai：一下子懂我，之后呢？ 这周体验了today.ai。我授权了本地、日程和健康相关数据，它对我的刻画…",
+      "date_published": "2026-10-26T00:00:00Z",
       "tags": [
-        "创业学院",
-        "AI应用",
-        "商业模式",
-        "宠物经济",
-        "智能硬件",
+        "AI",
+        "个人随笔",
+        "AI产品",
+        "Personal AI",
+        "个人观点",
+        "产品策略",
         "产品",
-        "运营",
-        "商业"
+        "运营"
       ],
       "authors": [
         {

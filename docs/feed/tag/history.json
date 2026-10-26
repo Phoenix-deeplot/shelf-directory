@@ -9,6 +9,33 @@
   },
   "items": [
     {
+      "id": "https://slate.com/culture/2026/10/edgar-allan-poe-poems-stories-most-influential-american-writer-death-horror-detective.html?via=rss",
+      "url": "https://slate.com/culture/2026/10/edgar-allan-poe-poems-stories-most-influential-american-writer-death-horror-detective.html?via=rss",
+      "title": "One Literary Giant Is Rarely Associated With His Homeland. Make No Mistake: He’s the Most Influential American Writer of All.",
+      "content_text": "Not Mark Twain, not Herman Melville, not F. Scott Fitzgerald.",
+      "summary": "Not Mark Twain, not Herman Melville, not F. Scott Fitzgerald.",
+      "date_published": "2026-10-25T00:00:00Z",
+      "image": "https://compote.slate.com/images/c56283ac-f571-4c31-ad80-50bf487295ab.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Books",
+        "History",
+        "Slate Book Review",
+        "Horror",
+        "Mystery",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
       "id": "https://slate.com/life/2026/10/eris-drew-octo-octa-juliana-huxtable-mixes-transmission-dc.html?via=rss",
       "url": "https://slate.com/life/2026/10/eris-drew-octo-octa-juliana-huxtable-mixes-transmission-dc.html?via=rss",
       "title": "The GOP’s Attacks Against Them Have Been Relentless. They‘re Still Reshaping an Entire Industry in Their Image.",
@@ -180,28 +207,6 @@
       "content_text": "Some would call the United States of America the mightiest empire the world has ever known. Yet over the past half-century or so, it has shown a strange inabili…",
       "summary": "Some would call the United States of America the mightiest empire the world has ever known. Yet over the past half-century or so, it has shown a strange inabili…",
       "date_published": "2026-10-15T00:00:00Z",
-      "tags": [
-        "History",
-        "文化",
-        "免费资源"
-      ],
-      "authors": [
-        {
-          "name": "Open Culture"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "openculture-com"
-      }
-    },
-    {
-      "id": "https://www.openculture.com/2026/10/names-of-nearly-4-million-enslaved-people-in-former-british-colonies-are-searchable-online.html",
-      "url": "https://www.openculture.com/2026/10/names-of-nearly-4-million-enslaved-people-in-former-british-colonies-are-searchable-online.html",
-      "title": "The Names of Nearly 4 Million Enslaved People in Former British Colonies Are Now Searchable Online, Helping Descendants Find Lost Ancestors",
-      "content_text": "A few years ago, we featured here on Open Culture the Freedmen’s Bureau Project database, which contains searchable information on formerly enslaved people in t…",
-      "summary": "A few years ago, we featured here on Open Culture the Freedmen’s Bureau Project database, which contains searchable information on formerly enslaved people in t…",
-      "date_published": "2026-10-13T00:00:00Z",
       "tags": [
         "History",
         "文化",

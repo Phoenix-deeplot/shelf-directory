@@ -1,0 +1,39 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Books",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/books.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://slate.com/culture/2026/10/edgar-allan-poe-poems-stories-most-influential-american-writer-death-horror-detective.html?via=rss",
+      "url": "https://slate.com/culture/2026/10/edgar-allan-poe-poems-stories-most-influential-american-writer-death-horror-detective.html?via=rss",
+      "title": "One Literary Giant Is Rarely Associated With His Homeland. Make No Mistake: He’s the Most Influential American Writer of All.",
+      "content_text": "Not Mark Twain, not Herman Melville, not F. Scott Fitzgerald.",
+      "summary": "Not Mark Twain, not Herman Melville, not F. Scott Fitzgerald.",
+      "date_published": "2026-10-25T00:00:00Z",
+      "image": "https://compote.slate.com/images/c56283ac-f571-4c31-ad80-50bf487295ab.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Books",
+        "History",
+        "Slate Book Review",
+        "Horror",
+        "Mystery",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    }
+  ]
+}

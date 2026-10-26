@@ -1,0 +1,64 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Parenting",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/parenting.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://slate.com/advice/2026/10/parent-advice-child-care-in-laws-babysitting.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/parent-advice-child-care-in-laws-babysitting.html?via=rss",
+      "title": "My Mother-in-Law Has Been Secretly Harboring Resentment About the Way We Do Child Care. Now It’s All Come to Light.",
+      "content_text": "I had no idea.",
+      "summary": "I had no idea.",
+      "date_published": "2026-10-25T00:00:00Z",
+      "image": "https://compote.slate.com/images/82d85bc1-0212-4515-9aba-21df2d15d785.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Family",
+        "Kids",
+        "Parenting",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/parent-advice-wife-family-photos-online.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/parent-advice-wife-family-photos-online.html?via=rss",
+      "title": "My Wife Is Robbing Our Newborn of a Basic Right. She’ll Regret It When Our Daughter’s Older.",
+      "content_text": "This is not appropriate.",
+      "summary": "This is not appropriate.",
+      "date_published": "2026-10-24T00:00:00Z",
+      "image": "https://compote.slate.com/images/f5ffc936-d2f1-4443-91a5-d5b9a2d387aa.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Family",
+        "Kids",
+        "Parenting",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    }
+  ]
+}

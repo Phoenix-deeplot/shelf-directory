@@ -2,6 +2,122 @@
  "id": "slate-com",
  "items": [
   {
+   "url": "https://slate.com/life/2026/10/word-game-slate-pears-437-for-october-25-2026.html?via=rss",
+   "title": "Slate Pears Game 437: Oct. 25, 2026",
+   "summary": "Today's puzzle has eight pears.",
+   "image": "https://compote.slate.com/images/61d47363-da12-4f08-a295-7bf3f3f4f236.png",
+   "date": "2026-10-25",
+   "tags": [
+    "Slate Games",
+    "Pears"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://slate.com/advice/2026/10/big-size-sex-advice-toy-pump-penis.html?via=rss",
+   "title": "I Accidentally Super-Sized My Penis. It’s Awesome … and Terrifying.",
+   "summary": "It looks a little funny when it's flaccid.",
+   "image": "https://compote.slate.com/images/bb1e7de0-e46f-477c-b3e1-ef4a3b39db69.gif?crop=1560%2C1040%2Cx0%2Cy0",
+   "date": "2026-10-25",
+   "tags": [
+    "Advice",
+    "Sex"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://slate.com/life/2026/10/crossword-slate-daily-puzzle-oct-25-2026.html?via=rss",
+   "title": "Slate Crossword: DJUNGELSKOG Purveyor (Four Letters)",
+   "summary": "Ready for some wordplay? Sharpen your skills with Slate’s puzzle for Oct. 25, 2026.",
+   "image": "https://compote.slate.com/images/eb10aaaf-9466-419d-a6cd-d01f745ddbf8.jpeg?crop=3000%2C2000%2Cx0%2Cy0",
+   "date": "2026-10-25",
+   "tags": [
+    "Slate Games",
+    "Crossword"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://slate.com/life/2026/10/men-women-dating-app-boring.html?via=rss",
+   "title": "Women Are Clamoring for More Exciting, Vivacious Men. Well, I Met One. It Sucked.",
+   "summary": "We’re constantly asking men to be more interesting and romantic. Maybe we shouldn’t.",
+   "image": "https://compote.slate.com/images/edd87a19-e459-4a93-9b20-7f2f5e4e6a87.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+   "date": "2026-10-25",
+   "tags": [
+    "Celebrities",
+    "Dating and Relationships",
+    "Movies",
+    "Relationships",
+    "Travel",
+    "Women",
+    "Rom-Coms",
+    "Men"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://slate.com/advice/2026/10/parent-advice-child-care-in-laws-babysitting.html?via=rss",
+   "title": "My Mother-in-Law Has Been Secretly Harboring Resentment About the Way We Do Child Care. Now It’s All Come to Light.",
+   "summary": "I had no idea.",
+   "image": "https://compote.slate.com/images/82d85bc1-0212-4515-9aba-21df2d15d785.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+   "date": "2026-10-25",
+   "tags": [
+    "Advice",
+    "Family",
+    "Kids",
+    "Parenting"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-25-2026.html?via=rss",
+   "title": "Slate Mini Crossword for Oct. 25, 2026",
+   "summary": "Take a quick break with our daily 5x5 grid.",
+   "image": "https://compote.slate.com/images/9ba6a7ed-df0c-4a7d-a4bb-9937e0937dfc.jpeg",
+   "date": "2026-10-25",
+   "tags": [
+    "Mini Crossword",
+    "Slate Games"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://slate.com/technology/2026/10/openai-hugging-face-ai-agent-crime.html?via=rss",
+   "title": "A New Kind of Crime Is Emerging. The Justice System Doesn’t Know Whom to Blame.",
+   "summary": "The justice system is in dire need of a software update.",
+   "image": "https://compote.slate.com/images/9ff3ed33-ef38-4f67-9f0d-0bb8516aa423.jpeg?crop=1206%2C804%2Cx354%2Cy50",
+   "date": "2026-10-25",
+   "tags": [
+    "Artificial Intelligence",
+    "Crime",
+    "Criminal Justice"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://slate.com/culture/2026/10/edgar-allan-poe-poems-stories-most-influential-american-writer-death-horror-detective.html?via=rss",
+   "title": "One Literary Giant Is Rarely Associated With His Homeland. Make No Mistake: He’s the Most Influential American Writer of All.",
+   "summary": "Not Mark Twain, not Herman Melville, not F. Scott Fitzgerald.",
+   "image": "https://compote.slate.com/images/c56283ac-f571-4c31-ad80-50bf487295ab.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+   "date": "2026-10-25",
+   "tags": [
+    "Books",
+    "History",
+    "Slate Book Review",
+    "Horror",
+    "Mystery"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://slate.com/advice/2026/10/parenting-advice-offensive-costume-ex.html?via=rss",
    "title": "My Ex Is Encouraging My 12-Year-Old to Wear an Offensive Halloween Costume",
    "summary": "He won't listen to reason.",
@@ -235,7 +351,7 @@
    "url": "https://slate.com/news-and-politics/2026/10/2026-midterm-news-doj-alaska-trump-fraud.html?via=rss",
    "title": "The DOJ Just Telegraphed Trump’s Biggest Election Target",
    "summary": "Baked Alaska.",
-   "image": "https://compote.slate.com/images/f03c5c04-1b1c-47ca-b4c7-7b43febe7c71.jpeg?crop=5471%2C3648%2Cx1%2Cy0",
+   "image": "https://compote.slate.com/images/f03c5c04-1b1c-47ca-b4c7-7b43febe7c71.jpeg?crop=4395%2C2930%2Cx692%2Cy0",
    "date": "2026-10-23",
    "tags": [
     "Department of Justice",
@@ -248,114 +364,6 @@
    ],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://slate.com/advice/2026/10/parenting-advice-unsafe-son-in-law.html?via=rss",
-   "title": "I Picked My Grandson Up When My Son-in-Law Was a No-Show. What We Saw When We Got Home Haunts Me.",
-   "summary": "I'm so worried.",
-   "image": "https://compote.slate.com/images/e1a66d14-1a2c-4067-be33-cbf5127a4aaa.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-   "date": "2026-10-23",
-   "tags": [
-    "Advice",
-    "Family",
-    "Kids"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://slate.com/podcasts/what-next/2026/10/what-next-news-live-reveal-on-the-media?via=rss",
-   "title": "Plus: How We Survive the News",
-   "summary": "Our lives are election deniers, Pentagon influencers, and non-stop Trump.",
-   "image": "https://compote.slate.com/images/fbfe64a2-0a4f-4ab7-bfc9-2634dbbe8b69.jpeg",
-   "date": "2026-10-23",
-   "tags": [
-    "Journalism",
-    "Media"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://slate.com/advice/2026/10/parenting-advice-daughter-self-esteem-solution.html?via=rss",
-   "title": "Our Daughter Thinks She’s Ugly. My Husband’s “Solution” Is Going to Make It Worse.",
-   "summary": "I won't let this happen.",
-   "image": "https://compote.slate.com/images/e980a6e6-45b3-48f9-8c79-5b75bc804e9a.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-   "date": "2026-10-23",
-   "tags": [
-    "Advice",
-    "Family",
-    "Kids"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://slate.com/advice/2026/10/sex-advice-improv-in-bed.html?via=rss",
-   "title": "My Boyfriend Likes to Play Out Scenarios in Bed. Some of His Latest Ones Have Gotten a Little Personal.",
-   "summary": "I'm not into this.",
-   "image": "https://compote.slate.com/images/5c7b739f-89cc-4ba2-af66-87c5c59396ea.gif?crop=1560%2C1040%2Cx0%2Cy0",
-   "date": "2026-10-23",
-   "tags": [
-    "Advice",
-    "Dating and Relationships",
-    "Sex"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://slate.com/life/2026/10/word-game-slate-pears-435-for-october-23-2026.html?via=rss",
-   "title": "Slate Pears Game 435: Oct. 23, 2026",
-   "summary": "Today's puzzle has eight pears.",
-   "image": "https://compote.slate.com/images/61d47363-da12-4f08-a295-7bf3f3f4f236.png",
-   "date": "2026-10-23",
-   "tags": [
-    "Slate Games",
-    "Pears"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://slate.com/life/2026/10/crossword-slate-daily-puzzle-oct-23-2026.html?via=rss",
-   "title": "Slate Crossword: Where Slop Is Rampant (Three Letters)",
-   "summary": "Ready for some wordplay? Sharpen your skills with Slate’s puzzle for Oct. 23, 2026.",
-   "image": "https://compote.slate.com/images/d1794f92-6b9e-4b07-ba5d-e2d05cede6c0.jpeg?crop=3000%2C2000%2Cx0%2Cy0",
-   "date": "2026-10-23",
-   "tags": [
-    "Slate Games",
-    "Crossword"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://slate.com/advice/2026/10/neighbor-advice-halloween-decorations-scary.html?via=rss",
-   "title": "A Woman in Our Neighborhood Claims There’s One Decoration “Too Scary” for Her Child",
-   "summary": "Prudie replies to readers’ comments and suggestions.",
-   "image": "https://compote.slate.com/images/0a554c7e-0db4-473e-a2b1-b71945fa2f90.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-   "date": "2026-10-23",
-   "tags": [
-    "Advice",
-    "Dear Prudence"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://slate.com/advice/2026/10/money-advice.html?via=rss",
-   "title": "I’m Getting Something Many Divorced People Would Be So Happy With. I Don’t Want It!",
-   "summary": "What a mess.",
-   "image": "https://compote.slate.com/images/36d92480-88ac-47bc-9e37-73ad4fd363b5.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-   "date": "2026-10-23",
-   "tags": [
-    "Advice",
-    "Family",
-    "Personal Finance"
-   ],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -364,6 +372,7 @@
   "home": "https://slate.com/",
   "lang": "en",
   "license": "",
+  "image": "",
   "tags": []
  },
  "fails": 0,
@@ -371,6 +380,6 @@
  "parser": 2,
  "status": "ok",
  "error": "",
- "etag": "W/\"6c81-dHLObY7gJfcjCdShsZweCMQaLhU\"",
+ "etag": "W/\"6f3e-lelTfRJ2r0lwANVLSqtzMp3cuU8\"",
  "modified": ""
 }

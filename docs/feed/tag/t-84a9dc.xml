@@ -4,140 +4,158 @@
   <title>公共目录 · #个人随笔</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-84a9dc.xml"/>
-  <updated>2026-10-25T00:00:00Z</updated>
+  <updated>2026-10-26T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6483437.html</id>
-    <title>靠 AI 赚钱的人，赚的到底是谁的钱</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483437.html"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">拿「第一性原理」拆 AI 赛道：用户为产品付费、商家为效率付费、平台为流量付费、投资人为增长付费。作者逐个看钱是谁给的、为什么给、理由合不合理，判断哪些钱能长期赚，哪些只能赚一阵子。 前天分享了枯燥乏味的赚钱第一性原理，赚钱的第一性原理，是看懂钱怎么流动，今天拿这个方法来分析下，「靠 AI 赚钱的人，赚的到底是谁的钱」…</summary>
+    <id>https://www.woshipm.com/ai/6484157.html</id>
+    <title>设计师与产品经理的消费路径：从被动遵守到主动走查</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484157.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">设计意图如何从一句模糊的“这个报错不对”变成机器可执行的规则？本文深入解析YAML契约与编译管线，揭示设计师如何通过6字段快照将直觉转化为证据，并借助自动同步的Checklist实现规则的外置记忆。从语义快照到契约编译，再到多角色消费，一条让规则自动抵达设计现场的路径清晰浮现。 开篇：从”生产设计稿”到”消费规则产物”…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI应用"/>
-    <category term="个人观点"/>
-    <category term="商业模式"/>
-    <category term="行业观察"/>
-    <category term="产品"/>
-    <category term="运营"/>
+    <category term="Checklist"/>
+    <category term="YAML契约"/>
+    <category term="编译管线"/>
+    <category term="设计系统"/>
+    <category term="设计走查"/>
+    <category term="语义快照"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6483815.html</id>
-    <title>逐渐被淘汰的AI产品设计与交互</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483815.html"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">AI模型能力飞速跃迁，产品设计正经历一场静默革命。复杂Prompt、独立功能入口、纯聊天交互等曾被视为标配的设计，正被Agent化、多模态与主动执行的新范式取代。本文深度剖析5种正在被淘汰的设计思路，揭示其背后的逻辑变迁，并为AI产品经理指明从“弥补模型缺陷”转向“解决用户长期需求”的迭代方向。 从2024到2026…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="Agent"/>
-    <category term="AI产品"/>
-    <category term="人机交互"/>
-    <category term="多模态"/>
-    <category term="行业观察"/>
-    <category term="产品"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6479455.html</id>
-    <title>KOL 品牌大使合作保姆级流程</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6479455.html"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">单次KOL合作只能赚短期曝光，而品牌大使的长期绑定，能更好地实现口碑沉淀与持续转化。很多人第一次谈海外品牌大使合作都会陷入迷茫：品牌该掏什么、做什么，KOL又要配合哪些事？ 单次KOL合作只能赚短期曝光，而品牌大使的长期绑定，能更好的实现口碑沉淀、持续转化。 但很多人第一次谈海外品牌大使合作，都会陷入迷茫：品牌该掏什么…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="KOL"/>
-    <category term="内容营销"/>
-    <category term="品牌营销"/>
-    <category term="海外营销"/>
-    <category term="红人营销"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6483874.html</id>
-    <title>AI短剧公司几乎不要基础岗，老干妈用AI把600人裁到48人，国办发文，AI赢，不能让劳动者输</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483874.html"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">AI短剧公司把几十人的剧组压到三五人；老干妈视觉分拣后，600名挑辣椒工只剩48人。省下的钱没变成新岗位，反而流向了平台流量竞价。国办新文件划下边界：机器可以上岗，但劳动者不能被甩下。 AI短剧公司几乎不要基础岗上了微博热搜。 一网友感叹去朋友的短剧公司参观，回来发感受称，公司前几年还是小作坊，今年被大集团收了，搬进一…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI短剧"/>
-    <category term="案例分析"/>
-    <category term="消费降级"/>
-    <category term="行业观察"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6483703.html</id>
-    <title>微信观察：微信公众号推出“不喜欢”作者文章功能</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6483703.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">微信公众号文章页右下角新增「不喜欢」按钮，可选我不想看、此账号内容，还能同时勾选标题误导、内容低质、AI低质创作。这个新功能背后，明显指向两个方向：盘活流量与满足需求。 日前，微信在新版本中针对微信公众号又做出了新的调整，即文章页的右下角支持“不喜欢”作者文章功能，当用户浏览文章到最下面时，右下角就会出现“不喜欢”按钮…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="产品分析"/>
-    <category term="微信"/>
-    <category term="行业动态"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6484007.html</id>
-    <title>别把响应式布局当作多端适配：HarmonyOS 7「一多」的工程落点与检查清单#1024鸿蒙实战共创#</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484007.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">刚做多设备适配时，最容易犯的错是：把手机页面拉宽，然后宣布平板适配完成。实际把同一个应用放到手机、折叠屏、平板和更大屏幕上，问题往往不是“控件能不能铺开”，而是用户在不同设备上的任务是否仍然顺手。 HarmonyOS 的一次开发、多端部署，价值也不应只用“少维护几套页面”来衡量。对产品经理和工程团队而言，更值得关注的是…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="鸿蒙"/>
-    <category term="响应式布局"/>
-    <category term="鸿蒙系统"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6483690.html</id>
-    <title>WorkBuddy干活变慢还费token，一招教你瘦身加速</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483690.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">WorkBuddy 用久了变慢还费 token，老马说这是 Skill、MCP 和记忆规则越滚越大，每轮对话都塞进上下文。他给出按报告瘦身的办法：关技能、关连接器、蒸馏记忆文件。 经常有小伙伴跟老马反馈，WorkBuddy一开始安装完使用的时候，还算蛮快的，后面使用了一段时间，发现干活速度变慢了，还特别消耗token，…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI产品"/>
-    <category term="WorkBuddy"/>
-    <category term="经验分享"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6479433.html</id>
-    <title>AI让市场调研效率提升300%</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6479433.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">一份完整调研从需求落地到出具洞察报告，少则7天，多则半个月甚至更久，耗时耗力耗钱。AI的入局直接把调研效率拉到新高度，整体效率提升不止300%，成本砍掉60%，洞察精准度翻倍。 一份完整调研从需求落地到出具洞察报告，少则7天，多则半个月，甚至更久，耗时、耗力、耗钱。AI的入局，直接把调研效率拉到新高度——整体效率提升不…</summary>
+    <id>https://www.woshipm.com/ai/6483433.html</id>
+    <title>用 AI 做自媒体，完整流程应该怎么做？附技能包</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483433.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">上一套开源的自媒体 skill 流程，这里给到完整操作路径：装技能、做账号定位、拆对标、出选题、写稿、诊断成稿。不用会编程，Codex、豆包工作之类的工具装上就能跑，文末是技能包地址。 上一篇不是开源了一套 skill 吗，现在用了一段时间，基本没什么问题了。 整套流程，不用你会编程，只要下载一个装技能的 AI 工具就…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
     <category term="AI工具"/>
-    <category term="市场洞察"/>
-    <category term="市场调研"/>
-    <category term="提示词"/>
-    <category term="竞品分析"/>
+    <category term="AI应用"/>
+    <category term="内容创作"/>
+    <category term="自媒体"/>
     <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6484229.html</id>
+    <title>月入过亿的 Tipsy 与 PolyBuzz 海外突发下架，AI 擦边陪伴或撞上苹果红线</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484229.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">作业帮旗下 PolyBuzz 与 Tipsy Chat 接连从海外 App Store 消失，两款产品都做成人化角色扮演。它们是中国 AI 陪伴出海少数跑出规模化收入的产品，这次或撞上苹果审核红线。 两款由国内团队开发的 AI 陪伴应用 PolyBuzz 和 Tipsy Chat 近期接连遭遇海外 iOS 下架风波。…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI应用"/>
+    <category term="案例分析"/>
+    <category term="行业动态"/>
+    <category term="跨境电商"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6483986.html</id>
+    <title>月之暗面发布Kimi K3.1 Pro。这把超Astra了？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483986.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Kimi K3.1 Pro 建在 7 月发布的 K3 之后，通过后训练提升代码、3D 创作、金融、幻觉控制和网络安全能力。本文中的分数主要来自模型方公布的 Benchmark，个人案例只代表特定提示词和工具链下的结果，选型还得用自己的仓库复验。 Kimi K3.1 Pro 建立在 7 月发布的 K3 之后，通过后训练提…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="CAD"/>
+    <category term="Kimi"/>
+    <category term="月之暗面"/>
+    <category term="模型评测"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6484203.html</id>
+    <title>搜狗大改版，腾讯新一代AI搜索引擎，来了</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484203.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">搜狗把首页改成一个 logo 加一个输入框，输入框内可直接跳转 AI 模式，答案与参考资料左右分栏。老牌搜索引擎这次不是加个问答按钮，传统网页入口被降级，重心压到元宝搜索上。 最近，搜索领域热闹了起来。 先是 DeepSeek 开放自研的搜索 API，揭开 AI 搜索争夺的序幕。 DeepSeek 开放了 2 个接口，…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="AI搜索"/>
+    <category term="元宝"/>
+    <category term="功能分析"/>
+    <category term="搜狗"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6483994.html</id>
+    <title>实体生意、实体店获客方法</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6483994.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">你的生意要是缺客户，就是不懂这个方法。作者讲买客思维：先给价值再有回报，设计一个低成本、高价值、高吸引力的获客钩子，用异业合作和体验券把客户引过来。前端不赚钱，赚的是后端复购、转介绍和裂变带来的钱。 你的生意要是缺客户，就是不懂这个方法，今天分享一个买客思维，让你能够持续获客。 买客思维是什么意思呢？ 就是先要有付出才…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="实体店"/>
+    <category term="用户运营"/>
+    <category term="私域运营"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6483956.html</id>
+    <title>信贷资方对接</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6483956.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">资方对接远不止是完成商户入驻，而是需要打通从放款到还款的端到端支付链路。本文从支付公司视角，拆解资方对接中的7个关键结构化要求，包括主体关系、资金出资、链路交互、合规检查、资金池管理、自动入账和凭证要求，帮助产品经理系统理解金融场景下的支付解决方案设计。 资方就是出资金的金融机构，有银行，消费金融公司，信托公司等。 从…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="产品分析"/>
+    <category term="信贷业务"/>
+    <category term="合规要求"/>
+    <category term="支付链路"/>
+    <category term="资方对接"/>
+    <category term="资金管理"/>
+    <category term="产品"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6484225.html</id>
+    <title>vLLM 反超 DeepSeek 专用引擎，大模型本地部署首选依然没变！</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484225.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">DeepInfer 开源后不少人担心通用推理引擎会被边缘化。SGLang 与 vLLM 几乎同时拿出相同基准的测试：在 DeepSeek V4.1 Flash 上，Prefill 吞吐与单步生成耗时追平甚至反超。 前些天 DeepSeek 放出了 DeepSeek V4.1 Flash 1017 ，把性价比发挥到极致…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="DeepInfer"/>
+    <category term="DeepSeek"/>
+    <category term="技术原理"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6484197.html</id>
+    <title>Personal AI，请先personal一点</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484197.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">本文分享了作者实测 today.ai：授权日程与健康数据后它确实很快懂你，但频繁推送很快变成打扰。Personal AI 的壁垒不在读懂数据，而在被信任的循环，以及该主动时主动、该安静时安静的分寸。 01 today.ai：一下子懂我，之后呢？ 这周体验了today.ai。我授权了本地、日程和健康相关数据，它对我的刻画…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI产品"/>
+    <category term="Personal AI"/>
+    <category term="个人观点"/>
+    <category term="产品策略"/>
+    <category term="产品"/>
+    <category term="运营"/>
   </entry>
 </feed>

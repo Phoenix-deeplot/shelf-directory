@@ -1,0 +1,39 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Checklist",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/checklist.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.woshipm.com/ai/6484157.html",
+      "url": "https://www.woshipm.com/ai/6484157.html",
+      "title": "设计师与产品经理的消费路径：从被动遵守到主动走查",
+      "content_text": "设计意图如何从一句模糊的“这个报错不对”变成机器可执行的规则？本文深入解析YAML契约与编译管线，揭示设计师如何通过6字段快照将直觉转化为证据，并借助自动同步的Checklist实现规则的外置记忆。从语义快照到契约编译，再到多角色消费，一条让规则自动抵达设计现场的路径清晰浮现。 开篇：从”生产设计稿”到”消费规则产物”…",
+      "summary": "设计意图如何从一句模糊的“这个报错不对”变成机器可执行的规则？本文深入解析YAML契约与编译管线，揭示设计师如何通过6字段快照将直觉转化为证据，并借助自动同步的Checklist实现规则的外置记忆。从语义快照到契约编译，再到多角色消费，一条让规则自动抵达设计现场的路径清晰浮现。 开篇：从”生产设计稿”到”消费规则产物”…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "Checklist",
+        "YAML契约",
+        "编译管线",
+        "设计系统",
+        "设计走查",
+        "语义快照"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    }
+  ]
+}

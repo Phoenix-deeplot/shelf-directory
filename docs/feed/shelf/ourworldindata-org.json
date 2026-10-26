@@ -9,6 +9,27 @@
   },
   "items": [
     {
+      "id": "https://ourworldindata.org/how-much-development-aid-is-spent-on-climate-change",
+      "url": "https://ourworldindata.org/how-much-development-aid-is-spent-on-climate-change",
+      "title": "How much development aid is spent on climate change?",
+      "content_text": "Around one-fifth of development aid is spent on climate-related projects. But what does climate-related mean, and does it crowd out other aid projects?<br><br><…",
+      "summary": "Around one-fifth of development aid is spent on climate-related projects. But what does climate-related mean, and does it crowd out other aid projects?<br><br><…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "数据",
+        "经济"
+      ],
+      "authors": [
+        {
+          "name": "Our World in Data"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "ourworldindata-org"
+      }
+    },
+    {
       "id": "https://ourworldindata.org/when-do-people-experience-mental-health-conditions-for-the-first-time",
       "url": "https://ourworldindata.org/when-do-people-experience-mental-health-conditions-for-the-first-time",
       "title": "When do people experience mental health conditions for the first time?",
@@ -183,27 +204,6 @@
       "content_text": "Falling fertility rates have created a unique scenario in human history: many countries are experiencing structural population decline.<br><br><a href=\"https://…",
       "summary": "Falling fertility rates have created a unique scenario in human history: many countries are experiencing structural population decline.<br><br><a href=\"https://…",
       "date_published": "2026-08-17T00:00:00Z",
-      "tags": [
-        "数据",
-        "经济"
-      ],
-      "authors": [
-        {
-          "name": "Our World in Data"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "ourworldindata-org"
-      }
-    },
-    {
-      "id": "https://ourworldindata.org/138-million-children-are-in-child-labor-what-does-this-actually-mean",
-      "url": "https://ourworldindata.org/138-million-children-are-in-child-labor-what-does-this-actually-mean",
-      "title": "138 million children are in child labor. What does this actually mean?",
-      "content_text": "According to a UN report published last year, there are 138 million children in child labor. In this article, we look at what this estimate exactly captures.<br…",
-      "summary": "According to a UN report published last year, there are 138 million children in child labor. In this article, we look at what this estimate exactly captures.<br…",
-      "date_published": "2026-08-10T00:00:00Z",
       "tags": [
         "数据",
         "经济"

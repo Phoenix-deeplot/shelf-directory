@@ -1,41 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/ai-2.xml</id>
-  <title>公共目录 · #AI产品</title>
+  <title>公共目录 · #AI应用</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/ai-2.xml"/>
-  <updated>2026-10-25T00:00:00Z</updated>
+  <updated>2026-10-26T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6483815.html</id>
-    <title>逐渐被淘汰的AI产品设计与交互</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483815.html"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">AI模型能力飞速跃迁，产品设计正经历一场静默革命。复杂Prompt、独立功能入口、纯聊天交互等曾被视为标配的设计，正被Agent化、多模态与主动执行的新范式取代。本文深度剖析5种正在被淘汰的设计思路，揭示其背后的逻辑变迁，并为AI产品经理指明从“弥补模型缺陷”转向“解决用户长期需求”的迭代方向。 从2024到2026…</summary>
+    <id>https://www.woshipm.com/ai/6483433.html</id>
+    <title>用 AI 做自媒体，完整流程应该怎么做？附技能包</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483433.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">上一套开源的自媒体 skill 流程，这里给到完整操作路径：装技能、做账号定位、拆对标、出选题、写稿、诊断成稿。不用会编程，Codex、豆包工作之类的工具装上就能跑，文末是技能包地址。 上一篇不是开源了一套 skill 吗，现在用了一段时间，基本没什么问题了。 整套流程，不用你会编程，只要下载一个装技能的 AI 工具就…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="Agent"/>
-    <category term="AI产品"/>
-    <category term="人机交互"/>
-    <category term="多模态"/>
-    <category term="行业观察"/>
+    <category term="AI工具"/>
+    <category term="AI应用"/>
+    <category term="内容创作"/>
+    <category term="自媒体"/>
     <category term="产品"/>
+    <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6483690.html</id>
-    <title>WorkBuddy干活变慢还费token，一招教你瘦身加速</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483690.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">WorkBuddy 用久了变慢还费 token，老马说这是 Skill、MCP 和记忆规则越滚越大，每轮对话都塞进上下文。他给出按报告瘦身的办法：关技能、关连接器、蒸馏记忆文件。 经常有小伙伴跟老马反馈，WorkBuddy一开始安装完使用的时候，还算蛮快的，后面使用了一段时间，发现干活速度变慢了，还特别消耗token，…</summary>
+    <id>https://www.woshipm.com/ai/6484229.html</id>
+    <title>月入过亿的 Tipsy 与 PolyBuzz 海外突发下架，AI 擦边陪伴或撞上苹果红线</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484229.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">作业帮旗下 PolyBuzz 与 Tipsy Chat 接连从海外 App Store 消失，两款产品都做成人化角色扮演。它们是中国 AI 陪伴出海少数跑出规模化收入的产品，这次或撞上苹果审核红线。 两款由国内团队开发的 AI 陪伴应用 PolyBuzz 和 Tipsy Chat 近期接连遭遇海外 iOS 下架风波。…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI产品"/>
-    <category term="WorkBuddy"/>
-    <category term="经验分享"/>
+    <category term="AI应用"/>
+    <category term="案例分析"/>
+    <category term="行业动态"/>
+    <category term="跨境电商"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/it/6483988.html</id>
+    <title>为什么 OpenAI 和 Anthropic 都在抢着进入这个领域？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6483988.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">你有没有想过，为什么最近几乎每个星期都有 AI 公司宣布要做生物科技？age1 联合创始人 Alex Colville 把这件事拆成三层：它们为什么来、能帮上什么、会卡在哪里。结论很朴素——AI 让想出来变便宜，却没让证明出来变便宜。 你有没有想过，为什么最近几乎每个星期，都有一家 AI 公司宣布自己要做生物科技？ 英…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="业界动态"/>
+    <category term="AI应用"/>
+    <category term="Anthropic"/>
+    <category term="OpenAI"/>
+    <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>

@@ -9,6 +9,32 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/story/we-linked-150-ikea-speakers-to-make-a-wall-of-sound/",
+      "url": "https://www.wired.com/story/we-linked-150-ikea-speakers-to-make-a-wall-of-sound/",
+      "title": "We Linked 150 of Ikea’s $10 Speakers to Make a Wall of Sound",
+      "content_text": "WIRED attempts what even the Swedish brand hasn’t: making a sonic monolith using scores of the cheapest Bluetooth speakers on the market. Can you have too much…",
+      "summary": "WIRED attempts what even the Swedish brand hasn’t: making a sonic monolith using scores of the cheapest Bluetooth speakers on the market. Can you have too much…",
+      "date_published": "2026-10-25T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adbbf9958a88c588ff834c3/master/pass/Ikea%20Kallsup%20SOURCE%20Jeremy%20White-resized.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Gear News and Events",
+        "Gear / Products / Speakers",
+        "Small Wonders",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/review/ray-ban-meta-audio/",
       "url": "https://www.wired.com/review/ray-ban-meta-audio/",
       "title": "Ray-Ban Meta Audio Review: The Best Smart Glasses",
@@ -88,32 +114,6 @@
       }
     },
     {
-      "id": "https://www.wired.com/story/goldmund-preamp-costs-more-than-a-sports-car/",
-      "url": "https://www.wired.com/story/goldmund-preamp-costs-more-than-a-sports-car/",
-      "title": "This Preamp Costs More Than a Fancy Sports Car",
-      "content_text": "Goldmund’s $240,000 Mimesis Statement is an exercise in extreme Swiss sound engineering—and only one part of a $1.5 million audio setup.",
-      "summary": "Goldmund’s $240,000 Mimesis Statement is an exercise in extreme Swiss sound engineering—and only one part of a $1.5 million audio setup.",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad8a5e5a9fa5fe98ee99914/master/pass/Mimesis%20Statement%20_%20Telos%209800%20_%20Theia%20Passive%20SOURCE%20Simon%20Lucas.jpeg",
-      "tags": [
-        "Gear",
-        "Gear / Gear News and Events",
-        "Gear / Products / Audio",
-        "Sonic Opulence",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
       "id": "https://www.wired.com/story/google-home-speaker-bug-oct-2026/",
       "url": "https://www.wired.com/story/google-home-speaker-bug-oct-2026/",
       "title": "The Google Home Speaker Has Been Secretly Eating My Wi-Fi Data",
@@ -178,32 +178,6 @@
         "Gear / Products / Computers",
         "Gear / Products / Phones",
         "Field Test",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/bose-acquires-skullcandy-october-2026/",
-      "url": "https://www.wired.com/story/bose-acquires-skullcandy-october-2026/",
-      "title": "Bose Is Buying Skullcandy. It’s Not as Weird as It Sounds",
-      "content_text": "By keeping Skullcandy in Park City, Utah, Bose is betting that skate cred and budget pricing will reach listeners it’s been missing.",
-      "summary": "By keeping Skullcandy in Park City, Utah, Bose is betting that skate cred and budget pricing will reach listeners it’s been missing.",
-      "date_published": "2026-10-21T00:00:00Z",
-      "image": "https://media.wired.com/photos/6a560635c946b09bdcf9a518/master/pass/Skullcandy_Crusher_1080_ANC_Cement_S6CNW-U993_Press_Images_3840%20(1).jpg",
-      "tags": [
-        "Gear",
-        "Gear / Gear News and Events",
-        "Gear / Products / Headphones",
-        "Sweet Sound",
         "科技",
         "社会"
       ],

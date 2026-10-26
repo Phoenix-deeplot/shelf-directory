@@ -135,6 +135,7 @@
   "home": "https://www.eater.com",
   "lang": "en",
   "license": "",
+  "image": "https://platform.eater.com/wp-content/uploads/sites/2/2025/06/images.png?w=150&h=150&crop=1",
   "tags": []
  },
  "fails": 0,
@@ -142,6 +143,6 @@
  "parser": 2,
  "status": "ok",
  "error": "",
- "etag": "\"16088d5be486bd592c0893df8191d6f9\"",
+ "etag": "\"08277451d3821b99412bd1bf19056dbb\"",
  "modified": ""
 }

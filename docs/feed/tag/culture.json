@@ -32,31 +32,6 @@
         "type": "article",
         "shelf": "wired-com"
       }
-    },
-    {
-      "id": "https://www.wired.com/story/trump-isnt-even-good-at-tv-anymore/",
-      "url": "https://www.wired.com/story/trump-isnt-even-good-at-tv-anymore/",
-      "title": "Trump Isn’t Even Good at TV Anymore",
-      "content_text": "From Trump TV to a Shark Tank knockoff, the president’s latest entertainment ventures are a steep decline from his days on The Apprentice.",
-      "summary": "From Trump TV to a Shark Tank knockoff, the president’s latest entertainment ventures are a steep decline from his days on The Apprentice.",
-      "date_published": "2026-10-21T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad79880a4cc6513f80c0b7c/master/pass/GettyImages-2258686448.jpg",
-      "tags": [
-        "Culture",
-        "Culture / TV",
-        "Hate Watch",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
     }
   ]
 }

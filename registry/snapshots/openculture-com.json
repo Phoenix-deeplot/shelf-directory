@@ -2,6 +2,19 @@
  "id": "openculture-com",
  "items": [
   {
+   "url": "https://www.openculture.com/2026/10/an-hour-of-the-jazzy-background-music-from-the-original-1967-spider-man-cartoon.html",
+   "title": "Hear an Hour of the Jazzy Background Music from the Original 1967 Spider-Man Cartoon",
+   "summary": "Ray Ellis had a six-decade career as a producer, arranger, and jazz composer. And while he’s best known for arranging music for Billie Holiday’s Lady in Satin (…",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [
+    "Comics/Cartoons",
+    "Music"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.openculture.com/2026/10/watch-rome-rise-fall-and-rise-again-in-a-three-minute-3d-timelapse.html",
    "title": "Watch Rome Rise, Fall, and Rise Again in a Three-Minute 3D Timelapse",
    "summary": "Scholars disagree on when, exactly, Rome fell. But if you watch the new video from City 3D Timelapse above, you’ll understand the lack of debate on the question…",
@@ -179,18 +192,6 @@
    ],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://www.openculture.com/2026/10/names-of-nearly-4-million-enslaved-people-in-former-british-colonies-are-searchable-online.html",
-   "title": "The Names of Nearly 4 Million Enslaved People in Former British Colonies Are Now Searchable Online, Helping Descendants Find Lost Ancestors",
-   "summary": "A few years ago, we featured here on Open Culture the Freedmen’s Bureau Project database, which contains searchable information on formerly enslaved people in t…",
-   "image": "",
-   "date": "2026-10-13",
-   "tags": [
-    "History"
-   ],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -199,6 +200,7 @@
   "home": "https://www.openculture.com/",
   "lang": "en",
   "license": "",
+  "image": "https://cdn8.openculture.com/2017/06/17162746/OC-favicon.png",
   "tags": []
  },
  "fails": 0,
@@ -206,6 +208,6 @@
  "parser": 2,
  "status": "ok",
  "error": "",
- "etag": "\"f5e8441a3ae2145db141a69df46b74f7\"",
- "modified": "Sat, 24 Oct 2026 18:44:02 GMT"
+ "etag": "\"e5da05df1c9d18764b2f0cfb7b6533a2\"",
+ "modified": "Mon, 26 Oct 2026 08:00:29 GMT"
 }

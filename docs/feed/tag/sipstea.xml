@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/sipstea.xml</id>
+  <title>公共目录 · #SipsTea</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/sipstea.xml"/>
+  <updated>2026-10-25T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.reddit.com/r/SipsTea/comments/1xezwur/if_you_dont_got_something_nice_to_say_dont_say_at/</id>
+    <title>If you don't got something nice to say, don't say at all</title>
+    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/SipsTea/comments/1xezwur/if_you_dont_got_something_nice_to_say_dont_say_at/"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <published>2026-10-25T00:00:00Z</published>
+    <summary type="text">submitted by /u/Accurate_Back_1060 to r/SipsTea [link] [comments]</summary>
+    <source><title>top scoring links : popular</title></source>
+    <category term="SipsTea"/>
+    <category term="社区"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.reddit.com/r/SipsTea/comments/1xf2uko/double_trouble/</id>
+    <title>Double Trouble</title>
+    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/SipsTea/comments/1xf2uko/double_trouble/"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <published>2026-10-25T00:00:00Z</published>
+    <summary type="text">submitted by /u/KSKS1995 to r/SipsTea [link] [comments]</summary>
+    <source><title>top scoring links : popular</title></source>
+    <category term="SipsTea"/>
+    <category term="社区"/>
+    <category term="热榜"/>
+  </entry>
+</feed>

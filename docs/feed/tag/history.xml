@@ -4,8 +4,24 @@
   <title>公共目录 · #History</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/history.xml"/>
-  <updated>2026-10-24T00:00:00Z</updated>
+  <updated>2026-10-25T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://slate.com/culture/2026/10/edgar-allan-poe-poems-stories-most-influential-american-writer-death-horror-detective.html?via=rss</id>
+    <title>One Literary Giant Is Rarely Associated With His Homeland. Make No Mistake: He’s the Most Influential American Writer of All.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/culture/2026/10/edgar-allan-poe-poems-stories-most-influential-american-writer-death-horror-detective.html?via=rss"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <published>2026-10-25T00:00:00Z</published>
+    <summary type="text">Not Mark Twain, not Herman Melville, not F. Scott Fitzgerald.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Books"/>
+    <category term="History"/>
+    <category term="Slate Book Review"/>
+    <category term="Horror"/>
+    <category term="Mystery"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
   <entry>
     <id>https://slate.com/life/2026/10/eris-drew-octo-octa-juliana-huxtable-mixes-transmission-dc.html?via=rss</id>
     <title>The GOP’s Attacks Against Them Have Been Relentless. They‘re Still Reshaping an Entire Industry in Their Image.</title>
@@ -107,18 +123,6 @@
     <updated>2026-10-15T00:00:00Z</updated>
     <published>2026-10-15T00:00:00Z</published>
     <summary type="text">Some would call the United States of America the mightiest empire the world has ever known. Yet over the past half-century or so, it has shown a strange inabili…</summary>
-    <source><title>Open Culture</title></source>
-    <category term="History"/>
-    <category term="文化"/>
-    <category term="免费资源"/>
-  </entry>
-  <entry>
-    <id>https://www.openculture.com/2026/10/names-of-nearly-4-million-enslaved-people-in-former-british-colonies-are-searchable-online.html</id>
-    <title>The Names of Nearly 4 Million Enslaved People in Former British Colonies Are Now Searchable Online, Helping Descendants Find Lost Ancestors</title>
-    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/names-of-nearly-4-million-enslaved-people-in-former-british-colonies-are-searchable-online.html"/>
-    <updated>2026-10-13T00:00:00Z</updated>
-    <published>2026-10-13T00:00:00Z</published>
-    <summary type="text">A few years ago, we featured here on Open Culture the Freedmen’s Bureau Project database, which contains searchable information on formerly enslaved people in t…</summary>
     <source><title>Open Culture</title></source>
     <category term="History"/>
     <category term="文化"/>

@@ -2,6 +2,25 @@
  "id": "freightwaves-com",
  "items": [
   {
+   "url": "https://www.freightwaves.com/news/borderlands-mexico-avocado-imports-generate-641m-for-us-trucking-warehousing",
+   "title": "Borderlands Mexico: Avocado imports generate $641M for US trucking, warehousing",
+   "summary": "This week in Borderlands Mexico: Avocado imports generate $641M for cross-border logistics; GLS US expands parcel delivery network to Texas border; and Jetco ex…",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [
+    "Borderlands: Mexico",
+    "News",
+    "Top Stories",
+    "Trucking",
+    "avocados",
+    "Borderlands",
+    "GLS",
+    "Jetco"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.freightwaves.com/news/truckload-contract-rate-increases-riding-steady-above-10",
    "title": "Truckload contract rate increases riding steady above 10%",
    "summary": "The new index from SONAR shows that carriers have been trying to get rate increases since before the market turned, now they are getting what would have been th…",
@@ -840,25 +859,6 @@
    ],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://www.freightwaves.com/news/new-york-short-line-wins-11-2-million-federal-rail-grant",
-   "title": "New York short line wins $11.2 million federal rail grant",
-   "summary": "Ontario Midland Railroad won an $11.2 million federal grant to upgrade track and crossings in New York state. The post New York short line wins $11.2 million fe…",
-   "image": "",
-   "date": "2026-10-21",
-   "tags": [
-    "News",
-    "Railroad",
-    "CRISI program",
-    "federal grants",
-    "Infrastructure",
-    "New York",
-    "railroads",
-    "short lines"
-   ],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -867,6 +867,7 @@
   "home": "https://www.freightwaves.com/",
   "lang": "en",
   "license": "",
+  "image": "https://www.freightwaves.com/wp-content/uploads/2019/03/cropped-FW-square-logo.png?w=32",
   "tags": []
  },
  "fails": 0,
@@ -874,6 +875,6 @@
  "parser": 2,
  "status": "ok",
  "error": "",
- "etag": "\"498b068997e54fa728d18539023815d1\"",
- "modified": "Fri, 23 Oct 2026 16:51:29 GMT"
+ "etag": "\"09215e3e259f731179c5403e077f7a3b\"",
+ "modified": "Fri, 23 Oct 2026 19:21:15 GMT"
 }

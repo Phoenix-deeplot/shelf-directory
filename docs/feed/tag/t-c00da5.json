@@ -9,6 +9,482 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
+      "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
+      "title": "What the US Movement Against Data Centers Can Learn From Abroad",
+      "content_text": "Paris Marx, author of Hyperscale, has been tracking global data center development for years. The US has a lot to learn from what’s happened everywhere from Ire…",
+      "summary": "Paris Marx, author of Hyperscale, has been tracking global data center development for years. The US has a lot to learn from what’s happened everywhere from Ire…",
+      "date_published": "2026-10-25T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adbe4fc594ddd5d406f1b4a/master/pass/102326-Power%20Play-What%20the%20US%20Anti-Data%20Center%20Movement%20Can%20Learn%20From%20Everywhere%20Else-v2.jpg",
+      "tags": [
+        "Science",
+        "Science / Environment",
+        "Business",
+        "Power Play",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/we-linked-150-ikea-speakers-to-make-a-wall-of-sound/",
+      "url": "https://www.wired.com/story/we-linked-150-ikea-speakers-to-make-a-wall-of-sound/",
+      "title": "We Linked 150 of Ikea’s $10 Speakers to Make a Wall of Sound",
+      "content_text": "WIRED attempts what even the Swedish brand hasn’t: making a sonic monolith using scores of the cheapest Bluetooth speakers on the market. Can you have too much…",
+      "summary": "WIRED attempts what even the Swedish brand hasn’t: making a sonic monolith using scores of the cheapest Bluetooth speakers on the market. Can you have too much…",
+      "date_published": "2026-10-25T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adbbf9958a88c588ff834c3/master/pass/Ikea%20Kallsup%20SOURCE%20Jeremy%20White-resized.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Gear News and Events",
+        "Gear / Products / Speakers",
+        "Small Wonders",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/review/wallhack-m-001/",
+      "url": "https://www.wired.com/review/wallhack-m-001/",
+      "title": "Wallhack M-001 Review: When Fun Overrides Specs",
+      "content_text": "With a tactile dongle for on-the-fly customization and a metal chassis, the Wallhack M-001 is the most fun I've had reviewing a gaming mouse in a long time.",
+      "summary": "With a tactile dongle for on-the-fly customization and a metal chassis, the Wallhack M-001 is the most fun I've had reviewing a gaming mouse in a long time.",
+      "date_published": "2026-10-25T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adbbc51f337c510e207c213/master/pass/Review%20Wallhack%20M-001%20Gaming%20Mouse%20102026%20top%20art%20SOURCE%20Wallhack.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Products",
+        "Gear / Reviews",
+        "Gear / Products / Computers",
+        "Gear / Products / Gaming",
+        "Product Review",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/macbook-pro-m5-max-deal-october-2026/",
+      "url": "https://www.wired.com/story/macbook-pro-m5-max-deal-october-2026/",
+      "title": "The MacBook Pro Max Just Dropped to Its Lowest Price Ever",
+      "content_text": "Apple will reportedly launch an innovative new MacBook next week, which means existing options have their largest discount yet.",
+      "summary": "Apple will reportedly launch an innovative new MacBook next week, which means existing options have their largest discount yet.",
+      "date_published": "2026-10-25T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adbb2adc29fe197e2045863/master/pass/MacBook%20Pro%20Prices%20Drop%20to%20All-Time%20Low%20deals%20102026%20top%20art%20SOURCE%20Amazon.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products",
+        "Gear / Products / Computers",
+        "Mac Money",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets/",
+      "url": "https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets/",
+      "title": "Scientists Trapped an Antimatter Particle for Months to Study Its Secrets",
+      "content_text": "These elusive and reactive particles have been challenging to hold on to and even more challenging to study, but a new method paves the way for tests on the dif…",
+      "summary": "These elusive and reactive particles have been challenging to hold on to and even more challenging to study, but a new method paves the way for tests on the dif…",
+      "date_published": "2026-10-25T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adaaa0519e924cf3288639a/master/pass/1344013114",
+      "tags": [
+        "Science",
+        "Science / Physics and Math",
+        "Catch and Release",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/oil-spills-wreak-havoc-on-the-bottom-of-the-ocean-even-a-decade-later/",
+      "url": "https://www.wired.com/story/oil-spills-wreak-havoc-on-the-bottom-of-the-ocean-even-a-decade-later/",
+      "title": "Oil Spills Wreak Havoc on the Bottom of the Ocean, Even a Decade Later",
+      "content_text": "While oil is known to float, new research finds that over time it can permeate even extremely deep marine habitats, with animal populations declining by as much…",
+      "summary": "While oil is known to float, new research finds that over time it can permeate even extremely deep marine habitats, with animal populations declining by as much…",
+      "date_published": "2026-10-25T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ad9cf0216c3bcd306bcde9c/master/pass/GettyImages-99306371.jpg",
+      "tags": [
+        "Science",
+        "Science / Environment",
+        "Slippery When Wet",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/review/hyve-smart-package-locker/",
+      "url": "https://www.wired.com/review/hyve-smart-package-locker/",
+      "title": "Hyve Smart Package Locker Review: Protecting Your Holiday Deliveries",
+      "content_text": "Hyve’s smart porch lockbox can secure incoming gifts—if your delivery driver uses it and there’s still room inside.",
+      "summary": "Hyve’s smart porch lockbox can secure incoming gifts—if your delivery driver uses it and there’s still room inside.",
+      "date_published": "2026-10-25T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adbc78d80db711000c07c3f/master/pass/Review%20Hyve%20Smart%20Package%20Locker%20102026%20top%20art%20SOURCE%20Shop.com.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Home",
+        "Merry Mail",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/apple-carplay-and-android-auto-make-your-phone-hot-heres-how-to-keep-it-cool/",
+      "url": "https://www.wired.com/story/apple-carplay-and-android-auto-make-your-phone-hot-heres-how-to-keep-it-cool/",
+      "title": "Apple CarPlay and Android Auto Make Your Phone Hot. Here’s How to Keep It Cool",
+      "content_text": "Powering a car dashboard is more demanding on your handset than you might think. These tips will save battery life and help your phone chill out.",
+      "summary": "Powering a car dashboard is more demanding on your handset than you might think. These tips will save battery life and help your phone chill out.",
+      "date_published": "2026-10-25T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ada0a2fe1636641cd0c0f13/master/pass/Car%20Wired.jpg",
+      "tags": [
+        "Gear",
+        "Gear / How To and Advice",
+        "Hot Wheels",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/gallery/best-folding-phones/",
+      "url": "https://www.wired.com/gallery/best-folding-phones/",
+      "title": "6 Best Folding Phones (2026): Samsung, Apple, Google, Motorola",
+      "content_text": "Ready to move on from the traditional glass slab? Introduce a hinge into your life with these folding smartphones.",
+      "summary": "Ready to move on from the traditional glass slab? Introduce a hinge into your life with these folding smartphones.",
+      "date_published": "2026-10-25T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adb855058fe17d926e68364/master/pass/Best%20Folding%20Phones%20iPhone%20Duo%20102026%20top%20art%20SOURCE%20Samsung-Apple.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Buying Guides",
+        "Gear / Products / Phones",
+        "Into the Fold",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/tabsh",
+      "url": "https://www.producthunt.com/products/tabsh",
+      "title": "tabsh",
+      "content_text": "Work with agents with an IDE in your browser tab Discussion | Link",
+      "summary": "Work with agents with an IDE in your browser tab Discussion | Link",
+      "date_published": "2026-10-25T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/omerta",
+      "url": "https://www.producthunt.com/products/omerta",
+      "title": "omerta",
+      "content_text": "Catch .env secrets leaking into git Discussion | Link",
+      "summary": "Catch .env secrets leaking into git Discussion | Link",
+      "date_published": "2026-10-25T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/desigma",
+      "url": "https://www.producthunt.com/products/desigma",
+      "title": "desigma",
+      "content_text": "Free Figma alternative made on Rust Discussion | Link",
+      "summary": "Free Figma alternative made on Rust Discussion | Link",
+      "date_published": "2026-10-25T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/whoiscooking",
+      "url": "https://www.producthunt.com/products/whoiscooking",
+      "title": "WhoIsCooking",
+      "content_text": "See which AI agent is heating your Mac. Cool it down. Discussion | Link",
+      "summary": "See which AI agent is heating your Mac. Cool it down. Discussion | Link",
+      "date_published": "2026-10-25T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/vibeide",
+      "url": "https://www.producthunt.com/products/vibeide",
+      "title": "VibeiDE",
+      "content_text": "Queue agent tasks in parallel and review each result Discussion | Link",
+      "summary": "Queue agent tasks in parallel and review each result Discussion | Link",
+      "date_published": "2026-10-25T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/standfast",
+      "url": "https://www.producthunt.com/products/standfast",
+      "title": "Standfast",
+      "content_text": "Know if your Mac's GitHub Actions runners will get work Discussion | Link",
+      "summary": "Know if your Mac's GitHub Actions runners will get work Discussion | Link",
+      "date_published": "2026-10-25T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/mozy-walk-to-unlock-apps",
+      "url": "https://www.producthunt.com/products/mozy-walk-to-unlock-apps",
+      "title": "Mozy",
+      "content_text": "App Blocker for Android & iPhone Discussion | Link",
+      "summary": "App Blocker for Android & iPhone Discussion | Link",
+      "date_published": "2026-10-25T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/manyagents",
+      "url": "https://www.producthunt.com/products/manyagents",
+      "title": "ManyAgents",
+      "content_text": "Run a team of AI coding agents from one Mac window Discussion | Link",
+      "summary": "Run a team of AI coding agents from one Mac window Discussion | Link",
+      "date_published": "2026-10-25T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/jobmate-ai-3",
+      "url": "https://www.producthunt.com/products/jobmate-ai-3",
+      "title": "Jobmate AI",
+      "content_text": "The humanized AI Copilot for your entire Job search Discussion | Link",
+      "summary": "The humanized AI Copilot for your entire Job search Discussion | Link",
+      "date_published": "2026-10-25T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/allmodels-io",
+      "url": "https://www.producthunt.com/products/allmodels-io",
+      "title": "AllModels",
+      "content_text": "Explore every abliterated model Discussion | Link",
+      "summary": "Explore every abliterated model Discussion | Link",
+      "date_published": "2026-10-25T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/avp",
+      "url": "https://www.producthunt.com/products/avp",
+      "title": "AVP",
+      "content_text": "Open source alternative to Git for AI coding agents Discussion | Link",
+      "summary": "Open source alternative to Git for AI coding agents Discussion | Link",
+      "date_published": "2026-10-25T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/qubitunes-starter-kit-october-2026/",
       "url": "https://www.wired.com/story/qubitunes-starter-kit-october-2026/",
       "title": "The Qubitunes Soundstage Toy Is a Great Gift for Kids",
@@ -317,9 +793,53 @@
     {
       "id": "https://www.producthunt.com/products/papermark-2",
       "url": "https://www.producthunt.com/products/papermark-2",
-      "title": "Papermark Virtual Data Room",
+      "title": "Papermark Data Rooms",
       "content_text": "Secure data rooms your AI agents can run. Live in < 60 sec. Discussion | Link",
       "summary": "Secure data rooms your AI agents can run. Live in < 60 sec. Discussion | Link",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/loqui-2",
+      "url": "https://www.producthunt.com/products/loqui-2",
+      "title": "Loqui",
+      "content_text": "Turns your voice into ready-to-send text in any Mac app Discussion | Link",
+      "summary": "Turns your voice into ready-to-send text in any Mac app Discussion | Link",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/kiwi-7",
+      "url": "https://www.producthunt.com/products/kiwi-7",
+      "title": "Kiwi",
+      "content_text": "A proactive AI assistant that texts you before you ask Discussion | Link",
+      "summary": "A proactive AI assistant that texts you before you ask Discussion | Link",
       "date_published": "2026-10-24T00:00:00Z",
       "tags": [
         "产品",
@@ -342,6 +862,28 @@
       "title": "AgentGrid.io",
       "content_text": "Shared workspace for humans and agents Discussion | Link",
       "summary": "Shared workspace for humans and agents Discussion | Link",
+      "date_published": "2026-10-24T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/2g",
+      "url": "https://www.producthunt.com/products/2g",
+      "title": "2G",
+      "content_text": "Sampler to create early 2000 Neural Synthesis Discussion | Link",
+      "summary": "Sampler to create early 2000 Neural Synthesis Discussion | Link",
       "date_published": "2026-10-24T00:00:00Z",
       "tags": [
         "产品",
@@ -679,579 +1221,6 @@
         "Culture",
         "Culture / Digital Culture",
         "Old School",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/8-things-to-know-about-the-apple-iphone-duo/",
-      "url": "https://www.wired.com/story/8-things-to-know-about-the-apple-iphone-duo/",
-      "title": "8 Things to Know About the iPhone Duo",
-      "content_text": "Did you manage to score Apple’s first folding phone on launch day? Are you still mulling it over? Here are a few things to keep in mind.",
-      "summary": "Did you manage to score Apple’s first folding phone on launch day? Are you still mulling it over? Here are a few things to keep in mind.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada893690bbef8397f3e8ae/master/pass/DSC_9451.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Gear News and Events",
-        "Gear / Products / Phones",
-        "Handy Tips",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/sideos-ai",
-      "url": "https://www.producthunt.com/products/sideos-ai",
-      "title": "sideOS.ai",
-      "content_text": "Local AI for dictation, meetings, background tasks and more Discussion | Link",
-      "summary": "Local AI for dictation, meetings, background tasks and more Discussion | Link",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/llama-windows",
-      "url": "https://www.producthunt.com/products/llama-windows",
-      "title": "Llama Windows",
-      "content_text": "One local AI server for all your Windows apps Discussion | Link",
-      "summary": "One local AI server for all your Windows apps Discussion | Link",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/canva",
-      "url": "https://www.producthunt.com/products/canva",
-      "title": "Canva Craft",
-      "content_text": "Turn prompts into design-ready images you can edit Discussion | Link",
-      "summary": "Turn prompts into design-ready images you can edit Discussion | Link",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/basedash",
-      "url": "https://www.producthunt.com/products/basedash",
-      "title": "Basedash Scheduled CSV Exports",
-      "content_text": "Ask once. Get a fresh CSV in Slack or email every week. Discussion | Link",
-      "summary": "Ask once. Get a fresh CSV in Slack or email every week. Discussion | Link",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html",
-      "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html",
-      "title": "科技爱好者周刊（第 416 期）：编程已经面目全非",
-      "content_text": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 本周启用的上海大歌剧院内部装修。（via） 编程已经面目全非 大多数人只看到，AI 改变了程序员这个职业。很少有人提到，AI 也改变了编程。…",
-      "summary": "这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 本周启用的上海大歌剧院内部装修。（via） 编程已经面目全非 大多数人只看到，AI 改变了程序员这个职业。很少有人提到，AI 也改变了编程。…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "Weekly",
-        "科技",
-        "周刊"
-      ],
-      "authors": [
-        {
-          "name": "阮一峰的网络日志"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "feeds-feedburner-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/what-to-about-shamonda-virus-following-the-first-reported-human-infection/",
-      "url": "https://www.wired.com/story/what-to-about-shamonda-virus-following-the-first-reported-human-infection/",
-      "title": "What to Know About Shamonda Virus Following the First Reported Human Infection",
-      "content_text": "Although the case is considered exceptional, investigators are working to determine how the infection occurred and whether the pathogen played a role in the pat…",
-      "summary": "Although the case is considered exceptional, investigators are working to determine how the infection occurred and whether the pathogen played a role in the pat…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada6dba4d7b986a1aaeb09e/master/pass/virus%20Shamonda%20Francia%201298348369.jpg",
-      "tags": [
-        "Science",
-        "Science / Health",
-        "Don’t Panic",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/goldmund-preamp-costs-more-than-a-sports-car/",
-      "url": "https://www.wired.com/story/goldmund-preamp-costs-more-than-a-sports-car/",
-      "title": "This Preamp Costs More Than a Fancy Sports Car",
-      "content_text": "Goldmund’s $240,000 Mimesis Statement is an exercise in extreme Swiss sound engineering—and only one part of a $1.5 million audio setup.",
-      "summary": "Goldmund’s $240,000 Mimesis Statement is an exercise in extreme Swiss sound engineering—and only one part of a $1.5 million audio setup.",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad8a5e5a9fa5fe98ee99914/master/pass/Mimesis%20Statement%20_%20Telos%209800%20_%20Theia%20Passive%20SOURCE%20Simon%20Lucas.jpeg",
-      "tags": [
-        "Gear",
-        "Gear / Gear News and Events",
-        "Gear / Products / Audio",
-        "Sonic Opulence",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/they-believe-2020-was-stolen-they-could-be-in-charge-of-elections-in-2028/",
-      "url": "https://www.wired.com/story/they-believe-2020-was-stolen-they-could-be-in-charge-of-elections-in-2028/",
-      "title": "They Believe 2020 Was Stolen. They Could Be in Charge of Elections in 2028",
-      "content_text": "A host of election-denying candidates are running for attorney general in states across the country.",
-      "summary": "A host of election-denying candidates are running for attorney general in states across the country.",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad17dc0a804ead0a674cfcd/master/pass/Election-Deniers-Politics.jpg",
-      "tags": [
-        "Politics",
-        "Politics / Disinformation",
-        "Midterms 2026",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/aged-intelligence-society-interview/",
-      "url": "https://www.wired.com/story/aged-intelligence-society-interview/",
-      "title": "The Social Society Helping Women Join the AI Boom",
-      "content_text": "WIRED spoke with the founders of the Aged Intelligence Society, a fast-growing events startup that brings women together to “solve midlife problems using fronti…",
-      "summary": "WIRED spoke with the founders of the Aged Intelligence Society, a fast-growing events startup that brings women together to “solve midlife problems using fronti…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada7db9ecc44326fbe9e386/master/pass/Model-Behavior-Illo-102226-2.jpg",
-      "tags": [
-        "Business",
-        "Model Behavior",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/google-home-speaker-bug-oct-2026/",
-      "url": "https://www.wired.com/story/google-home-speaker-bug-oct-2026/",
-      "title": "The Google Home Speaker Has Been Secretly Eating My Wi-Fi Data",
-      "content_text": "My Google Home Speaker had been burning through more data than all the rest of my devices combined. As I looked into it further, I found other smart home device…",
-      "summary": "My Google Home Speaker had been burning through more data than all the rest of my devices combined. As I looked into it further, I found other smart home device…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada2a91587bb57d09e564bf/master/pass/The%20Google%20Home%20Speaker%20Bug%20Is%20Gobbling%20Up%20Wi-Fi%20102026%20top%20art%20SOURCE%20Google.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Gear News and Events",
-        "Gear / Products / Smart Home",
-        "Data Monster",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/mac-mini-m4-deal-october-2026/",
-      "url": "https://www.wired.com/story/mac-mini-m4-deal-october-2026/",
-      "title": "Save $150 on the Apple Mac Mini M4, but There’s a Catch",
-      "content_text": "Apple’s Mac Mini M4 is one of the best mini computers you can buy, and it’s $150 off. While it’s a good deal on a new, older-generation model, it’s more expensi…",
-      "summary": "Apple’s Mac Mini M4 is one of the best mini computers you can buy, and it’s $150 off. While it’s a good deal on a new, older-generation model, it’s more expensi…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada289019e924cf32885a66/master/pass/M4%20Mac%20Mini%20Deal%20102026%20top%20art%20SOURCE%20Best%20Buy.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Gear / Products / Computers",
-        "Compute For Less",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/cool-cool-cool-palmer-luckey-made-a-genetically-modified-military-dog-startup/",
-      "url": "https://www.wired.com/story/cool-cool-cool-palmer-luckey-made-a-genetically-modified-military-dog-startup/",
-      "title": "Palmer Luckey and Ben Lamm Made a Genetically Modified Military Dog Startup",
-      "content_text": "Warhound came out of stealth on Wednesday with $200 million in funding and a mission to create “elite working dogs” equipped with \"advanced body armor.\"",
-      "summary": "Warhound came out of stealth on Wednesday with $200 million in funding and a mission to create “elite working dogs” equipped with \"advanced body armor.\"",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada855face4f27f64bac623/master/pass/Business_Palmer%20Luckey%20Says%20He%E2%80%99s%20Making%20Cyborg%20Death%20Dogs_v1.jpg",
-      "tags": [
-        "Business",
-        "Business / Startups",
-        "Woof",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/metas-ad-sales-suffering-now-europeans-can-pick-less-personalization/",
-      "url": "https://www.wired.com/story/metas-ad-sales-suffering-now-europeans-can-pick-less-personalization/",
-      "title": "Meta’s Ad Sales Are Suffering Now That Europeans Can Pick Less Personalization",
-      "content_text": "An earnings briefing on Wednesday revealed ad revenue has slowed since the European Union introduced the Less-Personalized Ads model at the beginning of this ye…",
-      "summary": "An earnings briefing on Wednesday revealed ad revenue has slowed since the European Union introduced the Less-Personalized Ads model at the beginning of this ye…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad9d068ec7a57895da5d773/master/pass/GettyImages-2296209094.jpg",
-      "tags": [
-        "Business",
-        "Business / Big Tech",
-        "Slow Burn",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/meet-mori-a-cute-robot-mushroom-that-doesnt-really-say-or-do-anything/",
-      "url": "https://www.wired.com/story/meet-mori-a-cute-robot-mushroom-that-doesnt-really-say-or-do-anything/",
-      "title": "Meet Mori, a Cute Robot Mushroom That Doesn’t Really Say (or Do) Anything",
-      "content_text": "Step one in convincing people to live with robots with cameras on their faces? Disguise them as cute home decor.",
-      "summary": "Step one in convincing people to live with robots with cameras on their faces? Disguise them as cute home decor.",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad73249e71bc9cefa5d514d/master/pass/OKA_MORI_Companion_EveningWorkAtLaptop.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Gear News and Events",
-        "Quiet Gaze",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/uncanny-valley-podcast-inside-the-secret-nathan-fielder-interview/",
-      "url": "https://www.wired.com/story/uncanny-valley-podcast-inside-the-secret-nathan-fielder-interview/",
-      "title": "Inside the Exclusive Nathan Fielder Interview",
-      "content_text": "This week on “Uncanny Valley,” we go behind the scenes of our Nathan Fielder cover story, unpack tech billionaires’ generous promises, and discuss the suspiciou…",
-      "summary": "This week on “Uncanny Valley,” we go behind the scenes of our Nathan Fielder cover story, unpack tech billionaires’ generous promises, and discuss the suspiciou…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad948eb213049c1e3561565/master/pass/business-Uncanny-Valley-Nathan-Fielder.jpg",
-      "tags": [
-        "Business",
-        "Business / Big Tech",
-        "Business / Tech Culture",
-        "Science / Biotech",
-        "Uncanny Valley",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/i-worked-for-a-whole-day-using-only-the-iphone-duo-heres-how-it-went/",
-      "url": "https://www.wired.com/story/i-worked-for-a-whole-day-using-only-the-iphone-duo-heres-how-it-went/",
-      "title": "I Worked for a Whole Day Using Only the iPhone Duo. Here’s How It Went",
-      "content_text": "A portable keyboard and kickstand make it a viable emergency workstation—even if iOS still gets in the way.",
-      "summary": "A portable keyboard and kickstand make it a viable emergency workstation—even if iOS still gets in the way.",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad935fd8dbac9acb33aa1cc/master/pass/DSC_9943.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Gear News and Events",
-        "Gear / Products / Computers",
-        "Gear / Products / Phones",
-        "Field Test",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
-      "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
-      "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
-      "content_text": "The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.",
-      "summary": "The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada5ebcd90d47bccee2186e/master/pass/Science_HuggingFacesPowerfulNewDNAModelIsSmallEnou-ezgif.com-video-to-gif-converter%20(1).gif",
-      "tags": [
-        "Science",
-        "Science / Health",
-        "Business",
-        "ChatDNA",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/",
-      "url": "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/",
-      "title": "Hackers Exploited the PHP Vulnerabilities Days Before They Were Patched",
-      "content_text": "Amazon Web Services logged attempts to leverage the internet-melting PHP2Shell bugs four days ago. They’re now being “broadly exploited” across the internet.",
-      "summary": "Amazon Web Services logged attempts to leverage the internet-melting PHP2Shell bugs four days ago. They’re now being “broadly exploited” across the internet.",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad971de90e0d6636d239398/master/pass/Security_HackersExploitingPHPBugsforDays-ezgif.com-video-to-gif-converter.gif",
-      "tags": [
-        "Security",
-        "Early Access",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/greenlight-hub-voice-assistant-feature/",
-      "url": "https://www.wired.com/story/greenlight-hub-voice-assistant-feature/",
-      "title": "Greenlight Family Hub (2026): Finally, a Digital Wall Calendar With a Voice Assistant",
-      "content_text": "After testing multiple models, I’m convinced voice control belongs on the family calendar. Greenlight’s Family Hub shows why.",
-      "summary": "After testing multiple models, I’m convinced voice control belongs on the family calendar. Greenlight’s Family Hub shows why.",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad907aa141b637f559fb800/master/pass/Greenlight%20Family%20Hub%20102026%20top%20art%20SOURCE%20Greenlight.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Reviews",
-        "Gear / Products / Home",
-        "Gear / Products / Smart Home",
-        "Speak Easy",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/fellow-aiden-precision-coffee-maker-deal-october-2026/",
-      "url": "https://www.wired.com/story/fellow-aiden-precision-coffee-maker-deal-october-2026/",
-      "title": "Fellow Aiden Precision Coffee Maker is $100 Off",
-      "content_text": "The Fellow Aiden Precision Coffee Maker is a smart, high-end machine that offers pour-over quality. You can get it refurbished from the brand for 25 percent off…",
-      "summary": "The Fellow Aiden Precision Coffee Maker is a smart, high-end machine that offers pour-over quality. You can get it refurbished from the brand for 25 percent off…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada246c62f24429e365a94f/master/pass/Fellow%20Aiden%20Coffee%20Maker%20Deals%20Post%20102026%20top%20art%20SOURCE%20Shop.com.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Gear / Products / Kitchen",
-        "Lord of the Beans",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/microsoft-surface-buying-guide/",
-      "url": "https://www.wired.com/story/microsoft-surface-buying-guide/",
-      "title": "Best Microsoft Surface Laptop (2026): Which Models to Buy and Avoid",
-      "content_text": "With pricing in flux and new models available, here’s which Surface Laptop and Surface Pro to buy.",
-      "summary": "With pricing in flux and new models available, here’s which Surface Laptop and Surface Pro to buy.",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad8bdd4ba3e5597384c8379/master/pass/update%20best%20surface%20102026%20top%20art%20SOURCE%20Amazon.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Buying Guides",
-        "Gear / Products / Computers",
-        "Buying Guide",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/anker-soundcore-space-2-deal-october-2026/",
-      "url": "https://www.wired.com/story/anker-soundcore-space-2-deal-october-2026/",
-      "title": "Anker Soundcore Space 2 Are at Their Lowest Price Ever",
-      "content_text": "The Anker Soundcore Space 2 are a good deal even at full price. The fact they’re 18 percent off is just icing on the cake.",
-      "summary": "The Anker Soundcore Space 2 are a good deal even at full price. The fact they’re 18 percent off is just icing on the cake.",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada4bc4d53570f6403f714a/master/pass/Soundcore%20by%20Anker%20Space%202%20deal%20102026%20top%20art%20SOURCE%20Amazon.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Gear / Products / Headphones",
-        "Gear / Products / Audio",
-        "A Sound Discount",
         "科技",
         "社会"
       ],

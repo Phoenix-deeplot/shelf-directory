@@ -84,31 +84,6 @@
         "type": "article",
         "shelf": "wired-com"
       }
-    },
-    {
-      "id": "https://www.wired.com/story/its-the-presidents-fault-the-white-house-blame-game-starts-early-ahead-of-the-midterms/",
-      "url": "https://www.wired.com/story/its-the-presidents-fault-the-white-house-blame-game-starts-early-ahead-of-the-midterms/",
-      "title": "‘It’s the President’s Fault’: The White House Blame Game Starts Early Ahead of the Midterms",
-      "content_text": "As the White House contemplates losing Congress, there has been an unusually early effort to find a Republican scapegoat.",
-      "summary": "As the White House contemplates losing Congress, there has been an unusually early effort to find a Republican scapegoat.",
-      "date_published": "2026-10-21T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad7dddccd0792bc5939c725/master/pass/politics_republican_midterms_trump_blame.jpg",
-      "tags": [
-        "Politics",
-        "Politics / Politics News",
-        "Inner Loop",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
     }
   ]
 }

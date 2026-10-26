@@ -2,6 +2,146 @@
  "id": "producthunt-com",
  "items": [
   {
+   "url": "https://www.producthunt.com/products/standfast",
+   "title": "Standfast",
+   "summary": "Know if your Mac's GitHub Actions runners will get work Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/omerta",
+   "title": "omerta",
+   "summary": "Catch .env secrets leaking into git Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/jobmate-ai-3",
+   "title": "Jobmate AI",
+   "summary": "The humanized AI Copilot for your entire Job search Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/whoiscooking",
+   "title": "WhoIsCooking",
+   "summary": "See which AI agent is heating your Mac. Cool it down. Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/tabsh",
+   "title": "tabsh",
+   "summary": "Work with agents with an IDE in your browser tab Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/avp",
+   "title": "AVP",
+   "summary": "Open source alternative to Git for AI coding agents Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/manyagents",
+   "title": "ManyAgents",
+   "summary": "Run a team of AI coding agents from one Mac window Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/mozy-walk-to-unlock-apps",
+   "title": "Mozy",
+   "summary": "App Blocker for Android & iPhone Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/allmodels-io",
+   "title": "AllModels",
+   "summary": "Explore every abliterated model Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/vibeide",
+   "title": "VibeiDE",
+   "summary": "Queue agent tasks in parallel and review each result Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/desigma",
+   "title": "desigma",
+   "summary": "Free Figma alternative made on Rust Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/2g",
+   "title": "2G",
+   "summary": "Sampler to create early 2000 Neural Synthesis Discussion | Link",
+   "image": "",
+   "date": "2026-10-24",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/kiwi-7",
+   "title": "Kiwi",
+   "summary": "A proactive AI assistant that texts you before you ask Discussion | Link",
+   "image": "",
+   "date": "2026-10-24",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/loqui-2",
+   "title": "Loqui",
+   "summary": "Turns your voice into ready-to-send text in any Mac app Discussion | Link",
+   "image": "",
+   "date": "2026-10-24",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.producthunt.com/products/yourcast",
    "title": "Yourcast 2.0",
    "summary": "AI summaries with tap-to-jump timestamps, right in Telegram Discussion | Link",
@@ -13,7 +153,7 @@
   },
   {
    "url": "https://www.producthunt.com/products/papermark-2",
-   "title": "Papermark Virtual Data Room",
+   "title": "Papermark Data Rooms",
    "summary": "Secure data rooms your AI agents can run. Live in < 60 sec. Discussion | Link",
    "image": "",
    "date": "2026-10-24",
@@ -27,6 +167,16 @@
    "summary": "Shared workspace for humans and agents Discussion | Link",
    "image": "",
    "date": "2026-10-24",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/knock-7",
+   "title": "Knock",
+   "summary": "Create shortcuts by hitting you mac Discussion | Link",
+   "image": "",
+   "date": "2026-10-23",
    "tags": [],
    "lang": "en",
    "type": "article"
@@ -82,16 +232,6 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/river-writer",
-   "title": "River Writer",
-   "summary": "A quiet Mac app for screenplays, stage plays and novels Discussion | Link",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
    "url": "https://www.producthunt.com/products/1password",
    "title": "1Password for Agents",
    "summary": "Let AI agents sign in for you without seeing your passwords Discussion | Link",
@@ -102,9 +242,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/shogunai",
-   "title": "ShogunAI",
-   "summary": "Your personal AGI on your pc Discussion | Link",
+   "url": "https://www.producthunt.com/products/river-writer",
+   "title": "River Writer",
+   "summary": "A quiet Mac app for screenplays, stage plays and novels Discussion | Link",
    "image": "",
    "date": "2026-10-22",
    "tags": [],
@@ -112,119 +252,19 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/bloblings",
-   "title": "Bloblings",
-   "summary": "A pet for every Claude Code session Discussion | Link",
+   "url": "https://www.producthunt.com/products/pdf-accessibility-checker",
+   "title": "PDF Accessibility Checker by WebYes",
+   "summary": "Find PDF accessibility issues for free, with fix guidance Discussion | Link",
    "image": "",
-   "date": "2026-10-22",
+   "date": "2026-10-21",
    "tags": [],
    "lang": "en",
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/monid",
-   "title": "Agent Hunt",
-   "summary": "Live rankings of the tools AI agents use most Discussion | Link",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/instant-search-2",
-   "title": "Instant Search",
-   "summary": "The fastest, most precise local AI Search for your files. Discussion | Link",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/monish",
-   "title": "Monish",
-   "summary": "Your AI agents, live on your iPhone lock screen Discussion | Link",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/dots-7",
-   "title": "Dots",
-   "summary": "A customizable workspace built into your Mac's notch Discussion | Link",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/plango",
-   "title": "Plango",
-   "summary": "Use AI to defend against AI Discussion | Link",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/producthunt",
-   "title": "Product Hunt Visual Launch Editor",
-   "summary": "See your launch as you build it Discussion | Link",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/peras",
-   "title": "Peras",
-   "summary": "Pause Claude Code and Codex before they burn your week Discussion | Link",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/termi-protocol",
-   "title": "Termi Protocol",
-   "summary": "Watch AI agents code in 3D and hand off the work Discussion | Link",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/gerty",
-   "title": "Gerty",
-   "summary": "Private ChatGPT alternative that sets itself up on your Mac Discussion | Link",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/truffle-music-tag-editor",
-   "title": "Truffle",
-   "summary": "Fix messy tags, covers and duplicates in your Mac library Discussion | Link",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/byter",
-   "title": "Byter",
-   "summary": "Know exactly how much data you use, on every network Discussion | Link",
+   "url": "https://www.producthunt.com/products/ai-bridge",
+   "title": "AI Bridge",
+   "summary": "Every AI coding agent on your Mac, in its place Discussion | Link",
    "image": "",
    "date": "2026-10-21",
    "tags": [],
@@ -242,9 +282,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/polylane",
-   "title": "Polylane for Cloudflare",
-   "summary": "An AI on-call engineer for your Cloudflare apps Discussion | Link",
+   "url": "https://www.producthunt.com/products/byter",
+   "title": "Byter",
+   "summary": "Know exactly how much data you use, on every network Discussion | Link",
    "image": "",
    "date": "2026-10-21",
    "tags": [],
@@ -262,16 +302,6 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/shedi",
-   "title": "Shedi",
-   "summary": "Get back the space Xcode, Docker and node_modules ate Discussion | Link",
-   "image": "",
-   "date": "2026-10-20",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
    "url": "https://www.producthunt.com/products/agentvalley",
    "title": "AgentValley",
    "summary": "Every Claude Code agent, at a glance, in your Mac's notch Discussion | Link",
@@ -282,9 +312,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/dub",
-   "title": "Dub Startup Program",
-   "summary": "Launch your partner-led growth program Discussion | Link",
+   "url": "https://www.producthunt.com/products/shedi",
+   "title": "Shedi",
+   "summary": "Get back the space Xcode, Docker and node_modules ate Discussion | Link",
    "image": "",
    "date": "2026-10-20",
    "tags": [],
@@ -292,31 +322,21 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/realtime-max-mini",
-   "title": "ElevenLabs Realtime",
-   "summary": "Realtime voice agent models with 570ms to first audio Discussion | Link",
+   "url": "https://www.producthunt.com/products/minimax-4",
+   "title": "MiniMax M3.1 Flash",
+   "summary": "MiniMax’s Flash model, 3x faster and 70% cheaper for agents Discussion | Link",
    "image": "",
-   "date": "2026-10-20",
+   "date": "2026-10-19",
    "tags": [],
    "lang": "en",
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/cloudflare",
-   "title": "Cloudflare Clairic",
-   "summary": "Cloudflare's AI model for fast, cheap data extraction Discussion | Link",
+   "url": "https://www.producthunt.com/products/cloudknife",
+   "title": "CloudKnife",
+   "summary": "Cut your cloud bill, not your performance Discussion | Link",
    "image": "",
-   "date": "2026-10-20",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/dots-phone",
-   "title": "Dots Phone",
-   "summary": "A phone-calling plugin for OpenAI Dots Discussion | Link",
-   "image": "",
-   "date": "2026-10-20",
+   "date": "2026-10-19",
    "tags": [],
    "lang": "en",
    "type": "article"
@@ -342,29 +362,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/context-engine-2",
-   "title": "Context Engine",
-   "summary": "One memory for your AI agents and human team members. Discussion | Link",
-   "image": "",
-   "date": "2026-10-19",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/fal-ai",
-   "title": "FLUX 3 Max",
-   "summary": "fal’s FLUX 3 Max: 10-second AI video in about 12 seconds Discussion | Link",
-   "image": "",
-   "date": "2026-10-19",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/specsight",
-   "title": "Specsight",
-   "summary": "Product observability for teams shipping fast with AI Discussion | Link",
+   "url": "https://www.producthunt.com/products/helio-7",
+   "title": "Helio",
+   "summary": "Know exactly what your rooftop solar made today Discussion | Link",
    "image": "",
    "date": "2026-10-18",
    "tags": [],
@@ -402,21 +402,11 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/inyon",
-   "title": "Inyon",
-   "summary": "Answer your coding agents from your phone Discussion | Link",
+   "url": "https://www.producthunt.com/products/surgepix",
+   "title": "SurgePix",
+   "summary": "AI visuals. Edit every layer. Agent-callable. Discussion | Link",
    "image": "",
    "date": "2026-10-16",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/zcad-ai",
-   "title": "zCAD AI",
-   "summary": "AI 3D that creates real parts, not just shapes Discussion | Link",
-   "image": "",
-   "date": "2026-10-15",
    "tags": [],
    "lang": "en",
    "type": "article"
@@ -432,11 +422,11 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/linkintel",
-   "title": "LinkIntel",
-   "summary": "Post insights delivered direct to your AI Discussion | Link",
+   "url": "https://www.producthunt.com/products/zcad-ai",
+   "title": "zCAD AI",
+   "summary": "AI 3D that creates real parts, not just shapes Discussion | Link",
    "image": "",
-   "date": "2026-10-14",
+   "date": "2026-10-15",
    "tags": [],
    "lang": "en",
    "type": "article"
@@ -452,11 +442,21 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/headroom-5",
-   "title": "Headroom",
-   "summary": "Your Mac on iPhone Duo: fold it, and the keyboard appears Discussion | Link",
+   "url": "https://www.producthunt.com/products/linkintel",
+   "title": "LinkIntel",
+   "summary": "Post insights delivered direct to your AI Discussion | Link",
    "image": "",
-   "date": "2026-10-13",
+   "date": "2026-10-14",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/strawberry",
+   "title": "Strawberry 1.0",
+   "summary": "AI Browser that saves your team >100h/week Discussion | Link",
+   "image": "",
+   "date": "2026-10-12",
    "tags": [],
    "lang": "en",
    "type": "article"
@@ -472,6 +472,16 @@
    "type": "article"
   },
   {
+   "url": "https://www.producthunt.com/products/flipcorder",
+   "title": "Flipcorder",
+   "summary": "A 1991 camcorder for your iPhone, one tape a day Discussion | Link",
+   "image": "",
+   "date": "2026-10-09",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.producthunt.com/products/badgey",
    "title": "Badgey",
    "summary": "Your iPhone becomes a name badge that faces the room Discussion | Link",
@@ -482,21 +492,11 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/ovren",
-   "title": "Ovren Live Preview",
-   "summary": "See your product change live before it ships Discussion | Link",
+   "url": "https://www.producthunt.com/products/n8n-chat-ui-2",
+   "title": "N8N Chat UI",
+   "summary": "Beautiful, no-code, on-brand AI chat widgets for n8n Discussion | Link",
    "image": "",
-   "date": "2026-10-08",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/movo-ai",
-   "title": "MOVO AI",
-   "summary": "The world's first long-form video agent for mobile Discussion | Link",
-   "image": "",
-   "date": "2026-09-18",
+   "date": "2026-10-07",
    "tags": [],
    "lang": "en",
    "type": "article"
@@ -508,6 +508,7 @@
   "home": "https://www.producthunt.com",
   "lang": "en",
   "license": "",
+  "image": "",
   "tags": []
  },
  "fails": 0,
@@ -515,6 +516,6 @@
  "parser": 2,
  "status": "ok",
  "error": "",
- "etag": "W/\"bd3902e7c09bdc70229e107988e29459\"",
- "modified": "Sun, 25 Oct 2026 08:22:55 GMT"
+ "etag": "W/\"2348cf131baed01ad0886f2bab159615\"",
+ "modified": "Mon, 26 Oct 2026 08:26:12 GMT"
 }

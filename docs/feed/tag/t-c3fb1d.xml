@@ -4,91 +4,91 @@
   <title>公共目录 · #行业观察</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-c3fb1d.xml"/>
-  <updated>2026-10-25T00:00:00Z</updated>
+  <updated>2026-10-26T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6483437.html</id>
-    <title>靠 AI 赚钱的人，赚的到底是谁的钱</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483437.html"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">拿「第一性原理」拆 AI 赛道：用户为产品付费、商家为效率付费、平台为流量付费、投资人为增长付费。作者逐个看钱是谁给的、为什么给、理由合不合理，判断哪些钱能长期赚，哪些只能赚一阵子。 前天分享了枯燥乏味的赚钱第一性原理，赚钱的第一性原理，是看懂钱怎么流动，今天拿这个方法来分析下，「靠 AI 赚钱的人，赚的到底是谁的钱」…</summary>
+    <id>https://www.woshipm.com/share/6484203.html</id>
+    <title>搜狗大改版，腾讯新一代AI搜索引擎，来了</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484203.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">搜狗把首页改成一个 logo 加一个输入框，输入框内可直接跳转 AI 模式，答案与参考资料左右分栏。老牌搜索引擎这次不是加个问答按钮，传统网页入口被降级，重心压到元宝搜索上。 最近，搜索领域热闹了起来。 先是 DeepSeek 开放自研的搜索 API，揭开 AI 搜索争夺的序幕。 DeepSeek 开放了 2 个接口，…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI应用"/>
-    <category term="个人观点"/>
-    <category term="商业模式"/>
+    <category term="AI搜索"/>
+    <category term="元宝"/>
+    <category term="功能分析"/>
+    <category term="搜狗"/>
     <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6483815.html</id>
-    <title>逐渐被淘汰的AI产品设计与交互</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483815.html"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">AI模型能力飞速跃迁，产品设计正经历一场静默革命。复杂Prompt、独立功能入口、纯聊天交互等曾被视为标配的设计，正被Agent化、多模态与主动执行的新范式取代。本文深度剖析5种正在被淘汰的设计思路，揭示其背后的逻辑变迁，并为AI产品经理指明从“弥补模型缺陷”转向“解决用户长期需求”的迭代方向。 从2024到2026…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="Agent"/>
-    <category term="AI产品"/>
-    <category term="人机交互"/>
-    <category term="多模态"/>
-    <category term="行业观察"/>
-    <category term="产品"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/it/6483664.html</id>
-    <title>全民“戒断”红果，可能吗？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6483664.html"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">红果短剧日活近2亿，人均使用时长超抖音微信，成为全民级注意力黑洞。备考党反复卸载又安装，文青四天沦陷，这场对抗工业级成瘾机制的战争，暴露的不仅是产品设计的人性收割，更是高压时代下快乐分层的社会困境。 这段时间，关于红果的争议越来越多。 10月14日前后，多个与红果有关的词条冲上微博热搜榜，例如“红果短剧降智”、“红果短…</summary>
+    <id>https://www.woshipm.com/it/6483999.html</id>
+    <title>国内互联网能与字节一战的，只剩“腾讯”了</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6483999.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">字节系产品用户时长份额飙升至41.8%，营收逼近腾讯阿里总和，红果短剧日活破1.68亿。当巨头们纷纷收缩投资战线，亲自下场肉搏，腾讯以绿泡泡杀入短剧腹地，试图用社交生态撬动红果的霸主地位。本文深度拆解字节的连续押中能力与腾讯的攻守易位，揭示存量竞争时代的残酷新法则。 有人说，中国互联网正进入“字节时间”。 QuestM…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="业界动态"/>
-    <category term="成瘾机制"/>
-    <category term="注意力经济"/>
-    <category term="用户心理"/>
+    <category term="字节跳动"/>
     <category term="短剧"/>
-    <category term="红果短剧"/>
+    <category term="红果"/>
+    <category term="绿泡泡"/>
+    <category term="腾讯"/>
     <category term="行业观察"/>
     <category term="产品"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/chuangye/6483400.html</id>
-    <title>一条视频 1160万播放，为什么几乎没人下载 App？191个创业者的增长复盘</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6483400.html"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">370 次观看带来 3 个付费客户，1160 万播放却几乎没人下载——191 位创业者的获客复盘说明，播放量不等于生意。真正区分成败的是三个问题：内容吸引了谁、他们为什么看、看完知道下一步做什么。 今天分享一个周末刚看的初创 AI 公司获客方式的复盘研究，原文我放在文末的“阅读全文”里。 一位软件创业者在 YouTub…</summary>
+    <id>https://www.woshipm.com/it/6483988.html</id>
+    <title>为什么 OpenAI 和 Anthropic 都在抢着进入这个领域？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6483988.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">你有没有想过，为什么最近几乎每个星期都有 AI 公司宣布要做生物科技？age1 联合创始人 Alex Colville 把这件事拆成三层：它们为什么来、能帮上什么、会卡在哪里。结论很朴素——AI 让想出来变便宜，却没让证明出来变便宜。 你有没有想过，为什么最近几乎每个星期，都有一家 AI 公司宣布自己要做生物科技？ 英…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="创业学院"/>
-    <category term="内容创作"/>
-    <category term="内容营销"/>
-    <category term="用户增长"/>
+    <category term="业界动态"/>
+    <category term="AI应用"/>
+    <category term="Anthropic"/>
+    <category term="OpenAI"/>
     <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6483874.html</id>
-    <title>AI短剧公司几乎不要基础岗，老干妈用AI把600人裁到48人，国办发文，AI赢，不能让劳动者输</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483874.html"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">AI短剧公司把几十人的剧组压到三五人；老干妈视觉分拣后，600名挑辣椒工只剩48人。省下的钱没变成新岗位，反而流向了平台流量竞价。国办新文件划下边界：机器可以上岗，但劳动者不能被甩下。 AI短剧公司几乎不要基础岗上了微博热搜。 一网友感叹去朋友的短剧公司参观，回来发感受称，公司前几年还是小作坊，今年被大集团收了，搬进一…</summary>
+    <id>https://www.woshipm.com/it/6483992.html</id>
+    <title>一张派大星表情包，点燃了“第一次推特世界大战”</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6483992.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">一张派大星表情包，把中土网友的对线推成了第一次推特世界大战。起因是有人反复追问一位维吾尔族姑娘是不是突厥人，姑娘回了五个字：我是中国人。之后猫图、国旗梗、基因报告轮番上场，七天里热度烧到顶又慢慢熄掉。 近日（2026年10月20日左右），土耳其和中国网民在x平台出现一场大规模的对线。 事情的起因是10月中旬，X 上一个…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI短剧"/>
-    <category term="案例分析"/>
-    <category term="消费降级"/>
+    <category term="业界动态"/>
+    <category term="热点事件"/>
+    <category term="网络文化"/>
+    <category term="行业观察"/>
+    <category term="跨文化"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/chuangye/6483402.html</id>
+    <title>AI 替你买东西，亚马逊却不让它进门？未来谁决定你买什么？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6483402.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">9 月 21 日，Meta 的 Muse 用户让 AI 代下单时被亚马逊拒绝，理由是非授权 AI 代理违反平台条款。争执背后是入口之争：当消费者习惯让 AI 替自己挑，谁站在商品与人之间、谁来解释推荐理由。 最近个人助理 Muse 大火，我就不分享了，但是延续 AI 个人助理的话题，分享点儿别的。 假设，你想买一双跑鞋…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="创业学院"/>
+    <category term="AI Agent"/>
+    <category term="Meta"/>
+    <category term="消费观察"/>
     <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
+    <category term="商业"/>
   </entry>
 </feed>

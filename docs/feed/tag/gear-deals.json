@@ -9,6 +9,33 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/story/macbook-pro-m5-max-deal-october-2026/",
+      "url": "https://www.wired.com/story/macbook-pro-m5-max-deal-october-2026/",
+      "title": "The MacBook Pro Max Just Dropped to Its Lowest Price Ever",
+      "content_text": "Apple will reportedly launch an innovative new MacBook next week, which means existing options have their largest discount yet.",
+      "summary": "Apple will reportedly launch an innovative new MacBook next week, which means existing options have their largest discount yet.",
+      "date_published": "2026-10-25T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adbb2adc29fe197e2045863/master/pass/MacBook%20Pro%20Prices%20Drop%20to%20All-Time%20Low%20deals%20102026%20top%20art%20SOURCE%20Amazon.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products",
+        "Gear / Products / Computers",
+        "Mac Money",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/joybird-semi-annual-sale-2026/",
       "url": "https://www.wired.com/story/joybird-semi-annual-sale-2026/",
       "title": "My Favorite Sofa Is Discounted for Joybird’s Semiannual Sale",
@@ -203,59 +230,6 @@
         "Gear / Products / Headphones",
         "Gear / Products / Audio",
         "A Sound Discount",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/ruggable-october-hosting-sale-2026/",
-      "url": "https://www.wired.com/story/ruggable-october-hosting-sale-2026/",
-      "title": "Ruggable’s Washable Rugs Are Worth It and Now on Sale (2026)",
-      "content_text": "If you’re going to nest, you might as well do it at a discount.",
-      "summary": "If you’re going to nest, you might as well do it at a discount.",
-      "date_published": "2026-10-21T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad7f51365ca68303fb85227/master/pass/New%20Ruggable%20October%20Hosting%20Sale%20Post%20102026%20top%20art%20SOURCE%20Ruggable.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Gear / Products / Home",
-        "Pile On",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/eufy-security-camera-deals-october-2026/",
-      "url": "https://www.wired.com/story/eufy-security-camera-deals-october-2026/",
-      "title": "Eufy Security Wall Light Cam S4 Deal: Save $80 on This Versatile Gadget",
-      "content_text": "This feature-packed security camera is the perfect way to keep an eye on your home and fam from afar.",
-      "summary": "This feature-packed security camera is the perfect way to keep an eye on your home and fam from afar.",
-      "date_published": "2026-10-21T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad8d3bf28742edb9f78f8d1/master/pass/One%20of%20My%20Favorite%20Eufy%20Security%20Cameras%20Is%20On%20Sale%20102026%20top%20art%20SOURCE%20Amazon.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Gear / Products / Smart Home",
-        "Gear / Products / Home",
-        "Eye Spy",
         "科技",
         "社会"
       ],

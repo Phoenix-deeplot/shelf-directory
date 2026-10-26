@@ -1,6 +1,6 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #News",
+  "title": "公共目录 · #news",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/news.json",
   "description": "公共目录",
@@ -8,6 +8,55 @@
     "spec": 1
   },
   "items": [
+    {
+      "id": "https://www.reddit.com/r/news/comments/1xfe95s/serbias_vučić_concedes_election_defeat_to/",
+      "url": "https://www.reddit.com/r/news/comments/1xfe95s/serbias_vučić_concedes_election_defeat_to/",
+      "title": "Serbia's Vučić concedes election defeat to student-led protest movement",
+      "content_text": "submitted by /u/ImJustCW to r/news [link] [comments]",
+      "summary": "submitted by /u/ImJustCW to r/news [link] [comments]",
+      "date_published": "2026-10-25T00:00:00Z",
+      "tags": [
+        "news",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/borderlands-mexico-avocado-imports-generate-641m-for-us-trucking-warehousing",
+      "url": "https://www.freightwaves.com/news/borderlands-mexico-avocado-imports-generate-641m-for-us-trucking-warehousing",
+      "title": "Borderlands Mexico: Avocado imports generate $641M for US trucking, warehousing",
+      "content_text": "This week in Borderlands Mexico: Avocado imports generate $641M for cross-border logistics; GLS US expands parcel delivery network to Texas border; and Jetco ex…",
+      "summary": "This week in Borderlands Mexico: Avocado imports generate $641M for cross-border logistics; GLS US expands parcel delivery network to Texas border; and Jetco ex…",
+      "date_published": "2026-10-25T00:00:00Z",
+      "tags": [
+        "Borderlands: Mexico",
+        "News",
+        "Top Stories",
+        "Trucking",
+        "avocados",
+        "Borderlands",
+        "GLS",
+        "Jetco"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
     {
       "id": "https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness",
       "url": "https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness",
@@ -800,33 +849,6 @@
         "Trucking",
         "货运",
         "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/new-york-short-line-wins-11-2-million-federal-rail-grant",
-      "url": "https://www.freightwaves.com/news/new-york-short-line-wins-11-2-million-federal-rail-grant",
-      "title": "New York short line wins $11.2 million federal rail grant",
-      "content_text": "Ontario Midland Railroad won an $11.2 million federal grant to upgrade track and crossings in New York state. The post New York short line wins $11.2 million fe…",
-      "summary": "Ontario Midland Railroad won an $11.2 million federal grant to upgrade track and crossings in New York state. The post New York short line wins $11.2 million fe…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "News",
-        "Railroad",
-        "CRISI program",
-        "federal grants",
-        "Infrastructure",
-        "New York",
-        "railroads",
-        "short lines"
       ],
       "authors": [
         {

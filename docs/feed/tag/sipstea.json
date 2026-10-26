@@ -1,0 +1,58 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #SipsTea",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/sipstea.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.reddit.com/r/SipsTea/comments/1xezwur/if_you_dont_got_something_nice_to_say_dont_say_at/",
+      "url": "https://www.reddit.com/r/SipsTea/comments/1xezwur/if_you_dont_got_something_nice_to_say_dont_say_at/",
+      "title": "If you don't got something nice to say, don't say at all",
+      "content_text": "submitted by /u/Accurate_Back_1060 to r/SipsTea [link] [comments]",
+      "summary": "submitted by /u/Accurate_Back_1060 to r/SipsTea [link] [comments]",
+      "date_published": "2026-10-25T00:00:00Z",
+      "image": "https://preview.redd.it/qxrvo79yllxh1.jpeg?width=640&crop=smart&auto=webp&s=8c7ae23b843fc8161874007a2d983cd0224e7aba",
+      "tags": [
+        "SipsTea",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/SipsTea/comments/1xf2uko/double_trouble/",
+      "url": "https://www.reddit.com/r/SipsTea/comments/1xf2uko/double_trouble/",
+      "title": "Double Trouble",
+      "content_text": "submitted by /u/KSKS1995 to r/SipsTea [link] [comments]",
+      "summary": "submitted by /u/KSKS1995 to r/SipsTea [link] [comments]",
+      "date_published": "2026-10-25T00:00:00Z",
+      "image": "https://preview.redd.it/0jolelxnbmxh1.jpeg?width=640&crop=smart&auto=webp&s=7b5f4b1dab618ee844616f6f9db56212581e9f1e",
+      "tags": [
+        "SipsTea",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    }
+  ]
+}

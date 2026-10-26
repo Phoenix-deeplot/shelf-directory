@@ -9,17 +9,45 @@
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/embodied/6483697.html",
-      "url": "https://www.woshipm.com/embodied/6483697.html",
-      "title": "狂揽千亿融资之后，DeepSeek 具身投资版图浮出水面",
-      "content_text": "梁文锋最近密集约见具身智能创业者，三张底牌已落桌：物理躯干、具身大脑、全身运控。刚完成约千亿元融资、投前估值约五千亿元的 DeepSeek，正把大模型带出虚拟世界。 梁文锋最近的行程表异常密集。 过去几周，这位一向低调的 DeepSeek 创始人频繁约见具身智能赛道的创业者，探讨的焦点始终围绕同一个命题：大模型如何走出…",
-      "summary": "梁文锋最近密集约见具身智能创业者，三张底牌已落桌：物理躯干、具身大脑、全身运控。刚完成约千亿元融资、投前估值约五千亿元的 DeepSeek，正把大模型带出虚拟世界。 梁文锋最近的行程表异常密集。 过去几周，这位一向低调的 DeepSeek 创始人频繁约见具身智能赛道的创业者，探讨的焦点始终围绕同一个命题：大模型如何走出…",
-      "date_published": "2026-10-24T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6484205.html",
+      "url": "https://www.woshipm.com/ai/6484205.html",
+      "title": "开源“印钞机”、每代降价90%，DeepSeek这几年那些「神播种」",
+      "content_text": "DeepSeek 把内部推理框架 DeepInfer 开源，号称自家的印钞机。从 MoE、MLA 到开源周、再到 DeepInfer，这条路线把缓存命中折扣压到 97%，每百万 token 的价格一路降了九成。 最近，DeepSeek又把一项核心的技术开源出来了，号称是 DeepSeek 的印钞机。 它就是10月20日…",
+      "summary": "DeepSeek 把内部推理框架 DeepInfer 开源，号称自家的印钞机。从 MoE、MLA 到开源周、再到 DeepInfer，这条路线把缓存命中折扣压到 97%，每百万 token 的价格一路降了九成。 最近，DeepSeek又把一项核心的技术开源出来了，号称是 DeepSeek 的印钞机。 它就是10月20日…",
+      "date_published": "2026-10-26T00:00:00Z",
       "tags": [
-        "具身智能",
+        "AI",
+        "AI产品",
+        "DeepInfer",
         "DeepSeek",
-        "机器人",
-        "行业分析",
+        "发展历史",
+        "开源项目",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6484225.html",
+      "url": "https://www.woshipm.com/ai/6484225.html",
+      "title": "vLLM 反超 DeepSeek 专用引擎，大模型本地部署首选依然没变！",
+      "content_text": "DeepInfer 开源后不少人担心通用推理引擎会被边缘化。SGLang 与 vLLM 几乎同时拿出相同基准的测试：在 DeepSeek V4.1 Flash 上，Prefill 吞吐与单步生成耗时追平甚至反超。 前些天 DeepSeek 放出了 DeepSeek V4.1 Flash 1017 ，把性价比发挥到极致…",
+      "summary": "DeepInfer 开源后不少人担心通用推理引擎会被边缘化。SGLang 与 vLLM 几乎同时拿出相同基准的测试：在 DeepSeek V4.1 Flash 上，Prefill 吞吐与单步生成耗时追平甚至反超。 前些天 DeepSeek 放出了 DeepSeek V4.1 Flash 1017 ，把性价比发挥到极致…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "DeepInfer",
+        "DeepSeek",
+        "技术原理",
         "产品",
         "运营",
         "商业"

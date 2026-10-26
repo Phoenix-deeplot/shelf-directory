@@ -9,6 +9,31 @@
   },
   "items": [
     {
+      "id": "https://slate.com/technology/2026/10/openai-hugging-face-ai-agent-crime.html?via=rss",
+      "url": "https://slate.com/technology/2026/10/openai-hugging-face-ai-agent-crime.html?via=rss",
+      "title": "A New Kind of Crime Is Emerging. The Justice System Doesn’t Know Whom to Blame.",
+      "content_text": "The justice system is in dire need of a software update.",
+      "summary": "The justice system is in dire need of a software update.",
+      "date_published": "2026-10-25T00:00:00Z",
+      "image": "https://compote.slate.com/images/9ff3ed33-ef38-4f67-9f0d-0bb8516aa423.jpeg?crop=1206%2C804%2Cx354%2Cy50",
+      "tags": [
+        "Artificial Intelligence",
+        "Crime",
+        "Criminal Justice",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
       "id": "https://www.openculture.com/2026/10/doctor-whos-tom-baker-plays-douglas-adams.html",
       "url": "https://www.openculture.com/2026/10/doctor-whos-tom-baker-plays-douglas-adams.html",
       "title": "Doctor Who’s Tom Baker Plays Douglas Adams’ Digital “Agent” in the AI-Predicting Hyperland (1990)",

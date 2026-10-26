@@ -9,6 +9,31 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/story/apple-carplay-and-android-auto-make-your-phone-hot-heres-how-to-keep-it-cool/",
+      "url": "https://www.wired.com/story/apple-carplay-and-android-auto-make-your-phone-hot-heres-how-to-keep-it-cool/",
+      "title": "Apple CarPlay and Android Auto Make Your Phone Hot. Here’s How to Keep It Cool",
+      "content_text": "Powering a car dashboard is more demanding on your handset than you might think. These tips will save battery life and help your phone chill out.",
+      "summary": "Powering a car dashboard is more demanding on your handset than you might think. These tips will save battery life and help your phone chill out.",
+      "date_published": "2026-10-25T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ada0a2fe1636641cd0c0f13/master/pass/Car%20Wired.jpg",
+      "tags": [
+        "Gear",
+        "Gear / How To and Advice",
+        "Hot Wheels",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/mattress-types-explained-2026/",
       "url": "https://www.wired.com/story/mattress-types-explained-2026/",
       "title": "What Type of Mattress Is Right for You? (2026)",

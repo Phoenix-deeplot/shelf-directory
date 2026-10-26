@@ -4,120 +4,105 @@
   <title>公共目录 · #商业</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-60d5c2.xml"/>
-  <updated>2026-10-25T00:00:00Z</updated>
+  <updated>2026-10-26T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/chuangye/6483400.html</id>
-    <title>一条视频 1160万播放，为什么几乎没人下载 App？191个创业者的增长复盘</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6483400.html"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">370 次观看带来 3 个付费客户，1160 万播放却几乎没人下载——191 位创业者的获客复盘说明，播放量不等于生意。真正区分成败的是三个问题：内容吸引了谁、他们为什么看、看完知道下一步做什么。 今天分享一个周末刚看的初创 AI 公司获客方式的复盘研究，原文我放在文末的“阅读全文”里。 一位软件创业者在 YouTub…</summary>
+    <id>https://www.woshipm.com/share/6483994.html</id>
+    <title>实体生意、实体店获客方法</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6483994.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">你的生意要是缺客户，就是不懂这个方法。作者讲买客思维：先给价值再有回报，设计一个低成本、高价值、高吸引力的获客钩子，用异业合作和体验券把客户引过来。前端不赚钱，赚的是后端复购、转介绍和裂变带来的钱。 你的生意要是缺客户，就是不懂这个方法，今天分享一个买客思维，让你能够持续获客。 买客思维是什么意思呢？ 就是先要有付出才…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="创业学院"/>
-    <category term="内容创作"/>
-    <category term="内容营销"/>
-    <category term="用户增长"/>
+    <category term="个人随笔"/>
+    <category term="实体店"/>
+    <category term="用户运营"/>
+    <category term="私域运营"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/zhichang/6479450.html</id>
+    <title>在大厂，这样写周报，leader一眼看出你能力强</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/zhichang/6479450.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">提起周报，很多人的第一反应是又到周五了、又要凑字数了。但对真正懂职场逻辑的人来说，周报从来不是形式主义，而是一次绝佳的向上管理机会，尤其对做品牌出海、海外营销的人。 提起周报，很多人的第一反应是“又到周五了，又要凑字数了”。尤其是在大厂，周报系统往往还自带格式、字数限制、甚至还会被自动推送到大老板邮箱，压力倍增。 但对…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="职场攻略"/>
+    <category term="向上管理"/>
+    <category term="周报"/>
+    <category term="职场成长"/>
+    <category term="职场沟通"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/it/6483988.html</id>
+    <title>为什么 OpenAI 和 Anthropic 都在抢着进入这个领域？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6483988.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">你有没有想过，为什么最近几乎每个星期都有 AI 公司宣布要做生物科技？age1 联合创始人 Alex Colville 把这件事拆成三层：它们为什么来、能帮上什么、会卡在哪里。结论很朴素——AI 让想出来变便宜，却没让证明出来变便宜。 你有没有想过，为什么最近几乎每个星期，都有一家 AI 公司宣布自己要做生物科技？ 英…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="业界动态"/>
+    <category term="AI应用"/>
+    <category term="Anthropic"/>
+    <category term="OpenAI"/>
     <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/zhichang/6479439.html</id>
-    <title>50条血的教训：培养错了人，比招错人更可怕</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/zhichang/6479439.html"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">为什么我花了大价钱培养的员工，转头就去了竞争对手那里？为什么招的人看起来履历光鲜，实际干活却一塌糊涂？小公司每一分钱、每一分钟都要花在刀刃上，培养错了人比招错人更可怕。 “为什么我花了大价钱培养的员工，转头就去了竞争对手那里？” “为什么我招的人，看起来履历光鲜，实际干活却一塌糊涂？” “为什么我的团队总是内耗不断，老…</summary>
+    <id>https://www.woshipm.com/it/6483992.html</id>
+    <title>一张派大星表情包，点燃了“第一次推特世界大战”</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6483992.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">一张派大星表情包，把中土网友的对线推成了第一次推特世界大战。起因是有人反复追问一位维吾尔族姑娘是不是突厥人，姑娘回了五个字：我是中国人。之后猫图、国旗梗、基因报告轮番上场，七天里热度烧到顶又慢慢熄掉。 近日（2026年10月20日左右），土耳其和中国网民在x平台出现一场大规模的对线。 事情的起因是10月中旬，X 上一个…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="职场攻略"/>
-    <category term="团队管理"/>
-    <category term="经验分享"/>
-    <category term="职业规划"/>
-    <category term="项目管理"/>
+    <category term="业界动态"/>
+    <category term="热点事件"/>
+    <category term="网络文化"/>
+    <category term="行业观察"/>
+    <category term="跨文化"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/chuangye/6483396.html</id>
-    <title>花 499元给猫买个 AI 项圈，它居然开始每天给主人写日记</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6483396.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">PurrPurr 用 17.9 克的项圈，把猫的叫声、活动与休息变成第一人称日记，一天能生成八条动态。499 元硬件加订阅，卖的是情绪价值；数据够不够准、故事够不够真，决定新鲜感过后还有没有人续费。 今天分享的产品，很可爱： PurrPurr， https://www.purrpurr.cn/ 一只叫“小满”的英国短毛…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="创业学院"/>
-    <category term="AI应用"/>
-    <category term="商业模式"/>
-    <category term="宠物经济"/>
-    <category term="智能硬件"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/embodied/6483697.html</id>
-    <title>狂揽千亿融资之后，DeepSeek 具身投资版图浮出水面</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/embodied/6483697.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">梁文锋最近密集约见具身智能创业者，三张底牌已落桌：物理躯干、具身大脑、全身运控。刚完成约千亿元融资、投前估值约五千亿元的 DeepSeek，正把大模型带出虚拟世界。 梁文锋最近的行程表异常密集。 过去几周，这位一向低调的 DeepSeek 创始人频繁约见具身智能赛道的创业者，探讨的焦点始终围绕同一个命题：大模型如何走出…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="具身智能"/>
-    <category term="DeepSeek"/>
-    <category term="机器人"/>
-    <category term="行业分析"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6483703.html</id>
-    <title>微信观察：微信公众号推出“不喜欢”作者文章功能</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6483703.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">微信公众号文章页右下角新增「不喜欢」按钮，可选我不想看、此账号内容，还能同时勾选标题误导、内容低质、AI低质创作。这个新功能背后，明显指向两个方向：盘活流量与满足需求。 日前，微信在新版本中针对微信公众号又做出了新的调整，即文章页的右下角支持“不喜欢”作者文章功能，当用户浏览文章到最下面时，右下角就会出现“不喜欢”按钮…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="产品分析"/>
-    <category term="微信"/>
-    <category term="行业动态"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6484007.html</id>
-    <title>别把响应式布局当作多端适配：HarmonyOS 7「一多」的工程落点与检查清单#1024鸿蒙实战共创#</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484007.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">刚做多设备适配时，最容易犯的错是：把手机页面拉宽，然后宣布平板适配完成。实际把同一个应用放到手机、折叠屏、平板和更大屏幕上，问题往往不是“控件能不能铺开”，而是用户在不同设备上的任务是否仍然顺手。 HarmonyOS 的一次开发、多端部署，价值也不应只用“少维护几套页面”来衡量。对产品经理和工程团队而言，更值得关注的是…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="鸿蒙"/>
-    <category term="响应式布局"/>
-    <category term="鸿蒙系统"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6483690.html</id>
-    <title>WorkBuddy干活变慢还费token，一招教你瘦身加速</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483690.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">WorkBuddy 用久了变慢还费 token，老马说这是 Skill、MCP 和记忆规则越滚越大，每轮对话都塞进上下文。他给出按报告瘦身的办法：关技能、关连接器、蒸馏记忆文件。 经常有小伙伴跟老马反馈，WorkBuddy一开始安装完使用的时候，还算蛮快的，后面使用了一段时间，发现干活速度变慢了，还特别消耗token，…</summary>
+    <id>https://www.woshipm.com/ai/6484225.html</id>
+    <title>vLLM 反超 DeepSeek 专用引擎，大模型本地部署首选依然没变！</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484225.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">DeepInfer 开源后不少人担心通用推理引擎会被边缘化。SGLang 与 vLLM 几乎同时拿出相同基准的测试：在 DeepSeek V4.1 Flash 上，Prefill 吞吐与单步生成耗时追平甚至反超。 前些天 DeepSeek 放出了 DeepSeek V4.1 Flash 1017 ，把性价比发挥到极致…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI产品"/>
-    <category term="WorkBuddy"/>
-    <category term="经验分享"/>
+    <category term="DeepInfer"/>
+    <category term="DeepSeek"/>
+    <category term="技术原理"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/chuangye/6483402.html</id>
+    <title>AI 替你买东西，亚马逊却不让它进门？未来谁决定你买什么？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6483402.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">9 月 21 日，Meta 的 Muse 用户让 AI 代下单时被亚马逊拒绝，理由是非授权 AI 代理违反平台条款。争执背后是入口之争：当消费者习惯让 AI 替自己挑，谁站在商品与人之间、谁来解释推荐理由。 最近个人助理 Muse 大火，我就不分享了，但是延续 AI 个人助理的话题，分享点儿别的。 假设，你想买一双跑鞋…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="创业学院"/>
+    <category term="AI Agent"/>
+    <category term="Meta"/>
+    <category term="消费观察"/>
+    <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>

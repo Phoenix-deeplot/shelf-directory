@@ -4,23 +4,23 @@
   <title>公共目录 · #AI工具</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/ai-4.xml"/>
-  <updated>2026-10-24T00:00:00Z</updated>
+  <updated>2026-10-26T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6479433.html</id>
-    <title>AI让市场调研效率提升300%</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6479433.html"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">一份完整调研从需求落地到出具洞察报告，少则7天，多则半个月甚至更久，耗时耗力耗钱。AI的入局直接把调研效率拉到新高度，整体效率提升不止300%，成本砍掉60%，洞察精准度翻倍。 一份完整调研从需求落地到出具洞察报告，少则7天，多则半个月，甚至更久，耗时、耗力、耗钱。AI的入局，直接把调研效率拉到新高度——整体效率提升不…</summary>
+    <id>https://www.woshipm.com/ai/6483433.html</id>
+    <title>用 AI 做自媒体，完整流程应该怎么做？附技能包</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483433.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">上一套开源的自媒体 skill 流程，这里给到完整操作路径：装技能、做账号定位、拆对标、出选题、写稿、诊断成稿。不用会编程，Codex、豆包工作之类的工具装上就能跑，文末是技能包地址。 上一篇不是开源了一套 skill 吗，现在用了一段时间，基本没什么问题了。 整套流程，不用你会编程，只要下载一个装技能的 AI 工具就…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
     <category term="AI工具"/>
-    <category term="市场洞察"/>
-    <category term="市场调研"/>
-    <category term="提示词"/>
-    <category term="竞品分析"/>
+    <category term="AI应用"/>
+    <category term="内容创作"/>
+    <category term="自媒体"/>
     <category term="产品"/>
+    <category term="运营"/>
   </entry>
 </feed>
