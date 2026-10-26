@@ -2,69 +2,19 @@
  "id": "producthunt-com",
  "items": [
   {
+   "url": "https://www.producthunt.com/products/allmodels-io",
+   "title": "AllModels",
+   "summary": "Explore every abliterated model Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.producthunt.com/products/standfast",
    "title": "Standfast",
    "summary": "Know if your Mac's GitHub Actions runners will get work Discussion | Link",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/omerta",
-   "title": "omerta",
-   "summary": "Catch .env secrets leaking into git Discussion | Link",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/jobmate-ai-3",
-   "title": "Jobmate AI",
-   "summary": "The humanized AI Copilot for your entire Job search Discussion | Link",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/whoiscooking",
-   "title": "WhoIsCooking",
-   "summary": "See which AI agent is heating your Mac. Cool it down. Discussion | Link",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/tabsh",
-   "title": "tabsh",
-   "summary": "Work with agents with an IDE in your browser tab Discussion | Link",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/avp",
-   "title": "AVP",
-   "summary": "Open source alternative to Git for AI coding agents Discussion | Link",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/manyagents",
-   "title": "ManyAgents",
-   "summary": "Run a team of AI coding agents from one Mac window Discussion | Link",
    "image": "",
    "date": "2026-10-25",
    "tags": [],
@@ -82,9 +32,29 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/allmodels-io",
-   "title": "AllModels",
-   "summary": "Explore every abliterated model Discussion | Link",
+   "url": "https://www.producthunt.com/products/manyagents",
+   "title": "ManyAgents",
+   "summary": "Run a team of AI coding agents from one Mac window Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/avp",
+   "title": "AVP",
+   "summary": "Open source alternative to Git for AI coding agents Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/whoiscooking",
+   "title": "WhoIsCooking",
+   "summary": "See which AI agent is heating your Mac. Cool it down. Discussion | Link",
    "image": "",
    "date": "2026-10-25",
    "tags": [],
@@ -112,11 +82,31 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/2g",
-   "title": "2G",
-   "summary": "Sampler to create early 2000 Neural Synthesis Discussion | Link",
+   "url": "https://www.producthunt.com/products/tabsh",
+   "title": "tabsh",
+   "summary": "Work with agents with an IDE in your browser tab Discussion | Link",
    "image": "",
-   "date": "2026-10-24",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/jobmate-ai-3",
+   "title": "Jobmate AI",
+   "summary": "The humanized AI Copilot for your entire Job search Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/omerta",
+   "title": "omerta",
+   "summary": "Catch .env secrets leaking into git Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
    "tags": [],
    "lang": "en",
    "type": "article"
@@ -132,9 +122,29 @@
    "type": "article"
   },
   {
+   "url": "https://www.producthunt.com/products/2g",
+   "title": "2G",
+   "summary": "Sampler to create early 2000 Neural Synthesis Discussion | Link",
+   "image": "",
+   "date": "2026-10-24",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.producthunt.com/products/loqui-2",
    "title": "Loqui",
    "summary": "Turns your voice into ready-to-send text in any Mac app Discussion | Link",
+   "image": "",
+   "date": "2026-10-24",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/agentgrid-io",
+   "title": "AgentGrid.io",
+   "summary": "Shared workspace for humans and agents Discussion | Link",
    "image": "",
    "date": "2026-10-24",
    "tags": [],
@@ -162,16 +172,6 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/agentgrid-io",
-   "title": "AgentGrid.io",
-   "summary": "Shared workspace for humans and agents Discussion | Link",
-   "image": "",
-   "date": "2026-10-24",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
    "url": "https://www.producthunt.com/products/knock-7",
    "title": "Knock",
    "summary": "Create shortcuts by hitting you mac Discussion | Link",
@@ -185,6 +185,16 @@
    "url": "https://www.producthunt.com/products/llama-windows",
    "title": "Llama Windows",
    "summary": "One local AI server for all your Windows apps Discussion | Link",
+   "image": "",
+   "date": "2026-10-23",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/sideos-ai",
+   "title": "sideOS.ai",
+   "summary": "Local AI for dictation, meetings, background tasks and more Discussion | Link",
    "image": "",
    "date": "2026-10-23",
    "tags": [],
@@ -212,16 +222,6 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/sideos-ai",
-   "title": "sideOS.ai",
-   "summary": "Local AI for dictation, meetings, background tasks and more Discussion | Link",
-   "image": "",
-   "date": "2026-10-23",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
    "url": "https://www.producthunt.com/products/mrraudit",
    "title": "MRRaudit",
    "summary": "Understand why your MRR differs and get a number you trust Discussion | Link",
@@ -232,9 +232,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/1password",
-   "title": "1Password for Agents",
-   "summary": "Let AI agents sign in for you without seeing your passwords Discussion | Link",
+   "url": "https://www.producthunt.com/products/river-writer",
+   "title": "River Writer",
+   "summary": "A quiet Mac app for screenplays, stage plays and novels Discussion | Link",
    "image": "",
    "date": "2026-10-22",
    "tags": [],
@@ -242,9 +242,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/river-writer",
-   "title": "River Writer",
-   "summary": "A quiet Mac app for screenplays, stage plays and novels Discussion | Link",
+   "url": "https://www.producthunt.com/products/1password",
+   "title": "1Password for Agents",
+   "summary": "Let AI agents sign in for you without seeing your passwords Discussion | Link",
    "image": "",
    "date": "2026-10-22",
    "tags": [],
@@ -272,9 +272,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/penta-cd-player-changer",
-   "title": "Penta",
-   "summary": "A ’90s 5-disc CD changer on iPhone Duo Discussion | Link",
+   "url": "https://www.producthunt.com/products/byter",
+   "title": "Byter",
+   "summary": "Know exactly how much data you use, on every network Discussion | Link",
    "image": "",
    "date": "2026-10-21",
    "tags": [],
@@ -282,9 +282,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/byter",
-   "title": "Byter",
-   "summary": "Know exactly how much data you use, on every network Discussion | Link",
+   "url": "https://www.producthunt.com/products/penta-cd-player-changer",
+   "title": "Penta",
+   "summary": "A ’90s 5-disc CD changer on iPhone Duo Discussion | Link",
    "image": "",
    "date": "2026-10-21",
    "tags": [],
@@ -342,9 +342,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/how-it-spread",
-   "title": "How It Spread",
-   "summary": "See how anything went viral, from the first post Discussion | Link",
+   "url": "https://www.producthunt.com/products/tower",
+   "title": "git-flow-next",
+   "summary": "Your favorite Git workflow. Reimagined. Discussion | Link",
    "image": "",
    "date": "2026-10-19",
    "tags": [],
@@ -352,9 +352,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/tower",
-   "title": "git-flow-next",
-   "summary": "Your favorite Git workflow. Reimagined. Discussion | Link",
+   "url": "https://www.producthunt.com/products/how-it-spread",
+   "title": "How It Spread",
+   "summary": "See how anything went viral, from the first post Discussion | Link",
    "image": "",
    "date": "2026-10-19",
    "tags": [],
@@ -372,9 +372,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/clips-by-plastic",
-   "title": "Clips by Plastic",
-   "summary": "Lyric video ads for every part of your song, on the beat Discussion | Link",
+   "url": "https://www.producthunt.com/products/openstatus-2",
+   "title": "Openstatus Incident Management",
+   "summary": "Incident management for small teams Discussion | Link",
    "image": "",
    "date": "2026-10-17",
    "tags": [],
@@ -382,9 +382,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/openstatus-2",
-   "title": "Openstatus Incident Management",
-   "summary": "Incident management for small teams Discussion | Link",
+   "url": "https://www.producthunt.com/products/clips-by-plastic",
+   "title": "Clips by Plastic",
+   "summary": "Lyric video ads for every part of your song, on the beat Discussion | Link",
    "image": "",
    "date": "2026-10-17",
    "tags": [],
@@ -516,6 +516,6 @@
  "parser": 2,
  "status": "ok",
  "error": "",
- "etag": "W/\"2348cf131baed01ad0886f2bab159615\"",
- "modified": "Mon, 26 Oct 2026 08:26:12 GMT"
+ "etag": "W/\"d5e03d21232e06a95cd7410cbdbffe14\"",
+ "modified": "Mon, 26 Oct 2026 08:52:21 GMT"
 }

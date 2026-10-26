@@ -9,33 +9,6 @@
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/ai/6484157.html",
-      "url": "https://www.woshipm.com/ai/6484157.html",
-      "title": "设计师与产品经理的消费路径：从被动遵守到主动走查",
-      "content_text": "设计意图如何从一句模糊的“这个报错不对”变成机器可执行的规则？本文深入解析YAML契约与编译管线，揭示设计师如何通过6字段快照将直觉转化为证据，并借助自动同步的Checklist实现规则的外置记忆。从语义快照到契约编译，再到多角色消费，一条让规则自动抵达设计现场的路径清晰浮现。 开篇：从”生产设计稿”到”消费规则产物”…",
-      "summary": "设计意图如何从一句模糊的“这个报错不对”变成机器可执行的规则？本文深入解析YAML契约与编译管线，揭示设计师如何通过6字段快照将直觉转化为证据，并借助自动同步的Checklist实现规则的外置记忆。从语义快照到契约编译，再到多角色消费，一条让规则自动抵达设计现场的路径清晰浮现。 开篇：从”生产设计稿”到”消费规则产物”…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "AI",
-        "个人随笔",
-        "Checklist",
-        "YAML契约",
-        "编译管线",
-        "设计系统",
-        "设计走查",
-        "语义快照"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
       "id": "https://www.woshipm.com/ai/6483433.html",
       "url": "https://www.woshipm.com/ai/6483433.html",
       "title": "用 AI 做自媒体，完整流程应该怎么做？附技能包",
@@ -251,6 +224,33 @@
       }
     },
     {
+      "id": "https://www.woshipm.com/ai/6484231.html",
+      "url": "https://www.woshipm.com/ai/6484231.html",
+      "title": "医药业这样用WorkBuddy就对了",
+      "content_text": "《医药代表管理办法》8 月 1 日施行，带金销售走到头，学术推广、合规话术、文献整理全压到个人身上。作者按四个真实场景给出提示词模板，把合规自查嵌进写话术的步骤里，其他行业也能照着改。 医药行业今年最大的变化不是在市场层面，而是相关的法律法规。8月1日《医药代表管理办法》正式施行，七个部门联合把学术推广的全链条合规要求…",
+      "summary": "《医药代表管理办法》8 月 1 日施行，带金销售走到头，学术推广、合规话术、文献整理全压到个人身上。作者按四个真实场景给出提示词模板，把合规自查嵌进写话术的步骤里，其他行业也能照着改。 医药行业今年最大的变化不是在市场层面，而是相关的法律法规。8月1日《医药代表管理办法》正式施行，七个部门联合把学术推广的全链条合规要求…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "AI应用",
+        "WorkBuddy",
+        "企业服务",
+        "经验分享",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
       "id": "https://www.woshipm.com/share/6483956.html",
       "url": "https://www.woshipm.com/share/6483956.html",
       "title": "信贷资方对接",
@@ -416,8 +416,8 @@
       "id": "https://sspai.com/post/117414",
       "url": "https://sspai.com/post/117414",
       "title": "秋冬换季护肤买什么，双 11 选购推荐",
-      "content_text": "一场秋雨一场寒，转眼间，已经到了秋冬季节。秋冬在护肤品的选择上和夏季略有不同，无论你是哪种肤质，通常情况下都需要使用润度更高、保湿力更强的产品。应读者的热情邀请，在双十一到来之际，我加更一期秋冬护肤品 ...查看全文",
-      "summary": "一场秋雨一场寒，转眼间，已经到了秋冬季节。秋冬在护肤品的选择上和夏季略有不同，无论你是哪种肤质，通常情况下都需要使用润度更高、保湿力更强的产品。应读者的热情邀请，在双十一到来之际，我加更一期秋冬护肤品 ...查看全文",
+      "content_text": "双 11 到来之际的秋冬护肤选购与搭配建议。查看全文",
+      "summary": "双 11 到来之际的秋冬护肤选购与搭配建议。查看全文",
       "date_published": "2026-10-26T00:00:00Z",
       "tags": [
         "效率",
@@ -632,6 +632,27 @@
       "title": "Oil slides over 2% as traders weigh Saudi attack risks, demand destruction",
       "content_text": "Oil prices fell as investors weighed the threat of further attacks on Saudi Arabian energy infrastructure against concerns that elevated prices could erode dema…",
       "summary": "Oil prices fell as investors weighed the threat of further attacks on Saudi Arabian energy infrastructure against concerns that elevated prices could erode dema…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html",
+      "url": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html",
+      "title": "Neocloud stocks fall as Elon Musk says more than 200 of them face 'guppy-level death'",
+      "content_text": "Investors are already questioning the debt-fueled expansion of neoclouds and whether the large AI infrastructure build-out will generate long-term returns.",
+      "summary": "Investors are already questioning the debt-fueled expansion of neoclouds and whether the large AI infrastructure build-out will generate long-term returns.",
       "date_published": "2026-10-26T00:00:00Z",
       "tags": [
         "金融",
@@ -1200,29 +1221,6 @@
       "image": "https://preview.redd.it/xju4c8w7ykxh1.jpeg?width=640&crop=smart&auto=webp&s=824546d120423c844b84aaff2b27158f11948eff",
       "tags": [
         "memes",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/funny/comments/1xeyvef/varying_degrees_of_success/",
-      "url": "https://www.reddit.com/r/funny/comments/1xeyvef/varying_degrees_of_success/",
-      "title": "Varying degrees of success.",
-      "content_text": "submitted by /u/hamizoing to r/funny [link] [comments]",
-      "summary": "submitted by /u/hamizoing to r/funny [link] [comments]",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://preview.redd.it/jue1jzwcblxh1.jpeg?width=640&crop=smart&auto=webp&s=73f3cbe454a0c4cf9ff38f4b3faea23df4571833",
-      "tags": [
-        "funny",
         "社区",
         "热榜"
       ],

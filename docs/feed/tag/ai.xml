@@ -7,23 +7,6 @@
   <updated>2026-10-26T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6484157.html</id>
-    <title>设计师与产品经理的消费路径：从被动遵守到主动走查</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484157.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">设计意图如何从一句模糊的“这个报错不对”变成机器可执行的规则？本文深入解析YAML契约与编译管线，揭示设计师如何通过6字段快照将直觉转化为证据，并借助自动同步的Checklist实现规则的外置记忆。从语义快照到契约编译，再到多角色消费，一条让规则自动抵达设计现场的路径清晰浮现。 开篇：从”生产设计稿”到”消费规则产物”…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="Checklist"/>
-    <category term="YAML契约"/>
-    <category term="编译管线"/>
-    <category term="设计系统"/>
-    <category term="设计走查"/>
-    <category term="语义快照"/>
-  </entry>
-  <entry>
     <id>https://www.woshipm.com/ai/6483433.html</id>
     <title>用 AI 做自媒体，完整流程应该怎么做？附技能包</title>
     <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483433.html"/>
@@ -88,6 +71,23 @@
     <category term="DeepSeek"/>
     <category term="发展历史"/>
     <category term="开源项目"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6484231.html</id>
+    <title>医药业这样用WorkBuddy就对了</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484231.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">《医药代表管理办法》8 月 1 日施行，带金销售走到头，学术推广、合规话术、文献整理全压到个人身上。作者按四个真实场景给出提示词模板，把合规自查嵌进写话术的步骤里，其他行业也能照着改。 医药行业今年最大的变化不是在市场层面，而是相关的法律法规。8月1日《医药代表管理办法》正式施行，七个部门联合把学术推广的全链条合规要求…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI应用"/>
+    <category term="WorkBuddy"/>
+    <category term="企业服务"/>
+    <category term="经验分享"/>
     <category term="产品"/>
     <category term="运营"/>
   </entry>

@@ -51,6 +51,17 @@
     <category term="新闻"/>
   </entry>
   <entry>
+    <id>https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html</id>
+    <title>Neocloud stocks fall as Elon Musk says more than 200 of them face 'guppy-level death'</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Investors are already questioning the debt-fueled expansion of neoclouds and whether the large AI infrastructure build-out will generate long-term returns.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
     <id>https://www.cnbc.com/2026/10/26/defense-tech-private-equity-investment.html</id>
     <title>Defense tech investment boom sparks bubble warning as private equity pours in</title>
     <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/26/defense-tech-private-equity-investment.html"/>
@@ -321,17 +332,6 @@
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
     <summary type="text">Trump's executive order on housing aims to lower mortgage costs. Here's what it means for homeowners and buyers.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html</id>
-    <title>Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">Moody's left its credit rating on France at Aa3, giving the country some relief in a week of unrest.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>

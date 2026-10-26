@@ -93,6 +93,27 @@
       }
     },
     {
+      "id": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html",
+      "url": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html",
+      "title": "Neocloud stocks fall as Elon Musk says more than 200 of them face 'guppy-level death'",
+      "content_text": "Investors are already questioning the debt-fueled expansion of neoclouds and whether the large AI infrastructure build-out will generate long-term returns.",
+      "summary": "Investors are already questioning the debt-fueled expansion of neoclouds and whether the large AI infrastructure build-out will generate long-term returns.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
       "id": "https://www.cnbc.com/2026/10/26/defense-tech-private-equity-investment.html",
       "url": "https://www.cnbc.com/2026/10/26/defense-tech-private-equity-investment.html",
       "title": "Defense tech investment boom sparks bubble warning as private equity pours in",
@@ -602,27 +623,6 @@
       "title": "Trump's executive order targets mortgage insurance, refinance costs. What it means for borrowers",
       "content_text": "Trump's executive order on housing aims to lower mortgage costs. Here's what it means for homeowners and buyers.",
       "summary": "Trump's executive order on housing aims to lower mortgage costs. Here's what it means for homeowners and buyers.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html",
-      "url": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html",
-      "title": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
-      "content_text": "Moody's left its credit rating on France at Aa3, giving the country some relief in a week of unrest.",
-      "summary": "Moody's left its credit rating on France at Aa3, giving the country some relief in a week of unrest.",
       "date_published": "2026-10-23T00:00:00Z",
       "tags": [
         "金融",
