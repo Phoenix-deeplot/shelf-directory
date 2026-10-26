@@ -207,6 +207,32 @@
    ],
    "added": "2026-10-25",
    "issue": 22
+  },
+  {
+   "id": "feeds-simplecast-com",
+   "kind": "feed",
+   "url": "https://feeds.simplecast.com/Y8lFbOT4",
+   "source": "https://feeds.simplecast.com/Y8lFbOT4",
+   "name": "Freakonomics Radio",
+   "tags": [
+    "经济",
+    "思考"
+   ],
+   "added": "2026-10-26",
+   "issue": 29
+  },
+  {
+   "id": "podcasts-files-bbci-co-uk",
+   "kind": "feed",
+   "url": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
+   "source": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
+   "name": "6 Minute English",
+   "tags": [
+    "英语学习",
+    "英语听力"
+   ],
+   "added": "2026-10-26",
+   "issue": 28
   }
  ]
 }

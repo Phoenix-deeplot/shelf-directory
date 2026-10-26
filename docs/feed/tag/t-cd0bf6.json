@@ -30,6 +30,27 @@
       }
     },
     {
+      "id": "https://freakonomics.com",
+      "url": "https://freakonomics.com",
+      "title": "692. What Will A.I. Do to (and for) Human Creativity?",
+      "content_text": "Writers, designers, actors, coders, musicians, thinkers — they’re all worried about being replaced by machines. But what if the A.I.s are actually here to help?…",
+      "summary": "Writers, designers, actors, coders, musicians, thinkers — they’re all worried about being replaced by machines. But what if the A.I.s are actually here to help?…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "经济",
+        "思考"
+      ],
+      "authors": [
+        {
+          "name": "Freakonomics Radio"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "feeds-simplecast-com"
+      }
+    },
+    {
       "id": "https://ourworldindata.org/when-do-people-experience-mental-health-conditions-for-the-first-time",
       "url": "https://ourworldindata.org/when-do-people-experience-mental-health-conditions-for-the-first-time",
       "title": "When do people experience mental health conditions for the first time?",

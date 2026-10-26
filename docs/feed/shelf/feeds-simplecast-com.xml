@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/shelf/feeds-simplecast-com.xml</id>
+  <title>公共目录 · Freakonomics Radio</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/feeds-simplecast-com.xml"/>
+  <updated>2026-10-23T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://freakonomics.com</id>
+    <title>692. What Will A.I. Do to (and for) Human Creativity?</title>
+    <link rel="alternate" type="text/html" href="https://freakonomics.com"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">Writers, designers, actors, coders, musicians, thinkers — they’re all worried about being replaced by machines. But what if the A.I.s are actually here to help?…</summary>
+    <source><title>Freakonomics Radio</title></source>
+    <category term="经济"/>
+    <category term="思考"/>
+  </entry>
+</feed>
