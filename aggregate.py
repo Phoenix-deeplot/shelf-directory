@@ -9,6 +9,9 @@
   python aggregate.py reject --event FILE --out FILE remember a refused submission (its hash only) and close it
   python aggregate.py apply --result FILE            post the result of `issue` / `approve` / `reject` in the issue (GitHub Action)
   python aggregate.py remove ID | post:SLUG          take a shelf, or a hosted post, out of the directory
+  python aggregate.py set ID [--status S] [--rights R] [--topics a,b] [--platform P] [--note TEXT]   what you say about a source (S: fixed | dynamic | trial | paused;
+                                                              R: official-link | licensed | unknown; '' clears topics / platform / note)
+  python aggregate.py shelves                        every registered source with its status, rights, topics, platform and number of articles
   python aggregate.py fetch [--only ID]              read every registered source into registry/snapshots/
   python aggregate.py build                          write docs/ (directory.json, feeds, shelves.opml) from the snapshots
   python aggregate.py run                            fetch + build (the daily job)
@@ -473,8 +476,8 @@ def decode(body, headers=None):
     return body.decode('utf-8', 'replace')
 
 
-def fetch(url, accept='*/*', max_bytes=MAX_BYTES, headers=None, truncate=False):
-    """-> (final address, response headers in lower case, body). Raises Refused, or Unchanged on 304."""
+def fetch(url, accept='*/*', max_bytes=MAX_BYTES, headers=None, truncate=False, soft_xml=False):
+    """-> (final address, response headers in lower case, body). Raises Refused, or Unchanged on 304. soft_xml: an XML document that is too long (a podcast's whole history) is cut at the limit, not refused."""
     check_url(url)
     timeout = TIMEOUT
     if DEADLINE is not None:                                    # a caller with a time limit of its own (the submit function): the whole reading must end by then
@@ -492,7 +495,7 @@ def fetch(url, accept='*/*', max_bytes=MAX_BYTES, headers=None, truncate=False):
         with urllib.request.build_opener(*handlers).open(req, timeout=timeout) as r:
             body = r.read(max_bytes + 1)
             if len(body) > max_bytes:
-                if not truncate:
+                if not (truncate or (soft_xml and 'xml' in (r.headers.get('Content-Type') or '').lower())):
                     raise Refused('文件太大（超过 %d MB）' % (max_bytes // 1048576 or 1), 'The file is too large')
                 body = body[:max_bytes]
             return r.geturl(), {k.lower(): v for k, v in r.headers.items()}, body
@@ -599,6 +602,57 @@ def _media_image(el):
     return ''
 
 
+AUDIO_EXT = ('.mp3', '.m4a', '.aac', '.ogg', '.oga', '.opus', '.wav', '.flac')
+
+
+def _seconds(v):
+    """A duration as feeds write it ('3600', '1:02:03', '62:03', 3600.0) -> whole seconds; 0 when it is not one."""
+    s = str(v if v is not None else '').strip()
+    if not s:
+        return 0
+    try:
+        parts = [float(x) for x in s.split(':')]
+    except ValueError:
+        return 0
+    if not 1 <= len(parts) <= 3 or any(p < 0 for p in parts):
+        return 0
+    sec = 0.0
+    for p in parts:
+        sec = sec * 60 + p
+    return int(sec) if 0 < sec < 3 * 86400 else 0
+
+
+def _sound(url, mime, dur, base=''):
+    """The sound of an episode -> {'url', 'type', 'dur'}, or None when what the feed attaches is not audio. Only the address is kept: nothing of the sound is ever fetched here."""
+    url, mime = abs_url(url, base), (mime or '').split(';')[0].strip().lower()
+    if not url:
+        return None
+    ext = urllib.parse.urlsplit(url).path.lower().endswith(AUDIO_EXT)
+    if not (mime.startswith('audio/') or (mime in ('', 'application/octet-stream', 'binary/octet-stream') and ext)):
+        return None
+    return {'url': url, 'type': mime if mime.startswith('audio/') else '', 'dur': _seconds(dur)}
+
+
+def _channel_image(channel, base):
+    for c in _kids(channel, 'image'):                    # <itunes:image href="…"/> or <image><url>…</url></image>
+        u = abs_url(c.get('href') or _txt(_kid(c, 'url')), base)
+        if u.startswith('https://'):
+            return u
+    return ''
+
+
+def _repair_cut(body):
+    """A feed that was cut at the size limit -> its root element with the whole items that came before the cut, or None."""
+    for close, end in ((b'</item>', b'</channel></rss>'), (b'</entry>', b'</feed>')):
+        i = body.rfind(close)
+        if i > 0:
+            try:
+                return ET.fromstring(body[:i + len(close)].lstrip(b'\xef\xbb\xbf \t\r\n') + end)
+            except ET.ParseError:
+                return None
+    return None
+
+
 def sniff(headers, body):
     """'jsonfeed', 'xmlfeed' or 'other' (a page)."""
     head = body[:4096].lstrip(b'\xef\xbb\xbf \t\r\n')
@@ -619,15 +673,16 @@ def parse_jsonfeed(d, base):
         raise Refused('不是有效的订阅源', 'Not a valid feed')
     ext = d.get('_shelf') if isinstance(d.get('_shelf'), dict) else {}
     shelf = {'name': clean(d.get('title'), 80), 'description': clean(d.get('description'), 200), 'home': abs_url(d.get('home_page_url'), base),
-             'lang': d.get('language') or '', 'license': clean(ext.get('license'), 80)}
+             'lang': d.get('language') or '', 'license': clean(ext.get('license'), 80), 'image': (abs_url(d.get('icon'), base) if abs_url(d.get('icon'), base).startswith('https://') else '')}
     items = []
     for e in d['items'][:MAX_ITEMS]:
         if not isinstance(e, dict):
             continue
-        mime = ''
+        mime, sound = '', None
         for a in e.get('attachments') or []:
             if isinstance(a, dict) and str(a.get('mime_type', '')).split('/')[0] in ('video', 'audio', 'application'):
                 mime = a['mime_type']
+                sound = sound or _sound(a.get('url'), a['mime_type'], a.get('duration_in_seconds'), base)
                 break
         es = e.get('_shelf') if isinstance(e.get('_shelf'), dict) else {}
         summary = e.get('summary') or e.get('content_text') or strip_html(e.get('content_html') or '')
@@ -637,8 +692,10 @@ def parse_jsonfeed(d, base):
         if es.get('category'):                         # a site that lists its category among the tags: the category is not a tag of the directory
             tags = [t for t in tags if str(t).casefold() != str(es['category']).casefold()]
         it = make_item(e.get('url') or e.get('external_url'), e.get('title'), strip_html(summary), e.get('image') or e.get('banner_image'),
-                       e.get('date_published') or e.get('date_modified'), tags, e.get('language') or shelf['lang'], es.get('type'), base, mime)
+                       e.get('date_published') or e.get('date_modified'), tags, e.get('language') or shelf['lang'], es.get('type') or ('audio' if sound else ''), base, mime)
         if it:
+            if sound:
+                it['audio'] = sound
             if _want_content():
                 it['_content'] = str(e.get('content_html') or _text_html(e.get('content_text')) or '')[:RAW_CONTENT]
             items.append(it)
@@ -660,26 +717,33 @@ def parse_atom(root, base):
             home = l.get('href')
             break
     shelf = {'name': clean(_xml_text(_kid(root, 'title')), 80), 'description': clean(_xml_text(_kid(root, 'subtitle')), 200), 'home': abs_url(home, base),
-             'lang': root.get('{%s}lang' % NS_XML) or '', 'license': ''}
+             'lang': root.get('{%s}lang' % NS_XML) or '', 'license': '',
+             'image': (abs_url(_txt(_kid(root, 'logo')) or _txt(_kid(root, 'icon')), base) if abs_url(_txt(_kid(root, 'logo')) or _txt(_kid(root, 'icon')), base).startswith('https://') else '')}
     items = []
     for e in _kids(root, 'entry')[:MAX_ITEMS]:
-        link, mime = '', ''
+        link, mime, sound = '', '', None
         for l in _kids(e, 'link'):
             rel = l.get('rel') or 'alternate'
             if rel == 'alternate' and l.get('href') and not link:
                 link = l.get('href')
             elif rel == 'enclosure' and l.get('type') and not mime:
                 mime = l.get('type')
+            if rel == 'enclosure' and not sound:
+                sound = _sound(l.get('href'), l.get('type'), _txt(_kid(e, 'duration')), base)
+        if not link and sound:
+            link = sound['url']
         summary = _xml_text(_kid(e, 'summary')) or ''
         if not summary:
             group = _deep(e, 'description')
             summary = clean(_txt(group[0])) if group else ''
         if not summary:
             summary = _xml_text(_kid(e, 'content'))
-        hint = 'video' if _deep(e, 'videoId') else ''
+        hint = 'video' if _deep(e, 'videoId') else 'audio' if sound else ''
         it = make_item(link, _xml_text(_kid(e, 'title')), summary, _media_image(e), _txt(_kid(e, 'published')) or _txt(_kid(e, 'updated')),
                        [c.get('term') or c.get('label') for c in _kids(e, 'category')], e.get('{%s}lang' % NS_XML) or shelf['lang'], hint, base, mime)
         if it:
+            if sound:
+                it['audio'] = sound
             if _want_content():
                 it['_content'] = _atom_content(e)[:RAW_CONTENT]
             items.append(it)
@@ -691,17 +755,21 @@ def parse_rss(root, base):
     if channel is None:
         raise Refused('不是有效的订阅源', 'Not a valid feed')
     shelf = {'name': clean(_xml_text(_kid(channel, 'title')), 80), 'description': clean(strip_html(_txt(_kid(channel, 'description'))), 200),
-             'home': abs_url(_txt(_kid(channel, 'link')), base), 'lang': _txt(_kid(channel, 'language')), 'license': ''}
+             'home': abs_url(_txt(_kid(channel, 'link')), base), 'lang': _txt(_kid(channel, 'language')), 'license': '', 'image': _channel_image(channel, base)}
     items = []
     for e in [x for x in (channel if _l(root) == 'rss' else root).iter() if _l(x) == 'item'][:MAX_ITEMS]:
         link = _txt(_kid(e, 'link'))
         guid = _kid(e, 'guid')
         if not link and guid is not None and guid.get('isPermaLink', 'true') != 'false':
             link = _txt(guid)
-        mime = ''
+        mime, sound = '', None
         for enc in _kids(e, 'enclosure'):
             if enc.get('type'):
                 mime = enc.get('type')
+            if not sound:
+                sound = _sound(enc.get('url'), enc.get('type'), _txt(_kid(e, 'duration')), base)
+        if not link and sound:
+            link = sound['url']                               # an episode with no page of its own: the sound is its address
         summary = strip_html(_txt(_kid(e, 'description'))) or strip_html(_txt(_kid(e, 'encoded')))
         image = _media_image(e)
         if not image:
@@ -709,9 +777,11 @@ def parse_rss(root, base):
                 if (enc.get('type') or '').startswith('image/'):
                     image = enc.get('url') or ''
         it = make_item(link, clean(_txt(_kid(e, 'title'))), summary, image, _txt(_kid(e, 'pubDate')) or _txt(_kid(e, 'date')),
-                       [_txt(c) for c in _kids(e, 'category')] + [_txt(c) for c in _kids(e, 'subject')], shelf['lang'], '', base,
+                       [_txt(c) for c in _kids(e, 'category')] + [_txt(c) for c in _kids(e, 'subject')], shelf['lang'], 'audio' if sound else '', base,
                        mime if not mime.startswith('image/') else '')
         if it:
+            if sound:
+                it['audio'] = sound
             if _want_content():
                 it['_content'] = (_txt(_kid(e, 'encoded')) or _txt(_kid(e, 'description')))[:RAW_CONTENT]
             items.append(it)
@@ -730,7 +800,9 @@ def parse_feed(body, headers, base):
     try:
         root = ET.fromstring(body.lstrip(b'\xef\xbb\xbf \t\r\n'))
     except ET.ParseError:
-        raise Refused('订阅源的 XML 格式有误', 'The feed is not well-formed XML')
+        root = _repair_cut(body) if len(body) >= MAX_BYTES else None          # cut at the size limit: the whole items before the cut (the newest are first)
+        if root is None:
+            raise Refused('订阅源的 XML 格式有误', 'The feed is not well-formed XML')
     name = _l(root)
     if name == 'feed':
         return parse_atom(root, base)
@@ -1187,7 +1259,7 @@ def read_feed(entry, prev=None, pre=None):
         if prev.get('modified'):
             cond['If-Modified-Since'] = prev['modified']
     if pre is None:
-        pre = fetch(entry['source'], 'application/feed+json,application/atom+xml,application/rss+xml,application/xml;q=0.9,text/xml;q=0.9,*/*;q=0.5', headers=cond)
+        pre = fetch(entry['source'], 'application/feed+json,application/atom+xml,application/rss+xml,application/xml;q=0.9,text/xml;q=0.9,*/*;q=0.5', headers=cond, soft_xml=True)
     final, h, body = pre
     shelf, items = parse_feed(body, h, final)
     shelf['tags'] = []
@@ -1244,7 +1316,7 @@ def discover(raw):
     disallowed = not feed_like(url) and not robots_allows(url)
     page = None
     if not disallowed:
-        pre = fetch(url, 'text/html,application/xhtml+xml,application/atom+xml,application/rss+xml,application/feed+json,application/xml;q=0.8,*/*;q=0.5')
+        pre = fetch(url, 'text/html,application/xhtml+xml,application/atom+xml,application/rss+xml,application/feed+json,application/xml;q=0.8,*/*;q=0.5', soft_xml=True)
         final, h, body = pre
         if sniff(h, body) != 'other':
             return {'kind': 'feed', 'url': url, 'source': final}, pre, []
@@ -1261,7 +1333,7 @@ def discover(raw):
                 continue
             seen.add(f)
             try:
-                fp = fetch(f, 'application/feed+json,application/atom+xml,application/rss+xml,application/xml;q=0.9,*/*;q=0.5')
+                fp = fetch(f, 'application/feed+json,application/atom+xml,application/rss+xml,application/xml;q=0.9,*/*;q=0.5', soft_xml=True)
             except (Refused, Unchanged) as ex:
                 if f in linked:
                     failed.append((f, str(ex)))
@@ -1322,6 +1394,107 @@ def load_topics():
         if tags and len(out) < 30:
             out.append({'id': t['id'], 'zh': clean(t.get('zh') or t.get('en') or t['id'], 20), 'en': clean(t.get('en') or t.get('zh') or t['id'], 24), 'tags': tags})
     return out or DEFAULT_TOPICS
+
+
+# ---- what the owner says about a source (registry/shelves.json). Every field is optional, an older registry works as it is.
+STATUSES = ('fixed', 'dynamic', 'trial', 'paused')      # long-term / comes and goes with what is hot / a new source on trial / kept (registration and history) but not read and not shown
+RIGHTS = ('official-link', 'licensed', 'unknown')       # an official feed or API, only title + summary + link are used / the author allowed it / not confirmed
+NOTE_MAX = 200                                          # a note is for the maintainer: it is never written to docs/
+PLATFORM_ID = re.compile(r'^[a-z0-9][a-z0-9-]{0,29}$')
+COLUMN_ID = re.compile(r'^[a-z0-9-]{1,20}$')
+COLUMN_NAME, MAX_COLUMNS = 24, 12
+
+
+def check_source_fields(raw, topic_ids=None):
+    """-> ({field: value} of what is valid, [(zh, en) problem]) for the fields status, rights, topics, platform and note of `raw` (a registry entry, or what `set` was given).
+    A field that is not there is neither; a bad value is a problem and is left out (a list of topics keeps the ones that are right)."""
+    ids = topic_ids if topic_ids is not None else {t['id'] for t in load_topics()}
+    out, bad = {}, []
+    for field, allowed in (('status', STATUSES), ('rights', RIGHTS)):
+        if field in raw:
+            if raw[field] in allowed:
+                out[field] = raw[field]
+            else:
+                bad.append(('%s 只能是：%s' % (field, ' / '.join(allowed)), '%s must be one of: %s' % (field, ', '.join(allowed))))
+    if 'topics' in raw:
+        v = raw['topics']
+        if not isinstance(v, list) or not all(isinstance(x, str) for x in v):
+            bad.append(('topics 要写成领域编号的列表', 'topics must be a list of topic ids'))
+        else:
+            good = []
+            for x in v:
+                x = x.strip()
+                if x in ids:
+                    if x not in good:
+                        good.append(x)
+                else:
+                    bad.append(('没有这个领域：%s（可用：%s）' % (x, ' '.join(sorted(ids))), 'No such topic: %s (known: %s)' % (x, ' '.join(sorted(ids)))))
+            if good:
+                out['topics'] = good
+    if 'platform' in raw:
+        v = raw['platform']
+        if isinstance(v, str) and PLATFORM_ID.fullmatch(v.strip().lower()):
+            out['platform'] = v.strip().lower()
+        else:
+            bad.append(('platform 要写平台编号，如 zhihu、youtube、bilibili、wechat（小写字母、数字、短横线）', 'platform must be a platform id such as zhihu, youtube, bilibili, wechat (lower case letters, digits, hyphens)'))
+    if 'note' in raw:
+        v = raw['note']
+        if isinstance(v, str) and len(clean(v)) <= NOTE_MAX:
+            if clean(v):
+                out['note'] = clean(v)
+        else:
+            bad.append(('note 是文字，最多 %d 字' % NOTE_MAX, 'note is text of at most %d characters' % NOTE_MAX))
+    return out, bad
+
+
+def load_columns(topic_ids=None, log=print):
+    """-> the "columns" of registry/config.json, checked (a list; None when the file has none or none is fit to use). A column that is not right is left out, and said so.
+    A column: id, zh, en, and optionally topics (topic ids), platforms (platform ids), types (of TYPES). At most MAX_COLUMNS."""
+    raw = config().get('columns')
+    if raw is None:
+        return None
+    if not isinstance(raw, list):
+        log('build: "columns" in config.json must be a list: ignored')
+        return None
+    ids = topic_ids if topic_ids is not None else {t['id'] for t in load_topics()}
+    out, taken = [], set()
+    for n, c in enumerate(raw, 1):
+        def drop(why, c=c, n=n):
+            log('build: columns[%d]%s left out: %s' % (n - 1, ' (%s)' % c.get('id') if isinstance(c, dict) and isinstance(c.get('id'), str) else '', why))
+        if not isinstance(c, dict) or not isinstance(c.get('id'), str) or not COLUMN_ID.fullmatch(c['id']):
+            drop('id must be 1-20 of a-z 0-9 -')
+            continue
+        if c['id'] in taken:
+            drop('the id is used twice')
+            continue
+        names = [clean(c.get(k)) if isinstance(c.get(k), str) else '' for k in ('zh', 'en')]
+        if not all(names) or any(len(x) > COLUMN_NAME for x in names):
+            drop('zh and en are needed, at most %d characters each' % COLUMN_NAME)
+            continue
+        col, why = {'id': c['id'], 'zh': names[0], 'en': names[1]}, ''
+        for key, ok in (('topics', lambda x: x in ids), ('platforms', lambda x: bool(PLATFORM_ID.fullmatch(x))), ('types', lambda x: x in TYPES)):
+            if key not in c:
+                continue
+            v = c[key]
+            if not isinstance(v, list) or not all(isinstance(x, str) and ok(x.strip().lower() if key == 'platforms' else x.strip()) for x in v):
+                why = '%s: a list of known %s' % (key, {'topics': 'topic ids', 'platforms': 'platform ids', 'types': 'types (%s)' % ' '.join(TYPES)}[key])
+                break
+            vals = []
+            for x in v:
+                x = x.strip().lower() if key == 'platforms' else x.strip()
+                if x not in vals:
+                    vals.append(x)
+            if vals:
+                col[key] = vals
+        if why:
+            drop(why)
+            continue
+        if len(out) >= MAX_COLUMNS:
+            drop('there can be %d columns at most' % MAX_COLUMNS)
+            continue
+        taken.add(c['id'])
+        out.append(col)
+    return out or None
 
 
 def load_registry():
@@ -1543,7 +1716,11 @@ def probe(raw):
     return out
 
 
-def approve(raw, tags=None, issue=None, starter=False, featured=False, blurb=''):
+def approve(raw, tags=None, issue=None, starter=False, featured=False, blurb='', fields=None):
+    """`fields`: what is said about the source from the start (status, rights, topics, platform, note), checked like `set` does; a bad one refuses before anything is read."""
+    given, bad = check_source_fields(fields or {})
+    if bad:
+        raise Refused(bad[0][0], bad[0][1])
     r = probe(raw)
     if r['duplicate']:
         zh, en = DUPLICATE_TEXT[r['duplicate'][0]]
@@ -1564,7 +1741,9 @@ def approve(raw, tags=None, issue=None, starter=False, featured=False, blurb='')
         e['featured'] = True                                   # the owner's pick: shown first on the directory page (directory.json: shelves[].featured, with blurb)
         if blurb:
             e['blurb'] = clean(blurb, 120)
-    reg['shelves'].append({k: e[k] for k in ('id', 'kind', 'sub', 'url', 'source', 'repo', 'gist', 'name', 'tags', 'added', 'issue', 'bare', 'starter', 'featured', 'blurb') if k in e})
+    e.update(given)
+    reg['shelves'].append({k: e[k] for k in ('id', 'kind', 'sub', 'url', 'source', 'repo', 'gist', 'name', 'tags', 'added', 'issue', 'bare', 'starter', 'featured', 'blurb',
+                                              'status', 'rights', 'topics', 'platform', 'note') if k in e})
     write_json(reg_path(), reg)
     if r.get('unread'):
         write_json(os.path.join(snap_dir(), e['id'] + '.json'), {'id': e['id'], 'kind': e['kind'], 'parser': PARSER, 'status': 'ok', 'error': '', 'fails': 0, 'shelf': r['shelf'], 'items': r['items']})
@@ -1593,6 +1772,37 @@ def feature(sid, on=True, blurb=None):
             write_json(reg_path(), reg)
             return e
     raise Refused('没有这个书架：' + sid, 'No such shelf: ' + sid)
+
+
+def source_given(status=None, rights=None, topics=None, platform=None, note=None):
+    """-> {field: value} of what was given: None is not given; a status or rights of '' neither (they always have one); an empty topics / platform / note is "take it away". topics may be a text 'a,b'."""
+    if isinstance(topics, str):
+        topics = [x for x in re.split(r'[,，\s]+', topics) if x]
+    return {k: v for k, v in (('status', status), ('rights', rights), ('topics', topics), ('platform', platform), ('note', note))
+            if v is not None and not (v == '' and k in ('status', 'rights'))}
+
+
+def set_source(sid, status=None, rights=None, topics=None, platform=None, note=None):
+    """Say something about a listed source. None: leave as it is. topics (a list, or a text 'a,b'), platform and note: '' takes the value away. A value that is not right refuses, nothing is written."""
+    if not re.fullmatch(r'[a-z0-9-]+', sid or ''):
+        raise Refused('书架编号不对', 'Bad shelf id')
+    given = source_given(status, rights, topics, platform, note)
+    checked, bad = check_source_fields({k: v for k, v in given.items() if v not in ('', [])})
+    if bad:
+        raise Refused(bad[0][0], bad[0][1])
+    reg = load_registry()
+    for e in reg['shelves']:
+        if e['id'] == sid:
+            for k, v in given.items():
+                if v in ('', []):
+                    e.pop(k, None)                                  # taken away
+                elif k in checked:
+                    e[k] = checked[k]
+                elif k == 'note':
+                    e.pop(k, None)                                  # a note of nothing but blanks
+            write_json(reg_path(), reg)
+            return e
+    raise Refused('目录里没有这个书架：' + sid, 'No such shelf: ' + sid)
 
 
 def remove(sid):
@@ -1630,6 +1840,9 @@ def fetch_all(only=None, log=print):
     ok = bad = 0
     for e in reg['shelves']:
         if only and e['id'] != only:
+            continue
+        if not only and e.get('status') == 'paused':
+            log('skip  %-28s (paused)' % e['id'])
             continue
         prev = load_snapshot(e['id'])
         snap = dict(prev) if prev else {'id': e['id'], 'items': [], 'shelf': {}, 'fails': 0}
@@ -1725,7 +1938,15 @@ def build():
     repo = str(cfg.get('repo') or os.environ.get('GITHUB_REPOSITORY') or '').strip()
     shelves, items, seen, seen_sha = {}, [], set(), set()
     sources = []
+    ids = {x['id'] for x in load_topics()}
+    mine, paused = {}, 0                                     # what the owner says about each source (the right ones), and how many are paused
     for e in reg['shelves']:
+        mine[e['id']], bad = check_source_fields(e, ids)
+        for zh, en in bad:
+            print('build: %s: %s (ignored)' % (e['id'], en))
+        if mine[e['id']].get('status') == 'paused':          # kept in the registry with its snapshot, but not shown and not in any feed
+            paused += 1
+            continue
         s = load_snapshot(e['id'])
         if s and s.get('items') and s.get('fails', 0) < DOWN_AFTER:
             sources.append((e, s))
@@ -1740,6 +1961,7 @@ def build():
         pname = cfg.get('posts_title') or '社区投稿'
         sources.append(({'id': 'posts', 'kind': 'post', 'name': pname, 'tags': [], 'source': ''},
                         {'shelf': {'name': pname, 'description': '读者投稿、由本站托管的文章', 'home': base, 'lang': '', 'license': ''}, 'items': post_items, 'status': 'ok'}))
+        mine['posts'] = {'rights': 'licensed'}                # the author agreed when sending it
     elif posts:
         print('build: %d hosted post(s) NOT published: set "base_url" in registry/config.json (or SHELF_BASE_URL) so that their addresses are known' % len(posts))
     for e, s in sources:
@@ -1747,7 +1969,11 @@ def build():
         stags = norm_tags(list(e.get('tags') or []) + list(info.get('tags') or []), 5)
         shelves[e['id']] = {'id': e['id'], 'name': e.get('name') or info.get('name') or e['id'], 'description': info.get('description', ''), 'home': info.get('home', ''),
                             'kind': e['kind'], 'lang': info.get('lang') or '', 'license': info.get('license', ''), 'tags': stags, 'n': 0, 'updated': '',
-                            'feed': e['source'] if e['kind'] == 'feed' else '', 'status': s.get('status', 'ok')}
+                            'feed': e['source'] if e['kind'] == 'feed' else '', 'health': s.get('status', 'ok'),               # health: how the last read went (was "status" before the owner's status came)
+                            'status': mine.get(e['id'], {}).get('status', 'fixed'), 'rights': mine.get(e['id'], {}).get('rights', 'unknown')}
+        for k in ('topics', 'platform'):                     # only when the owner wrote them: the page then does not guess
+            if k in mine.get(e['id'], {}):
+                shelves[e['id']][k] = mine[e['id']][k]
         if e.get('starter') is True and e['kind'] == 'feed':
             shelves[e['id']]['starter'] = True
         if e.get('featured') is True:
@@ -1804,9 +2030,10 @@ def build():
     day = today().isoformat()
     out = {}                                                # relative path -> text
     out.update(post_pages)
+    columns = load_columns(ids)
     out['directory.json'] = json.dumps({'spec': 1, 'title': cfg.get('title') or 'Shelf directory', 'repo': repo, 'submit_api': str(cfg.get('submit_api') or '').strip(),
-                                        **({'feed_api': str(cfg['feed_api']).strip()} if str(cfg.get('feed_api') or '').strip() else {}), 'generated': day, 'base': base, 'count': len(items), 'types': types, 'shelves': shelf_list,
-                                        'topics': load_topics(), 'tags': tags[:300], 'feeds': {'all': 'feed/all', 'type': 'feed/type/{type}', 'tag': 'feed/tag/{slug}', 'shelf': 'feed/shelf/{id}'},
+                                        **({'feed_api': str(cfg['feed_api']).strip()} if str(cfg.get('feed_api') or '').strip() else {}), 'generated': day, 'base': base, 'count': len(items), 'paused': paused, 'types': types, 'shelves': shelf_list,
+                                        'topics': load_topics(), **({'columns': columns} if columns else {}), 'tags': tags[:300], 'feeds': {'all': 'feed/all', 'type': 'feed/type/{type}', 'tag': 'feed/tag/{slug}', 'shelf': 'feed/shelf/{id}'},
                                         'items': items}, ensure_ascii=False, separators=(',', ':')) + '\n'
     title = cfg.get('title') or 'Shelf directory'
 
@@ -1853,7 +2080,7 @@ def build():
         for d, dns, fns in os.walk(root, topdown=False):
             if not os.listdir(d):
                 os.rmdir(d)
-    print('build: %d items, %d shelves, %d tags, %d files (%d changed) in docs/' % (len(items), len(shelf_list), len(tags), len(out), changed))
+    print('build: %d items, %d shelves%s, %d tags, %d files (%d changed) in docs/' % (len(items), len(shelf_list), ' (%d paused)' % paused if paused else '', len(tags), len(out), changed))
     return out
 
 
@@ -2394,6 +2621,37 @@ def show(r):
         print('  warning  :', zhw)
 
 
+SOURCE_FLAGS = (('--status', 'fixed | dynamic | trial | paused'), ('--rights', 'official-link | licensed | unknown'), ('--topics', 'topic ids, comma separated'),
+                ('--platform', 'platform id: zhihu, youtube, bilibili, wechat ...'), ('--note', 'a note for the maintainer, at most %d characters (never published)' % NOTE_MAX))
+
+
+def _width(s):
+    return sum(2 if unicodedata.east_asian_width(c) in 'WF' else 1 for c in s)
+
+
+def _cell(s, n):
+    s = str(s)
+    while _width(s) > n:
+        s = s[:-1]
+    return s + ' ' * (n - _width(s))
+
+
+def list_shelves(log=print):
+    """One line per registered source: id, name, status, rights, topics, platform, articles read (what the owner wrote, with the defaults filled in)."""
+    ids = {x['id'] for x in load_topics()}
+    rows, paused = [], 0
+    for e in load_registry()['shelves']:
+        f, _ = check_source_fields(e, ids)
+        snap = load_snapshot(e['id'])
+        paused += f.get('status') == 'paused'
+        rows.append((e['id'], e.get('name') or '', f.get('status', 'fixed'), f.get('rights', 'unknown'), ','.join(f.get('topics') or []) or '-', f.get('platform') or '-', len((snap or {}).get('items') or [])))
+    widths = (30, 24, 8, 14, 22, 12, 5)
+    log('  '.join(_cell(h, w) for h, w in zip(('id', '名称', '状态', '版权', '领域', '平台', '篇数'), widths)).rstrip())
+    for r in rows:
+        log('  '.join(_cell(c, w) for c, w in zip(r, widths)).rstrip())
+    log('%d 个来源%s' % (len(rows), '，其中 %d 个暂停' % paused if paused else ''))
+
+
 def main(argv=None):
     if hasattr(sys.stdout, 'reconfigure'):
         sys.stdout.reconfigure(encoding='utf-8', errors='replace')
@@ -2411,6 +2669,8 @@ def main(argv=None):
     p.add_argument('--starter', action='store_true', help='also offer it to new readers as "try these" when they subscribe (feeds only)')
     p.add_argument('--featured', action='store_true', help="one of the owner's picks: shown first on the directory page")
     p.add_argument('--blurb', default='', help='the one sentence shown with a featured shelf')
+    for flag, what in SOURCE_FLAGS:
+        p.add_argument(flag, default=None, help=what)
     p.add_argument('--event')
     p.add_argument('--out')
     p = sub.add_parser('reject')
@@ -2427,6 +2687,11 @@ def main(argv=None):
     p.add_argument('id')
     p.add_argument('--off', action='store_true')
     p.add_argument('--blurb', default=None)
+    p = sub.add_parser('set', help='what you say about a listed source (paused: kept but neither read nor shown); an empty --topics / --platform / --note takes it away')
+    p.add_argument('id')
+    for flag, what in SOURCE_FLAGS:
+        p.add_argument(flag, default=None, help=what)
+    sub.add_parser('shelves', help='every registered source with its status, rights, topics, platform and number of articles')
     p = sub.add_parser('remove')
     p.add_argument('id')
     p = sub.add_parser('fetch')
@@ -2454,7 +2719,8 @@ def main(argv=None):
         elif a.cmd == 'approve':
             if not a.url:
                 ap.error('give an address, or --event FILE')
-            e, r = approve(a.url, [t for t in re.split(r'[,，]', a.tags) if t.strip()], starter=a.starter, featured=a.featured, blurb=a.blurb)
+            said = {k: v for k, v in source_given(a.status, a.rights, a.topics, a.platform, a.note).items() if v not in ('', [])}
+            e, r = approve(a.url, [t for t in re.split(r'[,，]', a.tags) if t.strip()], starter=a.starter, featured=a.featured, blurb=a.blurb, fields=said)
             show(r)
             build()
             print('listed as', e['id'])
@@ -2490,6 +2756,15 @@ def main(argv=None):
             e = feature(a.id, not a.off, a.blurb)
             build()
             print('featured' if e.get('featured') else 'not featured any more', e['id'])
+        elif a.cmd == 'set':
+            if not source_given(a.status, a.rights, a.topics, a.platform, a.note):
+                ap.error('give at least one of --status --rights --topics --platform --note')
+            e = set_source(a.id, a.status, a.rights, a.topics, a.platform, a.note)
+            build()
+            print('%s: status %s, rights %s, topics %s, platform %s%s' % (e['id'], e.get('status', 'fixed'), e.get('rights', 'unknown'), ','.join(e.get('topics') or []) or '-',
+                                                                         e.get('platform') or '-', ', note kept' if e.get('note') else ''))
+        elif a.cmd == 'shelves':
+            list_shelves()
         elif a.cmd == 'remove':
             remove(a.id)
             build()

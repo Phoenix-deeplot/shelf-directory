@@ -252,8 +252,47 @@ class TestWhatASessionMayDo(AdminBase):
         self.assertEqual((st, body['data']), (200, doc))
         self.assertEqual(self.site.hits[0][1].get('Accept'), 'application/vnd.github.raw+json')
 
+    def test_the_registry_file_of_the_sources_comes_back_as_the_document_and_no_other_file_of_the_registry_does(self):
+        doc = {'shelves': [{'id': 'a', 'name': 'A', 'status': 'paused', 'note': 'why'}]}
+        self.site.put('/api/repos/o/r/contents/registry/shelves.json', json.dumps(doc), 'application/json')
+        st, body = self.gh(self.s, 'GET', '/repos/o/r/contents/registry/shelves.json')
+        self.assertEqual((st, body['data']), (200, doc))
+        self.assertEqual(self.site.hits[0][1].get('Accept'), 'application/vnd.github.raw+json')
+        for name in ('config.json', 'blocklist.txt', 'rejected.json', 'tags.json', 'snapshots/a.json', 'shelves.json?ref=evil', 'shelves.json/../config.json', 'shelves.json.bak'):
+            self.refused('GET', '/repos/o/r/contents/registry/' + name)
+        self.assertEqual(len(self.site.hits), 1)
+
+    SET = {'id': 'tech-meituan-com', 'status': 'paused', 'rights': 'official-link', 'topics': 'tech,dev', 'platform': 'zhihu', 'note': '官方源，每天一篇'}
+
+    def test_set_starts_the_workflow_on_the_default_branch_with_checked_and_tidied_inputs(self):
+        wf = '/repos/o/r/actions/workflows/set.yml/dispatches'
+        self.site.on('POST', '/api' + wf, 204, {})
+        self.assertEqual(self.gh(self.s, 'POST', wf, {'ref': 'evil', 'inputs': dict(self.SET)})[1]['status'], 204)
+        self.assertEqual(self.gh(self.s, 'POST', wf, {'inputs': {**self.SET, 'status': 'fixed', 'topics': '', 'platform': '', 'note': '  官方\n源，   每天一篇 '}})[1]['status'], 204)
+        self.assertEqual(self.gh(self.s, 'POST', wf, {'inputs': {**self.SET, 'note': 'x' * 200}})[1]['status'], 204)       # the longest
+        sent = [b for m, p, b, h in self.site.calls]
+        self.assertEqual(sent, [{'ref': 'trunk', 'inputs': self.SET}, {'ref': 'trunk', 'inputs': {**self.SET, 'status': 'fixed', 'topics': '', 'platform': '', 'note': '官方 源， 每天一篇'}},
+                                {'ref': 'trunk', 'inputs': {**self.SET, 'note': 'x' * 200}}])
+        self.assertTrue(all(h.get('Authorization') == 'Bearer ' + GHTOKEN for m, p, b, h in self.site.calls))
+
+    def test_set_takes_all_six_inputs_and_nothing_odd(self):
+        wf = '/repos/o/r/actions/workflows/set.yml/dispatches'
+        bad = [{**self.SET, 'id': x} for x in ('', 'A', '-x', '../x', 'a b', 'post:x', 'x' * 102, 'a;b', 'a\nb', 'tech-x\n', '$(id)', 5, None)]
+        bad += [{**self.SET, 'status': x} for x in ('', 'Paused', 'gone', 'paused ', 5, None, ['paused'])]
+        bad += [{**self.SET, 'rights': x} for x in ('', 'maybe', 'Licensed', 5, None)]
+        bad += [{**self.SET, 'topics': x} for x in ('tech,', ',tech', 'Tech', 'tech dev', 'tech, dev', 'tech\n', 'a' * 21, ','.join(['ab'] * 31), 'tech;id', '$(id)', 5, None, ['tech'])]
+        bad += [{**self.SET, 'platform': x} for x in ('Zhihu', '-z', 'z' * 31, 'a b', 'a/b', 'zhihu\n', '$(id)', 5, None)]
+        bad += [{**self.SET, 'note': x} for x in ('x' * 201, 'a\x00b', 'a\x1bb', 5, None, ['n'])]
+        bad += [{k: v for k, v in self.SET.items() if k != gone} for gone in self.SET]                 # one missing
+        bad += [{**self.SET, 'more': 'x'}, {**self.SET, 'ref': 'main'}, {}, None, [], 'id=x']
+        for inputs in bad:
+            self.refused('POST', wf, {'ref': 'main', 'inputs': inputs})
+        self.refused('POST', wf, {'ref': 'main'})
+        self.refused('POST', wf, None)
+        self.assertEqual(self.site.calls, [])
+
     def test_everything_else_is_refused_before_github_is_asked(self):
-        for method, path in [('GET', '/repos/o/r/contents/registry/shelves.json'), ('GET', '/repos/o/r/contents/docs/directory.json/../../.env'), ('GET', '/user'), ('GET', '/repos/x/y'),
+        for method, path in [('GET', '/repos/o/r/contents/registry/config.json'), ('GET', '/repos/o/r/contents/docs/directory.json/../../.env'), ('GET', '/user'), ('GET', '/repos/x/y'),
                              ('GET', '/repos/o/r/issues'), ('GET', '/repos/o/r/issues?state=all&labels=listed&per_page=30'), ('GET', '/repos/o/r/issues?state=open&labels=secret&per_page=30'),
                              ('GET', '/repos/o/r/issues?state=open&labels=listed&per_page=101'), ('GET', '/repos/o/r/issues?state=open&labels=listed&per_page=0'),
                              ('GET', '/repos/o/r/issues/1/../../contents/x'), ('GET', '/repos/o/r/issues/abc'), ('GET', '/repos/o/r/issues/12345678'), ('GET', '/repos/o/r/issues/5?x=1'),

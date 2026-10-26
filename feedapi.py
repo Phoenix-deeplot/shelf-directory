@@ -74,6 +74,8 @@ def _item(i, with_tags=True):
     out = {'url': i['url'], 'title': i['title'], 'summary': i['summary'], 'date': i['date'], 'image': i['image'], 'lang': i['lang'], 'type': i['type']}
     if with_tags:
         out['tags'] = list(i['tags'])[:agg.TAGS_PER_ITEM]
+    if i.get('audio'):                                                       # a podcast episode: where its sound is (the page plays it from there; nothing of it passes through here)
+        out['audio'] = {k: i['audio'][k] for k in ('url', 'type', 'dur')}
     return out
 
 
@@ -123,7 +125,7 @@ def read(raw, env=None):
 
 
 def _shelf(s):
-    return {'title': s.get('name', ''), 'home': s.get('home', ''), 'description': s.get('description', ''), 'lang': s.get('lang', '')}
+    return {'title': s.get('name', ''), 'home': s.get('home', ''), 'description': s.get('description', ''), 'lang': s.get('lang', ''), 'image': s.get('image', '')}
 
 
 def _checked(raw):
@@ -149,7 +151,7 @@ def discover(raw):
            'warnings': [list(w) for w in warnings + res.get('warnings', [])]}
     if entry['kind'] == 'feed':
         newest = sorted(items, key=lambda i: i['date'], reverse=True)
-        out.update({'kind': 'feed', 'feed': entry['source'], 'found': len(items), 'etag': res.get('etag', ''), 'modified': res.get('modified', ''),
+        out.update({'kind': 'feed', 'feed': entry['source'], 'image': shelf['image'], 'found': len(items), 'etag': res.get('etag', ''), 'modified': res.get('modified', ''),
                     'items': [_item(i) for i in newest[:DISCOVER_ITEMS]]})
     else:
         first = items[0]

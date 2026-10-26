@@ -1,0 +1,74 @@
+name: Set source
+# Started by the admin page (tab "来源"), or by hand: Actions > Set source > Run workflow.
+# Says something about ONE registered source: its status (fixed | dynamic | trial | paused), rights, topics, platform and a note, and rebuilds docs/.
+# The admin page always sends all six values. By hand: an empty topics / platform / note TAKES THE VALUE AWAY (the id says which source).
+on:
+  workflow_dispatch:
+    inputs:
+      id:
+        description: 'Shelf id (python aggregate.py shelves lists them)'
+        required: true
+        type: string
+      status:
+        description: 'fixed = long term, dynamic = comes and goes with what is hot, trial = on trial, paused = kept but not read and not shown'
+        required: true
+        type: choice
+        default: fixed
+        options: [fixed, dynamic, trial, paused]
+      rights:
+        description: 'official-link = an official feed or API, only title + summary + link; licensed = the author allowed it; unknown = not confirmed'
+        required: true
+        type: choice
+        default: unknown
+        options: [official-link, licensed, unknown]
+      topics:
+        description: 'Topic ids, comma separated (e.g. tech,dev). Empty: none, the page guesses from the tags'
+        required: false
+        default: ''
+        type: string
+      platform:
+        description: 'Platform id (e.g. zhihu, youtube, bilibili, wechat). Empty: none, the page guesses from the address'
+        required: false
+        default: ''
+        type: string
+      note:
+        description: 'A note for the maintainer, at most 200 characters (kept in registry/shelves.json, never in docs/)'
+        required: false
+        default: ''
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: registry
+  cancel-in-progress: false
+
+jobs:
+  set:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Set, read the source again (unless it is paused) and rebuild
+        env:
+          ID: ${{ inputs.id }}
+          STATUS: ${{ inputs.status }}
+          RIGHTS: ${{ inputs.rights }}
+          TOPICS: ${{ inputs.topics }}
+          PLATFORM: ${{ inputs.platform }}
+          NOTE: ${{ inputs.note }}
+        run: |
+          python aggregate.py set "$ID" --status="$STATUS" --rights="$RIGHTS" --topics="$TOPICS" --platform="$PLATFORM" --note="$NOTE"
+          if [ "$STATUS" != paused ]; then python aggregate.py fetch --only "$ID" && python aggregate.py build; fi
+      - name: Commit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A registry docs
+          if git diff --cached --quiet; then echo 'nothing changed'; else git commit -m "set: $ID" && git pull --rebase && git push; fi
+        env:
+          ID: ${{ inputs.id }}

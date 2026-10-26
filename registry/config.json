@@ -3,5 +3,15 @@
   "base_url": "https://adminbook.zhitree.cn/",
   "repo": "",
   "submit_api": "https://adminbook.zhitree.cn/api/submit",
-  "site": "https://books.zhitree.cn/#directory"
+  "site": "https://books.zhitree.cn/#directory",
+  "columns": [
+    {"id": "fun", "zh": "今日摸鱼", "en": "Unwind", "topics": ["entertainment", "games", "life", "music", "health"]},
+    {"id": "tech", "zh": "AI 与科技", "en": "AI & Tech", "topics": ["tech", "dev"]},
+    {"id": "learn", "zh": "学习与研究", "en": "Learn & Research", "topics": ["academic", "education"]},
+    {"id": "biz", "zh": "财经与商业", "en": "Finance & Business", "topics": ["finance", "business", "supply"]},
+    {"id": "work", "zh": "职场与产品", "en": "Work & Product", "topics": ["tools", "design"]},
+    {"id": "video", "zh": "视频与创作者", "en": "Video & Creators", "platforms": ["youtube", "bilibili"], "types": ["video"]},
+    {"id": "read", "zh": "读书与深度", "en": "Books & Depth", "topics": ["books", "culture"]},
+    {"id": "world", "zh": "全球正在发生", "en": "World Now", "topics": ["news"]}
+  ]
 }

@@ -58,10 +58,11 @@
 
 ```json
 {
-  "spec": 1, "title": "公共目录", "repo": "用户/仓库", "submit_api": "https://…/api/submit（可为空）", "generated": "2026-10-14", "base": "https://…/", "count": 120,
+  "spec": 1, "title": "公共目录", "repo": "用户/仓库", "submit_api": "https://…/api/submit（可为空）", "generated": "2026-10-14", "base": "https://…/", "count": 120, "paused": 0,
   "types": { "article": 90, "note": 20, "video": 10 },
   "shelves": [ { "id": "books-zhitree-cn", "name": "…", "description": "…", "home": "…", "kind": "feed|repo|link", "lang": "zh",
-                 "license": "", "tags": [], "n": 6, "updated": "2026-10-13", "feed": "源订阅源地址（仅 feed 类）", "shelf_feed": "feed/shelf/books-zhitree-cn" } ],
+                 "license": "", "tags": [], "n": 6, "updated": "2026-10-13", "feed": "源订阅源地址（仅 feed 类）", "shelf_feed": "feed/shelf/books-zhitree-cn",
+                 "health": "ok|error", "status": "fixed|dynamic|trial", "rights": "official-link|licensed|unknown" } ],
   "tags":   [ { "name": "供应链", "slug": "t-3f2a1c", "n": 5 } ],
   "feeds":  { "all": "feed/all", "type": "feed/type/{type}", "tag": "feed/tag/{slug}", "shelf": "feed/shelf/{id}" },
   "items":  [ { "id": "a1b2c3d4e5", "title": "…", "summary": "…", "url": "…", "image": "", "date": "2026-10-13",
@@ -73,6 +74,7 @@
 - 同一个链接出现在多个来源里只留一条（网址归一后比较：`http`/`https`、`www`、末尾斜杠、`index.html`、跟踪参数都不算区别）；GitHub 仓库里内容完全相同的文件（git 内容哈希）也只留一条，fork 不收录。
 - 每个 `feeds` 模板加上 `.xml`（Atom）或 `.json`（JSON Feed）就是一个可以订阅的地址，只含最新 50 条。标签的 `slug` 是 ASCII：英文标签用它本身，中文标签是一个固定的短代码。
 - `shelves.opml`：所有书架的订阅源清单，可一次导入阅读器。
+- 目录主人对每个来源的标注：`status`（`fixed` 长期、`dynamic` 按热点进出、`trial` 试读；`paused` 的来源不出现在 `shelves`、`items`、任何订阅源和 `shelves.opml` 里，只计入顶层的 `paused`）、`rights`（官方订阅源或接口只用标题摘要链接 / 作者授权 / 未确认），以及可选的 `topics`（领域编号）和 `platform`（平台编号，写了就不必再按网址猜）。`health` 是上一次读取的结果。备注（`note`）永远不在这里。顶层可选的 `columns`（`[{id, zh, en, topics?, platforms?, types?}]`，最多 12 项）是目录主人定的栏目。这些字段对读目录的程序都是可选的：没有就当 `fixed` / `unknown` / 不指定 / 用自己的默认栏目。
 
 `submit_api` 非空时，网页的「收录」直接把申请发给它（`POST`，JSON：`{"kind":"url","url":"…","rights":true}` 或 `{"kind":"post","title":"…","author":"…","tags":[…],"body":"Markdown","rights":true}`，另有一个必须留空的隐藏字段 `website`）。成功返回 `{"ok":true,"status":"queued"}`；失败返回 `{"ok":false,"error":"…","message":"中文","message_en":"English"}`，`error` 是 `url` `post` `rights` `listed` `pending` `rejected` `rate` `full` `origin` `size` `github` `not_configured` 之一。
 

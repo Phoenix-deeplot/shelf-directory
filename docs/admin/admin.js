@@ -1,4 +1,4 @@
-/* Directory admin: the applications (GitHub issues), approve / reject, and what is listed (with delete).
+/* Directory admin: the applications (GitHub issues), approve / reject, what is listed (with delete), and the sources with what is said about each (status, rights, topics, platform, note).
    Two ways in. With a password (when the site's function /api/admin is set up) the GitHub token stays on the server: this page only holds a session that
    expires, and every GitHub request goes through that function, which allows a short list of them. Without it, this page talks to the GitHub API
    itself, with the maintainer's own token, in the maintainer's own browser.
@@ -10,8 +10,9 @@ const params = new URLSearchParams(location.search);
 const LOCAL = /^(127\.0\.0\.1|localhost)$/.test(location.hostname);       // ?api= and ?repo= exist to try this page against a fake GitHub on this computer
 const API = (LOCAL && params.get('api')) || 'https://api.github.com';
 const ADMIN_API = '../api/admin';
+const OPS_API = '../api/ops';
 const BOT = '<!-- shelf-directory-bot -->';
-const state = { repo: '', token: '', session: '', mode: 'token', passwordSite: false, pwProblem: '', branch: 'main', directory: null, directoryUrl: '', directoryFrom: '', busy: false };
+const state = { repo: '', token: '', session: '', mode: 'token', passwordSite: false, pwProblem: '', branch: 'main', directory: null, directoryUrl: '', directoryFrom: '', registry: null, busy: false };
 
 /* ---------- token / session (in this browser only) ---------- */
 function keeper(name){
@@ -43,6 +44,20 @@ async function ghViaServer(method, path, body){
   if(r.status === 401 && j && j.error === 'session'){ signedOut('登录已过期，请重新输入密码'); throw new Error('登录已过期，请重新输入密码'); }
   if(!j || !j.ok) throw new Error((j && j.message) || ('管理服务出错：HTTP ' + r.status));
   return { status: j.status, ok: j.status >= 200 && j.status < 300, data: j.data };
+}
+/* Operations data has its own API: unlike the source registry it is never
+   readable with a browser GitHub token, because it contains editorial choices
+   and its database credential must stay on the server. */
+async function ops(action, body){
+  if(state.mode !== 'password') throw new Error('运营页需要管理密码登录；GitHub 令牌模式只管理审核和来源。');
+  let r, j = null;
+  try{
+    r = await fetch(OPS_API, { method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + state.session }, body: JSON.stringify({ action, ...(body || {}) }) });
+    try{ j = await r.json(); }catch(e){}
+  }catch(e){ throw new Error('连不上运营服务，请检查 Vercel 部署后再试'); }
+  if(r.status === 401 && j && j.error === 'session'){ signedOut('登录已过期，请重新输入密码'); throw new Error('登录已过期，请重新输入密码'); }
+  if(!j || !j.ok) throw new Error((j && j.message) || ('运营服务出错：HTTP ' + r.status));
+  return j.data;
 }
 function signedOut(msg){ sessions.clear(); state.session = ''; showLogin(msg); }
 const need = (r, what) => { if(!r.ok) throw new Error(what + '：HTTP ' + r.status + (r.data && r.data.message ? ' ' + r.data.message : '')); return r.data; };
@@ -288,6 +303,152 @@ function renderListed(){
   }
   if(!(d.shelves || []).length) box.append(el('p', { class: 'empty', text: '目录里还没有内容。' }));
 }
+/* ---------- sources: what is said about each (registry/shelves.json, read with the same rights as the rest; saved by the "Set source" workflow, which also rebuilds docs/) ---------- */
+const STATUS_NAME = { fixed: '固定', dynamic: '动态', trial: '试读', paused: '暂停' };
+const STATUS_HELP = { fixed: '长期保留', dynamic: '按热点进出', trial: '新来源，小范围观察', paused: '保留登记和历史，不更新、不展示' };
+const RIGHTS_NAME = { 'official-link': '官方链接', licensed: '已授权', unknown: '未确认' };
+const RIGHTS_HELP = { 'official-link': '官方订阅源或接口，只用标题、摘要和链接', licensed: '作者授权', unknown: '还没有确认' };
+async function loadRegistry(){
+  state.registry = null;
+  try{
+    if(state.mode === 'password' && state.session && state.repo){
+      const r = await gh('GET', `/repos/${state.repo}/contents/registry/shelves.json`);
+      if(r.ok && r.data && Array.isArray(r.data.shelves)) state.registry = r.data.shelves;
+    }else if(state.token && state.repo){
+      const r = await fetch(API + `/repos/${state.repo}/contents/registry/shelves.json`, { cache: 'no-store', headers: { Authorization: 'Bearer ' + state.token, Accept: 'application/vnd.github.raw+json', 'X-GitHub-Api-Version': '2022-11-28' } });
+      if(r.ok){ const d = await r.json(); if(d && Array.isArray(d.shelves)) state.registry = d.shelves; }
+    }
+  }catch(e){}
+}
+const PLATFORM_OK = /^([a-z0-9][a-z0-9-]{0,29})?$/;
+function sourceCard(e, topicList){
+  const status = STATUS_NAME[e.status] ? e.status : 'fixed', rights = RIGHTS_NAME[e.rights] ? e.rights : 'unknown', mine = Array.isArray(e.topics) ? e.topics.filter(x => typeof x === 'string') : [];
+  const select = (names, help, value, label) => el('select', { 'aria-label': label }, Object.keys(names).map(k => el('option', { value: k, title: help[k], selected: k === value, text: names[k] + '（' + help[k] + '）' })));
+  const statusSel = select(STATUS_NAME, STATUS_HELP, status, '状态'), rightsSel = select(RIGHTS_NAME, RIGHTS_HELP, rights, '版权');
+  const known = new Map(topicList); mine.forEach(id => { if(!known.has(id)) known.set(id, id); });
+  const boxes = [...known].map(([id, name]) => el('label', { class: 'check' }, el('input', { type: 'checkbox', value: id, checked: mine.includes(id) }), name));
+  const platform = el('input', { type: 'text', maxlength: '30', placeholder: 'zhihu / youtube / wechat …（不写则按网址）', value: typeof e.platform === 'string' ? e.platform : '', 'aria-label': '平台' });
+  const note = el('input', { type: 'text', maxlength: '200', placeholder: '给自己看的备注（不会公开到目录里）', value: typeof e.note === 'string' ? e.note : '', 'aria-label': '备注' });
+  const topicsSum = () => { const n = boxes.filter(b => b.querySelector('input').checked).length; return '领域（' + (n ? '已选 ' + n + ' 个' : '不写：按标签判断') + '）'; };
+  const summary = el('summary', { text: topicsSum() });
+  boxes.forEach(b => b.querySelector('input').addEventListener('change', () => { summary.textContent = topicsSum(); }));
+  const msg = el('p', { class: 'msg', role: 'status' }), tell = (text, kind) => { msg.textContent = text; msg.className = 'msg' + (kind ? ' ' + kind : ''); };
+  const send = async (over, done) => {
+    const v = { id: e.id, status: statusSel.value, rights: rightsSel.value, topics: boxes.map(b => b.querySelector('input')).filter(i => i.checked).map(i => i.value).join(','), platform: platform.value.trim().toLowerCase(), note: note.value.replace(/\s+/g, ' ').trim(), ...over };
+    if(!PLATFORM_OK.test(v.platform)){ tell('平台要写成小写字母、数字和短横线（如 zhihu），最多 30 个字符。', 'bad'); return; }
+    tell('提交中…');
+    try{ await dispatch('set.yml', v); tell(done + ' 约 1 分钟后点“刷新”。', 'good'); }catch(err){ tell(err.message, 'bad'); }
+  };
+  const paused = status === 'paused';
+  const save = el('button', { type: 'button', class: 'ok', text: '保存', onclick: () => send({}, '已提交「' + e.name + '」的来源设置。') });
+  const toggle = el('button', { type: 'button', class: paused ? '' : 'danger', title: paused ? '恢复为“固定”，并重新读取' : STATUS_HELP.paused, text: paused ? '恢复' : '暂停…',
+    onclick: () => {
+      if(paused) return send({ status: 'fixed' }, '已提交：恢复「' + e.name + '」。');
+      if(confirm('暂停「' + e.name + '」？\n暂停后不再更新，目录里也不再显示它，但登记和已读到的内容都保留，随时可以恢复。')) send({ status: 'paused' }, '已提交：暂停「' + e.name + '」。');
+    } });
+  return el('article', { class: 'card' + (paused ? ' paused' : '') }, el('h3', { text: e.name || e.id }),
+    el('p', { class: 'meta' }, el('span', { class: 'badge ' + status, text: STATUS_NAME[status] }), el('span', { class: 'badge', text: KIND[e.kind] || e.kind }), e.id),
+    e.url ? el('p', { class: 'url' }, el('a', { href: e.url, target: '_blank', rel: 'nofollow noopener noreferrer', text: e.url })) : null,
+    el('div', { class: 'src' }, el('div', {}, el('label', { text: '状态' }), statusSel), el('div', {}, el('label', { text: '版权' }), rightsSel),
+      el('div', {}, el('label', { text: '平台' }), platform), el('details', { class: 'full topics' }, summary, el('div', { class: 'topics-box' }, boxes)),
+      el('div', { class: 'full' }, el('label', { text: '备注' }), note)),
+    el('div', { class: 'actions' }, save, toggle), msg);
+}
+function renderSources(){
+  const box = $('#sources'); box.textContent = '';
+  const list = state.registry;
+  $('#nSources').textContent = list ? list.length : 0;
+  if(!list){ box.append(el('p', { class: 'empty', text: '读不到 registry/shelves.json（令牌需要“Contents: Read-only”）。' })); return; }
+  box.append(el('p', { class: 'muted', text: '每个来源的状态、版权方式、领域和平台，在这里改。暂停的来源保留登记和历史，不再更新、不在目录里显示；恢复后重新读取。备注只给你自己看，不会写进目录数据（但它在仓库的 registry/shelves.json 里，仓库是公开的就谁都看得到）。' }));
+  const topicList = ((state.directory && state.directory.topics) || []).filter(t => t && typeof t.id === 'string').map(t => [t.id, t.zh || t.id]);
+  list.forEach(e => { if(e && typeof e.id === 'string') box.append(sourceCard(e, topicList)); });
+  if(!list.length) box.append(el('p', { class: 'empty', text: '还没有登记任何来源。' }));
+}
+
+/* ---------- operations: public placement rather than source ingestion ---------- */
+function num(v){ return Number(v || 0).toLocaleString('zh-CN'); }
+function saveButton(label, action, get, after){
+  const msg = el('p', { class: 'msg', role: 'status' });
+  const b = el('button', { type: 'button', class: 'ok', text: label, onclick: async () => {
+    b.disabled = true; msg.textContent = '保存中…'; msg.className = 'msg';
+    try{ await ops(action, get()); msg.textContent = '已保存'; msg.className = 'msg good'; if(after) await after(); }
+    catch(e){ msg.textContent = e.message; msg.className = 'msg bad'; }
+    b.disabled = false;
+  }});
+  return { b, msg };
+}
+function programOpsCard(p){
+  const status = el('select', { 'aria-label': '节目状态' }, ['fixed','dynamic','trial','paused'].map(v => el('option', { value: v, selected: v === p.status, text: ({fixed:'固定',dynamic:'动态',trial:'试运行',paused:'暂停'})[v] })));
+  const pub = el('input', { type: 'checkbox', checked: !!p.public_enabled }), recommend = el('input', { type: 'checkbox', checked: !!p.recommend_enabled });
+  const weight = el('input', { type: 'number', min: '-30', max: '30', value: String(p.editorial_weight || 0), 'aria-label': '权重' });
+  const save = saveButton('保存节目', 'save_program', () => ({ id:p.id, status:status.value, public_enabled:pub.checked, recommend_enabled:recommend.checked, editorial_weight:weight.value }));
+  return el('article', { class: 'card ops-card' }, el('h3', { text: p.name }),
+    el('p', { class: 'meta' }, el('span', { class:'badge ' + p.status, text:({fixed:'固定',dynamic:'动态',trial:'试运行',paused:'暂停'})[p.status] || p.status }), p.platform || '未标平台', p.directory_id || ''),
+    el('p', { class:'muted', text:'近 30 天：打开 ' + num(p.opens) + ' · 收藏 ' + num(p.saves) + ' · 点赞 ' + num(p.likes) + (p.consecutive_failures ? ' · 连续失败 ' + p.consecutive_failures : '') }),
+    el('div', { class:'ops-grid' }, el('div', {}, el('label', { text:'采集状态' }), status), el('label', { class:'check', text:'进入公共空间' }, pub), el('label', { class:'check', text:'允许推荐' }, recommend), el('div', {}, el('label', { text:'人工权重（-30 ~ 30）' }), weight)),
+    el('div', { class:'actions' }, save.b), save.msg);
+}
+function moduleOpsCard(m){
+  const on = el('input', { type:'checkbox', checked:!!m.enabled });
+  const device = el('select', {}, [['all','全部设备'],['desktop','仅桌面'],['mobile','仅手机']].map(x => el('option',{value:x[0],selected:x[0]===m.device,text:x[1]})));
+  const limit = el('input', { type:'number', min:'1', max:'24', value:String(m.limit_count || 6) });
+  const config = el('textarea', { rows:'3', spellcheck:'false', text:JSON.stringify(m.config || {}, null, 2), 'aria-label':'模块配置 JSON' });
+  const save = saveButton('保存栏目', 'save_module', () => {
+    let c = {}; try{ c = config.value.trim() ? JSON.parse(config.value) : {}; }catch(e){ throw new Error('模块配置必须是 JSON'); }
+    return {slug:m.slug, enabled:on.checked, device:device.value, limit_count:limit.value, config:c};
+  });
+  return el('article',{class:'card ops-card'},el('h3',{text:m.name || m.slug}),el('p',{class:'muted',text:'控制公共空间里这个区块是否出现、在哪种设备出现和展示多少篇。来源范围/排序规则仍在 config 中，后续可按你的推荐公式扩展。'}),
+    el('div',{class:'ops-grid'},el('label',{class:'check',text:'启用'},on),el('div',{},el('label',{text:'设备'}),device),el('div',{},el('label',{text:'条数'}),limit),el('div',{class:'full'},el('label',{text:'高级配置（JSON）'}),config)),el('div',{class:'actions'},save.b),save.msg);
+}
+function adOpsCard(a){
+  const on=el('input',{type:'checkbox',checked:!!a.enabled});
+  const device=el('select',{},[['all','全部设备'],['desktop','仅桌面'],['mobile','仅手机']].map(x=>el('option',{value:x[0],selected:x[0]===a.device,text:x[1]})));
+  const placement=el('select',{},[['sidebar','右侧栏'],['infeed','信息流'],['reader-bottom','阅读页底部']].map(x=>el('option',{value:x[0],selected:x[0]===a.placement,text:x[1]})));
+  const after=el('input',{type:'number',min:'0',max:'30',value:String(a.after_item || 0)});
+  const save=saveButton('保存广告位','save_ad',()=>({slug:a.slug,enabled:on.checked,device:device.value,placement:placement.value,after_item:after.value,config:a.config||{}}));
+  return el('article',{class:'card ops-card'},el('h3',{text:a.name || a.slug}),el('p',{class:'muted',text:'广告只在普通内容流中显示，并需在前端保留“广告”标识；不会进入「今日值得看」。'}),el('div',{class:'ops-grid'},el('label',{class:'check',text:'启用'},on),el('div',{},el('label',{text:'设备'}),device),el('div',{},el('label',{text:'位置'}),placement),el('div',{},el('label',{text:'第 N 条后（右栏为 0）'}),after)),el('div',{class:'actions'},save.b),save.msg);
+}
+function coverOpsCard(c){
+  const name=el('input',{type:'text',maxlength:'80',value:c.name || '',placeholder:'封面名称'});
+  const active=el('input',{type:'checkbox',checked:!!c.is_active});
+  const config=el('textarea',{rows:'5',spellcheck:'false',text:JSON.stringify(c.render_config || {},null,2),'aria-label':'动态封面 JSON'});
+  const save=saveButton('保存 Cover','save_cover',()=>{let v={};try{v=config.value.trim()?JSON.parse(config.value):{};}catch(e){throw new Error('Cover 配置必须是 JSON');}return {slug:c.slug,name:name.value,render_engine:c.render_engine || 'canvas',render_config:v,is_active:active.checked};});
+  return el('article',{class:'card ops-card'},el('h3',{text:c.slug}),el('p',{class:'muted',text:'Canvas 粒子/科技风封面由公共空间前端按此配置渲染；文字会落在安全区，减少动态背景干扰。'}),el('div',{class:'ops-grid'},el('div',{class:'full'},el('label',{text:'名称'}),name),el('label',{class:'check',text:'可选用'},active),el('div',{class:'full'},el('label',{text:'渲染配置（JSON）'}),config)),el('div',{class:'actions'},save.b),save.msg);
+}
+function addParticleCover(){
+  return {slug:'particle-network',name:'粒子网络',render_engine:'canvas',is_active:true,render_config:{palette:['#0B4F3B','#1F7A6D','#6FB98F','#E8C778'],particle_count_desktop:42,particle_count_mobile:18,speed:0.22,connect_distance:110,text_safe_area:'bottom',reduced_motion:'static-svg'}};
+}
+function contentOpsRow(c, covers){
+  const weight=el('input',{type:'number',min:'-30',max:'30',value:String(c.editorial_weight||0)}), hidden=el('input',{type:'checkbox',checked:!!c.hidden});
+  const mode=el('select',{},[['auto','自动'],['source','原图'],['preset','动态 Cover'],['none','无封面']].map(x=>el('option',{value:x[0],selected:x[0]===c.cover_mode,text:x[1]})));
+  const preset=el('select',{},[el('option',{value:'',text:'选择动态 Cover'}),...covers.filter(x=>x.is_active).map(x=>el('option',{value:x.id,selected:x.id===c.cover_preset_id,text:x.name || x.slug}))]);
+  const placementNames={featured:'精选',selected:'首页推荐',personalized:'为你精选',trending:'正在发生',latest:'最新更新'};
+  const chosen=new Set(Array.isArray(c.placement_slugs)?c.placement_slugs:[]);
+  const placements=Object.entries(placementNames).map(([slug,name])=>el('label',{class:'check'},el('input',{type:'checkbox',value:slug,checked:chosen.has(slug)}),name));
+  const reason=el('input',{type:'text',maxlength:'160',value:c.editorial_note || '',placeholder:'例如：本周热读 / 正在发生'});
+  const save=saveButton('保存','save_content',()=>({id:c.id,editorial_weight:weight.value,hidden:hidden.checked,cover_mode:mode.value,cover_preset_id:preset.value,editorial_note:reason.value,placement_modules:placements.filter(x=>x.querySelector('input').checked).map(x=>x.querySelector('input').value)}));
+  return el('article',{class:'card ops-card compact'},el('h3',{text:c.title}),el('p',{class:'meta'},c.program_name, c.language || '', '打开 '+num(c.opens), '收藏 '+num(c.saves)),el('div',{class:'ops-grid'},el('div',{},el('label',{text:'权重'}),weight),el('label',{class:'check',text:'隐藏'},hidden),el('div',{},el('label',{text:'封面'}),mode),el('div',{},el('label',{text:'动态 Cover'}),preset),el('div',{class:'full'},el('label',{text:'投放到栏目'}),el('div',{class:'topics-box'},placements)),el('div',{class:'full'},el('label',{text:'推荐理由'}),reason)),el('div',{class:'actions'},save.b),save.msg);
+}
+async function renderOps(){
+  const box=$('#ops'); box.textContent='';
+  if(state.mode !== 'password') { box.append(el('p',{class:'empty',text:'运营页需要用管理密码登录。这样数据库凭据不会被放入浏览器；来源、审核仍可使用 GitHub 令牌模式。'})); return; }
+  box.append(el('p',{class:'muted',text:'来源页管理采集与基础分类；这里管理公共空间的展示结果。同步只导入目录内容，不会把人工的推荐、隐藏、权重和广告设置覆盖掉。分享模板暂未接入。'}));
+  let data;
+  try{ data=await Promise.all([ops('dashboard'),ops('programs'),ops('modules'),ops('covers'),ops('ads'),ops('contents')]); }
+  catch(e){ box.append(el('p',{class:'msg bad',text:e.message})); return; }
+  const [dash, programs, modules, covers, ads, contents]=data;
+  const sync=el('button',{type:'button',class:'primary',text:'同步目录到运营库',onclick:async()=>{sync.disabled=true; sync.textContent='同步中…'; try{const r=await ops('sync_directory'); sync.textContent='已同步 '+r.programs+' 个节目 / '+r.contents+' 篇内容'; await renderOps();}catch(e){sync.textContent=e.message;sync.className='danger';} sync.disabled=false;}});
+  const metric=dash.metrics||{};
+  box.append(el('section',{class:'ops-summary'},el('div',{class:'metric'},el('b',{text:String(dash.pending||0)}),el('span',{text:'待处理内容'})),el('div',{class:'metric'},el('b',{text:num(metric.opens)}),el('span',{text:'近 7 天打开'})),el('div',{class:'metric'},el('b',{text:num(metric.saves)}),el('span',{text:'近 7 天收藏'})),el('div',{class:'metric'},el('b',{text:num(metric.likes)}),el('span',{text:'近 7 天点赞'}))),el('div',{class:'actions'},sync));
+  if((dash.alerts||[]).length) box.append(el('section',{class:'card'},el('h2',{text:'需要留意'}),...(dash.alerts||[]).map(x=>el('p',{class:'muted',text:(x.name||x.directory_id)+' · '+(x.status==='paused'?'已暂停':'连续采集失败 '+x.consecutive_failures+' 次')}))));
+  const section=(title,desc,items)=>el('section',{class:'ops-section'},el('h2',{text:title}),el('p',{class:'muted',text:desc}),...items);
+  box.append(section('节目表现与投放','根据近 30 天打开、收藏、点赞，决定是否进入公共空间或推荐。权重只作人工微调，不替代数据。',programs.map(programOpsCard)));
+  box.append(section('公共空间栏目','每个模块可独立控制设备和条数。',modules.map(moduleOpsCard)));
+  const addCover=el('button',{type:'button',text:'加入粒子网络预设',onclick:async()=>{try{await ops('save_cover',addParticleCover());await renderOps();}catch(e){say(e.message,'bad');}}});
+  box.append(section('动态 Cover','封面配置只保存“风格规则”，不生成带字的图片。文章标题由前端实时叠加，因此不会因为不同尺寸裁切变形。',[el('div',{class:'actions'},addCover),...covers.map(coverOpsCard)]));
+  box.append(section('广告位','只管理位置和设备；广告代码继续留在前端配置。',ads.map(adOpsCard)));
+  box.append(section('近期内容编辑','控制推荐、隐藏和 Cover 策略。',contents.slice(0,30).map(c=>contentOpsRow(c,covers))));
+}
 async function renderDone(){
   const box = $('#done'); box.textContent = '';
   const issues = (await listIssues('closed', ['listed', 'rejected'])).sort((a, b) => Date.parse(b.closed_at || 0) - Date.parse(a.closed_at || 0)).slice(0, 40);
@@ -342,7 +503,7 @@ async function loadDirectory(){
 }
 async function refresh(){
   if(state.busy) return; state.busy = true; say('正在读取…');
-  try{ await loadDirectory(); await Promise.all([renderPending(), renderDone()]); renderListed(); say(''); }
+  try{ await loadDirectory(); await Promise.all([loadRegistry(), renderPending(), renderDone()]); renderListed(); renderSources(); renderOps(); say(''); }
   catch(e){ say(e.message, 'bad'); }
   state.busy = false;
 }
@@ -401,7 +562,9 @@ $('#logoutBtn').addEventListener('click', () => { store.clear(); sessions.clear(
 $('#dailyBtn').addEventListener('click', async () => { try{ await dispatch('daily.yml'); say('已触发更新，约 1–2 分钟后点“刷新”。', 'good'); }catch(e){ say(e.message, 'bad'); } });
 document.querySelectorAll('[data-tab]').forEach(b => b.addEventListener('click', () => {
   document.querySelectorAll('[data-tab]').forEach(x => x.setAttribute('aria-selected', String(x === b)));
-  for(const id of ['pending', 'listed', 'done']) $('#' + id).hidden = id !== b.dataset.tab;
+  for(const id of ['pending', 'listed', 'sources', 'ops', 'done']) $('#' + id).hidden = id !== b.dataset.tab;
+  $('#hint').hidden = b.dataset.tab !== 'pending';                          // the line about applications belongs to the first tab
+  if(b.dataset.tab === 'ops') renderOps();
 }));
 
 (async function boot(){

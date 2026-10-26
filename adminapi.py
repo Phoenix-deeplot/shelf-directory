@@ -4,8 +4,8 @@ Standard library only. api/admin.py is the thin Vercel wrapper; the tests run `h
 
 The GitHub token (ADMIN_GITHUB_TOKEN: this repository only, Issues + Actions read/write, Contents read) lives in the function's environment and never
 leaves it. The browser holds a *session*: a signed, expiring value that is worth nothing without this function, and that this function only
-exchanges for a short list of things the admin page does (read the applications, label one approved or rejected, comment, start the remove /
-daily workflow, read docs/directory.json). Everything else is refused before GitHub is asked.
+exchanges for a short list of things the admin page does (read the applications, label one approved or rejected, comment, start the remove / set /
+daily workflow, read docs/directory.json and registry/shelves.json). Everything else is refused before GitHub is asked.
 
 Environment: SHELF_REPO (owner/repo, shared with the submit function), ADMIN_PASSWORD (at least 12 characters), ADMIN_GITHUB_TOKEN, IP_SALT (shared).
 Changing the password or the GitHub token signs every session out: the signing key is made from both.
@@ -105,10 +105,24 @@ LABELS = ('approved', 'rejected')
 WORKFLOWS = {'remove': True, 'daily': False}                               # workflow -> needs a target
 TARGET = re.compile(r'^(post:)?[A-Za-z0-9][A-Za-z0-9._-]{0,120}$')
 BATCH_NUMBERS = re.compile(r'^\d{1,7}(,\d{1,7}){0,59}$')                      # the batch workflow: up to 60 issue numbers
+SHELF_ID = re.compile(r'^[a-z0-9][a-z0-9-]{0,100}$')
+SET_INPUTS = ('id', 'status', 'rights', 'topics', 'platform', 'note')           # the set workflow: all six, always (an empty topics / platform / note takes the value away)
+SET_TOPICS = re.compile(r'^([a-z0-9][a-z0-9-]{0,19}(,[a-z0-9][a-z0-9-]{0,19}){0,29})?$')
 
 
 def _forbidden():
     return Reply(400, 'forbidden', '这个操作管理页用不到，已拒绝', 'Not something the admin page does')
+
+
+def _source_inputs(inputs):
+    """The inputs of the set workflow, checked and tidied. The workflow's own command checks them once more (the topics against the topics this directory has)."""
+    if not (isinstance(inputs, dict) and set(inputs) == set(SET_INPUTS) and all(isinstance(v, str) for v in inputs.values())):
+        raise _forbidden()
+    note = re.sub(r'\s+', ' ', inputs['note']).strip()
+    if not (SHELF_ID.fullmatch(inputs['id']) and inputs['status'] in agg.STATUSES and inputs['rights'] in agg.RIGHTS and SET_TOPICS.fullmatch(inputs['topics'])
+            and (inputs['platform'] == '' or agg.PLATFORM_ID.fullmatch(inputs['platform'])) and len(note) <= agg.NOTE_MAX and not re.search(r'[\x00-\x1f\x7f]', note)):
+        raise _forbidden()
+    return {**{k: inputs[k] for k in SET_INPUTS}, 'note': note}
 
 
 def plan(method, path, body, cfg, branch):
@@ -128,7 +142,7 @@ def plan(method, path, body, cfg, branch):
         m = re.fullmatch(e + r'/issues/(\d{1,7})/comments\?per_page=100', path)
         if m:
             return 'plain', 'GET', '%s/issues/%d/comments?per_page=100' % (r, int(m.group(1))), None, None
-        if path == r + '/contents/docs/directory.json':
+        if path in (r + '/contents/docs/directory.json', r + '/contents/registry/shelves.json'):      # the second: the sources with what is said about them, a paused one included
             return 'file', 'GET', path, None, 'application/vnd.github.raw+json'
     elif method == 'POST':
         m = re.fullmatch(e + r'/issues/(\d{1,7})/labels', path)
@@ -154,6 +168,9 @@ def plan(method, path, body, cfg, branch):
             if mode == 'reject' and reason.strip():
                 clean['reason'] = re.sub(r'\s+', ' ', reason).strip()
             return 'plain', 'POST', '%s/actions/workflows/batch.yml/dispatches' % r, {'ref': branch(), 'inputs': clean}, None
+        if re.fullmatch(e + r'/actions/workflows/set\.yml/dispatches', path):             # say something about one source
+            inputs = body.get('inputs') if isinstance(body, dict) else None
+            return 'plain', 'POST', '%s/actions/workflows/set.yml/dispatches' % r, {'ref': branch(), 'inputs': _source_inputs(inputs)}, None
         m = re.fullmatch(e + r'/actions/workflows/(remove|daily)\.yml/dispatches', path)
         if m:
             inputs = body.get('inputs') if isinstance(body, dict) else None

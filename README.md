@@ -105,7 +105,26 @@
 ### B6. 站长推荐和领域标签
 
 - **站长推荐**：给一个已收录的书架标上推荐和一句话：`python aggregate.py feature 书架编号 --blurb "每周一篇，读完就能用"`（`--off` 取消；收录时也可以直接 `approve 网址 --featured --blurb …`）。标过的书架在 `directory.json` 里有 `featured: true` 和 `blurb`，主站目录页顶部的“站长推荐”和“合集”下拉框里的“站长推荐”用它。
-- **领域标签页**（科技、编程、商业、金融、学术、读书、人文、供应链、音乐、生活、娱乐、教育、工具、新闻、游戏、健康、设计）：`directory.json` 里的 `topics`，一条内容（或它的书架）带有某个领域的任一标签就算这个领域，不分大小写。想改领域，在 `registry/topics.json` 写 `{"topics":[{"id":"tech","zh":"科技","en":"Tech","tags":["科技","tech",…]}]}`（`id` 小写字母、数字、`-`，最多 30 个领域、每个 60 个标签）；没有这个文件或里面一个有效的都没有，就用内置的十个。“平台”标签页不需要任何设置，主站按网址判断。
+- **领域标签页**（科技、编程、商业、金融、学术、读书、人文、供应链、音乐、生活、娱乐、教育、工具、新闻、游戏、健康、设计）：`directory.json` 里的 `topics`，一条内容（或它的书架）带有某个领域的任一标签就算这个领域，不分大小写。想改领域，在 `registry/topics.json` 写 `{"topics":[{"id":"tech","zh":"科技","en":"Tech","tags":["科技","tech",…]}]}`（`id` 小写字母、数字、`-`，最多 30 个领域、每个 60 个标签）；没有这个文件或里面一个有效的都没有，就用内置的十七个。“平台”标签页不需要任何设置，主站按网址判断（想手工指定，见 B7 的 `platform`）。
+
+### B7. 来源状态（固定 / 动态 / 试读 / 暂停）
+
+给每个已登记的来源标注几件事。**都是可选的**，不写就按默认，旧的 `registry/shelves.json` 不用改：
+
+| 字段 | 取值 | 默认 | 意思 |
+|---|---|---|---|
+| `status` | `fixed` / `dynamic` / `trial` / `paused` | `fixed` | 固定 = 长期；动态 = 按热点进出（主站“平台”里独立网站按热度排前五个，其余收在“更多”）；试读 = 新来源，小范围观察；**暂停** = 保留登记和已读到的内容，但**不更新、不在目录里出现** |
+| `rights` | `official-link` / `licensed` / `unknown` | `unknown` | 官方订阅源或接口，只用标题、摘要和链接 / 作者授权 / 还没有确认 |
+| `topics` | 领域编号的列表（`directory.json` 的 `topics[].id`） | 不写 | 手工指定属于哪些领域；写了，主站就不再靠标签猜 |
+| `platform` | 平台编号：`zhihu`、`youtube`、`bilibili`、`wechat`……（小写字母、数字、`-`，最多 30 个字符） | 不写 | 手工指定平台；写了，主站就不再按网址猜 |
+| `note` | 文字，最多 200 字 | 不写 | 给维护者看的备注。**不会写进 `docs/` 里的任何文件**，但它在 `registry/shelves.json` 里：仓库是公开的话，别人在 GitHub 上看得到，不要写机密 |
+
+- **命令**：`python aggregate.py set 编号 [--status S] [--rights R] [--topics a,b] [--platform P] [--note 文字]`（没给的不动；`--topics=` `--platform=` `--note=` 写空就是清掉；值不对会拒绝并说明，什么都不写；改完马上重新生成 `docs/`）。`python aggregate.py shelves` 列出所有来源：编号、名称、状态、版权、领域、平台、篇数。收录时也可以直接带上：`approve 网址 --status trial --topics tech,dev`。
+- **暂停**：`fetch` 和 `run` 跳过它（`fetch --only 编号` 仍可单独读一次）；`build` 里它不在 `shelves` 和 `items` 里，也不在 `feed/…` 的任何订阅源和 `shelves.opml` 里；快照文件保留，恢复（`set 编号 --status fixed`）后立刻回到目录，并在下一次读取时更新。
+- **`build` 不会因为一个不对的值失败**：登记表里不合格的值被忽略并在日志里说明（`build: 编号: … (ignored)`），一个领域列表里对的留下、不对的去掉。
+- **`directory.json` 里新增**：每个 `shelves[]` 一定有 `status` 和 `rights`，写了才有 `topics` 和 `platform`（`note` 永远没有）；顶层有整数 `paused`（暂停了几个）。**注意**：`shelves[].status` 以前表示“上一次读取是否成功”（`ok` / `error`），现在改叫 **`health`**，`status` 是上面的状态；页面没有读过旧的 `status`。社区投稿那个书架的 `rights` 是 `licensed`（作者提交时已经同意）。
+- **栏目（`columns`）**：主站首页上的栏目由 `registry/config.json` 的 `columns` 决定，原样写进 `directory.json`（没写就没有这一项，页面用内置的）。每项 `{"id","zh","en","topics","platforms","types"}`：`id` 是 1–20 个小写字母、数字、`-`；`zh`、`en` 不能空、最多 24 个字；`topics` 是领域编号、`platforms` 是平台编号、`types` 取自 `article note video audio pdf tool book`，后三个可以不写；最多 12 项，不合格的整项丢掉并在日志里说明。一篇内容只属于一个栏目：页面先看 `platforms` / `types`，再看领域；这个归属由页面做，这里只检查和原样写出。仓库里默认写了八个栏目（今日摸鱼、AI 与科技、学习与研究、财经与商业、职场与产品、视频与创作者、读书与深度、全球正在发生）。
+- **在管理页里改**：“来源”标签页（见 C）。它启动 `.github/workflows/set.yml`（`id` `status` `rights` `topics` `platform` `note` 六个输入，必须全给；空的 `topics` / `platform` / `note` 就是清掉），工作流里 `set` 之后，只要不是暂停就把这个来源重新读一次再生成目录，然后提交。
 
 ### C. 管理页
 
@@ -118,7 +137,7 @@
 | `ADMIN_PASSWORD` | 管理密码，**至少 12 个字符**（最好是一句长长的话；不到 12 个字符时管理密码功能不会启用）。 |
 | `ADMIN_GITHUB_TOKEN` | 一个 fine-grained 令牌：只选这个仓库，**Issues: Read and write**、**Actions: Read and write**、**Contents: Read-only**。不要和访客提交用的 `SUBMIT_GITHUB_TOKEN` 共用（那一个只能写 issue）。 |
 
-之后管理页就只出现一个密码框。密码在服务器（`api/admin.py`）上核对，登录后浏览器拿到的是一个**会过期的通行证**（不勾“记住”：关闭标签页或 8 小时；勾了：这台设备上 14 天），不是令牌。这个通行证只能换到管理页上要做的几件事：读申请和已收录的目录、给申请标 `approved` / `rejected`、写一条不超过 600 字的评论、启动 `remove.yml`（带一个编号）和 `daily.yml`；别的一律在问 GitHub 之前就拒绝（读不了别的文件、改不了仓库设置、删不了 issue）。
+之后管理页就只出现一个密码框。密码在服务器（`api/admin.py`）上核对，登录后浏览器拿到的是一个**会过期的通行证**（不勾“记住”：关闭标签页或 8 小时；勾了：这台设备上 14 天），不是令牌。这个通行证只能换到管理页上要做的几件事：读申请、已收录的目录和登记的来源（`docs/directory.json`、`registry/shelves.json`，别的文件读不了）、给申请标 `approved` / `rejected`、写一条不超过 600 字的评论、启动 `remove.yml`（带一个编号）、`set.yml`（六个输入，每个都按格式检查）、`batch.yml` 和 `daily.yml`；别的一律在问 GitHub 之前就拒绝（读不了别的文件、改不了仓库设置、删不了 issue）。
 
 - 输错密码要等 1 秒；同一个来源 15 分钟内输错 6 次就先锁住。这个计数只在一台服务器实例里，所以真正的防线是**密码够长**。
 - **换密码或换令牌会让所有已登录的设备立刻退出**（通行证是用它们两个一起签名的）。手机丢了、怀疑泄露：换一下 `ADMIN_PASSWORD` 重新部署。
@@ -128,6 +147,7 @@
 
 - **待审**：每个申请显示识别结果（机器人的回复）、检查状态（通过 / 未通过 / 重复）；文章投稿可以看全文预览。「通过」「拒绝…」（可写理由，只记在 issue 里，不会告诉申请人）。通过后等 Action 登记，页面会告诉你结果。
 - **已收录**：所有书架，每个有「删除」；托管文章单独列出，每篇有「删除」。「立即更新目录」会马上重读所有来源。
+- **来源**：登记的每个来源一张卡：状态（固定 / 动态 / 试读 / 暂停）、版权、领域（多选）、平台、备注；「保存」，以及一键「暂停…」「恢复」。暂停的来源也在这里（它不在“已收录”里）。保存由 `set.yml` 执行，约 1 分钟生效；这一页需要读 `registry/shelves.json` 的权限（密码方式服务器上的令牌有 Contents: Read-only；令牌方式要加上这一项）。
 - **已处理**：最近通过和拒绝的申请。
 
 ## 日常
@@ -173,6 +193,8 @@ python aggregate.py build [--base http://127.0.0.1:8770/]   # 生成 docs/（托
 python aggregate.py run              # fetch + build
 python aggregate.py serve            # 在 http://127.0.0.1:8770/ 预览 docs/（带 CORS，给本机的网页用）
 python aggregate.py feature 编号 --blurb "一句话"     # 标成站长推荐（--off 取消）
+python aggregate.py set 编号 --status paused        # 来源状态：fixed | dynamic | trial | paused；另有 --rights --topics --platform --note（B7）
+python aggregate.py shelves          # 列出所有来源和它们的状态、版权、领域、平台、篇数
 python aggregate.py remove 编号       # 或 post:文章编号
 python -X utf8 -m unittest discover -s tests -v          # 测试（不联网）
 ```
