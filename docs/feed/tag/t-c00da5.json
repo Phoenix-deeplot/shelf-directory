@@ -9,6 +9,661 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
+      "url": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
+      "title": "Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures",
+      "content_text": "Anthropic’s S-1 filing is hundreds of pages long—and it leaves out quite a few financial details. “Anthropic owes investors more information,” one analyst tells…",
+      "summary": "Anthropic’s S-1 filing is hundreds of pages long—and it leaves out quite a few financial details. “Anthropic owes investors more information,” one analyst tells…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adf8a425d1e509438fb58ec/master/pass/Anthropic3.jpg",
+      "tags": [
+        "Business",
+        "What’s Your Number?",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/ghost-stories/",
+      "url": "https://www.wired.com/ghost-stories/",
+      "title": "WIRED Ghost Stories",
+      "content_text": "Five hauntings from the other side of technology.",
+      "summary": "Five hauntings from the other side of technology.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adbf59adee148eb9cc5625f/master/pass/WIRED-ghost-stories-top-art.jpg",
+      "tags": [
+        "The Big Story",
+        "Spectral Edition",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/review/valve-steam-frame/",
+      "url": "https://www.wired.com/review/valve-steam-frame/",
+      "title": "Valve Steam Frame Review: Costly and Inconsistent",
+      "content_text": "The Steam Frame’s promise of greatness for stand-alone and streaming VR gaming doesn’t quite connect.",
+      "summary": "The Steam Frame’s promise of greatness for stand-alone and streaming VR gaming doesn’t quite connect.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adbc96a2eadfa02886c7f8c/master/pass/ValveArt.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Reviews",
+        "Product Review",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/",
+      "url": "https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/",
+      "title": "This AI Radio Host Speaks Spanish and Backs Immigrants. It’s Winning Over Listeners",
+      "content_text": "Coyotec is bilingual, swears, and tells listeners how to defend themselves against ICE. Its popularity comes as more broadcasters are experimenting with artific…",
+      "summary": "Coyotec is bilingual, swears, and tells listeners how to defend themselves against ICE. Its popularity comes as more broadcasters are experimenting with artific…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adbe71b429a21d2813df7cd/master/pass/GGC%20-%205-watermarked.jpg",
+      "tags": [
+        "Culture",
+        "Culture / Digital Culture",
+        "Making Waves",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
+      "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
+      "title": "The US Government Is Hiding a Secret Court Ruling About How It Spies on Americans",
+      "content_text": "Two US senators say the Trump administration is breaking the law by withholding the FISA court decision while it presses Congress to renew America’s most sweepi…",
+      "summary": "Two US senators say the Trump administration is breaking the law by withholding the FISA court decision while it presses Congress to renew America’s most sweepi…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adbe0039bde53c96a68d73b/master/pass/Security_Trump%20Officials%20are%20Sitting%20on%20a%20Secret%20Surveillance%20Court%20Ruling_v1.jpg",
+      "tags": [
+        "Security",
+        "Security / Privacy",
+        "Need to Know",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/the-tragedy-of-losing-your-wikipedia-page/",
+      "url": "https://www.wired.com/story/the-tragedy-of-losing-your-wikipedia-page/",
+      "title": "The Tragedy of Having a Wikipedia Page—and Then Losing It",
+      "content_text": "Every day, Wikipedia biographies of living people are flagged for deletion because the subjects are not “notable” enough. How do these poor souls take the news?",
+      "summary": "Every day, Wikipedia biographies of living people are flagged for deletion because the subjects are not “notable” enough. How do these poor souls take the news?",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ada50d1133035a6bb08be2d/master/pass/WIRED-Ghost-Stories-Wikipedia-Notable-top.jpg",
+      "tags": [
+        "The Big Story",
+        "Culture",
+        "Culture / Digital Culture",
+        "Ghosted",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/the-hottest-new-side-hustle-is-stripping-copper-wire-and-posting-about-it/",
+      "url": "https://www.wired.com/story/the-hottest-new-side-hustle-is-stripping-copper-wire-and-posting-about-it/",
+      "title": "The Hottest New Side Hustle Is Stripping Copper Wire and Posting About It",
+      "content_text": "Copper prices are at record highs, but for TikTok creators, the real money may be in teaching others how to strip wire—and selling them the tools to do it.",
+      "summary": "Copper prices are at record highs, but for TikTok creators, the real money may be in teaching others how to strip wire—and selling them the tools to do it.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ada4995fd62e299be0487da/master/pass/Business_Meet%20The%20TikTokers%20Stripping%20Copper%20As%20a%20Side%20Hustle_v2.jpg",
+      "tags": [
+        "Business",
+        "Business / Social Media",
+        "Culture",
+        "Culture / Digital Culture",
+        "Copping Copper",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
+      "url": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
+      "title": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
+      "content_text": "Anthropic thinks “closing the loop” is the best path to AI triumph—and a recipe for “existential” threats to humanity.",
+      "summary": "Anthropic thinks “closing the loop” is the best path to AI triumph—and a recipe for “existential” threats to humanity.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adf6d7844b1eb496ab79957/master/pass/Business_The%20Anthropic%20IPO%20Is%20Also%20a%20Doomsday%20Primer_v1.jpg",
+      "tags": [
+        "Business",
+        "Danger Zone",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/some-iphone-duo-models-are-breaking-ifixits-teardown-might-explain-why/",
+      "url": "https://www.wired.com/story/some-iphone-duo-models-are-breaking-ifixits-teardown-might-explain-why/",
+      "title": "Some iPhone Duo Models Are Breaking. iFixit’s Teardown Might Explain Why",
+      "content_text": "Apple confirmed a “small number” of iPhone Duo units have an issue impacting the inner display.",
+      "summary": "Apple confirmed a “small number” of iPhone Duo units have an issue impacting the inner display.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adf134c0a7918a0f61a89fd/master/pass/iPhone%20Duo_94.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Gear News and Events",
+        "Gear / Products / Phones",
+        "Fold Fix",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
+      "url": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
+      "title": "Meet the AI Agents Trying to Be Real-Life Journalists",
+      "content_text": "Jayden, Sam, and Zack are eagerly pitching editors on reported stories and investigative features. The catch? They're all AI agents.",
+      "summary": "Jayden, Sam, and Zack are eagerly pitching editors on reported stories and investigative features. The catch? They're all AI agents.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adcfb8cc56cd60fecb6db05/master/pass/AI%20journalists%202.jpg",
+      "tags": [
+        "Business",
+        "Bot Correspondents",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/review/lykyn-automated-mushroom-grow-box/",
+      "url": "https://www.wired.com/review/lykyn-automated-mushroom-grow-box/",
+      "title": "Lykyn Review: A Mushroom Garden Worth Showing Off",
+      "content_text": "Dramatic lighting and fog make this countertop fruiting chamber a conversation starter. The mushrooms are pretty good too.",
+      "summary": "Dramatic lighting and fog make this countertop fruiting chamber a conversation starter. The mushrooms are pretty good too.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ad8c39e703442e7edd75dbd/master/pass/Review%20Lykyn%20Automated%20Mushroom%20Grow%20Box%20102026%20top%20art%20SOURCE%20Lykyn.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Home",
+        "Gear / Products / Kitchen",
+        "Spore Spectacle",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/review/lg-b6/",
+      "url": "https://www.wired.com/review/lg-b6/",
+      "title": "LG B6 OLED TV Review (2026)",
+      "content_text": "The LG B6 has deep and rich blacks and a low price tag, but midrange performance elsewhere.",
+      "summary": "The LG B6 has deep and rich blacks and a low price tag, but midrange performance elsewhere.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ade13f8303d1f1d72ef4b2b/master/pass/Review%20LG%20B6%20OLED%20TV%20102026%20top%20art%20SOURCE%20Amazon.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Televisions",
+        "Oh-LED",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/grok-says-its-ai-generated-version-of-the-odyssey-is-not-historically-accurate/",
+      "url": "https://www.wired.com/story/grok-says-its-ai-generated-version-of-the-odyssey-is-not-historically-accurate/",
+      "title": "Grok Says Its AI-Generated Version of ‘The Odyssey’ Is ‘Not Historically Accurate’",
+      "content_text": "Months after Elon Musk declared that the xAI model would outclass Christopher Nolan’s mythological epic, the bot itself admitted defeat.",
+      "summary": "Months after Elon Musk declared that the xAI model would outclass Christopher Nolan’s mythological epic, the bot itself admitted defeat.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adfd0bd71d0e77d5637708d/master/pass/MCDODYS_UV008.jpg",
+      "tags": [
+        "Culture",
+        "Culture / Digital Culture",
+        "Culture / Movies",
+        "Epic Fail",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/review/google-fitbit-edge/",
+      "url": "https://www.wired.com/review/google-fitbit-edge/",
+      "title": "Google Fitbit Edge Review: I Still Prefer the Air (2026)",
+      "content_text": "The Edge is a welcome upgrade for longtime Fitbit users, but the missing NFC technology is a puzzling regression.",
+      "summary": "The Edge is a welcome upgrade for longtime Fitbit users, but the missing NFC technology is a puzzling regression.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adf55bb4342ac0de5548459/master/pass/Google%20Fitbit%20Edge%20Review%20102026%20top%20art%20SOURCE%20Google.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Watches",
+        "Screen Time",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/best-dyson-week-vacuum-deal-oct-2026/",
+      "url": "https://www.wired.com/story/best-dyson-week-vacuum-deal-oct-2026/",
+      "title": "Best Dyson Vacuum Deals for Dyson Week 2026",
+      "content_text": "The powerful Dyson V16 Piston Animal and other Dyson vacuums and tools are discounted until Halloween.",
+      "summary": "The powerful Dyson V16 Piston Animal and other Dyson vacuums and tools are discounted until Halloween.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6a67cdb1173a7fcd3f13de82/master/pass/Review--Dyson-V16-Piston-Animal-Submarine.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products / Home",
+        "Cleanin’ Up",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/apple-airtag-deal-october-2026/",
+      "url": "https://www.wired.com/story/apple-airtag-deal-october-2026/",
+      "title": "Apple AirTags (2nd Gen) Are on Sale for 20% Off Right Now",
+      "content_text": "Track down your suitcase, car keys, and other essentials with this $23 Bluetooth tracker.",
+      "summary": "Track down your suitcase, car keys, and other essentials with this $23 Bluetooth tracker.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adfa712dae5c72239fced97/master/pass/AirTag%20Deal%20102026%20top%20art%20SOURCE%20Amazon.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products / Phones",
+        "WYA?",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
+      "url": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
+      "title": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
+      "content_text": "Anthropic on Monday filed documents ahead of a blockbuster IPO that offers insight into the company’s financials, risk factors, and views on the future of AI.",
+      "summary": "Anthropic on Monday filed documents ahead of a blockbuster IPO that offers insight into the company’s financials, risk factors, and views on the future of AI.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adf6c00ca47359863df5ba5/master/pass/102626-Anthropic%20IPO.jpg",
+      "tags": [
+        "Business",
+        "We’re Getting Antsy",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/anker-halloween-sale-oct-2026/",
+      "url": "https://www.wired.com/story/anker-halloween-sale-oct-2026/",
+      "title": "Anker’s Halloween Sale Takes 20% Off Our Favorite Chargers and Power Banks",
+      "content_text": "Avoid the scariest thing this Halloween (your phone at 1 percent) with Anker's 20 percent off sale on all charging gear.",
+      "summary": "Avoid the scariest thing this Halloween (your phone at 1 percent) with Anker's 20 percent off sale on all charging gear.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adfb111ce126e8759a8370d/master/pass/Anker%20Halloween%20Sale%20deals%20102026%20top%20art%20SOURCE%20Anker.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products / Home Office",
+        "Watt a Steal",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/apple",
+      "url": "https://www.producthunt.com/products/apple",
+      "title": "iPad mini 8",
+      "content_text": "OLED, A20 Pro and IP67 in Apple's smallest iPad Discussion | Link",
+      "summary": "OLED, A20 Pro and IP67 in Apple's smallest iPad Discussion | Link",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/fswitcher",
+      "url": "https://www.producthunt.com/products/fswitcher",
+      "title": "fswitcher",
+      "content_text": "fswitcher replaces Command-Tab on your Mac Discussion | Link",
+      "summary": "fswitcher replaces Command-Tab on your Mac Discussion | Link",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/revix-ai-2",
+      "url": "https://www.producthunt.com/products/revix-ai-2",
+      "title": "Revix AI",
+      "content_text": "AI code review that learns your repo's own rules Discussion | Link",
+      "summary": "AI code review that learns your repo's own rules Discussion | Link",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/pulsedev",
+      "url": "https://www.producthunt.com/products/pulsedev",
+      "title": "PulseDev",
+      "content_text": "Click any UI bug on localhost. Your AI agent fixes it. Discussion | Link",
+      "summary": "Click any UI bug on localhost. Your AI agent fixes it. Discussion | Link",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/paddock-2",
+      "url": "https://www.producthunt.com/products/paddock-2",
+      "title": "Paddock",
+      "content_text": "Computers and sandboxes for your agents Discussion | Link",
+      "summary": "Computers and sandboxes for your agents Discussion | Link",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/openradview",
+      "url": "https://www.producthunt.com/products/openradview",
+      "title": "OpenRadView",
+      "content_text": "Free, open-source viewer for your own CT, MRI and X-rays Discussion | Link",
+      "summary": "Free, open-source viewer for your own CT, MRI and X-rays Discussion | Link",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/off-grid-ai",
+      "url": "https://www.producthunt.com/products/off-grid-ai",
+      "title": "Off Grid AI",
+      "content_text": "Private AI on your phone and computer. Discussion | Link",
+      "summary": "Private AI on your phone and computer. Discussion | Link",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/nuvio",
+      "url": "https://www.producthunt.com/products/nuvio",
+      "title": "Nuvio 5.0",
+      "content_text": "Hand your financial admin to your AI agent Discussion | Link",
+      "summary": "Hand your financial admin to your AI agent Discussion | Link",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/bluetooth-snes-controller",
+      "url": "https://www.producthunt.com/products/bluetooth-snes-controller",
+      "title": "Arcade Controller Pro",
+      "content_text": "A fight controller with no stick and its own screen Discussion | Link",
+      "summary": "A fight controller with no stick and its own screen Discussion | Link",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
       "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
       "title": "What the US Movement Against Data Centers Can Learn From Abroad",
@@ -312,8 +967,8 @@
       "id": "https://www.producthunt.com/products/whoiscooking",
       "url": "https://www.producthunt.com/products/whoiscooking",
       "title": "WhoIsCooking",
-      "content_text": "See which AI agent is heating your Mac. Cool it down. Discussion | Link",
-      "summary": "See which AI agent is heating your Mac. Cool it down. Discussion | Link",
+      "content_text": "See which AI agent is heating your Mac and cool it down. Discussion | Link",
+      "summary": "See which AI agent is heating your Mac and cool it down. Discussion | Link",
       "date_published": "2026-10-25T00:00:00Z",
       "tags": [
         "产品",
@@ -548,679 +1203,6 @@
         "Gear / Gear News and Events",
         "Gear / Reviews",
         "Product Review",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/",
-      "url": "https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/",
-      "title": "New mRNA Vaccine Reduces Risk of Melanoma Recurrence by Over 40 Percent",
-      "content_text": "The vaccine is personalized to a patient’s tumor, and results from the Phase 3 trial are yet another example of the promise of mRNA vaccines in treating cancer.",
-      "summary": "The vaccine is personalized to a patient’s tumor, and results from the Phase 3 trial are yet another example of the promise of mRNA vaccines in treating cancer.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adbb6236c5716eb12b3253b/master/pass/vacuna%20melanoma%202275195271.jpg",
-      "tags": [
-        "Science",
-        "Science / Health",
-        "A Win for Skin",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/joybird-semi-annual-sale-2026/",
-      "url": "https://www.wired.com/story/joybird-semi-annual-sale-2026/",
-      "title": "My Favorite Sofa Is Discounted for Joybird’s Semiannual Sale",
-      "content_text": "The Joybird Eliot Sleeper, plus hundreds of other options, are up to 40 percent off during the brand’s Semiannual sale.",
-      "summary": "The Joybird Eliot Sleeper, plus hundreds of other options, are up to 40 percent off during the brand’s Semiannual sale.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adba966042fe07bfaca19da/master/pass/Joybird%20Deals%20Post%20102026%20top%20art%20SOURCE%20Joybird.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Gear / Products / Home",
-        "Have Several Seats",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/inside-the-supermassive-debate-over-the-james-webb-telescopes-little-red-dots/",
-      "url": "https://www.wired.com/story/inside-the-supermassive-debate-over-the-james-webb-telescopes-little-red-dots/",
-      "title": "Inside the Supermassive Debate Over the James Webb Telescope’s ‘Little Red Dots’",
-      "content_text": "The Webb telescope sees tiny red dots everywhere. Astronomers can’t agree on what they are, but some believe they may be enormous stars with black holes inside.",
-      "summary": "The Webb telescope sees tiny red dots everywhere. Astronomers can’t agree on what they are, but some believe they may be enormous stars with black holes inside.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad9cd6aded54679300f97ae/master/pass/Black-Hole-Star-cr-Mark-Belan-Lede.jpg",
-      "tags": [
-        "Science",
-        "Science / Space",
-        "Nerd Fight",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/garmin-deals-october-2026/",
-      "url": "https://www.wired.com/story/garmin-deals-october-2026/",
-      "title": "Garmin Vivoactive 5 and Forerunner 165 Are up to 30 Percent Off (2026)",
-      "content_text": "I’ve tested almost every Garmin watch—these entry-level favorites are steeply discounted right now.",
-      "summary": "I’ve tested almost every Garmin watch—these entry-level favorites are steeply discounted right now.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adba70ca15e7091703dcd90/master/pass/Garmin%20Deals%20October%202026%20top%20art%20SOURCE%20Amazon.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Fitness Era",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/gallery/best-pet-cameras/",
-      "url": "https://www.wired.com/gallery/best-pet-cameras/",
-      "title": "Best Pet Camera of 2026: Furbo, Petcube, and Enabot",
-      "content_text": "Whether you’re near or far, keep an eye on your fur baby with our favorite pet cameras.",
-      "summary": "Whether you’re near or far, keep an eye on your fur baby with our favorite pet cameras.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adb915b98f760e7b008b9de/master/pass/Pet%20Cameras%20Update%20102026%20top%20art%20SOURCE%20Amazon.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Buying Guides",
-        "Gear / Products / Smart Home",
-        "Snoot Snooping",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/best-laptops/",
-      "url": "https://www.wired.com/story/best-laptops/",
-      "title": "Best Laptops (2026): My Top Recommendations After Testing Hundreds",
-      "content_text": "I’ve tested laptops for more than a decade, and here’s my advice for finding the right laptop for you.",
-      "summary": "I’ve tested laptops for more than a decade, and here’s my advice for finding the right laptop for you.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adb93924c15513ff5ac298b/master/pass/Update%20Best%20Laptops%20102026%20top%20art%20SOURCE%20Best%20Buy-Walmart.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Products",
-        "Gear / Buying Guides",
-        "Gear / Products / Computers",
-        "Buying Guide",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/",
-      "url": "https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/",
-      "title": "9 Unique Apps to Try on the iPhone Duo",
-      "content_text": "Apple’s first folding phone is inspiring indie developers to create fun, quirky apps that take advantage of the screen and the hinge. Here are a few to try as y…",
-      "summary": "Apple’s first folding phone is inspiring indie developers to create fun, quirky apps that take advantage of the screen and the hinge. Here are a few to try as y…",
-      "date_published": "2026-10-24T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adb699efc34ba9fae2279b4/master/pass/Top%20Art%20SOURCE%20Julian%20Chokkattu.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Gear News and Events",
-        "Gear / Products / Apps",
-        "Gear / Products / Phones",
-        "Fold and Tell",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/best-watches-under-400-chosen-by-experts/",
-      "url": "https://www.wired.com/story/best-watches-under-400-chosen-by-experts/",
-      "title": "12 Absolutely Banging Proper Watches Under $400",
-      "content_text": "WIRED and its panel of watch experts hunted for real mechanical timepieces at rock-bottom prices and found a wealth of options. Here are our favorites.",
-      "summary": "WIRED and its panel of watch experts hunted for real mechanical timepieces at rock-bottom prices and found a wealth of options. Here are our favorites.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada00b2fb70c7875ccb3ecc/master/pass/Watches%20Under%20400.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Buying Guides",
-        "Gear / Products / Watches",
-        "Wristy Business",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/yourcast",
-      "url": "https://www.producthunt.com/products/yourcast",
-      "title": "Yourcast 2.0",
-      "content_text": "AI summaries with tap-to-jump timestamps, right in Telegram Discussion | Link",
-      "summary": "AI summaries with tap-to-jump timestamps, right in Telegram Discussion | Link",
-      "date_published": "2026-10-24T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/papermark-2",
-      "url": "https://www.producthunt.com/products/papermark-2",
-      "title": "Papermark Data Rooms",
-      "content_text": "Secure data rooms your AI agents can run. Live in < 60 sec. Discussion | Link",
-      "summary": "Secure data rooms your AI agents can run. Live in < 60 sec. Discussion | Link",
-      "date_published": "2026-10-24T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/loqui-2",
-      "url": "https://www.producthunt.com/products/loqui-2",
-      "title": "Loqui",
-      "content_text": "Turns your voice into ready-to-send text in any Mac app Discussion | Link",
-      "summary": "Turns your voice into ready-to-send text in any Mac app Discussion | Link",
-      "date_published": "2026-10-24T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/kiwi-7",
-      "url": "https://www.producthunt.com/products/kiwi-7",
-      "title": "Kiwi",
-      "content_text": "A proactive AI assistant that texts you before you ask Discussion | Link",
-      "summary": "A proactive AI assistant that texts you before you ask Discussion | Link",
-      "date_published": "2026-10-24T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/agentgrid-io",
-      "url": "https://www.producthunt.com/products/agentgrid-io",
-      "title": "AgentGrid.io",
-      "content_text": "Shared workspace for humans and agents Discussion | Link",
-      "summary": "Shared workspace for humans and agents Discussion | Link",
-      "date_published": "2026-10-24T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/2g",
-      "url": "https://www.producthunt.com/products/2g",
-      "title": "2G",
-      "content_text": "Sampler to create early 2000 Neural Synthesis Discussion | Link",
-      "summary": "Sampler to create early 2000 Neural Synthesis Discussion | Link",
-      "date_published": "2026-10-24T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/gallery/iphone-buying-guide/",
-      "url": "https://www.wired.com/gallery/iphone-buying-guide/",
-      "title": "What’s the Best iPhone to Buy or Avoid Right Now? (2026)",
-      "content_text": "The first folding iPhone Duo is here, alongside the 18 Pro and 18 Pro Max, but they’re not your only options. We have all the details on Apple’s smartphone line…",
-      "summary": "The first folding iPhone Duo is here, alongside the 18 Pro and 18 Pro Max, but they’re not your only options. We have all the details on Apple’s smartphone line…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adb8eb7c29fe197e204584d/master/pass/iPhone%20Buying%20Guide%20102026%20top%20art%20SOURCE%20Apple.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Buying Guides",
-        "Gear / Products / Phones",
-        "Buying Guide",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/mattress-types-explained-2026/",
-      "url": "https://www.wired.com/story/mattress-types-explained-2026/",
-      "title": "What Type of Mattress Is Right for You? (2026)",
-      "content_text": "Here’s how to pick the best mattress for your sleep needs, straight from a professional mattress tester.",
-      "summary": "Here’s how to pick the best mattress for your sleep needs, straight from a professional mattress tester.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada561615aedf0df959752a/master/pass/What%20Type%20of%20Mattress%20Is%20Right%20for%20You%20102026.jpg",
-      "tags": [
-        "Gear",
-        "Gear / How To and Advice",
-        "Gear / Products / Sleep",
-        "Mattress Matchmaker",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/review/turtle-beach-vulcan-xp-ii/",
-      "url": "https://www.wired.com/review/turtle-beach-vulcan-xp-ii/",
-      "title": "Turtle Beach Vulcan II XP Review: Clicky Compromise",
-      "content_text": "Great for typing and fine for gaming, but too many compromises keep this mechanical keyboard from leveling up your play.",
-      "summary": "Great for typing and fine for gaming, but too many compromises keep this mechanical keyboard from leveling up your play.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada67244d7b986a1aaead4e/master/pass/Turtle%20Beach%20Vulcan%20XP%20II%20SOURCE%20Matt%20Kamen.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Reviews",
-        "Gear / Products / Home Office",
-        "Gear / Products / Gaming",
-        "Product Review",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/the-exotic-physics-behind-a-mysterious-1000-mile-cloud-on-mars/",
-      "url": "https://www.wired.com/story/the-exotic-physics-behind-a-mysterious-1000-mile-cloud-on-mars/",
-      "title": "The ‘Exotic Physics’ Behind a Mysterious 1,000-Mile Cloud on Mars",
-      "content_text": "The cloud has baffled astronomers since its discovery in 2018. Now, a new study offers a possible cause for its appearance.",
-      "summary": "The cloud has baffled astronomers since its discovery in 2018. Now, a new study offers a possible cause for its appearance.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad9cc2f43ef58c4a17cefed/master/pass/Mars_Express_views_the_most_striking_cloud_on_Mars.jpg",
-      "tags": [
-        "Science",
-        "Science / Space",
-        "Far Out",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/review/tdm-neo-hybrid-headphones/",
-      "url": "https://www.wired.com/review/tdm-neo-hybrid-headphones/",
-      "title": "TDM Neo Hybrid Headphones Review: Two-in-One Woes",
-      "content_text": "CES 2026 loved these innovative headphones that transform into a Bluetooth speaker. After living with them, I’m impressed by the engineering, but less impressed…",
-      "summary": "CES 2026 loved these innovative headphones that transform into a Bluetooth speaker. After living with them, I’m impressed by the engineering, but less impressed…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada7a9b8628ec861188a3e4/master/pass/TDM%20Neo%20review%20102026%20top%20art%20(3)%20SOURCE%20TDM.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Reviews",
-        "Gear / Products / Headphones",
-        "Gear / Products / Speakers",
-        "Do the Twist",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/split-tunneling-is-your-vpns-best-feature-heres-how-to-make-the-most-of-it/",
-      "url": "https://www.wired.com/story/split-tunneling-is-your-vpns-best-feature-heres-how-to-make-the-most-of-it/",
-      "title": "Split Tunneling Is Your VPN’s Best Feature. Here’s How to Make the Most of It",
-      "content_text": "This feature common to VPN services gives you protection and privacy specifically when and where you need it.",
-      "summary": "This feature common to VPN services gives you protection and privacy specifically when and where you need it.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad8c933572fecfc421778e0/master/pass/102126-Split%20Tunneling.jpg",
-      "tags": [
-        "Gear",
-        "Gear / How To and Advice",
-        "tunnel vision",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/review/samsung-galazy-z-flip8/",
-      "url": "https://www.wired.com/review/samsung-galazy-z-flip8/",
-      "title": "Samsung Galaxy Z Flip8 Review: The Littlest Smartphone That Could",
-      "content_text": "Samsung’s cute compact is for those who want the smallest possible phone. Performance and camera are solid, but it’s pricier than its predecessor.",
-      "summary": "Samsung’s cute compact is for those who want the smallest possible phone. Performance and camera are solid, but it’s pricier than its predecessor.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada7f3c75ce8d8c38ba9dad/master/pass/Review%20Samsung%20Galaxy%20Z%20Flip8%20102026%20top%20art%20SOURCE%20Amazon.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Products / Phones",
-        "Gear / Reviews",
-        "Product Review",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/revival-rugs-birthday-sale-october-2026/",
-      "url": "https://www.wired.com/story/revival-rugs-birthday-sale-october-2026/",
-      "title": "Revival Rugs Birthday Sale: 20 Percent Off Sitewide Through Sunday",
-      "content_text": "The brand’s lovely selection of hand-knotted and handwoven wool rugs at reasonable prices make it a WIRED-staff favorite.",
-      "summary": "The brand’s lovely selection of hand-knotted and handwoven wool rugs at reasonable prices make it a WIRED-staff favorite.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adba57525db5ec905073c5e/master/pass/New%20Revival%20Birthday%20Sale%20102026%20top%20art%20SOURCE%20Revival.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Gear / Products / Home",
-        "Carpet diem!",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/how-many-billions-would-it-take-to-hold-meta-accountable/",
-      "url": "https://www.wired.com/story/how-many-billions-would-it-take-to-hold-meta-accountable/",
-      "title": "How Many Billions Would It Take to Hold Meta Accountable?",
-      "content_text": "Meta got hit this week with its biggest fine yet, the latest in a mounting pile of court-ordered payments.",
-      "summary": "Meta got hit this week with its biggest fine yet, the latest in a mounting pile of court-ordered payments.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada8957133035a6bb08c0f2/master/pass/Business_How%20Many%20Billions%20Would%20It%20Take%20to%20Hold%20Meta%20Accountable_v1.jpg",
-      "tags": [
-        "Business",
-        "Business / Tech Culture",
-        "Backchannel",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/elon-musk-just-dumped-another-dollar76-million-into-the-midterms/",
-      "url": "https://www.wired.com/story/elon-musk-just-dumped-another-dollar76-million-into-the-midterms/",
-      "title": "Elon Musk Just Dumped Another $76 Million Into the Midterms",
-      "content_text": "The trillionaire has given more than $445 million to Republican political groups this election cycle, as Democrats vow to investigate him.",
-      "summary": "The trillionaire has given more than $445 million to Republican political groups this election cycle, as Democrats vow to investigate him.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adb5fd2c971dd84b8dc4ea5/master/pass/GettyImages-2246892016.jpg",
-      "tags": [
-        "Politics",
-        "Midterms 2026",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/early-black-friday-smart-bird-feeder-deals-october-2026/",
-      "url": "https://www.wired.com/story/early-black-friday-smart-bird-feeder-deals-october-2026/",
-      "title": "Best Early Black Friday Smart Bird Feeder Deals (2026)",
-      "content_text": "I’ve spent years testing smart bird feeders. These are the currently discounted models I’d buy for myself—or give as gifts.",
-      "summary": "I’ve spent years testing smart bird feeders. These are the currently discounted models I’d buy for myself—or give as gifts.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada52d9d1bc30ab6431c2b6/master/pass/My%20Favorite%20Smart%20Bird%20Feeders%20Are%20Already%20on%20Sale%20for%20Black%20Friday%20102026%20top%20art%20SOURCE%20Amazon.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Gear / Products / Outdoor",
-        "Beak Performance",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/dyson-week-deals-oct-2026/",
-      "url": "https://www.wired.com/story/dyson-week-deals-oct-2026/",
-      "title": "Best Dyson Week Deals (2026): Dyson V15 Detect, Dyson Airwrap",
-      "content_text": "Dyson’s sale event is happening now, and you can save up to $300 on vacuums, hair tools, and more.",
-      "summary": "Dyson’s sale event is happening now, and you can save up to $300 on vacuums, hair tools, and more.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada50bf2d0fbd1c13e18ce2/master/pass/Dyson%20Week%20Has%20Some%20of%20Our%20Favorite%20Dyson%20Technology%20on%20Sale%20102026%20top%20art%20SOURCE%20Dyson.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Gear / Products / Home",
-        "Blown Away",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/a-dating-app-is-offering-chivalry-mode-and-marriage-timeline-to-get-gen-z-married/",
-      "url": "https://www.wired.com/story/a-dating-app-is-offering-chivalry-mode-and-marriage-timeline-to-get-gen-z-married/",
-      "title": "A Dating App Is Offering ‘Chivalry Mode’ and ‘Marriage Timeline’ to Get Gen Z Married",
-      "content_text": "Upward, a newly relaunched Christian app, is pitching trad values to a generation that barely even dates.",
-      "summary": "Upward, a newly relaunched Christian app, is pitching trad values to a generation that barely even dates.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad9497f7fa1a6118ccee279/master/pass/Culture_Despite%20Being%20Bad%20at%20Dating,%20A%20Lot%20of%20Gen%20Z%20Really%20Wants%20to%20Get%20Married_v1.jpg",
-      "tags": [
-        "Culture",
-        "Culture / Digital Culture",
-        "Old School",
         "科技",
         "社会"
       ],

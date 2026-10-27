@@ -9,19 +9,45 @@
   },
   "items": [
     {
-      "id": "https://slate.com/news-and-politics/2026/10/vivek-ramaswamy-amy-acton-ohio-governor-senate.html?via=rss",
-      "url": "https://slate.com/news-and-politics/2026/10/vivek-ramaswamy-amy-acton-ohio-governor-senate.html?via=rss",
-      "title": "What if Vivek Ramaswamy Just Ruined Everything for the GOP?",
-      "content_text": "Sometimes bad things happen to bad people.",
-      "summary": "Sometimes bad things happen to bad people.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "image": "https://compote.slate.com/images/1843c888-5572-43b0-814c-d8827373603f.jpeg?crop=3000%2C2000%2Cx0%2Cy0",
+      "id": "https://slate.com/news-and-politics/2026/10/republicans-pedophiles-amy-acton-mom-vivek-ad.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/republicans-pedophiles-amy-acton-mom-vivek-ad.html?via=rss",
+      "title": "Why Republicans Find It So Easy to Defend Child Sex Offenders Like the Man Who Raped Amy Acton",
+      "content_text": "Ramaswamy has turned his opponent's vulnerability into a campaign tactic.",
+      "summary": "Ramaswamy has turned his opponent's vulnerability into a campaign tactic.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://compote.slate.com/images/d724e829-568e-4c5b-b2ad-7e107a505fbf.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
       "tags": [
-        "Elections",
-        "Ohio",
+        "Crime",
+        "Donald Trump",
+        "Jurisprudence",
+        "Rape",
         "Republicans",
-        "Senate",
-        "The Surge",
+        "Sexual Assault",
+        "2026 Midterms",
+        "评论"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/news-and-politics/2026/10/2026-midterms-news-ice-ballot.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/2026-midterms-news-ice-ballot.html?via=rss",
+      "title": "These Midterms, ICE Is Truly on the Ballot",
+      "content_text": "My research is the proof.",
+      "summary": "My research is the proof.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://compote.slate.com/images/d024ca19-3b3f-4941-832e-428cf2a3ac06.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Immigration",
+        "Jurisprudence",
+        "Politics",
         "2026 Midterms",
         "评论",
         "文化"
@@ -37,22 +63,22 @@
       }
     },
     {
-      "id": "https://slate.com/news-and-politics/2026/10/2026-midterm-news-doj-alaska-trump-fraud.html?via=rss",
-      "url": "https://slate.com/news-and-politics/2026/10/2026-midterm-news-doj-alaska-trump-fraud.html?via=rss",
-      "title": "The DOJ Just Telegraphed Trump’s Biggest Election Target",
-      "content_text": "Baked Alaska.",
-      "summary": "Baked Alaska.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://compote.slate.com/images/f03c5c04-1b1c-47ca-b4c7-7b43febe7c71.jpeg?crop=4395%2C2930%2Cx692%2Cy0",
+      "id": "https://slate.com/news-and-politics/2026/10/iowa-governor-rob-sand-zach-lahn-grassley-senate.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/iowa-governor-rob-sand-zach-lahn-grassley-senate.html?via=rss",
+      "title": "In Iowa, the Future of American Politics Is Happening Right Now",
+      "content_text": "Win or lose, these two candidates for governor represent the future of their parties.",
+      "summary": "Win or lose, these two candidates for governor represent the future of their parties.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://compote.slate.com/images/443d46d3-5c2e-4a87-a8c6-0da21fa76990.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
       "tags": [
-        "Department of Justice",
+        "Democrats",
         "Donald Trump",
-        "Jurisprudence",
-        "Senate",
-        "Voting",
-        "Alaska",
+        "Elections",
+        "Republicans",
+        "Iowa",
         "2026 Midterms",
-        "评论"
+        "评论",
+        "文化"
       ],
       "authors": [
         {

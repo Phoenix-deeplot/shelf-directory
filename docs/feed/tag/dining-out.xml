@@ -4,8 +4,21 @@
   <title>公共目录 · #Dining Out</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/dining-out.xml"/>
-  <updated>2026-10-22T00:00:00Z</updated>
+  <updated>2026-10-26T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.eater.com/dining-out/995457/alfies-washington-dc-thai-restaurant-steak-frites</id>
+    <title>Inside the New D.C. Restaurant That Only Sells Five Curry Steak Frites Every Night</title>
+    <link rel="alternate" type="text/html" href="https://www.eater.com/dining-out/995457/alfies-washington-dc-thai-restaurant-steak-frites"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">The hottest new spot in Washington, D.C. focuses on the traditional heat-packed cooking methods of northern Thailand, while still using local ingredients from a…</summary>
+    <source><title>Eater</title></source>
+    <category term="Dining Out"/>
+    <category term="Video"/>
+    <category term="美食"/>
+    <category term="餐饮"/>
+  </entry>
   <entry>
     <id>https://www.eater.com/dining-out/993334/substitutions-boundaries-pre-shift</id>
     <title>Has Substitution Culture Gone Too Far?</title>
@@ -28,18 +41,6 @@
     <source><title>Eater</title></source>
     <category term="Dining Out"/>
     <category term="Food and Restaurant Trends"/>
-    <category term="美食"/>
-    <category term="餐饮"/>
-  </entry>
-  <entry>
-    <id>https://www.eater.com/dining-out/992846/socal-beach-dive-bar-crawl</id>
-    <title>Steal my Food Itinerary: A SoCal Beach Dive Bar Crawl</title>
-    <link rel="alternate" type="text/html" href="https://www.eater.com/dining-out/992846/socal-beach-dive-bar-crawl"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <published>2026-10-14T00:00:00Z</published>
-    <summary type="text">Do birthdays matter? Not really. But they are, at the very least, an excuse to do something you might not usually do as a middle-aged father of two. On this mos…</summary>
-    <source><title>Eater</title></source>
-    <category term="Dining Out"/>
     <category term="美食"/>
     <category term="餐饮"/>
   </entry>

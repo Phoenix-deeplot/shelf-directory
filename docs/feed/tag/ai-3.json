@@ -9,48 +9,21 @@
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/ai/6484205.html",
-      "url": "https://www.woshipm.com/ai/6484205.html",
-      "title": "开源“印钞机”、每代降价90%，DeepSeek这几年那些「神播种」",
-      "content_text": "DeepSeek 把内部推理框架 DeepInfer 开源，号称自家的印钞机。从 MoE、MLA 到开源周、再到 DeepInfer，这条路线把缓存命中折扣压到 97%，每百万 token 的价格一路降了九成。 最近，DeepSeek又把一项核心的技术开源出来了，号称是 DeepSeek 的印钞机。 它就是10月20日…",
-      "summary": "DeepSeek 把内部推理框架 DeepInfer 开源，号称自家的印钞机。从 MoE、MLA 到开源周、再到 DeepInfer，这条路线把缓存命中折扣压到 97%，每百万 token 的价格一路降了九成。 最近，DeepSeek又把一项核心的技术开源出来了，号称是 DeepSeek 的印钞机。 它就是10月20日…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "AI",
-        "AI产品",
-        "DeepInfer",
-        "DeepSeek",
-        "发展历史",
-        "开源项目",
-        "产品",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/ai/6484197.html",
-      "url": "https://www.woshipm.com/ai/6484197.html",
-      "title": "Personal AI，请先personal一点",
-      "content_text": "本文分享了作者实测 today.ai：授权日程与健康数据后它确实很快懂你，但频繁推送很快变成打扰。Personal AI 的壁垒不在读懂数据，而在被信任的循环，以及该主动时主动、该安静时安静的分寸。 01 today.ai：一下子懂我，之后呢？ 这周体验了today.ai。我授权了本地、日程和健康相关数据，它对我的刻画…",
-      "summary": "本文分享了作者实测 today.ai：授权日程与健康数据后它确实很快懂你，但频繁推送很快变成打扰。Personal AI 的壁垒不在读懂数据，而在被信任的循环，以及该主动时主动、该安静时安静的分寸。 01 today.ai：一下子懂我，之后呢？ 这周体验了today.ai。我授权了本地、日程和健康相关数据，它对我的刻画…",
-      "date_published": "2026-10-26T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6484806.html",
+      "url": "https://www.woshipm.com/ai/6484806.html",
+      "title": "别只用 Claude 聊天：三块能力搭成长期工作流",
+      "content_text": "多数人用 Claude 只当搜索框：问一句、拿一段、关页面。Projects 用来沉淀资料和规则，Artifacts 承载可迭代的产物，长上下文同时读大量材料，三块拼起来才是工作流。 很多人第一次打开 Claude，做的事和使用搜索框没什么区别：问一个问题，拿到一段回答，然后关闭页面。下次遇到同类任务，又重新粘贴背景、…",
+      "summary": "多数人用 Claude 只当搜索框：问一句、拿一段、关页面。Projects 用来沉淀资料和规则，Artifacts 承载可迭代的产物，长上下文同时读大量材料，三块拼起来才是工作流。 很多人第一次打开 Claude，做的事和使用搜索框没什么区别：问一个问题，拿到一段回答，然后关闭页面。下次遇到同类任务，又重新粘贴背景、…",
+      "date_published": "2026-10-27T00:00:00Z",
       "tags": [
         "AI",
         "个人随笔",
         "AI产品",
-        "Personal AI",
-        "个人观点",
-        "产品策略",
+        "Claude",
+        "经验分享",
         "产品",
-        "运营"
+        "运营",
+        "商业"
       ],
       "authors": [
         {

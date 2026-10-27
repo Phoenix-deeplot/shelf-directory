@@ -9,6 +9,33 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/completing-the-capacity-stack",
+      "url": "https://www.freightwaves.com/news/completing-the-capacity-stack",
+      "title": "Completing the Capacity Stack",
+      "content_text": "123Loadboard and Direct Freight are combining two independent freight marketplaces so brokers can close capacity gaps and carriers can find better-matched freig…",
+      "summary": "123Loadboard and Direct Freight are combining two independent freight marketplaces so brokers can close capacity gaps and carriers can find better-matched freig…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Business",
+        "News",
+        "Sponsored Insights",
+        "Technology",
+        "123Loadboard",
+        "brokers",
+        "Capacity",
+        "capacity radar"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates",
       "url": "https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates",
       "title": "New Drewry data shows import demand boosting trans-Pacific rates",

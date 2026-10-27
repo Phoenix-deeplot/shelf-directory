@@ -7,6 +7,331 @@
   <updated>2026-10-27T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
+    <id>https://www.woshipm.com/zhichang/6484792.html</id>
+    <title>黄仁勋的“AI 工厂”，对产品设计意味着什么？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/zhichang/6484792.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">黄仁勋在 GTC Berlin 2026 提出 AI 工厂：把能源、芯片、计算系统、网络、存储、冷却组织进同一套生产体系，持续制造可被 AI 应用消费的 Token，正卡在“五层蛋糕”的第三层。 最近，黄仁勋在 GTC Berlin 2026 提出了一个新概念：AI 工厂，这不只是一次技术概念升级，也是在重新定义 AI…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="职场攻略"/>
+    <category term="AI工厂"/>
+    <category term="数据中心"/>
+    <category term="英伟达"/>
+    <category term="设计思维"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6484770.html</id>
+    <title>香菜退完退冰柜？仅退款真的该退场了！平台不能总让老实商家当冤大头！</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484770.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">仅退款的风向变了。当买家对一台价值4070元的冰柜点下仅退款并声称已销毁，商家却跨省发现冰柜正插电使用，这场荒诞剧撕掉了品类特殊性的遮羞布。平台规则开始纠偏，但商家维权仍步履维艰。本文从冰柜事件切入，剖析仅退款规则漏洞与商家保护困境，探讨电商生态如何回归公平。 两台冰柜，总价4070块，买家在平台点了“仅退款”，转头告…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="仅退款"/>
+    <category term="商家权益"/>
+    <category term="案例分析"/>
+    <category term="电商平台"/>
+    <category term="规则漏洞"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6484782.html</id>
+    <title>这个免费的 Skill，用 Opus 5.5整理了 98 种视频风格提示词！</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484782.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">一个叫 lemo-opuscar 的 Skill 把视频风格提示词整理成清单，往下拉点开【All 98 styles】，就能看到 98 种风格都在里面了，2D、2.5D 和 3D 全覆盖，复制就能直接用。 前段时间很火的用 Opus5.5 做代码视频。 后面发现很多人都弄了各种风格视频，我就想把各种风格的视频提示词整理…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="Claude Opus"/>
+    <category term="内容创作"/>
+    <category term="提示词工程"/>
+    <category term="视频生成"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6484704.html</id>
+    <title>轻松学会用WorkBuddy自动控制浏览器</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484704.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">WorkBuddy 把浏览器自动化整合进客户端，装好 Chrome 扩展、打开开关，就能让它自己搜站、点开视频点赞。作者用一次六分钟、19.84 积分的小任务走通了整条链路。 没记错的话，WorkBuddy算是在5.8.2版本的时候，上线了浏览器自动化的功能，之前还是通过安装Broswer Skill来实现控制浏览器对…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI应用"/>
+    <category term="Chrome"/>
+    <category term="CodeBuddy"/>
+    <category term="WorkBuddy"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6484455.html</id>
+    <title>让公司员工测试新品，是我见过最蠢的市场调研</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484455.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">新品先给员工试吃试用、包装方案内部投票，看着省了调研费，其实是一场职场情商测试。员工不敢说真话，判断也未必准，作者把这套自欺拆开讲，也给了替代的验证思路和判断标准。 我发现，很多公司在推出一款新产品之前，都喜欢让自己公司的员工，先替消费者试一试。 比如食品饮料公司研发了一款新品，先给员工尝尝，看看口味怎么样。 日化公司…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="个人观点"/>
+    <category term="企业管理"/>
+    <category term="经验分享"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6484796.html</id>
+    <title>给自己搭一个 AI 第二大脑：从收集资料到写出文章，手把手教你做</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484796.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Obsidian 的价值在开放：以本地 Markdown 文件为基础，配上双向链接、关系图谱和 Bases 数据库，再让 Agent 读写，整理和维护都能交出去，人只管内化。 用了这么多的个人知识库管理工具，到最后我发现Obsidian还是最好用的！ 核心原因是什么呢？它对AI非常友好！ 只不过Obsidian的上手门…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="AI Agent"/>
+    <category term="obsidian"/>
+    <category term="个人成长"/>
+    <category term="知识管理"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6484804.html</id>
+    <title>每人每年140万美元，Anthropic用5300人疯狂给未来加注</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484804.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Anthropic 上半年只有约四分之一算力用于服务付费客户，其余绝大部分投进下一代模型的研发；不可取消的算力承诺半年涨到 4.9 倍，人均一年的人员费用约 140 万美元。 昨天，Anthropic向SEC交了上市招股书，如果他们今年成功完成上市，据报道市值估计在1.5-2万亿美元之间，会超过今年的SpaceX，成为…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="Anthropic"/>
+    <category term="云计算"/>
+    <category term="商业模式"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/embodied/6484709.html</id>
+    <title>机器人集合店：有流量，钱难赚</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/embodied/6484709.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">机器人集合店越开越多，一年时间从深圳首店扩到全国二十余家、签约覆盖 23 座城市；商场里围观的人挤成一片，真正掏钱的却少，卖体验、租赁还是研学，这笔账目前还不好算清楚。 商场，迎来一批新的常驻嘉宾。 机器狗翻跟头、人形机器人跳舞，围观的人群举着手机拍个不停，孩子们挤到前排，想凑近摸一摸这些新奇的“家伙”。这样的场景越来…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="具身智能"/>
+    <category term="京东"/>
+    <category term="新零售"/>
+    <category term="智元"/>
+    <category term="案例分析"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/marketing/6484729.html</id>
+    <title>未来品牌宣言：AI之上，重启营销雄心</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/marketing/6484729.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">彼得·菲斯克在《未来品牌宣言》里把话说得很直：营销真正的考验是战略而不是技术。七个章节里，他谈智能体替客户做决定之后，品牌的战场如何从触达转向定义市场，边界又为何在消融。 品牌的未来正在被重写，营销也不例外。 AI正在改变人们发现、评估和购买产品的方式；技术是人类的催化剂，行业边界在消融，新的竞争者从意想不到的方向闯入…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="营销推广"/>
+    <category term="内容营销"/>
+    <category term="商业模式"/>
+    <category term="案例分析"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6484806.html</id>
+    <title>别只用 Claude 聊天：三块能力搭成长期工作流</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484806.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">多数人用 Claude 只当搜索框：问一句、拿一段、关页面。Projects 用来沉淀资料和规则，Artifacts 承载可迭代的产物，长上下文同时读大量材料，三块拼起来才是工作流。 很多人第一次打开 Claude，做的事和使用搜索框没什么区别：问一个问题，拿到一段回答，然后关闭页面。下次遇到同类任务，又重新粘贴背景、…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI产品"/>
+    <category term="Claude"/>
+    <category term="经验分享"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6484720.html</id>
+    <title>再过几个月，中国互联网将告别14亿人口市场</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484720.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">2025 年末全国人口 140489 万，离 14 亿只剩约 489 万的缓冲，而负增长已连续四年且在扩大。分母被抽走后，平台只能从存量里切，或者往单个用户的使用时长上继续挖。 “14亿人的大市场”，这句话在中国互联网的叙事里被使用了太多年。它是BP里的市场规模测算，是平台向品牌方报价时的底层分母，是“渗透率还有空间”…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="QuestMobile"/>
+    <category term="商业模式"/>
+    <category term="行业分析"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6484669.html</id>
+    <title>从医疗IT转做商协会系统，我把私有化部署改成了SaaS</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484669.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">从医疗IT转战商协会数字化，作者用两年时间踩遍了私有化部署的坑，最终靠SaaS模式实现一天配置一家商会。本文复盘了商协会运营的真实痛点、跨商会互联的产品逻辑，以及为什么这个窄赛道必须把需求、设计、开发全攥在自己手里。 我在医疗IT软件这个行业做了很多年。这几年明显感觉卷得厉害，项目越做越薄，人越耗越多。我就想找个偏一点…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="SaaS"/>
+    <category term="商协会"/>
+    <category term="数字化"/>
+    <category term="私有化部署"/>
+    <category term="经验总结"/>
+    <category term="跨商会互联"/>
+    <category term="产品"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/operate/6484706.html</id>
+    <title>中国顶流博主，横扫海外社交媒体</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/operate/6484706.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">一条 23 分钟的英文评测，把 iPhone Duo 折了一万次、冻了一千次，播放超过五千七百万，粉丝从零涨到三百万。何同学更早布局，中国博主正带着成熟的内容能力走向海外。 10 月 22 日凌晨，一条 23 分钟的英文评测出现在 X 上。一个中国团队把一台iPhone Duo放在常温下开合一万次，又丢进零下 20 度…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="产品运营"/>
+    <category term="YouTube"/>
+    <category term="内容创作"/>
+    <category term="案例分析"/>
+    <category term="自媒体"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6484790.html</id>
+    <title>Soul将推出Loxinity，为自研语音、视觉与多模态交互产品</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484790.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Soul 将推出语音合成产品 Loxinity，主打强活人感，支持单人配音、多人对话，配套音色克隆、音色设计，还开放 API；比起字音标准，它更看重对话里的语气停顿和情绪起伏。 Soul将推出专为交互场景打造、超具活人感的语音合成产品“Loxinity（洛希无限）”，和市面上面向配音、短视频的TTS不同，这套模型从底层…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="Soul"/>
+    <category term="数字人"/>
+    <category term="社交产品"/>
+    <category term="语音合成"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6484786.html</id>
+    <title>Claude Code 桌面化：把 Agent 体验做成可接管的工作台</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484786.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Claude Code 桌面版把多会话、网页预览、代码差异和终端放进同一个窗口，新建会话从 837 毫秒压到 347 毫秒；难点不是多一个界面，而是让用户看清模型在改什么、哪里需要自己接管。 AI 编程工具一旦离开终端，难点就不再只是“多一个窗口”。它需要把多个会话、网页预览、代码差异、终端输出和人工确认组织成一个可连…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI 编程"/>
+    <category term="Claude Code"/>
+    <category term="产品体验"/>
+    <category term="桌面端"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://sspai.com/post/117600</id>
+    <title>派早报：Apple 发布 iPad mini (A20 Pro) 等</title>
+    <link rel="alternate" type="text/html" href="https://sspai.com/post/117600"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">少数派的近期动态全新设计复古设备鼠标垫上架，会员可使用点数兑换。前往选购iPhone少数派共创配件上新，自由选择保护、充电、线缆和支架组合。欢迎选购你可能错过的文章少数派×红树林基金会｜候鸟季公益直播 ...查看全文</summary>
+    <source><title>少数派</title></source>
+    <category term="效率"/>
+    <category term="工具"/>
+  </entry>
+  <entry>
+    <id>https://sspai.com/post/115855</id>
+    <title>一日一技｜NAS 作为 UPS 总控，实现局域网多设备断电自动关机</title>
+    <link rel="alternate" type="text/html" href="https://sspai.com/post/115855"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">借助 NUT 网络 UPS 协议，我们只需要一台 UPS，就可以驱动局域网中多台设备协同断电保护。查看全文</summary>
+    <source><title>少数派</title></source>
+    <category term="效率"/>
+    <category term="工具"/>
+  </entry>
+  <entry>
+    <id>https://sspai.com/post/117557</id>
+    <title>Apple Sports：不看新闻、不聊球，只看我关心的比赛</title>
+    <link rel="alternate" type="text/html" href="https://sspai.com/post/117557"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">作为一个从小看CCTV-5体育频道下饭的「体育迷」，在互联网时代我一般都看新浪门户网站的体育板块来获取最新的体育资讯，在智能手机逐渐普及后，百度贴吧、虎扑、懂球帝等平台又是我获取体育资讯以及和网友们吹 ...查看全文</summary>
+    <source><title>少数派</title></source>
+    <category term="效率"/>
+    <category term="工具"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/podcasts/death-sex-money/2026/10/side-effects-trade-offs?via=rss</id>
+    <title>Side Effects May Include Headaches, Sleep Eating, Buying Power Tools</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/podcasts/death-sex-money/2026/10/side-effects-trade-offs?via=rss"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">There’s no such thing as a silver bullet.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Health"/>
+    <category term="Mental Health"/>
+    <category term="Cancer"/>
+    <category term="The Pharmaceutical Industry"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://www.openculture.com/2026/10/a-soviet-animation-of-stephen-kings-short-story-battleground.html</id>
+    <title>A Soviet Animation of Stephen King’s Short Story “Battleground” (1986)</title>
+    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/a-soviet-animation-of-stephen-kings-short-story-battleground.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Stephen King has that rare, and spectacularly profitable, skill to suck you into his world and compel you to flip to the next page. And when you’re hooked, his…</summary>
+    <source><title>Open Culture</title></source>
+    <category term="Animation"/>
+    <category term="Literature"/>
+    <category term="文化"/>
+    <category term="免费资源"/>
+  </entry>
+  <entry>
+    <id>https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/</id>
+    <title>How a Johnson Mentor Shapes the Next Generation of NASA Talent</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">When Rice University student Malvika Bhardwaj asked her mentor Daniel Cohen, a Guidance, Navigation &amp; Control (GN&amp;C) engineer at NASA’s Johnson Space Center, wh…</summary>
+    <source><title>NASA</title></source>
+    <category term="General"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
     <id>https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/</id>
     <title>APOD: 2026 October 27 – Noctilucent Clouds over Sweden</title>
     <link rel="alternate" type="text/html" href="https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/"/>
@@ -33,6 +358,17 @@
     <category term="科学"/>
   </entry>
   <entry>
+    <id>https://www.industryweek.com/operations/continuous-improvement/podcast/55414250/plan-do-check-act-pdca-focus-on-the-learning</id>
+    <title>Plan, Do, Check, Act (PDCA): Focus on the Learning</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/operations/continuous-improvement/podcast/55414250/plan-do-check-act-pdca-focus-on-the-learning"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Why you should use Plan, Do, Check, Act as a learning cycle for solving problems, rather than as a checklist for implementing solutions.</summary>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
     <id>https://crazy.capital/150</id>
     <title>150 ✪ alo入华姗姗来迟；凯乐石、之禾持续提价</title>
     <link rel="alternate" type="text/html" href="https://crazy.capital/150"/>
@@ -44,630 +380,316 @@
     <category term="创投"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6483433.html</id>
-    <title>用 AI 做自媒体，完整流程应该怎么做？附技能包</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483433.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">上一套开源的自媒体 skill 流程，这里给到完整操作路径：装技能、做账号定位、拆对标、出选题、写稿、诊断成稿。不用会编程，Codex、豆包工作之类的工具装上就能跑，文末是技能包地址。 上一篇不是开源了一套 skill 吗，现在用了一段时间，基本没什么问题了。 整套流程，不用你会编程，只要下载一个装技能的 AI 工具就…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI工具"/>
-    <category term="AI应用"/>
-    <category term="内容创作"/>
-    <category term="自媒体"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6484229.html</id>
-    <title>月入过亿的 Tipsy 与 PolyBuzz 海外突发下架，AI 擦边陪伴或撞上苹果红线</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484229.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">作业帮旗下 PolyBuzz 与 Tipsy Chat 接连从海外 App Store 消失，两款产品都做成人化角色扮演。它们是中国 AI 陪伴出海少数跑出规模化收入的产品，这次或撞上苹果审核红线。 两款由国内团队开发的 AI 陪伴应用 PolyBuzz 和 Tipsy Chat 近期接连遭遇海外 iOS 下架风波。…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI应用"/>
-    <category term="案例分析"/>
-    <category term="行业动态"/>
-    <category term="跨境电商"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6483986.html</id>
-    <title>月之暗面发布Kimi K3.1 Pro。这把超Astra了？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6483986.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Kimi K3.1 Pro 建在 7 月发布的 K3 之后，通过后训练提升代码、3D 创作、金融、幻觉控制和网络安全能力。本文中的分数主要来自模型方公布的 Benchmark，个人案例只代表特定提示词和工具链下的结果，选型还得用自己的仓库复验。 Kimi K3.1 Pro 建立在 7 月发布的 K3 之后，通过后训练提…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="CAD"/>
-    <category term="Kimi"/>
-    <category term="月之暗面"/>
-    <category term="模型评测"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6484203.html</id>
-    <title>搜狗大改版，腾讯新一代AI搜索引擎，来了</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484203.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">搜狗把首页改成一个 logo 加一个输入框，输入框内可直接跳转 AI 模式，答案与参考资料左右分栏。老牌搜索引擎这次不是加个问答按钮，传统网页入口被降级，重心压到元宝搜索上。 最近，搜索领域热闹了起来。 先是 DeepSeek 开放自研的搜索 API，揭开 AI 搜索争夺的序幕。 DeepSeek 开放了 2 个接口，…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="AI搜索"/>
-    <category term="元宝"/>
-    <category term="功能分析"/>
-    <category term="搜狗"/>
-    <category term="行业观察"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6484205.html</id>
-    <title>开源“印钞机”、每代降价90%，DeepSeek这几年那些「神播种」</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484205.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">DeepSeek 把内部推理框架 DeepInfer 开源，号称自家的印钞机。从 MoE、MLA 到开源周、再到 DeepInfer，这条路线把缓存命中折扣压到 97%，每百万 token 的价格一路降了九成。 最近，DeepSeek又把一项核心的技术开源出来了，号称是 DeepSeek 的印钞机。 它就是10月20日…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="AI产品"/>
-    <category term="DeepInfer"/>
-    <category term="DeepSeek"/>
-    <category term="发展历史"/>
-    <category term="开源项目"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6483994.html</id>
-    <title>实体生意、实体店获客方法</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6483994.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">你的生意要是缺客户，就是不懂这个方法。作者讲买客思维：先给价值再有回报，设计一个低成本、高价值、高吸引力的获客钩子，用异业合作和体验券把客户引过来。前端不赚钱，赚的是后端复购、转介绍和裂变带来的钱。 你的生意要是缺客户，就是不懂这个方法，今天分享一个买客思维，让你能够持续获客。 买客思维是什么意思呢？ 就是先要有付出才…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="实体店"/>
-    <category term="用户运营"/>
-    <category term="私域运营"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/zhichang/6479450.html</id>
-    <title>在大厂，这样写周报，leader一眼看出你能力强</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/zhichang/6479450.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">提起周报，很多人的第一反应是又到周五了、又要凑字数了。但对真正懂职场逻辑的人来说，周报从来不是形式主义，而是一次绝佳的向上管理机会，尤其对做品牌出海、海外营销的人。 提起周报，很多人的第一反应是“又到周五了，又要凑字数了”。尤其是在大厂，周报系统往往还自带格式、字数限制、甚至还会被自动推送到大老板邮箱，压力倍增。 但对…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="职场攻略"/>
-    <category term="向上管理"/>
-    <category term="周报"/>
-    <category term="职场成长"/>
-    <category term="职场沟通"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/it/6483999.html</id>
-    <title>国内互联网能与字节一战的，只剩“腾讯”了</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6483999.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">字节系产品用户时长份额飙升至41.8%，营收逼近腾讯阿里总和，红果短剧日活破1.68亿。当巨头们纷纷收缩投资战线，亲自下场肉搏，腾讯以绿泡泡杀入短剧腹地，试图用社交生态撬动红果的霸主地位。本文深度拆解字节的连续押中能力与腾讯的攻守易位，揭示存量竞争时代的残酷新法则。 有人说，中国互联网正进入“字节时间”。 QuestM…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="业界动态"/>
-    <category term="字节跳动"/>
-    <category term="短剧"/>
-    <category term="红果"/>
-    <category term="绿泡泡"/>
-    <category term="腾讯"/>
-    <category term="行业观察"/>
-    <category term="产品"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6484231.html</id>
-    <title>医药业这样用WorkBuddy就对了</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484231.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">《医药代表管理办法》8 月 1 日施行，带金销售走到头，学术推广、合规话术、文献整理全压到个人身上。作者按四个真实场景给出提示词模板，把合规自查嵌进写话术的步骤里，其他行业也能照着改。 医药行业今年最大的变化不是在市场层面，而是相关的法律法规。8月1日《医药代表管理办法》正式施行，七个部门联合把学术推广的全链条合规要求…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI应用"/>
-    <category term="WorkBuddy"/>
-    <category term="企业服务"/>
-    <category term="经验分享"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6483956.html</id>
-    <title>信贷资方对接</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6483956.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">资方对接远不止是完成商户入驻，而是需要打通从放款到还款的端到端支付链路。本文从支付公司视角，拆解资方对接中的7个关键结构化要求，包括主体关系、资金出资、链路交互、合规检查、资金池管理、自动入账和凭证要求，帮助产品经理系统理解金融场景下的支付解决方案设计。 资方就是出资金的金融机构，有银行，消费金融公司，信托公司等。 从…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="产品分析"/>
-    <category term="信贷业务"/>
-    <category term="合规要求"/>
-    <category term="支付链路"/>
-    <category term="资方对接"/>
-    <category term="资金管理"/>
-    <category term="产品"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/it/6483988.html</id>
-    <title>为什么 OpenAI 和 Anthropic 都在抢着进入这个领域？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6483988.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">你有没有想过，为什么最近几乎每个星期都有 AI 公司宣布要做生物科技？age1 联合创始人 Alex Colville 把这件事拆成三层：它们为什么来、能帮上什么、会卡在哪里。结论很朴素——AI 让想出来变便宜，却没让证明出来变便宜。 你有没有想过，为什么最近几乎每个星期，都有一家 AI 公司宣布自己要做生物科技？ 英…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="业界动态"/>
-    <category term="AI应用"/>
-    <category term="Anthropic"/>
-    <category term="OpenAI"/>
-    <category term="行业观察"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/it/6483992.html</id>
-    <title>一张派大星表情包，点燃了“第一次推特世界大战”</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6483992.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">一张派大星表情包，把中土网友的对线推成了第一次推特世界大战。起因是有人反复追问一位维吾尔族姑娘是不是突厥人，姑娘回了五个字：我是中国人。之后猫图、国旗梗、基因报告轮番上场，七天里热度烧到顶又慢慢熄掉。 近日（2026年10月20日左右），土耳其和中国网民在x平台出现一场大规模的对线。 事情的起因是10月中旬，X 上一个…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="业界动态"/>
-    <category term="热点事件"/>
-    <category term="网络文化"/>
-    <category term="行业观察"/>
-    <category term="跨文化"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6484225.html</id>
-    <title>vLLM 反超 DeepSeek 专用引擎，大模型本地部署首选依然没变！</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484225.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">DeepInfer 开源后不少人担心通用推理引擎会被边缘化。SGLang 与 vLLM 几乎同时拿出相同基准的测试：在 DeepSeek V4.1 Flash 上，Prefill 吞吐与单步生成耗时追平甚至反超。 前些天 DeepSeek 放出了 DeepSeek V4.1 Flash 1017 ，把性价比发挥到极致…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="DeepInfer"/>
-    <category term="DeepSeek"/>
-    <category term="技术原理"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6484197.html</id>
-    <title>Personal AI，请先personal一点</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484197.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">本文分享了作者实测 today.ai：授权日程与健康数据后它确实很快懂你，但频繁推送很快变成打扰。Personal AI 的壁垒不在读懂数据，而在被信任的循环，以及该主动时主动、该安静时安静的分寸。 01 today.ai：一下子懂我，之后呢？ 这周体验了today.ai。我授权了本地、日程和健康相关数据，它对我的刻画…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI产品"/>
-    <category term="Personal AI"/>
-    <category term="个人观点"/>
-    <category term="产品策略"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/chuangye/6483402.html</id>
-    <title>AI 替你买东西，亚马逊却不让它进门？未来谁决定你买什么？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6483402.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">9 月 21 日，Meta 的 Muse 用户让 AI 代下单时被亚马逊拒绝，理由是非授权 AI 代理违反平台条款。争执背后是入口之争：当消费者习惯让 AI 替自己挑，谁站在商品与人之间、谁来解释推荐理由。 最近个人助理 Muse 大火，我就不分享了，但是延续 AI 个人助理的话题，分享点儿别的。 假设，你想买一双跑鞋…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="创业学院"/>
-    <category term="AI Agent"/>
-    <category term="Meta"/>
-    <category term="消费观察"/>
-    <category term="行业观察"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://sspai.com/post/117414</id>
-    <title>秋冬换季护肤买什么，双 11 选购推荐</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/117414"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">双 11 到来之际的秋冬护肤选购与搭配建议。查看全文</summary>
-    <source><title>少数派</title></source>
-    <category term="效率"/>
-    <category term="工具"/>
-  </entry>
-  <entry>
-    <id>https://sspai.com/post/117460</id>
-    <title>派早报：iFixit 拆解 iPhone Duo，肯定可维修性但指出内屏隐患</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/117460"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">iFixit 拆解 iPhone Duo，肯定可维修性但指出内屏隐患 Spotify 将要求家庭组成员定期扫码验证 Arc 浏览器宣布下线 央广总台澄清「国补停止」说法 谷歌建设虚拟电厂，付费激励电网用户省电留给 AI iTunes Store 重受歌手青睐 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全…</summary>
-    <source><title>少数派</title></source>
-    <category term="效率"/>
-    <category term="工具"/>
-  </entry>
-  <entry>
-    <id>https://sspai.com/post/115074</id>
-    <title>曲高和寡、终成绝唱：傲腾 P5800X 测试报告</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/115074"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">一起来看看 3D XPoint 这夸张的性能表现吧。查看全文</summary>
-    <source><title>少数派</title></source>
-    <category term="效率"/>
-    <category term="工具"/>
-  </entry>
-  <entry>
-    <id>https://sspai.com/post/117180</id>
-    <title>少数派×红树林基金会｜候鸟季公益直播，邀你共护湿地</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/117180"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">每年秋冬，深圳湾都会迎来一批特殊的「旅客」。它们从北方出发，沿着迁徙路线飞越山海，有的在这里短暂停歇，有的则留下越冬。随着潮水涨落，水鸟在滩涂上低头觅食，鸟群掠过海面，也让我们熟悉的海湾多了几分热闹。 ...查看全文</summary>
-    <source><title>少数派</title></source>
-    <category term="效率"/>
-    <category term="工具"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261025073038.htm</id>
-    <title>Tiny magnetic vortices could help computers work more like your brain</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261025073038.htm"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Scientists have filmed tiny magnetic vortices called skyrmions melting out of an organized lattice for the first time, revealing new ways to manipulate these un…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261022081259.htm</id>
-    <title>Scientists discover Arctic sea ice loss could be far worse than predicted</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261022081259.htm"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Arctic winter sea ice could disappear much faster than scientists previously expected, according to new research using climate clues from 6,000 years ago. By co…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261025073051.htm</id>
-    <title>New 3D thermal invisibility cloak makes objects disappear from infrared cameras</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261025073051.htm"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Researchers have developed a groundbreaking 3D invisibility cloak that can hide complex objects from infrared cameras while protecting them from extreme heat an…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261025222848.htm</id>
-    <title>Exercise doesn't just strengthen your heart. It rewires it</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261025222848.htm"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Regular exercise does more than strengthen the heart. New research reveals that it actually reshapes the nerves controlling how the heart functions, and the cha…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261025073034.htm</id>
-    <title>Chinese scientists discover “D-rex,” a giant fungus with roots stretching back 65 million years</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261025073034.htm"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Scientists have discovered a giant new fungus in China that grows up to 20 inches tall and weighs nearly five pounds, making it the largest known of its kind. D…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261025073036.htm</id>
-    <title>Archaeologists may have just found the world's oldest shipwreck</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261025073036.htm"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">A mysterious shipwreck off Turkey’s coast may be the oldest ever discovered, dating back approximately 4,500 years to the age of the Egyptian pyramids. Although…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261024222031.htm</id>
-    <title>AI detects “invisible” signs of pancreatic cancer years before diagnosis</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261024222031.htm"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">A powerful new AI system could help doctors detect pancreatic cancer years before it becomes visible on conventional scans. The technology, called REDMOD, ident…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261025073055.htm</id>
-    <title>A 2,700-year-old solar eclipse just revealed something surprising about Earth</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261025073055.htm"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">A solar eclipse recorded more than 2,700 years ago is revealing surprising secrets about Earth's rotation and the Sun's ancient behavior. By correcting an eight…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.reddit.com/r/worldnews/comments/1xfhum9/lula_wins_a_record_fourth_term_in_brazil_in_a/</id>
-    <title>Lula Wins a Record Fourth Term in Brazil in a Surprise Comeback</title>
-    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/worldnews/comments/1xfhum9/lula_wins_a_record_fourth_term_in_brazil_in_a/"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">submitted by /u/Pikamander2 to r/worldnews [link] [comments]</summary>
-    <source><title>top scoring links : popular</title></source>
-    <category term="worldnews"/>
-    <category term="社区"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://ourworldindata.org/how-much-development-aid-is-spent-on-climate-change</id>
-    <title>How much development aid is spent on climate change?</title>
-    <link rel="alternate" type="text/html" href="https://ourworldindata.org/how-much-development-aid-is-spent-on-climate-change"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Around one-fifth of development aid is spent on climate-related projects. But what does climate-related mean, and does it crowd out other aid projects?&lt;br&gt;&lt;br&gt;&lt;…</summary>
-    <source><title>Our World in Data</title></source>
-    <category term="数据"/>
-    <category term="经济"/>
-  </entry>
-  <entry>
-    <id>https://www.openculture.com/2026/10/an-hour-of-the-jazzy-background-music-from-the-original-1967-spider-man-cartoon.html</id>
-    <title>Hear an Hour of the Jazzy Background Music from the Original 1967 Spider-Man Cartoon</title>
-    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/an-hour-of-the-jazzy-background-music-from-the-original-1967-spider-man-cartoon.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Ray Ellis had a six-decade career as a producer, arranger, and jazz composer. And while he’s best known for arranging music for Billie Holiday’s Lady in Satin (…</summary>
-    <source><title>Open Culture</title></source>
-    <category term="Comics/Cartoons"/>
-    <category term="Music"/>
-    <category term="文化"/>
-    <category term="免费资源"/>
-  </entry>
-  <entry>
-    <id>https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/</id>
-    <title>Solar Cells Inspected on NASA’s NEO Surveyor</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission is inspected by a technician at BAE Systems Space &amp; Mission Systems in Boulder…</summary>
-    <source><title>NASA</title></source>
-    <category term="Photojournal"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://science.nasa.gov/photojournal/neo-surveyors-sunshade-gets-inspected/</id>
-    <title>NEO Surveyor’s Sunshade Gets Inspected</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/photojournal/neo-surveyors-sunshade-gets-inspected/"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor is mounted on an assembly ring during inspections in a clean room at BAE Systems Space…</summary>
-    <source><title>NASA</title></source>
-    <category term="Photojournal"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.nasa.gov/image-article/nasas-x-59-aircraft-and-test-pilot/</id>
-    <title>NASA’s X-59 Aircraft and Test Pilot</title>
-    <link rel="alternate" type="text/html" href="https://www.nasa.gov/image-article/nasas-x-59-aircraft-and-test-pilot/"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">NASA test pilot Mike Lippert poses for a photo ahead of his first time flying the agency’s X-59 quiet supersonic research aircraft on Oct. 21, 2026. The X-59 ha…</summary>
-    <source><title>NASA</title></source>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/</id>
-    <title>NASA’s Perseverance Views Dust at Neretva Vallis</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Description This 360-degree look at Neretva Vallis within Mars’ Jezero Crater was stitched together using 217 images acquired by the rover’s Mastcam-Z on May 20…</summary>
-    <source><title>NASA</title></source>
-    <category term="Mars 2020"/>
-    <category term="Photojournal"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/</id>
-    <title>NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust</title>
-    <link rel="alternate" type="text/html" href="https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Over 1,645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of spacesuit materials…</summary>
-    <source><title>NASA</title></source>
-    <category term="Mars 2020"/>
-    <category term="General"/>
-    <category term="Jet Propulsion Laboratory"/>
-    <category term="Mars"/>
-    <category term="Perseverance (Rover)"/>
-    <category term="Planetary Science Division"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.nasa.gov/news-release/nasa-usda-sign-agreement-advancing-earth-science-agriculture/</id>
-    <title>NASA, USDA Sign Agreement Advancing Earth Science, Agriculture</title>
-    <link rel="alternate" type="text/html" href="https://www.nasa.gov/news-release/nasa-usda-sign-agreement-advancing-earth-science-agriculture/"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">NASA and the U.S. Department of Agriculture (USDA) have signed a Memorandum of Understanding expanding cooperation in Earth observation, geospatial analytics, a…</summary>
-    <source><title>NASA</title></source>
-    <category term="Earth Science Division"/>
-    <category term="Science Mission Directorate"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://science.nasa.gov/learning-resources/science-activation/nasa-sees-interns-tackle-real-world-challenges-in-lunar-exploration/</id>
-    <title>NASA SEES Interns Tackle Real-World Challenges in Lunar Exploration</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/learning-resources/science-activation/nasa-sees-interns-tackle-real-world-challenges-in-lunar-exploration/"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">The NASA STEM (Science, Technology, Engineering, and Mathematics) Enhancement in Earth Science (SEES) Internship Program at the University of Texas Center for S…</summary>
-    <source><title>NASA</title></source>
-    <category term="Science Activation"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/</id>
-    <title>NASA Invites Media to Moon Landing Simulation Experience in California</title>
-    <link rel="alternate" type="text/html" href="https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Members of the media are invited to tour a new lunar landing simulator at NASA’s Ames Research Center in California's Silicon Valley on Thursday, Oct. 29, and F…</summary>
-    <source><title>NASA</title></source>
-    <category term="Ames Research Center"/>
-    <category term="Artemis"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/2026/10/26/pension-funds-ageing-crisis-risk-investment.html</id>
-    <title>‘Ticking time bomb’: The world's pension funds face an ageing crisis</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/26/pension-funds-ageing-crisis-risk-investment.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">The world's pension systems are confronting a demographic crisis as longer lifespans and dwindling birth rates threaten to stretch retirement finances.</summary>
+    <id>https://www.cnbc.com/2026/10/26/maurene-comey-firing-unlawful-trump.html</id>
+    <title>Trump DOJ unlawfully fired Epstein prosecutor Maurene Comey, judge rules</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/26/maurene-comey-firing-unlawful-trump.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">The judge ordered that Maurene Comey, the daughter of ex-FBI director James Comey, be retroactively reinstated to her job as an assistant U.S. attorney.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html</id>
-    <title>SpaceX closes $40 billion debt deal for AI chips, Elon Musk says</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Elon Musk said in an X post that SpaceX has closed $40 billion in debt financing to purchase GPUs.</summary>
+    <id>https://www.cnbc.com/2026/10/27/mastcard-stablecoin-bvnk-.html</id>
+    <title>The 'stablecoin sandwich': Why speeding up payments isn't so simple, according to Mastercard</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/27/mastcard-stablecoin-bvnk-.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Stablecoins could enable faster payments, but slow conversions in supporting infrastructure could limit benefits, according to Mastercard executive.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html</id>
-    <title>SoftBank reportedly plans $50 billion tech investment in aspiring 'AI nation' Malaysia</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">SoftBank Group reportedly plans to invest $50 billion in Malaysia's technology sector, including artificial intelligence and data centers.</summary>
+    <id>https://www.cnbc.com/2026/10/27/uk-budget-2026-john-healey-bond-market.html</id>
+    <title>Opinion: UK bond investors want spending cuts. John Healey’s first Budget may disappoint</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/27/uk-budget-2026-john-healey-bond-market.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">John Healey delivers his first U.K. Budget with less fiscal room, higher spending pressures and bond investors pushing for less borrowing and more growth.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html</id>
-    <title>Oil slides over 2% as traders weigh Saudi attack risks, demand destruction</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Oil prices fell as investors weighed the threat of further attacks on Saudi Arabian energy infrastructure against concerns that elevated prices could erode dema…</summary>
+    <id>https://www.cnbc.com/2026/10/27/oil-today-iran-us-crude-wti-brent-trump.html</id>
+    <title>Oil prices seesaw amid renewed diplomatic efforts to end Mideast conflict</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/27/oil-today-iran-us-crude-wti-brent-trump.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Renewed diplomatic efforts to end the U.S.-Israeli war with Iran pushed oil prices lower</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html</id>
-    <title>Neocloud stocks fall as Elon Musk says more than 200 of them face 'guppy-level death'</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Investors are already questioning the debt-fueled expansion of neoclouds and whether the large AI infrastructure build-out will generate long-term returns.</summary>
+    <id>https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html</id>
+    <title>Nvidia to invest $3 billion in Meta as tech giants deepen AI partnership</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Meta on Monday announced plans to raise a total of $95 billion to support its investments in artificial intelligence infrastructure.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/2026/10/26/defense-tech-private-equity-investment.html</id>
-    <title>Defense tech investment boom sparks bubble warning as private equity pours in</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/26/defense-tech-private-equity-investment.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Private equity growth investments in defense reached $4 billion in the first nine months of 2026, up from $500 million in 2024.</summary>
+    <id>https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html</id>
+    <title>Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Microsoft is trying to balance a rapid AI infrastructure build-out with capital efficiency.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html</id>
-    <title>Brazil's Lula wins historic presidential election; Bolsonaro reportedly refuses to concede</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">It's the first time since Brazil returned to direct elections in 1989 that a candidate has won the final runoff after losing in the first round.</summary>
+    <id>https://www.cnbc.com/2026/10/26/alaska-senate-peltola-doj-lawsuit-election-sullivan.html</id>
+    <title>Judge fast-tracks DOJ's Alaska Senate lawsuit as Peltola seeks dismissal before Election Day</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/26/alaska-senate-peltola-doj-lawsuit-election-sullivan.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">The winner of the Alaska Senate election could determine whether Republicans or Democrats have a majority in the Senate in the next Congress.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/investingclub/2026/10/25/jim-cramer-remembers-cliff-mason.html</id>
-    <title>Behind ‘Mad Money’ was a brilliant writer viewers never saw. We lost him too soon</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/investingclub/2026/10/25/jim-cramer-remembers-cliff-mason.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Jim Cramer remembers Cliff Mason, the head writer of "Mad Money," who died last week at age 41.</summary>
+    <id>https://www.cnbc.com/2026/10/27/hsbc-third-quarter-profit-.html</id>
+    <title>HSBC shares slump on revenue miss, lender announces share buyback of up to $1 billion</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/27/hsbc-third-quarter-profit-.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">HSBC announced its third-quarter earnings on Tuesday.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/</id>
-    <title>What the US Movement Against Data Centers Can Learn From Abroad</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">Paris Marx, author of Hyperscale, has been tracking global data center development for years. The US has a lot to learn from what’s happened everywhere from Ire…</summary>
+    <id>https://www.cnbc.com/2026/10/26/james-comey-indictment-national-defense-doj-trump.html</id>
+    <title>DOJ charges ex-FBI Director James Comey in new case</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/26/james-comey-indictment-national-defense-doj-trump.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Comey for years has been targeted by President Donald Trump, who fired him as FBI director in 2017.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/27/china-industrial-profits-september-ai-tech-exports-.html</id>
+    <title>China industrial profits post strongest growth in three months as tech boom widens economic divide</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/27/china-industrial-profits-september-ai-tech-exports-.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">The global AI boom and higher commodity prices stemming from the war in Iran have lifted earnings at miners, chipmakers and raw-material suppliers.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/27/arctic-shipping-china-and-russia-expand-grip-can-europe-fight-back.html</id>
+    <title>China and Russia are redrawing Arctic trade. Can Europe fight back?</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/27/arctic-shipping-china-and-russia-expand-grip-can-europe-fight-back.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">China and Russia are tightening their grip on Arctic shipping routes, turning the rapidly warming region into a new geopolitical battleground with Europe.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/26/bessent-obama-cheesecake-trump-election.html</id>
+    <title>Bessent dines at Cheesecake Factory, slams Obama over Trump joke</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/26/bessent-obama-cheesecake-trump-election.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Cheesecake Factory has emerged as a campaign talking point before next week's election, with Treasury Secretary Scott Bessent dining there Monday.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/27/boj-october-meeting-rate-cnbc-survey.html</id>
+    <title>Bank of Japan is expected to hold rates this week — but stay hawkish: CNBC survey</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/27/boj-october-meeting-rate-cnbc-survey.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">All survey respondents said they expect the BOJ to set the stage for a rate hike in December or January, as inflation and wages continue to rise.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/</id>
+    <title>Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Anthropic’s S-1 filing is hundreds of pages long—and it leaves out quite a few financial details. “Anthropic owes investors more information,” one analyst tells…</summary>
     <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Environment"/>
     <category term="Business"/>
-    <category term="Power Play"/>
+    <category term="What’s Your Number?"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/ghost-stories/</id>
+    <title>WIRED Ghost Stories</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/ghost-stories/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Five hauntings from the other side of technology.</summary>
+    <source><title>WIRED</title></source>
+    <category term="The Big Story"/>
+    <category term="Spectral Edition"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/review/valve-steam-frame/</id>
+    <title>Valve Steam Frame Review: Costly and Inconsistent</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/review/valve-steam-frame/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">The Steam Frame’s promise of greatness for stand-alone and streaming VR gaming doesn’t quite connect.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Reviews"/>
+    <category term="Product Review"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/</id>
+    <title>This AI Radio Host Speaks Spanish and Backs Immigrants. It’s Winning Over Listeners</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Coyotec is bilingual, swears, and tells listeners how to defend themselves against ICE. Its popularity comes as more broadcasters are experimenting with artific…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Culture"/>
+    <category term="Culture / Digital Culture"/>
+    <category term="Making Waves"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/</id>
+    <title>The US Government Is Hiding a Secret Court Ruling About How It Spies on Americans</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Two US senators say the Trump administration is breaking the law by withholding the FISA court decision while it presses Congress to renew America’s most sweepi…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Security"/>
+    <category term="Security / Privacy"/>
+    <category term="Need to Know"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/the-tragedy-of-losing-your-wikipedia-page/</id>
+    <title>The Tragedy of Having a Wikipedia Page—and Then Losing It</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-tragedy-of-losing-your-wikipedia-page/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Every day, Wikipedia biographies of living people are flagged for deletion because the subjects are not “notable” enough. How do these poor souls take the news?</summary>
+    <source><title>WIRED</title></source>
+    <category term="The Big Story"/>
+    <category term="Culture"/>
+    <category term="Culture / Digital Culture"/>
+    <category term="Ghosted"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/the-hottest-new-side-hustle-is-stripping-copper-wire-and-posting-about-it/</id>
+    <title>The Hottest New Side Hustle Is Stripping Copper Wire and Posting About It</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-hottest-new-side-hustle-is-stripping-copper-wire-and-posting-about-it/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Copper prices are at record highs, but for TikTok creators, the real money may be in teaching others how to strip wire—and selling them the tools to do it.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Business / Social Media"/>
+    <category term="Culture"/>
+    <category term="Culture / Digital Culture"/>
+    <category term="Copping Copper"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/</id>
+    <title>The Anthropic S-1 Filing Is Also an AI Doomsday Primer</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Anthropic thinks “closing the loop” is the best path to AI triumph—and a recipe for “existential” threats to humanity.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Danger Zone"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/some-iphone-duo-models-are-breaking-ifixits-teardown-might-explain-why/</id>
+    <title>Some iPhone Duo Models Are Breaking. iFixit’s Teardown Might Explain Why</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/some-iphone-duo-models-are-breaking-ifixits-teardown-might-explain-why/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Apple confirmed a “small number” of iPhone Duo units have an issue impacting the inner display.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Gear News and Events"/>
+    <category term="Gear / Products / Phones"/>
+    <category term="Fold Fix"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/</id>
+    <title>Meet the AI Agents Trying to Be Real-Life Journalists</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Jayden, Sam, and Zack are eagerly pitching editors on reported stories and investigative features. The catch? They're all AI agents.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Bot Correspondents"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/review/lykyn-automated-mushroom-grow-box/</id>
+    <title>Lykyn Review: A Mushroom Garden Worth Showing Off</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/review/lykyn-automated-mushroom-grow-box/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Dramatic lighting and fog make this countertop fruiting chamber a conversation starter. The mushrooms are pretty good too.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Reviews"/>
+    <category term="Gear / Products / Home"/>
+    <category term="Gear / Products / Kitchen"/>
+    <category term="Spore Spectacle"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/review/lg-b6/</id>
+    <title>LG B6 OLED TV Review (2026)</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/review/lg-b6/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">The LG B6 has deep and rich blacks and a low price tag, but midrange performance elsewhere.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Reviews"/>
+    <category term="Gear / Products / Televisions"/>
+    <category term="Oh-LED"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>

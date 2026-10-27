@@ -9,6 +9,165 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/trucking-needs-more-than-a-choice-between-diesel-and-ev-trucks",
+      "url": "https://www.freightwaves.com/news/trucking-needs-more-than-a-choice-between-diesel-and-ev-trucks",
+      "title": "Trucking Needs More Than a Choice Between Diesel and EV Trucks",
+      "content_text": "This Range Energy whitepaper compares different ways fleets can cut diesel use. The evaluated options: do nothing, purchase an electric tractor, or purchase a R…",
+      "summary": "This Range Energy whitepaper compares different ways fleets can cut diesel use. The evaluated options: do nothing, purchase an electric tractor, or purchase a R…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Media",
+        "News",
+        "White Papers",
+        "Range Energy",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/mexican-truckers-launch-national-strike-over-highway-security-rising-costs",
+      "url": "https://www.freightwaves.com/news/mexican-truckers-launch-national-strike-over-highway-security-rising-costs",
+      "title": "Mexican truckers launch national strike over highway security, rising costs",
+      "content_text": "Mexican truckers launched a nationwide strike Monday with protests planned in major freight hubs that could disrupt commercial traffic and cross-border supply c…",
+      "summary": "Mexican truckers launched a nationwide strike Monday with protests planned in major freight hubs that could disrupt commercial traffic and cross-border supply c…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Borderlands: Mexico",
+        "News",
+        "Trucking",
+        "CANACAR",
+        "Protest",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/fedex-taps-autozone-executive-to-be-finance-chief",
+      "url": "https://www.freightwaves.com/news/fedex-taps-autozone-executive-to-be-finance-chief",
+      "title": "FedEx taps AutoZone executive to be finance chief",
+      "content_text": "FedEx has named a retail executive to be its next CFO. The post FedEx taps AutoZone executive to be finance chief appeared first on FreightWaves.",
+      "summary": "FedEx has named a retail executive to be its next CFO. The post FedEx taps AutoZone executive to be finance chief appeared first on FreightWaves.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "News",
+        "Parcel Freight",
+        "Top Stories",
+        "CFO",
+        "FedEx",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/fmcsas-elison-addresses-motus-again-still-no-date-on-full-repair",
+      "url": "https://www.freightwaves.com/news/fmcsas-elison-addresses-motus-again-still-no-date-on-full-repair",
+      "title": "FMCSA’s Elison addresses Motus again, still no date on full repair",
+      "content_text": "Chattanooga–It hasn’t been that long–less than a month–since Jesse Elison spoke to an industry event and addressed the issue of the beleaguered new Motus regist…",
+      "summary": "Chattanooga–It hasn’t been that long–less than a month–since Jesse Elison spoke to an industry event and addressed the issue of the beleaguered new Motus regist…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "News",
+        "Top Stories",
+        "Trucking",
+        "Trucking Regulation",
+        "Broker transparency",
+        "Motus registration system",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/australia-post-ceo-to-retire-as-financial-challenges-continue",
+      "url": "https://www.freightwaves.com/news/australia-post-ceo-to-retire-as-financial-challenges-continue",
+      "title": "Australia Post CEO to retire as financial challenges continue",
+      "content_text": "CEO Paul Graham has spent five years working to reform Australia Post, but is leaving the job soon to someone else to complete. The post Australia Post CEO to r…",
+      "summary": "CEO Paul Graham has spent five years working to reform Australia Post, but is leaving the job soon to someone else to complete. The post Australia Post CEO to r…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Parcel Freight",
+        "PostalMag",
+        "Australia Post",
+        "CEO",
+        "ecommerce",
+        "Parcel delivery",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/ai-air-freight-drives-kuehnenagel-profit-increase",
+      "url": "https://www.freightwaves.com/news/ai-air-freight-drives-kuehnenagel-profit-increase",
+      "title": "AI air freight drives Kuehne+Nagel profit increase",
+      "content_text": "Logistics behemoth Kuehne+Nagel reported strong results in the third quarter, powered by hyperscaler demand for air cargo and productivity gains. The post AI ai…",
+      "summary": "Logistics behemoth Kuehne+Nagel reported strong results in the third quarter, powered by hyperscaler demand for air cargo and productivity gains. The post AI ai…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Air Cargo",
+        "American Shipper",
+        "Company Earnings",
+        "News",
+        "AI",
+        "earnings",
+        "Kuehne+Nagel",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/truckload-contract-rate-increases-riding-steady-above-10",
       "url": "https://www.freightwaves.com/news/truckload-contract-rate-increases-riding-steady-above-10",
       "title": "Truckload contract rate increases riding steady above 10%",
@@ -242,33 +401,6 @@
       }
     },
     {
-      "id": "https://www.freightwaves.com/news/tesla-semi-enters-volume-production-as-2027-rollout-approaches",
-      "url": "https://www.freightwaves.com/news/tesla-semi-enters-volume-production-as-2027-rollout-approaches",
-      "title": "Tesla Semi enters volume production as 2027 rollout approaches",
-      "content_text": "Automaker Tesla says it began volume production of its Class 8 electric Semi truck in the third quarter, marking a major milestone ahead of its planned 2027 com…",
-      "summary": "Automaker Tesla says it began volume production of its Class 8 electric Semi truck in the third quarter, marking a major milestone ahead of its planned 2027 com…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Company Earnings",
-        "Electric Trucks",
-        "News",
-        "Trucking",
-        "Tesla",
-        "Tesla Semi",
-        "货运",
-        "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
       "id": "https://www.freightwaves.com/news/sonar-launches-new-routing-guide-and-contract-rate-data-plus-expanded-searchcarriers-monitoring",
       "url": "https://www.freightwaves.com/news/sonar-launches-new-routing-guide-and-contract-rate-data-plus-expanded-searchcarriers-monitoring",
       "title": "SONAR launches new routing guide and contract rate data, plus expanded SearchCarriers monitoring",
@@ -460,254 +592,6 @@
         "drug seizures",
         "Trucking",
         "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/vertical-aerospace-evtol-the-future-of-urgent-air-cargo",
-      "url": "https://www.freightwaves.com/news/vertical-aerospace-evtol-the-future-of-urgent-air-cargo",
-      "title": "Vertical Aerospace eVTOL: The Future of Urgent Air Cargo",
-      "content_text": "Vertical Aerospace’s Michael Cervenka explains how their Velocopter eVTOL aircraft is set to transform urgent freight and remote logistics. This electric vertic…",
-      "summary": "Vertical Aerospace’s Michael Cervenka explains how their Velocopter eVTOL aircraft is set to transform urgent freight and remote logistics. This electric vertic…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "FreightWaves Today",
-        "FreightWaves TV",
-        "货运",
-        "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/truckload-pricing-power-diesel-is-eating-it-up",
-      "url": "https://www.freightwaves.com/news/truckload-pricing-power-diesel-is-eating-it-up",
-      "title": "Truckload Pricing Power? Diesel Is Eating It Up",
-      "content_text": "Truckload rates are up, but carrier profits still aren’t following. JB Hunt, Werner and Heartland earnings all point to the same freight market story: pricing p…",
-      "summary": "Truckload rates are up, but carrier profits still aren’t following. JB Hunt, Werner and Heartland earnings all point to the same freight market story: pricing p…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "FreightWaves Today",
-        "FreightWaves TV",
-        "货运",
-        "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/the-data-your-truck-sends-home-is-becoming-your-new-credit-score-and-your-insurance-rate-too",
-      "url": "https://www.freightwaves.com/news/the-data-your-truck-sends-home-is-becoming-your-new-credit-score-and-your-insurance-rate-too",
-      "title": "The Data Your Truck Sends Home Is Becoming Your New Credit Score, And Your Insurance Rate Too",
-      "content_text": "Somewhere in your truck right now, a connected system is quietly recording how it is driven, how hard it works, where it goes, and how healthy its engine is, an…",
-      "summary": "Somewhere in your truck right now, a connected system is quietly recording how it is driven, how hard it works, where it goes, and how healthy its engine is, an…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "Fleet and Maintenance",
-        "Logistics/Supply Chains",
-        "Playbook: Risk & Insurance",
-        "货运",
-        "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/tqls-rico-response-rips-carriers-poor-business-practices",
-      "url": "https://www.freightwaves.com/news/tqls-rico-response-rips-carriers-poor-business-practices",
-      "title": "TQL’s RICO response: rips carriers’ ‘poor business practices’",
-      "content_text": "The first response in the RICO case initiated by a group of carriers against giant 3PLs C.H. Robinson and TQL has been filed by the latter, and it has two key a…",
-      "summary": "The first response in the RICO case initiated by a group of carriers against giant 3PLs C.H. Robinson and TQL has been filed by the latter, and it has two key a…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "3PL and Brokerage",
-        "Legal issues",
-        "News",
-        "Top Stories",
-        "C.H. Robinson",
-        "TQL",
-        "货运",
-        "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/rail-traffic-surge-why-intermodal-volume-is-climbing",
-      "url": "https://www.freightwaves.com/news/rail-traffic-surge-why-intermodal-volume-is-climbing",
-      "title": "Rail Traffic SURGE: Why Intermodal Volume is Climbing",
-      "content_text": "The latest weekly rail traffic numbers show a significant intermodal volume surge, propelled by high diesel fuel prices and tight truck capacity, causing shippe…",
-      "summary": "The latest weekly rail traffic numbers show a significant intermodal volume surge, propelled by high diesel fuel prices and tight truck capacity, causing shippe…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "FreightWaves Today",
-        "FreightWaves TV",
-        "货运",
-        "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/new-trucking-bankruptcies-expose-mounting-debt-and-shrinking-fleets",
-      "url": "https://www.freightwaves.com/news/new-trucking-bankruptcies-expose-mounting-debt-and-shrinking-fleets",
-      "title": "New trucking bankruptcies expose mounting debt and shrinking fleets",
-      "content_text": "Sixteen recent trucking bankruptcy cases span multiple states as carriers confront mounting financial challenges. The post New trucking bankruptcies expose moun…",
-      "summary": "Sixteen recent trucking bankruptcy cases span multiple states as carriers confront mounting financial challenges. The post New trucking bankruptcies expose moun…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "Layoffs and Bankruptcies",
-        "News",
-        "Trucking",
-        "货运",
-        "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/nearly-1m-in-pokemon-cards-stolen-from-fedex",
-      "url": "https://www.freightwaves.com/news/nearly-1m-in-pokemon-cards-stolen-from-fedex",
-      "title": "Nearly $1M in Pokémon Cards STOLEN from FedEx",
-      "content_text": "A FedEx truck carrying nearly $1 million in Pokémon and sports cards was robbed in California. FreightWaves’ Phil Brink and Highway’s Brennan Bailey break down…",
-      "summary": "A FedEx truck carrying nearly $1 million in Pokémon and sports cards was robbed in California. FreightWaves’ Phil Brink and Highway’s Brennan Bailey break down…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "FreightWaves Today",
-        "FreightWaves TV",
-        "货运",
-        "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/freightos-founder-takes-board-fight-to-shareholder-vote",
-      "url": "https://www.freightwaves.com/news/freightos-founder-takes-board-fight-to-shareholder-vote",
-      "title": "Freightos founder takes board fight to shareholder vote",
-      "content_text": "Freightos’ board has agreed to put founder Zvi Schreiber’s proposals to a vote at its December annual meeting, escalating a dispute over the company’s focus on…",
-      "summary": "Freightos’ board has agreed to put founder Zvi Schreiber’s proposals to a vote at its December annual meeting, escalating a dispute over the company’s focus on…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "News",
-        "AI",
-        "Freightos",
-        "FreightWaves",
-        "logistics",
-        "SaaS",
-        "Technology",
-        "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/dsv-expands-us-mexico-freight-network-with-90m-laredo-facility",
-      "url": "https://www.freightwaves.com/news/dsv-expands-us-mexico-freight-network-with-90m-laredo-facility",
-      "title": "DSV expands US-Mexico freight network with $90M Laredo facility",
-      "content_text": "DSV has opened a $90 million logistics facility in Laredo, consolidating cross-border transportation, warehousing and customs services along the Texas-Mexico bo…",
-      "summary": "DSV has opened a $90 million logistics facility in Laredo, consolidating cross-border transportation, warehousing and customs services along the Texas-Mexico bo…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "Borderlands: Mexico",
-        "News",
-        "Trucking",
-        "DSV",
-        "Laredo texas",
-        "logistics centers",
-        "US-Mexico trucking",
-        "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/ceos-letter-boasts-of-lots-of-arrows-pointing-up-at-triumph-financial",
-      "url": "https://www.freightwaves.com/news/ceos-letter-boasts-of-lots-of-arrows-pointing-up-at-triumph-financial",
-      "title": "CEO’s letter boasts of lots of arrows pointing up at Triumph Financial",
-      "content_text": "It was hard not to read the quarterly letter to shareholders by Aaron Graft, the CEO of Triumph Financial, and not get a sense that he was taking the first few…",
-      "summary": "It was hard not to read the quarterly letter to shareholders by Aaron Graft, the CEO of Triumph Financial, and not get a sense that he was taking the first few…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "Company Earnings",
-        "News",
-        "Top Stories",
-        "Trucking",
-        "Factoring",
-        "Triumph Financial",
-        "货运",
-        "数据"
       ],
       "authors": [
         {

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/business-social-media.xml</id>
+  <title>公共目录 · #Business / Social Media</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/business-social-media.xml"/>
+  <updated>2026-10-26T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.wired.com/story/the-hottest-new-side-hustle-is-stripping-copper-wire-and-posting-about-it/</id>
+    <title>The Hottest New Side Hustle Is Stripping Copper Wire and Posting About It</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-hottest-new-side-hustle-is-stripping-copper-wire-and-posting-about-it/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Copper prices are at record highs, but for TikTok creators, the real money may be in teaching others how to strip wire—and selling them the tools to do it.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Business / Social Media"/>
+    <category term="Culture"/>
+    <category term="Culture / Digital Culture"/>
+    <category term="Copping Copper"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+</feed>

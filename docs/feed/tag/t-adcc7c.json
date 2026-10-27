@@ -9,6 +9,29 @@
   },
   "items": [
     {
+      "id": "https://www.eater.com/dining-out/995457/alfies-washington-dc-thai-restaurant-steak-frites",
+      "url": "https://www.eater.com/dining-out/995457/alfies-washington-dc-thai-restaurant-steak-frites",
+      "title": "Inside the New D.C. Restaurant That Only Sells Five Curry Steak Frites Every Night",
+      "content_text": "The hottest new spot in Washington, D.C. focuses on the traditional heat-packed cooking methods of northern Thailand, while still using local ingredients from a…",
+      "summary": "The hottest new spot in Washington, D.C. focuses on the traditional heat-packed cooking methods of northern Thailand, while still using local ingredients from a…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Dining Out",
+        "Video",
+        "美食",
+        "餐饮"
+      ],
+      "authors": [
+        {
+          "name": "Eater"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "eater-com"
+      }
+    },
+    {
       "id": "https://www.eater.com/dining-out/993334/substitutions-boundaries-pre-shift",
       "url": "https://www.eater.com/dining-out/993334/substitutions-boundaries-pre-shift",
       "title": "Has Substitution Culture Gone Too Far?",
@@ -200,28 +223,6 @@
       "date_published": "2026-10-15T00:00:00Z",
       "tags": [
         "Travel Guides",
-        "美食",
-        "餐饮"
-      ],
-      "authors": [
-        {
-          "name": "Eater"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "eater-com"
-      }
-    },
-    {
-      "id": "https://www.eater.com/dining-out/992846/socal-beach-dive-bar-crawl",
-      "url": "https://www.eater.com/dining-out/992846/socal-beach-dive-bar-crawl",
-      "title": "Steal my Food Itinerary: A SoCal Beach Dive Bar Crawl",
-      "content_text": "Do birthdays matter? Not really. But they are, at the very least, an excuse to do something you might not usually do as a middle-aged father of two. On this mos…",
-      "summary": "Do birthdays matter? Not really. But they are, at the very least, an excuse to do something you might not usually do as a middle-aged father of two. On this mos…",
-      "date_published": "2026-10-14T00:00:00Z",
-      "tags": [
-        "Dining Out",
         "美食",
         "餐饮"
       ],

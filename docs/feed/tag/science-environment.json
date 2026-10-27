@@ -58,31 +58,6 @@
         "type": "article",
         "shelf": "wired-com"
       }
-    },
-    {
-      "id": "https://www.wired.com/story/ice-age-beginning-then-humans-started-burning-fossil-fuels/",
-      "url": "https://www.wired.com/story/ice-age-beginning-then-humans-started-burning-fossil-fuels/",
-      "title": "A New Ice Age Was Beginning. Then Humans Started Burning Fossil Fuels",
-      "content_text": "Ancient plants reveal that the vestiges of the North American ice sheet started expanding a few thousand years ago, but that climate change caused it to reverse…",
-      "summary": "Ancient plants reveal that the vestiges of the North American ice sheet started expanding a few thousand years ago, but that climate change caused it to reverse…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad93d4fded54679300f8db7/master/pass/GettyImages-53043931.jpg",
-      "tags": [
-        "Science",
-        "Science / Environment",
-        "Ice, Ice Maybe",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
     }
   ]
 }

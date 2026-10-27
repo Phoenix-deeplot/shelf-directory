@@ -9,6 +9,33 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/ai-air-freight-drives-kuehnenagel-profit-increase",
+      "url": "https://www.freightwaves.com/news/ai-air-freight-drives-kuehnenagel-profit-increase",
+      "title": "AI air freight drives Kuehne+Nagel profit increase",
+      "content_text": "Logistics behemoth Kuehne+Nagel reported strong results in the third quarter, powered by hyperscaler demand for air cargo and productivity gains. The post AI ai…",
+      "summary": "Logistics behemoth Kuehne+Nagel reported strong results in the third quarter, powered by hyperscaler demand for air cargo and productivity gains. The post AI ai…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Air Cargo",
+        "American Shipper",
+        "Company Earnings",
+        "News",
+        "AI",
+        "earnings",
+        "Kuehne+Nagel",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits",
       "url": "https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits",
       "title": "Union Pacific posts record third-quarter revenue and profits",
@@ -95,33 +122,6 @@
       "title": "First look: Norfolk Southern earnings",
       "content_text": "Norfolk Southern’s third-quarter earnings rose as higher freight volume and fuel surcharges drove record revenue. The post First look: Norfolk Southern earnings…",
       "summary": "Norfolk Southern’s third-quarter earnings rose as higher freight volume and fuel surcharges drove record revenue. The post First look: Norfolk Southern earnings…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Business",
-        "Company Earnings",
-        "Finance",
-        "News",
-        "Railroad",
-        "Top Stories",
-        "carloads",
-        "earnings"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/csx-profit-jumps-on-volume-and-revenue-growth",
-      "url": "https://www.freightwaves.com/news/csx-profit-jumps-on-volume-and-revenue-growth",
-      "title": "CSX profit jumps on volume and revenue growth",
-      "content_text": "Increased freight boosted CSX Q3 profits, along with higher fuel surcharge revenue and more efficient operations. The post CSX profit jumps on volume and revenu…",
-      "summary": "Increased freight boosted CSX Q3 profits, along with higher fuel surcharge revenue and more efficient operations. The post CSX profit jumps on volume and revenu…",
       "date_published": "2026-10-22T00:00:00Z",
       "tags": [
         "Business",

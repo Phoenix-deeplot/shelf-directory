@@ -9,20 +9,18 @@
   },
   "items": [
     {
-      "id": "https://slate.com/culture/2026/10/matthew-mcconaughey-movies-rom-coms-politics-independent-republican.html?via=rss",
-      "url": "https://slate.com/culture/2026/10/matthew-mcconaughey-movies-rom-coms-politics-independent-republican.html?via=rss",
-      "title": "I’m Begging Matthew McConaughey to Go Back to What He Does Best",
-      "content_text": "Frankly, I don’t want to hear from him again unless he’s announcing another movie like The Wedding Planner.",
-      "summary": "Frankly, I don’t want to hear from him again unless he’s announcing another movie like The Wedding Planner.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "image": "https://compote.slate.com/images/550833ba-7b18-4bac-a310-f39df8991dcc.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "id": "https://slate.com/news-and-politics/2026/10/2026-midterms-news-ice-ballot.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/2026-midterms-news-ice-ballot.html?via=rss",
+      "title": "These Midterms, ICE Is Truly on the Ballot",
+      "content_text": "My research is the proof.",
+      "summary": "My research is the proof.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://compote.slate.com/images/d024ca19-3b3f-4941-832e-428cf2a3ac06.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
       "tags": [
-        "Celebrities",
-        "Comedy",
-        "Movies",
+        "Immigration",
+        "Jurisprudence",
         "Politics",
-        "Romance",
-        "Rom-Coms",
+        "2026 Midterms",
         "评论",
         "文化"
       ],
@@ -37,6 +35,52 @@
       }
     },
     {
+      "id": "https://www.reddit.com/r/politics/comments/1xgbnou/former_miss_switzerland_accuses_donald_trump_of/",
+      "url": "https://www.reddit.com/r/politics/comments/1xgbnou/former_miss_switzerland_accuses_donald_trump_of/",
+      "title": "Former Miss Switzerland accuses Donald Trump of rape",
+      "content_text": "submitted by /u/plz-let-me-in to r/politics [link] [comments]",
+      "summary": "submitted by /u/plz-let-me-in to r/politics [link] [comments]",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://external-preview.redd.it/LkK6iog1djuxPnmU0NpVAHlVvqBsDsiv0FvEh5mbNv4.jpeg?width=640&crop=smart&auto=webp&s=2a1136ea718f271e1a478c7bf26db022c4b2a148",
+      "tags": [
+        "politics",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/politics/comments/1xfz3qo/democrats_release_50page_report_on_trumps_epstein/",
+      "url": "https://www.reddit.com/r/politics/comments/1xfz3qo/democrats_release_50page_report_on_trumps_epstein/",
+      "title": "Democrats Release 50-Page Report on Trump’s Epstein Files Cover-Up | The report alleges Donald Trump was an “active participant” in Jeffrey…",
+      "content_text": "submitted by /u/Aggravating_Money992 to r/politics [link] [comments]",
+      "summary": "submitted by /u/Aggravating_Money992 to r/politics [link] [comments]",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://external-preview.redd.it/iI48W8ObUjvDX7ckNgSodUEs1Q-1bc5yxN2TZkDb0GQ.jpeg?width=640&crop=smart&auto=webp&s=63389ee28936d8235c2a3b9bbdd05ea783e36669",
+      "tags": [
+        "politics",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/elon-musk-just-dumped-another-dollar76-million-into-the-midterms/",
       "url": "https://www.wired.com/story/elon-musk-just-dumped-another-dollar76-million-into-the-midterms/",
       "title": "Elon Musk Just Dumped Another $76 Million Into the Midterms",
@@ -46,31 +90,6 @@
       "image": "https://media.wired.com/photos/6adb5fd2c971dd84b8dc4ea5/master/pass/GettyImages-2246892016.jpg",
       "tags": [
         "Politics",
-        "Midterms 2026",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/they-believe-2020-was-stolen-they-could-be-in-charge-of-elections-in-2028/",
-      "url": "https://www.wired.com/story/they-believe-2020-was-stolen-they-could-be-in-charge-of-elections-in-2028/",
-      "title": "They Believe 2020 Was Stolen. They Could Be in Charge of Elections in 2028",
-      "content_text": "A host of election-denying candidates are running for attorney general in states across the country.",
-      "summary": "A host of election-denying candidates are running for attorney general in states across the country.",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad17dc0a804ead0a674cfcd/master/pass/Election-Deniers-Politics.jpg",
-      "tags": [
-        "Politics",
-        "Politics / Disinformation",
         "Midterms 2026",
         "科技",
         "社会"

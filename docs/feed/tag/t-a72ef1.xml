@@ -4,8 +4,41 @@
   <title>公共目录 · #工具</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-a72ef1.xml"/>
-  <updated>2026-10-26T00:00:00Z</updated>
+  <updated>2026-10-27T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://sspai.com/post/117600</id>
+    <title>派早报：Apple 发布 iPad mini (A20 Pro) 等</title>
+    <link rel="alternate" type="text/html" href="https://sspai.com/post/117600"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">少数派的近期动态全新设计复古设备鼠标垫上架，会员可使用点数兑换。前往选购iPhone少数派共创配件上新，自由选择保护、充电、线缆和支架组合。欢迎选购你可能错过的文章少数派×红树林基金会｜候鸟季公益直播 ...查看全文</summary>
+    <source><title>少数派</title></source>
+    <category term="效率"/>
+    <category term="工具"/>
+  </entry>
+  <entry>
+    <id>https://sspai.com/post/115855</id>
+    <title>一日一技｜NAS 作为 UPS 总控，实现局域网多设备断电自动关机</title>
+    <link rel="alternate" type="text/html" href="https://sspai.com/post/115855"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">借助 NUT 网络 UPS 协议，我们只需要一台 UPS，就可以驱动局域网中多台设备协同断电保护。查看全文</summary>
+    <source><title>少数派</title></source>
+    <category term="效率"/>
+    <category term="工具"/>
+  </entry>
+  <entry>
+    <id>https://sspai.com/post/117557</id>
+    <title>Apple Sports：不看新闻、不聊球，只看我关心的比赛</title>
+    <link rel="alternate" type="text/html" href="https://sspai.com/post/117557"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">作为一个从小看CCTV-5体育频道下饭的「体育迷」，在互联网时代我一般都看新浪门户网站的体育板块来获取最新的体育资讯，在智能手机逐渐普及后，百度贴吧、虎扑、懂球帝等平台又是我获取体育资讯以及和网友们吹 ...查看全文</summary>
+    <source><title>少数派</title></source>
+    <category term="效率"/>
+    <category term="工具"/>
+  </entry>
   <entry>
     <id>https://sspai.com/post/117414</id>
     <title>秋冬换季护肤买什么，双 11 选购推荐</title>
@@ -13,6 +46,17 @@
     <updated>2026-10-26T00:00:00Z</updated>
     <published>2026-10-26T00:00:00Z</published>
     <summary type="text">双 11 到来之际的秋冬护肤选购与搭配建议。查看全文</summary>
+    <source><title>少数派</title></source>
+    <category term="效率"/>
+    <category term="工具"/>
+  </entry>
+  <entry>
+    <id>https://sspai.com/post/117529</id>
+    <title>派评 | 近期值得关注的 App</title>
+    <link rel="alternate" type="text/html" href="https://sspai.com/post/117529"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">&gt;下载少数派客户端、关注少数派公众号，解锁全新阅读体验📰&gt;实用、好用的正版软件，少数派为你呈现🚀查看全文</summary>
     <source><title>少数派</title></source>
     <category term="效率"/>
     <category term="工具"/>
@@ -68,50 +112,6 @@
     <updated>2026-10-24T00:00:00Z</updated>
     <published>2026-10-24T00:00:00Z</published>
     <summary type="text">从硅谷计算机历史博物馆出发，让书里的故事变得更加具体。查看全文</summary>
-    <source><title>少数派</title></source>
-    <category term="效率"/>
-    <category term="工具"/>
-  </entry>
-  <entry>
-    <id>https://sspai.com/post/116979</id>
-    <title>破与立：设计视角下的 iPhone Duo</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/116979"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文</summary>
-    <source><title>少数派</title></source>
-    <category term="效率"/>
-    <category term="工具"/>
-  </entry>
-  <entry>
-    <id>https://sspai.com/post/117104</id>
-    <title>派早报：Insta360 发布 Insta360 Mic，Anthropic 推出 Claude Duet 等</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/117104"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">少数派的近期动态和少数派一起，在海口明日公园来一场创造之约吧。活动详情iPhone少数派共创配件上新，自由选择保护、充电、线缆和支架组合。欢迎选购你可能错过的文章终于吃到了那颗梦寐以求的小药丸：我的A ...查看全文</summary>
-    <source><title>少数派</title></source>
-    <category term="效率"/>
-    <category term="工具"/>
-  </entry>
-  <entry>
-    <id>https://sspai.com/post/117169</id>
-    <title>本周看什么 | 最近值得一看的 12 部作品</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/117169"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">📅本周新预告《指环王：力量之戒第三季》正式预告10月22日，剧集《指环王：力量之戒第三季》发布了正式预告，将于11月11日上线PrimeVideo。故事发生在第二季事件的数年之后，正值精灵与索伦之战的 ...查看全文</summary>
-    <source><title>少数派</title></source>
-    <category term="效率"/>
-    <category term="工具"/>
-  </entry>
-  <entry>
-    <id>https://sspai.com/post/116398</id>
-    <title>TDS REVIEW｜OPPO Enco X4 降噪真无线耳机体验</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/116398"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">放在欧加体系里，Enco X4 显然是值得买的：它在千元档有着第一档的降噪综合能力且没有明显短板，有着手机厂产品里不错的素质和相对饱满、流行化但不过分两头翘的调音，同时操作和细节体验没有明显问题……查看全文</summary>
     <source><title>少数派</title></source>
     <category term="效率"/>
     <category term="工具"/>

@@ -9,6 +9,31 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/trucking-needs-more-than-a-choice-between-diesel-and-ev-trucks",
+      "url": "https://www.freightwaves.com/news/trucking-needs-more-than-a-choice-between-diesel-and-ev-trucks",
+      "title": "Trucking Needs More Than a Choice Between Diesel and EV Trucks",
+      "content_text": "This Range Energy whitepaper compares different ways fleets can cut diesel use. The evaluated options: do nothing, purchase an electric tractor, or purchase a R…",
+      "summary": "This Range Energy whitepaper compares different ways fleets can cut diesel use. The evaluated options: do nothing, purchase an electric tractor, or purchase a R…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Media",
+        "News",
+        "White Papers",
+        "Range Energy",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/safety-should-be-provable-not-just-compliant",
       "url": "https://www.freightwaves.com/news/safety-should-be-provable-not-just-compliant",
       "title": "Safety Should Be Provable, Not Just Compliant",
@@ -24,33 +49,6 @@
         "Technology",
         "FAAAA",
         "FMCSA"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/the-heartbeat-of-the-american-supply-chain",
-      "url": "https://www.freightwaves.com/news/the-heartbeat-of-the-american-supply-chain",
-      "title": "The Heartbeat of the American Supply Chain",
-      "content_text": "Trucking shouldn’t just offer somebody a seat. It should offer them a future, better skills, better opportunities, and more money and choices. That was the prem…",
-      "summary": "Trucking shouldn’t just offer somebody a seat. It should offer them a future, better skills, better opportunities, and more money and choices. That was the prem…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "Media",
-        "Podcast",
-        "Sponsored Insights",
-        "Ben Pile",
-        "Brake Check",
-        "Career",
-        "Charles Gracey",
-        "Driver recruiting"
       ],
       "authors": [
         {

@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/logistics.xml</id>
-  <title>公共目录 · #logistics</title>
+  <title>公共目录 · #Logistics</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/logistics.xml"/>
-  <updated>2026-10-22T00:00:00Z</updated>
+  <updated>2026-10-26T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/shaw-carpet-tile-reverse-logistics-backhaul</id>
+    <title>How Shaw backhauls turn old carpet tile into new opportunity</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/shaw-carpet-tile-reverse-logistics-backhaul"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">An office's carpet tile can sit on the floor for up to a decade. Getting it back to a Georgia mill takes a truck, a contractor willing to sort materials and rev…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Logistics"/>
+    <category term="Modern Shipper"/>
+    <category term="News"/>
+    <category term="Sustainability"/>
+    <category term="Carpet tile"/>
+    <category term="EcoWorx"/>
+    <category term="Recycling"/>
+    <category term="recycling supply chain"/>
+  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/feds-charge-driver-in-alleged-12m-cargo-theft-scheme-built-on-hijacked-carrier-identities</id>
     <title>Feds charge driver in alleged $12M cargo theft scheme built on hijacked carrier identities</title>
@@ -39,22 +56,5 @@
     <category term="FreightWaves"/>
     <category term="logistics"/>
     <category term="Technology"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/freightos-founder-takes-board-fight-to-shareholder-vote</id>
-    <title>Freightos founder takes board fight to shareholder vote</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/freightos-founder-takes-board-fight-to-shareholder-vote"/>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <published>2026-10-21T00:00:00Z</published>
-    <summary type="text">Freightos’ board has agreed to put founder Zvi Schreiber’s proposals to a vote at its December annual meeting, escalating a dispute over the company’s focus on…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="News"/>
-    <category term="AI"/>
-    <category term="Freightos"/>
-    <category term="FreightWaves"/>
-    <category term="logistics"/>
-    <category term="SaaS"/>
-    <category term="Technology"/>
-    <category term="货运"/>
   </entry>
 </feed>

@@ -4,8 +4,25 @@
   <title>公共目录 · #Technology</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/technology.xml"/>
-  <updated>2026-10-23T00:00:00Z</updated>
+  <updated>2026-10-26T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/completing-the-capacity-stack</id>
+    <title>Completing the Capacity Stack</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/completing-the-capacity-stack"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">123Loadboard and Direct Freight are combining two independent freight marketplaces so brokers can close capacity gaps and carriers can find better-matched freig…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Business"/>
+    <category term="News"/>
+    <category term="Sponsored Insights"/>
+    <category term="Technology"/>
+    <category term="123Loadboard"/>
+    <category term="brokers"/>
+    <category term="Capacity"/>
+    <category term="capacity radar"/>
+  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness</id>
     <title>Workforce gaps keep supply chain AI stuck in pilot mode</title>
@@ -103,23 +120,6 @@
     <category term="Technology"/>
     <category term="文化"/>
     <category term="免费资源"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/freightos-founder-takes-board-fight-to-shareholder-vote</id>
-    <title>Freightos founder takes board fight to shareholder vote</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/freightos-founder-takes-board-fight-to-shareholder-vote"/>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <published>2026-10-21T00:00:00Z</published>
-    <summary type="text">Freightos’ board has agreed to put founder Zvi Schreiber’s proposals to a vote at its December annual meeting, escalating a dispute over the company’s focus on…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="News"/>
-    <category term="AI"/>
-    <category term="Freightos"/>
-    <category term="FreightWaves"/>
-    <category term="logistics"/>
-    <category term="SaaS"/>
-    <category term="Technology"/>
-    <category term="货运"/>
   </entry>
   <entry>
     <id>https://www.openculture.com/2026/10/doctor-whos-tom-baker-plays-douglas-adams.html</id>

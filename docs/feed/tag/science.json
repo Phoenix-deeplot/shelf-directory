@@ -9,6 +9,34 @@
   },
   "items": [
     {
+      "id": "https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-billy-evans-theranos.html?via=rss",
+      "url": "https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-billy-evans-theranos.html?via=rss",
+      "title": "Elizabeth Holmes Is a Fraudster. It’s Astonishing What <em>You Can See Everything </em>Makes of Her.",
+      "content_text": "Elizabeth Holmes is now, by some, considered a victim, even if it’s not what Nathan Fielder intended.",
+      "summary": "Elizabeth Holmes is now, by some, considered a victim, even if it’s not what Nathan Fielder intended.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://compote.slate.com/images/1686ff92-91ff-40e5-b866-802298a58099.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Crime",
+        "Feminism",
+        "Fraud",
+        "Medicine",
+        "Movies",
+        "Science",
+        "Silicon Valley",
+        "Documentaries"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
       "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
       "title": "What the US Movement Against Data Centers Can Learn From Abroad",
@@ -85,28 +113,6 @@
       }
     },
     {
-      "id": "https://www.reddit.com/r/science/comments/1xf1bbn/magic_mushroom_compound_psilocybin_grows_new/",
-      "url": "https://www.reddit.com/r/science/comments/1xf1bbn/magic_mushroom_compound_psilocybin_grows_new/",
-      "title": "Magic mushroom compound psilocybin grows new brain connections within 24 hours and repairs circuits damaged by chronic stress in mice. Scien…",
-      "content_text": "submitted by /u/mvea to r/science [link] [comments]",
-      "summary": "submitted by /u/mvea to r/science [link] [comments]",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "science",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
       "id": "https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/",
       "url": "https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/",
       "title": "New mRNA Vaccine Reduces Risk of Melanoma Recurrence by Over 40 Percent",
@@ -143,107 +149,6 @@
         "Science",
         "Science / Space",
         "Nerd Fight",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/the-exotic-physics-behind-a-mysterious-1000-mile-cloud-on-mars/",
-      "url": "https://www.wired.com/story/the-exotic-physics-behind-a-mysterious-1000-mile-cloud-on-mars/",
-      "title": "The ‘Exotic Physics’ Behind a Mysterious 1,000-Mile Cloud on Mars",
-      "content_text": "The cloud has baffled astronomers since its discovery in 2018. Now, a new study offers a possible cause for its appearance.",
-      "summary": "The cloud has baffled astronomers since its discovery in 2018. Now, a new study offers a possible cause for its appearance.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad9cc2f43ef58c4a17cefed/master/pass/Mars_Express_views_the_most_striking_cloud_on_Mars.jpg",
-      "tags": [
-        "Science",
-        "Science / Space",
-        "Far Out",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/what-to-about-shamonda-virus-following-the-first-reported-human-infection/",
-      "url": "https://www.wired.com/story/what-to-about-shamonda-virus-following-the-first-reported-human-infection/",
-      "title": "What to Know About Shamonda Virus Following the First Reported Human Infection",
-      "content_text": "Although the case is considered exceptional, investigators are working to determine how the infection occurred and whether the pathogen played a role in the pat…",
-      "summary": "Although the case is considered exceptional, investigators are working to determine how the infection occurred and whether the pathogen played a role in the pat…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada6dba4d7b986a1aaeb09e/master/pass/virus%20Shamonda%20Francia%201298348369.jpg",
-      "tags": [
-        "Science",
-        "Science / Health",
-        "Don’t Panic",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
-      "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
-      "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
-      "content_text": "The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.",
-      "summary": "The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada5ebcd90d47bccee2186e/master/pass/Science_HuggingFacesPowerfulNewDNAModelIsSmallEnou-ezgif.com-video-to-gif-converter%20(1).gif",
-      "tags": [
-        "Science",
-        "Science / Health",
-        "Business",
-        "ChatDNA",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/ice-age-beginning-then-humans-started-burning-fossil-fuels/",
-      "url": "https://www.wired.com/story/ice-age-beginning-then-humans-started-burning-fossil-fuels/",
-      "title": "A New Ice Age Was Beginning. Then Humans Started Burning Fossil Fuels",
-      "content_text": "Ancient plants reveal that the vestiges of the North American ice sheet started expanding a few thousand years ago, but that climate change caused it to reverse…",
-      "summary": "Ancient plants reveal that the vestiges of the North American ice sheet started expanding a few thousand years ago, but that climate change caused it to reverse…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad93d4fded54679300f8db7/master/pass/GettyImages-53043931.jpg",
-      "tags": [
-        "Science",
-        "Science / Environment",
-        "Ice, Ice Maybe",
         "科技",
         "社会"
       ],

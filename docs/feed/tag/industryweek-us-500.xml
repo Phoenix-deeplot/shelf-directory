@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/industryweek-us-500.xml</id>
+  <title>公共目录 · #IndustryWeek US 500</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/industryweek-us-500.xml"/>
+  <updated>2026-10-26T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.industryweek.com/industryweek-us-500/media-gallery/55410756/2026-iw-us-500-top-consumer-packaged-products-manufacturers</id>
+    <title>2026 IW U.S. 500: Top Consumer Packaged Products Manufacturers</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/industryweek-us-500/media-gallery/55410756/2026-iw-us-500-top-consumer-packaged-products-manufacturers"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Browse the top 10 makers of consumer packaged goods from the IndustryWeek U.S. 500.</summary>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="IndustryWeek US 500"/>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.industryweek.com/industryweek-us-500/media-gallery/55411240/iw-us-500-top-pharmaceutical-and-biotechnology-manufacturing-companies</id>
+    <title>IW U.S. 500: Top Pharmaceutical and Biotechnology Manufacturing Companies</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/industryweek-us-500/media-gallery/55411240/iw-us-500-top-pharmaceutical-and-biotechnology-manufacturing-companies"/>
+    <updated>2026-10-19T00:00:00Z</updated>
+    <published>2026-10-19T00:00:00Z</published>
+    <summary type="text">Most of the pharmaceutical and biotechnology manufacturing companies on the 2026 IW 500 list enjoyed revenue growth in fiscal 2025. Sales for the category grew…</summary>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="IndustryWeek US 500"/>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
+</feed>

@@ -32,33 +32,6 @@
         "type": "article",
         "shelf": "wired-com"
       }
-    },
-    {
-      "id": "https://www.wired.com/story/uncanny-valley-podcast-inside-the-secret-nathan-fielder-interview/",
-      "url": "https://www.wired.com/story/uncanny-valley-podcast-inside-the-secret-nathan-fielder-interview/",
-      "title": "Inside the Exclusive Nathan Fielder Interview",
-      "content_text": "This week on “Uncanny Valley,” we go behind the scenes of our Nathan Fielder cover story, unpack tech billionaires’ generous promises, and discuss the suspiciou…",
-      "summary": "This week on “Uncanny Valley,” we go behind the scenes of our Nathan Fielder cover story, unpack tech billionaires’ generous promises, and discuss the suspiciou…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad948eb213049c1e3561565/master/pass/business-Uncanny-Valley-Nathan-Fielder.jpg",
-      "tags": [
-        "Business",
-        "Business / Big Tech",
-        "Business / Tech Culture",
-        "Science / Biotech",
-        "Uncanny Valley",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
     }
   ]
 }

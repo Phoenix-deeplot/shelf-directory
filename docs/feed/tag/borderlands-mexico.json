@@ -9,6 +9,32 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/mexican-truckers-launch-national-strike-over-highway-security-rising-costs",
+      "url": "https://www.freightwaves.com/news/mexican-truckers-launch-national-strike-over-highway-security-rising-costs",
+      "title": "Mexican truckers launch national strike over highway security, rising costs",
+      "content_text": "Mexican truckers launched a nationwide strike Monday with protests planned in major freight hubs that could disrupt commercial traffic and cross-border supply c…",
+      "summary": "Mexican truckers launched a nationwide strike Monday with protests planned in major freight hubs that could disrupt commercial traffic and cross-border supply c…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Borderlands: Mexico",
+        "News",
+        "Trucking",
+        "CANACAR",
+        "Protest",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/borderlands-mexico-avocado-imports-generate-641m-for-us-trucking-warehousing",
       "url": "https://www.freightwaves.com/news/borderlands-mexico-avocado-imports-generate-641m-for-us-trucking-warehousing",
       "title": "Borderlands Mexico: Avocado imports generate $641M for US trucking, warehousing",
@@ -50,33 +76,6 @@
         "cross border",
         "drug seizures",
         "Trucking",
-        "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/dsv-expands-us-mexico-freight-network-with-90m-laredo-facility",
-      "url": "https://www.freightwaves.com/news/dsv-expands-us-mexico-freight-network-with-90m-laredo-facility",
-      "title": "DSV expands US-Mexico freight network with $90M Laredo facility",
-      "content_text": "DSV has opened a $90 million logistics facility in Laredo, consolidating cross-border transportation, warehousing and customs services along the Texas-Mexico bo…",
-      "summary": "DSV has opened a $90 million logistics facility in Laredo, consolidating cross-border transportation, warehousing and customs services along the Texas-Mexico bo…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "Borderlands: Mexico",
-        "News",
-        "Trucking",
-        "DSV",
-        "Laredo texas",
-        "logistics centers",
-        "US-Mexico trucking",
         "货运"
       ],
       "authors": [

@@ -9,6 +9,31 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/review/valve-steam-frame/",
+      "url": "https://www.wired.com/review/valve-steam-frame/",
+      "title": "Valve Steam Frame Review: Costly and Inconsistent",
+      "content_text": "The Steam Frame’s promise of greatness for stand-alone and streaming VR gaming doesn’t quite connect.",
+      "summary": "The Steam Frame’s promise of greatness for stand-alone and streaming VR gaming doesn’t quite connect.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adbc96a2eadfa02886c7f8c/master/pass/ValveArt.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Reviews",
+        "Product Review",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/review/wallhack-m-001/",
       "url": "https://www.wired.com/review/wallhack-m-001/",
       "title": "Wallhack M-001 Review: When Fun Overrides Specs",

@@ -2,6 +2,21 @@
  "id": "feeds-npr-org",
  "items": [
   {
+   "url": "https://www.npr.org/2026/10/26/nx-s1-6016798/gop-redistricting-bust-lula-wins-brazil-election-protest-spread-in-europe",
+   "title": "GOP Redistricting Bust, Lula Wins Brazil Election, Protest Spread In Europe",
+   "summary": "Republicans redrew 15 House districts hoping to protect their majority, but most have become competitive races as the party’s redistricting strategy falls short…",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [],
+   "lang": "en",
+   "type": "audio",
+   "audio": {
+    "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/bdfdcc4d-c29f-4d2f-9216-c9b40222a2d3/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=bdfdcc4d-c29f-4d2f-9216-c9b40222a2d3&feed=HMwRVgVt&t=podcast&e=nx-s1-6016798&p=510318&d=803&size=12859394",
+    "type": "audio/mpeg",
+    "dur": 803
+   }
+  },
+  {
    "url": "https://www.npr.org/2026/10/25/nx-s1-6014758/pinching-pennies-casting-ballots-a-midterms-dispatch-from-the-midwest",
    "title": "Pinching pennies, casting ballots: a midterms dispatch from the Midwest",
    "summary": "The Midwest used to be known as an affordable place to live. Lately, though, many people there are having a hard time making ends meet. In this episode of The S…",
@@ -735,21 +750,6 @@
     "type": "audio/mpeg",
     "dur": 776
    }
-  },
-  {
-   "url": "https://www.npr.org/2026/09/08/nx-s1-5960993/canadas-retaliatory-tariffs-on-us-trumpapalooza-convention-miami-cargo-plane-crash",
-   "title": "Canada's Retaliatory Tariffs On US, Trumpapalooza Convention, Miami Cargo Plane Crash",
-   "summary": "Canada’s retaliatory tariffs on about $20 billion worth of U.S. goods took effect at midnight, matching President Trump’s latest duties after talks collapsed la…",
-   "image": "",
-   "date": "2026-09-08",
-   "tags": [],
-   "lang": "en",
-   "type": "audio",
-   "audio": {
-    "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/174367cc-84a0-47de-91fc-806f29b2f692/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=174367cc-84a0-47de-91fc-806f29b2f692&feed=HMwRVgVt&t=podcast&e=nx-s1-5960993&p=510318&d=794&size=12716871",
-    "type": "audio/mpeg",
-    "dur": 794
-   }
   }
  ],
  "shelf": {
@@ -766,6 +766,6 @@
  "parser": 2,
  "status": "ok",
  "error": "",
- "etag": "W/\"1e4373-LTrDVoQlEgWzJJUy8aRQt8uVjbk\"",
+ "etag": "W/\"1e4711-Vc0LL1q526kKqc9xqrsk97jprSE\"",
  "modified": ""
 }

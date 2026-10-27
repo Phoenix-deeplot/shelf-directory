@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/leadership.xml</id>
+  <title>公共目录 · #Leadership</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/leadership.xml"/>
+  <updated>2026-10-26T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.industryweek.com/leadership/article/55414412/chemistry-helped-build-americaand-will-shape-its-future</id>
+    <title>Chemistry Helped Build America—and Will Shape Its Future</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/leadership/article/55414412/chemistry-helped-build-americaand-will-shape-its-future"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">The development of new materials has had a profound impact on our prosperity, culture and quality of life in these 250 years.</summary>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="Leadership"/>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.industryweek.com/leadership/article/55414048/different-by-design-formalizing-accountability-and-who-watches-the-ai-agents-industryweeks-weekly-review</id>
+    <title>Different by Design, Formalizing Accountability and Who Watches the AI Agents? IndustryWeek's Weekly Review</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/leadership/article/55414048/different-by-design-formalizing-accountability-and-who-watches-the-ai-agents-industryweeks-weekly-review"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <published>2026-10-23T00:00:00Z</published>
+    <summary type="text">Also, the status of the Strait of Hormuz and manufacturing history by the numbers.</summary>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="Leadership"/>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
+</feed>

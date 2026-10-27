@@ -1,0 +1,120 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Parcel Freight",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/parcel-freight.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/u-s-postal-service-prepared-for-peak-season-surge",
+      "url": "https://www.freightwaves.com/news/u-s-postal-service-prepared-for-peak-season-surge",
+      "title": "U.S. Postal Service prepared for peak season surge",
+      "content_text": "The U.S. Postal Service says it has the proper staffing levels and systems in place to keep packages moving for the holidays. The post U.S. Postal Service prepa…",
+      "summary": "The U.S. Postal Service says it has the proper staffing levels and systems in place to keep packages moving for the holidays. The post U.S. Postal Service prepa…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "News",
+        "Parcel Freight",
+        "PostalMag",
+        "e-commerce",
+        "Parcel delivery",
+        "peak season",
+        "U.S. Postal Service",
+        "USPS"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/fedex-taps-autozone-executive-to-be-finance-chief",
+      "url": "https://www.freightwaves.com/news/fedex-taps-autozone-executive-to-be-finance-chief",
+      "title": "FedEx taps AutoZone executive to be finance chief",
+      "content_text": "FedEx has named a retail executive to be its next CFO. The post FedEx taps AutoZone executive to be finance chief appeared first on FreightWaves.",
+      "summary": "FedEx has named a retail executive to be its next CFO. The post FedEx taps AutoZone executive to be finance chief appeared first on FreightWaves.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "News",
+        "Parcel Freight",
+        "Top Stories",
+        "CFO",
+        "FedEx",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/australia-post-ceo-to-retire-as-financial-challenges-continue",
+      "url": "https://www.freightwaves.com/news/australia-post-ceo-to-retire-as-financial-challenges-continue",
+      "title": "Australia Post CEO to retire as financial challenges continue",
+      "content_text": "CEO Paul Graham has spent five years working to reform Australia Post, but is leaving the job soon to someone else to complete. The post Australia Post CEO to r…",
+      "summary": "CEO Paul Graham has spent five years working to reform Australia Post, but is leaving the job soon to someone else to complete. The post Australia Post CEO to r…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Parcel Freight",
+        "PostalMag",
+        "Australia Post",
+        "CEO",
+        "ecommerce",
+        "Parcel delivery",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/ups-automates-4-additional-facilities-ahead-of-peak-shipping-season",
+      "url": "https://www.freightwaves.com/news/ups-automates-4-additional-facilities-ahead-of-peak-shipping-season",
+      "title": "UPS automates 4 additional facilities ahead of peak shipping season",
+      "content_text": "UPS has completed several facility upgrades, increasing their capacity and productivity heading into peak shipping season. The post UPS automates 4 additional f…",
+      "summary": "UPS has completed several facility upgrades, increasing their capacity and productivity heading into peak shipping season. The post UPS automates 4 additional f…",
+      "date_published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "Modern Shipper",
+        "News",
+        "Parcel Freight",
+        "PostalMag",
+        "peak season",
+        "RFID",
+        "UPS",
+        "warehouse automation"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}

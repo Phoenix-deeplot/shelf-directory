@@ -4,8 +4,110 @@
   <title>公共目录 · #Business</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/business.xml"/>
-  <updated>2026-10-25T00:00:00Z</updated>
+  <updated>2026-10-26T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/</id>
+    <title>Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Anthropic’s S-1 filing is hundreds of pages long—and it leaves out quite a few financial details. “Anthropic owes investors more information,” one analyst tells…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="What’s Your Number?"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/the-hottest-new-side-hustle-is-stripping-copper-wire-and-posting-about-it/</id>
+    <title>The Hottest New Side Hustle Is Stripping Copper Wire and Posting About It</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-hottest-new-side-hustle-is-stripping-copper-wire-and-posting-about-it/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Copper prices are at record highs, but for TikTok creators, the real money may be in teaching others how to strip wire—and selling them the tools to do it.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Business / Social Media"/>
+    <category term="Culture"/>
+    <category term="Culture / Digital Culture"/>
+    <category term="Copping Copper"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/</id>
+    <title>The Anthropic S-1 Filing Is Also an AI Doomsday Primer</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Anthropic thinks “closing the loop” is the best path to AI triumph—and a recipe for “existential” threats to humanity.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Danger Zone"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/</id>
+    <title>Meet the AI Agents Trying to Be Real-Life Journalists</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Jayden, Sam, and Zack are eagerly pitching editors on reported stories and investigative features. The catch? They're all AI agents.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Bot Correspondents"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/</id>
+    <title>Anthropic’s IPO Prospectus Reveals What’s Under the Hood</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Anthropic on Monday filed documents ahead of a blockbuster IPO that offers insight into the company’s financials, risk factors, and views on the future of AI.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="We’re Getting Antsy"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/shipbuilding-central-to-new-us-denmark-maritime-pact</id>
+    <title>Shipbuilding central to new US-Denmark maritime pact</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/shipbuilding-central-to-new-us-denmark-maritime-pact"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">The United States and Denmark signed a maritime agreement to bolster American shipbuilding through workforce training, Danish investment and technology sharing.…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="American Shipper"/>
+    <category term="Business"/>
+    <category term="Infrastructure"/>
+    <category term="Maritime"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="container shipping"/>
+    <category term="Denmark"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/completing-the-capacity-stack</id>
+    <title>Completing the Capacity Stack</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/completing-the-capacity-stack"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">123Loadboard and Direct Freight are combining two independent freight marketplaces so brokers can close capacity gaps and carriers can find better-matched freig…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Business"/>
+    <category term="News"/>
+    <category term="Sponsored Insights"/>
+    <category term="Technology"/>
+    <category term="123Loadboard"/>
+    <category term="brokers"/>
+    <category term="Capacity"/>
+    <category term="capacity radar"/>
+  </entry>
   <entry>
     <id>https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/</id>
     <title>What the US Movement Against Data Centers Can Learn From Abroad</title>
@@ -51,78 +153,6 @@
     <category term="Equipment"/>
     <category term="locomotives"/>
     <category term="railroads"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/aged-intelligence-society-interview/</id>
-    <title>The Social Society Helping Women Join the AI Boom</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/aged-intelligence-society-interview/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">WIRED spoke with the founders of the Aged Intelligence Society, a fast-growing events startup that brings women together to “solve midlife problems using fronti…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Business"/>
-    <category term="Model Behavior"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/cool-cool-cool-palmer-luckey-made-a-genetically-modified-military-dog-startup/</id>
-    <title>Palmer Luckey and Ben Lamm Made a Genetically Modified Military Dog Startup</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/cool-cool-cool-palmer-luckey-made-a-genetically-modified-military-dog-startup/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Warhound came out of stealth on Wednesday with $200 million in funding and a mission to create “elite working dogs” equipped with "advanced body armor."</summary>
-    <source><title>WIRED</title></source>
-    <category term="Business"/>
-    <category term="Business / Startups"/>
-    <category term="Woof"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/metas-ad-sales-suffering-now-europeans-can-pick-less-personalization/</id>
-    <title>Meta’s Ad Sales Are Suffering Now That Europeans Can Pick Less Personalization</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/metas-ad-sales-suffering-now-europeans-can-pick-less-personalization/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">An earnings briefing on Wednesday revealed ad revenue has slowed since the European Union introduced the Less-Personalized Ads model at the beginning of this ye…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Business"/>
-    <category term="Business / Big Tech"/>
-    <category term="Slow Burn"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/uncanny-valley-podcast-inside-the-secret-nathan-fielder-interview/</id>
-    <title>Inside the Exclusive Nathan Fielder Interview</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/uncanny-valley-podcast-inside-the-secret-nathan-fielder-interview/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">This week on “Uncanny Valley,” we go behind the scenes of our Nathan Fielder cover story, unpack tech billionaires’ generous promises, and discuss the suspiciou…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Business"/>
-    <category term="Business / Big Tech"/>
-    <category term="Business / Tech Culture"/>
-    <category term="Science / Biotech"/>
-    <category term="Uncanny Valley"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/</id>
-    <title>Hugging Face’s New AI Biology Model Lets You Chat With DNA</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Health"/>
-    <category term="Business"/>
-    <category term="ChatDNA"/>
-    <category term="科技"/>
-    <category term="社会"/>
   </entry>
   <entry>
     <id>https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits</id>
@@ -242,22 +272,5 @@
     <category term="Alpamayo 2 Super"/>
     <category term="autonomous trucking"/>
     <category term="driverless trucks"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/csx-profit-jumps-on-volume-and-revenue-growth</id>
-    <title>CSX profit jumps on volume and revenue growth</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/csx-profit-jumps-on-volume-and-revenue-growth"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Increased freight boosted CSX Q3 profits, along with higher fuel surcharge revenue and more efficient operations. The post CSX profit jumps on volume and revenu…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Business"/>
-    <category term="Company Earnings"/>
-    <category term="Finance"/>
-    <category term="News"/>
-    <category term="Railroad"/>
-    <category term="Top Stories"/>
-    <category term="carloads"/>
-    <category term="earnings"/>
   </entry>
 </feed>

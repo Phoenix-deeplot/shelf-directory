@@ -1,0 +1,65 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Gear / Products / Home Office",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/gear-products-home-office.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.wired.com/story/anker-halloween-sale-oct-2026/",
+      "url": "https://www.wired.com/story/anker-halloween-sale-oct-2026/",
+      "title": "Anker’s Halloween Sale Takes 20% Off Our Favorite Chargers and Power Banks",
+      "content_text": "Avoid the scariest thing this Halloween (your phone at 1 percent) with Anker's 20 percent off sale on all charging gear.",
+      "summary": "Avoid the scariest thing this Halloween (your phone at 1 percent) with Anker's 20 percent off sale on all charging gear.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adfb111ce126e8759a8370d/master/pass/Anker%20Halloween%20Sale%20deals%20102026%20top%20art%20SOURCE%20Anker.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products / Home Office",
+        "Watt a Steal",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/review/turtle-beach-vulcan-xp-ii/",
+      "url": "https://www.wired.com/review/turtle-beach-vulcan-xp-ii/",
+      "title": "Turtle Beach Vulcan II XP Review: Clicky Compromise",
+      "content_text": "Great for typing and fine for gaming, but too many compromises keep this mechanical keyboard from leveling up your play.",
+      "summary": "Great for typing and fine for gaming, but too many compromises keep this mechanical keyboard from leveling up your play.",
+      "date_published": "2026-10-23T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ada67244d7b986a1aaead4e/master/pass/Turtle%20Beach%20Vulcan%20XP%20II%20SOURCE%20Matt%20Kamen.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Home Office",
+        "Gear / Products / Gaming",
+        "Product Review",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    }
+  ]
+}

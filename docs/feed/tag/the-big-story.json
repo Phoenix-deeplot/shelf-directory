@@ -1,0 +1,62 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #The Big Story",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/the-big-story.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.wired.com/ghost-stories/",
+      "url": "https://www.wired.com/ghost-stories/",
+      "title": "WIRED Ghost Stories",
+      "content_text": "Five hauntings from the other side of technology.",
+      "summary": "Five hauntings from the other side of technology.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adbf59adee148eb9cc5625f/master/pass/WIRED-ghost-stories-top-art.jpg",
+      "tags": [
+        "The Big Story",
+        "Spectral Edition",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/the-tragedy-of-losing-your-wikipedia-page/",
+      "url": "https://www.wired.com/story/the-tragedy-of-losing-your-wikipedia-page/",
+      "title": "The Tragedy of Having a Wikipedia Page—and Then Losing It",
+      "content_text": "Every day, Wikipedia biographies of living people are flagged for deletion because the subjects are not “notable” enough. How do these poor souls take the news?",
+      "summary": "Every day, Wikipedia biographies of living people are flagged for deletion because the subjects are not “notable” enough. How do these poor souls take the news?",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ada50d1133035a6bb08be2d/master/pass/WIRED-Ghost-Stories-Wikipedia-Notable-top.jpg",
+      "tags": [
+        "The Big Story",
+        "Culture",
+        "Culture / Digital Culture",
+        "Ghosted",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    }
+  ]
+}

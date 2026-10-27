@@ -9,6 +9,60 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/dsv-3q-profit-rises-19-5-as-schenker-integration-lifts-earnings",
+      "url": "https://www.freightwaves.com/news/dsv-3q-profit-rises-19-5-as-schenker-integration-lifts-earnings",
+      "title": "DSV 3Q profit rises 19.5% as Schenker integration lifts earnings",
+      "content_text": "DSV’s third-quarter operating profit improved as the Schenker integration savings boosted earnings, offsetting weakness in its trucking division. The post DSV 3…",
+      "summary": "DSV’s third-quarter operating profit improved as the Schenker integration savings boosted earnings, offsetting weakness in its trucking division. The post DSV 3…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "Finance",
+        "Logistics/Supply Chains",
+        "News",
+        "Top Stories",
+        "trucking",
+        "D.B. Schenker",
+        "DSV"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/ai-air-freight-drives-kuehnenagel-profit-increase",
+      "url": "https://www.freightwaves.com/news/ai-air-freight-drives-kuehnenagel-profit-increase",
+      "title": "AI air freight drives Kuehne+Nagel profit increase",
+      "content_text": "Logistics behemoth Kuehne+Nagel reported strong results in the third quarter, powered by hyperscaler demand for air cargo and productivity gains. The post AI ai…",
+      "summary": "Logistics behemoth Kuehne+Nagel reported strong results in the third quarter, powered by hyperscaler demand for air cargo and productivity gains. The post AI ai…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Air Cargo",
+        "American Shipper",
+        "Company Earnings",
+        "News",
+        "AI",
+        "earnings",
+        "Kuehne+Nagel",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/wabtec-earnings-rise-on-higher-freight-and-transit-sales",
       "url": "https://www.freightwaves.com/news/wabtec-earnings-rise-on-higher-freight-and-transit-sales",
       "title": "Wabtec earnings rise on higher freight and transit sales",
@@ -78,33 +132,6 @@
         "Top Stories",
         "carloads",
         "earnings"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/tesla-semi-enters-volume-production-as-2027-rollout-approaches",
-      "url": "https://www.freightwaves.com/news/tesla-semi-enters-volume-production-as-2027-rollout-approaches",
-      "title": "Tesla Semi enters volume production as 2027 rollout approaches",
-      "content_text": "Automaker Tesla says it began volume production of its Class 8 electric Semi truck in the third quarter, marking a major milestone ahead of its planned 2027 com…",
-      "summary": "Automaker Tesla says it began volume production of its Class 8 electric Semi truck in the third quarter, marking a major milestone ahead of its planned 2027 com…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Company Earnings",
-        "Electric Trucks",
-        "News",
-        "Trucking",
-        "Tesla",
-        "Tesla Semi",
-        "货运",
-        "数据"
       ],
       "authors": [
         {
@@ -239,87 +266,6 @@
         "Top Stories",
         "carloads",
         "earnings"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/csx-profit-jumps-on-volume-and-revenue-growth",
-      "url": "https://www.freightwaves.com/news/csx-profit-jumps-on-volume-and-revenue-growth",
-      "title": "CSX profit jumps on volume and revenue growth",
-      "content_text": "Increased freight boosted CSX Q3 profits, along with higher fuel surcharge revenue and more efficient operations. The post CSX profit jumps on volume and revenu…",
-      "summary": "Increased freight boosted CSX Q3 profits, along with higher fuel surcharge revenue and more efficient operations. The post CSX profit jumps on volume and revenu…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Business",
-        "Company Earnings",
-        "Finance",
-        "News",
-        "Railroad",
-        "Top Stories",
-        "carloads",
-        "earnings"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/first-look-knight-swifts-q3-beats-expectations",
-      "url": "https://www.freightwaves.com/news/first-look-knight-swifts-q3-beats-expectations",
-      "title": "First look: Knight-Swift’s Q3 beats expectations",
-      "content_text": "Knight-Swift Transportation beat third-quarter expectations and issued a fourth-quarter outlook that was in line with the consensus estimate. The post First loo…",
-      "summary": "Knight-Swift Transportation beat third-quarter expectations and issued a fourth-quarter outlook that was in line with the consensus estimate. The post First loo…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "Company Earnings",
-        "News",
-        "Truckload Carriers",
-        "AAA Cooper",
-        "Knight-Swift",
-        "Knight-Swift Transportation",
-        "LTL carriers",
-        "TL capacity"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/ceos-letter-boasts-of-lots-of-arrows-pointing-up-at-triumph-financial",
-      "url": "https://www.freightwaves.com/news/ceos-letter-boasts-of-lots-of-arrows-pointing-up-at-triumph-financial",
-      "title": "CEO’s letter boasts of lots of arrows pointing up at Triumph Financial",
-      "content_text": "It was hard not to read the quarterly letter to shareholders by Aaron Graft, the CEO of Triumph Financial, and not get a sense that he was taking the first few…",
-      "summary": "It was hard not to read the quarterly letter to shareholders by Aaron Graft, the CEO of Triumph Financial, and not get a sense that he was taking the first few…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "Company Earnings",
-        "News",
-        "Top Stories",
-        "Trucking",
-        "Factoring",
-        "Triumph Financial",
-        "货运",
-        "数据"
       ],
       "authors": [
         {

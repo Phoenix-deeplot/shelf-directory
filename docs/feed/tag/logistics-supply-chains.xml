@@ -4,8 +4,25 @@
   <title>公共目录 · #Logistics/Supply Chains</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/logistics-supply-chains.xml"/>
-  <updated>2026-10-23T00:00:00Z</updated>
+  <updated>2026-10-26T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/dsv-3q-profit-rises-19-5-as-schenker-integration-lifts-earnings</id>
+    <title>DSV 3Q profit rises 19.5% as Schenker integration lifts earnings</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/dsv-3q-profit-rises-19-5-as-schenker-integration-lifts-earnings"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">DSV’s third-quarter operating profit improved as the Schenker integration savings boosted earnings, offsetting weakness in its trucking division. The post DSV 3…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="Finance"/>
+    <category term="Logistics/Supply Chains"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="trucking"/>
+    <category term="D.B. Schenker"/>
+    <category term="DSV"/>
+  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness</id>
     <title>Workforce gaps keep supply chain AI stuck in pilot mode</title>
@@ -39,19 +56,5 @@
     <category term="Cleo OTIF Report"/>
     <category term="CPG"/>
     <category term="CPG retailers"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/the-data-your-truck-sends-home-is-becoming-your-new-credit-score-and-your-insurance-rate-too</id>
-    <title>The Data Your Truck Sends Home Is Becoming Your New Credit Score, And Your Insurance Rate Too</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/the-data-your-truck-sends-home-is-becoming-your-new-credit-score-and-your-insurance-rate-too"/>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <published>2026-10-21T00:00:00Z</published>
-    <summary type="text">Somewhere in your truck right now, a connected system is quietly recording how it is driven, how hard it works, where it goes, and how healthy its engine is, an…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Fleet and Maintenance"/>
-    <category term="Logistics/Supply Chains"/>
-    <category term="Playbook: Risk &amp; Insurance"/>
-    <category term="货运"/>
-    <category term="数据"/>
   </entry>
 </feed>

@@ -9,6 +9,58 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/story/some-iphone-duo-models-are-breaking-ifixits-teardown-might-explain-why/",
+      "url": "https://www.wired.com/story/some-iphone-duo-models-are-breaking-ifixits-teardown-might-explain-why/",
+      "title": "Some iPhone Duo Models Are Breaking. iFixit’s Teardown Might Explain Why",
+      "content_text": "Apple confirmed a “small number” of iPhone Duo units have an issue impacting the inner display.",
+      "summary": "Apple confirmed a “small number” of iPhone Duo units have an issue impacting the inner display.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adf134c0a7918a0f61a89fd/master/pass/iPhone%20Duo_94.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Gear News and Events",
+        "Gear / Products / Phones",
+        "Fold Fix",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/apple-airtag-deal-october-2026/",
+      "url": "https://www.wired.com/story/apple-airtag-deal-october-2026/",
+      "title": "Apple AirTags (2nd Gen) Are on Sale for 20% Off Right Now",
+      "content_text": "Track down your suitcase, car keys, and other essentials with this $23 Bluetooth tracker.",
+      "summary": "Track down your suitcase, car keys, and other essentials with this $23 Bluetooth tracker.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adfa712dae5c72239fced97/master/pass/AirTag%20Deal%20102026%20top%20art%20SOURCE%20Amazon.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products / Phones",
+        "WYA?",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/gallery/best-folding-phones/",
       "url": "https://www.wired.com/gallery/best-folding-phones/",
       "title": "6 Best Folding Phones (2026): Samsung, Apple, Google, Motorola",
@@ -126,33 +178,6 @@
         "Gear / Gear News and Events",
         "Gear / Products / Phones",
         "Handy Tips",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/i-worked-for-a-whole-day-using-only-the-iphone-duo-heres-how-it-went/",
-      "url": "https://www.wired.com/story/i-worked-for-a-whole-day-using-only-the-iphone-duo-heres-how-it-went/",
-      "title": "I Worked for a Whole Day Using Only the iPhone Duo. Here’s How It Went",
-      "content_text": "A portable keyboard and kickstand make it a viable emergency workstation—even if iOS still gets in the way.",
-      "summary": "A portable keyboard and kickstand make it a viable emergency workstation—even if iOS still gets in the way.",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad935fd8dbac9acb33aa1cc/master/pass/DSC_9943.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Gear News and Events",
-        "Gear / Products / Computers",
-        "Gear / Products / Phones",
-        "Field Test",
         "科技",
         "社会"
       ],

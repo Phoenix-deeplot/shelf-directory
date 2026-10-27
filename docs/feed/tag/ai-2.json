@@ -1,6 +1,6 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #AI应用",
+  "title": "公共目录 · #AI 编程",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/ai-2.json",
   "description": "公共目录",
@@ -9,102 +9,21 @@
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/ai/6483433.html",
-      "url": "https://www.woshipm.com/ai/6483433.html",
-      "title": "用 AI 做自媒体，完整流程应该怎么做？附技能包",
-      "content_text": "上一套开源的自媒体 skill 流程，这里给到完整操作路径：装技能、做账号定位、拆对标、出选题、写稿、诊断成稿。不用会编程，Codex、豆包工作之类的工具装上就能跑，文末是技能包地址。 上一篇不是开源了一套 skill 吗，现在用了一段时间，基本没什么问题了。 整套流程，不用你会编程，只要下载一个装技能的 AI 工具就…",
-      "summary": "上一套开源的自媒体 skill 流程，这里给到完整操作路径：装技能、做账号定位、拆对标、出选题、写稿、诊断成稿。不用会编程，Codex、豆包工作之类的工具装上就能跑，文末是技能包地址。 上一篇不是开源了一套 skill 吗，现在用了一段时间，基本没什么问题了。 整套流程，不用你会编程，只要下载一个装技能的 AI 工具就…",
-      "date_published": "2026-10-26T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6484786.html",
+      "url": "https://www.woshipm.com/ai/6484786.html",
+      "title": "Claude Code 桌面化：把 Agent 体验做成可接管的工作台",
+      "content_text": "Claude Code 桌面版把多会话、网页预览、代码差异和终端放进同一个窗口，新建会话从 837 毫秒压到 347 毫秒；难点不是多一个界面，而是让用户看清模型在改什么、哪里需要自己接管。 AI 编程工具一旦离开终端，难点就不再只是“多一个窗口”。它需要把多个会话、网页预览、代码差异、终端输出和人工确认组织成一个可连…",
+      "summary": "Claude Code 桌面版把多会话、网页预览、代码差异和终端放进同一个窗口，新建会话从 837 毫秒压到 347 毫秒；难点不是多一个界面，而是让用户看清模型在改什么、哪里需要自己接管。 AI 编程工具一旦离开终端，难点就不再只是“多一个窗口”。它需要把多个会话、网页预览、代码差异、终端输出和人工确认组织成一个可连…",
+      "date_published": "2026-10-27T00:00:00Z",
       "tags": [
         "AI",
         "个人随笔",
-        "AI工具",
-        "AI应用",
-        "内容创作",
-        "自媒体",
+        "AI 编程",
+        "Claude Code",
+        "产品体验",
+        "桌面端",
         "产品",
         "运营"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/ai/6484229.html",
-      "url": "https://www.woshipm.com/ai/6484229.html",
-      "title": "月入过亿的 Tipsy 与 PolyBuzz 海外突发下架，AI 擦边陪伴或撞上苹果红线",
-      "content_text": "作业帮旗下 PolyBuzz 与 Tipsy Chat 接连从海外 App Store 消失，两款产品都做成人化角色扮演。它们是中国 AI 陪伴出海少数跑出规模化收入的产品，这次或撞上苹果审核红线。 两款由国内团队开发的 AI 陪伴应用 PolyBuzz 和 Tipsy Chat 近期接连遭遇海外 iOS 下架风波。…",
-      "summary": "作业帮旗下 PolyBuzz 与 Tipsy Chat 接连从海外 App Store 消失，两款产品都做成人化角色扮演。它们是中国 AI 陪伴出海少数跑出规模化收入的产品，这次或撞上苹果审核红线。 两款由国内团队开发的 AI 陪伴应用 PolyBuzz 和 Tipsy Chat 近期接连遭遇海外 iOS 下架风波。…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "AI",
-        "个人随笔",
-        "AI应用",
-        "案例分析",
-        "行业动态",
-        "跨境电商",
-        "产品",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/ai/6484231.html",
-      "url": "https://www.woshipm.com/ai/6484231.html",
-      "title": "医药业这样用WorkBuddy就对了",
-      "content_text": "《医药代表管理办法》8 月 1 日施行，带金销售走到头，学术推广、合规话术、文献整理全压到个人身上。作者按四个真实场景给出提示词模板，把合规自查嵌进写话术的步骤里，其他行业也能照着改。 医药行业今年最大的变化不是在市场层面，而是相关的法律法规。8月1日《医药代表管理办法》正式施行，七个部门联合把学术推广的全链条合规要求…",
-      "summary": "《医药代表管理办法》8 月 1 日施行，带金销售走到头，学术推广、合规话术、文献整理全压到个人身上。作者按四个真实场景给出提示词模板，把合规自查嵌进写话术的步骤里，其他行业也能照着改。 医药行业今年最大的变化不是在市场层面，而是相关的法律法规。8月1日《医药代表管理办法》正式施行，七个部门联合把学术推广的全链条合规要求…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "AI",
-        "个人随笔",
-        "AI应用",
-        "WorkBuddy",
-        "企业服务",
-        "经验分享",
-        "产品",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/it/6483988.html",
-      "url": "https://www.woshipm.com/it/6483988.html",
-      "title": "为什么 OpenAI 和 Anthropic 都在抢着进入这个领域？",
-      "content_text": "你有没有想过，为什么最近几乎每个星期都有 AI 公司宣布要做生物科技？age1 联合创始人 Alex Colville 把这件事拆成三层：它们为什么来、能帮上什么、会卡在哪里。结论很朴素——AI 让想出来变便宜，却没让证明出来变便宜。 你有没有想过，为什么最近几乎每个星期，都有一家 AI 公司宣布自己要做生物科技？ 英…",
-      "summary": "你有没有想过，为什么最近几乎每个星期都有 AI 公司宣布要做生物科技？age1 联合创始人 Alex Colville 把这件事拆成三层：它们为什么来、能帮上什么、会卡在哪里。结论很朴素——AI 让想出来变便宜，却没让证明出来变便宜。 你有没有想过，为什么最近几乎每个星期，都有一家 AI 公司宣布自己要做生物科技？ 英…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "业界动态",
-        "AI应用",
-        "Anthropic",
-        "OpenAI",
-        "行业观察",
-        "产品",
-        "运营",
-        "商业"
       ],
       "authors": [
         {

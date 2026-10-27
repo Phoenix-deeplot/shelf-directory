@@ -1,0 +1,58 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #interestingasfuck",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/interestingasfuck.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.reddit.com/r/interestingasfuck/comments/1xg406f/in_2024_bear_32_also_known_as_chunk_was_observed/",
+      "url": "https://www.reddit.com/r/interestingasfuck/comments/1xg406f/in_2024_bear_32_also_known_as_chunk_was_observed/",
+      "title": "“In 2024, Bear 32, also known as Chunk, was observed eating 45 sockeye salmon in 10.5 hours from Brooks River in Katmai National Park & Pres…",
+      "content_text": "submitted by /u/T-K101 to r/interestingasfuck [link] [comments]",
+      "summary": "submitted by /u/T-K101 to r/interestingasfuck [link] [comments]",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://preview.redd.it/eogn2q30ouxh1.jpeg?width=640&crop=smart&auto=webp&s=afc46a37f9addf5ec7bd9975ff663fbe18c2ef96",
+      "tags": [
+        "interestingasfuck",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/interestingasfuck/comments/1xfuzpv/sheriff_accidentally_euthanize_a_snake_worth_a/",
+      "url": "https://www.reddit.com/r/interestingasfuck/comments/1xfuzpv/sheriff_accidentally_euthanize_a_snake_worth_a/",
+      "title": "Sheriff accidentally euthanize a snake worth a ton of money",
+      "content_text": "submitted by /u/Lowbrass2018 to r/interestingasfuck [link] [comments]",
+      "summary": "submitted by /u/Lowbrass2018 to r/interestingasfuck [link] [comments]",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://external-preview.redd.it/cG80MzkzZWt5c3hoMSaBQfHHcRrAKOlJHv1Rmgq3gDx3SwE5w-EPth7BhRjX.jpeg?width=640&crop=smart&auto=webp&s=758d8d50d9156a4dc95f3ced4aad87cd3160d1a5",
+      "tags": [
+        "interestingasfuck",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    }
+  ]
+}

@@ -9,6 +9,27 @@
   },
   "items": [
     {
+      "id": "https://www.npr.org/2026/10/26/nx-s1-6016798/gop-redistricting-bust-lula-wins-brazil-election-protest-spread-in-europe",
+      "url": "https://www.npr.org/2026/10/26/nx-s1-6016798/gop-redistricting-bust-lula-wins-brazil-election-protest-spread-in-europe",
+      "title": "GOP Redistricting Bust, Lula Wins Brazil Election, Protest Spread In Europe",
+      "content_text": "Republicans redrew 15 House districts hoping to protect their majority, but most have become competitive races as the party’s redistricting strategy falls short…",
+      "summary": "Republicans redrew 15 House districts hoping to protect their majority, but most have become competitive races as the party’s redistricting strategy falls short…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "新闻",
+        "英语听力"
+      ],
+      "authors": [
+        {
+          "name": "Up First from NPR"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "feeds-npr-org"
+      }
+    },
+    {
       "id": "https://www.npr.org/2026/10/25/nx-s1-6014758/pinching-pennies-casting-ballots-a-midterms-dispatch-from-the-midwest",
       "url": "https://www.npr.org/2026/10/25/nx-s1-6014758/pinching-pennies-casting-ballots-a-midterms-dispatch-from-the-midwest",
       "title": "Pinching pennies, casting ballots: a midterms dispatch from the Midwest",
@@ -1029,27 +1050,6 @@
       "content_text": "President Trump dismissed warnings from leading AI companies that the technology is advancing too fast, calling fears of machines taking over a hoax and framing…",
       "summary": "President Trump dismissed warnings from leading AI companies that the technology is advancing too fast, calling fears of machines taking over a hoax and framing…",
       "date_published": "2026-09-15T00:00:00Z",
-      "tags": [
-        "新闻",
-        "英语听力"
-      ],
-      "authors": [
-        {
-          "name": "Up First from NPR"
-        }
-      ],
-      "_shelf": {
-        "type": "audio",
-        "shelf": "feeds-npr-org"
-      }
-    },
-    {
-      "id": "https://www.npr.org/2026/09/14/nx-s1-5968419/ai-development-slowdown-gulf-states-postpone-iran-talks-republican-midterm-strategy",
-      "url": "https://www.npr.org/2026/09/14/nx-s1-5968419/ai-development-slowdown-gulf-states-postpone-iran-talks-republican-midterm-strategy",
-      "title": "AI Development Slowdown, Gulf States Postpone Iran Talks, Republican Midterm Strategy",
-      "content_text": "Leaders of some of the biggest AI companies say it is time to slow the pace of development after a string of incidents in which their systems went off script, e…",
-      "summary": "Leaders of some of the biggest AI companies say it is time to slow the pace of development after a string of incidents in which their systems went off script, e…",
-      "date_published": "2026-09-14T00:00:00Z",
       "tags": [
         "新闻",
         "英语听力"

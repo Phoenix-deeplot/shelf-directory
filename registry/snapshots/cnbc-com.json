@@ -2,9 +2,289 @@
  "id": "cnbc-com",
  "items": [
   {
-   "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
-   "title": "Brazil's Lula wins historic presidential election; Bolsonaro reportedly refuses to concede",
-   "summary": "It's the first time since Brazil returned to direct elections in 1989 that a candidate has won the final runoff after losing in the first round.",
+   "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
+   "title": "Nvidia to invest $3 billion in Meta as tech giants deepen AI partnership",
+   "summary": "Meta on Monday announced plans to raise a total of $95 billion to support its investments in artificial intelligence infrastructure.",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/27/hsbc-third-quarter-profit-.html",
+   "title": "HSBC shares slump on revenue miss, lender announces share buyback of up to $1 billion",
+   "summary": "HSBC announced its third-quarter earnings on Tuesday.",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/27/mastcard-stablecoin-bvnk-.html",
+   "title": "The 'stablecoin sandwich': Why speeding up payments isn't so simple, according to Mastercard",
+   "summary": "Stablecoins could enable faster payments, but slow conversions in supporting infrastructure could limit benefits, according to Mastercard executive.",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
+   "title": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
+   "summary": "Microsoft is trying to balance a rapid AI infrastructure build-out with capital efficiency.",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/27/arctic-shipping-china-and-russia-expand-grip-can-europe-fight-back.html",
+   "title": "China and Russia are redrawing Arctic trade. Can Europe fight back?",
+   "summary": "China and Russia are tightening their grip on Arctic shipping routes, turning the rapidly warming region into a new geopolitical battleground with Europe.",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/27/oil-today-iran-us-crude-wti-brent-trump.html",
+   "title": "Oil prices seesaw amid renewed diplomatic efforts to end Mideast conflict",
+   "summary": "Renewed diplomatic efforts to end the U.S.-Israeli war with Iran pushed oil prices lower",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/26/alaska-senate-peltola-doj-lawsuit-election-sullivan.html",
+   "title": "Judge fast-tracks DOJ's Alaska Senate lawsuit as Peltola seeks dismissal before Election Day",
+   "summary": "The winner of the Alaska Senate election could determine whether Republicans or Democrats have a majority in the Senate in the next Congress.",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/27/uk-budget-2026-john-healey-bond-market.html",
+   "title": "Opinion: UK bond investors want spending cuts. John Healey’s first Budget may disappoint",
+   "summary": "John Healey delivers his first U.K. Budget with less fiscal room, higher spending pressures and bond investors pushing for less borrowing and more growth.",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/27/china-industrial-profits-september-ai-tech-exports-.html",
+   "title": "China industrial profits post strongest growth in three months as tech boom widens economic divide",
+   "summary": "The global AI boom and higher commodity prices stemming from the war in Iran have lifted earnings at miners, chipmakers and raw-material suppliers.",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/26/james-comey-indictment-national-defense-doj-trump.html",
+   "title": "DOJ charges ex-FBI Director James Comey in new case",
+   "summary": "Comey for years has been targeted by President Donald Trump, who fired him as FBI director in 2017.",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/27/boj-october-meeting-rate-cnbc-survey.html",
+   "title": "Bank of Japan is expected to hold rates this week — but stay hawkish: CNBC survey",
+   "summary": "All survey respondents said they expect the BOJ to set the stage for a rate hike in December or January, as inflation and wages continue to rise.",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/26/bessent-obama-cheesecake-trump-election.html",
+   "title": "Bessent dines at Cheesecake Factory, slams Obama over Trump joke",
+   "summary": "Cheesecake Factory has emerged as a campaign talking point before next week's election, with Treasury Secretary Scott Bessent dining there Monday.",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/26/maurene-comey-firing-unlawful-trump.html",
+   "title": "Trump DOJ unlawfully fired Epstein prosecutor Maurene Comey, judge rules",
+   "summary": "The judge ordered that Maurene Comey, the daughter of ex-FBI director James Comey, be retroactively reinstated to her job as an assistant U.S. attorney.",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/27/israeli-election-citizens-flying-back-vote.html",
+   "title": "Israeli election draws tens of thousands of citizens flying back to vote",
+   "summary": "Tens of thousands of Israelis are returning home to vote in a tight election.",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html",
+   "title": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+   "summary": "With the AI trade sputtering of late and interest rates on the rise, Anthropic's IPO is taking on outsized importance.",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/26/apple-responds-to-user-reports-of-broken-iphone-duo-screens.html",
+   "title": "Apple responds to user reports of broken iPhone Duo screens on new foldable phone",
+   "summary": "Apple on Monday said it was aware of the issue and that it would replace the devices under its AppleCare warranty.",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/26/jim-cramer-ipos-capital-raises-bull-market.html",
+   "title": "Jim Cramer warns this overlooked danger could threaten the market rally",
+   "summary": "CNBC’s Jim Cramer warned that a flood of massive IPOs could threaten the bull market's rally.",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/26/trump-approval-midterms-cnbc-survey.html",
+   "title": "The arc of Trump: How the president lost the coalition that put him in the White House",
+   "summary": "President Trump forged an extraordinary coalition to win office in 2024. A new CNBC survey shows that coalition is now seriously weakened.",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/investingclub/2026/10/26/meta-spacex-anthropic-stoke-the-ai-funding-frenzy-what-it-means-for-our-stocks.html",
+   "title": "Meta, SpaceX, Anthropic stoke the AI funding frenzy. What it means for our stocks",
+   "summary": "",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html",
+   "title": "Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers",
+   "summary": "The Federal Reserve is expected to keep its overnight rate unchanged at the conclusion of its October meeting this week.",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/26/jetblue-jblu-3q-2026-earnings.html",
+   "title": "JetBlue posts bigger loss on fuel costs, but CEO says margins improving",
+   "summary": "JetBlue Airways is in the middle of a plan that aims to cut costs and increase premium revenue.",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/27/china-fiscal-debt-gdp-imf-real-estate-.html",
+   "title": "CNBC's The China Connection newsletter: The 'cliff' beneath China's cities",
+   "summary": "Beijing has room to borrow, but heavily indebted local governments are cutting back, raising the stakes for growth and for how China manages its local debt.",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/26/sp-500-ex-ai-index-tech-selloff.html",
+   "title": "Investors are doing just as well this year by shunning AI. How to invest if the tech trade keeps fizzling",
+   "summary": "An S&P 500 index without AI stocks is beating the traditional index. These sectors and stocks could be winners if the AI trade keeps fraying.",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/26/prediction-markets-think-anthropic-ipo-near-certain-in-2026.html",
+   "title": "Prediction market traders say an Anthropic IPO is near-certain this year after company filed with SEC",
+   "summary": "Anthropic on Monday filed its Form S-1 with the Securities and Exchange Commission.",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/26/family-caregiving-costs-2026-midterm-elections.html",
+   "title": "Caregiving for adult relatives can cost thousands. AARP survey finds support could matter to midterm voters",
+   "summary": "New polling suggests proposals to support family adult caregivers could influence voters in competitive congressional races.",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/26/ftc-dollar-general-lawsuit.html",
+   "title": "FTC and 20 states sue Dollar General, alleging retailer overcharged shoppers",
+   "summary": "The Federal Trade Commission and 20 states have filed a lawsuit against Dollar General, claiming the retailer has charged customers more than advertised prices.",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/26/apollo-mubadala-capital-stake.html",
+   "title": "Apollo to buy nearly 10% stake in Abu Dhabi-backed alternative asset manager Mubadala Capital",
+   "summary": "The deal further advances Apollo Global's ambitions in Abu Dhabi, often called the \"capital of capital.\"",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/26/lula-brazil-election-prediction-markets.html",
+   "title": "Lula wins Brazil runoff after prediction markets favored Bolsonaro",
+   "summary": "While prediction market odds pointed to a clear Bolsonaro victory, Lula emerged the winner in a tight race.",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/26/nba-kalshi-polymarket-prediction-markets.html",
+   "title": "NBA enters prediction markets with Kalshi, Polymarket partnerships",
+   "summary": "The league also inked a memorandum of understanding with the CFTC, the federal regulator of prediction markets.",
    "image": "",
    "date": "2026-10-26",
    "tags": [],
@@ -13,290 +293,10 @@
   },
   {
    "url": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html",
-   "title": "Neocloud stocks fall as Elon Musk says more than 200 of them face 'guppy-level death'",
+   "title": "Elon Musk says more than 200 neoclouds face 'guppy-level death'",
    "summary": "Investors are already questioning the debt-fueled expansion of neoclouds and whether the large AI infrastructure build-out will generate long-term returns.",
    "image": "",
    "date": "2026-10-26",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html",
-   "title": "Oil slides over 2% as traders weigh Saudi attack risks, demand destruction",
-   "summary": "Oil prices fell as investors weighed the threat of further attacks on Saudi Arabian energy infrastructure against concerns that elevated prices could erode dema…",
-   "image": "",
-   "date": "2026-10-26",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/26/defense-tech-private-equity-investment.html",
-   "title": "Defense tech investment boom sparks bubble warning as private equity pours in",
-   "summary": "Private equity growth investments in defense reached $4 billion in the first nine months of 2026, up from $500 million in 2024.",
-   "image": "",
-   "date": "2026-10-26",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
-   "title": "SpaceX closes $40 billion debt deal for AI chips, Elon Musk says",
-   "summary": "Elon Musk said in an X post that SpaceX has closed $40 billion in debt financing to purchase GPUs.",
-   "image": "",
-   "date": "2026-10-26",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/26/pension-funds-ageing-crisis-risk-investment.html",
-   "title": "‘Ticking time bomb’: The world's pension funds face an ageing crisis",
-   "summary": "The world's pension systems are confronting a demographic crisis as longer lifespans and dwindling birth rates threaten to stretch retirement finances.",
-   "image": "",
-   "date": "2026-10-26",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html",
-   "title": "SoftBank reportedly plans $50 billion tech investment in aspiring 'AI nation' Malaysia",
-   "summary": "SoftBank Group reportedly plans to invest $50 billion in Malaysia's technology sector, including artificial intelligence and data centers.",
-   "image": "",
-   "date": "2026-10-26",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/investingclub/2026/10/25/jim-cramer-remembers-cliff-mason.html",
-   "title": "Behind ‘Mad Money’ was a brilliant writer viewers never saw. We lost him too soon",
-   "summary": "Jim Cramer remembers Cliff Mason, the head writer of \"Mad Money,\" who died last week at age 41.",
-   "image": "",
-   "date": "2026-10-26",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/25/blanche-doj-alaska-senate-certification-lawsuit.html",
-   "title": "Blanche defends Trump-ordered lawsuit over Alaska Senate election certification",
-   "summary": "Democrats have maintained they have no connection to Daniel J. Sullivan.",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/25/cnbc-survey-midterm-election-voter-fears.html",
-   "title": "What Democrats and Republicans fear most about each other: CNBC survey has the answers",
-   "summary": "The economy is still a key issue in the 2026 election, but voters are concerned about Trump testing the bounds of the office and Democratic Socialist polices.",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/25/ukraine-musk-starlink-terms-dispute.html",
-   "title": "Ukraine disputes Elon Musk’s claim that its military violated Starlink terms during drone operations",
-   "summary": "Ukraine challenged Musk’s claim that its military violated Starlink terms, arguing that commercial Starlink limits prevented medium- and long-range strike use.",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/25/audi-georgia-us-plant-tariffs-volkswagen.html",
-   "title": "Audi defends plans for a $4 billion Georgia plant amid VW restructuring, tariffs",
-   "summary": "Audi's CEO defended the company's plans for a $4 billion plant in Georgia, calling it a business decision to grow sales and reduce exposure to U.S. tariffs.",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/investingclub/2026/10/25/jim-cramer-ai-trade-nvidia-coreweave.html",
-   "title": "More pain may be coming for the AI trade. Why I’m not giving up on it",
-   "summary": "In his Sunday column for Investing Club subscribers, Jim Cramer explains why the AI trade has cracked and what he's doing about it.",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/25/france-protests-paris-cost-of-living-inequality.html",
-   "title": "In pictures: Protests over inequality, rising living costs turn violent across France",
-   "summary": "Protests over inequality and living costs drew an estimated 410,000 people across France, with clashes in several cities for a second straight weekend.",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/25/wonder-ipo-texas-automation.html",
-   "title": "Marc Lore’s Wonder bets on Texas, automation and user-built restaurants as it mulls IPO",
-   "summary": "Wonder is leaning into automation and user-built restaurants as founder Marc Lore prepares the startup for a potential IPO.",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/25/saudi-arabia-houthi-missile-drone-interceptions.html",
-   "title": "Saudi Arabia says it intercepted missiles and drones from Iran-backed Houthis",
-   "summary": "Saudi Arabia says it intercepted Houthi missiles and drones, while the Houthis claimed attacks on airports and energy sites amid rising regional supply risks.",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
-   "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
-   "summary": "French unrest pushed bond yields to a 24-year high as investors weigh budget, growth and sectors risks ahead of more protests.",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/make-it/2026/10/25/pay-off-credit-card-debt.html",
-   "title": "I paid off $11,000 of credit card debt in 18 months while still traveling, shopping and living my life",
-   "summary": "I racked up over $11,000 in credit card debt traveling, shopping and dining out. Here's how I paid it all off in under two years.",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/make-it/2026/10/25/travel-compatibility-questions.html",
-   "title": "Should you travel together? Ask these questions before booking: 'It'll save you time, money and disappointment'",
-   "summary": "Consider budget, accommodations, personal habits, alone time and more, say Anna Goldfarb and Nell McShane Wulfhart, experts in friendship, travel and decision-m…",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/23/america-by-the-numbers-how-voters-feel-about-the-economy-inflation-ai-and-trump.html",
-   "title": "America by the numbers: How voters feel about the economy, inflation, AI and Trump",
-   "summary": "With the U.S. midterm elections looming, Americans are nearly as gloomy about the economy as they were when the nation was emerging from the pandemic.",
-   "image": "",
-   "date": "2026-10-24",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
-   "title": "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
-   "summary": "As Nvidia has gone from chipmaker to industry financier, some investors see the company taking on outsized risk tied to the AI buildout.",
-   "image": "",
-   "date": "2026-10-24",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/24/spirit-airlines-planes-scrapped-engine-shortage.html",
-   "title": "Why popular airplanes are getting scrapped years early",
-   "summary": "Airplanes are getting dismantled for parts years ahead of schedule because engines and other components are in short supply.",
-   "image": "",
-   "date": "2026-10-24",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/24/trump-ai-data-centers-voter-backlash-midterms.html",
-   "title": "Trump is pushing a massive AI buildout. His own voters are wary of what comes with it",
-   "summary": "A new CNBC survey finds broad voter opposition to nearby AI data centers, creating a political challenge for Trump and Republicans ahead of the midterm election…",
-   "image": "",
-   "date": "2026-10-24",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/24/amgen-imdelltra-lung-cancer-data.html",
-   "title": "Amgen says drug combo cuts risk of death by 58% in patients with aggressive lung cancer",
-   "summary": "A drug from Amgen could give patients with an aggressive form of lung cancer significantly more time to live when added to an immunotherapy from AstraZeneca.",
-   "image": "",
-   "date": "2026-10-24",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/24/stock-picking-could-hurt-investors-warns-former-hedge-fund-manager.html",
-   "title": "Retail investors are not more sophisticated than 30 years ago, says former hedge fund manager",
-   "summary": "Retail investors trying to beat the market by buying individual stocks and complex exchange-traded funds may be better off with broad market index funds.",
-   "image": "",
-   "date": "2026-10-24",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/23/airfare-airline-capacity.html",
-   "title": "Fewer people are flying as airfare soars. Here's why airlines aren't worried",
-   "summary": "Airlines are reporting fewer people flew in the third quarter as airfare surged on fuel costs, but executives say travelers are mostly swallowing higher fares.",
-   "image": "",
-   "date": "2026-10-24",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/24/iran-threats-us-embassies-middle-east.html",
-   "title": "American embassies tighten security as Iran threat warnings intensify ahead of U.S. midterm elections",
-   "summary": "A memo from DNI director Jay Clayton said Iran is in the \"advanced stages\" of planning attacks against Americans.",
-   "image": "",
-   "date": "2026-10-24",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/24/berkshire-record-high-without-buffett.html",
-   "title": "Berkshire shares shake the Buffett blues with new all-time highs",
-   "summary": "After almost 18 months, Berkshire Hathaway shares have entirely erased all the ground they lost in the wake of Warren Buffett's surprise announcement at the 202…",
-   "image": "",
-   "date": "2026-10-24",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
-   "title": "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
-   "summary": "Stock slumps, pulled IPOs and rising spreads on credit default swaps this week sets stage for hyperscaler earnings.",
-   "image": "",
-   "date": "2026-10-24",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/23/trump-mortgage-executive-order-costs.html",
-   "title": "Trump's executive order targets mortgage insurance, refinance costs. What it means for borrowers",
-   "summary": "Trump's executive order on housing aims to lower mortgage costs. Here's what it means for homeowners and buyers.",
-   "image": "",
-   "date": "2026-10-23",
    "tags": [],
    "lang": "en",
    "type": "article"

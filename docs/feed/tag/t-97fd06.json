@@ -9,179 +9,18 @@
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/ai/6483433.html",
-      "url": "https://www.woshipm.com/ai/6483433.html",
-      "title": "用 AI 做自媒体，完整流程应该怎么做？附技能包",
-      "content_text": "上一套开源的自媒体 skill 流程，这里给到完整操作路径：装技能、做账号定位、拆对标、出选题、写稿、诊断成稿。不用会编程，Codex、豆包工作之类的工具装上就能跑，文末是技能包地址。 上一篇不是开源了一套 skill 吗，现在用了一段时间，基本没什么问题了。 整套流程，不用你会编程，只要下载一个装技能的 AI 工具就…",
-      "summary": "上一套开源的自媒体 skill 流程，这里给到完整操作路径：装技能、做账号定位、拆对标、出选题、写稿、诊断成稿。不用会编程，Codex、豆包工作之类的工具装上就能跑，文末是技能包地址。 上一篇不是开源了一套 skill 吗，现在用了一段时间，基本没什么问题了。 整套流程，不用你会编程，只要下载一个装技能的 AI 工具就…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "AI",
-        "个人随笔",
-        "AI工具",
-        "AI应用",
-        "内容创作",
-        "自媒体",
-        "产品",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/ai/6484229.html",
-      "url": "https://www.woshipm.com/ai/6484229.html",
-      "title": "月入过亿的 Tipsy 与 PolyBuzz 海外突发下架，AI 擦边陪伴或撞上苹果红线",
-      "content_text": "作业帮旗下 PolyBuzz 与 Tipsy Chat 接连从海外 App Store 消失，两款产品都做成人化角色扮演。它们是中国 AI 陪伴出海少数跑出规模化收入的产品，这次或撞上苹果审核红线。 两款由国内团队开发的 AI 陪伴应用 PolyBuzz 和 Tipsy Chat 近期接连遭遇海外 iOS 下架风波。…",
-      "summary": "作业帮旗下 PolyBuzz 与 Tipsy Chat 接连从海外 App Store 消失，两款产品都做成人化角色扮演。它们是中国 AI 陪伴出海少数跑出规模化收入的产品，这次或撞上苹果审核红线。 两款由国内团队开发的 AI 陪伴应用 PolyBuzz 和 Tipsy Chat 近期接连遭遇海外 iOS 下架风波。…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "AI",
-        "个人随笔",
-        "AI应用",
-        "案例分析",
-        "行业动态",
-        "跨境电商",
-        "产品",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/ai/6483986.html",
-      "url": "https://www.woshipm.com/ai/6483986.html",
-      "title": "月之暗面发布Kimi K3.1 Pro。这把超Astra了？",
-      "content_text": "Kimi K3.1 Pro 建在 7 月发布的 K3 之后，通过后训练提升代码、3D 创作、金融、幻觉控制和网络安全能力。本文中的分数主要来自模型方公布的 Benchmark，个人案例只代表特定提示词和工具链下的结果，选型还得用自己的仓库复验。 Kimi K3.1 Pro 建立在 7 月发布的 K3 之后，通过后训练提…",
-      "summary": "Kimi K3.1 Pro 建在 7 月发布的 K3 之后，通过后训练提升代码、3D 创作、金融、幻觉控制和网络安全能力。本文中的分数主要来自模型方公布的 Benchmark，个人案例只代表特定提示词和工具链下的结果，选型还得用自己的仓库复验。 Kimi K3.1 Pro 建立在 7 月发布的 K3 之后，通过后训练提…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "AI",
-        "个人随笔",
-        "CAD",
-        "Kimi",
-        "月之暗面",
-        "模型评测",
-        "产品",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/share/6484203.html",
-      "url": "https://www.woshipm.com/share/6484203.html",
-      "title": "搜狗大改版，腾讯新一代AI搜索引擎，来了",
-      "content_text": "搜狗把首页改成一个 logo 加一个输入框，输入框内可直接跳转 AI 模式，答案与参考资料左右分栏。老牌搜索引擎这次不是加个问答按钮，传统网页入口被降级，重心压到元宝搜索上。 最近，搜索领域热闹了起来。 先是 DeepSeek 开放自研的搜索 API，揭开 AI 搜索争夺的序幕。 DeepSeek 开放了 2 个接口，…",
-      "summary": "搜狗把首页改成一个 logo 加一个输入框，输入框内可直接跳转 AI 模式，答案与参考资料左右分栏。老牌搜索引擎这次不是加个问答按钮，传统网页入口被降级，重心压到元宝搜索上。 最近，搜索领域热闹了起来。 先是 DeepSeek 开放自研的搜索 API，揭开 AI 搜索争夺的序幕。 DeepSeek 开放了 2 个接口，…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "个人随笔",
-        "AI搜索",
-        "元宝",
-        "功能分析",
-        "搜狗",
-        "行业观察",
-        "产品",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/ai/6484205.html",
-      "url": "https://www.woshipm.com/ai/6484205.html",
-      "title": "开源“印钞机”、每代降价90%，DeepSeek这几年那些「神播种」",
-      "content_text": "DeepSeek 把内部推理框架 DeepInfer 开源，号称自家的印钞机。从 MoE、MLA 到开源周、再到 DeepInfer，这条路线把缓存命中折扣压到 97%，每百万 token 的价格一路降了九成。 最近，DeepSeek又把一项核心的技术开源出来了，号称是 DeepSeek 的印钞机。 它就是10月20日…",
-      "summary": "DeepSeek 把内部推理框架 DeepInfer 开源，号称自家的印钞机。从 MoE、MLA 到开源周、再到 DeepInfer，这条路线把缓存命中折扣压到 97%，每百万 token 的价格一路降了九成。 最近，DeepSeek又把一项核心的技术开源出来了，号称是 DeepSeek 的印钞机。 它就是10月20日…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "AI",
-        "AI产品",
-        "DeepInfer",
-        "DeepSeek",
-        "发展历史",
-        "开源项目",
-        "产品",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/share/6483994.html",
-      "url": "https://www.woshipm.com/share/6483994.html",
-      "title": "实体生意、实体店获客方法",
-      "content_text": "你的生意要是缺客户，就是不懂这个方法。作者讲买客思维：先给价值再有回报，设计一个低成本、高价值、高吸引力的获客钩子，用异业合作和体验券把客户引过来。前端不赚钱，赚的是后端复购、转介绍和裂变带来的钱。 你的生意要是缺客户，就是不懂这个方法，今天分享一个买客思维，让你能够持续获客。 买客思维是什么意思呢？ 就是先要有付出才…",
-      "summary": "你的生意要是缺客户，就是不懂这个方法。作者讲买客思维：先给价值再有回报，设计一个低成本、高价值、高吸引力的获客钩子，用异业合作和体验券把客户引过来。前端不赚钱，赚的是后端复购、转介绍和裂变带来的钱。 你的生意要是缺客户，就是不懂这个方法，今天分享一个买客思维，让你能够持续获客。 买客思维是什么意思呢？ 就是先要有付出才…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "个人随笔",
-        "实体店",
-        "用户运营",
-        "私域运营",
-        "产品",
-        "运营",
-        "商业"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/zhichang/6479450.html",
-      "url": "https://www.woshipm.com/zhichang/6479450.html",
-      "title": "在大厂，这样写周报，leader一眼看出你能力强",
-      "content_text": "提起周报，很多人的第一反应是又到周五了、又要凑字数了。但对真正懂职场逻辑的人来说，周报从来不是形式主义，而是一次绝佳的向上管理机会，尤其对做品牌出海、海外营销的人。 提起周报，很多人的第一反应是“又到周五了，又要凑字数了”。尤其是在大厂，周报系统往往还自带格式、字数限制、甚至还会被自动推送到大老板邮箱，压力倍增。 但对…",
-      "summary": "提起周报，很多人的第一反应是又到周五了、又要凑字数了。但对真正懂职场逻辑的人来说，周报从来不是形式主义，而是一次绝佳的向上管理机会，尤其对做品牌出海、海外营销的人。 提起周报，很多人的第一反应是“又到周五了，又要凑字数了”。尤其是在大厂，周报系统往往还自带格式、字数限制、甚至还会被自动推送到大老板邮箱，压力倍增。 但对…",
-      "date_published": "2026-10-26T00:00:00Z",
+      "id": "https://www.woshipm.com/zhichang/6484792.html",
+      "url": "https://www.woshipm.com/zhichang/6484792.html",
+      "title": "黄仁勋的“AI 工厂”，对产品设计意味着什么？",
+      "content_text": "黄仁勋在 GTC Berlin 2026 提出 AI 工厂：把能源、芯片、计算系统、网络、存储、冷却组织进同一套生产体系，持续制造可被 AI 应用消费的 Token，正卡在“五层蛋糕”的第三层。 最近，黄仁勋在 GTC Berlin 2026 提出了一个新概念：AI 工厂，这不只是一次技术概念升级，也是在重新定义 AI…",
+      "summary": "黄仁勋在 GTC Berlin 2026 提出 AI 工厂：把能源、芯片、计算系统、网络、存储、冷却组织进同一套生产体系，持续制造可被 AI 应用消费的 Token，正卡在“五层蛋糕”的第三层。 最近，黄仁勋在 GTC Berlin 2026 提出了一个新概念：AI 工厂，这不只是一次技术概念升级，也是在重新定义 AI…",
+      "date_published": "2026-10-27T00:00:00Z",
       "tags": [
         "职场攻略",
-        "向上管理",
-        "周报",
-        "职场成长",
-        "职场沟通",
+        "AI工厂",
+        "数据中心",
+        "英伟达",
+        "设计思维",
         "产品",
         "运营",
         "商业"
@@ -197,19 +36,19 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6484231.html",
-      "url": "https://www.woshipm.com/ai/6484231.html",
-      "title": "医药业这样用WorkBuddy就对了",
-      "content_text": "《医药代表管理办法》8 月 1 日施行，带金销售走到头，学术推广、合规话术、文献整理全压到个人身上。作者按四个真实场景给出提示词模板，把合规自查嵌进写话术的步骤里，其他行业也能照着改。 医药行业今年最大的变化不是在市场层面，而是相关的法律法规。8月1日《医药代表管理办法》正式施行，七个部门联合把学术推广的全链条合规要求…",
-      "summary": "《医药代表管理办法》8 月 1 日施行，带金销售走到头，学术推广、合规话术、文献整理全压到个人身上。作者按四个真实场景给出提示词模板，把合规自查嵌进写话术的步骤里，其他行业也能照着改。 医药行业今年最大的变化不是在市场层面，而是相关的法律法规。8月1日《医药代表管理办法》正式施行，七个部门联合把学术推广的全链条合规要求…",
-      "date_published": "2026-10-26T00:00:00Z",
+      "id": "https://www.woshipm.com/share/6484770.html",
+      "url": "https://www.woshipm.com/share/6484770.html",
+      "title": "香菜退完退冰柜？仅退款真的该退场了！平台不能总让老实商家当冤大头！",
+      "content_text": "仅退款的风向变了。当买家对一台价值4070元的冰柜点下仅退款并声称已销毁，商家却跨省发现冰柜正插电使用，这场荒诞剧撕掉了品类特殊性的遮羞布。平台规则开始纠偏，但商家维权仍步履维艰。本文从冰柜事件切入，剖析仅退款规则漏洞与商家保护困境，探讨电商生态如何回归公平。 两台冰柜，总价4070块，买家在平台点了“仅退款”，转头告…",
+      "summary": "仅退款的风向变了。当买家对一台价值4070元的冰柜点下仅退款并声称已销毁，商家却跨省发现冰柜正插电使用，这场荒诞剧撕掉了品类特殊性的遮羞布。平台规则开始纠偏，但商家维权仍步履维艰。本文从冰柜事件切入，剖析仅退款规则漏洞与商家保护困境，探讨电商生态如何回归公平。 两台冰柜，总价4070块，买家在平台点了“仅退款”，转头告…",
+      "date_published": "2026-10-27T00:00:00Z",
       "tags": [
-        "AI",
         "个人随笔",
-        "AI应用",
-        "WorkBuddy",
-        "企业服务",
-        "经验分享",
+        "仅退款",
+        "商家权益",
+        "案例分析",
+        "电商平台",
+        "规则漏洞",
         "产品",
         "运营"
       ],
@@ -224,72 +63,71 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/it/6483988.html",
-      "url": "https://www.woshipm.com/it/6483988.html",
-      "title": "为什么 OpenAI 和 Anthropic 都在抢着进入这个领域？",
-      "content_text": "你有没有想过，为什么最近几乎每个星期都有 AI 公司宣布要做生物科技？age1 联合创始人 Alex Colville 把这件事拆成三层：它们为什么来、能帮上什么、会卡在哪里。结论很朴素——AI 让想出来变便宜，却没让证明出来变便宜。 你有没有想过，为什么最近几乎每个星期，都有一家 AI 公司宣布自己要做生物科技？ 英…",
-      "summary": "你有没有想过，为什么最近几乎每个星期都有 AI 公司宣布要做生物科技？age1 联合创始人 Alex Colville 把这件事拆成三层：它们为什么来、能帮上什么、会卡在哪里。结论很朴素——AI 让想出来变便宜，却没让证明出来变便宜。 你有没有想过，为什么最近几乎每个星期，都有一家 AI 公司宣布自己要做生物科技？ 英…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "业界动态",
-        "AI应用",
-        "Anthropic",
-        "OpenAI",
-        "行业观察",
-        "产品",
-        "运营",
-        "商业"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/it/6483992.html",
-      "url": "https://www.woshipm.com/it/6483992.html",
-      "title": "一张派大星表情包，点燃了“第一次推特世界大战”",
-      "content_text": "一张派大星表情包，把中土网友的对线推成了第一次推特世界大战。起因是有人反复追问一位维吾尔族姑娘是不是突厥人，姑娘回了五个字：我是中国人。之后猫图、国旗梗、基因报告轮番上场，七天里热度烧到顶又慢慢熄掉。 近日（2026年10月20日左右），土耳其和中国网民在x平台出现一场大规模的对线。 事情的起因是10月中旬，X 上一个…",
-      "summary": "一张派大星表情包，把中土网友的对线推成了第一次推特世界大战。起因是有人反复追问一位维吾尔族姑娘是不是突厥人，姑娘回了五个字：我是中国人。之后猫图、国旗梗、基因报告轮番上场，七天里热度烧到顶又慢慢熄掉。 近日（2026年10月20日左右），土耳其和中国网民在x平台出现一场大规模的对线。 事情的起因是10月中旬，X 上一个…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "业界动态",
-        "热点事件",
-        "网络文化",
-        "行业观察",
-        "跨文化",
-        "产品",
-        "运营",
-        "商业"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/ai/6484225.html",
-      "url": "https://www.woshipm.com/ai/6484225.html",
-      "title": "vLLM 反超 DeepSeek 专用引擎，大模型本地部署首选依然没变！",
-      "content_text": "DeepInfer 开源后不少人担心通用推理引擎会被边缘化。SGLang 与 vLLM 几乎同时拿出相同基准的测试：在 DeepSeek V4.1 Flash 上，Prefill 吞吐与单步生成耗时追平甚至反超。 前些天 DeepSeek 放出了 DeepSeek V4.1 Flash 1017 ，把性价比发挥到极致…",
-      "summary": "DeepInfer 开源后不少人担心通用推理引擎会被边缘化。SGLang 与 vLLM 几乎同时拿出相同基准的测试：在 DeepSeek V4.1 Flash 上，Prefill 吞吐与单步生成耗时追平甚至反超。 前些天 DeepSeek 放出了 DeepSeek V4.1 Flash 1017 ，把性价比发挥到极致…",
-      "date_published": "2026-10-26T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6484782.html",
+      "url": "https://www.woshipm.com/ai/6484782.html",
+      "title": "这个免费的 Skill，用 Opus 5.5整理了 98 种视频风格提示词！",
+      "content_text": "一个叫 lemo-opuscar 的 Skill 把视频风格提示词整理成清单，往下拉点开【All 98 styles】，就能看到 98 种风格都在里面了，2D、2.5D 和 3D 全覆盖，复制就能直接用。 前段时间很火的用 Opus5.5 做代码视频。 后面发现很多人都弄了各种风格视频，我就想把各种风格的视频提示词整理…",
+      "summary": "一个叫 lemo-opuscar 的 Skill 把视频风格提示词整理成清单，往下拉点开【All 98 styles】，就能看到 98 种风格都在里面了，2D、2.5D 和 3D 全覆盖，复制就能直接用。 前段时间很火的用 Opus5.5 做代码视频。 后面发现很多人都弄了各种风格视频，我就想把各种风格的视频提示词整理…",
+      "date_published": "2026-10-27T00:00:00Z",
       "tags": [
         "AI",
         "个人随笔",
-        "DeepInfer",
-        "DeepSeek",
-        "技术原理",
+        "Claude Opus",
+        "内容创作",
+        "提示词工程",
+        "视频生成",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6484704.html",
+      "url": "https://www.woshipm.com/ai/6484704.html",
+      "title": "轻松学会用WorkBuddy自动控制浏览器",
+      "content_text": "WorkBuddy 把浏览器自动化整合进客户端，装好 Chrome 扩展、打开开关，就能让它自己搜站、点开视频点赞。作者用一次六分钟、19.84 积分的小任务走通了整条链路。 没记错的话，WorkBuddy算是在5.8.2版本的时候，上线了浏览器自动化的功能，之前还是通过安装Broswer Skill来实现控制浏览器对…",
+      "summary": "WorkBuddy 把浏览器自动化整合进客户端，装好 Chrome 扩展、打开开关，就能让它自己搜站、点开视频点赞。作者用一次六分钟、19.84 积分的小任务走通了整条链路。 没记错的话，WorkBuddy算是在5.8.2版本的时候，上线了浏览器自动化的功能，之前还是通过安装Broswer Skill来实现控制浏览器对…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "AI应用",
+        "Chrome",
+        "CodeBuddy",
+        "WorkBuddy",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/share/6484455.html",
+      "url": "https://www.woshipm.com/share/6484455.html",
+      "title": "让公司员工测试新品，是我见过最蠢的市场调研",
+      "content_text": "新品先给员工试吃试用、包装方案内部投票，看着省了调研费，其实是一场职场情商测试。员工不敢说真话，判断也未必准，作者把这套自欺拆开讲，也给了替代的验证思路和判断标准。 我发现，很多公司在推出一款新产品之前，都喜欢让自己公司的员工，先替消费者试一试。 比如食品饮料公司研发了一款新品，先给员工尝尝，看看口味怎么样。 日化公司…",
+      "summary": "新品先给员工试吃试用、包装方案内部投票，看着省了调研费，其实是一场职场情商测试。员工不敢说真话，判断也未必准，作者把这套自欺拆开讲，也给了替代的验证思路和判断标准。 我发现，很多公司在推出一款新产品之前，都喜欢让自己公司的员工，先替消费者试一试。 比如食品饮料公司研发了一款新品，先给员工尝尝，看看口味怎么样。 日化公司…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "个人随笔",
+        "个人观点",
+        "企业管理",
+        "经验分享",
         "产品",
         "运营",
         "商业"
@@ -305,19 +143,179 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6484197.html",
-      "url": "https://www.woshipm.com/ai/6484197.html",
-      "title": "Personal AI，请先personal一点",
-      "content_text": "本文分享了作者实测 today.ai：授权日程与健康数据后它确实很快懂你，但频繁推送很快变成打扰。Personal AI 的壁垒不在读懂数据，而在被信任的循环，以及该主动时主动、该安静时安静的分寸。 01 today.ai：一下子懂我，之后呢？ 这周体验了today.ai。我授权了本地、日程和健康相关数据，它对我的刻画…",
-      "summary": "本文分享了作者实测 today.ai：授权日程与健康数据后它确实很快懂你，但频繁推送很快变成打扰。Personal AI 的壁垒不在读懂数据，而在被信任的循环，以及该主动时主动、该安静时安静的分寸。 01 today.ai：一下子懂我，之后呢？ 这周体验了today.ai。我授权了本地、日程和健康相关数据，它对我的刻画…",
-      "date_published": "2026-10-26T00:00:00Z",
+      "id": "https://www.woshipm.com/share/6484796.html",
+      "url": "https://www.woshipm.com/share/6484796.html",
+      "title": "给自己搭一个 AI 第二大脑：从收集资料到写出文章，手把手教你做",
+      "content_text": "Obsidian 的价值在开放：以本地 Markdown 文件为基础，配上双向链接、关系图谱和 Bases 数据库，再让 Agent 读写，整理和维护都能交出去，人只管内化。 用了这么多的个人知识库管理工具，到最后我发现Obsidian还是最好用的！ 核心原因是什么呢？它对AI非常友好！ 只不过Obsidian的上手门…",
+      "summary": "Obsidian 的价值在开放：以本地 Markdown 文件为基础，配上双向链接、关系图谱和 Bases 数据库，再让 Agent 读写，整理和维护都能交出去，人只管内化。 用了这么多的个人知识库管理工具，到最后我发现Obsidian还是最好用的！ 核心原因是什么呢？它对AI非常友好！ 只不过Obsidian的上手门…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "个人随笔",
+        "AI Agent",
+        "obsidian",
+        "个人成长",
+        "知识管理",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6484804.html",
+      "url": "https://www.woshipm.com/ai/6484804.html",
+      "title": "每人每年140万美元，Anthropic用5300人疯狂给未来加注",
+      "content_text": "Anthropic 上半年只有约四分之一算力用于服务付费客户，其余绝大部分投进下一代模型的研发；不可取消的算力承诺半年涨到 4.9 倍，人均一年的人员费用约 140 万美元。 昨天，Anthropic向SEC交了上市招股书，如果他们今年成功完成上市，据报道市值估计在1.5-2万亿美元之间，会超过今年的SpaceX，成为…",
+      "summary": "Anthropic 上半年只有约四分之一算力用于服务付费客户，其余绝大部分投进下一代模型的研发；不可取消的算力承诺半年涨到 4.9 倍，人均一年的人员费用约 140 万美元。 昨天，Anthropic向SEC交了上市招股书，如果他们今年成功完成上市，据报道市值估计在1.5-2万亿美元之间，会超过今年的SpaceX，成为…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "AI",
+        "Anthropic",
+        "云计算",
+        "商业模式",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/embodied/6484709.html",
+      "url": "https://www.woshipm.com/embodied/6484709.html",
+      "title": "机器人集合店：有流量，钱难赚",
+      "content_text": "机器人集合店越开越多，一年时间从深圳首店扩到全国二十余家、签约覆盖 23 座城市；商场里围观的人挤成一片，真正掏钱的却少，卖体验、租赁还是研学，这笔账目前还不好算清楚。 商场，迎来一批新的常驻嘉宾。 机器狗翻跟头、人形机器人跳舞，围观的人群举着手机拍个不停，孩子们挤到前排，想凑近摸一摸这些新奇的“家伙”。这样的场景越来…",
+      "summary": "机器人集合店越开越多，一年时间从深圳首店扩到全国二十余家、签约覆盖 23 座城市；商场里围观的人挤成一片，真正掏钱的却少，卖体验、租赁还是研学，这笔账目前还不好算清楚。 商场，迎来一批新的常驻嘉宾。 机器狗翻跟头、人形机器人跳舞，围观的人群举着手机拍个不停，孩子们挤到前排，想凑近摸一摸这些新奇的“家伙”。这样的场景越来…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "具身智能",
+        "京东",
+        "新零售",
+        "智元",
+        "案例分析",
+        "行业观察",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/marketing/6484729.html",
+      "url": "https://www.woshipm.com/marketing/6484729.html",
+      "title": "未来品牌宣言：AI之上，重启营销雄心",
+      "content_text": "彼得·菲斯克在《未来品牌宣言》里把话说得很直：营销真正的考验是战略而不是技术。七个章节里，他谈智能体替客户做决定之后，品牌的战场如何从触达转向定义市场，边界又为何在消融。 品牌的未来正在被重写，营销也不例外。 AI正在改变人们发现、评估和购买产品的方式；技术是人类的催化剂，行业边界在消融，新的竞争者从意想不到的方向闯入…",
+      "summary": "彼得·菲斯克在《未来品牌宣言》里把话说得很直：营销真正的考验是战略而不是技术。七个章节里，他谈智能体替客户做决定之后，品牌的战场如何从触达转向定义市场，边界又为何在消融。 品牌的未来正在被重写，营销也不例外。 AI正在改变人们发现、评估和购买产品的方式；技术是人类的催化剂，行业边界在消融，新的竞争者从意想不到的方向闯入…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "营销推广",
+        "内容营销",
+        "商业模式",
+        "案例分析",
+        "行业观察",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6484806.html",
+      "url": "https://www.woshipm.com/ai/6484806.html",
+      "title": "别只用 Claude 聊天：三块能力搭成长期工作流",
+      "content_text": "多数人用 Claude 只当搜索框：问一句、拿一段、关页面。Projects 用来沉淀资料和规则，Artifacts 承载可迭代的产物，长上下文同时读大量材料，三块拼起来才是工作流。 很多人第一次打开 Claude，做的事和使用搜索框没什么区别：问一个问题，拿到一段回答，然后关闭页面。下次遇到同类任务，又重新粘贴背景、…",
+      "summary": "多数人用 Claude 只当搜索框：问一句、拿一段、关页面。Projects 用来沉淀资料和规则，Artifacts 承载可迭代的产物，长上下文同时读大量材料，三块拼起来才是工作流。 很多人第一次打开 Claude，做的事和使用搜索框没什么区别：问一个问题，拿到一段回答，然后关闭页面。下次遇到同类任务，又重新粘贴背景、…",
+      "date_published": "2026-10-27T00:00:00Z",
       "tags": [
         "AI",
         "个人随笔",
         "AI产品",
-        "Personal AI",
-        "个人观点",
-        "产品策略",
+        "Claude",
+        "经验分享",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/share/6484720.html",
+      "url": "https://www.woshipm.com/share/6484720.html",
+      "title": "再过几个月，中国互联网将告别14亿人口市场",
+      "content_text": "2025 年末全国人口 140489 万，离 14 亿只剩约 489 万的缓冲，而负增长已连续四年且在扩大。分母被抽走后，平台只能从存量里切，或者往单个用户的使用时长上继续挖。 “14亿人的大市场”，这句话在中国互联网的叙事里被使用了太多年。它是BP里的市场规模测算，是平台向品牌方报价时的底层分母，是“渗透率还有空间”…",
+      "summary": "2025 年末全国人口 140489 万，离 14 亿只剩约 489 万的缓冲，而负增长已连续四年且在扩大。分母被抽走后，平台只能从存量里切，或者往单个用户的使用时长上继续挖。 “14亿人的大市场”，这句话在中国互联网的叙事里被使用了太多年。它是BP里的市场规模测算，是平台向品牌方报价时的底层分母，是“渗透率还有空间”…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "个人随笔",
+        "QuestMobile",
+        "商业模式",
+        "行业分析",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/operate/6484706.html",
+      "url": "https://www.woshipm.com/operate/6484706.html",
+      "title": "中国顶流博主，横扫海外社交媒体",
+      "content_text": "一条 23 分钟的英文评测，把 iPhone Duo 折了一万次、冻了一千次，播放超过五千七百万，粉丝从零涨到三百万。何同学更早布局，中国博主正带着成熟的内容能力走向海外。 10 月 22 日凌晨，一条 23 分钟的英文评测出现在 X 上。一个中国团队把一台iPhone Duo放在常温下开合一万次，又丢进零下 20 度…",
+      "summary": "一条 23 分钟的英文评测，把 iPhone Duo 折了一万次、冻了一千次，播放超过五千七百万，粉丝从零涨到三百万。何同学更早布局，中国博主正带着成熟的内容能力走向海外。 10 月 22 日凌晨，一条 23 分钟的英文评测出现在 X 上。一个中国团队把一台iPhone Duo放在常温下开合一万次，又丢进零下 20 度…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "产品运营",
+        "YouTube",
+        "内容创作",
+        "案例分析",
+        "自媒体",
+        "行业观察",
         "产品",
         "运营"
       ],
@@ -332,21 +330,21 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/chuangye/6483402.html",
-      "url": "https://www.woshipm.com/chuangye/6483402.html",
-      "title": "AI 替你买东西，亚马逊却不让它进门？未来谁决定你买什么？",
-      "content_text": "9 月 21 日，Meta 的 Muse 用户让 AI 代下单时被亚马逊拒绝，理由是非授权 AI 代理违反平台条款。争执背后是入口之争：当消费者习惯让 AI 替自己挑，谁站在商品与人之间、谁来解释推荐理由。 最近个人助理 Muse 大火，我就不分享了，但是延续 AI 个人助理的话题，分享点儿别的。 假设，你想买一双跑鞋…",
-      "summary": "9 月 21 日，Meta 的 Muse 用户让 AI 代下单时被亚马逊拒绝，理由是非授权 AI 代理违反平台条款。争执背后是入口之争：当消费者习惯让 AI 替自己挑，谁站在商品与人之间、谁来解释推荐理由。 最近个人助理 Muse 大火，我就不分享了，但是延续 AI 个人助理的话题，分享点儿别的。 假设，你想买一双跑鞋…",
-      "date_published": "2026-10-26T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6484790.html",
+      "url": "https://www.woshipm.com/ai/6484790.html",
+      "title": "Soul将推出Loxinity，为自研语音、视觉与多模态交互产品",
+      "content_text": "Soul 将推出语音合成产品 Loxinity，主打强活人感，支持单人配音、多人对话，配套音色克隆、音色设计，还开放 API；比起字音标准，它更看重对话里的语气停顿和情绪起伏。 Soul将推出专为交互场景打造、超具活人感的语音合成产品“Loxinity（洛希无限）”，和市面上面向配音、短视频的TTS不同，这套模型从底层…",
+      "summary": "Soul 将推出语音合成产品 Loxinity，主打强活人感，支持单人配音、多人对话，配套音色克隆、音色设计，还开放 API；比起字音标准，它更看重对话里的语气停顿和情绪起伏。 Soul将推出专为交互场景打造、超具活人感的语音合成产品“Loxinity（洛希无限）”，和市面上面向配音、短视频的TTS不同，这套模型从底层…",
+      "date_published": "2026-10-27T00:00:00Z",
       "tags": [
-        "创业学院",
-        "AI Agent",
-        "Meta",
-        "消费观察",
-        "行业观察",
+        "AI",
+        "个人随笔",
+        "Soul",
+        "数字人",
+        "社交产品",
+        "语音合成",
         "产品",
-        "运营",
-        "商业"
+        "运营"
       ],
       "authors": [
         {
@@ -356,6 +354,146 @@
       "_shelf": {
         "type": "article",
         "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6484786.html",
+      "url": "https://www.woshipm.com/ai/6484786.html",
+      "title": "Claude Code 桌面化：把 Agent 体验做成可接管的工作台",
+      "content_text": "Claude Code 桌面版把多会话、网页预览、代码差异和终端放进同一个窗口，新建会话从 837 毫秒压到 347 毫秒；难点不是多一个界面，而是让用户看清模型在改什么、哪里需要自己接管。 AI 编程工具一旦离开终端，难点就不再只是“多一个窗口”。它需要把多个会话、网页预览、代码差异、终端输出和人工确认组织成一个可连…",
+      "summary": "Claude Code 桌面版把多会话、网页预览、代码差异和终端放进同一个窗口，新建会话从 837 毫秒压到 347 毫秒；难点不是多一个界面，而是让用户看清模型在改什么、哪里需要自己接管。 AI 编程工具一旦离开终端，难点就不再只是“多一个窗口”。它需要把多个会话、网页预览、代码差异、终端输出和人工确认组织成一个可连…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "AI 编程",
+        "Claude Code",
+        "产品体验",
+        "桌面端",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/operations/continuous-improvement/podcast/55414250/plan-do-check-act-pdca-focus-on-the-learning",
+      "url": "https://www.industryweek.com/operations/continuous-improvement/podcast/55414250/plan-do-check-act-pdca-focus-on-the-learning",
+      "title": "Plan, Do, Check, Act (PDCA): Focus on the Learning",
+      "content_text": "Why you should use Plan, Do, Check, Act as a learning cycle for solving problems, rather than as a checklist for implementing solutions.",
+      "summary": "Why you should use Plan, Do, Check, Act as a learning cycle for solving problems, rather than as a checklist for implementing solutions.",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6adeb56ad5e1da30a5ba35fe-pdcadreamstime_m_439501631_edited.png",
+      "tags": [
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/quiz/article/55414279/halloween-quiz-candy-and-skelly-and-pumpkins-oh-my",
+      "url": "https://www.industryweek.com/quiz/article/55414279/halloween-quiz-candy-and-skelly-and-pumpkins-oh-my",
+      "title": "Halloween Quiz: Candy and Skelly and Pumpkins, Oh My!",
+      "content_text": "Your house may be covered in fake cobwebs and giant skeletons, but take this quiz to find out how much you know about where Halloween costumes and decorations c…",
+      "summary": "Your house may be covered in fake cobwebs and giant skeletons, but take this quiz to find out how much you know about where Halloween costumes and decorations c…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6adf4b549163fb62eb83eaf7-shutterstock_2851388779.png",
+      "tags": [
+        "Quiz",
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/leadership/article/55414412/chemistry-helped-build-americaand-will-shape-its-future",
+      "url": "https://www.industryweek.com/leadership/article/55414412/chemistry-helped-build-americaand-will-shape-its-future",
+      "title": "Chemistry Helped Build America—and Will Shape Its Future",
+      "content_text": "The development of new materials has had a profound impact on our prosperity, culture and quality of life in these 250 years.",
+      "summary": "The development of new materials has had a profound impact on our prosperity, culture and quality of life in these 250 years.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6adfac6ab8863308a46d157f-dreamstime_xxl_460309538.png",
+      "tags": [
+        "Leadership",
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/leadership/companies-executives/news/55414225/5-manufacturers-breaking-ground-on-new-us-facilities",
+      "url": "https://www.industryweek.com/leadership/companies-executives/news/55414225/5-manufacturers-breaking-ground-on-new-us-facilities",
+      "title": "5 Manufacturers Breaking Ground on New US Facilities",
+      "content_text": "Find out where companies like U.S. Steel, Genentech and Avio USA are investing in new facilities and expansion projects.",
+      "summary": "Find out where companies like U.S. Steel, Genentech and Avio USA are investing in new facilities and expansion projects.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6adbdb09f8864325ba14607f-avio0929262.png",
+      "tags": [
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/industryweek-us-500/media-gallery/55410756/2026-iw-us-500-top-consumer-packaged-products-manufacturers",
+      "url": "https://www.industryweek.com/industryweek-us-500/media-gallery/55410756/2026-iw-us-500-top-consumer-packaged-products-manufacturers",
+      "title": "2026 IW U.S. 500: Top Consumer Packaged Products Manufacturers",
+      "content_text": "Browse the top 10 makers of consumer packaged goods from the IndustryWeek U.S. 500.",
+      "summary": "Browse the top 10 makers of consumer packaged goods from the IndustryWeek U.S. 500.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad7cf35ef31995b38c4758b-dreamstime_xxl_19411092.png",
+      "tags": [
+        "IndustryWeek US 500",
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
       }
     },
     {
@@ -785,28 +923,6 @@
       }
     },
     {
-      "id": "https://www.industryweek.com/talent/labor-employment-policy/news/55411724/littler-survey-ai-and-leadership-communication-shape-labor-relations-in-2026",
-      "url": "https://www.industryweek.com/talent/labor-employment-policy/news/55411724/littler-survey-ai-and-leadership-communication-shape-labor-relations-in-2026",
-      "title": "Littler Survey: AI and Leadership Communication Shape Labor Relations in 2026",
-      "content_text": "The report underscores the importance of consistent communication, planning for union activity and addressing employee concerns about AI to maintain positive la…",
-      "summary": "The report underscores the importance of consistent communication, planning for union activity and addressing employee concerns about AI to maintain positive la…",
-      "date_published": "2026-10-14T00:00:00Z",
-      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6acf8a93dd36c6174ea5cf7d-dreamstime_xxl_32705447.png",
-      "tags": [
-        "制造",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "Home | IndustryWeek"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "industryweek-com"
-      }
-    },
-    {
       "id": "https://www.industryweek.com/leadership/strategic-planning-execution/article/55411932/ai-makes-expensive-information-cheap-how-should-that-change-company-structure",
       "url": "https://www.industryweek.com/leadership/strategic-planning-execution/article/55411932/ai-makes-expensive-information-cheap-how-should-that-change-company-structure",
       "title": "AI Makes Expensive Information Cheap. How Should That Change Company Structure?",
@@ -815,97 +931,6 @@
       "date_published": "2026-10-14T00:00:00Z",
       "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6acfdb319e3f57f9d5585bea-dreamstime_m_146301159.png",
       "tags": [
-        "制造",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "Home | IndustryWeek"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "industryweek-com"
-      }
-    },
-    {
-      "id": "https://www.industryweek.com/operations/podcast/55411304/why-visual-management-fails-and-what-to-do-about-it",
-      "url": "https://www.industryweek.com/operations/podcast/55411304/why-visual-management-fails-and-what-to-do-about-it",
-      "title": "Why Visual Management Fails and What to Do About It",
-      "content_text": "Without transparency, visual management is merely decoration.",
-      "summary": "Without transparency, visual management is merely decoration.",
-      "date_published": "2026-10-13T00:00:00Z",
-      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6acd42b6590b102da7a8db95-visualdisplaydreamstime_m_333440410.png",
-      "tags": [
-        "Operations",
-        "制造",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "Home | IndustryWeek"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "industryweek-com"
-      }
-    },
-    {
-      "id": "https://www.industryweek.com/talent/media-gallery/55409367/manufacturing-day-2026-in-pictures",
-      "url": "https://www.industryweek.com/talent/media-gallery/55409367/manufacturing-day-2026-in-pictures",
-      "title": "Updated: Manufacturing Day 2026 in Pictures",
-      "content_text": "A look at tours and celebrations all over the U.S., featuring Honda, Lincoln Electric, Rockwell Automation and more.",
-      "summary": "A look at tours and celebrations all over the U.S., featuring Honda, Lincoln Electric, Rockwell Automation and more.",
-      "date_published": "2026-10-13T00:00:00Z",
-      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6abff860b0b0ab4df409aa92-kab_6911.png",
-      "tags": [
-        "Talent",
-        "制造",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "Home | IndustryWeek"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "industryweek-com"
-      }
-    },
-    {
-      "id": "https://www.industryweek.com/technology-and-iiot/artificial-intelligence/article/55411651/ais-honest-path-forward-making-workers-more-effective",
-      "url": "https://www.industryweek.com/technology-and-iiot/artificial-intelligence/article/55411651/ais-honest-path-forward-making-workers-more-effective",
-      "title": "AI's Honest Path Forward: Making Workers More Effective",
-      "content_text": "Amplifying people is critical as the available skilled workforce shrinks.",
-      "summary": "Amplifying people is critical as the available skilled workforce shrinks.",
-      "date_published": "2026-10-13T00:00:00Z",
-      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ace8f6c2ef519255c96639e-dreamstime_xxl_194830064.png",
-      "tags": [
-        "制造",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "Home | IndustryWeek"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "industryweek-com"
-      }
-    },
-    {
-      "id": "https://www.industryweek.com/the-economy/emerging-markets/article/55411224/cambodias-push-to-become-a-manufacturing-hub",
-      "url": "https://www.industryweek.com/the-economy/emerging-markets/article/55411224/cambodias-push-to-become-a-manufacturing-hub",
-      "title": "Cambodia's Push to Become a Manufacturing Hub",
-      "content_text": "Improved infrastructure, clean-energy initiatives and favorable trade policy are attracting production and logistics.",
-      "summary": "Improved infrastructure, clean-energy initiatives and favorable trade policy are attracting production and logistics.",
-      "date_published": "2026-10-12T00:00:00Z",
-      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6acd2f4db01a4b4dc05a83ea-dreamstime_xxl_20672802.png",
-      "tags": [
-        "The Economy / Emerging Markets",
         "制造",
         "运营"
       ],

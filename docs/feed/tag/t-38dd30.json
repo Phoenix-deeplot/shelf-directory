@@ -177,6 +177,31 @@
       }
     },
     {
+      "id": "https://daily.jstor.org/how-big-oil-shaped-americas-parks/",
+      "url": "https://daily.jstor.org/how-big-oil-shaped-americas-parks/",
+      "title": "How Big Oil Shaped America’s Parks",
+      "content_text": "John D. Rockefeller Jr. wanted Americans to experience nature from their cars. His vision helped transform conservation. The post How Big Oil Shaped America’s P…",
+      "summary": "John D. Rockefeller Jr. wanted Americans to experience nature from their cars. His vision helped transform conservation. The post How Big Oil Shaped America’s P…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Politics & History",
+        "U.S. History",
+        "conservation",
+        "public space",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    },
+    {
       "id": "https://www.sciencedaily.com/releases/2026/10/261024222000.htm",
       "url": "https://www.sciencedaily.com/releases/2026/10/261024222000.htm",
       "title": "Three giant black holes discovered in a galaxy from the dawn of time",
@@ -1028,27 +1053,6 @@
       "title": "Birds are more afraid of women than men. Scientists have no idea why",
       "content_text": "Scientists have uncovered a strange pattern in urban bird behavior: Across five European countries and 37 species, birds consistently fled sooner when approache…",
       "summary": "Scientists have uncovered a strange pattern in urban bird behavior: Across five European countries and 37 species, birds consistently fled sooner when approache…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "学术",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "Latest Science News -- ScienceDaily"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "sciencedaily-com"
-      }
-    },
-    {
-      "id": "https://www.sciencedaily.com/releases/2026/10/261021231230.htm",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261021231230.htm",
-      "title": "A revolutionary new microscope could reveal the hidden machinery of life",
-      "content_text": "Researchers have developed a revolutionary microscope that uses an incredibly powerful laser to make previously invisible cellular structures easier to see. The…",
-      "summary": "Researchers have developed a revolutionary microscope that uses an incredibly powerful laser to make previously invisible cellular structures easier to see. The…",
       "date_published": "2026-10-22T00:00:00Z",
       "tags": [
         "学术",

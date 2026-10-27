@@ -9,6 +9,33 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/completing-the-capacity-stack",
+      "url": "https://www.freightwaves.com/news/completing-the-capacity-stack",
+      "title": "Completing the Capacity Stack",
+      "content_text": "123Loadboard and Direct Freight are combining two independent freight marketplaces so brokers can close capacity gaps and carriers can find better-matched freig…",
+      "summary": "123Loadboard and Direct Freight are combining two independent freight marketplaces so brokers can close capacity gaps and carriers can find better-matched freig…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Business",
+        "News",
+        "Sponsored Insights",
+        "Technology",
+        "123Loadboard",
+        "brokers",
+        "Capacity",
+        "capacity radar"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness",
       "url": "https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness",
       "title": "Workforce gaps keep supply chain AI stuck in pilot mode",
@@ -164,33 +191,6 @@
       "_shelf": {
         "type": "article",
         "shelf": "openculture-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/freightos-founder-takes-board-fight-to-shareholder-vote",
-      "url": "https://www.freightwaves.com/news/freightos-founder-takes-board-fight-to-shareholder-vote",
-      "title": "Freightos founder takes board fight to shareholder vote",
-      "content_text": "Freightos’ board has agreed to put founder Zvi Schreiber’s proposals to a vote at its December annual meeting, escalating a dispute over the company’s focus on…",
-      "summary": "Freightos’ board has agreed to put founder Zvi Schreiber’s proposals to a vote at its December annual meeting, escalating a dispute over the company’s focus on…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "News",
-        "AI",
-        "Freightos",
-        "FreightWaves",
-        "logistics",
-        "SaaS",
-        "Technology",
-        "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
       }
     },
     {

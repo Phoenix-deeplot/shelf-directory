@@ -9,6 +9,33 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/completing-the-capacity-stack",
+      "url": "https://www.freightwaves.com/news/completing-the-capacity-stack",
+      "title": "Completing the Capacity Stack",
+      "content_text": "123Loadboard and Direct Freight are combining two independent freight marketplaces so brokers can close capacity gaps and carriers can find better-matched freig…",
+      "summary": "123Loadboard and Direct Freight are combining two independent freight marketplaces so brokers can close capacity gaps and carriers can find better-matched freig…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Business",
+        "News",
+        "Sponsored Insights",
+        "Technology",
+        "123Loadboard",
+        "brokers",
+        "Capacity",
+        "capacity radar"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/safety-should-be-provable-not-just-compliant",
       "url": "https://www.freightwaves.com/news/safety-should-be-provable-not-just-compliant",
       "title": "Safety Should Be Provable, Not Just Compliant",
@@ -24,33 +51,6 @@
         "Technology",
         "FAAAA",
         "FMCSA"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/the-heartbeat-of-the-american-supply-chain",
-      "url": "https://www.freightwaves.com/news/the-heartbeat-of-the-american-supply-chain",
-      "title": "The Heartbeat of the American Supply Chain",
-      "content_text": "Trucking shouldn’t just offer somebody a seat. It should offer them a future, better skills, better opportunities, and more money and choices. That was the prem…",
-      "summary": "Trucking shouldn’t just offer somebody a seat. It should offer them a future, better skills, better opportunities, and more money and choices. That was the prem…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "Media",
-        "Podcast",
-        "Sponsored Insights",
-        "Ben Pile",
-        "Brake Check",
-        "Career",
-        "Charles Gracey",
-        "Driver recruiting"
       ],
       "authors": [
         {

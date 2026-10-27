@@ -9,6 +9,33 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/dsv-3q-profit-rises-19-5-as-schenker-integration-lifts-earnings",
+      "url": "https://www.freightwaves.com/news/dsv-3q-profit-rises-19-5-as-schenker-integration-lifts-earnings",
+      "title": "DSV 3Q profit rises 19.5% as Schenker integration lifts earnings",
+      "content_text": "DSV’s third-quarter operating profit improved as the Schenker integration savings boosted earnings, offsetting weakness in its trucking division. The post DSV 3…",
+      "summary": "DSV’s third-quarter operating profit improved as the Schenker integration savings boosted earnings, offsetting weakness in its trucking division. The post DSV 3…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "Finance",
+        "Logistics/Supply Chains",
+        "News",
+        "Top Stories",
+        "trucking",
+        "D.B. Schenker",
+        "DSV"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness",
       "url": "https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness",
       "title": "Workforce gaps keep supply chain AI stuck in pilot mode",
@@ -51,30 +78,6 @@
         "Cleo OTIF Report",
         "CPG",
         "CPG retailers"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/the-data-your-truck-sends-home-is-becoming-your-new-credit-score-and-your-insurance-rate-too",
-      "url": "https://www.freightwaves.com/news/the-data-your-truck-sends-home-is-becoming-your-new-credit-score-and-your-insurance-rate-too",
-      "title": "The Data Your Truck Sends Home Is Becoming Your New Credit Score, And Your Insurance Rate Too",
-      "content_text": "Somewhere in your truck right now, a connected system is quietly recording how it is driven, how hard it works, where it goes, and how healthy its engine is, an…",
-      "summary": "Somewhere in your truck right now, a connected system is quietly recording how it is driven, how hard it works, where it goes, and how healthy its engine is, an…",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "Fleet and Maintenance",
-        "Logistics/Supply Chains",
-        "Playbook: Risk & Insurance",
-        "货运",
-        "数据"
       ],
       "authors": [
         {

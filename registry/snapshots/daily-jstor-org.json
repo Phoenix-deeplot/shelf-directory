@@ -2,6 +2,21 @@
  "id": "daily-jstor-org",
  "items": [
   {
+   "url": "https://daily.jstor.org/how-big-oil-shaped-americas-parks/",
+   "title": "How Big Oil Shaped America’s Parks",
+   "summary": "John D. Rockefeller Jr. wanted Americans to experience nature from their cars. His vision helped transform conservation. The post How Big Oil Shaped America’s P…",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [
+    "Politics & History",
+    "U.S. History",
+    "conservation",
+    "public space"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://daily.jstor.org/teaching-students-to-see-what-they-miss/",
    "title": "Teaching Students to See What They Miss",
    "summary": "A classroom exercise in slow looking uses art to sharpen observation skills and encourage more attentive listening. The post Teaching Students to See What They…",
@@ -135,21 +150,6 @@
    ],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://daily.jstor.org/what-do-cops-train-for/",
-   "title": "What Do Cops Train For?",
-   "summary": "Research on police training finds that realistic simulations may reinforce expectations of violence instead of preventing it. The post What Do Cops Train For? a…",
-   "image": "",
-   "date": "2026-10-13",
-   "tags": [
-    "Politics & History",
-    "U.S. History",
-    "criminal justice reform",
-    "police"
-   ],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -166,6 +166,6 @@
  "parser": 2,
  "status": "ok",
  "error": "",
- "etag": "\"1170f3500f5b4d4480eee81494a373a0\"",
- "modified": "Fri, 23 Oct 2026 13:52:00 GMT"
+ "etag": "\"94fac161a8041cd4ba7487669905caf9\"",
+ "modified": "Mon, 26 Oct 2026 13:34:49 GMT"
 }

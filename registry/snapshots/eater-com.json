@@ -2,6 +2,19 @@
  "id": "eater-com",
  "items": [
   {
+   "url": "https://www.eater.com/dining-out/995457/alfies-washington-dc-thai-restaurant-steak-frites",
+   "title": "Inside the New D.C. Restaurant That Only Sells Five Curry Steak Frites Every Night",
+   "summary": "The hottest new spot in Washington, D.C. focuses on the traditional heat-packed cooking methods of northern Thailand, while still using local ingredients from a…",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [
+    "Dining Out",
+    "Video"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.eater.com/dining-out/993334/substitutions-boundaries-pre-shift",
    "title": "Has Substitution Culture Gone Too Far?",
    "summary": "This excerpt was originally published in Pre Shift, our newsletter for the hospitality industry. Subscribe for more first-person accounts, advice, and interview…",
@@ -115,18 +128,6 @@
    ],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://www.eater.com/dining-out/992846/socal-beach-dive-bar-crawl",
-   "title": "Steal my Food Itinerary: A SoCal Beach Dive Bar Crawl",
-   "summary": "Do birthdays matter? Not really. But they are, at the very least, an excuse to do something you might not usually do as a middle-aged father of two. On this mos…",
-   "image": "",
-   "date": "2026-10-14",
-   "tags": [
-    "Dining Out"
-   ],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -143,6 +144,6 @@
  "parser": 2,
  "status": "ok",
  "error": "",
- "etag": "\"16088d5be486bd592c0893df8191d6f9\"",
+ "etag": "\"0a60eefbeafd8ecdb2fe1f8139ca91af\"",
  "modified": ""
 }

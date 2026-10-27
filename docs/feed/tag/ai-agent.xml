@@ -4,21 +4,21 @@
   <title>公共目录 · #AI Agent</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/ai-agent.xml"/>
-  <updated>2026-10-26T00:00:00Z</updated>
+  <updated>2026-10-27T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/chuangye/6483402.html</id>
-    <title>AI 替你买东西，亚马逊却不让它进门？未来谁决定你买什么？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6483402.html"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">9 月 21 日，Meta 的 Muse 用户让 AI 代下单时被亚马逊拒绝，理由是非授权 AI 代理违反平台条款。争执背后是入口之争：当消费者习惯让 AI 替自己挑，谁站在商品与人之间、谁来解释推荐理由。 最近个人助理 Muse 大火，我就不分享了，但是延续 AI 个人助理的话题，分享点儿别的。 假设，你想买一双跑鞋…</summary>
+    <id>https://www.woshipm.com/share/6484796.html</id>
+    <title>给自己搭一个 AI 第二大脑：从收集资料到写出文章，手把手教你做</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484796.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Obsidian 的价值在开放：以本地 Markdown 文件为基础，配上双向链接、关系图谱和 Bases 数据库，再让 Agent 读写，整理和维护都能交出去，人只管内化。 用了这么多的个人知识库管理工具，到最后我发现Obsidian还是最好用的！ 核心原因是什么呢？它对AI非常友好！ 只不过Obsidian的上手门…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="创业学院"/>
+    <category term="个人随笔"/>
     <category term="AI Agent"/>
-    <category term="Meta"/>
-    <category term="消费观察"/>
-    <category term="行业观察"/>
+    <category term="obsidian"/>
+    <category term="个人成长"/>
+    <category term="知识管理"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>

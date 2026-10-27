@@ -1,0 +1,67 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Medicine",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/medicine.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-billy-evans-theranos.html?via=rss",
+      "url": "https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-billy-evans-theranos.html?via=rss",
+      "title": "Elizabeth Holmes Is a Fraudster. It’s Astonishing What <em>You Can See Everything </em>Makes of Her.",
+      "content_text": "Elizabeth Holmes is now, by some, considered a victim, even if it’s not what Nathan Fielder intended.",
+      "summary": "Elizabeth Holmes is now, by some, considered a victim, even if it’s not what Nathan Fielder intended.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://compote.slate.com/images/1686ff92-91ff-40e5-b866-802298a58099.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Crime",
+        "Feminism",
+        "Fraud",
+        "Medicine",
+        "Movies",
+        "Science",
+        "Silicon Valley",
+        "Documentaries"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://daily.jstor.org/teaching-students-to-see-what-they-miss/",
+      "url": "https://daily.jstor.org/teaching-students-to-see-what-they-miss/",
+      "title": "Teaching Students to See What They Miss",
+      "content_text": "A classroom exercise in slow looking uses art to sharpen observation skills and encourage more attentive listening. The post Teaching Students to See What They…",
+      "summary": "A classroom exercise in slow looking uses art to sharpen observation skills and encourage more attentive listening. The post Teaching Students to See What They…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "Education",
+        "Education & Society",
+        "Health",
+        "Science & Technology",
+        "art history",
+        "medicine",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    }
+  ]
+}

@@ -9,6 +9,31 @@
   },
   "items": [
     {
+      "id": "https://daily.jstor.org/how-big-oil-shaped-americas-parks/",
+      "url": "https://daily.jstor.org/how-big-oil-shaped-americas-parks/",
+      "title": "How Big Oil Shaped America’s Parks",
+      "content_text": "John D. Rockefeller Jr. wanted Americans to experience nature from their cars. His vision helped transform conservation. The post How Big Oil Shaped America’s P…",
+      "summary": "John D. Rockefeller Jr. wanted Americans to experience nature from their cars. His vision helped transform conservation. The post How Big Oil Shaped America’s P…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Politics & History",
+        "U.S. History",
+        "conservation",
+        "public space",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    },
+    {
       "id": "https://daily.jstor.org/the-women-breaking-the-rules-of-balinese-dance/",
       "url": "https://daily.jstor.org/the-women-breaking-the-rules-of-balinese-dance/",
       "title": "The Women Breaking the Rules of Balinese Dance",
@@ -47,31 +72,6 @@
         "U.S. History",
         "architecture",
         "photography",
-        "学术",
-        "人文"
-      ],
-      "authors": [
-        {
-          "name": "JSTOR Daily"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "daily-jstor-org"
-      }
-    },
-    {
-      "id": "https://daily.jstor.org/what-do-cops-train-for/",
-      "url": "https://daily.jstor.org/what-do-cops-train-for/",
-      "title": "What Do Cops Train For?",
-      "content_text": "Research on police training finds that realistic simulations may reinforce expectations of violence instead of preventing it. The post What Do Cops Train For? a…",
-      "summary": "Research on police training finds that realistic simulations may reinforce expectations of violence instead of preventing it. The post What Do Cops Train For? a…",
-      "date_published": "2026-10-13T00:00:00Z",
-      "tags": [
-        "Politics & History",
-        "U.S. History",
-        "criminal justice reform",
-        "police",
         "学术",
         "人文"
       ],

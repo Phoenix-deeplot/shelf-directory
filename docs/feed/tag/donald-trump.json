@@ -1,0 +1,149 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Donald Trump",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/donald-trump.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://slate.com/news-and-politics/2026/10/republicans-pedophiles-amy-acton-mom-vivek-ad.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/republicans-pedophiles-amy-acton-mom-vivek-ad.html?via=rss",
+      "title": "Why Republicans Find It So Easy to Defend Child Sex Offenders Like the Man Who Raped Amy Acton",
+      "content_text": "Ramaswamy has turned his opponent's vulnerability into a campaign tactic.",
+      "summary": "Ramaswamy has turned his opponent's vulnerability into a campaign tactic.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://compote.slate.com/images/d724e829-568e-4c5b-b2ad-7e107a505fbf.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Crime",
+        "Donald Trump",
+        "Jurisprudence",
+        "Rape",
+        "Republicans",
+        "Sexual Assault",
+        "2026 Midterms",
+        "评论"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/news-and-politics/2026/10/donald-trump-ohio-election-haiti-ice.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/donald-trump-ohio-election-haiti-ice.html?via=rss",
+      "title": "Trump’s Real Goal in America Is Clear in One Town. It’s Haunting to Visit.",
+      "content_text": "Three days at the heart of Trump’s project in America.",
+      "summary": "Three days at the heart of Trump’s project in America.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://compote.slate.com/images/1b70b48f-b677-4456-931e-dd15654b6fbe.jpeg?crop=3000%2C2000%2Cx0%2Cy0",
+      "tags": [
+        "Donald Trump",
+        "Haiti",
+        "Immigration",
+        "Ohio",
+        "ICE",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/news-and-politics/2026/10/joe-biden-israel-gaza-donald-trump.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/joe-biden-israel-gaza-donald-trump.html?via=rss",
+      "title": "Joe Biden’s Worst Decision Is Even More Stunning When You Know How He Made It",
+      "content_text": "Kamala Harris’ own role is not what she implies.",
+      "summary": "Kamala Harris’ own role is not what she implies.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://compote.slate.com/images/b5318d8d-bc87-49e4-9ae5-adb11027af71.jpeg?crop=7680%2C5120%2Cx0%2Cy0",
+      "tags": [
+        "Books",
+        "Donald Trump",
+        "Foreign Policy",
+        "Israel",
+        "Joe Biden",
+        "Palestine",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/news-and-politics/2026/10/iowa-governor-rob-sand-zach-lahn-grassley-senate.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/iowa-governor-rob-sand-zach-lahn-grassley-senate.html?via=rss",
+      "title": "In Iowa, the Future of American Politics Is Happening Right Now",
+      "content_text": "Win or lose, these two candidates for governor represent the future of their parties.",
+      "summary": "Win or lose, these two candidates for governor represent the future of their parties.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://compote.slate.com/images/443d46d3-5c2e-4a87-a8c6-0da21fa76990.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Democrats",
+        "Donald Trump",
+        "Elections",
+        "Republicans",
+        "Iowa",
+        "2026 Midterms",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/life/2026/10/melania-donald-trump-ukraine-war-ceasefire.html?via=rss",
+      "url": "https://slate.com/life/2026/10/melania-donald-trump-ukraine-war-ceasefire.html?via=rss",
+      "title": "Did Melania Trump Just Humiliate Her Husband on Purpose? It’s Probably Even Pettier Than That.",
+      "content_text": "The first lady has wielded a Ukraine-sized chess piece, and we can only ponder why.",
+      "summary": "The first lady has wielded a Ukraine-sized chess piece, and we can only ponder why.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://compote.slate.com/images/9abbc8db-e69a-4882-b2aa-3c046b0d6556.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Donald Trump",
+        "Melania Trump",
+        "Russia",
+        "Ukraine",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    }
+  ]
+}

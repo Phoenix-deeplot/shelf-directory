@@ -1,0 +1,57 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Video",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/video.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.eater.com/dining-out/995457/alfies-washington-dc-thai-restaurant-steak-frites",
+      "url": "https://www.eater.com/dining-out/995457/alfies-washington-dc-thai-restaurant-steak-frites",
+      "title": "Inside the New D.C. Restaurant That Only Sells Five Curry Steak Frites Every Night",
+      "content_text": "The hottest new spot in Washington, D.C. focuses on the traditional heat-packed cooking methods of northern Thailand, while still using local ingredients from a…",
+      "summary": "The hottest new spot in Washington, D.C. focuses on the traditional heat-packed cooking methods of northern Thailand, while still using local ingredients from a…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Dining Out",
+        "Video",
+        "美食",
+        "餐饮"
+      ],
+      "authors": [
+        {
+          "name": "Eater"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "eater-com"
+      }
+    },
+    {
+      "id": "https://www.eater.com/dining-out/993531/chef-eric-sze-favorite-restaurants-in-nyc",
+      "url": "https://www.eater.com/dining-out/993531/chef-eric-sze-favorite-restaurants-in-nyc",
+      "title": "Where Chef Eric Sze Eats on His Day Off in NYC",
+      "content_text": "Chef Eric Sze, the owner of NYC’s Wenwen, shows us the bakeries, pizzerias, and restaurants he visits weekly for everything from simple baguette sandwiches to o…",
+      "summary": "Chef Eric Sze, the owner of NYC’s Wenwen, shows us the bakeries, pizzerias, and restaurants he visits weekly for everything from simple baguette sandwiches to o…",
+      "date_published": "2026-10-19T00:00:00Z",
+      "tags": [
+        "Video",
+        "美食",
+        "餐饮"
+      ],
+      "authors": [
+        {
+          "name": "Eater"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "eater-com"
+      }
+    }
+  ]
+}

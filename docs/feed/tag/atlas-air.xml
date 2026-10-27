@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/atlas-air.xml</id>
+  <title>公共目录 · #Atlas Air</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/atlas-air.xml"/>
+  <updated>2026-10-26T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/japan-airlines-hires-b747-cargo-carriers-to-meet-high-tech-demand</id>
+    <title>Japan Airlines hires B747 cargo carriers to meet high-tech demand</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/japan-airlines-hires-b747-cargo-carriers-to-meet-high-tech-demand"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Japan Airlines is adding more dedicated, long-haul cargo capacity by outsourcing flying to airlines with large freighter aircraft. The post Japan Airlines hires…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Air Cargo"/>
+    <category term="American Shipper"/>
+    <category term="News"/>
+    <category term="AI"/>
+    <category term="Artificial intelligence"/>
+    <category term="Atlas Air"/>
+    <category term="Japan Airlines"/>
+    <category term="nippon express"/>
+  </entry>
+</feed>

@@ -4,8 +4,66 @@
   <title>公共目录 · Home | IndustryWeek</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/industryweek-com.xml"/>
-  <updated>2026-10-23T00:00:00Z</updated>
+  <updated>2026-10-27T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.industryweek.com/operations/continuous-improvement/podcast/55414250/plan-do-check-act-pdca-focus-on-the-learning</id>
+    <title>Plan, Do, Check, Act (PDCA): Focus on the Learning</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/operations/continuous-improvement/podcast/55414250/plan-do-check-act-pdca-focus-on-the-learning"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Why you should use Plan, Do, Check, Act as a learning cycle for solving problems, rather than as a checklist for implementing solutions.</summary>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.industryweek.com/quiz/article/55414279/halloween-quiz-candy-and-skelly-and-pumpkins-oh-my</id>
+    <title>Halloween Quiz: Candy and Skelly and Pumpkins, Oh My!</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/quiz/article/55414279/halloween-quiz-candy-and-skelly-and-pumpkins-oh-my"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Your house may be covered in fake cobwebs and giant skeletons, but take this quiz to find out how much you know about where Halloween costumes and decorations c…</summary>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="Quiz"/>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.industryweek.com/leadership/article/55414412/chemistry-helped-build-americaand-will-shape-its-future</id>
+    <title>Chemistry Helped Build America—and Will Shape Its Future</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/leadership/article/55414412/chemistry-helped-build-americaand-will-shape-its-future"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">The development of new materials has had a profound impact on our prosperity, culture and quality of life in these 250 years.</summary>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="Leadership"/>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.industryweek.com/leadership/companies-executives/news/55414225/5-manufacturers-breaking-ground-on-new-us-facilities</id>
+    <title>5 Manufacturers Breaking Ground on New US Facilities</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/leadership/companies-executives/news/55414225/5-manufacturers-breaking-ground-on-new-us-facilities"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Find out where companies like U.S. Steel, Genentech and Avio USA are investing in new facilities and expansion projects.</summary>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.industryweek.com/industryweek-us-500/media-gallery/55410756/2026-iw-us-500-top-consumer-packaged-products-manufacturers</id>
+    <title>2026 IW U.S. 500: Top Consumer Packaged Products Manufacturers</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/industryweek-us-500/media-gallery/55410756/2026-iw-us-500-top-consumer-packaged-products-manufacturers"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Browse the top 10 makers of consumer packaged goods from the IndustryWeek U.S. 500.</summary>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="IndustryWeek US 500"/>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
   <entry>
     <id>https://www.industryweek.com/leadership/companies-executives/news/55413917/musk-and-tesla-target-a-big-2030-sales-target</id>
     <title>Musk and Tesla Target a Big 2030 Milestone</title>
@@ -224,17 +282,6 @@
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.industryweek.com/talent/labor-employment-policy/news/55411724/littler-survey-ai-and-leadership-communication-shape-labor-relations-in-2026</id>
-    <title>Littler Survey: AI and Leadership Communication Shape Labor Relations in 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.industryweek.com/talent/labor-employment-policy/news/55411724/littler-survey-ai-and-leadership-communication-shape-labor-relations-in-2026"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <published>2026-10-14T00:00:00Z</published>
-    <summary type="text">The report underscores the importance of consistent communication, planning for union activity and addressing employee concerns about AI to maintain positive la…</summary>
-    <source><title>Home | IndustryWeek</title></source>
-    <category term="制造"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
     <id>https://www.industryweek.com/leadership/strategic-planning-execution/article/55411932/ai-makes-expensive-information-cheap-how-should-that-change-company-structure</id>
     <title>AI Makes Expensive Information Cheap. How Should That Change Company Structure?</title>
     <link rel="alternate" type="text/html" href="https://www.industryweek.com/leadership/strategic-planning-execution/article/55411932/ai-makes-expensive-information-cheap-how-should-that-change-company-structure"/>
@@ -242,53 +289,6 @@
     <published>2026-10-14T00:00:00Z</published>
     <summary type="text">Manufacturers face two traps in organizational design as the economics of information change.</summary>
     <source><title>Home | IndustryWeek</title></source>
-    <category term="制造"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.industryweek.com/operations/podcast/55411304/why-visual-management-fails-and-what-to-do-about-it</id>
-    <title>Why Visual Management Fails and What to Do About It</title>
-    <link rel="alternate" type="text/html" href="https://www.industryweek.com/operations/podcast/55411304/why-visual-management-fails-and-what-to-do-about-it"/>
-    <updated>2026-10-13T00:00:00Z</updated>
-    <published>2026-10-13T00:00:00Z</published>
-    <summary type="text">Without transparency, visual management is merely decoration.</summary>
-    <source><title>Home | IndustryWeek</title></source>
-    <category term="Operations"/>
-    <category term="制造"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.industryweek.com/talent/media-gallery/55409367/manufacturing-day-2026-in-pictures</id>
-    <title>Updated: Manufacturing Day 2026 in Pictures</title>
-    <link rel="alternate" type="text/html" href="https://www.industryweek.com/talent/media-gallery/55409367/manufacturing-day-2026-in-pictures"/>
-    <updated>2026-10-13T00:00:00Z</updated>
-    <published>2026-10-13T00:00:00Z</published>
-    <summary type="text">A look at tours and celebrations all over the U.S., featuring Honda, Lincoln Electric, Rockwell Automation and more.</summary>
-    <source><title>Home | IndustryWeek</title></source>
-    <category term="Talent"/>
-    <category term="制造"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.industryweek.com/technology-and-iiot/artificial-intelligence/article/55411651/ais-honest-path-forward-making-workers-more-effective</id>
-    <title>AI's Honest Path Forward: Making Workers More Effective</title>
-    <link rel="alternate" type="text/html" href="https://www.industryweek.com/technology-and-iiot/artificial-intelligence/article/55411651/ais-honest-path-forward-making-workers-more-effective"/>
-    <updated>2026-10-13T00:00:00Z</updated>
-    <published>2026-10-13T00:00:00Z</published>
-    <summary type="text">Amplifying people is critical as the available skilled workforce shrinks.</summary>
-    <source><title>Home | IndustryWeek</title></source>
-    <category term="制造"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.industryweek.com/the-economy/emerging-markets/article/55411224/cambodias-push-to-become-a-manufacturing-hub</id>
-    <title>Cambodia's Push to Become a Manufacturing Hub</title>
-    <link rel="alternate" type="text/html" href="https://www.industryweek.com/the-economy/emerging-markets/article/55411224/cambodias-push-to-become-a-manufacturing-hub"/>
-    <updated>2026-10-12T00:00:00Z</updated>
-    <published>2026-10-12T00:00:00Z</published>
-    <summary type="text">Improved infrastructure, clean-energy initiatives and favorable trade policy are attracting production and logistics.</summary>
-    <source><title>Home | IndustryWeek</title></source>
-    <category term="The Economy / Emerging Markets"/>
     <category term="制造"/>
     <category term="运营"/>
   </entry>

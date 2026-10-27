@@ -2,6 +2,31 @@
  "id": "openculture-com",
  "items": [
   {
+   "url": "https://www.openculture.com/2026/10/a-soviet-animation-of-stephen-kings-short-story-battleground.html",
+   "title": "A Soviet Animation of Stephen King’s Short Story “Battleground” (1986)",
+   "summary": "Stephen King has that rare, and spectacularly profitable, skill to suck you into his world and compel you to flip to the next page. And when you’re hooked, his…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [
+    "Animation",
+    "Literature"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.openculture.com/2026/10/harry-houdini-died-100-years-ago-this-halloween.html",
+   "title": "Harry Houdini Died 100 Years Ago This Halloween: Was He Really Killed by a Punch to the Stomach?",
+   "summary": "This Halloween marks the 100th anniversary of the death of famed escape artist Harry Houdini. Today, most of us know more about the manner of that death than we…",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [
+    "History"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.openculture.com/2026/10/an-hour-of-the-jazzy-background-music-from-the-original-1967-spider-man-cartoon.html",
    "title": "Hear an Hour of the Jazzy Background Music from the Original 1967 Spider-Man Cartoon",
    "summary": "Ray Ellis had a six-decade career as a producer, arranger, and jazz composer. And while he’s best known for arranging music for Billie Holiday’s Lady in Satin (…",
@@ -167,31 +192,6 @@
    ],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://www.openculture.com/2026/10/why-cleopatra-lawrence-of-arabia-ben-hur-other-hollywood-classics-still-look-so-good.html",
-   "title": "Why Cleopatra, Lawrence of Arabia, Ben-Hur & Other Hollywood Classics Still Look So Good",
-   "summary": "Cleopatra cost Twentieth Century Fox $44 million, by the studio’s own estimate. That may sound like the budget of one of those genre pictures that winds up goin…",
-   "image": "",
-   "date": "2026-10-14",
-   "tags": [
-    "Film"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.openculture.com/2026/10/soviet-era-illustrations-of-j-r-r-tolkiens-the-hobbit-1976.html",
-   "title": "Soviet-Era Illustrations of J. R. R. Tolkien’s The Hobbit (1976)",
-   "summary": "Until I read J. R. R. Tolkien’s The Lord of the Rings, my favorite book growing up was, by far, The Hobbit. Growing up in Russia, however, meant that instead of…",
-   "image": "",
-   "date": "2026-10-14",
-   "tags": [
-    "Art",
-    "Literature"
-   ],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -208,6 +208,6 @@
  "parser": 2,
  "status": "ok",
  "error": "",
- "etag": "\"e5da05df1c9d18764b2f0cfb7b6533a2\"",
- "modified": "Mon, 26 Oct 2026 08:00:29 GMT"
+ "etag": "\"43c1eebe86c8382ad2436fd65f679a0c\"",
+ "modified": "Tue, 27 Oct 2026 07:50:30 GMT"
 }

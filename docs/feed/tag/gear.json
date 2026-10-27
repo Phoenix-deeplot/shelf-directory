@@ -9,6 +9,214 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/review/valve-steam-frame/",
+      "url": "https://www.wired.com/review/valve-steam-frame/",
+      "title": "Valve Steam Frame Review: Costly and Inconsistent",
+      "content_text": "The Steam Frame’s promise of greatness for stand-alone and streaming VR gaming doesn’t quite connect.",
+      "summary": "The Steam Frame’s promise of greatness for stand-alone and streaming VR gaming doesn’t quite connect.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adbc96a2eadfa02886c7f8c/master/pass/ValveArt.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Reviews",
+        "Product Review",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/some-iphone-duo-models-are-breaking-ifixits-teardown-might-explain-why/",
+      "url": "https://www.wired.com/story/some-iphone-duo-models-are-breaking-ifixits-teardown-might-explain-why/",
+      "title": "Some iPhone Duo Models Are Breaking. iFixit’s Teardown Might Explain Why",
+      "content_text": "Apple confirmed a “small number” of iPhone Duo units have an issue impacting the inner display.",
+      "summary": "Apple confirmed a “small number” of iPhone Duo units have an issue impacting the inner display.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adf134c0a7918a0f61a89fd/master/pass/iPhone%20Duo_94.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Gear News and Events",
+        "Gear / Products / Phones",
+        "Fold Fix",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/review/lykyn-automated-mushroom-grow-box/",
+      "url": "https://www.wired.com/review/lykyn-automated-mushroom-grow-box/",
+      "title": "Lykyn Review: A Mushroom Garden Worth Showing Off",
+      "content_text": "Dramatic lighting and fog make this countertop fruiting chamber a conversation starter. The mushrooms are pretty good too.",
+      "summary": "Dramatic lighting and fog make this countertop fruiting chamber a conversation starter. The mushrooms are pretty good too.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ad8c39e703442e7edd75dbd/master/pass/Review%20Lykyn%20Automated%20Mushroom%20Grow%20Box%20102026%20top%20art%20SOURCE%20Lykyn.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Home",
+        "Gear / Products / Kitchen",
+        "Spore Spectacle",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/review/lg-b6/",
+      "url": "https://www.wired.com/review/lg-b6/",
+      "title": "LG B6 OLED TV Review (2026)",
+      "content_text": "The LG B6 has deep and rich blacks and a low price tag, but midrange performance elsewhere.",
+      "summary": "The LG B6 has deep and rich blacks and a low price tag, but midrange performance elsewhere.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ade13f8303d1f1d72ef4b2b/master/pass/Review%20LG%20B6%20OLED%20TV%20102026%20top%20art%20SOURCE%20Amazon.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Televisions",
+        "Oh-LED",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/review/google-fitbit-edge/",
+      "url": "https://www.wired.com/review/google-fitbit-edge/",
+      "title": "Google Fitbit Edge Review: I Still Prefer the Air (2026)",
+      "content_text": "The Edge is a welcome upgrade for longtime Fitbit users, but the missing NFC technology is a puzzling regression.",
+      "summary": "The Edge is a welcome upgrade for longtime Fitbit users, but the missing NFC technology is a puzzling regression.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adf55bb4342ac0de5548459/master/pass/Google%20Fitbit%20Edge%20Review%20102026%20top%20art%20SOURCE%20Google.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Watches",
+        "Screen Time",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/best-dyson-week-vacuum-deal-oct-2026/",
+      "url": "https://www.wired.com/story/best-dyson-week-vacuum-deal-oct-2026/",
+      "title": "Best Dyson Vacuum Deals for Dyson Week 2026",
+      "content_text": "The powerful Dyson V16 Piston Animal and other Dyson vacuums and tools are discounted until Halloween.",
+      "summary": "The powerful Dyson V16 Piston Animal and other Dyson vacuums and tools are discounted until Halloween.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6a67cdb1173a7fcd3f13de82/master/pass/Review--Dyson-V16-Piston-Animal-Submarine.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products / Home",
+        "Cleanin’ Up",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/apple-airtag-deal-october-2026/",
+      "url": "https://www.wired.com/story/apple-airtag-deal-october-2026/",
+      "title": "Apple AirTags (2nd Gen) Are on Sale for 20% Off Right Now",
+      "content_text": "Track down your suitcase, car keys, and other essentials with this $23 Bluetooth tracker.",
+      "summary": "Track down your suitcase, car keys, and other essentials with this $23 Bluetooth tracker.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adfa712dae5c72239fced97/master/pass/AirTag%20Deal%20102026%20top%20art%20SOURCE%20Amazon.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products / Phones",
+        "WYA?",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/anker-halloween-sale-oct-2026/",
+      "url": "https://www.wired.com/story/anker-halloween-sale-oct-2026/",
+      "title": "Anker’s Halloween Sale Takes 20% Off Our Favorite Chargers and Power Banks",
+      "content_text": "Avoid the scariest thing this Halloween (your phone at 1 percent) with Anker's 20 percent off sale on all charging gear.",
+      "summary": "Avoid the scariest thing this Halloween (your phone at 1 percent) with Anker's 20 percent off sale on all charging gear.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adfb111ce126e8759a8370d/master/pass/Anker%20Halloween%20Sale%20deals%20102026%20top%20art%20SOURCE%20Anker.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products / Home Office",
+        "Watt a Steal",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/we-linked-150-ikea-speakers-to-make-a-wall-of-sound/",
       "url": "https://www.wired.com/story/we-linked-150-ikea-speakers-to-make-a-wall-of-sound/",
       "title": "We Linked 150 of Ikea’s $10 Speakers to Make a Wall of Sound",
@@ -303,7 +511,7 @@
       "content_text": "I’ve tested laptops for more than a decade, and here’s my advice for finding the right laptop for you.",
       "summary": "I’ve tested laptops for more than a decade, and here’s my advice for finding the right laptop for you.",
       "date_published": "2026-10-24T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adb93924c15513ff5ac298b/master/pass/Update%20Best%20Laptops%20102026%20top%20art%20SOURCE%20Best%20Buy-Walmart.jpg",
+      "image": "https://media.wired.com/photos/6adf7d0fc2758511d53056ad/master/pass/Update%20Best%20Laptops%20102026%20top%20art%20SOURCE%20Amazon-Dell.jpg",
       "tags": [
         "Gear",
         "Gear / Products",
@@ -586,32 +794,6 @@
       }
     },
     {
-      "id": "https://www.wired.com/story/dyson-week-deals-oct-2026/",
-      "url": "https://www.wired.com/story/dyson-week-deals-oct-2026/",
-      "title": "Best Dyson Week Deals (2026): Dyson V15 Detect, Dyson Airwrap",
-      "content_text": "Dyson’s sale event is happening now, and you can save up to $300 on vacuums, hair tools, and more.",
-      "summary": "Dyson’s sale event is happening now, and you can save up to $300 on vacuums, hair tools, and more.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada50bf2d0fbd1c13e18ce2/master/pass/Dyson%20Week%20Has%20Some%20of%20Our%20Favorite%20Dyson%20Technology%20on%20Sale%20102026%20top%20art%20SOURCE%20Dyson.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Gear / Products / Home",
-        "Blown Away",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
       "id": "https://www.wired.com/story/8-things-to-know-about-the-apple-iphone-duo/",
       "url": "https://www.wired.com/story/8-things-to-know-about-the-apple-iphone-duo/",
       "title": "8 Things to Know About the iPhone Duo",
@@ -624,216 +806,6 @@
         "Gear / Gear News and Events",
         "Gear / Products / Phones",
         "Handy Tips",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/google-home-speaker-bug-oct-2026/",
-      "url": "https://www.wired.com/story/google-home-speaker-bug-oct-2026/",
-      "title": "The Google Home Speaker Has Been Secretly Eating My Wi-Fi Data",
-      "content_text": "My Google Home Speaker had been burning through more data than all the rest of my devices combined. As I looked into it further, I found other smart home device…",
-      "summary": "My Google Home Speaker had been burning through more data than all the rest of my devices combined. As I looked into it further, I found other smart home device…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada2a91587bb57d09e564bf/master/pass/The%20Google%20Home%20Speaker%20Bug%20Is%20Gobbling%20Up%20Wi-Fi%20102026%20top%20art%20SOURCE%20Google.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Gear News and Events",
-        "Gear / Products / Smart Home",
-        "Data Monster",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/mac-mini-m4-deal-october-2026/",
-      "url": "https://www.wired.com/story/mac-mini-m4-deal-october-2026/",
-      "title": "Save $150 on the Apple Mac Mini M4, but There’s a Catch",
-      "content_text": "Apple’s Mac Mini M4 is one of the best mini computers you can buy, and it’s $150 off. While it’s a good deal on a new, older-generation model, it’s more expensi…",
-      "summary": "Apple’s Mac Mini M4 is one of the best mini computers you can buy, and it’s $150 off. While it’s a good deal on a new, older-generation model, it’s more expensi…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada289019e924cf32885a66/master/pass/M4%20Mac%20Mini%20Deal%20102026%20top%20art%20SOURCE%20Best%20Buy.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Gear / Products / Computers",
-        "Compute For Less",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/meet-mori-a-cute-robot-mushroom-that-doesnt-really-say-or-do-anything/",
-      "url": "https://www.wired.com/story/meet-mori-a-cute-robot-mushroom-that-doesnt-really-say-or-do-anything/",
-      "title": "Meet Mori, a Cute Robot Mushroom That Doesn’t Really Say (or Do) Anything",
-      "content_text": "Step one in convincing people to live with robots with cameras on their faces? Disguise them as cute home decor.",
-      "summary": "Step one in convincing people to live with robots with cameras on their faces? Disguise them as cute home decor.",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad73249e71bc9cefa5d514d/master/pass/OKA_MORI_Companion_EveningWorkAtLaptop.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Gear News and Events",
-        "Quiet Gaze",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/i-worked-for-a-whole-day-using-only-the-iphone-duo-heres-how-it-went/",
-      "url": "https://www.wired.com/story/i-worked-for-a-whole-day-using-only-the-iphone-duo-heres-how-it-went/",
-      "title": "I Worked for a Whole Day Using Only the iPhone Duo. Here’s How It Went",
-      "content_text": "A portable keyboard and kickstand make it a viable emergency workstation—even if iOS still gets in the way.",
-      "summary": "A portable keyboard and kickstand make it a viable emergency workstation—even if iOS still gets in the way.",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad935fd8dbac9acb33aa1cc/master/pass/DSC_9943.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Gear News and Events",
-        "Gear / Products / Computers",
-        "Gear / Products / Phones",
-        "Field Test",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/greenlight-hub-voice-assistant-feature/",
-      "url": "https://www.wired.com/story/greenlight-hub-voice-assistant-feature/",
-      "title": "Greenlight Family Hub (2026): Finally, a Digital Wall Calendar With a Voice Assistant",
-      "content_text": "After testing multiple models, I’m convinced voice control belongs on the family calendar. Greenlight’s Family Hub shows why.",
-      "summary": "After testing multiple models, I’m convinced voice control belongs on the family calendar. Greenlight’s Family Hub shows why.",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad907aa141b637f559fb800/master/pass/Greenlight%20Family%20Hub%20102026%20top%20art%20SOURCE%20Greenlight.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Reviews",
-        "Gear / Products / Home",
-        "Gear / Products / Smart Home",
-        "Speak Easy",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/fellow-aiden-precision-coffee-maker-deal-october-2026/",
-      "url": "https://www.wired.com/story/fellow-aiden-precision-coffee-maker-deal-october-2026/",
-      "title": "Fellow Aiden Precision Coffee Maker is $100 Off",
-      "content_text": "The Fellow Aiden Precision Coffee Maker is a smart, high-end machine that offers pour-over quality. You can get it refurbished from the brand for 25 percent off…",
-      "summary": "The Fellow Aiden Precision Coffee Maker is a smart, high-end machine that offers pour-over quality. You can get it refurbished from the brand for 25 percent off…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada246c62f24429e365a94f/master/pass/Fellow%20Aiden%20Coffee%20Maker%20Deals%20Post%20102026%20top%20art%20SOURCE%20Shop.com.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Gear / Products / Kitchen",
-        "Lord of the Beans",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/microsoft-surface-buying-guide/",
-      "url": "https://www.wired.com/story/microsoft-surface-buying-guide/",
-      "title": "Best Microsoft Surface Laptop (2026): Which Models to Buy and Avoid",
-      "content_text": "With pricing in flux and new models available, here’s which Surface Laptop and Surface Pro to buy.",
-      "summary": "With pricing in flux and new models available, here’s which Surface Laptop and Surface Pro to buy.",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad8bdd4ba3e5597384c8379/master/pass/update%20best%20surface%20102026%20top%20art%20SOURCE%20Amazon.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Buying Guides",
-        "Gear / Products / Computers",
-        "Buying Guide",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/anker-soundcore-space-2-deal-october-2026/",
-      "url": "https://www.wired.com/story/anker-soundcore-space-2-deal-october-2026/",
-      "title": "Anker Soundcore Space 2 Are at Their Lowest Price Ever",
-      "content_text": "The Anker Soundcore Space 2 are a good deal even at full price. The fact they’re 18 percent off is just icing on the cake.",
-      "summary": "The Anker Soundcore Space 2 are a good deal even at full price. The fact they’re 18 percent off is just icing on the cake.",
-      "date_published": "2026-10-22T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada4bc4d53570f6403f714a/master/pass/Soundcore%20by%20Anker%20Space%202%20deal%20102026%20top%20art%20SOURCE%20Amazon.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Gear / Products / Headphones",
-        "Gear / Products / Audio",
-        "A Sound Discount",
         "科技",
         "社会"
       ],

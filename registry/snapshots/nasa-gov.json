@@ -2,6 +2,18 @@
  "id": "nasa-gov",
  "items": [
   {
+   "url": "https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/",
+   "title": "How a Johnson Mentor Shapes the Next Generation of NASA Talent",
+   "summary": "When Rice University student Malvika Bhardwaj asked her mentor Daniel Cohen, a Guidance, Navigation & Control (GN&C) engineer at NASA’s Johnson Space Center, wh…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [
+    "General"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/",
    "title": "APOD: 2026 October 27 – Noctilucent Clouds over Sweden",
    "summary": "APOD Science APOD APOD: 2026 October 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…",
@@ -115,19 +127,6 @@
    "tags": [],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://www.nasa.gov/news-release/nasa-usda-sign-agreement-advancing-earth-science-agriculture/",
-   "title": "NASA, USDA Sign Agreement Advancing Earth Science, Agriculture",
-   "summary": "NASA and the U.S. Department of Agriculture (USDA) have signed a Memorandum of Understanding expanding cooperation in Earth observation, geospatial analytics, a…",
-   "image": "",
-   "date": "2026-10-26",
-   "tags": [
-    "Earth Science Division",
-    "Science Mission Directorate"
-   ],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -144,6 +143,6 @@
  "parser": 2,
  "status": "ok",
  "error": "",
- "etag": "\"da38ab561ab4e8a17c3a4f195ad17ae6\"",
- "modified": "Tue, 27 Oct 2026 04:05:00 GMT"
+ "etag": "\"680d71c7131f401d732a03d2eb809017\"",
+ "modified": "Tue, 27 Oct 2026 07:07:51 GMT"
 }

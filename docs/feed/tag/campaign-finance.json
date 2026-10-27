@@ -1,0 +1,40 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Campaign Finance",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/campaign-finance.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://slate.com/news-and-politics/2026/10/supreme-court-news-justice-elena-kagan-speech-2026-midterms.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/supreme-court-news-justice-elena-kagan-speech-2026-midterms.html?via=rss",
+      "title": "One Justice Made a Startling Admission About the Supreme Court",
+      "content_text": "This past week, Justice Elena Kagan gave a speech at Catholic University law school in D.C.",
+      "summary": "This past week, Justice Elena Kagan gave a speech at Catholic University law school in D.C.",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://compote.slate.com/images/1346685d-ff5f-40cd-8a78-c42040a78b0a.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Gerrymandering",
+        "Jurisprudence",
+        "Supreme Court",
+        "Voting",
+        "Campaign Finance",
+        "Elena Kagan",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    }
+  ]
+}

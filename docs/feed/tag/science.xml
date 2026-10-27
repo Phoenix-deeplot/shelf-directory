@@ -4,8 +4,25 @@
   <title>公共目录 · #Science</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/science.xml"/>
-  <updated>2026-10-25T00:00:00Z</updated>
+  <updated>2026-10-26T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-billy-evans-theranos.html?via=rss</id>
+    <title>Elizabeth Holmes Is a Fraudster. It’s Astonishing What &lt;em&gt;You Can See Everything &lt;/em&gt;Makes of Her.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-billy-evans-theranos.html?via=rss"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Elizabeth Holmes is now, by some, considered a victim, even if it’s not what Nathan Fielder intended.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Crime"/>
+    <category term="Feminism"/>
+    <category term="Fraud"/>
+    <category term="Medicine"/>
+    <category term="Movies"/>
+    <category term="Science"/>
+    <category term="Silicon Valley"/>
+    <category term="Documentaries"/>
+  </entry>
   <entry>
     <id>https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/</id>
     <title>What the US Movement Against Data Centers Can Learn From Abroad</title>
@@ -50,18 +67,6 @@
     <category term="社会"/>
   </entry>
   <entry>
-    <id>https://www.reddit.com/r/science/comments/1xf1bbn/magic_mushroom_compound_psilocybin_grows_new/</id>
-    <title>Magic mushroom compound psilocybin grows new brain connections within 24 hours and repairs circuits damaged by chronic stress in mice. Scien…</title>
-    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/science/comments/1xf1bbn/magic_mushroom_compound_psilocybin_grows_new/"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">submitted by /u/mvea to r/science [link] [comments]</summary>
-    <source><title>top scoring links : popular</title></source>
-    <category term="science"/>
-    <category term="社区"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
     <id>https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/</id>
     <title>New mRNA Vaccine Reduces Risk of Melanoma Recurrence by Over 40 Percent</title>
     <link rel="alternate" type="text/html" href="https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/"/>
@@ -86,63 +91,6 @@
     <category term="Science"/>
     <category term="Science / Space"/>
     <category term="Nerd Fight"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/the-exotic-physics-behind-a-mysterious-1000-mile-cloud-on-mars/</id>
-    <title>The ‘Exotic Physics’ Behind a Mysterious 1,000-Mile Cloud on Mars</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-exotic-physics-behind-a-mysterious-1000-mile-cloud-on-mars/"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">The cloud has baffled astronomers since its discovery in 2018. Now, a new study offers a possible cause for its appearance.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Space"/>
-    <category term="Far Out"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/what-to-about-shamonda-virus-following-the-first-reported-human-infection/</id>
-    <title>What to Know About Shamonda Virus Following the First Reported Human Infection</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/what-to-about-shamonda-virus-following-the-first-reported-human-infection/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Although the case is considered exceptional, investigators are working to determine how the infection occurred and whether the pathogen played a role in the pat…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Health"/>
-    <category term="Don’t Panic"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/</id>
-    <title>Hugging Face’s New AI Biology Model Lets You Chat With DNA</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Health"/>
-    <category term="Business"/>
-    <category term="ChatDNA"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/ice-age-beginning-then-humans-started-burning-fossil-fuels/</id>
-    <title>A New Ice Age Was Beginning. Then Humans Started Burning Fossil Fuels</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/ice-age-beginning-then-humans-started-burning-fossil-fuels/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Ancient plants reveal that the vestiges of the North American ice sheet started expanding a few thousand years ago, but that climate change caused it to reverse…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Environment"/>
-    <category term="Ice, Ice Maybe"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>

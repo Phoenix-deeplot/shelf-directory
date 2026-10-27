@@ -4,8 +4,267 @@
   <title>公共目录 · WIRED</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/wired-com.xml"/>
-  <updated>2026-10-25T00:00:00Z</updated>
+  <updated>2026-10-26T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/</id>
+    <title>Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Anthropic’s S-1 filing is hundreds of pages long—and it leaves out quite a few financial details. “Anthropic owes investors more information,” one analyst tells…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="What’s Your Number?"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/ghost-stories/</id>
+    <title>WIRED Ghost Stories</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/ghost-stories/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Five hauntings from the other side of technology.</summary>
+    <source><title>WIRED</title></source>
+    <category term="The Big Story"/>
+    <category term="Spectral Edition"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/review/valve-steam-frame/</id>
+    <title>Valve Steam Frame Review: Costly and Inconsistent</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/review/valve-steam-frame/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">The Steam Frame’s promise of greatness for stand-alone and streaming VR gaming doesn’t quite connect.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Reviews"/>
+    <category term="Product Review"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/</id>
+    <title>This AI Radio Host Speaks Spanish and Backs Immigrants. It’s Winning Over Listeners</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Coyotec is bilingual, swears, and tells listeners how to defend themselves against ICE. Its popularity comes as more broadcasters are experimenting with artific…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Culture"/>
+    <category term="Culture / Digital Culture"/>
+    <category term="Making Waves"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/</id>
+    <title>The US Government Is Hiding a Secret Court Ruling About How It Spies on Americans</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Two US senators say the Trump administration is breaking the law by withholding the FISA court decision while it presses Congress to renew America’s most sweepi…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Security"/>
+    <category term="Security / Privacy"/>
+    <category term="Need to Know"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/the-tragedy-of-losing-your-wikipedia-page/</id>
+    <title>The Tragedy of Having a Wikipedia Page—and Then Losing It</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-tragedy-of-losing-your-wikipedia-page/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Every day, Wikipedia biographies of living people are flagged for deletion because the subjects are not “notable” enough. How do these poor souls take the news?</summary>
+    <source><title>WIRED</title></source>
+    <category term="The Big Story"/>
+    <category term="Culture"/>
+    <category term="Culture / Digital Culture"/>
+    <category term="Ghosted"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/the-hottest-new-side-hustle-is-stripping-copper-wire-and-posting-about-it/</id>
+    <title>The Hottest New Side Hustle Is Stripping Copper Wire and Posting About It</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-hottest-new-side-hustle-is-stripping-copper-wire-and-posting-about-it/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Copper prices are at record highs, but for TikTok creators, the real money may be in teaching others how to strip wire—and selling them the tools to do it.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Business / Social Media"/>
+    <category term="Culture"/>
+    <category term="Culture / Digital Culture"/>
+    <category term="Copping Copper"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/</id>
+    <title>The Anthropic S-1 Filing Is Also an AI Doomsday Primer</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Anthropic thinks “closing the loop” is the best path to AI triumph—and a recipe for “existential” threats to humanity.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Danger Zone"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/some-iphone-duo-models-are-breaking-ifixits-teardown-might-explain-why/</id>
+    <title>Some iPhone Duo Models Are Breaking. iFixit’s Teardown Might Explain Why</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/some-iphone-duo-models-are-breaking-ifixits-teardown-might-explain-why/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Apple confirmed a “small number” of iPhone Duo units have an issue impacting the inner display.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Gear News and Events"/>
+    <category term="Gear / Products / Phones"/>
+    <category term="Fold Fix"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/</id>
+    <title>Meet the AI Agents Trying to Be Real-Life Journalists</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Jayden, Sam, and Zack are eagerly pitching editors on reported stories and investigative features. The catch? They're all AI agents.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Bot Correspondents"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/review/lykyn-automated-mushroom-grow-box/</id>
+    <title>Lykyn Review: A Mushroom Garden Worth Showing Off</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/review/lykyn-automated-mushroom-grow-box/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Dramatic lighting and fog make this countertop fruiting chamber a conversation starter. The mushrooms are pretty good too.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Reviews"/>
+    <category term="Gear / Products / Home"/>
+    <category term="Gear / Products / Kitchen"/>
+    <category term="Spore Spectacle"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/review/lg-b6/</id>
+    <title>LG B6 OLED TV Review (2026)</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/review/lg-b6/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">The LG B6 has deep and rich blacks and a low price tag, but midrange performance elsewhere.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Reviews"/>
+    <category term="Gear / Products / Televisions"/>
+    <category term="Oh-LED"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/grok-says-its-ai-generated-version-of-the-odyssey-is-not-historically-accurate/</id>
+    <title>Grok Says Its AI-Generated Version of ‘The Odyssey’ Is ‘Not Historically Accurate’</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/grok-says-its-ai-generated-version-of-the-odyssey-is-not-historically-accurate/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Months after Elon Musk declared that the xAI model would outclass Christopher Nolan’s mythological epic, the bot itself admitted defeat.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Culture"/>
+    <category term="Culture / Digital Culture"/>
+    <category term="Culture / Movies"/>
+    <category term="Epic Fail"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/review/google-fitbit-edge/</id>
+    <title>Google Fitbit Edge Review: I Still Prefer the Air (2026)</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/review/google-fitbit-edge/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">The Edge is a welcome upgrade for longtime Fitbit users, but the missing NFC technology is a puzzling regression.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Reviews"/>
+    <category term="Gear / Products / Watches"/>
+    <category term="Screen Time"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/best-dyson-week-vacuum-deal-oct-2026/</id>
+    <title>Best Dyson Vacuum Deals for Dyson Week 2026</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/best-dyson-week-vacuum-deal-oct-2026/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">The powerful Dyson V16 Piston Animal and other Dyson vacuums and tools are discounted until Halloween.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Gear / Products / Home"/>
+    <category term="Cleanin’ Up"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/apple-airtag-deal-october-2026/</id>
+    <title>Apple AirTags (2nd Gen) Are on Sale for 20% Off Right Now</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/apple-airtag-deal-october-2026/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Track down your suitcase, car keys, and other essentials with this $23 Bluetooth tracker.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Gear / Products / Phones"/>
+    <category term="WYA?"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/</id>
+    <title>Anthropic’s IPO Prospectus Reveals What’s Under the Hood</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Anthropic on Monday filed documents ahead of a blockbuster IPO that offers insight into the company’s financials, risk factors, and views on the future of AI.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="We’re Getting Antsy"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/anker-halloween-sale-oct-2026/</id>
+    <title>Anker’s Halloween Sale Takes 20% Off Our Favorite Chargers and Power Banks</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/anker-halloween-sale-oct-2026/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Avoid the scariest thing this Halloween (your phone at 1 percent) with Anker's 20 percent off sale on all charging gear.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Gear / Products / Home Office"/>
+    <category term="Watt a Steal"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
   <entry>
     <id>https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/</id>
     <title>What the US Movement Against Data Centers Can Learn From Abroad</title>
@@ -351,20 +610,6 @@
     <category term="社会"/>
   </entry>
   <entry>
-    <id>https://www.wired.com/story/the-exotic-physics-behind-a-mysterious-1000-mile-cloud-on-mars/</id>
-    <title>The ‘Exotic Physics’ Behind a Mysterious 1,000-Mile Cloud on Mars</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-exotic-physics-behind-a-mysterious-1000-mile-cloud-on-mars/"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">The cloud has baffled astronomers since its discovery in 2018. Now, a new study offers a possible cause for its appearance.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Space"/>
-    <category term="Far Out"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
     <id>https://www.wired.com/review/tdm-neo-hybrid-headphones/</id>
     <title>TDM Neo Hybrid Headphones Review: Two-in-One Woes</title>
     <link rel="alternate" type="text/html" href="https://www.wired.com/review/tdm-neo-hybrid-headphones/"/>
@@ -467,21 +712,6 @@
     <category term="社会"/>
   </entry>
   <entry>
-    <id>https://www.wired.com/story/dyson-week-deals-oct-2026/</id>
-    <title>Best Dyson Week Deals (2026): Dyson V15 Detect, Dyson Airwrap</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/dyson-week-deals-oct-2026/"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">Dyson’s sale event is happening now, and you can save up to $300 on vacuums, hair tools, and more.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Gear / Products / Home"/>
-    <category term="Blown Away"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
     <id>https://www.wired.com/story/a-dating-app-is-offering-chivalry-mode-and-marriage-timeline-to-get-gen-z-married/</id>
     <title>A Dating App Is Offering ‘Chivalry Mode’ and ‘Marriage Timeline’ to Get Gen Z Married</title>
     <link rel="alternate" type="text/html" href="https://www.wired.com/story/a-dating-app-is-offering-chivalry-mode-and-marriage-timeline-to-get-gen-z-married/"/>
@@ -507,242 +737,6 @@
     <category term="Gear / Gear News and Events"/>
     <category term="Gear / Products / Phones"/>
     <category term="Handy Tips"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/what-to-about-shamonda-virus-following-the-first-reported-human-infection/</id>
-    <title>What to Know About Shamonda Virus Following the First Reported Human Infection</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/what-to-about-shamonda-virus-following-the-first-reported-human-infection/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Although the case is considered exceptional, investigators are working to determine how the infection occurred and whether the pathogen played a role in the pat…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Health"/>
-    <category term="Don’t Panic"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/they-believe-2020-was-stolen-they-could-be-in-charge-of-elections-in-2028/</id>
-    <title>They Believe 2020 Was Stolen. They Could Be in Charge of Elections in 2028</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/they-believe-2020-was-stolen-they-could-be-in-charge-of-elections-in-2028/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">A host of election-denying candidates are running for attorney general in states across the country.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Politics"/>
-    <category term="Politics / Disinformation"/>
-    <category term="Midterms 2026"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/aged-intelligence-society-interview/</id>
-    <title>The Social Society Helping Women Join the AI Boom</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/aged-intelligence-society-interview/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">WIRED spoke with the founders of the Aged Intelligence Society, a fast-growing events startup that brings women together to “solve midlife problems using fronti…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Business"/>
-    <category term="Model Behavior"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/google-home-speaker-bug-oct-2026/</id>
-    <title>The Google Home Speaker Has Been Secretly Eating My Wi-Fi Data</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/google-home-speaker-bug-oct-2026/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">My Google Home Speaker had been burning through more data than all the rest of my devices combined. As I looked into it further, I found other smart home device…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Gear News and Events"/>
-    <category term="Gear / Products / Smart Home"/>
-    <category term="Data Monster"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/mac-mini-m4-deal-october-2026/</id>
-    <title>Save $150 on the Apple Mac Mini M4, but There’s a Catch</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/mac-mini-m4-deal-october-2026/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Apple’s Mac Mini M4 is one of the best mini computers you can buy, and it’s $150 off. While it’s a good deal on a new, older-generation model, it’s more expensi…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Gear / Products / Computers"/>
-    <category term="Compute For Less"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/cool-cool-cool-palmer-luckey-made-a-genetically-modified-military-dog-startup/</id>
-    <title>Palmer Luckey and Ben Lamm Made a Genetically Modified Military Dog Startup</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/cool-cool-cool-palmer-luckey-made-a-genetically-modified-military-dog-startup/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Warhound came out of stealth on Wednesday with $200 million in funding and a mission to create “elite working dogs” equipped with "advanced body armor."</summary>
-    <source><title>WIRED</title></source>
-    <category term="Business"/>
-    <category term="Business / Startups"/>
-    <category term="Woof"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/metas-ad-sales-suffering-now-europeans-can-pick-less-personalization/</id>
-    <title>Meta’s Ad Sales Are Suffering Now That Europeans Can Pick Less Personalization</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/metas-ad-sales-suffering-now-europeans-can-pick-less-personalization/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">An earnings briefing on Wednesday revealed ad revenue has slowed since the European Union introduced the Less-Personalized Ads model at the beginning of this ye…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Business"/>
-    <category term="Business / Big Tech"/>
-    <category term="Slow Burn"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/meet-mori-a-cute-robot-mushroom-that-doesnt-really-say-or-do-anything/</id>
-    <title>Meet Mori, a Cute Robot Mushroom That Doesn’t Really Say (or Do) Anything</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/meet-mori-a-cute-robot-mushroom-that-doesnt-really-say-or-do-anything/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Step one in convincing people to live with robots with cameras on their faces? Disguise them as cute home decor.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Gear News and Events"/>
-    <category term="Quiet Gaze"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/uncanny-valley-podcast-inside-the-secret-nathan-fielder-interview/</id>
-    <title>Inside the Exclusive Nathan Fielder Interview</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/uncanny-valley-podcast-inside-the-secret-nathan-fielder-interview/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">This week on “Uncanny Valley,” we go behind the scenes of our Nathan Fielder cover story, unpack tech billionaires’ generous promises, and discuss the suspiciou…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Business"/>
-    <category term="Business / Big Tech"/>
-    <category term="Business / Tech Culture"/>
-    <category term="Science / Biotech"/>
-    <category term="Uncanny Valley"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/i-worked-for-a-whole-day-using-only-the-iphone-duo-heres-how-it-went/</id>
-    <title>I Worked for a Whole Day Using Only the iPhone Duo. Here’s How It Went</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/i-worked-for-a-whole-day-using-only-the-iphone-duo-heres-how-it-went/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">A portable keyboard and kickstand make it a viable emergency workstation—even if iOS still gets in the way.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Gear News and Events"/>
-    <category term="Gear / Products / Computers"/>
-    <category term="Gear / Products / Phones"/>
-    <category term="Field Test"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/</id>
-    <title>Hugging Face’s New AI Biology Model Lets You Chat With DNA</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Health"/>
-    <category term="Business"/>
-    <category term="ChatDNA"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/greenlight-hub-voice-assistant-feature/</id>
-    <title>Greenlight Family Hub (2026): Finally, a Digital Wall Calendar With a Voice Assistant</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/greenlight-hub-voice-assistant-feature/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">After testing multiple models, I’m convinced voice control belongs on the family calendar. Greenlight’s Family Hub shows why.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Reviews"/>
-    <category term="Gear / Products / Home"/>
-    <category term="Gear / Products / Smart Home"/>
-    <category term="Speak Easy"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/fellow-aiden-precision-coffee-maker-deal-october-2026/</id>
-    <title>Fellow Aiden Precision Coffee Maker is $100 Off</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/fellow-aiden-precision-coffee-maker-deal-october-2026/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">The Fellow Aiden Precision Coffee Maker is a smart, high-end machine that offers pour-over quality. You can get it refurbished from the brand for 25 percent off…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Gear / Products / Kitchen"/>
-    <category term="Lord of the Beans"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/microsoft-surface-buying-guide/</id>
-    <title>Best Microsoft Surface Laptop (2026): Which Models to Buy and Avoid</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/microsoft-surface-buying-guide/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">With pricing in flux and new models available, here’s which Surface Laptop and Surface Pro to buy.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Buying Guides"/>
-    <category term="Gear / Products / Computers"/>
-    <category term="Buying Guide"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/anker-soundcore-space-2-deal-october-2026/</id>
-    <title>Anker Soundcore Space 2 Are at Their Lowest Price Ever</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/anker-soundcore-space-2-deal-october-2026/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">The Anker Soundcore Space 2 are a good deal even at full price. The fact they’re 18 percent off is just icing on the cake.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Gear / Products / Headphones"/>
-    <category term="Gear / Products / Audio"/>
-    <category term="A Sound Discount"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/ice-age-beginning-then-humans-started-burning-fossil-fuels/</id>
-    <title>A New Ice Age Was Beginning. Then Humans Started Burning Fossil Fuels</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/ice-age-beginning-then-humans-started-burning-fossil-fuels/"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Ancient plants reveal that the vestiges of the North American ice sheet started expanding a few thousand years ago, but that climate change caused it to reverse…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Environment"/>
-    <category term="Ice, Ice Maybe"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>

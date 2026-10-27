@@ -1,0 +1,58 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #nextfuckinglevel",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/nextfuckinglevel.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.reddit.com/r/nextfuckinglevel/comments/1xg8vle/second_woman_to_ever_lift_the_dinnie_stones_side/",
+      "url": "https://www.reddit.com/r/nextfuckinglevel/comments/1xg8vle/second_woman_to_ever_lift_the_dinnie_stones_side/",
+      "title": "Second woman to ever lift the dinnie stones side by side - Angelica Jardine.",
+      "content_text": "@angelica.jardine submitted by /u/nigablackballsack to r/nextfuckinglevel [link] [comments]",
+      "summary": "@angelica.jardine submitted by /u/nigablackballsack to r/nextfuckinglevel [link] [comments]",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://external-preview.redd.it/ejF1cTIwYWFrdnhoMW911w7dOOzvSDJ63X4UCcnc7jG6BBgEHbGtbhrp40eW.png?width=320&crop=smart&auto=webp&s=7fb40347495e9b7c8f903f08b9fada38b4fac947",
+      "tags": [
+        "nextfuckinglevel",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/nextfuckinglevel/comments/1xfz3vy/delivering_an_perfect_worm/",
+      "url": "https://www.reddit.com/r/nextfuckinglevel/comments/1xfz3vy/delivering_an_perfect_worm/",
+      "title": "Delivering an perfect worm",
+      "content_text": "submitted by /u/madasss2170 to r/nextfuckinglevel [link] [comments]",
+      "summary": "submitted by /u/madasss2170 to r/nextfuckinglevel [link] [comments]",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://external-preview.redd.it/dXhxd2EzdWpzdHhoMfTXIkmtIM37IBdcn_FTSX-eJY6Dw1_mjX3HWoQ1ps3P.jpeg?width=640&crop=smart&auto=webp&s=fe36af9dccda14798a7c370f7fa74a3011ed053f",
+      "tags": [
+        "nextfuckinglevel",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    }
+  ]
+}

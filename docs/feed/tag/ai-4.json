@@ -1,6 +1,6 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #AI工具",
+  "title": "公共目录 · #AI工厂",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/ai-4.json",
   "description": "公共目录",
@@ -9,21 +9,21 @@
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/ai/6483433.html",
-      "url": "https://www.woshipm.com/ai/6483433.html",
-      "title": "用 AI 做自媒体，完整流程应该怎么做？附技能包",
-      "content_text": "上一套开源的自媒体 skill 流程，这里给到完整操作路径：装技能、做账号定位、拆对标、出选题、写稿、诊断成稿。不用会编程，Codex、豆包工作之类的工具装上就能跑，文末是技能包地址。 上一篇不是开源了一套 skill 吗，现在用了一段时间，基本没什么问题了。 整套流程，不用你会编程，只要下载一个装技能的 AI 工具就…",
-      "summary": "上一套开源的自媒体 skill 流程，这里给到完整操作路径：装技能、做账号定位、拆对标、出选题、写稿、诊断成稿。不用会编程，Codex、豆包工作之类的工具装上就能跑，文末是技能包地址。 上一篇不是开源了一套 skill 吗，现在用了一段时间，基本没什么问题了。 整套流程，不用你会编程，只要下载一个装技能的 AI 工具就…",
-      "date_published": "2026-10-26T00:00:00Z",
+      "id": "https://www.woshipm.com/zhichang/6484792.html",
+      "url": "https://www.woshipm.com/zhichang/6484792.html",
+      "title": "黄仁勋的“AI 工厂”，对产品设计意味着什么？",
+      "content_text": "黄仁勋在 GTC Berlin 2026 提出 AI 工厂：把能源、芯片、计算系统、网络、存储、冷却组织进同一套生产体系，持续制造可被 AI 应用消费的 Token，正卡在“五层蛋糕”的第三层。 最近，黄仁勋在 GTC Berlin 2026 提出了一个新概念：AI 工厂，这不只是一次技术概念升级，也是在重新定义 AI…",
+      "summary": "黄仁勋在 GTC Berlin 2026 提出 AI 工厂：把能源、芯片、计算系统、网络、存储、冷却组织进同一套生产体系，持续制造可被 AI 应用消费的 Token，正卡在“五层蛋糕”的第三层。 最近，黄仁勋在 GTC Berlin 2026 提出了一个新概念：AI 工厂，这不只是一次技术概念升级，也是在重新定义 AI…",
+      "date_published": "2026-10-27T00:00:00Z",
       "tags": [
-        "AI",
-        "个人随笔",
-        "AI工具",
-        "AI应用",
-        "内容创作",
-        "自媒体",
+        "职场攻略",
+        "AI工厂",
+        "数据中心",
+        "英伟达",
+        "设计思维",
         "产品",
-        "运营"
+        "运营",
+        "商业"
       ],
       "authors": [
         {

@@ -4,8 +4,21 @@
   <title>公共目录 · #免费资源</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-eafbc0.xml"/>
-  <updated>2026-10-26T00:00:00Z</updated>
+  <updated>2026-10-27T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.openculture.com/2026/10/a-soviet-animation-of-stephen-kings-short-story-battleground.html</id>
+    <title>A Soviet Animation of Stephen King’s Short Story “Battleground” (1986)</title>
+    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/a-soviet-animation-of-stephen-kings-short-story-battleground.html"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Stephen King has that rare, and spectacularly profitable, skill to suck you into his world and compel you to flip to the next page. And when you’re hooked, his…</summary>
+    <source><title>Open Culture</title></source>
+    <category term="Animation"/>
+    <category term="Literature"/>
+    <category term="文化"/>
+    <category term="免费资源"/>
+  </entry>
   <entry>
     <id>https://www.openculture.com/2026/10/an-hour-of-the-jazzy-background-music-from-the-original-1967-spider-man-cartoon.html</id>
     <title>Hear an Hour of the Jazzy Background Music from the Original 1967 Spider-Man Cartoon</title>
@@ -16,6 +29,18 @@
     <source><title>Open Culture</title></source>
     <category term="Comics/Cartoons"/>
     <category term="Music"/>
+    <category term="文化"/>
+    <category term="免费资源"/>
+  </entry>
+  <entry>
+    <id>https://www.openculture.com/2026/10/harry-houdini-died-100-years-ago-this-halloween.html</id>
+    <title>Harry Houdini Died 100 Years Ago This Halloween: Was He Really Killed by a Punch to the Stomach?</title>
+    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/harry-houdini-died-100-years-ago-this-halloween.html"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">This Halloween marks the 100th anniversary of the death of famed escape artist Harry Houdini. Today, most of us know more about the manner of that death than we…</summary>
+    <source><title>Open Culture</title></source>
+    <category term="History"/>
     <category term="文化"/>
     <category term="免费资源"/>
   </entry>
@@ -170,31 +195,6 @@
     <summary type="text">Some would call the United States of America the mightiest empire the world has ever known. Yet over the past half-century or so, it has shown a strange inabili…</summary>
     <source><title>Open Culture</title></source>
     <category term="History"/>
-    <category term="文化"/>
-    <category term="免费资源"/>
-  </entry>
-  <entry>
-    <id>https://www.openculture.com/2026/10/why-cleopatra-lawrence-of-arabia-ben-hur-other-hollywood-classics-still-look-so-good.html</id>
-    <title>Why Cleopatra, Lawrence of Arabia, Ben-Hur &amp; Other Hollywood Classics Still Look So Good</title>
-    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/why-cleopatra-lawrence-of-arabia-ben-hur-other-hollywood-classics-still-look-so-good.html"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <published>2026-10-14T00:00:00Z</published>
-    <summary type="text">Cleopatra cost Twentieth Century Fox $44 million, by the studio’s own estimate. That may sound like the budget of one of those genre pictures that winds up goin…</summary>
-    <source><title>Open Culture</title></source>
-    <category term="Film"/>
-    <category term="文化"/>
-    <category term="免费资源"/>
-  </entry>
-  <entry>
-    <id>https://www.openculture.com/2026/10/soviet-era-illustrations-of-j-r-r-tolkiens-the-hobbit-1976.html</id>
-    <title>Soviet-Era Illustrations of J. R. R. Tolkien’s The Hobbit (1976)</title>
-    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/soviet-era-illustrations-of-j-r-r-tolkiens-the-hobbit-1976.html"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <published>2026-10-14T00:00:00Z</published>
-    <summary type="text">Until I read J. R. R. Tolkien’s The Lord of the Rings, my favorite book growing up was, by far, The Hobbit. Growing up in Russia, however, meant that instead of…</summary>
-    <source><title>Open Culture</title></source>
-    <category term="Art"/>
-    <category term="Literature"/>
     <category term="文化"/>
     <category term="免费资源"/>
   </entry>

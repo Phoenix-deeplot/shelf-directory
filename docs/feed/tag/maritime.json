@@ -9,6 +9,87 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/shipbuilding-central-to-new-us-denmark-maritime-pact",
+      "url": "https://www.freightwaves.com/news/shipbuilding-central-to-new-us-denmark-maritime-pact",
+      "title": "Shipbuilding central to new US-Denmark maritime pact",
+      "content_text": "The United States and Denmark signed a maritime agreement to bolster American shipbuilding through workforce training, Danish investment and technology sharing.…",
+      "summary": "The United States and Denmark signed a maritime agreement to bolster American shipbuilding through workforce training, Danish investment and technology sharing.…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Business",
+        "Infrastructure",
+        "Maritime",
+        "News",
+        "Top Stories",
+        "container shipping",
+        "Denmark"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/new-conundrum-asia-us-europe-ocean-rates-diverge",
+      "url": "https://www.freightwaves.com/news/new-conundrum-asia-us-europe-ocean-rates-diverge",
+      "title": "New ‘conundrum’: Asia-US, Europe ocean rates diverge",
+      "content_text": "Container rates on the busiest U.S. trade lanes are signaling a peak while a return to the Red Sea has yet to weaken Europe rates. The post New ‘conundrum’: Asi…",
+      "summary": "Container rates on the busiest U.S. trade lanes are signaling a peak while a return to the Red Sea has yet to weaken Europe rates. The post New ‘conundrum’: Asi…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Container Shipping",
+        "Maritime",
+        "News",
+        "Top Stories",
+        "ocean rates",
+        "Red Sea",
+        "trans-Pacific"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/canada-port-reaches-new-longshore-union-labor-deal",
+      "url": "https://www.freightwaves.com/news/canada-port-reaches-new-longshore-union-labor-deal",
+      "title": "Canada port reaches new longshore union labor deal",
+      "content_text": "A tentative contract agreement at Halifax settles potential labor unrest, for now. The post Canada port reaches new longshore union labor deal appeared first on…",
+      "summary": "A tentative contract agreement at Halifax settles potential labor unrest, for now. The post Canada port reaches new longshore union labor deal appeared first on…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Container Shipping",
+        "Maritime",
+        "News",
+        "Top Stories",
+        "Canada",
+        "DP World",
+        "Labor Contract"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/russian-diesel-tanker-heads-for-u-s-following-trump-putin-deal",
       "url": "https://www.freightwaves.com/news/russian-diesel-tanker-heads-for-u-s-following-trump-putin-deal",
       "title": "Russian diesel tanker heads for U.S. following Trump-Putin deal",

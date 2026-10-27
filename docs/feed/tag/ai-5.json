@@ -1,6 +1,6 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #AI搜索",
+  "title": "公共目录 · #AI应用",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/ai-5.json",
   "description": "公共目录",
@@ -9,19 +9,19 @@
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/share/6484203.html",
-      "url": "https://www.woshipm.com/share/6484203.html",
-      "title": "搜狗大改版，腾讯新一代AI搜索引擎，来了",
-      "content_text": "搜狗把首页改成一个 logo 加一个输入框，输入框内可直接跳转 AI 模式，答案与参考资料左右分栏。老牌搜索引擎这次不是加个问答按钮，传统网页入口被降级，重心压到元宝搜索上。 最近，搜索领域热闹了起来。 先是 DeepSeek 开放自研的搜索 API，揭开 AI 搜索争夺的序幕。 DeepSeek 开放了 2 个接口，…",
-      "summary": "搜狗把首页改成一个 logo 加一个输入框，输入框内可直接跳转 AI 模式，答案与参考资料左右分栏。老牌搜索引擎这次不是加个问答按钮，传统网页入口被降级，重心压到元宝搜索上。 最近，搜索领域热闹了起来。 先是 DeepSeek 开放自研的搜索 API，揭开 AI 搜索争夺的序幕。 DeepSeek 开放了 2 个接口，…",
-      "date_published": "2026-10-26T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6484704.html",
+      "url": "https://www.woshipm.com/ai/6484704.html",
+      "title": "轻松学会用WorkBuddy自动控制浏览器",
+      "content_text": "WorkBuddy 把浏览器自动化整合进客户端，装好 Chrome 扩展、打开开关，就能让它自己搜站、点开视频点赞。作者用一次六分钟、19.84 积分的小任务走通了整条链路。 没记错的话，WorkBuddy算是在5.8.2版本的时候，上线了浏览器自动化的功能，之前还是通过安装Broswer Skill来实现控制浏览器对…",
+      "summary": "WorkBuddy 把浏览器自动化整合进客户端，装好 Chrome 扩展、打开开关，就能让它自己搜站、点开视频点赞。作者用一次六分钟、19.84 积分的小任务走通了整条链路。 没记错的话，WorkBuddy算是在5.8.2版本的时候，上线了浏览器自动化的功能，之前还是通过安装Broswer Skill来实现控制浏览器对…",
+      "date_published": "2026-10-27T00:00:00Z",
       "tags": [
+        "AI",
         "个人随笔",
-        "AI搜索",
-        "元宝",
-        "功能分析",
-        "搜狗",
-        "行业观察",
+        "AI应用",
+        "Chrome",
+        "CodeBuddy",
+        "WorkBuddy",
         "产品",
         "运营"
       ],
