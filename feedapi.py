@@ -32,7 +32,7 @@ from submission import Reply
 BODY_LIMIT = 40_000
 MAX_FEEDS = 20                       # feeds in one update request
 WORKERS = 5
-READ_SECONDS = 20                    # of the 30 seconds a Vercel function here may run (vercel.json maxDuration): the rest is for the answer
+READ_SECONDS = 20                    # leave time for sanitizing and returning the response
 DISCOVER_ITEMS = 8                   # latest items shown when a feed is looked up
 CONTENT_ITEMS = 12                   # of a feed's newest items, those whose text may come along
 CONTENT_ITEM_CHARS = 60_000          # of one article; the rest is left out and the reader is told

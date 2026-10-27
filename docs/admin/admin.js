@@ -433,7 +433,14 @@ async function renderOps(){
   const box=$('#ops'); box.textContent='';
   if(state.mode !== 'password') { box.append(el('p',{class:'empty',text:'运营页需要用管理密码登录。这样数据库凭据不会被放入浏览器；来源、审核仍可使用 GitHub 令牌模式。'})); return; }
   box.append(el('p',{class:'muted',text:'来源页管理采集与基础分类；这里管理公共空间的展示结果。同步只导入目录内容，不会把人工的推荐、隐藏、权重和广告设置覆盖掉。分享模板暂未接入。'}));
-  let data;
+  let schema, data;
+  try{ schema=await ops('schema_status'); }
+  catch(e){ box.append(el('p',{class:'msg bad',text:e.message})); return; }
+  if(!schema.ready){
+    const missing=Object.entries(schema.missing||{}).map(([table, columns])=>table + ': ' + columns.join(', '));
+    box.append(el('section',{class:'card'},el('h2',{text:'运营数据库尚未完成迁移'}),el('p',{class:'msg bad',text:'当前函数连接的数据库缺少以下字段。请在同一个 Postgres 数据库执行 004_ops_complete_repair.sql；执行成功后刷新本页。'}),el('pre',{class:'doc',text:missing.join('\n')})));
+    return;
+  }
   try{ data=await Promise.all([ops('dashboard'),ops('programs'),ops('modules'),ops('covers'),ops('ads'),ops('contents')]); }
   catch(e){ box.append(el('p',{class:'msg bad',text:e.message})); return; }
   const [dash, programs, modules, covers, ads, contents]=data;

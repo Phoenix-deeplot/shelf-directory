@@ -28,6 +28,20 @@ SLUG = re.compile(r"^[a-z0-9][a-z0-9-]{0,79}$")
 MODULES = {"featured", "selected", "personalized", "trending", "latest"}
 STATUSES = {"fixed", "dynamic", "trial", "paused"}
 COVER_ENGINES = {"canvas", "css", "static"}
+REQUIRED_SCHEMA = {
+    "topics": {"id", "slug", "name_zh", "name_en"},
+    "programs": {"id", "directory_id", "name", "kind", "homepage_url", "feed_url", "platform", "default_language", "status", "public_enabled", "recommend_enabled", "editorial_weight", "last_crawled_at", "consecutive_failures", "metadata", "updated_at"},
+    "program_topics": {"program_id", "topic_id"},
+    "content_items": {"id", "content_key", "program_id", "canonical_url", "title", "summary", "kind", "language", "cover_url", "external_published_at", "state", "metadata", "updated_at"},
+    "content_overrides": {"content_id", "editorial_weight", "hidden", "cover_mode", "cover_preset_id", "editorial_note", "updated_at"},
+    "ranking_presets": {"id", "slug", "name", "formula"},
+    "channel_modules": {"id", "slug", "name", "enabled", "device", "limit_count", "source_scope", "ranking_preset_id", "config", "sort_order", "updated_at"},
+    "content_placements": {"content_id", "module_id", "priority", "reason"},
+    "content_metrics_daily": {"content_id", "metric_date", "opens", "saves", "likes", "shares"},
+    "program_metrics_daily": {"program_id", "metric_date", "opens", "saves", "likes"},
+    "cover_presets": {"id", "slug", "name", "render_engine", "render_config", "is_active", "updated_at"},
+    "ad_placements": {"id", "slug", "name", "enabled", "page_scope", "device", "placement", "after_item", "provider", "slot", "config", "updated_at"},
+}
 
 
 def _database_url(env):
@@ -71,6 +85,22 @@ def _json(value, fallback=None):
 
 def _rows(cur):
     return [dict(row) for row in cur.fetchall()]
+
+
+def schema_status(cur):
+    """Inspect the database this function is actually connected to.
+
+    This is deliberately an authenticated admin-only response. It turns a
+    generic PostgreSQL error into an exact list of absent tables/columns, which
+    also exposes a migration having been run against the wrong database.
+    """
+    cur.execute("""SELECT table_name,column_name FROM information_schema.columns
+                   WHERE table_schema='ops' AND table_name = ANY(%s)""", (list(REQUIRED_SCHEMA),))
+    found = {}
+    for row in cur.fetchall():
+        found.setdefault(row["table_name"], set()).add(row["column_name"])
+    missing = {table: sorted(columns - found.get(table, set())) for table, columns in REQUIRED_SCHEMA.items() if columns - found.get(table, set())}
+    return {"ready": not missing, "missing": missing}
 
 
 def _clean_bool(value):
@@ -159,7 +189,7 @@ def sync_directory(cur, cfg):
     for row in cur.fetchall():
         id_to_program[row["directory_id"]] = row["id"]
     contents = directory.get("items", []) if isinstance(directory.get("items"), list) else []
-    content_count = 0
+    content_rows = []
     for item in contents:
         if not isinstance(item, dict) or not item.get("id"):
             continue
@@ -169,21 +199,23 @@ def sync_directory(cur, cfg):
             continue
         external_date = str(item.get("date") or "").strip()
         published = external_date + "T00:00:00+00:00" if re.fullmatch(r"\d{4}-\d{2}-\d{2}", external_date) else None
-        cur.execute("""INSERT INTO ops.content_items
+        content_rows.append(("dir:" + str(item["id"]), program_id, canonical, str(item.get("title") or "未命名")[:500],
+             str(item.get("summary") or item.get("excerpt") or "")[:3000] or None,
+             str(item.get("type") or "article")[:32], str(item.get("language") or item.get("lang") or "")[:16] or None,
+             _url(item.get("image") or item.get("cover"), "") or None, published,
+             json.dumps({"directory_id": item.get("id"), "tags": item.get("tags") or []}, ensure_ascii=False)))
+    if content_rows:
+        # One executemany call allows psycopg to pipeline the directory import;
+        # the previous one-query-per-card version could exceed Vercel's 30s cap.
+        cur.executemany("""INSERT INTO ops.content_items
               (content_key,program_id,canonical_url,title,summary,kind,language,cover_url,external_published_at,state,metadata)
               VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,'published',%s::jsonb)
               ON CONFLICT (content_key) DO UPDATE SET
                 program_id=EXCLUDED.program_id, canonical_url=EXCLUDED.canonical_url, title=EXCLUDED.title,
                 summary=EXCLUDED.summary, kind=EXCLUDED.kind, language=EXCLUDED.language,
                 cover_url=EXCLUDED.cover_url, external_published_at=EXCLUDED.external_published_at,
-                metadata=EXCLUDED.metadata, updated_at=NOW()""",
-            ("dir:" + str(item["id"]), program_id, canonical, str(item.get("title") or "未命名")[:500],
-             str(item.get("summary") or item.get("excerpt") or "")[:3000] or None,
-             str(item.get("type") or "article")[:32], str(item.get("language") or item.get("lang") or "")[:16] or None,
-             _url(item.get("image") or item.get("cover"), "") or None, published,
-             json.dumps({"directory_id": item.get("id"), "tags": item.get("tags") or []}, ensure_ascii=False)))
-        content_count += 1
-    return {"programs": len(shelves), "contents": content_count, "topics": len(topic_names)}
+                metadata=EXCLUDED.metadata, updated_at=NOW()""", content_rows)
+    return {"programs": len(shelves), "contents": len(content_rows), "topics": len(topic_names)}
 
 
 def dashboard(cur):
@@ -245,7 +277,7 @@ def get_contents(cur):
                 FROM ops.content_items c JOIN ops.programs p ON p.id=c.program_id
                 LEFT JOIN ops.content_overrides o ON o.content_id=c.id
                 LEFT JOIN ops.content_metrics_daily m ON m.content_id=c.id AND m.metric_date >= CURRENT_DATE-29
-                WHERE c.state='published' GROUP BY c.id,p.name,p.directory_id,o.id
+                WHERE c.state='published' GROUP BY c.id,p.name,p.directory_id,o.content_id
                 ORDER BY COALESCE(SUM(m.opens),0) DESC,c.external_published_at DESC NULLS LAST LIMIT 80""")
     rows = _rows(cur)
     for row in rows:
@@ -350,6 +382,8 @@ def handle(payload, bearer, ip, env, now=None):
         cfg = _check(payload, bearer, env, now)
         action = payload["action"]
         with _connect(env) as con, con.cursor() as cur:
+            if action == "schema_status":
+                return 200, {"ok": True, "data": schema_status(cur)}
             if action == "dashboard":
                 return 200, {"ok": True, "data": dashboard(cur)}
             if action == "sync_directory":
@@ -392,7 +426,10 @@ def handle(payload, bearer, ip, env, now=None):
 
 def respond(h, env, method):
     def send(status, payload):
-        raw = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+        # psycopg returns UUID/date/time objects.  The admin API only emits
+        # presentation data, so their canonical string form is the correct JSON
+        # representation and prevents a successful query from becoming a 500.
+        raw = json.dumps(payload, ensure_ascii=False, default=str).encode("utf-8")
         h.send_response(status)
         h.send_header("Content-Type", "application/json; charset=utf-8")
         h.send_header("Cache-Control", "no-store")

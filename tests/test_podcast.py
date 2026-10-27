@@ -10,6 +10,7 @@ import unittest
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 import aggregate as agg  # noqa: E402
+from test_aggregate import Base  # noqa: E402
 from test_feedapi import FeedBase  # noqa: E402
 
 HEAD = '''<?xml version="1.0" encoding="UTF-8"?>
@@ -125,6 +126,20 @@ class TestLongFeeds(FeedBase):
         self.assertEqual(set(items['Ep 3']['audio']), {'url', 'type', 'dur'})
         self.assertNotIn('audio', items['An article'])
         self.assertEqual([h[0] for h in self.site.hits if h[0] != '/robots.txt'], ['/p.xml'])                      # nothing but the feed was asked for: the sound is not fetched here
+
+
+class TestTheDirectoryHasTheSound(Base):
+    def test_an_episode_in_the_directory_says_where_its_sound_is_and_an_article_does_not(self):
+        self.site.put('/p.xml', PODCAST, 'application/rss+xml')
+        e, _ = agg.approve(self.site.url + '/p.xml')
+        d = json.loads(agg.build()['directory.json'])
+        rows = {i['title']: i for i in d['items']}
+        self.assertEqual(rows['Ep 3']['audio'], {'url': 'https://cdn.example/ep3.mp3?x=1', 'type': 'audio/mpeg', 'dur': 754})
+        self.assertEqual(rows['Ep 3']['type'], 'audio')
+        self.assertEqual(rows['Ep 0 only on http']['audio']['url'], 'http://cdn.example/ep0.mp3')
+        for name in ('Ep 1 is a video', 'A script is not a sound', 'A PDF is not a sound', 'An article'):
+            self.assertNotIn('audio', rows[name], name)
+        self.assertEqual(set(rows['Ep 3']['audio']), {'url', 'type', 'dur'})
 
 
 if __name__ == '__main__':

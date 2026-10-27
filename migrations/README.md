@@ -1,18 +1,16 @@
 # Operations migrations
 
-Run `002_ops_directory_bridge.sql` once after the initial `ops` schema/table
-script. If that initial schema came from an earlier version (the Operations
-page says a column such as `slug`, `language`, or `is_active` is missing), run
-`003_ops_console_compat.sql` immediately after it:
+For an existing incomplete schema, use **only**
+`004_ops_complete_repair.sql`. It creates missing tables, fields, indexes and
+default management modules while preserving existing data. It supersedes the
+older incremental `002`/`003` scripts:
 
 ```sql
-\i migrations/002_ops_directory_bridge.sql
-\i migrations/003_ops_console_compat.sql
+\i migrations/004_ops_complete_repair.sql
 ```
 
-They add stable directory identifiers and the presentation-only fields used by
-the console. The sync button uses those identifiers to update source metadata
-without changing editorial decisions held in the `ops` tables.
+The sync button then uses stable directory identifiers to update source
+metadata without changing editorial decisions held in the `ops` tables.
 
 For Vercel, set `OPS_DATABASE_URL` to the PostgreSQL connection URL (or leave
 it unset when the project already provides `POSTGRES_URL`). Deploying installs

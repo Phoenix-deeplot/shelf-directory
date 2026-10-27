@@ -293,7 +293,7 @@ def submit_record(payload, cfg):
     return sub, info, issues
 
 
-CHECK_SECONDS = 20          # of the 30 seconds a Vercel function here may run (vercel.json maxDuration): the rest is for GitHub and the answer
+CHECK_SECONDS = 20          # leave time for GitHub and the response
 CHECK_LIMIT = (20, 600)           # checks (they fetch) per sender in 10 minutes, counted per warm instance: a soft limit, the real ones are Vercel's
 _CHECKS = {}
 

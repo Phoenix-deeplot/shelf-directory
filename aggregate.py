@@ -1999,6 +1999,8 @@ def build():
                 row['hash'] = i['hash']
             if i.get('author'):                                      # and new ones with this title + author
                 row['author'] = i['author']
+            if isinstance(i.get('audio'), dict) and abs_url(i['audio'].get('url')):      # a podcast episode: where its sound is (the page plays it from there; nothing of it passes through here)
+                row['audio'] = {'url': abs_url(i['audio']['url']), 'type': clean(i['audio'].get('type'), 40), 'dur': _seconds(i['audio'].get('dur'))}
             items.append(row)
     items.sort(key=lambda i: (i['date'], i['shelf'], i['title']), reverse=True)
     items = items[:MAX_DIRECTORY_ITEMS]

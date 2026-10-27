@@ -21,6 +21,16 @@
 
 规范见 [SHELF-SPEC.md](SHELF-SPEC.md)。
 
+## 本地运行（含 `/api`）
+
+不要用 `python -m http.server`、Live Server 或直接打开 `docs/admin/index.html` 测试管理页：它们只能提供静态文件，**不会运行** `api/admin.py`、`api/ops.py` 等 Vercel Python 函数。
+
+1. 复制 [`.env.example`](.env.example) 为 `.env`，填入本机 PostgreSQL、管理密码（至少 12 个字符）和 GitHub 管理令牌。`.env` 已被 Git 忽略。
+2. 在 PostgreSQL 的 `postgres` 数据库中执行 [`migrations/004_ops_complete_repair.sql`](migrations/004_ops_complete_repair.sql)。它会创建 `ops` schema 和运营后台需要的表，不会清空 `public` 或已有运营数据。
+3. 从仓库根目录以 Vercel 运行：`npx vercel@64.0.2 dev --listen 3000`，再打开 `http://localhost:3000/admin/`。若 3000 已被占用，请换一个端口，并同步修改 `.env` 的 `DIRECTORY_URL` 与 `ALLOWED_ORIGINS`。
+
+Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构建器会调用 `python3`；根目录的 `python3.cmd` 兼容入口会把它转发给正确的解释器。项目不在 `vercel.json` 覆盖函数时长：当前 Python Builder 与 `vercel dev` 在本地会因 `maxDuration` 配置冲突，生产环境则使用 Vercel 项目/套餐的默认时长。
+
 ## 一次性设置
 
 ### A. 数据和自动更新（约 10 分钟）
@@ -84,15 +94,40 @@
 
 管理页的待审列表里每条申请有个勾：“通过所选”“拒绝所选…”“选中检查通过的”“一键通过全部检查通过的”。这些**不是**给每个 issue 加 `approved` 标签：一次给几十个 issue 加标签会同时启动几十次 `Submissions` 运行，而 GitHub 的并发组里**只留下正在跑的那一个和最后排队的那一个**，中间的会被取消，留下“已批准却没处理”的申请。所以管理页只启动**一次** `batch.yml`（输入：`mode` = approve / reject、`numbers` = 最多 60 个 issue 编号、`reject` 时可带一句 `reason`），在这一次运行里：逐个读 issue（只处理仍然开着、属于待审队列、没有 `listed` / `rejected` 的，其余原样跳过）→ 和单个加标签时完全一样地检查、登记、抓取 → **只构建、提交一次** → 逐个在 issue 里回复、改标签、关闭。输入只通过环境变量进入，由 `aggregate.py batch` 校验（编号只能是数字和逗号，最多 60 个），管理接口的白名单也同样校验。命令行：`python aggregate.py batch --mode approve --numbers 12,13,14 --out results.json` 然后 `python aggregate.py apply --result results.json`（需要 `GITHUB_TOKEN` 和 `GITHUB_REPOSITORY`）。“一键通过”只包含机器人检查通过的；疑似重复的要自己勾。
 
-### B4. 热榜订阅服务（`api/hot.py`，不用任何设置）
+### B4. 热榜服务（`api/hot.py`，不用任何设置就能用）
 
-“热榜网站”做的事：向平台**自己网页用的那个小接口**（和你在浏览器里打开那个榜单页时发出的请求一样，带浏览器的请求头）要一份 JSON，取出名次、标题、热度和链接，几分钟缓存一下再转给你；**不读、不存任何文章正文**。这里转成一份普通的 RSS，所以读者在“推荐订阅”里点一下就能订阅，之后每次更新就是平台当前的榜单：条目标题是榜上的标题，说明里写“第 N 名 · 热度”，点开去平台自己的页面。和提交服务、更新服务在同一个 Vercel 项目里，部署完就有，不要环境变量。
+“热榜网站”做的事：向平台**自己网页用的那个小接口**（和你在浏览器里打开那个榜单页时发出的请求一样，带浏览器的请求头）要一份 JSON（或网页），取出名次、标题、热度和链接，几分钟缓存一下再转给你；**不读、不存任何文章正文**。主站的“公共目录 → 热榜”页读的就是它（六栏、每栏几个平台，点开是平台自己的页面，是文章的在站内阅读器里读）；同一份榜单也是一份普通的 RSS，所以读者点“订阅这个榜单”就能把它放进书架，之后每次更新就是平台当前的榜单：条目标题是榜上的标题，说明里写“第 N 名 · 热度”。和提交服务、更新服务在同一个 Vercel 项目里，部署完就有。
 
-- `GET /api/hot` 返回现在提供哪些榜（JSON，允许任何页面读取，主站据此只显示服务真的提供的榜）；`GET /api/hot?p=github&n=30` 返回那一个榜的 RSS（`&format=json` 是 JSON）。结果在每个暖实例里缓存 3 分钟，CDN 缓存 10 分钟，平台读不到时最长一小时内用上一份。
-- **默认开启（5 个）**：`github`（GitHub Trending 今日）、`juejin`、`v2ex`、`bilibili`（综合热门）、`netease`（飙升榜）。**默认关闭（新闻类 4 个）**：`weibo`、`zhihu`、`baidu`、`toutiao`——榜上是当天全国在聊什么，要不要转发由站长决定：在 Vercel 环境变量里写 `HOT_ENABLE=weibo,zhihu`（或 `all`）打开；`HOT_DISABLE=juejin,v2ex` 可以再关掉任何一个，关掉的返回 404。
-- **这些是平台网页自己的接口，不是公开的、有文档的 API**：可能随时改格式或关闭，使用条款以平台自己的为准；格式变了会返回 502 和原因，而不是一份空的订阅。几个没做的：抖音（要先走一步游客 cookie 才拿得到榜单，不稳）、小红书（接口带签名）、X、YouTube 趋势、同花顺——没有稳定的公开来源，不勉强。
-- 安全：每个榜的地址写死在 `hotapi.py` 的 `PLATFORMS` 里，请求能选的只有“哪个榜、几条”，不会读读者给的任何网址；读取走 `aggregate.py` 的受限抓取（只走 https、只连公网地址、限大小和时间）。
-- 订阅它：主站的 `recommended.json` 里把条目的 `feed` 写成 `hot:github`（`hot:` 加榜单编号），页面会换成这个服务的地址；也可以直接订阅 `https://你的目录站点/api/hot?p=github`。测试：`tests/test_hot.py`（14 个，不联网）。
+- `GET /api/hot` 返回现在有哪些栏、哪些平台（JSON，允许任何页面读取：`columns`，以及每个平台的 `id`、`name`、`name_en`、`home`、`lang`、`col`、`ranked`，还可能有 `via`（榜单其实来自哪里）和 `read`（点开的是文章，页面可以在阅读器里读））；`GET /api/hot?p=github&n=30` 返回那一个榜的 RSS，`&format=json` 是 JSON（多一个 `updated`，服务读到它的时间）。结果在每个暖实例里缓存 3 分钟，CDN 缓存 10 分钟，平台读不到时最长一小时内用上一份。
+- **六栏、五十多个平台，全部默认开启**（站长用 `HOT_DISABLE` 关）：
+  - **综合热点**：微博热搜、知乎热榜、抖音热点、小红书热门（经 rebang.today）、B 站热门视频、公众号热文（经 tophub.today）、今日头条热榜、虎扑步行街（经 tophub.today）、知乎日报；
+  - **科技与开发**：GitHub Trending、掘金、V2EX、Hacker News、Lobsters、DEV 社区、Product Hunt、少数派、极客公园、IT 之家、博客园、36 氪 24 小时热榜（经 tophub.today）；
+  - **财经**：雪球热帖（经 tophub.today）、同花顺热股、华尔街见闻、CNBC、Bloomberg Markets、CoinGecko 加密货币热搜；
+  - **国际**：Google 热搜（一个榜，按国家）、维基百科阅读榜（英文 / 中文）、BBC 国际、BBC 中文、法广中文、半岛电视台、卫报国际、Mastodon 热门链接；
+  - **AI 与学术**：Hugging Face 每日论文 / 热门模型、arXiv cs.AI / cs.CL、OpenAI 动态、量子位、MIT Technology Review AI、TechCrunch AI、Nature、Science、Phys.org；
+  - **读书与影音**：微信读书飙升榜 / **小说榜**、**起点中文网 / 起点女生网 / 纵横中文网 / 推书君的网文榜**（经 tophub.today）、Open Library 近期热门、Project Gutenberg 热门公版书、网易云音乐飙升榜、QQ 音乐飙升榜、Apple 播客榜（中国 / 美国）、Apple Music 最多播放、Steam 热销、TapTap 热门游戏和豆瓣新片榜（经 tophub.today）、YouTube 热门（要 key，见下）。
+- **榜单从哪来**：平台自己的网页接口（微博、知乎、抖音、B 站、掘金、V2EX、GitHub、Hacker News、网易云、QQ 音乐、微信读书、同花顺……）；**平台自己的 RSS / Atom**（新闻、博客、arXiv……）——订阅源没有名次，页面按时间排、写日期；**tophub.today / rebang.today** 这两个已经在整理榜单的网站，用来补没有公开接口的几个（公众号、雪球、小红书、起点等网文榜、虎扑、36 氪、TapTap、豆瓣新片），页面上会写“数据来自 …”；它们对同一个地址的请求有限制，所以这几个榜在每个暖实例里 10 分钟才读一次（别的 3 分钟），读不到时用最长一小时内的上一份；站长自己加的（下面）。
+- **按国家的榜（YouTube 热门、Google 热搜）跟着读者走**：请求可以带 `&region=JP`（两个字母的国家 / 地区代码）；页面一开始请求的是 `&region=auto`，服务按这个顺序决定：① **读者访问地址所在的国家**（Vercel 给函数的请求头 `x-vercel-ip-country`，只用于这一次回答，不保存、不记录）；② **浏览器语言里的国家**（`Accept-Language`：`ja-JP` → 日本、`zh-TW` → 台湾、`de-AT` → 奥地利，只有语言的 `fr` / `ko` / `ja` 等按常见国家算）；③ 站长设的 `YOUTUBE_REGION`；④ 美国。这个国家 YouTube / Google 没有榜时（比如中国大陆）顺延到下一条。读者在页面上的“地区”下拉里自己选了就以选的为准（只记在这个浏览器里），订阅这个榜单时订阅的是当时显示的那个国家（订阅地址里带 `&region=…`，不会跟着读者变）。依赖读者地址 / 语言的回答带 `Cache-Control: private`，CDN 不会拿给别人；明确写了国家的回答照常缓存。每个国家各缓存各的（3 分钟）。国家名由浏览器按页面语言显示。
+- **要 key 的榜（YouTube 热门）怎么配**：
+  1. 打开 <https://console.cloud.google.com/>，新建（或选）一个项目；
+  2. “API 和服务 → 库”，搜 **YouTube Data API v3**，点“启用”；
+  3. “API 和服务 → 凭据 → 创建凭据 → API 密钥”，复制那串密钥；建议点“限制密钥”→“API 限制”→只勾 YouTube Data API v3（Vercel 的出口地址不固定，不要做 IP 限制）；
+  4. 打开 Vercel 的 shelf-directory 项目 → Settings → Environment Variables，添加 `YOUTUBE_API_KEY`（值就是那串密钥，勾上 Production），可选再加 `YOUTUBE_REGION`（国家都判断不出来时用的默认国家，不写是 `US`）；
+  5. 到 Deployments 里对最新的一次部署点“Redeploy”（环境变量要重新部署才生效）。
+  打开 `https://你的目录站点/api/hot`，出现了 `youtube` 就好了；没设 key 这个榜整个不存在（不是报错）；key 只在服务端的请求里用，不会出现在任何回答或错误里。配额：每天默认 1 万点，一次读取 1 点，3 分钟内同一个国家的重复读取走缓存，所以够用。
+- **站长自己加榜**：`registry/hot.json`，改完重新部署。三种写法，`col` 是放进哪一栏（`news`、`tech`、`money`、`world`、`ai`、`play`，不写放第一栏），`ranked: true` 表示订阅源的顺序就是名次（RSSHub 的热榜），`read: false` 表示点开的不是文章：
+  ```json
+  {"platforms": [
+    {"id": "my-blog", "name": "我关注的博客", "col": "tech", "feed": "https://example.com/feed.xml"},
+    {"id": "x-trends", "name": "X 热门话题", "col": "world", "rsshub": "/twitter/trends", "ranked": true},
+    {"id": "qidian", "name": "起点月票榜", "col": "play", "tophub": "节点编号"}
+  ]}
+  ```
+  `feed` 是任何 RSS / Atom 地址；`rsshub` 是 RSSHub 的路由，**要先设环境变量 `RSSHUB_BASE=https://你自己的-rsshub-地址`**（没设就不显示；公共 RSSHub 实例常被限流，最好自己部署一个）——没有公开榜单接口的平台（X、Reddit、微博话题……）可以这样经 RSSHub 转成榜单；`tophub` 是 tophub.today 上那个榜的节点编号（榜单页地址 `https://tophub.today/n/…` 末尾那一段）。id 只能用小写字母、数字和连字符，不能和内置的重名；写错的一项被跳过，不影响别的。
+- **关掉**：`HOT_DISABLE=weibo,douyin`（逗号分隔的榜单编号），关掉的返回 404，页面上也不出现；一栏里一个榜都不剩，这一栏也不出现。
+- **这些是平台网页自己的接口，不是公开的、有文档的 API**：可能随时改格式或关闭，使用条款以平台自己的为准；格式变了会返回 502 和原因，而不是一份空的订阅。国内平台的接口有时只肯回答国内的 IP：如果部署在海外节点上某个榜总是 502，可以在 `vercel.json` 里加 `"regions": ["hkg1"]`（香港节点）再试。没做的：懂车帝（`robots.txt` 明确禁止）、X / Reddit（要登录或付费接口，用上面的 RSSHub 办法）、晋江（页面是 GBK 加反爬；tophub 上没有它，可以经 RSSHub 自己加）、Z-Library（盗版库，不接入）。
+- 安全：每个榜的地址写死在 `hotapi.py` 的 `PLATFORMS`（或站长的 `registry/hot.json`）里，请求能选的只有“哪个榜、几条”，不会读读者给的任何网址；读取走 `aggregate.py` 的受限抓取（只走 https、只连公网地址、限大小和时间）；每一行只收 http(s) 地址，标题当文本，去掉 `utm_*` / `at_*` 这类跟踪参数。
+- 订阅它：主站页面的“订阅这个榜单”；`recommended.json` 里把条目的 `feed` 写成 `hot:github`（`hot:` 加榜单编号），页面会换成这个服务的地址；也可以直接订阅 `https://你的目录站点/api/hot?p=github`。测试：`tests/test_hot.py`（41 个，不联网）。
 
 ### B5. 匿名计数（`api/stat.py`，需要和同步一样的 Redis）
 

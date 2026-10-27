@@ -3,3 +3,8 @@ __pycache__/
 .history/
 *.tmp
 .vercel
+
+# Local credentials and service endpoints. Keep the documented template only.
+.env
+.env.*
+!.env.example

@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "functions": { "api/*.py": { "maxDuration": 30 } },
   "outputDirectory": "docs",
+  "regions": ["hkg1"],
   "redirects": [
     { "source": "/admin", "destination": "/admin/", "statusCode": 308 }
   ],
