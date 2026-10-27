@@ -4,8 +4,34 @@
   <title>公共目录</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/all.xml"/>
-  <updated>2026-10-26T00:00:00Z</updated>
+  <updated>2026-10-27T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/</id>
+    <title>APOD: 2026 October 27 – Noctilucent Clouds over Sweden</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">APOD Science APOD APOD: 2026 October 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…</summary>
+    <source><title>NASA</title></source>
+    <category term="APOD"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/</id>
+    <title>A-81 Reaches South Georgia</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">The Antarctic iceberg made a relatively quick exit from the Weddell Sea, only to slow at the edge of a remote island’s underwater shelf.</summary>
+    <source><title>NASA</title></source>
+    <category term="Earth Observatory"/>
+    <category term="Ice &amp; Glaciers"/>
+    <category term="Terra"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
   <entry>
     <id>https://www.woshipm.com/ai/6483433.html</id>
     <title>用 AI 做自媒体，完整流程应该怎么做？附技能包</title>
@@ -305,6 +331,94 @@
     <category term="工具"/>
   </entry>
   <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261025073038.htm</id>
+    <title>Tiny magnetic vortices could help computers work more like your brain</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261025073038.htm"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Scientists have filmed tiny magnetic vortices called skyrmions melting out of an organized lattice for the first time, revealing new ways to manipulate these un…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261022081259.htm</id>
+    <title>Scientists discover Arctic sea ice loss could be far worse than predicted</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261022081259.htm"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Arctic winter sea ice could disappear much faster than scientists previously expected, according to new research using climate clues from 6,000 years ago. By co…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261025073051.htm</id>
+    <title>New 3D thermal invisibility cloak makes objects disappear from infrared cameras</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261025073051.htm"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Researchers have developed a groundbreaking 3D invisibility cloak that can hide complex objects from infrared cameras while protecting them from extreme heat an…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261025222848.htm</id>
+    <title>Exercise doesn't just strengthen your heart. It rewires it</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261025222848.htm"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Regular exercise does more than strengthen the heart. New research reveals that it actually reshapes the nerves controlling how the heart functions, and the cha…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261025073034.htm</id>
+    <title>Chinese scientists discover “D-rex,” a giant fungus with roots stretching back 65 million years</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261025073034.htm"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Scientists have discovered a giant new fungus in China that grows up to 20 inches tall and weighs nearly five pounds, making it the largest known of its kind. D…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261025073036.htm</id>
+    <title>Archaeologists may have just found the world's oldest shipwreck</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261025073036.htm"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">A mysterious shipwreck off Turkey’s coast may be the oldest ever discovered, dating back approximately 4,500 years to the age of the Egyptian pyramids. Although…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261024222031.htm</id>
+    <title>AI detects “invisible” signs of pancreatic cancer years before diagnosis</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261024222031.htm"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">A powerful new AI system could help doctors detect pancreatic cancer years before it becomes visible on conventional scans. The technology, called REDMOD, ident…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261025073055.htm</id>
+    <title>A 2,700-year-old solar eclipse just revealed something surprising about Earth</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261025073055.htm"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">A solar eclipse recorded more than 2,700 years ago is revealing surprising secrets about Earth's rotation and the Sun's ancient behavior. By correcting an eight…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
     <id>https://www.reddit.com/r/worldnews/comments/1xfhum9/lula_wins_a_record_fourth_term_in_brazil_in_a/</id>
     <title>Lula Wins a Record Fourth Term in Brazil in a Surprise Comeback</title>
     <link rel="alternate" type="text/html" href="https://www.reddit.com/r/worldnews/comments/1xfhum9/lula_wins_a_record_fourth_term_in_brazil_in_a/"/>
@@ -339,6 +453,109 @@
     <category term="Music"/>
     <category term="文化"/>
     <category term="免费资源"/>
+  </entry>
+  <entry>
+    <id>https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/</id>
+    <title>Solar Cells Inspected on NASA’s NEO Surveyor</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission is inspected by a technician at BAE Systems Space &amp; Mission Systems in Boulder…</summary>
+    <source><title>NASA</title></source>
+    <category term="Photojournal"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://science.nasa.gov/photojournal/neo-surveyors-sunshade-gets-inspected/</id>
+    <title>NEO Surveyor’s Sunshade Gets Inspected</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/photojournal/neo-surveyors-sunshade-gets-inspected/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor is mounted on an assembly ring during inspections in a clean room at BAE Systems Space…</summary>
+    <source><title>NASA</title></source>
+    <category term="Photojournal"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.nasa.gov/image-article/nasas-x-59-aircraft-and-test-pilot/</id>
+    <title>NASA’s X-59 Aircraft and Test Pilot</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/image-article/nasas-x-59-aircraft-and-test-pilot/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">NASA test pilot Mike Lippert poses for a photo ahead of his first time flying the agency’s X-59 quiet supersonic research aircraft on Oct. 21, 2026. The X-59 ha…</summary>
+    <source><title>NASA</title></source>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/</id>
+    <title>NASA’s Perseverance Views Dust at Neretva Vallis</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Description This 360-degree look at Neretva Vallis within Mars’ Jezero Crater was stitched together using 217 images acquired by the rover’s Mastcam-Z on May 20…</summary>
+    <source><title>NASA</title></source>
+    <category term="Mars 2020"/>
+    <category term="Photojournal"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/</id>
+    <title>NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Over 1,645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of spacesuit materials…</summary>
+    <source><title>NASA</title></source>
+    <category term="Mars 2020"/>
+    <category term="General"/>
+    <category term="Jet Propulsion Laboratory"/>
+    <category term="Mars"/>
+    <category term="Perseverance (Rover)"/>
+    <category term="Planetary Science Division"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.nasa.gov/news-release/nasa-usda-sign-agreement-advancing-earth-science-agriculture/</id>
+    <title>NASA, USDA Sign Agreement Advancing Earth Science, Agriculture</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/news-release/nasa-usda-sign-agreement-advancing-earth-science-agriculture/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">NASA and the U.S. Department of Agriculture (USDA) have signed a Memorandum of Understanding expanding cooperation in Earth observation, geospatial analytics, a…</summary>
+    <source><title>NASA</title></source>
+    <category term="Earth Science Division"/>
+    <category term="Science Mission Directorate"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://science.nasa.gov/learning-resources/science-activation/nasa-sees-interns-tackle-real-world-challenges-in-lunar-exploration/</id>
+    <title>NASA SEES Interns Tackle Real-World Challenges in Lunar Exploration</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/learning-resources/science-activation/nasa-sees-interns-tackle-real-world-challenges-in-lunar-exploration/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">The NASA STEM (Science, Technology, Engineering, and Mathematics) Enhancement in Earth Science (SEES) Internship Program at the University of Texas Center for S…</summary>
+    <source><title>NASA</title></source>
+    <category term="Science Activation"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/</id>
+    <title>NASA Invites Media to Moon Landing Simulation Experience in California</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Members of the media are invited to tour a new lunar landing simulator at NASA’s Ames Research Center in California's Silicon Valley on Thursday, Oct. 29, and F…</summary>
+    <source><title>NASA</title></source>
+    <category term="Ames Research Center"/>
+    <category term="Artemis"/>
+    <category term="航天"/>
+    <category term="科学"/>
   </entry>
   <entry>
     <id>https://www.cnbc.com/2026/10/26/pension-funds-ageing-crisis-risk-investment.html</id>
@@ -457,259 +674,5 @@
     <category term="Small Wonders"/>
     <category term="科技"/>
     <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/review/wallhack-m-001/</id>
-    <title>Wallhack M-001 Review: When Fun Overrides Specs</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/review/wallhack-m-001/"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">With a tactile dongle for on-the-fly customization and a metal chassis, the Wallhack M-001 is the most fun I've had reviewing a gaming mouse in a long time.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Products"/>
-    <category term="Gear / Reviews"/>
-    <category term="Gear / Products / Computers"/>
-    <category term="Gear / Products / Gaming"/>
-    <category term="Product Review"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/macbook-pro-m5-max-deal-october-2026/</id>
-    <title>The MacBook Pro Max Just Dropped to Its Lowest Price Ever</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/macbook-pro-m5-max-deal-october-2026/"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">Apple will reportedly launch an innovative new MacBook next week, which means existing options have their largest discount yet.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Gear / Products"/>
-    <category term="Gear / Products / Computers"/>
-    <category term="Mac Money"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets/</id>
-    <title>Scientists Trapped an Antimatter Particle for Months to Study Its Secrets</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets/"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">These elusive and reactive particles have been challenging to hold on to and even more challenging to study, but a new method paves the way for tests on the dif…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Physics and Math"/>
-    <category term="Catch and Release"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/oil-spills-wreak-havoc-on-the-bottom-of-the-ocean-even-a-decade-later/</id>
-    <title>Oil Spills Wreak Havoc on the Bottom of the Ocean, Even a Decade Later</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/oil-spills-wreak-havoc-on-the-bottom-of-the-ocean-even-a-decade-later/"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">While oil is known to float, new research finds that over time it can permeate even extremely deep marine habitats, with animal populations declining by as much…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Environment"/>
-    <category term="Slippery When Wet"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/review/hyve-smart-package-locker/</id>
-    <title>Hyve Smart Package Locker Review: Protecting Your Holiday Deliveries</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/review/hyve-smart-package-locker/"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">Hyve’s smart porch lockbox can secure incoming gifts—if your delivery driver uses it and there’s still room inside.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Reviews"/>
-    <category term="Gear / Products / Home"/>
-    <category term="Merry Mail"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/apple-carplay-and-android-auto-make-your-phone-hot-heres-how-to-keep-it-cool/</id>
-    <title>Apple CarPlay and Android Auto Make Your Phone Hot. Here’s How to Keep It Cool</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/apple-carplay-and-android-auto-make-your-phone-hot-heres-how-to-keep-it-cool/"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">Powering a car dashboard is more demanding on your handset than you might think. These tips will save battery life and help your phone chill out.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / How To and Advice"/>
-    <category term="Hot Wheels"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/gallery/best-folding-phones/</id>
-    <title>6 Best Folding Phones (2026): Samsung, Apple, Google, Motorola</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/gallery/best-folding-phones/"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">Ready to move on from the traditional glass slab? Introduce a hinge into your life with these folding smartphones.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Buying Guides"/>
-    <category term="Gear / Products / Phones"/>
-    <category term="Into the Fold"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://sspai.com/post/114741</id>
-    <title>60 元打造你的 vibe coding 神器：小米蓝牙遥控器 2 pro</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/114741"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文</summary>
-    <source><title>少数派</title></source>
-    <category term="效率"/>
-    <category term="工具"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/life/2026/10/men-women-dating-app-boring.html?via=rss</id>
-    <title>Women Are Clamoring for More Exciting, Vivacious Men. Well, I Met One. It Sucked.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/men-women-dating-app-boring.html?via=rss"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">We’re constantly asking men to be more interesting and romantic. Maybe we shouldn’t.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Celebrities"/>
-    <category term="Dating and Relationships"/>
-    <category term="Movies"/>
-    <category term="Relationships"/>
-    <category term="Travel"/>
-    <category term="Women"/>
-    <category term="Rom-Coms"/>
-    <category term="Men"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/life/2026/10/word-game-slate-pears-437-for-october-25-2026.html?via=rss</id>
-    <title>Slate Pears Game 437: Oct. 25, 2026</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/word-game-slate-pears-437-for-october-25-2026.html?via=rss"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">Today's puzzle has eight pears.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Slate Games"/>
-    <category term="Pears"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-25-2026.html?via=rss</id>
-    <title>Slate Mini Crossword for Oct. 25, 2026</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-25-2026.html?via=rss"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">Take a quick break with our daily 5x5 grid.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Mini Crossword"/>
-    <category term="Slate Games"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/life/2026/10/crossword-slate-daily-puzzle-oct-25-2026.html?via=rss</id>
-    <title>Slate Crossword: DJUNGELSKOG Purveyor (Four Letters)</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/crossword-slate-daily-puzzle-oct-25-2026.html?via=rss"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">Ready for some wordplay? Sharpen your skills with Slate’s puzzle for Oct. 25, 2026.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Slate Games"/>
-    <category term="Crossword"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/culture/2026/10/edgar-allan-poe-poems-stories-most-influential-american-writer-death-horror-detective.html?via=rss</id>
-    <title>One Literary Giant Is Rarely Associated With His Homeland. Make No Mistake: He’s the Most Influential American Writer of All.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/culture/2026/10/edgar-allan-poe-poems-stories-most-influential-american-writer-death-horror-detective.html?via=rss"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">Not Mark Twain, not Herman Melville, not F. Scott Fitzgerald.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Books"/>
-    <category term="History"/>
-    <category term="Slate Book Review"/>
-    <category term="Horror"/>
-    <category term="Mystery"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/advice/2026/10/parent-advice-child-care-in-laws-babysitting.html?via=rss</id>
-    <title>My Mother-in-Law Has Been Secretly Harboring Resentment About the Way We Do Child Care. Now It’s All Come to Light.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/parent-advice-child-care-in-laws-babysitting.html?via=rss"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">I had no idea.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Advice"/>
-    <category term="Family"/>
-    <category term="Kids"/>
-    <category term="Parenting"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/advice/2026/10/big-size-sex-advice-toy-pump-penis.html?via=rss</id>
-    <title>I Accidentally Super-Sized My Penis. It’s Awesome … and Terrifying.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/big-size-sex-advice-toy-pump-penis.html?via=rss"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">It looks a little funny when it's flaccid.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Advice"/>
-    <category term="Sex"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/technology/2026/10/openai-hugging-face-ai-agent-crime.html?via=rss</id>
-    <title>A New Kind of Crime Is Emerging. The Justice System Doesn’t Know Whom to Blame.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/technology/2026/10/openai-hugging-face-ai-agent-crime.html?via=rss"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">The justice system is in dire need of a software update.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Artificial Intelligence"/>
-    <category term="Crime"/>
-    <category term="Criminal Justice"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://www.reddit.com/r/meirl/comments/1xf8guh/meirl/</id>
-    <title>meirl</title>
-    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/meirl/comments/1xf8guh/meirl/"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">submitted by /u/YettiGoingRogue to r/meirl [link] [comments]</summary>
-    <source><title>top scoring links : popular</title></source>
-    <category term="meirl"/>
-    <category term="社区"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.reddit.com/r/memes/comments/1xexnp6/where_is_it/</id>
-    <title>Where is it</title>
-    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/memes/comments/1xexnp6/where_is_it/"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">submitted by /u/UnsuspectingFart to r/memes [link] [comments]</summary>
-    <source><title>top scoring links : popular</title></source>
-    <category term="memes"/>
-    <category term="社区"/>
-    <category term="热榜"/>
   </entry>
 </feed>

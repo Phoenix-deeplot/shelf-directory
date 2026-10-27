@@ -246,6 +246,32 @@
    ],
    "added": "2026-10-26",
    "issue": 31
+  },
+  {
+   "id": "nasa-gov",
+   "kind": "feed",
+   "url": "https://www.nasa.gov/feed/",
+   "source": "https://www.nasa.gov/feed/",
+   "name": "NASA",
+   "tags": [
+    "航天",
+    "科学"
+   ],
+   "added": "2026-10-27",
+   "issue": 36
+  },
+  {
+   "id": "sciencedaily-com",
+   "kind": "feed",
+   "url": "https://www.sciencedaily.com/rss/top.xml",
+   "source": "https://www.sciencedaily.com/rss/top.xml",
+   "name": "Latest Science News -- ScienceDaily",
+   "tags": [
+    "学术",
+    "科学"
+   ],
+   "added": "2026-10-27",
+   "issue": 32
   }
  ]
 }

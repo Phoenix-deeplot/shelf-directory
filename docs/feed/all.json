@@ -9,6 +9,52 @@
   },
   "items": [
     {
+      "id": "https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/",
+      "title": "APOD: 2026 October 27 – Noctilucent Clouds over Sweden",
+      "content_text": "APOD Science APOD APOD: 2026 October 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…",
+      "summary": "APOD Science APOD APOD: 2026 October 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "APOD",
+        "航天",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "NASA"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "nasa-gov"
+      }
+    },
+    {
+      "id": "https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/",
+      "title": "A-81 Reaches South Georgia",
+      "content_text": "The Antarctic iceberg made a relatively quick exit from the Weddell Sea, only to slow at the edge of a remote island’s underwater shelf.",
+      "summary": "The Antarctic iceberg made a relatively quick exit from the Weddell Sea, only to slow at the edge of a remote island’s underwater shelf.",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "Earth Observatory",
+        "Ice & Glaciers",
+        "Terra",
+        "航天",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "NASA"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "nasa-gov"
+      }
+    },
+    {
       "id": "https://www.woshipm.com/ai/6483433.html",
       "url": "https://www.woshipm.com/ai/6483433.html",
       "title": "用 AI 做自媒体，完整流程应该怎么做？附技能包",
@@ -497,6 +543,174 @@
       }
     },
     {
+      "id": "https://www.sciencedaily.com/releases/2026/10/261025073038.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073038.htm",
+      "title": "Tiny magnetic vortices could help computers work more like your brain",
+      "content_text": "Scientists have filmed tiny magnetic vortices called skyrmions melting out of an organized lattice for the first time, revealing new ways to manipulate these un…",
+      "summary": "Scientists have filmed tiny magnetic vortices called skyrmions melting out of an organized lattice for the first time, revealing new ways to manipulate these un…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "学术",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "Latest Science News -- ScienceDaily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sciencedaily-com"
+      }
+    },
+    {
+      "id": "https://www.sciencedaily.com/releases/2026/10/261022081259.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261022081259.htm",
+      "title": "Scientists discover Arctic sea ice loss could be far worse than predicted",
+      "content_text": "Arctic winter sea ice could disappear much faster than scientists previously expected, according to new research using climate clues from 6,000 years ago. By co…",
+      "summary": "Arctic winter sea ice could disappear much faster than scientists previously expected, according to new research using climate clues from 6,000 years ago. By co…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "学术",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "Latest Science News -- ScienceDaily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sciencedaily-com"
+      }
+    },
+    {
+      "id": "https://www.sciencedaily.com/releases/2026/10/261025073051.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073051.htm",
+      "title": "New 3D thermal invisibility cloak makes objects disappear from infrared cameras",
+      "content_text": "Researchers have developed a groundbreaking 3D invisibility cloak that can hide complex objects from infrared cameras while protecting them from extreme heat an…",
+      "summary": "Researchers have developed a groundbreaking 3D invisibility cloak that can hide complex objects from infrared cameras while protecting them from extreme heat an…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "学术",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "Latest Science News -- ScienceDaily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sciencedaily-com"
+      }
+    },
+    {
+      "id": "https://www.sciencedaily.com/releases/2026/10/261025222848.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025222848.htm",
+      "title": "Exercise doesn't just strengthen your heart. It rewires it",
+      "content_text": "Regular exercise does more than strengthen the heart. New research reveals that it actually reshapes the nerves controlling how the heart functions, and the cha…",
+      "summary": "Regular exercise does more than strengthen the heart. New research reveals that it actually reshapes the nerves controlling how the heart functions, and the cha…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "学术",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "Latest Science News -- ScienceDaily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sciencedaily-com"
+      }
+    },
+    {
+      "id": "https://www.sciencedaily.com/releases/2026/10/261025073034.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073034.htm",
+      "title": "Chinese scientists discover “D-rex,” a giant fungus with roots stretching back 65 million years",
+      "content_text": "Scientists have discovered a giant new fungus in China that grows up to 20 inches tall and weighs nearly five pounds, making it the largest known of its kind. D…",
+      "summary": "Scientists have discovered a giant new fungus in China that grows up to 20 inches tall and weighs nearly five pounds, making it the largest known of its kind. D…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "学术",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "Latest Science News -- ScienceDaily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sciencedaily-com"
+      }
+    },
+    {
+      "id": "https://www.sciencedaily.com/releases/2026/10/261025073036.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073036.htm",
+      "title": "Archaeologists may have just found the world's oldest shipwreck",
+      "content_text": "A mysterious shipwreck off Turkey’s coast may be the oldest ever discovered, dating back approximately 4,500 years to the age of the Egyptian pyramids. Although…",
+      "summary": "A mysterious shipwreck off Turkey’s coast may be the oldest ever discovered, dating back approximately 4,500 years to the age of the Egyptian pyramids. Although…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "学术",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "Latest Science News -- ScienceDaily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sciencedaily-com"
+      }
+    },
+    {
+      "id": "https://www.sciencedaily.com/releases/2026/10/261024222031.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261024222031.htm",
+      "title": "AI detects “invisible” signs of pancreatic cancer years before diagnosis",
+      "content_text": "A powerful new AI system could help doctors detect pancreatic cancer years before it becomes visible on conventional scans. The technology, called REDMOD, ident…",
+      "summary": "A powerful new AI system could help doctors detect pancreatic cancer years before it becomes visible on conventional scans. The technology, called REDMOD, ident…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "学术",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "Latest Science News -- ScienceDaily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sciencedaily-com"
+      }
+    },
+    {
+      "id": "https://www.sciencedaily.com/releases/2026/10/261025073055.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073055.htm",
+      "title": "A 2,700-year-old solar eclipse just revealed something surprising about Earth",
+      "content_text": "A solar eclipse recorded more than 2,700 years ago is revealing surprising secrets about Earth's rotation and the Sun's ancient behavior. By correcting an eight…",
+      "summary": "A solar eclipse recorded more than 2,700 years ago is revealing surprising secrets about Earth's rotation and the Sun's ancient behavior. By correcting an eight…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "学术",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "Latest Science News -- ScienceDaily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sciencedaily-com"
+      }
+    },
+    {
       "id": "https://www.reddit.com/r/worldnews/comments/1xfhum9/lula_wins_a_record_fourth_term_in_brazil_in_a/",
       "url": "https://www.reddit.com/r/worldnews/comments/1xfhum9/lula_wins_a_record_fourth_term_in_brazil_in_a/",
       "title": "Lula Wins a Record Fourth Term in Brazil in a Surprise Comeback",
@@ -561,6 +775,189 @@
       "_shelf": {
         "type": "article",
         "shelf": "openculture-com"
+      }
+    },
+    {
+      "id": "https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/",
+      "url": "https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/",
+      "title": "Solar Cells Inspected on NASA’s NEO Surveyor",
+      "content_text": "Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission is inspected by a technician at BAE Systems Space & Mission Systems in Boulder…",
+      "summary": "Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission is inspected by a technician at BAE Systems Space & Mission Systems in Boulder…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Photojournal",
+        "航天",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "NASA"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "nasa-gov"
+      }
+    },
+    {
+      "id": "https://science.nasa.gov/photojournal/neo-surveyors-sunshade-gets-inspected/",
+      "url": "https://science.nasa.gov/photojournal/neo-surveyors-sunshade-gets-inspected/",
+      "title": "NEO Surveyor’s Sunshade Gets Inspected",
+      "content_text": "Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor is mounted on an assembly ring during inspections in a clean room at BAE Systems Space…",
+      "summary": "Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor is mounted on an assembly ring during inspections in a clean room at BAE Systems Space…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Photojournal",
+        "航天",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "NASA"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "nasa-gov"
+      }
+    },
+    {
+      "id": "https://www.nasa.gov/image-article/nasas-x-59-aircraft-and-test-pilot/",
+      "url": "https://www.nasa.gov/image-article/nasas-x-59-aircraft-and-test-pilot/",
+      "title": "NASA’s X-59 Aircraft and Test Pilot",
+      "content_text": "NASA test pilot Mike Lippert poses for a photo ahead of his first time flying the agency’s X-59 quiet supersonic research aircraft on Oct. 21, 2026. The X-59 ha…",
+      "summary": "NASA test pilot Mike Lippert poses for a photo ahead of his first time flying the agency’s X-59 quiet supersonic research aircraft on Oct. 21, 2026. The X-59 ha…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "航天",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "NASA"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "nasa-gov"
+      }
+    },
+    {
+      "id": "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/",
+      "url": "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/",
+      "title": "NASA’s Perseverance Views Dust at Neretva Vallis",
+      "content_text": "Description This 360-degree look at Neretva Vallis within Mars’ Jezero Crater was stitched together using 217 images acquired by the rover’s Mastcam-Z on May 20…",
+      "summary": "Description This 360-degree look at Neretva Vallis within Mars’ Jezero Crater was stitched together using 217 images acquired by the rover’s Mastcam-Z on May 20…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Mars 2020",
+        "Photojournal",
+        "航天",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "NASA"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "nasa-gov"
+      }
+    },
+    {
+      "id": "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
+      "title": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
+      "content_text": "Over 1,645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of spacesuit materials…",
+      "summary": "Over 1,645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of spacesuit materials…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Mars 2020",
+        "General",
+        "Jet Propulsion Laboratory",
+        "Mars",
+        "Perseverance (Rover)",
+        "Planetary Science Division",
+        "航天",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "NASA"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "nasa-gov"
+      }
+    },
+    {
+      "id": "https://www.nasa.gov/news-release/nasa-usda-sign-agreement-advancing-earth-science-agriculture/",
+      "url": "https://www.nasa.gov/news-release/nasa-usda-sign-agreement-advancing-earth-science-agriculture/",
+      "title": "NASA, USDA Sign Agreement Advancing Earth Science, Agriculture",
+      "content_text": "NASA and the U.S. Department of Agriculture (USDA) have signed a Memorandum of Understanding expanding cooperation in Earth observation, geospatial analytics, a…",
+      "summary": "NASA and the U.S. Department of Agriculture (USDA) have signed a Memorandum of Understanding expanding cooperation in Earth observation, geospatial analytics, a…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Earth Science Division",
+        "Science Mission Directorate",
+        "航天",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "NASA"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "nasa-gov"
+      }
+    },
+    {
+      "id": "https://science.nasa.gov/learning-resources/science-activation/nasa-sees-interns-tackle-real-world-challenges-in-lunar-exploration/",
+      "url": "https://science.nasa.gov/learning-resources/science-activation/nasa-sees-interns-tackle-real-world-challenges-in-lunar-exploration/",
+      "title": "NASA SEES Interns Tackle Real-World Challenges in Lunar Exploration",
+      "content_text": "The NASA STEM (Science, Technology, Engineering, and Mathematics) Enhancement in Earth Science (SEES) Internship Program at the University of Texas Center for S…",
+      "summary": "The NASA STEM (Science, Technology, Engineering, and Mathematics) Enhancement in Earth Science (SEES) Internship Program at the University of Texas Center for S…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Science Activation",
+        "航天",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "NASA"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "nasa-gov"
+      }
+    },
+    {
+      "id": "https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/",
+      "title": "NASA Invites Media to Moon Landing Simulation Experience in California",
+      "content_text": "Members of the media are invited to tour a new lunar landing simulator at NASA’s Ames Research Center in California's Silicon Valley on Thursday, Oct. 29, and F…",
+      "summary": "Members of the media are invited to tour a new lunar landing simulator at NASA’s Ames Research Center in California's Silicon Valley on Thursday, Oct. 29, and F…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Ames Research Center",
+        "Artemis",
+        "航天",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "NASA"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "nasa-gov"
       }
     },
     {
@@ -781,457 +1178,6 @@
       "_shelf": {
         "type": "article",
         "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/review/wallhack-m-001/",
-      "url": "https://www.wired.com/review/wallhack-m-001/",
-      "title": "Wallhack M-001 Review: When Fun Overrides Specs",
-      "content_text": "With a tactile dongle for on-the-fly customization and a metal chassis, the Wallhack M-001 is the most fun I've had reviewing a gaming mouse in a long time.",
-      "summary": "With a tactile dongle for on-the-fly customization and a metal chassis, the Wallhack M-001 is the most fun I've had reviewing a gaming mouse in a long time.",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adbbc51f337c510e207c213/master/pass/Review%20Wallhack%20M-001%20Gaming%20Mouse%20102026%20top%20art%20SOURCE%20Wallhack.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Products",
-        "Gear / Reviews",
-        "Gear / Products / Computers",
-        "Gear / Products / Gaming",
-        "Product Review",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/macbook-pro-m5-max-deal-october-2026/",
-      "url": "https://www.wired.com/story/macbook-pro-m5-max-deal-october-2026/",
-      "title": "The MacBook Pro Max Just Dropped to Its Lowest Price Ever",
-      "content_text": "Apple will reportedly launch an innovative new MacBook next week, which means existing options have their largest discount yet.",
-      "summary": "Apple will reportedly launch an innovative new MacBook next week, which means existing options have their largest discount yet.",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adbb2adc29fe197e2045863/master/pass/MacBook%20Pro%20Prices%20Drop%20to%20All-Time%20Low%20deals%20102026%20top%20art%20SOURCE%20Amazon.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Gear / Products",
-        "Gear / Products / Computers",
-        "Mac Money",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets/",
-      "url": "https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets/",
-      "title": "Scientists Trapped an Antimatter Particle for Months to Study Its Secrets",
-      "content_text": "These elusive and reactive particles have been challenging to hold on to and even more challenging to study, but a new method paves the way for tests on the dif…",
-      "summary": "These elusive and reactive particles have been challenging to hold on to and even more challenging to study, but a new method paves the way for tests on the dif…",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adaaa0519e924cf3288639a/master/pass/1344013114",
-      "tags": [
-        "Science",
-        "Science / Physics and Math",
-        "Catch and Release",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/oil-spills-wreak-havoc-on-the-bottom-of-the-ocean-even-a-decade-later/",
-      "url": "https://www.wired.com/story/oil-spills-wreak-havoc-on-the-bottom-of-the-ocean-even-a-decade-later/",
-      "title": "Oil Spills Wreak Havoc on the Bottom of the Ocean, Even a Decade Later",
-      "content_text": "While oil is known to float, new research finds that over time it can permeate even extremely deep marine habitats, with animal populations declining by as much…",
-      "summary": "While oil is known to float, new research finds that over time it can permeate even extremely deep marine habitats, with animal populations declining by as much…",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad9cf0216c3bcd306bcde9c/master/pass/GettyImages-99306371.jpg",
-      "tags": [
-        "Science",
-        "Science / Environment",
-        "Slippery When Wet",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/review/hyve-smart-package-locker/",
-      "url": "https://www.wired.com/review/hyve-smart-package-locker/",
-      "title": "Hyve Smart Package Locker Review: Protecting Your Holiday Deliveries",
-      "content_text": "Hyve’s smart porch lockbox can secure incoming gifts—if your delivery driver uses it and there’s still room inside.",
-      "summary": "Hyve’s smart porch lockbox can secure incoming gifts—if your delivery driver uses it and there’s still room inside.",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adbc78d80db711000c07c3f/master/pass/Review%20Hyve%20Smart%20Package%20Locker%20102026%20top%20art%20SOURCE%20Shop.com.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Reviews",
-        "Gear / Products / Home",
-        "Merry Mail",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/apple-carplay-and-android-auto-make-your-phone-hot-heres-how-to-keep-it-cool/",
-      "url": "https://www.wired.com/story/apple-carplay-and-android-auto-make-your-phone-hot-heres-how-to-keep-it-cool/",
-      "title": "Apple CarPlay and Android Auto Make Your Phone Hot. Here’s How to Keep It Cool",
-      "content_text": "Powering a car dashboard is more demanding on your handset than you might think. These tips will save battery life and help your phone chill out.",
-      "summary": "Powering a car dashboard is more demanding on your handset than you might think. These tips will save battery life and help your phone chill out.",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada0a2fe1636641cd0c0f13/master/pass/Car%20Wired.jpg",
-      "tags": [
-        "Gear",
-        "Gear / How To and Advice",
-        "Hot Wheels",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/gallery/best-folding-phones/",
-      "url": "https://www.wired.com/gallery/best-folding-phones/",
-      "title": "6 Best Folding Phones (2026): Samsung, Apple, Google, Motorola",
-      "content_text": "Ready to move on from the traditional glass slab? Introduce a hinge into your life with these folding smartphones.",
-      "summary": "Ready to move on from the traditional glass slab? Introduce a hinge into your life with these folding smartphones.",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adb855058fe17d926e68364/master/pass/Best%20Folding%20Phones%20iPhone%20Duo%20102026%20top%20art%20SOURCE%20Samsung-Apple.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Buying Guides",
-        "Gear / Products / Phones",
-        "Into the Fold",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://sspai.com/post/114741",
-      "url": "https://sspai.com/post/114741",
-      "title": "60 元打造你的 vibe coding 神器：小米蓝牙遥控器 2 pro",
-      "content_text": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
-      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "效率",
-        "工具"
-      ],
-      "authors": [
-        {
-          "name": "少数派"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "sspai-com"
-      }
-    },
-    {
-      "id": "https://slate.com/life/2026/10/men-women-dating-app-boring.html?via=rss",
-      "url": "https://slate.com/life/2026/10/men-women-dating-app-boring.html?via=rss",
-      "title": "Women Are Clamoring for More Exciting, Vivacious Men. Well, I Met One. It Sucked.",
-      "content_text": "We’re constantly asking men to be more interesting and romantic. Maybe we shouldn’t.",
-      "summary": "We’re constantly asking men to be more interesting and romantic. Maybe we shouldn’t.",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://compote.slate.com/images/edd87a19-e459-4a93-9b20-7f2f5e4e6a87.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "Celebrities",
-        "Dating and Relationships",
-        "Movies",
-        "Relationships",
-        "Travel",
-        "Women",
-        "Rom-Coms",
-        "Men"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/life/2026/10/word-game-slate-pears-437-for-october-25-2026.html?via=rss",
-      "url": "https://slate.com/life/2026/10/word-game-slate-pears-437-for-october-25-2026.html?via=rss",
-      "title": "Slate Pears Game 437: Oct. 25, 2026",
-      "content_text": "Today's puzzle has eight pears.",
-      "summary": "Today's puzzle has eight pears.",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://compote.slate.com/images/61d47363-da12-4f08-a295-7bf3f3f4f236.png",
-      "tags": [
-        "Slate Games",
-        "Pears",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-25-2026.html?via=rss",
-      "url": "https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-25-2026.html?via=rss",
-      "title": "Slate Mini Crossword for Oct. 25, 2026",
-      "content_text": "Take a quick break with our daily 5x5 grid.",
-      "summary": "Take a quick break with our daily 5x5 grid.",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://compote.slate.com/images/9ba6a7ed-df0c-4a7d-a4bb-9937e0937dfc.jpeg",
-      "tags": [
-        "Mini Crossword",
-        "Slate Games",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/life/2026/10/crossword-slate-daily-puzzle-oct-25-2026.html?via=rss",
-      "url": "https://slate.com/life/2026/10/crossword-slate-daily-puzzle-oct-25-2026.html?via=rss",
-      "title": "Slate Crossword: DJUNGELSKOG Purveyor (Four Letters)",
-      "content_text": "Ready for some wordplay? Sharpen your skills with Slate’s puzzle for Oct. 25, 2026.",
-      "summary": "Ready for some wordplay? Sharpen your skills with Slate’s puzzle for Oct. 25, 2026.",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://compote.slate.com/images/eb10aaaf-9466-419d-a6cd-d01f745ddbf8.jpeg?crop=3000%2C2000%2Cx0%2Cy0",
-      "tags": [
-        "Slate Games",
-        "Crossword",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/culture/2026/10/edgar-allan-poe-poems-stories-most-influential-american-writer-death-horror-detective.html?via=rss",
-      "url": "https://slate.com/culture/2026/10/edgar-allan-poe-poems-stories-most-influential-american-writer-death-horror-detective.html?via=rss",
-      "title": "One Literary Giant Is Rarely Associated With His Homeland. Make No Mistake: He’s the Most Influential American Writer of All.",
-      "content_text": "Not Mark Twain, not Herman Melville, not F. Scott Fitzgerald.",
-      "summary": "Not Mark Twain, not Herman Melville, not F. Scott Fitzgerald.",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://compote.slate.com/images/c56283ac-f571-4c31-ad80-50bf487295ab.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "Books",
-        "History",
-        "Slate Book Review",
-        "Horror",
-        "Mystery",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/advice/2026/10/parent-advice-child-care-in-laws-babysitting.html?via=rss",
-      "url": "https://slate.com/advice/2026/10/parent-advice-child-care-in-laws-babysitting.html?via=rss",
-      "title": "My Mother-in-Law Has Been Secretly Harboring Resentment About the Way We Do Child Care. Now It’s All Come to Light.",
-      "content_text": "I had no idea.",
-      "summary": "I had no idea.",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://compote.slate.com/images/82d85bc1-0212-4515-9aba-21df2d15d785.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "Advice",
-        "Family",
-        "Kids",
-        "Parenting",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/advice/2026/10/big-size-sex-advice-toy-pump-penis.html?via=rss",
-      "url": "https://slate.com/advice/2026/10/big-size-sex-advice-toy-pump-penis.html?via=rss",
-      "title": "I Accidentally Super-Sized My Penis. It’s Awesome … and Terrifying.",
-      "content_text": "It looks a little funny when it's flaccid.",
-      "summary": "It looks a little funny when it's flaccid.",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://compote.slate.com/images/bb1e7de0-e46f-477c-b3e1-ef4a3b39db69.gif?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "Advice",
-        "Sex",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/technology/2026/10/openai-hugging-face-ai-agent-crime.html?via=rss",
-      "url": "https://slate.com/technology/2026/10/openai-hugging-face-ai-agent-crime.html?via=rss",
-      "title": "A New Kind of Crime Is Emerging. The Justice System Doesn’t Know Whom to Blame.",
-      "content_text": "The justice system is in dire need of a software update.",
-      "summary": "The justice system is in dire need of a software update.",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://compote.slate.com/images/9ff3ed33-ef38-4f67-9f0d-0bb8516aa423.jpeg?crop=1206%2C804%2Cx354%2Cy50",
-      "tags": [
-        "Artificial Intelligence",
-        "Crime",
-        "Criminal Justice",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/meirl/comments/1xf8guh/meirl/",
-      "url": "https://www.reddit.com/r/meirl/comments/1xf8guh/meirl/",
-      "title": "meirl",
-      "content_text": "submitted by /u/YettiGoingRogue to r/meirl [link] [comments]",
-      "summary": "submitted by /u/YettiGoingRogue to r/meirl [link] [comments]",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://preview.redd.it/jpm48mwofnxh1.jpeg?width=640&crop=smart&auto=webp&s=9e5ccebbb685170ca82dfdda11c84a43b6adb78c",
-      "tags": [
-        "meirl",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/memes/comments/1xexnp6/where_is_it/",
-      "url": "https://www.reddit.com/r/memes/comments/1xexnp6/where_is_it/",
-      "title": "Where is it",
-      "content_text": "submitted by /u/UnsuspectingFart to r/memes [link] [comments]",
-      "summary": "submitted by /u/UnsuspectingFart to r/memes [link] [comments]",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://preview.redd.it/xju4c8w7ykxh1.jpeg?width=640&crop=smart&auto=webp&s=824546d120423c844b84aaff2b27158f11948eff",
-      "tags": [
-        "memes",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
       }
     }
   ]
