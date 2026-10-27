@@ -378,15 +378,16 @@ function saveButton(label, action, get, after){
   return { b, msg };
 }
 function programOpsCard(p){
-  const status = el('select', { 'aria-label': '节目状态' }, ['fixed','dynamic','trial','paused'].map(v => el('option', { value: v, selected: v === p.status, text: ({fixed:'固定',dynamic:'动态',trial:'试运行',paused:'暂停'})[v] })));
   const pub = el('input', { type: 'checkbox', checked: !!p.public_enabled }), recommend = el('input', { type: 'checkbox', checked: !!p.recommend_enabled });
   const weight = el('input', { type: 'number', min: '-30', max: '30', value: String(p.editorial_weight || 0), 'aria-label': '权重' });
-  const save = saveButton('保存节目', 'save_program', () => ({ id:p.id, status:status.value, public_enabled:pub.checked, recommend_enabled:recommend.checked, editorial_weight:weight.value }));
-  return el('article', { class: 'card ops-card' }, el('h3', { text: p.name }),
-    el('p', { class: 'meta' }, el('span', { class:'badge ' + p.status, text:({fixed:'固定',dynamic:'动态',trial:'试运行',paused:'暂停'})[p.status] || p.status }), p.platform || '未标平台', p.directory_id || ''),
-    el('p', { class:'muted', text:'近 30 天：打开 ' + num(p.opens) + ' · 收藏 ' + num(p.saves) + ' · 点赞 ' + num(p.likes) + (p.consecutive_failures ? ' · 连续失败 ' + p.consecutive_failures : '') }),
-    el('div', { class:'ops-grid' }, el('div', {}, el('label', { text:'采集状态' }), status), el('label', { class:'check', text:'进入公共空间' }, pub), el('label', { class:'check', text:'允许推荐' }, recommend), el('div', {}, el('label', { text:'人工权重（-30 ~ 30）' }), weight)),
-    el('div', { class:'actions' }, save.b), save.msg);
+  const save = saveButton('保存展示设置', 'save_program', () => ({ id:p.id, public_enabled:pub.checked, recommend_enabled:recommend.checked, editorial_weight:weight.value }));
+  const lifecycle=({fixed:'固定',dynamic:'动态',trial:'试运行',paused:'暂停'})[p.status] || p.status;
+  return el('details', { class: 'card ops-card' }, el('summary', { class:'ops-card-summary' }, el('strong', { text:p.name }), el('span', { class:'badge ' + p.status, text:lifecycle }), el('span', { class:'muted', text:'打开 '+num(p.opens)+' · 收藏 '+num(p.saves) })),
+    el('div', { class:'ops-card-body' }, el('p', { class: 'meta' }, p.platform || '未标平台', p.directory_id || ''),
+      el('p', { class:'muted', text:'近 30 天：打开 ' + num(p.opens) + ' · 收藏 ' + num(p.saves) + ' · 点赞 ' + num(p.likes) + (p.consecutive_failures ? ' · 连续失败 ' + p.consecutive_failures : '') }),
+      el('p', { class:'muted', text:'采集状态在“来源”页维护；这里仅控制公共空间曝光与推荐。' }),
+      el('div', { class:'ops-grid' }, el('label', { class:'check', text:'进入公共空间' }, pub), el('label', { class:'check', text:'允许推荐' }, recommend), el('div', {}, el('label', { text:'人工权重（-30 ~ 30）' }), weight)),
+      el('div', { class:'actions' }, save.b), save.msg));
 }
 function moduleOpsCard(m){
   const on = el('input', { type:'checkbox', checked:!!m.enabled });
@@ -397,8 +398,8 @@ function moduleOpsCard(m){
     let c = {}; try{ c = config.value.trim() ? JSON.parse(config.value) : {}; }catch(e){ throw new Error('模块配置必须是 JSON'); }
     return {slug:m.slug, enabled:on.checked, device:device.value, limit_count:limit.value, config:c};
   });
-  return el('article',{class:'card ops-card'},el('h3',{text:m.name || m.slug}),el('p',{class:'muted',text:'控制公共空间里这个区块是否出现、在哪种设备出现和展示多少篇。来源范围/排序规则仍在 config 中，后续可按你的推荐公式扩展。'}),
-    el('div',{class:'ops-grid'},el('label',{class:'check',text:'启用'},on),el('div',{},el('label',{text:'设备'}),device),el('div',{},el('label',{text:'条数'}),limit),el('div',{class:'full'},el('label',{text:'高级配置（JSON）'}),config)),el('div',{class:'actions'},save.b),save.msg);
+  return el('article',{class:'card ops-card'},el('h3',{text:m.name || m.slug}),el('p',{class:'muted',text:'控制公共空间里这个区块是否出现、在哪种设备出现和展示多少篇。'}),
+    el('div',{class:'ops-grid'},el('label',{class:'check',text:'启用'},on),el('div',{},el('label',{text:'设备'}),device),el('div',{},el('label',{text:'条数'}),limit)),el('details',{class:'ops-advanced'},el('summary',{text:'高级排序与来源范围（JSON）'}),config),el('div',{class:'actions'},save.b),save.msg);
 }
 function adOpsCard(a){
   const on=el('input',{type:'checkbox',checked:!!a.enabled});
@@ -413,7 +414,7 @@ function coverOpsCard(c){
   const active=el('input',{type:'checkbox',checked:!!c.is_active});
   const config=el('textarea',{rows:'5',spellcheck:'false',text:JSON.stringify(c.render_config || {},null,2),'aria-label':'动态封面 JSON'});
   const save=saveButton('保存 Cover','save_cover',()=>{let v={};try{v=config.value.trim()?JSON.parse(config.value):{};}catch(e){throw new Error('Cover 配置必须是 JSON');}return {slug:c.slug,name:name.value,render_engine:c.render_engine || 'canvas',render_config:v,is_active:active.checked};});
-  return el('article',{class:'card ops-card'},el('h3',{text:c.slug}),el('p',{class:'muted',text:'Canvas 粒子/科技风封面由公共空间前端按此配置渲染；文字会落在安全区，减少动态背景干扰。'}),el('div',{class:'ops-grid'},el('div',{class:'full'},el('label',{text:'名称'}),name),el('label',{class:'check',text:'可选用'},active),el('div',{class:'full'},el('label',{text:'渲染配置（JSON）'}),config)),el('div',{class:'actions'},save.b),save.msg);
+  return el('article',{class:'card ops-card'},el('h3',{text:c.slug}),el('p',{class:'muted',text:'Canvas 粒子/科技风封面由公共空间前端按此配置渲染。'}),el('div',{class:'ops-grid'},el('div',{class:'full'},el('label',{text:'名称'}),name),el('label',{class:'check',text:'可选用'},active)),el('details',{class:'ops-advanced'},el('summary',{text:'渲染配置（JSON）'}),config),el('div',{class:'actions'},save.b),save.msg);
 }
 function addParticleCover(){
   return {slug:'particle-network',name:'粒子网络',render_engine:'canvas',is_active:true,render_config:{palette:['#0B4F3B','#1F7A6D','#6FB98F','#E8C778'],particle_count_desktop:42,particle_count_mobile:18,speed:0.22,connect_distance:110,text_safe_area:'bottom',reduced_motion:'static-svg'}};
@@ -427,34 +428,101 @@ function contentOpsRow(c, covers){
   const placements=Object.entries(placementNames).map(([slug,name])=>el('label',{class:'check'},el('input',{type:'checkbox',value:slug,checked:chosen.has(slug)}),name));
   const reason=el('input',{type:'text',maxlength:'160',value:c.editorial_note || '',placeholder:'例如：本周热读 / 正在发生'});
   const save=saveButton('保存','save_content',()=>({id:c.id,editorial_weight:weight.value,hidden:hidden.checked,cover_mode:mode.value,cover_preset_id:preset.value,editorial_note:reason.value,placement_modules:placements.filter(x=>x.querySelector('input').checked).map(x=>x.querySelector('input').value)}));
-  return el('article',{class:'card ops-card compact'},el('h3',{text:c.title}),el('p',{class:'meta'},c.program_name, c.language || '', '打开 '+num(c.opens), '收藏 '+num(c.saves)),el('div',{class:'ops-grid'},el('div',{},el('label',{text:'权重'}),weight),el('label',{class:'check',text:'隐藏'},hidden),el('div',{},el('label',{text:'封面'}),mode),el('div',{},el('label',{text:'动态 Cover'}),preset),el('div',{class:'full'},el('label',{text:'投放到栏目'}),el('div',{class:'topics-box'},placements)),el('div',{class:'full'},el('label',{text:'推荐理由'}),reason)),el('div',{class:'actions'},save.b),save.msg);
+  return el('details',{class:'card ops-card compact'},el('summary',{class:'ops-card-summary'},el('strong',{text:c.title}),el('span',{class:'muted',text:c.program_name+' · 打开 '+num(c.opens)+' · 收藏 '+num(c.saves)}),c.hidden ? el('span',{class:'badge paused',text:'隐藏'}) : null),el('div',{class:'ops-card-body'},el('p',{class:'meta'},c.language || '', c.kind || ''),el('div',{class:'ops-grid'},el('div',{},el('label',{text:'权重'}),weight),el('label',{class:'check',text:'隐藏'},hidden),el('div',{},el('label',{text:'封面'}),mode),el('div',{},el('label',{text:'动态 Cover'}),preset),el('div',{class:'full'},el('label',{text:'投放到栏目'}),el('div',{class:'topics-box'},placements)),el('div',{class:'full'},el('label',{text:'推荐理由'}),reason)),el('div',{class:'actions'},save.b),save.msg));
 }
+let opsRenderVersion=0;
 async function renderOps(){
+  const renderVersion=++opsRenderVersion;
   const box=$('#ops'); box.textContent='';
   if(state.mode !== 'password') { box.append(el('p',{class:'empty',text:'运营页需要用管理密码登录。这样数据库凭据不会被放入浏览器；来源、审核仍可使用 GitHub 令牌模式。'})); return; }
   box.append(el('p',{class:'muted',text:'来源页管理采集与基础分类；这里管理公共空间的展示结果。同步只导入目录内容，不会把人工的推荐、隐藏、权重和广告设置覆盖掉。分享模板暂未接入。'}));
   let schema, data;
   try{ schema=await ops('schema_status'); }
-  catch(e){ box.append(el('p',{class:'msg bad',text:e.message})); return; }
+  catch(e){ if(renderVersion===opsRenderVersion) box.append(el('p',{class:'msg bad',text:e.message})); return; }
+  if(renderVersion!==opsRenderVersion) return;
   if(!schema.ready){
     const missing=Object.entries(schema.missing||{}).map(([table, columns])=>table + ': ' + columns.join(', '));
     box.append(el('section',{class:'card'},el('h2',{text:'运营数据库尚未完成迁移'}),el('p',{class:'msg bad',text:'当前函数连接的数据库缺少以下字段。请在同一个 Postgres 数据库执行 004_ops_complete_repair.sql；执行成功后刷新本页。'}),el('pre',{class:'doc',text:missing.join('\n')})));
     return;
   }
   try{ data=await Promise.all([ops('dashboard'),ops('programs'),ops('modules'),ops('covers'),ops('ads'),ops('contents')]); }
-  catch(e){ box.append(el('p',{class:'msg bad',text:e.message})); return; }
+  catch(e){ if(renderVersion===opsRenderVersion) box.append(el('p',{class:'msg bad',text:e.message})); return; }
+  if(renderVersion!==opsRenderVersion) return;
   const [dash, programs, modules, covers, ads, contents]=data;
   const sync=el('button',{type:'button',class:'primary',text:'同步目录到运营库',onclick:async()=>{sync.disabled=true; sync.textContent='同步中…'; try{const r=await ops('sync_directory'); sync.textContent='已同步 '+r.programs+' 个节目 / '+r.contents+' 篇内容'; await renderOps();}catch(e){sync.textContent=e.message;sync.className='danger';} sync.disabled=false;}});
   const metric=dash.metrics||{};
-  box.append(el('section',{class:'ops-summary'},el('div',{class:'metric'},el('b',{text:String(dash.pending||0)}),el('span',{text:'待处理内容'})),el('div',{class:'metric'},el('b',{text:num(metric.opens)}),el('span',{text:'近 7 天打开'})),el('div',{class:'metric'},el('b',{text:num(metric.saves)}),el('span',{text:'近 7 天收藏'})),el('div',{class:'metric'},el('b',{text:num(metric.likes)}),el('span',{text:'近 7 天点赞'}))),el('div',{class:'actions'},sync));
-  if((dash.alerts||[]).length) box.append(el('section',{class:'card'},el('h2',{text:'需要留意'}),...(dash.alerts||[]).map(x=>el('p',{class:'muted',text:(x.name||x.directory_id)+' · '+(x.status==='paused'?'已暂停':'连续采集失败 '+x.consecutive_failures+' 次')}))));
-  const section=(title,desc,items)=>el('section',{class:'ops-section'},el('h2',{text:title}),el('p',{class:'muted',text:desc}),...items);
-  box.append(section('节目表现与投放','根据近 30 天打开、收藏、点赞，决定是否进入公共空间或推荐。权重只作人工微调，不替代数据。',programs.map(programOpsCard)));
-  box.append(section('公共空间栏目','每个模块可独立控制设备和条数。',modules.map(moduleOpsCard)));
+  const tabDefs=[['overview','概览'],['programs','节目'],['content','内容'],['modules','展示模块'],['assets','封面与广告']];
+  const tabs=el('nav',{class:'tabs ops-tabs',role:'tablist','aria-label':'运营功能'});
+  const panels={}; let active='overview';
+  const activate=id=>{
+    active=id;
+    tabDefs.forEach(([key])=>{ panels[key].hidden=key!==id; tabs.querySelector('[data-ops-tab="'+key+'"]').setAttribute('aria-selected',String(key===id)); });
+  };
+  tabDefs.forEach(([id,label])=>{
+    const button=el('button',{type:'button',role:'tab','data-ops-tab':id,'aria-selected':id===active,text:label,onclick:()=>activate(id)});
+    tabs.append(button); panels[id]=el('section',{class:'ops-panel',role:'tabpanel',hidden:id!==active});
+  });
+
+  const overview=panels.overview;
+  overview.append(el('section',{class:'ops-summary'},el('div',{class:'metric'},el('b',{text:String(dash.pending||0)}),el('span',{text:'待处理内容'})),el('div',{class:'metric'},el('b',{text:num(metric.opens)}),el('span',{text:'近 7 天打开'})),el('div',{class:'metric'},el('b',{text:num(metric.saves)}),el('span',{text:'近 7 天收藏'})),el('div',{class:'metric'},el('b',{text:num(metric.likes)}),el('span',{text:'近 7 天点赞'}))),el('div',{class:'actions'},sync));
+  if((dash.alerts||[]).length) overview.append(el('section',{class:'card'},el('h2',{text:'需要留意'}),...(dash.alerts||[]).map(x=>el('p',{class:'muted',text:(x.name||x.directory_id)+' · '+(x.status==='paused'?'已暂停':'连续采集失败 '+x.consecutive_failures+' 次')}))));
+  else overview.append(el('p',{class:'empty',text:'没有需要处理的采集异常。'}));
+
+  const programPanel=panels.programs;
+  programPanel.append(el('h2',{text:'节目表现与曝光'}),el('p',{class:'muted',text:'“来源”页负责采集、暂停和分类；这里仅决定节目是否进入公共空间、是否可被推荐，以及人工权重。'}));
+  const programQuery=el('input',{type:'search',placeholder:'搜索节目、平台或编号'});
+  const programState=el('select',{'aria-label':'筛选节目'},[['all','全部节目'],['public','已进入公共空间'],['recommend','允许推荐'],['paused','已暂停'],['off','未公开或未推荐']].map(x=>el('option',{value:x[0],text:x[1]})));
+  const programCount=el('p',{class:'muted'}), programList=el('div',{class:'ops-list'});
+  const drawPrograms=()=>{
+    const q=programQuery.value.trim().toLowerCase(), mode=programState.value;
+    const rows=programs.filter(p=>{
+      const text=[p.name,p.platform,p.directory_id].join(' ').toLowerCase();
+      if(q && !text.includes(q)) return false;
+      if(mode==='public') return !!p.public_enabled;
+      if(mode==='recommend') return !!p.recommend_enabled;
+      if(mode==='paused') return p.status==='paused';
+      if(mode==='off') return !p.public_enabled && !p.recommend_enabled;
+      return true;
+    });
+    programCount.textContent='显示 '+rows.length+' / '+programs.length+' 个节目（点击节目展开设置）';
+    programList.textContent=''; rows.forEach(p=>programList.append(programOpsCard(p)));
+    if(!rows.length) programList.append(el('p',{class:'empty',text:'没有符合筛选条件的节目。'}));
+  };
+  programQuery.addEventListener('input',drawPrograms); programState.addEventListener('change',drawPrograms);
+  programPanel.append(el('div',{class:'ops-filters'},programQuery,programState),programCount,programList); drawPrograms();
+
+  const contentPanel=panels.content;
+  contentPanel.append(el('h2',{text:'内容编辑'}),el('p',{class:'muted',text:'只在需要时展开一篇内容，设置人工权重、隐藏、动态封面与栏目投放。'}));
+  const contentQuery=el('input',{type:'search',placeholder:'搜索标题或节目'});
+  const languages=['',...Array.from(new Set(contents.map(c=>c.language).filter(Boolean))).sort()];
+  const contentLanguage=el('select',{'aria-label':'筛选语言'},languages.map(v=>el('option',{value:v,text:v||'全部语言'})));
+  const contentState=el('select',{'aria-label':'筛选内容状态'},[['all','全部内容'],['visible','正常显示'],['hidden','已隐藏'],['placed','已投放栏目']].map(x=>el('option',{value:x[0],text:x[1]})));
+  const contentCount=el('p',{class:'muted'}), contentList=el('div',{class:'ops-list'}); let contentLimit=20;
+  const drawContents=()=>{
+    const q=contentQuery.value.trim().toLowerCase(), lang=contentLanguage.value, mode=contentState.value;
+    const rows=contents.filter(c=>{
+      if(q && ![c.title,c.program_name,c.directory_id].join(' ').toLowerCase().includes(q)) return false;
+      if(lang && c.language!==lang) return false;
+      if(mode==='visible') return !c.hidden;
+      if(mode==='hidden') return !!c.hidden;
+      if(mode==='placed') return Array.isArray(c.placement_slugs) && c.placement_slugs.length;
+      return true;
+    });
+    const shown=rows.slice(0,contentLimit); contentCount.textContent='显示 '+shown.length+' / '+rows.length+' 篇内容；默认按近 30 天打开量排序。';
+    contentList.textContent=''; shown.forEach(c=>contentList.append(contentOpsRow(c,covers)));
+    if(!rows.length) contentList.append(el('p',{class:'empty',text:'没有符合筛选条件的内容。'}));
+    if(rows.length>shown.length) contentList.append(el('button',{type:'button',text:'再显示 20 篇',onclick:()=>{contentLimit+=20;drawContents();}}));
+  };
+  contentQuery.addEventListener('input',()=>{contentLimit=20;drawContents();}); contentLanguage.addEventListener('change',()=>{contentLimit=20;drawContents();}); contentState.addEventListener('change',()=>{contentLimit=20;drawContents();});
+  contentPanel.append(el('div',{class:'ops-filters'},contentQuery,contentLanguage,contentState),contentCount,contentList); drawContents();
+
+  const modulePanel=panels.modules;
+  modulePanel.append(el('h2',{text:'公共空间模块'}),el('p',{class:'muted',text:'控制栏目是否显示、设备范围和展示数量；高级排序与来源范围按需展开。'}),...modules.map(moduleOpsCard));
+
+  const assetPanel=panels.assets;
   const addCover=el('button',{type:'button',text:'加入粒子网络预设',onclick:async()=>{try{await ops('save_cover',addParticleCover());await renderOps();}catch(e){say(e.message,'bad');}}});
-  box.append(section('动态 Cover','封面配置只保存“风格规则”，不生成带字的图片。文章标题由前端实时叠加，因此不会因为不同尺寸裁切变形。',[el('div',{class:'actions'},addCover),...covers.map(coverOpsCard)]));
-  box.append(section('广告位','只管理位置和设备；广告代码继续留在前端配置。',ads.map(adOpsCard)));
-  box.append(section('近期内容编辑','控制推荐、隐藏和 Cover 策略。',contents.slice(0,30).map(c=>contentOpsRow(c,covers))));
+  assetPanel.append(el('h2',{text:'动态 Cover'}),el('p',{class:'muted',text:'封面配置只保存风格规则，标题由公共空间前端实时叠加。'}),el('div',{class:'actions'},addCover),...covers.map(coverOpsCard),el('h2',{text:'广告位'}),el('p',{class:'muted',text:'只管理位置和设备；广告代码继续留在前端配置。'}),...ads.map(adOpsCard));
+  box.append(tabs,...tabDefs.map(([id])=>panels[id]));
 }
 async function renderDone(){
   const box = $('#done'); box.textContent = '';
@@ -510,7 +578,7 @@ async function loadDirectory(){
 }
 async function refresh(){
   if(state.busy) return; state.busy = true; say('正在读取…');
-  try{ await loadDirectory(); await Promise.all([loadRegistry(), renderPending(), renderDone()]); renderListed(); renderSources(); renderOps(); say(''); }
+  try{ await loadDirectory(); await Promise.all([loadRegistry(), renderPending(), renderDone()]); renderListed(); renderSources(); if(!$('#ops').hidden) await renderOps(); say(''); }
   catch(e){ say(e.message, 'bad'); }
   state.busy = false;
 }

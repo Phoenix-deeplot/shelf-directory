@@ -285,17 +285,64 @@ def get_contents(cur):
     return rows
 
 
+def public_config(cur):
+    """The small, safe-to-publish part of operations settings.
+
+    The reader only needs presentation flags keyed by stable directory IDs. It
+    excludes admin notes, database IDs, raw ad code and all credentials, so it
+    can be fetched by books.zhitree.cn without a session.
+    """
+    cur.execute("""SELECT slug,enabled,device,limit_count,config
+                   FROM ops.channel_modules ORDER BY sort_order,slug""")
+    modules = [{"slug": row["slug"], "enabled": bool(row["enabled"]),
+                "device": row["device"], "limit_count": row["limit_count"],
+                "config": _json(row.get("config"), {})} for row in _rows(cur)]
+    cur.execute("""SELECT directory_id,public_enabled,recommend_enabled,editorial_weight
+                   FROM ops.programs WHERE directory_id IS NOT NULL""")
+    programs = [{"id": row["directory_id"], "public_enabled": bool(row["public_enabled"]),
+                 "recommend_enabled": bool(row["recommend_enabled"]),
+                 "editorial_weight": row["editorial_weight"]} for row in _rows(cur)]
+    cur.execute("""SELECT c.content_key,COALESCE(o.editorial_weight,0) editorial_weight,
+                          COALESCE(o.hidden,false) hidden,COALESCE(o.cover_mode,'auto') cover_mode,
+                          COALESCE((SELECT jsonb_agg(cm.slug ORDER BY cm.sort_order)
+                           FROM ops.content_placements cp JOIN ops.channel_modules cm ON cm.id=cp.module_id
+                           WHERE cp.content_id=c.id), '[]'::jsonb) placement_slugs
+                   FROM ops.content_items c LEFT JOIN ops.content_overrides o ON o.content_id=c.id
+                   WHERE c.content_key LIKE 'dir:%'""")
+    items = []
+    for row in _rows(cur):
+        key = str(row.get("content_key") or "")
+        if key.startswith("dir:"):
+            items.append({"id": key[4:], "hidden": bool(row["hidden"]),
+                          "editorial_weight": row["editorial_weight"], "cover_mode": row["cover_mode"],
+                          "placement_slugs": _json(row.get("placement_slugs"), [])})
+    cur.execute("""SELECT slug,enabled,device,placement,after_item
+                   FROM ops.ad_placements WHERE page_scope='public' ORDER BY slug""")
+    ads = [{"slug": row["slug"], "enabled": bool(row["enabled"]), "device": row["device"],
+            "placement": row["placement"], "after_item": row["after_item"]} for row in _rows(cur)]
+    return {"version": 1, "modules": modules, "programs": programs, "items": items, "ads": ads}
+
+
 def _save_program(cur, payload):
     pid = str(payload.get("id") or "")
     if not re.fullmatch(r"[0-9a-f-]{36}", pid):
         _reply(400, "program", "节目编号不正确")
-    status = str(payload.get("status") or "")
-    if status not in STATUSES:
-        _reply(400, "program", "节目状态不正确")
     weight = _clean_int(payload.get("editorial_weight"), -30, 30)
-    cur.execute("""UPDATE ops.programs SET status=%s, public_enabled=%s,recommend_enabled=%s,
-                   editorial_weight=%s,updated_at=NOW() WHERE id=%s""",
-                (status, _clean_bool(payload.get("public_enabled")), _clean_bool(payload.get("recommend_enabled")), weight, pid))
+    status = payload.get("status")
+    # Source lifecycle belongs to the Sources tab.  Keep accepting an explicit
+    # status for backwards-compatible API clients, but do not require it from
+    # the operations UI that only controls presentation.
+    if status is not None:
+        status = str(status)
+        if status not in STATUSES:
+            _reply(400, "program", "节目状态不正确")
+        cur.execute("""UPDATE ops.programs SET status=%s, public_enabled=%s,recommend_enabled=%s,
+                       editorial_weight=%s,updated_at=NOW() WHERE id=%s""",
+                    (status, _clean_bool(payload.get("public_enabled")), _clean_bool(payload.get("recommend_enabled")), weight, pid))
+    else:
+        cur.execute("""UPDATE ops.programs SET public_enabled=%s,recommend_enabled=%s,
+                       editorial_weight=%s,updated_at=NOW() WHERE id=%s""",
+                    (_clean_bool(payload.get("public_enabled")), _clean_bool(payload.get("recommend_enabled")), weight, pid))
     if cur.rowcount != 1:
         _reply(404, "program", "找不到这个节目")
 
@@ -425,7 +472,7 @@ def handle(payload, bearer, ip, env, now=None):
 
 
 def respond(h, env, method):
-    def send(status, payload):
+    def send(status, payload, public=False):
         # psycopg returns UUID/date/time objects.  The admin API only emits
         # presentation data, so their canonical string form is the correct JSON
         # representation and prevents a successful query from becoming a 500.
@@ -433,10 +480,30 @@ def respond(h, env, method):
         h.send_response(status)
         h.send_header("Content-Type", "application/json; charset=utf-8")
         h.send_header("Cache-Control", "no-store")
+        if public:
+            origin = str(h.headers.get("Origin") or "").rstrip("/")
+            allowed = {x.strip().rstrip("/") for x in str(env.get("ALLOWED_ORIGINS") or "https://books.zhitree.cn").split(",") if x.strip()}
+            if origin in allowed:
+                h.send_header("Access-Control-Allow-Origin", origin)
+                h.send_header("Vary", "Origin")
         h.send_header("Content-Length", str(len(raw)))
         h.end_headers()
         h.wfile.write(raw)
 
+    query = urllib.parse.parse_qs(urllib.parse.urlsplit(getattr(h, "path", "")).query)
+    if method == "OPTIONS" and query.get("public") == ["1"]:
+        return send(204, {}, public=True)
+    if method == "GET" and query.get("public") == ["1"]:
+        if not _database_url(env) or psycopg is None:
+            return send(503, {"ok": False, "error": "database", "message": "运营配置暂不可用"}, public=True)
+        try:
+            with _connect(env) as con, con.cursor() as cur:
+                return send(200, {"ok": True, "data": public_config(cur)}, public=True)
+        except Reply as reply:
+            return send(reply.status, reply.body(), public=True)
+        except Exception as exc:
+            print("ops public config error:", type(exc).__name__, str(exc))
+            return send(503, {"ok": False, "error": "config", "message": "运营配置暂不可用"}, public=True)
     if method == "GET":
         return send(200, {"ok": True, "service": "shelf-ops", "configured": bool(_database_url(env) and psycopg is not None)})
     try:
