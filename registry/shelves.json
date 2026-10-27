@@ -272,6 +272,19 @@
    ],
    "added": "2026-10-27",
    "issue": 32
+  },
+  {
+   "id": "podcasts-files-bbci-co-uk",
+   "kind": "feed",
+   "url": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
+   "source": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
+   "name": "6 Minute English",
+   "tags": [
+    "英语学习",
+    "英语听力"
+   ],
+   "added": "2026-10-27",
+   "issue": 33
   }
  ]
 }
