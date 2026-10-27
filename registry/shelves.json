@@ -285,6 +285,32 @@
    ],
    "added": "2026-10-27",
    "issue": 33
+  },
+  {
+   "id": "crazy-capital",
+   "kind": "feed",
+   "url": "https://crazy.capital/feed",
+   "source": "https://crazy.capital/feed",
+   "name": "疯投圈",
+   "tags": [
+    "商业",
+    "创投"
+   ],
+   "added": "2026-10-27",
+   "issue": 41
+  },
+  {
+   "id": "feed-xyzfm-space",
+   "kind": "feed",
+   "url": "https://feed.xyzfm.space/cv4bkgpuglwp",
+   "source": "https://feed.xyzfm.space/cv4bkgpuglwp",
+   "name": "忽左忽右",
+   "tags": [
+    "人文",
+    "历史"
+   ],
+   "added": "2026-10-27",
+   "issue": 38
   }
  ]
 }

@@ -55,6 +55,27 @@
       }
     },
     {
+      "id": "https://crazy.capital/150",
+      "url": "https://crazy.capital/150",
+      "title": "150 ✪ alo入华姗姗来迟；凯乐石、之禾持续提价",
+      "content_text": "「双十一」购物季即将到来，我们来聊几个定价稍高的消费品牌。虽然「消费降级」的说法已经提了好几年，但有些品牌却在逆势增长、甚至实现了令人羡慕的「量价齐升」。 什么因素导致alo现在才进入中国市场？虽然姗姗来迟，alo中国开业当天就打破了天猫运动户外行业新品牌开店的销售纪录。但依靠名人效应和时尚生活方式构建品牌溢价的打法，…",
+      "summary": "「双十一」购物季即将到来，我们来聊几个定价稍高的消费品牌。虽然「消费降级」的说法已经提了好几年，但有些品牌却在逆势增长、甚至实现了令人羡慕的「量价齐升」。 什么因素导致alo现在才进入中国市场？虽然姗姗来迟，alo中国开业当天就打破了天猫运动户外行业新品牌开店的销售纪录。但依靠名人效应和时尚生活方式构建品牌溢价的打法，…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "商业",
+        "创投"
+      ],
+      "authors": [
+        {
+          "name": "疯投圈"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "crazy-capital"
+      }
+    },
+    {
       "id": "https://www.woshipm.com/ai/6483433.html",
       "url": "https://www.woshipm.com/ai/6483433.html",
       "title": "用 AI 做自媒体，完整流程应该怎么做？附技能包",
@@ -1141,32 +1162,6 @@
         "Science / Environment",
         "Business",
         "Power Play",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/we-linked-150-ikea-speakers-to-make-a-wall-of-sound/",
-      "url": "https://www.wired.com/story/we-linked-150-ikea-speakers-to-make-a-wall-of-sound/",
-      "title": "We Linked 150 of Ikea’s $10 Speakers to Make a Wall of Sound",
-      "content_text": "WIRED attempts what even the Swedish brand hasn’t: making a sonic monolith using scores of the cheapest Bluetooth speakers on the market. Can you have too much…",
-      "summary": "WIRED attempts what even the Swedish brand hasn’t: making a sonic monolith using scores of the cheapest Bluetooth speakers on the market. Can you have too much…",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adbbf9958a88c588ff834c3/master/pass/Ikea%20Kallsup%20SOURCE%20Jeremy%20White-resized.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Gear News and Events",
-        "Gear / Products / Speakers",
-        "Small Wonders",
         "科技",
         "社会"
       ],
