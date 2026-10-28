@@ -9,7 +9,18 @@
    "name": "知识树",
    "tags": [],
    "added": "2026-10-19",
-   "issue": 8
+   "issue": 8,
+   "status": "fixed",
+   "rights": "unknown",
+   "topics": [
+    "tech",
+    "business",
+    "finance",
+    "books",
+    "life",
+    "education",
+    "tools"
+   ]
   },
   {
    "id": "sspai-com",
