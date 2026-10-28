@@ -1,0 +1,222 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · 抖音热点",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/shelf/hot-douyin.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.douyin.com/hot/2713455",
+      "url": "https://www.douyin.com/hot/2713455",
+      "title": "树枝版齐天大圣太震撼了",
+      "content_text": "第 5 名 · 热度 1027.1 万",
+      "summary": "第 5 名 · 热度 1027.1 万",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "抖音"
+      ],
+      "authors": [
+        {
+          "name": "抖音热点"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-douyin"
+      }
+    },
+    {
+      "id": "https://www.douyin.com/hot/2713829",
+      "url": "https://www.douyin.com/hot/2713829",
+      "title": "抖音娃改时装周",
+      "content_text": "第 6 名 · 热度 1021.5 万",
+      "summary": "第 6 名 · 热度 1021.5 万",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "抖音"
+      ],
+      "authors": [
+        {
+          "name": "抖音热点"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-douyin"
+      }
+    },
+    {
+      "id": "https://www.douyin.com/hot/2715744",
+      "url": "https://www.douyin.com/hot/2715744",
+      "title": "我国能源绿色转型成绩单",
+      "content_text": "第 3 名 · 热度 1198.5 万",
+      "summary": "第 3 名 · 热度 1198.5 万",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "抖音"
+      ],
+      "authors": [
+        {
+          "name": "抖音热点"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-douyin"
+      }
+    },
+    {
+      "id": "https://www.douyin.com/hot/2715566",
+      "url": "https://www.douyin.com/hot/2715566",
+      "title": "想要秋天不烧心就去山里野",
+      "content_text": "第 2 名 · 热度 1214.5 万",
+      "summary": "第 2 名 · 热度 1214.5 万",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "抖音"
+      ],
+      "authors": [
+        {
+          "name": "抖音热点"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-douyin"
+      }
+    },
+    {
+      "id": "https://www.douyin.com/hot/2714965",
+      "url": "https://www.douyin.com/hot/2714965",
+      "title": "德国总统抵达安徽开启访华行程",
+      "content_text": "第 8 名 · 热度 888.6 万",
+      "summary": "第 8 名 · 热度 888.6 万",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "抖音"
+      ],
+      "authors": [
+        {
+          "name": "抖音热点"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-douyin"
+      }
+    },
+    {
+      "id": "https://www.douyin.com/hot/2715746",
+      "url": "https://www.douyin.com/hot/2715746",
+      "title": "广交会见证国货出海新变化",
+      "content_text": "第 9 名 · 热度 872.6 万",
+      "summary": "第 9 名 · 热度 872.6 万",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "抖音"
+      ],
+      "authors": [
+        {
+          "name": "抖音热点"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-douyin"
+      }
+    },
+    {
+      "id": "https://www.douyin.com/hot/2716074",
+      "url": "https://www.douyin.com/hot/2716074",
+      "title": "外交部回应姆巴佩发表不当言论",
+      "content_text": "第 1 名 · 热度 1233.5 万",
+      "summary": "第 1 名 · 热度 1233.5 万",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "抖音"
+      ],
+      "authors": [
+        {
+          "name": "抖音热点"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-douyin"
+      }
+    },
+    {
+      "id": "https://www.douyin.com/hot/2714844",
+      "url": "https://www.douyin.com/hot/2714844",
+      "title": "凯恩荣膺2026年金球奖",
+      "content_text": "第 7 名 · 热度 896.6 万",
+      "summary": "第 7 名 · 热度 896.6 万",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "抖音"
+      ],
+      "authors": [
+        {
+          "name": "抖音热点"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-douyin"
+      }
+    },
+    {
+      "id": "https://www.douyin.com/hot/2713370",
+      "url": "https://www.douyin.com/hot/2713370",
+      "title": "全网最励志的三角梅出圈了",
+      "content_text": "第 4 名 · 热度 1093.1 万",
+      "summary": "第 4 名 · 热度 1093.1 万",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "抖音"
+      ],
+      "authors": [
+        {
+          "name": "抖音热点"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-douyin"
+      }
+    },
+    {
+      "id": "https://www.douyin.com/hot/2716034",
+      "url": "https://www.douyin.com/hot/2716034",
+      "title": "iPad mini8升级总结",
+      "content_text": "第 10 名 · 热度 869.3 万",
+      "summary": "第 10 名 · 热度 869.3 万",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "抖音"
+      ],
+      "authors": [
+        {
+          "name": "抖音热点"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-douyin"
+      }
+    }
+  ]
+}

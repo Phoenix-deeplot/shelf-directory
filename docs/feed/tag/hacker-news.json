@@ -1,0 +1,222 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #hacker news",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/hacker-news.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://brennenputh.me/blog/printable-websites/",
+      "url": "https://brennenputh.me/blog/printable-websites/",
+      "title": "Websites Should Be Printable",
+      "content_text": "第 9 名 · ▲ 338 · 197 条评论",
+      "summary": "第 9 名 · ▲ 338 · 197 条评论",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "hacker news"
+      ],
+      "authors": [
+        {
+          "name": "Hacker News"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-hackernews"
+      }
+    },
+    {
+      "id": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "title": "Three new discoveries in mathematics, computer science, and physics",
+      "content_text": "第 3 名 · ▲ 902 · 425 条评论",
+      "summary": "第 3 名 · ▲ 902 · 425 条评论",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "hacker news"
+      ],
+      "authors": [
+        {
+          "name": "Hacker News"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-hackernews"
+      }
+    },
+    {
+      "id": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "title": "The Exponential Time Hypothesis Is False [pdf]",
+      "content_text": "第 5 名 · ▲ 622 · 226 条评论",
+      "summary": "第 5 名 · ▲ 622 · 226 条评论",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "hacker news"
+      ],
+      "authors": [
+        {
+          "name": "Hacker News"
+        }
+      ],
+      "_shelf": {
+        "type": "pdf",
+        "shelf": "hot-hackernews"
+      }
+    },
+    {
+      "id": "https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear",
+      "url": "https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear",
+      "title": "Solar power is becoming bigger than nuclear",
+      "content_text": "第 10 名 · ▲ 316 · 473 条评论",
+      "summary": "第 10 名 · ▲ 316 · 473 条评论",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "hacker news"
+      ],
+      "authors": [
+        {
+          "name": "Hacker News"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-hackernews"
+      }
+    },
+    {
+      "id": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+      "content_text": "第 4 名 · ▲ 706 · 97 条评论",
+      "summary": "第 4 名 · ▲ 706 · 97 条评论",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "hacker news"
+      ],
+      "authors": [
+        {
+          "name": "Hacker News"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-hackernews"
+      }
+    },
+    {
+      "id": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
+      "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
+      "title": "Oldest GUI application that still runs on Windows 11",
+      "content_text": "第 8 名 · ▲ 424 · 240 条评论",
+      "summary": "第 8 名 · ▲ 424 · 240 条评论",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "hacker news"
+      ],
+      "authors": [
+        {
+          "name": "Hacker News"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-hackernews"
+      }
+    },
+    {
+      "id": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
+      "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
+      "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
+      "content_text": "第 2 名 · ▲ 947 · 913 条评论",
+      "summary": "第 2 名 · ▲ 947 · 913 条评论",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "hacker news"
+      ],
+      "authors": [
+        {
+          "name": "Hacker News"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-hackernews"
+      }
+    },
+    {
+      "id": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "title": "GPT-6.1 Terra",
+      "content_text": "第 6 名 · ▲ 588 · 377 条评论",
+      "summary": "第 6 名 · ▲ 588 · 377 条评论",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "hacker news"
+      ],
+      "authors": [
+        {
+          "name": "Hacker News"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-hackernews"
+      }
+    },
+    {
+      "id": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+      "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+      "title": "CSS-Tricks has a new owner",
+      "content_text": "第 7 名 · ▲ 479 · 105 条评论",
+      "summary": "第 7 名 · ▲ 479 · 105 条评论",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "hacker news"
+      ],
+      "authors": [
+        {
+          "name": "Hacker News"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-hackernews"
+      }
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "title": "Anthropic S-1",
+      "content_text": "第 1 名 · ▲ 1,613 · 1,548 条评论",
+      "summary": "第 1 名 · ▲ 1,613 · 1,548 条评论",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "hacker news"
+      ],
+      "authors": [
+        {
+          "name": "Hacker News"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-hackernews"
+      }
+    }
+  ]
+}

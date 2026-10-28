@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/shelf/hot-github.xml</id>
+  <title>公共目录 · GitHub Trending（今日）</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/hot-github.xml"/>
+  <updated>2026-10-27T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://github.com/pollen-robotics/microduck</id>
+    <title>pollen-robotics/microduck</title>
+    <link rel="alternate" type="text/html" href="https://github.com/pollen-robotics/microduck"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">第 8 名 · 今日 +843 ★ · Rust · A Tiny biped duck robot 🦆</summary>
+    <source><title>GitHub Trending（今日）</title></source>
+    <category term="热榜"/>
+    <category term="开源"/>
+  </entry>
+  <entry>
+    <id>https://github.com/pbakaus/impeccable</id>
+    <title>pbakaus/impeccable</title>
+    <link rel="alternate" type="text/html" href="https://github.com/pbakaus/impeccable"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">第 6 名 · 今日 +1,506 ★ · Rust · The design language that makes your AI harness better at design.</summary>
+    <source><title>GitHub Trending（今日）</title></source>
+    <category term="热榜"/>
+    <category term="开源"/>
+  </entry>
+  <entry>
+    <id>https://github.com/nightly-labs/openbot</id>
+    <title>nightly-labs/openbot</title>
+    <link rel="alternate" type="text/html" href="https://github.com/nightly-labs/openbot"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">第 9 名 · 今日 +176 ★ · TypeScript · A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues…</summary>
+    <source><title>GitHub Trending（今日）</title></source>
+    <category term="热榜"/>
+    <category term="开源"/>
+  </entry>
+  <entry>
+    <id>https://github.com/makecindy/cindy</id>
+    <title>makecindy/cindy</title>
+    <link rel="alternate" type="text/html" href="https://github.com/makecindy/cindy"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">第 4 名 · 今日 +1,296 ★ · TypeScript · Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。</summary>
+    <source><title>GitHub Trending（今日）</title></source>
+    <category term="热榜"/>
+    <category term="开源"/>
+  </entry>
+  <entry>
+    <id>https://github.com/affaan-m/ECC</id>
+    <title>affaan-m/ECC</title>
+    <link rel="alternate" type="text/html" href="https://github.com/affaan-m/ECC"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">第 5 名 · 今日 +896 ★ · JavaScript · The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Clau…</summary>
+    <source><title>GitHub Trending（今日）</title></source>
+    <category term="热榜"/>
+    <category term="开源"/>
+  </entry>
+  <entry>
+    <id>https://github.com/TauricResearch/TradingAgents</id>
+    <title>TauricResearch/TradingAgents</title>
+    <link rel="alternate" type="text/html" href="https://github.com/TauricResearch/TradingAgents"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">第 2 名 · 今日 +1,395 ★ · Python · TradingAgents: Multi-Agents LLM Financial Trading Framework</summary>
+    <source><title>GitHub Trending（今日）</title></source>
+    <category term="热榜"/>
+    <category term="开源"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Panniantong/Agent-Reach</id>
+    <title>Panniantong/Agent-Reach</title>
+    <link rel="alternate" type="text/html" href="https://github.com/Panniantong/Agent-Reach"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">第 10 名 · 今日 +746 ★ · Python · Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CL…</summary>
+    <source><title>GitHub Trending（今日）</title></source>
+    <category term="热榜"/>
+    <category term="开源"/>
+  </entry>
+  <entry>
+    <id>https://github.com/Nutlope/hallmark</id>
+    <title>Nutlope/hallmark</title>
+    <link rel="alternate" type="text/html" href="https://github.com/Nutlope/hallmark"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">第 1 名 · 今日 +2,244 ★ · CSS · Anti-AI-slop design skill for Claude Code, Cursor, and Codex.</summary>
+    <source><title>GitHub Trending（今日）</title></source>
+    <category term="热榜"/>
+    <category term="开源"/>
+  </entry>
+  <entry>
+    <id>https://github.com/NVIDIA/SkillSpector</id>
+    <title>NVIDIA/SkillSpector</title>
+    <link rel="alternate" type="text/html" href="https://github.com/NVIDIA/SkillSpector"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">第 7 名 · 今日 +214 ★ · Python · Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltrati…</summary>
+    <source><title>GitHub Trending（今日）</title></source>
+    <category term="热榜"/>
+    <category term="开源"/>
+  </entry>
+  <entry>
+    <id>https://github.com/JetBrains/thinkrail</id>
+    <title>JetBrains/thinkrail</title>
+    <link rel="alternate" type="text/html" href="https://github.com/JetBrains/thinkrail"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">第 3 名 · 今日 +1,173 ★ · TypeScript · Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need</summary>
+    <source><title>GitHub Trending（今日）</title></source>
+    <category term="热榜"/>
+    <category term="开源"/>
+  </entry>
+</feed>

@@ -9,24 +9,6 @@
   },
   "items": [
     {
-      "id": "https://adminbook.zhitree.cn/p/r6-card/",
-      "url": "https://adminbook.zhitree.cn/p/r6-card/",
-      "title": "政治的人生 (王沪宁)",
-      "content_text": "三朝国师王沪宁的个人日记",
-      "summary": "三朝国师王沪宁的个人日记",
-      "date_published": "2026-10-15T00:00:00Z",
-      "tags": [],
-      "authors": [
-        {
-          "name": "社区投稿"
-        }
-      ],
-      "_shelf": {
-        "type": "book",
-        "shelf": "posts"
-      }
-    },
-    {
       "id": "https://adminbook.zhitree.cn/p/p5-post/",
       "url": "https://adminbook.zhitree.cn/p/p5-post/",
       "title": "从社会关系节点看\"特殊地位\"",

@@ -18,16 +18,34 @@
       <outline type="rss" text="top scoring links : popular" title="top scoring links : popular" xmlUrl="https://www.reddit.com/r/popular/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/popular/top/?t=day"/>
       <outline type="rss" text="Open Culture" title="Open Culture" xmlUrl="https://www.openculture.com/feed" htmlUrl="https://www.openculture.com/"/>
       <outline type="rss" text="人人都是产品经理" title="人人都是产品经理" xmlUrl="https://www.woshipm.com/feed" htmlUrl="https://www.woshipm.com/"/>
+      <outline type="rss" text="Apple 播客榜 · 中国" title="Apple 播客榜 · 中国" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=apple_pod_cn" htmlUrl="https://podcasts.apple.com/cn/charts"/>
+      <outline type="rss" text="B 站热门视频" title="B 站热门视频" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=bilibili" htmlUrl="https://www.bilibili.com/v/popular/all"/>
+      <outline type="rss" text="DEV 社区（本周）" title="DEV 社区（本周）" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=devto" htmlUrl="https://dev.to/top/week"/>
       <outline type="rss" text="Eater" title="Eater" xmlUrl="https://www.eater.com/rss/index.xml" htmlUrl="https://www.eater.com"/>
+      <outline type="rss" text="GitHub Trending（今日）" title="GitHub Trending（今日）" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=github" htmlUrl="https://github.com/trending"/>
+      <outline type="rss" text="Google 热搜 · US" title="Google 热搜 · US" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=gtrends" htmlUrl="https://trends.google.com/trending"/>
+      <outline type="rss" text="Hacker News" title="Hacker News" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=hackernews" htmlUrl="https://news.ycombinator.com/"/>
       <outline type="rss" text="JSTOR Daily" title="JSTOR Daily" xmlUrl="https://daily.jstor.org/feed/" htmlUrl="https://daily.jstor.org/"/>
       <outline type="rss" text="NASA" title="NASA" xmlUrl="https://www.nasa.gov/feed/" htmlUrl="https://www.nasa.gov/"/>
       <outline type="rss" text="Our World in Data" title="Our World in Data" xmlUrl="https://ourworldindata.org/atom.xml" htmlUrl="https://ourworldindata.org"/>
+      <outline type="rss" text="QQ 音乐飙升榜" title="QQ 音乐飙升榜" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=qqmusic" htmlUrl="https://y.qq.com/n/ryqq/toplist/62"/>
+      <outline type="rss" text="YouTube 热门 · US" title="YouTube 热门 · US" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=youtube" htmlUrl="https://www.youtube.com/feed/trending"/>
+      <outline type="rss" text="今日头条热榜" title="今日头条热榜" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=toutiao" htmlUrl="https://www.toutiao.com/"/>
+      <outline type="rss" text="公众号热文" title="公众号热文" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=wechat" htmlUrl="https://weixin.sogou.com/"/>
       <outline type="rss" text="少数派" title="少数派" xmlUrl="https://sspai.com/feed" htmlUrl="https://sspai.com"/>
+      <outline type="rss" text="微博热搜" title="微博热搜" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=weibo" htmlUrl="https://s.weibo.com/top/summary"/>
+      <outline type="rss" text="抖音热点" title="抖音热点" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=douyin" htmlUrl="https://www.douyin.com/hot"/>
+      <outline type="rss" text="掘金热榜" title="掘金热榜" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=juejin" htmlUrl="https://juejin.cn/hot/articles"/>
+      <outline type="rss" text="知乎热榜" title="知乎热榜" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=zhihu" htmlUrl="https://www.zhihu.com/hot"/>
+      <outline type="rss" text="维基百科阅读榜（英文）" title="维基百科阅读榜（英文）" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=wikipedia" htmlUrl="https://en.wikipedia.org/wiki/Wikipedia:Top_25_Report"/>
       <outline type="rss" text="美团 · 技术团队" title="美团 · 技术团队" xmlUrl="https://tech.meituan.com/rss.xml" htmlUrl="https://tech.meituan.com/"/>
+      <outline type="rss" text="V2EX 今日热议" title="V2EX 今日热议" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=v2ex" htmlUrl="https://www.v2ex.com/"/>
+      <outline type="rss" text="Lobsters" title="Lobsters" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=lobsters" htmlUrl="https://lobste.rs/"/>
       <outline type="rss" text="阮一峰的网络日志" title="阮一峰的网络日志" xmlUrl="https://feeds.feedburner.com/ruanyifeng" htmlUrl="http://www.ruanyifeng.com/blog/"/>
-      <outline type="rss" text="社区投稿" title="社区投稿" xmlUrl="https://adminbook.zhitree.cn/feed/shelf/posts.xml" htmlUrl="https://adminbook.zhitree.cn/"/>
       <outline type="rss" text="Freakonomics Radio" title="Freakonomics Radio" xmlUrl="https://feeds.simplecast.com/Y8lFbOT4" htmlUrl="https://feeds.simplecast.com/"/>
       <outline type="rss" text="知识树" title="知识树" xmlUrl="https://adminbook.zhitree.cn/feed/shelf/link-6836d471.xml" htmlUrl="https://books.zhitree.cn/"/>
+      <outline type="rss" text="社区投稿" title="社区投稿" xmlUrl="https://adminbook.zhitree.cn/feed/shelf/posts.xml" htmlUrl="https://adminbook.zhitree.cn/"/>
+      <outline type="rss" text="网易云音乐飙升榜" title="网易云音乐飙升榜" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=netease" htmlUrl="https://music.163.com/"/>
     </outline>
   </body>
 </opml>

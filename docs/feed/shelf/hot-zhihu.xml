@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/shelf/hot-zhihu.xml</id>
+  <title>公共目录 · 知乎热榜</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/hot-zhihu.xml"/>
+  <updated>2026-10-27T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.zhihu.com/question/2097994971261542927</id>
+    <title>红果短剧引发年轻人「戒断潮」，如何看待这一现象？短剧为何让人欲罢不能？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2097994971261542927"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">第 5 名 · 219 万热度</summary>
+    <source><title>知乎热榜</title></source>
+    <category term="热榜"/>
+    <category term="知乎"/>
+  </entry>
+  <entry>
+    <id>https://www.zhihu.com/question/2098056179788391425</id>
+    <title>江苏多所高校将用数字人民币发工资，数字人民币与银行卡发工资有啥区别？这一举措会带来哪些改变？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098056179788391425"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">第 2 名 · 729 万热度</summary>
+    <source><title>知乎热榜</title></source>
+    <category term="热榜"/>
+    <category term="知乎"/>
+  </entry>
+  <entry>
+    <id>https://www.zhihu.com/question/2097997813539943104</id>
+    <title>巴西总统卢拉赢得连任，巴西主题 ETF 大跌，巴西 ETF 华夏、巴西 ETF 易方达跌停，如何解读？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2097997813539943104"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">第 8 名 · 147 万热度</summary>
+    <source><title>知乎热榜</title></source>
+    <category term="热榜"/>
+    <category term="知乎"/>
+  </entry>
+  <entry>
+    <id>https://www.zhihu.com/question/2098328780846655325</id>
+    <title>如何评价 OpenAI 宣布证明四维杨–米尔斯理论的存在性？这项结果的意义有多大？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098328780846655325"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">第 10 名 · 114 万热度</summary>
+    <source><title>知乎热榜</title></source>
+    <category term="热榜"/>
+    <category term="知乎"/>
+  </entry>
+  <entry>
+    <id>https://www.zhihu.com/question/2098431727324619649</id>
+    <title>央视已全面叫停涉及姆巴佩的赛事和广告播出，姆巴佩社交账号被禁言，此次风波带来的连锁反应有多大？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098431727324619649"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">第 4 名 · 233 万热度</summary>
+    <source><title>知乎热榜</title></source>
+    <category term="热榜"/>
+    <category term="知乎"/>
+  </entry>
+  <entry>
+    <id>https://www.zhihu.com/question/2096545633071003440</id>
+    <title>为什么以前老师用钢笔批改作业时，不会只用红墨水，而是要在里面滴一两滴黑墨水呢?</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2096545633071003440"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">第 3 名 · 247 万热度</summary>
+    <source><title>知乎热榜</title></source>
+    <category term="热榜"/>
+    <category term="知乎"/>
+  </entry>
+  <entry>
+    <id>https://www.zhihu.com/question/1977726435545346620</id>
+    <title>为什么中国人都执着于买房而不是租房？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/1977726435545346620"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">第 6 名 · 216 万热度</summary>
+    <source><title>知乎热榜</title></source>
+    <category term="热榜"/>
+    <category term="知乎"/>
+  </entry>
+  <entry>
+    <id>https://www.zhihu.com/question/2098358966568882239</id>
+    <title>东鹏饮料等品牌紧急切割姆巴佩，这种情况品牌用不用赔违约金？已付代言费、物料成本还能追回吗？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098358966568882239"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">第 7 名 · 170 万热度</summary>
+    <source><title>知乎热榜</title></source>
+    <category term="热榜"/>
+    <category term="知乎"/>
+  </entry>
+  <entry>
+    <id>https://www.zhihu.com/question/2098356191105643056</id>
+    <title>东鹏、蒙牛相继宣布终止与姆巴佩全部合作，称零容忍伤害民族感情行为，具体情况如何？将带来哪些影响？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098356191105643056"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">第 1 名 · 27374 万热度</summary>
+    <source><title>知乎热榜</title></source>
+    <category term="热榜"/>
+    <category term="知乎"/>
+  </entry>
+  <entry>
+    <id>https://www.zhihu.com/question/2096928657268635250</id>
+    <title>offer8嘉宾称在澳洲已是实习医生，却不会握手术刀、缝合打结，为啥会这样？中外医学教育差异这么大吗？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2096928657268635250"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">第 9 名 · 124 万热度</summary>
+    <source><title>知乎热榜</title></source>
+    <category term="热榜"/>
+    <category term="知乎"/>
+  </entry>
+</feed>

@@ -1,0 +1,222 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · DEV 社区（本周）",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/shelf/hot-devto.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://dev.to/nyaomaru/is-kit-reached-100-stars-heres-what-changed-since-50-49pf",
+      "url": "https://dev.to/nyaomaru/is-kit-reached-100-stars-heres-what-changed-since-50-49pf",
+      "title": "is-kit Reached 100 Stars ⭐🎉 Here’s What Changed Since 50",
+      "content_text": "第 8 名 · ♥ 120 · nyaomaru · 34 条评论",
+      "summary": "第 8 名 · ♥ 120 · nyaomaru · 34 条评论",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "文章",
+        "社区"
+      ],
+      "authors": [
+        {
+          "name": "DEV 社区（本周）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-devto"
+      }
+    },
+    {
+      "id": "https://dev.to/thomasbnt/stuck-in-the-same-devto-topics-an-open-model-fixed-it-4mbc",
+      "url": "https://dev.to/thomasbnt/stuck-in-the-same-devto-topics-an-open-model-fixed-it-4mbc",
+      "title": "Stuck in the same dev.to topics? An open model fixed it.",
+      "content_text": "第 6 名 · ♥ 74 · Thomas Bonnet · 40 条评论",
+      "summary": "第 6 名 · ♥ 74 · Thomas Bonnet · 40 条评论",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "文章",
+        "社区"
+      ],
+      "authors": [
+        {
+          "name": "DEV 社区（本周）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-devto"
+      }
+    },
+    {
+      "id": "https://dev.to/dj29/im-not-on-the-dev-team-i-still-debugged-their-missing-badges-from-public-code-and-my-first-test-18oo",
+      "url": "https://dev.to/dj29/im-not-on-the-dev-team-i-still-debugged-their-missing-badges-from-public-code-and-my-first-test-18oo",
+      "title": "I'm Not on the DEV Team. I Still Debugged Their Missing Badges From Public Code. (And My First Test Was Wrong.)",
+      "content_text": "第 7 名 · ♥ 79 · Dhruv Jani · 36 条评论",
+      "summary": "第 7 名 · ♥ 79 · Dhruv Jani · 36 条评论",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "文章",
+        "社区"
+      ],
+      "authors": [
+        {
+          "name": "DEV 社区（本周）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-devto"
+      }
+    },
+    {
+      "id": "https://dev.to/pahorton/i-got-tired-of-coming-into-my-lab-to-check-the-pressure-of-my-cryocooler-so-i-built-a-tool-to-do-it-4ob7",
+      "url": "https://dev.to/pahorton/i-got-tired-of-coming-into-my-lab-to-check-the-pressure-of-my-cryocooler-so-i-built-a-tool-to-do-it-4ob7",
+      "title": "I Got Tired of Coming Into My Lab To Check the Pressure of My Cryocooler so I Built a Tool To Do It for Me",
+      "content_text": "第 5 名 · ♥ 61 · Paul Horton · 25 条评论",
+      "summary": "第 5 名 · ♥ 61 · Paul Horton · 25 条评论",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "文章",
+        "社区"
+      ],
+      "authors": [
+        {
+          "name": "DEV 社区（本周）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-devto"
+      }
+    },
+    {
+      "id": "https://dev.to/georgekobaidze/i-earned-a-seat-at-github-universe-itll-stay-empty-and-thats-not-fair-3d7k",
+      "url": "https://dev.to/georgekobaidze/i-earned-a-seat-at-github-universe-itll-stay-empty-and-thats-not-fair-3d7k",
+      "title": "I Earned a Seat at GitHub Universe. It'll Stay Empty, and That's Not Fair",
+      "content_text": "第 2 名 · ♥ 86 · Giorgi Kobaidze · 66 条评论",
+      "summary": "第 2 名 · ♥ 86 · Giorgi Kobaidze · 66 条评论",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "文章",
+        "社区"
+      ],
+      "authors": [
+        {
+          "name": "DEV 社区（本周）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-devto"
+      }
+    },
+    {
+      "id": "https://dev.to/dj29/i-built-slothd-a-local-first-offline-capable-ai-daemon-that-patiently-organizes-your-messy-53e7",
+      "url": "https://dev.to/dj29/i-built-slothd-a-local-first-offline-capable-ai-daemon-that-patiently-organizes-your-messy-53e7",
+      "title": "I Built slothd: A Local-First, Offline-Capable AI Daemon That Patiently Organizes Your Messy Workspace",
+      "content_text": "第 10 名 · ♥ 92 · Dhruv Jani · 41 条评论",
+      "summary": "第 10 名 · ♥ 92 · Dhruv Jani · 41 条评论",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "文章",
+        "社区"
+      ],
+      "authors": [
+        {
+          "name": "DEV 社区（本周）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-devto"
+      }
+    },
+    {
+      "id": "https://dev.to/julies1/how-to-publish-posts-via-the-devto-api-2fkd",
+      "url": "https://dev.to/julies1/how-to-publish-posts-via-the-devto-api-2fkd",
+      "title": "How to publish posts via the dev.to API",
+      "content_text": "第 9 名 · ♥ 36 · Julie · 14 条评论",
+      "summary": "第 9 名 · ♥ 36 · Julie · 14 条评论",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "文章",
+        "社区"
+      ],
+      "authors": [
+        {
+          "name": "DEV 社区（本周）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-devto"
+      }
+    },
+    {
+      "id": "https://dev.to/sylwia-lask/how-to-become-a-tech-conference-speaker-and-why-you-might-regret-it-2ink",
+      "url": "https://dev.to/sylwia-lask/how-to-become-a-tech-conference-speaker-and-why-you-might-regret-it-2ink",
+      "title": "How to Become a Tech Conference Speaker (And Why You Might Regret It)",
+      "content_text": "第 1 名 · ♥ 219 · Sylwia Laskowska · 115 条评论",
+      "summary": "第 1 名 · ♥ 219 · Sylwia Laskowska · 115 条评论",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "文章",
+        "社区"
+      ],
+      "authors": [
+        {
+          "name": "DEV 社区（本周）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-devto"
+      }
+    },
+    {
+      "id": "https://dev.to/adamthedeveloper/dont-be-a-proxy-between-me-and-your-ai-mcn",
+      "url": "https://dev.to/adamthedeveloper/dont-be-a-proxy-between-me-and-your-ai-mcn",
+      "title": "Don't Be a Proxy Between Me and Your AI",
+      "content_text": "第 3 名 · ♥ 139 · Adam - The Developer ✨ · 91 条评论",
+      "summary": "第 3 名 · ♥ 139 · Adam - The Developer ✨ · 91 条评论",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "文章",
+        "社区"
+      ],
+      "authors": [
+        {
+          "name": "DEV 社区（本周）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-devto"
+      }
+    },
+    {
+      "id": "https://dev.to/devengers/dev-opportunity-radar-22-50k-basis-fellowship-perplexity-ai-research-fellowship-and-fc-4806",
+      "url": "https://dev.to/devengers/dev-opportunity-radar-22-50k-basis-fellowship-perplexity-ai-research-fellowship-and-fc-4806",
+      "title": "Dev Opportunity Radar #22: $50K Basis Fellowship, Perplexity AI Research Fellowship, and FC Barcelona Analytics Hackathon",
+      "content_text": "第 4 名 · ♥ 87 · Hemapriya Kanagala · 18 条评论",
+      "summary": "第 4 名 · ♥ 87 · Hemapriya Kanagala · 18 条评论",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "文章",
+        "社区"
+      ],
+      "authors": [
+        {
+          "name": "DEV 社区（本周）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-devto"
+      }
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #开源",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-170155.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://github.com/pollen-robotics/microduck",
+      "url": "https://github.com/pollen-robotics/microduck",
+      "title": "pollen-robotics/microduck",
+      "content_text": "第 8 名 · 今日 +843 ★ · Rust · A Tiny biped duck robot 🦆",
+      "summary": "第 8 名 · 今日 +843 ★ · Rust · A Tiny biped duck robot 🦆",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "开源"
+      ],
+      "authors": [
+        {
+          "name": "GitHub Trending（今日）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-github"
+      }
+    },
+    {
+      "id": "https://github.com/pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "title": "pbakaus/impeccable",
+      "content_text": "第 6 名 · 今日 +1,506 ★ · Rust · The design language that makes your AI harness better at design.",
+      "summary": "第 6 名 · 今日 +1,506 ★ · Rust · The design language that makes your AI harness better at design.",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "开源"
+      ],
+      "authors": [
+        {
+          "name": "GitHub Trending（今日）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-github"
+      }
+    },
+    {
+      "id": "https://github.com/nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "title": "nightly-labs/openbot",
+      "content_text": "第 9 名 · 今日 +176 ★ · TypeScript · A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues…",
+      "summary": "第 9 名 · 今日 +176 ★ · TypeScript · A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "开源"
+      ],
+      "authors": [
+        {
+          "name": "GitHub Trending（今日）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-github"
+      }
+    },
+    {
+      "id": "https://github.com/makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "title": "makecindy/cindy",
+      "content_text": "第 4 名 · 今日 +1,296 ★ · TypeScript · Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "summary": "第 4 名 · 今日 +1,296 ★ · TypeScript · Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "开源"
+      ],
+      "authors": [
+        {
+          "name": "GitHub Trending（今日）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-github"
+      }
+    },
+    {
+      "id": "https://github.com/affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "title": "affaan-m/ECC",
+      "content_text": "第 5 名 · 今日 +896 ★ · JavaScript · The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Clau…",
+      "summary": "第 5 名 · 今日 +896 ★ · JavaScript · The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Clau…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "开源"
+      ],
+      "authors": [
+        {
+          "name": "GitHub Trending（今日）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-github"
+      }
+    },
+    {
+      "id": "https://github.com/TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "title": "TauricResearch/TradingAgents",
+      "content_text": "第 2 名 · 今日 +1,395 ★ · Python · TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "summary": "第 2 名 · 今日 +1,395 ★ · Python · TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "开源"
+      ],
+      "authors": [
+        {
+          "name": "GitHub Trending（今日）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-github"
+      }
+    },
+    {
+      "id": "https://github.com/Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "title": "Panniantong/Agent-Reach",
+      "content_text": "第 10 名 · 今日 +746 ★ · Python · Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CL…",
+      "summary": "第 10 名 · 今日 +746 ★ · Python · Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CL…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "开源"
+      ],
+      "authors": [
+        {
+          "name": "GitHub Trending（今日）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-github"
+      }
+    },
+    {
+      "id": "https://github.com/Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "title": "Nutlope/hallmark",
+      "content_text": "第 1 名 · 今日 +2,244 ★ · CSS · Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "summary": "第 1 名 · 今日 +2,244 ★ · CSS · Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "开源"
+      ],
+      "authors": [
+        {
+          "name": "GitHub Trending（今日）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-github"
+      }
+    },
+    {
+      "id": "https://github.com/NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "title": "NVIDIA/SkillSpector",
+      "content_text": "第 7 名 · 今日 +214 ★ · Python · Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltrati…",
+      "summary": "第 7 名 · 今日 +214 ★ · Python · Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltrati…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "开源"
+      ],
+      "authors": [
+        {
+          "name": "GitHub Trending（今日）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-github"
+      }
+    },
+    {
+      "id": "https://github.com/JetBrains/thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "title": "JetBrains/thinkrail",
+      "content_text": "第 3 名 · 今日 +1,173 ★ · TypeScript · Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "summary": "第 3 名 · 今日 +1,173 ★ · TypeScript · Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "热榜",
+        "开源"
+      ],
+      "authors": [
+        {
+          "name": "GitHub Trending（今日）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-github"
+      }
+    }
+  ]
+}

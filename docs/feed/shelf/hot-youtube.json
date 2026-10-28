@@ -1,0 +1,222 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · YouTube 热门 · US",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/shelf/hot-youtube.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.youtube.com/watch?v=u0iATr7A5KM",
+      "url": "https://www.youtube.com/watch?v=u0iATr7A5KM",
+      "title": "Your SUS Clips...",
+      "content_text": "第 9 名 · 观看 83.1 万 · Jynxzi",
+      "summary": "第 9 名 · 观看 83.1 万 · Jynxzi",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "视频",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "YouTube 热门 · US"
+        }
+      ],
+      "_shelf": {
+        "type": "video",
+        "shelf": "hot-youtube"
+      }
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=rQnvm5c2r3o",
+      "url": "https://www.youtube.com/watch?v=rQnvm5c2r3o",
+      "title": "X-MEN 2028",
+      "content_text": "第 8 名 · 观看 18.3 万 · Emergency Awesome",
+      "summary": "第 8 名 · 观看 18.3 万 · Emergency Awesome",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "视频",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "YouTube 热门 · US"
+        }
+      ],
+      "_shelf": {
+        "type": "video",
+        "shelf": "hot-youtube"
+      }
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=ECJoJ7ez7-4",
+      "url": "https://www.youtube.com/watch?v=ECJoJ7ez7-4",
+      "title": "TLAW vs. AL | WORLDS 2026 | Swiss Stage Day 4",
+      "content_text": "第 6 名 · 观看 233.9 万 · LoL Esports",
+      "summary": "第 6 名 · 观看 233.9 万 · LoL Esports",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "视频",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "YouTube 热门 · US"
+        }
+      ],
+      "_shelf": {
+        "type": "video",
+        "shelf": "hot-youtube"
+      }
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=M2Tb2kjzzxo",
+      "url": "https://www.youtube.com/watch?v=M2Tb2kjzzxo",
+      "title": "Pop",
+      "content_text": "第 10 名 · 观看 117.0 万 · ILLIT - Topic",
+      "summary": "第 10 名 · 观看 117.0 万 · ILLIT - Topic",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "视频",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "YouTube 热门 · US"
+        }
+      ],
+      "_shelf": {
+        "type": "video",
+        "shelf": "hot-youtube"
+      }
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=d02bibFGMp0",
+      "url": "https://www.youtube.com/watch?v=d02bibFGMp0",
+      "title": "Kesha - Backstabber (Official Video)",
+      "content_text": "第 7 名 · 观看 72.5 万 · keshaVEVO",
+      "summary": "第 7 名 · 观看 72.5 万 · keshaVEVO",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "视频",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "YouTube 热门 · US"
+        }
+      ],
+      "_shelf": {
+        "type": "video",
+        "shelf": "hot-youtube"
+      }
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=V2V9-9VhYJo",
+      "url": "https://www.youtube.com/watch?v=V2V9-9VhYJo",
+      "title": "ILLIT (아일릿) '체포하겠어 (You’re Under Arrest)’ Official MV",
+      "content_text": "第 4 名 · 观看 694.7 万 · HYBE LABELS",
+      "summary": "第 4 名 · 观看 694.7 万 · HYBE LABELS",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "视频",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "YouTube 热门 · US"
+        }
+      ],
+      "_shelf": {
+        "type": "video",
+        "shelf": "hot-youtube"
+      }
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=M4qX5wzx-wY",
+      "url": "https://www.youtube.com/watch?v=M4qX5wzx-wY",
+      "title": "Harry Styles - Coming Up Roses (Official Video)",
+      "content_text": "第 1 名 · 观看 209.1 万 · HarryStylesVEVO",
+      "summary": "第 1 名 · 观看 209.1 万 · HarryStylesVEVO",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "视频",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "YouTube 热门 · US"
+        }
+      ],
+      "_shelf": {
+        "type": "video",
+        "shelf": "hot-youtube"
+      }
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=UfNu7pcR0e8",
+      "url": "https://www.youtube.com/watch?v=UfNu7pcR0e8",
+      "title": "Avengers: Doomsday | In Theaters December 18",
+      "content_text": "第 5 名 · 观看 1453.8 万 · Marvel Entertainment",
+      "summary": "第 5 名 · 观看 1453.8 万 · Marvel Entertainment",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "视频",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "YouTube 热门 · US"
+        }
+      ],
+      "_shelf": {
+        "type": "video",
+        "shelf": "hot-youtube"
+      }
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=LYRmPlm6oV0",
+      "url": "https://www.youtube.com/watch?v=LYRmPlm6oV0",
+      "title": "Avengers: Doomsday Teaser - In Theaters December 18",
+      "content_text": "第 2 名 · 观看 67.4 万 · Rotten Tomatoes Trailers",
+      "summary": "第 2 名 · 观看 67.4 万 · Rotten Tomatoes Trailers",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "视频",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "YouTube 热门 · US"
+        }
+      ],
+      "_shelf": {
+        "type": "video",
+        "shelf": "hot-youtube"
+      }
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=TASjR0qY2KM",
+      "url": "https://www.youtube.com/watch?v=TASjR0qY2KM",
+      "title": "Absolutely Nothing Good",
+      "content_text": "第 3 名 · 观看 49.7 万 · CaseOh",
+      "summary": "第 3 名 · 观看 49.7 万 · CaseOh",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "视频",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "YouTube 热门 · US"
+        }
+      ],
+      "_shelf": {
+        "type": "video",
+        "shelf": "hot-youtube"
+      }
+    }
+  ]
+}
