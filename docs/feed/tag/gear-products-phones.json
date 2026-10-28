@@ -85,32 +85,6 @@
         "type": "article",
         "shelf": "wired-com"
       }
-    },
-    {
-      "id": "https://www.wired.com/gallery/best-folding-phones/",
-      "url": "https://www.wired.com/gallery/best-folding-phones/",
-      "title": "6 Best Folding Phones (2026): Samsung, Apple, Google, Motorola",
-      "content_text": "Ready to move on from the traditional glass slab? Introduce a hinge into your life with these folding smartphones.",
-      "summary": "Ready to move on from the traditional glass slab? Introduce a hinge into your life with these folding smartphones.",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adb855058fe17d926e68364/master/pass/Best%20Folding%20Phones%20iPhone%20Duo%20102026%20top%20art%20SOURCE%20Samsung-Apple.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Buying Guides",
-        "Gear / Products / Phones",
-        "Into the Fold",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
     }
   ]
 }

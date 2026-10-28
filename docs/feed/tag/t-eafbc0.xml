@@ -4,8 +4,35 @@
   <title>公共目录 · #免费资源</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-eafbc0.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.openculture.com/2026/10/the-vibrant-color-wheels-designed-by-goethe-newton-other-theorists.html</id>
+    <title>The Vibrant Color Wheels Designed by Goethe, Newton &amp; Other Theorists of Color (1665–1810)</title>
+    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/the-vibrant-color-wheels-designed-by-goethe-newton-other-theorists.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Maybe it’s the cloistered headiness of Rene Descartes, or the rigorous austerity of Isaac Newton; maybe it’s all the leathern breeches, gray waistcoats, sallow…</summary>
+    <source><title>Open Culture</title></source>
+    <category term="Art"/>
+    <category term="Science"/>
+    <category term="文化"/>
+    <category term="免费资源"/>
+  </entry>
+  <entry>
+    <id>https://www.openculture.com/2026/10/inside-the-making-of-the-sagrada-familia-barcelonas-144-year-megaproject.html</id>
+    <title>Inside the Making of the Sagrada Família, Barcelona’s 144-Year Megaproject</title>
+    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/inside-the-making-of-the-sagrada-familia-barcelonas-144-year-megaproject.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">To get a sense of Sagrada Família’s popularity with YouTubers, you have only to take a look at the related Open Culture posts linked below. As will hardly escap…</summary>
+    <source><title>Open Culture</title></source>
+    <category term="Architecture"/>
+    <category term="History"/>
+    <category term="Religion"/>
+    <category term="文化"/>
+    <category term="免费资源"/>
+  </entry>
   <entry>
     <id>https://www.openculture.com/2026/10/how-balzacs-extreme-coffee-habit-fueled-his-productive-writing-routine.html</id>
     <title>How Balzac’s Extreme Coffee Habit Fueled His Productive Writing Routine</title>
@@ -171,31 +198,6 @@
     <category term="History"/>
     <category term="Literature"/>
     <category term="Photography"/>
-    <category term="文化"/>
-    <category term="免费资源"/>
-  </entry>
-  <entry>
-    <id>https://www.openculture.com/2026/10/how-vincent-van-goghs-sister-in-law-worked-tirelessly-to-make-him-famous.html</id>
-    <title>How Vincent van Gogh’s Sister-in-Law Worked Tirelessly to Make Him Famous</title>
-    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/how-vincent-van-goghs-sister-in-law-worked-tirelessly-to-make-him-famous.html"/>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <published>2026-10-16T00:00:00Z</published>
-    <summary type="text">No artist, no matter how solitary by nature, becomes a cultural phenomenon alone. That’s even true of such an isolated figure as Vincent van Gogh, whose death i…</summary>
-    <source><title>Open Culture</title></source>
-    <category term="Art"/>
-    <category term="History"/>
-    <category term="文化"/>
-    <category term="免费资源"/>
-  </entry>
-  <entry>
-    <id>https://www.openculture.com/2026/10/the-megaprojects-even-the-ancient-romans-couldnt-pull-off.html</id>
-    <title>The Megaprojects That Even the Ancient Romans Couldn’t Pull Off: Rerouting the Tiber, Digging a Canal, and More</title>
-    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/the-megaprojects-even-the-ancient-romans-couldnt-pull-off.html"/>
-    <updated>2026-10-15T00:00:00Z</updated>
-    <published>2026-10-15T00:00:00Z</published>
-    <summary type="text">Some would call the United States of America the mightiest empire the world has ever known. Yet over the past half-century or so, it has shown a strange inabili…</summary>
-    <source><title>Open Culture</title></source>
-    <category term="History"/>
     <category term="文化"/>
     <category term="免费资源"/>
   </entry>

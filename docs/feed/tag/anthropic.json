@@ -1,0 +1,39 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Anthropic",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/anthropic.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.woshipm.com/ai/6485430.html",
+      "url": "https://www.woshipm.com/ai/6485430.html",
+      "title": "递交上市后，Anthropic 创始人首次讲清：一家 AI 公司，凭什么让人相信它",
+      "content_text": "Anthropic 两位创始人兄妹首次对外讲清，他们没给 Claude 一张 170 条的规则清单，而是教它几条基本原则：开放探究、关心别人、公平正义。模型越强，这套教对错的方法越关键。 你有没有想过，一个 AI 要是学会了顺着你说话，只讲你爱听的，你多半很难发现？它没有说错什么，也没有说什么难听的，只是每次都说“你说…",
+      "summary": "Anthropic 两位创始人兄妹首次对外讲清，他们没给 Claude 一张 170 条的规则清单，而是教它几条基本原则：开放探究、关心别人、公平正义。模型越强，这套教对错的方法越关键。 你有没有想过，一个 AI 要是学会了顺着你说话，只讲你爱听的，你多半很难发现？它没有说错什么，也没有说什么难听的，只是每次都说“你说…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "AI伦理",
+        "AI公司",
+        "Anthropic",
+        "Claude",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    }
+  ]
+}

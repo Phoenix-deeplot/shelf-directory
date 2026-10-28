@@ -9,6 +9,336 @@
   },
   "items": [
     {
+      "id": "https://www.producthunt.com/products/licenseal",
+      "url": "https://www.producthunt.com/products/licenseal",
+      "title": "licenseal",
+      "content_text": "Catch incompatible dependency licenses before release Discussion | Link",
+      "summary": "Catch incompatible dependency licenses before release Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/yardlet-2",
+      "url": "https://www.producthunt.com/products/yardlet-2",
+      "title": "Yardlet",
+      "content_text": "The Mac app for the coding agents you already use Discussion | Link",
+      "summary": "The Mac app for the coding agents you already use Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/opera",
+      "url": "https://www.producthunt.com/products/opera",
+      "title": "WebAI by Opera",
+      "content_text": "Let websites use AI running on your computer Discussion | Link",
+      "summary": "Let websites use AI running on your computer Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/our-silly-games",
+      "url": "https://www.producthunt.com/products/our-silly-games",
+      "title": "Our Silly Games",
+      "content_text": "Skills to build games with Claude. Free multiplayer hosting. Discussion | Link",
+      "summary": "Skills to build games with Claude. Free multiplayer hosting. Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/openllm",
+      "url": "https://www.producthunt.com/products/openllm",
+      "title": "OpenLLM",
+      "content_text": "Take your AI tokens anywhere Discussion | Link",
+      "summary": "Take your AI tokens anywhere Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/open-for-sales",
+      "url": "https://www.producthunt.com/products/open-for-sales",
+      "title": "Open For sales",
+      "content_text": "Your next sales campaign is one prompt away Discussion | Link",
+      "summary": "Your next sales campaign is one prompt away Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/onedeploy",
+      "url": "https://www.producthunt.com/products/onedeploy",
+      "title": "OneDeploy",
+      "content_text": "Open-source apps on your own server, with no per-seat fees Discussion | Link",
+      "summary": "Open-source apps on your own server, with no per-seat fees Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/notikeep",
+      "url": "https://www.producthunt.com/products/notikeep",
+      "title": "NotiKeep",
+      "content_text": "Notification history for iPhone, on your device Discussion | Link",
+      "summary": "Notification history for iPhone, on your device Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/lfm2",
+      "url": "https://www.producthunt.com/products/lfm2",
+      "title": "LFM3 by Liquid AI",
+      "content_text": "Six 2B-class models for phones, laptops and robots Discussion | Link",
+      "summary": "Six 2B-class models for phones, laptops and robots Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/gemini-1-5-pro",
+      "url": "https://www.producthunt.com/products/gemini-1-5-pro",
+      "title": "Genie 4",
+      "content_text": "Turn a prompt into a living world you can steer Discussion | Link",
+      "summary": "Turn a prompt into a living world you can steer Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/dedica",
+      "url": "https://www.producthunt.com/products/dedica",
+      "title": "Dedica",
+      "content_text": "Check if AI agents can use your website Discussion | Link",
+      "summary": "Check if AI agents can use your website Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/alpha-vantage",
+      "url": "https://www.producthunt.com/products/alpha-vantage",
+      "title": "Congress Trades",
+      "content_text": "See how Congress members trade, and if copying them pays off Discussion | Link",
+      "summary": "See how Congress members trade, and if copying them pays off Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/boltbar",
+      "url": "https://www.producthunt.com/products/boltbar",
+      "title": "Boltbar",
+      "content_text": "Spotlight-style AI chat for your Mac Discussion | Link",
+      "summary": "Spotlight-style AI chat for your Mac Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/basedash",
+      "url": "https://www.producthunt.com/products/basedash",
+      "title": "Basedash View-only members",
+      "content_text": "Share dashboards with anyone. They can look, not edit. Discussion | Link",
+      "summary": "Share dashboards with anyone. They can look, not edit. Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/throxy-yc-p25",
+      "url": "https://www.producthunt.com/products/throxy-yc-p25",
+      "title": "throxy (yc p25)",
+      "content_text": "Cold calls in your prospect's language. Pipeline delivered. Discussion | Link",
+      "summary": "Cold calls in your prospect's language. Pipeline delivered. Discussion | Link",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
       "id": "https://www.producthunt.com/products/apple",
       "url": "https://www.producthunt.com/products/apple",
       "title": "iPad mini 8",
@@ -185,11 +515,55 @@
       }
     },
     {
+      "id": "https://www.producthunt.com/products/hob-3",
+      "url": "https://www.producthunt.com/products/hob-3",
+      "title": "Hob",
+      "content_text": "Open-source, on device alternative to Claude and ChatGPT Discussion | Link",
+      "summary": "Open-source, on device alternative to Claude and ChatGPT Discussion | Link",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
       "id": "https://www.producthunt.com/products/openai",
       "url": "https://www.producthunt.com/products/openai",
       "title": "GPT-6.1 Terra",
       "content_text": "Fast, capable computer use at half the price Discussion | Link",
       "summary": "Fast, capable computer use at half the price Discussion | Link",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/dotverse",
+      "url": "https://www.producthunt.com/products/dotverse",
+      "title": "Dotverse",
+      "content_text": "Your Dot now with a crew Discussion | Link",
+      "summary": "Your Dot now with a crew Discussion | Link",
       "date_published": "2026-10-26T00:00:00Z",
       "tags": [
         "产品",
@@ -251,11 +625,33 @@
       }
     },
     {
-      "id": "https://www.producthunt.com/products/tabsh",
-      "url": "https://www.producthunt.com/products/tabsh",
-      "title": "tabsh",
-      "content_text": "Work with agents with an IDE in your browser tab Discussion | Link",
-      "summary": "Work with agents with an IDE in your browser tab Discussion | Link",
+      "id": "https://www.producthunt.com/products/fini-2",
+      "url": "https://www.producthunt.com/products/fini-2",
+      "title": "Agent Handshake by Fini",
+      "content_text": "Agent-to-agent customer support that holds its answer Discussion | Link",
+      "summary": "Agent-to-agent customer support that holds its answer Discussion | Link",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/zest-6",
+      "url": "https://www.producthunt.com/products/zest-6",
+      "title": "Zest",
+      "content_text": "Hold ⌥Space, flick, and an AI agent does the dev chore Discussion | Link",
+      "summary": "Hold ⌥Space, flick, and an AI agent does the dev chore Discussion | Link",
       "date_published": "2026-10-25T00:00:00Z",
       "tags": [
         "产品",
@@ -273,231 +669,11 @@
       }
     },
     {
-      "id": "https://www.producthunt.com/products/omerta",
-      "url": "https://www.producthunt.com/products/omerta",
-      "title": "omerta",
-      "content_text": "Catch .env secrets leaking into git Discussion | Link",
-      "summary": "Catch .env secrets leaking into git Discussion | Link",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/desigma",
-      "url": "https://www.producthunt.com/products/desigma",
-      "title": "desigma",
-      "content_text": "Free Figma alternative made on Rust Discussion | Link",
-      "summary": "Free Figma alternative made on Rust Discussion | Link",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/whoiscooking",
-      "url": "https://www.producthunt.com/products/whoiscooking",
-      "title": "WhoIsCooking",
-      "content_text": "See which AI agent is heating your Mac and cool it down. Discussion | Link",
-      "summary": "See which AI agent is heating your Mac and cool it down. Discussion | Link",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/vibeide",
-      "url": "https://www.producthunt.com/products/vibeide",
-      "title": "VibeiDE",
-      "content_text": "Queue agent tasks in parallel and review each result Discussion | Link",
-      "summary": "Queue agent tasks in parallel and review each result Discussion | Link",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/standfast",
-      "url": "https://www.producthunt.com/products/standfast",
-      "title": "Standfast",
-      "content_text": "Know if your Mac's GitHub Actions runners will get work Discussion | Link",
-      "summary": "Know if your Mac's GitHub Actions runners will get work Discussion | Link",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/mozy-walk-to-unlock-apps",
-      "url": "https://www.producthunt.com/products/mozy-walk-to-unlock-apps",
-      "title": "Mozy",
-      "content_text": "App Blocker for Android & iPhone Discussion | Link",
-      "summary": "App Blocker for Android & iPhone Discussion | Link",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/manyagents",
-      "url": "https://www.producthunt.com/products/manyagents",
-      "title": "ManyAgents",
-      "content_text": "Run a team of AI coding agents from one Mac window Discussion | Link",
-      "summary": "Run a team of AI coding agents from one Mac window Discussion | Link",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/jobmate-ai-3",
-      "url": "https://www.producthunt.com/products/jobmate-ai-3",
-      "title": "Jobmate AI",
-      "content_text": "The humanized AI Copilot for your entire Job search Discussion | Link",
-      "summary": "The humanized AI Copilot for your entire Job search Discussion | Link",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/allmodels-io",
-      "url": "https://www.producthunt.com/products/allmodels-io",
-      "title": "AllModels",
-      "content_text": "Explore every abliterated model Discussion | Link",
-      "summary": "Explore every abliterated model Discussion | Link",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/avp",
-      "url": "https://www.producthunt.com/products/avp",
-      "title": "AVP",
-      "content_text": "Open source alternative to Git for AI coding agents Discussion | Link",
-      "summary": "Open source alternative to Git for AI coding agents Discussion | Link",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/yourcast",
-      "url": "https://www.producthunt.com/products/yourcast",
-      "title": "Yourcast 2.0",
-      "content_text": "AI summaries with tap-to-jump timestamps, right in Telegram Discussion | Link",
-      "summary": "AI summaries with tap-to-jump timestamps, right in Telegram Discussion | Link",
+      "id": "https://www.producthunt.com/products/airposture-2",
+      "url": "https://www.producthunt.com/products/airposture-2",
+      "title": "AirPosture",
+      "content_text": "Now on Mac, with a voice coach in your AirPods Discussion | Link",
+      "summary": "Now on Mac, with a voice coach in your AirPods Discussion | Link",
       "date_published": "2026-10-24T00:00:00Z",
       "tags": [
         "产品",
@@ -515,12 +691,12 @@
       }
     },
     {
-      "id": "https://www.producthunt.com/products/loqui-2",
-      "url": "https://www.producthunt.com/products/loqui-2",
-      "title": "Loqui",
-      "content_text": "Turns your voice into ready-to-send text in any Mac app Discussion | Link",
-      "summary": "Turns your voice into ready-to-send text in any Mac app Discussion | Link",
-      "date_published": "2026-10-24T00:00:00Z",
+      "id": "https://www.producthunt.com/products/trellis-4",
+      "url": "https://www.producthunt.com/products/trellis-4",
+      "title": "Trellis",
+      "content_text": "More than a terminal: a native macOS workspace for devs Discussion | Link",
+      "summary": "More than a terminal: a native macOS workspace for devs Discussion | Link",
+      "date_published": "2026-10-23T00:00:00Z",
       "tags": [
         "产品",
         "科技",
@@ -537,56 +713,12 @@
       }
     },
     {
-      "id": "https://www.producthunt.com/products/kiwi-7",
-      "url": "https://www.producthunt.com/products/kiwi-7",
-      "title": "Kiwi",
-      "content_text": "A proactive AI assistant that texts you before you ask Discussion | Link",
-      "summary": "A proactive AI assistant that texts you before you ask Discussion | Link",
-      "date_published": "2026-10-24T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/agentgrid-io",
-      "url": "https://www.producthunt.com/products/agentgrid-io",
-      "title": "AgentGrid.io",
-      "content_text": "Shared workspace for humans and agents Discussion | Link",
-      "summary": "Shared workspace for humans and agents Discussion | Link",
-      "date_published": "2026-10-24T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/2g",
-      "url": "https://www.producthunt.com/products/2g",
-      "title": "2G",
-      "content_text": "Sampler to create early 2000 Neural Synthesis Discussion | Link",
-      "summary": "Sampler to create early 2000 Neural Synthesis Discussion | Link",
-      "date_published": "2026-10-24T00:00:00Z",
+      "id": "https://www.producthunt.com/products/tonko",
+      "url": "https://www.producthunt.com/products/tonko",
+      "title": "TONKO",
+      "content_text": "Pocket money app that teaches kids about money Discussion | Link",
+      "summary": "Pocket money app that teaches kids about money Discussion | Link",
+      "date_published": "2026-10-23T00:00:00Z",
       "tags": [
         "产品",
         "科技",
@@ -625,33 +757,11 @@
       }
     },
     {
-      "id": "https://www.producthunt.com/products/llama-windows",
-      "url": "https://www.producthunt.com/products/llama-windows",
-      "title": "Llama Windows",
-      "content_text": "One local AI server for all your Windows apps Discussion | Link",
-      "summary": "One local AI server for all your Windows apps Discussion | Link",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/knock-7",
-      "url": "https://www.producthunt.com/products/knock-7",
-      "title": "Knock",
-      "content_text": "Create shortcuts by hitting your mac Discussion | Link",
-      "summary": "Create shortcuts by hitting your mac Discussion | Link",
+      "id": "https://www.producthunt.com/products/fraud-blocker",
+      "url": "https://www.producthunt.com/products/fraud-blocker",
+      "title": "Fraud Blocker",
+      "content_text": "AI ad fraud protection for Google and Meta ads Discussion | Link",
+      "summary": "AI ad fraud protection for Google and Meta ads Discussion | Link",
       "date_published": "2026-10-23T00:00:00Z",
       "tags": [
         "产品",
@@ -713,33 +823,11 @@
       }
     },
     {
-      "id": "https://www.producthunt.com/products/pdf-accessibility-checker",
-      "url": "https://www.producthunt.com/products/pdf-accessibility-checker",
-      "title": "PDF Accessibility Checker by WebYes",
-      "content_text": "Find PDF accessibility issues for free, with fix guidance Discussion | Link",
-      "summary": "Find PDF accessibility issues for free, with fix guidance Discussion | Link",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/ai-bridge",
-      "url": "https://www.producthunt.com/products/ai-bridge",
-      "title": "AI Bridge",
-      "content_text": "Every AI coding agent on your Mac, in its place Discussion | Link",
-      "summary": "Every AI coding agent on your Mac, in its place Discussion | Link",
+      "id": "https://www.producthunt.com/products/bytemail",
+      "url": "https://www.producthunt.com/products/bytemail",
+      "title": "bytemail",
+      "content_text": "Native Mac email: every inbox, in your notch, no trackers Discussion | Link",
+      "summary": "Native Mac email: every inbox, in your notch, no trackers Discussion | Link",
       "date_published": "2026-10-21T00:00:00Z",
       "tags": [
         "产品",
@@ -779,78 +867,12 @@
       }
     },
     {
-      "id": "https://www.producthunt.com/products/minimax-4",
-      "url": "https://www.producthunt.com/products/minimax-4",
-      "title": "MiniMax M3.1 Flash",
-      "content_text": "MiniMax’s Flash model, 3x faster and 70% cheaper for agents Discussion | Link",
-      "summary": "MiniMax’s Flash model, 3x faster and 70% cheaper for agents Discussion | Link",
-      "date_published": "2026-10-19T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/cloudknife",
-      "url": "https://www.producthunt.com/products/cloudknife",
-      "title": "CloudKnife",
-      "content_text": "Cut your cloud bill, not your performance Discussion | Link",
-      "summary": "Cut your cloud bill, not your performance Discussion | Link",
-      "date_published": "2026-10-19T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/helio-7",
-      "url": "https://www.producthunt.com/products/helio-7",
-      "title": "Helio",
-      "content_text": "Know exactly what your rooftop solar made today Discussion | Link",
-      "summary": "Know exactly what your rooftop solar made today Discussion | Link",
-      "date_published": "2026-10-18T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/clips-by-plastic",
-      "url": "https://www.producthunt.com/products/clips-by-plastic",
-      "title": "Clips by Plastic",
-      "content_text": "Lyric video ads for every part of your song, on the beat Discussion | Link",
-      "summary": "Lyric video ads for every part of your song, on the beat Discussion | Link",
-      "date_published": "2026-10-17T00:00:00Z",
+      "id": "https://www.producthunt.com/products/trigger-dev",
+      "url": "https://www.producthunt.com/products/trigger-dev",
+      "title": "Trigger.dev: Webhooks for your AI agents",
+      "content_text": "Run AI agents with Slack, Supabase and 50+ other services Discussion | Link",
+      "summary": "Run AI agents with Slack, Supabase and 50+ other services Discussion | Link",
+      "date_published": "2026-10-16T00:00:00Z",
       "tags": [
         "产品",
         "科技",
@@ -889,12 +911,12 @@
       }
     },
     {
-      "id": "https://www.producthunt.com/products/surgepix",
-      "url": "https://www.producthunt.com/products/surgepix",
-      "title": "SurgePix",
-      "content_text": "AI visuals. Edit every layer. Agent-callable. Discussion | Link",
-      "summary": "AI visuals. Edit every layer. Agent-callable. Discussion | Link",
-      "date_published": "2026-10-16T00:00:00Z",
+      "id": "https://www.producthunt.com/products/botgauge-2",
+      "url": "https://www.producthunt.com/products/botgauge-2",
+      "title": "BotGauge",
+      "content_text": "The Trust Layer for Your Agents Discussion | Link",
+      "summary": "The Trust Layer for Your Agents Discussion | Link",
+      "date_published": "2026-10-15T00:00:00Z",
       "tags": [
         "产品",
         "科技",
@@ -933,11 +955,11 @@
       }
     },
     {
-      "id": "https://www.producthunt.com/products/strawberry",
-      "url": "https://www.producthunt.com/products/strawberry",
-      "title": "Strawberry 1.0",
-      "content_text": "AI Browser that saves your team >100h/week Discussion | Link",
-      "summary": "AI Browser that saves your team >100h/week Discussion | Link",
+      "id": "https://www.producthunt.com/products/mudroom-3",
+      "url": "https://www.producthunt.com/products/mudroom-3",
+      "title": "Mudroom",
+      "content_text": "Run coding agents in a VM, review changes like a PR Discussion | Link",
+      "summary": "Run coding agents in a VM, review changes like a PR Discussion | Link",
       "date_published": "2026-10-12T00:00:00Z",
       "tags": [
         "产品",
@@ -955,78 +977,12 @@
       }
     },
     {
-      "id": "https://www.producthunt.com/products/lexmount-browser",
-      "url": "https://www.producthunt.com/products/lexmount-browser",
-      "title": "Moli by Lexmount",
-      "content_text": "The fastest headless browser for agents and harnesses Discussion | Link",
-      "summary": "The fastest headless browser for agents and harnesses Discussion | Link",
-      "date_published": "2026-10-12T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/flipcorder",
-      "url": "https://www.producthunt.com/products/flipcorder",
-      "title": "Flipcorder",
-      "content_text": "A 1991 camcorder for your iPhone, one tape a day Discussion | Link",
-      "summary": "A 1991 camcorder for your iPhone, one tape a day Discussion | Link",
-      "date_published": "2026-10-09T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/badgey",
-      "url": "https://www.producthunt.com/products/badgey",
-      "title": "Badgey",
-      "content_text": "Your iPhone becomes a name badge that faces the room Discussion | Link",
-      "summary": "Your iPhone becomes a name badge that faces the room Discussion | Link",
-      "date_published": "2026-10-08T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/n8n-chat-ui-2",
-      "url": "https://www.producthunt.com/products/n8n-chat-ui-2",
-      "title": "N8N Chat UI",
-      "content_text": "Beautiful, no-code, on-brand AI chat widgets for n8n Discussion | Link",
-      "summary": "Beautiful, no-code, on-brand AI chat widgets for n8n Discussion | Link",
-      "date_published": "2026-10-07T00:00:00Z",
+      "id": "https://www.producthunt.com/products/zro",
+      "url": "https://www.producthunt.com/products/zro",
+      "title": "Zro: Uncensored Security Models",
+      "content_text": "Abliterated open models for security work Discussion | Link",
+      "summary": "Abliterated open models for security work Discussion | Link",
+      "date_published": "2026-10-11T00:00:00Z",
       "tags": [
         "产品",
         "科技",
@@ -1065,12 +1021,34 @@
       }
     },
     {
-      "id": "https://www.producthunt.com/products/savor-3",
-      "url": "https://www.producthunt.com/products/savor-3",
-      "title": "SavorApp_AI",
-      "content_text": "Capture what matters and move your intentions forward Discussion | Link",
-      "summary": "Capture what matters and move your intentions forward Discussion | Link",
-      "date_published": "2026-09-12T00:00:00Z",
+      "id": "https://www.producthunt.com/products/ragelayer",
+      "url": "https://www.producthunt.com/products/ragelayer",
+      "title": "RageLayer",
+      "content_text": "Let visitors smash your website, then sweep it back Discussion | Link",
+      "summary": "Let visitors smash your website, then sweep it back Discussion | Link",
+      "date_published": "2026-10-04T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/app-store-screenshots",
+      "url": "https://www.producthunt.com/products/app-store-screenshots",
+      "title": "App Store Screenshots",
+      "content_text": "Your coding agent designs your app store screenshots Discussion | Link",
+      "summary": "Your coding agent designs your app store screenshots Discussion | Link",
+      "date_published": "2026-10-04T00:00:00Z",
       "tags": [
         "产品",
         "科技",
@@ -1093,6 +1071,28 @@
       "content_text": "Private On-device AI, connected tools, & creative workflows Discussion | Link",
       "summary": "Private On-device AI, connected tools, & creative workflows Discussion | Link",
       "date_published": "2026-07-21T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/tulu",
+      "url": "https://www.producthunt.com/products/tulu",
+      "title": "Tulu",
+      "content_text": "Autonomous marketing operations & analytics Discussion | Link",
+      "summary": "Autonomous marketing operations & analytics Discussion | Link",
+      "date_published": "2026-07-19T00:00:00Z",
       "tags": [
         "产品",
         "科技",

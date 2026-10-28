@@ -9,21 +9,21 @@
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/ai/6485292.html",
-      "url": "https://www.woshipm.com/ai/6485292.html",
-      "title": "AI帮用户关广告，小米们的“互联网模式”迎来大考",
-      "content_text": "当Agent让普通用户也能一键关闭电视广告、精简手机系统，硬件厂商靠广告赚钱的“互联网模式”正遭遇前所未有的挑战。本文通过CleanYourTV等真实案例，剖析用户“爆改”硬件背后的技术逻辑，并深入探讨广告收入受冲击后，硬件公司该如何重构商业模式与产品竞争力。 Agent普及，释放了用户的想象力和生产力，也将硬件公司逼…",
-      "summary": "当Agent让普通用户也能一键关闭电视广告、精简手机系统，硬件厂商靠广告赚钱的“互联网模式”正遭遇前所未有的挑战。本文通过CleanYourTV等真实案例，剖析用户“爆改”硬件背后的技术逻辑，并深入探讨广告收入受冲击后，硬件公司该如何重构商业模式与产品竞争力。 Agent普及，释放了用户的想象力和生产力，也将硬件公司逼…",
+      "id": "https://www.woshipm.com/ai/6485427.html",
+      "url": "https://www.woshipm.com/ai/6485427.html",
+      "title": "招 Agent 工程师，为什么张口就是 LangChain？",
+      "content_text": "招聘 Agent 工程师，JD 第一行常写「熟悉 LangChain」。这个 2022 年 10 月才开源的项目，四年间从工具库长成 Agent 工程体系，它究竟解决了什么问题，又凭什么成了行业默认门槛？ 最近很多同学反映，找一个Agent工程师的工作，都要求要会langchain，好像不会langchain就不会开发…",
+      "summary": "招聘 Agent 工程师，JD 第一行常写「熟悉 LangChain」。这个 2022 年 10 月才开源的项目，四年间从工具库长成 Agent 工程体系，它究竟解决了什么问题，又凭什么成了行业默认门槛？ 最近很多同学反映，找一个Agent工程师的工作，都要求要会langchain，好像不会langchain就不会开发…",
       "date_published": "2026-10-28T00:00:00Z",
       "tags": [
         "AI",
         "个人随笔",
         "Agent",
-        "CleanYourTV",
-        "互联网模式",
-        "商业模式",
-        "广告",
-        "智能硬件"
+        "AI应用",
+        "AI编程",
+        "LangChain",
+        "产品",
+        "运营"
       ],
       "authors": [
         {

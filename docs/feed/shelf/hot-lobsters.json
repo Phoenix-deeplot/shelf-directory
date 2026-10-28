@@ -12,8 +12,8 @@
       "id": "https://www.netmeister.org/blog/defense-ddos.html",
       "url": "https://www.netmeister.org/blog/defense-ddos.html",
       "title": "This is not sustainable",
-      "content_text": "第 9 名 · ▲ 4 · security · 1 条评论",
-      "summary": "第 9 名 · ▲ 4 · security · 1 条评论",
+      "content_text": "第 2 名 · ▲ 30 · security · 6 条评论",
+      "summary": "第 2 名 · ▲ 30 · security · 6 条评论",
       "date_published": "2026-10-28T00:00:00Z",
       "tags": [
         "社区",
@@ -33,8 +33,8 @@
       "id": "http://shittyscreenshare.com",
       "url": "http://shittyscreenshare.com",
       "title": "Shitty Screenshare",
-      "content_text": "第 6 名 · ▲ 75 · browsers web · 32 条评论",
-      "summary": "第 6 名 · ▲ 75 · browsers web · 32 条评论",
+      "content_text": "第 7 名 · ▲ 75 · browsers web · 32 条评论",
+      "summary": "第 7 名 · ▲ 75 · browsers web · 32 条评论",
       "date_published": "2026-10-28T00:00:00Z",
       "tags": [
         "社区",
@@ -51,11 +51,32 @@
       }
     },
     {
-      "id": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
-      "url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
-      "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
-      "content_text": "第 10 名 · ▲ 11 · ai security · 3 条评论",
-      "summary": "第 10 名 · ▲ 11 · ai security · 3 条评论",
+      "id": "https://portswigger.net/research/scalable-vector-grief",
+      "url": "https://portswigger.net/research/scalable-vector-grief",
+      "title": "Scalable Vector Grief",
+      "content_text": "第 10 名 · ▲ 5 · security web · 0 条评论",
+      "summary": "第 10 名 · ▲ 5 · security web · 0 条评论",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Lobsters"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-lobsters"
+      }
+    },
+    {
+      "id": "https://lobste.rs/s/87iesc",
+      "url": "https://lobste.rs/s/87iesc",
+      "title": "Reminder: Lobsters NYC Meetup Tomorrow 5:30 at Walker's",
+      "content_text": "第 8 名 · ▲ 13 · event · 0 条评论",
+      "summary": "第 8 名 · ▲ 13 · event · 0 条评论",
       "date_published": "2026-10-28T00:00:00Z",
       "tags": [
         "社区",
@@ -75,8 +96,8 @@
       "id": "https://gracefulliberty.com/articles/four-months-of-zig/",
       "url": "https://gracefulliberty.com/articles/four-months-of-zig/",
       "title": "Four Months of Zig",
-      "content_text": "第 2 名 · ▲ 44 · zig · 9 条评论",
-      "summary": "第 2 名 · ▲ 44 · zig · 9 条评论",
+      "content_text": "第 3 名 · ▲ 56 · zig · 10 条评论",
+      "summary": "第 3 名 · ▲ 56 · zig · 10 条评论",
       "date_published": "2026-10-28T00:00:00Z",
       "tags": [
         "社区",
@@ -96,8 +117,8 @@
       "id": "https://thenumb.at/Syl-Intro/",
       "url": "https://thenumb.at/Syl-Intro/",
       "title": "Compile-Time Dependent Types",
-      "content_text": "第 7 名 · ▲ 24 · ml plt · 9 条评论",
-      "summary": "第 7 名 · ▲ 24 · ml plt · 9 条评论",
+      "content_text": "第 9 名 · ▲ 25 · ml plt · 9 条评论",
+      "summary": "第 9 名 · ▲ 25 · ml plt · 9 条评论",
       "date_published": "2026-10-28T00:00:00Z",
       "tags": [
         "社区",
@@ -114,32 +135,11 @@
       }
     },
     {
-      "id": "https://t3x.org/files/floodfill.pdf",
-      "url": "https://t3x.org/files/floodfill.pdf",
-      "title": "A stackless floodfill automation (2023)",
-      "content_text": "第 8 名 · ▲ 23 · compsci pdf · 2 条评论",
-      "summary": "第 8 名 · ▲ 23 · compsci pdf · 2 条评论",
-      "date_published": "2026-10-28T00:00:00Z",
-      "tags": [
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Lobsters"
-        }
-      ],
-      "_shelf": {
-        "type": "pdf",
-        "shelf": "hot-lobsters"
-      }
-    },
-    {
       "id": "https://astral.sh/blog/tar-codec",
       "url": "https://astral.sh/blog/tar-codec",
       "title": "A fast and secure tar parser for the Rust ecosystem",
-      "content_text": "第 1 名 · ▲ 53 · python rust · 10 条评论",
-      "summary": "第 1 名 · ▲ 53 · python rust · 10 条评论",
+      "content_text": "第 1 名 · ▲ 65 · python rust · 10 条评论",
+      "summary": "第 1 名 · ▲ 65 · python rust · 10 条评论",
       "date_published": "2026-10-28T00:00:00Z",
       "tags": [
         "社区",
@@ -159,8 +159,8 @@
       "id": "https://planetpeanut.studio/post/2026/10/27/pidgin-emoji-twitch",
       "url": "https://planetpeanut.studio/post/2026/10/27/pidgin-emoji-twitch",
       "title": "1,447 emoji? We'll do it live",
-      "content_text": "第 5 名 · ▲ 32 · design · 2 条评论",
-      "summary": "第 5 名 · ▲ 32 · design · 2 条评论",
+      "content_text": "第 6 名 · ▲ 36 · design · 2 条评论",
+      "summary": "第 6 名 · ▲ 36 · design · 2 条评论",
       "date_published": "2026-10-28T00:00:00Z",
       "tags": [
         "社区",

@@ -9,6 +9,30 @@
   },
   "items": [
     {
+      "id": "https://slate.com/podcasts/what-next/2026/10/why-political-ads-are-more-depraved-than-ever-before?via=rss",
+      "url": "https://slate.com/podcasts/what-next/2026/10/why-political-ads-are-more-depraved-than-ever-before?via=rss",
+      "title": "Were Midterm Ads Always <em>This </em>Bad?",
+      "content_text": "Are ads meeting the moment or just making everything worse?",
+      "summary": "Are ads meeting the moment or just making everything worse?",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/e9c53990-ceb6-4ac2-a8a9-d64408de8610.jpeg?crop=4500%2C3000%2Cx0%2Cy0",
+      "tags": [
+        "Politics",
+        "2026 Midterms",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
       "id": "https://slate.com/news-and-politics/2026/10/el-sayed-ossoff-hot-democrats-midterms.html?via=rss",
       "url": "https://slate.com/news-and-politics/2026/10/el-sayed-ossoff-hot-democrats-midterms.html?via=rss",
       "title": "The Democrats Need a Daddy. I Know Exactly Who It Should Be.",

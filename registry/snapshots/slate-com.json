@@ -2,6 +2,33 @@
  "id": "slate-com",
  "items": [
   {
+   "url": "https://slate.com/podcasts/what-next/2026/10/why-political-ads-are-more-depraved-than-ever-before?via=rss",
+   "title": "Were Midterm Ads Always <em>This </em>Bad?",
+   "summary": "Are ads meeting the moment or just making everything worse?",
+   "image": "https://compote.slate.com/images/e9c53990-ceb6-4ac2-a8a9-d64408de8610.jpeg?crop=4500%2C3000%2Cx0%2Cy0",
+   "date": "2026-10-28",
+   "tags": [
+    "Politics",
+    "2026 Midterms"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://slate.com/podcasts/icymi/2026/10/the-internet-cant-agree-on-you-can-see-everything?via=rss",
+   "title": "The Documentary Dividing The Internet",
+   "summary": "Nathan Fielder’s documentary has divided the discourse.",
+   "image": "https://compote.slate.com/images/27112895-8771-4708-93c7-5c6c210ed770.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+   "date": "2026-10-28",
+   "tags": [
+    "Internet Culture",
+    "Movies",
+    "Documentaries"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://slate.com/culture/2026/10/you-can-see-everything-oscars-best-picture-amanda-seyfried.html?via=rss",
    "title": "<em>You Can See Everything</em> Seems Poised to Do What No Movie Has Ever Done Before",
    "summary": "The cinematic sensation could make history at this year’s Oscars—in more ways than one.",
@@ -185,6 +212,21 @@
    "type": "article"
   },
   {
+   "url": "https://slate.com/advice/2026/10/parenting-advice-supporting-grieving-kids.html?via=rss",
+   "title": "My Ex-Husband Just Died. My Kids Can Never Know How I Really Feel.",
+   "summary": "I just can't relate.",
+   "image": "https://compote.slate.com/images/d6837ca8-2c03-478d-b7d2-55f468dea38d.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+   "date": "2026-10-27",
+   "tags": [
+    "Advice",
+    "Family",
+    "Kids",
+    "Parenting"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://slate.com/life/2026/10/slate-soundbites-for-october-27-2026.html?via=rss",
    "title": "Slate SoundBites for October 27, 2026",
    "summary": "Build your answer from the sound up with our new game, SoundBites!",
@@ -223,21 +265,6 @@
     "Dating and Relationships",
     "Dear Prudence",
     "Family"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://slate.com/advice/2026/10/parenting-advice-supporting-grieving-kids.html?via=rss",
-   "title": "My Ex-Husband Just Died. My Kids Can Never Know How I Really Feel.",
-   "summary": "I just can't relate.",
-   "image": "https://compote.slate.com/images/d6837ca8-2c03-478d-b7d2-55f468dea38d.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-   "date": "2026-10-27",
-   "tags": [
-    "Advice",
-    "Family",
-    "Kids",
-    "Parenting"
    ],
    "lang": "en",
    "type": "article"
@@ -325,31 +352,6 @@
    ],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://slate.com/podcasts/death-sex-money/2026/10/side-effects-trade-offs?via=rss",
-   "title": "Side Effects May Include Headaches, Sleep Eating, Buying Power Tools",
-   "summary": "There’s no such thing as a silver bullet.",
-   "image": "https://compote.slate.com/images/902f26fd-c488-48a4-9fa9-755a2fb02d3e.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-   "date": "2026-10-27",
-   "tags": [
-    "Health",
-    "Mental Health",
-    "Cancer",
-    "The Pharmaceutical Industry"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://slate.com/news-and-politics/2026/10/brazil-election-results-lula-bolsonaro-far-right-maga.html?via=rss",
-   "title": "The Far Right Lost a Foreign Election, and MAGA Sees Only One Solution",
-   "summary": "Donald Trump and his allies are not taking Brazil’s election results well.",
-   "image": "https://compote.slate.com/images/addb5c5d-7dff-4b87-9af6-ecef64d06ffe.png?crop=3000%2C2000%2Cx0%2Cy0",
-   "date": "2026-10-26",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -366,6 +368,6 @@
  "parser": 3,
  "status": "ok",
  "error": "",
- "etag": "W/\"7026-+XfBnhUVK3N7wg5PkxG+okFAxUg\"",
+ "etag": "W/\"6f7f-f3+iip9cFJnrc8OludDiq/sR2FI\"",
  "modified": ""
 }

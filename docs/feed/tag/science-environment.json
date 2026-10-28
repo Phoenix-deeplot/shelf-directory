@@ -9,18 +9,17 @@
   },
   "items": [
     {
-      "id": "https://www.wired.com/story/anthropic-ipo-identifies-gas-supply-as-big-near-term-risks/",
-      "url": "https://www.wired.com/story/anthropic-ipo-identifies-gas-supply-as-big-near-term-risks/",
-      "title": "Anthropic Flags Gas Supply as One of Its Biggest Near-Term Risks",
-      "content_text": "The data center buildout could cause a massive increase in gas prices as companies scramble for limited supplies and infrastructure fails to meet demand.",
-      "summary": "The data center buildout could cause a massive increase in gas prices as companies scramble for limited supplies and infrastructure fails to meet demand.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ae0a917b092bac6ae652e82/master/pass/102626_Anthropic%20Gas%20S1.jpg",
+      "id": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
+      "url": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
+      "title": "AI Emergency Alerts Are Coming. Humans Might Not Be Ready",
+      "content_text": "Human beings struggle with emergency communication. Chatbots can help—if people take them seriously.",
+      "summary": "Human beings struggle with emergency communication. Chatbots can help—if people take them seriously.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae1120223d445186a16d911/master/pass/ai-weather-alerts-emergency.jpg",
       "tags": [
         "Science",
         "Science / Environment",
-        "Business",
-        "P(Doom)",
+        "Warning Signs",
         "科技",
         "社会"
       ],
@@ -35,17 +34,18 @@
       }
     },
     {
-      "id": "https://www.wired.com/story/oil-spills-wreak-havoc-on-the-bottom-of-the-ocean-even-a-decade-later/",
-      "url": "https://www.wired.com/story/oil-spills-wreak-havoc-on-the-bottom-of-the-ocean-even-a-decade-later/",
-      "title": "Oil Spills Wreak Havoc on the Bottom of the Ocean, Even a Decade Later",
-      "content_text": "While oil is known to float, new research finds that over time it can permeate even extremely deep marine habitats, with animal populations declining by as much…",
-      "summary": "While oil is known to float, new research finds that over time it can permeate even extremely deep marine habitats, with animal populations declining by as much…",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad9cf0216c3bcd306bcde9c/master/pass/GettyImages-99306371.jpg",
+      "id": "https://www.wired.com/story/anthropic-ipo-identifies-gas-supply-as-big-near-term-risks/",
+      "url": "https://www.wired.com/story/anthropic-ipo-identifies-gas-supply-as-big-near-term-risks/",
+      "title": "Anthropic Flags Gas Supply as One of Its Biggest Near-Term Risks",
+      "content_text": "The data center buildout could cause a massive increase in gas prices as companies scramble for limited supplies and infrastructure fails to meet demand.",
+      "summary": "The data center buildout could cause a massive increase in gas prices as companies scramble for limited supplies and infrastructure fails to meet demand.",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae0a917b092bac6ae652e82/master/pass/102626_Anthropic%20Gas%20S1.jpg",
       "tags": [
         "Science",
         "Science / Environment",
-        "Slippery When Wet",
+        "Business",
+        "P(Doom)",
         "科技",
         "社会"
       ],

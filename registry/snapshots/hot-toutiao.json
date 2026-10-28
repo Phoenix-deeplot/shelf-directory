@@ -2,9 +2,49 @@
  "id": "hot-toutiao",
  "items": [
   {
+   "url": "https://www.toutiao.com/trending/7701614631789284918/",
+   "title": "中方重视姆巴佩作出的道歉",
+   "summary": "第 1 名 · 热度 1.0 亿",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://www.toutiao.com/trending/7700202788881632811/",
+   "title": "皇马道歉",
+   "summary": "第 2 名 · 热度 9087.9 万",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://www.toutiao.com/trending/7701477195742658587/",
+   "title": "因地制宜推进乡村全面振兴",
+   "summary": "第 3 名 · 热度 8223.0 万",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://www.toutiao.com/trending/7700901534950772260/",
+   "title": "浙江宣传：姆巴佩不配",
+   "summary": "第 4 名 · 热度 7440.5 万",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
    "url": "https://www.toutiao.com/trending/7701568987024526898/",
    "title": "中方强烈要求美国立即停止封锁古巴",
-   "summary": "第 1 名 · 热度 1.4 亿",
+   "summary": "第 5 名 · 热度 6732.5 万",
    "image": "",
    "date": "2026-10-28",
    "tags": [],
@@ -12,9 +52,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.toutiao.com/trending/7701095567384035347/",
-   "title": "民调：内塔尼亚胡阵营未获过半议席",
-   "summary": "第 2 名 · 热度 1.2 亿",
+   "url": "https://www.toutiao.com/trending/7701604359507608091/",
+   "title": "国台办回应特朗普涉台言论",
+   "summary": "第 6 名 · 热度 6091.8 万",
    "image": "",
    "date": "2026-10-28",
    "tags": [],
@@ -22,9 +62,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.toutiao.com/trending/7701537435041254921/",
-   "title": "以优良作风厚植党的执政根基",
-   "summary": "第 3 名 · 热度 1.1 亿",
+   "url": "https://www.toutiao.com/trending/7701619420283539007/",
+   "title": "邱毅：美日长蛇阵“七寸”在石垣岛",
+   "summary": "第 7 名 · 热度 5512.1 万",
    "image": "",
    "date": "2026-10-28",
    "tags": [],
@@ -32,9 +72,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.toutiao.com/trending/7701170258211700779/",
-   "title": "人民日报评姆巴佩翻车",
-   "summary": "第 4 名 · 热度 1.0 亿",
+   "url": "https://www.toutiao.com/trending/7700612879108128819/",
+   "title": "小车疑因被加塞不满撞击前车",
+   "summary": "第 8 名 · 热度 4987.5 万",
    "image": "",
    "date": "2026-10-28",
    "tags": [],
@@ -42,9 +82,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.toutiao.com/trending/7701526342366528009/",
-   "title": "金鸡影帝戈治均去世",
-   "summary": "第 5 名 · 热度 9239.3 万",
+   "url": "https://www.toutiao.com/trending/7701477569446592521/",
+   "title": "新服务激活田野里的新质生产力",
+   "summary": "第 9 名 · 热度 4512.9 万",
    "image": "",
    "date": "2026-10-28",
    "tags": [],
@@ -52,49 +92,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.toutiao.com/trending/7701504765762797618/",
-   "title": "研究发现吃肉可能与长寿有关",
-   "summary": "第 6 名 · 热度 8360.0 万",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "zh",
-   "type": "article"
-  },
-  {
-   "url": "https://www.toutiao.com/trending/7701512692640534054/",
-   "title": "3000万豪宅地库出入口在隧道",
-   "summary": "第 7 名 · 热度 7564.5 万",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "zh",
-   "type": "article"
-  },
-  {
-   "url": "https://www.toutiao.com/trending/7700912696347820086/",
-   "title": "国考资格过审后记得确认",
-   "summary": "第 8 名 · 热度 6844.6 万",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "zh",
-   "type": "article"
-  },
-  {
-   "url": "https://www.toutiao.com/trending/7701519722432479251/",
-   "title": "交旅融合绘就出行新图景",
-   "summary": "第 9 名 · 热度 6193.3 万",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "zh",
-   "type": "article"
-  },
-  {
-   "url": "https://www.toutiao.com/trending/7701009807756214282/",
-   "title": "国台办：越来越多台湾渔产品走入大陆",
-   "summary": "第 10 名 · 热度 5603.9 万",
+   "url": "https://www.toutiao.com/trending/7701240702570774554/",
+   "title": "柯文哲：不要幻想摇一摇选民就全改向",
+   "summary": "第 10 名 · 热度 4083.4 万",
    "image": "",
    "date": "2026-10-28",
    "tags": [],

@@ -13,8 +13,18 @@
   },
   {
    "url": "https://www.cnbc.com/2026/10/28/israel-election-netanyahu-trump-gaza-.html",
-   "title": "Israel election appears to have no clear winner with Netanyahu, opponent Eisenkot far short of majorities",
+   "title": "Israeli bonds, shekel fall as election leaves Netanyahu and others far short of majorities",
    "summary": "Exit polls show Prime Minister Benjamin Netanyahu's alliance and Gadi Eisenkot's opposition bloc both well off the numbers needed to form a governing majority.",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/28/ubs-earnings-third-quarter.html",
+   "title": "UBS pre-tax profits jump 27% in third quarter to $3.59 billion as wealth inflows surge",
+   "summary": "UBS reported a third quarter pre-tax profit of almost $3.6 billion.",
    "image": "",
    "date": "2026-10-28",
    "tags": [],
@@ -32,19 +42,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
-   "title": "SK Hynix shares soar over 8% as profit beats, chipmaker to return $25 billion to investors",
-   "summary": "Shares of South Korean chipmaker SK Hynix soared over 8% on Wednesday as third-quarter profit sharply beats estimates.",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/28/india-us-stocks-retail-access.html",
-   "title": "Indian investors rush to Nvidia, SpaceX, Apple as local trading apps roll out access to U.S. stocks",
-   "summary": "Major Indian brokerages are providing retail investors access to U.S. stocks at a time when the local market has been battered.",
+   "url": "https://www.cnbc.com/2026/10/28/us-treasurys-bonds-yields-federal-reserve.html",
+   "title": "Treasury yields tick higher ahead of Federal Reserve interest rate decision",
+   "summary": "Treasury yields edged higher as traders await the Federal Reserve's latest monetary policy decision.",
    "image": "",
    "date": "2026-10-28",
    "tags": [],
@@ -62,9 +62,49 @@
    "type": "article"
   },
   {
+   "url": "https://www.cnbc.com/2026/10/28/wnba-atlanta-dream-golden-state-valkyries-flavor-flav-hillary-clinton-.html",
+   "title": "Flavor Flav, Hillary Clinton weigh in as WNBA takes flak for weekday lunchtime finals game",
+   "summary": "The Atlanta Dream criticized the WNBA for scheduling a Finals game on Thursday afternoon, drawing reactions from Flavor Flav and Hillary Clinton.",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.cnbc.com/2026/10/28/china-mbappe-football-sponsor-meme-controversy.html",
    "title": "Kylian Mbappé faces China backlash as sponsors cut ties over viral meme",
    "summary": "Chinese state media has warned Kylian Mbappé that his apology over remarks referring to Mao Zedong as a dictator will be judged against his actions.",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/27/robinhood-hood-q3-2026-earnings.html",
+   "title": "Robinhood shares fall as crypto slump weighs on profits, offsetting gains in new businesses",
+   "summary": "Robinhood's third-quarter revenue met expectations, fueled by the company's expansion into options, predictions markets and other financial services.",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/28/india-us-stocks-retail-access.html",
+   "title": "Indian investors rush to Nvidia, SpaceX, Apple as local trading apps roll out access to U.S. stocks",
+   "summary": "Major Indian brokerages are providing retail investors access to U.S. stocks at a time when the local market has been battered.",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
+   "title": "SK Hynix shares jump 11% after record quarterly profit, outperforming broader market",
+   "summary": "Shares of South Korean chipmaker SK Hynix soared 11% on Wednesday as third-quarter profit sharply beats estimates.",
    "image": "",
    "date": "2026-10-28",
    "tags": [],
@@ -82,21 +122,11 @@
    "type": "article"
   },
   {
-   "url": "https://www.cnbc.com/2026/10/27/anthropic-five-surprising-risks-s1.html",
-   "title": "Anthropic's IPO is risky business",
-   "summary": "Anthropic's much-anticipated IPO is giving potential investors some perspective on the risky business of artificial intelligence.",
+   "url": "https://www.cnbc.com/2026/10/27/arctic-shipping-china-and-russia-expand-grip-can-europe-fight-back.html",
+   "title": "China and Russia are redrawing Arctic trade. Can Europe fight back?",
+   "summary": "China and Russia are tightening their grip on Arctic shipping routes, turning the rapidly warming region into a new geopolitical battleground with Europe.",
    "image": "",
    "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/27/q3-earnings-resilient-consumer.html",
-   "title": "Early third-quarter earnings show a 'resilient' U.S. consumer, with signs of strain",
-   "summary": "Companies from Royal Caribbean to Coca-Cola and UPS say they are seeing steady consumer spending despite high inflation.",
-   "image": "",
-   "date": "2026-10-27",
    "tags": [],
    "lang": "en",
    "type": "article"
@@ -105,16 +135,6 @@
    "url": "https://www.cnbc.com/2026/10/27/-anthropic-ipo-investors-growth-losses-s-1.html",
    "title": "Anthropic's IPO could be 'speculative fiction' or a 'generational moment' — investors are split",
    "summary": "Investors are digesting Anthropic's S-1 filing that the Securities and Exchange Commission released on Monday.",
-   "image": "",
-   "date": "2026-10-27",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/27/speaker-johnson-peaceful-transfer-midterms.html",
-   "title": "Speaker Mike Johnson calls election-transfer concerns ‘absurd’",
-   "summary": "Democrats and voting rights groups have raised concerns that President Donald Trump and congressional Republicans could challenge election results if they lose.",
    "image": "",
    "date": "2026-10-27",
    "tags": [],
@@ -132,19 +152,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.cnbc.com/2026/10/27/trump-putin-zelenskyy-russia-ukraine-diesel.html",
-   "title": "Trump administration may let more Russian diesel onto market, energy secretary tells CNBC",
-   "summary": "The diesel volumes in the Trump-Putin deal won't materially lower prices because the shipments are small compared to total demand, analysts say.",
-   "image": "",
-   "date": "2026-10-27",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/27/arctic-shipping-china-and-russia-expand-grip-can-europe-fight-back.html",
-   "title": "China and Russia are redrawing Arctic trade. Can Europe fight back?",
-   "summary": "China and Russia are tightening their grip on Arctic shipping routes, turning the rapidly warming region into a new geopolitical battleground with Europe.",
+   "url": "https://www.cnbc.com/2026/10/27/q3-earnings-resilient-consumer.html",
+   "title": "Early third-quarter earnings show a 'resilient' U.S. consumer, with signs of strain",
+   "summary": "Companies from Royal Caribbean to Coca-Cola and UPS say they are seeing steady consumer spending despite high inflation.",
    "image": "",
    "date": "2026-10-27",
    "tags": [],
@@ -172,9 +182,39 @@
    "type": "article"
   },
   {
+   "url": "https://www.cnbc.com/2026/10/27/cftc-probes-polymarket-over-2022-settlement.html",
+   "title": "Polymarket faces renewed CFTC probe over U.S. access to offshore platform",
+   "summary": "The federal agency had previously investigated whether Polymarket allowed U.S. users on to its offshore platform in 2024, but dropped the measures in July 2025.",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.cnbc.com/investingclub/2026/10/27/boeing-shares-slide-on-a-disappointing-cash-flow-update-why-this-dip-is-buyable-.html",
    "title": "Boeing shares slide on a disappointing cash flow update. Why this dip is buyable",
    "summary": "Boeing reset investor expectations on free cash flow growth in the coming years. We're hopeful this represents a clearing event.",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/27/trump-putin-zelenskyy-russia-ukraine-diesel.html",
+   "title": "Trump administration may let more Russian diesel onto market, energy secretary tells CNBC",
+   "summary": "The diesel volumes in the Trump-Putin deal won't materially lower prices because the shipments are small compared to total demand, analysts say.",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/27/speaker-johnson-peaceful-transfer-midterms.html",
+   "title": "Speaker Mike Johnson calls election-transfer concerns ‘absurd’",
+   "summary": "Democrats and voting rights groups have raised concerns that President Donald Trump and congressional Republicans could challenge election results if they lose.",
    "image": "",
    "date": "2026-10-27",
    "tags": [],
@@ -195,26 +235,6 @@
    "url": "https://www.cnbc.com/2026/10/27/neil-young-trump-lawsuit-song-copyright-free-world.html",
    "title": "Neil Young sues Trump committee for $10M for playing 'Rockin' in the Free World' at rally",
    "summary": "\"'Rockin' in the Free World' is the opposite of everything that Donald J. Trump stands for,\" the suit by the two-time Rock and Roll Hall of Fame member says.",
-   "image": "",
-   "date": "2026-10-27",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/27/cftc-probes-polymarket-over-2022-settlement.html",
-   "title": "Polymarket faces renewed CFTC probe over U.S. access to offshore platform",
-   "summary": "The federal agency had previously investigated whether Polymarket allowed U.S. users on to its offshore platform in 2024, but dropped the measures in July 2025.",
-   "image": "",
-   "date": "2026-10-27",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/27/robinhood-hood-q3-2026-earnings.html",
-   "title": "Robinhood shares fall 4% as crypto slump weighs on profits, offsetting gains in new businesses",
-   "summary": "Robinhood's third-quarter revenue met expectations, fueled by the company's expansion into options, predictions markets and other financial services.",
    "image": "",
    "date": "2026-10-27",
    "tags": [],
@@ -265,26 +285,6 @@
    "url": "https://www.cnbc.com/2026/10/27/walmart-ai-training-workers.html",
    "title": "Walmart says AI training is boosting confidence with the technology among its 2.1 million associates",
    "summary": "Walmart says training from OpenAI and Google is helping its 2.1 million associates feel more confident using AI and digital tools.",
-   "image": "",
-   "date": "2026-10-27",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/27/frozen-housing-market-sends-remodelers-mixed-messages.html",
-   "title": "Frozen housing market sends remodelers mixed messages",
-   "summary": "Home remodelers have always served two different markets, but the current state of housing is now pulling them opposite directions.",
-   "image": "",
-   "date": "2026-10-27",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/27/a-rising-wealth-tide-lifts-all-yachts.html",
-   "title": "A rising wealth tide lifts all yachts",
-   "summary": "As the yachting world prepares for the Fort Lauderdale International Boat Show this week, executives are betting on wealthy Americans to power the industry.",
    "image": "",
    "date": "2026-10-27",
    "tags": [],

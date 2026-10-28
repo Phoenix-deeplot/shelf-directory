@@ -33,6 +33,28 @@
       }
     },
     {
+      "id": "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
+      "title": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
+      "content_text": "Written by Lucy Lim, Planetary Scientist at NASA’s Goddard Space Flight Center Earth planning date: Friday, Oct. 16, 2026 Following the Basque Lakes drill campa…",
+      "summary": "Written by Lucy Lim, Planetary Scientist at NASA’s Goddard Space Flight Center Earth planning date: Friday, Oct. 16, 2026 Following the Basque Lakes drill campa…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Blogs",
+        "航天",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "NASA"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "nasa-gov"
+      }
+    },
+    {
       "id": "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/",
       "url": "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/",
       "title": "APOD: 2026 October 28 – The Mutual Occultation of Ganymede and Io",
@@ -155,28 +177,6 @@
         "Earth Observatory",
         "Ice & Glaciers",
         "Terra",
-        "航天",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "NASA"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "nasa-gov"
-      }
-    },
-    {
-      "id": "https://science.nasa.gov/photojournal/neo-surveyors-sunshade-gets-inspected/",
-      "url": "https://science.nasa.gov/photojournal/neo-surveyors-sunshade-gets-inspected/",
-      "title": "NEO Surveyor’s Sunshade Gets Inspected",
-      "content_text": "Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor is mounted on an assembly ring during inspections in a clean room at BAE Systems Space…",
-      "summary": "Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor is mounted on an assembly ring during inspections in a clean room at BAE Systems Space…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "Photojournal",
         "航天",
         "科学"
       ],

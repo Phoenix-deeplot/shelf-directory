@@ -9,6 +9,27 @@
   },
   "items": [
     {
+      "id": "https://www.cnbc.com/2026/10/28/ubs-earnings-third-quarter.html",
+      "url": "https://www.cnbc.com/2026/10/28/ubs-earnings-third-quarter.html",
+      "title": "UBS pre-tax profits jump 27% in third quarter to $3.59 billion as wealth inflows surge",
+      "content_text": "UBS reported a third quarter pre-tax profit of almost $3.6 billion.",
+      "summary": "UBS reported a third quarter pre-tax profit of almost $3.6 billion.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
       "id": "https://www.cnbc.com/2026/10/28/us-iran-war-trump-hormuz-costs-centcom.html",
       "url": "https://www.cnbc.com/2026/10/28/us-iran-war-trump-hormuz-costs-centcom.html",
       "title": "Trump says Iran war will end 'when I want it to' as costs reportedly balloon to $47 billion",
@@ -51,11 +72,53 @@
       }
     },
     {
+      "id": "https://www.cnbc.com/2026/10/28/us-treasurys-bonds-yields-federal-reserve.html",
+      "url": "https://www.cnbc.com/2026/10/28/us-treasurys-bonds-yields-federal-reserve.html",
+      "title": "Treasury yields tick higher ahead of Federal Reserve interest rate decision",
+      "content_text": "Treasury yields edged higher as traders await the Federal Reserve's latest monetary policy decision.",
+      "summary": "Treasury yields edged higher as traders await the Federal Reserve's latest monetary policy decision.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
       "id": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
       "url": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
-      "title": "SK Hynix shares soar over 8% as profit beats, chipmaker to return $25 billion to investors",
-      "content_text": "Shares of South Korean chipmaker SK Hynix soared over 8% on Wednesday as third-quarter profit sharply beats estimates.",
-      "summary": "Shares of South Korean chipmaker SK Hynix soared over 8% on Wednesday as third-quarter profit sharply beats estimates.",
+      "title": "SK Hynix shares jump 11% after record quarterly profit, outperforming broader market",
+      "content_text": "Shares of South Korean chipmaker SK Hynix soared 11% on Wednesday as third-quarter profit sharply beats estimates.",
+      "summary": "Shares of South Korean chipmaker SK Hynix soared 11% on Wednesday as third-quarter profit sharply beats estimates.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/27/robinhood-hood-q3-2026-earnings.html",
+      "url": "https://www.cnbc.com/2026/10/27/robinhood-hood-q3-2026-earnings.html",
+      "title": "Robinhood shares fall as crypto slump weighs on profits, offsetting gains in new businesses",
+      "content_text": "Robinhood's third-quarter revenue met expectations, fueled by the company's expansion into options, predictions markets and other financial services.",
+      "summary": "Robinhood's third-quarter revenue met expectations, fueled by the company's expansion into options, predictions markets and other financial services.",
       "date_published": "2026-10-28T00:00:00Z",
       "tags": [
         "金融",
@@ -137,7 +200,7 @@
     {
       "id": "https://www.cnbc.com/2026/10/28/israel-election-netanyahu-trump-gaza-.html",
       "url": "https://www.cnbc.com/2026/10/28/israel-election-netanyahu-trump-gaza-.html",
-      "title": "Israel election appears to have no clear winner with Netanyahu, opponent Eisenkot far short of majorities",
+      "title": "Israeli bonds, shekel fall as election leaves Netanyahu and others far short of majorities",
       "content_text": "Exit polls show Prime Minister Benjamin Netanyahu's alliance and Gadi Eisenkot's opposition bloc both well off the numbers needed to form a governing majority.",
       "summary": "Exit polls show Prime Minister Benjamin Netanyahu's alliance and Gadi Eisenkot's opposition bloc both well off the numbers needed to form a governing majority.",
       "date_published": "2026-10-28T00:00:00Z",
@@ -177,11 +240,32 @@
       }
     },
     {
-      "id": "https://www.cnbc.com/2026/10/27/anthropic-five-surprising-risks-s1.html",
-      "url": "https://www.cnbc.com/2026/10/27/anthropic-five-surprising-risks-s1.html",
-      "title": "Anthropic's IPO is risky business",
-      "content_text": "Anthropic's much-anticipated IPO is giving potential investors some perspective on the risky business of artificial intelligence.",
-      "summary": "Anthropic's much-anticipated IPO is giving potential investors some perspective on the risky business of artificial intelligence.",
+      "id": "https://www.cnbc.com/2026/10/28/wnba-atlanta-dream-golden-state-valkyries-flavor-flav-hillary-clinton-.html",
+      "url": "https://www.cnbc.com/2026/10/28/wnba-atlanta-dream-golden-state-valkyries-flavor-flav-hillary-clinton-.html",
+      "title": "Flavor Flav, Hillary Clinton weigh in as WNBA takes flak for weekday lunchtime finals game",
+      "content_text": "The Atlanta Dream criticized the WNBA for scheduling a Finals game on Thursday afternoon, drawing reactions from Flavor Flav and Hillary Clinton.",
+      "summary": "The Atlanta Dream criticized the WNBA for scheduling a Finals game on Thursday afternoon, drawing reactions from Flavor Flav and Hillary Clinton.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/27/arctic-shipping-china-and-russia-expand-grip-can-europe-fight-back.html",
+      "url": "https://www.cnbc.com/2026/10/27/arctic-shipping-china-and-russia-expand-grip-can-europe-fight-back.html",
+      "title": "China and Russia are redrawing Arctic trade. Can Europe fight back?",
+      "content_text": "China and Russia are tightening their grip on Arctic shipping routes, turning the rapidly warming region into a new geopolitical battleground with Europe.",
+      "summary": "China and Russia are tightening their grip on Arctic shipping routes, turning the rapidly warming region into a new geopolitical battleground with Europe.",
       "date_published": "2026-10-28T00:00:00Z",
       "tags": [
         "金融",
@@ -266,27 +350,6 @@
       "title": "Speaker Mike Johnson calls election-transfer concerns ‘absurd’",
       "content_text": "Democrats and voting rights groups have raised concerns that President Donald Trump and congressional Republicans could challenge election results if they lose.",
       "summary": "Democrats and voting rights groups have raised concerns that President Donald Trump and congressional Republicans could challenge election results if they lose.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/27/robinhood-hood-q3-2026-earnings.html",
-      "url": "https://www.cnbc.com/2026/10/27/robinhood-hood-q3-2026-earnings.html",
-      "title": "Robinhood shares fall 4% as crypto slump weighs on profits, offsetting gains in new businesses",
-      "content_text": "Robinhood's third-quarter revenue met expectations, fueled by the company's expansion into options, predictions markets and other financial services.",
-      "summary": "Robinhood's third-quarter revenue met expectations, fueled by the company's expansion into options, predictions markets and other financial services.",
       "date_published": "2026-10-27T00:00:00Z",
       "tags": [
         "金融",
@@ -429,53 +492,11 @@
       }
     },
     {
-      "id": "https://www.cnbc.com/2026/10/27/frozen-housing-market-sends-remodelers-mixed-messages.html",
-      "url": "https://www.cnbc.com/2026/10/27/frozen-housing-market-sends-remodelers-mixed-messages.html",
-      "title": "Frozen housing market sends remodelers mixed messages",
-      "content_text": "Home remodelers have always served two different markets, but the current state of housing is now pulling them opposite directions.",
-      "summary": "Home remodelers have always served two different markets, but the current state of housing is now pulling them opposite directions.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
       "id": "https://www.cnbc.com/2026/10/27/q3-earnings-resilient-consumer.html",
       "url": "https://www.cnbc.com/2026/10/27/q3-earnings-resilient-consumer.html",
       "title": "Early third-quarter earnings show a 'resilient' U.S. consumer, with signs of strain",
       "content_text": "Companies from Royal Caribbean to Coca-Cola and UPS say they are seeing steady consumer spending despite high inflation.",
       "summary": "Companies from Royal Caribbean to Coca-Cola and UPS say they are seeing steady consumer spending despite high inflation.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/27/arctic-shipping-china-and-russia-expand-grip-can-europe-fight-back.html",
-      "url": "https://www.cnbc.com/2026/10/27/arctic-shipping-china-and-russia-expand-grip-can-europe-fight-back.html",
-      "title": "China and Russia are redrawing Arctic trade. Can Europe fight back?",
-      "content_text": "China and Russia are tightening their grip on Arctic shipping routes, turning the rapidly warming region into a new geopolitical battleground with Europe.",
-      "summary": "China and Russia are tightening their grip on Arctic shipping routes, turning the rapidly warming region into a new geopolitical battleground with Europe.",
       "date_published": "2026-10-27T00:00:00Z",
       "tags": [
         "金融",
@@ -602,27 +623,6 @@
       "title": "AI debt fears ease ahead of Oracle, Alphabet and Amazon updates. Here's what to watch.",
       "content_text": "Credit markets will be closely watching updates from Oracle and other hyperscalers later this week. What to expect.",
       "summary": "Credit markets will be closely watching updates from Oracle and other hyperscalers later this week. What to expect.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/27/a-rising-wealth-tide-lifts-all-yachts.html",
-      "url": "https://www.cnbc.com/2026/10/27/a-rising-wealth-tide-lifts-all-yachts.html",
-      "title": "A rising wealth tide lifts all yachts",
-      "content_text": "As the yachting world prepares for the Fort Lauderdale International Boat Show this week, executives are betting on wealthy Americans to power the industry.",
-      "summary": "As the yachting world prepares for the Fort Lauderdale International Boat Show this week, executives are betting on wealthy Americans to power the industry.",
       "date_published": "2026-10-27T00:00:00Z",
       "tags": [
         "金融",

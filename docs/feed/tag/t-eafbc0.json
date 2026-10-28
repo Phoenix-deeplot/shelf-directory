@@ -9,6 +9,53 @@
   },
   "items": [
     {
+      "id": "https://www.openculture.com/2026/10/the-vibrant-color-wheels-designed-by-goethe-newton-other-theorists.html",
+      "url": "https://www.openculture.com/2026/10/the-vibrant-color-wheels-designed-by-goethe-newton-other-theorists.html",
+      "title": "The Vibrant Color Wheels Designed by Goethe, Newton & Other Theorists of Color (1665–1810)",
+      "content_text": "Maybe it’s the cloistered headiness of Rene Descartes, or the rigorous austerity of Isaac Newton; maybe it’s all the leathern breeches, gray waistcoats, sallow…",
+      "summary": "Maybe it’s the cloistered headiness of Rene Descartes, or the rigorous austerity of Isaac Newton; maybe it’s all the leathern breeches, gray waistcoats, sallow…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Art",
+        "Science",
+        "文化",
+        "免费资源"
+      ],
+      "authors": [
+        {
+          "name": "Open Culture"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "openculture-com"
+      }
+    },
+    {
+      "id": "https://www.openculture.com/2026/10/inside-the-making-of-the-sagrada-familia-barcelonas-144-year-megaproject.html",
+      "url": "https://www.openculture.com/2026/10/inside-the-making-of-the-sagrada-familia-barcelonas-144-year-megaproject.html",
+      "title": "Inside the Making of the Sagrada Família, Barcelona’s 144-Year Megaproject",
+      "content_text": "To get a sense of Sagrada Família’s popularity with YouTubers, you have only to take a look at the related Open Culture posts linked below. As will hardly escap…",
+      "summary": "To get a sense of Sagrada Família’s popularity with YouTubers, you have only to take a look at the related Open Culture posts linked below. As will hardly escap…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Architecture",
+        "History",
+        "Religion",
+        "文化",
+        "免费资源"
+      ],
+      "authors": [
+        {
+          "name": "Open Culture"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "openculture-com"
+      }
+    },
+    {
       "id": "https://www.openculture.com/2026/10/how-balzacs-extreme-coffee-habit-fueled-his-productive-writing-routine.html",
       "url": "https://www.openculture.com/2026/10/how-balzacs-extreme-coffee-habit-fueled-his-productive-writing-routine.html",
       "title": "How Balzac’s Extreme Coffee Habit Fueled His Productive Writing Routine",
@@ -293,51 +340,6 @@
         "History",
         "Literature",
         "Photography",
-        "文化",
-        "免费资源"
-      ],
-      "authors": [
-        {
-          "name": "Open Culture"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "openculture-com"
-      }
-    },
-    {
-      "id": "https://www.openculture.com/2026/10/how-vincent-van-goghs-sister-in-law-worked-tirelessly-to-make-him-famous.html",
-      "url": "https://www.openculture.com/2026/10/how-vincent-van-goghs-sister-in-law-worked-tirelessly-to-make-him-famous.html",
-      "title": "How Vincent van Gogh’s Sister-in-Law Worked Tirelessly to Make Him Famous",
-      "content_text": "No artist, no matter how solitary by nature, becomes a cultural phenomenon alone. That’s even true of such an isolated figure as Vincent van Gogh, whose death i…",
-      "summary": "No artist, no matter how solitary by nature, becomes a cultural phenomenon alone. That’s even true of such an isolated figure as Vincent van Gogh, whose death i…",
-      "date_published": "2026-10-16T00:00:00Z",
-      "tags": [
-        "Art",
-        "History",
-        "文化",
-        "免费资源"
-      ],
-      "authors": [
-        {
-          "name": "Open Culture"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "openculture-com"
-      }
-    },
-    {
-      "id": "https://www.openculture.com/2026/10/the-megaprojects-even-the-ancient-romans-couldnt-pull-off.html",
-      "url": "https://www.openculture.com/2026/10/the-megaprojects-even-the-ancient-romans-couldnt-pull-off.html",
-      "title": "The Megaprojects That Even the Ancient Romans Couldn’t Pull Off: Rerouting the Tiber, Digging a Canal, and More",
-      "content_text": "Some would call the United States of America the mightiest empire the world has ever known. Yet over the past half-century or so, it has shown a strange inabili…",
-      "summary": "Some would call the United States of America the mightiest empire the world has ever known. Yet over the past half-century or so, it has shown a strange inabili…",
-      "date_published": "2026-10-15T00:00:00Z",
-      "tags": [
-        "History",
         "文化",
         "免费资源"
       ],

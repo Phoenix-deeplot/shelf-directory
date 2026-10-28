@@ -7,134 +7,86 @@
   <updated>2026-10-28T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/operate/6485291.html</id>
-    <title>远程评标系统落地复盘：别把评标系统等同于视频会议</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/operate/6485291.html"/>
+    <id>https://www.woshipm.com/zhichang/6485376.html</id>
+    <title>公开裁员拿钱走人，变相裁员背后伤人</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/zhichang/6485376.html"/>
     <updated>2026-10-28T00:00:00Z</updated>
     <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">电子化招投标已是大势，不少B端产品在搭建远程招标能力时，很容易踩一个大坑：直接复用通用视频会议承载远程评标业务。本文站在产品经理视角，复盘远程评标系统的业务逻辑、评估维度、落地步骤以及常见误区，给政企招采类产品的设计和集成工作提供可复用思路。 一、业务背景：为什么招采场景需要独立的远程评标能力 电子化招投标已经成为政府…</summary>
+    <summary type="text">微软6万人“明裁”N+7看似体面，但更多企业正用“暗裁”套路逼你主动离职。从冷落边缘化到绩效PUA，从诱导谈话到调岗降薪，一套组合拳让你分文补偿拿不到。本文通过两个真实案例，拆解变相裁员的全套剧本，并给出搜集证据、底线反击的实操方法，帮你在AI裁员潮中守住应得权益。 近日微软向全球员工发出内部备忘录，以“自愿离职方案”…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="产品运营"/>
-    <category term="业务知识"/>
-    <category term="经验总结"/>
-    <category term="视频会议"/>
-    <category term="评标系统"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6485306.html</id>
-    <title>腾讯做了一个Motus AI：90+游戏接入，一站式生产游戏3D动画资产</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485306.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">腾讯游戏把3D角色动画的全链路做成一个独立平台。Motus AI 已接入90余个内外部项目，在《和平精英》《王者荣耀》等游戏里落地，把骨骼蒙皮、动作生成、穿模诊断这些重复劳动收进同一个工作台。 腾讯游戏旗下的公共技术线做了一个Motus AI独立平台，Motus AI聚焦3D角色动画全链路核心技术，构建贯穿角色动画生产…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI产品"/>
-    <category term="功能分析"/>
-    <category term="腾讯"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6485105.html</id>
-    <title>腾讯上线SimulMT，一个实时同声传译产品</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6485105.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Hy-SimulMT 支持中英双向语音到语音翻译，主打低延迟、高质量和实时克隆音色，已开源并接入腾讯 Hy 翻译 App。与持有 CATTI 证书的真人口译对比，质量能达到专家水平，速度往往更快。 腾讯又上线并开源了一个新产品，Hy-SimulMT 大模型。 这是一个实时同声传译大模型，由腾讯混元团队推出。 支持中文和…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="AI产品"/>
-    <category term="功能分析"/>
-    <category term="腾讯"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6485242.html</id>
-    <title>本地生活：云连锁 VS 轻连锁，小店VS 大店</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6485242.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">靠小店快速铺开的云连锁正撞上天花板：总部把客户带到门店，门店核销完就见底，接不住二次经营。做了几年车咖之后作者看清，从流量到经营这一步转向，才是云连锁变成轻连锁的真正原因。 昨晚在群里聊了大店与小店，以及大店存在的机会，今天继续思考云连锁以及云连锁的变化——轻连锁。 过去几年做车咖，我们合作了大量中小门店。这些门店缺少…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="个人观点"/>
-    <category term="云连锁"/>
-    <category term="本地生活"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6485240.html</id>
-    <title>按住 Ctrl 拖一下就转完：狂揽近 1.4 万星，它可能是目前最好最全的格式转换器</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485240.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">多数人转格式还是上传到在线网站，顶着广告等结果。开源工具 Filee 换了思路：按住 Ctrl 把文件拖起来，光标旁就弹出一圈只列可行目标的格式圆环，松手即完成，266种格式全在本地离线跑完，上线一个多月接近14k Star。 平时转换文件格式，大多数人的习惯流程都很折腾：碰到不认识的后缀，先去搜索引擎找在线转换网站，…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="Github"/>
-    <category term="个人观点"/>
-    <category term="功能分析"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6484978.html</id>
-    <title>品牌没有自嘲的资格</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484978.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">小鹏发布会用“老登”一词本想拉近年轻人，却翻车了。本文从《弱者的武器》和弗洛伊德笑话理论切入，犀利指出：当品牌借用弱者口吻嘲讽消费者，自嘲就变成了他嘲。更荒诞的是，被冒犯的正是它想卖车给的那群“刚生孩子的95后”。品牌自嘲的边界在哪里？谁该为借来的“敢说”买单？ 自嘲是弱者的武器 “老登”这个词流行起来的土壤，是年轻人…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="品牌营销"/>
-    <category term="案例分析"/>
-    <category term="热点事件"/>
-    <category term="用户洞察"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/chuangye/6483407.html</id>
-    <title>千万用户也救不了它：AI 陪聊明星 Character.AI 申请破产</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6483407.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">仍有约 1200 万活跃用户的 Character.AI 在 10 月 12 日申请破产保护，每月亏损 800 万至 900 万美元，迪士尼出价 2000 万美元求部分技术授权。同样的生意，CHAI 做到 1.2 亿美元年化收入，差别在账怎么算。 前段时间有个大新闻，一家曾经估值 10亿美元、连 Google 都花 2…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="创业学院"/>
+    <category term="职场攻略"/>
     <category term="AI应用"/>
-    <category term="产品分析"/>
-    <category term="商业模式"/>
-    <category term="行业观察"/>
+    <category term="劳动仲裁"/>
+    <category term="微软裁员"/>
+    <category term="案例分析"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/marketing/6484810.html</id>
-    <title>产品经理定价指南：7步从目标到结果，附特斯拉/比亚迪/戴森案例</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/marketing/6484810.html"/>
+    <id>https://www.woshipm.com/share/6485606.html</id>
+    <title>做数据分析10年，这是我见过最好的“人货场模型”</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6485606.html"/>
     <updated>2026-10-28T00:00:00Z</updated>
     <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">定价策略的本质是三定：定战略+定用户+定生态位。战略决定经营目标，用户决定愿意付多少钱，生态位决定竞争位置，价格只是杠杆；不同的价格，意味着不同的目标用户和利润结构。 价格是交易条件，定价是利益取舍，定价策略是服务经营目标的战略选择。 定价策略的本质有“三定”：定战略+定用户+定生态位。 定战略：确定企业的经营目标，是…</summary>
+    <summary type="text">生鲜电商复购率偏低，六成用户 30 天内没有二次下单。派券、推荐算法、精准营销轮番上过之后，真正的答案藏在货物属性里：米面油和车厘子的购买节奏，本来就不是一回事，硬推只会白花钱。 做数据分析的同学，很多都听过：人、货、场的分析模型。然而，这东西又是个只闻其名，不见真身的东西。到底该怎么结合实际分析？今天我们系统讲解下。…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="营销推广"/>
-    <category term="产品策略"/>
+    <category term="个人随笔"/>
+    <category term="人货场模型"/>
+    <category term="数据运营"/>
+    <category term="案例分析"/>
+    <category term="用户增长"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6485608.html</id>
+    <title>不靠预算也能起盘：郑州帮打法的内核，为什么还没失效</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6485608.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">素人号加海量笔记、关键词加私域，这套不讲预算的打法被喊了好几年「已死」。一个月实地调研给出的结论是：内核并没有失效，变的是自然流在缩、搜索场变得更值钱，后来者仍有机会。 我一直在思考一个问题，为什么大家这么关注郑州帮打法？ 后来我慢慢想明白了，各种投放打法里面，郑州帮打法是典型的投放界的“爽文”，因为郑州帮打法提供了一…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="内容电商"/>
+    <category term="小红书"/>
+    <category term="投放策略"/>
+    <category term="私域"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6485257.html</id>
+    <title>WorkBuddy上线「本地文档默认打开方式」，可一键开启</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485257.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">双击本地文档，默认弹出来的不再只有 Office，也可以是 WorkBuddy 的文件浏览器。设置里新增默认打开方式入口，勾选文档类型、过一次系统授权即可改成默认，Dock 里会单独立一个图标。 近日，WorkBuddy 频繁更新。 之前上线了AI 办公 Agent 行业首个本地「文件浏览器」功能。 可通过 WorkB…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI产品"/>
+    <category term="WorkBuddy"/>
+    <category term="功能分析"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6485281.html</id>
+    <title>AI洗牌财富榜：张一鸣6700亿、梁文锋2800亿</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6485281.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">2026胡润百富榜上，张一鸣以6700亿元第二次成为中国首富，梁文锋凭2800亿元首次上榜就排到第七。AI 方向的企业家已占上榜者10.4%，但账面财富涨得快，不等于企业赚到了同等利润。 AI正在重新排列中国富豪的座次。 10月27日发布的《2026胡润百富榜》（财富计算截止日期为2026年9月1日）显示，字节跳动创始…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="DeepSeek"/>
     <category term="商业模式"/>
-    <category term="定价策略"/>
+    <category term="字节跳动"/>
+    <category term="行业分析"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
@@ -597,6 +549,39 @@
     <updated>2025-02-11T00:00:00Z</updated>
     <published>2025-02-11T00:00:00Z</published>
     <summary type="text">岁末年初是回顾与展望的最佳时机。我们总结出在低增速时代最值得关注的四大商业趋势：情绪价值、大健康、低价化、全球化。这些趋势贯穿了我们过去一年的节目内容，成为我们探讨的核心主题：在第86期节目中，我们深入探讨了「健康红利」；在第93期节目中，我们聚焦中国电商平台的跨境之战，持续关注中国企业在全球市场中的表现与挑战；在第9…</summary>
+    <source><title>疯投圈</title></source>
+    <category term="商业"/>
+    <category term="创投"/>
+  </entry>
+  <entry>
+    <id>https://crazy.capital/108</id>
+    <title>108 ✪ 银发の商机</title>
+    <link rel="alternate" type="text/html" href="https://crazy.capital/108"/>
+    <updated>2025-01-07T00:00:00Z</updated>
+    <published>2025-01-07T00:00:00Z</published>
+    <summary type="text">老年人需要怎样的产品和服务？除了耳熟能详的大健康相关产业，老龄化还将带来哪些新的商业机遇？按我国现在老龄化的速度推算，留给我们「摸着日本过河」的时间已经不多了。 疯投圈日本游学第三期 理解中国消费发展趋势，日本是最好的参考对象。日本的消费需求高度发达和细分，在当下日本社会的很多消费现象代表着社会成熟、变化减少后的稳定状…</summary>
+    <source><title>疯投圈</title></source>
+    <category term="商业"/>
+    <category term="创投"/>
+  </entry>
+  <entry>
+    <id>https://crazy.capital/107</id>
+    <title>107 ✪ 社区何以生长：线上小红书、线下阿那亚</title>
+    <link rel="alternate" type="text/html" href="https://crazy.capital/107"/>
+    <updated>2024-12-16T00:00:00Z</updated>
+    <published>2024-12-16T00:00:00Z</published>
+    <summary type="text">社区是复杂且有极大挑战性的商业模式。抖音和视频号虽然非常成功，但和社区关系不大；早期的豆瓣、知乎和B站都有社区基因，商业上却没能取得显著成就。硕果仅存的小红书在2023年利润约5亿美元、2024利润预计约8亿美元，证明了社区商业模式有效。 成功的线上社区首推小红书，成功的线下社区阿那亚必占一席。在房地产行业不景气的大背…</summary>
+    <source><title>疯投圈</title></source>
+    <category term="商业"/>
+    <category term="创投"/>
+  </entry>
+  <entry>
+    <id>https://crazy.capital/106</id>
+    <title>106 ✪ 胖东来永辉大战沃尔玛山姆</title>
+    <link rel="alternate" type="text/html" href="https://crazy.capital/106"/>
+    <updated>2024-11-18T00:00:00Z</updated>
+    <published>2024-11-18T00:00:00Z</published>
+    <summary type="text">黄海去许昌朝圣归来后和 Rio 讨论大家期待已久的「胖东来」： 这家只开在三四线城市、却声名远播的线下商超，到底有何神奇之处？它靠什么赚钱？ 胖东来调改永辉超市，到底改了什么使得它的头号粉丝、「名创优品」创始人叶国富仅仅在看过6家调改店后就立即拍板斥资60亿元成为永辉第一大股东？ 线下零售相对互联网平台的优劣势是什么？…</summary>
     <source><title>疯投圈</title></source>
     <category term="商业"/>
     <category term="创投"/>

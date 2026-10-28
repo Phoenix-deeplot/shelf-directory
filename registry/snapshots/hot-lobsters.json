@@ -4,7 +4,17 @@
   {
    "url": "https://astral.sh/blog/tar-codec",
    "title": "A fast and secure tar parser for the Rust ecosystem",
-   "summary": "第 1 名 · ▲ 53 · python rust · 10 条评论",
+   "summary": "第 1 名 · ▲ 65 · python rust · 10 条评论",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.netmeister.org/blog/defense-ddos.html",
+   "title": "This is not sustainable",
+   "summary": "第 2 名 · ▲ 30 · security · 6 条评论",
    "image": "",
    "date": "2026-10-28",
    "tags": [],
@@ -14,7 +24,7 @@
   {
    "url": "https://gracefulliberty.com/articles/four-months-of-zig/",
    "title": "Four Months of Zig",
-   "summary": "第 2 名 · ▲ 44 · zig · 9 条评论",
+   "summary": "第 3 名 · ▲ 56 · zig · 10 条评论",
    "image": "",
    "date": "2026-10-28",
    "tags": [],
@@ -24,7 +34,7 @@
   {
    "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
    "title": "Ghostty 1.4.0",
-   "summary": "第 3 名 · ▲ 33 · release · 1 条评论",
+   "summary": "第 4 名 · ▲ 50 · release · 1 条评论",
    "image": "",
    "date": "2026-10-28",
    "tags": [],
@@ -34,7 +44,7 @@
   {
    "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
    "title": "Python's experimental JIT to be removed",
-   "summary": "第 4 名 · ▲ 88 · python · 19 条评论",
+   "summary": "第 5 名 · ▲ 89 · python · 24 条评论",
    "image": "",
    "date": "2026-10-28",
    "tags": [],
@@ -44,7 +54,7 @@
   {
    "url": "https://planetpeanut.studio/post/2026/10/27/pidgin-emoji-twitch",
    "title": "1,447 emoji? We'll do it live",
-   "summary": "第 5 名 · ▲ 32 · design · 2 条评论",
+   "summary": "第 6 名 · ▲ 36 · design · 2 条评论",
    "image": "",
    "date": "2026-10-28",
    "tags": [],
@@ -54,7 +64,17 @@
   {
    "url": "http://shittyscreenshare.com",
    "title": "Shitty Screenshare",
-   "summary": "第 6 名 · ▲ 75 · browsers web · 32 条评论",
+   "summary": "第 7 名 · ▲ 75 · browsers web · 32 条评论",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://lobste.rs/s/87iesc",
+   "title": "Reminder: Lobsters NYC Meetup Tomorrow 5:30 at Walker's",
+   "summary": "第 8 名 · ▲ 13 · event · 0 条评论",
    "image": "",
    "date": "2026-10-28",
    "tags": [],
@@ -64,7 +84,7 @@
   {
    "url": "https://thenumb.at/Syl-Intro/",
    "title": "Compile-Time Dependent Types",
-   "summary": "第 7 名 · ▲ 24 · ml plt · 9 条评论",
+   "summary": "第 9 名 · ▲ 25 · ml plt · 9 条评论",
    "image": "",
    "date": "2026-10-28",
    "tags": [],
@@ -72,29 +92,9 @@
    "type": "article"
   },
   {
-   "url": "https://t3x.org/files/floodfill.pdf",
-   "title": "A stackless floodfill automation (2023)",
-   "summary": "第 8 名 · ▲ 23 · compsci pdf · 2 条评论",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "pdf"
-  },
-  {
-   "url": "https://www.netmeister.org/blog/defense-ddos.html",
-   "title": "This is not sustainable",
-   "summary": "第 9 名 · ▲ 4 · security · 1 条评论",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
-   "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
-   "summary": "第 10 名 · ▲ 11 · ai security · 3 条评论",
+   "url": "https://portswigger.net/research/scalable-vector-grief",
+   "title": "Scalable Vector Grief",
+   "summary": "第 10 名 · ▲ 5 · security web · 0 条评论",
    "image": "",
    "date": "2026-10-28",
    "tags": [],

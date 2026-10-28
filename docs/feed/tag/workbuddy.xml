@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/workbuddy.xml</id>
+  <title>公共目录 · #WorkBuddy</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/workbuddy.xml"/>
+  <updated>2026-10-28T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.woshipm.com/ai/6485617.html</id>
+    <title>我用 WorkBuddy 给全家做了一个生活管理后台，全套技能开源！</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485617.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">日记、记账、读书笔记、凭证、健康档案、电脑体检，六件家庭杂事被收进一个聊天框，数据全部存在腾讯文档里，家里人在手机上发一句话就能记，电脑关着也照样查得到。整套技能已经全开源。 我用 WorkBuddy 给家人搭了一个「生活管理后台」：日记、读书笔记、健康档案、各种凭证、记账、电脑管理，6 件生活杂事，全靠一句话 所有数…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI应用"/>
+    <category term="WorkBuddy"/>
+    <category term="智能体"/>
+    <category term="腾讯文档"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6485257.html</id>
+    <title>WorkBuddy上线「本地文档默认打开方式」，可一键开启</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485257.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">双击本地文档，默认弹出来的不再只有 Office，也可以是 WorkBuddy 的文件浏览器。设置里新增默认打开方式入口，勾选文档类型、过一次系统授权即可改成默认，Dock 里会单独立一个图标。 近日，WorkBuddy 频繁更新。 之前上线了AI 办公 Agent 行业首个本地「文件浏览器」功能。 可通过 WorkB…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI产品"/>
+    <category term="WorkBuddy"/>
+    <category term="功能分析"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+</feed>

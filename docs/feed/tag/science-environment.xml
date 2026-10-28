@@ -4,8 +4,22 @@
   <title>公共目录 · #Science / Environment</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/science-environment.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/</id>
+    <title>AI Emergency Alerts Are Coming. Humans Might Not Be Ready</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Human beings struggle with emergency communication. Chatbots can help—if people take them seriously.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Science"/>
+    <category term="Science / Environment"/>
+    <category term="Warning Signs"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
   <entry>
     <id>https://www.wired.com/story/anthropic-ipo-identifies-gas-supply-as-big-near-term-risks/</id>
     <title>Anthropic Flags Gas Supply as One of Its Biggest Near-Term Risks</title>
@@ -18,20 +32,6 @@
     <category term="Science / Environment"/>
     <category term="Business"/>
     <category term="P(Doom)"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/oil-spills-wreak-havoc-on-the-bottom-of-the-ocean-even-a-decade-later/</id>
-    <title>Oil Spills Wreak Havoc on the Bottom of the Ocean, Even a Decade Later</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/oil-spills-wreak-havoc-on-the-bottom-of-the-ocean-even-a-decade-later/"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">While oil is known to float, new research finds that over time it can permeate even extremely deep marine habitats, with animal populations declining by as much…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Environment"/>
-    <category term="Slippery When Wet"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>

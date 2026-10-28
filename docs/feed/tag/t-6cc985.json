@@ -9,21 +9,21 @@
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/operate/6485291.html",
-      "url": "https://www.woshipm.com/operate/6485291.html",
-      "title": "远程评标系统落地复盘：别把评标系统等同于视频会议",
-      "content_text": "电子化招投标已是大势，不少B端产品在搭建远程招标能力时，很容易踩一个大坑：直接复用通用视频会议承载远程评标业务。本文站在产品经理视角，复盘远程评标系统的业务逻辑、评估维度、落地步骤以及常见误区，给政企招采类产品的设计和集成工作提供可复用思路。 一、业务背景：为什么招采场景需要独立的远程评标能力 电子化招投标已经成为政府…",
-      "summary": "电子化招投标已是大势，不少B端产品在搭建远程招标能力时，很容易踩一个大坑：直接复用通用视频会议承载远程评标业务。本文站在产品经理视角，复盘远程评标系统的业务逻辑、评估维度、落地步骤以及常见误区，给政企招采类产品的设计和集成工作提供可复用思路。 一、业务背景：为什么招采场景需要独立的远程评标能力 电子化招投标已经成为政府…",
+      "id": "https://www.woshipm.com/ai/6485430.html",
+      "url": "https://www.woshipm.com/ai/6485430.html",
+      "title": "递交上市后，Anthropic 创始人首次讲清：一家 AI 公司，凭什么让人相信它",
+      "content_text": "Anthropic 两位创始人兄妹首次对外讲清，他们没给 Claude 一张 170 条的规则清单，而是教它几条基本原则：开放探究、关心别人、公平正义。模型越强，这套教对错的方法越关键。 你有没有想过，一个 AI 要是学会了顺着你说话，只讲你爱听的，你多半很难发现？它没有说错什么，也没有说什么难听的，只是每次都说“你说…",
+      "summary": "Anthropic 两位创始人兄妹首次对外讲清，他们没给 Claude 一张 170 条的规则清单，而是教它几条基本原则：开放探究、关心别人、公平正义。模型越强，这套教对错的方法越关键。 你有没有想过，一个 AI 要是学会了顺着你说话，只讲你爱听的，你多半很难发现？它没有说错什么，也没有说什么难听的，只是每次都说“你说…",
       "date_published": "2026-10-28T00:00:00Z",
       "tags": [
-        "产品运营",
-        "业务知识",
-        "经验总结",
-        "视频会议",
-        "评标系统",
+        "AI",
+        "个人随笔",
+        "AI伦理",
+        "AI公司",
+        "Anthropic",
+        "Claude",
         "产品",
-        "运营",
-        "商业"
+        "运营"
       ],
       "authors": [
         {
@@ -36,20 +36,209 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/share/6485166.html",
-      "url": "https://www.woshipm.com/share/6485166.html",
-      "title": "设计师与产品经理的消费路径：记录并提交1条6字段快照",
-      "content_text": "设计师如何从被动遵守规则转向主动提供证据？本文提出最小可行路径：将真实困惑按6字段记录为语义快照，5分钟完成一次提交。通过机器预检与评审反馈，个人直觉逐步沉淀为组织规则，让设计判断不再流失于会议室。 我在前一篇《从”被动遵守”到”主动走查”》讲了设计师与产品经理如何消费YAML契约与编译产物，从语义快照成为契约的原材料…",
-      "summary": "设计师如何从被动遵守规则转向主动提供证据？本文提出最小可行路径：将真实困惑按6字段记录为语义快照，5分钟完成一次提交。通过机器预检与评审反馈，个人直觉逐步沉淀为组织规则，让设计判断不再流失于会议室。 我在前一篇《从”被动遵守”到”主动走查”》讲了设计师与产品经理如何消费YAML契约与编译产物，从语义快照成为契约的原材料…",
+      "id": "https://www.woshipm.com/ai/6485432.html",
+      "url": "https://www.woshipm.com/ai/6485432.html",
+      "title": "腾讯网盘实测：跳出容量竞赛，大厂押注Agent存储",
+      "content_text": "腾讯正在内测「腾讯网盘」，定位不再是文件仓库，而是多 Agent 的统一记忆底座，可连接腾讯文档、WorkBuddy 等智能体，让多个 AI 在同一份资料上协同工作。实测下来，长处与短板都相当清楚。 腾讯已开启“腾讯网盘”内测，部分功能仍在迭代完善，腾讯网盘计划配有App版本。腾讯网盘聚焦文件存储、数据管理与AI应用，…",
+      "summary": "腾讯正在内测「腾讯网盘」，定位不再是文件仓库，而是多 Agent 的统一记忆底座，可连接腾讯文档、WorkBuddy 等智能体，让多个 AI 在同一份资料上协同工作。实测下来，长处与短板都相当清楚。 腾讯已开启“腾讯网盘”内测，部分功能仍在迭代完善，腾讯网盘计划配有App版本。腾讯网盘聚焦文件存储、数据管理与AI应用，…",
       "date_published": "2026-10-28T00:00:00Z",
       "tags": [
+        "AI",
         "个人随笔",
-        "YAML契约",
-        "经验总结",
-        "设计系统",
-        "设计走查",
-        "证据驱动设计",
-        "语义快照",
+        "AI应用",
+        "产品分析",
+        "网盘",
+        "腾讯",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6485289.html",
+      "url": "https://www.woshipm.com/ai/6485289.html",
+      "title": "漫剧产能的囚徒困境",
+      "content_text": "按5000万播放这条盈亏线算，2026上半年达标的 AI 剧不足1.3%，可头部公司还在加人加算力，灵矩动漫到3月已有800名员工。赌爆款赌的不是这一部的分账，是下一批订单的合作档位。 对一些AI漫剧公司来说，赌爆款，既要看这一部能赚多少钱，还得看下一批订单能不能拿到。 这事有点奇怪。 据DataEye测算，按5000…",
+      "summary": "按5000万播放这条盈亏线算，2026上半年达标的 AI 剧不足1.3%，可头部公司还在加人加算力，灵矩动漫到3月已有800名员工。赌爆款赌的不是这一部的分账，是下一批订单的合作档位。 对一些AI漫剧公司来说，赌爆款，既要看这一部能赚多少钱，还得看下一批订单能不能拿到。 这事有点奇怪。 据DataEye测算，按5000…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "DataEye",
+        "商业模式",
+        "漫剧",
+        "行业分析",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6485254.html",
+      "url": "https://www.woshipm.com/ai/6485254.html",
+      "title": "最强开源 1.3B OCR模型，本地Agent、知识库都有救了～",
+      "content_text": "1.3B 参数的 OXR 只占单卡24G显存，却在三大基准评测上排到第一。十个真实工况跑下来，多栏报纸、热敏小票、曲面营养表都能还原成结构化文本，连化学分子式都能输出成 SMILES 字符串。 前几天刷 X 的时候，刚好看到一个叫OXR的国产开源文档解析模型在技术圈讨论度很高，还登上了 X Daily News， 更主…",
+      "summary": "1.3B 参数的 OXR 只占单卡24G显存，却在三大基准评测上排到第一。十个真实工况跑下来，多栏报纸、热敏小票、曲面营养表都能还原成结构化文本，连化学分子式都能输出成 SMILES 字符串。 前几天刷 X 的时候，刚好看到一个叫OXR的国产开源文档解析模型在技术圈讨论度很高，还登上了 X Daily News， 更主…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "AI应用",
+        "OCR",
+        "Qwen",
+        "功能分析",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/pd/6485130.html",
+      "url": "https://www.woshipm.com/pd/6485130.html",
+      "title": "搜“企业开办”都找不到，政务AI搜索该怎么做？",
+      "content_text": "用户在政务平台搜企业开办却搜不到对应事项，问题不在关键词表。真正的缺口是那句我想开个公司：系统只认业务语言，不认用户目标。文中给出三步改法，第一步是把搜索日志重新看一遍。 之前，我们收到过用户反馈：在政务服务平台搜索“企业开办”，竟然找不到企业开办相关事项，即使搜到了，排名也不靠前。 这其实是一个很典型的问题。用户明明…",
+      "summary": "用户在政务平台搜企业开办却搜不到对应事项，问题不在关键词表。真正的缺口是那句我想开个公司：系统只认业务语言，不认用户目标。文中给出三步改法，第一步是把搜索日志重新看一遍。 之前，我们收到过用户反馈：在政务服务平台搜索“企业开办”，竟然找不到企业开办相关事项，即使搜到了，排名也不靠前。 这其实是一个很典型的问题。用户明明…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "产品设计",
+        "AI搜索",
+        "产品分析",
+        "千问",
+        "淘宝",
+        "经验分享",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6485427.html",
+      "url": "https://www.woshipm.com/ai/6485427.html",
+      "title": "招 Agent 工程师，为什么张口就是 LangChain？",
+      "content_text": "招聘 Agent 工程师，JD 第一行常写「熟悉 LangChain」。这个 2022 年 10 月才开源的项目，四年间从工具库长成 Agent 工程体系，它究竟解决了什么问题，又凭什么成了行业默认门槛？ 最近很多同学反映，找一个Agent工程师的工作，都要求要会langchain，好像不会langchain就不会开发…",
+      "summary": "招聘 Agent 工程师，JD 第一行常写「熟悉 LangChain」。这个 2022 年 10 月才开源的项目，四年间从工具库长成 Agent 工程体系，它究竟解决了什么问题，又凭什么成了行业默认门槛？ 最近很多同学反映，找一个Agent工程师的工作，都要求要会langchain，好像不会langchain就不会开发…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "Agent",
+        "AI应用",
+        "AI编程",
+        "LangChain",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6485617.html",
+      "url": "https://www.woshipm.com/ai/6485617.html",
+      "title": "我用 WorkBuddy 给全家做了一个生活管理后台，全套技能开源！",
+      "content_text": "日记、记账、读书笔记、凭证、健康档案、电脑体检，六件家庭杂事被收进一个聊天框，数据全部存在腾讯文档里，家里人在手机上发一句话就能记，电脑关着也照样查得到。整套技能已经全开源。 我用 WorkBuddy 给家人搭了一个「生活管理后台」：日记、读书笔记、健康档案、各种凭证、记账、电脑管理，6 件生活杂事，全靠一句话 所有数…",
+      "summary": "日记、记账、读书笔记、凭证、健康档案、电脑体检，六件家庭杂事被收进一个聊天框，数据全部存在腾讯文档里，家里人在手机上发一句话就能记，电脑关着也照样查得到。整套技能已经全开源。 我用 WorkBuddy 给家人搭了一个「生活管理后台」：日记、读书笔记、健康档案、各种凭证、记账、电脑管理，6 件生活杂事，全靠一句话 所有数…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "AI应用",
+        "WorkBuddy",
+        "智能体",
+        "腾讯文档",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6485564.html",
+      "url": "https://www.woshipm.com/ai/6485564.html",
+      "title": "当DeepSeek成为一种亚文化",
+      "content_text": "DeepSeek 在 AI 圈以技术和融资闻名，却在年轻人中意外催生了“鲸鱼娘”“D老师”等二创亚文化。官方零运营，用户却自发创作表情包、同人动画甚至收费内容。这种“反商业”的活人感如何成为流量密码？饭圈化又会带来哪些风险？本文深度拆解 DeepSeek 的亚文化出圈逻辑与潜在变量。 01 亚文化符号 这个世界上可能存…",
+      "summary": "DeepSeek 在 AI 圈以技术和融资闻名，却在年轻人中意外催生了“鲸鱼娘”“D老师”等二创亚文化。官方零运营，用户却自发创作表情包、同人动画甚至收费内容。这种“反商业”的活人感如何成为流量密码？饭圈化又会带来哪些风险？本文深度拆解 DeepSeek 的亚文化出圈逻辑与潜在变量。 01 亚文化符号 这个世界上可能存…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "AI",
+        "AI产品",
+        "DeepSeek",
+        "亚文化",
+        "用户运营",
+        "饭圈文化",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6485473.html",
+      "url": "https://www.woshipm.com/ai/6485473.html",
+      "title": "实测GPT-Image-2.5：用一张白底图跑完13个电商素材场景，比2.0强在哪？（附提示词）",
+      "content_text": "GPT-Image-2.5 悄然上线，实测 13 个电商素材场景后，产品一致性、细节真实性和局部编辑准确度均有明显提升。本文以保湿精华为例，从白底主图到买家秀，逐一拆解 6 大核心场景的生成效果，并附完整提示词，带你直观感受新版本的真实实力。 前段时间OpenAI悄咪咪地发布了GPT-Image-2.5，虽然没有Ima…",
+      "summary": "GPT-Image-2.5 悄然上线，实测 13 个电商素材场景后，产品一致性、细节真实性和局部编辑准确度均有明显提升。本文以保湿精华为例，从白底主图到买家秀，逐一拆解 6 大核心场景的生成效果，并附完整提示词，带你直观感受新版本的真实实力。 前段时间OpenAI悄咪咪地发布了GPT-Image-2.5，虽然没有Ima…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "AI生图",
+        "GPT-Image",
+        "功能分析",
+        "提示词",
+        "电商素材",
         "产品"
       ],
       "authors": [
@@ -63,18 +252,99 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6485306.html",
-      "url": "https://www.woshipm.com/ai/6485306.html",
-      "title": "腾讯做了一个Motus AI：90+游戏接入，一站式生产游戏3D动画资产",
-      "content_text": "腾讯游戏把3D角色动画的全链路做成一个独立平台。Motus AI 已接入90余个内外部项目，在《和平精英》《王者荣耀》等游戏里落地，把骨骼蒙皮、动作生成、穿模诊断这些重复劳动收进同一个工作台。 腾讯游戏旗下的公共技术线做了一个Motus AI独立平台，Motus AI聚焦3D角色动画全链路核心技术，构建贯穿角色动画生产…",
-      "summary": "腾讯游戏把3D角色动画的全链路做成一个独立平台。Motus AI 已接入90余个内外部项目，在《和平精英》《王者荣耀》等游戏里落地，把骨骼蒙皮、动作生成、穿模诊断这些重复劳动收进同一个工作台。 腾讯游戏旗下的公共技术线做了一个Motus AI独立平台，Motus AI聚焦3D角色动画全链路核心技术，构建贯穿角色动画生产…",
+      "id": "https://www.woshipm.com/zhichang/6485376.html",
+      "url": "https://www.woshipm.com/zhichang/6485376.html",
+      "title": "公开裁员拿钱走人，变相裁员背后伤人",
+      "content_text": "微软6万人“明裁”N+7看似体面，但更多企业正用“暗裁”套路逼你主动离职。从冷落边缘化到绩效PUA，从诱导谈话到调岗降薪，一套组合拳让你分文补偿拿不到。本文通过两个真实案例，拆解变相裁员的全套剧本，并给出搜集证据、底线反击的实操方法，帮你在AI裁员潮中守住应得权益。 近日微软向全球员工发出内部备忘录，以“自愿离职方案”…",
+      "summary": "微软6万人“明裁”N+7看似体面，但更多企业正用“暗裁”套路逼你主动离职。从冷落边缘化到绩效PUA，从诱导谈话到调岗降薪，一套组合拳让你分文补偿拿不到。本文通过两个真实案例，拆解变相裁员的全套剧本，并给出搜集证据、底线反击的实操方法，帮你在AI裁员潮中守住应得权益。 近日微软向全球员工发出内部备忘录，以“自愿离职方案”…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "职场攻略",
+        "AI应用",
+        "劳动仲裁",
+        "微软裁员",
+        "案例分析",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/share/6485606.html",
+      "url": "https://www.woshipm.com/share/6485606.html",
+      "title": "做数据分析10年，这是我见过最好的“人货场模型”",
+      "content_text": "生鲜电商复购率偏低，六成用户 30 天内没有二次下单。派券、推荐算法、精准营销轮番上过之后，真正的答案藏在货物属性里：米面油和车厘子的购买节奏，本来就不是一回事，硬推只会白花钱。 做数据分析的同学，很多都听过：人、货、场的分析模型。然而，这东西又是个只闻其名，不见真身的东西。到底该怎么结合实际分析？今天我们系统讲解下。…",
+      "summary": "生鲜电商复购率偏低，六成用户 30 天内没有二次下单。派券、推荐算法、精准营销轮番上过之后，真正的答案藏在货物属性里：米面油和车厘子的购买节奏，本来就不是一回事，硬推只会白花钱。 做数据分析的同学，很多都听过：人、货、场的分析模型。然而，这东西又是个只闻其名，不见真身的东西。到底该怎么结合实际分析？今天我们系统讲解下。…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "个人随笔",
+        "人货场模型",
+        "数据运营",
+        "案例分析",
+        "用户增长",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/share/6485608.html",
+      "url": "https://www.woshipm.com/share/6485608.html",
+      "title": "不靠预算也能起盘：郑州帮打法的内核，为什么还没失效",
+      "content_text": "素人号加海量笔记、关键词加私域，这套不讲预算的打法被喊了好几年「已死」。一个月实地调研给出的结论是：内核并没有失效，变的是自然流在缩、搜索场变得更值钱，后来者仍有机会。 我一直在思考一个问题，为什么大家这么关注郑州帮打法？ 后来我慢慢想明白了，各种投放打法里面，郑州帮打法是典型的投放界的“爽文”，因为郑州帮打法提供了一…",
+      "summary": "素人号加海量笔记、关键词加私域，这套不讲预算的打法被喊了好几年「已死」。一个月实地调研给出的结论是：内核并没有失效，变的是自然流在缩、搜索场变得更值钱，后来者仍有机会。 我一直在思考一个问题，为什么大家这么关注郑州帮打法？ 后来我慢慢想明白了，各种投放打法里面，郑州帮打法是典型的投放界的“爽文”，因为郑州帮打法提供了一…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "个人随笔",
+        "内容电商",
+        "小红书",
+        "投放策略",
+        "私域",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6485257.html",
+      "url": "https://www.woshipm.com/ai/6485257.html",
+      "title": "WorkBuddy上线「本地文档默认打开方式」，可一键开启",
+      "content_text": "双击本地文档，默认弹出来的不再只有 Office，也可以是 WorkBuddy 的文件浏览器。设置里新增默认打开方式入口，勾选文档类型、过一次系统授权即可改成默认，Dock 里会单独立一个图标。 近日，WorkBuddy 频繁更新。 之前上线了AI 办公 Agent 行业首个本地「文件浏览器」功能。 可通过 WorkB…",
+      "summary": "双击本地文档，默认弹出来的不再只有 Office，也可以是 WorkBuddy 的文件浏览器。设置里新增默认打开方式入口，勾选文档类型、过一次系统授权即可改成默认，Dock 里会单独立一个图标。 近日，WorkBuddy 频繁更新。 之前上线了AI 办公 Agent 行业首个本地「文件浏览器」功能。 可通过 WorkB…",
       "date_published": "2026-10-28T00:00:00Z",
       "tags": [
         "AI",
         "个人随笔",
         "AI产品",
+        "WorkBuddy",
         "功能分析",
-        "腾讯",
         "产品",
         "运营",
         "商业"
@@ -90,17 +360,18 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/share/6485105.html",
-      "url": "https://www.woshipm.com/share/6485105.html",
-      "title": "腾讯上线SimulMT，一个实时同声传译产品",
-      "content_text": "Hy-SimulMT 支持中英双向语音到语音翻译，主打低延迟、高质量和实时克隆音色，已开源并接入腾讯 Hy 翻译 App。与持有 CATTI 证书的真人口译对比，质量能达到专家水平，速度往往更快。 腾讯又上线并开源了一个新产品，Hy-SimulMT 大模型。 这是一个实时同声传译大模型，由腾讯混元团队推出。 支持中文和…",
-      "summary": "Hy-SimulMT 支持中英双向语音到语音翻译，主打低延迟、高质量和实时克隆音色，已开源并接入腾讯 Hy 翻译 App。与持有 CATTI 证书的真人口译对比，质量能达到专家水平，速度往往更快。 腾讯又上线并开源了一个新产品，Hy-SimulMT 大模型。 这是一个实时同声传译大模型，由腾讯混元团队推出。 支持中文和…",
+      "id": "https://www.woshipm.com/share/6485281.html",
+      "url": "https://www.woshipm.com/share/6485281.html",
+      "title": "AI洗牌财富榜：张一鸣6700亿、梁文锋2800亿",
+      "content_text": "2026胡润百富榜上，张一鸣以6700亿元第二次成为中国首富，梁文锋凭2800亿元首次上榜就排到第七。AI 方向的企业家已占上榜者10.4%，但账面财富涨得快，不等于企业赚到了同等利润。 AI正在重新排列中国富豪的座次。 10月27日发布的《2026胡润百富榜》（财富计算截止日期为2026年9月1日）显示，字节跳动创始…",
+      "summary": "2026胡润百富榜上，张一鸣以6700亿元第二次成为中国首富，梁文锋凭2800亿元首次上榜就排到第七。AI 方向的企业家已占上榜者10.4%，但账面财富涨得快，不等于企业赚到了同等利润。 AI正在重新排列中国富豪的座次。 10月27日发布的《2026胡润百富榜》（财富计算截止日期为2026年9月1日）显示，字节跳动创始…",
       "date_published": "2026-10-28T00:00:00Z",
       "tags": [
         "个人随笔",
-        "AI产品",
-        "功能分析",
-        "腾讯",
+        "DeepSeek",
+        "商业模式",
+        "字节跳动",
+        "行业分析",
         "产品",
         "运营",
         "商业"
@@ -116,20 +387,20 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/it/6485027.html",
-      "url": "https://www.woshipm.com/it/6485027.html",
-      "title": "红果、Seedance 与字节：短剧观察札记",
-      "content_text": "红果短剧三年做到3.68亿月活，靠的不是内容，而是把短剧从付费改成免费+广告，让字节从收费站变成终点站。Seedance的真正价值也不是垄断生产，而是让供给过剩、单部作品贬值，把议价权推向平台。本文拆解红果的商业模式、AI工具的战略角色，以及渠道与内容合流的历史参照与真实风险。 先校准一个说法 字节确实同时握住了短剧的…",
-      "summary": "红果短剧三年做到3.68亿月活，靠的不是内容，而是把短剧从付费改成免费+广告，让字节从收费站变成终点站。Seedance的真正价值也不是垄断生产，而是让供给过剩、单部作品贬值，把议价权推向平台。本文拆解红果的商业模式、AI工具的战略角色，以及渠道与内容合流的历史参照与真实风险。 先校准一个说法 字节确实同时握住了短剧的…",
+      "id": "https://www.woshipm.com/it/6485101.html",
+      "url": "https://www.woshipm.com/it/6485101.html",
+      "title": "AI办公不止“三国杀”：百度掀桌子，腾讯、阿里、字节排座次",
+      "content_text": "AI办公赛道正从腾讯、阿里、字节的“三国杀”演变为四足鼎立。QuestMobile与易观报告显示，腾讯WorkBuddy虽领先，但千问办公、豆包工作增长迅猛，百度搭子更以1567.5%的增速搅局。本文深度拆解各玩家如何围绕企业上下文构建壁垒，并预判AI入口之争进入2.0阶段后的格局走向。 AI办公的格局，不止于三国杀。…",
+      "summary": "AI办公赛道正从腾讯、阿里、字节的“三国杀”演变为四足鼎立。QuestMobile与易观报告显示，腾讯WorkBuddy虽领先，但千问办公、豆包工作增长迅猛，百度搭子更以1567.5%的增速搅局。本文深度拆解各玩家如何围绕企业上下文构建壁垒，并预判AI入口之争进入2.0阶段后的格局走向。 AI办公的格局，不止于三国杀。…",
       "date_published": "2026-10-28T00:00:00Z",
       "tags": [
         "业界动态",
-        "Seedance",
-        "免费模式",
-        "商业模式",
-        "字节跳动",
-        "短剧",
-        "红果短剧",
+        "AI办公",
+        "千问办公",
+        "百度搭子",
+        "腾讯WorkBuddy",
+        "行业观察",
+        "豆包工作",
         "产品"
       ],
       "authors": [
@@ -143,244 +414,333 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/embodied/6485117.html",
-      "url": "https://www.woshipm.com/embodied/6485117.html",
-      "title": "机器人产品经理，别只想着替代人",
-      "content_text": "机器人跳舞、跑步的视频越来越多，但技术炫技不等于产品价值。河南矿山引进焊接机器人的案例提醒我们：发展机器人是为了让人轻松挣钱，而非证明机器多厉害。本文从产品经理视角，拆解机器人落地的三个关键问题，探讨如何让技术真正服务于人。 最近，河南矿山集团的崔培军谈到机器人时，有句话让我印象很深：引进焊接机器人，是为了把高强度、高…",
-      "summary": "机器人跳舞、跑步的视频越来越多，但技术炫技不等于产品价值。河南矿山引进焊接机器人的案例提醒我们：发展机器人是为了让人轻松挣钱，而非证明机器多厉害。本文从产品经理视角，拆解机器人落地的三个关键问题，探讨如何让技术真正服务于人。 最近，河南矿山集团的崔培军谈到机器人时，有句话让我印象很深：引进焊接机器人，是为了把高强度、高…",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://www.producthunt.com/products/licenseal",
+      "url": "https://www.producthunt.com/products/licenseal",
+      "title": "licenseal",
+      "content_text": "Catch incompatible dependency licenses before release Discussion | Link",
+      "summary": "Catch incompatible dependency licenses before release Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
       "tags": [
-        "具身智能",
-        "产品思维",
-        "人机协作",
-        "场景落地",
-        "机器人",
-        "案例分析",
         "产品",
-        "运营"
+        "科技",
+        "热榜"
       ],
       "authors": [
         {
-          "name": "人人都是产品经理"
+          "name": "Product Hunt — The best new products, every day"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "woshipm-com"
+        "shelf": "producthunt-com"
       }
     },
     {
-      "id": "https://www.woshipm.com/share/6485242.html",
-      "url": "https://www.woshipm.com/share/6485242.html",
-      "title": "本地生活：云连锁 VS 轻连锁，小店VS 大店",
-      "content_text": "靠小店快速铺开的云连锁正撞上天花板：总部把客户带到门店，门店核销完就见底，接不住二次经营。做了几年车咖之后作者看清，从流量到经营这一步转向，才是云连锁变成轻连锁的真正原因。 昨晚在群里聊了大店与小店，以及大店存在的机会，今天继续思考云连锁以及云连锁的变化——轻连锁。 过去几年做车咖，我们合作了大量中小门店。这些门店缺少…",
-      "summary": "靠小店快速铺开的云连锁正撞上天花板：总部把客户带到门店，门店核销完就见底，接不住二次经营。做了几年车咖之后作者看清，从流量到经营这一步转向，才是云连锁变成轻连锁的真正原因。 昨晚在群里聊了大店与小店，以及大店存在的机会，今天继续思考云连锁以及云连锁的变化——轻连锁。 过去几年做车咖，我们合作了大量中小门店。这些门店缺少…",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://www.producthunt.com/products/yardlet-2",
+      "url": "https://www.producthunt.com/products/yardlet-2",
+      "title": "Yardlet",
+      "content_text": "The Mac app for the coding agents you already use Discussion | Link",
+      "summary": "The Mac app for the coding agents you already use Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
       "tags": [
-        "个人随笔",
-        "个人观点",
-        "云连锁",
-        "本地生活",
         "产品",
-        "运营",
-        "商业"
+        "科技",
+        "热榜"
       ],
       "authors": [
         {
-          "name": "人人都是产品经理"
+          "name": "Product Hunt — The best new products, every day"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "woshipm-com"
+        "shelf": "producthunt-com"
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6485100.html",
-      "url": "https://www.woshipm.com/ai/6485100.html",
-      "title": "月下载达1100万，霸榜东南亚多国，越南厂商的爆款新游什么来头？",
-      "content_text": "一个日本声优玩 Mimic Party 的视频播放破 1500 万，带火了这场由 AI 给模仿打分的声音派对。免费版 MemeMix Challenge 上架不到一个月拿下近 1100 万下载，登顶休闲游戏免费榜。 两周前，一个日本配音演员玩《Mimic Party》的实机视频在YouTube上传后，至今播放量已经突破…",
-      "summary": "一个日本声优玩 Mimic Party 的视频播放破 1500 万，带火了这场由 AI 给模仿打分的声音派对。免费版 MemeMix Challenge 上架不到一个月拿下近 1100 万下载，登顶休闲游戏免费榜。 两周前，一个日本配音演员玩《Mimic Party》的实机视频在YouTube上传后，至今播放量已经突破…",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://www.producthunt.com/products/opera",
+      "url": "https://www.producthunt.com/products/opera",
+      "title": "WebAI by Opera",
+      "content_text": "Let websites use AI running on your computer Discussion | Link",
+      "summary": "Let websites use AI running on your computer Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
       "tags": [
-        "AI",
-        "个人随笔",
-        "AI应用",
-        "Google Play",
-        "Steam",
-        "YouTube",
         "产品",
-        "运营"
+        "科技",
+        "热榜"
       ],
       "authors": [
         {
-          "name": "人人都是产品经理"
+          "name": "Product Hunt — The best new products, every day"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "woshipm-com"
+        "shelf": "producthunt-com"
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6485240.html",
-      "url": "https://www.woshipm.com/ai/6485240.html",
-      "title": "按住 Ctrl 拖一下就转完：狂揽近 1.4 万星，它可能是目前最好最全的格式转换器",
-      "content_text": "多数人转格式还是上传到在线网站，顶着广告等结果。开源工具 Filee 换了思路：按住 Ctrl 把文件拖起来，光标旁就弹出一圈只列可行目标的格式圆环，松手即完成，266种格式全在本地离线跑完，上线一个多月接近14k Star。 平时转换文件格式，大多数人的习惯流程都很折腾：碰到不认识的后缀，先去搜索引擎找在线转换网站，…",
-      "summary": "多数人转格式还是上传到在线网站，顶着广告等结果。开源工具 Filee 换了思路：按住 Ctrl 把文件拖起来，光标旁就弹出一圈只列可行目标的格式圆环，松手即完成，266种格式全在本地离线跑完，上线一个多月接近14k Star。 平时转换文件格式，大多数人的习惯流程都很折腾：碰到不认识的后缀，先去搜索引擎找在线转换网站，…",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://www.producthunt.com/products/our-silly-games",
+      "url": "https://www.producthunt.com/products/our-silly-games",
+      "title": "Our Silly Games",
+      "content_text": "Skills to build games with Claude. Free multiplayer hosting. Discussion | Link",
+      "summary": "Skills to build games with Claude. Free multiplayer hosting. Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
       "tags": [
-        "AI",
-        "个人随笔",
-        "Github",
-        "个人观点",
-        "功能分析",
         "产品",
-        "运营",
-        "商业"
+        "科技",
+        "热榜"
       ],
       "authors": [
         {
-          "name": "人人都是产品经理"
+          "name": "Product Hunt — The best new products, every day"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "woshipm-com"
+        "shelf": "producthunt-com"
       }
     },
     {
-      "id": "https://www.woshipm.com/share/6484978.html",
-      "url": "https://www.woshipm.com/share/6484978.html",
-      "title": "品牌没有自嘲的资格",
-      "content_text": "小鹏发布会用“老登”一词本想拉近年轻人，却翻车了。本文从《弱者的武器》和弗洛伊德笑话理论切入，犀利指出：当品牌借用弱者口吻嘲讽消费者，自嘲就变成了他嘲。更荒诞的是，被冒犯的正是它想卖车给的那群“刚生孩子的95后”。品牌自嘲的边界在哪里？谁该为借来的“敢说”买单？ 自嘲是弱者的武器 “老登”这个词流行起来的土壤，是年轻人…",
-      "summary": "小鹏发布会用“老登”一词本想拉近年轻人，却翻车了。本文从《弱者的武器》和弗洛伊德笑话理论切入，犀利指出：当品牌借用弱者口吻嘲讽消费者，自嘲就变成了他嘲。更荒诞的是，被冒犯的正是它想卖车给的那群“刚生孩子的95后”。品牌自嘲的边界在哪里？谁该为借来的“敢说”买单？ 自嘲是弱者的武器 “老登”这个词流行起来的土壤，是年轻人…",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://www.producthunt.com/products/openllm",
+      "url": "https://www.producthunt.com/products/openllm",
+      "title": "OpenLLM",
+      "content_text": "Take your AI tokens anywhere Discussion | Link",
+      "summary": "Take your AI tokens anywhere Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
       "tags": [
-        "个人随笔",
-        "品牌营销",
-        "案例分析",
-        "热点事件",
-        "用户洞察",
         "产品",
-        "运营",
-        "商业"
+        "科技",
+        "热榜"
       ],
       "authors": [
         {
-          "name": "人人都是产品经理"
+          "name": "Product Hunt — The best new products, every day"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "woshipm-com"
+        "shelf": "producthunt-com"
       }
     },
     {
-      "id": "https://www.woshipm.com/chuangye/6483407.html",
-      "url": "https://www.woshipm.com/chuangye/6483407.html",
-      "title": "千万用户也救不了它：AI 陪聊明星 Character.AI 申请破产",
-      "content_text": "仍有约 1200 万活跃用户的 Character.AI 在 10 月 12 日申请破产保护，每月亏损 800 万至 900 万美元，迪士尼出价 2000 万美元求部分技术授权。同样的生意，CHAI 做到 1.2 亿美元年化收入，差别在账怎么算。 前段时间有个大新闻，一家曾经估值 10亿美元、连 Google 都花 2…",
-      "summary": "仍有约 1200 万活跃用户的 Character.AI 在 10 月 12 日申请破产保护，每月亏损 800 万至 900 万美元，迪士尼出价 2000 万美元求部分技术授权。同样的生意，CHAI 做到 1.2 亿美元年化收入，差别在账怎么算。 前段时间有个大新闻，一家曾经估值 10亿美元、连 Google 都花 2…",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://www.producthunt.com/products/open-for-sales",
+      "url": "https://www.producthunt.com/products/open-for-sales",
+      "title": "Open For sales",
+      "content_text": "Your next sales campaign is one prompt away Discussion | Link",
+      "summary": "Your next sales campaign is one prompt away Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
       "tags": [
-        "创业学院",
-        "AI应用",
-        "产品分析",
-        "商业模式",
-        "行业观察",
         "产品",
-        "运营",
-        "商业"
+        "科技",
+        "热榜"
       ],
       "authors": [
         {
-          "name": "人人都是产品经理"
+          "name": "Product Hunt — The best new products, every day"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "woshipm-com"
+        "shelf": "producthunt-com"
       }
     },
     {
-      "id": "https://www.woshipm.com/marketing/6484810.html",
-      "url": "https://www.woshipm.com/marketing/6484810.html",
-      "title": "产品经理定价指南：7步从目标到结果，附特斯拉/比亚迪/戴森案例",
-      "content_text": "定价策略的本质是三定：定战略+定用户+定生态位。战略决定经营目标，用户决定愿意付多少钱，生态位决定竞争位置，价格只是杠杆；不同的价格，意味着不同的目标用户和利润结构。 价格是交易条件，定价是利益取舍，定价策略是服务经营目标的战略选择。 定价策略的本质有“三定”：定战略+定用户+定生态位。 定战略：确定企业的经营目标，是…",
-      "summary": "定价策略的本质是三定：定战略+定用户+定生态位。战略决定经营目标，用户决定愿意付多少钱，生态位决定竞争位置，价格只是杠杆；不同的价格，意味着不同的目标用户和利润结构。 价格是交易条件，定价是利益取舍，定价策略是服务经营目标的战略选择。 定价策略的本质有“三定”：定战略+定用户+定生态位。 定战略：确定企业的经营目标，是…",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://www.producthunt.com/products/onedeploy",
+      "url": "https://www.producthunt.com/products/onedeploy",
+      "title": "OneDeploy",
+      "content_text": "Open-source apps on your own server, with no per-seat fees Discussion | Link",
+      "summary": "Open-source apps on your own server, with no per-seat fees Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
       "tags": [
-        "营销推广",
-        "产品策略",
-        "商业模式",
-        "定价策略",
         "产品",
-        "运营",
-        "商业"
+        "科技",
+        "热榜"
       ],
       "authors": [
         {
-          "name": "人人都是产品经理"
+          "name": "Product Hunt — The best new products, every day"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "woshipm-com"
+        "shelf": "producthunt-com"
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6485237.html",
-      "url": "https://www.woshipm.com/ai/6485237.html",
-      "title": "WorkBuddy × Flova ：快速搞定20张产品图+宣传视频",
-      "content_text": "双十一前最紧的活，是一次性交齐20张场景图和一条15秒短视频。文中用一台无品牌桌面咖啡机走完整条链路：在 WorkBuddy 里提出需求，由 Flova 生成四组各五张、2048×2048 的图片，再把文件与视频收回来逐项核对。 10月15日，2026年抖音商城双十一好物节启动。看到这个时间点我想到的是大促期间那些需要…",
-      "summary": "双十一前最紧的活，是一次性交齐20张场景图和一条15秒短视频。文中用一台无品牌桌面咖啡机走完整条链路：在 WorkBuddy 里提出需求，由 Flova 生成四组各五张、2048×2048 的图片，再把文件与视频收回来逐项核对。 10月15日，2026年抖音商城双十一好物节启动。看到这个时间点我想到的是大促期间那些需要…",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://www.producthunt.com/products/notikeep",
+      "url": "https://www.producthunt.com/products/notikeep",
+      "title": "NotiKeep",
+      "content_text": "Notification history for iPhone, on your device Discussion | Link",
+      "summary": "Notification history for iPhone, on your device Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
       "tags": [
-        "AI",
-        "个人随笔",
-        "AI产品",
-        "Flova",
-        "WorkBuddy",
-        "内容创作",
         "产品",
-        "运营"
+        "科技",
+        "热榜"
       ],
       "authors": [
         {
-          "name": "人人都是产品经理"
+          "name": "Product Hunt — The best new products, every day"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "woshipm-com"
+        "shelf": "producthunt-com"
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6484731.html",
-      "url": "https://www.woshipm.com/ai/6484731.html",
-      "title": "AI短剧：流水线上的打工人不得不说的秘密",
-      "content_text": "短剧用户规模已达8.51亿，AI短剧占比超九成，千亿市场背后是精心设计的情绪工程。本文深入AI短剧创业团队，揭秘从黄金三秒到每15秒一个爽点的成瘾机制，以及从业者在流量流水线上的真实生存状态。 晚上12点，你决定刷完这一集就睡： 新郎抛下婚礼去机场接白月光，新娘转头就赌气让前来跑腿的快递小哥去接亲，并且直接拉上假新郎去…",
-      "summary": "短剧用户规模已达8.51亿，AI短剧占比超九成，千亿市场背后是精心设计的情绪工程。本文深入AI短剧创业团队，揭秘从黄金三秒到每15秒一个爽点的成瘾机制，以及从业者在流量流水线上的真实生存状态。 晚上12点，你决定刷完这一集就睡： 新郎抛下婚礼去机场接白月光，新娘转头就赌气让前来跑腿的快递小哥去接亲，并且直接拉上假新郎去…",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://www.producthunt.com/products/lfm2",
+      "url": "https://www.producthunt.com/products/lfm2",
+      "title": "LFM3 by Liquid AI",
+      "content_text": "Six 2B-class models for phones, laptops and robots Discussion | Link",
+      "summary": "Six 2B-class models for phones, laptops and robots Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
       "tags": [
-        "AI",
-        "AI短剧",
-        "内容创作",
-        "情绪设计",
-        "短剧",
-        "红果短剧",
-        "行业观察",
-        "产品"
+        "产品",
+        "科技",
+        "热榜"
       ],
       "authors": [
         {
-          "name": "人人都是产品经理"
+          "name": "Product Hunt — The best new products, every day"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "woshipm-com"
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/gemini-1-5-pro",
+      "url": "https://www.producthunt.com/products/gemini-1-5-pro",
+      "title": "Genie 4",
+      "content_text": "Turn a prompt into a living world you can steer Discussion | Link",
+      "summary": "Turn a prompt into a living world you can steer Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/dedica",
+      "url": "https://www.producthunt.com/products/dedica",
+      "title": "Dedica",
+      "content_text": "Check if AI agents can use your website Discussion | Link",
+      "summary": "Check if AI agents can use your website Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/alpha-vantage",
+      "url": "https://www.producthunt.com/products/alpha-vantage",
+      "title": "Congress Trades",
+      "content_text": "See how Congress members trade, and if copying them pays off Discussion | Link",
+      "summary": "See how Congress members trade, and if copying them pays off Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/boltbar",
+      "url": "https://www.producthunt.com/products/boltbar",
+      "title": "Boltbar",
+      "content_text": "Spotlight-style AI chat for your Mac Discussion | Link",
+      "summary": "Spotlight-style AI chat for your Mac Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/basedash",
+      "url": "https://www.producthunt.com/products/basedash",
+      "title": "Basedash View-only members",
+      "content_text": "Share dashboards with anyone. They can look, not edit. Discussion | Link",
+      "summary": "Share dashboards with anyone. They can look, not edit. Discussion | Link",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/throxy-yc-p25",
+      "url": "https://www.producthunt.com/products/throxy-yc-p25",
+      "title": "throxy (yc p25)",
+      "content_text": "Cold calls in your prospect's language. Pipeline delivered. Discussion | Link",
+      "summary": "Cold calls in your prospect's language. Pipeline delivered. Discussion | Link",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
       }
     },
     {
@@ -560,11 +920,55 @@
       }
     },
     {
+      "id": "https://www.producthunt.com/products/hob-3",
+      "url": "https://www.producthunt.com/products/hob-3",
+      "title": "Hob",
+      "content_text": "Open-source, on device alternative to Claude and ChatGPT Discussion | Link",
+      "summary": "Open-source, on device alternative to Claude and ChatGPT Discussion | Link",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
       "id": "https://www.producthunt.com/products/openai",
       "url": "https://www.producthunt.com/products/openai",
       "title": "GPT-6.1 Terra",
       "content_text": "Fast, capable computer use at half the price Discussion | Link",
       "summary": "Fast, capable computer use at half the price Discussion | Link",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/dotverse",
+      "url": "https://www.producthunt.com/products/dotverse",
+      "title": "Dotverse",
+      "content_text": "Your Dot now with a crew Discussion | Link",
+      "summary": "Your Dot now with a crew Discussion | Link",
       "date_published": "2026-10-26T00:00:00Z",
       "tags": [
         "产品",
@@ -626,11 +1030,33 @@
       }
     },
     {
-      "id": "https://www.producthunt.com/products/tabsh",
-      "url": "https://www.producthunt.com/products/tabsh",
-      "title": "tabsh",
-      "content_text": "Work with agents with an IDE in your browser tab Discussion | Link",
-      "summary": "Work with agents with an IDE in your browser tab Discussion | Link",
+      "id": "https://www.producthunt.com/products/fini-2",
+      "url": "https://www.producthunt.com/products/fini-2",
+      "title": "Agent Handshake by Fini",
+      "content_text": "Agent-to-agent customer support that holds its answer Discussion | Link",
+      "summary": "Agent-to-agent customer support that holds its answer Discussion | Link",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/zest-6",
+      "url": "https://www.producthunt.com/products/zest-6",
+      "title": "Zest",
+      "content_text": "Hold ⌥Space, flick, and an AI agent does the dev chore Discussion | Link",
+      "summary": "Hold ⌥Space, flick, and an AI agent does the dev chore Discussion | Link",
       "date_published": "2026-10-25T00:00:00Z",
       "tags": [
         "产品",
@@ -648,231 +1074,11 @@
       }
     },
     {
-      "id": "https://www.producthunt.com/products/omerta",
-      "url": "https://www.producthunt.com/products/omerta",
-      "title": "omerta",
-      "content_text": "Catch .env secrets leaking into git Discussion | Link",
-      "summary": "Catch .env secrets leaking into git Discussion | Link",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/desigma",
-      "url": "https://www.producthunt.com/products/desigma",
-      "title": "desigma",
-      "content_text": "Free Figma alternative made on Rust Discussion | Link",
-      "summary": "Free Figma alternative made on Rust Discussion | Link",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/whoiscooking",
-      "url": "https://www.producthunt.com/products/whoiscooking",
-      "title": "WhoIsCooking",
-      "content_text": "See which AI agent is heating your Mac and cool it down. Discussion | Link",
-      "summary": "See which AI agent is heating your Mac and cool it down. Discussion | Link",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/vibeide",
-      "url": "https://www.producthunt.com/products/vibeide",
-      "title": "VibeiDE",
-      "content_text": "Queue agent tasks in parallel and review each result Discussion | Link",
-      "summary": "Queue agent tasks in parallel and review each result Discussion | Link",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/standfast",
-      "url": "https://www.producthunt.com/products/standfast",
-      "title": "Standfast",
-      "content_text": "Know if your Mac's GitHub Actions runners will get work Discussion | Link",
-      "summary": "Know if your Mac's GitHub Actions runners will get work Discussion | Link",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/mozy-walk-to-unlock-apps",
-      "url": "https://www.producthunt.com/products/mozy-walk-to-unlock-apps",
-      "title": "Mozy",
-      "content_text": "App Blocker for Android & iPhone Discussion | Link",
-      "summary": "App Blocker for Android & iPhone Discussion | Link",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/manyagents",
-      "url": "https://www.producthunt.com/products/manyagents",
-      "title": "ManyAgents",
-      "content_text": "Run a team of AI coding agents from one Mac window Discussion | Link",
-      "summary": "Run a team of AI coding agents from one Mac window Discussion | Link",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/jobmate-ai-3",
-      "url": "https://www.producthunt.com/products/jobmate-ai-3",
-      "title": "Jobmate AI",
-      "content_text": "The humanized AI Copilot for your entire Job search Discussion | Link",
-      "summary": "The humanized AI Copilot for your entire Job search Discussion | Link",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/allmodels-io",
-      "url": "https://www.producthunt.com/products/allmodels-io",
-      "title": "AllModels",
-      "content_text": "Explore every abliterated model Discussion | Link",
-      "summary": "Explore every abliterated model Discussion | Link",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/avp",
-      "url": "https://www.producthunt.com/products/avp",
-      "title": "AVP",
-      "content_text": "Open source alternative to Git for AI coding agents Discussion | Link",
-      "summary": "Open source alternative to Git for AI coding agents Discussion | Link",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/yourcast",
-      "url": "https://www.producthunt.com/products/yourcast",
-      "title": "Yourcast 2.0",
-      "content_text": "AI summaries with tap-to-jump timestamps, right in Telegram Discussion | Link",
-      "summary": "AI summaries with tap-to-jump timestamps, right in Telegram Discussion | Link",
+      "id": "https://www.producthunt.com/products/airposture-2",
+      "url": "https://www.producthunt.com/products/airposture-2",
+      "title": "AirPosture",
+      "content_text": "Now on Mac, with a voice coach in your AirPods Discussion | Link",
+      "summary": "Now on Mac, with a voice coach in your AirPods Discussion | Link",
       "date_published": "2026-10-24T00:00:00Z",
       "tags": [
         "产品",
@@ -890,12 +1096,12 @@
       }
     },
     {
-      "id": "https://www.producthunt.com/products/loqui-2",
-      "url": "https://www.producthunt.com/products/loqui-2",
-      "title": "Loqui",
-      "content_text": "Turns your voice into ready-to-send text in any Mac app Discussion | Link",
-      "summary": "Turns your voice into ready-to-send text in any Mac app Discussion | Link",
-      "date_published": "2026-10-24T00:00:00Z",
+      "id": "https://www.producthunt.com/products/trellis-4",
+      "url": "https://www.producthunt.com/products/trellis-4",
+      "title": "Trellis",
+      "content_text": "More than a terminal: a native macOS workspace for devs Discussion | Link",
+      "summary": "More than a terminal: a native macOS workspace for devs Discussion | Link",
+      "date_published": "2026-10-23T00:00:00Z",
       "tags": [
         "产品",
         "科技",
@@ -912,56 +1118,12 @@
       }
     },
     {
-      "id": "https://www.producthunt.com/products/kiwi-7",
-      "url": "https://www.producthunt.com/products/kiwi-7",
-      "title": "Kiwi",
-      "content_text": "A proactive AI assistant that texts you before you ask Discussion | Link",
-      "summary": "A proactive AI assistant that texts you before you ask Discussion | Link",
-      "date_published": "2026-10-24T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/agentgrid-io",
-      "url": "https://www.producthunt.com/products/agentgrid-io",
-      "title": "AgentGrid.io",
-      "content_text": "Shared workspace for humans and agents Discussion | Link",
-      "summary": "Shared workspace for humans and agents Discussion | Link",
-      "date_published": "2026-10-24T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/2g",
-      "url": "https://www.producthunt.com/products/2g",
-      "title": "2G",
-      "content_text": "Sampler to create early 2000 Neural Synthesis Discussion | Link",
-      "summary": "Sampler to create early 2000 Neural Synthesis Discussion | Link",
-      "date_published": "2026-10-24T00:00:00Z",
+      "id": "https://www.producthunt.com/products/tonko",
+      "url": "https://www.producthunt.com/products/tonko",
+      "title": "TONKO",
+      "content_text": "Pocket money app that teaches kids about money Discussion | Link",
+      "summary": "Pocket money app that teaches kids about money Discussion | Link",
+      "date_published": "2026-10-23T00:00:00Z",
       "tags": [
         "产品",
         "科技",
@@ -1000,166 +1162,12 @@
       }
     },
     {
-      "id": "https://www.producthunt.com/products/llama-windows",
-      "url": "https://www.producthunt.com/products/llama-windows",
-      "title": "Llama Windows",
-      "content_text": "One local AI server for all your Windows apps Discussion | Link",
-      "summary": "One local AI server for all your Windows apps Discussion | Link",
+      "id": "https://www.producthunt.com/products/fraud-blocker",
+      "url": "https://www.producthunt.com/products/fraud-blocker",
+      "title": "Fraud Blocker",
+      "content_text": "AI ad fraud protection for Google and Meta ads Discussion | Link",
+      "summary": "AI ad fraud protection for Google and Meta ads Discussion | Link",
       "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/knock-7",
-      "url": "https://www.producthunt.com/products/knock-7",
-      "title": "Knock",
-      "content_text": "Create shortcuts by hitting your mac Discussion | Link",
-      "summary": "Create shortcuts by hitting your mac Discussion | Link",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/spacesheep",
-      "url": "https://www.producthunt.com/products/spacesheep",
-      "title": "Spacesheep",
-      "content_text": "Documents of the future, made by AI, read by your team Discussion | Link",
-      "summary": "Documents of the future, made by AI, read by your team Discussion | Link",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/nuplay",
-      "url": "https://www.producthunt.com/products/nuplay",
-      "title": "NuPlay",
-      "content_text": "AI transformation, run on one self-improving platform Discussion | Link",
-      "summary": "AI transformation, run on one self-improving platform Discussion | Link",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/pdf-accessibility-checker",
-      "url": "https://www.producthunt.com/products/pdf-accessibility-checker",
-      "title": "PDF Accessibility Checker by WebYes",
-      "content_text": "Find PDF accessibility issues for free, with fix guidance Discussion | Link",
-      "summary": "Find PDF accessibility issues for free, with fix guidance Discussion | Link",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/ai-bridge",
-      "url": "https://www.producthunt.com/products/ai-bridge",
-      "title": "AI Bridge",
-      "content_text": "Every AI coding agent on your Mac, in its place Discussion | Link",
-      "summary": "Every AI coding agent on your Mac, in its place Discussion | Link",
-      "date_published": "2026-10-21T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/coachare",
-      "url": "https://www.producthunt.com/products/coachare",
-      "title": "Coachare",
-      "content_text": "Your potential. Unlocked. Discussion | Link",
-      "summary": "Your potential. Unlocked. Discussion | Link",
-      "date_published": "2026-10-20T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/minimax-4",
-      "url": "https://www.producthunt.com/products/minimax-4",
-      "title": "MiniMax M3.1 Flash",
-      "content_text": "MiniMax’s Flash model, 3x faster and 70% cheaper for agents Discussion | Link",
-      "summary": "MiniMax’s Flash model, 3x faster and 70% cheaper for agents Discussion | Link",
-      "date_published": "2026-10-19T00:00:00Z",
       "tags": [
         "产品",
         "科技",

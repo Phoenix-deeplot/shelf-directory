@@ -1,0 +1,39 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #AI编程",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/ai-9.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.woshipm.com/ai/6485427.html",
+      "url": "https://www.woshipm.com/ai/6485427.html",
+      "title": "招 Agent 工程师，为什么张口就是 LangChain？",
+      "content_text": "招聘 Agent 工程师，JD 第一行常写「熟悉 LangChain」。这个 2022 年 10 月才开源的项目，四年间从工具库长成 Agent 工程体系，它究竟解决了什么问题，又凭什么成了行业默认门槛？ 最近很多同学反映，找一个Agent工程师的工作，都要求要会langchain，好像不会langchain就不会开发…",
+      "summary": "招聘 Agent 工程师，JD 第一行常写「熟悉 LangChain」。这个 2022 年 10 月才开源的项目，四年间从工具库长成 Agent 工程体系，它究竟解决了什么问题，又凭什么成了行业默认门槛？ 最近很多同学反映，找一个Agent工程师的工作，都要求要会langchain，好像不会langchain就不会开发…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "Agent",
+        "AI应用",
+        "AI编程",
+        "LangChain",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    }
+  ]
+}

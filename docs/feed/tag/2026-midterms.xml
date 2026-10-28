@@ -4,8 +4,21 @@
   <title>公共目录 · #2026 Midterms</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/2026-midterms.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://slate.com/podcasts/what-next/2026/10/why-political-ads-are-more-depraved-than-ever-before?via=rss</id>
+    <title>Were Midterm Ads Always &lt;em&gt;This &lt;/em&gt;Bad?</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/podcasts/what-next/2026/10/why-political-ads-are-more-depraved-than-ever-before?via=rss"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Are ads meeting the moment or just making everything worse?</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Politics"/>
+    <category term="2026 Midterms"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
   <entry>
     <id>https://slate.com/news-and-politics/2026/10/el-sayed-ossoff-hot-democrats-midterms.html?via=rss</id>
     <title>The Democrats Need a Daddy. I Know Exactly Who It Should Be.</title>

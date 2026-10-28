@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/deepseek.xml</id>
+  <title>公共目录 · #DeepSeek</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/deepseek.xml"/>
+  <updated>2026-10-28T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.woshipm.com/ai/6485564.html</id>
+    <title>当DeepSeek成为一种亚文化</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485564.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">DeepSeek 在 AI 圈以技术和融资闻名，却在年轻人中意外催生了“鲸鱼娘”“D老师”等二创亚文化。官方零运营，用户却自发创作表情包、同人动画甚至收费内容。这种“反商业”的活人感如何成为流量密码？饭圈化又会带来哪些风险？本文深度拆解 DeepSeek 的亚文化出圈逻辑与潜在变量。 01 亚文化符号 这个世界上可能存…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="AI产品"/>
+    <category term="DeepSeek"/>
+    <category term="亚文化"/>
+    <category term="用户运营"/>
+    <category term="饭圈文化"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6485281.html</id>
+    <title>AI洗牌财富榜：张一鸣6700亿、梁文锋2800亿</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6485281.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">2026胡润百富榜上，张一鸣以6700亿元第二次成为中国首富，梁文锋凭2800亿元首次上榜就排到第七。AI 方向的企业家已占上榜者10.4%，但账面财富涨得快，不等于企业赚到了同等利润。 AI正在重新排列中国富豪的座次。 10月27日发布的《2026胡润百富榜》（财富计算截止日期为2026年9月1日）显示，字节跳动创始…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="DeepSeek"/>
+    <category term="商业模式"/>
+    <category term="字节跳动"/>
+    <category term="行业分析"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+</feed>

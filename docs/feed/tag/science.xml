@@ -4,8 +4,35 @@
   <title>公共目录 · #Science</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/science.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/</id>
+    <title>AI Emergency Alerts Are Coming. Humans Might Not Be Ready</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Human beings struggle with emergency communication. Chatbots can help—if people take them seriously.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Science"/>
+    <category term="Science / Environment"/>
+    <category term="Warning Signs"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.openculture.com/2026/10/the-vibrant-color-wheels-designed-by-goethe-newton-other-theorists.html</id>
+    <title>The Vibrant Color Wheels Designed by Goethe, Newton &amp; Other Theorists of Color (1665–1810)</title>
+    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/the-vibrant-color-wheels-designed-by-goethe-newton-other-theorists.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Maybe it’s the cloistered headiness of Rene Descartes, or the rigorous austerity of Isaac Newton; maybe it’s all the leathern breeches, gray waistcoats, sallow…</summary>
+    <source><title>Open Culture</title></source>
+    <category term="Art"/>
+    <category term="Science"/>
+    <category term="文化"/>
+    <category term="免费资源"/>
+  </entry>
   <entry>
     <id>https://www.wired.com/story/how-nasa-oldest-martian-spacecraft-run-for-decades/</id>
     <title>NASA’s Oldest Martian Spacecraft Have Been Running for Decades. Here’s How</title>
@@ -61,20 +88,6 @@
     <category term="Science"/>
     <category term="Science / Physics and Math"/>
     <category term="Catch and Release"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/oil-spills-wreak-havoc-on-the-bottom-of-the-ocean-even-a-decade-later/</id>
-    <title>Oil Spills Wreak Havoc on the Bottom of the Ocean, Even a Decade Later</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/oil-spills-wreak-havoc-on-the-bottom-of-the-ocean-even-a-decade-later/"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">While oil is known to float, new research finds that over time it can permeate even extremely deep marine habitats, with animal populations declining by as much…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Environment"/>
-    <category term="Slippery When Wet"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>

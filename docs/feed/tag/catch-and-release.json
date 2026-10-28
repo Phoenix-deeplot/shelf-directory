@@ -1,0 +1,37 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Catch and Release",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/catch-and-release.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets/",
+      "url": "https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets/",
+      "title": "Scientists Trapped an Antimatter Particle for Months to Study Its Secrets",
+      "content_text": "These elusive and reactive particles have been challenging to hold on to and even more challenging to study, but a new method paves the way for tests on the dif…",
+      "summary": "These elusive and reactive particles have been challenging to hold on to and even more challenging to study, but a new method paves the way for tests on the dif…",
+      "date_published": "2026-10-25T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adaaa0519e924cf3288639a/master/pass/1344013114",
+      "tags": [
+        "Science",
+        "Science / Physics and Math",
+        "Catch and Release",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    }
+  ]
+}

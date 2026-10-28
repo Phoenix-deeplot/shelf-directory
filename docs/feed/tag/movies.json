@@ -9,6 +9,31 @@
   },
   "items": [
     {
+      "id": "https://slate.com/podcasts/icymi/2026/10/the-internet-cant-agree-on-you-can-see-everything?via=rss",
+      "url": "https://slate.com/podcasts/icymi/2026/10/the-internet-cant-agree-on-you-can-see-everything?via=rss",
+      "title": "The Documentary Dividing The Internet",
+      "content_text": "Nathan Fielder’s documentary has divided the discourse.",
+      "summary": "Nathan Fielder’s documentary has divided the discourse.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/27112895-8771-4708-93c7-5c6c210ed770.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Internet Culture",
+        "Movies",
+        "Documentaries",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
       "id": "https://slate.com/culture/2026/10/klara-and-the-sun-movie-review-jenna-ortega-taika-waititi-book-kazuo-ishiguro.html?via=rss",
       "url": "https://slate.com/culture/2026/10/klara-and-the-sun-movie-review-jenna-ortega-taika-waititi-book-kazuo-ishiguro.html?via=rss",
       "title": "Taika Waititi Adapted a Strange and Beautiful Novel. The Result Is Shaping Up to Be a Legendary Bomb.",
