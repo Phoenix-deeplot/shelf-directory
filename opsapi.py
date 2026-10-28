@@ -32,6 +32,19 @@ COVER_ENGINES = {"canvas", "css", "static"}
 SUBSCRIPTION_TYPES = {"native", "rsshub", "rssapp"}
 SUBSCRIPTION_STATUSES = {"trial", "active", "paused"}
 SUBSCRIPTION_CATEGORIES = {"hot", "tech", "study", "business", "world", "audio", "books", "other"}
+# Kept intentionally small: these are editorially useful public RSS feeds, not
+# a scraped copy of any listening platform.  More programmes can be collected
+# through the admin UI after their public RSS endpoint is confirmed.
+CURATED_AUDIO_SUBSCRIPTIONS = (
+    {"name": "小宇宙每日观测", "name_en": "Xiaoyuzhou Daily Watch", "homepage_url": "https://bri.so/show/xiaoyuzhou",
+     "feed_url": "https://bri.so/rss/show/xiaoyuzhou/zh.xml", "platform": "xiaoyuzhou",
+     "language": "zh", "topics": ["podcast", "culture"],
+     "description": "小宇宙编辑精选的每日音频导览；这是公开 RSS 订阅，不是对小宇宙内容的抓取。"},
+    {"name": "西海之声 Radio SayHi!", "name_en": "Radio SayHi!", "homepage_url": "https://shenglianfm.com/podcast/1717017354",
+     "feed_url": "https://feed.xyzfm.space/uwehmwvhejqt", "platform": "radio",
+     "language": "zh", "topics": ["music", "culture"],
+     "description": "独立音乐、现场与音乐人对谈的中文音乐电台。"},
+)
 REQUIRED_SCHEMA = {
     "topics": {"id", "slug", "name_zh", "name_en"},
     "programs": {"id", "directory_id", "name", "kind", "homepage_url", "feed_url", "platform", "default_language", "status", "public_enabled", "recommend_enabled", "editorial_weight", "last_crawled_at", "consecutive_failures", "metadata", "updated_at"},
@@ -283,6 +296,161 @@ def get_subscriptions(cur):
     for row in rows:
         row["topics"] = _json(row.get("topics"), [])
     return rows
+
+
+def _subscription_category(group_id):
+    """Map the reader's curated groups to the compact operations taxonomy."""
+    group_id = str(group_id or "").lower()
+    if group_id == "hot":
+        return "hot"
+    if "podcast" in group_id:
+        return "audio"
+    if any(x in group_id for x in ("tech", "dev")):
+        return "tech"
+    if "biz" in group_id or "retail" in group_id or group_id == "en-sc":
+        return "business"
+    if any(x in group_id for x in ("book", "culture", "ideas")):
+        return "books"
+    if any(x in group_id for x in ("sci", "study")):
+        return "study"
+    return "world" if "world" in group_id else "other"
+
+
+def _insert_catalog_subscription(cur, item, category, defaults=None):
+    """Upsert neutral catalogue data without changing an editor's switches.
+
+    The recommendation/public/paused state is editorial data.  A later import
+    must never quietly turn a paused item back on or remove a manual choice.
+    """
+    defaults = defaults or {}
+    feed_url = str(item.get("feed_url") or item.get("feed") or "").strip()
+    homepage_url = str(item.get("homepage_url") or item.get("home") or feed_url).strip()
+    name = str(item.get("name") or "").strip()
+    if not name or not feed_url:
+        return False
+    feed_url = _catalog_url(feed_url, "订阅源")
+    homepage_url = _catalog_url(homepage_url, "主页", required=False) or feed_url
+    language = str(item.get("language") or item.get("lang") or "multi").strip().lower()
+    language = language if language in {"zh", "en", "multi"} else "multi"
+    source_type = str(item.get("source_type") or "native")
+    source_type = source_type if source_type in SUBSCRIPTION_TYPES else "native"
+    platform = str(item.get("platform") or "").strip().lower()
+    if platform and not re.fullmatch(r"[a-z0-9][a-z0-9-]{0,29}", platform):
+        platform = ""
+    topics = item.get("topics") if isinstance(item.get("topics"), list) else item.get("tags") if isinstance(item.get("tags"), list) else []
+    topics = [str(x).strip().lower() for x in topics if SLUG.fullmatch(str(x).strip().lower())][:8]
+    status = str(defaults.get("status") or item.get("status") or "active")
+    status = status if status in SUBSCRIPTION_STATUSES else "active"
+    slug = _subscription_slug(item, feed_url)
+    cur.execute("""INSERT INTO ops.subscription_candidates
+                   (slug,name,name_en,description,description_en,homepage_url,feed_url,source_type,platform,
+                    category,language,topics,status,recommend_enabled,public_enabled)
+                   VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::jsonb,%s,%s,%s)
+                   ON CONFLICT (feed_url) DO UPDATE SET
+                     slug=EXCLUDED.slug,name=EXCLUDED.name,name_en=EXCLUDED.name_en,
+                     description=EXCLUDED.description,description_en=EXCLUDED.description_en,
+                     homepage_url=EXCLUDED.homepage_url,source_type=EXCLUDED.source_type,
+                     platform=EXCLUDED.platform,category=EXCLUDED.category,language=EXCLUDED.language,
+                     topics=EXCLUDED.topics,updated_at=NOW()""",
+                (slug, name[:120], str(item.get("name_en") or "").strip()[:120] or None,
+                 str(item.get("description") or item.get("zh") or "").strip()[:500] or None,
+                 str(item.get("description_en") or item.get("en") or "").strip()[:500] or None,
+                 homepage_url, feed_url, source_type, platform or None,
+                 category if category in SUBSCRIPTION_CATEGORIES else "other", language,
+                 json.dumps(topics, ensure_ascii=False), status,
+                 _clean_bool(defaults.get("recommend_enabled")), _clean_bool(defaults.get("public_enabled"))))
+    return cur.rowcount == 1
+
+
+def import_subscription_pool(cur, env, cfg):
+    """Build the unified subscription pool from the live reader catalogue.
+
+    This keeps `recommended.json` as the single source for its hand-curated
+    list, imports the hot list as actual HTTPS feeds, and mirrors any programme
+    already present in the public directory.  It is idempotent and preserves
+    the two editor-controlled delivery switches on existing rows.
+    """
+    catalog_url = str(env.get("RECOMMENDED_CATALOG_URL") or "https://books.zhitree.cn/recommended.json").strip()
+    try:
+        _, headers, body = agg.fetch(catalog_url, accept="application/json,text/plain;q=0.9", max_bytes=2 * 1024 * 1024)
+        catalog = json.loads(agg.decode(body, headers))
+    except (agg.Refused, agg.Unchanged, ValueError, TypeError) as exc:
+        _reply(502, "recommended_catalog", "无法读取主站推荐订阅库：%s" % str(exc))
+    groups = catalog.get("groups") if isinstance(catalog, dict) else None
+    if not isinstance(groups, list):
+        _reply(502, "recommended_catalog", "主站推荐订阅库格式不正确")
+    hot_base = str(env.get("HOT_FEED_BASE") or "https://adminbook.zhitree.cn/api/hot?n=10&p=").strip()
+    if not hot_base.startswith("https://"):
+        _reply(500, "recommended_catalog", "HOT_FEED_BASE 必须是 HTTPS 地址")
+    imported = 0
+    skipped = 0
+    for item in CURATED_AUDIO_SUBSCRIPTIONS:
+        if _insert_catalog_subscription(cur, item, "audio", {"status": "active", "recommend_enabled": True}):
+            imported += 1
+    for group in groups:
+        if not isinstance(group, dict):
+            continue
+        category = _subscription_category(group.get("id"))
+        for raw in group.get("items") if isinstance(group.get("items"), list) else []:
+            if not isinstance(raw, dict):
+                continue
+            item = dict(raw)
+            feed = str(item.get("feed") or "").strip()
+            if feed.startswith("hot:"):
+                item["feed_url"] = hot_base + urllib.parse.quote(feed[4:], safe="_-.")
+                item["source_type"] = "native"
+            if not str(item.get("feed_url") or item.get("feed") or "").startswith("https://"):
+                skipped += 1
+                continue
+            if _insert_catalog_subscription(cur, item, category, {"status": "active", "recommend_enabled": True}):
+                imported += 1
+    # Bring in registry feeds as well.  This deliberately reads only the small
+    # source registry, not the whole directory content index: importing the
+    # pool stays fast even when a public space has thousands of articles.
+    try:
+        root = "/repos/%s/contents/registry/shelves.json" % cfg["repo"]
+        st, registry = agg.gh_call("GET", root, token=cfg["token"], accept="application/vnd.github.raw+json", limit=8 * 1024 * 1024)
+    except Exception:
+        st, registry = 0, None
+    registry_count = 0
+    if st == 200 and isinstance(registry, dict):
+        for shelf in registry.get("shelves") if isinstance(registry.get("shelves"), list) else []:
+            if not isinstance(shelf, dict):
+                continue
+            feed_url = str(shelf.get("url") or shelf.get("source") or "").strip()
+            if shelf.get("kind") != "feed" or not feed_url.startswith("https://"):
+                continue
+            platform = str(shelf.get("platform") or "").lower()
+            candidate = {"name": shelf.get("name"), "homepage_url": feed_url, "feed_url": feed_url,
+                         "platform": platform, "topics": shelf.get("topics") or [],
+                         "language": shelf.get("lang") or "multi",
+                         "status": "paused" if shelf.get("status") == "paused" else "active"}
+            category = "hot" if str(shelf.get("id") or "").startswith("hot-") else "audio" if platform in {"podcast", "ximalaya"} or "ximalaya.com" in feed_url else "other"
+            if _insert_catalog_subscription(cur, candidate, category, {"status": candidate["status"],
+                                                                         "recommend_enabled": bool(shelf.get("featured")),
+                                                                         "public_enabled": shelf.get("status") != "paused"}):
+                registry_count += 1
+    # Public programmes are often added through the source-review workflow,
+    # rather than the reader's recommended.json. They belong in the same
+    # management pool and retain their existing public/recommend state.
+    cur.execute("""SELECT p.name,p.homepage_url,p.feed_url,p.platform,p.default_language,p.status,
+                         p.public_enabled,p.recommend_enabled,p.directory_id,
+                         COALESCE(jsonb_agg(t.slug) FILTER (WHERE t.slug IS NOT NULL), '[]'::jsonb) topics
+                  FROM ops.programs p
+                  LEFT JOIN ops.program_topics pt ON pt.program_id=p.id
+                  LEFT JOIN ops.topics t ON t.id=pt.topic_id
+                  WHERE p.feed_url LIKE 'https://%'
+                  GROUP BY p.id""")
+    public_programs = 0
+    for program in _rows(cur):
+        candidate = {"name": program["name"], "homepage_url": program["homepage_url"],
+                     "feed_url": program["feed_url"], "platform": program["platform"],
+                     "language": program["default_language"], "topics": _json(program["topics"], []),
+                     "status": "paused" if program["status"] == "paused" else "active"}
+        category = "hot" if str(program.get("directory_id") or "").startswith("hot-") else "audio" if str(program.get("platform") or "") in {"podcast", "ximalaya"} else "other"
+        if _insert_catalog_subscription(cur, candidate, category, {"status": candidate["status"], "recommend_enabled": bool(program["recommend_enabled"]), "public_enabled": bool(program["public_enabled"])}):
+            public_programs += 1
+    return {"recommended": imported, "registry": registry_count, "programs": public_programs, "skipped": skipped}
 
 
 def discover_subscription(payload):
@@ -561,6 +729,8 @@ def handle(payload, bearer, ip, env, now=None):
                 return 200, {"ok": True, "data": dashboard(cur)}
             if action == "sync_directory":
                 return 200, {"ok": True, "data": sync_directory(cur, cfg)}
+            if action == "import_subscription_pool":
+                return 200, {"ok": True, "data": import_subscription_pool(cur, env, cfg)}
             if action == "programs":
                 return 200, {"ok": True, "data": get_programs(cur)}
             if action == "subscriptions":

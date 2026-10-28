@@ -451,7 +451,10 @@ function subscriptionEditor(item, topicList, options){
 }
 function subscriptionsOpsPanel(panel, subscriptions){
   const topicList=((state.directory&&state.directory.topics)||[]).filter(t=>t&&typeof t.id==='string').map(t=>[t.id,t.zh||t.id]);
-  panel.append(el('h2',{text:'订阅目录与收集'}),el('p',{class:'muted',text:'先收集并检测原生 RSS，或粘贴你在 RSSHub / RSS.app 生成的公开 feed。勾选“推荐订阅”会同步到 books.zhitree.cn 的推荐页；勾选“公共空间”后再点推送，才会触发 GitHub Action 将它读入公共目录。转换服务只处理你提供的公开 feed，不绕过登录、付费或平台限制。'}));
+  panel.append(el('h2',{text:'订阅目录与收集'}),el('p',{class:'muted',text:'这是总订阅池：一键导入主站的推荐订阅、热榜和已收录公共节目，再统一决定是否推送到推荐订阅或公共空间。之后也可手动收集原生 RSS，或粘贴你在 RSSHub / RSS.app 生成的公开 feed。转换服务只处理你提供的公开 feed，不绕过登录、付费或平台限制。'}));
+  const importMsg=el('p',{class:'msg',role:'status'});
+  const importPool=el('button',{type:'button',class:'primary',text:'同步推荐订阅与热榜到总池',onclick:async()=>{importPool.disabled=true;importPool.textContent='同步中…';importMsg.className='msg';importMsg.textContent='正在读取主站推荐库、热榜和公共节目…';try{const r=await ops('import_subscription_pool');importMsg.textContent='已同步推荐订阅 '+(r.recommended||0)+' 个、目录节目 '+(r.registry||0)+' 个、已同步公共节目 '+(r.programs||0)+' 个'+(r.skipped?'；跳过 '+r.skipped+' 个无有效 RSS 的条目':'')+'。';importMsg.className='msg good';await renderOps();}catch(e){importMsg.textContent=e.message;importMsg.className='msg bad';importPool.disabled=false;importPool.textContent='同步推荐订阅与热榜到总池';}}});
+  panel.append(el('div',{class:'actions'},importPool),importMsg);
   const collect=el('details',{class:'card ops-card',open:true},el('summary',{class:'ops-card-summary'},el('strong',{text:'收集新的订阅'}),el('span',{class:'muted',text:'网站 / RSS / RSSHub / RSS.app'})),el('div',{class:'ops-card-body'},subscriptionEditor(null,topicList,{after:renderOps})));
   panel.append(collect);
   const query=el('input',{type:'search',placeholder:'搜索名称、平台、订阅地址或领域'}), category=el('select',{},[['all','全部分类'],...Object.entries(SUB_CATEGORY)].map(([id,label])=>el('option',{value:id,text:label}))), target=el('select',{},[['all','全部去向'],['recommend','已推送推荐订阅'],['public','已标记公共空间'],['paused','已暂停']].map(([id,label])=>el('option',{value:id,text:label})));
