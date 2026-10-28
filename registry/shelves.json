@@ -627,6 +627,16 @@
     "entertainment"
    ],
    "platform": "podcast"
+  },
+  {
+   "id": "ximalaya-com",
+   "kind": "feed",
+   "url": "https://www.ximalaya.com/album/74706735.xml",
+   "source": "https://www.ximalaya.com/album/74706735.xml",
+   "name": "出海合伙人",
+   "tags": [],
+   "added": "2026-10-28",
+   "issue": 42
   }
  ]
 }

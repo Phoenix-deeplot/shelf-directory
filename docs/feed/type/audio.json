@@ -412,6 +412,25 @@
       }
     },
     {
+      "id": "https://www.ximalaya.com/sound/1024469851",
+      "url": "https://www.ximalaya.com/sound/1024469851",
+      "title": "对话TEA联合创始人Wade：AI如何让健康管理变得好玩？",
+      "content_text": "当 AI 开始进入健康管理，真正的机会或许不只是“让工具变得更智能”，而在于能否理解用户每天面对的真实问题，并把短暂的新鲜感转化为可以长期坚持的习惯。 这一期，我们邀请 TEA AI 联合创始人兼 COO 宋航 Wade，从他亲历 AI 健康产品 Peako 从 0 到 1 的创业经历出发，聊聊 AI 与日常健康正在碰…",
+      "summary": "当 AI 开始进入健康管理，真正的机会或许不只是“让工具变得更智能”，而在于能否理解用户每天面对的真实问题，并把短暂的新鲜感转化为可以长期坚持的习惯。 这一期，我们邀请 TEA AI 联合创始人兼 COO 宋航 Wade，从他亲历 AI 健康产品 Peako 从 0 到 1 的创业经历出发，聊聊 AI 与日常健康正在碰…",
+      "date_published": "2026-10-15T00:00:00Z",
+      "image": "https://fdfs.xmcdn.com/storages/d196-audiofreehighqps/6A/4D/GAqhaTsOpllHAAYcYQTpAZGp.jpeg",
+      "tags": [],
+      "authors": [
+        {
+          "name": "出海合伙人"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "ximalaya-com"
+      }
+    },
+    {
       "id": "http://www.bbc.co.uk/programmes/p0pgs2w6",
       "url": "http://www.bbc.co.uk/programmes/p0pgs2w6",
       "title": "Why has gold got so expensive?",
@@ -1043,28 +1062,6 @@
       "_shelf": {
         "type": "audio",
         "shelf": "crazy-capital"
-      }
-    },
-    {
-      "id": "https://www.npr.org/2026/09/27/nx-s1-5981134/can-clergy-candidates-help-democrats-win-in-red-states",
-      "url": "https://www.npr.org/2026/09/27/nx-s1-5981134/can-clergy-candidates-help-democrats-win-in-red-states",
-      "title": "Can clergy candidates help Democrats win in red states?",
-      "content_text": "This November, a notable number of Democrats are running for Congress who all have one thing in common: they are members of the clergy. In a moment when the par…",
-      "summary": "This November, a notable number of Democrats are running for Congress who all have one thing in common: they are members of the clergy. In a moment when the par…",
-      "date_published": "2026-09-27T00:00:00Z",
-      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8667x4875+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F40%2F8f%2F7720d6214eb29c2fc8e9b468b5d0%2F150b1255-6b9c-4bef-89ea-a81613a87c8d.jpeg",
-      "tags": [
-        "新闻",
-        "英语听力"
-      ],
-      "authors": [
-        {
-          "name": "Up First from NPR"
-        }
-      ],
-      "_shelf": {
-        "type": "audio",
-        "shelf": "feeds-npr-org"
       }
     }
   ]
