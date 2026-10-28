@@ -4,55 +4,73 @@
   <title>公共目录 · #商业模式</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-0dae4a.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6484804.html</id>
-    <title>每人每年140万美元，Anthropic用5300人疯狂给未来加注</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484804.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Anthropic 上半年只有约四分之一算力用于服务付费客户，其余绝大部分投进下一代模型的研发；不可取消的算力承诺半年涨到 4.9 倍，人均一年的人员费用约 140 万美元。 昨天，Anthropic向SEC交了上市招股书，如果他们今年成功完成上市，据报道市值估计在1.5-2万亿美元之间，会超过今年的SpaceX，成为…</summary>
+    <id>https://www.woshipm.com/it/6485027.html</id>
+    <title>红果、Seedance 与字节：短剧观察札记</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6485027.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">红果短剧三年做到3.68亿月活，靠的不是内容，而是把短剧从付费改成免费+广告，让字节从收费站变成终点站。Seedance的真正价值也不是垄断生产，而是让供给过剩、单部作品贬值，把议价权推向平台。本文拆解红果的商业模式、AI工具的战略角色，以及渠道与内容合流的历史参照与真实风险。 先校准一个说法 字节确实同时握住了短剧的…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="Anthropic"/>
-    <category term="云计算"/>
+    <category term="业界动态"/>
+    <category term="Seedance"/>
+    <category term="免费模式"/>
     <category term="商业模式"/>
+    <category term="字节跳动"/>
+    <category term="短剧"/>
+    <category term="红果短剧"/>
     <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/marketing/6484729.html</id>
-    <title>未来品牌宣言：AI之上，重启营销雄心</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/marketing/6484729.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">彼得·菲斯克在《未来品牌宣言》里把话说得很直：营销真正的考验是战略而不是技术。七个章节里，他谈智能体替客户做决定之后，品牌的战场如何从触达转向定义市场，边界又为何在消融。 品牌的未来正在被重写，营销也不例外。 AI正在改变人们发现、评估和购买产品的方式；技术是人类的催化剂，行业边界在消融，新的竞争者从意想不到的方向闯入…</summary>
+    <id>https://www.woshipm.com/chuangye/6483407.html</id>
+    <title>千万用户也救不了它：AI 陪聊明星 Character.AI 申请破产</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6483407.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">仍有约 1200 万活跃用户的 Character.AI 在 10 月 12 日申请破产保护，每月亏损 800 万至 900 万美元，迪士尼出价 2000 万美元求部分技术授权。同样的生意，CHAI 做到 1.2 亿美元年化收入，差别在账怎么算。 前段时间有个大新闻，一家曾经估值 10亿美元、连 Google 都花 2…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="营销推广"/>
-    <category term="内容营销"/>
+    <category term="创业学院"/>
+    <category term="AI应用"/>
+    <category term="产品分析"/>
     <category term="商业模式"/>
-    <category term="案例分析"/>
     <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/share/6484720.html</id>
-    <title>再过几个月，中国互联网将告别14亿人口市场</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484720.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">2025 年末全国人口 140489 万，离 14 亿只剩约 489 万的缓冲，而负增长已连续四年且在扩大。分母被抽走后，平台只能从存量里切，或者往单个用户的使用时长上继续挖。 “14亿人的大市场”，这句话在中国互联网的叙事里被使用了太多年。它是BP里的市场规模测算，是平台向品牌方报价时的底层分母，是“渗透率还有空间”…</summary>
+    <id>https://www.woshipm.com/marketing/6484810.html</id>
+    <title>产品经理定价指南：7步从目标到结果，附特斯拉/比亚迪/戴森案例</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/marketing/6484810.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">定价策略的本质是三定：定战略+定用户+定生态位。战略决定经营目标，用户决定愿意付多少钱，生态位决定竞争位置，价格只是杠杆；不同的价格，意味着不同的目标用户和利润结构。 价格是交易条件，定价是利益取舍，定价策略是服务经营目标的战略选择。 定价策略的本质有“三定”：定战略+定用户+定生态位。 定战略：确定企业的经营目标，是…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="QuestMobile"/>
+    <category term="营销推广"/>
+    <category term="产品策略"/>
     <category term="商业模式"/>
-    <category term="行业分析"/>
+    <category term="定价策略"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6485292.html</id>
+    <title>AI帮用户关广告，小米们的“互联网模式”迎来大考</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485292.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">当Agent让普通用户也能一键关闭电视广告、精简手机系统，硬件厂商靠广告赚钱的“互联网模式”正遭遇前所未有的挑战。本文通过CleanYourTV等真实案例，剖析用户“爆改”硬件背后的技术逻辑，并深入探讨广告收入受冲击后，硬件公司该如何重构商业模式与产品竞争力。 Agent普及，释放了用户的想象力和生产力，也将硬件公司逼…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="Agent"/>
+    <category term="CleanYourTV"/>
+    <category term="互联网模式"/>
+    <category term="商业模式"/>
+    <category term="广告"/>
+    <category term="智能硬件"/>
   </entry>
 </feed>

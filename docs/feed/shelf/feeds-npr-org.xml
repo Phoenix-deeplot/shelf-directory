@@ -4,8 +4,19 @@
   <title>公共目录 · Up First from NPR</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/feeds-npr-org.xml"/>
-  <updated>2026-10-26T00:00:00Z</updated>
+  <updated>2026-10-27T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.npr.org/2026/10/27/nx-s1-6019096/democrats-lead-in-npr-poll-preparations-for-election-challenge-israel-voting-begins</id>
+    <title>Democrats Lead In NPR Poll, Preparations For Election Challenge, Israel Voting Begins</title>
+    <link rel="alternate" type="text/html" href="https://www.npr.org/2026/10/27/nx-s1-6019096/democrats-lead-in-npr-poll-preparations-for-election-challenge-israel-voting-begins"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">A new NPR/PBS News/Marist poll gives Democrats an eight-point lead on the congressional ballot, but lagging enthusiasm among young voters and independents could…</summary>
+    <source><title>Up First from NPR</title></source>
+    <category term="新闻"/>
+    <category term="英语听力"/>
+  </entry>
   <entry>
     <id>https://www.npr.org/2026/10/26/nx-s1-6016798/gop-redistricting-bust-lula-wins-brazil-election-protest-spread-in-europe</id>
     <title>GOP Redistricting Bust, Lula Wins Brazil Election, Protest Spread In Europe</title>
@@ -541,17 +552,6 @@
     <updated>2026-09-10T00:00:00Z</updated>
     <published>2026-09-10T00:00:00Z</published>
     <summary type="text">President Trump spoke on the first night of the Republican midterm convention, asking voters to pretend he is on the ballot and promising every adult $5,000 if…</summary>
-    <source><title>Up First from NPR</title></source>
-    <category term="新闻"/>
-    <category term="英语听力"/>
-  </entry>
-  <entry>
-    <id>https://www.npr.org/2026/09/09/nx-s1-5962642/us-strikes-iran-oil-tankers-israeli-settlements-sanctions-smithsonian-head-retires</id>
-    <title>US Strikes Iran Oil Tankers, Israeli Settlements Sanctions, Smithsonian Head Retires</title>
-    <link rel="alternate" type="text/html" href="https://www.npr.org/2026/09/09/nx-s1-5962642/us-strikes-iran-oil-tankers-israeli-settlements-sanctions-smithsonian-head-retires"/>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <published>2026-09-09T00:00:00Z</published>
-    <summary type="text">The U.S. has destroyed eight Iranian oil tankers since Saturday, as Iran fires back at American forces and Gulf countries reconsider the risks of hosting U.S. b…</summary>
     <source><title>Up First from NPR</title></source>
     <category term="新闻"/>
     <category term="英语听力"/>

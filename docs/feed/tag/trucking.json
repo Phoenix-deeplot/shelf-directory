@@ -9,6 +9,140 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/wex-euclid-ai-target-90-reduction-in-trucking-transaction-costs",
+      "url": "https://www.freightwaves.com/news/wex-euclid-ai-target-90-reduction-in-trucking-transaction-costs",
+      "title": "WEX, Euclid AI target 90% reduction in trucking transaction costs",
+      "content_text": "WEX and Euclid AI announced plans to offer trucking-specific AI agents that Euclid says have sharply reduced transaction costs in existing deployments. The post…",
+      "summary": "WEX and Euclid AI announced plans to offer trucking-specific AI agents that Euclid says have sharply reduced transaction costs in existing deployments. The post…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "News",
+        "Technology",
+        "Trucking",
+        "AI agents",
+        "WEX",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/spartan-carrier-alvys-foundry-ai-agents",
+      "url": "https://www.freightwaves.com/news/spartan-carrier-alvys-foundry-ai-agents",
+      "title": "Spartan’s operators went from AI skeptics to agent builders",
+      "content_text": "Spartan Carrier Group built its first AI agent for hourly customer reports in a week and a half. Its VP of operations, who calls himself no coder, wants dispatc…",
+      "summary": "Spartan Carrier Group built its first AI agent for hourly customer reports in a week and a half. Its VP of operations, who calls himself no coder, wants dispatc…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "News",
+        "Technology",
+        "Top Stories",
+        "Trucking",
+        "AI agents",
+        "AI agents trucking",
+        "Alvys",
+        "Alvys Foundry"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/millions-in-stolen-freight-reveal-a-weakness-criminals-keep-exploiting",
+      "url": "https://www.freightwaves.com/news/millions-in-stolen-freight-reveal-a-weakness-criminals-keep-exploiting",
+      "title": "Millions in stolen freight reveal a weakness criminals keep exploiting",
+      "content_text": "From a $12 million cargo theft scheme to fraudulent shipment diversions, recent cases reveal a recurring weakness. The question is whether your team knows how t…",
+      "summary": "From a $12 million cargo theft scheme to fraudulent shipment diversions, recent cases reveal a recurring weakness. The question is whether your team knows how t…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "Business",
+        "Fraud",
+        "Playbook: Cash & Capital",
+        "Top Stories",
+        "FreightWaves",
+        "logistics",
+        "Trucking",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/mexico-truckers-reach-deal-for-talks-after-strike-disrupts-19-states",
+      "url": "https://www.freightwaves.com/news/mexico-truckers-reach-deal-for-talks-after-strike-disrupts-19-states",
+      "title": "Mexico truckers reach deal for talks after strike disrupts 19 states",
+      "content_text": "Trucking organizations in Mexico have agreed to four negotiating sessions with federal officials after a nationwide strike disrupted highways and threatened fre…",
+      "summary": "Trucking organizations in Mexico have agreed to four negotiating sessions with federal officials after a nationwide strike disrupted highways and threatened fre…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "Borderlands: Mexico",
+        "News",
+        "Trucking",
+        "blockade",
+        "CANACAR",
+        "Mexico",
+        "Protest",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/knight-swift-ceo-says-cdl-crackdown-could-fuel-lasting-trucking-recovery",
+      "url": "https://www.freightwaves.com/news/knight-swift-ceo-says-cdl-crackdown-could-fuel-lasting-trucking-recovery",
+      "title": "Knight-Swift CEO says CDL crackdown could fuel lasting trucking recovery",
+      "content_text": "Knight-Swift CEO Adam Miller said more restrictive broker-carrier relationships could reshape competition in trucking by favoring established fleets with strong…",
+      "summary": "Knight-Swift CEO Adam Miller said more restrictive broker-carrier relationships could reshape competition in trucking by favoring established fleets with strong…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "News",
+        "Technology",
+        "Trucking",
+        "Adam Miller",
+        "Fuel card company",
+        "Knight Swift",
+        "over the road trucking",
+        "WEX"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/mexican-truckers-launch-national-strike-over-highway-security-rising-costs",
       "url": "https://www.freightwaves.com/news/mexican-truckers-launch-national-strike-over-highway-security-rising-costs",
       "title": "Mexican truckers launch national strike over highway security, rising costs",
@@ -170,33 +304,6 @@
       }
     },
     {
-      "id": "https://www.freightwaves.com/news/us-trailer-orders-soar-385-as-class-8-truck-market-sends-mixed-signals",
-      "url": "https://www.freightwaves.com/news/us-trailer-orders-soar-385-as-class-8-truck-market-sends-mixed-signals",
-      "title": "US trailer orders soar 385% as Class 8 truck market sends mixed signals",
-      "content_text": "Trailer orders jumped sharply in September as carriers moved to secure equipment ahead of potential price increases, while heavy-duty truck purchases showed mix…",
-      "summary": "Trailer orders jumped sharply in September as carriers moved to secure equipment ahead of potential price increases, while heavy-duty truck purchases showed mix…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "News",
-        "Trucking",
-        "Trucking Equipment",
-        "ACT Research",
-        "Class 8 truck orders",
-        "FTR",
-        "Trailer orders",
-        "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
       "id": "https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement",
       "url": "https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement",
       "title": "UPDATE: Daimler Truck sues former fleet manager over alleged $3.8M embezzlement",
@@ -237,113 +344,6 @@
         "Trucking",
         "货运",
         "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/motive-launches-ai-agents-fleets",
-      "url": "https://www.freightwaves.com/news/motive-launches-ai-agents-fleets",
-      "title": "Motive launches AI Agents as fleets weigh how to prevent problems",
-      "content_text": "Motive, an AI platform for physical operations, launched Agents on Monday at the American Trucking Associations’ Management Conference & Exhibition (MCE) in Cha…",
-      "summary": "Motive, an AI platform for physical operations, launched Agents on Monday at the American Trucking Associations’ Management Conference & Exhibition (MCE) in Cha…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "News",
-        "Technology",
-        "Top Stories",
-        "Trucking",
-        "AI Dashcam Plus",
-        "ATA MCE",
-        "ATA MCE 2026",
-        "Atlas AI assistant"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/first-look-almost-all-strong-numbers-in-ryders-third-quarter-earnings",
-      "url": "https://www.freightwaves.com/news/first-look-almost-all-strong-numbers-in-ryders-third-quarter-earnings",
-      "title": "First look: almost all strong numbers in Ryder’s third quarter earnings",
-      "content_text": "It was a solid third quarter for Ryder, with improvement in just about every metric compared to the third quarter of 2025. The numbers have been good enough tha…",
-      "summary": "It was a solid third quarter for Ryder, with improvement in just about every metric compared to the third quarter of 2025. The numbers have been good enough tha…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Company Earnings",
-        "News",
-        "Top Stories",
-        "Trucking",
-        "Ryder",
-        "货运",
-        "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/feds-charge-driver-in-alleged-12m-cargo-theft-scheme-built-on-hijacked-carrier-identities",
-      "url": "https://www.freightwaves.com/news/feds-charge-driver-in-alleged-12m-cargo-theft-scheme-built-on-hijacked-carrier-identities",
-      "title": "Feds charge driver in alleged $12M cargo theft scheme built on hijacked carrier identities",
-      "content_text": "At least 24 shipments vanished after drivers collected merchandise from distribution centers. Authorities also uncovered fraudulent licenses, altered identities…",
-      "summary": "At least 24 shipments vanished after drivers collected merchandise from distribution centers. Authorities also uncovered fraudulent licenses, altered identities…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Business",
-        "Fraud",
-        "Playbook: Cash & Capital",
-        "Top Stories",
-        "cargo theft",
-        "logistics",
-        "Trucking",
-        "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/cbp-seizes-2-5m-in-meth-hidden-in-tomatillo-truck-at-otay-mesa-drivers-visa-canceled",
-      "url": "https://www.freightwaves.com/news/cbp-seizes-2-5m-in-meth-hidden-in-tomatillo-truck-at-otay-mesa-drivers-visa-canceled",
-      "title": "CBP seizes $2.5M in meth hidden in tomatillo truck at Otay Mesa; driver’s visa canceled",
-      "content_text": "Nearly 1,600 pounds of narcotics, a federal investigation and an unexpected development involving the trucker. New details obtained by FreightWaves reveal what…",
-      "summary": "Nearly 1,600 pounds of narcotics, a federal investigation and an unexpected development involving the trucker. New details obtained by FreightWaves reveal what…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Borderlands: Mexico",
-        "Playbook: Cash & Capital",
-        "Top Stories",
-        "CBP",
-        "cross border",
-        "drug seizures",
-        "Trucking",
-        "货运"
       ],
       "authors": [
         {

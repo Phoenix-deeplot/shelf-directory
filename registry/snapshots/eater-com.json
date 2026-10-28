@@ -141,9 +141,9 @@
  },
  "fails": 0,
  "kind": "feed",
- "parser": 2,
+ "parser": 3,
  "status": "ok",
  "error": "",
- "etag": "\"0a60eefbeafd8ecdb2fe1f8139ca91af\"",
+ "etag": "\"51803e56df4fcee40918370984e3691c\"",
  "modified": ""
 }

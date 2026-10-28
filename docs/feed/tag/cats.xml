@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/cats.xml</id>
+  <title>公共目录 · #cats</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/cats.xml"/>
+  <updated>2026-10-27T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.reddit.com/r/cats/comments/1xgqg8g/margaret_and_tapeworm_then_vs_now_theyre_never/</id>
+    <title>Margaret and tapeworm- then vs now. They're never apart</title>
+    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/cats/comments/1xgqg8g/margaret_and_tapeworm_then_vs_now_theyre_never/"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">​ Tapeworm (white) and margaret (black and white.) They're turning a year old soon, and they've gotten so big, but they haven't changed much. I found them in my…</summary>
+    <source><title>top scoring links : popular</title></source>
+    <category term="cats"/>
+    <category term="社区"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.reddit.com/r/cats/comments/1xgn6c9/hello_ther_oh/</id>
+    <title>Hello ther... oh</title>
+    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/cats/comments/1xgn6c9/hello_ther_oh/"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">submitted by /u/Mimikyu_9x to r/cats [link] [comments]</summary>
+    <source><title>top scoring links : popular</title></source>
+    <category term="cats"/>
+    <category term="社区"/>
+    <category term="热榜"/>
+  </entry>
+</feed>

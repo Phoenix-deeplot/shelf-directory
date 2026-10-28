@@ -4,40 +4,40 @@
   <title>公共目录 · #内容创作</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-f0aa02.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6484782.html</id>
-    <title>这个免费的 Skill，用 Opus 5.5整理了 98 种视频风格提示词！</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484782.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">一个叫 lemo-opuscar 的 Skill 把视频风格提示词整理成清单，往下拉点开【All 98 styles】，就能看到 98 种风格都在里面了，2D、2.5D 和 3D 全覆盖，复制就能直接用。 前段时间很火的用 Opus5.5 做代码视频。 后面发现很多人都弄了各种风格视频，我就想把各种风格的视频提示词整理…</summary>
+    <id>https://www.woshipm.com/ai/6485237.html</id>
+    <title>WorkBuddy × Flova ：快速搞定20张产品图+宣传视频</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485237.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">双十一前最紧的活，是一次性交齐20张场景图和一条15秒短视频。文中用一台无品牌桌面咖啡机走完整条链路：在 WorkBuddy 里提出需求，由 Flova 生成四组各五张、2048×2048 的图片，再把文件与视频收回来逐项核对。 10月15日，2026年抖音商城双十一好物节启动。看到这个时间点我想到的是大促期间那些需要…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="Claude Opus"/>
+    <category term="AI产品"/>
+    <category term="Flova"/>
+    <category term="WorkBuddy"/>
     <category term="内容创作"/>
-    <category term="提示词工程"/>
-    <category term="视频生成"/>
     <category term="产品"/>
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/operate/6484706.html</id>
-    <title>中国顶流博主，横扫海外社交媒体</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/operate/6484706.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">一条 23 分钟的英文评测，把 iPhone Duo 折了一万次、冻了一千次，播放超过五千七百万，粉丝从零涨到三百万。何同学更早布局，中国博主正带着成熟的内容能力走向海外。 10 月 22 日凌晨，一条 23 分钟的英文评测出现在 X 上。一个中国团队把一台iPhone Duo放在常温下开合一万次，又丢进零下 20 度…</summary>
+    <id>https://www.woshipm.com/ai/6484731.html</id>
+    <title>AI短剧：流水线上的打工人不得不说的秘密</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484731.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">短剧用户规模已达8.51亿，AI短剧占比超九成，千亿市场背后是精心设计的情绪工程。本文深入AI短剧创业团队，揭秘从黄金三秒到每15秒一个爽点的成瘾机制，以及从业者在流量流水线上的真实生存状态。 晚上12点，你决定刷完这一集就睡： 新郎抛下婚礼去机场接白月光，新娘转头就赌气让前来跑腿的快递小哥去接亲，并且直接拉上假新郎去…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="产品运营"/>
-    <category term="YouTube"/>
+    <category term="AI"/>
+    <category term="AI短剧"/>
     <category term="内容创作"/>
-    <category term="案例分析"/>
-    <category term="自媒体"/>
+    <category term="情绪设计"/>
+    <category term="短剧"/>
+    <category term="红果短剧"/>
     <category term="行业观察"/>
     <category term="产品"/>
-    <category term="运营"/>
   </entry>
 </feed>

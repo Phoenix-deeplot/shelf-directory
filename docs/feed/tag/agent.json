@@ -1,0 +1,39 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Agent",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/agent.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.woshipm.com/ai/6485292.html",
+      "url": "https://www.woshipm.com/ai/6485292.html",
+      "title": "AI帮用户关广告，小米们的“互联网模式”迎来大考",
+      "content_text": "当Agent让普通用户也能一键关闭电视广告、精简手机系统，硬件厂商靠广告赚钱的“互联网模式”正遭遇前所未有的挑战。本文通过CleanYourTV等真实案例，剖析用户“爆改”硬件背后的技术逻辑，并深入探讨广告收入受冲击后，硬件公司该如何重构商业模式与产品竞争力。 Agent普及，释放了用户的想象力和生产力，也将硬件公司逼…",
+      "summary": "当Agent让普通用户也能一键关闭电视广告、精简手机系统，硬件厂商靠广告赚钱的“互联网模式”正遭遇前所未有的挑战。本文通过CleanYourTV等真实案例，剖析用户“爆改”硬件背后的技术逻辑，并深入探讨广告收入受冲击后，硬件公司该如何重构商业模式与产品竞争力。 Agent普及，释放了用户的想象力和生产力，也将硬件公司逼…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "Agent",
+        "CleanYourTV",
+        "互联网模式",
+        "商业模式",
+        "广告",
+        "智能硬件"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    }
+  ]
+}

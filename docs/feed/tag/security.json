@@ -9,17 +9,18 @@
   },
   "items": [
     {
-      "id": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
-      "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
-      "title": "The US Government Is Hiding a Secret Court Ruling About How It Spies on Americans",
-      "content_text": "Two US senators say the Trump administration is breaking the law by withholding the FISA court decision while it presses Congress to renew America’s most sweepi…",
-      "summary": "Two US senators say the Trump administration is breaking the law by withholding the FISA court decision while it presses Congress to renew America’s most sweepi…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adbe0039bde53c96a68d73b/master/pass/Security_Trump%20Officials%20are%20Sitting%20on%20a%20Secret%20Surveillance%20Court%20Ruling_v1.jpg",
+      "id": "https://www.wired.com/story/the-big-interview-podcast-jess-asato/",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-jess-asato/",
+      "title": "UK Politician Jess Asato Got Deepfaked. Now She’s Taking xAI to Court",
+      "content_text": "Jess Asato’s public campaigning for victims of online abuse put her in the crosshairs of Grok’s deepfake scandal. Then the UK member of parliament became a vict…",
+      "summary": "Jess Asato’s public campaigning for victims of online abuse put her in the crosshairs of Grok’s deepfake scandal. Then the UK member of parliament became a vict…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae0a01a6cfc0bdcb738ab7a/master/pass/Big-Interview-UV-Solo-Illo-1027.jpg",
       "tags": [
+        "The Big Story",
+        "Politics",
         "Security",
-        "Security / Privacy",
-        "Need to Know",
+        "The Big Interview",
         "科技",
         "社会"
       ],
@@ -34,16 +35,17 @@
       }
     },
     {
-      "id": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
-      "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
-      "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
-      "content_text": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.",
-      "summary": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adbb8a7e6d0c133525c3e7c/master/pass/KernelPanic_The%20PHP%20Meltdown%20Shows%20How%20AI%20Makes%20Bugs%20More%20Exploitable.jpg",
+      "id": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
+      "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
+      "title": "The US Government Is Hiding a Secret Court Ruling About How It Spies on Americans",
+      "content_text": "Two US senators say the Trump administration is breaking the law by withholding the FISA court decision while it presses Congress to renew America’s most sweepi…",
+      "summary": "Two US senators say the Trump administration is breaking the law by withholding the FISA court decision while it presses Congress to renew America’s most sweepi…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adbe0039bde53c96a68d73b/master/pass/Security_Trump%20Officials%20are%20Sitting%20on%20a%20Secret%20Surveillance%20Court%20Ruling_v1.jpg",
       "tags": [
         "Security",
-        "Kernel Panic",
+        "Security / Privacy",
+        "Need to Know",
         "科技",
         "社会"
       ],

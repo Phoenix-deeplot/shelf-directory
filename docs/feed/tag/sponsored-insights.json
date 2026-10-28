@@ -9,6 +9,29 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/why-logistics-ai-still-needs-experts-in-the-loop",
+      "url": "https://www.freightwaves.com/news/why-logistics-ai-still-needs-experts-in-the-loop",
+      "title": "Why Logistics AI Still Needs “Experts in the Loop”",
+      "content_text": "As AI tools multiply across freight and logistics, the important question is how much control to hand over, and to what. On the latest Lean Quarterly Dive, host…",
+      "summary": "As AI tools multiply across freight and logistics, the important question is how much control to hand over, and to what. On the latest Lean Quarterly Dive, host…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "News",
+        "Sponsored Insights",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/completing-the-capacity-stack",
       "url": "https://www.freightwaves.com/news/completing-the-capacity-stack",
       "title": "Completing the Capacity Stack",
@@ -24,33 +47,6 @@
         "brokers",
         "Capacity",
         "capacity radar"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/safety-should-be-provable-not-just-compliant",
-      "url": "https://www.freightwaves.com/news/safety-should-be-provable-not-just-compliant",
-      "title": "Safety Should Be Provable, Not Just Compliant",
-      "content_text": "A unanimous Supreme Court ruling means freight brokers can face state liability claims for their selection of carriers. For carriers, that shift turns a documen…",
-      "summary": "A unanimous Supreme Court ruling means freight brokers can face state liability claims for their selection of carriers. For carriers, that shift turns a documen…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Business",
-        "Events",
-        "Media",
-        "News",
-        "Sponsored Insights",
-        "Technology",
-        "FAAAA",
-        "FMCSA"
       ],
       "authors": [
         {

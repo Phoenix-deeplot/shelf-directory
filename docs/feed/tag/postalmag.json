@@ -61,33 +61,6 @@
         "type": "article",
         "shelf": "freightwaves-com"
       }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/ups-automates-4-additional-facilities-ahead-of-peak-shipping-season",
-      "url": "https://www.freightwaves.com/news/ups-automates-4-additional-facilities-ahead-of-peak-shipping-season",
-      "title": "UPS automates 4 additional facilities ahead of peak shipping season",
-      "content_text": "UPS has completed several facility upgrades, increasing their capacity and productivity heading into peak shipping season. The post UPS automates 4 additional f…",
-      "summary": "UPS has completed several facility upgrades, increasing their capacity and productivity heading into peak shipping season. The post UPS automates 4 additional f…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Modern Shipper",
-        "News",
-        "Parcel Freight",
-        "PostalMag",
-        "peak season",
-        "RFID",
-        "UPS",
-        "warehouse automation"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
     }
   ]
 }

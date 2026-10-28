@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/t-efddc2.xml</id>
+  <title>公共目录 · #红果短剧</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-efddc2.xml"/>
+  <updated>2026-10-28T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.woshipm.com/it/6485027.html</id>
+    <title>红果、Seedance 与字节：短剧观察札记</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6485027.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">红果短剧三年做到3.68亿月活，靠的不是内容，而是把短剧从付费改成免费+广告，让字节从收费站变成终点站。Seedance的真正价值也不是垄断生产，而是让供给过剩、单部作品贬值，把议价权推向平台。本文拆解红果的商业模式、AI工具的战略角色，以及渠道与内容合流的历史参照与真实风险。 先校准一个说法 字节确实同时握住了短剧的…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="业界动态"/>
+    <category term="Seedance"/>
+    <category term="免费模式"/>
+    <category term="商业模式"/>
+    <category term="字节跳动"/>
+    <category term="短剧"/>
+    <category term="红果短剧"/>
+    <category term="产品"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6484731.html</id>
+    <title>AI短剧：流水线上的打工人不得不说的秘密</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484731.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">短剧用户规模已达8.51亿，AI短剧占比超九成，千亿市场背后是精心设计的情绪工程。本文深入AI短剧创业团队，揭秘从黄金三秒到每15秒一个爽点的成瘾机制，以及从业者在流量流水线上的真实生存状态。 晚上12点，你决定刷完这一集就睡： 新郎抛下婚礼去机场接白月光，新娘转头就赌气让前来跑腿的快递小哥去接亲，并且直接拉上假新郎去…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="AI短剧"/>
+    <category term="内容创作"/>
+    <category term="情绪设计"/>
+    <category term="短剧"/>
+    <category term="红果短剧"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+  </entry>
+</feed>

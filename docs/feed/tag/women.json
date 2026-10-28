@@ -1,0 +1,66 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Women",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/women.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://slate.com/news-and-politics/2026/10/donald-trump-epstein-files-new-report-women-rape.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/donald-trump-epstein-files-new-report-women-rape.html?via=rss",
+      "title": "We Finally Know Why Trump Has Tried So Hard to Hide the Epstein Files",
+      "content_text": "This is its own kind of October surprise.",
+      "summary": "This is its own kind of October surprise.",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://compote.slate.com/images/f8942dfd-bd16-4fe4-8ec9-aafa00e46e14.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Democrats",
+        "Donald Trump",
+        "Republicans",
+        "Sexual Assault",
+        "Women",
+        "Jeffrey Epstein",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/technology/2026/10/birth-control-iud-paragard-side-effects-miudella.html?via=rss",
+      "url": "https://slate.com/technology/2026/10/birth-control-iud-paragard-side-effects-miudella.html?via=rss",
+      "title": "If You Hate Your Birth Control, There’s a New Option That Might Be Worth Considering",
+      "content_text": "What took us so long to get a better copper IUD?",
+      "summary": "What took us so long to get a better copper IUD?",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://compote.slate.com/images/0922d7ff-a671-4d1f-a289-d0d2379f3203.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Health",
+        "Medicine",
+        "Research",
+        "Women",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    }
+  ]
+}

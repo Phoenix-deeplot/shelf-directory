@@ -62,33 +62,6 @@
         "type": "article",
         "shelf": "wired-com"
       }
-    },
-    {
-      "id": "https://www.wired.com/story/best-laptops/",
-      "url": "https://www.wired.com/story/best-laptops/",
-      "title": "Best Laptops (2026): My Top Recommendations After Testing Hundreds",
-      "content_text": "I’ve tested laptops for more than a decade, and here’s my advice for finding the right laptop for you.",
-      "summary": "I’ve tested laptops for more than a decade, and here’s my advice for finding the right laptop for you.",
-      "date_published": "2026-10-24T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adf7d0fc2758511d53056ad/master/pass/Update%20Best%20Laptops%20102026%20top%20art%20SOURCE%20Amazon-Dell.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Products",
-        "Gear / Buying Guides",
-        "Gear / Products / Computers",
-        "Buying Guide",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
     }
   ]
 }

@@ -9,6 +9,31 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/story/the-rise-of-sovereign-babies/",
+      "url": "https://www.wired.com/story/the-rise-of-sovereign-babies/",
+      "title": "How to Hide Your Baby From the Government",
+      "content_text": "“Sovereign citizens” think they can live beyond the reach of the state. Now the movement has influencers—and they’re selling all sorts of anarchist courses to e…",
+      "summary": "“Sovereign citizens” think they can live beyond the reach of the state. Now the movement has influencers—and they’re selling all sorts of anarchist courses to e…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adf82fd71d0e77d563766d7/master/pass/WIRED-Ghost-Stories-sovereign-babies.jpg",
+      "tags": [
+        "The Big Story",
+        "Culture / Digital Culture",
+        "Ghost Babies",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/",
       "url": "https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/",
       "title": "This AI Radio Host Speaks Spanish and Backs Immigrants. It’s Winning Over Listeners",
@@ -99,31 +124,6 @@
         "Culture / Digital Culture",
         "Culture / Movies",
         "Epic Fail",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/a-dating-app-is-offering-chivalry-mode-and-marriage-timeline-to-get-gen-z-married/",
-      "url": "https://www.wired.com/story/a-dating-app-is-offering-chivalry-mode-and-marriage-timeline-to-get-gen-z-married/",
-      "title": "A Dating App Is Offering ‘Chivalry Mode’ and ‘Marriage Timeline’ to Get Gen Z Married",
-      "content_text": "Upward, a newly relaunched Christian app, is pitching trad values to a generation that barely even dates.",
-      "summary": "Upward, a newly relaunched Christian app, is pitching trad values to a generation that barely even dates.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad9497f7fa1a6118ccee279/master/pass/Culture_Despite%20Being%20Bad%20at%20Dating,%20A%20Lot%20of%20Gen%20Z%20Really%20Wants%20to%20Get%20Married_v1.jpg",
-      "tags": [
-        "Culture",
-        "Culture / Digital Culture",
-        "Old School",
         "科技",
         "社会"
       ],

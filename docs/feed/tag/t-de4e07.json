@@ -9,6 +9,27 @@
   },
   "items": [
     {
+      "id": "https://www.npr.org/2026/10/27/nx-s1-6019096/democrats-lead-in-npr-poll-preparations-for-election-challenge-israel-voting-begins",
+      "url": "https://www.npr.org/2026/10/27/nx-s1-6019096/democrats-lead-in-npr-poll-preparations-for-election-challenge-israel-voting-begins",
+      "title": "Democrats Lead In NPR Poll, Preparations For Election Challenge, Israel Voting Begins",
+      "content_text": "A new NPR/PBS News/Marist poll gives Democrats an eight-point lead on the congressional ballot, but lagging enthusiasm among young voters and independents could…",
+      "summary": "A new NPR/PBS News/Marist poll gives Democrats an eight-point lead on the congressional ballot, but lagging enthusiasm among young voters and independents could…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "新闻",
+        "英语听力"
+      ],
+      "authors": [
+        {
+          "name": "Up First from NPR"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "feeds-npr-org"
+      }
+    },
+    {
       "id": "https://www.npr.org/2026/10/26/nx-s1-6016798/gop-redistricting-bust-lula-wins-brazil-election-protest-spread-in-europe",
       "url": "https://www.npr.org/2026/10/26/nx-s1-6016798/gop-redistricting-bust-lula-wins-brazil-election-protest-spread-in-europe",
       "title": "GOP Redistricting Bust, Lula Wins Brazil Election, Protest Spread In Europe",
@@ -1029,27 +1050,6 @@
       "content_text": "The Federal Reserve is expected to raise interest rates for the first time in three years as the Iran war pushes inflation higher and borrowing costs are alread…",
       "summary": "The Federal Reserve is expected to raise interest rates for the first time in three years as the Iran war pushes inflation higher and borrowing costs are alread…",
       "date_published": "2026-09-16T00:00:00Z",
-      "tags": [
-        "新闻",
-        "英语听力"
-      ],
-      "authors": [
-        {
-          "name": "Up First from NPR"
-        }
-      ],
-      "_shelf": {
-        "type": "audio",
-        "shelf": "feeds-npr-org"
-      }
-    },
-    {
-      "id": "https://www.npr.org/2026/09/15/nx-s1-5969393/trump-downplays-ai-risks-scotus-mail-in-voting-ruling-kennedy-center-bankruptcy",
-      "url": "https://www.npr.org/2026/09/15/nx-s1-5969393/trump-downplays-ai-risks-scotus-mail-in-voting-ruling-kennedy-center-bankruptcy",
-      "title": "Trump Downplays AI Risks, SCOTUS Mail-In Voting Ruling, Kennedy Center Bankruptcy",
-      "content_text": "President Trump dismissed warnings from leading AI companies that the technology is advancing too fast, calling fears of machines taking over a hoax and framing…",
-      "summary": "President Trump dismissed warnings from leading AI companies that the technology is advancing too fast, calling fears of machines taking over a hoax and framing…",
-      "date_published": "2026-09-15T00:00:00Z",
       "tags": [
         "新闻",
         "英语听力"

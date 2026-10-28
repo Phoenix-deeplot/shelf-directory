@@ -2,9 +2,9 @@
  "id": "producthunt-com",
  "items": [
   {
-   "url": "https://www.producthunt.com/products/openradview",
-   "title": "OpenRadView",
-   "summary": "Free, open-source viewer for your own CT, MRI and X-rays Discussion | Link",
+   "url": "https://www.producthunt.com/products/contextgem",
+   "title": "ContextGem 1.0",
+   "summary": "Decision models join LLMs to extract data from documents Discussion | Link",
    "image": "",
    "date": "2026-10-26",
    "tags": [],
@@ -12,9 +12,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/apple",
-   "title": "iPad mini 8",
-   "summary": "OLED, A20 Pro and IP67 in Apple's smallest iPad Discussion | Link",
+   "url": "https://www.producthunt.com/products/openradview",
+   "title": "OpenRadView",
+   "summary": "Free, open-source viewer for your own CT, MRI and X-rays Discussion | Link",
    "image": "",
    "date": "2026-10-26",
    "tags": [],
@@ -42,26 +42,6 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/pulsedev",
-   "title": "PulseDev",
-   "summary": "Click any UI bug on localhost. Your AI agent fixes it. Discussion | Link",
-   "image": "",
-   "date": "2026-10-26",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/revix-ai-2",
-   "title": "Revix AI",
-   "summary": "AI code review that learns your repo's own rules Discussion | Link",
-   "image": "",
-   "date": "2026-10-26",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
    "url": "https://www.producthunt.com/products/bluetooth-snes-controller",
    "title": "Arcade Controller Pro",
    "summary": "A fight controller with no stick and its own screen Discussion | Link",
@@ -72,9 +52,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/fswitcher",
-   "title": "fswitcher",
-   "summary": "fswitcher replaces Command-Tab on your Mac Discussion | Link",
+   "url": "https://www.producthunt.com/products/pulsedev",
+   "title": "PulseDev",
+   "summary": "Click any UI bug on localhost and your AI agent fixes it Discussion | Link",
    "image": "",
    "date": "2026-10-26",
    "tags": [],
@@ -92,61 +72,41 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/vibeide",
-   "title": "VibeiDE",
-   "summary": "Queue agent tasks in parallel and review each result Discussion | Link",
+   "url": "https://www.producthunt.com/products/openai",
+   "title": "GPT-6.1 Terra",
+   "summary": "Fast, capable computer use at half the price Discussion | Link",
    "image": "",
-   "date": "2026-10-25",
+   "date": "2026-10-26",
    "tags": [],
    "lang": "en",
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/standfast",
-   "title": "Standfast",
-   "summary": "Know if your Mac's GitHub Actions runners will get work Discussion | Link",
+   "url": "https://www.producthunt.com/products/revix-ai-2",
+   "title": "Revix AI",
+   "summary": "AI code review that learns your repo's own rules Discussion | Link",
    "image": "",
-   "date": "2026-10-25",
+   "date": "2026-10-26",
    "tags": [],
    "lang": "en",
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/jobmate-ai-3",
-   "title": "Jobmate AI",
-   "summary": "The humanized AI Copilot for your entire Job search Discussion | Link",
+   "url": "https://www.producthunt.com/products/apple",
+   "title": "iPad mini 8",
+   "summary": "OLED, A20 Pro and IP67 in Apple's smallest iPad Discussion | Link",
    "image": "",
-   "date": "2026-10-25",
+   "date": "2026-10-26",
    "tags": [],
    "lang": "en",
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/allmodels-io",
-   "title": "AllModels",
-   "summary": "Explore every abliterated model Discussion | Link",
+   "url": "https://www.producthunt.com/products/fswitcher",
+   "title": "fswitcher",
+   "summary": "fswitcher replaces Command-Tab on your Mac Discussion | Link",
    "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/tabsh",
-   "title": "tabsh",
-   "summary": "Work with agents with an IDE in your browser tab Discussion | Link",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/avp",
-   "title": "AVP",
-   "summary": "Open source alternative to Git for AI coding agents Discussion | Link",
-   "image": "",
-   "date": "2026-10-25",
+   "date": "2026-10-26",
    "tags": [],
    "lang": "en",
    "type": "article"
@@ -155,16 +115,6 @@
    "url": "https://www.producthunt.com/products/omerta",
    "title": "omerta",
    "summary": "Catch .env secrets leaking into git Discussion | Link",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/whoiscooking",
-   "title": "WhoIsCooking",
-   "summary": "See which AI agent is heating your Mac and cool it down. Discussion | Link",
    "image": "",
    "date": "2026-10-25",
    "tags": [],
@@ -182,6 +132,16 @@
    "type": "article"
   },
   {
+   "url": "https://www.producthunt.com/products/manyagents",
+   "title": "ManyAgents",
+   "summary": "Run a team of AI coding agents from one Mac window Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.producthunt.com/products/mozy-walk-to-unlock-apps",
    "title": "Mozy",
    "summary": "App Blocker for Android & iPhone Discussion | Link",
@@ -192,9 +152,69 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/manyagents",
-   "title": "ManyAgents",
-   "summary": "Run a team of AI coding agents from one Mac window Discussion | Link",
+   "url": "https://www.producthunt.com/products/standfast",
+   "title": "Standfast",
+   "summary": "Know if your Mac's GitHub Actions runners will get work Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/avp",
+   "title": "AVP",
+   "summary": "Open source alternative to Git for AI coding agents Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/allmodels-io",
+   "title": "AllModels",
+   "summary": "Explore every abliterated model Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/whoiscooking",
+   "title": "WhoIsCooking",
+   "summary": "See which AI agent is heating your Mac and cool it down. Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/tabsh",
+   "title": "tabsh",
+   "summary": "Work with agents with an IDE in your browser tab Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/vibeide",
+   "title": "VibeiDE",
+   "summary": "Queue agent tasks in parallel and review each result Discussion | Link",
+   "image": "",
+   "date": "2026-10-25",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/jobmate-ai-3",
+   "title": "Jobmate AI",
+   "summary": "The humanized AI Copilot for your entire Job search Discussion | Link",
    "image": "",
    "date": "2026-10-25",
    "tags": [],
@@ -232,9 +252,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/papermark-2",
-   "title": "Papermark Data Rooms",
-   "summary": "Secure data rooms your AI agents can run. Live in < 60 sec. Discussion | Link",
+   "url": "https://www.producthunt.com/products/yourcast",
+   "title": "Yourcast 2.0",
+   "summary": "AI summaries with tap-to-jump timestamps, right in Telegram Discussion | Link",
    "image": "",
    "date": "2026-10-24",
    "tags": [],
@@ -245,16 +265,6 @@
    "url": "https://www.producthunt.com/products/agentgrid-io",
    "title": "AgentGrid.io",
    "summary": "Shared workspace for humans and agents Discussion | Link",
-   "image": "",
-   "date": "2026-10-24",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/yourcast",
-   "title": "Yourcast 2.0",
-   "summary": "AI summaries with tap-to-jump timestamps, right in Telegram Discussion | Link",
    "image": "",
    "date": "2026-10-24",
    "tags": [],
@@ -362,41 +372,11 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/how-it-spread",
-   "title": "How It Spread",
-   "summary": "See how anything went viral, from the first post Discussion | Link",
-   "image": "",
-   "date": "2026-10-19",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/tower",
-   "title": "git-flow-next",
-   "summary": "Your favorite Git workflow. Reimagined. Discussion | Link",
-   "image": "",
-   "date": "2026-10-19",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
    "url": "https://www.producthunt.com/products/helio-7",
    "title": "Helio",
    "summary": "Know exactly what your rooftop solar made today Discussion | Link",
    "image": "",
    "date": "2026-10-18",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/openstatus-2",
-   "title": "Openstatus Incident Management",
-   "summary": "Incident management for small teams Discussion | Link",
-   "image": "",
-   "date": "2026-10-17",
    "tags": [],
    "lang": "en",
    "type": "article"
@@ -452,11 +432,31 @@
    "type": "article"
   },
   {
+   "url": "https://www.producthunt.com/products/lexmount-browser",
+   "title": "Moli by Lexmount",
+   "summary": "The fastest headless browser for agents and harnesses Discussion | Link",
+   "image": "",
+   "date": "2026-10-12",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.producthunt.com/products/flipcorder",
    "title": "Flipcorder",
    "summary": "A 1991 camcorder for your iPhone, one tape a day Discussion | Link",
    "image": "",
    "date": "2026-10-09",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/badgey",
+   "title": "Badgey",
+   "summary": "Your iPhone becomes a name badge that faces the room Discussion | Link",
+   "image": "",
+   "date": "2026-10-08",
    "tags": [],
    "lang": "en",
    "type": "article"
@@ -494,7 +494,7 @@
   {
    "url": "https://www.producthunt.com/products/ninx-2",
    "title": "NINX",
-   "summary": "On-device AI, connected tools, and creative workflows Discussion | Link",
+   "summary": "Private On-device AI, connected tools, & creative workflows Discussion | Link",
    "image": "",
    "date": "2026-07-21",
    "tags": [],
@@ -513,9 +513,9 @@
  },
  "fails": 0,
  "kind": "feed",
- "parser": 2,
+ "parser": 3,
  "status": "ok",
  "error": "",
- "etag": "W/\"d73c3062279e84287cc13976a804d2cd\"",
- "modified": "Tue, 27 Oct 2026 08:57:31 GMT"
+ "etag": "W/\"ab664b9457e6edab62175b3df7a86e66\"",
+ "modified": "Wed, 28 Oct 2026 05:34:39 GMT"
 }

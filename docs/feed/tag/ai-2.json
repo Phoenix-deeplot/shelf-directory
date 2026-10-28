@@ -1,6 +1,6 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #AI 编程",
+  "title": "公共目录 · #AI产品",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/ai-2.json",
   "description": "公共目录",
@@ -9,19 +9,72 @@
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/ai/6484786.html",
-      "url": "https://www.woshipm.com/ai/6484786.html",
-      "title": "Claude Code 桌面化：把 Agent 体验做成可接管的工作台",
-      "content_text": "Claude Code 桌面版把多会话、网页预览、代码差异和终端放进同一个窗口，新建会话从 837 毫秒压到 347 毫秒；难点不是多一个界面，而是让用户看清模型在改什么、哪里需要自己接管。 AI 编程工具一旦离开终端，难点就不再只是“多一个窗口”。它需要把多个会话、网页预览、代码差异、终端输出和人工确认组织成一个可连…",
-      "summary": "Claude Code 桌面版把多会话、网页预览、代码差异和终端放进同一个窗口，新建会话从 837 毫秒压到 347 毫秒；难点不是多一个界面，而是让用户看清模型在改什么、哪里需要自己接管。 AI 编程工具一旦离开终端，难点就不再只是“多一个窗口”。它需要把多个会话、网页预览、代码差异、终端输出和人工确认组织成一个可连…",
-      "date_published": "2026-10-27T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6485306.html",
+      "url": "https://www.woshipm.com/ai/6485306.html",
+      "title": "腾讯做了一个Motus AI：90+游戏接入，一站式生产游戏3D动画资产",
+      "content_text": "腾讯游戏把3D角色动画的全链路做成一个独立平台。Motus AI 已接入90余个内外部项目，在《和平精英》《王者荣耀》等游戏里落地，把骨骼蒙皮、动作生成、穿模诊断这些重复劳动收进同一个工作台。 腾讯游戏旗下的公共技术线做了一个Motus AI独立平台，Motus AI聚焦3D角色动画全链路核心技术，构建贯穿角色动画生产…",
+      "summary": "腾讯游戏把3D角色动画的全链路做成一个独立平台。Motus AI 已接入90余个内外部项目，在《和平精英》《王者荣耀》等游戏里落地，把骨骼蒙皮、动作生成、穿模诊断这些重复劳动收进同一个工作台。 腾讯游戏旗下的公共技术线做了一个Motus AI独立平台，Motus AI聚焦3D角色动画全链路核心技术，构建贯穿角色动画生产…",
+      "date_published": "2026-10-28T00:00:00Z",
       "tags": [
         "AI",
         "个人随笔",
-        "AI 编程",
-        "Claude Code",
-        "产品体验",
-        "桌面端",
+        "AI产品",
+        "功能分析",
+        "腾讯",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/share/6485105.html",
+      "url": "https://www.woshipm.com/share/6485105.html",
+      "title": "腾讯上线SimulMT，一个实时同声传译产品",
+      "content_text": "Hy-SimulMT 支持中英双向语音到语音翻译，主打低延迟、高质量和实时克隆音色，已开源并接入腾讯 Hy 翻译 App。与持有 CATTI 证书的真人口译对比，质量能达到专家水平，速度往往更快。 腾讯又上线并开源了一个新产品，Hy-SimulMT 大模型。 这是一个实时同声传译大模型，由腾讯混元团队推出。 支持中文和…",
+      "summary": "Hy-SimulMT 支持中英双向语音到语音翻译，主打低延迟、高质量和实时克隆音色，已开源并接入腾讯 Hy 翻译 App。与持有 CATTI 证书的真人口译对比，质量能达到专家水平，速度往往更快。 腾讯又上线并开源了一个新产品，Hy-SimulMT 大模型。 这是一个实时同声传译大模型，由腾讯混元团队推出。 支持中文和…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "个人随笔",
+        "AI产品",
+        "功能分析",
+        "腾讯",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6485237.html",
+      "url": "https://www.woshipm.com/ai/6485237.html",
+      "title": "WorkBuddy × Flova ：快速搞定20张产品图+宣传视频",
+      "content_text": "双十一前最紧的活，是一次性交齐20张场景图和一条15秒短视频。文中用一台无品牌桌面咖啡机走完整条链路：在 WorkBuddy 里提出需求，由 Flova 生成四组各五张、2048×2048 的图片，再把文件与视频收回来逐项核对。 10月15日，2026年抖音商城双十一好物节启动。看到这个时间点我想到的是大促期间那些需要…",
+      "summary": "双十一前最紧的活，是一次性交齐20张场景图和一条15秒短视频。文中用一台无品牌桌面咖啡机走完整条链路：在 WorkBuddy 里提出需求，由 Flova 生成四组各五张、2048×2048 的图片，再把文件与视频收回来逐项核对。 10月15日，2026年抖音商城双十一好物节启动。看到这个时间点我想到的是大促期间那些需要…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "AI产品",
+        "Flova",
+        "WorkBuddy",
+        "内容创作",
         "产品",
         "运营"
       ],

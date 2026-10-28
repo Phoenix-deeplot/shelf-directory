@@ -9,6 +9,59 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/wex-euclid-ai-target-90-reduction-in-trucking-transaction-costs",
+      "url": "https://www.freightwaves.com/news/wex-euclid-ai-target-90-reduction-in-trucking-transaction-costs",
+      "title": "WEX, Euclid AI target 90% reduction in trucking transaction costs",
+      "content_text": "WEX and Euclid AI announced plans to offer trucking-specific AI agents that Euclid says have sharply reduced transaction costs in existing deployments. The post…",
+      "summary": "WEX and Euclid AI announced plans to offer trucking-specific AI agents that Euclid says have sharply reduced transaction costs in existing deployments. The post…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "News",
+        "Technology",
+        "Trucking",
+        "AI agents",
+        "WEX",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/spartan-carrier-alvys-foundry-ai-agents",
+      "url": "https://www.freightwaves.com/news/spartan-carrier-alvys-foundry-ai-agents",
+      "title": "Spartan’s operators went from AI skeptics to agent builders",
+      "content_text": "Spartan Carrier Group built its first AI agent for hourly customer reports in a week and a half. Its VP of operations, who calls himself no coder, wants dispatc…",
+      "summary": "Spartan Carrier Group built its first AI agent for hourly customer reports in a week and a half. Its VP of operations, who calls himself no coder, wants dispatc…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "News",
+        "Technology",
+        "Top Stories",
+        "Trucking",
+        "AI agents",
+        "AI agents trucking",
+        "Alvys",
+        "Alvys Foundry"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness",
       "url": "https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness",
       "title": "Workforce gaps keep supply chain AI stuck in pilot mode",

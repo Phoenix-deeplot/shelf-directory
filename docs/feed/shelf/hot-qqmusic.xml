@@ -4,15 +4,37 @@
   <title>公共目录 · QQ 音乐飙升榜</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/hot-qqmusic.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://y.qq.com/n/ryqq/songDetail/003x5xTj20cLPX</id>
-    <title>茉莉雨 — 林俊杰</title>
-    <link rel="alternate" type="text/html" href="https://y.qq.com/n/ryqq/songDetail/003x5xTj20cLPX"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 4 名 · 新地球</summary>
+    <id>https://y.qq.com/n/ryqq/songDetail/002GnkGs2TknvY</id>
+    <title>过渡期 — 小宇-宋念宇</title>
+    <link rel="alternate" type="text/html" href="https://y.qq.com/n/ryqq/songDetail/002GnkGs2TknvY"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 7 名 · 再一次</summary>
+    <source><title>QQ 音乐飙升榜</title></source>
+    <category term="音乐"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://y.qq.com/n/ryqq/songDetail/001Qu4I30eVFYb</id>
+    <title>演员 — 薛之谦</title>
+    <link rel="alternate" type="text/html" href="https://y.qq.com/n/ryqq/songDetail/001Qu4I30eVFYb"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 9 名 · 绅士</summary>
+    <source><title>QQ 音乐飙升榜</title></source>
+    <category term="音乐"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://y.qq.com/n/ryqq/songDetail/001xGpjd3A5hQI</id>
+    <title>昨天．今天．下雨天 — 彭家丽</title>
+    <link rel="alternate" type="text/html" href="https://y.qq.com/n/ryqq/songDetail/001xGpjd3A5hQI"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 6 名 · 新曲 + 精选</summary>
     <source><title>QQ 音乐飙升榜</title></source>
     <category term="音乐"/>
     <category term="热榜"/>
@@ -21,8 +43,8 @@
     <id>https://y.qq.com/n/ryqq/songDetail/004VBMk71TdUuR</id>
     <title>我好像在哪见过你 — 薛之谦</title>
     <link rel="alternate" type="text/html" href="https://y.qq.com/n/ryqq/songDetail/004VBMk71TdUuR"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
     <summary type="text">第 1 名 · 初学者</summary>
     <source><title>QQ 音乐飙升榜</title></source>
     <category term="音乐"/>
@@ -32,9 +54,31 @@
     <id>https://y.qq.com/n/ryqq/songDetail/001SFw584CAgoJ</id>
     <title>季候风 — 王菲</title>
     <link rel="alternate" type="text/html" href="https://y.qq.com/n/ryqq/songDetail/001SFw584CAgoJ"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 2 名 · 执迷不悔</summary>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 3 名 · 执迷不悔</summary>
+    <source><title>QQ 音乐飙升榜</title></source>
+    <category term="音乐"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://y.qq.com/n/ryqq/songDetail/0013WPvt4fQH2b</id>
+    <title>天外来物 — 薛之谦</title>
+    <link rel="alternate" type="text/html" href="https://y.qq.com/n/ryqq/songDetail/0013WPvt4fQH2b"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 8 名 · 天外来物</summary>
+    <source><title>QQ 音乐飙升榜</title></source>
+    <category term="音乐"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://y.qq.com/n/ryqq/songDetail/002Ttx6F4gRl1p</id>
+    <title>多久没有谈天光 — 杨千嬅</title>
+    <link rel="alternate" type="text/html" href="https://y.qq.com/n/ryqq/songDetail/002Ttx6F4gRl1p"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 2 名 · 多久没有谈天光</summary>
     <source><title>QQ 音乐飙升榜</title></source>
     <category term="音乐"/>
     <category term="热榜"/>
@@ -43,75 +87,31 @@
     <id>https://y.qq.com/n/ryqq/songDetail/001TXSYu1Gwuwv</id>
     <title>刚刚好 — 薛之谦</title>
     <link rel="alternate" type="text/html" href="https://y.qq.com/n/ryqq/songDetail/001TXSYu1Gwuwv"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 6 名 · 初学者</summary>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 10 名 · 初学者</summary>
     <source><title>QQ 音乐飙升榜</title></source>
     <category term="音乐"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://y.qq.com/n/ryqq/songDetail/001uxKNp3a7Qkv</id>
-    <title>像风一样 — 薛之谦</title>
-    <link rel="alternate" type="text/html" href="https://y.qq.com/n/ryqq/songDetail/001uxKNp3a7Qkv"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 9 名 · 渡 The Crossing</summary>
+    <id>https://y.qq.com/n/ryqq/songDetail/0048K7jO2EzUjO</id>
+    <title>I Don't Car! — 蒋敦豪</title>
+    <link rel="alternate" type="text/html" href="https://y.qq.com/n/ryqq/songDetail/0048K7jO2EzUjO"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 5 名 · 那就充分扎实地逐个拥抱 (Bug and hug)</summary>
     <source><title>QQ 音乐飙升榜</title></source>
     <category term="音乐"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://y.qq.com/n/ryqq/songDetail/004GusH53fGeg2</id>
-    <title>You're Under Arrest — ILLIT</title>
-    <link rel="alternate" type="text/html" href="https://y.qq.com/n/ryqq/songDetail/004GusH53fGeg2"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 3 名 · BREAK EVEN</summary>
-    <source><title>QQ 音乐飙升榜</title></source>
-    <category term="音乐"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://y.qq.com/n/ryqq/songDetail/003Ru8AV0SOYvw</id>
-    <title>Super in Love — ILLIT</title>
-    <link rel="alternate" type="text/html" href="https://y.qq.com/n/ryqq/songDetail/003Ru8AV0SOYvw"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 8 名 · BREAK EVEN</summary>
-    <source><title>QQ 音乐飙升榜</title></source>
-    <category term="音乐"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://y.qq.com/n/ryqq/songDetail/002w2uLf21Gk3y</id>
-    <title>Pop — ILLIT</title>
-    <link rel="alternate" type="text/html" href="https://y.qq.com/n/ryqq/songDetail/002w2uLf21Gk3y"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 5 名 · BREAK EVEN</summary>
-    <source><title>QQ 音乐飙升榜</title></source>
-    <category term="音乐"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://y.qq.com/n/ryqq/songDetail/001dxbD32WNtak</id>
-    <title>Insomnia — RIIZE</title>
-    <link rel="alternate" type="text/html" href="https://y.qq.com/n/ryqq/songDetail/001dxbD32WNtak"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 7 名 · Insomnia</summary>
-    <source><title>QQ 音乐飙升榜</title></source>
-    <category term="音乐"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://y.qq.com/n/ryqq/songDetail/004AGG7n1wA771</id>
-    <title>Hey, Somebody — 肖俊</title>
-    <link rel="alternate" type="text/html" href="https://y.qq.com/n/ryqq/songDetail/004AGG7n1wA771"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 10 名 · Hey, Somebody - The 1st Mini Album</summary>
+    <id>https://y.qq.com/n/ryqq/songDetail/004V76mS2aPv63</id>
+    <title>Gotcha — 鹭卓</title>
+    <link rel="alternate" type="text/html" href="https://y.qq.com/n/ryqq/songDetail/004V76mS2aPv63"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 4 名 · ALL IN ALL</summary>
     <source><title>QQ 音乐飙升榜</title></source>
     <category term="音乐"/>
     <category term="热榜"/>

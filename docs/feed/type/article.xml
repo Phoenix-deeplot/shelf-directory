@@ -4,520 +4,616 @@
   <title>公共目录 · article</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/type/article.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/zhichang/6484792.html</id>
-    <title>黄仁勋的“AI 工厂”，对产品设计意味着什么？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/zhichang/6484792.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">黄仁勋在 GTC Berlin 2026 提出 AI 工厂：把能源、芯片、计算系统、网络、存储、冷却组织进同一套生产体系，持续制造可被 AI 应用消费的 Token，正卡在“五层蛋糕”的第三层。 最近，黄仁勋在 GTC Berlin 2026 提出了一个新概念：AI 工厂，这不只是一次技术概念升级，也是在重新定义 AI…</summary>
+    <id>https://www.woshipm.com/operate/6485291.html</id>
+    <title>远程评标系统落地复盘：别把评标系统等同于视频会议</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/operate/6485291.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">电子化招投标已是大势，不少B端产品在搭建远程招标能力时，很容易踩一个大坑：直接复用通用视频会议承载远程评标业务。本文站在产品经理视角，复盘远程评标系统的业务逻辑、评估维度、落地步骤以及常见误区，给政企招采类产品的设计和集成工作提供可复用思路。 一、业务背景：为什么招采场景需要独立的远程评标能力 电子化招投标已经成为政府…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="职场攻略"/>
-    <category term="AI工厂"/>
-    <category term="数据中心"/>
-    <category term="英伟达"/>
-    <category term="设计思维"/>
+    <category term="产品运营"/>
+    <category term="业务知识"/>
+    <category term="经验总结"/>
+    <category term="视频会议"/>
+    <category term="评标系统"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/share/6484770.html</id>
-    <title>香菜退完退冰柜？仅退款真的该退场了！平台不能总让老实商家当冤大头！</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484770.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">仅退款的风向变了。当买家对一台价值4070元的冰柜点下仅退款并声称已销毁，商家却跨省发现冰柜正插电使用，这场荒诞剧撕掉了品类特殊性的遮羞布。平台规则开始纠偏，但商家维权仍步履维艰。本文从冰柜事件切入，剖析仅退款规则漏洞与商家保护困境，探讨电商生态如何回归公平。 两台冰柜，总价4070块，买家在平台点了“仅退款”，转头告…</summary>
+    <id>https://www.woshipm.com/share/6485166.html</id>
+    <title>设计师与产品经理的消费路径：记录并提交1条6字段快照</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6485166.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">设计师如何从被动遵守规则转向主动提供证据？本文提出最小可行路径：将真实困惑按6字段记录为语义快照，5分钟完成一次提交。通过机器预检与评审反馈，个人直觉逐步沉淀为组织规则，让设计判断不再流失于会议室。 我在前一篇《从”被动遵守”到”主动走查”》讲了设计师与产品经理如何消费YAML契约与编译产物，从语义快照成为契约的原材料…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="个人随笔"/>
-    <category term="仅退款"/>
-    <category term="商家权益"/>
-    <category term="案例分析"/>
-    <category term="电商平台"/>
-    <category term="规则漏洞"/>
+    <category term="YAML契约"/>
+    <category term="经验总结"/>
+    <category term="设计系统"/>
+    <category term="设计走查"/>
+    <category term="证据驱动设计"/>
+    <category term="语义快照"/>
     <category term="产品"/>
-    <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6484782.html</id>
-    <title>这个免费的 Skill，用 Opus 5.5整理了 98 种视频风格提示词！</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484782.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">一个叫 lemo-opuscar 的 Skill 把视频风格提示词整理成清单，往下拉点开【All 98 styles】，就能看到 98 种风格都在里面了，2D、2.5D 和 3D 全覆盖，复制就能直接用。 前段时间很火的用 Opus5.5 做代码视频。 后面发现很多人都弄了各种风格视频，我就想把各种风格的视频提示词整理…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="Claude Opus"/>
-    <category term="内容创作"/>
-    <category term="提示词工程"/>
-    <category term="视频生成"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6484704.html</id>
-    <title>轻松学会用WorkBuddy自动控制浏览器</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484704.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">WorkBuddy 把浏览器自动化整合进客户端，装好 Chrome 扩展、打开开关，就能让它自己搜站、点开视频点赞。作者用一次六分钟、19.84 积分的小任务走通了整条链路。 没记错的话，WorkBuddy算是在5.8.2版本的时候，上线了浏览器自动化的功能，之前还是通过安装Broswer Skill来实现控制浏览器对…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI应用"/>
-    <category term="Chrome"/>
-    <category term="CodeBuddy"/>
-    <category term="WorkBuddy"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6484455.html</id>
-    <title>让公司员工测试新品，是我见过最蠢的市场调研</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484455.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">新品先给员工试吃试用、包装方案内部投票，看着省了调研费，其实是一场职场情商测试。员工不敢说真话，判断也未必准，作者把这套自欺拆开讲，也给了替代的验证思路和判断标准。 我发现，很多公司在推出一款新产品之前，都喜欢让自己公司的员工，先替消费者试一试。 比如食品饮料公司研发了一款新品，先给员工尝尝，看看口味怎么样。 日化公司…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="个人观点"/>
-    <category term="企业管理"/>
-    <category term="经验分享"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6484796.html</id>
-    <title>给自己搭一个 AI 第二大脑：从收集资料到写出文章，手把手教你做</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484796.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Obsidian 的价值在开放：以本地 Markdown 文件为基础，配上双向链接、关系图谱和 Bases 数据库，再让 Agent 读写，整理和维护都能交出去，人只管内化。 用了这么多的个人知识库管理工具，到最后我发现Obsidian还是最好用的！ 核心原因是什么呢？它对AI非常友好！ 只不过Obsidian的上手门…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="AI Agent"/>
-    <category term="obsidian"/>
-    <category term="个人成长"/>
-    <category term="知识管理"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6484804.html</id>
-    <title>每人每年140万美元，Anthropic用5300人疯狂给未来加注</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484804.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Anthropic 上半年只有约四分之一算力用于服务付费客户，其余绝大部分投进下一代模型的研发；不可取消的算力承诺半年涨到 4.9 倍，人均一年的人员费用约 140 万美元。 昨天，Anthropic向SEC交了上市招股书，如果他们今年成功完成上市，据报道市值估计在1.5-2万亿美元之间，会超过今年的SpaceX，成为…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="Anthropic"/>
-    <category term="云计算"/>
-    <category term="商业模式"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/embodied/6484709.html</id>
-    <title>机器人集合店：有流量，钱难赚</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/embodied/6484709.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">机器人集合店越开越多，一年时间从深圳首店扩到全国二十余家、签约覆盖 23 座城市；商场里围观的人挤成一片，真正掏钱的却少，卖体验、租赁还是研学，这笔账目前还不好算清楚。 商场，迎来一批新的常驻嘉宾。 机器狗翻跟头、人形机器人跳舞，围观的人群举着手机拍个不停，孩子们挤到前排，想凑近摸一摸这些新奇的“家伙”。这样的场景越来…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="具身智能"/>
-    <category term="京东"/>
-    <category term="新零售"/>
-    <category term="智元"/>
-    <category term="案例分析"/>
-    <category term="行业观察"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/marketing/6484729.html</id>
-    <title>未来品牌宣言：AI之上，重启营销雄心</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/marketing/6484729.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">彼得·菲斯克在《未来品牌宣言》里把话说得很直：营销真正的考验是战略而不是技术。七个章节里，他谈智能体替客户做决定之后，品牌的战场如何从触达转向定义市场，边界又为何在消融。 品牌的未来正在被重写，营销也不例外。 AI正在改变人们发现、评估和购买产品的方式；技术是人类的催化剂，行业边界在消融，新的竞争者从意想不到的方向闯入…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="营销推广"/>
-    <category term="内容营销"/>
-    <category term="商业模式"/>
-    <category term="案例分析"/>
-    <category term="行业观察"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6484806.html</id>
-    <title>别只用 Claude 聊天：三块能力搭成长期工作流</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484806.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">多数人用 Claude 只当搜索框：问一句、拿一段、关页面。Projects 用来沉淀资料和规则，Artifacts 承载可迭代的产物，长上下文同时读大量材料，三块拼起来才是工作流。 很多人第一次打开 Claude，做的事和使用搜索框没什么区别：问一个问题，拿到一段回答，然后关闭页面。下次遇到同类任务，又重新粘贴背景、…</summary>
+    <id>https://www.woshipm.com/ai/6485306.html</id>
+    <title>腾讯做了一个Motus AI：90+游戏接入，一站式生产游戏3D动画资产</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485306.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">腾讯游戏把3D角色动画的全链路做成一个独立平台。Motus AI 已接入90余个内外部项目，在《和平精英》《王者荣耀》等游戏里落地，把骨骼蒙皮、动作生成、穿模诊断这些重复劳动收进同一个工作台。 腾讯游戏旗下的公共技术线做了一个Motus AI独立平台，Motus AI聚焦3D角色动画全链路核心技术，构建贯穿角色动画生产…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
     <category term="AI产品"/>
-    <category term="Claude"/>
-    <category term="经验分享"/>
+    <category term="功能分析"/>
+    <category term="腾讯"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/share/6484720.html</id>
-    <title>再过几个月，中国互联网将告别14亿人口市场</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484720.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">2025 年末全国人口 140489 万，离 14 亿只剩约 489 万的缓冲，而负增长已连续四年且在扩大。分母被抽走后，平台只能从存量里切，或者往单个用户的使用时长上继续挖。 “14亿人的大市场”，这句话在中国互联网的叙事里被使用了太多年。它是BP里的市场规模测算，是平台向品牌方报价时的底层分母，是“渗透率还有空间”…</summary>
+    <id>https://www.woshipm.com/share/6485105.html</id>
+    <title>腾讯上线SimulMT，一个实时同声传译产品</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6485105.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Hy-SimulMT 支持中英双向语音到语音翻译，主打低延迟、高质量和实时克隆音色，已开源并接入腾讯 Hy 翻译 App。与持有 CATTI 证书的真人口译对比，质量能达到专家水平，速度往往更快。 腾讯又上线并开源了一个新产品，Hy-SimulMT 大模型。 这是一个实时同声传译大模型，由腾讯混元团队推出。 支持中文和…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="个人随笔"/>
-    <category term="QuestMobile"/>
+    <category term="AI产品"/>
+    <category term="功能分析"/>
+    <category term="腾讯"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/it/6485027.html</id>
+    <title>红果、Seedance 与字节：短剧观察札记</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6485027.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">红果短剧三年做到3.68亿月活，靠的不是内容，而是把短剧从付费改成免费+广告，让字节从收费站变成终点站。Seedance的真正价值也不是垄断生产，而是让供给过剩、单部作品贬值，把议价权推向平台。本文拆解红果的商业模式、AI工具的战略角色，以及渠道与内容合流的历史参照与真实风险。 先校准一个说法 字节确实同时握住了短剧的…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="业界动态"/>
+    <category term="Seedance"/>
+    <category term="免费模式"/>
     <category term="商业模式"/>
-    <category term="行业分析"/>
+    <category term="字节跳动"/>
+    <category term="短剧"/>
+    <category term="红果短剧"/>
+    <category term="产品"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/embodied/6485117.html</id>
+    <title>机器人产品经理，别只想着替代人</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/embodied/6485117.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">机器人跳舞、跑步的视频越来越多，但技术炫技不等于产品价值。河南矿山引进焊接机器人的案例提醒我们：发展机器人是为了让人轻松挣钱，而非证明机器多厉害。本文从产品经理视角，拆解机器人落地的三个关键问题，探讨如何让技术真正服务于人。 最近，河南矿山集团的崔培军谈到机器人时，有句话让我印象很深：引进焊接机器人，是为了把高强度、高…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="具身智能"/>
+    <category term="产品思维"/>
+    <category term="人机协作"/>
+    <category term="场景落地"/>
+    <category term="机器人"/>
+    <category term="案例分析"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6485242.html</id>
+    <title>本地生活：云连锁 VS 轻连锁，小店VS 大店</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6485242.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">靠小店快速铺开的云连锁正撞上天花板：总部把客户带到门店，门店核销完就见底，接不住二次经营。做了几年车咖之后作者看清，从流量到经营这一步转向，才是云连锁变成轻连锁的真正原因。 昨晚在群里聊了大店与小店，以及大店存在的机会，今天继续思考云连锁以及云连锁的变化——轻连锁。 过去几年做车咖，我们合作了大量中小门店。这些门店缺少…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="个人观点"/>
+    <category term="云连锁"/>
+    <category term="本地生活"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/share/6484669.html</id>
-    <title>从医疗IT转做商协会系统，我把私有化部署改成了SaaS</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484669.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">从医疗IT转战商协会数字化，作者用两年时间踩遍了私有化部署的坑，最终靠SaaS模式实现一天配置一家商会。本文复盘了商协会运营的真实痛点、跨商会互联的产品逻辑，以及为什么这个窄赛道必须把需求、设计、开发全攥在自己手里。 我在医疗IT软件这个行业做了很多年。这几年明显感觉卷得厉害，项目越做越薄，人越耗越多。我就想找个偏一点…</summary>
+    <id>https://www.woshipm.com/ai/6485100.html</id>
+    <title>月下载达1100万，霸榜东南亚多国，越南厂商的爆款新游什么来头？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485100.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">一个日本声优玩 Mimic Party 的视频播放破 1500 万，带火了这场由 AI 给模仿打分的声音派对。免费版 MemeMix Challenge 上架不到一个月拿下近 1100 万下载，登顶休闲游戏免费榜。 两周前，一个日本配音演员玩《Mimic Party》的实机视频在YouTube上传后，至今播放量已经突破…</summary>
     <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="SaaS"/>
-    <category term="商协会"/>
-    <category term="数字化"/>
-    <category term="私有化部署"/>
-    <category term="经验总结"/>
-    <category term="跨商会互联"/>
+    <category term="AI应用"/>
+    <category term="Google Play"/>
+    <category term="Steam"/>
+    <category term="YouTube"/>
     <category term="产品"/>
+    <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/operate/6484706.html</id>
-    <title>中国顶流博主，横扫海外社交媒体</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/operate/6484706.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">一条 23 分钟的英文评测，把 iPhone Duo 折了一万次、冻了一千次，播放超过五千七百万，粉丝从零涨到三百万。何同学更早布局，中国博主正带着成熟的内容能力走向海外。 10 月 22 日凌晨，一条 23 分钟的英文评测出现在 X 上。一个中国团队把一台iPhone Duo放在常温下开合一万次，又丢进零下 20 度…</summary>
+    <id>https://www.woshipm.com/ai/6485240.html</id>
+    <title>按住 Ctrl 拖一下就转完：狂揽近 1.4 万星，它可能是目前最好最全的格式转换器</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485240.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">多数人转格式还是上传到在线网站，顶着广告等结果。开源工具 Filee 换了思路：按住 Ctrl 把文件拖起来，光标旁就弹出一圈只列可行目标的格式圆环，松手即完成，266种格式全在本地离线跑完，上线一个多月接近14k Star。 平时转换文件格式，大多数人的习惯流程都很折腾：碰到不认识的后缀，先去搜索引擎找在线转换网站，…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="产品运营"/>
-    <category term="YouTube"/>
-    <category term="内容创作"/>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="Github"/>
+    <category term="个人观点"/>
+    <category term="功能分析"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6484978.html</id>
+    <title>品牌没有自嘲的资格</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484978.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">小鹏发布会用“老登”一词本想拉近年轻人，却翻车了。本文从《弱者的武器》和弗洛伊德笑话理论切入，犀利指出：当品牌借用弱者口吻嘲讽消费者，自嘲就变成了他嘲。更荒诞的是，被冒犯的正是它想卖车给的那群“刚生孩子的95后”。品牌自嘲的边界在哪里？谁该为借来的“敢说”买单？ 自嘲是弱者的武器 “老登”这个词流行起来的土壤，是年轻人…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="品牌营销"/>
     <category term="案例分析"/>
-    <category term="自媒体"/>
+    <category term="热点事件"/>
+    <category term="用户洞察"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/chuangye/6483407.html</id>
+    <title>千万用户也救不了它：AI 陪聊明星 Character.AI 申请破产</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6483407.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">仍有约 1200 万活跃用户的 Character.AI 在 10 月 12 日申请破产保护，每月亏损 800 万至 900 万美元，迪士尼出价 2000 万美元求部分技术授权。同样的生意，CHAI 做到 1.2 亿美元年化收入，差别在账怎么算。 前段时间有个大新闻，一家曾经估值 10亿美元、连 Google 都花 2…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="创业学院"/>
+    <category term="AI应用"/>
+    <category term="产品分析"/>
+    <category term="商业模式"/>
     <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
+    <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6484790.html</id>
-    <title>Soul将推出Loxinity，为自研语音、视觉与多模态交互产品</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484790.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Soul 将推出语音合成产品 Loxinity，主打强活人感，支持单人配音、多人对话，配套音色克隆、音色设计，还开放 API；比起字音标准，它更看重对话里的语气停顿和情绪起伏。 Soul将推出专为交互场景打造、超具活人感的语音合成产品“Loxinity（洛希无限）”，和市面上面向配音、短视频的TTS不同，这套模型从底层…</summary>
+    <id>https://www.woshipm.com/marketing/6484810.html</id>
+    <title>产品经理定价指南：7步从目标到结果，附特斯拉/比亚迪/戴森案例</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/marketing/6484810.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">定价策略的本质是三定：定战略+定用户+定生态位。战略决定经营目标，用户决定愿意付多少钱，生态位决定竞争位置，价格只是杠杆；不同的价格，意味着不同的目标用户和利润结构。 价格是交易条件，定价是利益取舍，定价策略是服务经营目标的战略选择。 定价策略的本质有“三定”：定战略+定用户+定生态位。 定战略：确定企业的经营目标，是…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="营销推广"/>
+    <category term="产品策略"/>
+    <category term="商业模式"/>
+    <category term="定价策略"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6485237.html</id>
+    <title>WorkBuddy × Flova ：快速搞定20张产品图+宣传视频</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485237.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">双十一前最紧的活，是一次性交齐20张场景图和一条15秒短视频。文中用一台无品牌桌面咖啡机走完整条链路：在 WorkBuddy 里提出需求，由 Flova 生成四组各五张、2048×2048 的图片，再把文件与视频收回来逐项核对。 10月15日，2026年抖音商城双十一好物节启动。看到这个时间点我想到的是大促期间那些需要…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="Soul"/>
-    <category term="数字人"/>
-    <category term="社交产品"/>
-    <category term="语音合成"/>
+    <category term="AI产品"/>
+    <category term="Flova"/>
+    <category term="WorkBuddy"/>
+    <category term="内容创作"/>
     <category term="产品"/>
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6484786.html</id>
-    <title>Claude Code 桌面化：把 Agent 体验做成可接管的工作台</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484786.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Claude Code 桌面版把多会话、网页预览、代码差异和终端放进同一个窗口，新建会话从 837 毫秒压到 347 毫秒；难点不是多一个界面，而是让用户看清模型在改什么、哪里需要自己接管。 AI 编程工具一旦离开终端，难点就不再只是“多一个窗口”。它需要把多个会话、网页预览、代码差异、终端输出和人工确认组织成一个可连…</summary>
+    <id>https://www.woshipm.com/ai/6484731.html</id>
+    <title>AI短剧：流水线上的打工人不得不说的秘密</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484731.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">短剧用户规模已达8.51亿，AI短剧占比超九成，千亿市场背后是精心设计的情绪工程。本文深入AI短剧创业团队，揭秘从黄金三秒到每15秒一个爽点的成瘾机制，以及从业者在流量流水线上的真实生存状态。 晚上12点，你决定刷完这一集就睡： 新郎抛下婚礼去机场接白月光，新娘转头就赌气让前来跑腿的快递小哥去接亲，并且直接拉上假新郎去…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="AI短剧"/>
+    <category term="内容创作"/>
+    <category term="情绪设计"/>
+    <category term="短剧"/>
+    <category term="红果短剧"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6485292.html</id>
+    <title>AI帮用户关广告，小米们的“互联网模式”迎来大考</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485292.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">当Agent让普通用户也能一键关闭电视广告、精简手机系统，硬件厂商靠广告赚钱的“互联网模式”正遭遇前所未有的挑战。本文通过CleanYourTV等真实案例，剖析用户“爆改”硬件背后的技术逻辑，并深入探讨广告收入受冲击后，硬件公司该如何重构商业模式与产品竞争力。 Agent普及，释放了用户的想象力和生产力，也将硬件公司逼…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI 编程"/>
-    <category term="Claude Code"/>
-    <category term="产品体验"/>
-    <category term="桌面端"/>
-    <category term="产品"/>
-    <category term="运营"/>
+    <category term="Agent"/>
+    <category term="CleanYourTV"/>
+    <category term="互联网模式"/>
+    <category term="商业模式"/>
+    <category term="广告"/>
+    <category term="智能硬件"/>
   </entry>
   <entry>
-    <id>https://sspai.com/post/117600</id>
-    <title>派早报：Apple 发布 iPad mini (A20 Pro) 等</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/117600"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">少数派的近期动态全新设计复古设备鼠标垫上架，会员可使用点数兑换。前往选购iPhone少数派共创配件上新，自由选择保护、充电、线缆和支架组合。欢迎选购你可能错过的文章少数派×红树林基金会｜候鸟季公益直播 ...查看全文</summary>
+    <id>https://www.wired.com/story/squarespace-promo-code/</id>
+    <title>Squarespace Promo Codes: 20% Off in October 2026</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/squarespace-promo-code/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Get 20% off your next website, 10% off with exclusive Squarespace discount code, 50% off plans, and more top coupons from WIRED.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Coupons"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/peacock-promo-code/</id>
+    <title>Peacock Promo Codes: 40% Off October 2026</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/peacock-promo-code/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Coupons"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/paramount-plus-coupon-code/</id>
+    <title>Paramount+ Coupon Codes and Deals for 2026</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/paramount-plus-coupon-code/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Coupons"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/nordvpn-coupon/</id>
+    <title>NordVPN Coupons: 75% Off, Plus 3 Months Free in October 2026</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/nordvpn-coupon/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Save up to 77% on 2-year plans and get 3 free months with our NordVPN discount codes.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Coupons"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/nike-promo-code/</id>
+    <title>Nike Promo Codes and Discounts: 30% for October 2026</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/nike-promo-code/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Check out our deals for Nike this October 2026, including 15% off select purchases.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Coupons"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/lg-promo-code/</id>
+    <title>LG Promo Codes and Coupons for October 2026</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/lg-promo-code/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Coupons"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/google-workspace-promo-code/</id>
+    <title>Google Workspace Promo Codes: 14% Off for October 2026</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/google-workspace-promo-code/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Boost your productivity and save with exclusive Google Workspace coupons from WIRED. Get up to 14% off plans for three months, including Starter, Standard, and…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Coupons"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/dyson-cordless-vacuum-promo-code/</id>
+    <title>Dyson Promo Codes: 25% Off in October 2026</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/dyson-cordless-vacuum-promo-code/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Get 25% off with a Dyson coupon code, plus save up to $600 with discounts on vacuums, $150 off Airwraps, and more.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="coupons"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/disney-plus-discounts/</id>
+    <title>Disney Plus Discount Codes: 52% Off October 2026</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/disney-plus-discounts/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Cut your subscription costs with the latest active Disney+ bundle deals, verified student offers, and partner promotions.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Coupons"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/vistaprint-coupon-code/</id>
+    <title>30% VistaPrint Coupon &amp; Promo Codes | October 2026</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/vistaprint-coupon-code/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">From personalized gifts to business essentials, WIRED can help you save with our selection of VistaPrint promo codes.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Coupons"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/samsung-promo-codes/</id>
+    <title>20% Off Samsung Promo Code | October 2026</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/samsung-promo-codes/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Save 30% or 10% with Samsung coupon codes, up to $1,000 on appliances, plus limited-time deals on the Galaxy Z Fold7, Flip7, and S25.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Coupons"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://sspai.com/post/117684</id>
+    <title>派早报：Apple 发布 M6 版 iMac 和 MacBook Pro 等</title>
+    <link rel="alternate" type="text/html" href="https://sspai.com/post/117684"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">小米发布 REDMI K100 等新品，广电总局发布有线电视与 IPTV 运营服务新规等。查看全文</summary>
     <source><title>少数派</title></source>
     <category term="效率"/>
     <category term="工具"/>
   </entry>
   <entry>
-    <id>https://sspai.com/post/115855</id>
-    <title>一日一技｜NAS 作为 UPS 总控，实现局域网多设备断电自动关机</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/115855"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">借助 NUT 网络 UPS 协议，我们只需要一台 UPS，就可以驱动局域网中多台设备协同断电保护。查看全文</summary>
+    <id>https://sspai.com/post/115533</id>
+    <title>怀旧手记｜坚果 Pro2 与 R1：当「理想」和「现实」碰撞会发生什么？</title>
+    <link rel="alternate" type="text/html" href="https://sspai.com/post/115533"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">短短几年，罗永浩和锤子科技在国产手机的红海中留下了浓墨重彩的一笔。查看全文</summary>
     <source><title>少数派</title></source>
     <category term="效率"/>
     <category term="工具"/>
   </entry>
   <entry>
-    <id>https://sspai.com/post/117557</id>
-    <title>Apple Sports：不看新闻、不聊球，只看我关心的比赛</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/117557"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">作为一个从小看CCTV-5体育频道下饭的「体育迷」，在互联网时代我一般都看新浪门户网站的体育板块来获取最新的体育资讯，在智能手机逐渐普及后，百度贴吧、虎扑、懂球帝等平台又是我获取体育资讯以及和网友们吹 ...查看全文</summary>
-    <source><title>少数派</title></source>
-    <category term="效率"/>
-    <category term="工具"/>
+    <id>https://www.reddit.com/r/delta/comments/1xh9sy0/delta_just_responded_to_my_case_with_heres_a_more/</id>
+    <title>Delta just responded to my case with "Here's a more polished and professional version with a warm, empathetic tone:"</title>
+    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/delta/comments/1xh9sy0/delta_just_responded_to_my_case_with_heres_a_more/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">This is absolutely insane right? I know everyone is complaining about this new chat, but now you get these types of responses on a case?!? I am a Diamond Medall…</summary>
+    <source><title>top scoring links : popular</title></source>
+    <category term="delta"/>
+    <category term="社区"/>
+    <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://slate.com/podcasts/death-sex-money/2026/10/side-effects-trade-offs?via=rss</id>
-    <title>Side Effects May Include Headaches, Sleep Eating, Buying Power Tools</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/podcasts/death-sex-money/2026/10/side-effects-trade-offs?via=rss"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">There’s no such thing as a silver bullet.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Health"/>
-    <category term="Mental Health"/>
-    <category term="Cancer"/>
-    <category term="The Pharmaceutical Industry"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://www.openculture.com/2026/10/a-soviet-animation-of-stephen-kings-short-story-battleground.html</id>
-    <title>A Soviet Animation of Stephen King’s Short Story “Battleground” (1986)</title>
-    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/a-soviet-animation-of-stephen-kings-short-story-battleground.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Stephen King has that rare, and spectacularly profitable, skill to suck you into his world and compel you to flip to the next page. And when you’re hooked, his…</summary>
-    <source><title>Open Culture</title></source>
-    <category term="Animation"/>
-    <category term="Literature"/>
-    <category term="文化"/>
-    <category term="免费资源"/>
-  </entry>
-  <entry>
-    <id>https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/</id>
-    <title>How a Johnson Mentor Shapes the Next Generation of NASA Talent</title>
-    <link rel="alternate" type="text/html" href="https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">When Rice University student Malvika Bhardwaj asked her mentor Daniel Cohen, a Guidance, Navigation &amp; Control (GN&amp;C) engineer at NASA’s Johnson Space Center, wh…</summary>
+    <id>https://science.nasa.gov/earth/earth-observatory/the-land-of-the-standing-up-rocks/</id>
+    <title>The Land of the Standing-Up Rocks</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/earth/earth-observatory/the-land-of-the-standing-up-rocks/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">A national monument since the 1920s, Chiricahua is America’s newest national park.</summary>
     <source><title>NASA</title></source>
-    <category term="General"/>
+    <category term="Earth Observatory"/>
+    <category term="Landsat 9"/>
+    <category term="Topography"/>
     <category term="航天"/>
     <category term="科学"/>
   </entry>
   <entry>
-    <id>https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/</id>
-    <title>APOD: 2026 October 27 – Noctilucent Clouds over Sweden</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">APOD Science APOD APOD: 2026 October 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…</summary>
+    <id>https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/</id>
+    <title>APOD: 2026 October 28 – The Mutual Occultation of Ganymede and Io</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">APOD Science APOD APOD: 2026 October 28 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the…</summary>
     <source><title>NASA</title></source>
     <category term="APOD"/>
     <category term="航天"/>
     <category term="科学"/>
   </entry>
   <entry>
-    <id>https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/</id>
-    <title>A-81 Reaches South Georgia</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">The Antarctic iceberg made a relatively quick exit from the Weddell Sea, only to slow at the edge of a remote island’s underwater shelf.</summary>
-    <source><title>NASA</title></source>
-    <category term="Earth Observatory"/>
-    <category term="Ice &amp; Glaciers"/>
-    <category term="Terra"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.industryweek.com/operations/continuous-improvement/podcast/55414250/plan-do-check-act-pdca-focus-on-the-learning</id>
-    <title>Plan, Do, Check, Act (PDCA): Focus on the Learning</title>
-    <link rel="alternate" type="text/html" href="https://www.industryweek.com/operations/continuous-improvement/podcast/55414250/plan-do-check-act-pdca-focus-on-the-learning"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Why you should use Plan, Do, Check, Act as a learning cycle for solving problems, rather than as a checklist for implementing solutions.</summary>
-    <source><title>Home | IndustryWeek</title></source>
-    <category term="制造"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.zhihu.com/question/2097994971261542927</id>
-    <title>红果短剧引发年轻人「戒断潮」，如何看待这一现象？短剧为何让人欲罢不能？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2097994971261542927"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 5 名 · 219 万热度</summary>
+    <id>https://www.zhihu.com/question/2098418271040921867</id>
+    <title>黑龙江一婚宴设「外卖席」，每人 100 餐标吃奶茶炸鸡麻辣烫，你支持这种创新吗？是否需要更考虑场合？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098418271040921867"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 3 名 · 334 万热度 · 152 回答 · 286 关注 — 10月26日，有网友发视频称，当天她参加朋友的婚礼，吃的宴席是朋友为他们点的外卖，让她感到十分惊喜，直呼“做梦都没想到参加婚礼能吃到这么多外卖”。 婚宴上点的外卖（视频截图） 视频画面显示，一场婚礼上众多宾客齐聚一堂，其中一桌的菜品并非盛在盘子里的…</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2098056179788391425</id>
-    <title>江苏多所高校将用数字人民币发工资，数字人民币与银行卡发工资有啥区别？这一举措会带来哪些改变？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098056179788391425"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 2 名 · 729 万热度</summary>
+    <id>https://www.zhihu.com/question/1898518283516347485</id>
+    <title>领导叫我走人不用来上班了，我录音了，然后我走了，领导这算违法辞退吗？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/1898518283516347485"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 5 名 · 330 万热度 · 81 回答 · 208 关注</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2097997813539943104</id>
-    <title>巴西总统卢拉赢得连任，巴西主题 ETF 大跌，巴西 ETF 华夏、巴西 ETF 易方达跌停，如何解读？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2097997813539943104"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 8 名 · 147 万热度</summary>
+    <id>https://www.zhihu.com/question/426313664</id>
+    <title>西游记，那个冒充乌鸡国王的妖怪，有何目的，不贪财也不图色？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/426313664"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 10 名 · 280 万热度 · 48 回答 · 101 关注</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2098328780846655325</id>
-    <title>如何评价 OpenAI 宣布证明四维杨–米尔斯理论的存在性？这项结果的意义有多大？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098328780846655325"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 10 名 · 114 万热度</summary>
+    <id>https://www.zhihu.com/question/2098443203879723486</id>
+    <title>红果短剧成立3年，2026年收入预测超过400亿，有望追上甚至超越全国电影院总票房，如何评价这股势头？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098443203879723486"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 6 名 · 329 万热度 · 95 回答 · 222 关注 — 截止 10 月，2026 电影院总票房 315 亿元。 红果短剧预测 2026 营收超过 400 亿</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2098431727324619649</id>
-    <title>央视已全面叫停涉及姆巴佩的赛事和广告播出，姆巴佩社交账号被禁言，此次风波带来的连锁反应有多大？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098431727324619649"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 4 名 · 233 万热度</summary>
+    <id>https://www.zhihu.com/question/2098187701409297325</id>
+    <title>曝国产 TOP5 厂商将集体入局阔直板手机，这一形态会成为未来主流吗？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098187701409297325"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 9 名 · 281 万热度 · 81 回答 · 128 关注 — 锋潮评测 今年，手机的新趋势不是什么大屏小屏，也不是什么曲面屏和直屏。 而是「阔」屏。 直板机都在布局阔直板，折叠屏也在做阔比例折叠。 首个吃到阔比例手机红利的华为，已经在 Pura X Max 和 Pura X View 上狠狠赚了一笔。 两个系列…</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2096545633071003440</id>
-    <title>为什么以前老师用钢笔批改作业时，不会只用红墨水，而是要在里面滴一两滴黑墨水呢?</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2096545633071003440"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 3 名 · 247 万热度</summary>
+    <id>https://www.zhihu.com/question/2098548543086490169</id>
+    <title>姆巴佩本人、西甲都发声道歉了，为啥皇马一直不道歉？皇马称姆巴佩仅代表个人，是这样吗？皇马会受多大影响？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098548543086490169"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 1 名 · 6292 万热度 · 992 回答 · 1458 关注 — 中国足协发布公告，表示足协第一时间与皇马进行严正交涉，足协坚决反对任何伤害中国人民感情的言论。国际知名运动员尤其应当严守底线、理性发声，珍惜自身公众影响力。 效力于西班牙皇家马德里俱乐部的运动员姆巴佩在接受海外媒体采访时公开发表涉华错误言论。中…</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/1977726435545346620</id>
-    <title>为什么中国人都执着于买房而不是租房？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/1977726435545346620"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 6 名 · 216 万热度</summary>
+    <id>https://www.zhihu.com/question/2098428685644555023</id>
+    <title>姆巴佩因争议言论被国内品牌集体解约，他这回要付出的代价到底有多大？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098428685644555023"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 8 名 · 293 万热度 · 105 回答 · 201 关注 — 皇马会因此处罚他吗？ 10月27日，蒙牛乳业、东鹏饮料等多个品牌发布关于终止与皇家马德里队法国球员基利安·姆巴佩合作的声明。 10月27日上午，东鹏饮料集团通过官方微博发布声明称，坚决反对、零容忍伤害民族感情的行为。即日起终止与基利安·姆巴佩全部合…</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2098358966568882239</id>
-    <title>东鹏饮料等品牌紧急切割姆巴佩，这种情况品牌用不用赔违约金？已付代言费、物料成本还能追回吗？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098358966568882239"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 7 名 · 170 万热度</summary>
+    <id>https://www.zhihu.com/question/2098461659014681187</id>
+    <title>如何看待极客湾最新视频《旗舰手机芯片大横评》？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098461659014681187"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 7 名 · 305 万热度 · 177 回答 · 438 关注 — 旗舰手机芯片大横评：苹果高通发哥玄戒谁最强？</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2098356191105643056</id>
-    <title>东鹏、蒙牛相继宣布终止与姆巴佩全部合作，称零容忍伤害民族感情行为，具体情况如何？将带来哪些影响？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098356191105643056"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 1 名 · 27374 万热度</summary>
+    <id>https://www.zhihu.com/question/2098681014188864935</id>
+    <title>发布姆巴佩争议言论的节目组《The Bridge》发布英法双语致歉声明，如何看待此次回应？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098681014188864935"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 4 名 · 332 万热度 · 266 回答 · 441 关注 — 近日，姆巴佩在采访中发表涉华不当言论引发网友强烈不满，纷纷发声抵制。10月27日晚，法国访谈节目《The Bridge》通过官方账号发布法、英双语致歉声明，声明全文如下： 我们昨日发布了一段与基利安・姆巴佩一同录制的视频，系今年4月录制的节目的幕后…</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2096928657268635250</id>
-    <title>offer8嘉宾称在澳洲已是实习医生，却不会握手术刀、缝合打结，为啥会这样？中外医学教育差异这么大吗？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2096928657268635250"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 9 名 · 124 万热度</summary>
+    <id>https://www.zhihu.com/question/2098096577525172086</id>
+    <title>DeepSeek新版模型单周调用量登顶全球首位，环比暴增801%，该模型为什么能实现登顶？意味着什么？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098096577525172086"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 2 名 · 675 万热度 · 142 回答 · 567 关注 — 10月26日消息，在OpenRouter发布的最新一周全球AI大模型调用量周榜单上（10月19日至25日），拿下榜首的是DeepSeek在10月17日更新的V4.1-Flash-1017版本。该模型单周调用量达到33.6万亿Token，环比增幅高达…</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://en.wikipedia.org/wiki/You_Can_See_Everything</id>
-    <title>You Can See Everything</title>
-    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/You_Can_See_Everything"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 7 名 · 浏览 16.0 万</summary>
+    <id>https://en.wikipedia.org/wiki/Walter_Koenig</id>
+    <title>Walter Koenig</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Walter_Koenig"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 6 名 · 浏览 27.7 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://en.wikipedia.org/wiki/Jailer_2</id>
-    <title>Jailer 2</title>
-    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Jailer_2"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 5 名 · 浏览 18.7 万</summary>
+    <id>https://en.wikipedia.org/wiki/Student_List</id>
+    <title>Student List</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Student_List"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 9 名 · 浏览 18.6 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://en.wikipedia.org/wiki/Elizabeth_Holmes</id>
-    <title>Elizabeth Holmes</title>
-    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Elizabeth_Holmes"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 4 名 · 浏览 19.4 万</summary>
+    <id>https://en.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva</id>
+    <title>Luiz Inácio Lula da Silva</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 4 名 · 浏览 39.6 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://en.wikipedia.org/wiki/Deaths_in_2026</id>
-    <title>Deaths in 2026</title>
-    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Deaths_in_2026"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 10 名 · 浏览 12.4 万</summary>
+    <id>https://en.wikipedia.org/wiki/Eric_Bauza</id>
+    <title>Eric Bauza</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Eric_Bauza"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 1 名 · 浏览 51.2 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
@@ -526,20 +622,20 @@
     <id>https://en.wikipedia.org/wiki/Clayface_(film)</id>
     <title>Clayface (film)</title>
     <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Clayface_(film)"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 3 名 · 浏览 20.8 万</summary>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 10 名 · 浏览 18.5 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://en.wikipedia.org/wiki/Chef_Damu</id>
-    <title>Chef Damu</title>
-    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Chef_Damu"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 9 名 · 浏览 12.4 万</summary>
+    <id>https://en.wikipedia.org/wiki/Ballon_d'Or</id>
+    <title>Ballon d'Or</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Ballon_d'Or"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 8 名 · 浏览 21.9 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
@@ -548,20 +644,9 @@
     <id>https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election</id>
     <title>2026 Serbian parliamentary election</title>
     <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 2 名 · 浏览 24.2 万</summary>
-    <source><title>维基百科阅读榜（英文）</title></source>
-    <category term="百科"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://en.wikipedia.org/wiki/2026_British_Columbia_general_election</id>
-    <title>2026 British Columbia general election</title>
-    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/2026_British_Columbia_general_election"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 8 名 · 浏览 14.1 万</summary>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 5 名 · 浏览 29.0 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
@@ -570,88 +655,22 @@
     <id>https://en.wikipedia.org/wiki/2026_Brazilian_general_election</id>
     <title>2026 Brazilian general election</title>
     <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/2026_Brazilian_general_election"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 1 名 · 浏览 27.2 万</summary>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 3 名 · 浏览 42.1 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://en.wikipedia.org/wiki/.xxx</id>
-    <title>.xxx</title>
-    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/.xxx"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 6 名 · 浏览 17.6 万</summary>
+    <id>https://en.wikipedia.org/wiki/2026_Ballon_d'Or</id>
+    <title>2026 Ballon d'Or</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/2026_Ballon_d'Or"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 2 名 · 浏览 45.2 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E8%83%BD%E6%BA%90%E7%BB%BF%E8%89%B2%E8%BD%AC%E5%9E%8B%E6%88%90%E7%BB%A9%E5%8D%95%23</id>
-    <title>我国能源绿色转型成绩单</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E8%83%BD%E6%BA%90%E7%BB%BF%E8%89%B2%E8%BD%AC%E5%9E%8B%E6%88%90%E7%BB%A9%E5%8D%95%23"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 3 名 · 热度 107.5 万</summary>
-    <source><title>微博热搜</title></source>
-    <category term="热榜"/>
-    <category term="微博"/>
-  </entry>
-  <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E5%BE%AE%E5%8D%9A%E8%A7%86%E7%95%8C%E5%A4%A7%E4%BC%9A%E9%98%B5%E5%AE%B9%23</id>
-    <title>微博视界大会阵容</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E5%BE%AE%E5%8D%9A%E8%A7%86%E7%95%8C%E5%A4%A7%E4%BC%9A%E9%98%B5%E5%AE%B9%23"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 8 名 · 热度 97.4 万 · 综艺</summary>
-    <source><title>微博热搜</title></source>
-    <category term="热榜"/>
-    <category term="微博"/>
-  </entry>
-  <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E5%AD%A9%E5%AD%90%E4%BB%AC%E5%BF%83%E4%B8%AD%E7%9A%84%E8%8B%B1%E9%9B%84%E6%9C%89%E4%BA%86%E6%A8%A1%E6%A0%B7%23</id>
-    <title>孩子们心中的英雄有了模样</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E5%AD%A9%E5%AD%90%E4%BB%AC%E5%BF%83%E4%B8%AD%E7%9A%84%E8%8B%B1%E9%9B%84%E6%9C%89%E4%BA%86%E6%A8%A1%E6%A0%B7%23"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 9 名 · 热度 96.0 万</summary>
-    <source><title>微博热搜</title></source>
-    <category term="热榜"/>
-    <category term="微博"/>
-  </entry>
-  <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%B6%89%E5%8D%8E%E4%B8%8D%E5%BD%93%E8%A8%80%E8%AE%BA%E5%BC%95%E4%BC%97%E6%80%92%23</id>
-    <title>姆巴佩涉华不当言论引众怒</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%B6%89%E5%8D%8E%E4%B8%8D%E5%BD%93%E8%A8%80%E8%AE%BA%E5%BC%95%E4%BC%97%E6%80%92%23"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 4 名 · 热度 107.0 万 · 新</summary>
-    <source><title>微博热搜</title></source>
-    <category term="热榜"/>
-    <category term="微博"/>
-  </entry>
-  <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%A4%9A%E5%B9%B3%E5%8F%B0%E8%A2%AB%E7%A6%81%E8%A8%80%23</id>
-    <title>姆巴佩多平台被禁言</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%A4%9A%E5%B9%B3%E5%8F%B0%E8%A2%AB%E7%A6%81%E8%A8%80%23"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 6 名 · 热度 102.6 万</summary>
-    <source><title>微博热搜</title></source>
-    <category term="热榜"/>
-    <category term="微博"/>
-  </entry>
-  <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E5%A4%A7%E5%94%90%E8%BE%9F%E7%8F%A0%E8%AE%B0%23</id>
-    <title>大唐辟珠记</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E5%A4%A7%E5%94%90%E8%BE%9F%E7%8F%A0%E8%AE%B0%23"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 2 名 · 热度 135.0 万 · 新</summary>
-    <source><title>微博热搜</title></source>
-    <category term="热榜"/>
-    <category term="微博"/>
   </entry>
 </feed>

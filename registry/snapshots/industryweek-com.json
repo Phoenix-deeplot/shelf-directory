@@ -2,6 +2,16 @@
  "id": "industryweek-com",
  "items": [
   {
+   "url": "https://www.industryweek.com/leadership/strategic-planning-execution/article/55414764/how-well-is-your-team-functioning-take-this-assessment-and-find-out",
+   "title": "How Well Is Your Team Functioning? Take This Assessment and Find Out",
+   "summary": "Answering these nine questions will produce a reliable snapshot of your team’s current effectiveness, and targeted suggestions for how to improve.",
+   "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ae0e762fb016690dc9378d4-dreamstime_xxl_48568990.png",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.industryweek.com/operations/continuous-improvement/podcast/55414250/plan-do-check-act-pdca-focus-on-the-learning",
    "title": "Plan, Do, Check, Act (PDCA): Focus on the Learning",
    "summary": "Why you should use Plan, Do, Check, Act as a learning cycle for solving problems, rather than as a checklist for implementing solutions.",
@@ -262,16 +272,6 @@
    ],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://www.industryweek.com/leadership/strategic-planning-execution/article/55411932/ai-makes-expensive-information-cheap-how-should-that-change-company-structure",
-   "title": "AI Makes Expensive Information Cheap. How Should That Change Company Structure?",
-   "summary": "Manufacturers face two traps in organizational design as the economics of information change.",
-   "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6acfdb319e3f57f9d5585bea-dreamstime_m_146301159.png",
-   "date": "2026-10-14",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -285,9 +285,9 @@
  },
  "fails": 0,
  "kind": "feed",
- "parser": 2,
+ "parser": 3,
  "status": "ok",
  "error": "",
  "etag": "",
- "modified": "Tue, 27 Oct 2026 08:30:05 GMT"
+ "modified": "Wed, 28 Oct 2026 05:25:05 GMT"
 }

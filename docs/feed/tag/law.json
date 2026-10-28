@@ -1,0 +1,58 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #law",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/law.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.reddit.com/r/law/comments/1xh1lsx/man_who_yelled_trumps_a_loser_during_protest_in/",
+      "url": "https://www.reddit.com/r/law/comments/1xh1lsx/man_who_yelled_trumps_a_loser_during_protest_in/",
+      "title": "Man who yelled ‘Trump’s a loser’ during protest in his tiny Oregon town sues cops and lawmaker after arrest",
+      "content_text": "submitted by /u/theindependentonline to r/law [link] [comments]",
+      "summary": "submitted by /u/theindependentonline to r/law [link] [comments]",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://external-preview.redd.it/0Sno2eR_kqMeM11aMFzt2lFFW__BqKRf6C-IbT04__U.jpeg?width=640&crop=smart&auto=webp&s=afbc519de31365ebb736b4d6591d1fdf7f6d9880",
+      "tags": [
+        "law",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/law/comments/1xgsxhm/judge_orders_greg_abbott_to_hand_over_unredacted/",
+      "url": "https://www.reddit.com/r/law/comments/1xgsxhm/judge_orders_greg_abbott_to_hand_over_unredacted/",
+      "title": "Judge Orders Greg Abbott to Hand Over Unredacted Communications with Elon Musk to His Opponent",
+      "content_text": "submitted by /u/bloomberglaw to r/law [link] [comments]",
+      "summary": "submitted by /u/bloomberglaw to r/law [link] [comments]",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://external-preview.redd.it/zmnZxLM1gq2gRVbsiSvL29YVFfPQVjijcoStOn32jDs.jpeg?width=640&crop=smart&auto=webp&s=2b5151ca97cb498e340f2099ef7a69dc8faf9ea2",
+      "tags": [
+        "law",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    }
+  ]
+}

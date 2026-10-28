@@ -4,8 +4,129 @@
   <title>公共目录 · #数据</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-54b8a9.xml"/>
-  <updated>2026-10-26T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/wex-euclid-ai-target-90-reduction-in-trucking-transaction-costs</id>
+    <title>WEX, Euclid AI target 90% reduction in trucking transaction costs</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/wex-euclid-ai-target-90-reduction-in-trucking-transaction-costs"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">WEX and Euclid AI announced plans to offer trucking-specific AI agents that Euclid says have sharply reduced transaction costs in existing deployments. The post…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="News"/>
+    <category term="Technology"/>
+    <category term="Trucking"/>
+    <category term="AI agents"/>
+    <category term="WEX"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/why-logistics-ai-still-needs-experts-in-the-loop</id>
+    <title>Why Logistics AI Still Needs “Experts in the Loop”</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/why-logistics-ai-still-needs-experts-in-the-loop"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">As AI tools multiply across freight and logistics, the important question is how much control to hand over, and to what. On the latest Lean Quarterly Dive, host…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="News"/>
+    <category term="Sponsored Insights"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/the-case-for-renting-the-box-and-buying-the-truck</id>
+    <title>The Case For Renting The Box And Buying The Truck</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/the-case-for-renting-the-box-and-buying-the-truck"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">For a small carrier, the choice of whether to own a trailer, finance one, run power only, or rent by the day looks like a simple equipment question, but it is r…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Fleet and Maintenance"/>
+    <category term="Trucker Tools"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/the-biggest-shift-in-freight-liability-since-deregulation-is-here-and-few-are-ready-for-it</id>
+    <title>The Biggest Shift In Freight Liability Since Deregulation Is Here, And Few Are Ready For It</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/the-biggest-shift-in-freight-liability-since-deregulation-is-here-and-few-are-ready-for-it"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">The way courts decide who is responsible when a contracted truck ends up in a wreck is changing faster than most of the freight industry realizes, and the shift…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="3PL and Brokerage"/>
+    <category term="F3: Future of Freight Festival"/>
+    <category term="Montgomery vs. Caribe"/>
+    <category term="Nuclear verdicts"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/federal-guidance-on-carrier-selection-not-around-the-corner-tias-burroughs</id>
+    <title>Federal guidance on carrier selection not around the corner: TIA’s Burroughs</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/federal-guidance-on-carrier-selection-not-around-the-corner-tias-burroughs"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Chattanooga–The Transportation Intermediaries Association (TIA) was quick out of the box earlier this year after two key court decisions that didn’t favor the b…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="3PL and Brokerage"/>
+    <category term="Legal issues"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/double-nickel-launches-ai-agent-to-automate-driver-employment-checks</id>
+    <title>Double Nickel launches AI agent to automate driver employment checks</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/double-nickel-launches-ai-agent-to-automate-driver-employment-checks"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Double Nickel has launched an artificial intelligence agent to automate employment verifications for trucking companies, targeting a time-consuming part of driv…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="News"/>
+    <category term="Technology"/>
+    <category term="AI"/>
+    <category term="Double Nickel"/>
+    <category term="FreightWaves"/>
+    <category term="logistics"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/diesel-is-breaking-records-while-gasoline-stays-cheap-and-the-reason-is-not-what-most-truckers-think</id>
+    <title>Diesel Is Breaking Records While Gasoline Stays Cheap, And The Reason Is Not What Most Truckers Think</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/diesel-is-breaking-records-while-gasoline-stays-cheap-and-the-reason-is-not-what-most-truckers-think"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">For the better part of eight months the price of diesel has climbed to levels that gasoline has not come close to matching, and for a carrier whose single large…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="F3: Future of Freight Festival"/>
+    <category term="Fleet and Maintenance"/>
+    <category term="Market Conditions"/>
+    <category term="Playbook: Fuel Game Plan"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/band24-seeks-early-testers-for-satellite-connected-asset-tracker-ahead-of-nov-13-deadline</id>
+    <title>Band24 seeks early testers for satellite-connected asset tracker ahead of Nov. 13 deadline</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/band24-seeks-early-testers-for-satellite-connected-asset-tracker-ahead-of-nov-13-deadline"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Asset-tracking company Band24 is seeking businesses to test Terra, a new tracker combining Bluetooth, cellular and satellite connectivity, ahead of a Nov. 13 de…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="News"/>
+    <category term="Technology"/>
+    <category term="Band24"/>
+    <category term="Freight"/>
+    <category term="FreightWaves"/>
+    <category term="logistics"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
   <entry>
     <id>https://ourworldindata.org/how-much-development-aid-is-spent-on-climate-change</id>
     <title>How much development aid is spent on climate change?</title>
@@ -124,22 +245,6 @@
     <category term="数据"/>
   </entry>
   <entry>
-    <id>https://www.freightwaves.com/news/sonar-launches-new-routing-guide-and-contract-rate-data-plus-expanded-searchcarriers-monitoring</id>
-    <title>SONAR launches new routing guide and contract rate data, plus expanded SearchCarriers monitoring</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/sonar-launches-new-routing-guide-and-contract-rate-data-plus-expanded-searchcarriers-monitoring"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">New SONAR datasets show what shippers pay brokers and carriers when freight falls past the first tender, plus SearchCarriers watchlists and alerts. The post SON…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Inside SONAR"/>
-    <category term="carrier qualification"/>
-    <category term="Shippers"/>
-    <category term="SONAR"/>
-    <category term="sonar data"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
     <id>https://www.freightwaves.com/news/ryder-fleet-facing-possible-growth-need-as-epa-27-nears</id>
     <title>Ryder fleet facing possible growth need as EPA ‘27 nears</title>
     <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/ryder-fleet-facing-possible-growth-need-as-epa-27-nears"/>
@@ -151,64 +256,6 @@
     <category term="OEM Trucking"/>
     <category term="Top Stories"/>
     <category term="Trucking"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/how-triumph-financials-ceo-beat-the-longest-freight-recession</id>
-    <title>How Triumph Financial’s CEO Beat the Longest Freight Recession</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/how-triumph-financials-ceo-beat-the-longest-freight-recession"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Triumph Financial CEO Aaron Graft joins FreightWaves to discuss how his company achieved a remarkable 38% transportation revenue growth during one of the longes…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="FreightWaves Today"/>
-    <category term="FreightWaves TV"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/first-look-almost-all-strong-numbers-in-ryders-third-quarter-earnings</id>
-    <title>First look: almost all strong numbers in Ryder’s third quarter earnings</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/first-look-almost-all-strong-numbers-in-ryders-third-quarter-earnings"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">It was a solid third quarter for Ryder, with improvement in just about every metric compared to the third quarter of 2025. The numbers have been good enough tha…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Company Earnings"/>
-    <category term="News"/>
-    <category term="Top Stories"/>
-    <category term="Trucking"/>
-    <category term="Ryder"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/commodity-markets-whip-up-railfreight-gains</id>
-    <title>Commodity markets whip up railfreight gains</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/commodity-markets-whip-up-railfreight-gains"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Intermodal and commodity traffic helped U.S. freight railroads to strong volume gains in the latest week data. The post Commodity markets whip up railfreight ga…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="News"/>
-    <category term="Railroad"/>
-    <category term="carloads"/>
-    <category term="intermodal"/>
-    <category term="railroads"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/cass-q3-earnings-soar-19-eps-growth-freight-market-boom</id>
-    <title>Cass Q3 Earnings Soar: 19% EPS Growth &amp; Freight Market Boom</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/cass-q3-earnings-soar-19-eps-growth-freight-market-boom"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Cass Information Systems CFO Mike Normile reveals how rising freight rates, fuel surcharges, and higher interest rates fueled a 19% increase in earnings per sha…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="FreightWaves Today"/>
-    <category term="FreightWaves TV"/>
     <category term="货运"/>
     <category term="数据"/>
   </entry>

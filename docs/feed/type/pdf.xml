@@ -4,17 +4,17 @@
   <title>公共目录 · pdf</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/type/pdf.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf</id>
-    <title>The Exponential Time Hypothesis Is False [pdf]</title>
-    <link rel="alternate" type="text/html" href="https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">第 5 名 · ▲ 622 · 226 条评论</summary>
-    <source><title>Hacker News</title></source>
+    <id>https://t3x.org/files/floodfill.pdf</id>
+    <title>A stackless floodfill automation (2023)</title>
+    <link rel="alternate" type="text/html" href="https://t3x.org/files/floodfill.pdf"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">第 8 名 · ▲ 23 · compsci pdf · 2 条评论</summary>
+    <source><title>Lobsters</title></source>
+    <category term="社区"/>
     <category term="热榜"/>
-    <category term="hacker news"/>
   </entry>
 </feed>

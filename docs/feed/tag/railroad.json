@@ -9,6 +9,33 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/police-recover-54k-in-hot-wheels-after-bnsf-freight-train-burglary-in-california",
+      "url": "https://www.freightwaves.com/news/police-recover-54k-in-hot-wheels-after-bnsf-freight-train-burglary-in-california",
+      "title": "Police recover $54K in Hot Wheels after BNSF freight train burglary in California",
+      "content_text": "A freight train burglary in Colton, California, ended with one arrest and $54,000 in recovered Hot Wheels. Police released footage of the investigation as quest…",
+      "summary": "A freight train burglary in Colton, California, ended with one arrest and $54,000 in recovered Hot Wheels. Police released footage of the investigation as quest…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "Business",
+        "Playbook: Cash & Capital",
+        "Railroad",
+        "Top Stories",
+        "BNSF",
+        "California",
+        "cargo theft",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/wabtec-earnings-rise-on-higher-freight-and-transit-sales",
       "url": "https://www.freightwaves.com/news/wabtec-earnings-rise-on-higher-freight-and-transit-sales",
       "title": "Wabtec earnings rise on higher freight and transit sales",
@@ -51,140 +78,6 @@
         "trade",
         "CRISI program",
         "Development"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits",
-      "url": "https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits",
-      "title": "Union Pacific posts record third-quarter revenue and profits",
-      "content_text": "Union Pacific posted record revenue and profits in the third quarter, as volume and pricing gains offset rising fuel prices and inflation. The post Union Pacifi…",
-      "summary": "Union Pacific posted record revenue and profits in the third quarter, as volume and pricing gains offset rising fuel prices and inflation. The post Union Pacifi…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Business",
-        "Company Earnings",
-        "Finance",
-        "News",
-        "Railroad",
-        "Top Stories",
-        "carloads",
-        "earnings"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/norfolk-southern-profits-rise-on-higher-volume-and-revenue",
-      "url": "https://www.freightwaves.com/news/norfolk-southern-profits-rise-on-higher-volume-and-revenue",
-      "title": "Norfolk Southern profits rise on higher volume and revenue",
-      "content_text": "Norfolk Southern posted record revenue in Q3 on higher volumes and rates, and substantial fuel surcharge The post Norfolk Southern profits rise on higher volume…",
-      "summary": "Norfolk Southern posted record revenue in Q3 on higher volumes and rates, and substantial fuel surcharge The post Norfolk Southern profits rise on higher volume…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Business",
-        "Company Earnings",
-        "Finance",
-        "News",
-        "Railroad",
-        "Top Stories",
-        "carloads",
-        "earnings"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/first-look-union-pacific-earnings-4",
-      "url": "https://www.freightwaves.com/news/first-look-union-pacific-earnings-4",
-      "title": "First look: Union Pacific earnings",
-      "content_text": "Union Pacific’s third-quarter profit rose 16% as higher freight volumes and pricing gains boosted revenue. The post First look: Union Pacific earnings appeared…",
-      "summary": "Union Pacific’s third-quarter profit rose 16% as higher freight volumes and pricing gains boosted revenue. The post First look: Union Pacific earnings appeared…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Business",
-        "Company Earnings",
-        "Finance",
-        "News",
-        "Railroad",
-        "carloads",
-        "earnings",
-        "forecast"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/first-look-norfolk-southern-earnings-4",
-      "url": "https://www.freightwaves.com/news/first-look-norfolk-southern-earnings-4",
-      "title": "First look: Norfolk Southern earnings",
-      "content_text": "Norfolk Southern’s third-quarter earnings rose as higher freight volume and fuel surcharges drove record revenue. The post First look: Norfolk Southern earnings…",
-      "summary": "Norfolk Southern’s third-quarter earnings rose as higher freight volume and fuel surcharges drove record revenue. The post First look: Norfolk Southern earnings…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Business",
-        "Company Earnings",
-        "Finance",
-        "News",
-        "Railroad",
-        "Top Stories",
-        "carloads",
-        "earnings"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/commodity-markets-whip-up-railfreight-gains",
-      "url": "https://www.freightwaves.com/news/commodity-markets-whip-up-railfreight-gains",
-      "title": "Commodity markets whip up railfreight gains",
-      "content_text": "Intermodal and commodity traffic helped U.S. freight railroads to strong volume gains in the latest week data. The post Commodity markets whip up railfreight ga…",
-      "summary": "Intermodal and commodity traffic helped U.S. freight railroads to strong volume gains in the latest week data. The post Commodity markets whip up railfreight ga…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "News",
-        "Railroad",
-        "carloads",
-        "intermodal",
-        "railroads",
-        "货运",
-        "数据"
       ],
       "authors": [
         {

@@ -2,6 +2,19 @@
  "id": "openculture-com",
  "items": [
   {
+   "url": "https://www.openculture.com/2026/10/how-balzacs-extreme-coffee-habit-fueled-his-productive-writing-routine.html",
+   "title": "How Balzac’s Extreme Coffee Habit Fueled His Productive Writing Routine",
+   "summary": "Even now, in this age when the very reading of literature is endangered — or so the articles tell us — Honoré de Balzac (1799–1850) retains a notable ability to…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [
+    "History",
+    "Literature"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.openculture.com/2026/10/a-soviet-animation-of-stephen-kings-short-story-battleground.html",
    "title": "A Soviet Animation of Stephen King’s Short Story “Battleground” (1986)",
    "summary": "Stephen King has that rare, and spectacularly profitable, skill to suck you into his world and compel you to flip to the next page. And when you’re hooked, his…",
@@ -180,18 +193,6 @@
    ],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://www.openculture.com/2026/10/a-surreal-japanese-animation-set-in-the-world-of-hieronymus-boschs-the-garden-of-earthly-delights.html",
-   "title": "Watch “The Midnight Parasites,” a Surreal Japanese Animation Set in the World of Hieronymus Bosch’s The Garden of Earthly Delights (1972)",
-   "summary": "Hieronymus Bosch’s bizarre paintings might have looked perfectly ordinary to his contemporaries, argues Stanley Meisler in “The World of Bosch.” Modern viewers…",
-   "image": "",
-   "date": "2026-10-15",
-   "tags": [
-    "Animation"
-   ],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -205,9 +206,9 @@
  },
  "fails": 0,
  "kind": "feed",
- "parser": 2,
+ "parser": 3,
  "status": "ok",
  "error": "",
- "etag": "\"43c1eebe86c8382ad2436fd65f679a0c\"",
- "modified": "Tue, 27 Oct 2026 07:50:30 GMT"
+ "etag": "\"ac5d736c3357257a7ed17f2466ad9eb5\"",
+ "modified": "Wed, 28 Oct 2026 04:34:40 GMT"
 }

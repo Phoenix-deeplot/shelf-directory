@@ -4,8 +4,42 @@
   <title>公共目录 · #Company Earnings</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/company-earnings.xml"/>
-  <updated>2026-10-26T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/werner-enterprises-sees-cost-headwinds-lingering-into-q1</id>
+    <title>Werner Enterprises sees cost headwinds lingering into Q1</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/werner-enterprises-sees-cost-headwinds-lingering-into-q1"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Werner Enterprises outlined a path back to mid-cycle margins on a Tuesday evening call, but noted cost headwinds—some transitory and some growth-related—could l…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="Truckload Carriers"/>
+    <category term="dedicated carrier"/>
+    <category term="TL contract rates"/>
+    <category term="Werner"/>
+    <category term="Werner Enterprises"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/insurance-claims-adjustments-tank-landstars-otherwise-strong-q3</id>
+    <title>Insurance claims adjustments tank Landstar’s otherwise strong Q3</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/insurance-claims-adjustments-tank-landstars-otherwise-strong-q3"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Despite insurance claims activity clouding an otherwise strong third-quarter result, truckload broker Landstar System highlighted favorable demand for its dry v…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="3PL and Brokerage"/>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="3PLs"/>
+    <category term="Landstar"/>
+    <category term="Landstar BCOs"/>
+    <category term="Landstar System"/>
+  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/dsv-3q-profit-rises-19-5-as-schenker-integration-lifts-earnings</id>
     <title>DSV 3Q profit rises 19.5% as Schenker integration lifts earnings</title>
@@ -73,106 +107,5 @@
     <category term="reefer capacity"/>
     <category term="Reefer TL rates"/>
     <category term="refrigerated trucking"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits</id>
-    <title>Union Pacific posts record third-quarter revenue and profits</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Union Pacific posted record revenue and profits in the third quarter, as volume and pricing gains offset rising fuel prices and inflation. The post Union Pacifi…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Business"/>
-    <category term="Company Earnings"/>
-    <category term="Finance"/>
-    <category term="News"/>
-    <category term="Railroad"/>
-    <category term="Top Stories"/>
-    <category term="carloads"/>
-    <category term="earnings"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/norfolk-southern-profits-rise-on-higher-volume-and-revenue</id>
-    <title>Norfolk Southern profits rise on higher volume and revenue</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/norfolk-southern-profits-rise-on-higher-volume-and-revenue"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Norfolk Southern posted record revenue in Q3 on higher volumes and rates, and substantial fuel surcharge The post Norfolk Southern profits rise on higher volume…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Business"/>
-    <category term="Company Earnings"/>
-    <category term="Finance"/>
-    <category term="News"/>
-    <category term="Railroad"/>
-    <category term="Top Stories"/>
-    <category term="carloads"/>
-    <category term="earnings"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/knight-swift-again-eyes-big-rate-increases-as-new-bid-season-nears</id>
-    <title>Knight-Swift again eyes big rate increases as new bid season nears</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/knight-swift-again-eyes-big-rate-increases-as-new-bid-season-nears"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Knight-Swift Transportation’s large exposure to the one-way truckload market has it in position to capture double-digit rate increases as its new bid season kic…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Company Earnings"/>
-    <category term="News"/>
-    <category term="Top Stories"/>
-    <category term="Truckload Carriers"/>
-    <category term="Knight-Swift"/>
-    <category term="knight-swift guidance"/>
-    <category term="Knight-Swift Transportation"/>
-    <category term="LTL terminal additions"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/first-look-almost-all-strong-numbers-in-ryders-third-quarter-earnings</id>
-    <title>First look: almost all strong numbers in Ryder’s third quarter earnings</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/first-look-almost-all-strong-numbers-in-ryders-third-quarter-earnings"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">It was a solid third quarter for Ryder, with improvement in just about every metric compared to the third quarter of 2025. The numbers have been good enough tha…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Company Earnings"/>
-    <category term="News"/>
-    <category term="Top Stories"/>
-    <category term="Trucking"/>
-    <category term="Ryder"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/first-look-union-pacific-earnings-4</id>
-    <title>First look: Union Pacific earnings</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/first-look-union-pacific-earnings-4"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Union Pacific’s third-quarter profit rose 16% as higher freight volumes and pricing gains boosted revenue. The post First look: Union Pacific earnings appeared…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Business"/>
-    <category term="Company Earnings"/>
-    <category term="Finance"/>
-    <category term="News"/>
-    <category term="Railroad"/>
-    <category term="carloads"/>
-    <category term="earnings"/>
-    <category term="forecast"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/first-look-norfolk-southern-earnings-4</id>
-    <title>First look: Norfolk Southern earnings</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/first-look-norfolk-southern-earnings-4"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">Norfolk Southern’s third-quarter earnings rose as higher freight volume and fuel surcharges drove record revenue. The post First look: Norfolk Southern earnings…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Business"/>
-    <category term="Company Earnings"/>
-    <category term="Finance"/>
-    <category term="News"/>
-    <category term="Railroad"/>
-    <category term="Top Stories"/>
-    <category term="carloads"/>
-    <category term="earnings"/>
   </entry>
 </feed>

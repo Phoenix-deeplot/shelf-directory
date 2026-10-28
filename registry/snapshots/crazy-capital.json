@@ -638,7 +638,7 @@
    "image": "",
    "date": "2025-01-07",
    "tags": [],
-   "lang": "ja",
+   "lang": "zh",
    "type": "audio",
    "audio": {
     "url": "https://rio.xyzcdn.net/crazycapital/ep108.mp3",
@@ -763,7 +763,7 @@
  },
  "fails": 0,
  "kind": "feed",
- "parser": 2,
+ "parser": 3,
  "status": "ok",
  "error": "",
  "etag": "\"72862a9d3faf88a92e47c87479d94b96\"",

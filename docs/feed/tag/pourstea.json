@@ -1,0 +1,81 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #PoursTea",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/pourstea.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.reddit.com/r/PoursTea/comments/1xh5b19/the_second_batch_of_records_has_been_released/",
+      "url": "https://www.reddit.com/r/PoursTea/comments/1xh5b19/the_second_batch_of_records_has_been_released/",
+      "title": "The second batch of records has been released.",
+      "content_text": "submitted by /u/Veshaad to r/PoursTea [link] [comments]",
+      "summary": "submitted by /u/Veshaad to r/PoursTea [link] [comments]",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://preview.redd.it/fa9ouz7xu2yh1.jpeg?width=640&crop=smart&auto=webp&s=9f042fde400bc560324e23f576c69635781c5a89",
+      "tags": [
+        "PoursTea",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/PoursTea/comments/1xh25zq/since_citizenship_is_a_hot_button_issue_with/",
+      "url": "https://www.reddit.com/r/PoursTea/comments/1xh25zq/since_citizenship_is_a_hot_button_issue_with/",
+      "title": "Since citizenship is a hot button issue with certain people...",
+      "content_text": "submitted by /u/Veshaad to r/PoursTea [link] [comments]",
+      "summary": "submitted by /u/Veshaad to r/PoursTea [link] [comments]",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://preview.redd.it/youz5ilu92yh1.jpeg?width=640&crop=smart&auto=webp&s=d98ae7a7df14720af4711eb38b7d4e1c2e3f258e",
+      "tags": [
+        "PoursTea",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/PoursTea/comments/1xgzs3p/its_never_too_late_to_admit_youre_wrong/",
+      "url": "https://www.reddit.com/r/PoursTea/comments/1xgzs3p/its_never_too_late_to_admit_youre_wrong/",
+      "title": "It's never too late to admit you're wrong...",
+      "content_text": "Please watch the attached video in the comments. submitted by /u/Veshaad to r/PoursTea [link] [comments]",
+      "summary": "Please watch the attached video in the comments. submitted by /u/Veshaad to r/PoursTea [link] [comments]",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://preview.redd.it/eojmpyocu1yh1.jpeg?width=640&crop=smart&auto=webp&s=36906cb43ea90a6efb6c8b6e08473284b674b6ef",
+      "tags": [
+        "PoursTea",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    }
+  ]
+}

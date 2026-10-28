@@ -4,8 +4,60 @@
   <title>公共目录 · #航天</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-2dd56c.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://science.nasa.gov/earth/earth-observatory/the-land-of-the-standing-up-rocks/</id>
+    <title>The Land of the Standing-Up Rocks</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/earth/earth-observatory/the-land-of-the-standing-up-rocks/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">A national monument since the 1920s, Chiricahua is America’s newest national park.</summary>
+    <source><title>NASA</title></source>
+    <category term="Earth Observatory"/>
+    <category term="Landsat 9"/>
+    <category term="Topography"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/</id>
+    <title>APOD: 2026 October 28 – The Mutual Occultation of Ganymede and Io</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">APOD Science APOD APOD: 2026 October 28 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the…</summary>
+    <source><title>NASA</title></source>
+    <category term="APOD"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/</id>
+    <title>NASA’s Neo Surveyor Sunshade</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">A technician inspects the large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission in this image released on Oct. 26, 2026. The sunshade structure, whi…</summary>
+    <source><title>NASA</title></source>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/</id>
+    <title>NASA Invites Media to Crew Completion of Yearlong Mars Simulation</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">The four volunteers who lived and worked in a simulated NASA Mars mission for more than a year will exit their habitat on Saturday, Oct. 31, after 378 days of i…</summary>
+    <source><title>NASA</title></source>
+    <category term="CHAPEA Mission 2"/>
+    <category term="Human Research Program"/>
+    <category term="Johnson Space Center"/>
+    <category term="Missions"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
   <entry>
     <id>https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/</id>
     <title>How a Johnson Mentor Shapes the Next Generation of NASA Talent</title>
@@ -45,18 +97,6 @@
     <category term="科学"/>
   </entry>
   <entry>
-    <id>https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/</id>
-    <title>Solar Cells Inspected on NASA’s NEO Surveyor</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission is inspected by a technician at BAE Systems Space &amp; Mission Systems in Boulder…</summary>
-    <source><title>NASA</title></source>
-    <category term="Photojournal"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
     <id>https://science.nasa.gov/photojournal/neo-surveyors-sunshade-gets-inspected/</id>
     <title>NEO Surveyor’s Sunshade Gets Inspected</title>
     <link rel="alternate" type="text/html" href="https://science.nasa.gov/photojournal/neo-surveyors-sunshade-gets-inspected/"/>
@@ -65,17 +105,6 @@
     <summary type="text">Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor is mounted on an assembly ring during inspections in a clean room at BAE Systems Space…</summary>
     <source><title>NASA</title></source>
     <category term="Photojournal"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.nasa.gov/image-article/nasas-x-59-aircraft-and-test-pilot/</id>
-    <title>NASA’s X-59 Aircraft and Test Pilot</title>
-    <link rel="alternate" type="text/html" href="https://www.nasa.gov/image-article/nasas-x-59-aircraft-and-test-pilot/"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">NASA test pilot Mike Lippert poses for a photo ahead of his first time flying the agency’s X-59 quiet supersonic research aircraft on Oct. 21, 2026. The X-59 ha…</summary>
-    <source><title>NASA</title></source>
     <category term="航天"/>
     <category term="科学"/>
   </entry>
@@ -106,31 +135,6 @@
     <category term="Mars"/>
     <category term="Perseverance (Rover)"/>
     <category term="Planetary Science Division"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://science.nasa.gov/learning-resources/science-activation/nasa-sees-interns-tackle-real-world-challenges-in-lunar-exploration/</id>
-    <title>NASA SEES Interns Tackle Real-World Challenges in Lunar Exploration</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/learning-resources/science-activation/nasa-sees-interns-tackle-real-world-challenges-in-lunar-exploration/"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">The NASA STEM (Science, Technology, Engineering, and Mathematics) Enhancement in Earth Science (SEES) Internship Program at the University of Texas Center for S…</summary>
-    <source><title>NASA</title></source>
-    <category term="Science Activation"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/</id>
-    <title>NASA Invites Media to Moon Landing Simulation Experience in California</title>
-    <link rel="alternate" type="text/html" href="https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Members of the media are invited to tour a new lunar landing simulator at NASA’s Ames Research Center in California's Silicon Valley on Thursday, Oct. 29, and F…</summary>
-    <source><title>NASA</title></source>
-    <category term="Ames Research Center"/>
-    <category term="Artemis"/>
     <category term="航天"/>
     <category term="科学"/>
   </entry>

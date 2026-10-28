@@ -9,6 +9,60 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/port-houston-container-volumes-jump-11-as-imports-surge-in-september",
+      "url": "https://www.freightwaves.com/news/port-houston-container-volumes-jump-11-as-imports-surge-in-september",
+      "title": "Port Houston container volumes jump 11% as imports surge in September",
+      "content_text": "Port Houston saw rising imports and improving exports in September, helping lift container activity at the Gulf Coast gateway. The post Port Houston container v…",
+      "summary": "Port Houston saw rising imports and improving exports in September, helping lift container activity at the Gulf Coast gateway. The post Port Houston container v…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Maritime",
+        "News",
+        "container shipping",
+        "Gulf Coast ports",
+        "Houston Ship Channel",
+        "Port Houston",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/miami-airport-to-deploy-shared-logistics-platform-for-cargo-community",
+      "url": "https://www.freightwaves.com/news/miami-airport-to-deploy-shared-logistics-platform-for-cargo-community",
+      "title": "Miami airport to deploy shared logistics platform for cargo community",
+      "content_text": "Miami airport is partnering with Kalé to develop a central data exchange portal for the cargo stakeholders. The post Miami airport to deploy shared logistics pl…",
+      "summary": "Miami airport is partnering with Kalé to develop a central data exchange portal for the cargo stakeholders. The post Miami airport to deploy shared logistics pl…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "Air Cargo",
+        "American Shipper",
+        "News",
+        "Technology",
+        "data exchange",
+        "digital supply chain",
+        "miami international airport",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/shipbuilding-central-to-new-us-denmark-maritime-pact",
       "url": "https://www.freightwaves.com/news/shipbuilding-central-to-new-us-denmark-maritime-pact",
       "title": "Shipbuilding central to new US-Denmark maritime pact",
@@ -294,33 +348,6 @@
         "forecast",
         "freighter aircraft",
         "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/cleo-otif-failures-cost-cpg-100-billion",
-      "url": "https://www.freightwaves.com/news/cleo-otif-failures-cost-cpg-100-billion",
-      "title": "Late, short deliveries cost food and CPG makers $100 billion",
-      "content_text": "Cleo's OTIF report models $10 billion to $11 billion in direct costs and $85 billion to $90 billion in indirect losses for North American CPG and food manufactu…",
-      "summary": "Cleo's OTIF report models $10 billion to $11 billion in direct costs and $85 billion to $90 billion in indirect losses for North American CPG and food manufactu…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "American Shipper",
-        "Fulfillment",
-        "Logistics/Supply Chains",
-        "News",
-        "Cleo",
-        "Cleo OTIF Report",
-        "CPG",
-        "CPG retailers"
       ],
       "authors": [
         {

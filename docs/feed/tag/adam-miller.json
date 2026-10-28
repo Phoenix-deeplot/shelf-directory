@@ -1,0 +1,39 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Adam Miller",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/adam-miller.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/knight-swift-ceo-says-cdl-crackdown-could-fuel-lasting-trucking-recovery",
+      "url": "https://www.freightwaves.com/news/knight-swift-ceo-says-cdl-crackdown-could-fuel-lasting-trucking-recovery",
+      "title": "Knight-Swift CEO says CDL crackdown could fuel lasting trucking recovery",
+      "content_text": "Knight-Swift CEO Adam Miller said more restrictive broker-carrier relationships could reshape competition in trucking by favoring established fleets with strong…",
+      "summary": "Knight-Swift CEO Adam Miller said more restrictive broker-carrier relationships could reshape competition in trucking by favoring established fleets with strong…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "News",
+        "Technology",
+        "Trucking",
+        "Adam Miller",
+        "Fuel card company",
+        "Knight Swift",
+        "over the road trucking",
+        "WEX"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}

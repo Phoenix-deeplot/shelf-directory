@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/abortion.xml</id>
+  <title>公共目录 · #Abortion</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/abortion.xml"/>
+  <updated>2026-10-27T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://slate.com/news-and-politics/2026/10/supreme-court-abortion-crime-indiana-courts.html?via=rss</id>
+    <title>Several States Made It a Crime to Talk About Abortion. Will Courts Now Enforce It?</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/news-and-politics/2026/10/supreme-court-abortion-crime-indiana-courts.html?via=rss"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Since the fall of Roe v. Wade, states that ban abortion have struggled to enforce their laws. They may have found a new way.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Abortion"/>
+    <category term="Jurisprudence"/>
+    <category term="Supreme Court"/>
+    <category term="Judiciary"/>
+    <category term="South Dakota"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+</feed>

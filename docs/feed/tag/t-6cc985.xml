@@ -4,259 +4,242 @@
   <title>公共目录 · #产品</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-6cc985.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/zhichang/6484792.html</id>
-    <title>黄仁勋的“AI 工厂”，对产品设计意味着什么？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/zhichang/6484792.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">黄仁勋在 GTC Berlin 2026 提出 AI 工厂：把能源、芯片、计算系统、网络、存储、冷却组织进同一套生产体系，持续制造可被 AI 应用消费的 Token，正卡在“五层蛋糕”的第三层。 最近，黄仁勋在 GTC Berlin 2026 提出了一个新概念：AI 工厂，这不只是一次技术概念升级，也是在重新定义 AI…</summary>
+    <id>https://www.woshipm.com/operate/6485291.html</id>
+    <title>远程评标系统落地复盘：别把评标系统等同于视频会议</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/operate/6485291.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">电子化招投标已是大势，不少B端产品在搭建远程招标能力时，很容易踩一个大坑：直接复用通用视频会议承载远程评标业务。本文站在产品经理视角，复盘远程评标系统的业务逻辑、评估维度、落地步骤以及常见误区，给政企招采类产品的设计和集成工作提供可复用思路。 一、业务背景：为什么招采场景需要独立的远程评标能力 电子化招投标已经成为政府…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="职场攻略"/>
-    <category term="AI工厂"/>
-    <category term="数据中心"/>
-    <category term="英伟达"/>
-    <category term="设计思维"/>
+    <category term="产品运营"/>
+    <category term="业务知识"/>
+    <category term="经验总结"/>
+    <category term="视频会议"/>
+    <category term="评标系统"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/share/6484770.html</id>
-    <title>香菜退完退冰柜？仅退款真的该退场了！平台不能总让老实商家当冤大头！</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484770.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">仅退款的风向变了。当买家对一台价值4070元的冰柜点下仅退款并声称已销毁，商家却跨省发现冰柜正插电使用，这场荒诞剧撕掉了品类特殊性的遮羞布。平台规则开始纠偏，但商家维权仍步履维艰。本文从冰柜事件切入，剖析仅退款规则漏洞与商家保护困境，探讨电商生态如何回归公平。 两台冰柜，总价4070块，买家在平台点了“仅退款”，转头告…</summary>
+    <id>https://www.woshipm.com/share/6485166.html</id>
+    <title>设计师与产品经理的消费路径：记录并提交1条6字段快照</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6485166.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">设计师如何从被动遵守规则转向主动提供证据？本文提出最小可行路径：将真实困惑按6字段记录为语义快照，5分钟完成一次提交。通过机器预检与评审反馈，个人直觉逐步沉淀为组织规则，让设计判断不再流失于会议室。 我在前一篇《从”被动遵守”到”主动走查”》讲了设计师与产品经理如何消费YAML契约与编译产物，从语义快照成为契约的原材料…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="个人随笔"/>
-    <category term="仅退款"/>
-    <category term="商家权益"/>
-    <category term="案例分析"/>
-    <category term="电商平台"/>
-    <category term="规则漏洞"/>
+    <category term="YAML契约"/>
+    <category term="经验总结"/>
+    <category term="设计系统"/>
+    <category term="设计走查"/>
+    <category term="证据驱动设计"/>
+    <category term="语义快照"/>
     <category term="产品"/>
-    <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6484782.html</id>
-    <title>这个免费的 Skill，用 Opus 5.5整理了 98 种视频风格提示词！</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484782.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">一个叫 lemo-opuscar 的 Skill 把视频风格提示词整理成清单，往下拉点开【All 98 styles】，就能看到 98 种风格都在里面了，2D、2.5D 和 3D 全覆盖，复制就能直接用。 前段时间很火的用 Opus5.5 做代码视频。 后面发现很多人都弄了各种风格视频，我就想把各种风格的视频提示词整理…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="Claude Opus"/>
-    <category term="内容创作"/>
-    <category term="提示词工程"/>
-    <category term="视频生成"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6484704.html</id>
-    <title>轻松学会用WorkBuddy自动控制浏览器</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484704.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">WorkBuddy 把浏览器自动化整合进客户端，装好 Chrome 扩展、打开开关，就能让它自己搜站、点开视频点赞。作者用一次六分钟、19.84 积分的小任务走通了整条链路。 没记错的话，WorkBuddy算是在5.8.2版本的时候，上线了浏览器自动化的功能，之前还是通过安装Broswer Skill来实现控制浏览器对…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI应用"/>
-    <category term="Chrome"/>
-    <category term="CodeBuddy"/>
-    <category term="WorkBuddy"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6484455.html</id>
-    <title>让公司员工测试新品，是我见过最蠢的市场调研</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484455.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">新品先给员工试吃试用、包装方案内部投票，看着省了调研费，其实是一场职场情商测试。员工不敢说真话，判断也未必准，作者把这套自欺拆开讲，也给了替代的验证思路和判断标准。 我发现，很多公司在推出一款新产品之前，都喜欢让自己公司的员工，先替消费者试一试。 比如食品饮料公司研发了一款新品，先给员工尝尝，看看口味怎么样。 日化公司…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="个人观点"/>
-    <category term="企业管理"/>
-    <category term="经验分享"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6484796.html</id>
-    <title>给自己搭一个 AI 第二大脑：从收集资料到写出文章，手把手教你做</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484796.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Obsidian 的价值在开放：以本地 Markdown 文件为基础，配上双向链接、关系图谱和 Bases 数据库，再让 Agent 读写，整理和维护都能交出去，人只管内化。 用了这么多的个人知识库管理工具，到最后我发现Obsidian还是最好用的！ 核心原因是什么呢？它对AI非常友好！ 只不过Obsidian的上手门…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="AI Agent"/>
-    <category term="obsidian"/>
-    <category term="个人成长"/>
-    <category term="知识管理"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6484804.html</id>
-    <title>每人每年140万美元，Anthropic用5300人疯狂给未来加注</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484804.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Anthropic 上半年只有约四分之一算力用于服务付费客户，其余绝大部分投进下一代模型的研发；不可取消的算力承诺半年涨到 4.9 倍，人均一年的人员费用约 140 万美元。 昨天，Anthropic向SEC交了上市招股书，如果他们今年成功完成上市，据报道市值估计在1.5-2万亿美元之间，会超过今年的SpaceX，成为…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="Anthropic"/>
-    <category term="云计算"/>
-    <category term="商业模式"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/embodied/6484709.html</id>
-    <title>机器人集合店：有流量，钱难赚</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/embodied/6484709.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">机器人集合店越开越多，一年时间从深圳首店扩到全国二十余家、签约覆盖 23 座城市；商场里围观的人挤成一片，真正掏钱的却少，卖体验、租赁还是研学，这笔账目前还不好算清楚。 商场，迎来一批新的常驻嘉宾。 机器狗翻跟头、人形机器人跳舞，围观的人群举着手机拍个不停，孩子们挤到前排，想凑近摸一摸这些新奇的“家伙”。这样的场景越来…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="具身智能"/>
-    <category term="京东"/>
-    <category term="新零售"/>
-    <category term="智元"/>
-    <category term="案例分析"/>
-    <category term="行业观察"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/marketing/6484729.html</id>
-    <title>未来品牌宣言：AI之上，重启营销雄心</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/marketing/6484729.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">彼得·菲斯克在《未来品牌宣言》里把话说得很直：营销真正的考验是战略而不是技术。七个章节里，他谈智能体替客户做决定之后，品牌的战场如何从触达转向定义市场，边界又为何在消融。 品牌的未来正在被重写，营销也不例外。 AI正在改变人们发现、评估和购买产品的方式；技术是人类的催化剂，行业边界在消融，新的竞争者从意想不到的方向闯入…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="营销推广"/>
-    <category term="内容营销"/>
-    <category term="商业模式"/>
-    <category term="案例分析"/>
-    <category term="行业观察"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6484806.html</id>
-    <title>别只用 Claude 聊天：三块能力搭成长期工作流</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484806.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">多数人用 Claude 只当搜索框：问一句、拿一段、关页面。Projects 用来沉淀资料和规则，Artifacts 承载可迭代的产物，长上下文同时读大量材料，三块拼起来才是工作流。 很多人第一次打开 Claude，做的事和使用搜索框没什么区别：问一个问题，拿到一段回答，然后关闭页面。下次遇到同类任务，又重新粘贴背景、…</summary>
+    <id>https://www.woshipm.com/ai/6485306.html</id>
+    <title>腾讯做了一个Motus AI：90+游戏接入，一站式生产游戏3D动画资产</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485306.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">腾讯游戏把3D角色动画的全链路做成一个独立平台。Motus AI 已接入90余个内外部项目，在《和平精英》《王者荣耀》等游戏里落地，把骨骼蒙皮、动作生成、穿模诊断这些重复劳动收进同一个工作台。 腾讯游戏旗下的公共技术线做了一个Motus AI独立平台，Motus AI聚焦3D角色动画全链路核心技术，构建贯穿角色动画生产…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
     <category term="AI产品"/>
-    <category term="Claude"/>
-    <category term="经验分享"/>
+    <category term="功能分析"/>
+    <category term="腾讯"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/share/6484720.html</id>
-    <title>再过几个月，中国互联网将告别14亿人口市场</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484720.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">2025 年末全国人口 140489 万，离 14 亿只剩约 489 万的缓冲，而负增长已连续四年且在扩大。分母被抽走后，平台只能从存量里切，或者往单个用户的使用时长上继续挖。 “14亿人的大市场”，这句话在中国互联网的叙事里被使用了太多年。它是BP里的市场规模测算，是平台向品牌方报价时的底层分母，是“渗透率还有空间”…</summary>
+    <id>https://www.woshipm.com/share/6485105.html</id>
+    <title>腾讯上线SimulMT，一个实时同声传译产品</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6485105.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Hy-SimulMT 支持中英双向语音到语音翻译，主打低延迟、高质量和实时克隆音色，已开源并接入腾讯 Hy 翻译 App。与持有 CATTI 证书的真人口译对比，质量能达到专家水平，速度往往更快。 腾讯又上线并开源了一个新产品，Hy-SimulMT 大模型。 这是一个实时同声传译大模型，由腾讯混元团队推出。 支持中文和…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="个人随笔"/>
-    <category term="QuestMobile"/>
+    <category term="AI产品"/>
+    <category term="功能分析"/>
+    <category term="腾讯"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/it/6485027.html</id>
+    <title>红果、Seedance 与字节：短剧观察札记</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6485027.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">红果短剧三年做到3.68亿月活，靠的不是内容，而是把短剧从付费改成免费+广告，让字节从收费站变成终点站。Seedance的真正价值也不是垄断生产，而是让供给过剩、单部作品贬值，把议价权推向平台。本文拆解红果的商业模式、AI工具的战略角色，以及渠道与内容合流的历史参照与真实风险。 先校准一个说法 字节确实同时握住了短剧的…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="业界动态"/>
+    <category term="Seedance"/>
+    <category term="免费模式"/>
     <category term="商业模式"/>
-    <category term="行业分析"/>
+    <category term="字节跳动"/>
+    <category term="短剧"/>
+    <category term="红果短剧"/>
+    <category term="产品"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/embodied/6485117.html</id>
+    <title>机器人产品经理，别只想着替代人</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/embodied/6485117.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">机器人跳舞、跑步的视频越来越多，但技术炫技不等于产品价值。河南矿山引进焊接机器人的案例提醒我们：发展机器人是为了让人轻松挣钱，而非证明机器多厉害。本文从产品经理视角，拆解机器人落地的三个关键问题，探讨如何让技术真正服务于人。 最近，河南矿山集团的崔培军谈到机器人时，有句话让我印象很深：引进焊接机器人，是为了把高强度、高…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="具身智能"/>
+    <category term="产品思维"/>
+    <category term="人机协作"/>
+    <category term="场景落地"/>
+    <category term="机器人"/>
+    <category term="案例分析"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6485242.html</id>
+    <title>本地生活：云连锁 VS 轻连锁，小店VS 大店</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6485242.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">靠小店快速铺开的云连锁正撞上天花板：总部把客户带到门店，门店核销完就见底，接不住二次经营。做了几年车咖之后作者看清，从流量到经营这一步转向，才是云连锁变成轻连锁的真正原因。 昨晚在群里聊了大店与小店，以及大店存在的机会，今天继续思考云连锁以及云连锁的变化——轻连锁。 过去几年做车咖，我们合作了大量中小门店。这些门店缺少…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="个人观点"/>
+    <category term="云连锁"/>
+    <category term="本地生活"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/share/6484669.html</id>
-    <title>从医疗IT转做商协会系统，我把私有化部署改成了SaaS</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484669.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">从医疗IT转战商协会数字化，作者用两年时间踩遍了私有化部署的坑，最终靠SaaS模式实现一天配置一家商会。本文复盘了商协会运营的真实痛点、跨商会互联的产品逻辑，以及为什么这个窄赛道必须把需求、设计、开发全攥在自己手里。 我在医疗IT软件这个行业做了很多年。这几年明显感觉卷得厉害，项目越做越薄，人越耗越多。我就想找个偏一点…</summary>
+    <id>https://www.woshipm.com/ai/6485100.html</id>
+    <title>月下载达1100万，霸榜东南亚多国，越南厂商的爆款新游什么来头？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485100.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">一个日本声优玩 Mimic Party 的视频播放破 1500 万，带火了这场由 AI 给模仿打分的声音派对。免费版 MemeMix Challenge 上架不到一个月拿下近 1100 万下载，登顶休闲游戏免费榜。 两周前，一个日本配音演员玩《Mimic Party》的实机视频在YouTube上传后，至今播放量已经突破…</summary>
     <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="SaaS"/>
-    <category term="商协会"/>
-    <category term="数字化"/>
-    <category term="私有化部署"/>
-    <category term="经验总结"/>
-    <category term="跨商会互联"/>
+    <category term="AI应用"/>
+    <category term="Google Play"/>
+    <category term="Steam"/>
+    <category term="YouTube"/>
     <category term="产品"/>
+    <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/operate/6484706.html</id>
-    <title>中国顶流博主，横扫海外社交媒体</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/operate/6484706.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">一条 23 分钟的英文评测，把 iPhone Duo 折了一万次、冻了一千次，播放超过五千七百万，粉丝从零涨到三百万。何同学更早布局，中国博主正带着成熟的内容能力走向海外。 10 月 22 日凌晨，一条 23 分钟的英文评测出现在 X 上。一个中国团队把一台iPhone Duo放在常温下开合一万次，又丢进零下 20 度…</summary>
+    <id>https://www.woshipm.com/ai/6485240.html</id>
+    <title>按住 Ctrl 拖一下就转完：狂揽近 1.4 万星，它可能是目前最好最全的格式转换器</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485240.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">多数人转格式还是上传到在线网站，顶着广告等结果。开源工具 Filee 换了思路：按住 Ctrl 把文件拖起来，光标旁就弹出一圈只列可行目标的格式圆环，松手即完成，266种格式全在本地离线跑完，上线一个多月接近14k Star。 平时转换文件格式，大多数人的习惯流程都很折腾：碰到不认识的后缀，先去搜索引擎找在线转换网站，…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="产品运营"/>
-    <category term="YouTube"/>
-    <category term="内容创作"/>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="Github"/>
+    <category term="个人观点"/>
+    <category term="功能分析"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6484978.html</id>
+    <title>品牌没有自嘲的资格</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6484978.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">小鹏发布会用“老登”一词本想拉近年轻人，却翻车了。本文从《弱者的武器》和弗洛伊德笑话理论切入，犀利指出：当品牌借用弱者口吻嘲讽消费者，自嘲就变成了他嘲。更荒诞的是，被冒犯的正是它想卖车给的那群“刚生孩子的95后”。品牌自嘲的边界在哪里？谁该为借来的“敢说”买单？ 自嘲是弱者的武器 “老登”这个词流行起来的土壤，是年轻人…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="品牌营销"/>
     <category term="案例分析"/>
-    <category term="自媒体"/>
+    <category term="热点事件"/>
+    <category term="用户洞察"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/chuangye/6483407.html</id>
+    <title>千万用户也救不了它：AI 陪聊明星 Character.AI 申请破产</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6483407.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">仍有约 1200 万活跃用户的 Character.AI 在 10 月 12 日申请破产保护，每月亏损 800 万至 900 万美元，迪士尼出价 2000 万美元求部分技术授权。同样的生意，CHAI 做到 1.2 亿美元年化收入，差别在账怎么算。 前段时间有个大新闻，一家曾经估值 10亿美元、连 Google 都花 2…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="创业学院"/>
+    <category term="AI应用"/>
+    <category term="产品分析"/>
+    <category term="商业模式"/>
     <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
+    <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6484790.html</id>
-    <title>Soul将推出Loxinity，为自研语音、视觉与多模态交互产品</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484790.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Soul 将推出语音合成产品 Loxinity，主打强活人感，支持单人配音、多人对话，配套音色克隆、音色设计，还开放 API；比起字音标准，它更看重对话里的语气停顿和情绪起伏。 Soul将推出专为交互场景打造、超具活人感的语音合成产品“Loxinity（洛希无限）”，和市面上面向配音、短视频的TTS不同，这套模型从底层…</summary>
+    <id>https://www.woshipm.com/marketing/6484810.html</id>
+    <title>产品经理定价指南：7步从目标到结果，附特斯拉/比亚迪/戴森案例</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/marketing/6484810.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">定价策略的本质是三定：定战略+定用户+定生态位。战略决定经营目标，用户决定愿意付多少钱，生态位决定竞争位置，价格只是杠杆；不同的价格，意味着不同的目标用户和利润结构。 价格是交易条件，定价是利益取舍，定价策略是服务经营目标的战略选择。 定价策略的本质有“三定”：定战略+定用户+定生态位。 定战略：确定企业的经营目标，是…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="营销推广"/>
+    <category term="产品策略"/>
+    <category term="商业模式"/>
+    <category term="定价策略"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6485237.html</id>
+    <title>WorkBuddy × Flova ：快速搞定20张产品图+宣传视频</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485237.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">双十一前最紧的活，是一次性交齐20张场景图和一条15秒短视频。文中用一台无品牌桌面咖啡机走完整条链路：在 WorkBuddy 里提出需求，由 Flova 生成四组各五张、2048×2048 的图片，再把文件与视频收回来逐项核对。 10月15日，2026年抖音商城双十一好物节启动。看到这个时间点我想到的是大促期间那些需要…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="Soul"/>
-    <category term="数字人"/>
-    <category term="社交产品"/>
-    <category term="语音合成"/>
+    <category term="AI产品"/>
+    <category term="Flova"/>
+    <category term="WorkBuddy"/>
+    <category term="内容创作"/>
     <category term="产品"/>
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6484786.html</id>
-    <title>Claude Code 桌面化：把 Agent 体验做成可接管的工作台</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484786.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Claude Code 桌面版把多会话、网页预览、代码差异和终端放进同一个窗口，新建会话从 837 毫秒压到 347 毫秒；难点不是多一个界面，而是让用户看清模型在改什么、哪里需要自己接管。 AI 编程工具一旦离开终端，难点就不再只是“多一个窗口”。它需要把多个会话、网页预览、代码差异、终端输出和人工确认组织成一个可连…</summary>
+    <id>https://www.woshipm.com/ai/6484731.html</id>
+    <title>AI短剧：流水线上的打工人不得不说的秘密</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484731.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">短剧用户规模已达8.51亿，AI短剧占比超九成，千亿市场背后是精心设计的情绪工程。本文深入AI短剧创业团队，揭秘从黄金三秒到每15秒一个爽点的成瘾机制，以及从业者在流量流水线上的真实生存状态。 晚上12点，你决定刷完这一集就睡： 新郎抛下婚礼去机场接白月光，新娘转头就赌气让前来跑腿的快递小哥去接亲，并且直接拉上假新郎去…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI 编程"/>
-    <category term="Claude Code"/>
-    <category term="产品体验"/>
-    <category term="桌面端"/>
+    <category term="AI短剧"/>
+    <category term="内容创作"/>
+    <category term="情绪设计"/>
+    <category term="短剧"/>
+    <category term="红果短剧"/>
+    <category term="行业观察"/>
     <category term="产品"/>
-    <category term="运营"/>
   </entry>
   <entry>
     <id>https://www.producthunt.com/products/apple</id>
@@ -300,7 +283,7 @@
     <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/pulsedev"/>
     <updated>2026-10-26T00:00:00Z</updated>
     <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Click any UI bug on localhost. Your AI agent fixes it. Discussion | Link</summary>
+    <summary type="text">Click any UI bug on localhost and your AI agent fixes it Discussion | Link</summary>
     <source><title>Product Hunt — The best new products, every day</title></source>
     <category term="产品"/>
     <category term="科技"/>
@@ -349,6 +332,30 @@
     <updated>2026-10-26T00:00:00Z</updated>
     <published>2026-10-26T00:00:00Z</published>
     <summary type="text">Hand your financial admin to your AI agent Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/openai</id>
+    <title>GPT-6.1 Terra</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/openai"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Fast, capable computer use at half the price Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/contextgem</id>
+    <title>ContextGem 1.0</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/contextgem"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Decision models join LLMs to extract data from documents Discussion | Link</summary>
     <source><title>Product Hunt — The best new products, every day</title></source>
     <category term="产品"/>
     <category term="科技"/>
@@ -511,18 +518,6 @@
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.producthunt.com/products/papermark-2</id>
-    <title>Papermark Data Rooms</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/papermark-2"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">Secure data rooms your AI agents can run. Live in &lt; 60 sec. Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
     <id>https://www.producthunt.com/products/loqui-2</id>
     <title>Loqui</title>
     <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/loqui-2"/>
@@ -667,12 +662,12 @@
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.producthunt.com/products/tower</id>
-    <title>git-flow-next</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/tower"/>
+    <id>https://www.producthunt.com/products/minimax-4</id>
+    <title>MiniMax M3.1 Flash</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/minimax-4"/>
     <updated>2026-10-19T00:00:00Z</updated>
     <published>2026-10-19T00:00:00Z</published>
-    <summary type="text">Your favorite Git workflow. Reimagined. Discussion | Link</summary>
+    <summary type="text">MiniMax’s Flash model, 3x faster and 70% cheaper for agents Discussion | Link</summary>
     <source><title>Product Hunt — The best new products, every day</title></source>
     <category term="产品"/>
     <category term="科技"/>

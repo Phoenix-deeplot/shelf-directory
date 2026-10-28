@@ -2,6 +2,57 @@
  "id": "nasa-gov",
  "items": [
   {
+   "url": "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/",
+   "title": "APOD: 2026 October 28 – The Mutual Occultation of Ganymede and Io",
+   "summary": "APOD Science APOD APOD: 2026 October 28 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the…",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [
+    "APOD"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://science.nasa.gov/earth/earth-observatory/the-land-of-the-standing-up-rocks/",
+   "title": "The Land of the Standing-Up Rocks",
+   "summary": "A national monument since the 1920s, Chiricahua is America’s newest national park.",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [
+    "Earth Observatory",
+    "Landsat 9",
+    "Topography"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/",
+   "title": "NASA Invites Media to Crew Completion of Yearlong Mars Simulation",
+   "summary": "The four volunteers who lived and worked in a simulated NASA Mars mission for more than a year will exit their habitat on Saturday, Oct. 31, after 378 days of i…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [
+    "CHAPEA Mission 2",
+    "Human Research Program",
+    "Johnson Space Center",
+    "Missions"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/",
+   "title": "NASA’s Neo Surveyor Sunshade",
+   "summary": "A technician inspects the large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission in this image released on Oct. 26, 2026. The sunshade structure, whi…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/",
    "title": "How a Johnson Mentor Shapes the Next Generation of NASA Talent",
    "summary": "When Rice University student Malvika Bhardwaj asked her mentor Daniel Cohen, a Guidance, Navigation & Control (GN&C) engineer at NASA’s Johnson Space Center, wh…",
@@ -80,53 +131,6 @@
    ],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/",
-   "title": "Solar Cells Inspected on NASA’s NEO Surveyor",
-   "summary": "Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission is inspected by a technician at BAE Systems Space & Mission Systems in Boulder…",
-   "image": "",
-   "date": "2026-10-26",
-   "tags": [
-    "Photojournal"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://science.nasa.gov/learning-resources/science-activation/nasa-sees-interns-tackle-real-world-challenges-in-lunar-exploration/",
-   "title": "NASA SEES Interns Tackle Real-World Challenges in Lunar Exploration",
-   "summary": "The NASA STEM (Science, Technology, Engineering, and Mathematics) Enhancement in Earth Science (SEES) Internship Program at the University of Texas Center for S…",
-   "image": "",
-   "date": "2026-10-26",
-   "tags": [
-    "Science Activation"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california/",
-   "title": "NASA Invites Media to Moon Landing Simulation Experience in California",
-   "summary": "Members of the media are invited to tour a new lunar landing simulator at NASA’s Ames Research Center in California's Silicon Valley on Thursday, Oct. 29, and F…",
-   "image": "",
-   "date": "2026-10-26",
-   "tags": [
-    "Ames Research Center",
-    "Artemis"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.nasa.gov/image-article/nasas-x-59-aircraft-and-test-pilot/",
-   "title": "NASA’s X-59 Aircraft and Test Pilot",
-   "summary": "NASA test pilot Mike Lippert poses for a photo ahead of his first time flying the agency’s X-59 quiet supersonic research aircraft on Oct. 21, 2026. The X-59 ha…",
-   "image": "",
-   "date": "2026-10-26",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -140,9 +144,9 @@
  },
  "fails": 0,
  "kind": "feed",
- "parser": 2,
+ "parser": 3,
  "status": "ok",
  "error": "",
- "etag": "\"680d71c7131f401d732a03d2eb809017\"",
- "modified": "Tue, 27 Oct 2026 07:07:51 GMT"
+ "etag": "\"00a6dc5c11b0ba4e2b7f868712f5af4e\"",
+ "modified": "Wed, 28 Oct 2026 04:05:00 GMT"
 }
