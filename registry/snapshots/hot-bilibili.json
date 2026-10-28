@@ -1,0 +1,121 @@
+{
+ "id": "hot-bilibili",
+ "items": [
+  {
+   "url": "https://www.bilibili.com/video/BV1kMxM6FECM",
+   "title": "旗舰手机芯片大横评：苹果高通发哥玄戒谁最强？",
+   "summary": "第 1 名 · 播放 32.3 万 · 极客湾Geekerwan",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "video"
+  },
+  {
+   "url": "https://www.bilibili.com/video/BV1nbnB68E3E",
+   "title": "循环歌单【致童年の小曲】“所以呢，你也成为苦瓜大王了吗？”",
+   "summary": "第 2 名 · 播放 110.6 万 · FOCAL音梦空间",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "video"
+  },
+  {
+   "url": "https://www.bilibili.com/video/BV1bPno6bEBZ",
+   "title": "灭霸与钢铁侠的校园生活",
+   "summary": "第 3 名 · 播放 31.7 万 · 赣邸",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "video"
+  },
+  {
+   "url": "https://www.bilibili.com/video/BV1n4HG6fEXg",
+   "title": "第9期（上）：收官高能局！阿瓦隆烧脑智斗对决【时差五小时3】",
+   "summary": "第 4 名 · 播放 65.6 万 · 综艺哔哔机",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "video"
+  },
+  {
+   "url": "https://www.bilibili.com/video/BV1rCHF6bEBp",
+   "title": "【真实锐评】AL一号种子16强：开除必须开除！这简直就是奇耻大辱 ！",
+   "summary": "第 5 名 · 播放 94.0 万 · 真实电竞",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "video"
+  },
+  {
+   "url": "https://www.bilibili.com/video/BV19HHw6HE68",
+   "title": "张雪米饭问题已经解决，让天下没有难吃的米饭！",
+   "summary": "第 6 名 · 播放 140.0 万 · 老乡鸡",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "video"
+  },
+  {
+   "url": "https://www.bilibili.com/video/BV1UYHF6KEte",
+   "title": "姆巴佩发表涉华不当言论遭批",
+   "summary": "第 7 名 · 播放 120.6 万 · RT今日俄罗斯",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "video"
+  },
+  {
+   "url": "https://www.bilibili.com/video/BV1SXxN6aEyg",
+   "title": "最逆天的一集，一号种子16强 一场不胜创造历史【火兰短报15】",
+   "summary": "第 8 名 · 播放 37.1 万 · 火兰朋克",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "video"
+  },
+  {
+   "url": "https://www.bilibili.com/video/BV1zUnZ67EMY",
+   "title": "陕视评：判决未至，定论先入教材 武大图书馆事件反思：公共出版物不能越司法“断案” （策划：李彤 任超 评论员：刁坤 摄像：姬佩瑶）",
+   "summary": "第 9 名 · 播放 47.3 万 · 陕视新闻",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "video"
+  },
+  {
+   "url": "https://www.bilibili.com/video/BV1zDnt6eELb",
+   "title": "财神窦占龙 第13集 杀狼【8月国创】",
+   "summary": "第 10 名 · 播放 23.1 万 · 哔哩哔哩国创",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "video"
+  }
+ ],
+ "shelf": {
+  "name": "B 站热门视频",
+  "description": "B 站热门视频：平台当前的榜单（排名、标题、热度和平台自己的链接），由知树阅读按需生成，不保存任何内容。",
+  "home": "https://www.bilibili.com/v/popular/all",
+  "lang": "zh",
+  "license": "",
+  "image": "",
+  "tags": []
+ },
+ "fails": 0,
+ "kind": "feed",
+ "parser": 2,
+ "status": "ok",
+ "error": "",
+ "etag": "",
+ "modified": ""
+}

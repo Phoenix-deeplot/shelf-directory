@@ -96,7 +96,7 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
 
 ### B4. 热榜服务（`api/hot.py`，不用任何设置就能用）
 
-“热榜网站”做的事：向平台**自己网页用的那个小接口**（和你在浏览器里打开那个榜单页时发出的请求一样，带浏览器的请求头）要一份 JSON（或网页），取出名次、标题、热度和链接，几分钟缓存一下再转给你；**不读、不存任何文章正文**。主站的“公共目录 → 热榜”页读的就是它（六栏、每栏几个平台，点开是平台自己的页面，是文章的在站内阅读器里读）；同一份榜单也是一份普通的 RSS，所以读者点“订阅这个榜单”就能把它放进书架，之后每次更新就是平台当前的榜单：条目标题是榜上的标题，说明里写“第 N 名 · 热度”。和提交服务、更新服务在同一个 Vercel 项目里，部署完就有。
+“热榜网站”做的事：向平台**自己网页用的那个小接口**（和你在浏览器里打开那个榜单页时发出的请求一样，带浏览器的请求头）要一份 JSON（或网页），取出名次、标题、热度和链接，几分钟缓存一下再转给你；**不读、不存任何文章正文**。主站的“公共目录 → 热榜”页读的就是它（六栏、每栏几个平台，点开的内容尽量在站内显示，见下面“站内显示”）；同一份榜单也是一份普通的 RSS，所以读者点“订阅这个榜单”就能把它放进书架，之后每次更新就是平台当前的榜单：条目标题是榜上的标题，说明里写“第 N 名 · 热度”。和提交服务、更新服务在同一个 Vercel 项目里，部署完就有。
 
 - `GET /api/hot` 返回现在有哪些栏、哪些平台（JSON，允许任何页面读取：`columns`，以及每个平台的 `id`、`name`、`name_en`、`home`、`lang`、`col`、`ranked`，还可能有 `via`（榜单其实来自哪里）和 `read`（点开的是文章，页面可以在阅读器里读））；`GET /api/hot?p=github&n=30` 返回那一个榜的 RSS，`&format=json` 是 JSON（多一个 `updated`，服务读到它的时间）。结果在每个暖实例里缓存 3 分钟，CDN 缓存 10 分钟，平台读不到时最长一小时内用上一份。
 - **六栏、五十多个平台，全部默认开启**（站长用 `HOT_DISABLE` 关）：
@@ -106,6 +106,8 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
   - **国际**：Google 热搜（一个榜，按国家）、维基百科阅读榜（英文 / 中文）、BBC 国际、BBC 中文、法广中文、半岛电视台、卫报国际、Mastodon 热门链接；
   - **AI 与学术**：Hugging Face 每日论文 / 热门模型、arXiv cs.AI / cs.CL、OpenAI 动态、量子位、MIT Technology Review AI、TechCrunch AI、Nature、Science、Phys.org；
   - **读书与影音**：微信读书飙升榜 / **小说榜**、**起点中文网 / 起点女生网 / 纵横中文网 / 推书君的网文榜**（经 tophub.today）、Open Library 近期热门、Project Gutenberg 热门公版书、网易云音乐飙升榜、QQ 音乐飙升榜、Apple 播客榜（中国 / 美国）、Apple Music 最多播放、Steam 热销、TapTap 热门游戏和豆瓣新片榜（经 tophub.today）、YouTube 热门（要 key，见下）。
+- **后加的英文来源**（都逐个试过：文章能在站内阅读器里读出正文）：科技与开发 + The Verge、Ars Technica、TechCrunch、Hackaday、Slashdot；国际 + DW 德国之声（英文）、France 24（英文）、The Conversation；AI 与学术 + Quanta 杂志、科学美国人、新科学家；读书与影音 + Longreads、Psyche、Pitchfork、Variety、Letterboxd 影评、Polygon。它们是订阅源，没有名次，页面按时间排。没试通的（NPR、Atlas Obscura、Kottke、IGN、BBC 英文版的页面读不出正文，Reddit / WSJ / FT 不让读）没加；BBC 英文、Bloomberg、OpenAI、Science 这几个页面读不出正文，点开显示订阅源自带的摘要。
+- **站内显示（`hotdetail.py`）**：点一行不再把读者送走，能显示的在页面里显示——B 站、YouTube、网易云的视频 / 歌曲用平台**自己允许别的网站嵌入的播放器**在窗口里播（`player.bilibili.com`、`youtube-nocookie.com`、`music.163.com/outchain`，页面里的 `embedOf` 按地址认）；V2EX 的主题（正文加回复）、知乎日报的文章、GitHub 仓库的 README、Apple 播客榜的节目（列出最新几集，点一集就在播放条里播）由服务取回文字，在阅读器里显示；微博、抖音、知乎、今日头条、Google 热搜这类“一行只是一句话”的，显示一张卡片：标题、热度、平台给的摘要和图，再加**这句话相关的新闻**（来自 Bing 新闻的 RSS，每条能点开在阅读器里读）。接口：`GET /api/hot?detail=<那一行的地址>` 返回 `{"ok", "kind": "html"|"md"|"podcast", "title", "content"（已清理的 html）或 "md" 加 "base"，或 "feed"（播客的订阅源）, "image", "meta"}`；`GET /api/hot?related=<这句话>&lang=zh|en` 返回 `{"items": [{"title","url","source","date","snippet"}]}`。请求选不了主机：只有 V2EX 主题、知乎日报文章、GitHub 仓库、Apple 播客这几种地址形状会被取，别的一律 404，什么也不取。榜单的每一行也可能带 `img`（封面）和 `body`（平台给的摘要）。`HOT_DETAIL=0` 关掉前一个，`HOT_RELATED=0` 关掉后一个。没有页面能显示的平台（微博 / 抖音 / 小红书的正文、知乎的回答、公众号、QQ 音乐）平台自己不让，也不能转载，所以卡片的最下面始终有“去原站看”。
 - **榜单从哪来**：平台自己的网页接口（微博、知乎、抖音、B 站、掘金、V2EX、GitHub、Hacker News、网易云、QQ 音乐、微信读书、同花顺……）；**平台自己的 RSS / Atom**（新闻、博客、arXiv……）——订阅源没有名次，页面按时间排、写日期；**tophub.today / rebang.today** 这两个已经在整理榜单的网站，用来补没有公开接口的几个（公众号、雪球、小红书、起点等网文榜、虎扑、36 氪、TapTap、豆瓣新片），页面上会写“数据来自 …”；它们对同一个地址的请求有限制，所以这几个榜在每个暖实例里 10 分钟才读一次（别的 3 分钟），读不到时用最长一小时内的上一份；站长自己加的（下面）。
 - **按国家的榜（YouTube 热门、Google 热搜）跟着读者走**：请求可以带 `&region=JP`（两个字母的国家 / 地区代码）；页面一开始请求的是 `&region=auto`，服务按这个顺序决定：① **读者访问地址所在的国家**（Vercel 给函数的请求头 `x-vercel-ip-country`，只用于这一次回答，不保存、不记录）；② **浏览器语言里的国家**（`Accept-Language`：`ja-JP` → 日本、`zh-TW` → 台湾、`de-AT` → 奥地利，只有语言的 `fr` / `ko` / `ja` 等按常见国家算）；③ 站长设的 `YOUTUBE_REGION`；④ 美国。这个国家 YouTube / Google 没有榜时（比如中国大陆）顺延到下一条。读者在页面上的“地区”下拉里自己选了就以选的为准（只记在这个浏览器里），订阅这个榜单时订阅的是当时显示的那个国家（订阅地址里带 `&region=…`，不会跟着读者变）。依赖读者地址 / 语言的回答带 `Cache-Control: private`，CDN 不会拿给别人；明确写了国家的回答照常缓存。每个国家各缓存各的（3 分钟）。国家名由浏览器按页面语言显示。
 - **要 key 的榜（YouTube 热门）怎么配**：
@@ -125,9 +127,25 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
   ```
   `feed` 是任何 RSS / Atom 地址；`rsshub` 是 RSSHub 的路由，**要先设环境变量 `RSSHUB_BASE=https://你自己的-rsshub-地址`**（没设就不显示；公共 RSSHub 实例常被限流，最好自己部署一个）——没有公开榜单接口的平台（X、Reddit、微博话题……）可以这样经 RSSHub 转成榜单；`tophub` 是 tophub.today 上那个榜的节点编号（榜单页地址 `https://tophub.today/n/…` 末尾那一段）。id 只能用小写字母、数字和连字符，不能和内置的重名；写错的一项被跳过，不影响别的。
 - **关掉**：`HOT_DISABLE=weibo,douyin`（逗号分隔的榜单编号），关掉的返回 404，页面上也不出现；一栏里一个榜都不剩，这一栏也不出现。
-- **这些是平台网页自己的接口，不是公开的、有文档的 API**：可能随时改格式或关闭，使用条款以平台自己的为准；格式变了会返回 502 和原因，而不是一份空的订阅。国内平台的接口有时只肯回答国内的 IP：如果部署在海外节点上某个榜总是 502，可以在 `vercel.json` 里加 `"regions": ["hkg1"]`（香港节点）再试。没做的：懂车帝（`robots.txt` 明确禁止）、X / Reddit（要登录或付费接口，用上面的 RSSHub 办法）、晋江（页面是 GBK 加反爬；tophub 上没有它，可以经 RSSHub 自己加）、Z-Library（盗版库，不接入）。
+- **这些是平台网页自己的接口，不是公开的、有文档的 API**：可能随时改格式或关闭，使用条款以平台自己的为准；格式变了会返回 502 和原因，而不是一份空的订阅。国内平台的接口有时只肯回答国内的 IP：`vercel.json` 里已经设了 `"regions": ["hkg1"]`（香港节点）。实测香港节点仍读不到少数派、极客公园、博客园、同花顺、华尔街见闻、量子位、小红书（rebang）和知乎日报：Vercel 的香港出口解析不了 `news-at.zhihu.com`、连不上其余几个。`GET /api/hot?diag=zhihu_daily` 会告诉你某个榜在部署的机房里为什么不通（域名找不到 / 连不上，机房是哪个）；这几个榜暂时读不到的话，办法只有自己的 RSSHub（`registry/hot.json`，见上）或者一个国内能连的中转。没做的：懂车帝（`robots.txt` 明确禁止）、X / Reddit（要登录或付费接口，用上面的 RSSHub 办法）、晋江（页面是 GBK 加反爬；tophub 上没有它，可以经 RSSHub 自己加）、Z-Library（盗版库，不接入）。
 - 安全：每个榜的地址写死在 `hotapi.py` 的 `PLATFORMS`（或站长的 `registry/hot.json`）里，请求能选的只有“哪个榜、几条”，不会读读者给的任何网址；读取走 `aggregate.py` 的受限抓取（只走 https、只连公网地址、限大小和时间）；每一行只收 http(s) 地址，标题当文本，去掉 `utm_*` / `at_*` 这类跟踪参数。
-- 订阅它：主站页面的“订阅这个榜单”；`recommended.json` 里把条目的 `feed` 写成 `hot:github`（`hot:` 加榜单编号），页面会换成这个服务的地址；也可以直接订阅 `https://你的目录站点/api/hot?p=github`。测试：`tests/test_hot.py`（41 个，不联网）。
+- 订阅它：主站页面的“订阅这个榜单”；`recommended.json` 里把条目的 `feed` 写成 `hot:github`（`hot:` 加榜单编号），页面会换成这个服务的地址；也可以直接订阅 `https://你的目录站点/api/hot?p=github`。测试：`tests/test_hot.py`、`tests/test_hotdetail.py`、`tests/test_translate.py`（不联网）。
+- **公共目录里固定的热榜平台**：`registry/shelves.json` 里 `hot-zhihu`、`hot-weibo`、`hot-bilibili`、`hot-github`、`hot-hackernews`、`hot-netease`、`hot-youtube` 等 18 个书架（`status: fixed`，各带 `platform`）读的就是这个服务的 `…/api/hot?n=10&p=…`，每天跟着目录更新一次，各取前 10 名。主站“全部 → 平台”标签里它们是固定的（总在、按条数排），别的订阅是动态的（最近最热的 5 个，其余在“更多”里）；平台标签下有“看实时热榜 ›”一键到热榜页。点卡片和点热榜的一行一样，在站内显示。新增 / 去掉一个：`python aggregate.py approve …` / `remove …`，或者改 `registry/shelves.json`。
+
+### B4b. 英文标题的中文小字（`translate.py`，可选，没设 key 就什么都不发生）
+
+页面是中文时，英文标题下面可以有一行灰色的小字中文（`title_zh`）。**只发标题**，不发任何读者读了什么、做了什么。用哪家翻译由环境变量决定，按这个顺序用第一个设了的：
+
+| 环境变量 | 说明 |
+|---|---|
+| `DEEPL_API_KEY` | DeepL。免费版的 key 以 `:fx` 结尾（`api-free.deepl.com`，每月 50 万字符），付费版走 `api.deepl.com`。**首选** |
+| `GOOGLE_TRANSLATE_KEY` | Google Cloud Translation（基础版 v2）。备用 |
+| `LIBRETRANSLATE_URL`（+ `LIBRETRANSLATE_KEY`） | 自己部署的 LibreTranslate（必须 https）。备用 |
+
+- **目录里的卡片**：每天的构建（`daily.yml`）把还没有中文的英文标题（最新的先，每次最多 300 条）发去翻译，结果记在 `registry/titles_zh.json`（提交进仓库，同一个标题只翻一次），`directory.json` 的条目里多一个 `title_zh`。key 要设成**仓库的 Secret**（GitHub → Settings → Secrets and variables → Actions → New repository secret，名字就是上表里那个）；`daily.yml` 已经把它们传给构建，没设的是空的，等于没有。
+- **热榜页**：页面是中文、榜单是英文时请求 `…&format=json&tr=zh`，服务把这一榜的标题翻一遍（先查 `registry/titles_zh.json`，新的在这个实例的内存里记着，不写文件，一次最多 60 条）。key 要设在 **Vercel 的环境变量**里（和 `YOUTUBE_API_KEY` 同一个地方），然后 Redeploy。
+- 翻译失败（key 错了、额度用完、对方不通）和没有 key 一样：页面照常显示英文标题，不报错。翻译结果必须含中文才会采用，原样返回的丢掉。
+- 页面只在“页面是中文、条目不是中文”时才显示这行小字；英文页面不显示。测试：`tests/test_translate.py`。
 
 ### B5. 匿名计数（`api/stat.py`，需要和同步一样的 Redis）
 
@@ -193,15 +211,15 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
 - **下架**：管理页「删除」；或 `python aggregate.py remove 编号`（托管文章用 `post:编号`）后推送。想永久拒绝某个站点，写进 `registry/blocklist.txt`；想拦掉某些词，写进 `registry/blockwords.txt`（每行一个，文章里出现就拒绝）。
 - **标签**：收录时申请人可以填，也会从来源自动推断。近义词在 `registry/tags.json` 里归并。
 
-## 三种东西：网址、文章、资料卡
+## 三种东西：网址、文章、书籍
 
 | 提交的是 | 需要网址吗 | 通过审核后 | 检查什么 |
 |---|---|---|---|
 | 网址（博客、站点、仓库、单篇、视频、PDF） | 是 | 登记成书架 / 单条，每天自动更新 | 网址是否重复、是否安全；读出来的名称和简介与已有的是否很像 |
 | 文章（Markdown / TXT 正文） | 否 | 目录托管成静态页面（`posts/` → `docs/p/`） | 正文内容哈希；标题 + 作者、开头 160 字是否与已有的很像 |
-| 资料卡（书、PDF、HTML、工具：只有标题、作者、摘要、标签，网址可选） | 否 | 同上，托管一个只有这些文字的页面，类型 `book` | 标题 + 作者、摘要是否与已有的很像；填了网址时也查网址 |
+| 书籍（一本书、一张书单、一部在线读的书、一部小说，或 PDF / HTML / 工具：只有标题、作者、摘要、标签，网址可选） | 否 | 同上，托管一个只有这些文字的页面，类型 `book` | 标题 + 作者、摘要是否与已有的很像；填了网址时也查网址 |
 
-资料卡在仓库里就是一篇 `posts/*.md`（front matter 里 `kind: record`，正文是摘要），所以下架、拒绝、管理页的删除都和文章一样。issue 的表单字段是：标题、作者、标签、摘要、网址（可选）、权利确认。
+书籍在仓库里就是一篇 `posts/*.md`（front matter 里 `kind: record`，正文是摘要），所以下架、拒绝、管理页的删除都和文章一样。issue 的表单字段是：标题、作者、标签、摘要、网址（可选）、权利确认。**四种形式用标签区分**（页面的提交窗口里点一下就加上）：`书单`（摘要里写书名，一书一行或用顿号隔开）、`在线书籍`（网址指向可以在线读的书：公版书、开放协议的书，页面在站内阅读器里读它）、`小说`（原创小说：长篇一章一章用“写文章”托管成页面，每章一篇、标签带 `小说`，读者在站内读；也可以用书籍卡片附上自己的连载网址），不带这些标签的就是一本普通的书。**只托管作者自己写的和公版 / 开放协议的作品**，别人有版权的书不托管、不转载，卡片只能是书名、作者、摘要。
 
 **很像（疑似重复）怎么判：** 摘要的开头 160 字几乎一样（3 字片段重合度 ≥ 0.8）；或标题相同且作者相同；作者有一方没填时，标题相同还要摘要不矛盾；作者不同算两本不同的书；“首页”“README”“Home”这类标题和 4 字以下的标题不算。网址型的和已有**书架**比名称和简介，单篇和已有**条目**比标题和摘要。
 

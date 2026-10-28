@@ -47,6 +47,7 @@ from html.parser import HTMLParser
 from xml.sax.saxutils import escape as xml_escape
 
 import mdsafe
+import translate
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
@@ -224,7 +225,8 @@ def norm_tags(values, limit=TAGS_PER_ITEM):
 
 def guess_lang(text):
     cjk = len(re.findall(r'[\u4e00-\u9fff]', text))
-    if re.search(r'[\u3040-\u30ff]', text):
+    kana = len(re.findall(r'[\u3040-\u30ff]', text))
+    if kana and (kana >= 3 or kana * 3 >= cjk + kana):                 # (a Chinese title may carry one \u306e or one \u30fc: that is not Japanese)
         return 'ja'
     return 'zh' if cjk >= 2 and cjk * 2 >= len(re.findall(r'[A-Za-z]{2,}', text)) else 'en'
 
@@ -330,8 +332,9 @@ def make_item(url, title, summary='', image='', date='', tags=None, lang='', typ
     if summary == title:
         summary = ''
     image = abs_url(image, base)
+    ranked = bool(re.match(r'第\s*\d+\s*名', summary))                  # a hot list's row ("第 3 名 · 热度 …" is written in Chinese by the service, whatever the language of the platform): the title says the language
     return {'url': url, 'title': title, 'summary': summary, 'image': image if image.startswith('https://') else '', 'date': parse_date(date),
-            'tags': norm_tags(tags), 'lang': norm_lang(lang, title + ' ' + summary), 'type': guess_type(url, mime, typ)}
+            'tags': norm_tags(tags), 'lang': norm_lang(lang, title if ranked else title + ' ' + summary), 'type': guess_type(url, mime, typ)}
 
 
 # ======================================================================= safe fetching
@@ -2004,6 +2007,10 @@ def build():
             items.append(row)
     items.sort(key=lambda i: (i['date'], i['shelf'], i['title']), reverse=True)
     items = items[:MAX_DIRECTORY_ITEMS]
+    zh = translate.titles(items, os.environ)                 # the Chinese of an English title, for a small line under it: nothing is asked unless a key is set, what is known is in registry/titles_zh.json
+    for i in items:
+        if i['lang'] != 'zh' and zh.get(i['title']):
+            i['title_zh'] = zh[i['title']]
     for i in items:
         sh = shelves[i['shelf']]
         sh['n'] += 1
@@ -2218,16 +2225,16 @@ def check_record(sub):
             raise Refused('这个网址暂时不能收录', 'This address cannot be accepted')
     key = record_key(title, author)
     if rejected(key):
-        raise Refused('这张资料卡暂时不能收录', 'This card cannot be accepted')
+        raise Refused('这条书籍暂时不能收录', 'This book entry cannot be accepted')
     dup = next((p['slug'] for p in load_posts() if p['kind'] == 'record' and record_key(p['title'], p['author']) == key), '')
     if dup:
-        raise Refused('这张资料卡已经提交过了（%s）' % dup, 'This card was submitted already (%s)' % dup)
+        raise Refused('这条书籍已经提交过了（%s）' % dup, 'This book entry was submitted already (%s)' % dup)
     return {'title': title, 'author': author, 'summary': summary, 'url': url, 'tags': norm_tags(sub.get('tags'), 5), 'key': key, 'lang': norm_lang('', title + ' ' + summary),
             'hash': post_hash(summary), 'warnings': []}
 
 
 def describe_record(info):
-    lines = ['**识别为 / Recognised as：** 资料卡（没有文件、只有这几项文字，由本站托管页面） · A catalogue card', '', '| | |', '|---|---|', '| 标题 / Title | %s |' % md_esc(info['title']),
+    lines = ['**识别为 / Recognised as：** 书籍（没有文件、只有这几项文字，由本站托管页面；可以是一本书、一张书单、一部在线读的书、一部小说） · A book entry', '', '| | |', '|---|---|', '| 标题 / Title | %s |' % md_esc(info['title']),
              '| 作者 / Author | %s |' % (md_esc(info['author']) if info['author'] else '（未填 / none）'), '| 网址 / Address | %s |' % (md_link(info['url'], info['url']) if info['url'] else '（没有 / none）')]
     if info['tags']:
         lines.append('| 标签 / Tags | %s |' % md_esc(', '.join(info['tags'])))
@@ -2266,7 +2273,7 @@ def post_page(p, cfg, repo):
     """The static page of a hosted post. The text went through mdsafe, the rest is escaped here; the page carries no script."""
     site, title = str(cfg.get('site') or '').strip(), cfg.get('title') or 'Shelf directory'
     record = p.get('kind') == 'record'
-    meta = ' · '.join(x for x in ('资料卡 / A catalogue card' if record else '读者投稿 / A reader\'s post', p['author'], p['date']) if x)
+    meta = ' · '.join(x for x in ('书籍 / A book entry' if record else '读者投稿 / A reader\'s post', p['author'], p['date']) if x)
     take = 'https://github.com/%s/issues/new?template=takedown.yml' % repo if repo else ''
     links = ['<a href="%s">返回目录</a>' % xml_escape(site, {'"': '&quot;'})] if httpish(site) else []
     if take:
@@ -2278,7 +2285,7 @@ def post_page(p, cfg, repo):
                POST_CSS, xml_escape(meta), xml_escape(p['title']),
                '<p>%s</p>' % xml_escape(p['body']).replace('\n', '<br>') + (('\n<p><a href="%s" rel="nofollow ugc noopener noreferrer">%s</a></p>' % (xml_escape(p['url'], {'"': '&quot;'}), xml_escape(p['url']))) if p['url'] else '') if record
                else mdsafe.render(p['body']),
-               '这是读者提交的资料卡，只有标题、作者和摘要，不含书籍或文件本身，版权归原作者所有。' if record else '本文由读者投稿，版权归作者所有，不代表本站观点。', ' ' + ' · '.join(links) if links else ''))
+               '这是读者提交的书籍信息，只有标题、作者和摘要（书单就是写在摘要里的书名），不含书籍或文件本身，版权归原作者所有。' if record else '本文由读者投稿，版权归作者所有，不代表本站观点。', ' ' + ' · '.join(links) if links else ''))
 
 
 def httpish(u):

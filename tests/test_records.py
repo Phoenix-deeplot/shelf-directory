@@ -114,7 +114,7 @@ class TestRecords(Base):
         row = next(i for i in d['items'] if i['shelf'] == 'posts')
         self.assertEqual((row['type'], row['author'], row['title']), ('book', '小明', '精益生产'))
         page = files['p/%s/index.html' % name]
-        self.assertIn('资料卡', page)
+        self.assertIn('书籍', page)
         self.assertIn('rel="nofollow ugc noopener noreferrer"', page)
         self.assertNotIn('<script', page)
 
@@ -209,7 +209,7 @@ class TestFunction(SubBase):
         st, body = self.send(self.REC)
         self.assertEqual((st, body['ok'], body['kind']), (200, True, 'record'))
         issue, = self.created()
-        self.assertEqual((issue['labels'], issue['title']), (['post-submission'], '[资料卡] 精益生产'))
+        self.assertEqual((issue['labels'], issue['title']), (['post-submission'], '[书籍] 精益生产'))
         s = agg.parse_issue({'issue': {'number': 41, 'body': issue['body']}})
         self.assertEqual((s['kind'], s['title'], s['author'], s['summary'], s['tags'], s['url'], s['rights']), ('record', '精益生产', '小明', ABOUT_A, ['书', '供应链'], '', True))
         self.assertIn('ip:' + sub.ip_hash('1.2.3.4', 'salt'), issue['body'])

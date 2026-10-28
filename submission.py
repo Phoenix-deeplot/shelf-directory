@@ -279,7 +279,7 @@ def submit_record(payload, cfg):
     except agg.Refused as e:
         raise Reply(400, 'record', str(e), e.en)
     if agg.key_hash(info['key']) in load_rejected(cfg):
-        raise Reply(409, 'rejected', '这张资料卡暂时不能收录', 'This card cannot be accepted')
+        raise Reply(409, 'rejected', '这条书籍暂时不能收录', 'This book entry cannot be accepted')
     directory, issues = load_directory(cfg), open_submissions(cfg)
     refuse_similar({'title': info['title'], 'author': info['author'], 'summary': info['summary']}, directory_pool(directory, issues), 'item', 'record')
     if info['url']:                                                           # with an address of its own it is also a question of that address
@@ -389,7 +389,7 @@ def handle(payload, ip, env, now=None):
         if kind == 'url':
             title, body, labels = ('[收录] ' + urllib.parse.urlsplit(url).hostname + urllib.parse.urlsplit(url).path)[:80], url_issue(url, tags, who), ['shelf-submission']
         elif kind == 'record':
-            title, body, labels = ('[资料卡] ' + sub['title'])[:80], record_issue(info, who), ['post-submission']
+            title, body, labels = ('[书籍] ' + sub['title'])[:80], record_issue(info, who), ['post-submission']
         else:
             title, body, labels = ('[投稿] ' + sub['title'])[:80], post_issue(sub, who), ['post-submission']
         if len(body) > ISSUE_MAX:

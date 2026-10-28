@@ -1,0 +1,121 @@
+{
+ "id": "hot-youtube",
+ "items": [
+  {
+   "url": "https://www.youtube.com/watch?v=M4qX5wzx-wY",
+   "title": "Harry Styles - Coming Up Roses (Official Video)",
+   "summary": "第 1 名 · 观看 209.1 万 · HarryStylesVEVO",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "video"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=LYRmPlm6oV0",
+   "title": "Avengers: Doomsday Teaser - In Theaters December 18",
+   "summary": "第 2 名 · 观看 67.4 万 · Rotten Tomatoes Trailers",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "video"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=TASjR0qY2KM",
+   "title": "Absolutely Nothing Good",
+   "summary": "第 3 名 · 观看 49.7 万 · CaseOh",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "video"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=V2V9-9VhYJo",
+   "title": "ILLIT (아일릿) '체포하겠어 (You’re Under Arrest)’ Official MV",
+   "summary": "第 4 名 · 观看 694.7 万 · HYBE LABELS",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "video"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=UfNu7pcR0e8",
+   "title": "Avengers: Doomsday | In Theaters December 18",
+   "summary": "第 5 名 · 观看 1453.8 万 · Marvel Entertainment",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "video"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=ECJoJ7ez7-4",
+   "title": "TLAW vs. AL | WORLDS 2026 | Swiss Stage Day 4",
+   "summary": "第 6 名 · 观看 233.9 万 · LoL Esports",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "video"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=d02bibFGMp0",
+   "title": "Kesha - Backstabber (Official Video)",
+   "summary": "第 7 名 · 观看 72.5 万 · keshaVEVO",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "video"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=rQnvm5c2r3o",
+   "title": "X-MEN 2028",
+   "summary": "第 8 名 · 观看 18.3 万 · Emergency Awesome",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "video"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=u0iATr7A5KM",
+   "title": "Your SUS Clips...",
+   "summary": "第 9 名 · 观看 83.1 万 · Jynxzi",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "video"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=M2Tb2kjzzxo",
+   "title": "Pop",
+   "summary": "第 10 名 · 观看 117.0 万 · ILLIT - Topic",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "video"
+  }
+ ],
+ "shelf": {
+  "name": "YouTube 热门 · US",
+  "description": "YouTube 热门 · US：平台当前的榜单（排名、标题、热度和平台自己的链接），由知树阅读按需生成，不保存任何内容。",
+  "home": "https://www.youtube.com/feed/trending",
+  "lang": "en",
+  "license": "",
+  "image": "",
+  "tags": []
+ },
+ "fails": 0,
+ "kind": "feed",
+ "parser": 2,
+ "status": "ok",
+ "error": "",
+ "etag": "",
+ "modified": ""
+}

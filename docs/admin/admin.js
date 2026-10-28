@@ -118,7 +118,7 @@ function pendingCard(issue){
   const p = parseIssue(issue.body), labels = labelsOf(issue), status = el('p', { class: 'msg', role: 'status' });
   const head = p.kind === 'shelf' ? (p.url || issue.title) : (p.title || issue.title);
   const viaWeb = /<!--\s*via:web/.test(issue.body || '');                      // written by the submit function (a visitor without GitHub) or made with the GitHub form
-  const badges = [el('span', { class: 'badge ' + (p.kind === 'shelf' ? '' : 'post'), text: { post: '个人文章', record: '资料卡', shelf: '网址' }[p.kind] }), el('span', { class: 'badge', text: viaWeb ? '网页提交' : 'GitHub 表单' })];
+  const badges = [el('span', { class: 'badge ' + (p.kind === 'shelf' ? '' : 'post'), text: { post: '个人文章', record: '书籍', shelf: '网址' }[p.kind] }), el('span', { class: 'badge', text: viaWeb ? '网页提交' : 'GitHub 表单' })];
   for(const l of ['checked', 'invalid', 'duplicate', 'similar']) if(labels.includes(l)) badges.push(el('span', { class: 'badge ' + (l === 'similar' ? 'duplicate' : l), title: l === 'similar' ? '和目录里已有的很像（标题、作者或摘要）。如果确实不同，仍然可以通过。' : '', text: { checked: '检查通过', invalid: '检查未通过', duplicate: '重复', similar: '疑似重复' }[l] }));
   if(!['checked', 'invalid', 'duplicate', 'similar', 'approved'].some(l => labels.includes(l))) badges.push(el('span', { class: 'badge', title: '机器人还没有检查这个申请（Action 还在排队，或没有触发：看仓库的 Actions 页）', text: '尚未检查' }));
   if(labels.includes('approved')) badges.push(el('span', { class: 'badge', text: '已批准，处理中' }));

@@ -29,6 +29,12 @@ jobs:
       - name: Fetch and build
         env:
           GITHUB_TOKEN: ${{ github.token }}
+          # Optional: the Chinese of English titles (a small line under them on the site). Set one of these as a repository secret (Settings > Secrets and variables > Actions);
+          # an empty one is the same as none, and the directory then shows the titles as they are. See translate.py.
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+          GOOGLE_TRANSLATE_KEY: ${{ secrets.GOOGLE_TRANSLATE_KEY }}
+          LIBRETRANSLATE_URL: ${{ secrets.LIBRETRANSLATE_URL }}
+          LIBRETRANSLATE_KEY: ${{ secrets.LIBRETRANSLATE_KEY }}
         run: python aggregate.py run
       - name: Make sure the labels exist
         env:

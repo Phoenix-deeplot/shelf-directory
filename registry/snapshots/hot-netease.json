@@ -1,0 +1,121 @@
+{
+ "id": "hot-netease",
+ "items": [
+  {
+   "url": "https://music.163.com/",
+   "title": "季候风 — 王菲",
+   "summary": "第 1 名 · 执迷不悔 (Remastered 2019)",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://music.163.com/",
+   "title": "You Are All I Need — FLY COAST / 二宮愛",
+   "summary": "第 2 名 · Flight Number 001",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://music.163.com/",
+   "title": "不懂事 — 吴炳文",
+   "summary": "第 3 名 · 不懂事",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://music.163.com/",
+   "title": "山海不说话（我路过山 山不说话） — 陳鴨梨Charlie",
+   "summary": "第 4 名 · 山海不说话（我路过山 山不说话）",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://music.163.com/",
+   "title": "不如不见面 — 王极 / 梁淞Tsong",
+   "summary": "第 5 名 · 不如不见面",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://music.163.com/",
+   "title": "Cherry Candy — Lunak",
+   "summary": "第 6 名 · Cherry Candy",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://music.163.com/",
+   "title": "别哭了我爱你 — 不要杀死我的爱",
+   "summary": "第 7 名 · 别哭了我爱你",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://music.163.com/",
+   "title": "我的自己 — 洛飞Roche",
+   "summary": "第 8 名 · T&F",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://music.163.com/",
+   "title": "Stay — 尹浩宇Patrick",
+   "summary": "第 9 名 · Caramel",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://music.163.com/",
+   "title": "一张相片 — 连麻Swimming",
+   "summary": "第 10 名 · 斩鸭线",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  }
+ ],
+ "shelf": {
+  "name": "网易云音乐飙升榜",
+  "description": "网易云音乐飙升榜：平台当前的榜单（排名、标题、热度和平台自己的链接），由知树阅读按需生成，不保存任何内容。",
+  "home": "https://music.163.com/",
+  "lang": "zh",
+  "license": "",
+  "image": "",
+  "tags": []
+ },
+ "fails": 0,
+ "kind": "feed",
+ "parser": 2,
+ "status": "ok",
+ "error": "",
+ "etag": "",
+ "modified": ""
+}

@@ -1,0 +1,121 @@
+{
+ "id": "hot-wikipedia",
+ "items": [
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election",
+   "title": "2026 Brazilian general election",
+   "summary": "第 1 名 · 浏览 27.2 万",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election",
+   "title": "2026 Serbian parliamentary election",
+   "summary": "第 2 名 · 浏览 24.2 万",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Clayface_(film)",
+   "title": "Clayface (film)",
+   "summary": "第 3 名 · 浏览 20.8 万",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
+   "title": "Elizabeth Holmes",
+   "summary": "第 4 名 · 浏览 19.4 万",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Jailer_2",
+   "title": "Jailer 2",
+   "summary": "第 5 名 · 浏览 18.7 万",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/.xxx",
+   "title": ".xxx",
+   "summary": "第 6 名 · 浏览 17.6 万",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/You_Can_See_Everything",
+   "title": "You Can See Everything",
+   "summary": "第 7 名 · 浏览 16.0 万",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_British_Columbia_general_election",
+   "title": "2026 British Columbia general election",
+   "summary": "第 8 名 · 浏览 14.1 万",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Chef_Damu",
+   "title": "Chef Damu",
+   "summary": "第 9 名 · 浏览 12.4 万",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+   "title": "Deaths in 2026",
+   "summary": "第 10 名 · 浏览 12.4 万",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  }
+ ],
+ "shelf": {
+  "name": "维基百科阅读榜（英文）",
+  "description": "维基百科阅读榜（英文）：平台当前的榜单（排名、标题、热度和平台自己的链接），由知树阅读按需生成，不保存任何内容。",
+  "home": "https://en.wikipedia.org/wiki/Wikipedia:Top_25_Report",
+  "lang": "en",
+  "license": "",
+  "image": "",
+  "tags": []
+ },
+ "fails": 0,
+ "kind": "feed",
+ "parser": 2,
+ "status": "ok",
+ "error": "",
+ "etag": "",
+ "modified": ""
+}

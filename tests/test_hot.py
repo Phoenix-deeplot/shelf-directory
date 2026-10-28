@@ -18,7 +18,8 @@ from test_aggregate import Base  # noqa: E402
 
 WEIBO = {'ok': 1, 'data': {'hotgov': {'word': '#官方置顶#', 'is_gov': 1}, 'realtime': [
     {'word': '第一个话题', 'num': 1359619, 'flag_desc': '综艺', 'label_name': '热', 'realpos': 1}, {'word': '广告位', 'num': 1, 'is_ad': 1}, {'word': '第二个话题 & <b>', 'num': 868104, 'label_name': '新'}]}}
-ZHIHU = {'data': [{'type': 'hot_list_feed', 'detail_text': '1094 万热度', 'target': {'id': 2096358861804511510, 'title': '为什么……？', 'type': 'question', 'answer_count': 327}},
+ZHIHU = {'data': [{'type': 'hot_list_feed', 'detail_text': '1094 万热度', 'children': [{'type': 'answer', 'thumbnail': 'http://picx.zhimg.com/80/a.jpg'}],
+                   'target': {'id': 2096358861804511510, 'title': '为什么……？', 'type': 'question', 'answer_count': 327, 'follower_count': 12, 'excerpt': '摘要 <b>文字</b>'}},
                   {'type': 'hot_list_feed', 'target': {'id': 5, 'title': '一篇文章', 'type': 'article'}}]}
 ZHIHU_DAILY = {'stories': [{'title': '日报的一篇', 'url': 'https://daily.zhihu.com/story/9793540', 'hint': 'Tom · 11 分钟阅读'}, {'title': '外链', 'url': 'https://evil.example/x'}]}
 BILI = {'code': 0, 'data': {'list': [{'title': '一个视频', 'bvid': 'BV1C8nH69Ekq', 'owner': {'name': 'UP主'}, 'stat': {'view': 579434}}, {'title': '坏的', 'bvid': 'javascript:1', 'stat': {}}]}}
@@ -134,7 +135,9 @@ class TestParsers(HotBase):
         self.assertNotIn('官方置顶', json.dumps(i, ensure_ascii=False))                          # what the government pins is not a hot search; ads are not either
         self.assertNotIn('广告位', json.dumps(i, ensure_ascii=False))
         z, _ = self.items('zhihu')
-        self.assertEqual((z[0]['link'], z[0]['description']), ('https://www.zhihu.com/question/2096358861804511510', '第 1 名 · 1094 万热度'))     # only questions
+        self.assertEqual((z[0]['link'], z[0]['description']), ('https://www.zhihu.com/question/2096358861804511510', '第 1 名 · 1094 万热度 · 327 回答 · 12 关注 — 摘要 文字'))     # only questions; the excerpt comes along
+        zr = self.rows('zhihu')['items'][0]
+        self.assertEqual((zr['img'], zr['body']), ('https://picx.zhimg.com/80/a.jpg', '摘要 文字'))           # a picture on http is asked for on https; no markup in the text
         b, _ = self.items('bilibili')
         self.assertEqual((b[0]['link'], b[0]['description']), ('https://www.bilibili.com/video/BV1C8nH69Ekq', '第 1 名 · 播放 57.9 万 · UP主'))
         t, _ = self.items('toutiao')
@@ -267,6 +270,16 @@ class TestParsers(HotBase):
         self.assertEqual(hotapi._untrack('https://a.example/x'), 'https://a.example/x')
 
 
+class TestLanguageOfARow(unittest.TestCase):
+    def test_the_title_of_a_hot_row_says_its_language_not_the_chinese_around_it(self):
+        mk = lambda title, summary, lang='': agg.make_item('https://a.example/x', title, summary, lang=lang)['lang']
+        self.assertEqual(mk('Anthropic S-1 filing', '第 1 名 · ▲ 1,510 · 1,480 条评论', 'en'), 'en')            # (an English list, the numbers are written in Chinese)
+        self.assertEqual(mk('东鹏、蒙牛终止合作', '第 1 名 · 28886 万热度'), 'zh')
+        self.assertEqual(mk('致童年の小曲', '第 2 名 · 播放 92 万'), 'zh')                                      # (one の does not make a Chinese title Japanese)
+        self.assertEqual(mk('こんにちは世界', ''), 'ja')
+        self.assertEqual(mk('A Chinese blog, English title', '这是一篇中文文章，讲的是库存周转率怎么算，用来做测试。'), 'zh')   # (an ordinary item: the summary still counts)
+
+
 class TestWhatIsOn(HotBase):
     def test_every_list_is_on_unless_the_owner_turns_it_off_and_the_one_with_a_key_waits_for_it(self):
         self.assertEqual(hotapi.enabled({}), EVERY)
@@ -291,8 +304,8 @@ class TestWhatIsOn(HotBase):
         by = {p['id']: p for p in d['platforms']}
         self.assertEqual((by['weibo']['col'], by['weibo']['ranked'], by['zhihu_daily']['ranked'], by['producthunt']['ranked']), ('news', True, False, False))
         self.assertEqual((by['wechat']['via'], by['xiaohongshu']['via'], 'via' in by['weibo']), ('tophub.today', 'rebang.today', False))
-        self.assertEqual({k for k, p in by.items() if p.get('read')} - {k for k, v in hotapi.PLATFORMS.items() if v['feed']}, {'zhihu_daily', 'devto', 'wikipedia', 'wikipedia_zh'})     # what the reader may read in the page: news and blogs (feeds), not Product Hunt or the platforms' own pages
-        self.assertTrue(by['bbc']['read'] and 'read' not in by['producthunt'] and 'read' not in by['weibo'] and 'read' not in by['github'])
+        self.assertEqual({k for k, p in by.items() if p.get('read')} - {k for k, v in hotapi.PLATFORMS.items() if v['feed']}, {'zhihu_daily', 'devto', 'wikipedia', 'wikipedia_zh', 'juejin', 'v2ex', 'lobsters', 'hackernews', 'hf_models', 'hf_papers', 'kr36', 'mastodon'})     # what the reader may read in the page: news and blogs (feeds) and the lists whose rows are articles that were tried, not Product Hunt or the platforms' own pages
+        self.assertTrue(by['theverge']['read'] and by['dw']['read'] and 'read' not in by['bbc'] and 'read' not in by['bloomberg'] and 'read' not in by['producthunt'] and 'read' not in by['weibo'] and 'read' not in by['github'])
         self.assertTrue(all(p['col'] in [c['id'] for c in d['columns']] for p in d['platforms']))
         gone = json.loads(hotapi.handle({}, {'HOT_DISABLE': ','.join(k for k, v in hotapi.PLATFORMS.items() if v['col'] == 'money')})[2])
         self.assertNotIn('money', [c['id'] for c in gone['columns']])                                 # a column with nothing in it is not offered

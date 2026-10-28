@@ -1,0 +1,121 @@
+{
+ "id": "hot-lobsters",
+ "items": [
+  {
+   "url": "http://shittyscreenshare.com",
+   "title": "Shitty Screenshare",
+   "summary": "第 1 名 · ▲ 34 · browsers web · 17 条评论",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+   "title": "CSS-Tricks has a new owner",
+   "summary": "第 2 名 · ▲ 69 · web · 2 条评论",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.benjoffe.com/fast-floordiv",
+   "title": "A faster way to compute signed 64-bit floor division by constants",
+   "summary": "第 3 名 · ▲ 27 · c++ performance · 4 条评论",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://brennenputh.me/blog/printable-websites/",
+   "title": "Websites Should Be Printable",
+   "summary": "第 4 名 · ▲ 69 · css web · 18 条评论",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://evancz.dev/why-is-it-so-expensive-to-send-an-email",
+   "title": "Why is it so expensive to send an email?",
+   "summary": "第 5 名 · ▲ 52 · email · 36 条评论",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
+   "title": "Oldest GUI application that still runs on Windows 11",
+   "summary": "第 6 名 · ▲ 42 · historical windows · 4 条评论",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://gram-editor.com/posts/release-3.4.0/",
+   "title": "Gram 3.4.0 released",
+   "summary": "第 7 名 · ▲ 62 · editors release · 11 条评论",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+   "title": "The Exponential Time Hypothesis Is False [pdf]",
+   "summary": "第 8 名 · ▲ 22 · math pdf · 0 条评论",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "pdf"
+  },
+  {
+   "url": "https://support.apple.com/en-us/149555",
+   "title": "About the compromised eMudhra intermediate CAs",
+   "summary": "第 9 名 · ▲ 52 · mac security · 33 条评论",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://stalw.art/blog/stalwart-1-0/",
+   "title": "Stalwart v1.0: The Fastest Mail Server on the Planet",
+   "summary": "第 10 名 · ▲ 27 · email · 8 条评论",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  }
+ ],
+ "shelf": {
+  "name": "Lobsters",
+  "description": "Lobsters：平台当前的榜单（排名、标题、热度和平台自己的链接），由知树阅读按需生成，不保存任何内容。",
+  "home": "https://lobste.rs/",
+  "lang": "en",
+  "license": "",
+  "image": "",
+  "tags": []
+ },
+ "fails": 0,
+ "kind": "feed",
+ "parser": 2,
+ "status": "ok",
+ "error": "",
+ "etag": "",
+ "modified": ""
+}

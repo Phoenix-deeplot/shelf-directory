@@ -32,6 +32,8 @@ from email.utils import formatdate
 from xml.sax.saxutils import escape
 
 import aggregate as agg
+import hotdetail
+import translate
 
 BROWSER = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8'}
 CACHE_SECONDS = 180            # the platform is asked at most this often per warm instance
@@ -99,7 +101,7 @@ def _untrack(url):
 
 
 def _norm(r):
-    """One row as the pages and the feed take it: the five fields, an http(s) address, no markup. None for a row that is not one."""
+    """One row as the pages and the feed take it: the five fields (and, when the platform has them, a picture and a text), an http(s) address, no markup. None for a row that is not one."""
     if not isinstance(r, dict):
         return None
     title, url = re.sub(r'\s+', ' ', str(r.get('title') or '')).strip()[:200], _untrack(str(r.get('url') or '').strip())          # (a title is text: the pages escape it)
@@ -109,7 +111,13 @@ def _norm(r):
     alt = str(r.get('alt') or '').strip()
     if urllib.parse.urlsplit(alt).scheme not in ('http', 'https'):
         alt = ''
-    return {'title': title, 'url': url, 'heat': _text(r.get('heat'), 40), 'note': _text(r.get('note'), 160), 'alt': alt, 'date': str(r.get('date') or '')[:10]}
+    out = {'title': title, 'url': url, 'heat': _text(r.get('heat'), 40), 'note': _text(r.get('note'), 160), 'alt': alt, 'date': str(r.get('date') or '')[:10]}
+    img, body = hotdetail._https(r.get('img')), _text(r.get('body'), 600)
+    if img:
+        out['img'] = img                                        # a picture of the row (a cover, a thumbnail): https only
+    if body:
+        out['body'] = body                                      # what the platform says about the row beyond its title (an excerpt, a description): the site shows it in a card of its own
+    return out
 
 
 # ---------------------------------------------------------------- one parser per platform: text of the answer -> [{'title', 'url', 'heat', 'note'}]
@@ -124,7 +132,10 @@ def p_zhihu(raw):
     for r in _json(raw).get('data') or []:
         t = r.get('target') if isinstance(r, dict) else None
         if isinstance(t, dict) and t.get('type') == 'question' and t.get('title') and t.get('id'):
-            out.append({'title': t['title'], 'url': 'https://www.zhihu.com/question/%s' % t['id'], 'heat': _text(r.get('detail_text')) or ('%s 回答' % t.get('answer_count', 0)), 'note': ''})
+            kids = r.get('children') if isinstance(r.get('children'), list) else []
+            out.append({'title': t['title'], 'url': 'https://www.zhihu.com/question/%s' % t['id'], 'heat': _text(r.get('detail_text')) or ('%s 回答' % t.get('answer_count', 0)),
+                        'note': ' · '.join(x for x in (('%s 回答' % t['answer_count']) if t.get('answer_count') else '', ('%s 关注' % t['follower_count']) if t.get('follower_count') else '') if x), 'body': t.get('excerpt'),
+                        'img': kids[0].get('thumbnail') if kids and isinstance(kids[0], dict) else ''})
     return out
 
 
@@ -135,7 +146,8 @@ def p_zhihu_daily(raw):
 
 def p_bilibili(raw):
     rows = (_json(raw).get('data') or {}).get('list') or []
-    return [{'title': r['title'], 'url': 'https://www.bilibili.com/video/%s' % r['bvid'], 'heat': '播放 ' + _heat((r.get('stat') or {}).get('view')), 'note': (r.get('owner') or {}).get('name', '')}
+    return [{'title': r['title'], 'url': 'https://www.bilibili.com/video/%s' % r['bvid'], 'heat': '播放 ' + _heat((r.get('stat') or {}).get('view')), 'note': (r.get('owner') or {}).get('name', ''),
+             'img': r.get('pic'), 'body': r.get('desc')}
             for r in rows if isinstance(r, dict) and r.get('title') and re.fullmatch(r'BV\w{10}', str(r.get('bvid') or ''))]
 
 
@@ -146,7 +158,7 @@ def p_toutiao(raw):
 
 def p_douyin(raw):
     rows = (_json(raw).get('data') or {}).get('word_list') or []
-    return [{'title': r['word'], 'url': 'https://www.douyin.com/hot/%s' % r['sentence_id'], 'heat': '热度 ' + _heat(r.get('hot_value')), 'note': ''}
+    return [{'title': r['word'], 'url': 'https://www.douyin.com/hot/%s' % r['sentence_id'], 'heat': '热度 ' + _heat(r.get('hot_value')), 'note': '', 'img': ((r.get('word_cover') or {}).get('url_list') or [''])[0]}
             for r in rows if isinstance(r, dict) and r.get('word') and re.fullmatch(r'\d+', str(r.get('sentence_id') or ''))]
 
 
@@ -162,7 +174,7 @@ def p_juejin(raw):
 
 def p_v2ex(raw):
     data = _json(raw)
-    return [{'title': r['title'], 'url': r['url'], 'heat': '回复 %s' % r.get('replies', 0), 'note': (r.get('node') or {}).get('title', '')}
+    return [{'title': r['title'], 'url': r['url'], 'heat': '回复 %s' % r.get('replies', 0), 'note': (r.get('node') or {}).get('title', ''), 'body': r.get('content')}
             for r in (data if isinstance(data, list) else []) if isinstance(r, dict) and r.get('title') and str(r.get('url') or '').startswith('https://www.v2ex.com/t/')]
 
 
@@ -175,7 +187,8 @@ def p_github(raw):
         desc = re.search(r'<p class="[^"]*color-fg-muted[^"]*"[^>]*>(.*?)</p>', block, re.S)
         lang = re.search(r'itemprop="programmingLanguage">([^<]+)<', block)
         today = re.search(r'([\d,]+)\s+stars\s+today', block)
-        out.append({'title': m.group(1), 'url': 'https://github.com/' + m.group(1), 'heat': ('今日 +%s ★' % today.group(1)) if today else '', 'note': ' · '.join(x for x in (_text(lang.group(1), 30) if lang else '', _text(desc.group(1), 140) if desc else '') if x)})
+        out.append({'title': m.group(1), 'url': 'https://github.com/' + m.group(1), 'heat': ('今日 +%s ★' % today.group(1)) if today else '', 'note': ' · '.join(x for x in (_text(lang.group(1), 30) if lang else '', _text(desc.group(1), 140) if desc else '') if x),
+                    'body': _text(desc.group(1), 300) if desc else ''})
     if not out and 'Box-row' not in raw:
         raise _changed()
     return out
@@ -199,7 +212,8 @@ def p_lobsters(raw):
 
 def p_devto(raw):
     data = _json(raw)
-    return [{'title': r['title'], 'url': r.get('url') or '', 'heat': '♥ %s' % _n(r.get('public_reactions_count')), 'note': ' · '.join(x for x in ((r.get('user') or {}).get('name', ''), '%s 条评论' % _n(r.get('comments_count'))) if x)}
+    return [{'title': r['title'], 'url': r.get('url') or '', 'heat': '♥ %s' % _n(r.get('public_reactions_count')), 'note': ' · '.join(x for x in ((r.get('user') or {}).get('name', ''), '%s 条评论' % _n(r.get('comments_count'))) if x),
+             'img': r.get('cover_image') or r.get('social_image'), 'body': r.get('description')}
             for r in (data if isinstance(data, list) else []) if isinstance(r, dict) and r.get('title')]
 
 
@@ -208,7 +222,7 @@ def p_netease(raw):
     for r in (_json(raw).get('result') or {}).get('tracks') or []:
         if isinstance(r, dict) and r.get('name') and re.fullmatch(r'\d+', str(r.get('id') or '')):
             who = ' / '.join(a.get('name', '') for a in r.get('artists') or [] if isinstance(a, dict))
-            out.append({'title': '%s — %s' % (r['name'], who) if who else r['name'], 'url': 'https://music.163.com/#/song?id=%s' % r['id'], 'heat': '', 'note': (r.get('album') or {}).get('name', '')})
+            out.append({'title': '%s — %s' % (r['name'], who) if who else r['name'], 'url': 'https://music.163.com/#/song?id=%s' % r['id'], 'heat': '', 'note': (r.get('album') or {}).get('name', ''), 'img': (r.get('album') or {}).get('picUrl')})
     return out
 
 
@@ -217,7 +231,9 @@ def p_qqmusic(raw):
     for r in ((_json(raw).get('detail') or {}).get('data') or {}).get('songInfoList') or []:
         if isinstance(r, dict) and r.get('name') and re.fullmatch(r'[A-Za-z0-9]{10,16}', str(r.get('mid') or '')):
             who = ' / '.join(a.get('name', '') for a in r.get('singer') or [] if isinstance(a, dict))
-            out.append({'title': '%s — %s' % (r['name'], who) if who else r['name'], 'url': 'https://y.qq.com/n/ryqq/songDetail/%s' % r['mid'], 'heat': '', 'note': (r.get('album') or {}).get('name', '')})
+            amid = str((r.get('album') or {}).get('mid') or '')
+            out.append({'title': '%s — %s' % (r['name'], who) if who else r['name'], 'url': 'https://y.qq.com/n/ryqq/songDetail/%s' % r['mid'], 'heat': '', 'note': (r.get('album') or {}).get('name', ''),
+                        'img': ('https://y.gtimg.cn/music/photo_new/T002R300x300M000%s.jpg' % amid) if re.fullmatch(r'[A-Za-z0-9]{10,16}', amid) else ''})
     return out
 
 
@@ -227,7 +243,7 @@ def p_apple(raw):
     for r in (_json(raw).get('feed') or {}).get('results') or []:
         if isinstance(r, dict) and r.get('name') and re.match(r'https://(podcasts|music)\.apple\.com/', str(r.get('url') or '')):
             genre = ((r.get('genres') or [{}])[0] or {}).get('name', '')
-            out.append({'title': r['name'], 'url': r['url'], 'heat': '', 'note': ' · '.join(x for x in (r.get('artistName') or '', genre) if x)})
+            out.append({'title': r['name'], 'url': r['url'], 'heat': '', 'note': ' · '.join(x for x in (r.get('artistName') or '', genre) if x), 'img': str(r.get('artworkUrl100') or '').replace('/100x100', '/300x300')})
     return out
 
 
@@ -255,7 +271,7 @@ def p_weread(raw):
             link = 'https://weread.qq.com/web/search/books?keyword=' + urllib.parse.quote(b['title'])
         rating = b.get('newRating')
         out.append({'title': b['title'], 'url': link, 'heat': ('在读 ' + _heat(r.get('readingCount'))) if r.get('readingCount') else '',
-                    'note': ' · '.join(x for x in (b.get('author') or '', ('推荐值 %.1f%%' % (rating / 10)) if isinstance(rating, (int, float)) and rating > 0 else '') if x)})
+                    'note': ' · '.join(x for x in (b.get('author') or '', ('推荐值 %.1f%%' % (rating / 10)) if isinstance(rating, (int, float)) and rating > 0 else '') if x), 'img': b.get('cover'), 'body': b.get('intro')})
     return out
 
 
@@ -263,7 +279,8 @@ def p_openlibrary(raw):
     out = []
     for r in _json(raw).get('works') or []:
         if isinstance(r, dict) and r.get('title') and re.fullmatch(r'/works/OL\d+W', str(r.get('key') or '')):
-            out.append({'title': r['title'], 'url': 'https://openlibrary.org' + r['key'], 'heat': '', 'note': ' · '.join(x for x in ((r.get('author_name') or [''])[0], str(r.get('first_publish_year') or '')) if x)})
+            out.append({'title': r['title'], 'url': 'https://openlibrary.org' + r['key'], 'heat': '', 'note': ' · '.join(x for x in ((r.get('author_name') or [''])[0], str(r.get('first_publish_year') or '')) if x),
+                        'img': ('https://covers.openlibrary.org/b/id/%s-M.jpg' % r['cover_i']) if re.fullmatch(r'\d+', str(r.get('cover_i') or '')) else ''})
     return out
 
 
@@ -295,7 +312,7 @@ def p_steam(raw):
     for r in ((_json(raw).get('top_sellers')) or {}).get('items') or []:
         if isinstance(r, dict) and r.get('name') and re.fullmatch(r'\d+', str(r.get('id') or '')):
             off = r.get('discount_percent')
-            out.append({'title': r['name'], 'url': 'https://store.steampowered.com/app/%s/' % r['id'], 'heat': _price(r.get('final_price'), r.get('currency')), 'note': ('-%s%%' % off) if off else ''})
+            out.append({'title': r['name'], 'url': 'https://store.steampowered.com/app/%s/' % r['id'], 'heat': _price(r.get('final_price'), r.get('currency')), 'note': ('-%s%%' % off) if off else '', 'img': r.get('header_image')})
     return out
 
 
@@ -304,7 +321,10 @@ def p_youtube(raw):
     for r in _json(raw).get('items') or []:
         s = r.get('snippet') if isinstance(r, dict) else None
         if isinstance(s, dict) and s.get('title') and re.fullmatch(r'[\w-]{11}', str(r.get('id') or '')):
-            out.append({'title': s['title'], 'url': 'https://www.youtube.com/watch?v=%s' % r['id'], 'heat': ('观看 ' + _heat((r.get('statistics') or {}).get('viewCount'))) if (r.get('statistics') or {}).get('viewCount') else '', 'note': s.get('channelTitle') or ''})
+            th = s.get('thumbnails') if isinstance(s.get('thumbnails'), dict) else {}
+            pic = th.get('medium') or th.get('high') or th.get('default')
+            out.append({'title': s['title'], 'url': 'https://www.youtube.com/watch?v=%s' % r['id'], 'heat': ('观看 ' + _heat((r.get('statistics') or {}).get('viewCount'))) if (r.get('statistics') or {}).get('viewCount') else '', 'note': s.get('channelTitle') or '',
+                        'img': pic.get('url') if isinstance(pic, dict) else '', 'body': s.get('description')})
     return out
 
 
@@ -313,7 +333,7 @@ def p_coingecko(raw):
     for c in _json(raw).get('coins') or []:
         r = c.get('item') if isinstance(c, dict) else None
         if isinstance(r, dict) and r.get('name') and re.fullmatch(r'[\w.-]+', str(r.get('id') or '')):
-            out.append({'title': '%s（%s）' % (r['name'], r.get('symbol') or ''), 'url': 'https://www.coingecko.com/en/coins/%s' % r['id'], 'heat': ('市值排名 #%s' % r['market_cap_rank']) if r.get('market_cap_rank') else '', 'note': ''})
+            out.append({'title': '%s（%s）' % (r['name'], r.get('symbol') or ''), 'url': 'https://www.coingecko.com/en/coins/%s' % r['id'], 'heat': ('市值排名 #%s' % r['market_cap_rank']) if r.get('market_cap_rank') else '', 'note': '', 'img': r.get('large') or r.get('small')})
     return out
 
 
@@ -338,7 +358,7 @@ def p_mastodon(raw):
                     people += int(h.get('accounts') or 0)
                 except (TypeError, ValueError, AttributeError):
                     pass
-            out.append({'title': r['title'], 'url': r['url'], 'heat': ('%s 人分享' % _n(people)) if people else '', 'note': r.get('provider_name') or ''})
+            out.append({'title': r['title'], 'url': r['url'], 'heat': ('%s 人分享' % _n(people)) if people else '', 'note': r.get('provider_name') or '', 'img': r.get('image'), 'body': r.get('description')})
     return out
 
 
@@ -430,7 +450,8 @@ TOPHUB = 'https://tophub.today/n/'
 
 def P(col, name, name_en, home, url, parse=None, lang='zh', headers=None, **kw):
     """A platform. `feed`: the address is an RSS / Atom feed (a list in time order, with dates). `default`: on unless the owner turns it off. `needs`: environment variables that must be set.
-    `via`: where the list really comes from, when that is not the platform. `read`: what the entries point to are articles the page may read in its reader (news, blogs); the others open the platform's own page."""
+    `via`: where the list really comes from, when that is not the platform. `read`: what the entries point to are articles the page may read in its reader (news, blogs); the others open the platform's own page.
+    `detail`: the page behind a row can be had as text (hotdetail.py: V2EX, Zhihu Daily, a GitHub README, an Apple Podcasts show). `kw`: the row is only a phrase (a hot search): the site shows it in a card with the news about it."""
     return {'col': col, 'name': name, 'name_en': name_en, 'home': home, 'url': url, 'parse': parse, 'lang': lang, 'headers': headers or {}, 'default': True, 'ranked': parse is not None, 'feed': parse is None, 'read': parse is None, **kw}
 
 
@@ -476,61 +497,72 @@ APPLE = 'https://rss.applemarketingtools.com/api/v2/%s'
 # id -> what it is; the order is the order of the tabs of a column.
 PLATFORMS = {
     # ------------------------------------------------------------ 综合热点
-    'weibo': P('news', '微博热搜', 'Weibo hot searches', 'https://s.weibo.com/top/summary', 'https://weibo.com/ajax/side/hotSearch', p_weibo, headers={'Referer': 'https://weibo.com/'}),
-    'zhihu': P('news', '知乎热榜', 'Zhihu hot questions', 'https://www.zhihu.com/hot', 'https://api.zhihu.com/topstory/hot-lists/total?limit=50', p_zhihu),
-    'douyin': P('news', '抖音热点', 'Douyin hot topics', 'https://www.douyin.com/hot', 'https://www.douyin.com/aweme/v1/web/hot/search/list/?device_platform=webapp&aid=6383&channel=channel_pc_web&detail_list=1', p_douyin, headers={'Referer': 'https://www.douyin.com/'}),
-    'xiaohongshu': P('news', '小红书热门', 'Xiaohongshu hot notes', 'https://www.xiaohongshu.com/explore', 'https://rebang.today/?tab=xiaohongshu', p_xiaohongshu, via='rebang.today', ttl=THIRD_SECONDS),
+    'weibo': P('news', '微博热搜', 'Weibo hot searches', 'https://s.weibo.com/top/summary', 'https://weibo.com/ajax/side/hotSearch', p_weibo, headers={'Referer': 'https://weibo.com/'}, kw=True),
+    'zhihu': P('news', '知乎热榜', 'Zhihu hot questions', 'https://www.zhihu.com/hot', 'https://api.zhihu.com/topstory/hot-lists/total?limit=50', p_zhihu, kw=True),
+    'douyin': P('news', '抖音热点', 'Douyin hot topics', 'https://www.douyin.com/hot', 'https://www.douyin.com/aweme/v1/web/hot/search/list/?device_platform=webapp&aid=6383&channel=channel_pc_web&detail_list=1', p_douyin, headers={'Referer': 'https://www.douyin.com/'}, kw=True),
+    'xiaohongshu': P('news', '小红书热门', 'Xiaohongshu hot notes', 'https://www.xiaohongshu.com/explore', 'https://rebang.today/?tab=xiaohongshu', p_xiaohongshu, via='rebang.today', ttl=THIRD_SECONDS, kw=True),
     'bilibili': P('news', 'B 站热门视频', 'Bilibili popular videos', 'https://www.bilibili.com/v/popular/all', 'https://api.bilibili.com/x/web-interface/popular?ps=50&pn=1', p_bilibili, headers={'Referer': 'https://www.bilibili.com/'}),
     'wechat': TH('news', '公众号热文', 'WeChat articles', 'https://weixin.sogou.com/', 'WnBe01o371', ('weixin.qq.com',)),
-    'toutiao': P('news', '今日头条热榜', 'Toutiao hot board', 'https://www.toutiao.com/', 'https://www.toutiao.com/hot-event/hot-board/?origin=toutiao_pc', p_toutiao),
+    'toutiao': P('news', '今日头条热榜', 'Toutiao hot board', 'https://www.toutiao.com/', 'https://www.toutiao.com/hot-event/hot-board/?origin=toutiao_pc', p_toutiao, kw=True),
     'hupu': TH('news', '虎扑步行街热帖', 'Hupu hot posts', 'https://bbs.hupu.com/', 'G47o8weMmN', ('hupu.com',)),
-    'zhihu_daily': P('news', '知乎日报', 'Zhihu Daily', 'https://daily.zhihu.com/', 'https://news-at.zhihu.com/api/4/news/latest', p_zhihu_daily, ranked=False, read=True),
+    'zhihu_daily': P('news', '知乎日报', 'Zhihu Daily', 'https://daily.zhihu.com/', 'https://news-at.zhihu.com/api/4/news/latest', p_zhihu_daily, ranked=False, read=True, detail=True),
     # ------------------------------------------------------------ 科技与开发
-    'github': P('tech', 'GitHub Trending（今日）', 'GitHub Trending (today)', 'https://github.com/trending', 'https://github.com/trending?since=daily', p_github, lang='en'),
-    'juejin': P('tech', '掘金热榜', 'Juejin hot articles', 'https://juejin.cn/hot/articles', 'https://api.juejin.cn/content_api/v1/content/article_rank?category_id=1&type=hot', p_juejin),
-    'v2ex': P('tech', 'V2EX 今日热议', 'V2EX hot topics', 'https://www.v2ex.com/', 'https://www.v2ex.com/api/topics/hot.json', p_v2ex),
-    'hackernews': P('tech', 'Hacker News', 'Hacker News', 'https://news.ycombinator.com/', 'https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=50', p_hn, lang='en'),
-    'lobsters': P('tech', 'Lobsters', 'Lobsters', 'https://lobste.rs/', 'https://lobste.rs/hottest.json', p_lobsters, lang='en'),
+    'github': P('tech', 'GitHub Trending（今日）', 'GitHub Trending (today)', 'https://github.com/trending', 'https://github.com/trending?since=daily', p_github, lang='en', detail=True),
+    'juejin': P('tech', '掘金热榜', 'Juejin hot articles', 'https://juejin.cn/hot/articles', 'https://api.juejin.cn/content_api/v1/content/article_rank?category_id=1&type=hot', p_juejin, read=True),
+    'v2ex': P('tech', 'V2EX 今日热议', 'V2EX hot topics', 'https://www.v2ex.com/', 'https://www.v2ex.com/api/topics/hot.json', p_v2ex, detail=True, read=True),
+    'hackernews': P('tech', 'Hacker News', 'Hacker News', 'https://news.ycombinator.com/', 'https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=50', p_hn, lang='en', read=True),
+    'lobsters': P('tech', 'Lobsters', 'Lobsters', 'https://lobste.rs/', 'https://lobste.rs/hottest.json', p_lobsters, lang='en', read=True),
     'devto': P('tech', 'DEV 社区（本周）', 'DEV Community (top)', 'https://dev.to/top/week', 'https://dev.to/api/articles?top=7&per_page=50', p_devto, lang='en', read=True),
     'producthunt': P('tech', 'Product Hunt', 'Product Hunt', 'https://www.producthunt.com/', 'https://www.producthunt.com/feed', lang='en', read=False),
     'sspai': P('tech', '少数派', 'sspai', 'https://sspai.com/', 'https://sspai.com/feed'),
     'geekpark': P('tech', '极客公园', 'GeekPark', 'https://www.geekpark.net/', 'https://www.geekpark.net/rss'),
     'ithome': P('tech', 'IT 之家', 'ITHome', 'https://www.ithome.com/', 'https://www.ithome.com/rss/'),
     'cnblogs': P('tech', '博客园', 'cnblogs', 'https://www.cnblogs.com/', 'https://feed.cnblogs.com/blog/sitehome/rss'),
-    'kr36': TH('tech', '36氪 24 小时热榜', '36Kr 24-hour hot list', 'https://36kr.com/hot-list/catalog', 'Q1Vd5Ko85R', ('36kr.com',)),
+    'kr36': TH('tech', '36氪 24 小时热榜', '36Kr 24-hour hot list', 'https://36kr.com/hot-list/catalog', 'Q1Vd5Ko85R', ('36kr.com',), read=True),
+    'theverge': P('tech', 'The Verge', 'The Verge', 'https://www.theverge.com/', 'https://www.theverge.com/rss/index.xml', lang='en'),
+    'arstechnica': P('tech', 'Ars Technica', 'Ars Technica', 'https://arstechnica.com/', 'https://feeds.arstechnica.com/arstechnica/index', lang='en'),
+    'techcrunch': P('tech', 'TechCrunch', 'TechCrunch', 'https://techcrunch.com/', 'https://techcrunch.com/feed/', lang='en'),
+    'hackaday': P('tech', 'Hackaday（硬件与创客）', 'Hackaday', 'https://hackaday.com/', 'https://hackaday.com/blog/feed/', lang='en'),
+    'slashdot': P('tech', 'Slashdot', 'Slashdot', 'https://slashdot.org/', 'https://rss.slashdot.org/Slashdot/slashdotMain', lang='en'),
     # ------------------------------------------------------------ 财经
     'xueqiu': TH('money', '雪球热帖', 'Xueqiu hot posts', 'https://xueqiu.com/', 'X12owXzvNV', ('xueqiu.com',)),
     'ths': P('money', '同花顺热股', 'Tonghuashun hot stocks', 'https://www.10jqka.com.cn/', 'https://dq.10jqka.com.cn/fuyao/hot_list_data/out/hot_list/v1/stock?stock_type=a&type=hour&list_type=normal', p_ths),
     'wallstreetcn': P('money', '华尔街见闻', 'WallStreetCN', 'https://wallstreetcn.com/', 'https://dedicated.wallstreetcn.com/rss.xml'),
     'cnbc': P('money', 'CNBC', 'CNBC', 'https://www.cnbc.com/', 'https://www.cnbc.com/id/100003114/device/rss/rss.html', lang='en'),
-    'bloomberg': P('money', 'Bloomberg Markets', 'Bloomberg Markets', 'https://www.bloomberg.com/markets', 'https://feeds.bloomberg.com/markets/news.rss', lang='en'),
+    'bloomberg': P('money', 'Bloomberg Markets', 'Bloomberg Markets', 'https://www.bloomberg.com/markets', 'https://feeds.bloomberg.com/markets/news.rss', lang='en', read=False),
     'economist': P('money', '经济学人 · 金融与经济', 'The Economist · Finance & economics', 'https://www.economist.com/finance-and-economics', 'https://www.economist.com/finance-and-economics/rss.xml', lang='en', read=False),
     'coingecko': P('money', '加密货币热搜（CoinGecko）', 'Trending coins (CoinGecko)', 'https://www.coingecko.com/en/highlights/trending-crypto', 'https://api.coingecko.com/api/v3/search/trending', p_coingecko, lang='en'),
     # ------------------------------------------------------------ 国际
-    'gtrends': P('world', 'Google 热搜', 'Google Trends', 'https://trends.google.com/trending', GT + '{REGION}', p_gtrends, lang='en', regions=GT_REGIONS, region='US'),
+    'gtrends': P('world', 'Google 热搜', 'Google Trends', 'https://trends.google.com/trending', GT + '{REGION}', p_gtrends, lang='en', regions=GT_REGIONS, region='US', kw=True),
     'wikipedia': P('world', '维基百科阅读榜（英文）', 'Wikipedia most read (English)', 'https://en.wikipedia.org/wiki/Wikipedia:Top_25_Report', WIKI % 'en', wiki('en'), lang='en', read=True),
     'wikipedia_zh': P('world', '维基百科阅读榜（中文）', 'Wikipedia most read (Chinese)', 'https://zh.wikipedia.org/', WIKI % 'zh', wiki('zh'), read=True),
-    'bbc': P('world', 'BBC 国际', 'BBC World', 'https://www.bbc.com/news/world', 'https://feeds.bbci.co.uk/news/world/rss.xml', lang='en'),
+    'bbc': P('world', 'BBC 国际', 'BBC World', 'https://www.bbc.com/news/world', 'https://feeds.bbci.co.uk/news/world/rss.xml', lang='en', read=False),
     'bbc_zh': P('world', 'BBC 中文', 'BBC Chinese', 'https://www.bbc.com/zhongwen/simp', 'https://feeds.bbci.co.uk/zhongwen/simp/rss.xml'),
     'rfi_zh': P('world', '法广中文', 'RFI Chinese', 'https://www.rfi.fr/cn/', 'https://www.rfi.fr/cn/rss'),
     'nyt_world': P('world', '纽约时报 · 国际', 'The New York Times · World', 'https://www.nytimes.com/section/world', 'https://rss.nytimes.com/services/xml/rss/nyt/World.xml', lang='en', read=False),
     'nyt_cn': P('world', '纽约时报中文网', 'The New York Times (Chinese)', 'https://cn.nytimes.com/', 'https://cn.nytimes.com/rss/', read=False),
     'aljazeera': P('world', '半岛电视台', 'Al Jazeera', 'https://www.aljazeera.com/', 'https://www.aljazeera.com/xml/rss/all.xml', lang='en'),
     'guardian': P('world', '卫报 · 国际', 'The Guardian · World', 'https://www.theguardian.com/world', 'https://www.theguardian.com/world/rss', lang='en'),
-    'mastodon': P('world', 'Mastodon 热门链接', 'Mastodon trending links', 'https://mastodon.social/explore/links', 'https://mastodon.social/api/v1/trends/links?limit=40', p_mastodon, lang='en'),
+    'mastodon': P('world', 'Mastodon 热门链接', 'Mastodon trending links', 'https://mastodon.social/explore/links', 'https://mastodon.social/api/v1/trends/links?limit=40', p_mastodon, lang='en', read=True),
+    'dw': P('world', 'DW 德国之声（英文）', 'DW News (English)', 'https://www.dw.com/en/', 'https://rss.dw.com/rdf/rss-en-all', lang='en'),
+    'france24': P('world', 'France 24（英文）', 'France 24 (English)', 'https://www.france24.com/en/', 'https://www.france24.com/en/rss', lang='en'),
+    'conversation': P('world', 'The Conversation（学者写时事）', 'The Conversation', 'https://theconversation.com/global', 'https://theconversation.com/global/articles.atom', lang='en'),
     # ------------------------------------------------------------ AI 与学术
-    'hf_papers': P('ai', 'Hugging Face 每日论文', 'Hugging Face daily papers', 'https://huggingface.co/papers', 'https://huggingface.co/api/daily_papers?limit=50', p_hf_papers, lang='en'),
-    'hf_models': P('ai', 'Hugging Face 热门模型', 'Hugging Face trending models', 'https://huggingface.co/models?sort=trending', 'https://huggingface.co/api/models?sort=trendingScore&limit=50', p_hf_models, lang='en'),
+    'hf_papers': P('ai', 'Hugging Face 每日论文', 'Hugging Face daily papers', 'https://huggingface.co/papers', 'https://huggingface.co/api/daily_papers?limit=50', p_hf_papers, lang='en', read=True),
+    'hf_models': P('ai', 'Hugging Face 热门模型', 'Hugging Face trending models', 'https://huggingface.co/models?sort=trending', 'https://huggingface.co/api/models?sort=trendingScore&limit=50', p_hf_models, lang='en', read=True),
     'arxiv_ai': P('ai', 'arXiv · cs.AI', 'arXiv · cs.AI', 'https://arxiv.org/list/cs.AI/new', 'https://rss.arxiv.org/rss/cs.AI', lang='en'),
     'arxiv_cl': P('ai', 'arXiv · cs.CL', 'arXiv · cs.CL', 'https://arxiv.org/list/cs.CL/new', 'https://rss.arxiv.org/rss/cs.CL', lang='en'),
-    'openai': P('ai', 'OpenAI 动态', 'OpenAI news', 'https://openai.com/news/', 'https://openai.com/news/rss.xml', lang='en'),
+    'openai': P('ai', 'OpenAI 动态', 'OpenAI news', 'https://openai.com/news/', 'https://openai.com/news/rss.xml', lang='en', read=False),
     'mitnews': P('ai', 'MIT 新闻', 'MIT News', 'https://news.mit.edu/', 'https://news.mit.edu/rss/feed', lang='en'),
     'qbitai': P('ai', '量子位', 'QbitAI', 'https://www.qbitai.com/', 'https://www.qbitai.com/feed'),
     'mit_ai': P('ai', 'MIT Technology Review · AI', 'MIT Technology Review · AI', 'https://www.technologyreview.com/topic/artificial-intelligence/', 'https://www.technologyreview.com/topic/artificial-intelligence/feed', lang='en'),
     'techcrunch_ai': P('ai', 'TechCrunch · AI', 'TechCrunch · AI', 'https://techcrunch.com/category/artificial-intelligence/', 'https://techcrunch.com/category/artificial-intelligence/feed/', lang='en'),
     'nature': P('ai', 'Nature 新闻', 'Nature', 'https://www.nature.com/nature/articles?type=news', 'https://www.nature.com/nature.rss', lang='en'),
-    'science_news': P('ai', 'Science 新闻', 'Science news', 'https://www.science.org/news', 'https://www.science.org/rss/news_current.xml', lang='en'),
+    'science_news': P('ai', 'Science 新闻', 'Science news', 'https://www.science.org/news', 'https://www.science.org/rss/news_current.xml', lang='en', read=False),
     'physorg': P('ai', 'Phys.org', 'Phys.org', 'https://phys.org/', 'https://phys.org/rss-feed/', lang='en'),
+    'quanta': P('ai', 'Quanta 杂志（数学与科学）', 'Quanta Magazine', 'https://www.quantamagazine.org/', 'https://www.quantamagazine.org/feed/', lang='en'),
+    'sciam': P('ai', '科学美国人', 'Scientific American', 'https://www.scientificamerican.com/', 'https://www.scientificamerican.com/platform/syndication/rss/', lang='en'),
+    'newscientist': P('ai', '新科学家', 'New Scientist', 'https://www.newscientist.com/', 'https://www.newscientist.com/feed/home/', lang='en'),
     # ------------------------------------------------------------ 读书与影音
     'weread_rising': P('play', '微信读书 · 飙升榜', 'WeRead · rising books', 'https://weread.qq.com/web/category/rising', 'https://weread.qq.com/web/bookListInCategory/rising?rank=1', p_weread, headers={'Referer': 'https://weread.qq.com/'}),
     'weread_novel': P('play', '微信读书 · 小说榜', 'WeRead · novels', 'https://weread.qq.com/web/category/100000', 'https://weread.qq.com/web/bookListInCategory/100000?maxIndex=0', p_weread, headers={'Referer': 'https://weread.qq.com/'}),
@@ -542,12 +574,18 @@ PLATFORMS = {
     'gutenberg': P('play', 'Project Gutenberg 热门公版书', 'Project Gutenberg popular books', 'https://www.gutenberg.org/browse/scores/top', 'https://gutendex.com/books/?sort=popular&languages=en', p_gutendex, lang='en'),
     'netease': P('play', '网易云音乐飙升榜', 'NetEase Cloud Music: rising songs', 'https://music.163.com/#/discover/toplist?id=19723756', 'https://music.163.com/api/playlist/detail?id=19723756', p_netease),
     'qqmusic': P('play', 'QQ 音乐飙升榜', 'QQ Music: rising songs', 'https://y.qq.com/n/ryqq/toplist/62', 'https://u.y.qq.com/cgi-bin/musicu.fcg?data=%7B%22detail%22%3A%7B%22module%22%3A%22musicToplist.ToplistInfoServer%22%2C%22method%22%3A%22GetDetail%22%2C%22param%22%3A%7B%22topId%22%3A62%2C%22offset%22%3A0%2C%22num%22%3A50%7D%7D%7D', p_qqmusic, headers={'Referer': 'https://y.qq.com/'}),
-    'apple_pod_cn': P('play', 'Apple 播客榜 · 中国', 'Apple Podcasts · China', 'https://podcasts.apple.com/cn/charts', APPLE % 'cn/podcasts/top/50/podcasts.json', p_apple),
-    'apple_pod_us': P('play', 'Apple 播客榜 · 美国', 'Apple Podcasts · US', 'https://podcasts.apple.com/us/charts', APPLE % 'us/podcasts/top/50/podcasts.json', p_apple, lang='en'),
+    'apple_pod_cn': P('play', 'Apple 播客榜 · 中国', 'Apple Podcasts · China', 'https://podcasts.apple.com/cn/charts', APPLE % 'cn/podcasts/top/50/podcasts.json', p_apple, detail=True),
+    'apple_pod_us': P('play', 'Apple 播客榜 · 美国', 'Apple Podcasts · US', 'https://podcasts.apple.com/us/charts', APPLE % 'us/podcasts/top/50/podcasts.json', p_apple, lang='en', detail=True),
     'apple_music_us': P('play', 'Apple Music 最多播放 · 美国', 'Apple Music most played · US', 'https://music.apple.com/us/new', APPLE % 'us/music/most-played/50/songs.json', p_apple, lang='en'),
     'steam': P('play', 'Steam 热销', 'Steam top sellers', 'https://store.steampowered.com/search/?filter=topsellers', 'https://store.steampowered.com/api/featuredcategories?cc=cn&l=schinese', p_steam),
     'taptap': TH('play', 'TapTap 热门游戏', 'TapTap hot games', 'https://www.taptap.cn/top/download', '6ARe1k2v7n', ('taptap.cn', 'taptap.io')),
     'douban_movie': TH('play', '豆瓣新片榜', 'Douban new films', 'https://movie.douban.com/chart', 'mDOvnyBoEB', ('douban.com',)),
+    'longreads': P('play', 'Longreads 长文精选', 'Longreads', 'https://longreads.com/', 'https://longreads.com/feed/', lang='en'),
+    'psyche': P('play', 'Psyche（观念与生活）', 'Psyche', 'https://psyche.co/', 'https://psyche.co/feed', lang='en'),
+    'pitchfork': P('play', 'Pitchfork 乐评', 'Pitchfork', 'https://pitchfork.com/', 'https://pitchfork.com/feed/feed-news/rss', lang='en'),
+    'variety': P('play', 'Variety 影视', 'Variety', 'https://variety.com/', 'https://variety.com/feed/', lang='en'),
+    'letterboxd': P('play', 'Letterboxd 影评', 'Letterboxd Journal', 'https://letterboxd.com/journal/', 'https://letterboxd.com/journal/rss/', lang='en'),
+    'polygon': P('play', 'Polygon 游戏', 'Polygon', 'https://www.polygon.com/', 'https://www.polygon.com/rss/index.xml', lang='en'),
     'youtube': P('play', 'YouTube 热门', 'YouTube most popular', 'https://www.youtube.com/feed/trending',
                  'https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics&chart=mostPopular&maxResults=50&regionCode={REGION}&key={YOUTUBE_API_KEY}', p_youtube, lang='en', needs=['YOUTUBE_API_KEY'], regions=YT_REGIONS, region='US', region_env='YOUTUBE_REGION'),
 }
@@ -617,7 +655,7 @@ def _url(spec, env, now, region=''):
 
 def feed_rows(body, headers, url):
     _, items = agg.parse_feed(body, headers, url)
-    return [{'title': i.get('title'), 'url': i.get('url'), 'heat': '', 'note': '', 'date': i.get('date') or ''} for i in items]
+    return [{'title': i.get('title'), 'url': i.get('url'), 'heat': '', 'note': '', 'date': i.get('date') or '', 'img': i.get('image'), 'body': i.get('summary')} for i in items]
 
 
 def entries(pid, now=None, env=None, region=''):
@@ -652,9 +690,11 @@ def rss(pid, spec, rows, now=None, region=''):
     items = []
     for i, r in enumerate(rows, 1):
         bits = (['第 %d 名' % i] if spec['ranked'] else [r['date']]) + [x for x in (r['heat'], r['note']) if x]
-        items.append('<item><title>%s</title><link>%s</link><guid isPermaLink="false">hot:%s:%s</guid><pubDate>%s</pubDate><description>%s</description></item>'
-                     % (escape(r['title']), escape(r['url']), pid, hashlib.sha1(r['url'].encode('utf-8')).hexdigest()[:12], stamp, escape(' · '.join(x for x in bits if x))))
-    return ('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>%s</title><link>%s</link><description>%s</description><language>%s</language><lastBuildDate>%s</lastBuildDate>%s</channel></rss>'
+        desc = ' · '.join(x for x in bits if x) + (' — ' + r['body'] if r.get('body') and r['body'] not in r['note'] else '')
+        thumb = '<media:thumbnail url="%s"/>' % escape(r['img'], {'"': '&quot;'}) if r.get('img') else ''
+        items.append('<item><title>%s</title><link>%s</link><guid isPermaLink="false">hot:%s:%s</guid><pubDate>%s</pubDate><description>%s</description>%s</item>'
+                     % (escape(r['title']), escape(r['url']), pid, hashlib.sha1(r['url'].encode('utf-8')).hexdigest()[:12], stamp, escape(desc), thumb))
+    return ('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>%s</title><link>%s</link><description>%s</description><language>%s</language><lastBuildDate>%s</lastBuildDate>%s</channel></rss>'
             % (escape(title), escape(spec['home']), escape('%s：平台当前的榜单（排名、标题、热度和平台自己的链接），由知树阅读按需生成，不保存任何内容。' % title), 'zh-CN' if spec['lang'] == 'zh' else 'en', stamp, ''.join(items)))
 
 
@@ -664,9 +704,71 @@ def _info(k, v):
         d['via'] = v['via']
     if v.get('read'):
         d['read'] = True
+    if v.get('detail'):
+        d['detail'] = True
+    if v.get('kw'):
+        d['kw'] = True
     if v.get('regions'):
         d['regions'] = list(v['regions'])
     return d
+
+
+def _fail(status, error, zh, en):
+    return status, 'application/json; charset=utf-8', json.dumps({'ok': False, 'error': error, 'message': zh, 'message_en': en}, ensure_ascii=False).encode('utf-8'), 'no-store'
+
+
+def diagnose(pid, env):
+    """Why a platform cannot be read from where this runs: its host name resolved, then one connection to it (a platform of the list only; nothing is sent)."""
+    import socket
+    spec = platforms(env).get(pid)
+    host = urllib.parse.urlsplit(spec['url']).hostname if spec else ''
+    if not host:
+        return None
+    out = {'ok': True, 'platform': pid, 'host': host, 'region': str((env or {}).get('VERCEL_REGION') or '')}
+    t = time.time()
+    try:
+        infos = socket.getaddrinfo(host, 443, type=socket.SOCK_STREAM)
+        out['dns'] = 'ok'
+        out['ips'] = sorted({i[4][0] for i in infos})[:3]
+    except OSError as e:
+        out['dns'] = 'failed: %s' % str(e)[:80]
+        return out
+    finally:
+        out['dns_ms'] = int((time.time() - t) * 1000)
+    t = time.time()
+    try:
+        socket.create_connection((infos[0][4][0], 443), 4).close()
+        out['connect'] = 'ok'
+    except OSError as e:
+        out['connect'] = 'failed: %s' % (str(e)[:80] or 'timed out')
+    out['connect_ms'] = int((time.time() - t) * 1000)
+    return out
+
+
+def _extra(query, env, now):
+    """What is behind a row (`detail=<address of the row>`) or the news about a phrase (`related=<words>&lang=zh|en`). HOT_DETAIL=0 / HOT_RELATED=0 turn them off.
+    `diag=<platform>` says why a platform cannot be reached from here (name not found, no connection)."""
+    pid = (query.get('diag') or [''])[0]
+    if pid:
+        d = diagnose(pid, env)
+        if not d:
+            return _fail(404, 'platform', '没有这个榜单', 'No such list')
+        return 200, 'application/json; charset=utf-8', json.dumps(d, ensure_ascii=False).encode('utf-8'), 'no-store'
+    ok = lambda d, ttl: (200, 'application/json; charset=utf-8', json.dumps({'ok': True, **d}, ensure_ascii=False).encode('utf-8'), 'public, max-age=%d, s-maxage=%d, stale-while-revalidate=3600' % (ttl // 2, ttl))
+    try:
+        url = (query.get('detail') or [''])[0]
+        if url:
+            if str((env or {}).get('HOT_DETAIL') or '') == '0':
+                return _fail(404, 'off', '这个功能没有开启', 'Not turned on')
+            return ok(hotdetail.detail(url, now), 1800)
+        if str((env or {}).get('HOT_RELATED') or '') == '0':
+            return _fail(404, 'off', '这个功能没有开启', 'Not turned on')
+        lang = (query.get('lang') or ['zh'])[0]
+        return ok({'items': hotdetail.related((query.get('related') or [''])[0], lang, now)}, 1200)
+    except hotdetail.Nothing:
+        return _fail(404, 'none', '这个地址没有可以在站内显示的内容', 'Nothing to show in the page for this address')
+    except agg.Refused as e:
+        return _fail(502, 'upstream', '现在读不到：%s' % e, 'Cannot be read right now: %s' % e.en)
 
 
 def handle(query, env, now=None, headers=None):
@@ -674,6 +776,8 @@ def handle(query, env, now=None, headers=None):
     plats = platforms(env)
     on = enabled(env, plats)
     pid = (query.get('p') or [''])[0]
+    if (query.get('detail') or [''])[0] or (query.get('related') or [''])[0] or (query.get('diag') or [''])[0]:
+        return _extra(query, env, now)
     if not pid:                                                                # what is on
         cols = [c for c in COLUMNS if any(plats[k]['col'] == c['id'] for k in on)]
         body = json.dumps({'ok': True, 'service': 'shelf-hot', 'columns': cols, 'platforms': [_info(k, plats[k]) for k in on]}, ensure_ascii=False).encode('utf-8')
@@ -693,6 +797,9 @@ def handle(query, env, now=None, headers=None):
         return 502, 'application/json; charset=utf-8', json.dumps({'ok': False, 'error': 'upstream', 'message': '这个榜单现在读不到：%s' % e, 'message_en': 'This list cannot be read right now: %s' % e.en}, ensure_ascii=False).encode('utf-8'), 'no-store'
     rows = rows[:n]
     if (query.get('format') or [''])[0] == 'json':
+        if (query.get('tr') or [''])[0] == 'zh' and plats[pid]['lang'] == 'en' and translate.provider(env):          # the page is Chinese and the list English: the Chinese of the titles, for a small line under them
+            zh = translate.titles(rows, env, persist=False, limit=60)
+            rows = [{**r, 'title_zh': zh[r['title']]} if zh.get(r['title']) else r for r in rows]
         return (200, 'application/json; charset=utf-8', json.dumps({'ok': True, 'platform': pid, **_info(pid, plats[pid]), **({'region': region} if region else {}), 'updated': int(at), 'items': rows}, ensure_ascii=False).encode('utf-8'),
                 PRIVATE if mine else CDN)
     return 200, 'application/rss+xml; charset=utf-8', rss(pid, plats[pid], rows, now, region).encode('utf-8'), PRIVATE if mine else CDN

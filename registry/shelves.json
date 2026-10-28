@@ -311,6 +311,311 @@
    ],
    "added": "2026-10-27",
    "issue": 38
+  },
+  {
+   "id": "hot-zhihu",
+   "kind": "feed",
+   "url": "https://adminbook.zhitree.cn/api/hot?n=10&p=zhihu",
+   "source": "https://adminbook.zhitree.cn/api/hot?n=10&p=zhihu",
+   "name": "知乎热榜",
+   "tags": [
+    "热榜",
+    "知乎"
+   ],
+   "added": "2026-10-27",
+   "status": "fixed",
+   "topics": [
+    "news"
+   ],
+   "platform": "zhihu"
+  },
+  {
+   "id": "hot-weibo",
+   "kind": "feed",
+   "url": "https://adminbook.zhitree.cn/api/hot?n=10&p=weibo",
+   "source": "https://adminbook.zhitree.cn/api/hot?n=10&p=weibo",
+   "name": "微博热搜",
+   "tags": [
+    "热榜",
+    "微博"
+   ],
+   "added": "2026-10-27",
+   "status": "fixed",
+   "topics": [
+    "news"
+   ],
+   "platform": "weibo"
+  },
+  {
+   "id": "hot-douyin",
+   "kind": "feed",
+   "url": "https://adminbook.zhitree.cn/api/hot?n=10&p=douyin",
+   "source": "https://adminbook.zhitree.cn/api/hot?n=10&p=douyin",
+   "name": "抖音热点",
+   "tags": [
+    "热榜",
+    "抖音"
+   ],
+   "added": "2026-10-27",
+   "status": "fixed",
+   "topics": [
+    "entertainment"
+   ],
+   "platform": "douyin"
+  },
+  {
+   "id": "hot-bilibili",
+   "kind": "feed",
+   "url": "https://adminbook.zhitree.cn/api/hot?n=10&p=bilibili",
+   "source": "https://adminbook.zhitree.cn/api/hot?n=10&p=bilibili",
+   "name": "B 站热门视频",
+   "tags": [
+    "热榜",
+    "视频"
+   ],
+   "added": "2026-10-27",
+   "status": "fixed",
+   "topics": [
+    "entertainment"
+   ],
+   "platform": "bilibili"
+  },
+  {
+   "id": "hot-wechat",
+   "kind": "feed",
+   "url": "https://adminbook.zhitree.cn/api/hot?n=10&p=wechat",
+   "source": "https://adminbook.zhitree.cn/api/hot?n=10&p=wechat",
+   "name": "公众号热文",
+   "tags": [
+    "热榜",
+    "公众号"
+   ],
+   "added": "2026-10-27",
+   "status": "fixed",
+   "topics": [
+    "news"
+   ],
+   "platform": "wechat"
+  },
+  {
+   "id": "hot-toutiao",
+   "kind": "feed",
+   "url": "https://adminbook.zhitree.cn/api/hot?n=10&p=toutiao",
+   "source": "https://adminbook.zhitree.cn/api/hot?n=10&p=toutiao",
+   "name": "今日头条热榜",
+   "tags": [
+    "热榜",
+    "头条"
+   ],
+   "added": "2026-10-27",
+   "status": "fixed",
+   "topics": [
+    "news"
+   ],
+   "platform": "toutiao"
+  },
+  {
+   "id": "hot-github",
+   "kind": "feed",
+   "url": "https://adminbook.zhitree.cn/api/hot?n=10&p=github",
+   "source": "https://adminbook.zhitree.cn/api/hot?n=10&p=github",
+   "name": "GitHub Trending（今日）",
+   "tags": [
+    "热榜",
+    "开源"
+   ],
+   "added": "2026-10-27",
+   "status": "fixed",
+   "topics": [
+    "dev"
+   ],
+   "platform": "github"
+  },
+  {
+   "id": "hot-juejin",
+   "kind": "feed",
+   "url": "https://adminbook.zhitree.cn/api/hot?n=10&p=juejin",
+   "source": "https://adminbook.zhitree.cn/api/hot?n=10&p=juejin",
+   "name": "掘金热榜",
+   "tags": [
+    "热榜",
+    "技术"
+   ],
+   "added": "2026-10-27",
+   "status": "fixed",
+   "topics": [
+    "dev"
+   ],
+   "platform": "juejin"
+  },
+  {
+   "id": "hot-v2ex",
+   "kind": "feed",
+   "url": "https://adminbook.zhitree.cn/api/hot?n=10&p=v2ex",
+   "source": "https://adminbook.zhitree.cn/api/hot?n=10&p=v2ex",
+   "name": "V2EX 今日热议",
+   "tags": [
+    "社区",
+    "热榜"
+   ],
+   "added": "2026-10-27",
+   "status": "fixed",
+   "topics": [
+    "tech"
+   ],
+   "platform": "v2ex"
+  },
+  {
+   "id": "hot-hackernews",
+   "kind": "feed",
+   "url": "https://adminbook.zhitree.cn/api/hot?n=10&p=hackernews",
+   "source": "https://adminbook.zhitree.cn/api/hot?n=10&p=hackernews",
+   "name": "Hacker News",
+   "tags": [
+    "热榜",
+    "hacker news"
+   ],
+   "added": "2026-10-27",
+   "status": "fixed",
+   "topics": [
+    "tech"
+   ],
+   "platform": "hn"
+  },
+  {
+   "id": "hot-lobsters",
+   "kind": "feed",
+   "url": "https://adminbook.zhitree.cn/api/hot?n=10&p=lobsters",
+   "source": "https://adminbook.zhitree.cn/api/hot?n=10&p=lobsters",
+   "name": "Lobsters",
+   "tags": [
+    "社区",
+    "热榜"
+   ],
+   "added": "2026-10-27",
+   "status": "fixed",
+   "topics": [
+    "dev"
+   ],
+   "platform": "lobsters"
+  },
+  {
+   "id": "hot-devto",
+   "kind": "feed",
+   "url": "https://adminbook.zhitree.cn/api/hot?n=10&p=devto",
+   "source": "https://adminbook.zhitree.cn/api/hot?n=10&p=devto",
+   "name": "DEV 社区（本周）",
+   "tags": [
+    "文章",
+    "社区"
+   ],
+   "added": "2026-10-27",
+   "status": "fixed",
+   "topics": [
+    "dev"
+   ],
+   "platform": "devto"
+  },
+  {
+   "id": "hot-netease",
+   "kind": "feed",
+   "url": "https://adminbook.zhitree.cn/api/hot?n=10&p=netease",
+   "source": "https://adminbook.zhitree.cn/api/hot?n=10&p=netease",
+   "name": "网易云音乐飙升榜",
+   "tags": [
+    "音乐",
+    "热榜"
+   ],
+   "added": "2026-10-27",
+   "status": "fixed",
+   "topics": [
+    "music"
+   ],
+   "platform": "netease"
+  },
+  {
+   "id": "hot-qqmusic",
+   "kind": "feed",
+   "url": "https://adminbook.zhitree.cn/api/hot?n=10&p=qqmusic",
+   "source": "https://adminbook.zhitree.cn/api/hot?n=10&p=qqmusic",
+   "name": "QQ 音乐飙升榜",
+   "tags": [
+    "音乐",
+    "热榜"
+   ],
+   "added": "2026-10-27",
+   "status": "fixed",
+   "topics": [
+    "music"
+   ],
+   "platform": "qqmusic"
+  },
+  {
+   "id": "hot-youtube",
+   "kind": "feed",
+   "url": "https://adminbook.zhitree.cn/api/hot?n=10&p=youtube",
+   "source": "https://adminbook.zhitree.cn/api/hot?n=10&p=youtube",
+   "name": "YouTube 热门 · US",
+   "tags": [
+    "视频",
+    "热榜"
+   ],
+   "added": "2026-10-27",
+   "status": "fixed",
+   "topics": [
+    "entertainment"
+   ],
+   "platform": "youtube"
+  },
+  {
+   "id": "hot-wikipedia",
+   "kind": "feed",
+   "url": "https://adminbook.zhitree.cn/api/hot?n=10&p=wikipedia",
+   "source": "https://adminbook.zhitree.cn/api/hot?n=10&p=wikipedia",
+   "name": "维基百科阅读榜（英文）",
+   "tags": [
+    "百科",
+    "热榜"
+   ],
+   "added": "2026-10-27",
+   "status": "fixed",
+   "topics": [
+    "culture"
+   ],
+   "platform": "wikipedia"
+  },
+  {
+   "id": "hot-gtrends",
+   "kind": "feed",
+   "url": "https://adminbook.zhitree.cn/api/hot?n=10&p=gtrends",
+   "source": "https://adminbook.zhitree.cn/api/hot?n=10&p=gtrends",
+   "name": "Google 热搜 · US",
+   "tags": [
+    "热搜"
+   ],
+   "added": "2026-10-27",
+   "status": "fixed",
+   "topics": [
+    "news"
+   ],
+   "platform": "google"
+  },
+  {
+   "id": "hot-apple-pod-cn",
+   "kind": "feed",
+   "url": "https://adminbook.zhitree.cn/api/hot?n=10&p=apple_pod_cn",
+   "source": "https://adminbook.zhitree.cn/api/hot?n=10&p=apple_pod_cn",
+   "name": "Apple 播客榜 · 中国",
+   "tags": [
+    "播客",
+    "榜单"
+   ],
+   "added": "2026-10-27",
+   "status": "fixed",
+   "topics": [
+    "entertainment"
+   ],
+   "platform": "podcast"
   }
  ]
 }

@@ -1,0 +1,121 @@
+{
+ "id": "hot-qqmusic",
+ "items": [
+  {
+   "url": "https://y.qq.com/n/ryqq/songDetail/004VBMk71TdUuR",
+   "title": "我好像在哪见过你 — 薛之谦",
+   "summary": "第 1 名 · 初学者",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://y.qq.com/n/ryqq/songDetail/001SFw584CAgoJ",
+   "title": "季候风 — 王菲",
+   "summary": "第 2 名 · 执迷不悔",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://y.qq.com/n/ryqq/songDetail/004GusH53fGeg2",
+   "title": "You're Under Arrest — ILLIT",
+   "summary": "第 3 名 · BREAK EVEN",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://y.qq.com/n/ryqq/songDetail/003x5xTj20cLPX",
+   "title": "茉莉雨 — 林俊杰",
+   "summary": "第 4 名 · 新地球",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://y.qq.com/n/ryqq/songDetail/002w2uLf21Gk3y",
+   "title": "Pop — ILLIT",
+   "summary": "第 5 名 · BREAK EVEN",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://y.qq.com/n/ryqq/songDetail/001TXSYu1Gwuwv",
+   "title": "刚刚好 — 薛之谦",
+   "summary": "第 6 名 · 初学者",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://y.qq.com/n/ryqq/songDetail/001dxbD32WNtak",
+   "title": "Insomnia — RIIZE",
+   "summary": "第 7 名 · Insomnia",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://y.qq.com/n/ryqq/songDetail/003Ru8AV0SOYvw",
+   "title": "Super in Love — ILLIT",
+   "summary": "第 8 名 · BREAK EVEN",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://y.qq.com/n/ryqq/songDetail/001uxKNp3a7Qkv",
+   "title": "像风一样 — 薛之谦",
+   "summary": "第 9 名 · 渡 The Crossing",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://y.qq.com/n/ryqq/songDetail/004AGG7n1wA771",
+   "title": "Hey, Somebody — 肖俊",
+   "summary": "第 10 名 · Hey, Somebody - The 1st Mini Album",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  }
+ ],
+ "shelf": {
+  "name": "QQ 音乐飙升榜",
+  "description": "QQ 音乐飙升榜：平台当前的榜单（排名、标题、热度和平台自己的链接），由知树阅读按需生成，不保存任何内容。",
+  "home": "https://y.qq.com/n/ryqq/toplist/62",
+  "lang": "zh",
+  "license": "",
+  "image": "",
+  "tags": []
+ },
+ "fails": 0,
+ "kind": "feed",
+ "parser": 2,
+ "status": "ok",
+ "error": "",
+ "etag": "",
+ "modified": ""
+}
