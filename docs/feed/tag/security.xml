@@ -4,8 +4,23 @@
   <title>公共目录 · #Security</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/security.xml"/>
-  <updated>2026-10-26T00:00:00Z</updated>
+  <updated>2026-10-27T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.wired.com/story/the-big-interview-podcast-jess-asato/</id>
+    <title>UK Politician Jess Asato Got Deepfaked. Now She’s Taking xAI to Court</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-big-interview-podcast-jess-asato/"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Jess Asato’s public campaigning for victims of online abuse put her in the crosshairs of Grok’s deepfake scandal. Then the UK member of parliament became a vict…</summary>
+    <source><title>WIRED</title></source>
+    <category term="The Big Story"/>
+    <category term="Politics"/>
+    <category term="Security"/>
+    <category term="The Big Interview"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
   <entry>
     <id>https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/</id>
     <title>The US Government Is Hiding a Secret Court Ruling About How It Spies on Americans</title>
@@ -17,19 +32,6 @@
     <category term="Security"/>
     <category term="Security / Privacy"/>
     <category term="Need to Know"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/</id>
-    <title>The PHP Meltdown Shows How AI Makes Bugs More Exploitable</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Security"/>
-    <category term="Kernel Panic"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>

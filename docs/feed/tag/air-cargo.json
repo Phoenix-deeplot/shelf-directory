@@ -9,6 +9,33 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/miami-airport-to-deploy-shared-logistics-platform-for-cargo-community",
+      "url": "https://www.freightwaves.com/news/miami-airport-to-deploy-shared-logistics-platform-for-cargo-community",
+      "title": "Miami airport to deploy shared logistics platform for cargo community",
+      "content_text": "Miami airport is partnering with Kalé to develop a central data exchange portal for the cargo stakeholders. The post Miami airport to deploy shared logistics pl…",
+      "summary": "Miami airport is partnering with Kalé to develop a central data exchange portal for the cargo stakeholders. The post Miami airport to deploy shared logistics pl…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "Air Cargo",
+        "American Shipper",
+        "News",
+        "Technology",
+        "data exchange",
+        "digital supply chain",
+        "miami international airport",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/japan-airlines-hires-b747-cargo-carriers-to-meet-high-tech-demand",
       "url": "https://www.freightwaves.com/news/japan-airlines-hires-b747-cargo-carriers-to-meet-high-tech-demand",
       "title": "Japan Airlines hires B747 cargo carriers to meet high-tech demand",

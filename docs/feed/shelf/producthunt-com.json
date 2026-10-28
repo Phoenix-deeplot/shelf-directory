@@ -78,8 +78,8 @@
       "id": "https://www.producthunt.com/products/pulsedev",
       "url": "https://www.producthunt.com/products/pulsedev",
       "title": "PulseDev",
-      "content_text": "Click any UI bug on localhost. Your AI agent fixes it. Discussion | Link",
-      "summary": "Click any UI bug on localhost. Your AI agent fixes it. Discussion | Link",
+      "content_text": "Click any UI bug on localhost and your AI agent fixes it Discussion | Link",
+      "summary": "Click any UI bug on localhost and your AI agent fixes it Discussion | Link",
       "date_published": "2026-10-26T00:00:00Z",
       "tags": [
         "产品",
@@ -168,6 +168,50 @@
       "title": "Nuvio 5.0",
       "content_text": "Hand your financial admin to your AI agent Discussion | Link",
       "summary": "Hand your financial admin to your AI agent Discussion | Link",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/openai",
+      "url": "https://www.producthunt.com/products/openai",
+      "title": "GPT-6.1 Terra",
+      "content_text": "Fast, capable computer use at half the price Discussion | Link",
+      "summary": "Fast, capable computer use at half the price Discussion | Link",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/contextgem",
+      "url": "https://www.producthunt.com/products/contextgem",
+      "title": "ContextGem 1.0",
+      "content_text": "Decision models join LLMs to extract data from documents Discussion | Link",
+      "summary": "Decision models join LLMs to extract data from documents Discussion | Link",
       "date_published": "2026-10-26T00:00:00Z",
       "tags": [
         "产品",
@@ -471,28 +515,6 @@
       }
     },
     {
-      "id": "https://www.producthunt.com/products/papermark-2",
-      "url": "https://www.producthunt.com/products/papermark-2",
-      "title": "Papermark Data Rooms",
-      "content_text": "Secure data rooms your AI agents can run. Live in < 60 sec. Discussion | Link",
-      "summary": "Secure data rooms your AI agents can run. Live in < 60 sec. Discussion | Link",
-      "date_published": "2026-10-24T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
       "id": "https://www.producthunt.com/products/loqui-2",
       "url": "https://www.producthunt.com/products/loqui-2",
       "title": "Loqui",
@@ -757,55 +779,11 @@
       }
     },
     {
-      "id": "https://www.producthunt.com/products/tower",
-      "url": "https://www.producthunt.com/products/tower",
-      "title": "git-flow-next",
-      "content_text": "Your favorite Git workflow. Reimagined. Discussion | Link",
-      "summary": "Your favorite Git workflow. Reimagined. Discussion | Link",
-      "date_published": "2026-10-19T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
       "id": "https://www.producthunt.com/products/minimax-4",
       "url": "https://www.producthunt.com/products/minimax-4",
       "title": "MiniMax M3.1 Flash",
       "content_text": "MiniMax’s Flash model, 3x faster and 70% cheaper for agents Discussion | Link",
       "summary": "MiniMax’s Flash model, 3x faster and 70% cheaper for agents Discussion | Link",
-      "date_published": "2026-10-19T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/how-it-spread",
-      "url": "https://www.producthunt.com/products/how-it-spread",
-      "title": "How It Spread",
-      "content_text": "See how anything went viral, from the first post Discussion | Link",
-      "summary": "See how anything went viral, from the first post Discussion | Link",
       "date_published": "2026-10-19T00:00:00Z",
       "tags": [
         "产品",
@@ -851,28 +829,6 @@
       "content_text": "Know exactly what your rooftop solar made today Discussion | Link",
       "summary": "Know exactly what your rooftop solar made today Discussion | Link",
       "date_published": "2026-10-18T00:00:00Z",
-      "tags": [
-        "产品",
-        "科技",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Product Hunt — The best new products, every day"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "producthunt-com"
-      }
-    },
-    {
-      "id": "https://www.producthunt.com/products/openstatus-2",
-      "url": "https://www.producthunt.com/products/openstatus-2",
-      "title": "Openstatus Incident Management",
-      "content_text": "Incident management for small teams Discussion | Link",
-      "summary": "Incident management for small teams Discussion | Link",
-      "date_published": "2026-10-17T00:00:00Z",
       "tags": [
         "产品",
         "科技",
@@ -999,12 +955,56 @@
       }
     },
     {
+      "id": "https://www.producthunt.com/products/lexmount-browser",
+      "url": "https://www.producthunt.com/products/lexmount-browser",
+      "title": "Moli by Lexmount",
+      "content_text": "The fastest headless browser for agents and harnesses Discussion | Link",
+      "summary": "The fastest headless browser for agents and harnesses Discussion | Link",
+      "date_published": "2026-10-12T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
       "id": "https://www.producthunt.com/products/flipcorder",
       "url": "https://www.producthunt.com/products/flipcorder",
       "title": "Flipcorder",
       "content_text": "A 1991 camcorder for your iPhone, one tape a day Discussion | Link",
       "summary": "A 1991 camcorder for your iPhone, one tape a day Discussion | Link",
       "date_published": "2026-10-09T00:00:00Z",
+      "tags": [
+        "产品",
+        "科技",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Product Hunt — The best new products, every day"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "producthunt-com"
+      }
+    },
+    {
+      "id": "https://www.producthunt.com/products/badgey",
+      "url": "https://www.producthunt.com/products/badgey",
+      "title": "Badgey",
+      "content_text": "Your iPhone becomes a name badge that faces the room Discussion | Link",
+      "summary": "Your iPhone becomes a name badge that faces the room Discussion | Link",
+      "date_published": "2026-10-08T00:00:00Z",
       "tags": [
         "产品",
         "科技",
@@ -1090,8 +1090,8 @@
       "id": "https://www.producthunt.com/products/ninx-2",
       "url": "https://www.producthunt.com/products/ninx-2",
       "title": "NINX",
-      "content_text": "On-device AI, connected tools, and creative workflows Discussion | Link",
-      "summary": "On-device AI, connected tools, and creative workflows Discussion | Link",
+      "content_text": "Private On-device AI, connected tools, & creative workflows Discussion | Link",
+      "summary": "Private On-device AI, connected tools, & creative workflows Discussion | Link",
       "date_published": "2026-07-21T00:00:00Z",
       "tags": [
         "产品",

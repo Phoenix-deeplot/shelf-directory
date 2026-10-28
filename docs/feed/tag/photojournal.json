@@ -9,28 +9,6 @@
   },
   "items": [
     {
-      "id": "https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/",
-      "url": "https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/",
-      "title": "Solar Cells Inspected on NASA’s NEO Surveyor",
-      "content_text": "Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission is inspected by a technician at BAE Systems Space & Mission Systems in Boulder…",
-      "summary": "Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission is inspected by a technician at BAE Systems Space & Mission Systems in Boulder…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "Photojournal",
-        "航天",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "NASA"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "nasa-gov"
-      }
-    },
-    {
       "id": "https://science.nasa.gov/photojournal/neo-surveyors-sunshade-gets-inspected/",
       "url": "https://science.nasa.gov/photojournal/neo-surveyors-sunshade-gets-inspected/",
       "title": "NEO Surveyor’s Sunshade Gets Inspected",

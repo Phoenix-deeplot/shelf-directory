@@ -1,0 +1,58 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #worldnews",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/worldnews.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.reddit.com/r/worldnews/comments/1xgz6j0/flavio_bolsonaro_leaves_brazil_for_us_with_family/",
+      "url": "https://www.reddit.com/r/worldnews/comments/1xgz6j0/flavio_bolsonaro_leaves_brazil_for_us_with_family/",
+      "title": "Flavio Bolsonaro ‘leaves Brazil for US with family days after losing election’",
+      "content_text": "submitted by /u/theindependentonline to r/worldnews [link] [comments]",
+      "summary": "submitted by /u/theindependentonline to r/worldnews [link] [comments]",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://external-preview.redd.it/ZExOibhdQknZM0XKKwI_KvbsZ8peUQvn_XX9iOo5EcY.jpeg?width=640&crop=smart&auto=webp&s=d975211fb39e987f8f02a1a03f2486293f7452f5",
+      "tags": [
+        "worldnews",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/worldnews/comments/1xgscb5/flavio_bolsonaro_reportedly_flees_brazil_after/",
+      "url": "https://www.reddit.com/r/worldnews/comments/1xgscb5/flavio_bolsonaro_reportedly_flees_brazil_after/",
+      "title": "Flavio Bolsonaro Reportedly Flees Brazil After Passport Revocation",
+      "content_text": "submitted by /u/CrispyMiner to r/worldnews [link] [comments]",
+      "summary": "submitted by /u/CrispyMiner to r/worldnews [link] [comments]",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://external-preview.redd.it/wiJLfkFaiRzGGxRDI_rF6ZFgaF3iQuDxdqA2InU7PfY.jpeg?width=640&crop=smart&auto=webp&s=a957ef91ece14f68df3135eb9582eea52566ad52",
+      "tags": [
+        "worldnews",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    }
+  ]
+}

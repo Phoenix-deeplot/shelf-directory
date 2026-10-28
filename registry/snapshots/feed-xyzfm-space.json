@@ -2,6 +2,21 @@
  "id": "feed-xyzfm-space",
  "items": [
   {
+   "url": "https://www.xiaoyuzhoufm.com/episode/6ae0674fc96c8942ec13048e?utm_source=rss",
+   "title": "511 重新发现费孝通：文学视角下的三十年代江南丝业危机与北平青年思潮",
+   "summary": "- 导语 - 2016年，一部尘封多年的费孝通英文小说手稿，在伦敦政治经济学院意外重见天日。这部题为《茧》的小说，也为理解费孝通的学术道路提供了新的线索。小说以苏南一家制丝工厂为背景，与茅盾《春蚕》共同触及三十年代江南农村的经济困境，却对农村出路提出了不同设想。这部小说与费孝通的社会学名著《江村经济》究竟是什么关系？它…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "zh",
+   "type": "audio",
+   "audio": {
+    "url": "https://dts-api.xiaoyuzhoufm.com/track/5e4ee557418a84a0466737b7/6ae0674fc96c8942ec13048e/media.xyzcdn.net/5e4ee557418a84a0466737b7/lnSUCO6DZ9OdGC5X4rw5NRd_EQbs.m4a",
+    "type": "audio/mp4",
+    "dur": 7107
+   }
+  },
+  {
    "url": "https://www.xiaoyuzhoufm.com/episode/6adb27a497726cd4675696ad?utm_source=rss",
    "title": "510 泰国侨批沉浮录：下南洋浪潮中的跨国华人经济网络",
    "summary": "- 导语 - 电影《给阿嬷的情书》曾让更多人认识了「侨批」与「侨汇」，在这些钱和信的背后，连接着一套横跨曼谷、香港与汕头的商业网络。学者汪玉姣以泰国华人为切入点，梳理十九世纪下半叶至二十世纪末泰国侨批业兴衰。早期福建商人如何与暹罗王室建立联系？批局怎样通过汇兑与贸易对冲实现跨境资金流转？民族主义兴起后，泰国对华人推行了…",
@@ -735,21 +750,6 @@
     "type": "audio/mp4",
     "dur": 4149
    }
-  },
-  {
-   "url": "https://www.xiaoyuzhoufm.com/episode/69f47a4978d33cb2c4f8a38d?utm_source=rss",
-   "title": "日本谍报物语01｜明治对华特务潮：倒幕开国、大陆政策与甲午战争",
-   "summary": "- 导语 - 从江户时代的「风说书」，到甲午前后大陆浪人的活跃，再到陆军参谋本部和大本营体系的构建，日本早期的情报体系兼有民间与官方色彩。锁国时期，日本幕府怎样通过港口与商人获取外界知识？以药房为名加以掩护，荒尾精如何用「汉口乐善堂」在华建立初代间谍网络？甲午战争前，日本海军是如何通过「正规渠道」刺探情报的？重新复盘甲…",
-   "image": "https://image.xyzcdn.net/Fkt1UqNqcfMQLc-90msKo0OgECcC.png",
-   "date": "2026-05-01",
-   "tags": [],
-   "lang": "zh",
-   "type": "audio",
-   "audio": {
-    "url": "https://dts-api.xiaoyuzhoufm.com/track/5e4ee557418a84a0466737b7/69f47a4978d33cb2c4f8a38d/media.xyzcdn.net/FtNMyj-i2AHH4kmyyeBcRLWEMfqW.m4a",
-    "type": "audio/mp4",
-    "dur": 180
-   }
   }
  ],
  "shelf": {
@@ -763,7 +763,7 @@
  },
  "fails": 0,
  "kind": "feed",
- "parser": 2,
+ "parser": 3,
  "status": "ok",
  "error": "",
  "etag": "",

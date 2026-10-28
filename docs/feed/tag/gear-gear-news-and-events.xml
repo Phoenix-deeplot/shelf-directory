@@ -4,8 +4,36 @@
   <title>公共目录 · #Gear / Gear News and Events</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/gear-gear-news-and-events.xml"/>
-  <updated>2026-10-26T00:00:00Z</updated>
+  <updated>2026-10-27T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.wired.com/story/instagram-is-a-streaming-service-now/</id>
+    <title>Instagram Is a Streaming Service Now</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/instagram-is-a-streaming-service-now/"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Instagram’s long-form video update is more than a swipe at YouTube. It’s an attempt to capture the clip economy.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Gear News and Events"/>
+    <category term="Couch Potato"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/</id>
+    <title>I Tested Every Major AI Agent for a Day. Here’s the Best One</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">I ranked six AI agents—from Meta’s Muse to Anthropic’s Claude Duet—on how well they completed basic tasks.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Gear News and Events"/>
+    <category term="Battle Bots"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
   <entry>
     <id>https://www.wired.com/story/some-iphone-duo-models-are-breaking-ifixits-teardown-might-explain-why/</id>
     <title>Some iPhone Duo Models Are Breaking. iFixit’s Teardown Might Explain Why</title>
@@ -18,67 +46,6 @@
     <category term="Gear / Gear News and Events"/>
     <category term="Gear / Products / Phones"/>
     <category term="Fold Fix"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/we-linked-150-ikea-speakers-to-make-a-wall-of-sound/</id>
-    <title>We Linked 150 of Ikea’s $10 Speakers to Make a Wall of Sound</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/we-linked-150-ikea-speakers-to-make-a-wall-of-sound/"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">WIRED attempts what even the Swedish brand hasn’t: making a sonic monolith using scores of the cheapest Bluetooth speakers on the market. Can you have too much…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Gear News and Events"/>
-    <category term="Gear / Products / Speakers"/>
-    <category term="Small Wonders"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/review/ray-ban-meta-audio/</id>
-    <title>Ray-Ban Meta Audio Review: The Best Smart Glasses</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/review/ray-ban-meta-audio/"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">No cameras? No problem. Ditching the surveillance baggage makes Meta’s audio-only frames surprisingly easy to live with.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Gear News and Events"/>
-    <category term="Gear / Reviews"/>
-    <category term="Product Review"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/</id>
-    <title>9 Unique Apps to Try on the iPhone Duo</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">Apple’s first folding phone is inspiring indie developers to create fun, quirky apps that take advantage of the screen and the hinge. Here are a few to try as y…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Gear News and Events"/>
-    <category term="Gear / Products / Apps"/>
-    <category term="Gear / Products / Phones"/>
-    <category term="Fold and Tell"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/8-things-to-know-about-the-apple-iphone-duo/</id>
-    <title>8 Things to Know About the iPhone Duo</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/8-things-to-know-about-the-apple-iphone-duo/"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">Did you manage to score Apple’s first folding phone on launch day? Are you still mulling it over? Here are a few things to keep in mind.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Gear News and Events"/>
-    <category term="Gear / Products / Phones"/>
-    <category term="Handy Tips"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>

@@ -9,6 +9,32 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/story/motorola-razr-deal-october-2026/",
+      "url": "https://www.wired.com/story/motorola-razr-deal-october-2026/",
+      "title": "Motorola Deal: Get a Free Smartwatch and Earbuds When You Buy a Razr",
+      "content_text": "The Razr is our favorite budget foldable phone. While it isn’t on sale yet, Motorola is adding extras to sweeten this October deal.",
+      "summary": "The Razr is our favorite budget foldable phone. While it isn’t on sale yet, Motorola is adding extras to sweeten this October deal.",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae0eec7a5839fc652c5a3e9/master/pass/Motorola%20October%202026%20Deal%20102026%20top%20art%20SOURCE%20motorola.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products / Phones",
+        "Razr Xtra",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/some-iphone-duo-models-are-breaking-ifixits-teardown-might-explain-why/",
       "url": "https://www.wired.com/story/some-iphone-duo-models-are-breaking-ifixits-teardown-might-explain-why/",
       "title": "Some iPhone Duo Models Are Breaking. iFixit’s Teardown Might Explain Why",
@@ -73,111 +99,6 @@
         "Gear / Buying Guides",
         "Gear / Products / Phones",
         "Into the Fold",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/",
-      "url": "https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/",
-      "title": "9 Unique Apps to Try on the iPhone Duo",
-      "content_text": "Apple’s first folding phone is inspiring indie developers to create fun, quirky apps that take advantage of the screen and the hinge. Here are a few to try as y…",
-      "summary": "Apple’s first folding phone is inspiring indie developers to create fun, quirky apps that take advantage of the screen and the hinge. Here are a few to try as y…",
-      "date_published": "2026-10-24T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adb699efc34ba9fae2279b4/master/pass/Top%20Art%20SOURCE%20Julian%20Chokkattu.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Gear News and Events",
-        "Gear / Products / Apps",
-        "Gear / Products / Phones",
-        "Fold and Tell",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/gallery/iphone-buying-guide/",
-      "url": "https://www.wired.com/gallery/iphone-buying-guide/",
-      "title": "What’s the Best iPhone to Buy or Avoid Right Now? (2026)",
-      "content_text": "The first folding iPhone Duo is here, alongside the 18 Pro and 18 Pro Max, but they’re not your only options. We have all the details on Apple’s smartphone line…",
-      "summary": "The first folding iPhone Duo is here, alongside the 18 Pro and 18 Pro Max, but they’re not your only options. We have all the details on Apple’s smartphone line…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adb8eb7c29fe197e204584d/master/pass/iPhone%20Buying%20Guide%20102026%20top%20art%20SOURCE%20Apple.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Buying Guides",
-        "Gear / Products / Phones",
-        "Buying Guide",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/review/samsung-galazy-z-flip8/",
-      "url": "https://www.wired.com/review/samsung-galazy-z-flip8/",
-      "title": "Samsung Galaxy Z Flip8 Review: The Littlest Smartphone That Could",
-      "content_text": "Samsung’s cute compact is for those who want the smallest possible phone. Performance and camera are solid, but it’s pricier than its predecessor.",
-      "summary": "Samsung’s cute compact is for those who want the smallest possible phone. Performance and camera are solid, but it’s pricier than its predecessor.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada7f3c75ce8d8c38ba9dad/master/pass/Review%20Samsung%20Galaxy%20Z%20Flip8%20102026%20top%20art%20SOURCE%20Amazon.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Products / Phones",
-        "Gear / Reviews",
-        "Product Review",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/8-things-to-know-about-the-apple-iphone-duo/",
-      "url": "https://www.wired.com/story/8-things-to-know-about-the-apple-iphone-duo/",
-      "title": "8 Things to Know About the iPhone Duo",
-      "content_text": "Did you manage to score Apple’s first folding phone on launch day? Are you still mulling it over? Here are a few things to keep in mind.",
-      "summary": "Did you manage to score Apple’s first folding phone on launch day? Are you still mulling it over? Here are a few things to keep in mind.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada893690bbef8397f3e8ae/master/pass/DSC_9451.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Gear News and Events",
-        "Gear / Products / Phones",
-        "Handy Tips",
         "科技",
         "社会"
       ],

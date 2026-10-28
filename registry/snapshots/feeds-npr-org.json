@@ -2,6 +2,21 @@
  "id": "feeds-npr-org",
  "items": [
   {
+   "url": "https://www.npr.org/2026/10/27/nx-s1-6019096/democrats-lead-in-npr-poll-preparations-for-election-challenge-israel-voting-begins",
+   "title": "Democrats Lead In NPR Poll, Preparations For Election Challenge, Israel Voting Begins",
+   "summary": "A new NPR/PBS News/Marist poll gives Democrats an eight-point lead on the congressional ballot, but lagging enthusiasm among young voters and independents could…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "audio",
+   "audio": {
+    "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/1331dd71-7f89-44b4-b744-b58082cf5303/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=1331dd71-7f89-44b4-b744-b58082cf5303&feed=HMwRVgVt&t=podcast&e=nx-s1-6019096&p=510318&d=788&size=12615306",
+    "type": "audio/mpeg",
+    "dur": 788
+   }
+  },
+  {
    "url": "https://www.npr.org/2026/10/26/nx-s1-6016798/gop-redistricting-bust-lula-wins-brazil-election-protest-spread-in-europe",
    "title": "GOP Redistricting Bust, Lula Wins Brazil Election, Protest Spread In Europe",
    "summary": "Republicans redrew 15 House districts hoping to protect their majority, but most have become competitive races as the party’s redistricting strategy falls short…",
@@ -735,21 +750,6 @@
     "type": "audio/mpeg",
     "dur": 796
    }
-  },
-  {
-   "url": "https://www.npr.org/2026/09/09/nx-s1-5962642/us-strikes-iran-oil-tankers-israeli-settlements-sanctions-smithsonian-head-retires",
-   "title": "US Strikes Iran Oil Tankers, Israeli Settlements Sanctions, Smithsonian Head Retires",
-   "summary": "The U.S. has destroyed eight Iranian oil tankers since Saturday, as Iran fires back at American forces and Gulf countries reconsider the risks of hosting U.S. b…",
-   "image": "",
-   "date": "2026-09-09",
-   "tags": [],
-   "lang": "en",
-   "type": "audio",
-   "audio": {
-    "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/2289e0f7-650c-4fc5-9ace-def4d50bffcb/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=2289e0f7-650c-4fc5-9ace-def4d50bffcb&feed=HMwRVgVt&t=podcast&e=nx-s1-5962642&p=510318&d=776&size=12428060",
-    "type": "audio/mpeg",
-    "dur": 776
-   }
   }
  ],
  "shelf": {
@@ -763,9 +763,9 @@
  },
  "fails": 0,
  "kind": "feed",
- "parser": 2,
+ "parser": 3,
  "status": "ok",
  "error": "",
- "etag": "W/\"1e4711-Vc0LL1q526kKqc9xqrsk97jprSE\"",
+ "etag": "W/\"1e4d48-n8d4gANn5muuICNMXXK7yhVzLLU\"",
  "modified": ""
 }

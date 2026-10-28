@@ -9,22 +9,46 @@
   },
   "items": [
     {
-      "id": "https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-billy-evans-theranos.html?via=rss",
-      "url": "https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-billy-evans-theranos.html?via=rss",
-      "title": "Elizabeth Holmes Is a Fraudster. It’s Astonishing What <em>You Can See Everything </em>Makes of Her.",
-      "content_text": "Elizabeth Holmes is now, by some, considered a victim, even if it’s not what Nathan Fielder intended.",
-      "summary": "Elizabeth Holmes is now, by some, considered a victim, even if it’s not what Nathan Fielder intended.",
-      "date_published": "2026-10-26T00:00:00Z",
-      "image": "https://compote.slate.com/images/1686ff92-91ff-40e5-b866-802298a58099.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "id": "https://slate.com/culture/2026/10/klara-and-the-sun-movie-review-jenna-ortega-taika-waititi-book-kazuo-ishiguro.html?via=rss",
+      "url": "https://slate.com/culture/2026/10/klara-and-the-sun-movie-review-jenna-ortega-taika-waititi-book-kazuo-ishiguro.html?via=rss",
+      "title": "Taika Waititi Adapted a Strange and Beautiful Novel. The Result Is Shaping Up to Be a Legendary Bomb.",
+      "content_text": "Taika Waititi can be a great filmmaker. That’s not the case with Klara and the Sun.",
+      "summary": "Taika Waititi can be a great filmmaker. That’s not the case with Klara and the Sun.",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://compote.slate.com/images/9781197f-a70c-4731-9fb4-c344b1d24ba4.jpeg?crop=1560%2C1041%2Cx0%2Cy0",
+      "tags": [
+        "Books",
+        "Movies",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/culture/2026/10/you-can-see-everything-oscars-best-picture-amanda-seyfried.html?via=rss",
+      "url": "https://slate.com/culture/2026/10/you-can-see-everything-oscars-best-picture-amanda-seyfried.html?via=rss",
+      "title": "<em>You Can See Everything</em> Seems Poised to Do What No Movie Has Ever Done Before",
+      "content_text": "The cinematic sensation could make history at this year’s Oscars—in more ways than one.",
+      "summary": "The cinematic sensation could make history at this year’s Oscars—in more ways than one.",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://compote.slate.com/images/de93a4fa-baff-417d-a19c-51637cbb82d9.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
       "tags": [
         "Crime",
-        "Feminism",
         "Fraud",
-        "Medicine",
         "Movies",
-        "Science",
-        "Silicon Valley",
-        "Documentaries"
+        "The Oscars",
+        "Documentaries",
+        "You Can See Everything",
+        "评论",
+        "文化"
       ],
       "authors": [
         {

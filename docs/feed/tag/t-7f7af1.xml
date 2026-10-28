@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/t-7f7af1.xml</id>
+  <title>公共目录 · #经验总结</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-7f7af1.xml"/>
+  <updated>2026-10-28T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.woshipm.com/operate/6485291.html</id>
+    <title>远程评标系统落地复盘：别把评标系统等同于视频会议</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/operate/6485291.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">电子化招投标已是大势，不少B端产品在搭建远程招标能力时，很容易踩一个大坑：直接复用通用视频会议承载远程评标业务。本文站在产品经理视角，复盘远程评标系统的业务逻辑、评估维度、落地步骤以及常见误区，给政企招采类产品的设计和集成工作提供可复用思路。 一、业务背景：为什么招采场景需要独立的远程评标能力 电子化招投标已经成为政府…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="产品运营"/>
+    <category term="业务知识"/>
+    <category term="经验总结"/>
+    <category term="视频会议"/>
+    <category term="评标系统"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6485166.html</id>
+    <title>设计师与产品经理的消费路径：记录并提交1条6字段快照</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6485166.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">设计师如何从被动遵守规则转向主动提供证据？本文提出最小可行路径：将真实困惑按6字段记录为语义快照，5分钟完成一次提交。通过机器预检与评审反馈，个人直觉逐步沉淀为组织规则，让设计判断不再流失于会议室。 我在前一篇《从”被动遵守”到”主动走查”》讲了设计师与产品经理如何消费YAML契约与编译产物，从语义快照成为契约的原材料…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="YAML契约"/>
+    <category term="经验总结"/>
+    <category term="设计系统"/>
+    <category term="设计走查"/>
+    <category term="证据驱动设计"/>
+    <category term="语义快照"/>
+    <category term="产品"/>
+  </entry>
+</feed>

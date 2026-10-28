@@ -1,0 +1,39 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Carpet tile",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/carpet-tile.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/shaw-carpet-tile-reverse-logistics-backhaul",
+      "url": "https://www.freightwaves.com/news/shaw-carpet-tile-reverse-logistics-backhaul",
+      "title": "How Shaw backhauls turn old carpet tile into new opportunity",
+      "content_text": "An office's carpet tile can sit on the floor for up to a decade. Getting it back to a Georgia mill takes a truck, a contractor willing to sort materials and rev…",
+      "summary": "An office's carpet tile can sit on the floor for up to a decade. Getting it back to a Georgia mill takes a truck, a contractor willing to sort materials and rev…",
+      "date_published": "2026-10-26T00:00:00Z",
+      "tags": [
+        "Logistics",
+        "Modern Shipper",
+        "News",
+        "Sustainability",
+        "Carpet tile",
+        "EcoWorx",
+        "Recycling",
+        "recycling supply chain"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}

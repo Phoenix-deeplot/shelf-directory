@@ -2,6 +2,331 @@
  "id": "freightwaves-com",
  "items": [
   {
+   "url": "https://www.freightwaves.com/news/wex-euclid-ai-target-90-reduction-in-trucking-transaction-costs",
+   "title": "WEX, Euclid AI target 90% reduction in trucking transaction costs",
+   "summary": "WEX and Euclid AI announced plans to offer trucking-specific AI agents that Euclid says have sharply reduced transaction costs in existing deployments. The post…",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [
+    "News",
+    "Technology",
+    "Trucking",
+    "AI agents",
+    "WEX"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.freightwaves.com/news/insurance-claims-adjustments-tank-landstars-otherwise-strong-q3",
+   "title": "Insurance claims adjustments tank Landstar’s otherwise strong Q3",
+   "summary": "Despite insurance claims activity clouding an otherwise strong third-quarter result, truckload broker Landstar System highlighted favorable demand for its dry v…",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [
+    "3PL and Brokerage",
+    "Company Earnings",
+    "News",
+    "Top Stories",
+    "3PLs",
+    "Landstar",
+    "Landstar BCOs",
+    "Landstar System"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.freightwaves.com/news/port-houston-container-volumes-jump-11-as-imports-surge-in-september",
+   "title": "Port Houston container volumes jump 11% as imports surge in September",
+   "summary": "Port Houston saw rising imports and improving exports in September, helping lift container activity at the Gulf Coast gateway. The post Port Houston container v…",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [
+    "American Shipper",
+    "Maritime",
+    "News",
+    "container shipping",
+    "Gulf Coast ports",
+    "Houston Ship Channel",
+    "Port Houston"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.freightwaves.com/news/werner-enterprises-sees-cost-headwinds-lingering-into-q1",
+   "title": "Werner Enterprises sees cost headwinds lingering into Q1",
+   "summary": "Werner Enterprises outlined a path back to mid-cycle margins on a Tuesday evening call, but noted cost headwinds—some transitory and some growth-related—could l…",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [
+    "Company Earnings",
+    "News",
+    "Top Stories",
+    "Truckload Carriers",
+    "dedicated carrier",
+    "TL contract rates",
+    "Werner",
+    "Werner Enterprises"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.freightwaves.com/news/mexico-truckers-reach-deal-for-talks-after-strike-disrupts-19-states",
+   "title": "Mexico truckers reach deal for talks after strike disrupts 19 states",
+   "summary": "Trucking organizations in Mexico have agreed to four negotiating sessions with federal officials after a nationwide strike disrupted highways and threatened fre…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [
+    "Borderlands: Mexico",
+    "News",
+    "Trucking",
+    "blockade",
+    "CANACAR",
+    "Mexico",
+    "Protest"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.freightwaves.com/news/diesel-is-breaking-records-while-gasoline-stays-cheap-and-the-reason-is-not-what-most-truckers-think",
+   "title": "Diesel Is Breaking Records While Gasoline Stays Cheap, And The Reason Is Not What Most Truckers Think",
+   "summary": "For the better part of eight months the price of diesel has climbed to levels that gasoline has not come close to matching, and for a carrier whose single large…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [
+    "F3: Future of Freight Festival",
+    "Fleet and Maintenance",
+    "Market Conditions",
+    "Playbook: Fuel Game Plan"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.freightwaves.com/news/millions-in-stolen-freight-reveal-a-weakness-criminals-keep-exploiting",
+   "title": "Millions in stolen freight reveal a weakness criminals keep exploiting",
+   "summary": "From a $12 million cargo theft scheme to fraudulent shipment diversions, recent cases reveal a recurring weakness. The question is whether your team knows how t…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [
+    "Business",
+    "Fraud",
+    "Playbook: Cash & Capital",
+    "Top Stories",
+    "FreightWaves",
+    "logistics",
+    "Trucking"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.freightwaves.com/news/merchants-fleet-fleetshare-puerto-rico",
+   "title": "Merchants Fleet adds 113 FleetShare vehicles in Puerto Rico",
+   "summary": "Merchants Fleet launched FleetShare in Puerto Rico on Sept. 14 for an unnamed global e-commerce company. It did not disclose contract terms or pricing. The post…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [
+    "Fleet and Maintenance",
+    "Last-mile delivery",
+    "Modern Shipper",
+    "News",
+    "e-commerce",
+    "fleet management",
+    "FleetShare",
+    "Last mile"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.freightwaves.com/news/the-case-for-renting-the-box-and-buying-the-truck",
+   "title": "The Case For Renting The Box And Buying The Truck",
+   "summary": "For a small carrier, the choice of whether to own a trailer, finance one, run power only, or rent by the day looks like a simple equipment question, but it is r…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [
+    "Fleet and Maintenance",
+    "Trucker Tools"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.freightwaves.com/news/why-logistics-ai-still-needs-experts-in-the-loop",
+   "title": "Why Logistics AI Still Needs “Experts in the Loop”",
+   "summary": "As AI tools multiply across freight and logistics, the important question is how much control to hand over, and to what. On the latest Lean Quarterly Dive, host…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [
+    "News",
+    "Sponsored Insights"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.freightwaves.com/news/knight-swift-ceo-says-cdl-crackdown-could-fuel-lasting-trucking-recovery",
+   "title": "Knight-Swift CEO says CDL crackdown could fuel lasting trucking recovery",
+   "summary": "Knight-Swift CEO Adam Miller said more restrictive broker-carrier relationships could reshape competition in trucking by favoring established fleets with strong…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [
+    "News",
+    "Technology",
+    "Trucking",
+    "Adam Miller",
+    "Fuel card company",
+    "Knight Swift",
+    "over the road trucking",
+    "WEX"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.freightwaves.com/news/2027-freighttech-25-winners-announced-at-f3",
+   "title": "2027 FreightTech 25 winners announced at F3",
+   "summary": "Highway takes top spot in FreightWaves’ 2027 FreightTech 25 for the third consecutive year as freight fraud prevention, AI automation and autonomous trucking em…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [
+    "Awards",
+    "FreightTech Award",
+    "News",
+    "Technology",
+    "Top Stories",
+    "FreightTech 100",
+    "FreightTech awards",
+    "FreightWaves"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.freightwaves.com/news/band24-seeks-early-testers-for-satellite-connected-asset-tracker-ahead-of-nov-13-deadline",
+   "title": "Band24 seeks early testers for satellite-connected asset tracker ahead of Nov. 13 deadline",
+   "summary": "Asset-tracking company Band24 is seeking businesses to test Terra, a new tracker combining Bluetooth, cellular and satellite connectivity, ahead of a Nov. 13 de…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [
+    "News",
+    "Technology",
+    "Band24",
+    "Freight",
+    "FreightWaves",
+    "logistics"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.freightwaves.com/news/miami-airport-to-deploy-shared-logistics-platform-for-cargo-community",
+   "title": "Miami airport to deploy shared logistics platform for cargo community",
+   "summary": "Miami airport is partnering with Kalé to develop a central data exchange portal for the cargo stakeholders. The post Miami airport to deploy shared logistics pl…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [
+    "Air Cargo",
+    "American Shipper",
+    "News",
+    "Technology",
+    "data exchange",
+    "digital supply chain",
+    "miami international airport"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.freightwaves.com/news/double-nickel-launches-ai-agent-to-automate-driver-employment-checks",
+   "title": "Double Nickel launches AI agent to automate driver employment checks",
+   "summary": "Double Nickel has launched an artificial intelligence agent to automate employment verifications for trucking companies, targeting a time-consuming part of driv…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [
+    "News",
+    "Technology",
+    "AI",
+    "Double Nickel",
+    "FreightWaves",
+    "logistics"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.freightwaves.com/news/federal-guidance-on-carrier-selection-not-around-the-corner-tias-burroughs",
+   "title": "Federal guidance on carrier selection not around the corner: TIA’s Burroughs",
+   "summary": "Chattanooga–The Transportation Intermediaries Association (TIA) was quick out of the box earlier this year after two key court decisions that didn’t favor the b…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [
+    "3PL and Brokerage",
+    "Legal issues",
+    "News",
+    "Top Stories"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.freightwaves.com/news/the-biggest-shift-in-freight-liability-since-deregulation-is-here-and-few-are-ready-for-it",
+   "title": "The Biggest Shift In Freight Liability Since Deregulation Is Here, And Few Are Ready For It",
+   "summary": "The way courts decide who is responsible when a contracted truck ends up in a wreck is changing faster than most of the freight industry realizes, and the shift…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [
+    "3PL and Brokerage",
+    "F3: Future of Freight Festival",
+    "Montgomery vs. Caribe",
+    "Nuclear verdicts"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.freightwaves.com/news/police-recover-54k-in-hot-wheels-after-bnsf-freight-train-burglary-in-california",
+   "title": "Police recover $54K in Hot Wheels after BNSF freight train burglary in California",
+   "summary": "A freight train burglary in Colton, California, ended with one arrest and $54,000 in recovered Hot Wheels. Police released footage of the investigation as quest…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [
+    "Business",
+    "Playbook: Cash & Capital",
+    "Railroad",
+    "Top Stories",
+    "BNSF",
+    "California",
+    "cargo theft"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.freightwaves.com/news/spartan-carrier-alvys-foundry-ai-agents",
+   "title": "Spartan’s operators went from AI skeptics to agent builders",
+   "summary": "Spartan Carrier Group built its first AI agent for hourly customer reports in a week and a half. Its VP of operations, who calls himself no coder, wants dispatc…",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [
+    "News",
+    "Technology",
+    "Top Stories",
+    "Trucking",
+    "AI agents",
+    "AI agents trucking",
+    "Alvys",
+    "Alvys Foundry"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.freightwaves.com/news/fmcsas-elison-addresses-motus-again-still-no-date-on-full-repair",
    "title": "FMCSA’s Elison addresses Motus again, still no date on full repair",
    "summary": "Chattanooga–It hasn’t been that long–less than a month–since Jesse Elison spoke to an industry event and addressed the issue of the beleaguered new Motus regist…",
@@ -551,343 +876,6 @@
    ],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://www.freightwaves.com/news/f3-preview-ai-autonomous-trucking-and-freight-technology-take-center-stage",
-   "title": "F3 preview: AI, autonomous trucking and freight technology take center stage",
-   "summary": "FreightWaves’ F3: Future of Freight Festival returns to Chattanooga next week, with sessions on AI adoption, autonomous trucking and the technologies reshaping…",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [
-    "Awards",
-    "F3: Future of Freight Festival",
-    "FreightTech Award",
-    "AI",
-    "autonomous trucking",
-    "FreightWaves",
-    "logistics",
-    "Technology"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.freightwaves.com/news/feds-charge-driver-in-alleged-12m-cargo-theft-scheme-built-on-hijacked-carrier-identities",
-   "title": "Feds charge driver in alleged $12M cargo theft scheme built on hijacked carrier identities",
-   "summary": "At least 24 shipments vanished after drivers collected merchandise from distribution centers. Authorities also uncovered fraudulent licenses, altered identities…",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [
-    "Business",
-    "Fraud",
-    "Playbook: Cash & Capital",
-    "Top Stories",
-    "cargo theft",
-    "logistics",
-    "Trucking"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.freightwaves.com/news/norfolk-southern-profits-rise-on-higher-volume-and-revenue",
-   "title": "Norfolk Southern profits rise on higher volume and revenue",
-   "summary": "Norfolk Southern posted record revenue in Q3 on higher volumes and rates, and substantial fuel surcharge The post Norfolk Southern profits rise on higher volume…",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [
-    "Business",
-    "Company Earnings",
-    "Finance",
-    "News",
-    "Railroad",
-    "Top Stories",
-    "carloads",
-    "earnings"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.freightwaves.com/news/sonar-launches-new-routing-guide-and-contract-rate-data-plus-expanded-searchcarriers-monitoring",
-   "title": "SONAR launches new routing guide and contract rate data, plus expanded SearchCarriers monitoring",
-   "summary": "New SONAR datasets show what shippers pay brokers and carriers when freight falls past the first tender, plus SearchCarriers watchlists and alerts. The post SON…",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [
-    "Inside SONAR",
-    "carrier qualification",
-    "Shippers",
-    "SONAR",
-    "sonar data"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits",
-   "title": "Union Pacific posts record third-quarter revenue and profits",
-   "summary": "Union Pacific posted record revenue and profits in the third quarter, as volume and pricing gains offset rising fuel prices and inflation. The post Union Pacifi…",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [
-    "Business",
-    "Company Earnings",
-    "Finance",
-    "News",
-    "Railroad",
-    "Top Stories",
-    "carloads",
-    "earnings"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.freightwaves.com/news/cass-q3-earnings-soar-19-eps-growth-freight-market-boom",
-   "title": "Cass Q3 Earnings Soar: 19% EPS Growth & Freight Market Boom",
-   "summary": "Cass Information Systems CFO Mike Normile reveals how rising freight rates, fuel surcharges, and higher interest rates fueled a 19% increase in earnings per sha…",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [
-    "FreightWaves Today",
-    "FreightWaves TV"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.freightwaves.com/news/how-triumph-financials-ceo-beat-the-longest-freight-recession",
-   "title": "How Triumph Financial’s CEO Beat the Longest Freight Recession",
-   "summary": "Triumph Financial CEO Aaron Graft joins FreightWaves to discuss how his company achieved a remarkable 38% transportation revenue growth during one of the longes…",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [
-    "FreightWaves Today",
-    "FreightWaves TV"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.freightwaves.com/news/safety-should-be-provable-not-just-compliant",
-   "title": "Safety Should Be Provable, Not Just Compliant",
-   "summary": "A unanimous Supreme Court ruling means freight brokers can face state liability claims for their selection of carriers. For carriers, that shift turns a documen…",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [
-    "Business",
-    "Events",
-    "Media",
-    "News",
-    "Sponsored Insights",
-    "Technology",
-    "FAAAA",
-    "FMCSA"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.freightwaves.com/news/cbp-seizes-2-5m-in-meth-hidden-in-tomatillo-truck-at-otay-mesa-drivers-visa-canceled",
-   "title": "CBP seizes $2.5M in meth hidden in tomatillo truck at Otay Mesa; driver’s visa canceled",
-   "summary": "Nearly 1,600 pounds of narcotics, a federal investigation and an unexpected development involving the trucker. New details obtained by FreightWaves reveal what…",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [
-    "Borderlands: Mexico",
-    "Playbook: Cash & Capital",
-    "Top Stories",
-    "CBP",
-    "cross border",
-    "drug seizures",
-    "Trucking"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.freightwaves.com/news/us-trailer-orders-soar-385-as-class-8-truck-market-sends-mixed-signals",
-   "title": "US trailer orders soar 385% as Class 8 truck market sends mixed signals",
-   "summary": "Trailer orders jumped sharply in September as carriers moved to secure equipment ahead of potential price increases, while heavy-duty truck purchases showed mix…",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [
-    "News",
-    "Trucking",
-    "Trucking Equipment",
-    "ACT Research",
-    "Class 8 truck orders",
-    "FTR",
-    "Trailer orders"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.freightwaves.com/news/ups-automates-4-additional-facilities-ahead-of-peak-shipping-season",
-   "title": "UPS automates 4 additional facilities ahead of peak shipping season",
-   "summary": "UPS has completed several facility upgrades, increasing their capacity and productivity heading into peak shipping season. The post UPS automates 4 additional f…",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [
-    "Modern Shipper",
-    "News",
-    "Parcel Freight",
-    "PostalMag",
-    "peak season",
-    "RFID",
-    "UPS",
-    "warehouse automation"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.freightwaves.com/news/first-look-union-pacific-earnings-4",
-   "title": "First look: Union Pacific earnings",
-   "summary": "Union Pacific’s third-quarter profit rose 16% as higher freight volumes and pricing gains boosted revenue. The post First look: Union Pacific earnings appeared…",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [
-    "Business",
-    "Company Earnings",
-    "Finance",
-    "News",
-    "Railroad",
-    "carloads",
-    "earnings",
-    "forecast"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.freightwaves.com/news/first-look-norfolk-southern-earnings-4",
-   "title": "First look: Norfolk Southern earnings",
-   "summary": "Norfolk Southern’s third-quarter earnings rose as higher freight volume and fuel surcharges drove record revenue. The post First look: Norfolk Southern earnings…",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [
-    "Business",
-    "Company Earnings",
-    "Finance",
-    "News",
-    "Railroad",
-    "Top Stories",
-    "carloads",
-    "earnings"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.freightwaves.com/news/commodity-markets-whip-up-railfreight-gains",
-   "title": "Commodity markets whip up railfreight gains",
-   "summary": "Intermodal and commodity traffic helped U.S. freight railroads to strong volume gains in the latest week data. The post Commodity markets whip up railfreight ga…",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [
-    "News",
-    "Railroad",
-    "carloads",
-    "intermodal",
-    "railroads"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.freightwaves.com/news/first-look-almost-all-strong-numbers-in-ryders-third-quarter-earnings",
-   "title": "First look: almost all strong numbers in Ryder’s third quarter earnings",
-   "summary": "It was a solid third quarter for Ryder, with improvement in just about every metric compared to the third quarter of 2025. The numbers have been good enough tha…",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [
-    "Company Earnings",
-    "News",
-    "Top Stories",
-    "Trucking",
-    "Ryder"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.freightwaves.com/news/knight-swift-again-eyes-big-rate-increases-as-new-bid-season-nears",
-   "title": "Knight-Swift again eyes big rate increases as new bid season nears",
-   "summary": "Knight-Swift Transportation’s large exposure to the one-way truckload market has it in position to capture double-digit rate increases as its new bid season kic…",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [
-    "Company Earnings",
-    "News",
-    "Top Stories",
-    "Truckload Carriers",
-    "Knight-Swift",
-    "knight-swift guidance",
-    "Knight-Swift Transportation",
-    "LTL terminal additions"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.freightwaves.com/news/einride-nvidia-alpamayo-autonomous-trucks",
-   "title": "Einride’s autonomous trucks to learn from Nvidia’s Alpamayo",
-   "summary": "A month after agreeing to build its next Einride Driver on Nvidia Hyperion, Einride said it will adapt Alpamayo to its trucks, routes and data, with a road eval…",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [
-    "Autonomous Vehicles",
-    "Business",
-    "News",
-    "Technology",
-    "Alpamayo",
-    "Alpamayo 2 Super",
-    "autonomous trucking",
-    "driverless trucks"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.freightwaves.com/news/motive-launches-ai-agents-fleets",
-   "title": "Motive launches AI Agents as fleets weigh how to prevent problems",
-   "summary": "Motive, an AI platform for physical operations, launched Agents on Monday at the American Trucking Associations’ Management Conference & Exhibition (MCE) in Cha…",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [
-    "News",
-    "Technology",
-    "Top Stories",
-    "Trucking",
-    "AI Dashcam Plus",
-    "ATA MCE",
-    "ATA MCE 2026",
-    "Atlas AI assistant"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.freightwaves.com/news/cleo-otif-failures-cost-cpg-100-billion",
-   "title": "Late, short deliveries cost food and CPG makers $100 billion",
-   "summary": "Cleo's OTIF report models $10 billion to $11 billion in direct costs and $85 billion to $90 billion in indirect losses for North American CPG and food manufactu…",
-   "image": "",
-   "date": "2026-10-22",
-   "tags": [
-    "American Shipper",
-    "Fulfillment",
-    "Logistics/Supply Chains",
-    "News",
-    "Cleo",
-    "Cleo OTIF Report",
-    "CPG",
-    "CPG retailers"
-   ],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -901,9 +889,9 @@
  },
  "fails": 0,
  "kind": "feed",
- "parser": 2,
+ "parser": 3,
  "status": "ok",
  "error": "",
- "etag": "\"f3e2bf6f5dbdc46787217a0e798a6f72\"",
- "modified": "Mon, 26 Oct 2026 23:06:09 GMT"
+ "etag": "W/\"f6825fb5259c5150ae5e9a8fdd5c1acd\"",
+ "modified": "Wed, 28 Oct 2026 04:27:10 GMT"
 }

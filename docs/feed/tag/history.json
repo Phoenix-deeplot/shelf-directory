@@ -9,6 +9,29 @@
   },
   "items": [
     {
+      "id": "https://www.openculture.com/2026/10/how-balzacs-extreme-coffee-habit-fueled-his-productive-writing-routine.html",
+      "url": "https://www.openculture.com/2026/10/how-balzacs-extreme-coffee-habit-fueled-his-productive-writing-routine.html",
+      "title": "How Balzac’s Extreme Coffee Habit Fueled His Productive Writing Routine",
+      "content_text": "Even now, in this age when the very reading of literature is endangered — or so the articles tell us — Honoré de Balzac (1799–1850) retains a notable ability to…",
+      "summary": "Even now, in this age when the very reading of literature is endangered — or so the articles tell us — Honoré de Balzac (1799–1850) retains a notable ability to…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "History",
+        "Literature",
+        "文化",
+        "免费资源"
+      ],
+      "authors": [
+        {
+          "name": "Open Culture"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "openculture-com"
+      }
+    },
+    {
       "id": "https://www.openculture.com/2026/10/harry-houdini-died-100-years-ago-this-halloween.html",
       "url": "https://www.openculture.com/2026/10/harry-houdini-died-100-years-ago-this-halloween.html",
       "title": "Harry Houdini Died 100 Years Ago This Halloween: Was He Really Killed by a Punch to the Stomach?",

@@ -9,6 +9,32 @@
   },
   "items": [
     {
+      "id": "https://slate.com/business/2026/10/trump-fico-credit-score-mortgage-monopoly.html?via=rss",
+      "url": "https://slate.com/business/2026/10/trump-fico-credit-score-mortgage-monopoly.html?via=rss",
+      "title": "Unfortunately, I Must Hand It to the Trump Administration in This One Instance",
+      "content_text": "A monopoly on mortgages is finally loosening. Homebuyers aren’t the only ones who stand to benefit.",
+      "summary": "A monopoly on mortgages is finally loosening. Homebuyers aren’t the only ones who stand to benefit.",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://compote.slate.com/images/2ed59c56-dbf8-4f04-abf0-0195d2d014aa.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Donald Trump",
+        "Housing",
+        "Personal Finance",
+        "Finance",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/dsv-3q-profit-rises-19-5-as-schenker-integration-lifts-earnings",
       "url": "https://www.freightwaves.com/news/dsv-3q-profit-rises-19-5-as-schenker-integration-lifts-earnings",
       "title": "DSV 3Q profit rises 19.5% as Schenker integration lifts earnings",
@@ -51,114 +77,6 @@
         "Equipment",
         "locomotives",
         "railroads"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits",
-      "url": "https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits",
-      "title": "Union Pacific posts record third-quarter revenue and profits",
-      "content_text": "Union Pacific posted record revenue and profits in the third quarter, as volume and pricing gains offset rising fuel prices and inflation. The post Union Pacifi…",
-      "summary": "Union Pacific posted record revenue and profits in the third quarter, as volume and pricing gains offset rising fuel prices and inflation. The post Union Pacifi…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Business",
-        "Company Earnings",
-        "Finance",
-        "News",
-        "Railroad",
-        "Top Stories",
-        "carloads",
-        "earnings"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/norfolk-southern-profits-rise-on-higher-volume-and-revenue",
-      "url": "https://www.freightwaves.com/news/norfolk-southern-profits-rise-on-higher-volume-and-revenue",
-      "title": "Norfolk Southern profits rise on higher volume and revenue",
-      "content_text": "Norfolk Southern posted record revenue in Q3 on higher volumes and rates, and substantial fuel surcharge The post Norfolk Southern profits rise on higher volume…",
-      "summary": "Norfolk Southern posted record revenue in Q3 on higher volumes and rates, and substantial fuel surcharge The post Norfolk Southern profits rise on higher volume…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Business",
-        "Company Earnings",
-        "Finance",
-        "News",
-        "Railroad",
-        "Top Stories",
-        "carloads",
-        "earnings"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/first-look-union-pacific-earnings-4",
-      "url": "https://www.freightwaves.com/news/first-look-union-pacific-earnings-4",
-      "title": "First look: Union Pacific earnings",
-      "content_text": "Union Pacific’s third-quarter profit rose 16% as higher freight volumes and pricing gains boosted revenue. The post First look: Union Pacific earnings appeared…",
-      "summary": "Union Pacific’s third-quarter profit rose 16% as higher freight volumes and pricing gains boosted revenue. The post First look: Union Pacific earnings appeared…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Business",
-        "Company Earnings",
-        "Finance",
-        "News",
-        "Railroad",
-        "carloads",
-        "earnings",
-        "forecast"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/first-look-norfolk-southern-earnings-4",
-      "url": "https://www.freightwaves.com/news/first-look-norfolk-southern-earnings-4",
-      "title": "First look: Norfolk Southern earnings",
-      "content_text": "Norfolk Southern’s third-quarter earnings rose as higher freight volume and fuel surcharges drove record revenue. The post First look: Norfolk Southern earnings…",
-      "summary": "Norfolk Southern’s third-quarter earnings rose as higher freight volume and fuel surcharges drove record revenue. The post First look: Norfolk Southern earnings…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Business",
-        "Company Earnings",
-        "Finance",
-        "News",
-        "Railroad",
-        "Top Stories",
-        "carloads",
-        "earnings"
       ],
       "authors": [
         {

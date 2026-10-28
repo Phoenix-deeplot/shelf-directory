@@ -9,6 +9,136 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
+      "url": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
+      "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
+      "content_text": "In breathless press releases and posts, the company has touted its models’ ability to deliver scientific breakthroughs. But its IPO filing taps the brakes on ju…",
+      "summary": "In breathless press releases and posts, the company has touted its models’ ability to deliver scientific breakthroughs. But its IPO filing taps the brakes on ju…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae0b0627e979e34b657973e/master/pass/102726-Anthropic%20Bio.jpg",
+      "tags": [
+        "Science",
+        "Science / Biotech",
+        "Business",
+        "Learning Curve",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/anthropic-ipo-identifies-gas-supply-as-big-near-term-risks/",
+      "url": "https://www.wired.com/story/anthropic-ipo-identifies-gas-supply-as-big-near-term-risks/",
+      "title": "Anthropic Flags Gas Supply as One of Its Biggest Near-Term Risks",
+      "content_text": "The data center buildout could cause a massive increase in gas prices as companies scramble for limited supplies and infrastructure fails to meet demand.",
+      "summary": "The data center buildout could cause a massive increase in gas prices as companies scramble for limited supplies and infrastructure fails to meet demand.",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae0a917b092bac6ae652e82/master/pass/102626_Anthropic%20Gas%20S1.jpg",
+      "tags": [
+        "Science",
+        "Science / Environment",
+        "Business",
+        "P(Doom)",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/",
+      "url": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/",
+      "title": "AI Agents Are Media’s New Favorite Audience",
+      "content_text": "As agents go mainstream, some publishers are hoping that people will pay for content tailor-made for AI—not humans.",
+      "summary": "As agents go mainstream, some publishers are hoping that people will pay for content tailor-made for AI—not humans.",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adfd6269b54dbfcc0225ffd/master/pass/business_ai_agents_media_audience.jpg",
+      "tags": [
+        "Business",
+        "README",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/police-recover-54k-in-hot-wheels-after-bnsf-freight-train-burglary-in-california",
+      "url": "https://www.freightwaves.com/news/police-recover-54k-in-hot-wheels-after-bnsf-freight-train-burglary-in-california",
+      "title": "Police recover $54K in Hot Wheels after BNSF freight train burglary in California",
+      "content_text": "A freight train burglary in Colton, California, ended with one arrest and $54,000 in recovered Hot Wheels. Police released footage of the investigation as quest…",
+      "summary": "A freight train burglary in Colton, California, ended with one arrest and $54,000 in recovered Hot Wheels. Police released footage of the investigation as quest…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "Business",
+        "Playbook: Cash & Capital",
+        "Railroad",
+        "Top Stories",
+        "BNSF",
+        "California",
+        "cargo theft",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/millions-in-stolen-freight-reveal-a-weakness-criminals-keep-exploiting",
+      "url": "https://www.freightwaves.com/news/millions-in-stolen-freight-reveal-a-weakness-criminals-keep-exploiting",
+      "title": "Millions in stolen freight reveal a weakness criminals keep exploiting",
+      "content_text": "From a $12 million cargo theft scheme to fraudulent shipment diversions, recent cases reveal a recurring weakness. The question is whether your team knows how t…",
+      "summary": "From a $12 million cargo theft scheme to fraudulent shipment diversions, recent cases reveal a recurring weakness. The question is whether your team knows how t…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "Business",
+        "Fraud",
+        "Playbook: Cash & Capital",
+        "Top Stories",
+        "FreightWaves",
+        "logistics",
+        "Trucking",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
       "url": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
       "title": "Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures",
@@ -186,57 +316,6 @@
       }
     },
     {
-      "id": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
-      "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
-      "title": "What the US Movement Against Data Centers Can Learn From Abroad",
-      "content_text": "Paris Marx, author of Hyperscale, has been tracking global data center development for years. The US has a lot to learn from what’s happened everywhere from Ire…",
-      "summary": "Paris Marx, author of Hyperscale, has been tracking global data center development for years. The US has a lot to learn from what’s happened everywhere from Ire…",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adbe4fc594ddd5d406f1b4a/master/pass/102326-Power%20Play-What%20the%20US%20Anti-Data%20Center%20Movement%20Can%20Learn%20From%20Everywhere%20Else-v2.jpg",
-      "tags": [
-        "Science",
-        "Science / Environment",
-        "Business",
-        "Power Play",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/how-many-billions-would-it-take-to-hold-meta-accountable/",
-      "url": "https://www.wired.com/story/how-many-billions-would-it-take-to-hold-meta-accountable/",
-      "title": "How Many Billions Would It Take to Hold Meta Accountable?",
-      "content_text": "Meta got hit this week with its biggest fine yet, the latest in a mounting pile of court-ordered payments.",
-      "summary": "Meta got hit this week with its biggest fine yet, the latest in a mounting pile of court-ordered payments.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada8957133035a6bb08c0f2/master/pass/Business_How%20Many%20Billions%20Would%20It%20Take%20to%20Hold%20Meta%20Accountable_v1.jpg",
-      "tags": [
-        "Business",
-        "Business / Tech Culture",
-        "Backchannel",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
       "id": "https://www.freightwaves.com/news/wabtec-earnings-rise-on-higher-freight-and-transit-sales",
       "url": "https://www.freightwaves.com/news/wabtec-earnings-rise-on-higher-freight-and-transit-sales",
       "title": "Wabtec earnings rise on higher freight and transit sales",
@@ -252,195 +331,6 @@
         "Equipment",
         "locomotives",
         "railroads"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits",
-      "url": "https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits",
-      "title": "Union Pacific posts record third-quarter revenue and profits",
-      "content_text": "Union Pacific posted record revenue and profits in the third quarter, as volume and pricing gains offset rising fuel prices and inflation. The post Union Pacifi…",
-      "summary": "Union Pacific posted record revenue and profits in the third quarter, as volume and pricing gains offset rising fuel prices and inflation. The post Union Pacifi…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Business",
-        "Company Earnings",
-        "Finance",
-        "News",
-        "Railroad",
-        "Top Stories",
-        "carloads",
-        "earnings"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/safety-should-be-provable-not-just-compliant",
-      "url": "https://www.freightwaves.com/news/safety-should-be-provable-not-just-compliant",
-      "title": "Safety Should Be Provable, Not Just Compliant",
-      "content_text": "A unanimous Supreme Court ruling means freight brokers can face state liability claims for their selection of carriers. For carriers, that shift turns a documen…",
-      "summary": "A unanimous Supreme Court ruling means freight brokers can face state liability claims for their selection of carriers. For carriers, that shift turns a documen…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Business",
-        "Events",
-        "Media",
-        "News",
-        "Sponsored Insights",
-        "Technology",
-        "FAAAA",
-        "FMCSA"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/norfolk-southern-profits-rise-on-higher-volume-and-revenue",
-      "url": "https://www.freightwaves.com/news/norfolk-southern-profits-rise-on-higher-volume-and-revenue",
-      "title": "Norfolk Southern profits rise on higher volume and revenue",
-      "content_text": "Norfolk Southern posted record revenue in Q3 on higher volumes and rates, and substantial fuel surcharge The post Norfolk Southern profits rise on higher volume…",
-      "summary": "Norfolk Southern posted record revenue in Q3 on higher volumes and rates, and substantial fuel surcharge The post Norfolk Southern profits rise on higher volume…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Business",
-        "Company Earnings",
-        "Finance",
-        "News",
-        "Railroad",
-        "Top Stories",
-        "carloads",
-        "earnings"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/first-look-union-pacific-earnings-4",
-      "url": "https://www.freightwaves.com/news/first-look-union-pacific-earnings-4",
-      "title": "First look: Union Pacific earnings",
-      "content_text": "Union Pacific’s third-quarter profit rose 16% as higher freight volumes and pricing gains boosted revenue. The post First look: Union Pacific earnings appeared…",
-      "summary": "Union Pacific’s third-quarter profit rose 16% as higher freight volumes and pricing gains boosted revenue. The post First look: Union Pacific earnings appeared…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Business",
-        "Company Earnings",
-        "Finance",
-        "News",
-        "Railroad",
-        "carloads",
-        "earnings",
-        "forecast"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/first-look-norfolk-southern-earnings-4",
-      "url": "https://www.freightwaves.com/news/first-look-norfolk-southern-earnings-4",
-      "title": "First look: Norfolk Southern earnings",
-      "content_text": "Norfolk Southern’s third-quarter earnings rose as higher freight volume and fuel surcharges drove record revenue. The post First look: Norfolk Southern earnings…",
-      "summary": "Norfolk Southern’s third-quarter earnings rose as higher freight volume and fuel surcharges drove record revenue. The post First look: Norfolk Southern earnings…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Business",
-        "Company Earnings",
-        "Finance",
-        "News",
-        "Railroad",
-        "Top Stories",
-        "carloads",
-        "earnings"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/feds-charge-driver-in-alleged-12m-cargo-theft-scheme-built-on-hijacked-carrier-identities",
-      "url": "https://www.freightwaves.com/news/feds-charge-driver-in-alleged-12m-cargo-theft-scheme-built-on-hijacked-carrier-identities",
-      "title": "Feds charge driver in alleged $12M cargo theft scheme built on hijacked carrier identities",
-      "content_text": "At least 24 shipments vanished after drivers collected merchandise from distribution centers. Authorities also uncovered fraudulent licenses, altered identities…",
-      "summary": "At least 24 shipments vanished after drivers collected merchandise from distribution centers. Authorities also uncovered fraudulent licenses, altered identities…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Business",
-        "Fraud",
-        "Playbook: Cash & Capital",
-        "Top Stories",
-        "cargo theft",
-        "logistics",
-        "Trucking",
-        "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/einride-nvidia-alpamayo-autonomous-trucks",
-      "url": "https://www.freightwaves.com/news/einride-nvidia-alpamayo-autonomous-trucks",
-      "title": "Einride’s autonomous trucks to learn from Nvidia’s Alpamayo",
-      "content_text": "A month after agreeing to build its next Einride Driver on Nvidia Hyperion, Einride said it will adapt Alpamayo to its trucks, routes and data, with a road eval…",
-      "summary": "A month after agreeing to build its next Einride Driver on Nvidia Hyperion, Einride said it will adapt Alpamayo to its trucks, routes and data, with a road eval…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Autonomous Vehicles",
-        "Business",
-        "News",
-        "Technology",
-        "Alpamayo",
-        "Alpamayo 2 Super",
-        "autonomous trucking",
-        "driverless trucks"
       ],
       "authors": [
         {

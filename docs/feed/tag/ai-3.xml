@@ -1,24 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/ai-3.xml</id>
-  <title>公共目录 · #AI产品</title>
+  <title>公共目录 · #AI应用</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/ai-3.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6484806.html</id>
-    <title>别只用 Claude 聊天：三块能力搭成长期工作流</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6484806.html"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">多数人用 Claude 只当搜索框：问一句、拿一段、关页面。Projects 用来沉淀资料和规则，Artifacts 承载可迭代的产物，长上下文同时读大量材料，三块拼起来才是工作流。 很多人第一次打开 Claude，做的事和使用搜索框没什么区别：问一个问题，拿到一段回答，然后关闭页面。下次遇到同类任务，又重新粘贴背景、…</summary>
+    <id>https://www.woshipm.com/ai/6485100.html</id>
+    <title>月下载达1100万，霸榜东南亚多国，越南厂商的爆款新游什么来头？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485100.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">一个日本声优玩 Mimic Party 的视频播放破 1500 万，带火了这场由 AI 给模仿打分的声音派对。免费版 MemeMix Challenge 上架不到一个月拿下近 1100 万下载，登顶休闲游戏免费榜。 两周前，一个日本配音演员玩《Mimic Party》的实机视频在YouTube上传后，至今播放量已经突破…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI产品"/>
-    <category term="Claude"/>
-    <category term="经验分享"/>
+    <category term="AI应用"/>
+    <category term="Google Play"/>
+    <category term="Steam"/>
+    <category term="YouTube"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/chuangye/6483407.html</id>
+    <title>千万用户也救不了它：AI 陪聊明星 Character.AI 申请破产</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6483407.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">仍有约 1200 万活跃用户的 Character.AI 在 10 月 12 日申请破产保护，每月亏损 800 万至 900 万美元，迪士尼出价 2000 万美元求部分技术授权。同样的生意，CHAI 做到 1.2 亿美元年化收入，差别在账怎么算。 前段时间有个大新闻，一家曾经估值 10亿美元、连 Google 都花 2…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="创业学院"/>
+    <category term="AI应用"/>
+    <category term="产品分析"/>
+    <category term="商业模式"/>
+    <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>

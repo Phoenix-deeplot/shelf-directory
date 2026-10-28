@@ -9,6 +9,33 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/werner-enterprises-sees-cost-headwinds-lingering-into-q1",
+      "url": "https://www.freightwaves.com/news/werner-enterprises-sees-cost-headwinds-lingering-into-q1",
+      "title": "Werner Enterprises sees cost headwinds lingering into Q1",
+      "content_text": "Werner Enterprises outlined a path back to mid-cycle margins on a Tuesday evening call, but noted cost headwinds—some transitory and some growth-related—could l…",
+      "summary": "Werner Enterprises outlined a path back to mid-cycle margins on a Tuesday evening call, but noted cost headwinds—some transitory and some growth-related—could l…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "News",
+        "Top Stories",
+        "Truckload Carriers",
+        "dedicated carrier",
+        "TL contract rates",
+        "Werner",
+        "Werner Enterprises"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/cost-pressures-sink-marten-transports-q3",
       "url": "https://www.freightwaves.com/news/cost-pressures-sink-marten-transports-q3",
       "title": "Cost pressures sink Marten Transport’s Q3",
@@ -24,33 +51,6 @@
         "reefer capacity",
         "Reefer TL rates",
         "refrigerated trucking"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/knight-swift-again-eyes-big-rate-increases-as-new-bid-season-nears",
-      "url": "https://www.freightwaves.com/news/knight-swift-again-eyes-big-rate-increases-as-new-bid-season-nears",
-      "title": "Knight-Swift again eyes big rate increases as new bid season nears",
-      "content_text": "Knight-Swift Transportation’s large exposure to the one-way truckload market has it in position to capture double-digit rate increases as its new bid season kic…",
-      "summary": "Knight-Swift Transportation’s large exposure to the one-way truckload market has it in position to capture double-digit rate increases as its new bid season kic…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Company Earnings",
-        "News",
-        "Top Stories",
-        "Truckload Carriers",
-        "Knight-Swift",
-        "knight-swift guidance",
-        "Knight-Swift Transportation",
-        "LTL terminal additions"
       ],
       "authors": [
         {

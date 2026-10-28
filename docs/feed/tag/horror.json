@@ -1,0 +1,63 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #horror",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/horror.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://daily.jstor.org/mental-hospitals-at-the-movies/",
+      "url": "https://daily.jstor.org/mental-hospitals-at-the-movies/",
+      "title": "Mental Hospitals at the Movies",
+      "content_text": "The horror films of the 1970s captured a cultural shift from fears of institutional abuse to anxieties about psychiatric patients living freely. The post Mental…",
+      "summary": "The horror films of the 1970s captured a cultural shift from fears of institutional abuse to anxieties about psychiatric patients living freely. The post Mental…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "Arts & Culture",
+        "Film & Media",
+        "horror",
+        "mental health",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    },
+    {
+      "id": "https://daily.jstor.org/frankenstein-the-vampyre-and-the-spirit-of-the-humanities/",
+      "url": "https://daily.jstor.org/frankenstein-the-vampyre-and-the-spirit-of-the-humanities/",
+      "title": "Frankenstein, The Vampyre, and the Spirit of the Humanities",
+      "content_text": "How one ghost story competition continues to haunt the humanities—just in time for Halloween. The post <em>Frankenstein</em>, <em>The Vampyre</em>, and the Spir…",
+      "summary": "How one ghost story competition continues to haunt the humanities—just in time for Halloween. The post <em>Frankenstein</em>, <em>The Vampyre</em>, and the Spir…",
+      "date_published": "2026-10-20T00:00:00Z",
+      "tags": [
+        "Arts & Culture",
+        "Language & Literature",
+        "Halloween",
+        "horror",
+        "liberal arts",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    }
+  ]
+}

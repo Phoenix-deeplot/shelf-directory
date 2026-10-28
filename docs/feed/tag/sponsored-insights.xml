@@ -4,8 +4,21 @@
   <title>公共目录 · #Sponsored Insights</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/sponsored-insights.xml"/>
-  <updated>2026-10-26T00:00:00Z</updated>
+  <updated>2026-10-27T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/why-logistics-ai-still-needs-experts-in-the-loop</id>
+    <title>Why Logistics AI Still Needs “Experts in the Loop”</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/why-logistics-ai-still-needs-experts-in-the-loop"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">As AI tools multiply across freight and logistics, the important question is how much control to hand over, and to what. On the latest Lean Quarterly Dive, host…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="News"/>
+    <category term="Sponsored Insights"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/completing-the-capacity-stack</id>
     <title>Completing the Capacity Stack</title>
@@ -22,22 +35,5 @@
     <category term="brokers"/>
     <category term="Capacity"/>
     <category term="capacity radar"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/safety-should-be-provable-not-just-compliant</id>
-    <title>Safety Should Be Provable, Not Just Compliant</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/safety-should-be-provable-not-just-compliant"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">A unanimous Supreme Court ruling means freight brokers can face state liability claims for their selection of carriers. For carriers, that shift turns a documen…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Business"/>
-    <category term="Events"/>
-    <category term="Media"/>
-    <category term="News"/>
-    <category term="Sponsored Insights"/>
-    <category term="Technology"/>
-    <category term="FAAAA"/>
-    <category term="FMCSA"/>
   </entry>
 </feed>

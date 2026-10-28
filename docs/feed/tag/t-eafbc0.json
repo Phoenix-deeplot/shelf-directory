@@ -9,6 +9,29 @@
   },
   "items": [
     {
+      "id": "https://www.openculture.com/2026/10/how-balzacs-extreme-coffee-habit-fueled-his-productive-writing-routine.html",
+      "url": "https://www.openculture.com/2026/10/how-balzacs-extreme-coffee-habit-fueled-his-productive-writing-routine.html",
+      "title": "How Balzac’s Extreme Coffee Habit Fueled His Productive Writing Routine",
+      "content_text": "Even now, in this age when the very reading of literature is endangered — or so the articles tell us — Honoré de Balzac (1799–1850) retains a notable ability to…",
+      "summary": "Even now, in this age when the very reading of literature is endangered — or so the articles tell us — Honoré de Balzac (1799–1850) retains a notable ability to…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "History",
+        "Literature",
+        "文化",
+        "免费资源"
+      ],
+      "authors": [
+        {
+          "name": "Open Culture"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "openculture-com"
+      }
+    },
+    {
       "id": "https://www.openculture.com/2026/10/a-soviet-animation-of-stephen-kings-short-story-battleground.html",
       "url": "https://www.openculture.com/2026/10/a-soviet-animation-of-stephen-kings-short-story-battleground.html",
       "title": "A Soviet Animation of Stephen King’s Short Story “Battleground” (1986)",
@@ -293,28 +316,6 @@
       "tags": [
         "Art",
         "History",
-        "文化",
-        "免费资源"
-      ],
-      "authors": [
-        {
-          "name": "Open Culture"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "openculture-com"
-      }
-    },
-    {
-      "id": "https://www.openculture.com/2026/10/a-surreal-japanese-animation-set-in-the-world-of-hieronymus-boschs-the-garden-of-earthly-delights.html",
-      "url": "https://www.openculture.com/2026/10/a-surreal-japanese-animation-set-in-the-world-of-hieronymus-boschs-the-garden-of-earthly-delights.html",
-      "title": "Watch “The Midnight Parasites,” a Surreal Japanese Animation Set in the World of Hieronymus Bosch’s The Garden of Earthly Delights (1972)",
-      "content_text": "Hieronymus Bosch’s bizarre paintings might have looked perfectly ordinary to his contemporaries, argues Stanley Meisler in “The World of Bosch.” Modern viewers…",
-      "summary": "Hieronymus Bosch’s bizarre paintings might have looked perfectly ordinary to his contemporaries, argues Stanley Meisler in “The World of Bosch.” Modern viewers…",
-      "date_published": "2026-10-15T00:00:00Z",
-      "tags": [
-        "Animation",
         "文化",
         "免费资源"
       ],

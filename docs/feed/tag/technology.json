@@ -9,6 +9,194 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/wex-euclid-ai-target-90-reduction-in-trucking-transaction-costs",
+      "url": "https://www.freightwaves.com/news/wex-euclid-ai-target-90-reduction-in-trucking-transaction-costs",
+      "title": "WEX, Euclid AI target 90% reduction in trucking transaction costs",
+      "content_text": "WEX and Euclid AI announced plans to offer trucking-specific AI agents that Euclid says have sharply reduced transaction costs in existing deployments. The post…",
+      "summary": "WEX and Euclid AI announced plans to offer trucking-specific AI agents that Euclid says have sharply reduced transaction costs in existing deployments. The post…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "News",
+        "Technology",
+        "Trucking",
+        "AI agents",
+        "WEX",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/spartan-carrier-alvys-foundry-ai-agents",
+      "url": "https://www.freightwaves.com/news/spartan-carrier-alvys-foundry-ai-agents",
+      "title": "Spartan’s operators went from AI skeptics to agent builders",
+      "content_text": "Spartan Carrier Group built its first AI agent for hourly customer reports in a week and a half. Its VP of operations, who calls himself no coder, wants dispatc…",
+      "summary": "Spartan Carrier Group built its first AI agent for hourly customer reports in a week and a half. Its VP of operations, who calls himself no coder, wants dispatc…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "News",
+        "Technology",
+        "Top Stories",
+        "Trucking",
+        "AI agents",
+        "AI agents trucking",
+        "Alvys",
+        "Alvys Foundry"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/miami-airport-to-deploy-shared-logistics-platform-for-cargo-community",
+      "url": "https://www.freightwaves.com/news/miami-airport-to-deploy-shared-logistics-platform-for-cargo-community",
+      "title": "Miami airport to deploy shared logistics platform for cargo community",
+      "content_text": "Miami airport is partnering with Kalé to develop a central data exchange portal for the cargo stakeholders. The post Miami airport to deploy shared logistics pl…",
+      "summary": "Miami airport is partnering with Kalé to develop a central data exchange portal for the cargo stakeholders. The post Miami airport to deploy shared logistics pl…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "Air Cargo",
+        "American Shipper",
+        "News",
+        "Technology",
+        "data exchange",
+        "digital supply chain",
+        "miami international airport",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/knight-swift-ceo-says-cdl-crackdown-could-fuel-lasting-trucking-recovery",
+      "url": "https://www.freightwaves.com/news/knight-swift-ceo-says-cdl-crackdown-could-fuel-lasting-trucking-recovery",
+      "title": "Knight-Swift CEO says CDL crackdown could fuel lasting trucking recovery",
+      "content_text": "Knight-Swift CEO Adam Miller said more restrictive broker-carrier relationships could reshape competition in trucking by favoring established fleets with strong…",
+      "summary": "Knight-Swift CEO Adam Miller said more restrictive broker-carrier relationships could reshape competition in trucking by favoring established fleets with strong…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "News",
+        "Technology",
+        "Trucking",
+        "Adam Miller",
+        "Fuel card company",
+        "Knight Swift",
+        "over the road trucking",
+        "WEX"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/double-nickel-launches-ai-agent-to-automate-driver-employment-checks",
+      "url": "https://www.freightwaves.com/news/double-nickel-launches-ai-agent-to-automate-driver-employment-checks",
+      "title": "Double Nickel launches AI agent to automate driver employment checks",
+      "content_text": "Double Nickel has launched an artificial intelligence agent to automate employment verifications for trucking companies, targeting a time-consuming part of driv…",
+      "summary": "Double Nickel has launched an artificial intelligence agent to automate employment verifications for trucking companies, targeting a time-consuming part of driv…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "News",
+        "Technology",
+        "AI",
+        "Double Nickel",
+        "FreightWaves",
+        "logistics",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/band24-seeks-early-testers-for-satellite-connected-asset-tracker-ahead-of-nov-13-deadline",
+      "url": "https://www.freightwaves.com/news/band24-seeks-early-testers-for-satellite-connected-asset-tracker-ahead-of-nov-13-deadline",
+      "title": "Band24 seeks early testers for satellite-connected asset tracker ahead of Nov. 13 deadline",
+      "content_text": "Asset-tracking company Band24 is seeking businesses to test Terra, a new tracker combining Bluetooth, cellular and satellite connectivity, ahead of a Nov. 13 de…",
+      "summary": "Asset-tracking company Band24 is seeking businesses to test Terra, a new tracker combining Bluetooth, cellular and satellite connectivity, ahead of a Nov. 13 de…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "News",
+        "Technology",
+        "Band24",
+        "Freight",
+        "FreightWaves",
+        "logistics",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/2027-freighttech-25-winners-announced-at-f3",
+      "url": "https://www.freightwaves.com/news/2027-freighttech-25-winners-announced-at-f3",
+      "title": "2027 FreightTech 25 winners announced at F3",
+      "content_text": "Highway takes top spot in FreightWaves’ 2027 FreightTech 25 for the third consecutive year as freight fraud prevention, AI automation and autonomous trucking em…",
+      "summary": "Highway takes top spot in FreightWaves’ 2027 FreightTech 25 for the third consecutive year as freight fraud prevention, AI automation and autonomous trucking em…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "tags": [
+        "Awards",
+        "FreightTech Award",
+        "News",
+        "Technology",
+        "Top Stories",
+        "FreightTech 100",
+        "FreightTech awards",
+        "FreightWaves"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/completing-the-capacity-stack",
       "url": "https://www.freightwaves.com/news/completing-the-capacity-stack",
       "title": "Completing the Capacity Stack",
@@ -51,114 +239,6 @@
         "AI agents",
         "AI pilots",
         "ASCM"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/safety-should-be-provable-not-just-compliant",
-      "url": "https://www.freightwaves.com/news/safety-should-be-provable-not-just-compliant",
-      "title": "Safety Should Be Provable, Not Just Compliant",
-      "content_text": "A unanimous Supreme Court ruling means freight brokers can face state liability claims for their selection of carriers. For carriers, that shift turns a documen…",
-      "summary": "A unanimous Supreme Court ruling means freight brokers can face state liability claims for their selection of carriers. For carriers, that shift turns a documen…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Business",
-        "Events",
-        "Media",
-        "News",
-        "Sponsored Insights",
-        "Technology",
-        "FAAAA",
-        "FMCSA"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/motive-launches-ai-agents-fleets",
-      "url": "https://www.freightwaves.com/news/motive-launches-ai-agents-fleets",
-      "title": "Motive launches AI Agents as fleets weigh how to prevent problems",
-      "content_text": "Motive, an AI platform for physical operations, launched Agents on Monday at the American Trucking Associations’ Management Conference & Exhibition (MCE) in Cha…",
-      "summary": "Motive, an AI platform for physical operations, launched Agents on Monday at the American Trucking Associations’ Management Conference & Exhibition (MCE) in Cha…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "News",
-        "Technology",
-        "Top Stories",
-        "Trucking",
-        "AI Dashcam Plus",
-        "ATA MCE",
-        "ATA MCE 2026",
-        "Atlas AI assistant"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/f3-preview-ai-autonomous-trucking-and-freight-technology-take-center-stage",
-      "url": "https://www.freightwaves.com/news/f3-preview-ai-autonomous-trucking-and-freight-technology-take-center-stage",
-      "title": "F3 preview: AI, autonomous trucking and freight technology take center stage",
-      "content_text": "FreightWaves’ F3: Future of Freight Festival returns to Chattanooga next week, with sessions on AI adoption, autonomous trucking and the technologies reshaping…",
-      "summary": "FreightWaves’ F3: Future of Freight Festival returns to Chattanooga next week, with sessions on AI adoption, autonomous trucking and the technologies reshaping…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Awards",
-        "F3: Future of Freight Festival",
-        "FreightTech Award",
-        "AI",
-        "autonomous trucking",
-        "FreightWaves",
-        "logistics",
-        "Technology"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/einride-nvidia-alpamayo-autonomous-trucks",
-      "url": "https://www.freightwaves.com/news/einride-nvidia-alpamayo-autonomous-trucks",
-      "title": "Einride’s autonomous trucks to learn from Nvidia’s Alpamayo",
-      "content_text": "A month after agreeing to build its next Einride Driver on Nvidia Hyperion, Einride said it will adapt Alpamayo to its trucks, routes and data, with a road eval…",
-      "summary": "A month after agreeing to build its next Einride Driver on Nvidia Hyperion, Einride said it will adapt Alpamayo to its trucks, routes and data, with a road eval…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Autonomous Vehicles",
-        "Business",
-        "News",
-        "Technology",
-        "Alpamayo",
-        "Alpamayo 2 Super",
-        "autonomous trucking",
-        "driverless trucks"
       ],
       "authors": [
         {

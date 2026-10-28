@@ -9,85 +9,64 @@
   },
   "items": [
     {
-      "id": "https://slate.com/news-and-politics/2026/10/2026-midterms-news-ice-ballot.html?via=rss",
-      "url": "https://slate.com/news-and-politics/2026/10/2026-midterms-news-ice-ballot.html?via=rss",
-      "title": "These Midterms, ICE Is Truly on the Ballot",
-      "content_text": "My research is the proof.",
-      "summary": "My research is the proof.",
-      "date_published": "2026-10-26T00:00:00Z",
-      "image": "https://compote.slate.com/images/d024ca19-3b3f-4941-832e-428cf2a3ac06.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "id": "https://www.wired.com/story/the-big-interview-podcast-jess-asato/",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-jess-asato/",
+      "title": "UK Politician Jess Asato Got Deepfaked. Now She’s Taking xAI to Court",
+      "content_text": "Jess Asato’s public campaigning for victims of online abuse put her in the crosshairs of Grok’s deepfake scandal. Then the UK member of parliament became a vict…",
+      "summary": "Jess Asato’s public campaigning for victims of online abuse put her in the crosshairs of Grok’s deepfake scandal. Then the UK member of parliament became a vict…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae0a01a6cfc0bdcb738ab7a/master/pass/Big-Interview-UV-Solo-Illo-1027.jpg",
       "tags": [
-        "Immigration",
-        "Jurisprudence",
+        "The Big Story",
         "Politics",
-        "2026 Midterms",
-        "评论",
-        "文化"
+        "Security",
+        "The Big Interview",
+        "科技",
+        "社会"
       ],
       "authors": [
         {
-          "name": "Slate Magazine"
+          "name": "WIRED"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "slate-com"
+        "shelf": "wired-com"
       }
     },
     {
-      "id": "https://www.reddit.com/r/politics/comments/1xgbnou/former_miss_switzerland_accuses_donald_trump_of/",
-      "url": "https://www.reddit.com/r/politics/comments/1xgbnou/former_miss_switzerland_accuses_donald_trump_of/",
-      "title": "Former Miss Switzerland accuses Donald Trump of rape",
-      "content_text": "submitted by /u/plz-let-me-in to r/politics [link] [comments]",
-      "summary": "submitted by /u/plz-let-me-in to r/politics [link] [comments]",
-      "date_published": "2026-10-26T00:00:00Z",
-      "image": "https://external-preview.redd.it/LkK6iog1djuxPnmU0NpVAHlVvqBsDsiv0FvEh5mbNv4.jpeg?width=640&crop=smart&auto=webp&s=2a1136ea718f271e1a478c7bf26db022c4b2a148",
+      "id": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
+      "url": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
+      "title": "UK Home Office May Face Investigation Over Use of OpenAI Tech",
+      "content_text": "A government watchdog is considering a probe into the Home Office’s use of ChatGPT technology to process asylum claims amid concerns over the tools’ accuracy an…",
+      "summary": "A government watchdog is considering a probe into the Home Office’s use of ChatGPT technology to process asylum claims amid concerns over the tools’ accuracy an…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ada70c6eb086323489423af/master/pass/GettyImages-2275955534.jpg",
       "tags": [
-        "politics",
-        "社区",
-        "热榜"
+        "Politics",
+        "Politics / Policy",
+        "Prompt Action",
+        "科技",
+        "社会"
       ],
       "authors": [
         {
-          "name": "top scoring links : popular"
+          "name": "WIRED"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "reddit-com"
+        "shelf": "wired-com"
       }
     },
     {
-      "id": "https://www.reddit.com/r/politics/comments/1xfz3qo/democrats_release_50page_report_on_trumps_epstein/",
-      "url": "https://www.reddit.com/r/politics/comments/1xfz3qo/democrats_release_50page_report_on_trumps_epstein/",
-      "title": "Democrats Release 50-Page Report on Trump’s Epstein Files Cover-Up | The report alleges Donald Trump was an “active participant” in Jeffrey…",
-      "content_text": "submitted by /u/Aggravating_Money992 to r/politics [link] [comments]",
-      "summary": "submitted by /u/Aggravating_Money992 to r/politics [link] [comments]",
-      "date_published": "2026-10-26T00:00:00Z",
-      "image": "https://external-preview.redd.it/iI48W8ObUjvDX7ckNgSodUEs1Q-1bc5yxN2TZkDb0GQ.jpeg?width=640&crop=smart&auto=webp&s=63389ee28936d8235c2a3b9bbdd05ea783e36669",
-      "tags": [
-        "politics",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/elon-musk-just-dumped-another-dollar76-million-into-the-midterms/",
-      "url": "https://www.wired.com/story/elon-musk-just-dumped-another-dollar76-million-into-the-midterms/",
-      "title": "Elon Musk Just Dumped Another $76 Million Into the Midterms",
-      "content_text": "The trillionaire has given more than $445 million to Republican political groups this election cycle, as Democrats vow to investigate him.",
-      "summary": "The trillionaire has given more than $445 million to Republican political groups this election cycle, as Democrats vow to investigate him.",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adb5fd2c971dd84b8dc4ea5/master/pass/GettyImages-2246892016.jpg",
+      "id": "https://www.wired.com/story/massive-groups-of-volunteers-are-ready-to-face-down-ice-at-the-polls/",
+      "url": "https://www.wired.com/story/massive-groups-of-volunteers-are-ready-to-face-down-ice-at-the-polls/",
+      "title": "Massive Groups of Volunteers Are Ready to Face Down ICE at the Polls",
+      "content_text": "From heat maps to Signal chats to war rooms, volunteers across the US are ready to act if federal immigration agents show up on Election Day.",
+      "summary": "From heat maps to Signal chats to war rooms, volunteers across the US are ready to act if federal immigration agents show up on Election Day.",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adf98357bc34babe586eb7f/master/pass/GettyImages-2300207719.jpg",
       "tags": [
         "Politics",
         "Midterms 2026",
@@ -102,6 +81,56 @@
       "_shelf": {
         "type": "article",
         "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-record-of-him-working-there/",
+      "url": "https://www.wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-record-of-him-working-there/",
+      "title": "A 28-Year-Old DOGE Operative Gutted USAID. HR Had No Record of Him Working There",
+      "content_text": "Despite the agency's human resources department saying he hadn’t even been onboarded, Jeremy Lewin oversaw the destruction of USAID. It’s not clear he had the l…",
+      "summary": "Despite the agency's human resources department saying he hadn’t even been onboarded, Jeremy Lewin oversaw the destruction of USAID. It’s not clear he had the l…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://media.wired.com/photos/6acf8c83ca8681083870745e/master/pass/GettyImages-2253183585.jpg",
+      "tags": [
+        "Politics",
+        "Politics / Politics News",
+        "Takeover",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://slate.com/podcasts/slate-money/2026/10/artificial-intelligence-destroy-alarmist-tech-politics-policy?via=rss",
+      "url": "https://slate.com/podcasts/slate-money/2026/10/artificial-intelligence-destroy-alarmist-tech-politics-policy?via=rss",
+      "title": "Money Talks: The Real Threats of Artificial Intelligence",
+      "content_text": "What’s alarmist and what’s real about artificial intelligence. Plus, how lawmakers are dealing with a situation they don't really understand.",
+      "summary": "What’s alarmist and what’s real about artificial intelligence. Plus, how lawmakers are dealing with a situation they don't really understand.",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://compote.slate.com/images/0ad4cce0-1643-405e-b092-a65cc2f24b9e.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Artificial Intelligence",
+        "Economics",
+        "Politics",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
       }
     }
   ]

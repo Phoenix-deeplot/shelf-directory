@@ -9,12 +9,57 @@
   },
   "items": [
     {
-      "id": "https://y.qq.com/n/ryqq/songDetail/003x5xTj20cLPX",
-      "url": "https://y.qq.com/n/ryqq/songDetail/003x5xTj20cLPX",
-      "title": "茉莉雨 — 林俊杰",
-      "content_text": "第 4 名 · 新地球",
-      "summary": "第 4 名 · 新地球",
-      "date_published": "2026-10-27T00:00:00Z",
+      "id": "https://y.qq.com/n/ryqq/songDetail/002GnkGs2TknvY",
+      "url": "https://y.qq.com/n/ryqq/songDetail/002GnkGs2TknvY",
+      "title": "过渡期 — 小宇-宋念宇",
+      "content_text": "第 7 名 · 再一次",
+      "summary": "第 7 名 · 再一次",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001Uw5qE3Wjlo6.jpg",
+      "tags": [
+        "音乐",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "QQ 音乐飙升榜"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-qqmusic"
+      }
+    },
+    {
+      "id": "https://y.qq.com/n/ryqq/songDetail/001Qu4I30eVFYb",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001Qu4I30eVFYb",
+      "title": "演员 — 薛之谦",
+      "content_text": "第 9 名 · 绅士",
+      "summary": "第 9 名 · 绅士",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003y8dsH2wBHlo.jpg",
+      "tags": [
+        "音乐",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "QQ 音乐飙升榜"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-qqmusic"
+      }
+    },
+    {
+      "id": "https://y.qq.com/n/ryqq/songDetail/001xGpjd3A5hQI",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001xGpjd3A5hQI",
+      "title": "昨天．今天．下雨天 — 彭家丽",
+      "content_text": "第 6 名 · 新曲 + 精选",
+      "summary": "第 6 名 · 新曲 + 精选",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000xayuR3542iF.jpg",
       "tags": [
         "音乐",
         "热榜"
@@ -35,7 +80,8 @@
       "title": "我好像在哪见过你 — 薛之谦",
       "content_text": "第 1 名 · 初学者",
       "summary": "第 1 名 · 初学者",
-      "date_published": "2026-10-27T00:00:00Z",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000dcZ9I1nzO62.jpg",
       "tags": [
         "音乐",
         "热榜"
@@ -54,9 +100,54 @@
       "id": "https://y.qq.com/n/ryqq/songDetail/001SFw584CAgoJ",
       "url": "https://y.qq.com/n/ryqq/songDetail/001SFw584CAgoJ",
       "title": "季候风 — 王菲",
-      "content_text": "第 2 名 · 执迷不悔",
-      "summary": "第 2 名 · 执迷不悔",
-      "date_published": "2026-10-27T00:00:00Z",
+      "content_text": "第 3 名 · 执迷不悔",
+      "summary": "第 3 名 · 执迷不悔",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002Oen8n3cKClG.jpg",
+      "tags": [
+        "音乐",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "QQ 音乐飙升榜"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-qqmusic"
+      }
+    },
+    {
+      "id": "https://y.qq.com/n/ryqq/songDetail/0013WPvt4fQH2b",
+      "url": "https://y.qq.com/n/ryqq/songDetail/0013WPvt4fQH2b",
+      "title": "天外来物 — 薛之谦",
+      "content_text": "第 8 名 · 天外来物",
+      "summary": "第 8 名 · 天外来物",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000K9Zp13TZp5s.jpg",
+      "tags": [
+        "音乐",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "QQ 音乐飙升榜"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-qqmusic"
+      }
+    },
+    {
+      "id": "https://y.qq.com/n/ryqq/songDetail/002Ttx6F4gRl1p",
+      "url": "https://y.qq.com/n/ryqq/songDetail/002Ttx6F4gRl1p",
+      "title": "多久没有谈天光 — 杨千嬅",
+      "content_text": "第 2 名 · 多久没有谈天光",
+      "summary": "第 2 名 · 多久没有谈天光",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001c9fzV3hnfb1.jpg",
       "tags": [
         "音乐",
         "热榜"
@@ -75,9 +166,10 @@
       "id": "https://y.qq.com/n/ryqq/songDetail/001TXSYu1Gwuwv",
       "url": "https://y.qq.com/n/ryqq/songDetail/001TXSYu1Gwuwv",
       "title": "刚刚好 — 薛之谦",
-      "content_text": "第 6 名 · 初学者",
-      "summary": "第 6 名 · 初学者",
-      "date_published": "2026-10-27T00:00:00Z",
+      "content_text": "第 10 名 · 初学者",
+      "summary": "第 10 名 · 初学者",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000dcZ9I1nzO62.jpg",
       "tags": [
         "音乐",
         "热榜"
@@ -93,12 +185,13 @@
       }
     },
     {
-      "id": "https://y.qq.com/n/ryqq/songDetail/001uxKNp3a7Qkv",
-      "url": "https://y.qq.com/n/ryqq/songDetail/001uxKNp3a7Qkv",
-      "title": "像风一样 — 薛之谦",
-      "content_text": "第 9 名 · 渡 The Crossing",
-      "summary": "第 9 名 · 渡 The Crossing",
-      "date_published": "2026-10-27T00:00:00Z",
+      "id": "https://y.qq.com/n/ryqq/songDetail/0048K7jO2EzUjO",
+      "url": "https://y.qq.com/n/ryqq/songDetail/0048K7jO2EzUjO",
+      "title": "I Don't Car! — 蒋敦豪",
+      "content_text": "第 5 名 · 那就充分扎实地逐个拥抱 (Bug and hug)",
+      "summary": "第 5 名 · 那就充分扎实地逐个拥抱 (Bug and hug)",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003mc32Z3FRTxC.jpg",
       "tags": [
         "音乐",
         "热榜"
@@ -114,96 +207,13 @@
       }
     },
     {
-      "id": "https://y.qq.com/n/ryqq/songDetail/004GusH53fGeg2",
-      "url": "https://y.qq.com/n/ryqq/songDetail/004GusH53fGeg2",
-      "title": "You're Under Arrest — ILLIT",
-      "content_text": "第 3 名 · BREAK EVEN",
-      "summary": "第 3 名 · BREAK EVEN",
-      "date_published": "2026-10-27T00:00:00Z",
-      "tags": [
-        "音乐",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "QQ 音乐飙升榜"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "hot-qqmusic"
-      }
-    },
-    {
-      "id": "https://y.qq.com/n/ryqq/songDetail/003Ru8AV0SOYvw",
-      "url": "https://y.qq.com/n/ryqq/songDetail/003Ru8AV0SOYvw",
-      "title": "Super in Love — ILLIT",
-      "content_text": "第 8 名 · BREAK EVEN",
-      "summary": "第 8 名 · BREAK EVEN",
-      "date_published": "2026-10-27T00:00:00Z",
-      "tags": [
-        "音乐",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "QQ 音乐飙升榜"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "hot-qqmusic"
-      }
-    },
-    {
-      "id": "https://y.qq.com/n/ryqq/songDetail/002w2uLf21Gk3y",
-      "url": "https://y.qq.com/n/ryqq/songDetail/002w2uLf21Gk3y",
-      "title": "Pop — ILLIT",
-      "content_text": "第 5 名 · BREAK EVEN",
-      "summary": "第 5 名 · BREAK EVEN",
-      "date_published": "2026-10-27T00:00:00Z",
-      "tags": [
-        "音乐",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "QQ 音乐飙升榜"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "hot-qqmusic"
-      }
-    },
-    {
-      "id": "https://y.qq.com/n/ryqq/songDetail/001dxbD32WNtak",
-      "url": "https://y.qq.com/n/ryqq/songDetail/001dxbD32WNtak",
-      "title": "Insomnia — RIIZE",
-      "content_text": "第 7 名 · Insomnia",
-      "summary": "第 7 名 · Insomnia",
-      "date_published": "2026-10-27T00:00:00Z",
-      "tags": [
-        "音乐",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "QQ 音乐飙升榜"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "hot-qqmusic"
-      }
-    },
-    {
-      "id": "https://y.qq.com/n/ryqq/songDetail/004AGG7n1wA771",
-      "url": "https://y.qq.com/n/ryqq/songDetail/004AGG7n1wA771",
-      "title": "Hey, Somebody — 肖俊",
-      "content_text": "第 10 名 · Hey, Somebody - The 1st Mini Album",
-      "summary": "第 10 名 · Hey, Somebody - The 1st Mini Album",
-      "date_published": "2026-10-27T00:00:00Z",
+      "id": "https://y.qq.com/n/ryqq/songDetail/004V76mS2aPv63",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004V76mS2aPv63",
+      "title": "Gotcha — 鹭卓",
+      "content_text": "第 4 名 · ALL IN ALL",
+      "summary": "第 4 名 · ALL IN ALL",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001SAuEX2jsQ4o.jpg",
       "tags": [
         "音乐",
         "热榜"
@@ -221,10 +231,11 @@
     {
       "id": "https://music.163.com/",
       "url": "https://music.163.com/",
-      "title": "季候风 — 王菲",
-      "content_text": "第 1 名 · 执迷不悔 (Remastered 2019)",
-      "summary": "第 1 名 · 执迷不悔 (Remastered 2019)",
-      "date_published": "2026-10-27T00:00:00Z",
+      "title": "宝船 — DOUDOU / 燕云十六声",
+      "content_text": "第 1 名 · 宝船",
+      "summary": "第 1 名 · 宝船",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://p2.music.126.net/pdpmj0csBR_nUM7c2xr6pA==/109951174135616642.jpg",
       "tags": [
         "音乐",
         "热榜"

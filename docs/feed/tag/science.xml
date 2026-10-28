@@ -4,37 +4,49 @@
   <title>公共目录 · #Science</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/science.xml"/>
-  <updated>2026-10-26T00:00:00Z</updated>
+  <updated>2026-10-27T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-billy-evans-theranos.html?via=rss</id>
-    <title>Elizabeth Holmes Is a Fraudster. It’s Astonishing What &lt;em&gt;You Can See Everything &lt;/em&gt;Makes of Her.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-billy-evans-theranos.html?via=rss"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Elizabeth Holmes is now, by some, considered a victim, even if it’s not what Nathan Fielder intended.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Crime"/>
-    <category term="Feminism"/>
-    <category term="Fraud"/>
-    <category term="Medicine"/>
-    <category term="Movies"/>
+    <id>https://www.wired.com/story/how-nasa-oldest-martian-spacecraft-run-for-decades/</id>
+    <title>NASA’s Oldest Martian Spacecraft Have Been Running for Decades. Here’s How</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/how-nasa-oldest-martian-spacecraft-run-for-decades/"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Two orbiters have long outlasted their expected lifespans and completely reshaped our understanding of the Red Planet, all while operating 140 million miles fro…</summary>
+    <source><title>WIRED</title></source>
     <category term="Science"/>
-    <category term="Silicon Valley"/>
-    <category term="Documentaries"/>
+    <category term="Science / Space"/>
+    <category term="Staying Alive"/>
+    <category term="科技"/>
+    <category term="社会"/>
   </entry>
   <entry>
-    <id>https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/</id>
-    <title>What the US Movement Against Data Centers Can Learn From Abroad</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">Paris Marx, author of Hyperscale, has been tracking global data center development for years. The US has a lot to learn from what’s happened everywhere from Ire…</summary>
+    <id>https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/</id>
+    <title>Anthropic Says It Will Revolutionize Biology—Some Day</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">In breathless press releases and posts, the company has touted its models’ ability to deliver scientific breakthroughs. But its IPO filing taps the brakes on ju…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Science"/>
+    <category term="Science / Biotech"/>
+    <category term="Business"/>
+    <category term="Learning Curve"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/anthropic-ipo-identifies-gas-supply-as-big-near-term-risks/</id>
+    <title>Anthropic Flags Gas Supply as One of Its Biggest Near-Term Risks</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/anthropic-ipo-identifies-gas-supply-as-big-near-term-risks/"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">The data center buildout could cause a massive increase in gas prices as companies scramble for limited supplies and infrastructure fails to meet demand.</summary>
     <source><title>WIRED</title></source>
     <category term="Science"/>
     <category term="Science / Environment"/>
     <category term="Business"/>
-    <category term="Power Play"/>
+    <category term="P(Doom)"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>
@@ -63,34 +75,6 @@
     <category term="Science"/>
     <category term="Science / Environment"/>
     <category term="Slippery When Wet"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/</id>
-    <title>New mRNA Vaccine Reduces Risk of Melanoma Recurrence by Over 40 Percent</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">The vaccine is personalized to a patient’s tumor, and results from the Phase 3 trial are yet another example of the promise of mRNA vaccines in treating cancer.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Health"/>
-    <category term="A Win for Skin"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/inside-the-supermassive-debate-over-the-james-webb-telescopes-little-red-dots/</id>
-    <title>Inside the Supermassive Debate Over the James Webb Telescope’s ‘Little Red Dots’</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/inside-the-supermassive-debate-over-the-james-webb-telescopes-little-red-dots/"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">The Webb telescope sees tiny red dots everywhere. Astronomers can’t agree on what they are, but some believe they may be enormous stars with black holes inside.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Space"/>
-    <category term="Nerd Fight"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>

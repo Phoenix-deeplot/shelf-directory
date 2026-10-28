@@ -763,7 +763,7 @@
  },
  "fails": 0,
  "kind": "feed",
- "parser": 2,
+ "parser": 3,
  "status": "ok",
  "error": "",
  "etag": "\"3dd15207c250c85c5b6f25a767ac6144\"",

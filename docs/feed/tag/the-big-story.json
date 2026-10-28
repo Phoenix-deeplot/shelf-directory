@@ -9,6 +9,57 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/story/the-big-interview-podcast-jess-asato/",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-jess-asato/",
+      "title": "UK Politician Jess Asato Got Deepfaked. Now She’s Taking xAI to Court",
+      "content_text": "Jess Asato’s public campaigning for victims of online abuse put her in the crosshairs of Grok’s deepfake scandal. Then the UK member of parliament became a vict…",
+      "summary": "Jess Asato’s public campaigning for victims of online abuse put her in the crosshairs of Grok’s deepfake scandal. Then the UK member of parliament became a vict…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae0a01a6cfc0bdcb738ab7a/master/pass/Big-Interview-UV-Solo-Illo-1027.jpg",
+      "tags": [
+        "The Big Story",
+        "Politics",
+        "Security",
+        "The Big Interview",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/the-rise-of-sovereign-babies/",
+      "url": "https://www.wired.com/story/the-rise-of-sovereign-babies/",
+      "title": "How to Hide Your Baby From the Government",
+      "content_text": "“Sovereign citizens” think they can live beyond the reach of the state. Now the movement has influencers—and they’re selling all sorts of anarchist courses to e…",
+      "summary": "“Sovereign citizens” think they can live beyond the reach of the state. Now the movement has influencers—and they’re selling all sorts of anarchist courses to e…",
+      "date_published": "2026-10-27T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adf82fd71d0e77d563766d7/master/pass/WIRED-Ghost-Stories-sovereign-babies.jpg",
+      "tags": [
+        "The Big Story",
+        "Culture / Digital Culture",
+        "Ghost Babies",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/ghost-stories/",
       "url": "https://www.wired.com/ghost-stories/",
       "title": "WIRED Ghost Stories",

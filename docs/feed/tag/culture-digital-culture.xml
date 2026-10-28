@@ -4,8 +4,22 @@
   <title>公共目录 · #Culture / Digital Culture</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/culture-digital-culture.xml"/>
-  <updated>2026-10-26T00:00:00Z</updated>
+  <updated>2026-10-27T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.wired.com/story/the-rise-of-sovereign-babies/</id>
+    <title>How to Hide Your Baby From the Government</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-rise-of-sovereign-babies/"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">“Sovereign citizens” think they can live beyond the reach of the state. Now the movement has influencers—and they’re selling all sorts of anarchist courses to e…</summary>
+    <source><title>WIRED</title></source>
+    <category term="The Big Story"/>
+    <category term="Culture / Digital Culture"/>
+    <category term="Ghost Babies"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
   <entry>
     <id>https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/</id>
     <title>This AI Radio Host Speaks Spanish and Backs Immigrants. It’s Winning Over Listeners</title>
@@ -63,20 +77,6 @@
     <category term="Culture / Digital Culture"/>
     <category term="Culture / Movies"/>
     <category term="Epic Fail"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/a-dating-app-is-offering-chivalry-mode-and-marriage-timeline-to-get-gen-z-married/</id>
-    <title>A Dating App Is Offering ‘Chivalry Mode’ and ‘Marriage Timeline’ to Get Gen Z Married</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/a-dating-app-is-offering-chivalry-mode-and-marriage-timeline-to-get-gen-z-married/"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">Upward, a newly relaunched Christian app, is pitching trad values to a generation that barely even dates.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Culture"/>
-    <category term="Culture / Digital Culture"/>
-    <category term="Old School"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>
