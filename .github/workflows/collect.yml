@@ -1,0 +1,64 @@
+name: Collect subscription
+# Started only by the password-protected operations page. It validates and
+# reads one public RSS/Atom URL, then commits the generated public directory.
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: 'Public HTTPS RSS / Atom URL'
+        required: true
+        type: string
+      status:
+        description: 'fixed | dynamic | trial | paused'
+        required: true
+        default: trial
+        type: choice
+        options: [fixed, dynamic, trial, paused]
+      rights:
+        description: 'official-link | licensed | unknown'
+        required: true
+        default: unknown
+        type: choice
+        options: [official-link, licensed, unknown]
+      topics:
+        description: 'Topic ids, comma separated'
+        required: false
+        default: ''
+        type: string
+      platform:
+        description: 'Platform id, optional'
+        required: false
+        default: ''
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: registry
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate, collect and build
+        env:
+          URL: ${{ inputs.url }}
+          STATUS: ${{ inputs.status }}
+          RIGHTS: ${{ inputs.rights }}
+          TOPICS: ${{ inputs.topics }}
+          PLATFORM: ${{ inputs.platform }}
+        run: |
+          python aggregate.py approve "$URL" --status="$STATUS" --rights="$RIGHTS" --topics="$TOPICS" --platform="$PLATFORM"
+      - name: Commit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A registry docs
+          if git diff --cached --quiet; then echo 'nothing changed'; else git commit -m "collect subscription" && git pull --rebase && git push; fi

@@ -5,6 +5,7 @@ The public directory remains file based.  This API only reads/writes the
 rewriting the registry or exposing a database credential to the browser.
 """
 import datetime as dt
+import hashlib
 import json
 import re
 import time
@@ -28,6 +29,9 @@ SLUG = re.compile(r"^[a-z0-9][a-z0-9-]{0,79}$")
 MODULES = {"featured", "selected", "personalized", "trending", "latest"}
 STATUSES = {"fixed", "dynamic", "trial", "paused"}
 COVER_ENGINES = {"canvas", "css", "static"}
+SUBSCRIPTION_TYPES = {"native", "rsshub", "rssapp"}
+SUBSCRIPTION_STATUSES = {"trial", "active", "paused"}
+SUBSCRIPTION_CATEGORIES = {"hot", "tech", "study", "business", "world", "audio", "books", "other"}
 REQUIRED_SCHEMA = {
     "topics": {"id", "slug", "name_zh", "name_en"},
     "programs": {"id", "directory_id", "name", "kind", "homepage_url", "feed_url", "platform", "default_language", "status", "public_enabled", "recommend_enabled", "editorial_weight", "last_crawled_at", "consecutive_failures", "metadata", "updated_at"},
@@ -41,6 +45,7 @@ REQUIRED_SCHEMA = {
     "program_metrics_daily": {"program_id", "metric_date", "opens", "saves", "likes"},
     "cover_presets": {"id", "slug", "name", "render_engine", "render_config", "is_active", "updated_at"},
     "ad_placements": {"id", "slug", "name", "enabled", "page_scope", "device", "placement", "after_item", "provider", "slot", "config", "updated_at"},
+    "subscription_candidates": {"id", "slug", "name", "name_en", "description", "description_en", "homepage_url", "feed_url", "source_type", "platform", "category", "language", "topics", "status", "recommend_enabled", "public_enabled", "created_at", "updated_at"},
 }
 
 
@@ -136,6 +141,32 @@ def _url(value, fallback):
     if value.startswith(("https://", "http://")):
         return value
     return fallback
+
+
+def _catalog_url(value, field, required=True):
+    value = str(value or "").strip()
+    if not value and not required:
+        return None
+    if not value or len(value) > 1500:
+        _reply(400, "subscription", field + "地址不正确")
+    try:
+        parsed = urllib.parse.urlsplit(value)
+        port = parsed.port
+    except ValueError:
+        _reply(400, "subscription", field + "地址不正确")
+    if parsed.scheme != "https" or not parsed.hostname or parsed.username or parsed.password or port is not None and not (1 <= port <= 65535):
+        _reply(400, "subscription", field + "必须是公开的 HTTPS 地址")
+    return value
+
+
+def _subscription_slug(payload, feed_url):
+    raw = str(payload.get("slug") or "").strip().lower()
+    if raw and SLUG.fullmatch(raw):
+        return raw
+    host = urllib.parse.urlsplit(feed_url).hostname or "source"
+    base = re.sub(r"[^a-z0-9]+", "-", host.lower()).strip("-") or "source"
+    digest = hashlib.sha256(feed_url.encode("utf-8")).hexdigest()[:8]
+    return (base[:70].rstrip("-") or "source") + "-" + digest
 
 
 def sync_directory(cur, cfg):
@@ -242,6 +273,90 @@ def get_programs(cur):
     return _rows(cur)
 
 
+def get_subscriptions(cur):
+    cur.execute("""SELECT id,slug,name,name_en,description,description_en,homepage_url,feed_url,
+                         source_type,platform,category,language,topics,status,recommend_enabled,
+                         public_enabled,created_at,updated_at
+                  FROM ops.subscription_candidates
+                  ORDER BY recommend_enabled DESC,public_enabled DESC,category,updated_at DESC""")
+    rows = _rows(cur)
+    for row in rows:
+        row["topics"] = _json(row.get("topics"), [])
+    return rows
+
+
+def discover_subscription(payload):
+    """Safely inspect a public web page or feed using the existing feed reader."""
+    raw = _catalog_url(payload.get("url"), "网址")
+    try:
+        entry, pre, warnings = agg.discover(raw)
+        result = agg.read_source(entry, None, pre)
+    except agg.Refused as exc:
+        _reply(422, "subscription_discover", str(exc))
+    if entry.get("kind") != "feed":
+        _reply(422, "subscription_discover", "没有发现可订阅的 RSS / Atom；请粘贴生成后的 feed 地址")
+    shelf = result.get("shelf") or {}
+    return {
+        "feed_url": entry.get("source") or raw,
+        "homepage_url": shelf.get("home") or raw,
+        "name": shelf.get("name") or "未命名订阅",
+        "description": shelf.get("description") or "",
+        "language": shelf.get("lang") or "",
+        "found": len(result.get("items") or []),
+        "warnings": [str(x[0]) for x in (warnings + result.get("warnings", []))[:4]],
+    }
+
+
+def _save_subscription(cur, payload):
+    feed_url = _catalog_url(payload.get("feed_url"), "订阅源")
+    homepage_url = _catalog_url(payload.get("homepage_url"), "主页", required=False) or feed_url
+    name = str(payload.get("name") or "").strip()
+    name_en = str(payload.get("name_en") or "").strip()
+    description = str(payload.get("description") or "").strip()
+    description_en = str(payload.get("description_en") or "").strip()
+    source_type = str(payload.get("source_type") or "native")
+    platform = str(payload.get("platform") or "").strip().lower()
+    category = str(payload.get("category") or "other")
+    language = str(payload.get("language") or "").strip().lower()
+    status = str(payload.get("status") or "trial")
+    topics = payload.get("topics") if isinstance(payload.get("topics"), list) else []
+    topics = [str(x).strip().lower() for x in topics if SLUG.fullmatch(str(x).strip().lower())][:8]
+    if not name or len(name) > 120 or len(name_en) > 120 or len(description) > 500 or len(description_en) > 500:
+        _reply(400, "subscription", "订阅名称或说明长度不正确")
+    if source_type not in SUBSCRIPTION_TYPES or category not in SUBSCRIPTION_CATEGORIES or status not in SUBSCRIPTION_STATUSES:
+        _reply(400, "subscription", "订阅类型、分类或状态不正确")
+    if platform and not re.fullmatch(r"[a-z0-9][a-z0-9-]{0,29}", platform):
+        _reply(400, "subscription", "平台格式不正确")
+    if language not in {"", "zh", "en", "multi"}:
+        _reply(400, "subscription", "语言只能是 zh、en 或 multi")
+    sid = str(payload.get("id") or "")
+    slug = _subscription_slug(payload, feed_url)
+    values = (slug, name, name_en or None, description or None, description_en or None, homepage_url, feed_url,
+              source_type, platform or None, category, language or None, json.dumps(topics, ensure_ascii=False), status,
+              _clean_bool(payload.get("recommend_enabled")), _clean_bool(payload.get("public_enabled")))
+    if sid:
+        if not re.fullmatch(r"[0-9a-f-]{36}", sid):
+            _reply(400, "subscription", "订阅编号不正确")
+        cur.execute("""UPDATE ops.subscription_candidates SET slug=%s,name=%s,name_en=%s,description=%s,
+                       description_en=%s,homepage_url=%s,feed_url=%s,source_type=%s,platform=%s,
+                       category=%s,language=%s,topics=%s::jsonb,status=%s,recommend_enabled=%s,
+                       public_enabled=%s,updated_at=NOW() WHERE id=%s""", values + (sid,))
+        if cur.rowcount != 1:
+            _reply(404, "subscription", "找不到这个订阅")
+        return {"id": sid, "slug": slug}
+    try:
+        cur.execute("""INSERT INTO ops.subscription_candidates
+                       (slug,name,name_en,description,description_en,homepage_url,feed_url,source_type,platform,
+                        category,language,topics,status,recommend_enabled,public_enabled)
+                       VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s::jsonb,%s,%s,%s) RETURNING id,slug""", values)
+        row = cur.fetchone()
+        return {"id": str(row["id"]), "slug": row["slug"]}
+    except Exception as exc:
+        if type(exc).__name__ == "UniqueViolation":
+            _reply(409, "subscription", "这个订阅源已经收集过了")
+        raise
+
+
 def get_modules(cur):
     cur.execute("SELECT id,slug,name,enabled,device,limit_count,source_scope,ranking_preset_id,config FROM ops.channel_modules ORDER BY sort_order,slug")
     rows = _rows(cur)
@@ -320,7 +435,18 @@ def public_config(cur):
                    FROM ops.ad_placements WHERE page_scope='public' ORDER BY slug""")
     ads = [{"slug": row["slug"], "enabled": bool(row["enabled"]), "device": row["device"],
             "placement": row["placement"], "after_item": row["after_item"]} for row in _rows(cur)]
-    return {"version": 1, "modules": modules, "programs": programs, "items": items, "ads": ads}
+    cur.execute("""SELECT slug,name,name_en,description,description_en,homepage_url,feed_url,platform,
+                         category,language,topics,source_type FROM ops.subscription_candidates
+                   WHERE recommend_enabled=TRUE AND status <> 'paused'
+                   ORDER BY category,name LIMIT 120""")
+    subscriptions = []
+    for row in _rows(cur):
+        subscriptions.append({"id": row["slug"], "name": row["name"], "name_en": row["name_en"] or row["name"],
+                              "zh": row["description"] or "", "en": row["description_en"] or row["description"] or "",
+                              "home": row["homepage_url"], "feed": row["feed_url"], "platform": row["platform"] or "",
+                              "category": row["category"], "lang": row["language"] or "multi",
+                              "tags": _json(row.get("topics"), []), "source_type": row["source_type"]})
+    return {"version": 2, "modules": modules, "programs": programs, "items": items, "ads": ads, "subscriptions": subscriptions}
 
 
 def _save_program(cur, payload):
@@ -437,6 +563,8 @@ def handle(payload, bearer, ip, env, now=None):
                 return 200, {"ok": True, "data": sync_directory(cur, cfg)}
             if action == "programs":
                 return 200, {"ok": True, "data": get_programs(cur)}
+            if action == "subscriptions":
+                return 200, {"ok": True, "data": get_subscriptions(cur)}
             if action == "modules":
                 return 200, {"ok": True, "data": get_modules(cur)}
             if action == "covers":
@@ -445,6 +573,8 @@ def handle(payload, bearer, ip, env, now=None):
                 return 200, {"ok": True, "data": get_ads(cur)}
             if action == "contents":
                 return 200, {"ok": True, "data": get_contents(cur)}
+            if action == "discover_subscription":
+                return 200, {"ok": True, "data": discover_subscription(payload)}
             if action == "save_program":
                 _save_program(cur, payload)
             elif action == "save_module":
@@ -455,6 +585,8 @@ def handle(payload, bearer, ip, env, now=None):
                 _save_ad(cur, payload)
             elif action == "save_content":
                 _save_content(cur, payload)
+            elif action == "save_subscription":
+                return 200, {"ok": True, "data": _save_subscription(cur, payload)}
             else:
                 _reply(400, "request", "不支持这个运营操作", "Unsupported operations action")
             return 200, {"ok": True}

@@ -48,6 +48,7 @@
 - `_shelf.spec`：规范版本，现在是 `1`。
 - `_shelf.license`（可选）：站点的许可说明，目录里会显示出来。在站点的 `site.json` 里写 `"license"` 即可。
 - 条目的 `_shelf.type`：`note` / `tool` / `pdf` 等，取值同上面的类型；`_shelf.category` 是站内分类。
+- 条目的书籍信息（都可选，对应站点转换后的 `doc.json`，只有这几项，**没有正文**）：标准字段 `authors[0].name`（或 `_shelf.author`）是作者，`_shelf.pages` 是页数（整数），`_shelf.toc` 是目录标题的列表（最多 40 条、每条最多 60 字）。目录把它们写进 `directory.json` 的条目（`author`、`pages`、`toc`），页面显示作者和页数，搜索可以按作者、目录里的词和页数找到；没有就没有这几个字段。
 - 条目的 `_shelf.listed`：写 `false` 表示这一条留在你的站点和订阅源里，但请任何公共目录不要收录（本站在文章 front matter 里写 `directory: false`，或在卡片上点“不进公共目录”）。
 - 订阅源条目的 `tags` 里如果带着 `_shelf.category` 的同名标签，目录会把它去掉（分类不是标签）。
 - 没有这个扩展也完全可以被收录，目录会自己推断。
@@ -66,7 +67,8 @@
   "tags":   [ { "name": "供应链", "slug": "t-3f2a1c", "n": 5 } ],
   "feeds":  { "all": "feed/all", "type": "feed/type/{type}", "tag": "feed/tag/{slug}", "shelf": "feed/shelf/{id}" },
   "items":  [ { "id": "a1b2c3d4e5", "title": "…", "summary": "…", "url": "…", "image": "", "date": "2026-10-13",
-                "type": "article", "lang": "zh", "tags": ["…"], "shelf": "books-zhitree-cn" } ]
+                "type": "article", "lang": "zh", "tags": ["…"], "shelf": "books-zhitree-cn",
+                "author": "（可选）作者", "pages": 242, "toc": ["（可选）目录标题", "…"] } ]
 }
 ```
 
@@ -76,7 +78,7 @@
 - `shelves.opml`：所有书架的订阅源清单，可一次导入阅读器。
 - 目录主人对每个来源的标注：`status`（`fixed` 长期、`dynamic` 按热点进出、`trial` 试读；`paused` 的来源不出现在 `shelves`、`items`、任何订阅源和 `shelves.opml` 里，只计入顶层的 `paused`）、`rights`（官方订阅源或接口只用标题摘要链接 / 作者授权 / 未确认），以及可选的 `topics`（领域编号）和 `platform`（平台编号，写了就不必再按网址猜）。`health` 是上一次读取的结果。备注（`note`）永远不在这里。顶层可选的 `columns`（`[{id, zh, en, topics?, platforms?, types?}]`，最多 12 项）是目录主人定的栏目。这些字段对读目录的程序都是可选的：没有就当 `fixed` / `unknown` / 不指定 / 用自己的默认栏目。
 
-`submit_api` 非空时，网页的「收录」直接把申请发给它（`POST`，JSON：`{"kind":"url","url":"…","rights":true}` 或 `{"kind":"post","title":"…","author":"…","tags":[…],"body":"Markdown","rights":true}`，另有一个必须留空的隐藏字段 `website`）。成功返回 `{"ok":true,"status":"queued"}`；失败返回 `{"ok":false,"error":"…","message":"中文","message_en":"English"}`，`error` 是 `url` `post` `rights` `listed` `pending` `rejected` `rate` `full` `origin` `size` `github` `not_configured` 之一。
+`submit_api` 非空时，网页的「收录」直接把申请发给它（`POST`，JSON：`{"kind":"url","url":"…","rights":true}` 或 `{"kind":"post","title":"…","author":"…","tags":[…],"body":"Markdown","rights":true}`，书籍是 `{"kind":"record","title":"…","author":"…","tags":[…],"summary":"…","url":"（可选）","pages":242,"toc":["（可选）目录标题"],"rights":true}`，另有一个必须留空的隐藏字段 `website`）。成功返回 `{"ok":true,"status":"queued"}`；失败返回 `{"ok":false,"error":"…","message":"中文","message_en":"English"}`，`error` 是 `url` `post` `rights` `listed` `pending` `rejected` `rate` `full` `origin` `size` `github` `not_configured` 之一。
 
 ## 5. 托管投稿
 

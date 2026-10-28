@@ -430,6 +430,53 @@ function contentOpsRow(c, covers){
   const save=saveButton('保存','save_content',()=>({id:c.id,editorial_weight:weight.value,hidden:hidden.checked,cover_mode:mode.value,cover_preset_id:preset.value,editorial_note:reason.value,placement_modules:placements.filter(x=>x.querySelector('input').checked).map(x=>x.querySelector('input').value)}));
   return el('details',{class:'card ops-card compact'},el('summary',{class:'ops-card-summary'},el('strong',{text:c.title}),el('span',{class:'muted',text:c.program_name+' · 打开 '+num(c.opens)+' · 收藏 '+num(c.saves)}),c.hidden ? el('span',{class:'badge paused',text:'隐藏'}) : null),el('div',{class:'ops-card-body'},el('p',{class:'meta'},c.language || '', c.kind || ''),el('div',{class:'ops-grid'},el('div',{},el('label',{text:'权重'}),weight),el('label',{class:'check',text:'隐藏'},hidden),el('div',{},el('label',{text:'封面'}),mode),el('div',{},el('label',{text:'动态 Cover'}),preset),el('div',{class:'full'},el('label',{text:'投放到栏目'}),el('div',{class:'topics-box'},placements)),el('div',{class:'full'},el('label',{text:'推荐理由'}),reason)),el('div',{class:'actions'},save.b),save.msg));
 }
+const SUB_CATEGORY={hot:'热榜与趋势',tech:'AI 与科技',study:'学习与研究',business:'财经与商业',world:'全球正在发生',audio:'播客与创作者',books:'读书与深度',other:'其他'};
+const SUB_TYPE={native:'原生 RSS / Atom',rsshub:'RSSHub 转换',rssapp:'RSS.app 转换'};
+const SUB_STATUS={trial:'试运行',active:'稳定使用',paused:'暂停'};
+function subscriptionEditor(item, topicList, options){
+  const x=item||{}, input=(label,value,placeholder,max)=>el('div',{},el('label',{text:label}),el('input',{type:'text',maxlength:String(max||500),value:value||'',placeholder:placeholder||''}));
+  const name=input('名称',x.name,'例如：GitHub Blog',120), nameEn=input('英文名',x.name_en,'可选',120), home=input('来源主页',x.homepage_url,'https://…',1500), feed=input('订阅地址',x.feed_url,'https://…/feed.xml',1500), platform=input('平台',x.platform,'github / zhihu / youtube …',30), description=input('中文说明',x.description,'给读者看的简短说明',500), descriptionEn=input('英文说明',x.description_en,'Optional',500);
+  const type=el('select',{},Object.entries(SUB_TYPE).map(([id,label])=>el('option',{value:id,selected:(x.source_type||'native')===id,text:label})));
+  const category=el('select',{},Object.entries(SUB_CATEGORY).map(([id,label])=>el('option',{value:id,selected:(x.category||'other')===id,text:label})));
+  const language=el('select',{},[['zh','中文'],['en','英文'],['multi','多语言']].map(([id,label])=>el('option',{value:id,selected:(x.language||'multi')===id,text:label})));
+  const status=el('select',{},Object.entries(SUB_STATUS).map(([id,label])=>el('option',{value:id,selected:(x.status||'trial')===id,text:label})));
+  const recommend=el('input',{type:'checkbox',checked:!!x.recommend_enabled}), publicSpace=el('input',{type:'checkbox',checked:!!x.public_enabled});
+  const selected=new Set(Array.isArray(x.topics)?x.topics:[]), topics=topicList.map(([id,label])=>el('label',{class:'check'},el('input',{type:'checkbox',value:id,checked:selected.has(id)}),label));
+  const msg=el('p',{class:'msg',role:'status'}), payload=()=>({id:x.id||'',name:name.querySelector('input').value,name_en:nameEn.querySelector('input').value,homepage_url:home.querySelector('input').value,feed_url:feed.querySelector('input').value,platform:platform.querySelector('input').value,description:description.querySelector('input').value,description_en:descriptionEn.querySelector('input').value,source_type:type.value,category:category.value,language:language.value,status:status.value,topics:topics.filter(t=>t.querySelector('input').checked).map(t=>t.querySelector('input').value),recommend_enabled:recommend.checked,public_enabled:publicSpace.checked});
+  const save=el('button',{type:'button',class:'ok',text:x.id?'保存订阅设置':'收集到订阅列表',onclick:async()=>{save.disabled=true;msg.textContent='保存中…';msg.className='msg';try{await ops('save_subscription',payload());msg.textContent='已保存。推荐订阅会通过运营配置同步；公共空间请再点“推送”。';msg.className='msg good';if(options&&options.after) await options.after();}catch(e){msg.textContent=e.message;msg.className='msg bad';}save.disabled=false;}});
+  const discover=el('button',{type:'button',text:'检测 / 自动填入',onclick:async()=>{const url=feed.querySelector('input').value.trim()||home.querySelector('input').value.trim();if(!url){msg.textContent='先填写网站或订阅地址。';msg.className='msg bad';return;}discover.disabled=true;msg.textContent='正在读取公开订阅…';msg.className='msg';try{const d=await ops('discover_subscription',{url});feed.querySelector('input').value=d.feed_url||url;home.querySelector('input').value=d.homepage_url||home.querySelector('input').value;name.querySelector('input').value=d.name||name.querySelector('input').value;description.querySelector('input').value=d.description||description.querySelector('input').value;if(['zh','en','multi'].includes(d.language))language.value=d.language;msg.textContent='找到 '+(d.found||0)+' 条内容'+(d.warnings&&d.warnings.length?'；'+d.warnings.join('；'):'' );msg.className='msg good';}catch(e){msg.textContent=e.message;msg.className='msg bad';}discover.disabled=false;}});
+  const publish=el('button',{type:'button',class:'primary',text:'推送到公共空间',onclick:async()=>{if(!publicSpace.checked){msg.textContent='先勾选“推送到公共空间”，再保存。';msg.className='msg bad';return;}const p=payload();if(!p.feed_url){msg.textContent='需要有效的订阅地址。';msg.className='msg bad';return;}publish.disabled=true;msg.textContent='正在提交目录收录工作流…';msg.className='msg';try{await dispatch('collect.yml',{url:p.feed_url,status:p.status==='active'?'fixed':p.status,rights:p.source_type==='native'?'official-link':'unknown',topics:p.topics.join(','),platform:p.platform});msg.textContent='已提交。GitHub Action 会读取订阅并重建公共目录，约 1–3 分钟后在“来源”页和公共空间出现。';msg.className='msg good';}catch(e){msg.textContent=e.message;msg.className='msg bad';}publish.disabled=false;}});
+  const fields=el('div',{class:'ops-grid subscription-fields'},el('div',{class:'full'},name),el('div',{class:'full'},nameEn),el('div',{class:'full'},home),el('div',{class:'full'},feed),el('div',{},el('label',{text:'接入方式'}),type),el('div',{},el('label',{text:'分类'}),category),el('div',{},el('label',{text:'语言'}),language),el('div',{},el('label',{text:'状态'}),status),el('div',{},platform),el('label',{class:'check',text:'推送到推荐订阅'},recommend),el('label',{class:'check',text:'推送到公共空间'},publicSpace),el('div',{class:'full'},description),el('div',{class:'full'},descriptionEn),el('div',{class:'full'},el('label',{text:'领域标签'}),el('div',{class:'topics-box'},topics)));
+  return el('div',{class:'subscription-editor'},fields,el('div',{class:'actions'},discover,save,publish),msg);
+}
+function subscriptionsOpsPanel(panel, subscriptions){
+  const topicList=((state.directory&&state.directory.topics)||[]).filter(t=>t&&typeof t.id==='string').map(t=>[t.id,t.zh||t.id]);
+  panel.append(el('h2',{text:'订阅目录与收集'}),el('p',{class:'muted',text:'先收集并检测原生 RSS，或粘贴你在 RSSHub / RSS.app 生成的公开 feed。勾选“推荐订阅”会同步到 books.zhitree.cn 的推荐页；勾选“公共空间”后再点推送，才会触发 GitHub Action 将它读入公共目录。转换服务只处理你提供的公开 feed，不绕过登录、付费或平台限制。'}));
+  const collect=el('details',{class:'card ops-card',open:true},el('summary',{class:'ops-card-summary'},el('strong',{text:'收集新的订阅'}),el('span',{class:'muted',text:'网站 / RSS / RSSHub / RSS.app'})),el('div',{class:'ops-card-body'},subscriptionEditor(null,topicList,{after:renderOps})));
+  panel.append(collect);
+  const query=el('input',{type:'search',placeholder:'搜索名称、平台、订阅地址或领域'}), category=el('select',{},[['all','全部分类'],...Object.entries(SUB_CATEGORY)].map(([id,label])=>el('option',{value:id,text:label}))), target=el('select',{},[['all','全部去向'],['recommend','已推送推荐订阅'],['public','已标记公共空间'],['paused','已暂停']].map(([id,label])=>el('option',{value:id,text:label})));
+  const count=el('p',{class:'muted'}), list=el('div',{class:'ops-list'});
+  const draw=()=>{
+    const q=query.value.trim().toLowerCase(), rows=subscriptions.filter(s=>{
+      const text=[s.name,s.name_en,s.platform,s.feed_url,s.homepage_url,(s.topics||[]).join(' ')].join(' ').toLowerCase();
+      if(q&&!text.includes(q))return false;
+      if(category.value!=='all'&&s.category!==category.value)return false;
+      if(target.value==='recommend'&&!s.recommend_enabled)return false;
+      if(target.value==='public'&&!s.public_enabled)return false;
+      if(target.value==='paused'&&s.status!=='paused')return false;
+      return true;
+    });
+    count.textContent='显示 '+rows.length+' / '+subscriptions.length+' 个已收集订阅。'; list.textContent='';
+    rows.forEach(s=>{
+      const card=el('details',{class:'card ops-card'},
+        el('summary',{class:'ops-card-summary'},el('strong',{text:s.name}),el('span',{class:'badge '+(s.status||'trial'),text:SUB_STATUS[s.status]||s.status}),s.recommend_enabled?el('span',{class:'badge',text:'推荐订阅'}):null,s.public_enabled?el('span',{class:'badge',text:'公共空间'}):null,el('span',{class:'muted',text:SUB_CATEGORY[s.category]||'其他'})),
+        el('div',{class:'ops-card-body'},subscriptionEditor(s,topicList,{after:renderOps})));
+      list.append(card);
+    });
+    if(!rows.length)list.append(el('p',{class:'empty',text:'还没有符合条件的订阅。'}));
+  };
+  query.addEventListener('input',draw);category.addEventListener('change',draw);target.addEventListener('change',draw);panel.append(el('div',{class:'ops-filters'},query,category,target),count,list);draw();
+}
 let opsRenderVersion=0;
 async function renderOps(){
   const renderVersion=++opsRenderVersion;
@@ -442,16 +489,16 @@ async function renderOps(){
   if(renderVersion!==opsRenderVersion) return;
   if(!schema.ready){
     const missing=Object.entries(schema.missing||{}).map(([table, columns])=>table + ': ' + columns.join(', '));
-    box.append(el('section',{class:'card'},el('h2',{text:'运营数据库尚未完成迁移'}),el('p',{class:'msg bad',text:'当前函数连接的数据库缺少以下字段。请在同一个 Postgres 数据库执行 004_ops_complete_repair.sql；执行成功后刷新本页。'}),el('pre',{class:'doc',text:missing.join('\n')})));
+    box.append(el('section',{class:'card'},el('h2',{text:'运营数据库尚未完成迁移'}),el('p',{class:'msg bad',text:'当前函数连接的数据库缺少以下字段。请先执行 004_ops_complete_repair.sql，再执行 005_ops_subscription_catalog.sql；执行成功后刷新本页。'}),el('pre',{class:'doc',text:missing.join('\n')})));
     return;
   }
-  try{ data=await Promise.all([ops('dashboard'),ops('programs'),ops('modules'),ops('covers'),ops('ads'),ops('contents')]); }
+  try{ data=await Promise.all([ops('dashboard'),ops('programs'),ops('subscriptions'),ops('modules'),ops('covers'),ops('ads'),ops('contents')]); }
   catch(e){ if(renderVersion===opsRenderVersion) box.append(el('p',{class:'msg bad',text:e.message})); return; }
   if(renderVersion!==opsRenderVersion) return;
-  const [dash, programs, modules, covers, ads, contents]=data;
+  const [dash, programs, subscriptions, modules, covers, ads, contents]=data;
   const sync=el('button',{type:'button',class:'primary',text:'同步目录到运营库',onclick:async()=>{sync.disabled=true; sync.textContent='同步中…'; try{const r=await ops('sync_directory'); sync.textContent='已同步 '+r.programs+' 个节目 / '+r.contents+' 篇内容'; await renderOps();}catch(e){sync.textContent=e.message;sync.className='danger';} sync.disabled=false;}});
   const metric=dash.metrics||{};
-  const tabDefs=[['overview','概览'],['programs','节目'],['content','内容'],['modules','展示模块'],['assets','封面与广告']];
+  const tabDefs=[['overview','概览'],['programs','节目'],['subscriptions','订阅目录'],['content','内容'],['modules','展示模块'],['assets','封面与广告']];
   const tabs=el('nav',{class:'tabs ops-tabs',role:'tablist','aria-label':'运营功能'});
   const panels={}; let active='overview';
   const activate=id=>{
@@ -490,6 +537,8 @@ async function renderOps(){
   };
   programQuery.addEventListener('input',drawPrograms); programState.addEventListener('change',drawPrograms);
   programPanel.append(el('div',{class:'ops-filters'},programQuery,programState),programCount,programList); drawPrograms();
+
+  subscriptionsOpsPanel(panels.subscriptions,subscriptions);
 
   const contentPanel=panels.content;
   contentPanel.append(el('h2',{text:'内容编辑'}),el('p',{class:'muted',text:'只在需要时展开一篇内容，设置人工权重、隐藏、动态封面与栏目投放。'}));

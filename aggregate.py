@@ -72,7 +72,7 @@ ALLOW_LOCAL = False                # tests only: lets http:// and 127.0.0.1 thro
 GITHUB_API = 'https://api.github.com'
 GITHUB_RAW = 'https://raw.githubusercontent.com'
 
-PARSER = 2                         # raise it whenever what is read from a source changes: snapshots of older rules are then read again, not "not modified"
+PARSER = 3                         # raise it whenever what is read from a source changes: snapshots of older rules are then read again, not "not modified"
 TYPES = ('article', 'note', 'video', 'audio', 'pdf', 'tool', 'book')
 VIDEO_HOSTS = ('youtube.com', 'youtu.be', 'bilibili.com', 'vimeo.com')
 COMMON_FEEDS = ('/feed.xml', '/atom.xml', '/rss.xml', '/index.xml', '/feed', '/rss', '/feed.json')
@@ -205,6 +205,34 @@ def slug(s, fallback='x'):
 
 def tag_key(t):
     return unicodedata.normalize('NFKC', str(t)).casefold().strip()
+
+
+PAGES_MAX, TOC_MAX, TOC_TITLE = 99999, 40, 60
+
+
+def norm_pages(v):
+    """The number of pages of a book: a whole number up to PAGES_MAX, else 0 (not known)."""
+    try:
+        n = int(float(str(v).strip()))
+    except (TypeError, ValueError, OverflowError):
+        return 0
+    return n if 0 < n <= PAGES_MAX else 0
+
+
+def norm_toc(v, limit=TOC_MAX):
+    """The contents of a book: a list of headings, or text with one heading a line (a list mark in front of a line is dropped)."""
+    if isinstance(v, str):
+        v = v.replace('\r', '').split('\n')
+    out = []
+    for x in v if isinstance(v, (list, tuple)) else []:
+        if not isinstance(x, (str, int, float)) or isinstance(x, bool):
+            continue
+        t = clean(re.sub(r'^\s*[-*\u2022\u00b7]+\s*', '', str(x)), TOC_TITLE)
+        if t and t not in out:
+            out.append(t)
+        if len(out) >= limit:
+            break
+    return out
 
 
 def norm_tags(values, limit=TAGS_PER_ITEM):
@@ -697,6 +725,13 @@ def parse_jsonfeed(d, base):
         it = make_item(e.get('url') or e.get('external_url'), e.get('title'), strip_html(summary), e.get('image') or e.get('banner_image'),
                        e.get('date_published') or e.get('date_modified'), tags, e.get('language') or shelf['lang'], es.get('type') or ('audio' if sound else ''), base, mime)
         if it:
+            who = next((clean(a.get('name'), 40) for a in (e.get('authors') or []) if isinstance(a, dict) and clean(a.get('name'))), '') or clean(es.get('author'), 40)
+            if who:
+                it['author'] = who                                 # a book's author (its page says it): the directory searches it and compares new entries with it
+            if norm_pages(es.get('pages')):
+                it['pages'] = norm_pages(es.get('pages'))
+            if norm_toc(es.get('toc')):
+                it['toc'] = norm_toc(es.get('toc'))
             if sound:
                 it['audio'] = sound
             if _want_content():
@@ -1959,7 +1994,7 @@ def build():
         for p in posts:
             post_items.append({'url': '%sp/%s/' % (base, urllib.parse.quote(p['slug'])), 'title': p['title'], 'summary': clean(mdsafe.plain_text(p['body']), SUMMARY), 'image': '',
                                'date': p['date'], 'tags': p['tags'], 'lang': p['lang'], 'type': 'book' if p['kind'] == 'record' else 'article', 'sha': 'post:' + p['hash'], 'hash': p['hash'],
-                               'author': p['author']})
+                               'author': p['author'], 'pages': p['pages'], 'toc': p['toc']})
             post_pages['p/%s/index.html' % p['slug']] = post_page(p, cfg, repo)
         pname = cfg.get('posts_title') or '社区投稿'
         sources.append(({'id': 'posts', 'kind': 'post', 'name': pname, 'tags': [], 'source': ''},
@@ -2002,6 +2037,10 @@ def build():
                 row['hash'] = i['hash']
             if i.get('author'):                                      # and new ones with this title + author
                 row['author'] = i['author']
+            if norm_pages(i.get('pages')):                           # a book's pages and contents (what its owner's doc.json says): only searched and shown, never fetched
+                row['pages'] = norm_pages(i['pages'])
+            if norm_toc(i.get('toc')):
+                row['toc'] = norm_toc(i['toc'])
             if isinstance(i.get('audio'), dict) and abs_url(i['audio'].get('url')):      # a podcast episode: where its sound is (the page plays it from there; nothing of it passes through here)
                 row['audio'] = {'url': abs_url(i['audio']['url']), 'type': clean(i['audio'].get('type'), 40), 'dur': _seconds(i['audio'].get('dur'))}
             items.append(row)
@@ -2123,7 +2162,8 @@ def load_posts():
         out.append({'slug': name[:-3], 'title': title, 'author': clean(meta.get('author'), POST_AUTHOR_MAX), 'date': parse_date(meta.get('date')),
                     'tags': norm_tags(_list_value(meta.get('tags')), 5), 'lang': norm_lang(meta.get('lang'), title + ' ' + body[:300]), 'body': body,
                     'hash': post_hash(body), 'issue': str(meta.get('issue') or ''),
-                    'kind': 'record' if str(meta.get('kind') or '') == 'record' else 'post', 'url': clean(meta.get('url')) if httpish(clean(meta.get('url'))) else ''})
+                    'kind': 'record' if str(meta.get('kind') or '') == 'record' else 'post', 'url': clean(meta.get('url')) if httpish(clean(meta.get('url'))) else '',
+                    'pages': norm_pages(meta.get('pages')), 'toc': norm_toc(_list_value(meta.get('toc')))})
     return out
 
 
@@ -2214,7 +2254,8 @@ def check_record(sub):
         raise Refused('请写一句摘要（至少 %d 个字）' % RECORD_SUMMARY_MIN, 'Please write a summary (at least %d characters)' % RECORD_SUMMARY_MIN)
     if len(summary) > RECORD_SUMMARY_MAX:
         raise Refused('摘要太长（最多 %d 个字）' % RECORD_SUMMARY_MAX, 'The summary is too long (at most %d characters)' % RECORD_SUMMARY_MAX)
-    if any(w in (title + ' ' + author + ' ' + summary).lower() for w in blockwords()):
+    pages, toc = norm_pages(sub.get('pages')), norm_toc(sub.get('toc'))
+    if any(w in (title + ' ' + author + ' ' + summary + ' ' + ' '.join(toc)).lower() for w in blockwords()):
         raise Refused('内容里有不允许的词', 'The text contains a word that is not accepted')
     url = ''
     if clean(sub.get('url')):
@@ -2230,7 +2271,7 @@ def check_record(sub):
     if dup:
         raise Refused('这条书籍已经提交过了（%s）' % dup, 'This book entry was submitted already (%s)' % dup)
     return {'title': title, 'author': author, 'summary': summary, 'url': url, 'tags': norm_tags(sub.get('tags'), 5), 'key': key, 'lang': norm_lang('', title + ' ' + summary),
-            'hash': post_hash(summary), 'warnings': []}
+            'hash': post_hash(summary), 'pages': pages, 'toc': toc, 'warnings': []}
 
 
 def describe_record(info):
@@ -2238,6 +2279,10 @@ def describe_record(info):
              '| 作者 / Author | %s |' % (md_esc(info['author']) if info['author'] else '（未填 / none）'), '| 网址 / Address | %s |' % (md_link(info['url'], info['url']) if info['url'] else '（没有 / none）')]
     if info['tags']:
         lines.append('| 标签 / Tags | %s |' % md_esc(', '.join(info['tags'])))
+    if info.get('pages'):
+        lines.append('| 页数 / Pages | %d |' % info['pages'])
+    if info.get('toc'):
+        lines.append('| 目录 / Contents | %d |' % len(info['toc']))
     lines += ['', '摘要 / Summary:', '', '> ' + md_esc(info['summary'])]
     return '\n'.join(lines)
 
@@ -2254,6 +2299,7 @@ def publish_record(sub, number):
         name = '%s-%d' % (base_slug, n)
     head = ['---', 'kind: record', 'title: ' + json.dumps(info['title'], ensure_ascii=False), 'author: ' + json.dumps(info['author'], ensure_ascii=False), 'date: ' + today().isoformat(),
             'tags: ' + json.dumps(info['tags'], ensure_ascii=False), 'lang: ' + info['lang']] + (['url: ' + json.dumps(info['url'])] if info['url'] else []) \
+        + (['pages: %d' % info['pages']] if info.get('pages') else []) + (['toc: ' + json.dumps(info['toc'], ensure_ascii=False)] if info.get('toc') else []) \
         + (['issue: %s' % number] if number else []) + ['---', '']
     write_text(os.path.join(d, name + '.md'), '\n'.join(head) + info['summary'] + '\n')
     return name, info
@@ -2273,7 +2319,8 @@ def post_page(p, cfg, repo):
     """The static page of a hosted post. The text went through mdsafe, the rest is escaped here; the page carries no script."""
     site, title = str(cfg.get('site') or '').strip(), cfg.get('title') or 'Shelf directory'
     record = p.get('kind') == 'record'
-    meta = ' · '.join(x for x in ('书籍 / A book entry' if record else '读者投稿 / A reader\'s post', p['author'], p['date']) if x)
+    meta = ' · '.join(x for x in ('书籍 / A book entry' if record else '读者投稿 / A reader\'s post', p['author'], '%d 页 / pages' % p['pages'] if record and p.get('pages') else '', p['date']) if x)
+    contents = ('\n<h2>目录 / Contents</h2>\n<ol>%s</ol>' % ''.join('<li>%s</li>' % xml_escape(x) for x in p['toc'])) if record and p.get('toc') else ''
     take = 'https://github.com/%s/issues/new?template=takedown.yml' % repo if repo else ''
     links = ['<a href="%s">返回目录</a>' % xml_escape(site, {'"': '&quot;'})] if httpish(site) else []
     if take:
@@ -2283,7 +2330,7 @@ def post_page(p, cfg, repo):
             '<style>%s</style></head><body><article class="doc"><p class="meta">%s</p><h1>%s</h1>\n%s\n<footer>%s%s</footer></article></body></html>\n'
             % ('zh-CN' if p['lang'] == 'zh' else 'en', xml_escape(p['title']), xml_escape(title), xml_escape(clean(mdsafe.plain_text(p['body']), 160), {'"': '&quot;'}),
                POST_CSS, xml_escape(meta), xml_escape(p['title']),
-               '<p>%s</p>' % xml_escape(p['body']).replace('\n', '<br>') + (('\n<p><a href="%s" rel="nofollow ugc noopener noreferrer">%s</a></p>' % (xml_escape(p['url'], {'"': '&quot;'}), xml_escape(p['url']))) if p['url'] else '') if record
+               '<p>%s</p>' % xml_escape(p['body']).replace('\n', '<br>') + contents + (('\n<p><a href="%s" rel="nofollow ugc noopener noreferrer">%s</a></p>' % (xml_escape(p['url'], {'"': '&quot;'}), xml_escape(p['url']))) if p['url'] else '') if record
                else mdsafe.render(p['body']),
                '这是读者提交的书籍信息，只有标题、作者和摘要（书单就是写在摘要里的书名），不含书籍或文件本身，版权归原作者所有。' if record else '本文由读者投稿，版权归作者所有，不代表本站观点。', ' ' + ' · '.join(links) if links else ''))
 
@@ -2337,7 +2384,7 @@ def md_link(text, url):
 
 
 ISSUE_FIELDS = (('url', r'^(网址|url|address|link)'), ('title', r'^(标题|title)'), ('author', r'^(作者|author)'), ('tags', r'^(标签|tags?)'),
-                ('summary', r'^(摘要|summary)'), ('body', r'^(正文|body|content)'), ('rights', r'^(权利|rights?)'))
+                ('summary', r'^(摘要|summary)'), ('pages', r'^(页数|pages?)'), ('toc', r'^(目录|contents|toc)'), ('body', r'^(正文|body|content)'), ('rights', r'^(权利|rights?)'))
 
 
 def issue_fields(body):
@@ -2379,7 +2426,8 @@ def parse_issue(event):
     tags = [t.strip() for t in re.split(r'[,，、\n]', _answer(f.get('tags'))) if t.strip()]
     zw = lambda s: s.replace('​', '')                      # the submit function puts one after "###" in a line that looks like a heading of the form
     return {'kind': kind, 'number': issue.get('number'), 'url': url.rstrip('.,;:!?，。；').strip(), 'tags': [zw(t) for t in tags], 'rights': ok,
-            'title': zw(_answer(f.get('title'))), 'author': zw(_answer(f.get('author'))), 'body': zw(_answer(f.get('body'))), 'summary': zw(_answer(f.get('summary')))}
+            'title': zw(_answer(f.get('title'))), 'author': zw(_answer(f.get('author'))), 'body': zw(_answer(f.get('body'))), 'summary': zw(_answer(f.get('summary'))),
+            'pages': norm_pages(_answer(f.get('pages'))), 'toc': norm_toc(zw(_answer(f.get('toc'))))}
 
 
 def read_submission(event):

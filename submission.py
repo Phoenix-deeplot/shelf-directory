@@ -135,7 +135,7 @@ def ip_hash(ip, salt):
 
 def neutralize(text):
     """A line of the visitor's text that looks like a heading of the issue form would cut the form in the wrong place."""
-    return re.sub(r'(?im)^(###)(\s+(?:标题|作者|标签|摘要|正文|权利|网址|title|author|tags?|summary|body|content|rights?|url|address|link))', '\\1\u200b\\2', str(text))
+    return re.sub(r'(?im)^(###)(\s+(?:标题|作者|标签|摘要|页数|目录|正文|权利|网址|title|author|tags?|summary|pages?|contents|toc|body|content|rights?|url|address|link))', '\\1\u200b\\2', str(text))
 
 
 def _created_within(issue, seconds, now):
@@ -156,9 +156,9 @@ def post_issue(sub, who):
 
 
 def record_issue(sub, who):
-    return ('### 标题\n\n%s\n\n### 作者（可选）\n\n%s\n\n### 标签（可选）\n\n%s\n\n### 摘要\n\n%s\n\n### 网址（可选）\n\n%s\n\n### 权利确认\n\n%s\n\n<!-- via:web ip:%s -->\n'
+    return ('### 标题\n\n%s\n\n### 作者（可选）\n\n%s\n\n### 标签（可选）\n\n%s\n\n### 摘要\n\n%s\n\n### 网址（可选）\n\n%s\n\n### 页数（可选）\n\n%s\n\n### 目录（可选）\n\n%s\n\n### 权利确认\n\n%s\n\n<!-- via:web ip:%s -->\n'
             % (neutralize(sub['title']), neutralize(sub['author']) or '_No response_', neutralize(', '.join(sub['tags'])) or '_No response_', neutralize(sub['summary']),
-               sub['url'] or '_No response_', RIGHTS_RECORD, who))
+               sub['url'] or '_No response_', sub.get('pages') or '_No response_', neutralize('\n'.join('- ' + x for x in sub.get('toc') or [])) or '_No response_', RIGHTS_RECORD, who))
 
 
 def directory_pool(directory, issues=()):
@@ -271,7 +271,8 @@ def submit_post(payload, cfg):
 def submit_record(payload, cfg):
     """A catalogue card (title, author, summary; an address if there is one). -> (sub, info, open issues)."""
     sub = {'title': agg.clean(payload.get('title')), 'author': agg.clean(payload.get('author')), 'summary': agg.clean(payload.get('summary')), 'url': agg.clean(payload.get('url')),
-           'tags': agg.norm_tags(payload.get('tags') if isinstance(payload.get('tags'), list) else str(payload.get('tags') or '').replace('，', ',').split(','), 5)}
+           'tags': agg.norm_tags(payload.get('tags') if isinstance(payload.get('tags'), list) else str(payload.get('tags') or '').replace('，', ',').split(','), 5),
+           'pages': agg.norm_pages(payload.get('pages')), 'toc': agg.norm_toc(payload.get('toc'))}                   # what the book's own page says (optional): shown on the entry's page and searched in the directory
     if '#read/' in sub['url']:
         raise Reply(400, 'reader', '这是阅读器里的地址，不是公开网址：这一栏可以留空', 'This is a reader address, not a public one: leave the address empty')
     try:
@@ -333,7 +334,8 @@ def summarize_probe(r):
 
 
 def summarize_record(info):
-    return {'what': 'record', 'title': info['title'], 'author': info['author'], 'tags': info['tags'], 'summary': info['summary'], 'url': info['url'], 'lang': info['lang'], 'warnings': []}
+    return {'what': 'record', 'title': info['title'], 'author': info['author'], 'tags': info['tags'], 'summary': info['summary'], 'url': info['url'], 'lang': info['lang'],
+            'pages': info.get('pages', 0), 'toc': len(info.get('toc') or []), 'warnings': []}
 
 
 def summarize_post(info):

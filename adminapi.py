@@ -107,6 +107,7 @@ TARGET = re.compile(r'^(post:)?[A-Za-z0-9][A-Za-z0-9._-]{0,120}$')
 BATCH_NUMBERS = re.compile(r'^\d{1,7}(,\d{1,7}){0,59}$')                      # the batch workflow: up to 60 issue numbers
 SHELF_ID = re.compile(r'^[a-z0-9][a-z0-9-]{0,100}$')
 SET_INPUTS = ('id', 'status', 'rights', 'topics', 'platform', 'note')           # the set workflow: all six, always (an empty topics / platform / note takes the value away)
+COLLECT_INPUTS = ('url', 'status', 'rights', 'topics', 'platform')             # add one checked feed to the public directory
 SET_TOPICS = re.compile(r'^([a-z0-9][a-z0-9-]{0,19}(,[a-z0-9][a-z0-9-]{0,19}){0,29})?$')
 
 
@@ -123,6 +124,22 @@ def _source_inputs(inputs):
             and (inputs['platform'] == '' or agg.PLATFORM_ID.fullmatch(inputs['platform'])) and len(note) <= agg.NOTE_MAX and not re.search(r'[\x00-\x1f\x7f]', note)):
         raise _forbidden()
     return {**{k: inputs[k] for k in SET_INPUTS}, 'note': note}
+
+
+def _collect_inputs(inputs):
+    if not (isinstance(inputs, dict) and set(inputs) == set(COLLECT_INPUTS) and all(isinstance(v, str) for v in inputs.values())):
+        raise _forbidden()
+    raw = inputs['url'].strip()
+    try:
+        parsed = urllib.parse.urlsplit(raw)
+        port = parsed.port
+    except ValueError:
+        raise _forbidden()
+    if not (len(raw) <= 1500 and parsed.scheme == 'https' and parsed.hostname and not parsed.username and not parsed.password
+            and (port is None or 1 <= port <= 65535) and inputs['status'] in agg.STATUSES and inputs['rights'] in agg.RIGHTS
+            and SET_TOPICS.fullmatch(inputs['topics']) and (inputs['platform'] == '' or agg.PLATFORM_ID.fullmatch(inputs['platform']))):
+        raise _forbidden()
+    return {k: (raw if k == 'url' else inputs[k]) for k in COLLECT_INPUTS}
 
 
 def plan(method, path, body, cfg, branch):
@@ -171,6 +188,9 @@ def plan(method, path, body, cfg, branch):
         if re.fullmatch(e + r'/actions/workflows/set\.yml/dispatches', path):             # say something about one source
             inputs = body.get('inputs') if isinstance(body, dict) else None
             return 'plain', 'POST', '%s/actions/workflows/set.yml/dispatches' % r, {'ref': branch(), 'inputs': _source_inputs(inputs)}, None
+        if re.fullmatch(e + r'/actions/workflows/collect\.yml/dispatches', path):          # put one editor-collected feed into registry + public directory
+            inputs = body.get('inputs') if isinstance(body, dict) else None
+            return 'plain', 'POST', '%s/actions/workflows/collect.yml/dispatches' % r, {'ref': branch(), 'inputs': _collect_inputs(inputs)}, None
         m = re.fullmatch(e + r'/actions/workflows/(remove|daily)\.yml/dispatches', path)
         if m:
             inputs = body.get('inputs') if isinstance(body, dict) else None
