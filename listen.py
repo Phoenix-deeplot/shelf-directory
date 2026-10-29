@@ -1,7 +1,8 @@
 """Today's listening: songs that play in the page's own player, in lists that change every day.
 
-GET /api/listen              -> the lists there are today (daily picks, charts, play lists, styles), without their songs: {groups: [{id, name, name_en, kind, net}]}
-GET /api/listen?g=rock       -> the songs of one list (up to 30; a play list up to 50), each with the address of a sound the page's player plays
+GET /api/listen              -> the lists there are today (daily picks, charts, play lists, styles; of music and of podcasts), without their songs: {groups: [{id, name, name_en, kind, type, net}]}
+GET /api/listen?g=rock       -> the songs of one list (up to 200), each with the address of a sound the page's player plays
+                                `&lang=en` (or zh, the default) is the reader's language: what a list is made of (the daily picks, the podcast categories) and the order of the lists follow it
 GET /api/listen?diag=1       -> for each source whether it answered and how much it gave (nothing secret in it: the keys never leave the server)
 
 A list is made of one or more sources, asked in parallel (a source that is slow is left out of this answer, not waited for):
@@ -13,6 +14,8 @@ A list is made of one or more sources, asked in parallel (a source that is slow 
   - NetEase     the charts and play lists of NetEase Cloud Music as whole songs, from `music.163.com/song/media/outer/url` (a redirect to NetEase's sound server that a browser follows for the
                 songs open to everybody; each song is checked first, the others are left out). That address is not a documented API and the music is the rights holders': it is off until the owner
                 turns it on with LISTEN_NETEASE_DIRECT=1, knowing that.
+  - Apple Podcasts  the charts of podcasts (a country, or a category such as news, business, stories, English learning): the NEWEST EPISODE of each show on the chart, whole, from the show's own server
+                (iTunes lookup gives the address of the sound; no key).
   - YouTube     the most popular music videos (needs YOUTUBE_API_KEY). YouTube allows its videos only in its own player, so these are not songs of the page's player: the page opens them in a window.
 "Different every day" = the day (in China) is the seed of a fixed shuffle (and of which country's chart is used), so every reader sees the same lists on the same day. Nothing is stored: each
 answer is made from what the sources said in the last hours (an in-memory copy per warm instance, and the CDN keeps an answer for 30 minutes).
@@ -36,23 +39,26 @@ import hotapi
 DAY_OFFSET = 8 * 3600                       # the day starts at midnight in China
 POOL_SECONDS = 6 * 3600                     # what a source said is kept this long per warm instance
 STALE_SECONDS = 36 * 3600                   # ... and served this long after, when the source does not answer
-GROUP_SECONDS = 7.0                         # a list waits this long for its sources (a Vercel function has 10 seconds); the slow ones are left out
+GROUP_SECONDS = 6.0                         # a list waits this long for its sources (a Vercel function has 10 seconds); the slow ones are left out
 CDN = 'public, max-age=600, s-maxage=1800, stale-while-revalidate=21600'
 JAMENDO_URL = 'https://api.jamendo.com/v3.0/tracks/'
 NETEASE = 'https://music.163.com/api/playlist/detail?id=%s'
 NE_OUTER = 'https://music.163.com/song/media/outer/url?id=%s.mp3'
 YOUTUBE = 'https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics&chart=mostPopular&videoCategoryId=10&maxResults=40&regionCode=%s&key=%s'
 APPLE_CHART = 'https://rss.applemarketingtools.com/api/v2/%s/music/most-played/25/songs.json'
-APPLE_TOP = 'https://itunes.apple.com/%s/rss/topsongs/limit=50/json'                       # (the older feed answers faster and more often than the newer one; the newer is the back-up)
-APPLE_GENRE = 'https://itunes.apple.com/%s/rss/topsongs/limit=40/genre=%s/json'
+APPLE_TOP = 'https://itunes.apple.com/%s/rss/topsongs/limit=200/json'                       # (the older feed answers faster and more often than the newer one; the newer is the back-up)
+APPLE_GENRE = 'https://itunes.apple.com/%s/rss/topsongs/limit=100/genre=%s/json'
 APPLE_LOOKUP = 'https://itunes.apple.com/lookup?id=%s&country=%s'
-DEEZER_CHART = 'https://api.deezer.com/chart/%s/tracks?limit=50'
+POD_CHART = 'https://itunes.apple.com/%s/rss/toppodcasts/limit=200/json'
+POD_GENRE = 'https://itunes.apple.com/%s/rss/toppodcasts/limit=200/genre=%s/json'
+POD_LOOKUP = 'https://itunes.apple.com/lookup?id=%s&entity=podcastEpisode&limit=1&country=%s'            # (the newest episode of each of up to 50 shows)
+DEEZER_CHART = 'https://api.deezer.com/chart/%s/tracks?limit=100&index=%d'
 DEEZER_CHART_LISTS = 'https://api.deezer.com/chart/0/playlists?limit=12'
-DEEZER_LIST = 'https://api.deezer.com/playlist/%s/tracks?limit=50'
+DEEZER_LIST = 'https://api.deezer.com/playlist/%s/tracks?limit=100'
 AUDIUS = 'https://api.audius.co/v1'
 AUDIUS_APP = 'zhitree-books'
 APPLE_REGIONS = {'cn': ('中国', 'China'), 'us': ('美国', 'US'), 'jp': ('日本', 'Japan'), 'kr': ('韩国', 'Korea'), 'tw': ('台湾', 'Taiwan'), 'hk': ('香港', 'Hong Kong'), 'gb': ('英国', 'UK'), 'de': ('德国', 'Germany'), 'fr': ('法国', 'France')}
-PROVIDERS = {'apple': 'Apple Music', 'apple_genre': 'Apple Music', 'deezer': 'Deezer', 'deezer_pl': 'Deezer', 'audius': 'Audius', 'audius_pl': 'Audius', 'jamendo': 'Jamendo', 'netease': '网易云音乐', 'youtube': 'YouTube'}
+PROVIDERS = {'apple': 'Apple Music', 'apple_genre': 'Apple Music', 'deezer': 'Deezer', 'deezer_pl': 'Deezer', 'audius': 'Audius', 'audius_pl': 'Audius', 'jamendo': 'Jamendo', 'netease': '网易云音乐', 'youtube': 'YouTube', 'podchart': 'Apple Podcasts'}
 _CACHE = {}
 
 # Jamendo: tags to ask for (and whether only music without singing)
@@ -60,20 +66,37 @@ JAMENDO_KINDS = {'chill': (['chillout', 'lounge', 'ambient', 'downtempo'], False
                  'jazz': (['jazz', 'smoothjazz', 'bossanova'], False), 'classical': (['classical', 'orchestral', 'piano'], True), 'acoustic': (['acoustic', 'folk', 'singersongwriter'], False)}
 
 
-def _g(gid, zh, en, kind, sources, policy='mix', count=30, shuffle=True, per_artist=2, net='cn'):
-    return {'id': gid, 'name': zh, 'name_en': en, 'kind': kind, 'sources': sources, 'policy': policy, 'count': count, 'shuffle': shuffle, 'per_artist': per_artist, 'net': net}
+def _g(gid, zh, en, kind, sources, policy='mix', count=200, shuffle=True, per_artist=2, net='cn', typ='music', lang=''):
+    """A list. `sources`: a list of sources, or {'zh': [...], 'en': [...]} when what it is made of depends on the reader's language. `lang`: the language of what is in it ('' = any, '*' = made for any reader: first of all); the lists of the
+    reader's language come first. `typ`: music or podcast."""
+    return {'id': gid, 'name': zh, 'name_en': en, 'kind': kind, 'sources': sources, 'policy': policy, 'count': count, 'shuffle': shuffle, 'per_artist': per_artist, 'net': net, 'type': typ, 'lang': lang}
 
 
-# The lists there are. kind: daily (the day's picks), chart (what is on top now), list (a play list), style (a kind of music). A source is a tuple: its kind and what to ask for.
+def srcs(g, lang):
+    s = g['sources']
+    return s[lang] if isinstance(s, dict) else s
+
+
+POD_ZH, POD_EN = ('cn', 'tw', 'hk'), ('us', 'gb')
+
+
+def _pod(gid, zh, en, kind, genres, zh_regions=POD_ZH, en_regions=POD_EN, lang=''):
+    """A list of podcasts: the charts of some countries (of a category: `genres`, 0 = the whole chart), the newest episode of each show on them."""
+    return _g(gid, zh, en, kind, {'zh': [('podchart', r, g) for g in genres for r in zh_regions], 'en': [('podchart', r, g) for g in genres for r in en_regions]}, 'mix', 200, False, 5, typ='podcast', lang=lang)
+
+
+# The lists there are. kind: daily (the day's picks), chart (what is on top now), list (a play list), style (a kind of music, or a category of podcasts). A source is a tuple: its kind and what to ask for.
+DAILY_ZH = [('apple', 'cn'), ('apple', 'tw'), ('apple', 'hk'), ('netease', 19723756), ('deezer', 0), ('audius', ''), ('jamendo', 'chill')]
+DAILY_EN = [('deezer', 0), ('apple', 'us'), ('apple', 'gb'), ('audius', ''), ('jamendo', 'chill')]
 STATIC = [
-    _g('daily', '每日推荐', 'Daily picks', 'daily', [('deezer', 0), ('apple', 'cn'), ('apple', 'us'), ('audius', ''), ('netease', 19723756), ('jamendo', 'chill')], per_artist=1),
-    _g('hot-cn', '华语热歌', 'Chinese hits', 'chart', [('netease', 3778678), ('apple', 'cn'), ('apple', 'tw'), ('apple', 'hk')], 'fill', shuffle=False),
-    _g('hot-west', '欧美热歌', 'Western hits', 'chart', [('deezer', 0), ('apple', 'us'), ('apple', 'gb'), ('netease', 2809513713)], shuffle=False),
+    _g('daily', '每日推荐', 'Daily picks', 'daily', {'zh': DAILY_ZH, 'en': DAILY_EN}, count=100, per_artist=1),
+    _g('hot-cn', '华语热歌', 'Chinese hits', 'chart', [('netease', 3778678), ('apple', 'cn'), ('apple', 'tw'), ('apple', 'hk')], 'fill', shuffle=False, lang='zh'),
+    _g('hot-west', '欧美热歌', 'Western hits', 'chart', [('deezer', 0), ('apple', 'us'), ('apple', 'gb'), ('netease', 2809513713)], shuffle=False, lang='en'),
     _g('kr', '韩流', 'Korea', 'chart', [('apple', 'kr'), ('netease', 745956260)], shuffle=False),
     _g('jp', '日系', 'Japan', 'chart', [('apple', 'jp'), ('apple_genre', 'jp', 27), ('netease', 71385702)], shuffle=False),
-    _g('dzp-3155776842', 'Deezer 全球 Top 100', 'Deezer Top Worldwide', 'list', [('deezer_pl', 3155776842)], 'first', 50, False),
-    _g('dzp-1313621735', 'Deezer 美国 Top 100', 'Deezer Top USA', 'list', [('deezer_pl', 1313621735)], 'first', 50, False),
-    _g('dzp-1111142221', 'Deezer 英国 Top 100', 'Deezer Top UK', 'list', [('deezer_pl', 1111142221)], 'first', 50, False),
+    _g('dzp-3155776842', 'Deezer 全球 Top 100', 'Deezer Top Worldwide', 'list', [('deezer_pl', 3155776842)], 'first', 100, False),
+    _g('dzp-1313621735', 'Deezer 美国 Top 100', 'Deezer Top USA', 'list', [('deezer_pl', 1313621735)], 'first', 100, False, lang='en'),
+    _g('dzp-1111142221', 'Deezer 英国 Top 100', 'Deezer Top UK', 'list', [('deezer_pl', 1111142221)], 'first', 100, False, lang='en'),
     _g('rock', '摇滚', 'Rock', 'style', [('deezer', 152), ('audius', 'Rock'), ('apple_genre', 'us', 21), ('apple_genre', 'gb', 21)]),
     _g('pop', '流行', 'Pop', 'style', [('deezer', 132), ('apple_genre', 'us', 14), ('audius', 'Pop')]),
     _g('hiphop', '说唱', 'Hip-hop & rap', 'style', [('deezer', 116), ('audius', 'Hip-Hop/Rap'), ('apple_genre', 'us', 18), ('netease', 991319590)]),
@@ -94,12 +117,32 @@ STATIC = [
     _g('sleep', '助眠', 'Sleep', 'style', [('jamendo', 'sleep'), ('audius', 'Ambient'), ('apple_genre', 'us', 13)]),
     _g('acg', 'ACG 与动漫', 'Anime & games', 'style', [('netease', 71385702), ('deezer', 173), ('apple_genre', 'us', 29), ('apple_genre', 'jp', 29)]),
     _g('video', '音乐视频', 'Music videos', 'style', [('youtube',)], 'first', 20, False, net='global'),
+    # podcasts: the charts of the countries, then the categories (Apple Podcasts' own: news 1489, business 1321, fiction 1483, true crime 1488, education 1304, language learning 1498, society & culture 1324 ...)
+    _pod('pod-hot', '热门播客', 'Top podcasts', 'chart', [0], lang='*'),
+    _pod('pod-cn', '中国大陆播客榜', 'Podcasts · mainland China', 'chart', [0], ('cn',), ('cn',), 'zh'),
+    _pod('pod-tw', '台湾播客榜', 'Podcasts · Taiwan', 'chart', [0], ('tw',), ('tw',), 'zh'),
+    _pod('pod-hk', '香港播客榜', 'Podcasts · Hong Kong', 'chart', [0], ('hk',), ('hk',), 'zh'),
+    _pod('pod-us', '美国播客榜', 'Podcasts · US', 'chart', [0], ('us',), ('us',), 'en'),
+    _pod('pod-gb', '英国播客榜', 'Podcasts · UK', 'chart', [0], ('gb',), ('gb',), 'en'),
+    _pod('pod-jp', '日本播客榜', 'Podcasts · Japan', 'chart', [0], ('jp',), ('jp',)),
+    _pod('pc-news', '新闻', 'News', 'style', [1489]),
+    _pod('pc-business', '商业', 'Business', 'style', [1321]),
+    _pod('pc-story', '故事', 'Stories', 'style', [1483, 1488]),
+    _pod('pc-english', '英语学习', 'Learn English', 'style', [1498], ('us', 'hk', 'gb'), ('us', 'gb')),
+    _pod('pc-tech', '科技', 'Technology', 'style', [1318]),
+    _pod('pc-culture', '社会与文化', 'Society & culture', 'style', [1324]),
+    _pod('pc-edu', '教育', 'Education', 'style', [1304]),
+    _pod('pc-comedy', '喜剧', 'Comedy', 'style', [1303]),
+    _pod('pc-history', '历史', 'History', 'style', [1462]),
+    _pod('pc-health', '健康', 'Health & fitness', 'style', [1512]),
+    _pod('pc-science', '科学', 'Science', 'style', [1533]),
+    _pod('pc-arts', '艺术与影视', 'Arts & film', 'style', [1301, 1309]),
 ]
-NE_LISTS = [(3778678, '热歌榜', 'Hot songs'), (3779629, '新歌榜', 'New songs'), (19723756, '飙升榜', 'Rising'), (2884035, '原创榜', 'Original'), (71384707, '古典榜', 'Classical'), (1978921795, '电音榜', 'Electronic'),
-            (991319590, '说唱榜', 'Rap'), (71385702, 'ACG 榜', 'ACG'), (745956260, '韩语榜', 'Korean'), (2809513713, '欧美热歌榜', 'Western hits'), (2809577409, '欧美新歌榜', 'Western new songs'),
-            (3812895, 'Beatport 电子舞曲榜', 'Beatport dance'), (60198, 'Billboard 榜', 'Billboard')]
+NE_LISTS = [(3778678, '热歌榜', 'Hot songs', 'zh'), (3779629, '新歌榜', 'New songs', 'zh'), (19723756, '飙升榜', 'Rising', 'zh'), (2884035, '原创榜', 'Original', 'zh'), (71384707, '古典榜', 'Classical', ''), (1978921795, '电音榜', 'Electronic', ''),
+            (991319590, '说唱榜', 'Rap', 'zh'), (71385702, 'ACG 榜', 'ACG', ''), (745956260, '韩语榜', 'Korean', ''), (2809513713, '欧美热歌榜', 'Western hits', 'en'), (2809577409, '欧美新歌榜', 'Western new songs', 'en'),
+            (3812895, 'Beatport 电子舞曲榜', 'Beatport dance', ''), (60198, 'Billboard 榜', 'Billboard', 'en')]
 KIND_ORDER = {'daily': 0, 'chart': 1, 'list': 2, 'style': 3}
-SOURCE_ARGS = {'apple': (str,), 'apple_genre': (str, int), 'deezer': (int,), 'deezer_pl': (int,), 'audius': (str,), 'audius_pl': (str,), 'jamendo': (str,), 'netease': (int,), 'youtube': ()}
+SOURCE_ARGS = {'apple': (str,), 'apple_genre': (str, int), 'deezer': (int,), 'deezer_pl': (int,), 'audius': (str,), 'audius_pl': (str,), 'jamendo': (str,), 'netease': (int,), 'youtube': (), 'podchart': (str, int)}
 
 
 # ---------------------------------------------------------------- small helpers
@@ -176,8 +219,17 @@ def pooled(key, now, make):
     return val
 
 
-def _item(sid, title, artist, cover, dur, audio, url, lic, frm, preview=False):
-    return {'id': sid, 'title': _t(title, 120), 'artist': _t(artist, 80), 'cover': _https(cover), 'dur': dur, 'mode': 'stream', 'audio': audio, 'url': url, 'lic': lic, 'from': frm, **({'preview': True} if preview else {})}
+def _lang(v):
+    return 'en' if str(v or '').strip().lower().startswith('en') else 'zh'
+
+
+def _url(u):
+    u = str(u or '').strip()
+    return u if re.fullmatch(r'https?://[^\s"<>]{4,900}', u) else ''
+
+
+def _item(sid, title, artist, cover, dur, audio, url, lic, frm, preview=False, **extra):
+    return {'id': sid, 'title': _t(title, 120), 'artist': _t(artist, 80), 'cover': _https(cover), 'dur': dur, 'mode': 'stream', 'audio': audio, 'url': url, 'lic': lic, 'from': frm, **({'preview': True} if preview else {}), **extra}
 
 
 # ---------------------------------------------------------------- Jamendo
@@ -221,7 +273,7 @@ def jamendo_pool(kind, env, now):
     tags, instrumental = JAMENDO_KINDS[kind]
     if not key:
         return None
-    q = {'client_id': key, 'format': 'json', 'limit': '60', 'order': 'popularity_month', 'groupby': 'artist_id', 'include': 'licenses', 'imagesize': '300'}
+    q = {'client_id': key, 'format': 'json', 'limit': '200', 'order': 'popularity_month', 'groupby': 'artist_id', 'include': 'licenses', 'imagesize': '300'}
     if instrumental:
         q['vocalinstrumental'] = 'instrumental'
     url = JAMENDO_URL + '?' + urllib.parse.urlencode(q) + '&fuzzytags=' + '+'.join(tags)
@@ -265,7 +317,7 @@ def netease_pool(cid, env, now):
 
     def make():
         name, tracks = netease_tracks(_get(NETEASE % cid, {'Referer': 'https://music.163.com/'}))
-        top = tracks[:40]
+        top = tracks[:80]
         with concurrent.futures.ThreadPoolExecutor(8) as ex:
             open_ = list(ex.map(lambda t: netease_outer(t['id'][3:]), top))
         playable = [t for t, good in zip(top, open_) if good]
@@ -321,7 +373,7 @@ def apple_pool(region, now, genre=None):
                 break
         if not ids:
             raise failed or agg.Refused('榜单现在是空的', 'The chart is empty right now')
-        return apple_tracks(ids[:50], _get(APPLE_LOOKUP % (','.join(ids[:50]), region)))
+        return apple_tracks(ids[:200], _get(APPLE_LOOKUP % (','.join(ids[:200]), region)))
     return pooled('ap:%s:%s' % (region, genre or ''), now, make)
 
 
@@ -343,8 +395,23 @@ def deezer_tracks(raw):
     return out
 
 
+def pages(urls, parse):
+    """The songs of several pages of one chart, asked at the same time; a page that fails is left out (the first one must not)."""
+    with concurrent.futures.ThreadPoolExecutor(len(urls)) as ex:
+        futs = [ex.submit(_get, u) for u in urls]
+    out, failed = [], None
+    for f in futs:
+        try:
+            out += parse(f.result())
+        except agg.Refused as e:
+            failed = failed or e
+    if not out:
+        raise failed or agg.Refused('榜单现在是空的', 'The chart is empty right now')
+    return out
+
+
 def deezer_chart(genre, now):
-    return pooled('dz:%s' % genre, now, lambda: deezer_tracks(_get(DEEZER_CHART % genre)))
+    return pooled('dz:%s' % genre, now, lambda: pages([DEEZER_CHART % (genre, i) for i in (0, 100)], deezer_tracks))
 
 
 def deezer_playlist(pid, now):
@@ -377,8 +444,8 @@ def audius_tracks(raw):
 
 
 def audius_trending(genre, now):
-    url = '%s/tracks/trending?time=week&limit=40&app_name=%s%s' % (AUDIUS, AUDIUS_APP, ('&genre=' + urllib.parse.quote(genre, safe='')) if genre else '')
-    return pooled('au:%s' % genre, now, lambda: audius_tracks(_get(url)))
+    url = '%s/tracks/trending?time=week&limit=100&app_name=%s%s' % (AUDIUS, AUDIUS_APP, ('&genre=' + urllib.parse.quote(genre, safe='')) if genre else '')
+    return pooled('au:%s' % genre, now, lambda: pages([url, url + '&offset=100'], audius_tracks))
 
 
 def audius_playlist(pid, now):
@@ -392,6 +459,46 @@ def audius_chart_lists(now):
         return [(str(r['id']), _t(r.get('playlist_name'), 60), _int(r.get('track_count'), 0, 0, 10000)) for r in (d.get('data') or [])
                 if isinstance(r, dict) and re.fullmatch(r'[A-Za-z0-9]{3,14}', str(r.get('id') or '')) and r.get('playlist_name')]
     return pooled('aul', now, make)
+
+
+# ---------------------------------------------------------------- Apple Podcasts (a chart of shows -> the newest episode of each, whole, from the show's own server; no key)
+def podcast_items(ids, raws):
+    """-> the newest episode of the shows of a chart, in the chart's order. `raws`: the answers of iTunes lookup (`entity=podcastEpisode`), each for up to 50 shows."""
+    by = {}
+    for raw in raws:
+        d = _json(raw)
+        for r in (d.get('results') or []) if isinstance(d, dict) else []:
+            if not isinstance(r, dict) or (r.get('wrapperType') != 'podcastEpisode' and r.get('kind') != 'podcast-episode'):
+                continue
+            cid, tid, sound = str(r.get('collectionId') or ''), str(r.get('trackId') or ''), _url(r.get('episodeUrl'))
+            if not re.fullmatch(r'\d{4,14}', cid) or not re.fullmatch(r'\d{1,16}', tid) or not sound or not r.get('trackName') or cid in by:
+                continue
+            page = _https(r.get('trackViewUrl'))
+            by[cid] = _item('pc:%s' % tid, r['trackName'], r.get('collectionName'), r.get('artworkUrl600') or r.get('artworkUrl160'), _secs(r.get('trackTimeMillis'), 1000), sound,
+                            page if page.startswith('https://podcasts.apple.com/') else '', '', 'Apple Podcasts', date=str(r.get('releaseDate') or '')[:10], show=cid)
+    out = [by[i] for i in ids if i in by]
+    if not out:
+        raise agg.Refused('这个播客榜上的节目现在都没有可播的新一集', 'None of the shows on this chart has an episode to play right now')
+    return out
+
+
+def podchart_pool(region, genre, now):
+    def make():
+        ids = apple_ids(_get(POD_GENRE % (region, genre) if genre else POD_CHART % region))[:200]
+        if not ids:
+            raise agg.Refused('榜单现在是空的', 'The chart is empty right now')
+
+        def one(batch):
+            try:
+                return _get(POD_LOOKUP % (','.join(batch), region))
+            except agg.Refused:
+                return None
+        with concurrent.futures.ThreadPoolExecutor(4) as ex:
+            raws = [r for r in ex.map(one, [ids[i:i + 50] for i in range(0, len(ids), 50)]) if r]
+        if not raws:
+            raise agg.Refused('读不到这个榜上节目的新一集', 'The newest episodes of the shows on this chart cannot be read right now')
+        return podcast_items(ids, raws)
+    return pooled('pc:%s:%s' % (region, genre or 0), now, make)
 
 
 # ---------------------------------------------------------------- YouTube (videos: opened in YouTube's own player, not a sound for the page's player)
@@ -433,13 +540,13 @@ def extra_groups():
                 if len(args) != len(want):
                     continue
                 spec = (kind,) + tuple(w(a) for w, a in zip(want, args))
-                if kind in ('apple', 'apple_genre') and spec[1] not in APPLE_REGIONS or kind == 'jamendo' and spec[1] not in JAMENDO_KINDS or kind in ('audius', 'audius_pl') and not re.fullmatch(r'[A-Za-z0-9 /&-]{0,30}', spec[1]):
+                if kind in ('apple', 'apple_genre', 'podchart') and spec[1] not in APPLE_REGIONS or kind == 'jamendo' and spec[1] not in JAMENDO_KINDS or kind in ('audius', 'audius_pl') and not re.fullmatch(r'[A-Za-z0-9 /&-]{0,30}', spec[1]):
                     continue
                 srcs.append(spec)
             except (KeyError, IndexError, TypeError, ValueError):
                 continue
         if srcs:
-            out.append(_g(c['id'], agg.clean(c['name'], 30), agg.clean(c.get('name_en'), 40) or agg.clean(c['name'], 30), c['kind'], srcs, 'mix', 30, c['kind'] == 'style'))
+            out.append(_g(c['id'], agg.clean(c['name'], 30), agg.clean(c.get('name_en'), 40) or agg.clean(c['name'], 30), c['kind'], srcs, 'mix', 200, c['kind'] == 'style'))
     return out
 
 
@@ -454,8 +561,8 @@ def available(spec, env):
     return True
 
 
-def groups(env, now, dynamic=True):
-    """-> every list of today, with its sources (the index of the page is these without them). dynamic: also the play lists that are on top at Deezer and Audius today (two more questions, asked in parallel and given 2.5 seconds)."""
+def groups(env, now, dynamic=True, lang='zh'):
+    """-> every list of today, with its sources (the index of the page is these without them). dynamic: also the play lists that are on top at Deezer and Audius today (two more questions, asked in parallel and given 2.5 seconds). `lang`: the reader's language (zh or en): the lists of it come first inside their kind."""
     off = {x.strip() for x in str((env or {}).get('LISTEN_DISABLE') or '').lower().split(',') if x.strip()}
     out = STATIC + extra_groups()
     dyn = []
@@ -469,16 +576,16 @@ def groups(env, now, dynamic=True):
         if f.done() and not f.exception():
             for pid, title, n in f.result()[:6]:
                 if 'dzp-%s' % pid not in seen:
-                    dyn.append(dict(_g('dzp-%s' % pid, title, title, 'list', [('deezer_pl', pid)], 'first', 50, False), n=n))
+                    dyn.append(dict(_g('dzp-%s' % pid, title, title, 'list', [('deezer_pl', pid)], 'first', 100, False), n=n))
         f = futs['au']
         if f.done() and not f.exception():
             for pid, title, n in f.result()[:3]:
-                dyn.append(dict(_g('aup-%s' % pid, title, title, 'list', [('audius_pl', pid)], 'first', 50, False), n=n))
-    for cid, zh, en in NE_LISTS:
-        dyn.append(_g('nep-%s' % cid, '网易云 · ' + zh, 'NetEase · ' + en, 'list', [('netease', cid)], 'first', 50, False))
+                dyn.append(dict(_g('aup-%s' % pid, title, title, 'list', [('audius_pl', pid)], 'first', 100, False), n=n))
+    for cid, zh, en, lg in NE_LISTS:
+        dyn.append(_g('nep-%s' % cid, '网易云 · ' + zh, 'NetEase · ' + en, 'list', [('netease', cid)], 'first', 100, False, lang=lg))
     out += dyn
-    out = [g for g in out if g['id'] not in off and any(available(s, env) for s in g['sources'])]
-    return sorted(out, key=lambda g: KIND_ORDER[g['kind']])                       # (a stable sort: inside a kind the order above stays)
+    out = [g for g in out if g['id'] not in off and any(available(s, env) for s in srcs(g, lang))]
+    return sorted(out, key=lambda g: (KIND_ORDER[g['kind']], 0 if g.get('lang') in (lang, '*') else 1 if not g.get('lang') else 2))          # (a stable sort: inside a kind and a language the order above stays)
 
 
 def fetch_source(spec, env, now):
@@ -505,6 +612,8 @@ def fetch_source(spec, env, now):
         return netease_pool(spec[1], env, now)
     if kind == 'youtube':
         return youtube_pool(env, now)
+    if kind == 'podchart':
+        return podchart_pool(spec[1], spec[2], now)
     return None
 
 
@@ -532,11 +641,12 @@ def combine(lists, seed, count, shuffle, per_artist):
     return out
 
 
-def fetch_group(g, env, now, report=None, deadline=None):
+def fetch_group(g, env, now, report=None, deadline=None, lang='zh'):
     """-> the songs of a list today. The sources are asked at the same time; one that has not answered in `deadline` seconds is left out. `report` gets a line for each source."""
     deadline = GROUP_SECONDS if deadline is None else deadline
-    ex = concurrent.futures.ThreadPoolExecutor(max(1, min(8, len(g['sources']))))
-    futs = [(s, ex.submit(fetch_source, s, env, now)) for s in g['sources']]
+    specs = srcs(g, lang)
+    ex = concurrent.futures.ThreadPoolExecutor(max(1, min(12, len(specs))))
+    futs = [(s, ex.submit(fetch_source, s, env, now)) for s in specs]
     concurrent.futures.wait([f for _, f in futs], timeout=deadline)
     ex.shutdown(wait=False, cancel_futures=True)
     got = []                                                                       # [(provider, songs)] of the sources that gave songs, in the order of the list
@@ -569,7 +679,7 @@ def fetch_group(g, env, now, report=None, deadline=None):
 
 
 def public(g):
-    return {k: g[k] for k in ('id', 'name', 'name_en', 'kind', 'net') if k in g} | ({'n': g['n']} if g.get('n') else {})
+    return {k: g[k] for k in ('id', 'name', 'name_en', 'kind', 'net', 'type') if k in g} | ({'n': g['n']} if g.get('n') else {}) | ({'lang': g['lang']} if g.get('lang') else {})
 
 
 # ---------------------------------------------------------------- the answer
@@ -581,15 +691,15 @@ def _ok(obj, cache=CDN):
     return 200, 'application/json; charset=utf-8', json.dumps({'ok': True, **obj}, ensure_ascii=False).encode('utf-8'), cache
 
 
-def diag(env, now):
+def diag(env, now, lang='zh'):
     keys = {k: bool(str((env or {}).get(k) or '').strip()) for k in ('JAMENDO_CLIENT_ID', 'YOUTUBE_API_KEY')}
     keys['LISTEN_NETEASE_DIRECT'] = str((env or {}).get('LISTEN_NETEASE_DIRECT') or '') == '1'
-    gs = groups(env, now)
+    gs = groups(env, now, lang=lang)
     report, sizes = [], {}
-    for gid in ('daily', 'hot-cn', 'hot-west', 'rock', 'chill'):
+    for gid in ('daily', 'hot-cn', 'hot-west', 'rock', 'chill', 'pod-hot', 'pc-english'):
         g = next((x for x in gs if x['id'] == gid), None)
         if g:
-            sizes[gid] = len(fetch_group(g, env, now, report)[0])
+            sizes[gid] = len(fetch_group(g, env, now, report, lang=lang)[0])
     return {'keys': keys, 'groups': len(gs), 'songs': sizes, 'sources': report}
 
 
@@ -598,16 +708,17 @@ def handle(query, env, now=None):
     now = time.time() if now is None else now
     if str((env or {}).get('LISTEN') or '') == '0':
         return _fail(404, 'off', '这个功能没有开启', 'Not turned on')
+    lang = _lang((query.get('lang') or [''])[0])
     if (query.get('diag') or [''])[0]:
-        return _ok(diag(env, now), 'no-store')
+        return _ok(diag(env, now, lang), 'no-store')
     gid = (query.get('g') or [''])[0]
-    gs = groups(env, now, dynamic=not gid or bool(re.match(r'(dzp|aup)-', gid)) and gid not in {g['id'] for g in STATIC})
+    gs = groups(env, now, dynamic=not gid or bool(re.match(r'(dzp|aup)-', gid)) and gid not in {g['id'] for g in STATIC}, lang=lang)
     if not gid:
-        return _ok({'date': day_text(now), 'updated': int(now), 'groups': [public(g) for g in gs]})
+        return _ok({'date': day_text(now), 'updated': int(now), 'lang': lang, 'groups': [public(g) for g in gs]})
     g = next((x for x in gs if x['id'] == gid), None)
     if g is None:
         return _fail(404, 'none', '没有这个榜单', 'No such list')
-    items, names = fetch_group(g, env, now)
+    items, names = fetch_group(g, env, now, lang=lang)
     if not items:
         return _fail(502, 'empty', '这个榜单现在读不到', 'This list cannot be read right now')
     return _ok({'date': day_text(now), 'updated': int(now), 'group': {**public(g), 'sub': '来源：' + ' · '.join(names), 'sub_en': 'From ' + ' · '.join(names), 'items': items}})
@@ -673,10 +784,10 @@ def spotify_check(env, say):
     say('       站内播放条只能放“试听地址”；%s' % ('有，可以接。' if prev else '没有（新建的应用这个字段是空的），Spotify 只能用它的官方嵌入播放器。'))
 
 
-PROBE_GROUPS = ('daily', 'hot-cn', 'hot-west', 'rock', 'hiphop', 'classical', 'chill', 'video')
+PROBE_GROUPS = ('daily', 'hot-cn', 'hot-west', 'rock', 'hiphop', 'classical', 'chill', 'pod-hot', 'pc-english', 'video')
 
 
-def probe(env, now=None, say=print, deadline=None):
+def probe(env, now=None, say=print, deadline=None, lang='zh'):
     """The check to run on your own computer before (or after) deploying: `python -X utf8 listen.py` with the keys in the environment. Says which keys are set and valid (and why not), what each
     source gave for a few lists, and, for one song of each provider, whether its sound can be fetched from here. Nothing secret is printed. -> True when every provider that gave songs gave a sound."""
     now = time.time() if now is None else now
@@ -687,8 +798,8 @@ def probe(env, now=None, say=print, deadline=None):
     say('  %-20s %s' % ('LISTEN_NETEASE_DIRECT', '1：网易云的歌用站内播放条放整首' if str(env.get('LISTEN_NETEASE_DIRECT') or '') == '1' else '没开：网易云的歌不出现'))
     youtube_check(env, say)
     spotify_check(env, say)
-    gs = groups(env, now)
-    say('今天有 %d 个榜单 / 歌单 / 风格。' % len(gs))
+    gs = groups(env, now, lang=lang)
+    say('今天有 %d 个榜单 / 歌单 / 风格 / 播客分类（语言：%s）。' % (len(gs), lang))
     firsts = {}
     for gid in PROBE_GROUPS:
         g = next((x for x in gs if x['id'] == gid), None)
@@ -696,7 +807,7 @@ def probe(env, now=None, say=print, deadline=None):
             say('  [%s] 没有（它的来源都没开）' % gid)
             continue
         report = []
-        items, names = fetch_group(g, env, now, report, deadline)
+        items, names = fetch_group(g, env, now, report, deadline, lang)
         for r in report:
             say('  [%s] %s：%s' % (gid, r['source'], ('读到 %d 首' % r['count']) if r['ok'] else ('没读到（%s）' % r['error'])))
         say('  → %s：%d 首，来源 %s' % (g['name'], len(items), '、'.join(names) or '无'))
@@ -705,8 +816,8 @@ def probe(env, now=None, say=print, deadline=None):
                 firsts[x['from']] = x
     good = bool(firsts)
     for frm, x in firsts.items():
-        if x['audio'].startswith('https://music.163.com/song/media/outer/'):
-            say('  声音（%s）：服务已确认这首歌会给出声音地址；真能不能放，用 python -X utf8 listen.py --browser 在浏览器里试' % frm)
+        if x['audio'].startswith('https://music.163.com/song/media/outer/') or frm == 'Apple Podcasts':
+            say('  声音（%s）：服务已拿到这一首的声音地址（它要经过几次跳转）；真能不能放，用 python -X utf8 listen.py --browser 在浏览器里试' % frm)
             continue
         try:
             _, h, body = agg.fetch(x['audio'], 'audio/*,*/*;q=0.5', 4096, headers={'Range': 'bytes=0-1023', **hotapi.BROWSER}, truncate=True)
@@ -759,13 +870,13 @@ def serve_probe(env, port=8899):
     import http.server
     import webbrowser
     now = time.time()
-    gs = groups(env, now)
+    gs = groups(env, now, lang=_lang(env.get('LISTEN_LANG')))
     providers, video = {}, ''
     for gid in PROBE_GROUPS:
         g = next((x for x in gs if x['id'] == gid), None)
         if not g:
             continue
-        items, _ = fetch_group(g, env, now)
+        items, _ = fetch_group(g, env, now, lang=_lang(env.get('LISTEN_LANG')))
         for x in items:
             if x['mode'] == 'stream' and len(providers.setdefault(x['from'], [])) < 2 and x not in providers[x['from']]:
                 providers[x['from']].append(x)

@@ -27,6 +27,14 @@ BODY_LIMIT = 24_000
 PROGRAM_ID = re.compile(r"^[a-z0-9][a-z0-9-]{0,100}$")
 SLUG = re.compile(r"^[a-z0-9][a-z0-9-]{0,79}$")
 MODULES = {"featured", "selected", "personalized", "trending", "latest"}
+MODULE_RANKINGS = {"balanced", "hot", "fresh", "saved"}
+MODULE_DEFAULTS = {
+    "featured": {"ranking": "balanced", "fresh_hours": 72, "max_per_program": 1},
+    "selected": {"ranking": "balanced", "fresh_hours": 168, "max_per_program": 2},
+    "personalized": {"ranking": "balanced", "fresh_hours": 0, "max_per_program": 2},
+    "trending": {"ranking": "hot", "fresh_hours": 24, "max_per_program": 1},
+    "latest": {"ranking": "fresh", "fresh_hours": 72, "max_per_program": 3},
+}
 STATUSES = {"fixed", "dynamic", "trial", "paused"}
 COVER_ENGINES = {"canvas", "css", "static"}
 SUBSCRIPTION_TYPES = {"native", "rsshub", "rssapp"}
@@ -267,6 +275,14 @@ def dashboard(cur):
                          COALESCE(SUM(likes),0) likes, COALESCE(SUM(shares),0) shares
                   FROM ops.content_metrics_daily WHERE metric_date >= CURRENT_DATE - 6""")
     metrics = dict(cur.fetchone() or {})
+    for key in ("opens", "saves", "likes", "shares"):
+        metrics[key] = int(metrics.get(key) or 0)
+    # These rates are deliberately small-sample friendly.  They are useful for
+    # deciding whether a source is worth recommending, without pretending that
+    # a young site has statistically meaningful traffic data yet.
+    opens = metrics["opens"]
+    metrics["save_rate"] = round(metrics["saves"] * 100 / opens, 1) if opens else 0
+    metrics["like_rate"] = round(metrics["likes"] * 100 / opens, 1) if opens else 0
     cur.execute("""SELECT name, directory_id, status, consecutive_failures, last_crawled_at
                   FROM ops.programs WHERE status='paused' OR consecutive_failures >= 3
                   ORDER BY consecutive_failures DESC, updated_at DESC LIMIT 12""")
@@ -648,7 +664,21 @@ def _save_module(cur, payload):
     device = str(payload.get("device") or "all")
     if device not in {"all", "desktop", "mobile"}:
         _reply(400, "module", "设备范围不正确")
-    config = payload.get("config") if isinstance(payload.get("config"), dict) else {}
+    raw_config = payload.get("config") if isinstance(payload.get("config"), dict) else {}
+    defaults = MODULE_DEFAULTS[slug]
+    ranking = str(raw_config.get("ranking") or defaults["ranking"])
+    if ranking not in MODULE_RANKINGS:
+        _reply(400, "module", "推荐排序不正确")
+    try:
+        fresh_hours = int(raw_config.get("fresh_hours") if raw_config.get("fresh_hours") is not None else defaults["fresh_hours"])
+        max_per_program = int(raw_config.get("max_per_program") if raw_config.get("max_per_program") is not None else defaults["max_per_program"])
+    except (TypeError, ValueError):
+        _reply(400, "module", "推荐范围不正确")
+    if fresh_hours not in {0, 24, 72, 168} or max_per_program not in {1, 2, 3}:
+        _reply(400, "module", "推荐范围不正确")
+    # Config is returned by the unauthenticated public endpoint.  Persist only
+    # the small presentation rule set used by the reader, never arbitrary data.
+    config = {"ranking": ranking, "fresh_hours": fresh_hours, "max_per_program": max_per_program}
     cur.execute("""UPDATE ops.channel_modules SET enabled=%s,device=%s,limit_count=%s,
                    source_scope=%s::jsonb,config=%s::jsonb,updated_at=NOW() WHERE slug=%s""",
                 (_clean_bool(payload.get("enabled")), device, _clean_int(payload.get("limit_count"), 1, 24, 6),

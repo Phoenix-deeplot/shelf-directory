@@ -27,15 +27,15 @@ def jamendo_answer(n=30, **kw):
     return json.dumps({'headers': {'status': 'success', 'code': 0}, 'results': [jm(i, **kw) for i in range(n)]})
 
 
-def deezer_answer(tag, n=50, nopreview=()):
-    return json.dumps({'data': [{'id': 100000 + hash(tag) % 1000 * 100 + i, 'title': '%s song %d' % (tag, i), 'duration': 200, 'preview': '' if i in nopreview else 'https://cdnt-preview.dzcdn.net/api/1/1/%s/%d.mp3' % (tag, i),
-                                 'link': 'https://www.deezer.com/track/%d' % i, 'artist': {'name': '%s artist %d' % (tag, i)}, 'album': {'cover_medium': 'https://cdn-images.dzcdn.net/images/cover/%s%d/250x250.jpg' % (tag, i)}} for i in range(n)]
+def deezer_answer(tag, n=50, nopreview=(), start=0):
+    return json.dumps({'data': [{'id': 100000 + hash(tag) % 1000 * 1000 + start + i, 'title': '%s song %d' % (tag, start + i), 'duration': 200, 'preview': '' if start + i in nopreview else 'https://cdnt-preview.dzcdn.net/api/1/1/%s/%d.mp3' % (tag, start + i),
+                                 'link': 'https://www.deezer.com/track/%d' % (start + i), 'artist': {'name': '%s artist %d' % (tag, start + i)}, 'album': {'cover_medium': 'https://cdn-images.dzcdn.net/images/cover/%s%d/250x250.jpg' % (tag, start + i)}} for i in range(n)]
                        + [{'id': 'x', 'title': 'bad'}]})
 
 
-def audius_answer(tag, n=40):
-    return json.dumps({'data': [{'id': 'A%s%d' % (tag[:3].upper(), i), 'title': '%s track %d' % (tag, i), 'duration': 200 + i, 'is_streamable': True, 'permalink': '/artist%d/%s-%d' % (i, tag.lower(), i),
-                                 'user': {'name': 'au %s %d' % (tag, i)}, 'artwork': {'480x480': 'https://cdn.audius.example/%s%d.jpg' % (tag, i)}} for i in range(n)]
+def audius_answer(tag, n=40, start=0):
+    return json.dumps({'data': [{'id': 'A%s%d' % (tag[:3].upper(), start + i), 'title': '%s track %d' % (tag, start + i), 'duration': 200 + i, 'is_streamable': True, 'permalink': '/artist%d/%s-%d' % (start + i, tag.lower(), start + i),
+                                 'user': {'name': 'au %s %d' % (tag, start + i)}, 'artwork': {'480x480': 'https://cdn.audius.example/%s%d.jpg' % (tag, start + i)}} for i in range(n)]
                        + [{'id': 'GONE', 'title': 'deleted', 'is_streamable': False, 'duration': 10}, {'id': '../x', 'title': 'bad'}]})
 
 
@@ -68,6 +68,19 @@ def youtube_answer(n=20):
 
 
 REGION_BASE = {'cn': 5000, 'us': 6000, 'gb': 7000, 'jp': 8000, 'kr': 9000, 'tw': 10000, 'hk': 11000}
+POD_BASE = {'cn': 1000000, 'tw': 2000000, 'hk': 3000000, 'us': 4000000, 'gb': 5000000, 'jp': 6000000}
+
+
+def pod_lookup(ids, skip=()):
+    out = []
+    for i in ids:
+        if int(i) in skip:
+            continue
+        out.append({'wrapperType': 'podcast', 'collectionId': int(i), 'collectionName': 'Show %s' % i})
+        out.append({'wrapperType': 'podcastEpisode', 'kind': 'podcast-episode', 'collectionId': int(i), 'trackId': int(i) * 10 + 1, 'trackName': 'Episode of show %s' % i, 'collectionName': 'Show %s' % i,
+                    'episodeUrl': 'https://cdn.example/ep%s.mp3' % i, 'trackTimeMillis': 1800000 + int(i) % 1000 * 1000, 'releaseDate': '2026-10-%02dT09:00:00Z' % (10 + int(i) % 18), 'artworkUrl600': 'https://is1-ssl.mzstatic.com/p%s/600x600bb.jpg' % i,
+                    'trackViewUrl': 'https://podcasts.apple.com/us/podcast/x/id%s?i=%s1' % (i, i)})
+    return json.dumps({'resultCount': len(out), 'results': out})
 
 
 class Base(unittest.TestCase):
@@ -76,6 +89,7 @@ class Base(unittest.TestCase):
         self.asked = []
         self.down = set()
         self.slow = {}
+        self.pod_calls, self.pod_fail = 0, 0
         self.old_get, self.old_outer, self.old_group = listen._get, listen.netease_outer, listen.GROUP_SECONDS
         listen._get = self.fake
         listen.netease_outer = lambda sid: int(sid) % 3 != 0                 # every third song is not open to everybody
@@ -104,6 +118,15 @@ class Base(unittest.TestCase):
         if 'rss.applemarketingtools.com' in url:
             cc = url.split('/v2/')[1].split('/')[0]
             return apple_chart(REGION_BASE[cc])
+        if 'itunes.apple.com/lookup' in url and 'entity=podcastEpisode' in url:
+            q = urllib.parse.parse_qs(urllib.parse.urlsplit(url).query)
+            self.pod_calls += 1
+            if self.pod_fail == self.pod_calls:
+                raise agg.Refused('网站返回了错误（HTTP 500）', 'HTTP 500')
+            return pod_lookup(q['id'][0].split(','))
+        if 'itunes.apple.com/' in url and '/rss/toppodcasts/' in url:
+            cc = url.split('.com/')[1].split('/')[0]
+            return apple_genre_feed(POD_BASE[cc] + (100 * int(url.split('genre=')[1].split('/')[0]) if 'genre=' in url else 0), 60)
         if 'itunes.apple.com/lookup' in url:
             q = urllib.parse.parse_qs(urllib.parse.urlsplit(url).query)
             return apple_lookup(q['id'][0].split(','))
@@ -113,7 +136,8 @@ class Base(unittest.TestCase):
         if 'api.deezer.com/chart/0/playlists' in url:
             return self.dz_lists
         if 'api.deezer.com/chart/' in url:
-            return deezer_answer('dzc%s' % url.split('/chart/')[1].split('/')[0])
+            q = urllib.parse.parse_qs(urllib.parse.urlsplit(url).query)
+            return deezer_answer('dzc%s' % url.split('/chart/')[1].split('/')[0], 50, (), int((q.get('index') or ['0'])[0]))
         if 'api.deezer.com/playlist/' in url:
             return deezer_answer('dzp%s' % url.split('/playlist/')[1].split('/')[0], 100)
         if 'api.audius.co/v1/playlists/trending' in url:
@@ -122,20 +146,20 @@ class Base(unittest.TestCase):
             return audius_answer('PL')
         if 'api.audius.co/v1/tracks/trending' in url:
             q = urllib.parse.parse_qs(urllib.parse.urlsplit(url).query)
-            return audius_answer((q.get('genre') or ['all'])[0].replace('/', '').replace('&', '')[:5])
+            return audius_answer((q.get('genre') or ['all'])[0].replace('/', '').replace('&', '')[:5], 50, int((q.get('offset') or ['0'])[0]))
         raise AssertionError(url)
 
-    def index(self, env=None, now=NOW):
-        st, ct, body, cache = listen.handle({}, self.env if env is None else env, now)
+    def index(self, env=None, now=NOW, lang=None):
+        st, ct, body, cache = listen.handle({'lang': [lang]} if lang else {}, self.env if env is None else env, now)
         self.assertEqual((st, cache), (200, listen.CDN))
         return json.loads(body)
 
-    def group(self, gid, env=None, now=NOW):
-        st, ct, body, cache = listen.handle({'g': [gid]}, self.env if env is None else env, now)
+    def group(self, gid, env=None, now=NOW, lang=None):
+        st, ct, body, cache = listen.handle({'g': [gid], **({'lang': [lang]} if lang else {})}, self.env if env is None else env, now)
         return st, json.loads(body)
 
-    def songs(self, gid, env=None, now=NOW):
-        st, d = self.group(gid, env, now)
+    def songs(self, gid, env=None, now=NOW, lang=None):
+        st, d = self.group(gid, env, now, lang)
         self.assertEqual(st, 200, d)
         return d['group']
 
@@ -148,10 +172,26 @@ class Index(Base):
         self.assertEqual(d['date'], listen.day_text(NOW))
         self.assertEqual(ids[0], 'daily')
         self.assertEqual(kinds, sorted(kinds, key=lambda k: listen.KIND_ORDER[k]))
-        for want in ('hot-cn', 'hot-west', 'kr', 'jp', 'dzp-3155776842', 'dzp-1313621735', 'rock', 'pop', 'hiphop', 'electronic', 'jazz', 'classical', 'folk', 'latin', 'chill', 'focus', 'sleep', 'video'):
+        for want in ('hot-cn', 'hot-west', 'kr', 'jp', 'dzp-3155776842', 'dzp-1313621735', 'rock', 'pop', 'hiphop', 'electronic', 'jazz', 'classical', 'folk', 'latin', 'chill', 'focus', 'sleep', 'video', 'pod-hot', 'pod-cn', 'pod-us', 'pc-news', 'pc-business', 'pc-story', 'pc-english'):
             self.assertIn(want, ids)
-        self.assertTrue(all(set(g) <= {'id', 'name', 'name_en', 'kind', 'net', 'n'} for g in d['groups']))              # (the index says nothing about where the songs come from)
+        self.assertEqual({g['type'] for g in d['groups']}, {'music', 'podcast'})
+        self.assertGreaterEqual(len([g for g in d['groups'] if g['type'] == 'podcast']), 15)
+        self.assertEqual(d['lang'], 'zh')
+        self.assertTrue(all(set(g) <= {'id', 'name', 'name_en', 'kind', 'net', 'n', 'type', 'lang'} for g in d['groups']))              # (the index says nothing about where the songs come from)
         self.assertTrue(all(g['name'] and g['name_en'] for g in d['groups']))
+
+    def test_the_readers_language_decides_which_lists_come_first(self):
+        zh = [g['id'] for g in self.index(lang='zh')['groups']]
+        en = [g['id'] for g in self.index(lang='en')['groups']]
+        self.assertLess(zh.index('hot-cn'), zh.index('hot-west'))
+        self.assertLess(en.index('hot-west'), en.index('hot-cn'))
+        self.assertLess(zh.index('pod-cn'), zh.index('pod-us'))
+        self.assertLess(en.index('pod-us'), en.index('pod-cn'))
+        self.assertLess(en.index('dzp-1313621735'), en.index('dzp-3155776842'))              # (Deezer's US list before the world's for an English reader)
+        self.assertEqual(sorted(zh), sorted(en))                                           # (nothing is hidden: the other language is behind)
+        self.assertEqual(self.index(lang='en-US')['lang'], 'en')
+        self.assertEqual(self.index(lang='zh-TW')['lang'], 'zh')
+        self.assertEqual(self.index(lang='fr')['lang'], 'zh')
 
     def test_the_play_lists_that_are_on_top_today_are_there_and_a_double_is_not(self):
         ids = [g['id'] for g in self.index()['groups']]
@@ -193,13 +233,13 @@ class Index(Base):
 
 
 class Songs(Base):
-    def test_a_style_has_thirty_songs_from_all_its_sources_each_song_once(self):
+    def test_a_style_has_two_hundred_songs_from_all_its_sources_each_song_once(self):
         g = self.songs('rock')
         items = g['items']
-        self.assertEqual(len(items), 30)
+        self.assertEqual(len(items), 200)
         self.assertEqual({i['from'] for i in items}, {'Deezer', 'Audius', 'Apple Music'})
         keys = [(i['title'].lower(), i['artist'].lower()) for i in items]
-        self.assertEqual(len(set(keys)), 30)
+        self.assertEqual(len(set(keys)), 200)
         self.assertTrue(all(i['mode'] == 'stream' and i['audio'].startswith('https://') for i in items))
         self.assertEqual(g['sub'], '来源：Deezer · Audius · Apple Music')
         self.assertEqual(g['sub_en'], 'From Deezer · Audius · Apple Music')
@@ -223,42 +263,59 @@ class Songs(Base):
 
     def test_a_chart_keeps_the_charts_order(self):
         items = self.songs('hot-west')['items']
-        self.assertEqual(len(items), 30)
+        self.assertEqual(len(items), 160)                                                  # (Deezer's 100, Apple's 30 of the US and 30 of the UK)
         self.assertEqual({i['from'] for i in items}, {'Deezer', 'Apple Music'})
         dz = [int(i['title'].split()[-1]) for i in items if i['from'] == 'Deezer']
         self.assertEqual(dz, sorted(dz))                                                  # (the best of each source first)
         self.assertEqual(items[0]['from'], 'Deezer')
 
-    def test_the_daily_picks_are_thirty_songs_of_thirty_artists_from_several_sources(self):
+    def test_the_daily_picks_are_a_hundred_songs_of_a_hundred_artists_from_several_sources(self):
         items = self.songs('daily')['items']
-        self.assertEqual(len(items), 30)
-        self.assertEqual(len({i['artist'].lower() for i in items}), 30)
+        self.assertEqual(len(items), 100)
+        self.assertEqual(len({i['artist'].lower() for i in items}), 100)
         self.assertGreaterEqual(len({i['from'] for i in items}), 3)
+
+    def test_the_daily_picks_follow_the_readers_language(self):
+        zh = [i['from'] for i in self.songs('daily', lang='zh')['items']]
+        asked_zh = ' '.join(self.asked)
+        listen._CACHE.clear()
+        self.asked.clear()
+        en = self.songs('daily', lang='en')['items']
+        asked_en = ' '.join(self.asked)
+        self.assertIn('/cn/rss/topsongs', asked_zh)
+        self.assertIn('/tw/rss/topsongs', asked_zh)
+        self.assertNotIn('/us/rss/topsongs', asked_zh)
+        self.assertIn('/us/rss/topsongs', asked_en)
+        self.assertIn('/gb/rss/topsongs', asked_en)
+        self.assertNotIn('/cn/rss/topsongs', asked_en)
+        self.assertEqual(len(en), 100)
+        self.assertIn('Apple Music', zh)
+
 
     def test_the_first_source_that_gives_a_list_is_the_one_used(self):
         g = self.songs('hot-cn')                                                           # (without the direct play NetEase is off: Apple's charts of China, Taiwan and Hong Kong, one after the other until there are 30)
         self.assertEqual({i['from'] for i in g['items']}, {'Apple Music'})
-        self.assertEqual(len(g['items']), 30)
+        self.assertEqual(len(g['items']), 90)
         self.assertEqual(g['sub'], '来源：Apple Music')
         self.assertTrue(g['items'][0]['id'].startswith('ap:50'))                           # (China's chart first)
         g = self.songs('hot-cn', {**self.env, 'LISTEN_NETEASE_DIRECT': '1'})
         self.assertEqual(g['items'][0]['from'], '网易云音乐')
         self.assertEqual(g['sub'].split(' · ')[0], '来源：网易云音乐')
-        self.assertEqual(len(g['items']), 30)
+        self.assertEqual(len(g['items']), 33 + 90)                                         # (the 33 of 50 songs that are open, then the three charts of Apple)
 
     def test_a_first_source_with_next_to_nothing_is_filled_up_from_the_next(self):
         listen.netease_outer = lambda sid: int(sid) < 2002                                 # (two open songs: the rest of the list is filled up from the next sources)
         g = self.songs('hot-cn', {**self.env, 'LISTEN_NETEASE_DIRECT': '1'})
         self.assertEqual([i['from'] for i in g['items'][:3]], ['网易云音乐', '网易云音乐', 'Apple Music'])
-        self.assertEqual(len(g['items']), 30)
+        self.assertEqual(len(g['items']), 2 + 90)
 
-    def test_a_play_list_has_up_to_fifty_songs_in_its_order(self):
+    def test_a_play_list_has_up_to_a_hundred_songs_in_its_order(self):
         g = self.songs('dzp-3155776842')
-        self.assertEqual(len(g['items']), 50)
+        self.assertEqual(len(g['items']), 100)
         self.assertEqual(g['items'][0]['title'], 'dzp3155776842 song 0')
         g = self.songs('dzp-7001')
         self.assertEqual(g['name'], 'bedroom rave')
-        self.assertEqual(len(g['items']), 50)
+        self.assertEqual(len(g['items']), 100)
         g = self.songs('aup-PLaaa')
         self.assertEqual(g['items'][0]['from'], 'Audius')
 
@@ -289,12 +346,12 @@ class Songs(Base):
         self.assertEqual(len(listen.audius_tracks(json.dumps(au))), 3)                      # (the deleted one and the one with a strange id are not there)
 
     def test_a_chart_of_apple_falls_back_to_the_other_feed(self):
-        self.down = {'/rss/topsongs/limit=50/json'}
+        self.down = {'/rss/topsongs/limit=200/json'}
         items = self.songs('hot-cn')['items']                                                # (without the older feed the newer one is asked)
         self.assertEqual({i['from'] for i in items}, {'Apple Music'})
         self.assertTrue([u for u in self.asked if 'rss.applemarketingtools.com' in u])
         listen._CACHE.clear()
-        self.down = {'/rss/topsongs/limit=50/json', 'rss.applemarketingtools.com'}
+        self.down = {'/rss/topsongs/limit=200/json', 'rss.applemarketingtools.com'}
         self.assertEqual(self.group('hot-cn')[0], 502)
 
     def test_the_old_apple_style_feed_and_the_new_one_both_give_ids(self):
@@ -417,11 +474,11 @@ class Netease(Base):
         self.assertTrue(all(i['url'].startswith('https://music.163.com/#/song?id=') and i['dur'] > 100 and i['lic'] == '网易云音乐' and 'preview' not in i for i in items))
         self.assertEqual(self.group('nep-3778678')[1]['group']['name'], '网易云 · 热歌榜')
 
-    def test_only_the_top_forty_are_checked_and_once_per_pool(self):
+    def test_only_the_top_eighty_are_checked_and_once_per_pool(self):
         self.songs('nep-3778678')
-        self.assertEqual(len(self.checked), 40)
+        self.assertEqual(len(self.checked), 50)                                           # (the chart of the test has 50 songs, the check takes up to 80)
         self.songs('nep-3778678', now=NOW + 600)
-        self.assertEqual(len(self.checked), 40)
+        self.assertEqual(len(self.checked), 50)
 
     def test_a_chart_with_no_open_song_is_left_out(self):
         listen.netease_outer = lambda sid: False
@@ -459,6 +516,79 @@ class Netease(Base):
             self.assertEqual([self.old_outer(i) for i in '1234'], [True, False, False, False])
         finally:
             http.client.HTTPSConnection = old
+
+
+class Podcasts(Base):
+    def test_a_chart_is_the_newest_episode_of_each_show_in_the_charts_order(self):
+        g = self.songs('pod-cn')
+        items = g['items']
+        self.assertEqual((g['type'], g['kind']), ('podcast', 'chart'))
+        self.assertEqual(len(items), 60)
+        x = items[0]
+        self.assertEqual((x['mode'], x['from'], x['lic']), ('stream', 'Apple Podcasts', ''))
+        self.assertNotIn('preview', x)
+        self.assertEqual((x['title'], x['artist'], x['show']), ('Episode of show 1000000', 'Show 1000000', '1000000'))
+        self.assertEqual(x['audio'], 'https://cdn.example/ep1000000.mp3')
+        self.assertTrue(x['url'].startswith('https://podcasts.apple.com/') and x['cover'].endswith('600x600bb.jpg'))
+        self.assertRegex(x['date'], r'^2026-10-\d\d$')
+        self.assertGreater(x['dur'], 1700)
+        self.assertEqual([i['show'] for i in items], [str(1000000 + k) for k in range(60)])
+        self.assertEqual(g['sub'], '来源：Apple Podcasts')
+
+    def test_the_shows_are_asked_for_in_batches_of_fifty_at_the_same_time(self):
+        self.songs('pod-cn')
+        self.assertEqual(len([u for u in self.asked if 'entity=podcastEpisode' in u]), 2)
+        self.assertTrue(all(len(urllib.parse.parse_qs(urllib.parse.urlsplit(u).query)['id'][0].split(',')) <= 50 for u in self.asked if 'entity=podcastEpisode' in u))
+
+    def test_a_batch_that_fails_costs_only_its_own_shows(self):
+        self.pod_fail = 1
+        n = len(self.songs('pod-cn')['items'])
+        self.assertIn(n, (10, 50))
+
+    def test_a_category_follows_the_readers_language(self):
+        zh = self.songs('pc-news', lang='zh')
+        asked_zh = ' '.join(u for u in self.asked if 'toppodcasts' in u)
+        listen._CACHE.clear()
+        self.asked.clear()
+        en = self.songs('pc-news', lang='en')
+        asked_en = ' '.join(u for u in self.asked if 'toppodcasts' in u)
+        for cc in ('cn', 'tw', 'hk'):
+            self.assertIn('/%s/rss/toppodcasts/limit=200/genre=1489/' % cc, asked_zh)
+        self.assertEqual({'us', 'gb'}, {cc for cc in ('us', 'gb', 'cn', 'tw', 'hk') if '/%s/rss/toppodcasts' % cc in asked_en})
+        self.assertEqual((zh['name'], zh['name_en'], zh['type']), ('新闻', 'News', 'podcast'))
+        self.assertEqual(len(zh['items']), 180)
+        self.assertEqual(len(en['items']), 120)
+
+    def test_learn_english_and_stories_are_categories_of_their_own(self):
+        ids = {g['id']: g for g in self.index()['groups']}
+        self.assertEqual((ids['pc-english']['name'], ids['pc-english']['type']), ('英语学习', 'podcast'))
+        self.assertEqual(ids['pc-story']['name'], '故事')
+        self.songs('pc-english')
+        self.songs('pc-story')
+        asked = ' '.join(self.asked)
+        self.assertIn('genre=1498', asked)
+        self.assertIn('genre=1483', asked)
+        self.assertIn('genre=1488', asked)
+
+    def test_an_episode_without_a_sound_or_with_a_strange_one_is_left_out(self):
+        d = json.loads(pod_lookup(['1000001', '1000002', '1000003', '1000004', '1000005']))
+        eps = [r for r in d['results'] if r['wrapperType'] == 'podcastEpisode']
+        eps[0]['episodeUrl'] = ''
+        eps[1]['episodeUrl'] = 'javascript:1'
+        eps[2]['trackId'] = 'x'
+        eps[3]['episodeUrl'] = 'http://plain.example/ep.mp3'
+        got = listen.podcast_items(['1000001', '1000002', '1000003', '1000004', '1000005'], [json.dumps(d)])
+        self.assertEqual([i['show'] for i in got], ['1000004', '1000005'])
+        self.assertEqual(got[0]['audio'], 'http://plain.example/ep.mp3')                    # (an http sound is kept as it is: the page asks for the https one on an https page)
+        with self.assertRaises(agg.Refused):
+            listen.podcast_items(['1'], ['{"results": []}'])
+
+    def test_a_chart_that_cannot_be_read_is_left_out(self):
+        self.down = {'toppodcasts'}
+        self.assertEqual(self.group('pod-cn')[0], 502)
+        self.down = {'entity=podcastEpisode'}
+        listen._CACHE.clear()
+        self.assertEqual(self.group('pod-cn')[0], 502)
 
 
 class Video(Base):
@@ -513,6 +643,11 @@ class Extra(Base):
         self.assertEqual(len(self.index()['groups']), n)
 
 
+class Lang(unittest.TestCase):
+    def test_only_english_is_english(self):
+        self.assertEqual([listen._lang(x) for x in ('en', 'EN-us', 'en_GB', 'zh', 'zh-TW', '', None, 'fr', 'english')], ['en', 'en', 'en', 'zh', 'zh', 'zh', 'zh', 'zh', 'en'])
+
+
 class Combine(unittest.TestCase):
     def songs(self, tag, n):
         return [{'title': '%s %d' % (tag, i), 'artist': '%s artist %d' % (tag, i % 3)} for i in range(n)]
@@ -545,7 +680,7 @@ class Diag(Base):
         d = json.loads(body)
         self.assertEqual((st, cache), (200, 'no-store'))
         self.assertEqual(d['keys'], {'JAMENDO_CLIENT_ID': True, 'YOUTUBE_API_KEY': True, 'LISTEN_NETEASE_DIRECT': False})
-        self.assertEqual(set(d['songs']), {'daily', 'hot-cn', 'hot-west', 'rock', 'chill'})
+        self.assertEqual(set(d['songs']), {'daily', 'hot-cn', 'hot-west', 'rock', 'chill', 'pod-hot', 'pc-english'})
         self.assertTrue(all(n >= 20 for n in d['songs'].values()))
         self.assertTrue(any(r['group'] == 'daily' and r['source'] == 'deezer:0' and r['ok'] for r in d['sources']))
         self.assertTrue(any(r['source'].startswith('netease') and r['error'] == 'off' for r in d['sources']))
@@ -601,6 +736,7 @@ class Probe(Base):
         self.assertEqual(len(self.sounds), len(providers))                                   # (one sound for each provider, not for each list)
         self.assertTrue(all(r == 'bytes=0-1023' for _, r in self.sounds))                    # (a piece of it, not the whole song)
         self.assertGreaterEqual(len(self.sounds), 4)
+        self.assertIn('声音（Apple Podcasts）：服务已拿到这一首的声音地址', text)               # (an episode goes through redirects: the browser test fetches it)
         self.assertNotIn('jmkey', text)
         self.assertNotIn('ytkey', text)
 
@@ -666,7 +802,7 @@ class Probe(Base):
     def test_netease_direct_is_checked_not_fetched(self):
         ok, text = self.run_probe({**self.env, 'LISTEN_NETEASE_DIRECT': '1'})
         self.assertRegex(text, r'LISTEN_NETEASE_DIRECT\s+1：网易云的歌用站内播放条放整首')
-        self.assertIn('声音（网易云音乐）：服务已确认', text)
+        self.assertIn('声音（网易云音乐）：服务已拿到这一首的声音地址', text)
         self.assertFalse([u for u, _ in self.sounds if 'music.163.com' in u])               # (NetEase's address is not fetched here: the browser test does that)
 
     def test_nothing_made(self):

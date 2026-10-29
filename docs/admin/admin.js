@@ -371,12 +371,19 @@ function saveButton(label, action, get, after){
   const msg = el('p', { class: 'msg', role: 'status' });
   const b = el('button', { type: 'button', class: 'ok', text: label, onclick: async () => {
     b.disabled = true; msg.textContent = '保存中…'; msg.className = 'msg';
-    try{ await ops(action, get()); msg.textContent = '已保存'; msg.className = 'msg good'; if(after) await after(); }
+    try{ await ops(action, get()); msg.textContent = '已保存；公共空间刷新后会读取新设置。'; msg.className = 'msg good'; if(after) await after(); }
     catch(e){ msg.textContent = e.message; msg.className = 'msg bad'; }
     b.disabled = false;
   }});
   return { b, msg };
 }
+const MODULE_DEFAULTS={
+  featured:{ranking:'balanced',fresh_hours:72,max_per_program:1},
+  selected:{ranking:'balanced',fresh_hours:168,max_per_program:2},
+  personalized:{ranking:'balanced',fresh_hours:0,max_per_program:2},
+  trending:{ranking:'hot',fresh_hours:24,max_per_program:1},
+  latest:{ranking:'fresh',fresh_hours:72,max_per_program:3}
+};
 function programOpsCard(p){
   const pub = el('input', { type: 'checkbox', checked: !!p.public_enabled }), recommend = el('input', { type: 'checkbox', checked: !!p.recommend_enabled });
   const weight = el('input', { type: 'number', min: '-30', max: '30', value: String(p.editorial_weight || 0), 'aria-label': '权重' });
@@ -393,13 +400,13 @@ function moduleOpsCard(m){
   const on = el('input', { type:'checkbox', checked:!!m.enabled });
   const device = el('select', {}, [['all','全部设备'],['desktop','仅桌面'],['mobile','仅手机']].map(x => el('option',{value:x[0],selected:x[0]===m.device,text:x[1]})));
   const limit = el('input', { type:'number', min:'1', max:'24', value:String(m.limit_count || 6) });
-  const config = el('textarea', { rows:'3', spellcheck:'false', text:JSON.stringify(m.config || {}, null, 2), 'aria-label':'模块配置 JSON' });
-  const save = saveButton('保存栏目', 'save_module', () => {
-    let c = {}; try{ c = config.value.trim() ? JSON.parse(config.value) : {}; }catch(e){ throw new Error('模块配置必须是 JSON'); }
-    return {slug:m.slug, enabled:on.checked, device:device.value, limit_count:limit.value, config:c};
-  });
-  return el('article',{class:'card ops-card'},el('h3',{text:m.name || m.slug}),el('p',{class:'muted',text:'控制公共空间里这个区块是否出现、在哪种设备出现和展示多少篇。'}),
-    el('div',{class:'ops-grid'},el('label',{class:'check',text:'启用'},on),el('div',{},el('label',{text:'设备'}),device),el('div',{},el('label',{text:'条数'}),limit)),el('details',{class:'ops-advanced'},el('summary',{text:'高级排序与来源范围（JSON）'}),config),el('div',{class:'actions'},save.b),save.msg);
+  const c=m.config&&typeof m.config==='object'?m.config:{}, defaults=MODULE_DEFAULTS[m.slug]||MODULE_DEFAULTS.selected;
+  const ranking=el('select',{},[['balanced','平衡推荐'],['hot','热度优先'],['fresh','最新优先'],['saved','收藏优先']].map(x=>el('option',{value:x[0],selected:(c.ranking||defaults.ranking)===x[0],text:x[1]})));
+  const fresh=el('select',{},[['0','不限时间'],['24','仅近 24 小时'],['72','仅近 3 天'],['168','仅近 7 天']].map(x=>el('option',{value:x[0],selected:String(c.fresh_hours===undefined?defaults.fresh_hours:c.fresh_hours)===x[0],text:x[1]})));
+  const perSource=el('select',{},[['1','每个节目最多 1 篇'],['2','每个节目最多 2 篇'],['3','每个节目最多 3 篇']].map(x=>el('option',{value:x[0],selected:String(c.max_per_program===undefined?defaults.max_per_program:c.max_per_program)===x[0],text:x[1]})));
+  const save = saveButton('保存栏目', 'save_module', () => ({slug:m.slug, enabled:on.checked, device:device.value, limit_count:limit.value, config:{ranking:ranking.value,fresh_hours:fresh.value,max_per_program:perSource.value}}));
+  return el('article',{class:'card ops-card'},el('h3',{text:m.name || m.slug}),el('p',{class:'muted',text:'控制公共空间里这个区块的显示与推荐方式；设置会在读者刷新公共空间时生效。'}),
+    el('div',{class:'ops-grid'},el('label',{class:'check',text:'启用'},on),el('div',{},el('label',{text:'设备'}),device),el('div',{},el('label',{text:'条数'}),limit),el('div',{},el('label',{text:'排序'}),ranking),el('div',{},el('label',{text:'内容时间范围'}),fresh),el('div',{},el('label',{text:'单节目上限'}),perSource)),el('div',{class:'actions'},save.b),save.msg);
 }
 function adOpsCard(a){
   const on=el('input',{type:'checkbox',checked:!!a.enabled});
@@ -514,7 +521,7 @@ async function renderOps(){
   });
 
   const overview=panels.overview;
-  overview.append(el('section',{class:'ops-summary'},el('div',{class:'metric'},el('b',{text:String(dash.pending||0)}),el('span',{text:'待处理内容'})),el('div',{class:'metric'},el('b',{text:num(metric.opens)}),el('span',{text:'近 7 天打开'})),el('div',{class:'metric'},el('b',{text:num(metric.saves)}),el('span',{text:'近 7 天收藏'})),el('div',{class:'metric'},el('b',{text:num(metric.likes)}),el('span',{text:'近 7 天点赞'}))),el('div',{class:'actions'},sync));
+  overview.append(el('section',{class:'ops-summary'},el('div',{class:'metric'},el('b',{text:String(dash.pending||0)}),el('span',{text:'待处理内容'})),el('div',{class:'metric'},el('b',{text:num(metric.opens)}),el('span',{text:'近 7 天打开'})),el('div',{class:'metric'},el('b',{text:num(metric.saves)}),el('span',{text:'近 7 天收藏'})),el('div',{class:'metric'},el('b',{text:String(metric.save_rate||0)+'%'}),el('span',{text:'收藏转化'})),el('div',{class:'metric'},el('b',{text:String(metric.like_rate||0)+'%'}),el('span',{text:'点赞转化'}))),el('div',{class:'actions'},sync));
   if((dash.alerts||[]).length) overview.append(el('section',{class:'card'},el('h2',{text:'需要留意'}),...(dash.alerts||[]).map(x=>el('p',{class:'muted',text:(x.name||x.directory_id)+' · '+(x.status==='paused'?'已暂停':'连续采集失败 '+x.consecutive_failures+' 次')}))));
   else overview.append(el('p',{class:'empty',text:'没有需要处理的采集异常。'}));
 
@@ -569,7 +576,7 @@ async function renderOps(){
   contentPanel.append(el('div',{class:'ops-filters'},contentQuery,contentLanguage,contentState),contentCount,contentList); drawContents();
 
   const modulePanel=panels.modules;
-  modulePanel.append(el('h2',{text:'公共空间模块'}),el('p',{class:'muted',text:'控制栏目是否显示、设备范围和展示数量；高级排序与来源范围按需展开。'}),...modules.map(moduleOpsCard));
+  modulePanel.append(el('h2',{text:'公共空间模块'}),el('p',{class:'muted',text:'控制栏目是否显示、设备范围、数量和推荐方式。每个节目可设置上限，避免一个来源占满首页。'}),...modules.map(moduleOpsCard));
 
   const assetPanel=panels.assets;
   const addCover=el('button',{type:'button',text:'加入粒子网络预设',onclick:async()=>{try{await ops('save_cover',addParticleCover());await renderOps();}catch(e){say(e.message,'bad');}}});
