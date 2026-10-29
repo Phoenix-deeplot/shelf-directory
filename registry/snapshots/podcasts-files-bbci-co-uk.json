@@ -2,6 +2,21 @@
  "id": "podcasts-files-bbci-co-uk",
  "items": [
   {
+   "url": "http://www.bbc.co.uk/programmes/p0pk7d0p",
+   "title": "Is aircon the answer to a heating world?",
+   "summary": "Do you ever feel it is too hot to sleep? With climate change gradually increasing world temperatures, people across the world are becoming increasingly affected…",
+   "image": "",
+   "date": "2026-10-29",
+   "tags": [],
+   "lang": "en",
+   "type": "audio",
+   "audio": {
+    "url": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pk7c8b.mp3",
+    "type": "audio/mpeg",
+    "dur": 379
+   }
+  },
+  {
    "url": "http://www.bbc.co.uk/programmes/p0phz9z7",
    "title": "What should you eat for a better night’s sleep?",
    "summary": "Have you ever had the feeling of lying awake at night, unable to get to sleep? Many of us know what it is like to struggle with sleep, especially if we have dru…",
@@ -735,21 +750,6 @@
     "type": "audio/mpeg",
     "dur": 394
    }
-  },
-  {
-   "url": "http://www.bbc.co.uk/programmes/p0mg882t",
-   "title": "How important is play?",
-   "summary": "We all remember playgrounds when we were children – slides, swings, climbing frames. But have you heard of the new playgrounds which are designed to include thi…",
-   "image": "",
-   "date": "2025-11-13",
-   "tags": [],
-   "lang": "en",
-   "type": "audio",
-   "audio": {
-    "url": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0mg86hg.mp3",
-    "type": "audio/mpeg",
-    "dur": 400
-   }
   }
  ],
  "shelf": {
@@ -766,6 +766,6 @@
  "parser": 3,
  "status": "ok",
  "error": "",
- "etag": "\"efca25d0971d871f55e3d974f7b86261\"",
- "modified": "Thu, 22 Oct 2026 09:58:08 GMT"
+ "etag": "\"0659efafc3473ed178cfa52f79f61492\"",
+ "modified": "Thu, 29 Oct 2026 09:10:33 GMT"
 }

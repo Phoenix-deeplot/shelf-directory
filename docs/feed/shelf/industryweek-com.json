@@ -9,6 +9,52 @@
   },
   "items": [
     {
+      "id": "https://www.industryweek.com/the-economy/news/55415104/us-fed-holds-interest-rates-steady-despite-surging-inflation",
+      "url": "https://www.industryweek.com/the-economy/news/55415104/us-fed-holds-interest-rates-steady-despite-surging-inflation",
+      "title": "US Fed Holds Interest Rates Steady Despite Surging Inflation",
+      "content_text": "U.S. President Donald Trump's war on Iran, launched in late February, has sent energy prices skyrocketing and fueled domestic inflation, alongside his wide-rang…",
+      "summary": "U.S. President Donald Trump's war on Iran, launched in late February, has sent energy prices skyrocketing and fueled domestic inflation, alongside his wide-rang…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ae241ad46a1bd3839ecb569-dreamstime_xxl_35409360.png",
+      "tags": [
+        "The Economy",
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/supply-chain/news/55388479/strait-of-hormuz-watch-weekly-snapshot-of-energy-disruptions-and-maritime-conditions",
+      "url": "https://www.industryweek.com/supply-chain/news/55388479/strait-of-hormuz-watch-weekly-snapshot-of-energy-disruptions-and-maritime-conditions",
+      "title": "Strait of Hormuz Watch: Vessel Attacks Persist",
+      "content_text": "Data and insights tracking transit activity, oil prices, petroleum reserves, supply chain impacts and geopolitical developments affecting the waterway.",
+      "summary": "Data and insights tracking transit activity, oil prices, petroleum reserves, supply chain impacts and geopolitical developments affecting the waterway.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/07/6a46a3de1f56184995d3086c-dreamstime_xxl_368153131.png",
+      "tags": [
+        "Supply Chain",
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
       "id": "https://www.industryweek.com/operations/continuous-improvement/podcast/55414250/plan-do-check-act-pdca-focus-on-the-learning",
       "url": "https://www.industryweek.com/operations/continuous-improvement/podcast/55414250/plan-do-check-act-pdca-focus-on-the-learning",
       "title": "Plan, Do, Check, Act (PDCA): Focus on the Learning",
@@ -390,29 +436,6 @@
       }
     },
     {
-      "id": "https://www.industryweek.com/supply-chain/news/55388479/strait-of-hormuz-watch-weekly-snapshot-of-energy-disruptions-and-maritime-conditions",
-      "url": "https://www.industryweek.com/supply-chain/news/55388479/strait-of-hormuz-watch-weekly-snapshot-of-energy-disruptions-and-maritime-conditions",
-      "title": "Strait of Hormuz Watch: Commercial Vessel Attacks Intensify",
-      "content_text": "Data and insights tracking transit activity, oil prices, petroleum reserves, supply chain impacts and geopolitical developments affecting the waterway.",
-      "summary": "Data and insights tracking transit activity, oil prices, petroleum reserves, supply chain impacts and geopolitical developments affecting the waterway.",
-      "date_published": "2026-10-19T00:00:00Z",
-      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/07/6a46a3de1f56184995d3086c-dreamstime_xxl_368153131.png",
-      "tags": [
-        "Supply Chain",
-        "制造",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "Home | IndustryWeek"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "industryweek-com"
-      }
-    },
-    {
       "id": "https://www.industryweek.com/industryweek-us-500/media-gallery/55411240/iw-us-500-top-pharmaceutical-and-biotechnology-manufacturing-companies",
       "url": "https://www.industryweek.com/industryweek-us-500/media-gallery/55411240/iw-us-500-top-pharmaceutical-and-biotechnology-manufacturing-companies",
       "title": "IW U.S. 500: Top Pharmaceutical and Biotechnology Manufacturing Companies",
@@ -489,29 +512,6 @@
       "date_published": "2026-10-16T00:00:00Z",
       "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad2841855a0c53ae5690c37-fast_vending_1.png",
       "tags": [
-        "制造",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "Home | IndustryWeek"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "industryweek-com"
-      }
-    },
-    {
-      "id": "https://www.industryweek.com/leadership/growth-strategies/podcast/55412005/podcast-what-happened-when-fidelity-manufacturing-changed-from-family-owned-to-employee-owned",
-      "url": "https://www.industryweek.com/leadership/growth-strategies/podcast/55412005/podcast-what-happened-when-fidelity-manufacturing-changed-from-family-owned-to-employee-owned",
-      "title": "Podcast: What Happened When Fidelity Manufacturing Changed From Family-Owned To Employee-Owned",
-      "content_text": "In this episode of Great Question: a Manufacturing Podcast, Mitch Twardosky, CEO of Fidelity Manufacturing discusses the manufacturing company's recent ownershi…",
-      "summary": "In this episode of Great Question: a Manufacturing Podcast, Mitch Twardosky, CEO of Fidelity Manufacturing discusses the manufacturing company's recent ownershi…",
-      "date_published": "2026-10-15T00:00:00Z",
-      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6acff8bd19dfcf00182c4263-fidelity1mirrorgq.png",
-      "tags": [
-        "Leadership / Growth Strategies",
         "制造",
         "运营"
       ],

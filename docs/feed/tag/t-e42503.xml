@@ -4,15 +4,15 @@
   <title>公共目录 · #工程</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-e42503.xml"/>
-  <updated>2026-10-23T00:00:00Z</updated>
+  <updated>2026-10-29T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://tech.meituan.com/2026/07/28/CatPaw-LongCat.html</id>
-    <title>美团正式发布 CatPaw：全场景 AI Agent，从个人提效到企业智能化</title>
-    <link rel="alternate" type="text/html" href="https://tech.meituan.com/2026/07/28/CatPaw-LongCat.html"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">搭载美团 LongCat 2.0 的全场景 AI Agent 平台 CatPaw 正式上线，我们将模型能力从“跑得动”推向“用得好”。CatPaw 提供开箱即用的 AI 智能工作台与企业级 Agent 开发托管能力。</summary>
+    <id>https://tech.meituan.com/2026/10/29/AI-Coding-IN-Distributed-Storage-System.html</id>
+    <title>如何在“不能出错”的系统里使用 AI Coding？分布式存储实践与边界</title>
+    <link rel="alternate" type="text/html" href="https://tech.meituan.com/2026/10/29/AI-Coding-IN-Distributed-Storage-System.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">本文结合美团基础技术部在 AI 评审、问题排查和自动化开发中的真实实践，分享 AI 能帮上什么忙、容易在哪些地方犯错，以及哪些地方仍需要人来把关。比「多写代码」更重要的，是让代码和结论经得起验证。</summary>
     <source><title>美团 · 技术团队</title></source>
     <category term="架构"/>
     <category term="工程"/>

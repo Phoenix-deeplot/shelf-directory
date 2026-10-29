@@ -4,62 +4,33 @@
   <title>公共目录 · #The Big Story</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/the-big-story.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.wired.com/story/the-big-interview-podcast-jess-asato/</id>
-    <title>UK Politician Jess Asato Got Deepfaked. Now She’s Taking xAI to Court</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-big-interview-podcast-jess-asato/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Jess Asato’s public campaigning for victims of online abuse put her in the crosshairs of Grok’s deepfake scandal. Then the UK member of parliament became a vict…</summary>
+    <id>https://www.wired.com/story/the-inside-story-of-why-apple-finally-brought-a-touch-display-to-the-mac/</id>
+    <title>The Inside Story of Why Apple Finally Brought a Touch Display to the Mac</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-inside-story-of-why-apple-finally-brought-a-touch-display-to-the-mac/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">An exclusive early look at Apple’s new touchscreen MacBook Pro—the computer Apple said would never happen.</summary>
     <source><title>WIRED</title></source>
     <category term="The Big Story"/>
-    <category term="Politics"/>
-    <category term="Security"/>
-    <category term="The Big Interview"/>
+    <category term="Gear"/>
+    <category term="Gear / Gear News and Events"/>
+    <category term="Hands On"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>
   <entry>
-    <id>https://www.wired.com/story/the-rise-of-sovereign-babies/</id>
-    <title>How to Hide Your Baby From the Government</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-rise-of-sovereign-babies/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">“Sovereign citizens” think they can live beyond the reach of the state. Now the movement has influencers—and they’re selling all sorts of anarchist courses to e…</summary>
+    <id>https://www.wired.com/story/let-the-internet-die/</id>
+    <title>Please Let the Internet Die</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/let-the-internet-die/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Online spaces are captured by oligarchs and saturated with slop—and they’re exacerbating humanity’s worst impulses. It’s time to start over.</summary>
     <source><title>WIRED</title></source>
     <category term="The Big Story"/>
-    <category term="Culture / Digital Culture"/>
-    <category term="Ghost Babies"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/ghost-stories/</id>
-    <title>WIRED Ghost Stories</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/ghost-stories/"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Five hauntings from the other side of technology.</summary>
-    <source><title>WIRED</title></source>
-    <category term="The Big Story"/>
-    <category term="Spectral Edition"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/the-tragedy-of-losing-your-wikipedia-page/</id>
-    <title>The Tragedy of Having a Wikipedia Page—and Then Losing It</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-tragedy-of-losing-your-wikipedia-page/"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Every day, Wikipedia biographies of living people are flagged for deletion because the subjects are not “notable” enough. How do these poor souls take the news?</summary>
-    <source><title>WIRED</title></source>
-    <category term="The Big Story"/>
-    <category term="Culture"/>
-    <category term="Culture / Digital Culture"/>
-    <category term="Ghosted"/>
+    <category term="Give Up the Ghost"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>

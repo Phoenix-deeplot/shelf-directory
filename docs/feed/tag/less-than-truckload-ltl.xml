@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/less-than-truckload-ltl.xml</id>
+  <title>公共目录 · #Less than Truckload (LTL)</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/less-than-truckload-ltl.xml"/>
+  <updated>2026-10-28T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/old-dominions-tonnage-turns-positive-recovery-needs-demand-inflection</id>
+    <title>Old Dominion’s tonnage turns positive; recovery needs demand inflection</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/old-dominions-tonnage-turns-positive-recovery-needs-demand-inflection"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Old Dominion reported positive tonnage growth in September for the first time in more than two years, but company executives emphasized that returning to upcycl…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="Less than Truckload (LTL)"/>
+    <category term="News"/>
+    <category term="Less-than-truckload pricing"/>
+    <category term="LTL carriers"/>
+    <category term="LTL tonnage"/>
+    <category term="LTL yields"/>
+    <category term="Old Dominion"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/forward-air-saves-significant-portion-of-major-customer-account</id>
+    <title>Forward Air saves ‘significant portion’ of major customer account</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/forward-air-saves-significant-portion-of-major-customer-account"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Forward Air has finalized a two-year deal to preserve a major share of the business from a contract logistics customer it had earlier warned it could lose. The…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="Less than Truckload (LTL)"/>
+    <category term="Logistics"/>
+    <category term="News"/>
+    <category term="contract logistics"/>
+    <category term="Forward Air"/>
+    <category term="LTL carriers"/>
+    <category term="Omni Logistics"/>
+  </entry>
+</feed>

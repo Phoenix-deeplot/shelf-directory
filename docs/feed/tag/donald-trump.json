@@ -9,20 +9,44 @@
   },
   "items": [
     {
-      "id": "https://slate.com/news-and-politics/2026/10/donald-trump-epstein-files-new-report-women-rape.html?via=rss",
-      "url": "https://slate.com/news-and-politics/2026/10/donald-trump-epstein-files-new-report-women-rape.html?via=rss",
-      "title": "We Finally Know Why Trump Has Tried So Hard to Hide the Epstein Files",
-      "content_text": "This is its own kind of October surprise.",
-      "summary": "This is its own kind of October surprise.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/f8942dfd-bd16-4fe4-8ec9-aafa00e46e14.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "id": "https://slate.com/news-and-politics/2026/10/2020-election-tuesday-midterms-trump-threats.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/2020-election-tuesday-midterms-trump-threats.html?via=rss",
+      "title": "Why There’s a Real Risk of a Replay of the 2020 Election Come Tuesday",
+      "content_text": "These are ominous words from the president.",
+      "summary": "These are ominous words from the president.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/89e88f09-fe9f-4b08-b1de-e26eff3350ff.jpeg?crop=1403%2C936%2Cx0%2Cy0",
       "tags": [
-        "Democrats",
         "Donald Trump",
-        "Republicans",
-        "Sexual Assault",
-        "Women",
-        "Jeffrey Epstein",
+        "Elections",
+        "Voting",
+        "Voting Rights",
+        "Capitol Riot",
+        "2026 Midterms",
+        "Executive Dysfunction",
+        "评论"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/podcasts/what-next/2026/10/will-the-new-epstein-release-force-the-doj-to-investigate?via=rss",
+      "url": "https://slate.com/podcasts/what-next/2026/10/will-the-new-epstein-release-force-the-doj-to-investigate?via=rss",
+      "title": "The Next Epstein Files",
+      "content_text": "A longshot bid for a special counsel.",
+      "summary": "A longshot bid for a special counsel.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/a4900ac5-9954-478d-b06b-349781442b56.jpeg?crop=4500%2C3000%2Cx0%2Cy0",
+      "tags": [
+        "Department of Justice",
+        "Donald Trump",
         "评论",
         "文化"
       ],
@@ -37,43 +61,19 @@
       }
     },
     {
-      "id": "https://slate.com/business/2026/10/trump-fico-credit-score-mortgage-monopoly.html?via=rss",
-      "url": "https://slate.com/business/2026/10/trump-fico-credit-score-mortgage-monopoly.html?via=rss",
-      "title": "Unfortunately, I Must Hand It to the Trump Administration in This One Instance",
-      "content_text": "A monopoly on mortgages is finally loosening. Homebuyers aren’t the only ones who stand to benefit.",
-      "summary": "A monopoly on mortgages is finally loosening. Homebuyers aren’t the only ones who stand to benefit.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/2ed59c56-dbf8-4f04-abf0-0195d2d014aa.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "id": "https://slate.com/news-and-politics/2026/10/senate-race-pappas-sununu-new-hampshire.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/senate-race-pappas-sununu-new-hampshire.html?via=rss",
+      "title": "My State’s Democratic Candidate Has Zero Rizz. He Could Decide Control of the Senate. Good!",
+      "content_text": "In a year of insurgents and stars, this establishment-versus-establishment contest is deeply revealing.",
+      "summary": "In a year of insurgents and stars, this establishment-versus-establishment contest is deeply revealing.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/837cf875-cf1d-4f95-9633-aedd8ffe5cf6.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
       "tags": [
         "Donald Trump",
-        "Housing",
-        "Personal Finance",
-        "Finance",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/podcasts/what-next/2026/10/is-healthcare-still-the-democrats-best-issue?via=rss",
-      "url": "https://slate.com/podcasts/what-next/2026/10/is-healthcare-still-the-democrats-best-issue?via=rss",
-      "title": "Trump Slashed Healthcare. Is It Payback Time?",
-      "content_text": "Get ready for the fight to define “Medicare for All.”",
-      "summary": "Get ready for the fight to define “Medicare for All.”",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/7bb12ffa-c4ef-4502-aba3-f5d8e1882767.jpeg?crop=4500%2C3000%2Cx0%2Cy0",
-      "tags": [
-        "Donald Trump",
-        "Health Care",
-        "Medicare",
+        "Elections",
+        "Senate",
+        "New Hampshire",
+        "2026 Midterms",
         "评论",
         "文化"
       ],

@@ -9,17 +9,17 @@
   },
   "items": [
     {
-      "id": "https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/",
-      "url": "https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/",
-      "title": "This AI Radio Host Speaks Spanish and Backs Immigrants. It’s Winning Over Listeners",
-      "content_text": "Coyotec is bilingual, swears, and tells listeners how to defend themselves against ICE. Its popularity comes as more broadcasters are experimenting with artific…",
-      "summary": "Coyotec is bilingual, swears, and tells listeners how to defend themselves against ICE. Its popularity comes as more broadcasters are experimenting with artific…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adbe71b429a21d2813df7cd/master/pass/GGC%20-%205-watermarked.jpg",
+      "id": "https://www.wired.com/story/adult-video-stars-want-to-teach-you-how-to-make-dinner/",
+      "url": "https://www.wired.com/story/adult-video-stars-want-to-teach-you-how-to-make-dinner/",
+      "title": "Pornhub Stars Want to Teach You How to Make Dinner",
+      "content_text": "Faced with censorship and anti-porn laws, the adult site is encouraging creators to embrace cooking, gaming, podcasting, and other safe-for-work content.",
+      "summary": "Faced with censorship and anti-porn laws, the adult site is encouraging creators to embrace cooking, gaming, podcasting, and other safe-for-work content.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adede77dbc6676891653f9d/master/pass/SFW%20pornhub.jpg",
       "tags": [
         "Culture",
         "Culture / Digital Culture",
-        "Making Waves",
+        "Buttoned Up",
         "科技",
         "社会"
       ],
@@ -34,71 +34,17 @@
       }
     },
     {
-      "id": "https://www.wired.com/story/the-tragedy-of-losing-your-wikipedia-page/",
-      "url": "https://www.wired.com/story/the-tragedy-of-losing-your-wikipedia-page/",
-      "title": "The Tragedy of Having a Wikipedia Page—and Then Losing It",
-      "content_text": "Every day, Wikipedia biographies of living people are flagged for deletion because the subjects are not “notable” enough. How do these poor souls take the news?",
-      "summary": "Every day, Wikipedia biographies of living people are flagged for deletion because the subjects are not “notable” enough. How do these poor souls take the news?",
-      "date_published": "2026-10-26T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada50d1133035a6bb08be2d/master/pass/WIRED-Ghost-Stories-Wikipedia-Notable-top.jpg",
-      "tags": [
-        "The Big Story",
-        "Culture",
-        "Culture / Digital Culture",
-        "Ghosted",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/the-hottest-new-side-hustle-is-stripping-copper-wire-and-posting-about-it/",
-      "url": "https://www.wired.com/story/the-hottest-new-side-hustle-is-stripping-copper-wire-and-posting-about-it/",
-      "title": "The Hottest New Side Hustle Is Stripping Copper Wire and Posting About It",
-      "content_text": "Copper prices are at record highs, but for TikTok creators, the real money may be in teaching others how to strip wire—and selling them the tools to do it.",
-      "summary": "Copper prices are at record highs, but for TikTok creators, the real money may be in teaching others how to strip wire—and selling them the tools to do it.",
-      "date_published": "2026-10-26T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada4995fd62e299be0487da/master/pass/Business_Meet%20The%20TikTokers%20Stripping%20Copper%20As%20a%20Side%20Hustle_v2.jpg",
-      "tags": [
-        "Business",
-        "Business / Social Media",
-        "Culture",
-        "Culture / Digital Culture",
-        "Copping Copper",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/grok-says-its-ai-generated-version-of-the-odyssey-is-not-historically-accurate/",
-      "url": "https://www.wired.com/story/grok-says-its-ai-generated-version-of-the-odyssey-is-not-historically-accurate/",
-      "title": "Grok Says Its AI-Generated Version of ‘The Odyssey’ Is ‘Not Historically Accurate’",
-      "content_text": "Months after Elon Musk declared that the xAI model would outclass Christopher Nolan’s mythological epic, the bot itself admitted defeat.",
-      "summary": "Months after Elon Musk declared that the xAI model would outclass Christopher Nolan’s mythological epic, the bot itself admitted defeat.",
-      "date_published": "2026-10-26T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adfd0bd71d0e77d5637708d/master/pass/MCDODYS_UV008.jpg",
+      "id": "https://www.wired.com/story/macmillan-staff-say-the-publisher-threw-a-party-for-a-workplace-ai-assistant-that-was-later-killed/",
+      "url": "https://www.wired.com/story/macmillan-staff-say-the-publisher-threw-a-party-for-a-workplace-ai-assistant-that-was-later-killed/",
+      "title": "Macmillan Staff Say the Publisher Threw a Party for a Workplace AI Assistant That Was Later Killed",
+      "content_text": "Workers tell WIRED that NOA—or “No Ordinary Assistant”—was unhelpful. Bestselling authors also say AI is ruining their relationships with Big Five publishers.",
+      "summary": "Workers tell WIRED that NOA—or “No Ordinary Assistant”—was unhelpful. Bestselling authors also say AI is ruining their relationships with Big Five publishers.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ad92ed7649bdf60df6fd555/master/pass/culture_macmillon_failed_ai_project.jpg",
       "tags": [
         "Culture",
-        "Culture / Digital Culture",
-        "Culture / Movies",
-        "Epic Fail",
+        "Culture / Books",
+        "Party Foul",
         "科技",
         "社会"
       ],

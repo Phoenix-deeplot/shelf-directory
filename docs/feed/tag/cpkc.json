@@ -1,0 +1,39 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #CPKC",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/cpkc.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/first-look-cpkc-earnings-2",
+      "url": "https://www.freightwaves.com/news/first-look-cpkc-earnings-2",
+      "title": "First look: CPKC earnings",
+      "content_text": "CPKC’s third-quarter revenue and earnings climbed, though higher fuel costs squeezed margins. The post First look: CPKC earnings appeared first on FreightWaves.",
+      "summary": "CPKC’s third-quarter revenue and earnings climbed, though higher fuel costs squeezed margins. The post First look: CPKC earnings appeared first on FreightWaves.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "News",
+        "Railroad",
+        "Top Stories",
+        "CPKC",
+        "earnings",
+        "intermodal",
+        "railroads"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}

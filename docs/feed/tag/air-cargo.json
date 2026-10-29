@@ -88,33 +88,6 @@
         "type": "article",
         "shelf": "freightwaves-com"
       }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/airbus-sees-46-freighter-increase-by-2045-amid-stable-air-cargo-growth",
-      "url": "https://www.freightwaves.com/news/airbus-sees-46-freighter-increase-by-2045-amid-stable-air-cargo-growth",
-      "title": "Airbus sees 46% freighter increase by 2045 amid stable air cargo growth",
-      "content_text": "The Airbus 20-year outlook for freighter demand is little changed from last year, showing a global fleet nearly 50% larger than today. The post Airbus sees 46%…",
-      "summary": "The Airbus 20-year outlook for freighter demand is little changed from last year, showing a global fleet nearly 50% larger than today. The post Airbus sees 46%…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "Air Cargo",
-        "American Shipper",
-        "News",
-        "air cargo industry outlook",
-        "Airbus",
-        "forecast",
-        "freighter aircraft",
-        "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
     }
   ]
 }

@@ -4,19 +4,222 @@
   <title>公共目录 · #科学</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-1f88be.xml"/>
-  <updated>2026-10-28T00:00:00Z</updated>
+  <updated>2026-10-29T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://science.nasa.gov/earth/earth-observatory/the-land-of-the-standing-up-rocks/</id>
-    <title>The Land of the Standing-Up Rocks</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/earth/earth-observatory/the-land-of-the-standing-up-rocks/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">A national monument since the 1920s, Chiricahua is America’s newest national park.</summary>
+    <id>https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/</id>
+    <title>Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Artemis II Commander Reid Wiseman has been named Caltech associate vice president and deputy director of NASA’s Jet Propulsion Laboratory in Southern California…</summary>
+    <source><title>NASA</title></source>
+    <category term="Jet Propulsion Laboratory"/>
+    <category term="Artemis 2"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/</id>
+    <title>Arnab Strikes India</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">The first named storm of the North Indian Ocean’s cyclone season made landfall along the coast of Andhra Pradesh.</summary>
     <source><title>NASA</title></source>
     <category term="Earth Observatory"/>
-    <category term="Landsat 9"/>
-    <category term="Topography"/>
+    <category term="Hurricanes &amp; Typhoons"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/</id>
+    <title>APOD: 29 October 2026 – The Horns of Venus</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">APOD Science APOD APOD: 29 October 2026 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the…</summary>
+    <source><title>NASA</title></source>
+    <category term="APOD"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261027063814.htm</id>
+    <title>Your blood pressure could be dangerous even when your numbers look normal</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261027063814.htm"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Researchers have discovered a small group of brain cells that prevents dangerous blood pressure swings, even when average readings appear normal. The finding re…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261027063708.htm</id>
+    <title>Smaller EV batteries, longer range? Scientists may have found a way</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261027063708.htm"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Scientists have developed a new technology that could make electric vehicle batteries smaller, lighter, and longer-lasting, potentially allowing cars to travel…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261027063713.htm</id>
+    <title>Scientists just broke a textbook rule of physics</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261027063713.htm"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Scientists have defied a long-standing rule of laser physics by generating X-rays with much higher energies than conventional theory predicts. The surprising di…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261027063707.htm</id>
+    <title>Scientists discover a secret glow in toxic fire salamanders</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261027063707.htm"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Researchers have discovered a surprising hidden ability in Europe's familiar black-and-yellow fire salamanders: they glow green and cyan under ultraviolet light…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261027063704.htm</id>
+    <title>Scientists discover a hidden reason why muscles weaken with age</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261027063704.htm"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Scientists have uncovered a hidden defense mechanism in aging muscles that sacrifices strength to protect cells from damage. In mice, partially restoring a cruc…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261027063702.htm</id>
+    <title>Scientists discover a hidden oxygen reservoir deep inside Earth</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261027063702.htm"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Scientists have discovered that magma deep inside Earth can store surprising amounts of extra oxygen, potentially revealing a hidden contributor to our planet's…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261026225615.htm</id>
+    <title>Scientists discover a hidden 100-million-year-old volcanic system</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261026225615.htm"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Scientists have uncovered a long-lost volcanic system in Iran that dates back roughly 100 million years, revealing a hidden chapter in Earth's tectonic history.…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261027063659.htm</id>
+    <title>NASA’s Artemis I mission reveals surprising radiation levels near the Moon</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261027063659.htm"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">NASA’s Artemis I mission has revealed that cosmic radiation near the Moon is higher than in Earth orbit, but not by as much as scientists might expect. Tiny exp…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261027063710.htm</id>
+    <title>Meteors don't just burn up. What really happens is far more violent</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261027063710.htm"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Scientists have uncovered seven surprising stages that space rocks go through as they hurtle toward Earth, revealing that melting and violent fragmentation, rat…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261026225610.htm</id>
+    <title>Earth's ice ages may have been driven by a hidden ocean chain reaction</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261026225610.htm"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Scientists have uncovered a surprising connection between Earth's opposite poles that may help explain how the planet plunged into past ice ages. New research s…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261027063701.htm</id>
+    <title>Antarctica’s “Doomsday Glacier” could raise sea levels twice as much as predicted</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261027063701.htm"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Antarctica’s Thwaites Glacier may be melting twice as much as previously predicted, even without additional global warming. Scientists discovered that warm ocea…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261027231021.htm</id>
+    <title>A single sauna session sends immune cells surging through your body</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261027231021.htm"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">A new Finnish study reveals that just 30 minutes in a sauna can temporarily flood the bloodstream with additional white blood cells, potentially helping the imm…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/</id>
+    <title>Webb Sees Turbulent Star Nursery</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">In this Webb image released on Oct. 22, 2026, we see a turbulent cauldron of star formation filled with dense clumps of gas. This region is named N159 and is lo…</summary>
+    <source><title>NASA</title></source>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/</id>
+    <title>NASA Welcomes Vietnam as Newest Artemis Accords Signatory</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">The Socialist Republic of Vietnam became the 78th nation to sign the Artemis Accords, joining a growing coalition of like-minded nations committed to the peacef…</summary>
+    <source><title>NASA</title></source>
+    <category term="Artemis Accords"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/</id>
+    <title>NASA University Challenge Ignites Trajectory of Drone Entrepreneur</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Five years ago, Gavin Gardner was a Michigan State University engineering student researching next-generation drone technology as part of a NASA grant. Garder e…</summary>
+    <source><title>NASA</title></source>
+    <category term="Aeronautics"/>
+    <category term="University Innovation"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/</id>
+    <title>NASA Selects 19 New Citizen Science Proposals in 2026</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">So far, 2026 has seen a flood of successes for volunteers who do NASA science, exemplifying NASA’s commitment to gold-standard science—transparent, reproducible…</summary>
+    <source><title>NASA</title></source>
     <category term="航天"/>
     <category term="科学"/>
   </entry>
@@ -38,7 +241,7 @@
     <link rel="alternate" type="text/html" href="https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/"/>
     <updated>2026-10-28T00:00:00Z</updated>
     <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">APOD Science APOD APOD: 2026 October 28 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the…</summary>
+    <summary type="text">APODScienceAPODAPOD: 2026 October 28 – The…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover…</summary>
     <source><title>NASA</title></source>
     <category term="APOD"/>
     <category term="航天"/>
@@ -177,70 +380,6 @@
     <category term="科学"/>
   </entry>
   <entry>
-    <id>https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/</id>
-    <title>NASA’s Neo Surveyor Sunshade</title>
-    <link rel="alternate" type="text/html" href="https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">A technician inspects the large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission in this image released on Oct. 26, 2026. The sunshade structure, whi…</summary>
-    <source><title>NASA</title></source>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/</id>
-    <title>NASA Invites Media to Crew Completion of Yearlong Mars Simulation</title>
-    <link rel="alternate" type="text/html" href="https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">The four volunteers who lived and worked in a simulated NASA Mars mission for more than a year will exit their habitat on Saturday, Oct. 31, after 378 days of i…</summary>
-    <source><title>NASA</title></source>
-    <category term="CHAPEA Mission 2"/>
-    <category term="Human Research Program"/>
-    <category term="Johnson Space Center"/>
-    <category term="Missions"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/</id>
-    <title>How a Johnson Mentor Shapes the Next Generation of NASA Talent</title>
-    <link rel="alternate" type="text/html" href="https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">When Rice University student Malvika Bhardwaj asked her mentor Daniel Cohen, a Guidance, Navigation &amp; Control (GN&amp;C) engineer at NASA’s Johnson Space Center, wh…</summary>
-    <source><title>NASA</title></source>
-    <category term="General"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/</id>
-    <title>APOD: 2026 October 27 – Noctilucent Clouds over Sweden</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">APOD Science APOD APOD: 2026 October 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…</summary>
-    <source><title>NASA</title></source>
-    <category term="APOD"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/</id>
-    <title>A-81 Reaches South Georgia</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">The Antarctic iceberg made a relatively quick exit from the Weddell Sea, only to slow at the edge of a remote island’s underwater shelf.</summary>
-    <source><title>NASA</title></source>
-    <category term="Earth Observatory"/>
-    <category term="Ice &amp; Glaciers"/>
-    <category term="Terra"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
     <id>https://www.sciencedaily.com/releases/2026/10/261025073038.htm</id>
     <title>Tiny magnetic vortices could help computers work more like your brain</title>
     <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261025073038.htm"/>
@@ -269,17 +408,6 @@
     <updated>2026-10-26T00:00:00Z</updated>
     <published>2026-10-26T00:00:00Z</published>
     <summary type="text">Scientists have identified a hidden cause of inflammatory bowel disease: antibodies that disable the immune system’s natural ability to control inflammation, po…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261022081259.htm</id>
-    <title>Scientists discover Arctic sea ice loss could be far worse than predicted</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261022081259.htm"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Arctic winter sea ice could disappear much faster than scientists previously expected, according to new research using climate clues from 6,000 years ago. By co…</summary>
     <source><title>Latest Science News -- ScienceDaily</title></source>
     <category term="学术"/>
     <category term="科学"/>
@@ -373,36 +501,6 @@
     <category term="科学"/>
   </entry>
   <entry>
-    <id>https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/</id>
-    <title>NASA’s Perseverance Views Dust at Neretva Vallis</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Description This 360-degree look at Neretva Vallis within Mars’ Jezero Crater was stitched together using 217 images acquired by the rover’s Mastcam-Z on May 20…</summary>
-    <source><title>NASA</title></source>
-    <category term="Mars 2020"/>
-    <category term="Photojournal"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/</id>
-    <title>NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust</title>
-    <link rel="alternate" type="text/html" href="https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Over 1,645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of spacesuit materials…</summary>
-    <source><title>NASA</title></source>
-    <category term="Mars 2020"/>
-    <category term="General"/>
-    <category term="Jet Propulsion Laboratory"/>
-    <category term="Mars"/>
-    <category term="Perseverance (Rover)"/>
-    <category term="Planetary Science Division"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
     <id>https://www.sciencedaily.com/releases/2026/10/261024222000.htm</id>
     <title>Three giant black holes discovered in a galaxy from the dawn of time</title>
     <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261024222000.htm"/>
@@ -464,116 +562,6 @@
     <updated>2026-10-25T00:00:00Z</updated>
     <published>2026-10-25T00:00:00Z</published>
     <summary type="text">A cannabis-derived ingredient commonly found in sleep gummies may be more habit-forming than previously thought, with new research showing that repeated exposur…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261024221956.htm</id>
-    <title>New evidence suggests spinosaurus spent most of its life underwater</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261024221956.htm"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">Millions of years after animals first conquered land, some took an extraordinary evolutionary U-turn and returned to the water. Using machine learning and thous…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261024222026.htm</id>
-    <title>Low-dose aspirin linked to 70% lower dementia risk, but there's a catch</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261024222026.htm"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">A common, inexpensive medication could hold an unexpected clue to preventing dementia. Researchers found that older adults with a specific genetic profile had a…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261024222030.htm</id>
-    <title>Just two drinks a day may be far riskier than you think</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261024222030.htm"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">A major new study reveals that drinking just two alcoholic beverages a day is associated with a 1 in 25 lifetime risk of death from alcohol-related causes, chal…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261025222339.htm</id>
-    <title>A simple liquid can stop cavities without drilling, major study confirms</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261025222339.htm"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">A simple liquid painted onto teeth in seconds can stop cavities without drilling, injections, or anesthesia, according to a major clinical trial involving young…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261023023713.htm</id>
-    <title>Your blood could reveal inflammatory bowel disease 10 years before diagnosis</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261023023713.htm"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">A major study has uncovered hidden warning signs of inflammatory bowel disease in the blood up to 10 years before diagnosis. Researchers discovered distinct ant…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261023023718.htm</id>
-    <title>These tiny snakes roll four times faster than they slither</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261023023718.htm"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">Tiny snakes in Southeast Asia have mastered an extraordinary escape technique: rolling across the ground at speeds up to four times faster than ordinary slither…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261023002905.htm</id>
-    <title>Scientists discover a hidden switch that burns fat and blocks new fat cells</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261023002905.htm"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">Scientists have discovered that switching off a protein called Mitch makes human cells burn more fat and prevents new fat cells from developing. The breakthroug…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261023023731.htm</id>
-    <title>Scientists discover a hidden flaw that challenges 40 years of superconductor science</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261023023731.htm"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">A superconducting material studied for 40 years has turned out to be far more complex than scientists believed. Advanced 3D imaging revealed a hidden patchwork…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261023023734.htm</id>
-    <title>NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261023023734.htm"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">Tiny samples from asteroid Bennu are rewriting scientists' understanding of how our Solar System formed. New evidence suggests that Bennu was born where materia…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261023003337.htm</id>
-    <title>Mediterranean diet may boost tiny proteins that protect the heart and brain</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261023003337.htm"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">Scientists have uncovered a surprising new clue to why the Mediterranean diet is so good for the heart, brain, and healthy aging. Researchers at USC found that…</summary>
     <source><title>Latest Science News -- ScienceDaily</title></source>
     <category term="学术"/>
     <category term="科学"/>

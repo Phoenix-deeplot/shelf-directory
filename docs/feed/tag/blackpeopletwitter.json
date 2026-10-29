@@ -1,0 +1,35 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #BlackPeopleTwitter",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/blackpeopletwitter.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.reddit.com/r/BlackPeopleTwitter/comments/1xhzclj/i_couldnt_agree_more_with_this_trade_proposal/",
+      "url": "https://www.reddit.com/r/BlackPeopleTwitter/comments/1xhzclj/i_couldnt_agree_more_with_this_trade_proposal/",
+      "title": "I couldn't agree more with this trade proposal.",
+      "content_text": "If we had a Racial Draft 2026 (classic 2004 Dave Chappelle skit) I think this deal is fair. Shout out to RoyIsDaTruth. submitted by /u/Large-Lack-2933 to r/Blac…",
+      "summary": "If we had a Racial Draft 2026 (classic 2004 Dave Chappelle skit) I think this deal is fair. Shout out to RoyIsDaTruth. submitted by /u/Large-Lack-2933 to r/Blac…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://preview.redd.it/gujnk046o9yh1.jpeg?width=640&crop=smart&auto=webp&s=715d92ce58e543410130eecf3cbf32123fd35281",
+      "tags": [
+        "BlackPeopleTwitter",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    }
+  ]
+}

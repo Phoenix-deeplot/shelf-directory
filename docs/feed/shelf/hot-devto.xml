@@ -4,15 +4,15 @@
   <title>公共目录 · DEV 社区（本周）</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/hot-devto.xml"/>
-  <updated>2026-10-28T00:00:00Z</updated>
+  <updated>2026-10-29T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://dev.to/nyaomaru/is-kit-reached-100-stars-heres-what-changed-since-50-49pf</id>
-    <title>is-kit Reached 100 Stars ⭐🎉 Here’s What Changed Since 50</title>
-    <link rel="alternate" type="text/html" href="https://dev.to/nyaomaru/is-kit-reached-100-stars-heres-what-changed-since-50-49pf"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">第 7 名 · ♥ 122 · nyaomaru · 36 条评论 — Hoi hoi! YAY! is-kit just reached 100 GitHub stars⭐ 🎉🎉🎉 When it reached 50 stars, I wrote about how...</summary>
+    <id>https://dev.to/hemapriya_kanagala/dev-pet-corner-3-show-us-your-pets-35n</id>
+    <title>🐾 DEV Pet Corner #3: Show Us Your Pets!</title>
+    <link rel="alternate" type="text/html" href="https://dev.to/hemapriya_kanagala/dev-pet-corner-3-show-us-your-pets-35n"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">第 7 名 · ♥ 69 · Hemapriya Kanagala · 15 条评论 — TL;DR DEV Pet Corner is back for another Sunday! It's a weekly series where we take a little break...</summary>
     <source><title>DEV 社区（本周）</title></source>
     <category term="文章"/>
     <category term="社区"/>
@@ -21,9 +21,20 @@
     <id>https://dev.to/devteam/your-dev-posts-have-a-beautiful-new-share-card-4be8</id>
     <title>Your DEV posts have a beautiful new share card ✨</title>
     <link rel="alternate" type="text/html" href="https://dev.to/devteam/your-dev-posts-have-a-beautiful-new-share-card-4be8"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">第 2 名 · ♥ 69 · Jess Lee · 15 条评论 — The image that shows up when you share a DEV post just got a brand-new look! I got to work on...</summary>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">第 1 名 · ♥ 85 · Jess Lee · 19 条评论 — The image that shows up when you share a DEV post just got a brand-new look! I got to work on...</summary>
+    <source><title>DEV 社区（本周）</title></source>
+    <category term="文章"/>
+    <category term="社区"/>
+  </entry>
+  <entry>
+    <id>https://dev.to/canro91/to-recover-from-burnout-writing-became-my-therapy-and-this-week-my-first-coding-book-turns-1-year-388e</id>
+    <title>When Recovering From Burnout, Writing Became My Therapy. And This Week My First Coding Book Turns 1 Year Old. Ask Me Anything!</title>
+    <link rel="alternate" type="text/html" href="https://dev.to/canro91/to-recover-from-burnout-writing-became-my-therapy-and-this-week-my-first-coding-book-turns-1-year-388e"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">第 8 名 · ♥ 29 · Cesar Aguirre · 28 条评论 — Hi, I'm Cesar, a Senior Software Engineer with 10+ years of experience. In 2023, I got sick and...</summary>
     <source><title>DEV 社区（本周）</title></source>
     <category term="文章"/>
     <category term="社区"/>
@@ -32,9 +43,9 @@
     <id>https://dev.to/xulingfeng/stratagems-32-the-ai-logged-a-withdrawal-p-took-it-as-proof-2jo2</id>
     <title>Stratagems #32: The AI Logged a Withdrawal. P Took It as Proof.</title>
     <link rel="alternate" type="text/html" href="https://dev.to/xulingfeng/stratagems-32-the-ai-logged-a-withdrawal-p-took-it-as-proof-2jo2"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">第 8 名 · ♥ 88 · xulingfeng · 31 条评论 — Make empty what is already empty. Let doubt breed inside doubt. — The 36 Stratagems, The Empty Fort...</summary>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">第 5 名 · ♥ 107 · xulingfeng · 54 条评论 — Make empty what is already empty. Let doubt breed inside doubt. — The 36 Stratagems, The Empty Fort...</summary>
     <source><title>DEV 社区（本周）</title></source>
     <category term="文章"/>
     <category term="社区"/>
@@ -43,20 +54,9 @@
     <id>https://dev.to/dj29/im-not-on-the-dev-team-i-still-debugged-their-missing-badges-from-public-code-and-my-first-test-18oo</id>
     <title>I'm Not on the DEV Team. I Still Debugged Their Missing Badges From Public Code. (And My First Test Was Wrong.)</title>
     <link rel="alternate" type="text/html" href="https://dev.to/dj29/im-not-on-the-dev-team-i-still-debugged-their-missing-badges-from-public-code-and-my-first-test-18oo"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">第 6 名 · ♥ 102 · Dhruv Jani · 41 条评论 — I’m not on the DEV team. I don’t have an admin panel, production database access, or internal Slack....</summary>
-    <source><title>DEV 社区（本周）</title></source>
-    <category term="文章"/>
-    <category term="社区"/>
-  </entry>
-  <entry>
-    <id>https://dev.to/pahorton/i-got-tired-of-coming-into-my-lab-to-check-the-pressure-of-my-cryocooler-so-i-built-a-tool-to-do-it-4ob7</id>
-    <title>I Got Tired of Coming Into My Lab To Check the Pressure of My Cryocooler so I Built a Tool To Do It for Me</title>
-    <link rel="alternate" type="text/html" href="https://dev.to/pahorton/i-got-tired-of-coming-into-my-lab-to-check-the-pressure-of-my-cryocooler-so-i-built-a-tool-to-do-it-4ob7"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">第 5 名 · ♥ 64 · Paul Horton · 25 条评论 — This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...</summary>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">第 3 名 · ♥ 126 · Dhruv Jani · 49 条评论 — I’m not on the DEV team. I don’t have an admin panel, production database access, or internal Slack....</summary>
     <source><title>DEV 社区（本周）</title></source>
     <category term="文章"/>
     <category term="社区"/>
@@ -65,20 +65,20 @@
     <id>https://dev.to/georgekobaidze/i-earned-a-seat-at-github-universe-itll-stay-empty-and-thats-not-fair-3d7k</id>
     <title>I Earned a Seat at GitHub Universe. It'll Stay Empty, and That's Not Fair</title>
     <link rel="alternate" type="text/html" href="https://dev.to/georgekobaidze/i-earned-a-seat-at-github-universe-itll-stay-empty-and-thats-not-fair-3d7k"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">第 1 名 · ♥ 105 · Giorgi Kobaidze · 77 条评论 — Why Am I Writing This? I'm writing this to show how unfair the world we live in can be,...</summary>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">第 2 名 · ♥ 120 · Giorgi Kobaidze · 83 条评论 — Why Am I Writing This? I'm writing this to show how unfair the world we live in can be,...</summary>
     <source><title>DEV 社区（本周）</title></source>
     <category term="文章"/>
     <category term="社区"/>
   </entry>
   <entry>
-    <id>https://dev.to/dj29/i-built-slothd-a-local-first-offline-capable-ai-daemon-that-patiently-organizes-your-messy-53e7</id>
-    <title>I Built slothd: A Local-First, Offline-Capable AI Daemon That Patiently Organizes Your Messy Workspace</title>
-    <link rel="alternate" type="text/html" href="https://dev.to/dj29/i-built-slothd-a-local-first-offline-capable-ai-daemon-that-patiently-organizes-your-messy-53e7"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">第 9 名 · ♥ 98 · Dhruv Jani · 42 条评论 — This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady 💡...</summary>
+    <id>https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n</id>
+    <title>HEXAW programming language for WebAssembly instead WAT</title>
+    <link rel="alternate" type="text/html" href="https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">第 9 名 · ♥ 39 · Peter Vivo · 12 条评论 — This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...</summary>
     <source><title>DEV 社区（本周）</title></source>
     <category term="文章"/>
     <category term="社区"/>
@@ -87,20 +87,9 @@
     <id>https://dev.to/devengers/doors-i-walked-through-to-reach-dev-5294</id>
     <title>Doors I Walked Through to Reach DEV</title>
     <link rel="alternate" type="text/html" href="https://dev.to/devengers/doors-i-walked-through-to-reach-dev-5294"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">第 10 名 · ♥ 70 · Giorgi Kobaidze · 40 条评论 — Table of Contents Knock, Knock: The First Domino The Numbers and a Plot Twist How Did I...</summary>
-    <source><title>DEV 社区（本周）</title></source>
-    <category term="文章"/>
-    <category term="社区"/>
-  </entry>
-  <entry>
-    <id>https://dev.to/adamthedeveloper/dont-be-a-proxy-between-me-and-your-ai-mcn</id>
-    <title>Don't Be a Proxy Between Me and Your AI</title>
-    <link rel="alternate" type="text/html" href="https://dev.to/adamthedeveloper/dont-be-a-proxy-between-me-and-your-ai-mcn"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">第 3 名 · ♥ 146 · Adam - The Developer ✨ · 124 条评论 — I've had this conversation more times than I'd like to admit. I raise a technical question in a...</summary>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">第 6 名 · ♥ 103 · Giorgi Kobaidze · 68 条评论 — Table of Contents Knock, Knock: The First Domino The Numbers and a Plot Twist How Did I...</summary>
     <source><title>DEV 社区（本周）</title></source>
     <category term="文章"/>
     <category term="社区"/>
@@ -109,9 +98,20 @@
     <id>https://dev.to/devengers/dev-opportunity-radar-22-50k-basis-fellowship-perplexity-ai-research-fellowship-and-fc-4806</id>
     <title>Dev Opportunity Radar #22: $50K Basis Fellowship, Perplexity AI Research Fellowship, and FC Barcelona Analytics Hackathon</title>
     <link rel="alternate" type="text/html" href="https://dev.to/devengers/dev-opportunity-radar-22-50k-basis-fellowship-perplexity-ai-research-fellowship-and-fc-4806"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">第 4 名 · ♥ 91 · Hemapriya Kanagala · 20 条评论 — TL;DR Welcome back to Dev Opportunity Radar! This is a weekly series where I share opportunities,...</summary>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">第 4 名 · ♥ 92 · Hemapriya Kanagala · 21 条评论 — TL;DR Welcome back to Dev Opportunity Radar! This is a weekly series where I share opportunities,...</summary>
+    <source><title>DEV 社区（本周）</title></source>
+    <category term="文章"/>
+    <category term="社区"/>
+  </entry>
+  <entry>
+    <id>https://dev.to/advikdivekar/a-small-not-so-smart-model-went-from-10-to-996-at-reading-property-deeds-for-115-and-it-says-490k</id>
+    <title>A small, not-so-smart model went from 10% to 99.6% at reading property deeds for $1.15, and it says 'check this line' instead of bluffing</title>
+    <link rel="alternate" type="text/html" href="https://dev.to/advikdivekar/a-small-not-so-smart-model-went-from-10-to-996-at-reading-property-deeds-for-115-and-it-says-490k"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">第 10 名 · ♥ 77 · Advik Divekar · 30 条评论 — This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady N 86°29'...</summary>
     <source><title>DEV 社区（本周）</title></source>
     <category term="文章"/>
     <category term="社区"/>

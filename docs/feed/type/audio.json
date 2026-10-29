@@ -9,6 +9,69 @@
   },
   "items": [
     {
+      "id": "http://www.bbc.co.uk/programmes/p0pk7d0p",
+      "url": "http://www.bbc.co.uk/programmes/p0pk7d0p",
+      "title": "Is aircon the answer to a heating world?",
+      "content_text": "Do you ever feel it is too hot to sleep? With climate change gradually increasing world temperatures, people across the world are becoming increasingly affected…",
+      "summary": "Do you ever feel it is too hot to sleep? With climate change gradually increasing world temperatures, people across the world are becoming increasingly affected…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "英语学习",
+        "英语听力"
+      ],
+      "authors": [
+        {
+          "name": "6 Minute English"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "podcasts-files-bbci-co-uk"
+      }
+    },
+    {
+      "id": "https://www.npr.org/2026/10/29/nx-s1-6021969/midterm-spending-blitz-gdp-inflations-reports-israel-election-deadlock-iran-war",
+      "url": "https://www.npr.org/2026/10/29/nx-s1-6021969/midterm-spending-blitz-gdp-inflations-reports-israel-election-deadlock-iran-war",
+      "title": "Midterm Spending Blitz, GDP & Inflations Reports, Israel Election Deadlock & Iran War",
+      "content_text": "Ad spending in Kansas’ Senate race has jumped tenfold in weeks as Democrats pour money into Republican-heavy districts in the final days before the midterms. Th…",
+      "summary": "Ad spending in Kansas’ Senate race has jumped tenfold in weeks as Democrats pour money into Republican-heavy districts in the final days before the midterms. Th…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "新闻",
+        "英语听力"
+      ],
+      "authors": [
+        {
+          "name": "Up First from NPR"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "feeds-npr-org"
+      }
+    },
+    {
+      "id": "https://www.npr.org/2026/10/28/nx-s1-6020166/trump-rallies-for-republicans-israel-election-results-fed-interest-rates-meeting",
+      "url": "https://www.npr.org/2026/10/28/nx-s1-6020166/trump-rallies-for-republicans-israel-election-results-fed-interest-rates-meeting",
+      "title": "Trump Rallies For Republicans, Israel Election Results, Fed Interest Rates Meeting",
+      "content_text": "President Trump rallied for Republican Senate candidate Ken Paxton in Texas, but his personal grievances kept competing with his party’s closing message ahead o…",
+      "summary": "President Trump rallied for Republican Senate candidate Ken Paxton in Texas, but his personal grievances kept competing with his party’s closing message ahead o…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "新闻",
+        "英语听力"
+      ],
+      "authors": [
+        {
+          "name": "Up First from NPR"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "feeds-npr-org"
+      }
+    },
+    {
       "id": "https://www.npr.org/2026/10/27/nx-s1-6019096/democrats-lead-in-npr-poll-preparations-for-election-challenge-israel-voting-begins",
       "url": "https://www.npr.org/2026/10/27/nx-s1-6019096/democrats-lead-in-npr-poll-preparations-for-election-challenge-israel-voting-begins",
       "title": "Democrats Lead In NPR Poll, Preparations For Election Challenge, Israel Voting Begins",
@@ -999,69 +1062,6 @@
       "_shelf": {
         "type": "audio",
         "shelf": "feeds-npr-org"
-      }
-    },
-    {
-      "id": "https://www.npr.org/2026/09/30/nx-s1-5985698/trump-ai-summit-us-pulls-out-of-iraq-scotus-third-country-deportations",
-      "url": "https://www.npr.org/2026/09/30/nx-s1-5985698/trump-ai-summit-us-pulls-out-of-iraq-scotus-third-country-deportations",
-      "title": "Trump AI Summit, US Pulls Out Of Iraq, SCOTUS Third Country Deportations",
-      "content_text": "President Trump told AI executives they can police themselves and signed an order branding the technology “super intelligence,” even as some of those same compa…",
-      "summary": "President Trump told AI executives they can police themselves and signed an order branding the technology “super intelligence,” even as some of those same compa…",
-      "date_published": "2026-09-30T00:00:00Z",
-      "tags": [
-        "新闻",
-        "英语听力"
-      ],
-      "authors": [
-        {
-          "name": "Up First from NPR"
-        }
-      ],
-      "_shelf": {
-        "type": "audio",
-        "shelf": "feeds-npr-org"
-      }
-    },
-    {
-      "id": "https://www.npr.org/2026/09/29/nx-s1-5984341/uk-terror-plot-investigation-trumps-fuel-efficiency-rollback-cornell-rape-case",
-      "url": "https://www.npr.org/2026/09/29/nx-s1-5984341/uk-terror-plot-investigation-trumps-fuel-efficiency-rollback-cornell-rape-case",
-      "title": "UK Terror Plot Investigation, Trump's Fuel Efficiency Rollback, Cornell Rape Case",
-      "content_text": "Five men arrested near a U.S.-used air base in Britain have been released on bail but remain under investigation, as police say they have not determined whether…",
-      "summary": "Five men arrested near a U.S.-used air base in Britain have been released on bail but remain under investigation, as police say they have not determined whether…",
-      "date_published": "2026-09-29T00:00:00Z",
-      "tags": [
-        "新闻",
-        "英语听力"
-      ],
-      "authors": [
-        {
-          "name": "Up First from NPR"
-        }
-      ],
-      "_shelf": {
-        "type": "audio",
-        "shelf": "feeds-npr-org"
-      }
-    },
-    {
-      "id": "https://www.xiaoyuzhoufm.com/episode/6abb74cee742e36efcbca2c3?utm_source=rss",
-      "url": "https://www.xiaoyuzhoufm.com/episode/6abb74cee742e36efcbca2c3?utm_source=rss",
-      "title": "504 林行止、《信报》与香港经济黄金年代",
-      "content_text": "- 导语 - 9月6日，报人林行止离世。作为《信报》创办人，他被称为「香江第一健笔」，一生写下逾一万一千篇专栏文章。从露宿街头的少年，到《明报》资料室职员，再到创办《信报》成为香港财经媒体的标志性人物，林行止的报人生涯几乎贯穿战后香港数十年的经济与社会变迁。他与金庸从知遇到分歧，对北京和伦敦的针砭，与张五常的深度合作，…",
-      "summary": "- 导语 - 9月6日，报人林行止离世。作为《信报》创办人，他被称为「香江第一健笔」，一生写下逾一万一千篇专栏文章。从露宿街头的少年，到《明报》资料室职员，再到创办《信报》成为香港财经媒体的标志性人物，林行止的报人生涯几乎贯穿战后香港数十年的经济与社会变迁。他与金庸从知遇到分歧，对北京和伦敦的针砭，与张五常的深度合作，…",
-      "date_published": "2026-09-29T00:00:00Z",
-      "tags": [
-        "人文",
-        "历史"
-      ],
-      "authors": [
-        {
-          "name": "忽左忽右"
-        }
-      ],
-      "_shelf": {
-        "type": "audio",
-        "shelf": "feed-xyzfm-space"
       }
     }
   ]

@@ -9,6 +9,87 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/greenbrier-profit-falls-as-railcar-demand-weighs-on-sales",
+      "url": "https://www.freightwaves.com/news/greenbrier-profit-falls-as-railcar-demand-weighs-on-sales",
+      "title": "Greenbrier profit falls as railcar demand weighs on sales",
+      "content_text": "Greenbrier’s fiscal fourth-quarter profit tumbled though outlook for orders and leasing growth improved. The post Greenbrier profit falls as railcar demand weig…",
+      "summary": "Greenbrier’s fiscal fourth-quarter profit tumbled though outlook for orders and leasing growth improved. The post Greenbrier profit falls as railcar demand weig…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "News",
+        "Railroad",
+        "Top Stories",
+        "earnings",
+        "railcars",
+        "Supplier",
+        "Tariffs"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/first-look-cpkc-earnings-2",
+      "url": "https://www.freightwaves.com/news/first-look-cpkc-earnings-2",
+      "title": "First look: CPKC earnings",
+      "content_text": "CPKC’s third-quarter revenue and earnings climbed, though higher fuel costs squeezed margins. The post First look: CPKC earnings appeared first on FreightWaves.",
+      "summary": "CPKC’s third-quarter revenue and earnings climbed, though higher fuel costs squeezed margins. The post First look: CPKC earnings appeared first on FreightWaves.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "News",
+        "Railroad",
+        "Top Stories",
+        "CPKC",
+        "earnings",
+        "intermodal",
+        "railroads"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach",
+      "url": "https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach",
+      "title": "Backlog grows as 35,000 containers await rail service at LA–Long Beach",
+      "content_text": "Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages…",
+      "summary": "Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Container Shipping",
+        "Maritime",
+        "News",
+        "Railroad",
+        "Top Stories",
+        "imports",
+        "peak season"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/police-recover-54k-in-hot-wheels-after-bnsf-freight-train-burglary-in-california",
       "url": "https://www.freightwaves.com/news/police-recover-54k-in-hot-wheels-after-bnsf-freight-train-burglary-in-california",
       "title": "Police recover $54K in Hot Wheels after BNSF freight train burglary in California",
@@ -24,60 +105,6 @@
         "California",
         "cargo theft",
         "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/wabtec-earnings-rise-on-higher-freight-and-transit-sales",
-      "url": "https://www.freightwaves.com/news/wabtec-earnings-rise-on-higher-freight-and-transit-sales",
-      "title": "Wabtec earnings rise on higher freight and transit sales",
-      "content_text": "Rail equipment supplier Wabtec raised its outlook on higher third-quarter revenue and earnings. The post Wabtec earnings rise on higher freight and transit sale…",
-      "summary": "Rail equipment supplier Wabtec raised its outlook on higher third-quarter revenue and earnings. The post Wabtec earnings rise on higher freight and transit sale…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "Business",
-        "Company Earnings",
-        "Finance",
-        "News",
-        "Railroad",
-        "Equipment",
-        "locomotives",
-        "railroads"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/a-new-pnw-container-port-205m-for-oregon-rail-project",
-      "url": "https://www.freightwaves.com/news/a-new-pnw-container-port-205m-for-oregon-rail-project",
-      "title": "A new PNW container port? $205M for Oregon rail project",
-      "content_text": "Oregon port wins $205 million in federal funding to upgrade its rail line and boost a proposed container terminal project. The post A new PNW container port? $2…",
-      "summary": "Oregon port wins $205 million in federal funding to upgrade its rail line and boost a proposed container terminal project. The post A new PNW container port? $2…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "Container Shipping",
-        "Maritime",
-        "News",
-        "Railroad",
-        "Top Stories",
-        "trade",
-        "CRISI program",
-        "Development"
       ],
       "authors": [
         {

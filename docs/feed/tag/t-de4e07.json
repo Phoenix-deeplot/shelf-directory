@@ -9,6 +9,69 @@
   },
   "items": [
     {
+      "id": "http://www.bbc.co.uk/programmes/p0pk7d0p",
+      "url": "http://www.bbc.co.uk/programmes/p0pk7d0p",
+      "title": "Is aircon the answer to a heating world?",
+      "content_text": "Do you ever feel it is too hot to sleep? With climate change gradually increasing world temperatures, people across the world are becoming increasingly affected…",
+      "summary": "Do you ever feel it is too hot to sleep? With climate change gradually increasing world temperatures, people across the world are becoming increasingly affected…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "英语学习",
+        "英语听力"
+      ],
+      "authors": [
+        {
+          "name": "6 Minute English"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "podcasts-files-bbci-co-uk"
+      }
+    },
+    {
+      "id": "https://www.npr.org/2026/10/29/nx-s1-6021969/midterm-spending-blitz-gdp-inflations-reports-israel-election-deadlock-iran-war",
+      "url": "https://www.npr.org/2026/10/29/nx-s1-6021969/midterm-spending-blitz-gdp-inflations-reports-israel-election-deadlock-iran-war",
+      "title": "Midterm Spending Blitz, GDP & Inflations Reports, Israel Election Deadlock & Iran War",
+      "content_text": "Ad spending in Kansas’ Senate race has jumped tenfold in weeks as Democrats pour money into Republican-heavy districts in the final days before the midterms. Th…",
+      "summary": "Ad spending in Kansas’ Senate race has jumped tenfold in weeks as Democrats pour money into Republican-heavy districts in the final days before the midterms. Th…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "新闻",
+        "英语听力"
+      ],
+      "authors": [
+        {
+          "name": "Up First from NPR"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "feeds-npr-org"
+      }
+    },
+    {
+      "id": "https://www.npr.org/2026/10/28/nx-s1-6020166/trump-rallies-for-republicans-israel-election-results-fed-interest-rates-meeting",
+      "url": "https://www.npr.org/2026/10/28/nx-s1-6020166/trump-rallies-for-republicans-israel-election-results-fed-interest-rates-meeting",
+      "title": "Trump Rallies For Republicans, Israel Election Results, Fed Interest Rates Meeting",
+      "content_text": "President Trump rallied for Republican Senate candidate Ken Paxton in Texas, but his personal grievances kept competing with his party’s closing message ahead o…",
+      "summary": "President Trump rallied for Republican Senate candidate Ken Paxton in Texas, but his personal grievances kept competing with his party’s closing message ahead o…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "新闻",
+        "英语听力"
+      ],
+      "authors": [
+        {
+          "name": "Up First from NPR"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "feeds-npr-org"
+      }
+    },
+    {
       "id": "https://www.npr.org/2026/10/27/nx-s1-6019096/democrats-lead-in-npr-poll-preparations-for-election-challenge-israel-voting-begins",
       "url": "https://www.npr.org/2026/10/27/nx-s1-6019096/democrats-lead-in-npr-poll-preparations-for-election-challenge-israel-voting-begins",
       "title": "Democrats Lead In NPR Poll, Preparations For Election Challenge, Israel Voting Begins",
@@ -987,69 +1050,6 @@
       "content_text": "A federal judge told President Trump he cannot demolish the Kennedy Center without 30 days’ notice, after the board shut the building and Trump threatened to ri…",
       "summary": "A federal judge told President Trump he cannot demolish the Kennedy Center without 30 days’ notice, after the board shut the building and Trump threatened to ri…",
       "date_published": "2026-09-18T00:00:00Z",
-      "tags": [
-        "新闻",
-        "英语听力"
-      ],
-      "authors": [
-        {
-          "name": "Up First from NPR"
-        }
-      ],
-      "_shelf": {
-        "type": "audio",
-        "shelf": "feeds-npr-org"
-      }
-    },
-    {
-      "id": "http://www.bbc.co.uk/programmes/p0pb0rd0",
-      "url": "http://www.bbc.co.uk/programmes/p0pb0rd0",
-      "title": "Is rejection good for us?",
-      "content_text": "How would you feel about going up to a stranger on the street and asking them for a cheeky favour? If the idea makes you nervous, then don't worry – you are not…",
-      "summary": "How would you feel about going up to a stranger on the street and asking them for a cheeky favour? If the idea makes you nervous, then don't worry – you are not…",
-      "date_published": "2026-09-17T00:00:00Z",
-      "tags": [
-        "英语学习",
-        "英语听力"
-      ],
-      "authors": [
-        {
-          "name": "6 Minute English"
-        }
-      ],
-      "_shelf": {
-        "type": "audio",
-        "shelf": "podcasts-files-bbci-co-uk"
-      }
-    },
-    {
-      "id": "https://www.npr.org/2026/09/17/nx-s1-5972566/fed-raises-interest-rates-iran-war-and-oil-prices-eu-canada-alliance",
-      "url": "https://www.npr.org/2026/09/17/nx-s1-5972566/fed-raises-interest-rates-iran-war-and-oil-prices-eu-canada-alliance",
-      "title": "Fed Raises Interest Rates, Iran War and Oil Prices, EU-Canada Alliance",
-      "content_text": "The Federal Reserve raised interest rates for the first time in three years as it tries to bring down stubborn inflation, putting new Fed Chair Kevin Warsh at o…",
-      "summary": "The Federal Reserve raised interest rates for the first time in three years as it tries to bring down stubborn inflation, putting new Fed Chair Kevin Warsh at o…",
-      "date_published": "2026-09-17T00:00:00Z",
-      "tags": [
-        "新闻",
-        "英语听力"
-      ],
-      "authors": [
-        {
-          "name": "Up First from NPR"
-        }
-      ],
-      "_shelf": {
-        "type": "audio",
-        "shelf": "feeds-npr-org"
-      }
-    },
-    {
-      "id": "https://www.npr.org/2026/09/16/nx-s1-5970932/federal-reserve-interest-rates-reports-reveal-iran-war-costs-kennedy-center-closure",
-      "url": "https://www.npr.org/2026/09/16/nx-s1-5970932/federal-reserve-interest-rates-reports-reveal-iran-war-costs-kennedy-center-closure",
-      "title": "Federal Reserve Interest Rates, Reports Reveal Iran War Costs, Kennedy Center Closure",
-      "content_text": "The Federal Reserve is expected to raise interest rates for the first time in three years as the Iran war pushes inflation higher and borrowing costs are alread…",
-      "summary": "The Federal Reserve is expected to raise interest rates for the first time in three years as the Iran war pushes inflation higher and borrowing costs are alread…",
-      "date_published": "2026-09-16T00:00:00Z",
       "tags": [
         "新闻",
         "英语听力"

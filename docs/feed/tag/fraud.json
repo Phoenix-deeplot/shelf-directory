@@ -9,18 +9,18 @@
   },
   "items": [
     {
-      "id": "https://slate.com/culture/2026/10/you-can-see-everything-oscars-best-picture-amanda-seyfried.html?via=rss",
-      "url": "https://slate.com/culture/2026/10/you-can-see-everything-oscars-best-picture-amanda-seyfried.html?via=rss",
-      "title": "<em>You Can See Everything</em> Seems Poised to Do What No Movie Has Ever Done Before",
-      "content_text": "The cinematic sensation could make history at this year’s Oscars—in more ways than one.",
-      "summary": "The cinematic sensation could make history at this year’s Oscars—in more ways than one.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/de93a4fa-baff-417d-a19c-51637cbb82d9.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "id": "https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-amanda-seyfried.html?via=rss",
+      "url": "https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-amanda-seyfried.html?via=rss",
+      "title": "Everyone in <em>You Can See Everything</em> Is Playing a Character, but Only One Performer Is Utterly Convincing",
+      "content_text": "The movie isn’t so much a documentary with a great performance as it is a documentary about performance.",
+      "summary": "The movie isn’t so much a documentary with a great performance as it is a documentary about performance.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/b6b47c6e-e6bb-40d7-a1f9-e2c3d042d0ef.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
       "tags": [
         "Crime",
         "Fraud",
+        "Medicine",
         "Movies",
-        "The Oscars",
         "Documentaries",
         "You Can See Everything",
         "评论",
@@ -34,6 +34,58 @@
       "_shelf": {
         "type": "article",
         "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/the-companies-that-write-the-standards-will-own-the-next-decade-of-freight",
+      "url": "https://www.freightwaves.com/news/the-companies-that-write-the-standards-will-own-the-next-decade-of-freight",
+      "title": "The Companies That Write The Standards Will Own The Next Decade Of Freight",
+      "content_text": "The freight industry has spent years and real money chasing fraud, piling up more tracking, more data, and more awareness than it has ever had, and the losses k…",
+      "summary": "The freight industry has spent years and real money chasing fraud, piling up more tracking, more data, and more awareness than it has ever had, and the losses k…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "3PL and Brokerage",
+        "F3: Future of Freight Festival",
+        "Fraud",
+        "News",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/stolen-shoes-on-ebay-lead-police-to-1-million-in-missing-bnsf-train-cargo",
+      "url": "https://www.freightwaves.com/news/stolen-shoes-on-ebay-lead-police-to-1-million-in-missing-bnsf-train-cargo",
+      "title": "Stolen shoes on eBay lead police to $1 million in missing BNSF train cargo",
+      "content_text": "An eBay listing for stolen shoes exposed a $1 million cargo recovery in Los Angeles. Investigators arrested the business owner, but questions remain about where…",
+      "summary": "An eBay listing for stolen shoes exposed a $1 million cargo recovery in Los Angeles. Investigators arrested the business owner, but questions remain about where…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Business",
+        "Fraud",
+        "Playbook: Cash & Capital",
+        "Top Stories",
+        "BNSF Railroad",
+        "cargo theft",
+        "rail theft",
+        "recovery"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
       }
     },
     {

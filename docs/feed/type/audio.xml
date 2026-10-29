@@ -4,8 +4,41 @@
   <title>公共目录 · audio</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/type/audio.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-29T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>http://www.bbc.co.uk/programmes/p0pk7d0p</id>
+    <title>Is aircon the answer to a heating world?</title>
+    <link rel="alternate" type="text/html" href="http://www.bbc.co.uk/programmes/p0pk7d0p"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Do you ever feel it is too hot to sleep? With climate change gradually increasing world temperatures, people across the world are becoming increasingly affected…</summary>
+    <source><title>6 Minute English</title></source>
+    <category term="英语学习"/>
+    <category term="英语听力"/>
+  </entry>
+  <entry>
+    <id>https://www.npr.org/2026/10/29/nx-s1-6021969/midterm-spending-blitz-gdp-inflations-reports-israel-election-deadlock-iran-war</id>
+    <title>Midterm Spending Blitz, GDP &amp; Inflations Reports, Israel Election Deadlock &amp; Iran War</title>
+    <link rel="alternate" type="text/html" href="https://www.npr.org/2026/10/29/nx-s1-6021969/midterm-spending-blitz-gdp-inflations-reports-israel-election-deadlock-iran-war"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Ad spending in Kansas’ Senate race has jumped tenfold in weeks as Democrats pour money into Republican-heavy districts in the final days before the midterms. Th…</summary>
+    <source><title>Up First from NPR</title></source>
+    <category term="新闻"/>
+    <category term="英语听力"/>
+  </entry>
+  <entry>
+    <id>https://www.npr.org/2026/10/28/nx-s1-6020166/trump-rallies-for-republicans-israel-election-results-fed-interest-rates-meeting</id>
+    <title>Trump Rallies For Republicans, Israel Election Results, Fed Interest Rates Meeting</title>
+    <link rel="alternate" type="text/html" href="https://www.npr.org/2026/10/28/nx-s1-6020166/trump-rallies-for-republicans-israel-election-results-fed-interest-rates-meeting"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">President Trump rallied for Republican Senate candidate Ken Paxton in Texas, but his personal grievances kept competing with his party’s closing message ahead o…</summary>
+    <source><title>Up First from NPR</title></source>
+    <category term="新闻"/>
+    <category term="英语听力"/>
+  </entry>
   <entry>
     <id>https://www.npr.org/2026/10/27/nx-s1-6019096/democrats-lead-in-npr-poll-preparations-for-election-challenge-israel-voting-begins</id>
     <title>Democrats Lead In NPR Poll, Preparations For Election Challenge, Israel Voting Begins</title>
@@ -520,38 +553,5 @@
     <source><title>Up First from NPR</title></source>
     <category term="新闻"/>
     <category term="英语听力"/>
-  </entry>
-  <entry>
-    <id>https://www.npr.org/2026/09/30/nx-s1-5985698/trump-ai-summit-us-pulls-out-of-iraq-scotus-third-country-deportations</id>
-    <title>Trump AI Summit, US Pulls Out Of Iraq, SCOTUS Third Country Deportations</title>
-    <link rel="alternate" type="text/html" href="https://www.npr.org/2026/09/30/nx-s1-5985698/trump-ai-summit-us-pulls-out-of-iraq-scotus-third-country-deportations"/>
-    <updated>2026-09-30T00:00:00Z</updated>
-    <published>2026-09-30T00:00:00Z</published>
-    <summary type="text">President Trump told AI executives they can police themselves and signed an order branding the technology “super intelligence,” even as some of those same compa…</summary>
-    <source><title>Up First from NPR</title></source>
-    <category term="新闻"/>
-    <category term="英语听力"/>
-  </entry>
-  <entry>
-    <id>https://www.npr.org/2026/09/29/nx-s1-5984341/uk-terror-plot-investigation-trumps-fuel-efficiency-rollback-cornell-rape-case</id>
-    <title>UK Terror Plot Investigation, Trump's Fuel Efficiency Rollback, Cornell Rape Case</title>
-    <link rel="alternate" type="text/html" href="https://www.npr.org/2026/09/29/nx-s1-5984341/uk-terror-plot-investigation-trumps-fuel-efficiency-rollback-cornell-rape-case"/>
-    <updated>2026-09-29T00:00:00Z</updated>
-    <published>2026-09-29T00:00:00Z</published>
-    <summary type="text">Five men arrested near a U.S.-used air base in Britain have been released on bail but remain under investigation, as police say they have not determined whether…</summary>
-    <source><title>Up First from NPR</title></source>
-    <category term="新闻"/>
-    <category term="英语听力"/>
-  </entry>
-  <entry>
-    <id>https://www.xiaoyuzhoufm.com/episode/6abb74cee742e36efcbca2c3?utm_source=rss</id>
-    <title>504 林行止、《信报》与香港经济黄金年代</title>
-    <link rel="alternate" type="text/html" href="https://www.xiaoyuzhoufm.com/episode/6abb74cee742e36efcbca2c3?utm_source=rss"/>
-    <updated>2026-09-29T00:00:00Z</updated>
-    <published>2026-09-29T00:00:00Z</published>
-    <summary type="text">- 导语 - 9月6日，报人林行止离世。作为《信报》创办人，他被称为「香江第一健笔」，一生写下逾一万一千篇专栏文章。从露宿街头的少年，到《明报》资料室职员，再到创办《信报》成为香港财经媒体的标志性人物，林行止的报人生涯几乎贯穿战后香港数十年的经济与社会变迁。他与金庸从知遇到分歧，对北京和伦敦的针砭，与张五常的深度合作，…</summary>
-    <source><title>忽左忽右</title></source>
-    <category term="人文"/>
-    <category term="历史"/>
   </entry>
 </feed>

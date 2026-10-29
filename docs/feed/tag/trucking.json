@@ -35,6 +35,86 @@
       }
     },
     {
+      "id": "https://www.freightwaves.com/news/jacobs-rxos-creator-backs-its-acquisition-by-c-h-robinson",
+      "url": "https://www.freightwaves.com/news/jacobs-rxos-creator-backs-its-acquisition-by-c-h-robinson",
+      "title": "Jacobs, RXO’s creator, backs its acquisition by C.H. Robinson",
+      "content_text": "Chattanooga–The man who created RXO gave his public support to the 3PL’s acquisition by C.H. Robinson, saying you need “scale and density” to make it in the bro…",
+      "summary": "Chattanooga–The man who created RXO gave his public support to the 3PL’s acquisition by C.H. Robinson, saying you need “scale and density” to make it in the bro…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "3PL and Brokerage",
+        "News",
+        "Top Stories",
+        "Trucking",
+        "C.H. Robinson",
+        "GXO",
+        "QXO",
+        "RXO"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/fmcsa-removes-10000-plus-driver-training-providers-amid-safety-push",
+      "url": "https://www.freightwaves.com/news/fmcsa-removes-10000-plus-driver-training-providers-amid-safety-push",
+      "title": "FMCSA removes 10,000-plus driver training providers amid safety push",
+      "content_text": "The Federal Motor Carrier Safety Administration has removed more than 10,000 training providers from its registry since December 2025, officials said. The post…",
+      "summary": "The Federal Motor Carrier Safety Administration has removed more than 10,000 training providers from its registry since December 2025, officials said. The post…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "CDL Issues",
+        "News",
+        "Trucking",
+        "English Language Proficiency",
+        "FMCSA",
+        "non-domiciled CDLs",
+        "trucking regulations",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/diesel-prices-may-stay-elevated-into-spring-2027-fuel-executives-warn",
+      "url": "https://www.freightwaves.com/news/diesel-prices-may-stay-elevated-into-spring-2027-fuel-executives-warn",
+      "title": "Diesel prices may stay elevated into spring 2027, fuel executives warn",
+      "content_text": "Energy and truck stop executives said limited refining and pipeline capacity could leave U.S. trucking fleets vulnerable to higher diesel prices in 2027. The po…",
+      "summary": "Energy and truck stop executives said limited refining and pipeline capacity could leave U.S. trucking fleets vulnerable to higher diesel prices in 2027. The po…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "News",
+        "Trucking",
+        "diesel",
+        "Fuel",
+        "WEX",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/spartan-carrier-alvys-foundry-ai-agents",
       "url": "https://www.freightwaves.com/news/spartan-carrier-alvys-foundry-ai-agents",
       "title": "Spartan’s operators went from AI skeptics to agent builders",
@@ -211,139 +291,6 @@
         "trucking",
         "D.B. Schenker",
         "DSV"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/borderlands-mexico-avocado-imports-generate-641m-for-us-trucking-warehousing",
-      "url": "https://www.freightwaves.com/news/borderlands-mexico-avocado-imports-generate-641m-for-us-trucking-warehousing",
-      "title": "Borderlands Mexico: Avocado imports generate $641M for US trucking, warehousing",
-      "content_text": "This week in Borderlands Mexico: Avocado imports generate $641M for cross-border logistics; GLS US expands parcel delivery network to Texas border; and Jetco ex…",
-      "summary": "This week in Borderlands Mexico: Avocado imports generate $641M for cross-border logistics; GLS US expands parcel delivery network to Texas border; and Jetco ex…",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "Borderlands: Mexico",
-        "News",
-        "Top Stories",
-        "Trucking",
-        "avocados",
-        "Borderlands",
-        "GLS",
-        "Jetco"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/range-zero-emissions-medium-duty-electric-trucks",
-      "url": "https://www.freightwaves.com/news/range-zero-emissions-medium-duty-electric-trucks",
-      "title": "Why one zero-emission truck dealer wants big rigs to wait",
-      "content_text": "Johannes Ariens sells everything from electric motorcycles to hydrogen semis. He says the industry is trying to skip a step, and that small fleets with medium-d…",
-      "summary": "Johannes Ariens sells everything from electric motorcycles to hydrogen semis. He says the industry is trying to skip a step, and that small fleets with medium-d…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "Electric Trucks",
-        "News",
-        "Top Stories",
-        "Trucking",
-        "battery-electric trucks",
-        "Class 5 electric trucks",
-        "HVIP",
-        "Hyundai XCIENT Fuel Cell"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/5-us-manufacturing-projects-bring-more-than-1-6b-in-investments",
-      "url": "https://www.freightwaves.com/news/5-us-manufacturing-projects-bring-more-than-1-6b-in-investments",
-      "title": "5 US manufacturing projects bring more than $1.6B in investments",
-      "content_text": "Five shippers are investing more than $1.6 billion in new or expanded U.S. facilities, adding production capacity for commercial trailers, school buses, cooling…",
-      "summary": "Five shippers are investing more than $1.6 billion in new or expanded U.S. facilities, adding production capacity for commercial trailers, school buses, cooling…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "News",
-        "Reindustrialization",
-        "Trucking",
-        "Carrier Global",
-        "Hyundai",
-        "Niagara",
-        "Primo",
-        "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement",
-      "url": "https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement",
-      "title": "UPDATE: Daimler Truck sues former fleet manager over alleged $3.8M embezzlement",
-      "content_text": "Daimler Truck North America is seeking $6.6 million in damages after accusing a former employee and his wife of misappropriating nearly $3.8 million. The post U…",
-      "summary": "Daimler Truck North America is seeking $6.6 million in damages after accusing a former employee and his wife of misappropriating nearly $3.8 million. The post U…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "Legal issues",
-        "News",
-        "Trucking",
-        "Daimler",
-        "Daimler Truck North America",
-        "Embezzlement",
-        "lawsuit",
-        "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/ryder-fleet-facing-possible-growth-need-as-epa-27-nears",
-      "url": "https://www.freightwaves.com/news/ryder-fleet-facing-possible-growth-need-as-epa-27-nears",
-      "title": "Ryder fleet facing possible growth need as EPA ‘27 nears",
-      "content_text": "With the EPA ‘27 engine rules impacting nitrogen oxide (NoX) emissions in heavy duty vehicles getting closer every day, the new rules will have a major impact o…",
-      "summary": "With the EPA ‘27 engine rules impacting nitrogen oxide (NoX) emissions in heavy duty vehicles getting closer every day, the new rules will have a major impact o…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "News",
-        "OEM Trucking",
-        "Top Stories",
-        "Trucking",
-        "货运",
-        "数据"
       ],
       "authors": [
         {

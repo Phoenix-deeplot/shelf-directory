@@ -9,6 +9,31 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/story/astronomers-discover-a-possible-new-dwarf-planet-in-our-solar-system/",
+      "url": "https://www.wired.com/story/astronomers-discover-a-possible-new-dwarf-planet-in-our-solar-system/",
+      "title": "Astronomers Discover a Possible New Dwarf Planet in Our Solar System",
+      "content_text": "Lying beyond Pluto, 2026 ED138 could be as large as 1,500 kilometers in diameter. Astronomers are still working to confirm whether it meets the criteria for a d…",
+      "summary": "Lying beyond Pluto, 2026 ED138 could be as large as 1,500 kilometers in diameter. Astronomers are still working to confirm whether it meets the criteria for a d…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae26ce6735e20536e98e3d0/master/pass/noirlab2626b.jpg",
+      "tags": [
+        "Science",
+        "Science / Space",
+        "Hi Neighbor",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
       "url": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
       "title": "AI Emergency Alerts Are Coming. Humans Might Not Be Ready",
@@ -57,31 +82,6 @@
       }
     },
     {
-      "id": "https://www.wired.com/story/how-nasa-oldest-martian-spacecraft-run-for-decades/",
-      "url": "https://www.wired.com/story/how-nasa-oldest-martian-spacecraft-run-for-decades/",
-      "title": "NASA’s Oldest Martian Spacecraft Have Been Running for Decades. Here’s How",
-      "content_text": "Two orbiters have long outlasted their expected lifespans and completely reshaped our understanding of the Red Planet, all while operating 140 million miles fro…",
-      "summary": "Two orbiters have long outlasted their expected lifespans and completely reshaped our understanding of the Red Planet, all while operating 140 million miles fro…",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adf16c7cec2deb872010799/master/pass/PIA04816~large.jpg",
-      "tags": [
-        "Science",
-        "Science / Space",
-        "Staying Alive",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
       "id": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
       "url": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
       "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
@@ -120,31 +120,6 @@
         "Science / Environment",
         "Business",
         "P(Doom)",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets/",
-      "url": "https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets/",
-      "title": "Scientists Trapped an Antimatter Particle for Months to Study Its Secrets",
-      "content_text": "These elusive and reactive particles have been challenging to hold on to and even more challenging to study, but a new method paves the way for tests on the dif…",
-      "summary": "These elusive and reactive particles have been challenging to hold on to and even more challenging to study, but a new method paves the way for tests on the dif…",
-      "date_published": "2026-10-25T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adaaa0519e924cf3288639a/master/pass/1344013114",
-      "tags": [
-        "Science",
-        "Science / Physics and Math",
-        "Catch and Release",
         "科技",
         "社会"
       ],

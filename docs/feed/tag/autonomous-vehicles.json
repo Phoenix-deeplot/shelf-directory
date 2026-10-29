@@ -1,0 +1,39 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Autonomous Vehicles",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/autonomous-vehicles.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/aurora-charger-logistics-500-driverless-trucks-mou",
+      "url": "https://www.freightwaves.com/news/aurora-charger-logistics-500-driverless-trucks-mou",
+      "title": "Aurora adds 500-truck Charger MOU toward 30,000-truck goal",
+      "content_text": "Aurora Innovation signed a nonbinding MOU with Charger Logistics for up to 500 driverless trucks, adding to a carrier-owned pipeline Aurora needs to hit its 203…",
+      "summary": "Aurora Innovation signed a nonbinding MOU with Charger Logistics for up to 500 driverless trucks, adding to a carrier-owned pipeline Aurora needs to hit its 203…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Autonomous Vehicles",
+        "Business",
+        "News",
+        "Technology",
+        "Aurora Driver",
+        "Aurora Driverless Trucks",
+        "Aurora Innovation",
+        "autonomous trucking"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Kids",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/kids.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://slate.com/advice/2026/10/parenting-advice-thanksgiving-opt-out.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/parenting-advice-thanksgiving-opt-out.html?via=rss",
+      "title": "My Son Wants to Opt Out of Family Thanksgiving. He’s 12!",
+      "content_text": "I want him with us.",
+      "summary": "I want him with us.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/454dba4c-6f96-4be0-8343-669f62f5e05c.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Family",
+        "Kids",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/parenting-advice-pills-on-floor.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/parenting-advice-pills-on-floor.html?via=rss",
+      "title": "I See My Husband’s “Messy” Habit Very Differently Now That We Have a Kid",
+      "content_text": "Our baby could get seriously hurt.",
+      "summary": "Our baby could get seriously hurt.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/ead57748-0c70-4817-b251-0e2846bd71d4.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Family",
+        "Kids",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    }
+  ]
+}

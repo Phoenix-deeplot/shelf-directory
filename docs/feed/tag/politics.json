@@ -9,88 +9,13 @@
   },
   "items": [
     {
-      "id": "https://slate.com/podcasts/what-next/2026/10/why-political-ads-are-more-depraved-than-ever-before?via=rss",
-      "url": "https://slate.com/podcasts/what-next/2026/10/why-political-ads-are-more-depraved-than-ever-before?via=rss",
-      "title": "Were Midterm Ads Always <em>This </em>Bad?",
-      "content_text": "Are ads meeting the moment or just making everything worse?",
-      "summary": "Are ads meeting the moment or just making everything worse?",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://compote.slate.com/images/e9c53990-ceb6-4ac2-a8a9-d64408de8610.jpeg?crop=4500%2C3000%2Cx0%2Cy0",
-      "tags": [
-        "Politics",
-        "2026 Midterms",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/the-big-interview-podcast-jess-asato/",
-      "url": "https://www.wired.com/story/the-big-interview-podcast-jess-asato/",
-      "title": "UK Politician Jess Asato Got Deepfaked. Now She’s Taking xAI to Court",
-      "content_text": "Jess Asato’s public campaigning for victims of online abuse put her in the crosshairs of Grok’s deepfake scandal. Then the UK member of parliament became a vict…",
-      "summary": "Jess Asato’s public campaigning for victims of online abuse put her in the crosshairs of Grok’s deepfake scandal. Then the UK member of parliament became a vict…",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ae0a01a6cfc0bdcb738ab7a/master/pass/Big-Interview-UV-Solo-Illo-1027.jpg",
-      "tags": [
-        "The Big Story",
-        "Politics",
-        "Security",
-        "The Big Interview",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
-      "url": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
-      "title": "UK Home Office May Face Investigation Over Use of OpenAI Tech",
-      "content_text": "A government watchdog is considering a probe into the Home Office’s use of ChatGPT technology to process asylum claims amid concerns over the tools’ accuracy an…",
-      "summary": "A government watchdog is considering a probe into the Home Office’s use of ChatGPT technology to process asylum claims amid concerns over the tools’ accuracy an…",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada70c6eb086323489423af/master/pass/GettyImages-2275955534.jpg",
-      "tags": [
-        "Politics",
-        "Politics / Policy",
-        "Prompt Action",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/massive-groups-of-volunteers-are-ready-to-face-down-ice-at-the-polls/",
-      "url": "https://www.wired.com/story/massive-groups-of-volunteers-are-ready-to-face-down-ice-at-the-polls/",
-      "title": "Massive Groups of Volunteers Are Ready to Face Down ICE at the Polls",
-      "content_text": "From heat maps to Signal chats to war rooms, volunteers across the US are ready to act if federal immigration agents show up on Election Day.",
-      "summary": "From heat maps to Signal chats to war rooms, volunteers across the US are ready to act if federal immigration agents show up on Election Day.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adf98357bc34babe586eb7f/master/pass/GettyImages-2300207719.jpg",
+      "id": "https://www.wired.com/story/law-firm-linked-to-elon-musk-started-an-election-integrity-organization/",
+      "url": "https://www.wired.com/story/law-firm-linked-to-elon-musk-started-an-election-integrity-organization/",
+      "title": "Law Firm Linked to Elon Musk Started an ‘Election Integrity’ Organization",
+      "content_text": "The firm that helped set up Elon Musk’s America PAC is behind the new group, which will work with election officials to pursue policies aligned with Donald Trum…",
+      "summary": "The firm that helped set up Elon Musk’s America PAC is behind the new group, which will work with election officials to pursue policies aligned with Donald Trum…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adf9665ae47ffa8435ebbf6/master/pass/GettyImages-2207247570.jpg",
       "tags": [
         "Politics",
         "Midterms 2026",
@@ -108,17 +33,17 @@
       }
     },
     {
-      "id": "https://www.wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-record-of-him-working-there/",
-      "url": "https://www.wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-record-of-him-working-there/",
-      "title": "A 28-Year-Old DOGE Operative Gutted USAID. HR Had No Record of Him Working There",
-      "content_text": "Despite the agency's human resources department saying he hadn’t even been onboarded, Jeremy Lewin oversaw the destruction of USAID. It’s not clear he had the l…",
-      "summary": "Despite the agency's human resources department saying he hadn’t even been onboarded, Jeremy Lewin oversaw the destruction of USAID. It’s not clear he had the l…",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://media.wired.com/photos/6acf8c83ca8681083870745e/master/pass/GettyImages-2253183585.jpg",
+      "id": "https://www.wired.com/story/this-is-what-the-gops-final-midterms-push-looks-like/",
+      "url": "https://www.wired.com/story/this-is-what-the-gops-final-midterms-push-looks-like/",
+      "title": "This Is What the GOP’s Final Midterms Push Looks Like",
+      "content_text": "Republicans are spending their time and money on Senate races in historically red states—a sign they’re more nervous than ever as Election Day looms.",
+      "summary": "Republicans are spending their time and money on Senate races in historically red states—a sign they’re more nervous than ever as Election Day looms.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae117bf28ee41eb8014dfa9/master/pass/politics_republicans_midterms_spending.jpg",
       "tags": [
         "Politics",
         "Politics / Politics News",
-        "Takeover",
+        "Inner Loop",
         "科技",
         "社会"
       ],
@@ -133,28 +58,27 @@
       }
     },
     {
-      "id": "https://slate.com/podcasts/slate-money/2026/10/artificial-intelligence-destroy-alarmist-tech-politics-policy?via=rss",
-      "url": "https://slate.com/podcasts/slate-money/2026/10/artificial-intelligence-destroy-alarmist-tech-politics-policy?via=rss",
-      "title": "Money Talks: The Real Threats of Artificial Intelligence",
-      "content_text": "What’s alarmist and what’s real about artificial intelligence. Plus, how lawmakers are dealing with a situation they don't really understand.",
-      "summary": "What’s alarmist and what’s real about artificial intelligence. Plus, how lawmakers are dealing with a situation they don't really understand.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/0ad4cce0-1643-405e-b092-a65cc2f24b9e.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "id": "https://www.wired.com/story/senators-demand-to-know-if-dr-oz-collaborated-with-election-denial-groups/",
+      "url": "https://www.wired.com/story/senators-demand-to-know-if-dr-oz-collaborated-with-election-denial-groups/",
+      "title": "Senators Demand to Know if Dr. Oz Collaborated With Election Denial Groups",
+      "content_text": "A far-right campaign claiming leftists are stealing votes from nursing home residents has centered on changing guidance from Mehmet Oz’s Centers for Medicare an…",
+      "summary": "A far-right campaign claiming leftists are stealing votes from nursing home residents has centered on changing guidance from Mehmet Oz’s Centers for Medicare an…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae1f97f7b392d6b73757c0e/master/pass/GettyImages-2299832720.jpg",
       "tags": [
-        "Artificial Intelligence",
-        "Economics",
         "Politics",
-        "评论",
-        "文化"
+        "Midterms 2026",
+        "科技",
+        "社会"
       ],
       "authors": [
         {
-          "name": "Slate Magazine"
+          "name": "WIRED"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "slate-com"
+        "shelf": "wired-com"
       }
     }
   ]

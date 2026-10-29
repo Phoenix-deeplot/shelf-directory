@@ -4,8 +4,24 @@
   <title>公共目录 · #Top Stories</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/top-stories.xml"/>
-  <updated>2026-10-28T00:00:00Z</updated>
+  <updated>2026-10-29T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/scan-global-logistics-to-acquire-oregon-based-oia-global</id>
+    <title>Scan Global Logistics to acquire Oregon-based OIA Global</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/scan-global-logistics-to-acquire-oregon-based-oia-global"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Scan Global Logistics has agreed to acquire OIA Global, based in Portland, Oregon. The post Scan Global Logistics to acquire Oregon-based OIA Global appeared fi…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="American Shipper"/>
+    <category term="M&amp;A"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="Scan Global Logistics"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/werner-enterprises-sees-cost-headwinds-lingering-into-q1</id>
     <title>Werner Enterprises sees cost headwinds lingering into Q1</title>
@@ -24,6 +40,57 @@
     <category term="Werner Enterprises"/>
   </entry>
   <entry>
+    <id>https://www.freightwaves.com/news/strike-threat-by-port-security-workers-at-los-angeles-long-beach</id>
+    <title>Strike threat by port security workers at Los Angeles–Long Beach</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/strike-threat-by-port-security-workers-at-los-angeles-long-beach"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">About 250 security workers could walk out Nov. 1, potentially disrupting terminals at the busiest U.S. port complex. The post Strike threat by port security wor…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="American Shipper"/>
+    <category term="Maritime"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="Labor Contract"/>
+    <category term="Port of Los Angeles-Long Beach"/>
+    <category term="Strike"/>
+    <category term="货运"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/stolen-shoes-on-ebay-lead-police-to-1-million-in-missing-bnsf-train-cargo</id>
+    <title>Stolen shoes on eBay lead police to $1 million in missing BNSF train cargo</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/stolen-shoes-on-ebay-lead-police-to-1-million-in-missing-bnsf-train-cargo"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">An eBay listing for stolen shoes exposed a $1 million cargo recovery in Los Angeles. Investigators arrested the business owner, but questions remain about where…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Business"/>
+    <category term="Fraud"/>
+    <category term="Playbook: Cash &amp; Capital"/>
+    <category term="Top Stories"/>
+    <category term="BNSF Railroad"/>
+    <category term="cargo theft"/>
+    <category term="rail theft"/>
+    <category term="recovery"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/jacobs-rxos-creator-backs-its-acquisition-by-c-h-robinson</id>
+    <title>Jacobs, RXO’s creator, backs its acquisition by C.H. Robinson</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/jacobs-rxos-creator-backs-its-acquisition-by-c-h-robinson"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Chattanooga–The man who created RXO gave his public support to the 3PL’s acquisition by C.H. Robinson, saying you need “scale and density” to make it in the bro…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="3PL and Brokerage"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="Trucking"/>
+    <category term="C.H. Robinson"/>
+    <category term="GXO"/>
+    <category term="QXO"/>
+    <category term="RXO"/>
+  </entry>
+  <entry>
     <id>https://www.freightwaves.com/news/insurance-claims-adjustments-tank-landstars-otherwise-strong-q3</id>
     <title>Insurance claims adjustments tank Landstar’s otherwise strong Q3</title>
     <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/insurance-claims-adjustments-tank-landstars-otherwise-strong-q3"/>
@@ -39,6 +106,108 @@
     <category term="Landstar"/>
     <category term="Landstar BCOs"/>
     <category term="Landstar System"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/greenbrier-profit-falls-as-railcar-demand-weighs-on-sales</id>
+    <title>Greenbrier profit falls as railcar demand weighs on sales</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/greenbrier-profit-falls-as-railcar-demand-weighs-on-sales"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Greenbrier’s fiscal fourth-quarter profit tumbled though outlook for orders and leasing growth improved. The post Greenbrier profit falls as railcar demand weig…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Railroad"/>
+    <category term="Top Stories"/>
+    <category term="earnings"/>
+    <category term="railcars"/>
+    <category term="Supplier"/>
+    <category term="Tariffs"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/frst-look-almost-all-good-news-at-c-h-robinson-in-the-third-quarter</id>
+    <title>First look: almost all good news at C.H. Robinson in the third quarter</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/frst-look-almost-all-good-news-at-c-h-robinson-in-the-third-quarter"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">The third quarter at C.H. Robinson might be remembered for both the highs and the lows. It was the period when Lipe vs. Lupus Superior came down, and just days…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="3PL and Brokerage"/>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="C.H. Robinson"/>
+    <category term="RXO"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/first-look-cpkc-earnings-2</id>
+    <title>First look: CPKC earnings</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/first-look-cpkc-earnings-2"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">CPKC’s third-quarter revenue and earnings climbed, though higher fuel costs squeezed margins. The post First look: CPKC earnings appeared first on FreightWaves.</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Railroad"/>
+    <category term="Top Stories"/>
+    <category term="CPKC"/>
+    <category term="earnings"/>
+    <category term="intermodal"/>
+    <category term="railroads"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/f3-freightwaves-announces-shipper-of-choice-winners</id>
+    <title>F3: FreightWaves announces Shipper of Choice winners</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/f3-freightwaves-announces-shipper-of-choice-winners"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">FreightWaves named 10 Shipper of Choice award winners at the F3: Future of Freight Festival, recognizing companies for their carrier relationships, operational…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Awards"/>
+    <category term="Editor's Picks"/>
+    <category term="News"/>
+    <category term="Shipper of Choice Award"/>
+    <category term="Top Stories"/>
+    <category term="Freight"/>
+    <category term="FreightWaves"/>
+    <category term="shipper"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/c-h-robinson-and-landstar-stock-prices-slammed-insurance-costs-a-factor</id>
+    <title>C.H Robinson and Landstar stock prices slammed; insurance a factor</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/c-h-robinson-and-landstar-stock-prices-slammed-insurance-costs-a-factor"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">(Editor’s note: the initial article has been revised to note that the companies discussed increased claims, not insurance premiums). Strong financial numbers re…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="3PL and Brokerage"/>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="C.H. Robinson"/>
+    <category term="Landstar"/>
+    <category term="RXO"/>
+    <category term="货运"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach</id>
+    <title>Backlog grows as 35,000 containers await rail service at LA–Long Beach</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="American Shipper"/>
+    <category term="Container Shipping"/>
+    <category term="Maritime"/>
+    <category term="News"/>
+    <category term="Railroad"/>
+    <category term="Top Stories"/>
+    <category term="imports"/>
+    <category term="peak season"/>
   </entry>
   <entry>
     <id>https://www.freightwaves.com/news/spartan-carrier-alvys-foundry-ai-agents</id>
@@ -207,156 +376,5 @@
     <category term="trucking"/>
     <category term="D.B. Schenker"/>
     <category term="DSV"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/canada-port-reaches-new-longshore-union-labor-deal</id>
-    <title>Canada port reaches new longshore union labor deal</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/canada-port-reaches-new-longshore-union-labor-deal"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">A tentative contract agreement at Halifax settles potential labor unrest, for now. The post Canada port reaches new longshore union labor deal appeared first on…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="American Shipper"/>
-    <category term="Container Shipping"/>
-    <category term="Maritime"/>
-    <category term="News"/>
-    <category term="Top Stories"/>
-    <category term="Canada"/>
-    <category term="DP World"/>
-    <category term="Labor Contract"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/borderlands-mexico-avocado-imports-generate-641m-for-us-trucking-warehousing</id>
-    <title>Borderlands Mexico: Avocado imports generate $641M for US trucking, warehousing</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/borderlands-mexico-avocado-imports-generate-641m-for-us-trucking-warehousing"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">This week in Borderlands Mexico: Avocado imports generate $641M for cross-border logistics; GLS US expands parcel delivery network to Texas border; and Jetco ex…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Borderlands: Mexico"/>
-    <category term="News"/>
-    <category term="Top Stories"/>
-    <category term="Trucking"/>
-    <category term="avocados"/>
-    <category term="Borderlands"/>
-    <category term="GLS"/>
-    <category term="Jetco"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/range-zero-emissions-medium-duty-electric-trucks</id>
-    <title>Why one zero-emission truck dealer wants big rigs to wait</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/range-zero-emissions-medium-duty-electric-trucks"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">Johannes Ariens sells everything from electric motorcycles to hydrogen semis. He says the industry is trying to skip a step, and that small fleets with medium-d…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Electric Trucks"/>
-    <category term="News"/>
-    <category term="Top Stories"/>
-    <category term="Trucking"/>
-    <category term="battery-electric trucks"/>
-    <category term="Class 5 electric trucks"/>
-    <category term="HVIP"/>
-    <category term="Hyundai XCIENT Fuel Cell"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/russian-diesel-tanker-heads-for-u-s-following-trump-putin-deal</id>
-    <title>Russian diesel tanker heads for U.S. following Trump-Putin deal</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/russian-diesel-tanker-heads-for-u-s-following-trump-putin-deal"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">The first shipment of Russian diesel fuel heads for the U.S. as Trump looks for boost ahead of midterm elections. The post Russian diesel tanker heads for U.S.…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="American Shipper"/>
-    <category term="Fuel News"/>
-    <category term="Maritime"/>
-    <category term="News"/>
-    <category term="Top Stories"/>
-    <category term="Diesel fuel"/>
-    <category term="Russia"/>
-    <category term="sanctions"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates</id>
-    <title>New Drewry data shows import demand boosting trans-Pacific rates</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">Drewry’s World Container Index rose on higher rates on trans-Pacific and Asia-Europe routes. The post New Drewry data shows import demand boosting trans-Pacific…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="American Shipper"/>
-    <category term="Container Shipping"/>
-    <category term="Maritime"/>
-    <category term="News"/>
-    <category term="Top Stories"/>
-    <category term="Capacity"/>
-    <category term="Drewry"/>
-    <category term="imports"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/nlrb-ordered-amazon-to-bargain-with-staten-island-workers-its-now-in-federal-court</id>
-    <title>NLRB ordered Amazon to bargain with Staten Island workers; it’s now in federal court</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/nlrb-ordered-amazon-to-bargain-with-staten-island-workers-its-now-in-federal-court"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">Four and a half years after a grassroots union was voted in by workers at an Amazon warehouse in Staten Island, New York, the battles in court over Amazon’s pus…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Legal issues"/>
-    <category term="News"/>
-    <category term="Top Stories"/>
-    <category term="Truck Driver Issues"/>
-    <category term="Amazon"/>
-    <category term="National Labor Relations Board"/>
-    <category term="Teamsters"/>
-    <category term="货运"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/cost-pressures-sink-marten-transports-q3</id>
-    <title>Cost pressures sink Marten Transport’s Q3</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/cost-pressures-sink-marten-transports-q3"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">Shares of refrigerated carrier Marten Transport dropped 7% in midday trading on Friday after a disappointing third-quarter report, which noted that rising fuel…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Company Earnings"/>
-    <category term="News"/>
-    <category term="Top Stories"/>
-    <category term="Truckload Carriers"/>
-    <category term="Marten Transport"/>
-    <category term="reefer capacity"/>
-    <category term="Reefer TL rates"/>
-    <category term="refrigerated trucking"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/a-new-pnw-container-port-205m-for-oregon-rail-project</id>
-    <title>A new PNW container port? $205M for Oregon rail project</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/a-new-pnw-container-port-205m-for-oregon-rail-project"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">Oregon port wins $205 million in federal funding to upgrade its rail line and boost a proposed container terminal project. The post A new PNW container port? $2…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Container Shipping"/>
-    <category term="Maritime"/>
-    <category term="News"/>
-    <category term="Railroad"/>
-    <category term="Top Stories"/>
-    <category term="trade"/>
-    <category term="CRISI program"/>
-    <category term="Development"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/ryder-fleet-facing-possible-growth-need-as-epa-27-nears</id>
-    <title>Ryder fleet facing possible growth need as EPA ‘27 nears</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/ryder-fleet-facing-possible-growth-need-as-epa-27-nears"/>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <published>2026-10-22T00:00:00Z</published>
-    <summary type="text">With the EPA ‘27 engine rules impacting nitrogen oxide (NoX) emissions in heavy duty vehicles getting closer every day, the new rules will have a major impact o…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="News"/>
-    <category term="OEM Trucking"/>
-    <category term="Top Stories"/>
-    <category term="Trucking"/>
-    <category term="货运"/>
-    <category term="数据"/>
   </entry>
 </feed>

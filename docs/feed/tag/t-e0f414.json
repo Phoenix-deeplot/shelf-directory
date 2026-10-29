@@ -316,31 +316,6 @@
       }
     },
     {
-      "id": "https://daily.jstor.org/ten-poems-about-sleep-and-dreaming/",
-      "url": "https://daily.jstor.org/ten-poems-about-sleep-and-dreaming/",
-      "title": "Ten Poems about Sleep and Dreaming",
-      "content_text": "Visions of the unconscious by Emily Dickinson, Louise Glück, Lucille Clifton, Carl Phillips, and more. The post Ten Poems about Sleep and Dreaming appeared firs…",
-      "summary": "Visions of the unconscious by Emily Dickinson, Louise Glück, Lucille Clifton, Carl Phillips, and more. The post Ten Poems about Sleep and Dreaming appeared firs…",
-      "date_published": "2026-10-15T00:00:00Z",
-      "tags": [
-        "Arts & Culture",
-        "Language & Literature",
-        "poems and poetry",
-        "sleep",
-        "学术",
-        "人文"
-      ],
-      "authors": [
-        {
-          "name": "JSTOR Daily"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "daily-jstor-org"
-      }
-    },
-    {
       "id": "https://www.xiaoyuzhoufm.com/episode/6acdee13195d838e2af13466?utm_source=rss",
       "url": "https://www.xiaoyuzhoufm.com/episode/6acdee13195d838e2af13466?utm_source=rss",
       "title": "507 葡萄酒盲品漫话：「神童」安德烈眼中的世锦赛、风土与掌故",
@@ -1084,6 +1059,28 @@
       "content_text": "- 导语 - 在地方社会的崩溃下，民国匪患遍布南北，豫北土匪的生存状况尤其典型：民与匪之间共生、转换，暴力成为个体最可能抓住的生存机遇。生态环境失衡、鸦片流通、权力腐败如何一步步加剧豫北匪患？兵匪身份不断流转，土匪如何在多方势力暗中往来中谋取生存？河南乡土间盛行的「拜朋友」仪式在匪帮群体中扮演着怎样的作用？请听本期节目…",
       "summary": "- 导语 - 在地方社会的崩溃下，民国匪患遍布南北，豫北土匪的生存状况尤其典型：民与匪之间共生、转换，暴力成为个体最可能抓住的生存机遇。生态环境失衡、鸦片流通、权力腐败如何一步步加剧豫北匪患？兵匪身份不断流转，土匪如何在多方势力暗中往来中谋取生存？河南乡土间盛行的「拜朋友」仪式在匪帮群体中扮演着怎样的作用？请听本期节目…",
       "date_published": "2026-06-09T00:00:00Z",
+      "tags": [
+        "人文",
+        "历史"
+      ],
+      "authors": [
+        {
+          "name": "忽左忽右"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "feed-xyzfm-space"
+      }
+    },
+    {
+      "id": "https://www.xiaoyuzhoufm.com/episode/6a2284447444b5722233dedb?utm_source=rss",
+      "url": "https://www.xiaoyuzhoufm.com/episode/6a2284447444b5722233dedb?utm_source=rss",
+      "title": "日本谍报物语05｜冷战前线的「间谍乐园」：战后对内公安情报如何重生？",
+      "content_text": "- 导语 - 特高警察前脚废止，公安警察后脚成立，冷战与对内治安两条主线重新组织起日本战后情报体系。驻日盟军总司令部（GHQ）内部两大路线冲突在何处？帝银事件、「国铁三大案」接连爆发，日本公安警察如何借此持续扩权？岸信介脱罪从政，美方暗中政治运作是否发挥作用？六七十年代左右翼极端事件此起彼伏，韩、朝、美、苏多方势力又在…",
+      "summary": "- 导语 - 特高警察前脚废止，公安警察后脚成立，冷战与对内治安两条主线重新组织起日本战后情报体系。驻日盟军总司令部（GHQ）内部两大路线冲突在何处？帝银事件、「国铁三大案」接连爆发，日本公安警察如何借此持续扩权？岸信介脱罪从政，美方暗中政治运作是否发挥作用？六七十年代左右翼极端事件此起彼伏，韩、朝、美、苏多方势力又在…",
+      "date_published": "2026-06-05T00:00:00Z",
+      "image": "https://image.xyzcdn.net/FvZfckFcavT1CgwW_gSQp3JEC9Xz.png",
       "tags": [
         "人文",
         "历史"

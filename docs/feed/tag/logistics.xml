@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/logistics.xml</id>
-  <title>公共目录 · #logistics</title>
+  <title>公共目录 · #Logistics</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/logistics.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/forward-air-saves-significant-portion-of-major-customer-account</id>
+    <title>Forward Air saves ‘significant portion’ of major customer account</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/forward-air-saves-significant-portion-of-major-customer-account"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Forward Air has finalized a two-year deal to preserve a major share of the business from a contract logistics customer it had earlier warned it could lose. The…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="Less than Truckload (LTL)"/>
+    <category term="Logistics"/>
+    <category term="News"/>
+    <category term="contract logistics"/>
+    <category term="Forward Air"/>
+    <category term="LTL carriers"/>
+    <category term="Omni Logistics"/>
+  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/millions-in-stolen-freight-reveal-a-weakness-criminals-keep-exploiting</id>
     <title>Millions in stolen freight reveal a weakness criminals keep exploiting</title>
@@ -56,22 +73,5 @@
     <category term="logistics"/>
     <category term="货运"/>
     <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/shaw-carpet-tile-reverse-logistics-backhaul</id>
-    <title>How Shaw backhauls turn old carpet tile into new opportunity</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/shaw-carpet-tile-reverse-logistics-backhaul"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">An office's carpet tile can sit on the floor for up to a decade. Getting it back to a Georgia mill takes a truck, a contractor willing to sort materials and rev…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Logistics"/>
-    <category term="Modern Shipper"/>
-    <category term="News"/>
-    <category term="Sustainability"/>
-    <category term="Carpet tile"/>
-    <category term="EcoWorx"/>
-    <category term="Recycling"/>
-    <category term="recycling supply chain"/>
   </entry>
 </feed>

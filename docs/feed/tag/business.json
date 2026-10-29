@@ -33,6 +33,84 @@
       }
     },
     {
+      "id": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
+      "url": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
+      "title": "I Put a Bunch of AI Agents in Charge of a Fantasy Soccer Team. They’re Not Better Than Humans—Yet",
+      "content_text": "To experiment with AI’s predictive skills, I let Codex loose on a fantasy team. It tried to bench Erling Haaland at first, but it soon learned the error of its…",
+      "summary": "To experiment with AI’s predictive skills, I let Codex loose on a fantasy team. It tried to bench Erling Haaland at first, but it soon learned the error of its…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae108712ec9b10c531020d9/master/pass/business_ai_predict_future.jpg",
+      "tags": [
+        "Business",
+        "AI Lab",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/stolen-shoes-on-ebay-lead-police-to-1-million-in-missing-bnsf-train-cargo",
+      "url": "https://www.freightwaves.com/news/stolen-shoes-on-ebay-lead-police-to-1-million-in-missing-bnsf-train-cargo",
+      "title": "Stolen shoes on eBay lead police to $1 million in missing BNSF train cargo",
+      "content_text": "An eBay listing for stolen shoes exposed a $1 million cargo recovery in Los Angeles. Investigators arrested the business owner, but questions remain about where…",
+      "summary": "An eBay listing for stolen shoes exposed a $1 million cargo recovery in Los Angeles. Investigators arrested the business owner, but questions remain about where…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Business",
+        "Fraud",
+        "Playbook: Cash & Capital",
+        "Top Stories",
+        "BNSF Railroad",
+        "cargo theft",
+        "rail theft",
+        "recovery"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/aurora-charger-logistics-500-driverless-trucks-mou",
+      "url": "https://www.freightwaves.com/news/aurora-charger-logistics-500-driverless-trucks-mou",
+      "title": "Aurora adds 500-truck Charger MOU toward 30,000-truck goal",
+      "content_text": "Aurora Innovation signed a nonbinding MOU with Charger Logistics for up to 500 driverless trucks, adding to a carrier-owned pipeline Aurora needs to hit its 203…",
+      "summary": "Aurora Innovation signed a nonbinding MOU with Charger Logistics for up to 500 driverless trucks, adding to a carrier-owned pipeline Aurora needs to hit its 203…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Autonomous Vehicles",
+        "Business",
+        "News",
+        "Technology",
+        "Aurora Driver",
+        "Aurora Driverless Trucks",
+        "Aurora Innovation",
+        "autonomous trucking"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
       "url": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
       "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
@@ -71,30 +149,6 @@
         "Science / Environment",
         "Business",
         "P(Doom)",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/",
-      "url": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/",
-      "title": "AI Agents Are Media’s New Favorite Audience",
-      "content_text": "As agents go mainstream, some publishers are hoping that people will pay for content tailor-made for AI—not humans.",
-      "summary": "As agents go mainstream, some publishers are hoping that people will pay for content tailor-made for AI—not humans.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adfd6269b54dbfcc0225ffd/master/pass/business_ai_agents_media_audience.jpg",
-      "tags": [
-        "Business",
-        "README",
         "科技",
         "社会"
       ],
@@ -163,129 +217,6 @@
       }
     },
     {
-      "id": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
-      "url": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
-      "title": "Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures",
-      "content_text": "Anthropic’s S-1 filing is hundreds of pages long—and it leaves out quite a few financial details. “Anthropic owes investors more information,” one analyst tells…",
-      "summary": "Anthropic’s S-1 filing is hundreds of pages long—and it leaves out quite a few financial details. “Anthropic owes investors more information,” one analyst tells…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adf8a425d1e509438fb58ec/master/pass/Anthropic3.jpg",
-      "tags": [
-        "Business",
-        "What’s Your Number?",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/the-hottest-new-side-hustle-is-stripping-copper-wire-and-posting-about-it/",
-      "url": "https://www.wired.com/story/the-hottest-new-side-hustle-is-stripping-copper-wire-and-posting-about-it/",
-      "title": "The Hottest New Side Hustle Is Stripping Copper Wire and Posting About It",
-      "content_text": "Copper prices are at record highs, but for TikTok creators, the real money may be in teaching others how to strip wire—and selling them the tools to do it.",
-      "summary": "Copper prices are at record highs, but for TikTok creators, the real money may be in teaching others how to strip wire—and selling them the tools to do it.",
-      "date_published": "2026-10-26T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ada4995fd62e299be0487da/master/pass/Business_Meet%20The%20TikTokers%20Stripping%20Copper%20As%20a%20Side%20Hustle_v2.jpg",
-      "tags": [
-        "Business",
-        "Business / Social Media",
-        "Culture",
-        "Culture / Digital Culture",
-        "Copping Copper",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
-      "url": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
-      "title": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
-      "content_text": "Anthropic thinks “closing the loop” is the best path to AI triumph—and a recipe for “existential” threats to humanity.",
-      "summary": "Anthropic thinks “closing the loop” is the best path to AI triumph—and a recipe for “existential” threats to humanity.",
-      "date_published": "2026-10-26T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adf6d7844b1eb496ab79957/master/pass/Business_The%20Anthropic%20IPO%20Is%20Also%20a%20Doomsday%20Primer_v1.jpg",
-      "tags": [
-        "Business",
-        "Danger Zone",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
-      "url": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
-      "title": "Meet the AI Agents Trying to Be Real-Life Journalists",
-      "content_text": "Jayden, Sam, and Zack are eagerly pitching editors on reported stories and investigative features. The catch? They're all AI agents.",
-      "summary": "Jayden, Sam, and Zack are eagerly pitching editors on reported stories and investigative features. The catch? They're all AI agents.",
-      "date_published": "2026-10-26T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adcfb8cc56cd60fecb6db05/master/pass/AI%20journalists%202.jpg",
-      "tags": [
-        "Business",
-        "Bot Correspondents",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
-      "url": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
-      "title": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
-      "content_text": "Anthropic on Monday filed documents ahead of a blockbuster IPO that offers insight into the company’s financials, risk factors, and views on the future of AI.",
-      "summary": "Anthropic on Monday filed documents ahead of a blockbuster IPO that offers insight into the company’s financials, risk factors, and views on the future of AI.",
-      "date_published": "2026-10-26T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adf6c00ca47359863df5ba5/master/pass/102626-Anthropic%20IPO.jpg",
-      "tags": [
-        "Business",
-        "We’re Getting Antsy",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
       "id": "https://www.freightwaves.com/news/shipbuilding-central-to-new-us-denmark-maritime-pact",
       "url": "https://www.freightwaves.com/news/shipbuilding-central-to-new-us-denmark-maritime-pact",
       "title": "Shipbuilding central to new US-Denmark maritime pact",
@@ -328,33 +259,6 @@
         "brokers",
         "Capacity",
         "capacity radar"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/wabtec-earnings-rise-on-higher-freight-and-transit-sales",
-      "url": "https://www.freightwaves.com/news/wabtec-earnings-rise-on-higher-freight-and-transit-sales",
-      "title": "Wabtec earnings rise on higher freight and transit sales",
-      "content_text": "Rail equipment supplier Wabtec raised its outlook on higher third-quarter revenue and earnings. The post Wabtec earnings rise on higher freight and transit sale…",
-      "summary": "Rail equipment supplier Wabtec raised its outlook on higher third-quarter revenue and earnings. The post Wabtec earnings rise on higher freight and transit sale…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "Business",
-        "Company Earnings",
-        "Finance",
-        "News",
-        "Railroad",
-        "Equipment",
-        "locomotives",
-        "railroads"
       ],
       "authors": [
         {

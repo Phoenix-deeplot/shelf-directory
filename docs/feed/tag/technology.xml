@@ -4,8 +4,46 @@
   <title>公共目录 · #Technology</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/technology.xml"/>
-  <updated>2026-10-28T00:00:00Z</updated>
+  <updated>2026-10-29T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.openculture.com/2026/10/the-early-years-of-electronic-pop-the-moog-craze-psychedelic-experiments-and-more.html</id>
+    <title>The Early Years of Electronic Pop: The Moog Craze, Psychedelic Experiments, and More</title>
+    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/the-early-years-of-electronic-pop-the-moog-craze-psychedelic-experiments-and-more.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">There’s a decent chance you’ve heard at least a couple of tracks from Wendy Carlos’ Switched-On Bach. But when was the last time you put on Switched-On Rock, Sw…</summary>
+    <source><title>Open Culture</title></source>
+    <category term="History"/>
+    <category term="Music"/>
+    <category term="Technology"/>
+    <category term="文化"/>
+    <category term="免费资源"/>
+  </entry>
+  <entry>
+    <id>https://www.reddit.com/r/technology/comments/1xhz9fy/massive_leak_exposes_41000_homeland_security/</id>
+    <title>Massive Leak Exposes 41,000 Homeland Security Workers—Including Undercover ICE Agents</title>
+    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/technology/comments/1xhz9fy/massive_leak_exposes_41000_homeland_security/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">submitted by /u/CarciaNerissa to r/technology [link] [comments]</summary>
+    <source><title>top scoring links : popular</title></source>
+    <category term="technology"/>
+    <category term="社区"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.reddit.com/r/technology/comments/1xhnxg6/ice_is_running_one_of_the_largest_antileft/</id>
+    <title>ICE Is Running One of the Largest Anti-Left Surveillance Operations in US History</title>
+    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/technology/comments/1xhnxg6/ice_is_running_one_of_the_largest_antileft/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">submitted by /u/Wagamaga to r/technology [link] [comments]</summary>
+    <source><title>top scoring links : popular</title></source>
+    <category term="technology"/>
+    <category term="社区"/>
+    <category term="热榜"/>
+  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/wex-euclid-ai-target-90-reduction-in-trucking-transaction-costs</id>
     <title>WEX, Euclid AI target 90% reduction in trucking transaction costs</title>
@@ -21,6 +59,40 @@
     <category term="WEX"/>
     <category term="货运"/>
     <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/aurora-charger-logistics-500-driverless-trucks-mou</id>
+    <title>Aurora adds 500-truck Charger MOU toward 30,000-truck goal</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/aurora-charger-logistics-500-driverless-trucks-mou"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Aurora Innovation signed a nonbinding MOU with Charger Logistics for up to 500 driverless trucks, adding to a carrier-owned pipeline Aurora needs to hit its 203…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Autonomous Vehicles"/>
+    <category term="Business"/>
+    <category term="News"/>
+    <category term="Technology"/>
+    <category term="Aurora Driver"/>
+    <category term="Aurora Driverless Trucks"/>
+    <category term="Aurora Innovation"/>
+    <category term="autonomous trucking"/>
+  </entry>
+  <entry>
+    <id>https://daily.jstor.org/how-telepathy-helped-build-the-russian-internet/</id>
+    <title>How Telepathy Helped Build the Russian Internet</title>
+    <link rel="alternate" type="text/html" href="https://daily.jstor.org/how-telepathy-helped-build-the-russian-internet/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">During the Cold War, Soviet scientists pursued an unlikely way to communicate with the outside world. The post How Telepathy Helped Build the Russian Internet a…</summary>
+    <source><title>JSTOR Daily</title></source>
+    <category term="Arts &amp; Culture"/>
+    <category term="Language &amp; Literature"/>
+    <category term="Science &amp; Technology"/>
+    <category term="Technology"/>
+    <category term="internet"/>
+    <category term="Path to Open"/>
+    <category term="Russia"/>
+    <category term="学术"/>
   </entry>
   <entry>
     <id>https://www.freightwaves.com/news/spartan-carrier-alvys-foundry-ai-agents</id>
@@ -140,23 +212,6 @@
     <category term="brokers"/>
     <category term="Capacity"/>
     <category term="capacity radar"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness</id>
-    <title>Workforce gaps keep supply chain AI stuck in pilot mode</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">AI adoption across 13 supply chain functions averages 1.94 on a five-point scale. ASCM CEO Abe Eshkenazi says companies are buying the tool before fixing the pr…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="American Shipper"/>
-    <category term="Logistics/Supply Chains"/>
-    <category term="News"/>
-    <category term="Technology"/>
-    <category term="Abe Eshkenazi"/>
-    <category term="AI agents"/>
-    <category term="AI pilots"/>
-    <category term="ASCM"/>
   </entry>
   <entry>
     <id>https://www.openculture.com/2026/10/in-1897-londons-lampposts-dispensed-hot-coffee-tea-and-fluid-beef.html</id>

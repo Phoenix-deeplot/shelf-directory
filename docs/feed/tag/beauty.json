@@ -1,0 +1,36 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Beauty",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/beauty.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://slate.com/life/2026/10/jennifer-lawrence-hair-mes-beauty.html?via=rss",
+      "url": "https://slate.com/life/2026/10/jennifer-lawrence-hair-mes-beauty.html?via=rss",
+      "title": "She’s an Oscar Winner. She’s About to Star in a Scorsese Film. I Can’t Figure Out Why She’s Doing … This.",
+      "content_text": "Even she seems slightly embarrassed by the whole thing.",
+      "summary": "Even she seems slightly embarrassed by the whole thing.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/3aea5709-0f11-4e9d-968c-bfd1e73e9468.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Beauty",
+        "Celebrities",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    }
+  ]
+}

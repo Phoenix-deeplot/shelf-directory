@@ -2,61 +2,11 @@
  "id": "hot-wikipedia",
  "items": [
   {
-   "url": "https://en.wikipedia.org/wiki/Eric_Bauza",
-   "title": "Eric Bauza",
-   "summary": "第 1 名 · 浏览 51.2 万",
+   "url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
+   "title": "2026 Israeli legislative election",
+   "summary": "第 1 名 · 浏览 43.9 万",
    "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://en.wikipedia.org/wiki/2026_Ballon_d'Or",
-   "title": "2026 Ballon d'Or",
-   "summary": "第 2 名 · 浏览 45.2 万",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election",
-   "title": "2026 Brazilian general election",
-   "summary": "第 3 名 · 浏览 42.1 万",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://en.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
-   "title": "Luiz Inácio Lula da Silva",
-   "summary": "第 4 名 · 浏览 39.6 万",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election",
-   "title": "2026 Serbian parliamentary election",
-   "summary": "第 5 名 · 浏览 29.0 万",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://en.wikipedia.org/wiki/Walter_Koenig",
-   "title": "Walter Koenig",
-   "summary": "第 6 名 · 浏览 27.7 万",
-   "image": "",
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "tags": [],
    "lang": "en",
    "type": "article"
@@ -64,9 +14,29 @@
   {
    "url": "https://en.wikipedia.org/wiki/.xxx",
    "title": ".xxx",
-   "summary": "第 7 名 · 浏览 24.0 万",
+   "summary": "第 2 名 · 浏览 36.3 万",
    "image": "",
-   "date": "2026-10-28",
+   "date": "2026-10-29",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Harry_Kane",
+   "title": "Harry Kane",
+   "summary": "第 3 名 · 浏览 35.9 万",
+   "image": "",
+   "date": "2026-10-29",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Susan_Saint_James",
+   "title": "Susan Saint James",
+   "summary": "第 4 名 · 浏览 29.8 万",
+   "image": "",
+   "date": "2026-10-29",
    "tags": [],
    "lang": "en",
    "type": "article"
@@ -74,29 +44,59 @@
   {
    "url": "https://en.wikipedia.org/wiki/Ballon_d'Or",
    "title": "Ballon d'Or",
-   "summary": "第 8 名 · 浏览 21.9 万",
+   "summary": "第 5 名 · 浏览 27.1 万",
    "image": "",
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "tags": [],
    "lang": "en",
    "type": "article"
   },
   {
-   "url": "https://en.wikipedia.org/wiki/Student_List",
-   "title": "Student List",
-   "summary": "第 9 名 · 浏览 18.6 万",
+   "url": "https://en.wikipedia.org/wiki/2026_Ballon_d'Or",
+   "title": "2026 Ballon d'Or",
+   "summary": "第 6 名 · 浏览 23.8 万",
    "image": "",
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "tags": [],
    "lang": "en",
    "type": "article"
   },
   {
-   "url": "https://en.wikipedia.org/wiki/Clayface_(film)",
-   "title": "Clayface (film)",
-   "summary": "第 10 名 · 浏览 18.5 万",
+   "url": "https://en.wikipedia.org/wiki/ChatGPT",
+   "title": "ChatGPT",
+   "summary": "第 7 名 · 浏览 18.4 万",
    "image": "",
-   "date": "2026-10-28",
+   "date": "2026-10-29",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Walter_Koenig",
+   "title": "Walter Koenig",
+   "summary": "第 8 名 · 浏览 18.2 万",
+   "image": "",
+   "date": "2026-10-29",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Gadi_Eisenkot",
+   "title": "Gadi Eisenkot",
+   "summary": "第 9 名 · 浏览 18.0 万",
+   "image": "",
+   "date": "2026-10-29",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Eric_Bauza",
+   "title": "Eric Bauza",
+   "summary": "第 10 名 · 浏览 15.7 万",
+   "image": "",
+   "date": "2026-10-29",
    "tags": [],
    "lang": "en",
    "type": "article"

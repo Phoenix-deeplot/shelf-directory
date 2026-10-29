@@ -4,157 +4,173 @@
   <title>公共目录 · #AI</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/ai.xml"/>
-  <updated>2026-10-28T00:00:00Z</updated>
+  <updated>2026-10-29T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6485430.html</id>
-    <title>递交上市后，Anthropic 创始人首次讲清：一家 AI 公司，凭什么让人相信它</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485430.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Anthropic 两位创始人兄妹首次对外讲清，他们没给 Claude 一张 170 条的规则清单，而是教它几条基本原则：开放探究、关心别人、公平正义。模型越强，这套教对错的方法越关键。 你有没有想过，一个 AI 要是学会了顺着你说话，只讲你爱听的，你多半很难发现？它没有说错什么，也没有说什么难听的，只是每次都说“你说…</summary>
+    <id>https://www.woshipm.com/ai/6486266.html</id>
+    <title>鹅厂出手：面向Agent的网盘，到底应该长什么样？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486266.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">作者手上十几个 AI 工具，一直想给它们找个共同的仓库。腾讯网盘把「面向 Agent」写进了定位，他把内测几天折腾下来的连接、授权、备份和跨工具取资料的体验记了一遍，哪些真省事，哪些还差口气。 必须承认，我现在用AI，某种意义上就是一种消费。 我的工具一大堆—— Claude Code、Codex、WorkBuddy、…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI伦理"/>
-    <category term="AI公司"/>
-    <category term="Anthropic"/>
-    <category term="Claude"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6485432.html</id>
-    <title>腾讯网盘实测：跳出容量竞赛，大厂押注Agent存储</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485432.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">腾讯正在内测「腾讯网盘」，定位不再是文件仓库，而是多 Agent 的统一记忆底座，可连接腾讯文档、WorkBuddy 等智能体，让多个 AI 在同一份资料上协同工作。实测下来，长处与短板都相当清楚。 腾讯已开启“腾讯网盘”内测，部分功能仍在迭代完善，腾讯网盘计划配有App版本。腾讯网盘聚焦文件存储、数据管理与AI应用，…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI应用"/>
-    <category term="产品分析"/>
-    <category term="网盘"/>
+    <category term="Codex"/>
+    <category term="WorkBuddy"/>
     <category term="腾讯"/>
     <category term="产品"/>
     <category term="运营"/>
+    <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6485289.html</id>
-    <title>漫剧产能的囚徒困境</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485289.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">按5000万播放这条盈亏线算，2026上半年达标的 AI 剧不足1.3%，可头部公司还在加人加算力，灵矩动漫到3月已有800名员工。赌爆款赌的不是这一部的分账，是下一批订单的合作档位。 对一些AI漫剧公司来说，赌爆款，既要看这一部能赚多少钱，还得看下一批订单能不能拿到。 这事有点奇怪。 据DataEye测算，按5000…</summary>
+    <id>https://www.woshipm.com/ai/6486169.html</id>
+    <title>首个记忆原生大模型开源，36B 本地部署实测：成功把规矩”刻”进脑子</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486169.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">AI 编程最痛的不是写不出代码，而是换个会话就忘光。MemT-1 想做的事很直接：把踩过的坑写进模型权重，36B 版本在单卡 A100 上跑通，长程任务里到底管不管用，这篇给了实测。 做智能体或者日常用 Cursor、Claude Code、Windsurf 等 AI 辅助写代码的老铁们，大概率都经历过同一种“内伤”：…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="DataEye"/>
-    <category term="商业模式"/>
-    <category term="漫剧"/>
-    <category term="行业分析"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6485254.html</id>
-    <title>最强开源 1.3B OCR模型，本地Agent、知识库都有救了～</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485254.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">1.3B 参数的 OXR 只占单卡24G显存，却在三大基准评测上排到第一。十个真实工况跑下来，多栏报纸、热敏小票、曲面营养表都能还原成结构化文本，连化学分子式都能输出成 SMILES 字符串。 前几天刷 X 的时候，刚好看到一个叫OXR的国产开源文档解析模型在技术圈讨论度很高，还登上了 X Daily News， 更主…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI应用"/>
-    <category term="OCR"/>
-    <category term="Qwen"/>
-    <category term="功能分析"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6485427.html</id>
-    <title>招 Agent 工程师，为什么张口就是 LangChain？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485427.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">招聘 Agent 工程师，JD 第一行常写「熟悉 LangChain」。这个 2022 年 10 月才开源的项目，四年间从工具库长成 Agent 工程体系，它究竟解决了什么问题，又凭什么成了行业默认门槛？ 最近很多同学反映，找一个Agent工程师的工作，都要求要会langchain，好像不会langchain就不会开发…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="Agent"/>
-    <category term="AI应用"/>
     <category term="AI编程"/>
-    <category term="LangChain"/>
+    <category term="MemOS"/>
+    <category term="案例分析"/>
+    <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6485617.html</id>
-    <title>我用 WorkBuddy 给全家做了一个生活管理后台，全套技能开源！</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485617.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">日记、记账、读书笔记、凭证、健康档案、电脑体检，六件家庭杂事被收进一个聊天框，数据全部存在腾讯文档里，家里人在手机上发一句话就能记，电脑关着也照样查得到。整套技能已经全开源。 我用 WorkBuddy 给家人搭了一个「生活管理后台」：日记、读书笔记、健康档案、各种凭证、记账、电脑管理，6 件生活杂事，全靠一句话 所有数…</summary>
+    <id>https://www.woshipm.com/ai/6486194.html</id>
+    <title>详细拆解 Pi Agent：产品经理搞懂 Agent 的最佳实践</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486194.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">OpenClaw 背后真正负责思考和动手的，是一个叫 Pi 的极简框架。拆完整个项目，作者把 Agent 的循环、上下文工程、工具系统与状态管理，讲成了一套可以迁移的产品原则。 如果你正在学习 Agent，或者要面向 Agent 优化迭代你的产品，强烈建议深度使用、拆解、学习 Pi Agent 这套开源项目。 我前段时…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="AI产品"/>
+    <category term="Claude"/>
+    <category term="产品分析"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6486181.html</id>
+    <title>腾讯网盘上线，行业首个Agent网盘来了，实测惊艳</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486181.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">腾讯网盘上线，主打面向 Agent 的存储底座：连上 WorkBuddy、ima、腾讯文档与飞书，把散落各处的资料归到一处。五个步骤实测下来，它到底能不能当 AI 时代的统一入口。 早在今年 6 月份，就有可靠消息显示，腾讯正在研发一款 Agent 网盘产品：腾讯网盘。 我还专为此写过一篇文章，对这个产品充满期待。 腾…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI产品"/>
+    <category term="WorkBuddy"/>
+    <category term="腾讯网盘"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6486200.html</id>
+    <title>电商产品设计终极工作流：用AI一键生成可交互、可拆解的产品3D demo</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486200.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">从亚马逊评论中挖掘产品改进机会，再生成可交互的3D Demo，这套工作流让产品设计效率倍增。本文详细拆解如何用WorkBuddy和卖家精灵MCP，完成VOC分析、方案构思到三维演示的全过程，并附上实用提示词和模板，助你快速上手。 今天想给大家分享一个有趣又实用的电商产品设计工作流，对产品设计、运营、设计师都会有很大帮助…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="3D Demo"/>
+    <category term="AI应用"/>
+    <category term="VOC分析"/>
+    <category term="WorkBuddy"/>
+    <category term="卖家精灵"/>
+    <category term="电商产品设计"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6486183.html</id>
+    <title>张一鸣又造出一个国民级APP</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486183.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">谁能想到，曾经被不少人嫌弃“又土又俗”的短剧，如今已经成了互联网大厂争夺用户时间的重要战场。 10月29日，一组关于红果短剧的数据引发关注。 QuestMobile数据显示，2026年5月，红果短剧月活跃用户达到3.56亿；7月日活跃用户达到1.68亿，同比增长107%，甚至超过腾讯视频、爱奇艺、优酷、芒果TV四家长视…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="小程序"/>
+    <category term="微信"/>
+    <category term="抖音"/>
+    <category term="腾讯"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6486063.html</id>
+    <title>开源性转马尔福 AI 女友，用即梦短剧工作室做的</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486063.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">性转马尔福一条帖子刷到 2300 万浏览，有人干脆用即梦 AI 短剧工作室做了个桌面应用：第一人称剧情、好感度解锁、角色就住在桌面里。画面和配音用即梦，音乐用 Suno，代码交给 Claude。 这一个多月，你应该刷到过性转马尔福吧。 起因是 9 月 22 日，一位俄罗斯画师在 X 上发了一张图。 图上是一个穿着斯莱特…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
     <category term="AI应用"/>
-    <category term="WorkBuddy"/>
-    <category term="智能体"/>
-    <category term="腾讯文档"/>
+    <category term="Claude"/>
+    <category term="Suno"/>
+    <category term="经验分享"/>
     <category term="产品"/>
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6485564.html</id>
-    <title>当DeepSeek成为一种亚文化</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485564.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">DeepSeek 在 AI 圈以技术和融资闻名，却在年轻人中意外催生了“鲸鱼娘”“D老师”等二创亚文化。官方零运营，用户却自发创作表情包、同人动画甚至收费内容。这种“反商业”的活人感如何成为流量密码？饭圈化又会带来哪些风险？本文深度拆解 DeepSeek 的亚文化出圈逻辑与潜在变量。 01 亚文化符号 这个世界上可能存…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="AI产品"/>
-    <category term="DeepSeek"/>
-    <category term="亚文化"/>
-    <category term="用户运营"/>
-    <category term="饭圈文化"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6485473.html</id>
-    <title>实测GPT-Image-2.5：用一张白底图跑完13个电商素材场景，比2.0强在哪？（附提示词）</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485473.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">GPT-Image-2.5 悄然上线，实测 13 个电商素材场景后，产品一致性、细节真实性和局部编辑准确度均有明显提升。本文以保湿精华为例，从白底主图到买家秀，逐一拆解 6 大核心场景的生成效果，并附完整提示词，带你直观感受新版本的真实实力。 前段时间OpenAI悄咪咪地发布了GPT-Image-2.5，虽然没有Ima…</summary>
+    <id>https://www.woshipm.com/ai/6486168.html</id>
+    <title>从 GEO 实战重新理解知识图谱</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486168.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">知识图谱不是静态资料库，而是品牌在 AI 世界的认知底座。本文从 GEO 优化视角，拆解知识图谱如何统一认知、指导选题、串联内容并发现缺口，并分享市场部运营人员从零搭建、持续迭代的实战方法，让知识树既能摘果也能灌溉。 一、前提 最近在重新梳理公司的知识图谱。最开始的原因其实很简单——我看了不少 GEO的行业报告，里面几…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI生图"/>
-    <category term="GPT-Image"/>
-    <category term="功能分析"/>
-    <category term="提示词"/>
-    <category term="电商素材"/>
-    <category term="产品"/>
+    <category term="AI搜索"/>
+    <category term="GEO"/>
+    <category term="内容运营"/>
+    <category term="市场部"/>
+    <category term="知识图谱"/>
+    <category term="经验总结"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6485257.html</id>
-    <title>WorkBuddy上线「本地文档默认打开方式」，可一键开启</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485257.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">双击本地文档，默认弹出来的不再只有 Office，也可以是 WorkBuddy 的文件浏览器。设置里新增默认打开方式入口，勾选文档类型、过一次系统授权即可改成默认，Dock 里会单独立一个图标。 近日，WorkBuddy 频繁更新。 之前上线了AI 办公 Agent 行业首个本地「文件浏览器」功能。 可通过 WorkB…</summary>
+    <id>https://www.woshipm.com/ai/6485988.html</id>
+    <title>下一代PPT，AI 做 PPT 的终极形态</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485988.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">当 AI 能生成 3D 模型和动态视频，PPT 的叙事逻辑正在被改写。本文从产品演示的真实痛点出发，结合 Rebecca Minkoff、宜家等案例，拆解如何用 3D 视角和动态画面讲清空间关系与变化过程，并给出从产品图到短视频的完整实操路径。 2026年，用 AI 做 PPT 的终极形态，长这样 先说结论：我做 PP…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI产品"/>
-    <category term="WorkBuddy"/>
-    <category term="功能分析"/>
+    <category term="3D 模型"/>
+    <category term="AI 应用"/>
+    <category term="AI 生成 PPT"/>
+    <category term="产品展示"/>
+    <category term="动态演示"/>
+    <category term="案例分析"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6486185.html</id>
+    <title>ChatGPT 每月送 API 额度，最多 500 美元/月</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486185.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">OpenAI 给 ChatGPT 订阅加了项福利：Pro 和 Business 用户每月可领与订阅等额的 API 额度，最高 500 美元。与此同时，原有额度被砍掉一半，这笔账要怎么算，几步就能领。 OpenAI 给 ChatGPT 订阅加了一项福利：Pro 和 Business 用户，每月可领 API 额度，等同于订…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="ChatGPT"/>
+    <category term="OpenAI"/>
+    <category term="行业动态"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>

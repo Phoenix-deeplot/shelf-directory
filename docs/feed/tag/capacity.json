@@ -34,33 +34,6 @@
         "type": "article",
         "shelf": "freightwaves-com"
       }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates",
-      "url": "https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates",
-      "title": "New Drewry data shows import demand boosting trans-Pacific rates",
-      "content_text": "Drewry’s World Container Index rose on higher rates on trans-Pacific and Asia-Europe routes. The post New Drewry data shows import demand boosting trans-Pacific…",
-      "summary": "Drewry’s World Container Index rose on higher rates on trans-Pacific and Asia-Europe routes. The post New Drewry data shows import demand boosting trans-Pacific…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "American Shipper",
-        "Container Shipping",
-        "Maritime",
-        "News",
-        "Top Stories",
-        "Capacity",
-        "Drewry",
-        "imports"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
     }
   ]
 }

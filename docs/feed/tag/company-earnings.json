@@ -36,6 +36,33 @@
       }
     },
     {
+      "id": "https://www.freightwaves.com/news/old-dominions-tonnage-turns-positive-recovery-needs-demand-inflection",
+      "url": "https://www.freightwaves.com/news/old-dominions-tonnage-turns-positive-recovery-needs-demand-inflection",
+      "title": "Old Dominion’s tonnage turns positive; recovery needs demand inflection",
+      "content_text": "Old Dominion reported positive tonnage growth in September for the first time in more than two years, but company executives emphasized that returning to upcycl…",
+      "summary": "Old Dominion reported positive tonnage growth in September for the first time in more than two years, but company executives emphasized that returning to upcycl…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "Less than Truckload (LTL)",
+        "News",
+        "Less-than-truckload pricing",
+        "LTL carriers",
+        "LTL tonnage",
+        "LTL yields",
+        "Old Dominion"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/insurance-claims-adjustments-tank-landstars-otherwise-strong-q3",
       "url": "https://www.freightwaves.com/news/insurance-claims-adjustments-tank-landstars-otherwise-strong-q3",
       "title": "Insurance claims adjustments tank Landstar’s otherwise strong Q3",
@@ -51,6 +78,141 @@
         "Landstar",
         "Landstar BCOs",
         "Landstar System"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/greenbrier-profit-falls-as-railcar-demand-weighs-on-sales",
+      "url": "https://www.freightwaves.com/news/greenbrier-profit-falls-as-railcar-demand-weighs-on-sales",
+      "title": "Greenbrier profit falls as railcar demand weighs on sales",
+      "content_text": "Greenbrier’s fiscal fourth-quarter profit tumbled though outlook for orders and leasing growth improved. The post Greenbrier profit falls as railcar demand weig…",
+      "summary": "Greenbrier’s fiscal fourth-quarter profit tumbled though outlook for orders and leasing growth improved. The post Greenbrier profit falls as railcar demand weig…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "News",
+        "Railroad",
+        "Top Stories",
+        "earnings",
+        "railcars",
+        "Supplier",
+        "Tariffs"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/forward-air-saves-significant-portion-of-major-customer-account",
+      "url": "https://www.freightwaves.com/news/forward-air-saves-significant-portion-of-major-customer-account",
+      "title": "Forward Air saves ‘significant portion’ of major customer account",
+      "content_text": "Forward Air has finalized a two-year deal to preserve a major share of the business from a contract logistics customer it had earlier warned it could lose. The…",
+      "summary": "Forward Air has finalized a two-year deal to preserve a major share of the business from a contract logistics customer it had earlier warned it could lose. The…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "Less than Truckload (LTL)",
+        "Logistics",
+        "News",
+        "contract logistics",
+        "Forward Air",
+        "LTL carriers",
+        "Omni Logistics"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/frst-look-almost-all-good-news-at-c-h-robinson-in-the-third-quarter",
+      "url": "https://www.freightwaves.com/news/frst-look-almost-all-good-news-at-c-h-robinson-in-the-third-quarter",
+      "title": "First look: almost all good news at C.H. Robinson in the third quarter",
+      "content_text": "The third quarter at C.H. Robinson might be remembered for both the highs and the lows. It was the period when Lipe vs. Lupus Superior came down, and just days…",
+      "summary": "The third quarter at C.H. Robinson might be remembered for both the highs and the lows. It was the period when Lipe vs. Lupus Superior came down, and just days…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "3PL and Brokerage",
+        "Company Earnings",
+        "News",
+        "Top Stories",
+        "C.H. Robinson",
+        "RXO",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/first-look-cpkc-earnings-2",
+      "url": "https://www.freightwaves.com/news/first-look-cpkc-earnings-2",
+      "title": "First look: CPKC earnings",
+      "content_text": "CPKC’s third-quarter revenue and earnings climbed, though higher fuel costs squeezed margins. The post First look: CPKC earnings appeared first on FreightWaves.",
+      "summary": "CPKC’s third-quarter revenue and earnings climbed, though higher fuel costs squeezed margins. The post First look: CPKC earnings appeared first on FreightWaves.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "News",
+        "Railroad",
+        "Top Stories",
+        "CPKC",
+        "earnings",
+        "intermodal",
+        "railroads"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/c-h-robinson-and-landstar-stock-prices-slammed-insurance-costs-a-factor",
+      "url": "https://www.freightwaves.com/news/c-h-robinson-and-landstar-stock-prices-slammed-insurance-costs-a-factor",
+      "title": "C.H Robinson and Landstar stock prices slammed; insurance a factor",
+      "content_text": "(Editor’s note: the initial article has been revised to note that the companies discussed increased claims, not insurance premiums). Strong financial numbers re…",
+      "summary": "(Editor’s note: the initial article has been revised to note that the companies discussed increased claims, not insurance premiums). Strong financial numbers re…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "3PL and Brokerage",
+        "Company Earnings",
+        "News",
+        "Top Stories",
+        "C.H. Robinson",
+        "Landstar",
+        "RXO",
+        "货运"
       ],
       "authors": [
         {
@@ -105,60 +267,6 @@
         "earnings",
         "Kuehne+Nagel",
         "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/wabtec-earnings-rise-on-higher-freight-and-transit-sales",
-      "url": "https://www.freightwaves.com/news/wabtec-earnings-rise-on-higher-freight-and-transit-sales",
-      "title": "Wabtec earnings rise on higher freight and transit sales",
-      "content_text": "Rail equipment supplier Wabtec raised its outlook on higher third-quarter revenue and earnings. The post Wabtec earnings rise on higher freight and transit sale…",
-      "summary": "Rail equipment supplier Wabtec raised its outlook on higher third-quarter revenue and earnings. The post Wabtec earnings rise on higher freight and transit sale…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "Business",
-        "Company Earnings",
-        "Finance",
-        "News",
-        "Railroad",
-        "Equipment",
-        "locomotives",
-        "railroads"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/cost-pressures-sink-marten-transports-q3",
-      "url": "https://www.freightwaves.com/news/cost-pressures-sink-marten-transports-q3",
-      "title": "Cost pressures sink Marten Transport’s Q3",
-      "content_text": "Shares of refrigerated carrier Marten Transport dropped 7% in midday trading on Friday after a disappointing third-quarter report, which noted that rising fuel…",
-      "summary": "Shares of refrigerated carrier Marten Transport dropped 7% in midday trading on Friday after a disappointing third-quarter report, which noted that rising fuel…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "Company Earnings",
-        "News",
-        "Top Stories",
-        "Truckload Carriers",
-        "Marten Transport",
-        "reefer capacity",
-        "Reefer TL rates",
-        "refrigerated trucking"
       ],
       "authors": [
         {

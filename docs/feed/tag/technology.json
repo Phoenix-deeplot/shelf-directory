@@ -9,6 +9,76 @@
   },
   "items": [
     {
+      "id": "https://www.openculture.com/2026/10/the-early-years-of-electronic-pop-the-moog-craze-psychedelic-experiments-and-more.html",
+      "url": "https://www.openculture.com/2026/10/the-early-years-of-electronic-pop-the-moog-craze-psychedelic-experiments-and-more.html",
+      "title": "The Early Years of Electronic Pop: The Moog Craze, Psychedelic Experiments, and More",
+      "content_text": "There’s a decent chance you’ve heard at least a couple of tracks from Wendy Carlos’ Switched-On Bach. But when was the last time you put on Switched-On Rock, Sw…",
+      "summary": "There’s a decent chance you’ve heard at least a couple of tracks from Wendy Carlos’ Switched-On Bach. But when was the last time you put on Switched-On Rock, Sw…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "History",
+        "Music",
+        "Technology",
+        "文化",
+        "免费资源"
+      ],
+      "authors": [
+        {
+          "name": "Open Culture"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "openculture-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/technology/comments/1xhz9fy/massive_leak_exposes_41000_homeland_security/",
+      "url": "https://www.reddit.com/r/technology/comments/1xhz9fy/massive_leak_exposes_41000_homeland_security/",
+      "title": "Massive Leak Exposes 41,000 Homeland Security Workers—Including Undercover ICE Agents",
+      "content_text": "submitted by /u/CarciaNerissa to r/technology [link] [comments]",
+      "summary": "submitted by /u/CarciaNerissa to r/technology [link] [comments]",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://external-preview.redd.it/bisWoflABc4JeYxihCQ1h1MKkgQebrTvvF28MwePFEk.jpeg?width=640&crop=smart&auto=webp&s=dc31b52185252ceb76ee0b7190cd571602b73172",
+      "tags": [
+        "technology",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/technology/comments/1xhnxg6/ice_is_running_one_of_the_largest_antileft/",
+      "url": "https://www.reddit.com/r/technology/comments/1xhnxg6/ice_is_running_one_of_the_largest_antileft/",
+      "title": "ICE Is Running One of the Largest Anti-Left Surveillance Operations in US History",
+      "content_text": "submitted by /u/Wagamaga to r/technology [link] [comments]",
+      "summary": "submitted by /u/Wagamaga to r/technology [link] [comments]",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://external-preview.redd.it/wfuMkCY2cwu64ZoUwvkTQw-LIg5Wkh7QSnO2p7vmG9Y.jpeg?width=640&crop=smart&auto=webp&s=27bd7fb5c970654175af8be410423d02820ded35",
+      "tags": [
+        "technology",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/wex-euclid-ai-target-90-reduction-in-trucking-transaction-costs",
       "url": "https://www.freightwaves.com/news/wex-euclid-ai-target-90-reduction-in-trucking-transaction-costs",
       "title": "WEX, Euclid AI target 90% reduction in trucking transaction costs",
@@ -32,6 +102,60 @@
       "_shelf": {
         "type": "article",
         "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/aurora-charger-logistics-500-driverless-trucks-mou",
+      "url": "https://www.freightwaves.com/news/aurora-charger-logistics-500-driverless-trucks-mou",
+      "title": "Aurora adds 500-truck Charger MOU toward 30,000-truck goal",
+      "content_text": "Aurora Innovation signed a nonbinding MOU with Charger Logistics for up to 500 driverless trucks, adding to a carrier-owned pipeline Aurora needs to hit its 203…",
+      "summary": "Aurora Innovation signed a nonbinding MOU with Charger Logistics for up to 500 driverless trucks, adding to a carrier-owned pipeline Aurora needs to hit its 203…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Autonomous Vehicles",
+        "Business",
+        "News",
+        "Technology",
+        "Aurora Driver",
+        "Aurora Driverless Trucks",
+        "Aurora Innovation",
+        "autonomous trucking"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://daily.jstor.org/how-telepathy-helped-build-the-russian-internet/",
+      "url": "https://daily.jstor.org/how-telepathy-helped-build-the-russian-internet/",
+      "title": "How Telepathy Helped Build the Russian Internet",
+      "content_text": "During the Cold War, Soviet scientists pursued an unlikely way to communicate with the outside world. The post How Telepathy Helped Build the Russian Internet a…",
+      "summary": "During the Cold War, Soviet scientists pursued an unlikely way to communicate with the outside world. The post How Telepathy Helped Build the Russian Internet a…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Arts & Culture",
+        "Language & Literature",
+        "Science & Technology",
+        "Technology",
+        "internet",
+        "Path to Open",
+        "Russia",
+        "学术"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
       }
     },
     {
@@ -212,33 +336,6 @@
         "brokers",
         "Capacity",
         "capacity radar"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness",
-      "url": "https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness",
-      "title": "Workforce gaps keep supply chain AI stuck in pilot mode",
-      "content_text": "AI adoption across 13 supply chain functions averages 1.94 on a five-point scale. ASCM CEO Abe Eshkenazi says companies are buying the tool before fixing the pr…",
-      "summary": "AI adoption across 13 supply chain functions averages 1.94 on a five-point scale. ASCM CEO Abe Eshkenazi says companies are buying the tool before fixing the pr…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "American Shipper",
-        "Logistics/Supply Chains",
-        "News",
-        "Technology",
-        "Abe Eshkenazi",
-        "AI agents",
-        "AI pilots",
-        "ASCM"
       ],
       "authors": [
         {

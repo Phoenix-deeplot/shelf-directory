@@ -1,0 +1,81 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #meirl",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/meirl.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.reddit.com/r/meirl/comments/1xhokxb/meirl/",
+      "url": "https://www.reddit.com/r/meirl/comments/1xhokxb/meirl/",
+      "title": "meirl",
+      "content_text": "submitted by /u/Glass-Fan111 to r/meirl [link] [comments]",
+      "summary": "submitted by /u/Glass-Fan111 to r/meirl [link] [comments]",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://preview.redd.it/ut5f0iqeq7yh1.jpeg?width=640&crop=smart&auto=webp&s=8d43a2a46a0710c6860bab41b547f711b1e26d98",
+      "tags": [
+        "meirl",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/meirl/comments/1xhort5/meirl/",
+      "url": "https://www.reddit.com/r/meirl/comments/1xhort5/meirl/",
+      "title": "Meirl",
+      "content_text": "submitted by /u/Glass-Fan111 to r/meirl [link] [comments]",
+      "summary": "submitted by /u/Glass-Fan111 to r/meirl [link] [comments]",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://preview.redd.it/kicgos5rr7yh1.jpeg?width=640&crop=smart&auto=webp&s=2c02f0cd5182a8d66d986cc7b5819aa0fa7ecc49",
+      "tags": [
+        "meirl",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/meirl/comments/1xhux5h/meirl/",
+      "url": "https://www.reddit.com/r/meirl/comments/1xhux5h/meirl/",
+      "title": "Meirl",
+      "content_text": "submitted by /u/Spiritual-Pudding-70 to r/meirl [link] [comments]",
+      "summary": "submitted by /u/Spiritual-Pudding-70 to r/meirl [link] [comments]",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://preview.redd.it/53znbponv8yh1.jpeg?width=640&crop=smart&auto=webp&s=fa356d31a5451b31e47b8bc8a44d560c3d4e9cb9",
+      "tags": [
+        "meirl",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    }
+  ]
+}

@@ -4,8 +4,25 @@
   <title>公共目录 · #Arts &amp; Culture</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/arts-culture.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://daily.jstor.org/how-telepathy-helped-build-the-russian-internet/</id>
+    <title>How Telepathy Helped Build the Russian Internet</title>
+    <link rel="alternate" type="text/html" href="https://daily.jstor.org/how-telepathy-helped-build-the-russian-internet/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">During the Cold War, Soviet scientists pursued an unlikely way to communicate with the outside world. The post How Telepathy Helped Build the Russian Internet a…</summary>
+    <source><title>JSTOR Daily</title></source>
+    <category term="Arts &amp; Culture"/>
+    <category term="Language &amp; Literature"/>
+    <category term="Science &amp; Technology"/>
+    <category term="Technology"/>
+    <category term="internet"/>
+    <category term="Path to Open"/>
+    <category term="Russia"/>
+    <category term="学术"/>
+  </entry>
   <entry>
     <id>https://daily.jstor.org/mental-hospitals-at-the-movies/</id>
     <title>Mental Hospitals at the Movies</title>
@@ -76,21 +93,6 @@
     <category term="Arts &amp; Culture"/>
     <category term="housework"/>
     <category term="race"/>
-    <category term="学术"/>
-    <category term="人文"/>
-  </entry>
-  <entry>
-    <id>https://daily.jstor.org/ten-poems-about-sleep-and-dreaming/</id>
-    <title>Ten Poems about Sleep and Dreaming</title>
-    <link rel="alternate" type="text/html" href="https://daily.jstor.org/ten-poems-about-sleep-and-dreaming/"/>
-    <updated>2026-10-15T00:00:00Z</updated>
-    <published>2026-10-15T00:00:00Z</published>
-    <summary type="text">Visions of the unconscious by Emily Dickinson, Louise Glück, Lucille Clifton, Carl Phillips, and more. The post Ten Poems about Sleep and Dreaming appeared firs…</summary>
-    <source><title>JSTOR Daily</title></source>
-    <category term="Arts &amp; Culture"/>
-    <category term="Language &amp; Literature"/>
-    <category term="poems and poetry"/>
-    <category term="sleep"/>
     <category term="学术"/>
     <category term="人文"/>
   </entry>

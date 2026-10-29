@@ -9,13 +9,12 @@
   },
   "items": [
     {
-      "id": "https://tech.meituan.com/2026/07/28/CatPaw-LongCat.html",
-      "url": "https://tech.meituan.com/2026/07/28/CatPaw-LongCat.html",
-      "title": "美团正式发布 CatPaw：全场景 AI Agent，从个人提效到企业智能化",
-      "content_text": "搭载美团 LongCat 2.0 的全场景 AI Agent 平台 CatPaw 正式上线，我们将模型能力从“跑得动”推向“用得好”。CatPaw 提供开箱即用的 AI 智能工作台与企业级 Agent 开发托管能力。",
-      "summary": "搭载美团 LongCat 2.0 的全场景 AI Agent 平台 CatPaw 正式上线，我们将模型能力从“跑得动”推向“用得好”。CatPaw 提供开箱即用的 AI 智能工作台与企业级 Agent 开发托管能力。",
-      "date_published": "2026-10-23T00:00:00Z",
-      "image": "https://p0.meituan.net/meituantechblog/a690ba49597fd8720f96ea56573b54cc151290.png",
+      "id": "https://tech.meituan.com/2026/10/29/AI-Coding-IN-Distributed-Storage-System.html",
+      "url": "https://tech.meituan.com/2026/10/29/AI-Coding-IN-Distributed-Storage-System.html",
+      "title": "如何在“不能出错”的系统里使用 AI Coding？分布式存储实践与边界",
+      "content_text": "本文结合美团基础技术部在 AI 评审、问题排查和自动化开发中的真实实践，分享 AI 能帮上什么忙、容易在哪些地方犯错，以及哪些地方仍需要人来把关。比「多写代码」更重要的，是让代码和结论经得起验证。",
+      "summary": "本文结合美团基础技术部在 AI 评审、问题排查和自动化开发中的真实实践，分享 AI 能帮上什么忙、容易在哪些地方犯错，以及哪些地方仍需要人来把关。比「多写代码」更重要的，是让代码和结论经得起验证。",
+      "date_published": "2026-10-29T00:00:00Z",
       "tags": [
         "架构",
         "工程"

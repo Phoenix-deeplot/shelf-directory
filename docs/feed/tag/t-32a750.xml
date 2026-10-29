@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/t-32a750.xml</id>
+  <title>公共目录 · #个人观点</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-32a750.xml"/>
+  <updated>2026-10-29T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.woshipm.com/share/6486110.html</id>
+    <title>用户要的从来不是钻头，而是墙上的洞</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486110.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">用户要的从来不是钻头，而是墙上的洞。 座舱体验开发与设计，不应执着于功能、控件、动画这些 “钻头” 本身，而要锚定用户场景目标；先识别用户想要达成的体验结果，再选择最简合适的实现路径，不为功能而做功能。 一 我们手里握着很多精良的「钻头」： 流畅的 UI 动画、丰富的语音能力、多样的座舱交互、强劲的算力、琳琅满目的配置…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="个人观点"/>
+    <category term="产品思考"/>
+    <category term="需求分析"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/chuangye/6486082.html</id>
+    <title>一人 AI 公司，专门服务美国年入百万的本地老板，这笔钱怎么赚</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6486082.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">美国做水管和空调的公司约 11.2 万家，平均每家年入 250 万美元，真正把 AI 用进日常经营的只占 14%。对这些老板别讲 AI，讲多接几通电话、多订几单活。一个人怎么把 AI 卖给本地生意？ 你有没有想过，大家都在抢着把 AI 卖给旧金山的人，真正付得起钱的，却可能是街边修水管、修空调的公司？ James Di…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="创业学院"/>
+    <category term="AI应用"/>
+    <category term="Shopify"/>
+    <category term="个人观点"/>
+    <category term="商业模式"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+</feed>

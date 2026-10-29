@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/midterms-2026.xml</id>
+  <title>公共目录 · #Midterms 2026</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/midterms-2026.xml"/>
+  <updated>2026-10-29T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.wired.com/story/law-firm-linked-to-elon-musk-started-an-election-integrity-organization/</id>
+    <title>Law Firm Linked to Elon Musk Started an ‘Election Integrity’ Organization</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/law-firm-linked-to-elon-musk-started-an-election-integrity-organization/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">The firm that helped set up Elon Musk’s America PAC is behind the new group, which will work with election officials to pursue policies aligned with Donald Trum…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Politics"/>
+    <category term="Midterms 2026"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/senators-demand-to-know-if-dr-oz-collaborated-with-election-denial-groups/</id>
+    <title>Senators Demand to Know if Dr. Oz Collaborated With Election Denial Groups</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/senators-demand-to-know-if-dr-oz-collaborated-with-election-denial-groups/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">A far-right campaign claiming leftists are stealing votes from nursing home residents has centered on changing guidance from Mehmet Oz’s Centers for Medicare an…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Politics"/>
+    <category term="Midterms 2026"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+</feed>
