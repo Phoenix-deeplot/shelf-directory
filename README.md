@@ -149,37 +149,39 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
 
 ### B4c. 今日听什么（`api/listen.py`，不设 key 也有内容）
 
-`GET /api/listen` 给出今天的几组“歌和歌单”，主站公共空间的发现页最上面的“今日听什么”读的就是它。**每天换一批**：中国时间的日期是一个固定洗牌的种子，所以同一天所有人看到的一样，第二天全换；服务不存任何东西，每个来源的回答在实例内存里留 6 小时，CDN 留 30 分钟。
+主站公共空间侧栏的“今日听什么”（和发现页上的一小块）读的就是它。**每天换一批**：中国时间的日期是一个固定洗牌的种子（也决定用哪个国家的榜），所以同一天所有人看到的一样，第二天全换；服务不存任何东西，每个来源的回答在实例内存里留 6 小时，CDN 留 30 分钟。
 
-| 组 | 内容 | 怎么听 | 要 key 吗 |
+- `GET /api/listen` → 今天有哪些榜单 / 歌单 / 风格（不带歌）：`每日推荐`、`榜单`（华语 / 欧美 / 韩流 / 日系热歌）、`歌单`（Deezer 全球 / 美国 / 英国 Top 100，Deezer 和 Audius 此刻最热的歌单，网易云的 13 个官方榜）、`风格`（摇滚、流行、说唱、电子、舞曲、R&B、乡村、另类、金属、爵士、古典、民谣、拉丁、雷鬼、蓝调、放松、专注、助眠、ACG、音乐视频）。
+- `GET /api/listen?g=rock` → 一个榜单的歌：每个榜单 **30 首**，歌单最多 50 首；每首带一个页面自己的播放条能放的**声音地址**（整首，或平台公开的 30 秒试听）。榜单用到的来源同时去问，**6 秒内没回答的来源这次就不要了**（Vercel 函数只有 10 秒）；一个来源有多个时一轮取每个来源的一首，同一首歌不出现两次，同一位歌手最多 2 首（每日推荐 1 首）。
+- `GET /api/listen?diag=1` → 每个来源读到没有、读到几首（不含任何秘密）。
+
+| 来源 | 内容 | 在站内播放条里放什么 | 要 key 吗 |
 |---|---|---|---|
-| 今日热歌 | 网易云音乐的官方榜（热歌 / 新歌 / 飙升 / 原创 / 欧美热歌），每天换一个榜，从前 40 首里抽 12 首 | 默认用网易云自己的播放器，在窗口里放；`LISTEN_NETEASE_DIRECT=1` 才改成**站内播放整首**（见下，有风险） | 不要 |
-| Apple Music 热歌 | Apple Music 各国“最多播放”榜（中 / 美 / 日 / 韩轮换），每天抽 12 首 | **站内播放**：Apple 公开的每首 **30 秒试听** | 不要 |
-| 摸鱼放松 / 专注阅读 / 冥想睡眠 | Jamendo 的免费音乐，按标签取本月最热的 60 首（每位音乐人只取一首），每天抽 12 首 | **站内播放**：进页面底部的播放条，一首接一首 | `JAMENDO_CLIENT_ID` |
-| 今日歌单 | 网易云的其他榜单（古典、电音、说唱、ACG、韩语、欧美新歌、Beatport、Billboard），每天抽 4 个 | 网易云自己的歌单播放器 | 不要 |
-| 播客新集 | 不在这个服务里：页面用公共目录里每个播客节目的最新一集，每天换一批节目 | 站内播放（播放条） | 不要 |
-| 全球新声 | YouTube 音乐分类的热门视频 + 两个 Spotify 官方歌单 | YouTube / Spotify 自己的播放器 | YouTube 要 `YOUTUBE_API_KEY`（和热榜是同一个）；Spotify 歌单不要 |
+| **Deezer** | 全球榜、10 种风格榜、热门歌单、国家 Top 100 歌单 | 公开的 30 秒试听（行上写“30 秒试听”） | 不要 |
+| **Apple Music** | 各国“最多播放”榜（中国大陆、台湾、香港、美国、英国、日本、韩国……）和各风格榜 | 公开的 30 秒试听，行尾 ↗ 去 Apple Music 听全曲 | 不要 |
+| **Audius** | 各风格本周趋势、热门歌单 | **整首**（艺术家放在 Audius 上让任何人收听的） | 不要 |
+| **Jamendo** | 免费音乐（Creative Commons） | **整首** | `JAMENDO_CLIENT_ID` |
+| **网易云音乐** | 13 个官方榜 | **整首**（直连，默认关，见下） | 不要 |
+| **YouTube** | 音乐分类热门视频 | 不放进播放条，只能在窗口里用 YouTube 自己的播放器 | `YOUTUBE_API_KEY` |
 
-- **Jamendo 怎么配**：到 Jamendo 开发者网站（<https://developer.jamendo.com/>）注册一个应用，拿到 `client_id`；Vercel 的 shelf-directory 项目 → Settings → Environment Variables 添加 `JAMENDO_CLIENT_ID` → Redeploy。每个实例每 6 小时每组请求一次（三组共 3 次），实例多了也是这个量级，远低于免费额度（第三方资料写的是每月 3.5 万次，以 Jamendo 官方条款为准）。**授权**：每首歌有自己的 Creative Commons 授权，本站有广告，所以**带“非商业”（NC）的歌默认不放**，授权不明的也不放（`LISTEN_ALLOW_NC=1` 才放开，不建议）；每首歌在“正在播放”页和列表里都带着授权名和歌曲页链接。Jamendo 的开发者文档写着“为直接或间接的商业活动使用其音乐需购买商用授权”（这句在电台接口的说明里），一个带广告的页面是否算在内，请自己向 Jamendo 确认。
-- **Apple Music 的 30 秒试听**：榜单来自 Apple 的 `rss.applemarketingtools.com`，试听地址来自 iTunes 的 `itunes.apple.com/lookup`，都不要 key。这是 Apple 公开给推广用的片段，不是全曲：每行写着“30 秒试听 · Apple Music”，行尾的 ↗ 去 Apple Music 听全曲。实测（2026-10-29，中国大陆网络）：https 页面里的 `<audio>` 直接能播（m4a，30 秒）。使用条款以 Apple 的为准（署名、导向 Apple Music）。Apple Music **全曲**在自己的播放条里放要用 MusicKit JS：需要 Apple 开发者账号（年费）和每位听众自己的 Apple Music 订阅并登录，这里没有做。
-- **网易云“站内播放整首”（`LISTEN_NETEASE_DIRECT=1`，默认关）**：网易云没有给第三方的正式取歌接口。打开后，服务对榜上前 40 首逐一问 `music.163.com/song/media/outer/url?id=…`（只看它是不是给出跳转到网易云声音服务器的地址，不下载），能放的变成站内播放条的歌，不能放的（VIP、没有版权，实测约三成）去掉。实测（2026-10-29，中国大陆网络）：飙升榜前 20 首里 14 首能放，在 https 页面的 `<audio>` 里整首能播。**这个地址不是文档里的接口，随时可能改；歌是版权方的，在自己的播放器里放整首歌并没有得到版权方的授权，风险由站长自己承担**——所以默认关着，关着时网易云的歌用它自己的播放器放。
-- **为什么不用 Spotify 的 API 取歌**：2026 年 2 月起 Spotify 的开发模式限制很多——应用所有者要有 Premium、最多 5 个用户、官方定位是个人非商业使用，新发行、分类、艺人热门歌曲等接口已被移除，搜索一次最多 10 条，别人歌单里的歌读不到；30 秒试听地址（`preview_url`）从 2024 年 11 月起对新建的应用基本拿不到；整首要在自己的播放器里放，只有 Web Playback SDK 一条路，听的人都得有 Premium 并登录。所以这里只用 Spotify 的**官方嵌入播放器**（不需要 key），歌单是站长挑的（见下）；它对没登录的人只放 30 秒试听。你的 Spotify key 到底能拿到什么，用下面的自检一试便知。
-- **YouTube**：只用官方嵌入播放器（页面用 `youtube-nocookie.com`），不单拿声音；API 的数据每天重取，不在服务端长期保存。**YouTube 和 Spotify 在中国大陆通常打不开**，所以它们只出现在“全球新声”一组里，条目上带 `net: global`，页面标“需海外网络”。
-- **自己改组和歌单**：新建 `registry/listen.json`（有它就用它的组，完全替换内置的；写错的条目被跳过，一个有效的都没有就用内置的）：
+“华语热歌”先用网易云（开了直连时），不够的用 Apple 中国大陆、台湾、香港的榜补到 30 首；没有直连时只有 Apple 的试听。
+
+- **Deezer / Apple 的试听是 30 秒**，不是全曲；只有 Audius、Jamendo（和开了直连的网易云）是整首。使用条款以各平台的为准（署名、导向平台）。中国大陆的 Apple 店没有分风格榜，所以华语用台湾 / 香港的。
+- **Jamendo 怎么配**：到 Jamendo 开发者网站（<https://developer.jamendo.com/>）注册一个应用，拿到 `client_id`；Vercel 的 shelf-directory 项目 → Settings → Environment Variables 添加 `JAMENDO_CLIENT_ID` → Redeploy。每个实例每 6 小时每种风格请求一次，远低于免费额度（第三方资料写的是每月 3.5 万次，以 Jamendo 官方条款为准）。**授权**：每首歌有自己的 Creative Commons 授权，本站有广告，所以**带“非商业”（NC）的歌默认不放**，授权不明的也不放（`LISTEN_ALLOW_NC=1` 才放开，不建议）；授权名在“正在播放”页和行上。Jamendo 的开发者文档写着“为直接或间接的商业活动使用其音乐需购买商用授权”（这句在电台接口的说明里），一个带广告的页面是否算在内，请自己向 Jamendo 确认。
+- **网易云“站内播放整首”（`LISTEN_NETEASE_DIRECT=1`，默认关；关着时网易云的榜单整个不出现）**：网易云没有给第三方的正式取歌接口。打开后，服务对榜上前 40 首逐一问 `music.163.com/song/media/outer/url?id=…`（只看它是不是给出跳转到网易云声音服务器的地址，不下载），能放的变成站内播放条的歌，不能放的（VIP、没有版权，实测约三成）去掉。实测（2026-10-29，中国大陆网络）：飙升榜前 20 首里 14 首能放，在 https 页面的 `<audio>` 里整首能播。**这个地址不是文档里的接口，随时可能改；歌是版权方的，在自己的播放器里放整首歌并没有得到版权方的授权，风险由站长自己承担**——所以默认关着。
+- **为什么不用 Spotify**：2026 年 2 月起 Spotify 的开发模式限制很多——应用所有者要有 Premium、最多 5 个用户、官方定位是个人非商业使用，新发行、分类、艺人热门歌曲等接口已被移除，搜索一次最多 10 条，别人歌单里的歌读不到；30 秒试听地址（`preview_url`）从 2024 年 11 月起对新建的应用基本拿不到；整首要在自己的播放器里放，只有 Web Playback SDK 一条路，听的人都得有 Premium 并登录。所以这里不接 Spotify；你的 Spotify key 到底能拿到什么，用下面的自检一试便知。
+- **YouTube**：只能用官方嵌入播放器（页面用 `youtube-nocookie.com`），不能只取声音，所以“音乐视频”一组的条目 `mode` 是 `embed`，点开在窗口里放。YouTube 在中国大陆通常打不开，这一组带 `net: global`，页面标“海外”。
+- **播客**不在这个服务里：页面用公共目录里每个播客节目的 RSS 条目（`audio`），按节目分类，每个节目一个标签。
+- **自己加榜单**：新建 `registry/listen.json`（写错的条目被跳过，别的照常）：
   ```json
-  {"scenes": [
-    {"id": "morning", "name": "早间", "name_en": "Morning",
-     "jamendo": {"tags": ["acoustic", "folk"], "instrumental": false},
-     "netease": {"charts": [3778678, 19723756], "count": 8},
-     "playlists": {"pick": 2, "items": [
-       {"src": "netease", "id": "71384707", "title": "网易云古典榜"},
-       {"src": "spotify", "id": "37i9dQZF1DXcBWIGoYBM5M", "title": "Today’s Top Hits"}]}},
-    {"id": "world", "name": "全球新声", "net": "global", "youtube": {"count": 10}}
+  {"groups": [
+    {"id": "x-punk", "name": "朋克", "name_en": "Punk", "kind": "style",
+     "sources": [["deezer", 152], ["audius", "Punk"], ["apple_genre", "us", 21]]}
   ]}
   ```
-  一组可以同时有 `jamendo`（标签、是否只要纯音乐）、`apple`（`regions` 是国家代码，每天轮换一个：cn us jp kr tw hk gb de fr；`count`）、`netease`（网易云榜单编号，每天轮换一个）、`youtube`（条数）、`playlists`（`src` 是 `netease` 或 `spotify`，`id` 是歌单编号，每天抽 `pick` 个）。网易云歌单编号是歌单页地址 `music.163.com/#/playlist?id=` 后面的数字；Spotify 歌单编号是 `open.spotify.com/playlist/` 后面的 22 个字符。内置的编号都对照平台核对过。
-- **关掉**：`LISTEN_DISABLE=world,sleep`（组的编号，逗号分隔）；`LISTEN=0` 整个功能关掉（404，页面上不出现）。一组的来源没 key 或读不到，这一组就不出现，别的组照常。
-- **自检（给你“能不能用”的答案）**：打开 `https://你的目录站点/api/listen?diag=1`，会列出两把 key 有没有设（只说有没有，不显示内容）、每组每个来源是否读到、读到几条、Jamendo 因授权去掉了几首。没设 key 的来源写 `no key`。**部署前就能在自己电脑上测**：在这个目录里开 PowerShell，设好钥匙（只在这个窗口里有效）再运行 `python -X utf8 listen.py`：
+  `id` 必须以 `x-` 开头；`kind` 是 `chart`、`list` 或 `style`；一个来源是 `[种类, 参数]`：`["deezer", 风格编号]`（0 是全部，152 摇滚，116 说唱，132 流行，106 电子，129 爵士，98 古典，84 乡村，165 R&B，85 另类，464 金属，466 民谣，197 拉丁，144 雷鬼，153 蓝调，113 舞曲，173 影视游戏）、`["deezer_pl", 歌单编号]`、`["audius", "Rock"]`（Audius 的风格名；空字符串是全部）、`["audius_pl", 歌单编号]`、`["apple", "us"]`（国家：cn us jp kr tw hk gb de fr）、`["apple_genre", "us", 21]`（Apple 的风格编号：14 流行、21 摇滚、18 说唱、20 另类、15 R&B、6 乡村、7 电子、17 舞曲、11 爵士、5 古典、1289 民谣、12 拉丁、24 雷鬼、2 蓝调、27 J-Pop、29 动漫、53 器乐、13 新世纪）、`["jamendo", "chill"]`（chill focus sleep jazz classical acoustic）、`["netease", 榜单编号]`。
+- **关掉**：`LISTEN_DISABLE=metal,blues`（榜单编号，逗号分隔）；`LISTEN=0` 整个功能关掉（404，页面上不出现）。一个榜单的来源没 key / 没开 / 读不到，它就少一个来源，全都不行这个榜单就不出现。
+- **自检（给你“能不能用”的答案）**：打开 `https://你的目录站点/api/listen?diag=1`。**部署前就能在自己电脑上测**：在这个目录里开 PowerShell，设好钥匙（只在这个窗口里有效）再运行 `python -X utf8 listen.py`：
   ```powershell
   $env:JAMENDO_CLIENT_ID = '你的 client_id'
   $env:YOUTUBE_API_KEY = '你的 YouTube key'
@@ -187,9 +189,9 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
   $env:SPOTIFY_CLIENT_SECRET = '…'
   python -X utf8 listen.py
   ```
-  它会逐项说：每把钥匙**有没有权限、为什么没有**（YouTube 会说是密钥不对、项目里没启用 YouTube Data API v3、配额用完了还是密钥做了限制；Spotify 会说能不能换到令牌、搜索能拿到几首、有没有试听地址、“新发行”接口是否被拒）、每个来源读到几条、Jamendo 因授权去掉几首，并且**对每组的第一首站内播放的歌真的取一小段声音**（`Range: bytes=0-1023`），告诉你从你的网络能不能取到。钥匙不会被打印出来。
-  再加 `--browser`（`python -X utf8 listen.py --browser`）：在本机开一个小页面并打开你的浏览器，**每组的前 3 首歌真的用 `<audio>` 放一下**（和站内播放条同一种方式，用你的网络和浏览器），✓ 是真的放出声音了，✗ 写着原因；有 YouTube 的话再放一个嵌入视频给你看。网易云 / YouTube / Spotify 用平台播放器的歌，要在页面里点开才知道能不能播（版权和地区由平台决定）。
-- 安全：每个来源的地址写死在 `listen.py` 里，请求不能带任何网址；站内播放的声音地址只收 Jamendo 的 `jamendo.com`、Apple 的 `audio-ssl.itunes.apple.com`（都是 https）和（开了直连时）网易云的 `music.163.com/song/media/outer/url?id=数字.mp3`，网易云 / YouTube 条目只收数字或 11 位编号；key 只在服务端的请求里用，不会出现在回答或错误里。测试：`tests/test_listen.py`（不联网）。
+  它会逐项说：每把钥匙**有没有权限、为什么没有**（YouTube 会说是密钥不对、项目里没启用 YouTube Data API v3、配额用完了还是密钥做了限制；Spotify 会说能不能换到令牌、搜索能拿到几首、有没有试听地址、“新发行”接口是否被拒）、几个代表性榜单（每日推荐、华语、欧美、摇滚、说唱、古典、放松）的每个来源读到几首，并且**对每个提供者的一首歌真的取一小段声音**（`Range: bytes=0-1023`），告诉你从你的网络能不能取到。钥匙不会被打印出来。
+  再加 `--browser`（`python -X utf8 listen.py --browser`）：在本机开一个小页面并打开你的浏览器，**每个提供者的前 2 首歌真的用 `<audio>` 放一下**（和站内播放条同一种方式，用你的网络和浏览器），✓ 是真的放出声音了，✗ 写着原因；有 YouTube 的话再放一个嵌入视频给你看。
+- 安全：每个来源的地址写死在 `listen.py` 里，请求不能带任何网址（`?g=` 只认今天有的榜单编号）；站内播放的声音地址只收 Jamendo 的 `jamendo.com`、Apple 的 `audio-ssl.itunes.apple.com`、Deezer 的 `*.dzcdn.net`、Audius 的 `api.audius.co/v1/tracks/<编号>/stream` 和（开了直连时）网易云的 `music.163.com/song/media/outer/url?id=数字.mp3`（都是 https）；key 只在服务端的请求里用，不会出现在回答或错误里。测试：`tests/test_listen.py`（不联网）。
 
 ### B5. 匿名计数（`api/stat.py`，需要和同步一样的 Redis）
 
