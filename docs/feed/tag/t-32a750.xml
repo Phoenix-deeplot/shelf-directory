@@ -23,6 +23,23 @@
     <category term="商业"/>
   </entry>
   <entry>
+    <id>https://www.woshipm.com/it/6486812.html</id>
+    <title>对话 Google AI 基建负责人：从芯片配比到全球部署，Agent 正在重写数据中心的建设逻辑</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6486812.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">算力的账不能只看 FLOPS。Google AI 基建负责人 Amin Vahdat 谈 TPU 配比、十万卡集群的故障恢复，以及长时程 Agent 如何改写数据中心的供电与冷却，回报要算到任务真完成。 当一家公司的 AI 服务能力需要每六个月翻一倍，买更多芯片只是问题的开始。十万颗加速器组成的集群里，故障随时发生；模…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="业界动态"/>
+    <category term="AI产品"/>
+    <category term="google"/>
+    <category term="TPU"/>
+    <category term="个人观点"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
     <id>https://www.woshipm.com/share/6486699.html</id>
     <title>AI时代，RPA产品应该如何升级？从流程自动化到智能化执行</title>
     <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486699.html"/>

@@ -57,40 +57,6 @@
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/share/6486561.html</id>
-    <title>砸了300万做小红书双11投放，总结出的7条运营经验！</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486561.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">砸了300万做小红书双11投放，看到的ROI可能是假的——同一用户被重复计数、老客复购被当成新增量。本文用7条实战经验，讲清如何用达摩盘做数据去重修正ROI、用3层漏斗倒推法定位断点，重新理解小红书对生意的真实价值。 最近给一些品牌做小红书双11的跟进性投放复盘和策略迭代，发现很多品牌容易陷入2类误区： 要么迷信达人爆…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="ROI"/>
-    <category term="双11"/>
-    <category term="小红书投放"/>
-    <category term="电商运营"/>
-    <category term="运营经验"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6486550.html</id>
-    <title>泡泡玛特与蜜雪冰城：优势还在，为什么海外增长变难了？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486550.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">泡泡玛特2026年Q3美洲市场下降70%至75%，蜜雪冰城海外门店半年净减428家。一个靠潮玩IP风靡全球，一个靠低价供应链开出数万家门店，增长都出现了变化。优势还在，为什么海外增长变难了？ 最近，泡泡玛特公布2026年第三季度业务情况：整体收益同比下降45%至50%，其中，美洲市场下降70%至75%。 而蜜雪冰城的海…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="市场分析"/>
-    <category term="泡泡玛特"/>
-    <category term="消费升级"/>
-    <category term="蜜雪冰城"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
     <id>https://www.woshipm.com/ai/6486774.html</id>
     <title>挖到个宝藏27B开源Code2Video模型！可本地安装，还送MG Skill～</title>
     <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486774.html"/>
@@ -158,6 +124,40 @@
     <category term="商业"/>
   </entry>
   <entry>
+    <id>https://www.woshipm.com/ai/6486947.html</id>
+    <title>微信小微升级，开始Personal Agent化</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486947.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">灵光 2.0 向所有用户开放，千问 Go 紧随其后，微信小微也开始往 Personal Agent 的方向升级。国内的个人助理产品从 PPT 走进内测和公测，能力边界第一次能被真实使用检验。三条路线不同，但都在争同一个入口：谁替用户把事情真正办完。 之前，国内的 Personal Agent 产品探索。 还停留在媒体的…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="Personal Agent"/>
+    <category term="功能分析"/>
+    <category term="微信小微"/>
+    <category term="灵光"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/it/6486812.html</id>
+    <title>对话 Google AI 基建负责人：从芯片配比到全球部署，Agent 正在重写数据中心的建设逻辑</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6486812.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">算力的账不能只看 FLOPS。Google AI 基建负责人 Amin Vahdat 谈 TPU 配比、十万卡集群的故障恢复，以及长时程 Agent 如何改写数据中心的供电与冷却，回报要算到任务真完成。 当一家公司的 AI 服务能力需要每六个月翻一倍，买更多芯片只是问题的开始。十万颗加速器组成的集群里，故障随时发生；模…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="业界动态"/>
+    <category term="AI产品"/>
+    <category term="google"/>
+    <category term="TPU"/>
+    <category term="个人观点"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
     <id>https://www.woshipm.com/ai/6486764.html</id>
     <title>学到钉钉们的精髓了？Claude上线逆天功能，帮企业监控员工是否用AI摸鱼</title>
     <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486764.html"/>
@@ -170,23 +170,6 @@
     <category term="Anthropic"/>
     <category term="Claude"/>
     <category term="行业观察"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/it/6486483.html</id>
-    <title>声音直播正在批量制造地下偶像</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6486483.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">有声直播陷入商业化困境，单纯依靠声音和陪伴难以突破。克拉克拉通过CV+广播剧+有声直播的模式，将角色扮演转化为恋人偶像，实现头部主播年流水超千万。本文深度拆解这一案例，探讨声音经济如何从即时陪伴转向情感叙事，为行业寻找新增长方向。 一、有声直播的商业化困境：声音代表什么 人类接收信息共分为六个介质，分别是眼耳口鼻舌触，…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="业界动态"/>
-    <category term="广播剧"/>
-    <category term="情感消费"/>
-    <category term="有声直播"/>
-    <category term="虚拟恋人"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
@@ -208,18 +191,34 @@
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/share/6486839.html</id>
-    <title>Whiplr：一款专攻小众癖好的约会软件</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486839.html"/>
+    <id>https://www.woshipm.com/ai/6486912.html</id>
+    <title>WorkBuddy悄悄上线「手动安装插件」，丝滑操控浏览器</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486912.html"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">当主流社交市场趋于饱和，小众垂直社交还有机会吗？Whiplr 以 BDSM 等多元亲密关系为切入点，通过精细标签、特色互动和差异化付费机制，精准捕获小众群体。本文深度体验其产品设计，并探讨隐私安全与 AI 时代「一人千面」的社交新可能。 《五十度灰》或许算不上电影史上的永恒经典，但它确实让另类亲密关系与情趣话题走进了大…</summary>
+    <summary type="text">Chrome 插件商店不科学上网打不开，Edge 和 QQ 浏览器又都跳回同一个地址。WorkBuddy 上线了手动安装拓展程序：选浏览器、打开本地插件文件夹、把文件夹拖进扩展页面，三步装完。文中还实测了让 Agent 自己找网址、开标签页的过程。 前阵子，WorkBuddy 悄悄上线了「浏览器插件」。 支持在 Chr…</summary>
     <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="Whiplr"/>
+    <category term="AI工具"/>
+    <category term="Chrome"/>
+    <category term="WorkBuddy"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ucd/6486807.html</id>
+    <title>Vibe 技巧：别再只跟 AI 说“弹出弹窗”了！</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ucd/6486807.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">在 Vibe Coding 里，最磨人的往往不是技术门槛，而是说不清自己想要什么。模态对话框、Popover、Toast 各有名字，把模糊的视觉感受换成准确的组件词汇，AI 才能少猜几次，界面也才更像样。 在 Vibe Coding 中，经常出现脑子里是有画面的，但是给 AI 讲了半天，最终做出来个完全不相关的页面，我…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="交互体验"/>
+    <category term="AI编程"/>
+    <category term="Vibe Coding"/>
     <category term="产品分析"/>
-    <category term="会员付费"/>
-    <category term="垂直社交"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
@@ -256,6 +255,51 @@
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/</id>
+    <title>The Iran War’s Impact on Oil Is Hitting Key Senate Races Hard</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Democrats are using the high price of diesel, heating oil, and fertilizer to tie Republicans to President Donald Trump’s unpopular, costly war in Iran.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Science"/>
+    <category term="Science / Environment"/>
+    <category term="Politics"/>
+    <category term="Gassed Up"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/ego-blower-sale-tp-cannon-october-2026/</id>
+    <title>The Best Leaf Blower We’ve Tested Is Ready for Halloween</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/ego-blower-sale-tp-cannon-october-2026/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Our top Ego pick is discounted, and our resident leaf blower expert demonstrates how to make a TP cannon.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Gear / Products / Outdoor"/>
+    <category term="Roll Model"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/gifts-for-friends/</id>
+    <title>Gift Ideas for Friends (2026): Wellness Tech, Kitchen Essentials</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/gifts-for-friends/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">These are the WIRED-tested gadgets, kitchen tools, and cozy comforts I’d actually buy for my own inner circle.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Buying Guides"/>
+    <category term="Gear / Products / Home"/>
+    <category term="Present Company"/>
+    <category term="科技"/>
+    <category term="社会"/>
   </entry>
   <entry>
     <id>https://sspai.com/post/116435</id>
@@ -300,6 +344,78 @@
     <source><title>少数派</title></source>
     <category term="效率"/>
     <category term="工具"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/news-and-politics/2026/10/slate-news-quiz-2026-midterms.html?via=rss</id>
+    <title>Think You Know More About the Midterms Than Slate’s Senior Politics Writer? Find Out With This Week’s News Quiz.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/news-and-politics/2026/10/slate-news-quiz-2026-midterms.html?via=rss"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Test your knowledge of this year’s wild midterms races.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Quizzes"/>
+    <category term="Trivia"/>
+    <category term="Slate Games"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/podcasts/what-next-tbd/2026/10/kevin-roose-thinks-a-i-has-arrived?via=rss</id>
+    <title>The First Real A.I. Test</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/podcasts/what-next-tbd/2026/10/kevin-roose-thinks-a-i-has-arrived?via=rss"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">AGI-pilled author Kevin Roose makes the case.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Artificial Intelligence"/>
+    <category term="Stock Market"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-30-2026.html?via=rss</id>
+    <title>Slate Mini Crossword for Oct. 30, 2026</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-30-2026.html?via=rss"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Take a quick break with our daily 5x5 grid.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Mini Crossword"/>
+    <category term="Slate Games"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/life/2026/10/trump-election-ohio-midterm-ice-evangelical.html?via=rss</id>
+    <title>Evangelicals Traveled to Their Country in Record Numbers. Then Trump Said They Were Evil.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/trump-election-ohio-midterm-ice-evangelical.html?via=rss"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">In Ohio, the president’s religious base has been tested—and it’s clear whom it chose.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Donald Trump"/>
+    <category term="Evangelicals"/>
+    <category term="Haiti"/>
+    <category term="Ohio"/>
+    <category term="Religion"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/news-and-politics/2026/10/donald-trump-corruption-constitution-impeachment-fail.html?via=rss</id>
+    <title>Donald Trump Sure Is Corrupt. If Only There Were a Constitutional Remedy for That.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/news-and-politics/2026/10/donald-trump-corruption-constitution-impeachment-fail.html?via=rss"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">The most common ground for impeachment throughout Anglo-American history has been corruption.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Constitution"/>
+    <category term="Donald Trump"/>
+    <category term="Impeachment"/>
+    <category term="Jurisprudence"/>
+    <category term="Try, Try Again?"/>
+    <category term="评论"/>
+    <category term="文化"/>
   </entry>
   <entry>
     <id>https://www.openculture.com/2026/10/watch-150-classic-horror-and-suspense-films-free-online.html</id>
@@ -351,34 +467,23 @@
     <category term="科学"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2099258545564643597</id>
-    <title>谷歌美股开盘大跌超13%，创历史最大单日跌幅，总市值蒸发5000亿美元，为啥会这样？还会持续下跌吗？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099258545564643597"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 6 名 · 391 万热度 · 151 回答 · 513 关注 — 10月29日消息，谷歌母公司Alphabet美股开盘大跌，现将跌幅扩大至13%，创其历史上最大单日跌幅，报283美元，市值较前一交易日收盘减少逾5000亿美元。谷歌盘初大跌超13% 创其历史上最大单日跌幅，总市值蒸发5000亿美元</summary>
-    <source><title>知乎热榜</title></source>
-    <category term="热榜"/>
-    <category term="知乎"/>
-  </entry>
-  <entry>
-    <id>https://www.zhihu.com/question/458627547</id>
-    <title>菜鸟驿站为什么那么多转让的？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/458627547"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 4 名 · 410 万热度 · 785 回答 · 3651 关注</summary>
-    <source><title>知乎热榜</title></source>
-    <category term="热榜"/>
-    <category term="知乎"/>
-  </entry>
-  <entry>
     <id>https://www.zhihu.com/question/2099465313452389327</id>
     <title>校方通报「学生摆拍大体老师头骨」一事，涉事学生被处分并取消年度评优资格，如何看待学校的处理？</title>
     <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099465313452389327"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 5 名 · 393 万热度 · 150 回答 · 218 关注 — 10月29日，长沙民政职业技术学院医学院发布情况通报： 10月14日，我院一名2026级新生在解剖实验课后，对大体老师头骨标本进行摆拍并在朋友圈发布，造成不良影响。学校对此行为坚决零容忍，已对涉事学生进行批评教育，给予校纪处分，取消年度评优评先资格…</summary>
+    <summary type="text">第 7 名 · 495 万热度 · 218 回答 · 308 关注 — 10月29日，长沙民政职业技术学院医学院发布情况通报： 10月14日，我院一名2026级新生在解剖实验课后，对大体老师头骨标本进行摆拍并在朋友圈发布，造成不良影响。学校对此行为坚决零容忍，已对涉事学生进行批评教育，给予校纪处分，取消年度评优评先资格…</summary>
+    <source><title>知乎热榜</title></source>
+    <category term="热榜"/>
+    <category term="知乎"/>
+  </entry>
+  <entry>
+    <id>https://www.zhihu.com/question/2099249184477902760</id>
+    <title>已故演员高秀敏、张少华形象被印上祭祀用品，这种做法涉嫌违法吗？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099249184477902760"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 8 名 · 482 万热度 · 30 回答 · 62 关注 — 10月27日，IP属地显示是吉林的一名网友发布一段视频引发关注。视频显示，一件祭祀用品上印着已故演员高秀敏、张少华的形象。 视频发布者称，自己是参加葬礼时看到的，“挺长时间了”，不清楚当时祭品是否进行了焚烧。 已故演员高秀敏、张少华被印上祭祀用品，律师…</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
@@ -389,7 +494,7 @@
     <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099167053160760200"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 9 名 · 372 万热度 · 68 回答 · 217 关注 — 近日，云南昭通一名男子的婚礼邀约引发关注。博主讲述：“在我3岁的时候，爸爸就因病逝世了，妈妈在我5岁时就改嫁了，剩下一个唯一的长辈奶奶就带着我和我哥，我哥大我3岁，可是两年后奶奶也因病去了和我爸同样的地方。”兄弟二人相依为命，初中辍学后务工打拼。小伙…</summary>
+    <summary type="text">第 2 名 · 529 万热度 · 96 回答 · 275 关注 — 近日，云南昭通一名男子的婚礼邀约引发关注。博主讲述：“在我3岁的时候，爸爸就因病逝世了，妈妈在我5岁时就改嫁了，剩下一个唯一的长辈奶奶就带着我和我哥，我哥大我3岁，可是两年后奶奶也因病去了和我爸同样的地方。”兄弟二人相依为命，初中辍学后务工打拼。小伙…</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
@@ -400,7 +505,7 @@
     <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099233723589969810"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 2 名 · 712 万热度 · 313 回答 · 503 关注 — [5 张图片]</summary>
+    <summary type="text">第 5 名 · 501 万热度 · 402 回答 · 651 关注 — [5 张图片]</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
@@ -411,7 +516,7 @@
     <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099125476149274126"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 1 名 · 4245 万热度 · 627 回答 · 1393 关注 — 红果短剧跃升为国内第四大app（时长）仅次于微信和两个抖音，那么如何看待其的快速发展，短剧平台的兴起是否瓜分了哔站，快手，抖音等视频平台的蛋糕，此外短剧中不少是ai短剧，是否也触碰了真人创作者诸如哔站百大为首以及背后的摄像工具企业诸如大疆影石的…</summary>
+    <summary type="text">第 1 名 · 3119 万热度 · 706 回答 · 1596 关注 — 红果短剧跃升为国内第四大app（时长）仅次于微信和两个抖音，那么如何看待其的快速发展，短剧平台的兴起是否瓜分了哔站，快手，抖音等视频平台的蛋糕，此外短剧中不少是ai短剧，是否也触碰了真人创作者诸如哔站百大为首以及背后的摄像工具企业诸如大疆影石的…</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
@@ -422,7 +527,7 @@
     <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099446310872900107"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 8 名 · 386 万热度 · 36 回答 · 108 关注 — 2026 年 10 月 29 日晚（UTC 时间 20:24 起，北京时间 30 日凌晨 4 时左右），全球最大加密货币交易所币安的多个热钱包出现异常大额资金转出，链上数据与分析师普遍认为这是一场针对热钱包的黑客攻击。事件涉及以太坊、比特币、波场等多…</summary>
+    <summary type="text">第 3 名 · 517 万热度 · 68 回答 · 199 关注 — 2026 年 10 月 29 日晚（UTC 时间 20:24 起，北京时间 30 日凌晨 4 时左右），全球最大加密货币交易所币安的多个热钱包出现异常大额资金转出，链上数据与分析师普遍认为这是一场针对热钱包的黑客攻击。事件涉及以太坊、比特币、波场等多…</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
@@ -433,7 +538,18 @@
     <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098940094346433079"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 3 名 · 625 万热度 · 132 回答 · 522 关注 — 是真的吗？ 读好书来科大，每天都发一个亿！ 嗨 每一位“科大人” 属于中国科大独有的校园浪漫来啦 每天一个亿的Token 让你的AI专属算力“拉满弓” 零费用｜无门槛｜每日重置 开学第一天，就能拥有专属“AI智囊团” 比起手把手教你如何使用AI 科…</summary>
+    <summary type="text">第 9 名 · 479 万热度 · 147 回答 · 576 关注 — 是真的吗？ 读好书来科大，每天都发一个亿！ 嗨 每一位“科大人” 属于中国科大独有的校园浪漫来啦 每天一个亿的Token 让你的AI专属算力“拉满弓” 零费用｜无门槛｜每日重置 开学第一天，就能拥有专属“AI智囊团” 比起手把手教你如何使用AI 科…</summary>
+    <source><title>知乎热榜</title></source>
+    <category term="热榜"/>
+    <category term="知乎"/>
+  </entry>
+  <entry>
+    <id>https://www.zhihu.com/question/2098745060527432814</id>
+    <title>女孩恳请学校取消周日返校，称其带来严重焦虑，甚至影响周六，学校应该取消吗？周日返校有什么意义？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098745060527432814"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 4 名 · 502 万热度 · 268 回答 · 405 关注 — 最近，关于东莞中小学返校时间的讨论持续刷屏。不少家长疑惑“新学期要取消周日晚修，统一周一返校吗？” 近日，有市民在阳光热线问政平台发帖《支持学校周日错峰返校反对一刀切周一返校》质疑部分人士过度解读“不得强制提前返校”政策，并明确表达了对周日错峰返校…</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
@@ -444,7 +560,7 @@
     <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/312800690"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 10 名 · 367 万热度 · 33 回答 · 115 关注 — 按说一个文人的作品会被细心保留，何况李白如此伟大有名气的人物。</summary>
+    <summary type="text">第 10 名 · 465 万热度 · 34 回答 · 134 关注 — 按说一个文人的作品会被细心保留，何况李白如此伟大有名气的人物。</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
@@ -455,7 +571,7 @@
     <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2001260067715044038"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 7 名 · 390 万热度 · 39 回答 · 45 关注 — 现在新能源汽车很多都在商场开店，BBA的客户不在商场吗？还是其它原因？</summary>
+    <summary type="text">第 6 名 · 498 万热度 · 57 回答 · 74 关注 — 现在新能源汽车很多都在商场开店，BBA的客户不在商场吗？还是其它原因？</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
@@ -558,93 +674,5 @@
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://en.wikipedia.org/wiki/.xxx</id>
-    <title>.xxx</title>
-    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/.xxx"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 2 名 · 浏览 43.7 万</summary>
-    <source><title>维基百科阅读榜（英文）</title></source>
-    <category term="百科"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E7%99%BD%E5%B0%8F%E7%BA%AF%20%E9%9D%92%E7%A8%9A%23</id>
-    <title>白小纯 青稚</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E7%99%BD%E5%B0%8F%E7%BA%AF%20%E9%9D%92%E7%A8%9A%23"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 1 名 · 热度 104.6 万 · 综艺</summary>
-    <source><title>微博热搜</title></source>
-    <category term="热榜"/>
-    <category term="微博"/>
-  </entry>
-  <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E4%BC%9A%E6%89%80%E6%8C%89%E6%91%A9%E7%9D%A1%E7%9D%80%E9%81%AD%E6%8A%80%E5%B8%88%E4%BE%B5%E7%8A%AF%E5%B7%B2%E7%AB%8B%E6%A1%88%23</id>
-    <title>男子会所按摩睡着遭技师侵犯已立案</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E4%BC%9A%E6%89%80%E6%8C%89%E6%91%A9%E7%9D%A1%E7%9D%80%E9%81%AD%E6%8A%80%E5%B8%88%E4%BE%B5%E7%8A%AF%E5%B7%B2%E7%AB%8B%E6%A1%88%23"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 4 名 · 热度 60.5 万 · 新</summary>
-    <source><title>微博热搜</title></source>
-    <category term="热榜"/>
-    <category term="微博"/>
-  </entry>
-  <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E7%94%B2%E7%A1%9D%E5%94%91%E7%A3%A8%E7%B2%89%E6%B2%BB%E9%BC%BB%E7%82%8E%E5%8C%BB%E7%94%9F%E9%83%BD%E6%87%B5%E4%BA%86%23</id>
-    <title>甲硝唑磨粉治鼻炎医生都懵了</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E7%94%B2%E7%A1%9D%E5%94%91%E7%A3%A8%E7%B2%89%E6%B2%BB%E9%BC%BB%E7%82%8E%E5%8C%BB%E7%94%9F%E9%83%BD%E6%87%B5%E4%BA%86%23"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 6 名 · 热度 59.9 万 · 新</summary>
-    <source><title>微博热搜</title></source>
-    <category term="热榜"/>
-    <category term="微博"/>
-  </entry>
-  <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E6%96%B0%E6%97%B6%E4%BB%A3%E5%85%A8%E9%9D%A2%E4%BB%8E%E4%B8%A5%E6%B2%BB%E5%85%9A%E4%BC%9F%E5%A4%A7%E6%88%90%E5%B0%B1%23</id>
-    <title>新时代全面从严治党伟大成就</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E6%96%B0%E6%97%B6%E4%BB%A3%E5%85%A8%E9%9D%A2%E4%BB%8E%E4%B8%A5%E6%B2%BB%E5%85%9A%E4%BC%9F%E5%A4%A7%E6%88%90%E5%B0%B1%23"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 3 名 · 热度 60.5 万</summary>
-    <source><title>微博热搜</title></source>
-    <category term="热榜"/>
-    <category term="微博"/>
-  </entry>
-  <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%E6%80%BB%E5%86%B3%E8%B5%9B%E5%A6%86%E9%80%A0%23</id>
-    <title>披荆斩棘总决赛妆造</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%E6%80%BB%E5%86%B3%E8%B5%9B%E5%A6%86%E9%80%A0%23"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 5 名 · 热度 60.3 万 · 综艺</summary>
-    <source><title>微博热搜</title></source>
-    <category term="热榜"/>
-    <category term="微博"/>
-  </entry>
-  <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%9B%BE%E4%BB%A3%E8%A8%80%E9%A5%AE%E5%93%81%E6%B8%85%E7%90%86%E5%89%A9%E4%BD%99%E5%BA%93%E5%AD%98%23</id>
-    <title>姆巴佩曾代言饮品清理剩余库存</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%9B%BE%E4%BB%A3%E8%A8%80%E9%A5%AE%E5%93%81%E6%B8%85%E7%90%86%E5%89%A9%E4%BD%99%E5%BA%93%E5%AD%98%23"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 2 名 · 热度 75.7 万 · 新</summary>
-    <source><title>微博热搜</title></source>
-    <category term="热榜"/>
-    <category term="微博"/>
-  </entry>
-  <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E5%87%A0%E4%B8%AA%E7%B3%8A%E5%92%96%20%E5%87%A0%E5%8D%81%E5%80%8D%E6%9D%80%23</id>
-    <title>几个糊咖 几十倍杀</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E5%87%A0%E4%B8%AA%E7%B3%8A%E5%92%96%20%E5%87%A0%E5%8D%81%E5%80%8D%E6%9D%80%23"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 8 名 · 热度 59.3 万 · 综艺</summary>
-    <source><title>微博热搜</title></source>
-    <category term="热榜"/>
-    <category term="微博"/>
   </entry>
 </feed>

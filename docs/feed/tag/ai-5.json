@@ -1,6 +1,6 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "知树阅读-个人图书空间 · #AI短剧",
+  "title": "知树阅读-个人图书空间 · #AI工具",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/ai-5.json",
   "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
@@ -9,21 +9,21 @@
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/it/6486854.html",
-      "url": "https://www.woshipm.com/it/6486854.html",
-      "title": "绿泡泡，其实“救了”红果短剧？",
-      "content_text": "红果短剧刚宣布下线金币功能、上线休息提醒，看似从容不迫，但字节随即整合AI短剧资源，推出即梦短剧工作室，打造从剧本到成片的AI流水线。微信绿泡泡短剧月活已破亿，增长迅猛。这场短剧之争背后，是AI视频商业化路径的清晰化，以及快手、阿里等大厂的潜在入局。红果的危机感，或许才刚刚开始。 红果短剧开始有危机感了。 大家都知道，…",
-      "summary": "红果短剧刚宣布下线金币功能、上线休息提醒，看似从容不迫，但字节随即整合AI短剧资源，推出即梦短剧工作室，打造从剧本到成片的AI流水线。微信绿泡泡短剧月活已破亿，增长迅猛。这场短剧之争背后，是AI视频商业化路径的清晰化，以及快手、阿里等大厂的潜在入局。红果的危机感，或许才刚刚开始。 红果短剧开始有危机感了。 大家都知道，…",
+      "id": "https://www.woshipm.com/ai/6486912.html",
+      "url": "https://www.woshipm.com/ai/6486912.html",
+      "title": "WorkBuddy悄悄上线「手动安装插件」，丝滑操控浏览器",
+      "content_text": "Chrome 插件商店不科学上网打不开，Edge 和 QQ 浏览器又都跳回同一个地址。WorkBuddy 上线了手动安装拓展程序：选浏览器、打开本地插件文件夹、把文件夹拖进扩展页面，三步装完。文中还实测了让 Agent 自己找网址、开标签页的过程。 前阵子，WorkBuddy 悄悄上线了「浏览器插件」。 支持在 Chr…",
+      "summary": "Chrome 插件商店不科学上网打不开，Edge 和 QQ 浏览器又都跳回同一个地址。WorkBuddy 上线了手动安装拓展程序：选浏览器、打开本地插件文件夹、把文件夹拖进扩展页面，三步装完。文中还实测了让 Agent 自己找网址、开标签页的过程。 前阵子，WorkBuddy 悄悄上线了「浏览器插件」。 支持在 Chr…",
       "date_published": "2026-10-30T00:00:00Z",
       "tags": [
-        "业界动态",
-        "AI短剧",
-        "字节跳动",
-        "微信绿泡泡",
-        "红果短剧",
-        "行业观察",
+        "AI",
+        "个人随笔",
+        "AI工具",
+        "Chrome",
+        "WorkBuddy",
         "产品",
-        "运营"
+        "运营",
+        "商业"
       ],
       "authors": [
         {

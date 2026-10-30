@@ -9,6 +9,32 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/",
+      "url": "https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/",
+      "title": "The Iran War’s Impact on Oil Is Hitting Key Senate Races Hard",
+      "content_text": "Democrats are using the high price of diesel, heating oil, and fertilizer to tie Republicans to President Donald Trump’s unpopular, costly war in Iran.",
+      "summary": "Democrats are using the high price of diesel, heating oil, and fertilizer to tie Republicans to President Donald Trump’s unpopular, costly war in Iran.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae3489ed0f1304b56163b28/master/pass/102916-Iran%20War%20US.jpg",
+      "tags": [
+        "Science",
+        "Science / Environment",
+        "Politics",
+        "Gassed Up",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/law-firm-linked-to-elon-musk-started-an-election-integrity-organization/",
       "url": "https://www.wired.com/story/law-firm-linked-to-elon-musk-started-an-election-integrity-organization/",
       "title": "Law Firm Linked to Elon Musk Started an ‘Election Integrity’ Organization",

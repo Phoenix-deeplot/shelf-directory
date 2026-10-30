@@ -7,6 +7,17 @@
   <updated>2026-10-30T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
   <entry>
+    <id>https://www.cnbc.com/2026/10/30/trump-vance-rally-midterm-elections-.html</id>
+    <title>Trump, Vance scrap planned appearances in final stretch of midterm campaign</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/30/trump-vance-rally-midterm-elections-.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Trump and JD Vance have canceled planned appearances across three states, reducing in-person campaigning in the final days before midterm elections.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
     <id>https://www.cnbc.com/2026/10/29/polymarket-reports-outage-on-international-exchange-halts-trading.html</id>
     <title>Some Polymarket user funds stolen by hackers; exchange referring matter to U.K. authorities</title>
     <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/polymarket-reports-outage-on-international-exchange-halts-trading.html"/>
@@ -62,34 +73,23 @@
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html</id>
-    <title>Intel stock plunges 21% as chipmaker blames PC slowdown for weak guidance</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">Intel has been a Wall Street darling this year due to its emergence as a player in AI, but the company is being weighed down by a struggling PC market.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/investingclub/2026/10/29/intel-plunges-on-a-major-guidance-miss-what-went-wrong-how-to-proceed.html</id>
-    <title>Intel plunges on a major guidance miss. What went wrong — and how to proceed</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/investingclub/2026/10/29/intel-plunges-on-a-major-guidance-miss-what-went-wrong-how-to-proceed.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">Further downside is certainly possible, but selling now won't erase the losses we've taken.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
     <id>https://www.cnbc.com/2026/10/30/election-trump-brazil-serbia-hungary.html</id>
     <title>How elections worldwide are testing Trump’s influence abroad</title>
     <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/30/election-trump-brazil-serbia-hungary.html"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
     <summary type="text">Recent election losses by leaders linked to Trump have prompted questions about whether his influence over the global right is weakening.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/30/hon-hai-technology-group-foxconn-ai-server-young-liu-.html</id>
+    <title>Foxconn hopes to own 50% of the global AI server market within a couple years</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/30/hon-hai-technology-group-foxconn-ai-server-young-liu-.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Foxconn's chairman told CNBC that AI demand remains strong as the company eyes U.S. expansion and a larger share of the global AI server market.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
@@ -106,6 +106,17 @@
     <category term="新闻"/>
   </entry>
   <entry>
+    <id>https://www.cnbc.com/2026/10/30/billions-in-crypto-frozen-in-binance-hack-heres-what-happens-next-.html</id>
+    <title>Binance's $6.3 billion hack: What we know and what comes next</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/30/billions-in-crypto-frozen-in-binance-hack-heres-what-happens-next-.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Billions in crypto assets have been frozen following a potential Binance security breach, raising questions about whether the funds can be recovered.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
     <id>https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html</id>
     <title>Biggest-ever crypto hack impacts $6.3 billion as Binance works to contain fallout</title>
     <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html"/>
@@ -117,12 +128,34 @@
     <category term="新闻"/>
   </entry>
   <entry>
+    <id>https://www.cnbc.com/2026/10/30/bp-earnings-oil-q3.html</id>
+    <title>BP’s third-quarter profit nearly quadruples to $8.5 billion as refining margins surge</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/30/bp-earnings-oil-q3.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">The oil major was the latest to smash profit expectations as global conflicts continue to drive energy market volatility.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
     <id>https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html</id>
     <title>BOJ holds rates as underlying inflation aligns with 2% target for first time since 2013</title>
     <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
     <summary type="text">The BOJ declared that its underlying inflation target of 2% has been met, the first time the central bank has done so since it set the target in 2013.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html</id>
+    <title>Amazon falls 7%, Intel plunges 25% in premarket trading, as pressure mounts after earnings</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Investors are nervous about the massive AI spending from the tech giants and whether that will pay off.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
@@ -183,17 +216,6 @@
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/2026/10/29/servicenow-now-earnings-q3-2026.html</id>
-    <title>ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/servicenow-now-earnings-q3-2026.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">ServiceNow's stock recorded its worst day ever on underwhelming third-quarter results.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
     <id>https://www.cnbc.com/2026/10/29/rivian-rivn-earnings-q3-2026.html</id>
     <title>Rivian third-quarter earnings beat estimates as software revenue, R2 deliveries rise</title>
     <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/rivian-rivn-earnings-q3-2026.html"/>
@@ -238,17 +260,6 @@
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/investingclub/2026/10/29/jim-cramer-why-investors-are-punishing-alphabet-and-giving-microsoft-a-pass.html</id>
-    <title>Jim Cramer: Why investors are punishing Alphabet and giving Microsoft a pass</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/investingclub/2026/10/29/jim-cramer-why-investors-are-punishing-alphabet-and-giving-microsoft-a-pass.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Microsoft is faring better because of its financial spending, Jim Cramer said Thursday, a day after earnings.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
     <id>https://www.cnbc.com/2026/10/29/bank-north-dakota-socialism-election.html</id>
     <title>It's a 'socialist' bank — and North Dakota Republicans love it</title>
     <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/bank-north-dakota-socialism-election.html"/>
@@ -282,6 +293,17 @@
     <category term="新闻"/>
   </entry>
   <entry>
+    <id>https://www.cnbc.com/2026/10/29/coinbase-coin-earnings-q3-2026-.html</id>
+    <title>Coinbase net income surges 66% in third quarter, benefiting from bitcoin investment gains</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/coinbase-coin-earnings-q3-2026-.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Coinbase posted better-than-expected earnings in the third quarter, largely due to a recovery in the cryptocurrency market.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
     <id>https://www.cnbc.com/2026/10/29/big-oil-earnings-are-set-to-surge-why-investors-may-want-to-be-cautious.html</id>
     <title>Big Oil earnings are set to surge. Why investors may want to be cautious</title>
     <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/big-oil-earnings-are-set-to-surge-why-investors-may-want-to-be-cautious.html"/>
@@ -293,34 +315,12 @@
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html</id>
-    <title>Amazon posts negative free cash flow of $42.4 billion, holds 2026 capex unchanged</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Amazon's negative free cash flow ballooned during the third quarter, while its earnings and revenue fell short of Wall Street's expectations.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
     <id>https://www.cnbc.com/2026/10/29/aws-q3-earnings-report-2026.html</id>
     <title>Amazon AWS posts 39% revenue growth as cloud rivals also accelerate</title>
     <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/aws-q3-earnings-report-2026.html"/>
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
     <summary type="text">Amazon's cloud signed deals with Meta and OpenAI during the quarter, helping revenue to exceed consensus.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html</id>
-    <title>Alphabet tanks nearly 13% for worst day ever, losing $500 billion in value</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Alphabet reported a larger negative free cash flow than analysts had expected while maintaining its spending gudiance for the year.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>

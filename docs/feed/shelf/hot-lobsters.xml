@@ -12,7 +12,7 @@
     <link rel="alternate" type="text/html" href="https://entropicthoughts.com/what-the-fox-say"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 5 名 · ▲ 60 · games · 13 条评论</summary>
+    <summary type="text">第 8 名 · ▲ 60 · games · 13 条评论</summary>
     <source><title>Lobsters</title></source>
     <category term="社区"/>
     <category term="热榜"/>
@@ -23,18 +23,7 @@
     <link rel="alternate" type="text/html" href="https://lobste.rs/s/eccbci"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 6 名 · ▲ 30 · ask security · 41 条评论</summary>
-    <source><title>Lobsters</title></source>
-    <category term="社区"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://divagr.com/blog/qwenputer</id>
-    <title>Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5</title>
-    <link rel="alternate" type="text/html" href="https://divagr.com/blog/qwenputer"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 10 名 · ▲ 40 · ai · 6 条评论</summary>
+    <summary type="text">第 6 名 · ▲ 34 · ask security · 44 条评论</summary>
     <source><title>Lobsters</title></source>
     <category term="社区"/>
     <category term="热榜"/>
@@ -45,7 +34,7 @@
     <link rel="alternate" type="text/html" href="https://discourse.imfreedom.org/t/pidgin-3-0-alpha-4-2-98-0-has-been-released/445"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 3 名 · ▲ 8 · release · 1 条评论</summary>
+    <summary type="text">第 3 名 · ▲ 10 · release · 1 条评论</summary>
     <source><title>Lobsters</title></source>
     <category term="社区"/>
     <category term="热榜"/>
@@ -56,7 +45,7 @@
     <link rel="alternate" type="text/html" href="https://www.phorge.it/"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 9 名 · ▲ 19 · php vcs · 7 条评论</summary>
+    <summary type="text">第 10 名 · ▲ 20 · php vcs · 7 条评论</summary>
     <source><title>Lobsters</title></source>
     <category term="社区"/>
     <category term="热榜"/>
@@ -67,7 +56,7 @@
     <link rel="alternate" type="text/html" href="https://mastodon.sdf.org/@netbsd/117518160563539748"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 4 名 · ▲ 46 · editors netbsd · 26 条评论</summary>
+    <summary type="text">第 5 名 · ▲ 47 · editors netbsd · 26 条评论</summary>
     <source><title>Lobsters</title></source>
     <category term="社区"/>
     <category term="热榜"/>
@@ -78,7 +67,7 @@
     <link rel="alternate" type="text/html" href="https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 8 名 · ▲ 38 · retrocomputing reversing · 1 条评论</summary>
+    <summary type="text">第 9 名 · ▲ 40 · retrocomputing reversing · 1 条评论</summary>
     <source><title>Lobsters</title></source>
     <category term="社区"/>
     <category term="热榜"/>
@@ -89,7 +78,7 @@
     <link rel="alternate" type="text/html" href="https://lobste.rs/s/dsrruj"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 1 名 · ▲ 27 · event · 17 条评论</summary>
+    <summary type="text">第 1 名 · ▲ 38 · event · 25 条评论</summary>
     <source><title>Lobsters</title></source>
     <category term="社区"/>
     <category term="热榜"/>
@@ -100,7 +89,18 @@
     <link rel="alternate" type="text/html" href="http://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 2 名 · ▲ 16 · web · 5 条评论</summary>
+    <summary type="text">第 2 名 · ▲ 26 · web · 10 条评论</summary>
+    <source><title>Lobsters</title></source>
+    <category term="社区"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://seriot.ch/computation/curl.html</id>
+    <title>How curl was accidentally Turing-complete for nine months</title>
+    <link rel="alternate" type="text/html" href="https://seriot.ch/computation/curl.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 4 名 · ▲ 11 · compsci · 1 条评论</summary>
     <source><title>Lobsters</title></source>
     <category term="社区"/>
     <category term="热榜"/>
@@ -111,7 +111,7 @@
     <link rel="alternate" type="text/html" href="https://www.da.vidbuchanan.co.uk/blog/c2pa-four.html"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 7 名 · ▲ 15 · cryptography security · 1 条评论</summary>
+    <summary type="text">第 7 名 · ▲ 16 · cryptography security · 1 条评论</summary>
     <source><title>Lobsters</title></source>
     <category term="社区"/>
     <category term="热榜"/>

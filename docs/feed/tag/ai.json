@@ -117,6 +117,33 @@
       }
     },
     {
+      "id": "https://www.woshipm.com/ai/6486947.html",
+      "url": "https://www.woshipm.com/ai/6486947.html",
+      "title": "微信小微升级，开始Personal Agent化",
+      "content_text": "灵光 2.0 向所有用户开放，千问 Go 紧随其后，微信小微也开始往 Personal Agent 的方向升级。国内的个人助理产品从 PPT 走进内测和公测，能力边界第一次能被真实使用检验。三条路线不同，但都在争同一个入口：谁替用户把事情真正办完。 之前，国内的 Personal Agent 产品探索。 还停留在媒体的…",
+      "summary": "灵光 2.0 向所有用户开放，千问 Go 紧随其后，微信小微也开始往 Personal Agent 的方向升级。国内的个人助理产品从 PPT 走进内测和公测，能力边界第一次能被真实使用检验。三条路线不同，但都在争同一个入口：谁替用户把事情真正办完。 之前，国内的 Personal Agent 产品探索。 还停留在媒体的…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "Personal Agent",
+        "功能分析",
+        "微信小微",
+        "灵光",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
       "id": "https://www.woshipm.com/ai/6486764.html",
       "url": "https://www.woshipm.com/ai/6486764.html",
       "title": "学到钉钉们的精髓了？Claude上线逆天功能，帮企业监控员工是否用AI摸鱼",
@@ -129,6 +156,33 @@
         "Anthropic",
         "Claude",
         "行业观察",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6486912.html",
+      "url": "https://www.woshipm.com/ai/6486912.html",
+      "title": "WorkBuddy悄悄上线「手动安装插件」，丝滑操控浏览器",
+      "content_text": "Chrome 插件商店不科学上网打不开，Edge 和 QQ 浏览器又都跳回同一个地址。WorkBuddy 上线了手动安装拓展程序：选浏览器、打开本地插件文件夹、把文件夹拖进扩展页面，三步装完。文中还实测了让 Agent 自己找网址、开标签页的过程。 前阵子，WorkBuddy 悄悄上线了「浏览器插件」。 支持在 Chr…",
+      "summary": "Chrome 插件商店不科学上网打不开，Edge 和 QQ 浏览器又都跳回同一个地址。WorkBuddy 上线了手动安装拓展程序：选浏览器、打开本地插件文件夹、把文件夹拖进扩展页面，三步装完。文中还实测了让 Agent 自己找网址、开标签页的过程。 前阵子，WorkBuddy 悄悄上线了「浏览器插件」。 支持在 Chr…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "AI工具",
+        "Chrome",
+        "WorkBuddy",
         "产品",
         "运营",
         "商业"

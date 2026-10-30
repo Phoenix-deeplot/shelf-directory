@@ -9,6 +9,84 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/",
+      "url": "https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/",
+      "title": "The Iran War’s Impact on Oil Is Hitting Key Senate Races Hard",
+      "content_text": "Democrats are using the high price of diesel, heating oil, and fertilizer to tie Republicans to President Donald Trump’s unpopular, costly war in Iran.",
+      "summary": "Democrats are using the high price of diesel, heating oil, and fertilizer to tie Republicans to President Donald Trump’s unpopular, costly war in Iran.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae3489ed0f1304b56163b28/master/pass/102916-Iran%20War%20US.jpg",
+      "tags": [
+        "Science",
+        "Science / Environment",
+        "Politics",
+        "Gassed Up",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/ego-blower-sale-tp-cannon-october-2026/",
+      "url": "https://www.wired.com/story/ego-blower-sale-tp-cannon-october-2026/",
+      "title": "The Best Leaf Blower We’ve Tested Is Ready for Halloween",
+      "content_text": "Our top Ego pick is discounted, and our resident leaf blower expert demonstrates how to make a TP cannon.",
+      "summary": "Our top Ego pick is discounted, and our resident leaf blower expert demonstrates how to make a TP cannon.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae2b955645fdd4f7481a1a0/master/pass/Leaf%20Blower%20Power+%20880%20CFM%20sale%20102026%20top%20art%20SOURCE%20Lowes.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products / Outdoor",
+        "Roll Model",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/gifts-for-friends/",
+      "url": "https://www.wired.com/story/gifts-for-friends/",
+      "title": "Gift Ideas for Friends (2026): Wellness Tech, Kitchen Essentials",
+      "content_text": "These are the WIRED-tested gadgets, kitchen tools, and cozy comforts I’d actually buy for my own inner circle.",
+      "summary": "These are the WIRED-tested gadgets, kitchen tools, and cozy comforts I’d actually buy for my own inner circle.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae3c65712651ae6c2d7998a/master/pass/Best%20Gifts%20for%20Friends%20102026%20top%20art%20SOURCE%20shop.com.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Buying Guides",
+        "Gear / Products / Home",
+        "Present Company",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/what-to-know-about-chinas-top-secret-spaceplane/",
       "url": "https://www.wired.com/story/what-to-know-about-chinas-top-secret-spaceplane/",
       "title": "What to Know About China’s Top-Secret Spaceplane",
@@ -914,30 +992,6 @@
       }
     },
     {
-      "id": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
-      "url": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
-      "title": "Should AI Decide Your Court Case? This Judge Says Yes",
-      "content_text": "One of England’s top judges, Geoffrey Vos, believes that AI could adjudicate plenty of civil cases. The question, he says, is where the line should be drawn.",
-      "summary": "One of England’s top judges, Geoffrey Vos, believes that AI could adjudicate plenty of civil cases. The question, he says, is where the line should be drawn.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ae127707e979e34b6579966/master/pass/Business_Should%20AI%20Decide%20Your%20Court%20Case_%20ThisJudgeSaysYes.gif",
-      "tags": [
-        "Business",
-        "Order!",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
       "id": "https://www.wired.com/story/senators-demand-to-know-if-dr-oz-collaborated-with-election-denial-groups/",
       "url": "https://www.wired.com/story/senators-demand-to-know-if-dr-oz-collaborated-with-election-denial-groups/",
       "title": "Senators Demand to Know if Dr. Oz Collaborated With Election Denial Groups",
@@ -1109,31 +1163,6 @@
       }
     },
     {
-      "id": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
-      "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
-      "title": "ICE Is Running One of the Largest Anti-Left Surveillance Operations in US History",
-      "content_text": "ICE’s Homeland Security Investigations is engaged in far-reaching spying against left-wing activists that rivals the FBI and CIA crackdowns on the Civil Rights…",
-      "summary": "ICE’s Homeland Security Investigations is engaged in far-reaching spying against left-wing activists that rivals the FBI and CIA crackdowns on the Civil Rights…",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adf8486990ea20354efad62/master/pass/Security_ICE%20Is%20Carrying%20Out%20%E2%80%98Cointelpro%202.0%E2%80%99_v2.jpg",
-      "tags": [
-        "Security",
-        "Security / National Security",
-        "Repeat History",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
       "id": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
       "url": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
       "title": "I Put a Bunch of AI Agents in Charge of a Fantasy Soccer Team. They’re Not Better Than Humans—Yet",
@@ -1223,31 +1252,6 @@
         "Gear / Gear News and Events",
         "Gear / Products / Smart Home",
         "Echo Chamber",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
-      "url": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
-      "title": "AI Emergency Alerts Are Coming. Humans Might Not Be Ready",
-      "content_text": "Human beings struggle with emergency communication. Chatbots can help—if people take them seriously.",
-      "summary": "Human beings struggle with emergency communication. Chatbots can help—if people take them seriously.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ae1120223d445186a16d911/master/pass/ai-weather-alerts-emergency.jpg",
-      "tags": [
-        "Science",
-        "Science / Environment",
-        "Warning Signs",
         "科技",
         "社会"
       ],

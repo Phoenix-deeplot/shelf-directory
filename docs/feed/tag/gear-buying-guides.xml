@@ -4,8 +4,23 @@
   <title>知树阅读-个人图书空间 · #Gear / Buying Guides</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/gear-buying-guides.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
+  <updated>2026-10-30T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.wired.com/story/gifts-for-friends/</id>
+    <title>Gift Ideas for Friends (2026): Wellness Tech, Kitchen Essentials</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/gifts-for-friends/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">These are the WIRED-tested gadgets, kitchen tools, and cozy comforts I’d actually buy for my own inner circle.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Buying Guides"/>
+    <category term="Gear / Products / Home"/>
+    <category term="Present Company"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
   <entry>
     <id>https://www.wired.com/story/best-kindle-accessories/</id>
     <title>The Kindle Accessories I Never Want to Read Without (2026)</title>

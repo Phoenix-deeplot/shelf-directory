@@ -9,6 +9,132 @@
   },
   "items": [
     {
+      "id": "https://slate.com/news-and-politics/2026/10/slate-news-quiz-2026-midterms.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/slate-news-quiz-2026-midterms.html?via=rss",
+      "title": "Think You Know More About the Midterms Than Slate’s Senior Politics Writer? Find Out With This Week’s News Quiz.",
+      "content_text": "Test your knowledge of this year’s wild midterms races.",
+      "summary": "Test your knowledge of this year’s wild midterms races.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://compote.slate.com/images/3c7f80c5-7b7a-4dc8-aa7c-6b50335f117c.jpeg",
+      "tags": [
+        "Quizzes",
+        "Trivia",
+        "Slate Games",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/podcasts/what-next-tbd/2026/10/kevin-roose-thinks-a-i-has-arrived?via=rss",
+      "url": "https://slate.com/podcasts/what-next-tbd/2026/10/kevin-roose-thinks-a-i-has-arrived?via=rss",
+      "title": "The First Real A.I. Test",
+      "content_text": "AGI-pilled author Kevin Roose makes the case.",
+      "summary": "AGI-pilled author Kevin Roose makes the case.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://compote.slate.com/images/4fba6953-e71b-4b43-8168-db0178bd7b8d.jpeg?crop=4500%2C3000%2Cx0%2Cy0",
+      "tags": [
+        "Artificial Intelligence",
+        "Stock Market",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-30-2026.html?via=rss",
+      "url": "https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-30-2026.html?via=rss",
+      "title": "Slate Mini Crossword for Oct. 30, 2026",
+      "content_text": "Take a quick break with our daily 5x5 grid.",
+      "summary": "Take a quick break with our daily 5x5 grid.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "Mini Crossword",
+        "Slate Games",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/life/2026/10/trump-election-ohio-midterm-ice-evangelical.html?via=rss",
+      "url": "https://slate.com/life/2026/10/trump-election-ohio-midterm-ice-evangelical.html?via=rss",
+      "title": "Evangelicals Traveled to Their Country in Record Numbers. Then Trump Said They Were Evil.",
+      "content_text": "In Ohio, the president’s religious base has been tested—and it’s clear whom it chose.",
+      "summary": "In Ohio, the president’s religious base has been tested—and it’s clear whom it chose.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://compote.slate.com/images/09e57a5f-4452-47fd-aff8-1475974b2683.jpeg?crop=2000%2C1333%2Cx0%2Cy0",
+      "tags": [
+        "Donald Trump",
+        "Evangelicals",
+        "Haiti",
+        "Ohio",
+        "Religion",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/news-and-politics/2026/10/donald-trump-corruption-constitution-impeachment-fail.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/donald-trump-corruption-constitution-impeachment-fail.html?via=rss",
+      "title": "Donald Trump Sure Is Corrupt. If Only There Were a Constitutional Remedy for That.",
+      "content_text": "The most common ground for impeachment throughout Anglo-American history has been corruption.",
+      "summary": "The most common ground for impeachment throughout Anglo-American history has been corruption.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://compote.slate.com/images/f15b8001-05ac-4351-a63c-d59d5f7fba77.jpeg?crop=1536%2C1024%2Cx0%2Cy0",
+      "tags": [
+        "Constitution",
+        "Donald Trump",
+        "Impeachment",
+        "Jurisprudence",
+        "Try, Try Again?",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
       "id": "https://slate.com/news-and-politics/2026/10/2020-election-tuesday-midterms-trump-threats.html?via=rss",
       "url": "https://slate.com/news-and-politics/2026/10/2020-election-tuesday-midterms-trump-threats.html?via=rss",
       "title": "Why There’s a Real Risk of a Replay of the 2020 Election Come Tuesday",
@@ -48,28 +174,6 @@
         "Quizzes",
         "Trivia",
         "Slate Games",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/podcasts/decoder-ring/2026/10/dracula-bram-stoker-iceland-vampires-powers-of-darkness-translation-makt-myrkranna?via=rss",
-      "url": "https://slate.com/podcasts/decoder-ring/2026/10/dracula-bram-stoker-iceland-vampires-powers-of-darkness-translation-makt-myrkranna?via=rss",
-      "title": "Was the Strange, Long-Lost Icelandic Version of <em>Dracula</em> Written by Bram Stoker Himself?",
-      "content_text": "How a raunchy, proto-fascist Dracula was born in the Nordic North.",
-      "summary": "How a raunchy, proto-fascist Dracula was born in the Nordic North.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://compote.slate.com/images/14721829-86f0-42f2-b60f-8e807becb25b.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
         "评论",
         "文化"
       ],
@@ -518,104 +622,6 @@
         "Marriage",
         "Religion",
         "Podcasts",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/life/2026/10/jennifer-lawrence-hair-mes-beauty.html?via=rss",
-      "url": "https://slate.com/life/2026/10/jennifer-lawrence-hair-mes-beauty.html?via=rss",
-      "title": "She’s an Oscar Winner. She’s About to Star in a Scorsese Film. I Can’t Figure Out Why She’s Doing … This.",
-      "content_text": "Even she seems slightly embarrassed by the whole thing.",
-      "summary": "Even she seems slightly embarrassed by the whole thing.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://compote.slate.com/images/3aea5709-0f11-4e9d-968c-bfd1e73e9468.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "Beauty",
-        "Celebrities",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/culture/2026/10/noah-wyle-sexiest-man-alive-people-the-pitt-er-controversy.html?via=rss",
-      "url": "https://slate.com/culture/2026/10/noah-wyle-sexiest-man-alive-people-the-pitt-er-controversy.html?via=rss",
-      "title": "People’s New Sexiest Man Alive Is Proving Weirdly Controversial",
-      "content_text": "Explaining the ire that some Pitt-heads feel about Noah Wyle.",
-      "summary": "Explaining the ire that some Pitt-heads feel about Noah Wyle.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://compote.slate.com/images/39db3627-b191-4e7e-91d8-acb5bba7ce2a.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "Celebrities",
-        "TV",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/news-and-politics/2026/10/dan-sullivan-mary-peltola-alaska-senate.html?via=rss",
-      "url": "https://slate.com/news-and-politics/2026/10/dan-sullivan-mary-peltola-alaska-senate.html?via=rss",
-      "title": "How to Lose Your Party a Senate Seat: Alaska Edition",
-      "content_text": "Trying to trick voters isn’t nice. Getting caught trying to trick voters isn’t smart.",
-      "summary": "Trying to trick voters isn’t nice. Getting caught trying to trick voters isn’t smart.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://compote.slate.com/images/8ae73832-3d41-43ce-a1cf-57de87e132db.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-amanda-seyfried.html?via=rss",
-      "url": "https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-amanda-seyfried.html?via=rss",
-      "title": "Everyone in <em>You Can See Everything</em> Is Playing a Character, but Only One Performer Is Utterly Convincing",
-      "content_text": "The movie isn’t so much a documentary with a great performance as it is a documentary about performance.",
-      "summary": "The movie isn’t so much a documentary with a great performance as it is a documentary about performance.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://compote.slate.com/images/b6b47c6e-e6bb-40d7-a1f9-e2c3d042d0ef.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "Crime",
-        "Fraud",
-        "Medicine",
-        "Movies",
-        "Documentaries",
-        "You Can See Everything",
         "评论",
         "文化"
       ],

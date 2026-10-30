@@ -12,19 +12,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/canva",
-   "title": "Canva Brush",
-   "summary": "Canva Brush: a vision-language model that edits your designs Discussion | Link",
-   "image": "",
-   "date": "2026-10-29",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/ilse",
-   "title": "ilse",
-   "summary": "Point at your app and your AI agent changes the code Discussion | Link",
+   "url": "https://www.producthunt.com/products/axonnic",
+   "title": "Axonnic",
+   "summary": "Muscle-sensing sleeves for robot training Discussion | Link",
    "image": "",
    "date": "2026-10-29",
    "tags": [],
@@ -42,9 +32,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/nocto",
-   "title": "Nocto",
-   "summary": "Your MacBook notch, finally useful Discussion | Link",
+   "url": "https://www.producthunt.com/products/norah-studio",
+   "title": "Norah Studio",
+   "summary": "A new space to explore your music Discussion | Link",
    "image": "",
    "date": "2026-10-29",
    "tags": [],
@@ -62,9 +52,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/speakon",
-   "title": "SpeakON Agent",
-   "summary": "Turn natural speech into real work for an agent to complete Discussion | Link",
+   "url": "https://www.producthunt.com/products/canva",
+   "title": "Canva Brush",
+   "summary": "Canva Brush: a vision-language model that edits your designs Discussion | Link",
    "image": "",
    "date": "2026-10-29",
    "tags": [],
@@ -82,9 +72,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/axonnic",
-   "title": "Axonnic",
-   "summary": "Muscle-sensing sleeves for robot training Discussion | Link",
+   "url": "https://www.producthunt.com/products/nocto",
+   "title": "Nocto",
+   "summary": "Your MacBook notch, finally useful Discussion | Link",
    "image": "",
    "date": "2026-10-29",
    "tags": [],
@@ -92,9 +82,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/norah-studio",
-   "title": "Norah Studio",
-   "summary": "A new space to explore your music Discussion | Link",
+   "url": "https://www.producthunt.com/products/speakon",
+   "title": "SpeakON Agent",
+   "summary": "Turn natural speech into real work for an agent to complete Discussion | Link",
    "image": "",
    "date": "2026-10-29",
    "tags": [],
@@ -102,9 +92,19 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/fastbrowse",
-   "title": "fastbrowse",
-   "summary": "Fastest open source browser agent Discussion | Link",
+   "url": "https://www.producthunt.com/products/ilse",
+   "title": "ilse",
+   "summary": "Point at your app and your AI agent changes the code Discussion | Link",
+   "image": "",
+   "date": "2026-10-29",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/kestrix",
+   "title": "Kestrix",
+   "summary": "Repo-agnostic CI control plane with DAG-based triggers. Discussion | Link",
    "image": "",
    "date": "2026-10-28",
    "tags": [],
@@ -122,59 +122,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/kestrix",
-   "title": "Kestrix",
-   "summary": "Repo-agnostic CI control plane with DAG-based triggers. Discussion | Link",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/kin-6",
-   "title": "Kin",
-   "summary": "The AI labs want to own you. Make them answer to you. Discussion | Link",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/suno",
-   "title": "Suno MCP",
-   "summary": "The music layerfor your AI stack Discussion | Link",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/smart-jelly",
-   "title": "Smart Jelly",
-   "summary": "Your everyday AI tools and memory in one Mac app. Discussion | Link",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/flatbread",
-   "title": "Flatbread",
-   "summary": "Share the whole agent run, not a screenshot Discussion | Link",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/autoshelf",
-   "title": "AutoShelf 2.6",
-   "summary": "Automate any folder on your Mac with if-this-then-that rules Discussion | Link",
+   "url": "https://www.producthunt.com/products/fastbrowse",
+   "title": "fastbrowse",
+   "summary": "Fastest open source browser agent Discussion | Link",
    "image": "",
    "date": "2026-10-28",
    "tags": [],
@@ -185,56 +135,6 @@
    "url": "https://www.producthunt.com/products/polylane",
    "title": "Polylane for ChatGPT",
    "summary": "Ask ChatGPT what broke in production Discussion | Link",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/assemblyai",
-   "title": "AssemblyAI",
-   "summary": "text-to-speech built for voice agents Discussion | Link",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/mao-multi-agentic-orchestration-tool",
-   "title": "MAO",
-   "summary": "Team up Claude Code, Codex and Grok on one canvas Discussion | Link",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/gemini-4-carbon",
-   "title": "Gemini 4 Carbon",
-   "summary": "Google's next frontier model Discussion | Link",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/arco-4",
-   "title": "Arco",
-   "summary": "GitHub and Linear issues, right inside your Codex Discussion | Link",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/floot",
-   "title": "Floot in ChatGPT",
-   "summary": "Build and publish real apps without leaving ChatGPT Discussion | Link",
    "image": "",
    "date": "2026-10-28",
    "tags": [],
@@ -262,6 +162,26 @@
    "type": "article"
   },
   {
+   "url": "https://www.producthunt.com/products/kin-6",
+   "title": "Kin",
+   "summary": "The AI labs want to own you. Make them answer to you. Discussion | Link",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/mao-multi-agentic-orchestration-tool",
+   "title": "MAO",
+   "summary": "Team up Claude Code, Codex and Grok on one canvas Discussion | Link",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.producthunt.com/products/storelocale",
    "title": "StoreLocale",
    "summary": "Translate app UI in App Store & Google Play screenshots Discussion | Link",
@@ -272,11 +192,81 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/vaani-developer-platfrom",
-   "title": "Vaani Developer Platform",
-   "summary": "The only voice AI harness that you'll ever need Discussion | Link",
+   "url": "https://www.producthunt.com/products/smart-jelly",
+   "title": "Smart Jelly",
+   "summary": "Your everyday AI tools and memory in one Mac app. Discussion | Link",
    "image": "",
-   "date": "2026-10-27",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/suno",
+   "title": "Suno MCP",
+   "summary": "The music layerfor your AI stack Discussion | Link",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/arco-4",
+   "title": "Arco",
+   "summary": "GitHub and Linear issues, right inside your Codex Discussion | Link",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/gemini-4-carbon",
+   "title": "Gemini 4 Carbon",
+   "summary": "Google's next frontier model Discussion | Link",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/assemblyai",
+   "title": "AssemblyAI",
+   "summary": "text-to-speech built for voice agents Discussion | Link",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/floot",
+   "title": "Floot in ChatGPT",
+   "summary": "Build and publish real apps without leaving ChatGPT Discussion | Link",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/flatbread",
+   "title": "Flatbread",
+   "summary": "Share the whole agent run, not a screenshot Discussion | Link",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/autoshelf",
+   "title": "AutoShelf 2.6",
+   "summary": "Automate any folder on your Mac with if-this-then-that rules Discussion | Link",
+   "image": "",
+   "date": "2026-10-28",
    "tags": [],
    "lang": "en",
    "type": "article"
@@ -285,6 +275,16 @@
    "url": "https://www.producthunt.com/products/teable-4",
    "title": "Teable Mobile",
    "summary": "Build the systems your team runs on, now from your phone Discussion | Link",
+   "image": "",
+   "date": "2026-10-27",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/vaani-developer-platfrom",
+   "title": "Vaani Developer Platform",
+   "summary": "The only voice AI harness that you'll ever need Discussion | Link",
    "image": "",
    "date": "2026-10-27",
    "tags": [],
@@ -312,9 +312,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/reset-alerts",
-   "title": "Reset Alerts",
-   "summary": "Codex Reset Alerts via Text (Use it Before You Lose It) Discussion | Link",
+   "url": "https://www.producthunt.com/products/empacer",
+   "title": "Empacer",
+   "summary": "The voice-first assistant for small business owners Discussion | Link",
    "image": "",
    "date": "2026-10-27",
    "tags": [],
@@ -332,19 +332,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/recall-for-mac",
-   "title": "Recall for Mac",
-   "summary": "Remember everything that happens on your Mac Discussion | Link",
-   "image": "",
-   "date": "2026-10-27",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/empacer",
-   "title": "Empacer",
-   "summary": "The voice-first assistant for small business owners Discussion | Link",
+   "url": "https://www.producthunt.com/products/reset-alerts",
+   "title": "Reset Alerts",
+   "summary": "Codex Reset Alerts via Text (Use it Before You Lose It) Discussion | Link",
    "image": "",
    "date": "2026-10-27",
    "tags": [],
@@ -362,11 +352,11 @@
    "type": "article"
   },
   {
-   "url": "https://www.producthunt.com/products/sparkbots-ai-analyze-pages-and-pdfs",
-   "title": "SparkBots AI (Powered by Jev)",
-   "summary": "Instantly extract key details and analyze any webpage or PDF Discussion | Link",
+   "url": "https://www.producthunt.com/products/recall-for-mac",
+   "title": "Recall for Mac",
+   "summary": "Remember everything that happens on your Mac Discussion | Link",
    "image": "",
-   "date": "2026-10-26",
+   "date": "2026-10-27",
    "tags": [],
    "lang": "en",
    "type": "article"
@@ -375,6 +365,16 @@
    "url": "https://www.producthunt.com/products/knocket-ai",
    "title": "Knocket AI",
    "summary": "Chat with visitors from your website or link Discussion | Link",
+   "image": "",
+   "date": "2026-10-26",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.producthunt.com/products/sparkbots-ai-analyze-pages-and-pdfs",
+   "title": "SparkBots AI (Powered by Jev)",
+   "summary": "Instantly extract key details and analyze any webpage or PDF Discussion | Link",
    "image": "",
    "date": "2026-10-26",
    "tags": [],
@@ -442,6 +442,16 @@
    "type": "article"
   },
   {
+   "url": "https://www.producthunt.com/products/topmessage",
+   "title": "TopAgent",
+   "summary": "Drive B2B event attendance with an AI agent Discussion | Link",
+   "image": "",
+   "date": "2026-10-19",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.producthunt.com/products/viggle-ai",
    "title": "Viggle JST-2",
    "summary": "JST-2: 3D scenes, characters and motion from one model Discussion | Link",
@@ -455,16 +465,6 @@
    "url": "https://www.producthunt.com/products/outreachguy",
    "title": "OutreachGuy",
    "summary": "The AI SDR that works the leads you never followed up Discussion | Link",
-   "image": "",
-   "date": "2026-10-19",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.producthunt.com/products/topmessage",
-   "title": "TopAgent",
-   "summary": "Drive B2B event attendance with an AI agent Discussion | Link",
    "image": "",
    "date": "2026-10-19",
    "tags": [],
@@ -516,6 +516,6 @@
  "parser": 3,
  "status": "ok",
  "error": "",
- "etag": "W/\"8fef4340a0ffdcef96f328a886ecd2c2\"",
- "modified": "Fri, 30 Oct 2026 08:19:32 GMT"
+ "etag": "W/\"563168d0ba796f89700fc0b565f3ddb2\"",
+ "modified": "Fri, 30 Oct 2026 09:58:39 GMT"
 }

@@ -4,8 +4,23 @@
   <title>知树阅读-个人图书空间 · #Science</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/science.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
+  <updated>2026-10-30T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/</id>
+    <title>The Iran War’s Impact on Oil Is Hitting Key Senate Races Hard</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Democrats are using the high price of diesel, heating oil, and fertilizer to tie Republicans to President Donald Trump’s unpopular, costly war in Iran.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Science"/>
+    <category term="Science / Environment"/>
+    <category term="Politics"/>
+    <category term="Gassed Up"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
   <entry>
     <id>https://www.wired.com/story/what-to-know-about-chinas-top-secret-spaceplane/</id>
     <title>What to Know About China’s Top-Secret Spaceplane</title>
@@ -60,20 +75,6 @@
     <category term="Science"/>
     <category term="Science / Physics and Math"/>
     <category term="Does Not Compute"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/</id>
-    <title>AI Emergency Alerts Are Coming. Humans Might Not Be Ready</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Human beings struggle with emergency communication. Chatbots can help—if people take them seriously.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Environment"/>
-    <category term="Warning Signs"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>

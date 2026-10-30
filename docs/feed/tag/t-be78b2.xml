@@ -4,8 +4,19 @@
   <title>知树阅读-个人图书空间 · #历史</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-be78b2.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-30T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.xiaoyuzhoufm.com/episode/6ae4546797726cd4675a2ef0?utm_source=rss</id>
+    <title>512 与王恺漫话江南食事：从文人蟹宴到乡野土菜</title>
+    <link rel="alternate" type="text/html" href="https://www.xiaoyuzhoufm.com/episode/6ae4546797726cd4675a2ef0?utm_source=rss"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">- 导语 - 秋风起，蟹脚痒，又到了吃蟹的时节。苏州的蟹宴与糕团、南京的盐水鸭与野菜，再到杭州的醋鱼与乡间土菜，虽同处江南，各地的饮食也藏着许多不同讲究。传统苏州蟹宴为何不提倡客人自己动手剥蟹？养殖技术的发展如何改变了人们餐桌上的大闸蟹？那些古籍中有名的菜肴，又经过了当代厨师怎样的改造？从家宴旧事到市井小馆，本期节目与…</summary>
+    <source><title>忽左忽右</title></source>
+    <category term="人文"/>
+    <category term="历史"/>
+  </entry>
   <entry>
     <id>https://www.xiaoyuzhoufm.com/episode/6ae0674fc96c8942ec13048e?utm_source=rss</id>
     <title>511 重新发现费孝通：文学视角下的三十年代江南丝业危机与北平青年思潮</title>
@@ -541,17 +552,6 @@
     <updated>2026-05-08T00:00:00Z</updated>
     <published>2026-05-08T00:00:00Z</published>
     <summary type="text">- 导语 - 甲午战争引发的「三国干涉还辽」事件，意外促使日本对俄情报体系在战后迅速膨胀。西伯利亚大铁路的修建进度，如何成了日本对俄开战的倒计时？「黑龙会」等日本民间右翼组织，是如何与军部配合展开远东情报运作的？明石元二郎真的见过并资助了列宁吗？日俄战争胜利后，日本的情报工作为何反而走向衰退？敬请收听本期嘉宾沙青青带来…</summary>
-    <source><title>忽左忽右</title></source>
-    <category term="人文"/>
-    <category term="历史"/>
-  </entry>
-  <entry>
-    <id>https://www.xiaoyuzhoufm.com/episode/69f9ba3cf93890ea81422b32?utm_source=rss</id>
-    <title>471 当江户幕府开始「性转」：漫画《大奥》的历史想象与权力书写</title>
-    <link rel="alternate" type="text/html" href="https://www.xiaoyuzhoufm.com/episode/69f9ba3cf93890ea81422b32?utm_source=rss"/>
-    <updated>2026-05-05T00:00:00Z</updated>
-    <published>2026-05-05T00:00:00Z</published>
-    <summary type="text">- 导语 - 如果一场只感染男性的疫情席卷日本，女性成为了家族继承人、政府官员和最高执政者，历史会怎样改写？漫画家吉永史用这样一个性转设定，在《大奥》中构建起一个架空的江户时代。大奥究竟是怎样一套制度？表、中奥与大奥之间，上演着怎样复杂精密的权力平衡？性转后的幕府，如何在外交中隐藏性别失衡的秘密？兰学医者又如何潜入大奥…</summary>
     <source><title>忽左忽右</title></source>
     <category term="人文"/>
     <category term="历史"/>

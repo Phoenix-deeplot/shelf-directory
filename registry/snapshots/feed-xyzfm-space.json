@@ -2,6 +2,21 @@
  "id": "feed-xyzfm-space",
  "items": [
   {
+   "url": "https://www.xiaoyuzhoufm.com/episode/6ae4546797726cd4675a2ef0?utm_source=rss",
+   "title": "512 与王恺漫话江南食事：从文人蟹宴到乡野土菜",
+   "summary": "- 导语 - 秋风起，蟹脚痒，又到了吃蟹的时节。苏州的蟹宴与糕团、南京的盐水鸭与野菜，再到杭州的醋鱼与乡间土菜，虽同处江南，各地的饮食也藏着许多不同讲究。传统苏州蟹宴为何不提倡客人自己动手剥蟹？养殖技术的发展如何改变了人们餐桌上的大闸蟹？那些古籍中有名的菜肴，又经过了当代厨师怎样的改造？从家宴旧事到市井小馆，本期节目与…",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "zh",
+   "type": "audio",
+   "audio": {
+    "url": "https://dts-api.xiaoyuzhoufm.com/track/5e4ee557418a84a0466737b7/6ae4546797726cd4675a2ef0/media.xyzcdn.net/5e4ee557418a84a0466737b7/lh0W1a0jWaFUYdxpDGHQPPuWVbZY.m4a",
+    "type": "audio/mp4",
+    "dur": 5046
+   }
+  },
+  {
    "url": "https://www.xiaoyuzhoufm.com/episode/6ae0674fc96c8942ec13048e?utm_source=rss",
    "title": "511 重新发现费孝通：文学视角下的三十年代江南丝业危机与北平青年思潮",
    "summary": "- 导语 - 2016年，一部尘封多年的费孝通英文小说手稿，在伦敦政治经济学院意外重见天日。这部题为《茧》的小说，也为理解费孝通的学术道路提供了新的线索。小说以苏南一家制丝工厂为背景，与茅盾《春蚕》共同触及三十年代江南农村的经济困境，却对农村出路提出了不同设想。这部小说与费孝通的社会学名著《江村经济》究竟是什么关系？它…",
@@ -734,21 +749,6 @@
     "url": "https://dts-api.xiaoyuzhoufm.com/track/5e4ee557418a84a0466737b7/69fda0b21b7bd50295b9bbb4/media.xyzcdn.net/FqX06VnEUaEWZg-1YWexs4x9i3sn.m4a",
     "type": "audio/mp4",
     "dur": 180
-   }
-  },
-  {
-   "url": "https://www.xiaoyuzhoufm.com/episode/69f9ba3cf93890ea81422b32?utm_source=rss",
-   "title": "471 当江户幕府开始「性转」：漫画《大奥》的历史想象与权力书写",
-   "summary": "- 导语 - 如果一场只感染男性的疫情席卷日本，女性成为了家族继承人、政府官员和最高执政者，历史会怎样改写？漫画家吉永史用这样一个性转设定，在《大奥》中构建起一个架空的江户时代。大奥究竟是怎样一套制度？表、中奥与大奥之间，上演着怎样复杂精密的权力平衡？性转后的幕府，如何在外交中隐藏性别失衡的秘密？兰学医者又如何潜入大奥…",
-   "image": "",
-   "date": "2026-05-05",
-   "tags": [],
-   "lang": "zh",
-   "type": "audio",
-   "audio": {
-    "url": "https://dts-api.xiaoyuzhoufm.com/track/5e4ee557418a84a0466737b7/69f9ba3cf93890ea81422b32/media.xyzcdn.net/5e4ee557418a84a0466737b7/lsOI7QRLNKygtxF889rG1ugxm1DS.m4a",
-    "type": "audio/mp4",
-    "dur": 4149
    }
   }
  ],

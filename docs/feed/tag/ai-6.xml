@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/ai-6.xml</id>
-  <title>知树阅读-个人图书空间 · #AI编程</title>
+  <title>知树阅读-个人图书空间 · #AI时代</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/ai-6.xml"/>
   <updated>2026-10-30T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6486774.html</id>
-    <title>挖到个宝藏27B开源Code2Video模型！可本地安装，还送MG Skill～</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486774.html"/>
+    <id>https://www.woshipm.com/share/6486699.html</id>
+    <title>AI时代，RPA产品应该如何升级？从流程自动化到智能化执行</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486699.html"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">HeyGen 的 Code2Video 榜单上，前八名清一色闭源，Claude Opus 5.5 排第一，开源模型多在百分之十上下。一个 27B 开源模型能本地安装，还能在 HyperFrames 里稳定出片。 老粉应该知道，我最开始是一个后端开发，剪辑和AE是完全一窍不通。 但从今年2月开始，我陆陆续续用代码做了不少…</summary>
+    <summary type="text">RPA曾是企业自动化市场的热门赛道，如今又迎来大模型与AI智能体带来的新机会。当AI开始尝试接管复杂任务，企业选择RPA平台，不能只看传统流程执行能力，还需要重新审视系统兼容、流程治理、异常处理与AI融合能力。技术路线在变，但决定自动化能否长期创造价值的，始终是平台对真实业务的支撑能力。 大家还记得RPA吗？ RPA这…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI编程"/>
-    <category term="Claude Code"/>
-    <category term="经验分享"/>
+    <category term="AI时代"/>
+    <category term="RPA"/>
+    <category term="个人观点"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>

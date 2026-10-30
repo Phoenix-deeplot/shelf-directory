@@ -4,7 +4,7 @@
   {
    "url": "https://dev.to/devteam/your-dev-posts-have-a-beautiful-new-share-card-4be8",
    "title": "Your DEV posts have a beautiful new share card ✨",
-   "summary": "第 1 名 · ♥ 131 · Jess Lee · 30 条评论 — The image that shows up when you share a DEV post just got a brand-new look! I got to work on...",
+   "summary": "第 1 名 · ♥ 136 · Jess Lee · 30 条评论 — The image that shows up when you share a DEV post just got a brand-new look! I got to work on...",
    "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fzayaadne36cbq4m0gftb.png",
    "date": "2026-10-30",
    "tags": [],
@@ -44,7 +44,7 @@
   {
    "url": "https://dev.to/devengers/doors-i-walked-through-to-reach-dev-5294",
    "title": "Doors I Walked Through to Reach DEV",
-   "summary": "第 5 名 · ♥ 122 · Giorgi Kobaidze · 78 条评论 — Table of Contents Knock, Knock: The First Domino The Numbers and a Plot Twist How Did I...",
+   "summary": "第 5 名 · ♥ 128 · Giorgi Kobaidze · 78 条评论 — Table of Contents Knock, Knock: The First Domino The Numbers and a Plot Twist How Did I...",
    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjfops8afd4rt21u0mxjz.jpeg",
    "date": "2026-10-30",
    "tags": [],
@@ -64,8 +64,18 @@
   {
    "url": "https://dev.to/dannwaneri/no-human-will-ever-write-code-better-than-llms-better-at-what-1dme",
    "title": "No Human Will Ever Write Code Better Than LLMs? Better at What?",
-   "summary": "第 7 名 · ♥ 37 · Daniel Nwaneri · 24 条评论 — A tweet went around saying: \"No human will ever write code better than LLMs. Accept this fact, stop...",
+   "summary": "第 7 名 · ♥ 37 · Daniel Nwaneri · 28 条评论 — A tweet went around saying: \"No human will ever write code better than LLMs. Accept this fact, stop...",
    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyef0r2qscs29hbs0j5ba.jpg",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n",
+   "title": "HEXAW programming language for WebAssembly instead WAT",
+   "summary": "第 8 名 · ♥ 44 · Peter Vivo · 14 条评论 — This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...",
+   "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu8zgu8f4zouggzb33wqm.png",
    "date": "2026-10-30",
    "tags": [],
    "lang": "en",
@@ -74,7 +84,7 @@
   {
    "url": "https://dev.to/sylwia-lask/yes-0-no-javascript-isnt-broken-14ob",
    "title": "Yes, {} + [] = 0. No, JavaScript Isn’t Broken",
-   "summary": "第 8 名 · ♥ 45 · Sylwia Laskowska · 25 条评论 — JavaScript is a legendary programming language. Created in the mid-1990s in just 10 days, it was born...",
+   "summary": "第 9 名 · ♥ 51 · Sylwia Laskowska · 28 条评论 — JavaScript is a legendary programming language. Created in the mid-1990s in just 10 days, it was born...",
    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Folm3zyjvpymz88fwvzrw.png",
    "date": "2026-10-30",
    "tags": [],
@@ -84,18 +94,8 @@
   {
    "url": "https://dev.to/hemapriya_kanagala/dev-pet-corner-3-show-us-your-pets-35n",
    "title": "🐾 DEV Pet Corner #3: Show Us Your Pets!",
-   "summary": "第 9 名 · ♥ 78 · Hemapriya Kanagala · 15 条评论 — TL;DR DEV Pet Corner is back for another Sunday! It's a weekly series where we take a little break...",
+   "summary": "第 10 名 · ♥ 78 · Hemapriya Kanagala · 15 条评论 — TL;DR DEV Pet Corner is back for another Sunday! It's a weekly series where we take a little break...",
    "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fot17ffvas98xbk9dak4b.jpeg",
-   "date": "2026-10-30",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://dev.to/canro91/to-recover-from-burnout-writing-became-my-therapy-and-this-week-my-first-coding-book-turns-1-year-388e",
-   "title": "When Recovering From Burnout, Writing Became My Therapy. And This Week My First Coding Book Turns 1 Year Old. Ask Me Anything!",
-   "summary": "第 10 名 · ♥ 37 · Cesar Aguirre · 36 条评论 — Hi, I'm Cesar, a Senior Software Engineer with 10+ years of experience. In 2023, I got sick and...",
-   "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0724bt3kfrbnmfab2a2y.png",
    "date": "2026-10-30",
    "tags": [],
    "lang": "en",

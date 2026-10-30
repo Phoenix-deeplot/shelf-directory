@@ -9,6 +9,30 @@
   },
   "items": [
     {
+      "id": "https://slate.com/podcasts/what-next-tbd/2026/10/kevin-roose-thinks-a-i-has-arrived?via=rss",
+      "url": "https://slate.com/podcasts/what-next-tbd/2026/10/kevin-roose-thinks-a-i-has-arrived?via=rss",
+      "title": "The First Real A.I. Test",
+      "content_text": "AGI-pilled author Kevin Roose makes the case.",
+      "summary": "AGI-pilled author Kevin Roose makes the case.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://compote.slate.com/images/4fba6953-e71b-4b43-8168-db0178bd7b8d.jpeg?crop=4500%2C3000%2Cx0%2Cy0",
+      "tags": [
+        "Artificial Intelligence",
+        "Stock Market",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
       "id": "https://slate.com/technology/2026/10/draco-malfoid-harry-potter-meme.html?via=rss",
       "url": "https://slate.com/technology/2026/10/draco-malfoid-harry-potter-meme.html?via=rss",
       "title": "The U.S. Department of Education Posted an Incel Meme. It Gets Worse From There.",

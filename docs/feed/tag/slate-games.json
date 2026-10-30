@@ -9,6 +9,54 @@
   },
   "items": [
     {
+      "id": "https://slate.com/news-and-politics/2026/10/slate-news-quiz-2026-midterms.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/slate-news-quiz-2026-midterms.html?via=rss",
+      "title": "Think You Know More About the Midterms Than Slate’s Senior Politics Writer? Find Out With This Week’s News Quiz.",
+      "content_text": "Test your knowledge of this year’s wild midterms races.",
+      "summary": "Test your knowledge of this year’s wild midterms races.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://compote.slate.com/images/3c7f80c5-7b7a-4dc8-aa7c-6b50335f117c.jpeg",
+      "tags": [
+        "Quizzes",
+        "Trivia",
+        "Slate Games",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-30-2026.html?via=rss",
+      "url": "https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-30-2026.html?via=rss",
+      "title": "Slate Mini Crossword for Oct. 30, 2026",
+      "content_text": "Take a quick break with our daily 5x5 grid.",
+      "summary": "Take a quick break with our daily 5x5 grid.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "Mini Crossword",
+        "Slate Games",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
       "id": "https://slate.com/news-and-politics/2026/10/trivia-quiz-daily-slate-science-vitamins-geology-evolution.html?via=rss",
       "url": "https://slate.com/news-and-politics/2026/10/trivia-quiz-daily-slate-science-vitamins-geology-evolution.html?via=rss",
       "title": "What Is Defined Scientifically as a Force Multiplied by a Time Divided by an Area?",

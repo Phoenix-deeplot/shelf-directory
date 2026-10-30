@@ -4,8 +4,19 @@
   <title>知树阅读-个人图书空间 · #人文</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-e0f414.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
+  <updated>2026-10-30T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.xiaoyuzhoufm.com/episode/6ae4546797726cd4675a2ef0?utm_source=rss</id>
+    <title>512 与王恺漫话江南食事：从文人蟹宴到乡野土菜</title>
+    <link rel="alternate" type="text/html" href="https://www.xiaoyuzhoufm.com/episode/6ae4546797726cd4675a2ef0?utm_source=rss"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">- 导语 - 秋风起，蟹脚痒，又到了吃蟹的时节。苏州的蟹宴与糕团、南京的盐水鸭与野菜，再到杭州的醋鱼与乡间土菜，虽同处江南，各地的饮食也藏着许多不同讲究。传统苏州蟹宴为何不提倡客人自己动手剥蟹？养殖技术的发展如何改变了人们餐桌上的大闸蟹？那些古籍中有名的菜肴，又经过了当代厨师怎样的改造？从家宴旧事到市井小馆，本期节目与…</summary>
+    <source><title>忽左忽右</title></source>
+    <category term="人文"/>
+    <category term="历史"/>
+  </entry>
   <entry>
     <id>https://daily.jstor.org/londons-railway-for-the-dead/</id>
     <title>London’s Railway for the Dead</title>
@@ -575,17 +586,6 @@
     <updated>2026-06-09T00:00:00Z</updated>
     <published>2026-06-09T00:00:00Z</published>
     <summary type="text">- 导语 - 在地方社会的崩溃下，民国匪患遍布南北，豫北土匪的生存状况尤其典型：民与匪之间共生、转换，暴力成为个体最可能抓住的生存机遇。生态环境失衡、鸦片流通、权力腐败如何一步步加剧豫北匪患？兵匪身份不断流转，土匪如何在多方势力暗中往来中谋取生存？河南乡土间盛行的「拜朋友」仪式在匪帮群体中扮演着怎样的作用？请听本期节目…</summary>
-    <source><title>忽左忽右</title></source>
-    <category term="人文"/>
-    <category term="历史"/>
-  </entry>
-  <entry>
-    <id>https://www.xiaoyuzhoufm.com/episode/6a2284447444b5722233dedb?utm_source=rss</id>
-    <title>日本谍报物语05｜冷战前线的「间谍乐园」：战后对内公安情报如何重生？</title>
-    <link rel="alternate" type="text/html" href="https://www.xiaoyuzhoufm.com/episode/6a2284447444b5722233dedb?utm_source=rss"/>
-    <updated>2026-06-05T00:00:00Z</updated>
-    <published>2026-06-05T00:00:00Z</published>
-    <summary type="text">- 导语 - 特高警察前脚废止，公安警察后脚成立，冷战与对内治安两条主线重新组织起日本战后情报体系。驻日盟军总司令部（GHQ）内部两大路线冲突在何处？帝银事件、「国铁三大案」接连爆发，日本公安警察如何借此持续扩权？岸信介脱罪从政，美方暗中政治运作是否发挥作用？六七十年代左右翼极端事件此起彼伏，韩、朝、美、苏多方势力又在…</summary>
     <source><title>忽左忽右</title></source>
     <category term="人文"/>
     <category term="历史"/>

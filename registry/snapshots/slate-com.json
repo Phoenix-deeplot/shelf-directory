@@ -2,6 +2,78 @@
  "id": "slate-com",
  "items": [
   {
+   "url": "https://slate.com/news-and-politics/2026/10/slate-news-quiz-2026-midterms.html?via=rss",
+   "title": "Think You Know More About the Midterms Than Slate’s Senior Politics Writer? Find Out With This Week’s News Quiz.",
+   "summary": "Test your knowledge of this year’s wild midterms races.",
+   "image": "https://compote.slate.com/images/3c7f80c5-7b7a-4dc8-aa7c-6b50335f117c.jpeg",
+   "date": "2026-10-30",
+   "tags": [
+    "Quizzes",
+    "Trivia",
+    "Slate Games"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-30-2026.html?via=rss",
+   "title": "Slate Mini Crossword for Oct. 30, 2026",
+   "summary": "Take a quick break with our daily 5x5 grid.",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [
+    "Mini Crossword",
+    "Slate Games"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://slate.com/news-and-politics/2026/10/donald-trump-corruption-constitution-impeachment-fail.html?via=rss",
+   "title": "Donald Trump Sure Is Corrupt. If Only There Were a Constitutional Remedy for That.",
+   "summary": "The most common ground for impeachment throughout Anglo-American history has been corruption.",
+   "image": "https://compote.slate.com/images/f15b8001-05ac-4351-a63c-d59d5f7fba77.jpeg?crop=1536%2C1024%2Cx0%2Cy0",
+   "date": "2026-10-30",
+   "tags": [
+    "Constitution",
+    "Donald Trump",
+    "Impeachment",
+    "Jurisprudence",
+    "Try, Try Again?"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://slate.com/life/2026/10/trump-election-ohio-midterm-ice-evangelical.html?via=rss",
+   "title": "Evangelicals Traveled to Their Country in Record Numbers. Then Trump Said They Were Evil.",
+   "summary": "In Ohio, the president’s religious base has been tested—and it’s clear whom it chose.",
+   "image": "https://compote.slate.com/images/09e57a5f-4452-47fd-aff8-1475974b2683.jpeg?crop=2000%2C1333%2Cx0%2Cy0",
+   "date": "2026-10-30",
+   "tags": [
+    "Donald Trump",
+    "Evangelicals",
+    "Haiti",
+    "Ohio",
+    "Religion"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://slate.com/podcasts/what-next-tbd/2026/10/kevin-roose-thinks-a-i-has-arrived?via=rss",
+   "title": "The First Real A.I. Test",
+   "summary": "AGI-pilled author Kevin Roose makes the case.",
+   "image": "https://compote.slate.com/images/4fba6953-e71b-4b43-8168-db0178bd7b8d.jpeg?crop=4500%2C3000%2Cx0%2Cy0",
+   "date": "2026-10-30",
+   "tags": [
+    "Artificial Intelligence",
+    "Stock Market"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://slate.com/news-and-politics/2026/10/midterms-2026-democrats-senate-kansas-nebraska-south-carolina-florida-mississippi.html?via=rss",
    "title": "It’s Democrats’ Dream Senate Scenario. The Polls Say It’s Not Impossible.",
    "summary": "Even in deep-red states, Democrats and Republicans are running neck and neck in Senate races.",
@@ -154,14 +226,15 @@
    "type": "article"
   },
   {
-   "url": "https://slate.com/life/2026/10/slate-soundbites-for-october-29-2026.html?via=rss",
-   "title": "Slate SoundBites for October 29, 2026",
-   "summary": "Build your answer from the sound up with our new game, SoundBites!",
-   "image": "https://compote.slate.com/images/cfb2ab0f-1ca4-4da3-b38d-817bc8e8315c.png",
+   "url": "https://slate.com/advice/2026/10/parent-advice-coworker-baby-name-work.html?via=rss",
+   "title": "I Told My Co-Worker My Baby’s Soon-to-Be Name. I Was Not Expecting That Reaction.",
+   "summary": "Now I'm really worried.",
+   "image": "https://compote.slate.com/images/5773d519-f6c5-49ba-b2e5-6602c312564e.jpeg?crop=2000%2C1333%2Cx0%2Cy0",
    "date": "2026-10-29",
    "tags": [
-    "Slate Games",
-    "SoundBites"
+    "Advice",
+    "Workplace",
+    "Jobs"
    ],
    "lang": "en",
    "type": "article"
@@ -180,10 +253,10 @@
    "type": "article"
   },
   {
-   "url": "https://slate.com/advice/2026/10/parent-advice-coworker-baby-name-work.html?via=rss",
-   "title": "I Told My Co-Worker My Baby’s Soon-to-Be Name. I Was Not Expecting That Reaction.",
-   "summary": "Now I'm really worried.",
-   "image": "https://compote.slate.com/images/5773d519-f6c5-49ba-b2e5-6602c312564e.jpeg?crop=2000%2C1333%2Cx0%2Cy0",
+   "url": "https://slate.com/advice/2026/10/work-advice-boss-email-technology-confidential.html?via=rss",
+   "title": "Every Morning, My Boss Gives Us an Unfiltered Look Into His Email Inbox. I’ve Seen Things I Shouldn’t Have.",
+   "summary": "Someone needs to stop this.",
+   "image": "https://compote.slate.com/images/44624c95-eca6-4862-9e6f-193d05d07edb.jpeg?crop=2000%2C1333%2Cx0%2Cy0",
    "date": "2026-10-29",
    "tags": [
     "Advice",
@@ -194,15 +267,14 @@
    "type": "article"
   },
   {
-   "url": "https://slate.com/advice/2026/10/work-advice-boss-email-technology-confidential.html?via=rss",
-   "title": "Every Morning, My Boss Gives Us an Unfiltered Look Into His Email Inbox. I’ve Seen Things I Shouldn’t Have.",
-   "summary": "Someone needs to stop this.",
-   "image": "https://compote.slate.com/images/44624c95-eca6-4862-9e6f-193d05d07edb.jpeg?crop=2000%2C1333%2Cx0%2Cy0",
+   "url": "https://slate.com/life/2026/10/slate-soundbites-for-october-29-2026.html?via=rss",
+   "title": "Slate SoundBites for October 29, 2026",
+   "summary": "Build your answer from the sound up with our new game, SoundBites!",
+   "image": "https://compote.slate.com/images/cfb2ab0f-1ca4-4da3-b38d-817bc8e8315c.png",
    "date": "2026-10-29",
    "tags": [
-    "Advice",
-    "Workplace",
-    "Jobs"
+    "Slate Games",
+    "SoundBites"
    ],
    "lang": "en",
    "type": "article"
@@ -281,69 +353,6 @@
    ],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://slate.com/podcasts/decoder-ring/2026/10/dracula-bram-stoker-iceland-vampires-powers-of-darkness-translation-makt-myrkranna?via=rss",
-   "title": "Was the Strange, Long-Lost Icelandic Version of <em>Dracula</em> Written by Bram Stoker Himself?",
-   "summary": "How a raunchy, proto-fascist Dracula was born in the Nordic North.",
-   "image": "https://compote.slate.com/images/14721829-86f0-42f2-b60f-8e807becb25b.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-   "date": "2026-10-29",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://slate.com/news-and-politics/2026/10/dan-sullivan-mary-peltola-alaska-senate.html?via=rss",
-   "title": "How to Lose Your Party a Senate Seat: Alaska Edition",
-   "summary": "Trying to trick voters isn’t nice. Getting caught trying to trick voters isn’t smart.",
-   "image": "https://compote.slate.com/images/8ae73832-3d41-43ce-a1cf-57de87e132db.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://slate.com/culture/2026/10/noah-wyle-sexiest-man-alive-people-the-pitt-er-controversy.html?via=rss",
-   "title": "People’s New Sexiest Man Alive Is Proving Weirdly Controversial",
-   "summary": "Explaining the ire that some Pitt-heads feel about Noah Wyle.",
-   "image": "https://compote.slate.com/images/39db3627-b191-4e7e-91d8-acb5bba7ce2a.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-   "date": "2026-10-28",
-   "tags": [
-    "Celebrities",
-    "TV"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://slate.com/life/2026/10/jennifer-lawrence-hair-mes-beauty.html?via=rss",
-   "title": "She’s an Oscar Winner. She’s About to Star in a Scorsese Film. I Can’t Figure Out Why She’s Doing … This.",
-   "summary": "Even she seems slightly embarrassed by the whole thing.",
-   "image": "https://compote.slate.com/images/3aea5709-0f11-4e9d-968c-bfd1e73e9468.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-   "date": "2026-10-28",
-   "tags": [
-    "Beauty",
-    "Celebrities"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-amanda-seyfried.html?via=rss",
-   "title": "Everyone in <em>You Can See Everything</em> Is Playing a Character, but Only One Performer Is Utterly Convincing",
-   "summary": "The movie isn’t so much a documentary with a great performance as it is a documentary about performance.",
-   "image": "https://compote.slate.com/images/b6b47c6e-e6bb-40d7-a1f9-e2c3d042d0ef.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-   "date": "2026-10-28",
-   "tags": [
-    "Crime",
-    "Fraud",
-    "Medicine",
-    "Movies",
-    "Documentaries",
-    "You Can See Everything"
-   ],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -360,6 +369,6 @@
  "parser": 3,
  "status": "ok",
  "error": "",
- "etag": "W/\"6f9b-4WAjQMkv72fshqP7jVJdhAg/sFs\"",
+ "etag": "W/\"6d16-fd9SnHAF9LQCZ7Ovse3niDc1y0o\"",
  "modified": ""
 }

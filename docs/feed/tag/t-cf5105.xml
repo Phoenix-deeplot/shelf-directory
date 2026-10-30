@@ -4,8 +4,80 @@
   <title>知树阅读-个人图书空间 · #评论</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-cf5105.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
+  <updated>2026-10-30T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://slate.com/news-and-politics/2026/10/slate-news-quiz-2026-midterms.html?via=rss</id>
+    <title>Think You Know More About the Midterms Than Slate’s Senior Politics Writer? Find Out With This Week’s News Quiz.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/news-and-politics/2026/10/slate-news-quiz-2026-midterms.html?via=rss"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Test your knowledge of this year’s wild midterms races.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Quizzes"/>
+    <category term="Trivia"/>
+    <category term="Slate Games"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/podcasts/what-next-tbd/2026/10/kevin-roose-thinks-a-i-has-arrived?via=rss</id>
+    <title>The First Real A.I. Test</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/podcasts/what-next-tbd/2026/10/kevin-roose-thinks-a-i-has-arrived?via=rss"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">AGI-pilled author Kevin Roose makes the case.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Artificial Intelligence"/>
+    <category term="Stock Market"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-30-2026.html?via=rss</id>
+    <title>Slate Mini Crossword for Oct. 30, 2026</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-30-2026.html?via=rss"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Take a quick break with our daily 5x5 grid.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Mini Crossword"/>
+    <category term="Slate Games"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/life/2026/10/trump-election-ohio-midterm-ice-evangelical.html?via=rss</id>
+    <title>Evangelicals Traveled to Their Country in Record Numbers. Then Trump Said They Were Evil.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/trump-election-ohio-midterm-ice-evangelical.html?via=rss"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">In Ohio, the president’s religious base has been tested—and it’s clear whom it chose.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Donald Trump"/>
+    <category term="Evangelicals"/>
+    <category term="Haiti"/>
+    <category term="Ohio"/>
+    <category term="Religion"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/news-and-politics/2026/10/donald-trump-corruption-constitution-impeachment-fail.html?via=rss</id>
+    <title>Donald Trump Sure Is Corrupt. If Only There Were a Constitutional Remedy for That.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/news-and-politics/2026/10/donald-trump-corruption-constitution-impeachment-fail.html?via=rss"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">The most common ground for impeachment throughout Anglo-American history has been corruption.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Constitution"/>
+    <category term="Donald Trump"/>
+    <category term="Impeachment"/>
+    <category term="Jurisprudence"/>
+    <category term="Try, Try Again?"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
   <entry>
     <id>https://slate.com/news-and-politics/2026/10/2020-election-tuesday-midterms-trump-threats.html?via=rss</id>
     <title>Why There’s a Real Risk of a Replay of the 2020 Election Come Tuesday</title>
@@ -34,17 +106,6 @@
     <category term="Quizzes"/>
     <category term="Trivia"/>
     <category term="Slate Games"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/podcasts/decoder-ring/2026/10/dracula-bram-stoker-iceland-vampires-powers-of-darkness-translation-makt-myrkranna?via=rss</id>
-    <title>Was the Strange, Long-Lost Icelandic Version of &lt;em&gt;Dracula&lt;/em&gt; Written by Bram Stoker Himself?</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/podcasts/decoder-ring/2026/10/dracula-bram-stoker-iceland-vampires-powers-of-darkness-translation-makt-myrkranna?via=rss"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">How a raunchy, proto-fascist Dracula was born in the Nordic North.</summary>
-    <source><title>Slate Magazine</title></source>
     <category term="评论"/>
     <category term="文化"/>
   </entry>
@@ -295,60 +356,6 @@
     <category term="Marriage"/>
     <category term="Religion"/>
     <category term="Podcasts"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/life/2026/10/jennifer-lawrence-hair-mes-beauty.html?via=rss</id>
-    <title>She’s an Oscar Winner. She’s About to Star in a Scorsese Film. I Can’t Figure Out Why She’s Doing … This.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/jennifer-lawrence-hair-mes-beauty.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Even she seems slightly embarrassed by the whole thing.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Beauty"/>
-    <category term="Celebrities"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/culture/2026/10/noah-wyle-sexiest-man-alive-people-the-pitt-er-controversy.html?via=rss</id>
-    <title>People’s New Sexiest Man Alive Is Proving Weirdly Controversial</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/culture/2026/10/noah-wyle-sexiest-man-alive-people-the-pitt-er-controversy.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Explaining the ire that some Pitt-heads feel about Noah Wyle.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Celebrities"/>
-    <category term="TV"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/news-and-politics/2026/10/dan-sullivan-mary-peltola-alaska-senate.html?via=rss</id>
-    <title>How to Lose Your Party a Senate Seat: Alaska Edition</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/news-and-politics/2026/10/dan-sullivan-mary-peltola-alaska-senate.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Trying to trick voters isn’t nice. Getting caught trying to trick voters isn’t smart.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-amanda-seyfried.html?via=rss</id>
-    <title>Everyone in &lt;em&gt;You Can See Everything&lt;/em&gt; Is Playing a Character, but Only One Performer Is Utterly Convincing</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-amanda-seyfried.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">The movie isn’t so much a documentary with a great performance as it is a documentary about performance.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Crime"/>
-    <category term="Fraud"/>
-    <category term="Medicine"/>
-    <category term="Movies"/>
-    <category term="Documentaries"/>
-    <category term="You Can See Everything"/>
     <category term="评论"/>
     <category term="文化"/>
   </entry>

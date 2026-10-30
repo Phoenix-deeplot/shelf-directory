@@ -23,23 +23,6 @@
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/share/6486550.html</id>
-    <title>泡泡玛特与蜜雪冰城：优势还在，为什么海外增长变难了？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486550.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">泡泡玛特2026年Q3美洲市场下降70%至75%，蜜雪冰城海外门店半年净减428家。一个靠潮玩IP风靡全球，一个靠低价供应链开出数万家门店，增长都出现了变化。优势还在，为什么海外增长变难了？ 最近，泡泡玛特公布2026年第三季度业务情况：整体收益同比下降45%至50%，其中，美洲市场下降70%至75%。 而蜜雪冰城的海…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="市场分析"/>
-    <category term="泡泡玛特"/>
-    <category term="消费升级"/>
-    <category term="蜜雪冰城"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
     <id>https://www.woshipm.com/ai/6486774.html</id>
     <title>挖到个宝藏27B开源Code2Video模型！可本地安装，还送MG Skill～</title>
     <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486774.html"/>
@@ -107,6 +90,23 @@
     <category term="商业"/>
   </entry>
   <entry>
+    <id>https://www.woshipm.com/it/6486812.html</id>
+    <title>对话 Google AI 基建负责人：从芯片配比到全球部署，Agent 正在重写数据中心的建设逻辑</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6486812.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">算力的账不能只看 FLOPS。Google AI 基建负责人 Amin Vahdat 谈 TPU 配比、十万卡集群的故障恢复，以及长时程 Agent 如何改写数据中心的供电与冷却，回报要算到任务真完成。 当一家公司的 AI 服务能力需要每六个月翻一倍，买更多芯片只是问题的开始。十万颗加速器组成的集群里，故障随时发生；模…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="业界动态"/>
+    <category term="AI产品"/>
+    <category term="google"/>
+    <category term="TPU"/>
+    <category term="个人观点"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
     <id>https://www.woshipm.com/ai/6486764.html</id>
     <title>学到钉钉们的精髓了？Claude上线逆天功能，帮企业监控员工是否用AI摸鱼</title>
     <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486764.html"/>
@@ -119,23 +119,6 @@
     <category term="Anthropic"/>
     <category term="Claude"/>
     <category term="行业观察"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/it/6486483.html</id>
-    <title>声音直播正在批量制造地下偶像</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6486483.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">有声直播陷入商业化困境，单纯依靠声音和陪伴难以突破。克拉克拉通过CV+广播剧+有声直播的模式，将角色扮演转化为恋人偶像，实现头部主播年流水超千万。本文深度拆解这一案例，探讨声音经济如何从即时陪伴转向情感叙事，为行业寻找新增长方向。 一、有声直播的商业化困境：声音代表什么 人类接收信息共分为六个介质，分别是眼耳口鼻舌触，…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="业界动态"/>
-    <category term="广播剧"/>
-    <category term="情感消费"/>
-    <category term="有声直播"/>
-    <category term="虚拟恋人"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
@@ -157,18 +140,34 @@
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/share/6486839.html</id>
-    <title>Whiplr：一款专攻小众癖好的约会软件</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486839.html"/>
+    <id>https://www.woshipm.com/ai/6486912.html</id>
+    <title>WorkBuddy悄悄上线「手动安装插件」，丝滑操控浏览器</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486912.html"/>
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">当主流社交市场趋于饱和，小众垂直社交还有机会吗？Whiplr 以 BDSM 等多元亲密关系为切入点，通过精细标签、特色互动和差异化付费机制，精准捕获小众群体。本文深度体验其产品设计，并探讨隐私安全与 AI 时代「一人千面」的社交新可能。 《五十度灰》或许算不上电影史上的永恒经典，但它确实让另类亲密关系与情趣话题走进了大…</summary>
+    <summary type="text">Chrome 插件商店不科学上网打不开，Edge 和 QQ 浏览器又都跳回同一个地址。WorkBuddy 上线了手动安装拓展程序：选浏览器、打开本地插件文件夹、把文件夹拖进扩展页面，三步装完。文中还实测了让 Agent 自己找网址、开标签页的过程。 前阵子，WorkBuddy 悄悄上线了「浏览器插件」。 支持在 Chr…</summary>
     <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="Whiplr"/>
+    <category term="AI工具"/>
+    <category term="Chrome"/>
+    <category term="WorkBuddy"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ucd/6486807.html</id>
+    <title>Vibe 技巧：别再只跟 AI 说“弹出弹窗”了！</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ucd/6486807.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">在 Vibe Coding 里，最磨人的往往不是技术门槛，而是说不清自己想要什么。模态对话框、Popover、Toast 各有名字，把模糊的视觉感受换成准确的组件词汇，AI 才能少猜几次，界面也才更像样。 在 Vibe Coding 中，经常出现脑子里是有画面的，但是给 AI 讲了半天，最终做出来个完全不相关的页面，我…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="交互体验"/>
+    <category term="AI编程"/>
+    <category term="Vibe Coding"/>
     <category term="产品分析"/>
-    <category term="会员付费"/>
-    <category term="垂直社交"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
