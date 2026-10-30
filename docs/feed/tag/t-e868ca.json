@@ -1,20 +1,41 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #百科",
+  "title": "知树阅读-个人图书空间 · #百科",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-e868ca.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
     {
-      "id": "https://en.wikipedia.org/wiki/Walter_Koenig",
-      "url": "https://en.wikipedia.org/wiki/Walter_Koenig",
-      "title": "Walter Koenig",
-      "content_text": "第 8 名 · 浏览 18.2 万",
-      "summary": "第 8 名 · 浏览 18.2 万",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://en.wikipedia.org/wiki/VisionQuest",
+      "url": "https://en.wikipedia.org/wiki/VisionQuest",
+      "title": "VisionQuest",
+      "content_text": "第 10 名 · 浏览 13.7 万",
+      "summary": "第 10 名 · 浏览 13.7 万",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "百科",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "维基百科阅读榜（英文）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-wikipedia"
+      }
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Ted_Bundy",
+      "url": "https://en.wikipedia.org/wiki/Ted_Bundy",
+      "title": "Ted Bundy",
+      "content_text": "第 8 名 · 浏览 14.3 万",
+      "summary": "第 8 名 · 浏览 14.3 万",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "百科",
         "热榜"
@@ -33,30 +54,9 @@
       "id": "https://en.wikipedia.org/wiki/Susan_Saint_James",
       "url": "https://en.wikipedia.org/wiki/Susan_Saint_James",
       "title": "Susan Saint James",
-      "content_text": "第 4 名 · 浏览 29.8 万",
-      "summary": "第 4 名 · 浏览 29.8 万",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "百科",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "维基百科阅读榜（英文）"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "hot-wikipedia"
-      }
-    },
-    {
-      "id": "https://en.wikipedia.org/wiki/Harry_Kane",
-      "url": "https://en.wikipedia.org/wiki/Harry_Kane",
-      "title": "Harry Kane",
-      "content_text": "第 3 名 · 浏览 35.9 万",
-      "summary": "第 3 名 · 浏览 35.9 万",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 3 名 · 浏览 20.0 万",
+      "summary": "第 3 名 · 浏览 20.0 万",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "百科",
         "热榜"
@@ -75,9 +75,9 @@
       "id": "https://en.wikipedia.org/wiki/Gadi_Eisenkot",
       "url": "https://en.wikipedia.org/wiki/Gadi_Eisenkot",
       "title": "Gadi Eisenkot",
-      "content_text": "第 9 名 · 浏览 18.0 万",
-      "summary": "第 9 名 · 浏览 18.0 万",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 4 名 · 浏览 18.6 万",
+      "summary": "第 4 名 · 浏览 18.6 万",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "百科",
         "热榜"
@@ -93,12 +93,54 @@
       }
     },
     {
-      "id": "https://en.wikipedia.org/wiki/Eric_Bauza",
-      "url": "https://en.wikipedia.org/wiki/Eric_Bauza",
-      "title": "Eric Bauza",
-      "content_text": "第 10 名 · 浏览 15.7 万",
-      "summary": "第 10 名 · 浏览 15.7 万",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
+      "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
+      "title": "Elizabeth Holmes",
+      "content_text": "第 7 名 · 浏览 14.3 万",
+      "summary": "第 7 名 · 浏览 14.3 万",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "百科",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "维基百科阅读榜（英文）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-wikipedia"
+      }
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+      "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+      "title": "Deaths in 2026",
+      "content_text": "第 9 名 · 浏览 14.2 万",
+      "summary": "第 9 名 · 浏览 14.2 万",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "百科",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "维基百科阅读榜（英文）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-wikipedia"
+      }
+    },
+    {
+      "id": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35",
+      "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35",
+      "title": "Dancing with the Stars (American TV series) season 35",
+      "content_text": "第 5 名 · 浏览 17.3 万",
+      "summary": "第 5 名 · 浏览 17.3 万",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "百科",
         "热榜"
@@ -117,30 +159,9 @@
       "id": "https://en.wikipedia.org/wiki/ChatGPT",
       "url": "https://en.wikipedia.org/wiki/ChatGPT",
       "title": "ChatGPT",
-      "content_text": "第 7 名 · 浏览 18.4 万",
-      "summary": "第 7 名 · 浏览 18.4 万",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "百科",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "维基百科阅读榜（英文）"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "hot-wikipedia"
-      }
-    },
-    {
-      "id": "https://en.wikipedia.org/wiki/Ballon_d'Or",
-      "url": "https://en.wikipedia.org/wiki/Ballon_d'Or",
-      "title": "Ballon d'Or",
-      "content_text": "第 5 名 · 浏览 27.1 万",
-      "summary": "第 5 名 · 浏览 27.1 万",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 6 名 · 浏览 17.2 万",
+      "summary": "第 6 名 · 浏览 17.2 万",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "百科",
         "热榜"
@@ -159,30 +180,9 @@
       "id": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
       "url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
       "title": "2026 Israeli legislative election",
-      "content_text": "第 1 名 · 浏览 43.9 万",
-      "summary": "第 1 名 · 浏览 43.9 万",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "百科",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "维基百科阅读榜（英文）"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "hot-wikipedia"
-      }
-    },
-    {
-      "id": "https://en.wikipedia.org/wiki/2026_Ballon_d'Or",
-      "url": "https://en.wikipedia.org/wiki/2026_Ballon_d'Or",
-      "title": "2026 Ballon d'Or",
-      "content_text": "第 6 名 · 浏览 23.8 万",
-      "summary": "第 6 名 · 浏览 23.8 万",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 1 名 · 浏览 92.6 万",
+      "summary": "第 1 名 · 浏览 92.6 万",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "百科",
         "热榜"
@@ -201,9 +201,9 @@
       "id": "https://en.wikipedia.org/wiki/.xxx",
       "url": "https://en.wikipedia.org/wiki/.xxx",
       "title": ".xxx",
-      "content_text": "第 2 名 · 浏览 36.3 万",
-      "summary": "第 2 名 · 浏览 36.3 万",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 2 名 · 浏览 43.7 万",
+      "summary": "第 2 名 · 浏览 43.7 万",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "百科",
         "热榜"

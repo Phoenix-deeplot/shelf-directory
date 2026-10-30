@@ -1,11 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/shelf/freightwaves-com.xml</id>
-  <title>公共目录 · FreightWaves</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · FreightWaves</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/freightwaves-com.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/fedex-freight-sees-volumes-stabilize-eyes-q4-margin-improvement</id>
+    <title>FedEx Freight sees volumes stabilize, eyes Q4 margin improvement</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/fedex-freight-sees-volumes-stabilize-eyes-q4-margin-improvement"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">FedEx Freight reported Thursday that volumes continue to stabilize, and it anticipates stronger operating leverage next year, bolstered by business wins and an…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="Less than Truckload (LTL)"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="FedEx"/>
+    <category term="FedEx Freight"/>
+    <category term="FedEx Freight spinoff"/>
+    <category term="LTL carriers"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/xpos-pricing-operating-initiatives-drive-q3-beat</id>
+    <title>XPO’s pricing, operating initiatives drive Q3 beat</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/xpos-pricing-operating-initiatives-drive-q3-beat"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Driven by higher volumes and stronger pricing, XPO once again exceeded expectations as these factors continue to amplify the impact of its operational efficienc…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="Less than Truckload (LTL)"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="xpo"/>
+    <category term="Less-than-truckload pricing"/>
+    <category term="LTL carriers"/>
+    <category term="LTL pricing"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/why-container-rates-are-climbing-despite-cooling-demand</id>
+    <title>Why container rates are climbing despite cooling demand</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/why-container-rates-are-climbing-despite-cooling-demand"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Container freight rates climb on major Asia-Europe and trans-Pacific routes despite signs of cooling demand. The post Why container rates are climbing despite c…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="American Shipper"/>
+    <category term="Container Shipping"/>
+    <category term="Maritime"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="Freightos"/>
+    <category term="ocean rates"/>
+    <category term="Port strike"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/what-the-mastio-rankings-actually-tell-shippers</id>
+    <title>What the Mastio Rankings Actually Tell Shippers</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/what-the-mastio-rankings-actually-tell-shippers"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">When a shipper puts an LTL lane out to bid, price is the number everyone can compare in five minutes. Price, however, doesn’t say much about what happens six mo…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Less than Truckload (LTL)"/>
+    <category term="News"/>
+    <category term="Sponsored Insights"/>
+    <category term="LTL"/>
+    <category term="Old Dominion Freight Line"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/u-s-rail-traffic-up-7-8-as-intermodal-leads-gainers</id>
+    <title>U.S. rail traffic up 7.8% as intermodal leads gainers</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/u-s-rail-traffic-up-7-8-as-intermodal-leads-gainers"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">U.S. rail traffic rose in the latest week as gains across eight of 10 carload commodity groups showed broad — but uneven — growth. The post U.S. rail traffic up…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="News"/>
+    <category term="Railroad"/>
+    <category term="Top Stories"/>
+    <category term="carloads"/>
+    <category term="intermodal"/>
+    <category term="railfreight volume"/>
+    <category term="railroads"/>
+    <category term="货运"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/trailer-bridge-appoints-new-ceo</id>
+    <title>Trailer Bridge appoints new CEO</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/trailer-bridge-appoints-new-ceo"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Leading Jones Act carrier Trailer Bridge has appointed a new CEO. The post Trailer Bridge appoints new CEO appeared first on FreightWaves.</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="American Shipper"/>
+    <category term="Maritime"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="container shipping"/>
+    <category term="Jones Act"/>
+    <category term="leadership"/>
+    <category term="Puerto Rico"/>
+  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/scan-global-logistics-to-acquire-oregon-based-oia-global</id>
     <title>Scan Global Logistics to acquire Oregon-based OIA Global</title>
@@ -19,6 +120,170 @@
     <category term="News"/>
     <category term="Top Stories"/>
     <category term="Scan Global Logistics"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/saias-expanded-terminal-network-delivers-record-revenue-tonnage</id>
+    <title>Saia’s expanded terminal network delivers record revenue, tonnage</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/saias-expanded-terminal-network-delivers-record-revenue-tonnage"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Less-than-truckload carrier Saia achieved record revenue and tonnage in the third quarter by leveraging its expanded terminal network, with operational focus no…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="Less than Truckload (LTL)"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="LTL carriers"/>
+    <category term="LTL terminal additions"/>
+    <category term="LTL terminals"/>
+    <category term="LTL tonnage"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/rxos-earnings-still-coming-out-had-solid-profitable-quarter</id>
+    <title>RXO’s earnings still coming out, had solid profitable quarter</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/rxos-earnings-still-coming-out-had-solid-profitable-quarter"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">RXO remains a publicly-traded company as it prepares to be acquired by C.H. Robinson, posting its earnings Thursday that showed mostly positive numbers in all k…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="3PL and Brokerage"/>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="C.H. Robinson"/>
+    <category term="RXO"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/how-transportation-leaders-are-turning-ai-and-connected-data-into-a-competitive-edge</id>
+    <title>How transportation leaders are turning AI and connected data into a competitive edge</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/how-transportation-leaders-are-turning-ai-and-connected-data-into-a-competitive-edge"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">AI is gaining ground in transportation, but are companies actually turning that potential into results? As supply chains face constant disruption, rising expect…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Media"/>
+    <category term="News"/>
+    <category term="White Papers"/>
+    <category term="Blue Yonder"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/kodiak-dtl-75-driverless-trucks</id>
+    <title>Fresno carrier DTL to run 75 Kodiak driverless trucks</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/kodiak-dtl-75-driverless-trucks"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">DTL Transport signed a binding deal to put the Kodiak Driver in 75 trucks it owns and operates, starting on Dallas-El Paso and Dallas-Atlanta lanes Kodiak has t…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Autonomous Vehicles"/>
+    <category term="News"/>
+    <category term="Technology"/>
+    <category term="Trucking"/>
+    <category term="autonomous trucking"/>
+    <category term="Autonomous trucks"/>
+    <category term="driver-as-a-service"/>
+    <category term="driverless trucks"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/florida-trucking-ceo-warns-soaring-diesel-costs-are-squeezing-carrier-profits</id>
+    <title>Florida trucking CEO warns soaring diesel costs are squeezing carrier profits</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/florida-trucking-ceo-warns-soaring-diesel-costs-are-squeezing-carrier-profits"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Florida Trucking Association CEO Scott Perry said rising diesel, insurance and equipment costs are putting mounting financial pressure on motor carriers. The po…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="News"/>
+    <category term="Trucking"/>
+    <category term="diesel"/>
+    <category term="diesel costs"/>
+    <category term="Driver issues"/>
+    <category term="Florida Trucking Association"/>
+    <category term="Fuel costs"/>
+    <category term="Insurance costs"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/first-look-tfi-truckload-sparkles-but-or-at-ltl-slips</id>
+    <title>First look: TFI Truckload sparkles, but OR at LTL slips</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/first-look-tfi-truckload-sparkles-but-or-at-ltl-slips"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">TFI International has tried to get investors to take notice of its Truckload operations, which are substantial but smaller than its more better-known LTL segmen…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="Trucking"/>
+    <category term="TFI International"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/first-look-covenant-logistics-q3-freight-revenue-surges-68</id>
+    <title>First look: Covenant Logistics’ Q3 freight revenue surges 68%</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/first-look-covenant-logistics-q3-freight-revenue-surges-68"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Covenant Logistics Group reported a 19.2% increase in third-quarter revenue to $353.9 million, fueled by rapid growth in its managed freight segment. The post F…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Trucking"/>
+    <category term="Covenant"/>
+    <category term="Covenant Logistics"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/fedex-cashes-in-on-premium-logistics-services-fuel-surcharges</id>
+    <title>FedEx cashes in on premium logistics services, fuel surcharges</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/fedex-cashes-in-on-premium-logistics-services-fuel-surcharges"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">FedEx posted positive third quarter results on volume growth and better pricing and anticipates a strong peak season. The post FedEx cashes in on premium logist…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="American Shipper"/>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="earnings"/>
+    <category term="FedEx"/>
+    <category term="logistics services"/>
+    <category term="parcel carriers"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/cpkc-reports-record-revenue-on-strength-of-grain-and-intermodal-traffic</id>
+    <title>CPKC reports record revenue on strength of grain and intermodal traffic</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/cpkc-reports-record-revenue-on-strength-of-grain-and-intermodal-traffic"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">CPKC turned in record 3Q revenue as the railway set records for domestic and international intermodal volumes, as well as for grain. The post CPKC reports recor…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Railroad"/>
+    <category term="Top Stories"/>
+    <category term="carloads"/>
+    <category term="CPKC"/>
+    <category term="earnings"/>
+    <category term="intermodal"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/amazon-battles-freight-inflation-as-shipping-costs-jump-11-in-q3</id>
+    <title>Amazon battles freight inflation as shipping costs jump 11% in Q3</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/amazon-battles-freight-inflation-as-shipping-costs-jump-11-in-q3"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Amazon's logistics network absorbed higher fuel and linehaul costs in the third-quarter while delivering more than 1.5 billion items same-day or overnight. The…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="E-commerce &amp; Fulfillment"/>
+    <category term="News"/>
+    <category term="Amazon"/>
+    <category term="Amazon Logistics"/>
     <category term="货运"/>
     <category term="数据"/>
   </entry>
@@ -47,6 +312,57 @@
     <category term="FreightWaves TV"/>
     <category term="货运"/>
     <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/9-alleged-mexican-cartel-associates-arrested-in-california-train-theft-ring</id>
+    <title>9 alleged Mexican Cartel associates arrested in California train theft ring</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/9-alleged-mexican-cartel-associates-arrested-in-california-train-theft-ring"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Nine men allegedly connected to Mexico's Sinaloa Cartel were arrested in Southern California as part of a cargo train theft operation. The post 9 alleged Mexica…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="News"/>
+    <category term="Railroad"/>
+    <category term="BNSF"/>
+    <category term="cargo crime"/>
+    <category term="cargo theft"/>
+    <category term="Cartel"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/kenco-survey-shoppers-plan-more-peak-spending</id>
+    <title>43% of shoppers plan to spend more this peak, Kenco finds</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/kenco-survey-shoppers-plan-more-peak-spending"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Kenco's 2026 Peak Season Consumer Report shows holiday budgets rising, with consumers expecting free shipping, two-day delivery and free returns on top The post…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="E-commerce &amp; Fulfillment"/>
+    <category term="Modern Shipper"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="fulfillment"/>
+    <category term="Kenco"/>
+    <category term="Kenco Logistics"/>
+    <category term="Kenco Logistics Services"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/500000-sig-sauer-shipment-stolen-in-fictitious-pickup-two-arrested-in-california</id>
+    <title>$500,000 SIG Sauer shipment stolen in fictitious pickup, two arrested in California</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/500000-sig-sauer-shipment-stolen-in-fictitious-pickup-two-arrested-in-california"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">A shipment worth half a million dollars left a Torrance warehouse under fraudulent circumstances, triggering a cargo theft investigation by Los Angeles County d…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Business"/>
+    <category term="Fraud"/>
+    <category term="Playbook: Cash &amp; Capital"/>
+    <category term="Top Stories"/>
+    <category term="cargo theft"/>
+    <category term="freight fraud"/>
+    <category term="logistics"/>
+    <category term="Trucking"/>
   </entry>
   <entry>
     <id>https://www.freightwaves.com/news/werner-enterprises-sees-cost-headwinds-lingering-into-q1</id>
@@ -274,11 +590,11 @@
     <category term="Company Earnings"/>
     <category term="News"/>
     <category term="Railroad"/>
-    <category term="Top Stories"/>
     <category term="CPKC"/>
     <category term="earnings"/>
     <category term="intermodal"/>
     <category term="railroads"/>
+    <category term="货运"/>
   </entry>
   <entry>
     <id>https://www.freightwaves.com/news/fmcsa-removes-10000-plus-driver-training-providers-amid-safety-push</id>
@@ -408,55 +724,6 @@
     <category term="数据"/>
   </entry>
   <entry>
-    <id>https://www.freightwaves.com/news/the-biggest-shift-in-freight-liability-since-deregulation-is-here-and-few-are-ready-for-it</id>
-    <title>The Biggest Shift In Freight Liability Since Deregulation Is Here, And Few Are Ready For It</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/the-biggest-shift-in-freight-liability-since-deregulation-is-here-and-few-are-ready-for-it"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">The way courts decide who is responsible when a contracted truck ends up in a wreck is changing faster than most of the freight industry realizes, and the shift…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="3PL and Brokerage"/>
-    <category term="F3: Future of Freight Festival"/>
-    <category term="Montgomery vs. Caribe"/>
-    <category term="Nuclear verdicts"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/spartan-carrier-alvys-foundry-ai-agents</id>
-    <title>Spartan’s operators went from AI skeptics to agent builders</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/spartan-carrier-alvys-foundry-ai-agents"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Spartan Carrier Group built its first AI agent for hourly customer reports in a week and a half. Its VP of operations, who calls himself no coder, wants dispatc…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="News"/>
-    <category term="Technology"/>
-    <category term="Top Stories"/>
-    <category term="Trucking"/>
-    <category term="AI agents"/>
-    <category term="AI agents trucking"/>
-    <category term="Alvys"/>
-    <category term="Alvys Foundry"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/police-recover-54k-in-hot-wheels-after-bnsf-freight-train-burglary-in-california</id>
-    <title>Police recover $54K in Hot Wheels after BNSF freight train burglary in California</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/police-recover-54k-in-hot-wheels-after-bnsf-freight-train-burglary-in-california"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">A freight train burglary in Colton, California, ended with one arrest and $54,000 in recovered Hot Wheels. Police released footage of the investigation as quest…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Business"/>
-    <category term="Playbook: Cash &amp; Capital"/>
-    <category term="Railroad"/>
-    <category term="Top Stories"/>
-    <category term="BNSF"/>
-    <category term="California"/>
-    <category term="cargo theft"/>
-    <category term="货运"/>
-  </entry>
-  <entry>
     <id>https://www.freightwaves.com/news/millions-in-stolen-freight-reveal-a-weakness-criminals-keep-exploiting</id>
     <title>Millions in stolen freight reveal a weakness criminals keep exploiting</title>
     <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/millions-in-stolen-freight-reveal-a-weakness-criminals-keep-exploiting"/>
@@ -471,23 +738,6 @@
     <category term="FreightWaves"/>
     <category term="logistics"/>
     <category term="Trucking"/>
-    <category term="货运"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/miami-airport-to-deploy-shared-logistics-platform-for-cargo-community</id>
-    <title>Miami airport to deploy shared logistics platform for cargo community</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/miami-airport-to-deploy-shared-logistics-platform-for-cargo-community"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Miami airport is partnering with Kalé to develop a central data exchange portal for the cargo stakeholders. The post Miami airport to deploy shared logistics pl…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Air Cargo"/>
-    <category term="American Shipper"/>
-    <category term="News"/>
-    <category term="Technology"/>
-    <category term="data exchange"/>
-    <category term="digital supply chain"/>
-    <category term="miami international airport"/>
     <category term="货运"/>
   </entry>
   <entry>
@@ -542,38 +792,6 @@
     <category term="WEX"/>
   </entry>
   <entry>
-    <id>https://www.freightwaves.com/news/federal-guidance-on-carrier-selection-not-around-the-corner-tias-burroughs</id>
-    <title>Federal guidance on carrier selection not around the corner: TIA’s Burroughs</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/federal-guidance-on-carrier-selection-not-around-the-corner-tias-burroughs"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Chattanooga–The Transportation Intermediaries Association (TIA) was quick out of the box earlier this year after two key court decisions that didn’t favor the b…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="3PL and Brokerage"/>
-    <category term="Legal issues"/>
-    <category term="News"/>
-    <category term="Top Stories"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/double-nickel-launches-ai-agent-to-automate-driver-employment-checks</id>
-    <title>Double Nickel launches AI agent to automate driver employment checks</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/double-nickel-launches-ai-agent-to-automate-driver-employment-checks"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Double Nickel has launched an artificial intelligence agent to automate employment verifications for trucking companies, targeting a time-consuming part of driv…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="News"/>
-    <category term="Technology"/>
-    <category term="AI"/>
-    <category term="Double Nickel"/>
-    <category term="FreightWaves"/>
-    <category term="logistics"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
     <id>https://www.freightwaves.com/news/diesel-is-breaking-records-while-gasoline-stays-cheap-and-the-reason-is-not-what-most-truckers-think</id>
     <title>Diesel Is Breaking Records While Gasoline Stays Cheap, And The Reason Is Not What Most Truckers Think</title>
     <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/diesel-is-breaking-records-while-gasoline-stays-cheap-and-the-reason-is-not-what-most-truckers-think"/>
@@ -585,23 +803,6 @@
     <category term="Fleet and Maintenance"/>
     <category term="Market Conditions"/>
     <category term="Playbook: Fuel Game Plan"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/band24-seeks-early-testers-for-satellite-connected-asset-tracker-ahead-of-nov-13-deadline</id>
-    <title>Band24 seeks early testers for satellite-connected asset tracker ahead of Nov. 13 deadline</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/band24-seeks-early-testers-for-satellite-connected-asset-tracker-ahead-of-nov-13-deadline"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Asset-tracking company Band24 is seeking businesses to test Terra, a new tracker combining Bluetooth, cellular and satellite connectivity, ahead of a Nov. 13 de…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="News"/>
-    <category term="Technology"/>
-    <category term="Band24"/>
-    <category term="Freight"/>
-    <category term="FreightWaves"/>
-    <category term="logistics"/>
     <category term="货运"/>
     <category term="数据"/>
   </entry>
@@ -621,206 +822,5 @@
     <category term="FreightTech 100"/>
     <category term="FreightTech awards"/>
     <category term="FreightWaves"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/u-s-postal-service-prepared-for-peak-season-surge</id>
-    <title>U.S. Postal Service prepared for peak season surge</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/u-s-postal-service-prepared-for-peak-season-surge"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">The U.S. Postal Service says it has the proper staffing levels and systems in place to keep packages moving for the holidays. The post U.S. Postal Service prepa…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="News"/>
-    <category term="Parcel Freight"/>
-    <category term="PostalMag"/>
-    <category term="e-commerce"/>
-    <category term="Parcel delivery"/>
-    <category term="peak season"/>
-    <category term="U.S. Postal Service"/>
-    <category term="USPS"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/trucking-needs-more-than-a-choice-between-diesel-and-ev-trucks</id>
-    <title>Trucking Needs More Than a Choice Between Diesel and EV Trucks</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/trucking-needs-more-than-a-choice-between-diesel-and-ev-trucks"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">This Range Energy whitepaper compares different ways fleets can cut diesel use. The evaluated options: do nothing, purchase an electric tractor, or purchase a R…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Media"/>
-    <category term="News"/>
-    <category term="White Papers"/>
-    <category term="Range Energy"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/shipbuilding-central-to-new-us-denmark-maritime-pact</id>
-    <title>Shipbuilding central to new US-Denmark maritime pact</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/shipbuilding-central-to-new-us-denmark-maritime-pact"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">The United States and Denmark signed a maritime agreement to bolster American shipbuilding through workforce training, Danish investment and technology sharing.…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="American Shipper"/>
-    <category term="Business"/>
-    <category term="Infrastructure"/>
-    <category term="Maritime"/>
-    <category term="News"/>
-    <category term="Top Stories"/>
-    <category term="container shipping"/>
-    <category term="Denmark"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/new-conundrum-asia-us-europe-ocean-rates-diverge</id>
-    <title>New ‘conundrum’: Asia-US, Europe ocean rates diverge</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/new-conundrum-asia-us-europe-ocean-rates-diverge"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Container rates on the busiest U.S. trade lanes are signaling a peak while a return to the Red Sea has yet to weaken Europe rates. The post New ‘conundrum’: Asi…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="American Shipper"/>
-    <category term="Container Shipping"/>
-    <category term="Maritime"/>
-    <category term="News"/>
-    <category term="Top Stories"/>
-    <category term="ocean rates"/>
-    <category term="Red Sea"/>
-    <category term="trans-Pacific"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/mexican-truckers-launch-national-strike-over-highway-security-rising-costs</id>
-    <title>Mexican truckers launch national strike over highway security, rising costs</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/mexican-truckers-launch-national-strike-over-highway-security-rising-costs"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Mexican truckers launched a nationwide strike Monday with protests planned in major freight hubs that could disrupt commercial traffic and cross-border supply c…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Borderlands: Mexico"/>
-    <category term="News"/>
-    <category term="Trucking"/>
-    <category term="CANACAR"/>
-    <category term="Protest"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/japan-airlines-hires-b747-cargo-carriers-to-meet-high-tech-demand</id>
-    <title>Japan Airlines hires B747 cargo carriers to meet high-tech demand</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/japan-airlines-hires-b747-cargo-carriers-to-meet-high-tech-demand"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Japan Airlines is adding more dedicated, long-haul cargo capacity by outsourcing flying to airlines with large freighter aircraft. The post Japan Airlines hires…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Air Cargo"/>
-    <category term="American Shipper"/>
-    <category term="News"/>
-    <category term="AI"/>
-    <category term="Artificial intelligence"/>
-    <category term="Atlas Air"/>
-    <category term="Japan Airlines"/>
-    <category term="nippon express"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/fedex-taps-autozone-executive-to-be-finance-chief</id>
-    <title>FedEx taps AutoZone executive to be finance chief</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/fedex-taps-autozone-executive-to-be-finance-chief"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">FedEx has named a retail executive to be its next CFO. The post FedEx taps AutoZone executive to be finance chief appeared first on FreightWaves.</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="American Shipper"/>
-    <category term="News"/>
-    <category term="Parcel Freight"/>
-    <category term="Top Stories"/>
-    <category term="CFO"/>
-    <category term="FedEx"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/fmcsas-elison-addresses-motus-again-still-no-date-on-full-repair</id>
-    <title>FMCSA’s Elison addresses Motus again, still no date on full repair</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/fmcsas-elison-addresses-motus-again-still-no-date-on-full-repair"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Chattanooga–It hasn’t been that long–less than a month–since Jesse Elison spoke to an industry event and addressed the issue of the beleaguered new Motus regist…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="News"/>
-    <category term="Top Stories"/>
-    <category term="Trucking"/>
-    <category term="Trucking Regulation"/>
-    <category term="Broker transparency"/>
-    <category term="Motus registration system"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/dsv-3q-profit-rises-19-5-as-schenker-integration-lifts-earnings</id>
-    <title>DSV 3Q profit rises 19.5% as Schenker integration lifts earnings</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/dsv-3q-profit-rises-19-5-as-schenker-integration-lifts-earnings"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">DSV’s third-quarter operating profit improved as the Schenker integration savings boosted earnings, offsetting weakness in its trucking division. The post DSV 3…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Company Earnings"/>
-    <category term="Finance"/>
-    <category term="Logistics/Supply Chains"/>
-    <category term="News"/>
-    <category term="Top Stories"/>
-    <category term="trucking"/>
-    <category term="D.B. Schenker"/>
-    <category term="DSV"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/completing-the-capacity-stack</id>
-    <title>Completing the Capacity Stack</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/completing-the-capacity-stack"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">123Loadboard and Direct Freight are combining two independent freight marketplaces so brokers can close capacity gaps and carriers can find better-matched freig…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Business"/>
-    <category term="News"/>
-    <category term="Sponsored Insights"/>
-    <category term="Technology"/>
-    <category term="123Loadboard"/>
-    <category term="brokers"/>
-    <category term="Capacity"/>
-    <category term="capacity radar"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/australia-post-ceo-to-retire-as-financial-challenges-continue</id>
-    <title>Australia Post CEO to retire as financial challenges continue</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/australia-post-ceo-to-retire-as-financial-challenges-continue"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">CEO Paul Graham has spent five years working to reform Australia Post, but is leaving the job soon to someone else to complete. The post Australia Post CEO to r…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="American Shipper"/>
-    <category term="Parcel Freight"/>
-    <category term="PostalMag"/>
-    <category term="Australia Post"/>
-    <category term="CEO"/>
-    <category term="ecommerce"/>
-    <category term="Parcel delivery"/>
-    <category term="货运"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/ai-air-freight-drives-kuehnenagel-profit-increase</id>
-    <title>AI air freight drives Kuehne+Nagel profit increase</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/ai-air-freight-drives-kuehnenagel-profit-increase"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Logistics behemoth Kuehne+Nagel reported strong results in the third quarter, powered by hyperscaler demand for air cargo and productivity gains. The post AI ai…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Air Cargo"/>
-    <category term="American Shipper"/>
-    <category term="Company Earnings"/>
-    <category term="News"/>
-    <category term="AI"/>
-    <category term="earnings"/>
-    <category term="Kuehne+Nagel"/>
-    <category term="货运"/>
   </entry>
 </feed>

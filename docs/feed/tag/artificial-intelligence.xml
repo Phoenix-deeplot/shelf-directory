@@ -1,27 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/artificial-intelligence.xml</id>
-  <title>公共目录 · #Artificial intelligence</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · #Artificial Intelligence</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/artificial-intelligence.xml"/>
-  <updated>2026-10-26T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-29T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://www.freightwaves.com/news/japan-airlines-hires-b747-cargo-carriers-to-meet-high-tech-demand</id>
-    <title>Japan Airlines hires B747 cargo carriers to meet high-tech demand</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/japan-airlines-hires-b747-cargo-carriers-to-meet-high-tech-demand"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Japan Airlines is adding more dedicated, long-haul cargo capacity by outsourcing flying to airlines with large freighter aircraft. The post Japan Airlines hires…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Air Cargo"/>
-    <category term="American Shipper"/>
-    <category term="News"/>
-    <category term="AI"/>
-    <category term="Artificial intelligence"/>
-    <category term="Atlas Air"/>
-    <category term="Japan Airlines"/>
-    <category term="nippon express"/>
+    <id>https://slate.com/technology/2026/10/draco-malfoid-harry-potter-meme.html?via=rss</id>
+    <title>The U.S. Department of Education Posted an Incel Meme. It Gets Worse From There.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/technology/2026/10/draco-malfoid-harry-potter-meme.html?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">The right has finally found a gender swap they can get behind.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Artificial Intelligence"/>
+    <category term="Department of Education"/>
+    <category term="Harry Potter"/>
+    <category term="Internet"/>
+    <category term="Social Media"/>
+    <category term="Memes"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/podcasts/political-gabfest/2026/10/politics-midterm-polls-senate-races-and-what-to-expect-tuesday?via=rss</id>
+    <title>Polls Inch Toward Democrats, and Voters Worry More About Corruption</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/podcasts/political-gabfest/2026/10/politics-midterm-polls-senate-races-and-what-to-expect-tuesday?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Money keeps flowing toward ruby red turf as races enter the margin of error. Whether Democrats squeak by or win big will shape the story after Tuesday.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Artificial Intelligence"/>
+    <category term="Israel"/>
+    <category term="2026 Midterms"/>
+    <category term="评论"/>
+    <category term="文化"/>
   </entry>
   <entry>
     <id>https://www.openculture.com/2026/10/doctor-whos-tom-baker-plays-douglas-adams.html</id>

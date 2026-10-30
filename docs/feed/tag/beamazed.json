@@ -1,21 +1,44 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #BeAmazed",
+  "title": "知树阅读-个人图书空间 · #BeAmazed",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/beamazed.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
     {
-      "id": "https://www.reddit.com/r/BeAmazed/comments/1xhsbof/time_lapse_of_pregnancy/",
-      "url": "https://www.reddit.com/r/BeAmazed/comments/1xhsbof/time_lapse_of_pregnancy/",
-      "title": "Time Lapse of Pregnancy",
-      "content_text": "submitted by /u/No-Razzmatazz6225 to r/BeAmazed [link] [comments]",
-      "summary": "submitted by /u/No-Razzmatazz6225 to r/BeAmazed [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://external-preview.redd.it/N2hiMXV2ZzdmOHloMfXqrsvL6kumWXPn10gxack3C_P3mfMCxwzhf8O5XVgU.png?width=640&crop=smart&auto=webp&s=a1808d68165bd1df8d5191b33cfa204155ca7955",
+      "id": "https://www.reddit.com/r/BeAmazed/comments/1xipc3j/crows_leaving_bread_on_a_balcony_because_they/",
+      "url": "https://www.reddit.com/r/BeAmazed/comments/1xipc3j/crows_leaving_bread_on_a_balcony_because_they/",
+      "title": "Crows leaving bread on a balcony because they think their human friend has run out of food is a remarkable display of intelligence",
+      "content_text": "Just goes to show how intelligent crows are and how much they notice about us. submitted by /u/MambaMentality24x2 to r/BeAmazed [link] [comments]",
+      "summary": "Just goes to show how intelligent crows are and how much they notice about us. submitted by /u/MambaMentality24x2 to r/BeAmazed [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://preview.redd.it/y7wqt63krfyh1.jpeg?width=640&crop=smart&auto=webp&s=580cd2774156b55d2fa2d0236d5b4a5c2ea5cb2f",
+      "tags": [
+        "BeAmazed",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/BeAmazed/comments/1xii9mx/argentinian_reporter_stops_live_broadcast_to_save/",
+      "url": "https://www.reddit.com/r/BeAmazed/comments/1xii9mx/argentinian_reporter_stops_live_broadcast_to_save/",
+      "title": "Argentinian reporter stops live broadcast to save a dog being swept away by flood waters",
+      "content_text": "submitted by /u/Separate_Finance_183 to r/BeAmazed [link] [comments]",
+      "summary": "submitted by /u/Separate_Finance_183 to r/BeAmazed [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://external-preview.redd.it/Yzl2OHVrNXhkZXloMbOADkaUJovw5f4CkplQJVLDDQXSE2LmqgfzpSUlrnmT.png?width=640&crop=smart&auto=webp&s=93ce06af22ba9060da21cd7fc7d99a4614f188db",
       "tags": [
         "BeAmazed",
         "社区",

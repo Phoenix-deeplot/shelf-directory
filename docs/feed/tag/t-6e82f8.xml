@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/t-6e82f8.xml</id>
-  <title>公共目录 · #文化</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · #文化</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-6e82f8.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.openculture.com/2026/10/watch-150-classic-horror-and-suspense-films-free-online.html</id>
+    <title>Watch 150 Classic Horror and Suspense Films Free Online: Nosferatu, The Cabinet of Dr. Caligari, Carnival of Souls, Night of the Living Dead…</title>
+    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/watch-150-classic-horror-and-suspense-films-free-online.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">﻿ From roughly the mid-nineteen-fifties through the mid-nineteen-seventies, the availability of airtime on American television stations exceeded their capacity…</summary>
+    <source><title>Open Culture</title></source>
+    <category term="Film"/>
+    <category term="文化"/>
+    <category term="免费资源"/>
+  </entry>
   <entry>
     <id>https://slate.com/news-and-politics/2026/10/trivia-quiz-daily-slate-science-vitamins-geology-evolution.html?via=rss</id>
     <title>What Is Defined Scientifically as a Force Multiplied by a Time Divided by an Area?</title>
@@ -32,6 +44,23 @@
     <category term="文化"/>
   </entry>
   <entry>
+    <id>https://slate.com/technology/2026/10/draco-malfoid-harry-potter-meme.html?via=rss</id>
+    <title>The U.S. Department of Education Posted an Incel Meme. It Gets Worse From There.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/technology/2026/10/draco-malfoid-harry-potter-meme.html?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">The right has finally found a gender swap they can get behind.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Artificial Intelligence"/>
+    <category term="Department of Education"/>
+    <category term="Harry Potter"/>
+    <category term="Internet"/>
+    <category term="Social Media"/>
+    <category term="Memes"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
     <id>https://slate.com/podcasts/what-next/2026/10/will-the-new-epstein-release-force-the-doj-to-investigate?via=rss</id>
     <title>The Next Epstein Files</title>
     <link rel="alternate" type="text/html" href="https://slate.com/podcasts/what-next/2026/10/will-the-new-epstein-release-force-the-doj-to-investigate?via=rss"/>
@@ -41,6 +70,32 @@
     <source><title>Slate Magazine</title></source>
     <category term="Department of Justice"/>
     <category term="Donald Trump"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/life/2026/10/slate-soundbites-for-october-29-2026.html?via=rss</id>
+    <title>Slate SoundBites for October 29, 2026</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/slate-soundbites-for-october-29-2026.html?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Build your answer from the sound up with our new game, SoundBites!</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Slate Games"/>
+    <category term="SoundBites"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/life/2026/10/word-game-slate-pears-441-for-october-29-2026.html?via=rss</id>
+    <title>Slate Pears Game 441: Oct. 29, 2026</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/word-game-slate-pears-441-for-october-29-2026.html?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Today's puzzle has five pears.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Slate Games"/>
+    <category term="Pears"/>
     <category term="评论"/>
     <category term="文化"/>
   </entry>
@@ -58,6 +113,49 @@
     <category term="文化"/>
   </entry>
   <entry>
+    <id>https://slate.com/life/2026/10/crossword-slate-daily-puzzle-oct-29-2026.html?via=rss</id>
+    <title>Slate Crossword: Articles You Might Be Inclined to Write? (Five Letters)</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/crossword-slate-daily-puzzle-oct-29-2026.html?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Ready for some wordplay? Sharpen your skills with Slate’s puzzle for Oct. 29, 2026.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Slate Games"/>
+    <category term="Crossword"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/podcasts/political-gabfest/2026/10/politics-midterm-polls-senate-races-and-what-to-expect-tuesday?via=rss</id>
+    <title>Polls Inch Toward Democrats, and Voters Worry More About Corruption</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/podcasts/political-gabfest/2026/10/politics-midterm-polls-senate-races-and-what-to-expect-tuesday?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Money keeps flowing toward ruby red turf as races enter the margin of error. Whether Democrats squeak by or win big will shape the story after Tuesday.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Artificial Intelligence"/>
+    <category term="Israel"/>
+    <category term="2026 Midterms"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/life/2026/10/easy-homemade-halloween-treats-recipes-for-kids.html?via=rss</id>
+    <title>Parents Colluded With Corporations to Kill a Beloved Halloween Tradition. I Think It’s Time We Raise It From the Grave.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/easy-homemade-halloween-treats-recipes-for-kids.html?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">I’m haunted by the memory of what this holiday could be.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Cooking"/>
+    <category term="Food"/>
+    <category term="Halloween"/>
+    <category term="Holidays"/>
+    <category term="Kids"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
     <id>https://slate.com/news-and-politics/2026/10/senate-race-pappas-sununu-new-hampshire.html?via=rss</id>
     <title>My State’s Democratic Candidate Has Zero Rizz. He Could Decide Control of the Senate. Good!</title>
     <link rel="alternate" type="text/html" href="https://slate.com/news-and-politics/2026/10/senate-race-pappas-sununu-new-hampshire.html?via=rss"/>
@@ -70,6 +168,128 @@
     <category term="Senate"/>
     <category term="New Hampshire"/>
     <category term="2026 Midterms"/>
+    <category term="2026 Midterms Highlights"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/advice/2026/10/parenting-advice-religious-grandma-time-out.html?via=rss</id>
+    <title>My Mother-in-Law Destroyed a Toy to Protect Our Family From the Devil. I Want to Put Her in Time Out.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/parenting-advice-religious-grandma-time-out.html?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">I miss my Ouija Board.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Advice"/>
+    <category term="Family"/>
+    <category term="Kids"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/news-and-politics/2026/10/midterms-2026-democrats-senate-kansas-nebraska-south-carolina-florida-mississippi.html?via=rss</id>
+    <title>It’s Democrats’ Dream Senate Scenario. The Polls Say It’s Not Impossible.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/news-and-politics/2026/10/midterms-2026-democrats-senate-kansas-nebraska-south-carolina-florida-mississippi.html?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Even in deep-red states, Democrats and Republicans are running neck and neck in Senate races.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/advice/2026/10/parent-advice-coworker-baby-name-work.html?via=rss</id>
+    <title>I Told My Co-Worker My Baby’s Soon-to-Be Name. I Was Not Expecting That Reaction.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/parent-advice-coworker-baby-name-work.html?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Now I'm really worried.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Advice"/>
+    <category term="Workplace"/>
+    <category term="Jobs"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/advice/2026/10/parenting-advice-two-daughters-one-dad.html?via=rss</id>
+    <title>I Have Two 9-Year-Olds by Two Different Women. Now the Whole Thing is About to Blow Up.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/parenting-advice-two-daughters-one-dad.html?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">I don't think I'm ready.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Advice"/>
+    <category term="Family"/>
+    <category term="Kids"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/advice/2026/10/dear-prudence-chat-perfect-relationship-bad-detective.html?via=rss</id>
+    <title>I Discovered a Secret That Broke Up My Sister’s “Perfect” Relationship. Turns Out I’m Not So Good a Detective.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/dear-prudence-chat-perfect-relationship-bad-detective.html?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Prudie says: “Do mental gymnastics to find meaning and erase any possible conflict!”</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Advice"/>
+    <category term="Dear Prudence"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/advice/2026/10/dear-prudence-special-talent-retirement-community.html?via=rss</id>
+    <title>I Brought a Special Talent to My Retirement Community. I Had No Idea Sharing It Could Turn Out So Badly.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/dear-prudence-special-talent-retirement-community.html?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">I know I’m skilled, but leave me alone!</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Advice"/>
+    <category term="Dear Prudence"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/advice/2026/10/sex-advice-texting-friend-boyfriend-flirting.html?via=rss</id>
+    <title>I Accidentally Sent a Risqué Text to the Wrong Person. That’s Not Even What My Boyfriend’s Upset About.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/sex-advice-texting-friend-boyfriend-flirting.html?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">I'm mortified.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Advice"/>
+    <category term="Sex"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/advice/2026/10/work-advice-boss-email-technology-confidential.html?via=rss</id>
+    <title>Every Morning, My Boss Gives Us an Unfiltered Look Into His Email Inbox. I’ve Seen Things I Shouldn’t Have.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/work-advice-boss-email-technology-confidential.html?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Someone needs to stop this.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Advice"/>
+    <category term="Workplace"/>
+    <category term="Jobs"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/life/2026/10/hillsong-carl-lentz-laura-cheating-affair-book.html?via=rss</id>
+    <title>America’s Most Famous Pastor Just Revealed How He Treats His Wife. It Tells Us Something About Evangelicals.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/hillsong-carl-lentz-laura-cheating-affair-book.html?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">It’s a sad, old trick.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Books"/>
+    <category term="Marriage"/>
+    <category term="Religion"/>
+    <category term="Podcasts"/>
     <category term="评论"/>
     <category term="文化"/>
   </entry>
@@ -103,100 +323,6 @@
     <category term="免费资源"/>
   </entry>
   <entry>
-    <id>https://slate.com/news-and-politics/2026/10/trivia-quiz-daily-slate-history-war-assassination-attempts-us-supreme-court.html?via=rss</id>
-    <title>Which Two Kingdoms Engaged in the Hundred Years’ War?</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/news-and-politics/2026/10/trivia-quiz-daily-slate-history-war-assassination-attempts-us-supreme-court.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Test your wits on the Slate Quiz for Oct. 28, 2026.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Quizzes"/>
-    <category term="Trivia"/>
-    <category term="Slate Games"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/advice/2026/10/sex-advice-swinging-marriage-first-time.html?via=rss</id>
-    <title>We’ve Done All the Work to Open Up Our Marriage. But There’s One Last Risk We’re Worried About.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/sex-advice-swinging-marriage-first-time.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">We have all our other bases covered.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Advice"/>
-    <category term="Sex"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/advice/2026/10/sex-advice-house-renovation-bathroom.html?via=rss</id>
-    <title>We Want to Renovate Our House to Make It … Sex Friendly. We Foresee It’ll Become an Issue.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/sex-advice-house-renovation-bathroom.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">We miss doing it like this.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Advice"/>
-    <category term="Sex"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/business/2026/10/home-ownership-regret-interest-rates-renting-vs-buying.html?via=rss</id>
-    <title>We Bought a House. We Had Help From My Husband’s Parents. It Was One of the Biggest Mistakes We’ve Ever Made.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/business/2026/10/home-ownership-regret-interest-rates-renting-vs-buying.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">We gave up what makes life meaningful in order to do it.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Economy"/>
-    <category term="Housing"/>
-    <category term="Personal Finance"/>
-    <category term="Millennials"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/life/2026/10/slate-soundbites-for-october-28-2026.html?via=rss</id>
-    <title>Slate SoundBites for October 28, 2026</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/slate-soundbites-for-october-28-2026.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Build your answer from the sound up with our new game, SoundBites!</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Slate Games"/>
-    <category term="SoundBites"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/life/2026/10/word-game-slate-pears-440-for-october-28-2026.html?via=rss</id>
-    <title>Slate Pears Game 440: Oct. 28, 2026</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/word-game-slate-pears-440-for-october-28-2026.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Today's puzzle has seven pears.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Slate Games"/>
-    <category term="Pears"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/life/2026/10/crossword-slate-daily-puzzle-oct-28-2026.html?via=rss</id>
-    <title>Slate Crossword: Attempted to Take a Seat? (Three Letters)</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/crossword-slate-daily-puzzle-oct-28-2026.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Ready for some wordplay? Sharpen your skills with Slate’s puzzle for Oct. 28, 2026.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Slate Games"/>
-    <category term="Crossword"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
     <id>https://slate.com/life/2026/10/jennifer-lawrence-hair-mes-beauty.html?via=rss</id>
     <title>She’s an Oscar Winner. She’s About to Star in a Scorsese Film. I Can’t Figure Out Why She’s Doing … This.</title>
     <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/jennifer-lawrence-hair-mes-beauty.html?via=rss"/>
@@ -223,93 +349,6 @@
     <category term="文化"/>
   </entry>
   <entry>
-    <id>https://slate.com/advice/2026/10/parenting-advice-thanksgiving-opt-out.html?via=rss</id>
-    <title>My Son Wants to Opt Out of Family Thanksgiving. He’s 12!</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/parenting-advice-thanksgiving-opt-out.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">I want him with us.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Advice"/>
-    <category term="Family"/>
-    <category term="Kids"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/advice/2026/10/money-advice-husband-resents-move.html?via=rss</id>
-    <title>My Mom Saved Us After My Husband’s Job Loss. He Can’t Forgive Her.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/money-advice-husband-resents-move.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">It's not my mom's fault.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Advice"/>
-    <category term="Family"/>
-    <category term="Personal Finance"/>
-    <category term="Real Estate"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/technology/2026/10/facebook-meta-rebrand-five-years.html?via=rss</id>
-    <title>Mark Zuckerberg Has Made a Lot of Awful Decisions. One of His Most Infamous Was Probably His Smartest.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/technology/2026/10/facebook-meta-rebrand-five-years.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Facebook’s rebrand may have placed the company in a better position for what came after—even if the legless avatars never came to life.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Facebook"/>
-    <category term="Mark Zuckerberg"/>
-    <category term="Social Media"/>
-    <category term="Virtual Reality"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/advice/2026/10/money-advice-expensive-halloween-decor.html?via=rss</id>
-    <title>I’m Cutting My Brother Off Over His Elaborate Halloween Decor</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/money-advice-expensive-halloween-decor.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">This is outrageous.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Advice"/>
-    <category term="Family"/>
-    <category term="Personal Finance"/>
-    <category term="Real Estate"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/news-and-politics/2026/10/israeli-election-netanyahu-outcome-palestine-safety.html?via=rss</id>
-    <title>I Wanted to Understand What Israelis Think of This Election. What I Learned Was Chilling.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/news-and-politics/2026/10/israeli-election-netanyahu-outcome-palestine-safety.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Israelis are waiting on the results of a historic election. But their priorities are more revealing than their votes.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Elections"/>
-    <category term="Israel"/>
-    <category term="Palestine"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/advice/2026/10/parenting-advice-pills-on-floor.html?via=rss</id>
-    <title>I See My Husband’s “Messy” Habit Very Differently Now That We Have a Kid</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/parenting-advice-pills-on-floor.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Our baby could get seriously hurt.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Advice"/>
-    <category term="Family"/>
-    <category term="Kids"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
     <id>https://slate.com/news-and-politics/2026/10/dan-sullivan-mary-peltola-alaska-senate.html?via=rss</id>
     <title>How to Lose Your Party a Senate Seat: Alaska Edition</title>
     <link rel="alternate" type="text/html" href="https://slate.com/news-and-politics/2026/10/dan-sullivan-mary-peltola-alaska-senate.html?via=rss"/>
@@ -317,34 +356,6 @@
     <published>2026-10-28T00:00:00Z</published>
     <summary type="text">Trying to trick voters isn’t nice. Getting caught trying to trick voters isn’t smart.</summary>
     <source><title>Slate Magazine</title></source>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/advice/2026/10/family-advice-pregnancy-grandparents-child-care.html?via=rss</id>
-    <title>Help! Our Expecting Daughter-in-Law Just Made an Eye-Popping “Announcement.”</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/family-advice-pregnancy-grandparents-child-care.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">I'm judging them.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Advice"/>
-    <category term="Dear Prudence"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/advice/2026/10/family-advice-friends-reaching-out.html?via=rss</id>
-    <title>Help! I Ran a Two-Week Experiment on My Family and Friends. The Results Stung.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/family-advice-friends-reaching-out.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">I'm not sure they even care.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Advice"/>
-    <category term="Dear Prudence"/>
-    <category term="Family"/>
-    <category term="Friendship"/>
     <category term="评论"/>
     <category term="文化"/>
   </entry>
@@ -504,18 +515,6 @@
     <source><title>Open Culture</title></source>
     <category term="History"/>
     <category term="Technology"/>
-    <category term="文化"/>
-    <category term="免费资源"/>
-  </entry>
-  <entry>
-    <id>https://www.openculture.com/2026/10/how-clare-torry-made-gig-in-the-sky-great.html</id>
-    <title>Hear How Clare Torry’s Vocals on Pink Floyd’s “The Great Gig in the Sky” Made the Song Go from Pretty Good to Downright Great</title>
-    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/how-clare-torry-made-gig-in-the-sky-great.html"/>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <published>2026-10-20T00:00:00Z</published>
-    <summary type="text">Smack in the middle of Pink Floyd’s classic Dark Side of the Moon sits a song many listeners may hear as an extended bridge between the two true centerpieces, “…</summary>
-    <source><title>Open Culture</title></source>
-    <category term="Music"/>
     <category term="文化"/>
     <category term="免费资源"/>
   </entry>

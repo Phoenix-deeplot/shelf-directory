@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/weekly.xml</id>
-  <title>公共目录 · #Weekly</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · #Weekly</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/weekly.xml"/>
-  <updated>2026-10-23T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>http://www.ruanyifeng.com/blog/2026/10/weekly-issue-417.html</id>
+    <title>科技爱好者周刊（第 417 期）：不要让 AI 代表你</title>
+    <link rel="alternate" type="text/html" href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-417.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 四川宜宾市的青少年发展中心，建筑中庭的透光屋顶象征一个万花筒，会有不断变化的日光效果。（via） 不要让 AI 代表你 现在，不少人让 AI…</summary>
+    <source><title>阮一峰的网络日志</title></source>
+    <category term="Weekly"/>
+    <category term="科技"/>
+    <category term="周刊"/>
+  </entry>
   <entry>
     <id>http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html</id>
     <title>科技爱好者周刊（第 416 期）：编程已经面目全非</title>
@@ -61,18 +73,6 @@
     <updated>2026-09-11T00:00:00Z</updated>
     <published>2026-09-11T00:00:00Z</published>
     <summary type="text">这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面 上海前滩太古里举办的"英雄联盟15周年"展览。（via） 禁止 issue，只用 PR 上周，PHP 框架 Laravel 宣布了一个新规定：…</summary>
-    <source><title>阮一峰的网络日志</title></source>
-    <category term="Weekly"/>
-    <category term="科技"/>
-    <category term="周刊"/>
-  </entry>
-  <entry>
-    <id>http://www.ruanyifeng.com/blog/2026/09/weekly-issue-411.html</id>
-    <title>科技爱好者周刊（第 411 期）：OpenClaw 2.0 是一个缩影</title>
-    <link rel="alternate" type="text/html" href="http://www.ruanyifeng.com/blog/2026/09/weekly-issue-411.html"/>
-    <updated>2026-09-04T00:00:00Z</updated>
-    <published>2026-09-04T00:00:00Z</published>
-    <summary type="text">这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 宁夏西夏陵使用金属网，将残片还原成石像生。（via） OpenClaw 2.0 是一个缩影 本周，OpenClaw 发布了2.0版。 是不是…</summary>
     <source><title>阮一峰的网络日志</title></source>
     <category term="Weekly"/>
     <category term="科技"/>

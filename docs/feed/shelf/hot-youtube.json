@@ -1,21 +1,21 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · YouTube 热门 · US",
+  "title": "知树阅读-个人图书空间 · YouTube 热门 · US",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/shelf/hot-youtube.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
     {
-      "id": "https://www.youtube.com/watch?v=vZc8L3CAEtk",
-      "url": "https://www.youtube.com/watch?v=vZc8L3CAEtk",
-      "title": "🔴LIVE | ARC RAIDERS | DRAC X KONA | ALL OUT WARFARE | WACKADOODLE WEDNESDAY | #BUNGULATE",
-      "content_text": "第 6 名 · 观看 97.2 万 · TheBurntPeanut",
-      "summary": "第 6 名 · 观看 97.2 万 · TheBurntPeanut",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://i.ytimg.com/vi/vZc8L3CAEtk/mqdefault.jpg",
+      "id": "https://www.youtube.com/watch?v=vPssxrTbnmM",
+      "url": "https://www.youtube.com/watch?v=vPssxrTbnmM",
+      "title": "R.E.P.O. SUNSTONE UPDATE | Launch Trailer",
+      "content_text": "第 8 名 · 观看 44.6 万 · semiwork — Detailed Patch Notes: https://store.steampowered.com/news/app/3241660/view/672883630592236353 Get the game here: https://store.st…",
+      "summary": "第 8 名 · 观看 44.6 万 · semiwork — Detailed Patch Notes: https://store.steampowered.com/news/app/3241660/view/672883630592236353 Get the game here: https://store.st…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://i.ytimg.com/vi/vPssxrTbnmM/mqdefault.jpg",
       "tags": [
         "视频",
         "热榜"
@@ -31,13 +31,13 @@
       }
     },
     {
-      "id": "https://www.youtube.com/watch?v=ae9Xvl-eln8",
-      "url": "https://www.youtube.com/watch?v=ae9Xvl-eln8",
-      "title": "XLOV 'Hush' MV",
-      "content_text": "第 7 名 · 观看 82.1 万 · XLOV — XLOV 엑스러브 3rd MINI ALBUM [i=!] XLOV Official X (Twitter) https://x.com/XLOV_official XLOV Official TikTok https://www.tiktok.com/@xlo…",
-      "summary": "第 7 名 · 观看 82.1 万 · XLOV — XLOV 엑스러브 3rd MINI ALBUM [i=!] XLOV Official X (Twitter) https://x.com/XLOV_official XLOV Official TikTok https://www.tiktok.com/@xlo…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://i.ytimg.com/vi/ae9Xvl-eln8/mqdefault.jpg",
+      "id": "https://www.youtube.com/watch?v=gI2tyTGvFag",
+      "url": "https://www.youtube.com/watch?v=gI2tyTGvFag",
+      "title": "Overwatch Animated Short | “In the Wolf's Mouth”",
+      "content_text": "第 6 名 · 观看 92.0 万 · PlayOverwatch — It’s Doomfist vs. Vendetta in the final confrontation for control of Talon. After a year of shifting loyalties and ruthless…",
+      "summary": "第 6 名 · 观看 92.0 万 · PlayOverwatch — It’s Doomfist vs. Vendetta in the final confrontation for control of Talon. After a year of shifting loyalties and ruthless…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://i.ytimg.com/vi/gI2tyTGvFag/mqdefault.jpg",
       "tags": [
         "视频",
         "热榜"
@@ -53,13 +53,13 @@
       }
     },
     {
-      "id": "https://www.youtube.com/watch?v=0XNxSdtqtCI",
-      "url": "https://www.youtube.com/watch?v=0XNxSdtqtCI",
-      "title": "Ringleader",
-      "content_text": "第 10 名 · 观看 20.1 万 · Helluva Boss - Topic — Provided to YouTube by Atlantic Records Ringleader · Helluva Boss · Alex Brightman Helluva Boss: Season Three, Part…",
-      "summary": "第 10 名 · 观看 20.1 万 · Helluva Boss - Topic — Provided to YouTube by Atlantic Records Ringleader · Helluva Boss · Alex Brightman Helluva Boss: Season Three, Part…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://i.ytimg.com/vi/0XNxSdtqtCI/mqdefault.jpg",
+      "id": "https://www.youtube.com/watch?v=BpJikRTDqdk",
+      "url": "https://www.youtube.com/watch?v=BpJikRTDqdk",
+      "title": "My Chemical Romance & Lauren Tsai - Prelude to The End (An Animated Short Film)",
+      "content_text": "第 4 名 · 观看 34.0 万 · My Chemical Romance — My Chemical Romance & Lauren Tsai - Prelude to The End (An Animated Short Film) Directed by Lauren Tsai An UNREAL INC.…",
+      "summary": "第 4 名 · 观看 34.0 万 · My Chemical Romance — My Chemical Romance & Lauren Tsai - Prelude to The End (An Animated Short Film) Directed by Lauren Tsai An UNREAL INC.…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://i.ytimg.com/vi/BpJikRTDqdk/mqdefault.jpg",
       "tags": [
         "视频",
         "热榜"
@@ -75,13 +75,13 @@
       }
     },
     {
-      "id": "https://www.youtube.com/watch?v=KuRYRhP6kag",
-      "url": "https://www.youtube.com/watch?v=KuRYRhP6kag",
-      "title": "Pride and Prejudice | Official Trailer | Netflix",
-      "content_text": "第 5 名 · 观看 72.7 万 · Netflix — \"It is a truth universally acknowledged...\" From the pages of Jane Austen's beloved novel comes a six-part adaptation on love, lon…",
-      "summary": "第 5 名 · 观看 72.7 万 · Netflix — \"It is a truth universally acknowledged...\" From the pages of Jane Austen's beloved novel comes a six-part adaptation on love, lon…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://i.ytimg.com/vi/KuRYRhP6kag/mqdefault.jpg",
+      "id": "https://www.youtube.com/watch?v=Pksr9T8m_aA",
+      "url": "https://www.youtube.com/watch?v=Pksr9T8m_aA",
+      "title": "JISOO - ADDICTED (Official MV)",
+      "content_text": "第 1 名 · 观看 338.8 万 · JISOO — JISOO Official 📱 / https://www.jisoo.app https://www.youtube.com/@sooyaaa__ https://www.instagram.com/sooyaaa__ https://www.tiktok.…",
+      "summary": "第 1 名 · 观看 338.8 万 · JISOO — JISOO Official 📱 / https://www.jisoo.app https://www.youtube.com/@sooyaaa__ https://www.instagram.com/sooyaaa__ https://www.tiktok.…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://i.ytimg.com/vi/Pksr9T8m_aA/mqdefault.jpg",
       "tags": [
         "视频",
         "热榜"
@@ -97,13 +97,13 @@
       }
     },
     {
-      "id": "https://www.youtube.com/watch?v=rCxNRV9gdzo",
-      "url": "https://www.youtube.com/watch?v=rCxNRV9gdzo",
-      "title": "Myriad Celestia Trailer: Fables About the Stars Part 3 | Honkai: Star Rail",
-      "content_text": "第 8 名 · 观看 33.3 万 · Honkai: Star Rail — The horn to hunt the Voracity has sounded! After a long Amber Era, the gods converge once more. THEY present a farce to…",
-      "summary": "第 8 名 · 观看 33.3 万 · Honkai: Star Rail — The horn to hunt the Voracity has sounded! After a long Amber Era, the gods converge once more. THEY present a farce to…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://i.ytimg.com/vi/rCxNRV9gdzo/mqdefault.jpg",
+      "id": "https://www.youtube.com/watch?v=C0Z3iKSkXOA",
+      "url": "https://www.youtube.com/watch?v=C0Z3iKSkXOA",
+      "title": "Here You Come, There You Go",
+      "content_text": "第 10 名 · 观看 13.2 万 · Gracie Abrams - Topic — Provided to YouTube by Universal Music Group Here You Come, There You Go · Gracie Abrams Here You Come, There You G…",
+      "summary": "第 10 名 · 观看 13.2 万 · Gracie Abrams - Topic — Provided to YouTube by Universal Music Group Here You Come, There You Go · Gracie Abrams Here You Come, There You G…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://i.ytimg.com/vi/C0Z3iKSkXOA/mqdefault.jpg",
       "tags": [
         "视频",
         "热榜"
@@ -119,13 +119,13 @@
       }
     },
     {
-      "id": "https://www.youtube.com/watch?v=hzpuL0g_E7E",
-      "url": "https://www.youtube.com/watch?v=hzpuL0g_E7E",
-      "title": "LYON vs IG | WORLDS 2026 | Swiss Stage Day 5",
-      "content_text": "第 9 名 · 观看 225.2 万 · LoL Esports — THIS IS OUR MOMENT Worlds 2026 returns to North America for a month of international competition across 3 locations. The Play…",
-      "summary": "第 9 名 · 观看 225.2 万 · LoL Esports — THIS IS OUR MOMENT Worlds 2026 returns to North America for a month of international competition across 3 locations. The Play…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://i.ytimg.com/vi/hzpuL0g_E7E/mqdefault.jpg",
+      "id": "https://www.youtube.com/watch?v=yPm9yiBDA2s",
+      "url": "https://www.youtube.com/watch?v=yPm9yiBDA2s",
+      "title": "Foogiano - Halfway In [Official Music Video]",
+      "content_text": "第 7 名 · 观看 10.9 万 · Foogiano — Foogiano - Halfway In Download/Stream: [LINKFIRE] Subscribe for more official content from Foogiano: https://foogiano.lnk.to/Yout…",
+      "summary": "第 7 名 · 观看 10.9 万 · Foogiano — Foogiano - Halfway In Download/Stream: [LINKFIRE] Subscribe for more official content from Foogiano: https://foogiano.lnk.to/Yout…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://i.ytimg.com/vi/yPm9yiBDA2s/mqdefault.jpg",
       "tags": [
         "视频",
         "热榜"
@@ -141,13 +141,13 @@
       }
     },
     {
-      "id": "https://www.youtube.com/watch?v=ZRTYqleaQMY",
-      "url": "https://www.youtube.com/watch?v=ZRTYqleaQMY",
-      "title": "Jarahn - Maski Lo Luv (Audio) feat. BMT",
-      "content_text": "第 1 名 · 观看 6.9 万 · Jarahn — Official Audio for “Maski Lo Luv” by Jarahn ​⁠ and BMT.​⁠ Written by Jarahn, BMT & Daddy Ticks. Produced, mixed and Mastered by Jara…",
-      "summary": "第 1 名 · 观看 6.9 万 · Jarahn — Official Audio for “Maski Lo Luv” by Jarahn ​⁠ and BMT.​⁠ Written by Jarahn, BMT & Daddy Ticks. Produced, mixed and Mastered by Jara…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://i.ytimg.com/vi/ZRTYqleaQMY/mqdefault.jpg",
+      "id": "https://www.youtube.com/watch?v=Sd5SQ40sCoI",
+      "url": "https://www.youtube.com/watch?v=Sd5SQ40sCoI",
+      "title": "Dream Needs To Stop Lying",
+      "content_text": "第 9 名 · 观看 114.4 万 · Karl Jobst — Play IdleOn on Steam: https://store.steampowered.com/app/1476970?utm_source=youtube&utm_campaign=CloverTalent Play IdleOn on i…",
+      "summary": "第 9 名 · 观看 114.4 万 · Karl Jobst — Play IdleOn on Steam: https://store.steampowered.com/app/1476970?utm_source=youtube&utm_campaign=CloverTalent Play IdleOn on i…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://i.ytimg.com/vi/Sd5SQ40sCoI/mqdefault.jpg",
       "tags": [
         "视频",
         "热榜"
@@ -163,13 +163,13 @@
       }
     },
     {
-      "id": "https://www.youtube.com/watch?v=RNeNdrH40WE",
-      "url": "https://www.youtube.com/watch?v=RNeNdrH40WE",
-      "title": "In This Card Game... Everyone Cheats",
-      "content_text": "第 3 名 · 观看 156.5 万 · SMii7Y — UNO has gone way off the deep end... Cheater's Table is insane. MERCH Available now! https://smii7y.store/ Use code S7 on Gamer Su…",
-      "summary": "第 3 名 · 观看 156.5 万 · SMii7Y — UNO has gone way off the deep end... Cheater's Table is insane. MERCH Available now! https://smii7y.store/ Use code S7 on Gamer Su…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://i.ytimg.com/vi/RNeNdrH40WE/mqdefault.jpg",
+      "id": "https://www.youtube.com/watch?v=1t2HMUuiMpE",
+      "url": "https://www.youtube.com/watch?v=1t2HMUuiMpE",
+      "title": "BLG vs TES | WORLDS 2026 | Swiss Stage Day 6",
+      "content_text": "第 3 名 · 观看 171.1 万 · LoL Esports — THIS IS OUR MOMENT Worlds 2026 returns to North America for a month of international competition across 3 locations. The Play…",
+      "summary": "第 3 名 · 观看 171.1 万 · LoL Esports — THIS IS OUR MOMENT Worlds 2026 returns to North America for a month of international competition across 3 locations. The Play…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://i.ytimg.com/vi/1t2HMUuiMpE/mqdefault.jpg",
       "tags": [
         "视频",
         "热榜"
@@ -185,13 +185,13 @@
       }
     },
     {
-      "id": "https://www.youtube.com/watch?v=vIlB8h93eIw",
-      "url": "https://www.youtube.com/watch?v=vIlB8h93eIw",
-      "title": "El Piloto y Su Estilo - San Judas Tadeo (Video Oficial)",
-      "content_text": "第 4 名 · 观看 21.4 万 · El piloto y su estilo — #ElPilotoysuEstilo #SanJudasTadeo #Suscribete Contrataciones: 6671261284 Síganos en las Redes Sociales: https://www.…",
-      "summary": "第 4 名 · 观看 21.4 万 · El piloto y su estilo — #ElPilotoysuEstilo #SanJudasTadeo #Suscribete Contrataciones: 6671261284 Síganos en las Redes Sociales: https://www.…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://i.ytimg.com/vi/vIlB8h93eIw/mqdefault.jpg",
+      "id": "https://www.youtube.com/watch?v=yQ9LVy4DR9U",
+      "url": "https://www.youtube.com/watch?v=yQ9LVy4DR9U",
+      "title": "Apex Legends: Cipher Gameplay Trailer",
+      "content_text": "第 2 名 · 观看 50.2 万 · Apex Legends — In this Arena, the deadliest weapon isn’t a gun, it’s information. Hack the fight and gather essential intel for your squad w…",
+      "summary": "第 2 名 · 观看 50.2 万 · Apex Legends — In this Arena, the deadliest weapon isn’t a gun, it’s information. Hack the fight and gather essential intel for your squad w…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://i.ytimg.com/vi/yQ9LVy4DR9U/mqdefault.jpg",
       "tags": [
         "视频",
         "热榜"
@@ -207,13 +207,13 @@
       }
     },
     {
-      "id": "https://www.youtube.com/watch?v=uJqaGLmZpGo",
-      "url": "https://www.youtube.com/watch?v=uJqaGLmZpGo",
-      "title": "Dune: Part Three | Final Trailer",
-      "content_text": "第 2 名 · 观看 1657.7 万 · Warner Bros. — Do not fear the end. Dune: Part Three only in theaters and IMAX December 18. Tickets on sale now around the world. http://f…",
-      "summary": "第 2 名 · 观看 1657.7 万 · Warner Bros. — Do not fear the end. Dune: Part Three only in theaters and IMAX December 18. Tickets on sale now around the world. http://f…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://i.ytimg.com/vi/uJqaGLmZpGo/mqdefault.jpg",
+      "id": "https://www.youtube.com/watch?v=MGMZKJCCaW8",
+      "url": "https://www.youtube.com/watch?v=MGMZKJCCaW8",
+      "title": "'Eagle's Shadow' Update Trailer / War Thunder",
+      "content_text": "第 5 名 · 观看 26.4 万 · War Thunder. Official channel. — The next major update for War Thunder — 'Eagle's Shadow'! 🔘 Site: http://warthunder.com/ 🔘 Twitch: https://…",
+      "summary": "第 5 名 · 观看 26.4 万 · War Thunder. Official channel. — The next major update for War Thunder — 'Eagle's Shadow'! 🔘 Site: http://warthunder.com/ 🔘 Twitch: https://…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://i.ytimg.com/vi/MGMZKJCCaW8/mqdefault.jpg",
       "tags": [
         "视频",
         "热榜"

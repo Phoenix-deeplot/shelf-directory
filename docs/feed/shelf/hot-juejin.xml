@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/shelf/hot-juejin.xml</id>
-  <title>公共目录 · 掘金热榜</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · 掘金热榜</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/hot-juejin.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
   <entry>
     <id>https://juejin.cn/post/7701269925755846671</id>
     <title>程序员 1v1 访谈系列第八期：大龄女程序员的困境</title>
     <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701269925755846671"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 10 名 · 热度 333 · 双越AI_club</summary>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 9 名 · 热度 441 · 双越AI_club</summary>
     <source><title>掘金热榜</title></source>
     <category term="热榜"/>
     <category term="技术"/>
@@ -21,20 +21,20 @@
     <id>https://juejin.cn/post/7701316033940865058</id>
     <title>我买的电视，我还不能研究它吗？</title>
     <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701316033940865058"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 7 名 · 热度 468 · 程序员_小雨</summary>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 7 名 · 热度 657 · 程序员_小雨</summary>
     <source><title>掘金热榜</title></source>
     <category term="热榜"/>
     <category term="技术"/>
   </entry>
   <entry>
-    <id>https://juejin.cn/post/7700803425820049434</id>
-    <title>尤雨溪 : Vue 4 已经在规划中了！</title>
-    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7700803425820049434"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 3 名 · 热度 1872 · 程序员海军</summary>
+    <id>https://juejin.cn/post/7701870817483259958</id>
+    <title>史诗级封号收入</title>
+    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701870817483259958"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 8 名 · 热度 585 · stormzhangV</summary>
     <source><title>掘金热榜</title></source>
     <category term="热榜"/>
     <category term="技术"/>
@@ -43,31 +43,31 @@
     <id>https://juejin.cn/post/7701290557268951066</id>
     <title>删了一个没用的 console.log，生产环境直接崩了!</title>
     <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701290557268951066"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 6 名 · 热度 765 · ErpanOmer</summary>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 6 名 · 热度 1017 · ErpanOmer</summary>
     <source><title>掘金热榜</title></source>
     <category term="热榜"/>
     <category term="技术"/>
   </entry>
   <entry>
-    <id>https://juejin.cn/post/7700887980139036682</id>
-    <title>出事了，AI 提效后，老板让我裁员20%</title>
-    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7700887980139036682"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 5 名 · 热度 774 · 乘风gg</summary>
+    <id>https://juejin.cn/post/7701250481567039528</id>
+    <title>ValidX vs 正则表达式：可读性与维护性对比</title>
+    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701250481567039528"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 4 名 · 热度 2106 · vipxieliang</summary>
     <source><title>掘金热榜</title></source>
     <category term="热榜"/>
     <category term="技术"/>
   </entry>
   <entry>
-    <id>https://juejin.cn/post/7700887980140429322</id>
-    <title>Three.js 医院三维大屏实战：Codex + Blender MCP + React 从建模到交互全流程</title>
-    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7700887980140429322"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 8 名 · 热度 423 · 夏天要喝冰可乐</summary>
+    <id>https://juejin.cn/post/7701971738456752162</id>
+    <title>Service Mesh 可观测性：分布式追踪、指标与日志的统一方案</title>
+    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701971738456752162"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 5 名 · 热度 1989 · vipxieliang</summary>
     <source><title>掘金热榜</title></source>
     <category term="热榜"/>
     <category term="技术"/>
@@ -76,9 +76,9 @@
     <id>https://juejin.cn/post/7701269657706315811</id>
     <title>Python 面向对象编程：类、继承、多态与组合</title>
     <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701269657706315811"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 1 名 · 热度 5454 · vipxieliang</summary>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 1 名 · 热度 5616 · vipxieliang</summary>
     <source><title>掘金热榜</title></source>
     <category term="热榜"/>
     <category term="技术"/>
@@ -87,9 +87,20 @@
     <id>https://juejin.cn/post/7701591870955012111</id>
     <title>PHP Swoole 协程模型详解：协程与线程/进程、调度、常驻内存及与 Go goroutine 的异同</title>
     <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701591870955012111"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 9 名 · 热度 360 · vipxieliang</summary>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 2 名 · 热度 4608 · vipxieliang</summary>
+    <source><title>掘金热榜</title></source>
+    <category term="热榜"/>
+    <category term="技术"/>
+  </entry>
+  <entry>
+    <id>https://juejin.cn/post/7701352628311392297</id>
+    <title>GPT-6.1 Terra上线：更便宜了，干活到底怎么样？</title>
+    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701352628311392297"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 10 名 · 热度 432 · 老金带你玩AI</summary>
     <source><title>掘金热榜</title></source>
     <category term="热榜"/>
     <category term="技术"/>
@@ -98,20 +109,9 @@
     <id>https://juejin.cn/post/7701541249069383706</id>
     <title>Deepseek v5 来了</title>
     <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701541249069383706"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 2 名 · 热度 2223 · 码事漫谈</summary>
-    <source><title>掘金热榜</title></source>
-    <category term="热榜"/>
-    <category term="技术"/>
-  </entry>
-  <entry>
-    <id>https://juejin.cn/post/7700627964494168106</id>
-    <title>AI 越强，失业越严重</title>
-    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7700627964494168106"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 4 名 · 热度 945 · stormzhangV</summary>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 3 名 · 热度 3771 · 码事漫谈</summary>
     <source><title>掘金热榜</title></source>
     <category term="热榜"/>
     <category term="技术"/>

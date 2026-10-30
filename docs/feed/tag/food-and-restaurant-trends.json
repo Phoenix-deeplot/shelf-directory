@@ -1,0 +1,57 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #Food and Restaurant Trends",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/food-and-restaurant-trends.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.eater.com/trends/996747/food-fashion-print-trend",
+      "url": "https://www.eater.com/trends/996747/food-fashion-print-trend",
+      "title": "Food-Themed Fashion Is Starting to Feel Gluttonous",
+      "content_text": "There was a time, not too long ago, when a purse shaped like a baguette felt like a thrilling — even subversive — novelty. Now, we hardly bat an eye when we see…",
+      "summary": "There was a time, not too long ago, when a purse shaped like a baguette felt like a thrilling — even subversive — novelty. Now, we hardly bat an eye when we see…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "Food and Restaurant Trends",
+        "美食",
+        "餐饮"
+      ],
+      "authors": [
+        {
+          "name": "Eater"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "eater-com"
+      }
+    },
+    {
+      "id": "https://www.eater.com/trends/993640/tavern-style-pizza-thin-crust-trend-chicago-midwest",
+      "url": "https://www.eater.com/trends/993640/tavern-style-pizza-thin-crust-trend-chicago-midwest",
+      "title": "The ‘Tavern-Style’ Pizza Takeover",
+      "content_text": "In the suburbs of Chicago where they both grew up, it was just pizza, according to Brittany and Brennan Grosvenor, the couple behind Proof in Portland, Oregon.…",
+      "summary": "In the suburbs of Chicago where they both grew up, it was just pizza, according to Brittany and Brennan Grosvenor, the couple behind Proof in Portland, Oregon.…",
+      "date_published": "2026-10-20T00:00:00Z",
+      "tags": [
+        "Dining Out",
+        "Food and Restaurant Trends",
+        "美食",
+        "餐饮"
+      ],
+      "authors": [
+        {
+          "name": "Eater"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "eater-com"
+      }
+    }
+  ]
+}

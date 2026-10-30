@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/gear-deals.xml</id>
-  <title>公共目录 · #Gear / Deals</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · #Gear / Deals</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/gear-deals.xml"/>
   <updated>2026-10-29T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <author><name>知树阅读-个人图书空间</name></author>
   <entry>
     <id>https://www.wired.com/story/skullcandy-discount-code/</id>
     <title>Skullcandy Discount Code: 30% Off | November 2026</title>
@@ -45,6 +45,36 @@
     <category term="Gear"/>
     <category term="Gear / Deals"/>
     <category term="Coupons"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/petkit-sale-october-2026/</id>
+    <title>Petkit Automatic Cat Litter Box Sale (2026)</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/petkit-sale-october-2026/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">As WIRED’s resident pet tech tester, I have lots of opinions on what’s worth your money. Petkit’s automatic litter boxes are my top picks—and my favorite models…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Gear / Products / Home"/>
+    <category term="Cat’s Meow"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/nothing-cmf-deals-october-2026/</id>
+    <title>Nothing Headphones Sale: Stylish and Up to 41% Off</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/nothing-cmf-deals-october-2026/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Some of the brand’s best styles, including the Nothing Headphone (1) and CMF Headphone Pro, are at the lowest prices I’ve ever seen ahead of Black Friday.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Gear / Products / Audio"/>
+    <category term="Nothing to See Here"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>
@@ -105,6 +135,21 @@
     <category term="社会"/>
   </entry>
   <entry>
+    <id>https://www.wired.com/story/ridge-wallet-deal-october-2026/</id>
+    <title>Go Minimal—the Ridge Wallet is 20 Percent Off Right Now</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/ridge-wallet-deal-october-2026/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">The popular Ridge Wallet lives up to the hype and is on sale, along with other Ridge gear. Plus, you can try it risk-free for 99 days.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Gear / Products / Lifestyle"/>
+    <category term="Stack It Up"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
     <id>https://www.wired.com/story/dermstore-promo-code/</id>
     <title>Dermstore Coupons: 25% Off for November 2026</title>
     <link rel="alternate" type="text/html" href="https://www.wired.com/story/dermstore-promo-code/"/>
@@ -149,48 +194,6 @@
     <category term="社会"/>
   </entry>
   <entry>
-    <id>https://www.wired.com/story/paramount-plus-coupon-code/</id>
-    <title>Paramount+ Coupon Codes and Deals for 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/paramount-plus-coupon-code/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/google-workspace-promo-code/</id>
-    <title>Google Workspace Promo Codes: 14% Off for October 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/google-workspace-promo-code/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Boost your productivity and save with exclusive Google Workspace coupons from WIRED. Get up to 14% off plans for three months, including Starter, Standard, and…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/disney-plus-discounts/</id>
-    <title>Disney Plus Discount Codes: 52% Off October 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/disney-plus-discounts/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Cut your subscription costs with the latest active Disney+ bundle deals, verified student offers, and partner promotions.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
     <id>https://www.wired.com/story/apple-airpods-max-2-deal-november-2026/</id>
     <title>Apple AirPods Max 2 Are $100 Off Ahead of Black Friday</title>
     <link rel="alternate" type="text/html" href="https://www.wired.com/story/apple-airpods-max-2-deal-november-2026/"/>
@@ -202,35 +205,6 @@
     <category term="Gear / Deals"/>
     <category term="Gear / Products / Headphones"/>
     <category term="Sound Investment"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/motorola-razr-deal-october-2026/</id>
-    <title>Motorola Deal: Get a Free Smartwatch and Earbuds When You Buy a Razr</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/motorola-razr-deal-october-2026/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">The Razr is our favorite budget foldable phone. While it isn’t on sale yet, Motorola is adding extras to sweeten this October deal.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Gear / Products / Phones"/>
-    <category term="Razr Xtra"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/everblog-homecal-deal-october-2026/</id>
-    <title>Best Skylight Calendar Alternative on Sale: Save $100 on Everblog HomeCal (2026)</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/everblog-homecal-deal-october-2026/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">The Everblog HomeCal delivers a similar experience, including a digital photo frame and meal planning at no extra cost.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Sync or Swim"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>

@@ -1,0 +1,65 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #E-commerce & Fulfillment",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/e-commerce-fulfillment.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/amazon-battles-freight-inflation-as-shipping-costs-jump-11-in-q3",
+      "url": "https://www.freightwaves.com/news/amazon-battles-freight-inflation-as-shipping-costs-jump-11-in-q3",
+      "title": "Amazon battles freight inflation as shipping costs jump 11% in Q3",
+      "content_text": "Amazon's logistics network absorbed higher fuel and linehaul costs in the third-quarter while delivering more than 1.5 billion items same-day or overnight. The…",
+      "summary": "Amazon's logistics network absorbed higher fuel and linehaul costs in the third-quarter while delivering more than 1.5 billion items same-day or overnight. The…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "E-commerce & Fulfillment",
+        "News",
+        "Amazon",
+        "Amazon Logistics",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/kenco-survey-shoppers-plan-more-peak-spending",
+      "url": "https://www.freightwaves.com/news/kenco-survey-shoppers-plan-more-peak-spending",
+      "title": "43% of shoppers plan to spend more this peak, Kenco finds",
+      "content_text": "Kenco's 2026 Peak Season Consumer Report shows holiday budgets rising, with consumers expecting free shipping, two-day delivery and free returns on top The post…",
+      "summary": "Kenco's 2026 Peak Season Consumer Report shows holiday budgets rising, with consumers expecting free shipping, two-day delivery and free returns on top The post…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "E-commerce & Fulfillment",
+        "Modern Shipper",
+        "News",
+        "Top Stories",
+        "fulfillment",
+        "Kenco",
+        "Kenco Logistics",
+        "Kenco Logistics Services"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}

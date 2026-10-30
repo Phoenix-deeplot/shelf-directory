@@ -1,274 +1,249 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/t-f18813.xml</id>
-  <title>公共目录 · #热榜</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · #热榜</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-f18813.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://www.reddit.com/r/interesting/comments/1xiafkr/mexico_upgraded_to_free_health_care/</id>
-    <title>Mexico upgraded to free health care!</title>
-    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/interesting/comments/1xiafkr/mexico_upgraded_to_free_health_care/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">submitted by /u/Negative_1by12_aura to r/interesting [link] [comments]</summary>
-    <source><title>top scoring links : popular</title></source>
-    <category term="interesting"/>
-    <category term="社区"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.reddit.com/r/oddlysatisfying/comments/1xi52mh/mesmerizing_process/</id>
-    <title>Mesmerizing Process</title>
-    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/oddlysatisfying/comments/1xi52mh/mesmerizing_process/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">submitted by /u/Alternative-Dot-34 to r/oddlysatisfying [link] [comments]</summary>
-    <source><title>top scoring links : popular</title></source>
-    <category term="oddlysatisfying"/>
-    <category term="社区"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.reddit.com/r/news/comments/1xi6a2i/details_of_thousands_of_us_immigration_agents/</id>
-    <title>Details of thousands of US immigration agents leaked in major hack</title>
-    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/news/comments/1xi6a2i/details_of_thousands_of_us_immigration_agents/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">submitted by /u/zmayes to r/news [link] [comments]</summary>
-    <source><title>top scoring links : popular</title></source>
-    <category term="news"/>
-    <category term="社区"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.zhihu.com/question/2098771415411291576</id>
-    <title>科普书出现「双头虾」图片，出版社称正在下架召回，为何出现如此明显错误？科普类出版该限制 AI 配图吗？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098771415411291576"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 3 名 · 375 万热度 · 83 回答 · 164 关注 — 近日，有网友在社交平台指出，《南海海洋生物科普丛书》中有“双头虾”的错误图片，引发关注。 有读者在社交平台反映，其购入中国农业出版社出版发行的《南海海洋生物科普丛书》，丛书序言表示，本套丛书里绝大多数图片由AI绘图工具生成。但其发现丛书的绘图中出现了…</summary>
+    <id>https://www.zhihu.com/question/2099258545564643597</id>
+    <title>谷歌美股开盘大跌超13%，创历史最大单日跌幅，总市值蒸发5000亿美元，为啥会这样？还会持续下跌吗？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099258545564643597"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 6 名 · 391 万热度 · 151 回答 · 513 关注 — 10月29日消息，谷歌母公司Alphabet美股开盘大跌，现将跌幅扩大至13%，创其历史上最大单日跌幅，报283美元，市值较前一交易日收盘减少逾5000亿美元。谷歌盘初大跌超13% 创其历史上最大单日跌幅，总市值蒸发5000亿美元</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2098804738414399591</id>
-    <title>江苏一医生被曝用「豆包」查药，患者家属因此拒绝其开具处方，你看诊时能接受医生使用 AI 工具吗？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098804738414399591"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 7 名 · 217 万热度 · 38 回答 · 62 关注 — 看到医生查AI，你能接受吗？近日，江苏一医生被曝用“豆包”开药，患者家属因此拒绝其开具处方，涉事医院回应称，当时医生在查询新药是否适合患者使用，发现不适合就没开。对此，有人觉得，医生靠AI查药不专业，有人认为，不过是换了个工具查资料。说到底，问题其实落…</summary>
+    <id>https://www.zhihu.com/question/458627547</id>
+    <title>菜鸟驿站为什么那么多转让的？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/458627547"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 4 名 · 410 万热度 · 785 回答 · 3651 关注</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2098700998789304471</id>
-    <title>媒体曝撒尿牛肉味丸原料多为鸡脖泥，牛肉味纯靠牛肉膏，这类速冻肉丸存在哪些食品安全隐患？这算违法吗？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098700998789304471"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 4 名 · 333 万热度 · 75 回答 · 158 关注 — 近日，闪电新闻记者在河南多地暗访发现，多家食品公司专门收购鸡脖、剔除胸肉后的鸡骨架，加工成“肉泥”后卖给下游食品企业，用于制作烤肠、丸子乃至水饺。有涉事厂家负责人在镜头前坦言，“馅类的产品，少吃”。‌ 河南省漯河市被誉为“食品名城”，烤肠等肉制品产量…</summary>
+    <id>https://www.zhihu.com/question/2099465313452389327</id>
+    <title>校方通报「学生摆拍大体老师头骨」一事，涉事学生被处分并取消年度评优资格，如何看待学校的处理？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099465313452389327"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 5 名 · 393 万热度 · 150 回答 · 218 关注 — 10月29日，长沙民政职业技术学院医学院发布情况通报： 10月14日，我院一名2026级新生在解剖实验课后，对大体老师头骨标本进行摆拍并在朋友圈发布，造成不良影响。学校对此行为坚决零容忍，已对涉事学生进行批评教育，给予校纪处分，取消年度评优评先资格…</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2099062244881295182</id>
-    <title>姆巴佩恐面临天文数字赔偿，分析称潜在商业损失至少1亿美元，这是怎么算出来的？他会自此失去中国市场吗？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099062244881295182"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 1 名 · 2253 万热度 · 476 回答 · 888 关注 — 近日，法国球星姆巴佩因访谈中的涉华不当言论，引发中国球迷强烈不满。事发后，商业端的连锁反应快速显现。 10月27日，蒙牛、东鹏饮料及旗下电解质饮料品牌补水啦、妙可蓝多等企业先后发布声明，宣布即日起终止与姆巴佩的全部合作，均明确表示对伤害民族感情的…</summary>
+    <id>https://www.zhihu.com/question/2099167053160760200</id>
+    <title>小伙因亲人少怕婚礼冷清邀网友喝喜酒，近 200 人从全国各地赴宴，有人送冰箱有人带整猪，如何看待此事？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099167053160760200"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 9 名 · 372 万热度 · 68 回答 · 217 关注 — 近日，云南昭通一名男子的婚礼邀约引发关注。博主讲述：“在我3岁的时候，爸爸就因病逝世了，妈妈在我5岁时就改嫁了，剩下一个唯一的长辈奶奶就带着我和我哥，我哥大我3岁，可是两年后奶奶也因病去了和我爸同样的地方。”兄弟二人相依为命，初中辍学后务工打拼。小伙…</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2099101019997323833</id>
-    <title>姆巴佩在道歉声明中说「ill-judged」，这个词具体什么意思？体现出诚意了吗？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099101019997323833"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 6 名 · 247 万热度 · 39 回答 · 54 关注 — 近日，效力于西甲皇家马德里俱乐部的法国球员姆巴佩发表涉华不当言论。北京时间10月27日，姆巴佩发布道歉声明。 英文原文提到：My comment was ill-judged, and I now understand that it hurt man…</summary>
+    <id>https://www.zhihu.com/question/2099233723589969810</id>
+    <title>如何看待蒋方舟因论文抄袭被撤销学位后，时隔 107 天再发文《37岁才明白的事》？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099233723589969810"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 2 名 · 712 万热度 · 313 回答 · 503 关注 — [5 张图片]</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2098733383778149122</id>
-    <title>如何理解梁文锋「在颠覆性的技术面前，闭源形成的护城河是短暂的」这一判断？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098733383778149122"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 2 名 · 554 万热度 · 186 回答 · 642 关注 — 科技型企业又该如何决策自家专利的开源与闭源？</summary>
+    <id>https://www.zhihu.com/question/2099125476149274126</id>
+    <title>如何看待红果短剧跃升为国内第四大app？它瓜分了谁的市场？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099125476149274126"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 1 名 · 4245 万热度 · 627 回答 · 1393 关注 — 红果短剧跃升为国内第四大app（时长）仅次于微信和两个抖音，那么如何看待其的快速发展，短剧平台的兴起是否瓜分了哔站，快手，抖音等视频平台的蛋糕，此外短剧中不少是ai短剧，是否也触碰了真人创作者诸如哔站百大为首以及背后的摄像工具企业诸如大疆影石的…</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2099103184987714518</id>
-    <title>华为制药军团表态，其公司定位是医药行业的AI赋能者，而不是跟大家抢着做药，意味着什么？背后有哪些考量？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099103184987714518"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 8 名 · 210 万热度 · 185 回答 · 255 关注 — 记者 张英 自2025年底开始，华为制药军团开始出现在各大医药行业论坛。华为也要做药吗？这是不少医药人的疑问。 “我们不做药。”2026年10月24日，在第十一届医药创新与投资大会上，华为制药军团总裁樊杰明确回应。 他介绍，华为制药军团的定位是医药…</summary>
+    <id>https://www.zhihu.com/question/2099446310872900107</id>
+    <title>如何看待币安遭黑客攻击，数十亿美元资产被盗，或成历史金额最大被盗事件？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099446310872900107"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 8 名 · 386 万热度 · 36 回答 · 108 关注 — 2026 年 10 月 29 日晚（UTC 时间 20:24 起，北京时间 30 日凌晨 4 时左右），全球最大加密货币交易所币安的多个热钱包出现异常大额资金转出，链上数据与分析师普遍认为这是一场针对热钱包的黑客攻击。事件涉及以太坊、比特币、波场等多…</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/587100310</id>
-    <title>十九世纪拥有两万英镑是什么概念?</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/587100310"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 5 名 · 265 万热度 · 197 回答 · 583 关注 — 《简爱》里说简爱的年薪有三十磅，一个面包大约一便士 而一英镑等于二十先令 一先令等于十二便士 简爱继承了叔叔的两万英镑并把它们平均分配给了三个表兄弟姐妹 罗切斯特的父亲贪图三万英镑不惜与患有家族遗传病的人联姻</summary>
+    <id>https://www.zhihu.com/question/2098940094346433079</id>
+    <title>如何看待中科大给学生提供每天一亿的token额度？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098940094346433079"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 3 名 · 625 万热度 · 132 回答 · 522 关注 — 是真的吗？ 读好书来科大，每天都发一个亿！ 嗨 每一位“科大人” 属于中国科大独有的校园浪漫来啦 每天一个亿的Token 让你的AI专属算力“拉满弓” 零费用｜无门槛｜每日重置 开学第一天，就能拥有专属“AI智囊团” 比起手把手教你如何使用AI 科…</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2098035011463148222</id>
-    <title>兵部尚书冻死在御书房外会引发藩王造反？历史上真的发生过类似的事吗？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098035011463148222"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 10 名 · 205 万热度 · 49 回答 · 56 关注 — 最近刷到古装剧《兰香如故》的剧情梗：一位有拥立之功的兵部尚书，因为进谏被皇帝罚在御书房外雪夜长跪，直接冻死在了宫门口。 网上衍生出很多段子，说这事一出，藩王立刻有了清君侧的由头、史官直接狂喜、言官排队撞柱，天下马上就要大乱，甚至直接改朝换代。 想请教…</summary>
+    <id>https://www.zhihu.com/question/312800690</id>
+    <title>为什么李白的书法作品只有《上阳台帖》流传下来了？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/312800690"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 10 名 · 367 万热度 · 33 回答 · 115 关注 — 按说一个文人的作品会被细心保留，何况李白如此伟大有名气的人物。</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2098813429200810819</id>
-    <title>Anthropic 宣布「编程面试已死」，程序员靠什么证明自己？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098813429200810819"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 9 名 · 206 万热度 · 30 回答 · 327 关注 — Anthropic 招聘经理、Claude 相关产品工程负责人 Felix Rieseberg 本月表示，他已在其团队的招聘流程中取消传统编程题面试。他在社交平台发文称：“编程面试已经死了，至少对我的团队而言。”“编程面试已死”：Anthropic…</summary>
+    <id>https://www.zhihu.com/question/2001260067715044038</id>
+    <title>为什么BBA不进商场开店？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2001260067715044038"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 7 名 · 390 万热度 · 39 回答 · 45 关注 — 现在新能源汽车很多都在商场开店，BBA的客户不在商场吗？还是其它原因？</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=vZc8L3CAEtk</id>
-    <title>🔴LIVE | ARC RAIDERS | DRAC X KONA | ALL OUT WARFARE | WACKADOODLE WEDNESDAY | #BUNGULATE</title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=vZc8L3CAEtk"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 6 名 · 观看 97.2 万 · TheBurntPeanut</summary>
+    <id>https://www.youtube.com/watch?v=vPssxrTbnmM</id>
+    <title>R.E.P.O. SUNSTONE UPDATE | Launch Trailer</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=vPssxrTbnmM"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 8 名 · 观看 44.6 万 · semiwork — Detailed Patch Notes: https://store.steampowered.com/news/app/3241660/view/672883630592236353 Get the game here: https://store.st…</summary>
     <source><title>YouTube 热门 · US</title></source>
     <category term="视频"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=ae9Xvl-eln8</id>
-    <title>XLOV 'Hush' MV</title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=ae9Xvl-eln8"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 7 名 · 观看 82.1 万 · XLOV — XLOV 엑스러브 3rd MINI ALBUM [i=!] XLOV Official X (Twitter) https://x.com/XLOV_official XLOV Official TikTok https://www.tiktok.com/@xlo…</summary>
+    <id>https://www.youtube.com/watch?v=gI2tyTGvFag</id>
+    <title>Overwatch Animated Short | “In the Wolf's Mouth”</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=gI2tyTGvFag"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 6 名 · 观看 92.0 万 · PlayOverwatch — It’s Doomfist vs. Vendetta in the final confrontation for control of Talon. After a year of shifting loyalties and ruthless…</summary>
     <source><title>YouTube 热门 · US</title></source>
     <category term="视频"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=0XNxSdtqtCI</id>
-    <title>Ringleader</title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=0XNxSdtqtCI"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 10 名 · 观看 20.1 万 · Helluva Boss - Topic — Provided to YouTube by Atlantic Records Ringleader · Helluva Boss · Alex Brightman Helluva Boss: Season Three, Part…</summary>
+    <id>https://www.youtube.com/watch?v=BpJikRTDqdk</id>
+    <title>My Chemical Romance &amp; Lauren Tsai - Prelude to The End (An Animated Short Film)</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=BpJikRTDqdk"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 4 名 · 观看 34.0 万 · My Chemical Romance — My Chemical Romance &amp; Lauren Tsai - Prelude to The End (An Animated Short Film) Directed by Lauren Tsai An UNREAL INC.…</summary>
     <source><title>YouTube 热门 · US</title></source>
     <category term="视频"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=KuRYRhP6kag</id>
-    <title>Pride and Prejudice | Official Trailer | Netflix</title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=KuRYRhP6kag"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 5 名 · 观看 72.7 万 · Netflix — "It is a truth universally acknowledged..." From the pages of Jane Austen's beloved novel comes a six-part adaptation on love, lon…</summary>
+    <id>https://www.youtube.com/watch?v=Pksr9T8m_aA</id>
+    <title>JISOO - ADDICTED (Official MV)</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=Pksr9T8m_aA"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 1 名 · 观看 338.8 万 · JISOO — JISOO Official 📱 / https://www.jisoo.app https://www.youtube.com/@sooyaaa__ https://www.instagram.com/sooyaaa__ https://www.tiktok.…</summary>
     <source><title>YouTube 热门 · US</title></source>
     <category term="视频"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=rCxNRV9gdzo</id>
-    <title>Myriad Celestia Trailer: Fables About the Stars Part 3 | Honkai: Star Rail</title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=rCxNRV9gdzo"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 8 名 · 观看 33.3 万 · Honkai: Star Rail — The horn to hunt the Voracity has sounded! After a long Amber Era, the gods converge once more. THEY present a farce to…</summary>
+    <id>https://www.youtube.com/watch?v=C0Z3iKSkXOA</id>
+    <title>Here You Come, There You Go</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=C0Z3iKSkXOA"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 10 名 · 观看 13.2 万 · Gracie Abrams - Topic — Provided to YouTube by Universal Music Group Here You Come, There You Go · Gracie Abrams Here You Come, There You G…</summary>
     <source><title>YouTube 热门 · US</title></source>
     <category term="视频"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=hzpuL0g_E7E</id>
-    <title>LYON vs IG | WORLDS 2026 | Swiss Stage Day 5</title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=hzpuL0g_E7E"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 9 名 · 观看 225.2 万 · LoL Esports — THIS IS OUR MOMENT Worlds 2026 returns to North America for a month of international competition across 3 locations. The Play…</summary>
+    <id>https://www.youtube.com/watch?v=yPm9yiBDA2s</id>
+    <title>Foogiano - Halfway In [Official Music Video]</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=yPm9yiBDA2s"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 7 名 · 观看 10.9 万 · Foogiano — Foogiano - Halfway In Download/Stream: [LINKFIRE] Subscribe for more official content from Foogiano: https://foogiano.lnk.to/Yout…</summary>
     <source><title>YouTube 热门 · US</title></source>
     <category term="视频"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=ZRTYqleaQMY</id>
-    <title>Jarahn - Maski Lo Luv (Audio) feat. BMT</title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=ZRTYqleaQMY"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 1 名 · 观看 6.9 万 · Jarahn — Official Audio for “Maski Lo Luv” by Jarahn ​⁠ and BMT.​⁠ Written by Jarahn, BMT &amp; Daddy Ticks. Produced, mixed and Mastered by Jara…</summary>
+    <id>https://www.youtube.com/watch?v=Sd5SQ40sCoI</id>
+    <title>Dream Needs To Stop Lying</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=Sd5SQ40sCoI"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 9 名 · 观看 114.4 万 · Karl Jobst — Play IdleOn on Steam: https://store.steampowered.com/app/1476970?utm_source=youtube&amp;utm_campaign=CloverTalent Play IdleOn on i…</summary>
     <source><title>YouTube 热门 · US</title></source>
     <category term="视频"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=RNeNdrH40WE</id>
-    <title>In This Card Game... Everyone Cheats</title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=RNeNdrH40WE"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 3 名 · 观看 156.5 万 · SMii7Y — UNO has gone way off the deep end... Cheater's Table is insane. MERCH Available now! https://smii7y.store/ Use code S7 on Gamer Su…</summary>
+    <id>https://www.youtube.com/watch?v=1t2HMUuiMpE</id>
+    <title>BLG vs TES | WORLDS 2026 | Swiss Stage Day 6</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=1t2HMUuiMpE"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 3 名 · 观看 171.1 万 · LoL Esports — THIS IS OUR MOMENT Worlds 2026 returns to North America for a month of international competition across 3 locations. The Play…</summary>
     <source><title>YouTube 热门 · US</title></source>
     <category term="视频"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=vIlB8h93eIw</id>
-    <title>El Piloto y Su Estilo - San Judas Tadeo (Video Oficial)</title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=vIlB8h93eIw"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 4 名 · 观看 21.4 万 · El piloto y su estilo — #ElPilotoysuEstilo #SanJudasTadeo #Suscribete Contrataciones: 6671261284 Síganos en las Redes Sociales: https://www.…</summary>
+    <id>https://www.youtube.com/watch?v=yQ9LVy4DR9U</id>
+    <title>Apex Legends: Cipher Gameplay Trailer</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=yQ9LVy4DR9U"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 2 名 · 观看 50.2 万 · Apex Legends — In this Arena, the deadliest weapon isn’t a gun, it’s information. Hack the fight and gather essential intel for your squad w…</summary>
     <source><title>YouTube 热门 · US</title></source>
     <category term="视频"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=uJqaGLmZpGo</id>
-    <title>Dune: Part Three | Final Trailer</title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=uJqaGLmZpGo"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 2 名 · 观看 1657.7 万 · Warner Bros. — Do not fear the end. Dune: Part Three only in theaters and IMAX December 18. Tickets on sale now around the world. http://f…</summary>
+    <id>https://www.youtube.com/watch?v=MGMZKJCCaW8</id>
+    <title>'Eagle's Shadow' Update Trailer / War Thunder</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=MGMZKJCCaW8"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 5 名 · 观看 26.4 万 · War Thunder. Official channel. — The next major update for War Thunder — 'Eagle's Shadow'! 🔘 Site: http://warthunder.com/ 🔘 Twitch: https://…</summary>
     <source><title>YouTube 热门 · US</title></source>
     <category term="视频"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://en.wikipedia.org/wiki/Walter_Koenig</id>
-    <title>Walter Koenig</title>
-    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Walter_Koenig"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 8 名 · 浏览 18.2 万</summary>
+    <id>https://en.wikipedia.org/wiki/VisionQuest</id>
+    <title>VisionQuest</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/VisionQuest"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 10 名 · 浏览 13.7 万</summary>
+    <source><title>维基百科阅读榜（英文）</title></source>
+    <category term="百科"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://en.wikipedia.org/wiki/Ted_Bundy</id>
+    <title>Ted Bundy</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Ted_Bundy"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 8 名 · 浏览 14.3 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
@@ -277,20 +252,9 @@
     <id>https://en.wikipedia.org/wiki/Susan_Saint_James</id>
     <title>Susan Saint James</title>
     <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Susan_Saint_James"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 4 名 · 浏览 29.8 万</summary>
-    <source><title>维基百科阅读榜（英文）</title></source>
-    <category term="百科"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://en.wikipedia.org/wiki/Harry_Kane</id>
-    <title>Harry Kane</title>
-    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Harry_Kane"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 3 名 · 浏览 35.9 万</summary>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 3 名 · 浏览 20.0 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
@@ -299,20 +263,42 @@
     <id>https://en.wikipedia.org/wiki/Gadi_Eisenkot</id>
     <title>Gadi Eisenkot</title>
     <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Gadi_Eisenkot"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 9 名 · 浏览 18.0 万</summary>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 4 名 · 浏览 18.6 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://en.wikipedia.org/wiki/Eric_Bauza</id>
-    <title>Eric Bauza</title>
-    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Eric_Bauza"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 10 名 · 浏览 15.7 万</summary>
+    <id>https://en.wikipedia.org/wiki/Elizabeth_Holmes</id>
+    <title>Elizabeth Holmes</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Elizabeth_Holmes"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 7 名 · 浏览 14.3 万</summary>
+    <source><title>维基百科阅读榜（英文）</title></source>
+    <category term="百科"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://en.wikipedia.org/wiki/Deaths_in_2026</id>
+    <title>Deaths in 2026</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Deaths_in_2026"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 9 名 · 浏览 14.2 万</summary>
+    <source><title>维基百科阅读榜（英文）</title></source>
+    <category term="百科"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35</id>
+    <title>Dancing with the Stars (American TV series) season 35</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 5 名 · 浏览 17.3 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
@@ -321,20 +307,9 @@
     <id>https://en.wikipedia.org/wiki/ChatGPT</id>
     <title>ChatGPT</title>
     <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/ChatGPT"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 7 名 · 浏览 18.4 万</summary>
-    <source><title>维基百科阅读榜（英文）</title></source>
-    <category term="百科"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://en.wikipedia.org/wiki/Ballon_d'Or</id>
-    <title>Ballon d'Or</title>
-    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Ballon_d'Or"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 5 名 · 浏览 27.1 万</summary>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 6 名 · 浏览 17.2 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
@@ -343,20 +318,9 @@
     <id>https://en.wikipedia.org/wiki/2026_Israeli_legislative_election</id>
     <title>2026 Israeli legislative election</title>
     <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/2026_Israeli_legislative_election"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 1 名 · 浏览 43.9 万</summary>
-    <source><title>维基百科阅读榜（英文）</title></source>
-    <category term="百科"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://en.wikipedia.org/wiki/2026_Ballon_d'Or</id>
-    <title>2026 Ballon d'Or</title>
-    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/2026_Ballon_d'Or"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 6 名 · 浏览 23.8 万</summary>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 1 名 · 浏览 92.6 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
@@ -365,119 +329,119 @@
     <id>https://en.wikipedia.org/wiki/.xxx</id>
     <title>.xxx</title>
     <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/.xxx"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 2 名 · 浏览 36.3 万</summary>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 2 名 · 浏览 43.7 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%90%83%E5%87%89%E5%9C%9F%E8%B1%86%E8%98%B8%E8%BE%A3%E6%A4%92%E9%9D%A22%E4%B8%AA%E6%9C%88%E7%98%A622%E6%96%A4%23</id>
-    <title>男子吃凉土豆蘸辣椒面2个月瘦22斤</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%90%83%E5%87%89%E5%9C%9F%E8%B1%86%E8%98%B8%E8%BE%A3%E6%A4%92%E9%9D%A22%E4%B8%AA%E6%9C%88%E7%98%A622%E6%96%A4%23"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 2 名 · 热度 95.1 万 · 新</summary>
+    <id>https://s.weibo.com/weibo?q=%23%E7%99%BD%E5%B0%8F%E7%BA%AF%20%E9%9D%92%E7%A8%9A%23</id>
+    <title>白小纯 青稚</title>
+    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E7%99%BD%E5%B0%8F%E7%BA%AF%20%E9%9D%92%E7%A8%9A%23"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 1 名 · 热度 104.6 万 · 综艺</summary>
     <source><title>微博热搜</title></source>
     <category term="热榜"/>
     <category term="微博"/>
   </entry>
   <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E6%B5%B7%E5%BD%92%E5%8C%BB%E5%AD%A6%E5%8D%9A%E5%A3%AB%E7%9C%8B%E7%89%87%E5%AD%90%E6%89%BE%E4%B8%8D%E5%88%B0%E7%97%85%E7%81%B6%23</id>
-    <title>海归医学博士看片子找不到病灶</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E6%B5%B7%E5%BD%92%E5%8C%BB%E5%AD%A6%E5%8D%9A%E5%A3%AB%E7%9C%8B%E7%89%87%E5%AD%90%E6%89%BE%E4%B8%8D%E5%88%B0%E7%97%85%E7%81%B6%23"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 10 名 · 热度 41.6 万 · 新</summary>
+    <id>https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E4%BC%9A%E6%89%80%E6%8C%89%E6%91%A9%E7%9D%A1%E7%9D%80%E9%81%AD%E6%8A%80%E5%B8%88%E4%BE%B5%E7%8A%AF%E5%B7%B2%E7%AB%8B%E6%A1%88%23</id>
+    <title>男子会所按摩睡着遭技师侵犯已立案</title>
+    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E4%BC%9A%E6%89%80%E6%8C%89%E6%91%A9%E7%9D%A1%E7%9D%80%E9%81%AD%E6%8A%80%E5%B8%88%E4%BE%B5%E7%8A%AF%E5%B7%B2%E7%AB%8B%E6%A1%88%23"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 4 名 · 热度 60.5 万 · 新</summary>
     <source><title>微博热搜</title></source>
     <category term="热榜"/>
     <category term="微博"/>
   </entry>
   <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E6%B4%9B%E9%98%B3%E4%B8%80%E5%8D%A4%E8%9B%8B%E5%BA%97%E7%88%86%E7%81%AB%E8%80%81%E6%9D%BF%E8%B7%AA%E6%B1%82%E5%B0%91%E6%9D%A5%23</id>
-    <title>洛阳一卤蛋店爆火老板跪求少来</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E6%B4%9B%E9%98%B3%E4%B8%80%E5%8D%A4%E8%9B%8B%E5%BA%97%E7%88%86%E7%81%AB%E8%80%81%E6%9D%BF%E8%B7%AA%E6%B1%82%E5%B0%91%E6%9D%A5%23"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 6 名 · 热度 51.8 万 · 新</summary>
+    <id>https://s.weibo.com/weibo?q=%23%E7%94%B2%E7%A1%9D%E5%94%91%E7%A3%A8%E7%B2%89%E6%B2%BB%E9%BC%BB%E7%82%8E%E5%8C%BB%E7%94%9F%E9%83%BD%E6%87%B5%E4%BA%86%23</id>
+    <title>甲硝唑磨粉治鼻炎医生都懵了</title>
+    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E7%94%B2%E7%A1%9D%E5%94%91%E7%A3%A8%E7%B2%89%E6%B2%BB%E9%BC%BB%E7%82%8E%E5%8C%BB%E7%94%9F%E9%83%BD%E6%87%B5%E4%BA%86%23"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 6 名 · 热度 59.9 万 · 新</summary>
     <source><title>微博热搜</title></source>
     <category term="热榜"/>
     <category term="微博"/>
   </entry>
   <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E7%BD%91%E6%B0%91%E7%A7%B0%E5%AF%B9%E4%B8%89%E4%B8%BD%E9%B8%A5%E5%BE%88%E5%A4%B1%E6%9C%9B%23</id>
-    <title>日本网民称对三丽鸥很失望</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E7%BD%91%E6%B0%91%E7%A7%B0%E5%AF%B9%E4%B8%89%E4%B8%BD%E9%B8%A5%E5%BE%88%E5%A4%B1%E6%9C%9B%23"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 7 名 · 热度 43.3 万 · 新</summary>
+    <id>https://s.weibo.com/weibo?q=%23%E6%96%B0%E6%97%B6%E4%BB%A3%E5%85%A8%E9%9D%A2%E4%BB%8E%E4%B8%A5%E6%B2%BB%E5%85%9A%E4%BC%9F%E5%A4%A7%E6%88%90%E5%B0%B1%23</id>
+    <title>新时代全面从严治党伟大成就</title>
+    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E6%96%B0%E6%97%B6%E4%BB%A3%E5%85%A8%E9%9D%A2%E4%BB%8E%E4%B8%A5%E6%B2%BB%E5%85%9A%E4%BC%9F%E5%A4%A7%E6%88%90%E5%B0%B1%23"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 3 名 · 热度 60.5 万</summary>
     <source><title>微博热搜</title></source>
     <category term="热榜"/>
     <category term="微博"/>
   </entry>
   <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E5%A4%9A%E8%A7%86%E8%A7%92%E8%A7%A3%E8%AF%BB%E4%B8%89%E5%AD%A3%E5%BA%A6%E7%BB%8F%E6%B5%8E%E6%95%B0%E6%8D%AE%23</id>
-    <title>多视角解读三季度经济数据</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E5%A4%9A%E8%A7%86%E8%A7%92%E8%A7%A3%E8%AF%BB%E4%B8%89%E5%AD%A3%E5%BA%A6%E7%BB%8F%E6%B5%8E%E6%95%B0%E6%8D%AE%23"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 3 名 · 热度 69.2 万</summary>
+    <id>https://s.weibo.com/weibo?q=%23%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%E6%80%BB%E5%86%B3%E8%B5%9B%E5%A6%86%E9%80%A0%23</id>
+    <title>披荆斩棘总决赛妆造</title>
+    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%E6%80%BB%E5%86%B3%E8%B5%9B%E5%A6%86%E9%80%A0%23"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 5 名 · 热度 60.3 万 · 综艺</summary>
     <source><title>微博热搜</title></source>
     <category term="热榜"/>
     <category term="微博"/>
   </entry>
   <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E4%B8%89%E4%B8%BD%E9%B8%A5%E5%8F%96%E6%B6%88Vivant%E8%81%94%E5%90%8D%23</id>
-    <title>外交部回应三丽鸥取消Vivant联名</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E4%B8%89%E4%B8%BD%E9%B8%A5%E5%8F%96%E6%B6%88Vivant%E8%81%94%E5%90%8D%23"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 4 名 · 热度 67.5 万</summary>
+    <id>https://s.weibo.com/weibo?q=%23%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%9B%BE%E4%BB%A3%E8%A8%80%E9%A5%AE%E5%93%81%E6%B8%85%E7%90%86%E5%89%A9%E4%BD%99%E5%BA%93%E5%AD%98%23</id>
+    <title>姆巴佩曾代言饮品清理剩余库存</title>
+    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%9B%BE%E4%BB%A3%E8%A8%80%E9%A5%AE%E5%93%81%E6%B8%85%E7%90%86%E5%89%A9%E4%BD%99%E5%BA%93%E5%AD%98%23"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 2 名 · 热度 75.7 万 · 新</summary>
     <source><title>微博热搜</title></source>
     <category term="热榜"/>
     <category term="微博"/>
   </entry>
   <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E5%8E%BB%E4%B8%96%E6%8A%97%E7%99%8C%E5%8D%9A%E4%B8%BB%E6%9B%BE%E5%9B%A0%E6%98%AF%E5%8C%BB%E5%AD%A6%E7%94%9F%E6%B2%A1%E6%9C%89%E9%87%8D%E8%A7%86%23</id>
-    <title>去世抗癌博主曾因是医学生没有重视</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E5%8E%BB%E4%B8%96%E6%8A%97%E7%99%8C%E5%8D%9A%E4%B8%BB%E6%9B%BE%E5%9B%A0%E6%98%AF%E5%8C%BB%E5%AD%A6%E7%94%9F%E6%B2%A1%E6%9C%89%E9%87%8D%E8%A7%86%23"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 8 名 · 热度 43.2 万</summary>
+    <id>https://s.weibo.com/weibo?q=%23%E5%87%A0%E4%B8%AA%E7%B3%8A%E5%92%96%20%E5%87%A0%E5%8D%81%E5%80%8D%E6%9D%80%23</id>
+    <title>几个糊咖 几十倍杀</title>
+    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E5%87%A0%E4%B8%AA%E7%B3%8A%E5%92%96%20%E5%87%A0%E5%8D%81%E5%80%8D%E6%9D%80%23"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 8 名 · 热度 59.3 万 · 综艺</summary>
     <source><title>微博热搜</title></source>
     <category term="热榜"/>
     <category term="微博"/>
   </entry>
   <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E4%BA%8C%E5%8D%81%E5%B1%8A%E4%BA%94%E4%B8%AD%E5%85%A8%E4%BC%9A%E5%85%AC%E6%8A%A5%23</id>
-    <title>二十届五中全会公报</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E4%BA%8C%E5%8D%81%E5%B1%8A%E4%BA%94%E4%B8%AD%E5%85%A8%E4%BC%9A%E5%85%AC%E6%8A%A5%23"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 5 名 · 热度 53.5 万 · 新</summary>
+    <id>https://s.weibo.com/weibo?q=%23%E4%BA%AC%E4%B8%9C%E9%BB%84%E9%87%91%E4%BB%8A%E6%99%9A8%E7%82%B9%E5%86%8D%E9%99%8D%E4%BB%B7%23</id>
+    <title>京东黄金今晚8点再降价</title>
+    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E4%BA%AC%E4%B8%9C%E9%BB%84%E9%87%91%E4%BB%8A%E6%99%9A8%E7%82%B9%E5%86%8D%E9%99%8D%E4%BB%B7%23"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 9 名 · 热度 59.1 万 · 新</summary>
     <source><title>微博热搜</title></source>
     <category term="热榜"/>
     <category term="微博"/>
   </entry>
   <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E4%B8%89%E4%B8%BD%E9%B8%A5%E6%97%A5%E6%9C%AC%E5%AE%98%E7%BD%91%E8%87%B4%E6%AD%89%23</id>
-    <title>三丽鸥日本官网致歉</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E4%B8%89%E4%B8%BD%E9%B8%A5%E6%97%A5%E6%9C%AC%E5%AE%98%E7%BD%91%E8%87%B4%E6%AD%89%23"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 9 名 · 热度 42.2 万</summary>
+    <id>https://s.weibo.com/weibo?q=%23Viper%20BLG%E8%AF%AD%E9%9F%B3%23</id>
+    <title>Viper BLG语音</title>
+    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23Viper%20BLG%E8%AF%AD%E9%9F%B3%23"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 7 名 · 热度 59.7 万 · 新</summary>
     <source><title>微博热搜</title></source>
     <category term="热榜"/>
     <category term="微博"/>
   </entry>
   <entry>
-    <id>https://s.weibo.com/weibo?q=%23ChatGPT%E8%A2%AB%E6%8C%87%E8%87%B4%E7%94%A8%E6%88%B7%E6%AD%BB%E4%BA%A1%23</id>
-    <title>ChatGPT被指致用户死亡</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23ChatGPT%E8%A2%AB%E6%8C%87%E8%87%B4%E7%94%A8%E6%88%B7%E6%AD%BB%E4%BA%A1%23"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 1 名 · 热度 117.4 万 · 新</summary>
+    <id>https://s.weibo.com/weibo?q=%23A%E8%82%A1%E5%8D%88%E5%90%8E%E6%8B%89%E8%B5%B7%E6%9D%A5%E4%BA%86%23</id>
+    <title>A股午后拉起来了</title>
+    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23A%E8%82%A1%E5%8D%88%E5%90%8E%E6%8B%89%E8%B5%B7%E6%9D%A5%E4%BA%86%23"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 10 名 · 热度 59.0 万</summary>
     <source><title>微博热搜</title></source>
     <category term="热榜"/>
     <category term="微博"/>
@@ -486,8 +450,8 @@
     <id>https://mp.weixin.qq.com/s?__biz=MzcwODExMzg5MQ==&amp;mid=2247485715&amp;idx=1&amp;sn=dcac48db1baa54318ef8c58526bdc543</id>
     <title>这么有创意，难怪生意会好</title>
     <link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzcwODExMzg5MQ==&amp;mid=2247485715&amp;idx=1&amp;sn=dcac48db1baa54318ef8c58526bdc543"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
     <summary type="text">第 9 名 · 热度 10.0万</summary>
     <source><title>公众号热文</title></source>
     <category term="热榜"/>
@@ -497,8 +461,8 @@
     <id>https://mp.weixin.qq.com/s?__biz=MzIxNjQzNTM5Mw==&amp;mid=2247507218&amp;idx=1&amp;sn=b5ddaa09e4995ef5b014061de1bb5613</id>
     <title>苹果最终确认！向每位用户最高赔 637 元</title>
     <link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzIxNjQzNTM5Mw==&amp;mid=2247507218&amp;idx=1&amp;sn=b5ddaa09e4995ef5b014061de1bb5613"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
     <summary type="text">第 1 名 · 热度 10.0万</summary>
     <source><title>公众号热文</title></source>
     <category term="热榜"/>
@@ -508,8 +472,8 @@
     <id>https://mp.weixin.qq.com/s?__biz=MzY4MTIwMjg2MQ==&amp;mid=2247486541&amp;idx=1&amp;sn=0d73281a1e3fbc1722445ce6a52dbb96</id>
     <title>舒服到不想脱下来的一套懒人穿搭</title>
     <link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzY4MTIwMjg2MQ==&amp;mid=2247486541&amp;idx=1&amp;sn=0d73281a1e3fbc1722445ce6a52dbb96"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
     <summary type="text">第 6 名 · 热度 10.0万</summary>
     <source><title>公众号热文</title></source>
     <category term="热榜"/>
@@ -519,8 +483,8 @@
     <id>https://mp.weixin.qq.com/s?__biz=MzcwNTM3MTg4NQ==&amp;mid=2247484223&amp;idx=1&amp;sn=bd65cc8daecab0839da8ce6523f3ce4c</id>
     <title>江北的零号路真不错</title>
     <link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzcwNTM3MTg4NQ==&amp;mid=2247484223&amp;idx=1&amp;sn=bd65cc8daecab0839da8ce6523f3ce4c"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
     <summary type="text">第 10 名 · 热度 10.0万</summary>
     <source><title>公众号热文</title></source>
     <category term="热榜"/>
@@ -530,8 +494,8 @@
     <id>https://mp.weixin.qq.com/s?__biz=MzYyMTgyMTQ0MA==&amp;mid=2247485786&amp;idx=1&amp;sn=ba79dc5d680ac9de53538141a2773856</id>
     <title>恭喜当年办了ETC的车主</title>
     <link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzYyMTgyMTQ0MA==&amp;mid=2247485786&amp;idx=1&amp;sn=ba79dc5d680ac9de53538141a2773856"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
     <summary type="text">第 2 名 · 热度 10.0万</summary>
     <source><title>公众号热文</title></source>
     <category term="热榜"/>
@@ -541,8 +505,8 @@
     <id>https://mp.weixin.qq.com/s?__biz=Mzk4ODg5MzE2Ng==&amp;mid=2247484728&amp;idx=1&amp;sn=b48a0e9afac355217c836dd8e87f1cbc</id>
     <title>名古屋亚运会 | 韩国男篮67-57战胜日本拿下金牌，中国队收获第四，历史第二差战绩</title>
     <link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=Mzk4ODg5MzE2Ng==&amp;mid=2247484728&amp;idx=1&amp;sn=b48a0e9afac355217c836dd8e87f1cbc"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
     <summary type="text">第 3 名 · 热度 10.0万</summary>
     <source><title>公众号热文</title></source>
     <category term="热榜"/>
@@ -552,9 +516,42 @@
     <id>https://mp.weixin.qq.com/s?__biz=MzY5NzI4MDQwOQ==&amp;mid=2247486040&amp;idx=1&amp;sn=30d1e2f3c69ee81d14891215d067d513</id>
     <title>又到了一年一度家长展示手艺的时候了🏮</title>
     <link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzY5NzI4MDQwOQ==&amp;mid=2247486040&amp;idx=1&amp;sn=30d1e2f3c69ee81d14891215d067d513"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
     <summary type="text">第 8 名 · 热度 10.0万</summary>
+    <source><title>公众号热文</title></source>
+    <category term="热榜"/>
+    <category term="公众号"/>
+  </entry>
+  <entry>
+    <id>https://mp.weixin.qq.com/s?__biz=MzcwODM0NTk1OQ==&amp;mid=2247485751&amp;idx=1&amp;sn=7c1c80e6cbb94dbdc5a6797718763a4d</id>
+    <title>今日有梗：我今年三十五了，谈了五个男朋友，不怕你们笑话，基本都同居过。我先说一句实在话：三十五了，没结过婚，谈过五段恋爱，每一段</title>
+    <link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzcwODM0NTk1OQ==&amp;mid=2247485751&amp;idx=1&amp;sn=7c1c80e6cbb94dbdc5a6797718763a4d"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 5 名 · 热度 10.0万</summary>
+    <source><title>公众号热文</title></source>
+    <category term="热榜"/>
+    <category term="公众号"/>
+  </entry>
+  <entry>
+    <id>https://mp.weixin.qq.com/s?__biz=MjM5MDA5ODg5NQ==&amp;mid=2449662392&amp;idx=1&amp;sn=2ddae15ab4851c126142e9fc95397618</id>
+    <title>83年，43岁，钱难挣，新的攀比风已经出现了</title>
+    <link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MjM5MDA5ODg5NQ==&amp;mid=2449662392&amp;idx=1&amp;sn=2ddae15ab4851c126142e9fc95397618"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 4 名 · 热度 10.0万</summary>
+    <source><title>公众号热文</title></source>
+    <category term="热榜"/>
+    <category term="公众号"/>
+  </entry>
+  <entry>
+    <id>https://mp.weixin.qq.com/s?__biz=MzkzMjY4OTk4NQ==&amp;mid=2247489460&amp;idx=1&amp;sn=430287701f87e9ff30885fc47ac39d3b</id>
+    <title>41岁薇娅官宣二胎得子，一家四口同框太温馨</title>
+    <link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MzkzMjY4OTk4NQ==&amp;mid=2247489460&amp;idx=1&amp;sn=430287701f87e9ff30885fc47ac39d3b"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 7 名 · 热度 10.0万</summary>
     <source><title>公众号热文</title></source>
     <category term="热榜"/>
     <category term="公众号"/>

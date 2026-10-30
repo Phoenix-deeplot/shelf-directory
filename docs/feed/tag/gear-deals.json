@@ -1,9 +1,9 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #Gear / Deals",
+  "title": "知树阅读-个人图书空间 · #Gear / Deals",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/gear-deals.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
@@ -70,6 +70,58 @@
         "Gear",
         "Gear / Deals",
         "Coupons",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/petkit-sale-october-2026/",
+      "url": "https://www.wired.com/story/petkit-sale-october-2026/",
+      "title": "Petkit Automatic Cat Litter Box Sale (2026)",
+      "content_text": "As WIRED’s resident pet tech tester, I have lots of opinions on what’s worth your money. Petkit’s automatic litter boxes are my top picks—and my favorite models…",
+      "summary": "As WIRED’s resident pet tech tester, I have lots of opinions on what’s worth your money. Petkit’s automatic litter boxes are my top picks—and my favorite models…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae2af53aad2e56b125912cc/master/pass/Petkit%20Deals%20102026%20top%20art%20SOURCE%20Shop.com.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products / Home",
+        "Cat’s Meow",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/nothing-cmf-deals-october-2026/",
+      "url": "https://www.wired.com/story/nothing-cmf-deals-october-2026/",
+      "title": "Nothing Headphones Sale: Stylish and Up to 41% Off",
+      "content_text": "Some of the brand’s best styles, including the Nothing Headphone (1) and CMF Headphone Pro, are at the lowest prices I’ve ever seen ahead of Black Friday.",
+      "summary": "Some of the brand’s best styles, including the Nothing Headphone (1) and CMF Headphone Pro, are at the lowest prices I’ve ever seen ahead of Black Friday.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae36f07feb0012f49429412/master/pass/Nothing%20Headphone%20Deals%20October%20102026%20top%20art%20SOURCE%20Shop.com.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products / Audio",
+        "Nothing to See Here",
         "科技",
         "社会"
       ],
@@ -184,6 +236,32 @@
       }
     },
     {
+      "id": "https://www.wired.com/story/ridge-wallet-deal-october-2026/",
+      "url": "https://www.wired.com/story/ridge-wallet-deal-october-2026/",
+      "title": "Go Minimal—the Ridge Wallet is 20 Percent Off Right Now",
+      "content_text": "The popular Ridge Wallet lives up to the hype and is on sale, along with other Ridge gear. Plus, you can try it risk-free for 99 days.",
+      "summary": "The popular Ridge Wallet lives up to the hype and is on sale, along with other Ridge gear. Plus, you can try it risk-free for 99 days.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae37394a4dff0c29ced940a/master/pass/Ridge%20Wallet%20sale%20deal%20102026%20top%20art%20SOURCE%20Shop.com.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products / Lifestyle",
+        "Stack It Up",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/dermstore-promo-code/",
       "url": "https://www.wired.com/story/dermstore-promo-code/",
       "title": "Dermstore Coupons: 25% Off for November 2026",
@@ -261,81 +339,6 @@
       }
     },
     {
-      "id": "https://www.wired.com/story/paramount-plus-coupon-code/",
-      "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
-      "title": "Paramount+ Coupon Codes and Deals for 2026",
-      "content_text": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
-      "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/67b63b985c0507c1bb18ab66/master/pass/WIRED-Coupons-R2_14.png",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Coupons",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/google-workspace-promo-code/",
-      "url": "https://www.wired.com/story/google-workspace-promo-code/",
-      "title": "Google Workspace Promo Codes: 14% Off for October 2026",
-      "content_text": "Boost your productivity and save with exclusive Google Workspace coupons from WIRED. Get up to 14% off plans for three months, including Starter, Standard, and…",
-      "summary": "Boost your productivity and save with exclusive Google Workspace coupons from WIRED. Get up to 14% off plans for three months, including Starter, Standard, and…",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/67b63b967f8fc45af4896200/master/pass/WIRED-Coupons-R2_7.png",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Coupons",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/disney-plus-discounts/",
-      "url": "https://www.wired.com/story/disney-plus-discounts/",
-      "title": "Disney Plus Discount Codes: 52% Off October 2026",
-      "content_text": "Cut your subscription costs with the latest active Disney+ bundle deals, verified student offers, and partner promotions.",
-      "summary": "Cut your subscription costs with the latest active Disney+ bundle deals, verified student offers, and partner promotions.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/66ea076e56fd4954a7f91e0c/master/pass/WIRED-Coupons-17.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Coupons",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
       "id": "https://www.wired.com/story/apple-airpods-max-2-deal-november-2026/",
       "url": "https://www.wired.com/story/apple-airpods-max-2-deal-november-2026/",
       "title": "Apple AirPods Max 2 Are $100 Off Ahead of Black Friday",
@@ -348,57 +351,6 @@
         "Gear / Deals",
         "Gear / Products / Headphones",
         "Sound Investment",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/motorola-razr-deal-october-2026/",
-      "url": "https://www.wired.com/story/motorola-razr-deal-october-2026/",
-      "title": "Motorola Deal: Get a Free Smartwatch and Earbuds When You Buy a Razr",
-      "content_text": "The Razr is our favorite budget foldable phone. While it isn’t on sale yet, Motorola is adding extras to sweeten this October deal.",
-      "summary": "The Razr is our favorite budget foldable phone. While it isn’t on sale yet, Motorola is adding extras to sweeten this October deal.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ae0eec7a5839fc652c5a3e9/master/pass/Motorola%20October%202026%20Deal%20102026%20top%20art%20SOURCE%20motorola.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Gear / Products / Phones",
-        "Razr Xtra",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/everblog-homecal-deal-october-2026/",
-      "url": "https://www.wired.com/story/everblog-homecal-deal-october-2026/",
-      "title": "Best Skylight Calendar Alternative on Sale: Save $100 on Everblog HomeCal (2026)",
-      "content_text": "The Everblog HomeCal delivers a similar experience, including a digital photo frame and meal planning at no extra cost.",
-      "summary": "The Everblog HomeCal delivers a similar experience, including a digital photo frame and meal planning at no extra cost.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://media.wired.com/photos/6a35a476fb39402b67c3b903/master/pass/Are-Digital-Wall-Calendars-Worth-It-.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Sync or Swim",
         "科技",
         "社会"
       ],

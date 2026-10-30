@@ -1,29 +1,28 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #AI 应用",
+  "title": "知树阅读-个人图书空间 · #AI时代",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/ai-4.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/ai/6485988.html",
-      "url": "https://www.woshipm.com/ai/6485988.html",
-      "title": "下一代PPT，AI 做 PPT 的终极形态",
-      "content_text": "当 AI 能生成 3D 模型和动态视频，PPT 的叙事逻辑正在被改写。本文从产品演示的真实痛点出发，结合 Rebecca Minkoff、宜家等案例，拆解如何用 3D 视角和动态画面讲清空间关系与变化过程，并给出从产品图到短视频的完整实操路径。 2026年，用 AI 做 PPT 的终极形态，长这样 先说结论：我做 PP…",
-      "summary": "当 AI 能生成 3D 模型和动态视频，PPT 的叙事逻辑正在被改写。本文从产品演示的真实痛点出发，结合 Rebecca Minkoff、宜家等案例，拆解如何用 3D 视角和动态画面讲清空间关系与变化过程，并给出从产品图到短视频的完整实操路径。 2026年，用 AI 做 PPT 的终极形态，长这样 先说结论：我做 PP…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.woshipm.com/share/6486699.html",
+      "url": "https://www.woshipm.com/share/6486699.html",
+      "title": "AI时代，RPA产品应该如何升级？从流程自动化到智能化执行",
+      "content_text": "RPA曾是企业自动化市场的热门赛道，如今又迎来大模型与AI智能体带来的新机会。当AI开始尝试接管复杂任务，企业选择RPA平台，不能只看传统流程执行能力，还需要重新审视系统兼容、流程治理、异常处理与AI融合能力。技术路线在变，但决定自动化能否长期创造价值的，始终是平台对真实业务的支撑能力。 大家还记得RPA吗？ RPA这…",
+      "summary": "RPA曾是企业自动化市场的热门赛道，如今又迎来大模型与AI智能体带来的新机会。当AI开始尝试接管复杂任务，企业选择RPA平台，不能只看传统流程执行能力，还需要重新审视系统兼容、流程治理、异常处理与AI融合能力。技术路线在变，但决定自动化能否长期创造价值的，始终是平台对真实业务的支撑能力。 大家还记得RPA吗？ RPA这…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
-        "AI",
         "个人随笔",
-        "3D 模型",
-        "AI 应用",
-        "AI 生成 PPT",
-        "产品展示",
-        "动态演示",
-        "案例分析"
+        "AI时代",
+        "RPA",
+        "个人观点",
+        "产品",
+        "运营",
+        "商业"
       ],
       "authors": [
         {

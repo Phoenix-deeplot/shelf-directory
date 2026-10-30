@@ -111,11 +111,11 @@
   "image": "",
   "tags": []
  },
- "fails": 0,
+ "fails": 1,
  "kind": "feed",
  "parser": 3,
- "status": "ok",
- "error": "",
+ "status": "error",
+ "error": "连不上这个网站：The read operation timed out",
  "etag": "",
  "modified": ""
 }

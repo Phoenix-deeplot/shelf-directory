@@ -1,46 +1,24 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #航天",
+  "title": "知树阅读-个人图书空间 · #航天",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-2dd56c.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
     {
-      "id": "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/",
-      "url": "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/",
-      "title": "Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
-      "content_text": "Artemis II Commander Reid Wiseman has been named Caltech associate vice president and deputy director of NASA’s Jet Propulsion Laboratory in Southern California…",
-      "summary": "Artemis II Commander Reid Wiseman has been named Caltech associate vice president and deputy director of NASA’s Jet Propulsion Laboratory in Southern California…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "Jet Propulsion Laboratory",
-        "Artemis 2",
-        "航天",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "NASA"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "nasa-gov"
-      }
-    },
-    {
-      "id": "https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/",
-      "url": "https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/",
-      "title": "Arnab Strikes India",
-      "content_text": "The first named storm of the North Indian Ocean’s cyclone season made landfall along the coast of Andhra Pradesh.",
-      "summary": "The first named storm of the North Indian Ocean’s cyclone season made landfall along the coast of Andhra Pradesh.",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://science.nasa.gov/earth/earth-observatory/vega-island-frozen-in-fright/",
+      "url": "https://science.nasa.gov/earth/earth-observatory/vega-island-frozen-in-fright/",
+      "title": "Vega Island Frozen in Fright",
+      "content_text": "The sight of an icy skull-like visage on the Antarctic island could make one’s blood run cold.",
+      "summary": "The sight of an icy skull-like visage on the Antarctic island could make one’s blood run cold.",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "Earth Observatory",
-        "Hurricanes & Typhoons",
+        "Ice & Glaciers",
+        "Landsat 9",
         "航天",
         "科学"
       ],
@@ -55,14 +33,58 @@
       }
     },
     {
-      "id": "https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/",
-      "url": "https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/",
-      "title": "APOD: 29 October 2026 – The Horns of Venus",
-      "content_text": "APOD Science APOD APOD: 29 October 2026 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the…",
-      "summary": "APOD Science APOD APOD: 29 October 2026 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the…",
+      "id": "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/",
+      "url": "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/",
+      "title": "Map Showing Potential Origins of Martian Meteorite Teghaza 001",
+      "content_text": "Description This global map of Mars shows 13 locations that match the mineralogy and chemistry of Teghaza 001, one of the most ancient Martian meteorites ever f…",
+      "summary": "Description This global map of Mars shows 13 locations that match the mineralogy and chemistry of Teghaza 001, one of the most ancient Martian meteorites ever f…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "航天",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "NASA"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "nasa-gov"
+      }
+    },
+    {
+      "id": "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/",
+      "title": "APOD: 2026 October 30 – Haunting the Cepheus Flare",
+      "content_text": "APOD Science APOD APOD: 2026 October 30 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…",
+      "summary": "APOD Science APOD APOD: 2026 October 30 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "APOD",
+        "航天",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "NASA"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "nasa-gov"
+      }
+    },
+    {
+      "id": "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/",
+      "url": "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/",
+      "title": "Slice of Martian Meteorite Teghaza 001",
+      "content_text": "Description This slice of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth, was used to determine the age of the rock. Reflected ligh…",
+      "summary": "Description This slice of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth, was used to determine the age of the rock. Reflected ligh…",
       "date_published": "2026-10-29T00:00:00Z",
       "tags": [
-        "APOD",
+        "Meteors & Meteorites",
+        "Photojournal",
         "航天",
         "科学"
       ],
@@ -77,13 +99,19 @@
       }
     },
     {
-      "id": "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/",
-      "url": "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/",
-      "title": "Webb Sees Turbulent Star Nursery",
-      "content_text": "In this Webb image released on Oct. 22, 2026, we see a turbulent cauldron of star formation filled with dense clumps of gas. This region is named N159 and is lo…",
-      "summary": "In this Webb image released on Oct. 22, 2026, we see a turbulent cauldron of star formation filled with dense clumps of gas. This region is named N159 and is lo…",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://www.nasa.gov/news-release/send-your-name-to-titan-aboard-nasas-dragonfly-mission/",
+      "url": "https://www.nasa.gov/news-release/send-your-name-to-titan-aboard-nasas-dragonfly-mission/",
+      "title": "Send Your Name to Titan Aboard NASA’s Dragonfly Mission",
+      "content_text": "You may never soar under the clouds or over the organic sands of Saturn’s moon Titan, but your name can. NASA is inviting the public to send their names aboard…",
+      "summary": "You may never soar under the clouds or over the organic sands of Saturn’s moon Titan, but your name can. NASA is inviting the public to send their names aboard…",
+      "date_published": "2026-10-29T00:00:00Z",
       "tags": [
+        "Dragonfly",
+        "Marshall Space Flight Center",
+        "Saturn",
+        "Saturn Moons",
+        "Science Mission Directorate",
+        "Titan",
         "航天",
         "科学"
       ],
@@ -98,14 +126,16 @@
       }
     },
     {
-      "id": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/",
-      "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/",
-      "title": "NASA Welcomes Vietnam as Newest Artemis Accords Signatory",
-      "content_text": "The Socialist Republic of Vietnam became the 78th nation to sign the Artemis Accords, joining a growing coalition of like-minded nations committed to the peacef…",
-      "summary": "The Socialist Republic of Vietnam became the 78th nation to sign the Artemis Accords, joining a growing coalition of like-minded nations committed to the peacef…",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nih-nasa-qusafe-challenge/",
+      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nih-nasa-qusafe-challenge/",
+      "title": "NIH–NASA QuSAFE Challenge",
+      "content_text": "The Quantum-Enabled Predictive Preclinical NAMs for Toxicity and Safety (QuSAFE) Challenge, a collaboration between the National Institutes of Health (NIH) and…",
+      "summary": "The Quantum-Enabled Predictive Preclinical NAMs for Toxicity and Safety (QuSAFE) Challenge, a collaboration between the National Institutes of Health (NIH) and…",
+      "date_published": "2026-10-29T00:00:00Z",
       "tags": [
-        "Artemis Accords",
+        "CoECI News",
+        "General",
+        "Get Involved",
         "航天",
         "科学"
       ],
@@ -120,15 +150,17 @@
       }
     },
     {
-      "id": "https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/",
-      "url": "https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/",
-      "title": "NASA University Challenge Ignites Trajectory of Drone Entrepreneur",
-      "content_text": "Five years ago, Gavin Gardner was a Michigan State University engineering student researching next-generation drone technology as part of a NASA grant. Garder e…",
-      "summary": "Five years ago, Gavin Gardner was a Michigan State University engineering student researching next-generation drone technology as part of a NASA grant. Garder e…",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
+      "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
+      "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
+      "content_text": "When a rose-colored meteorite was found in the Sahara Desert in 2022, no one knew how old it was or where it came from. Not until NASA-funded scientists age-dat…",
+      "summary": "When a rose-colored meteorite was found in the Sahara Desert in 2022, no one knew how old it was or where it came from. Not until NASA-funded scientists age-dat…",
+      "date_published": "2026-10-29T00:00:00Z",
       "tags": [
-        "Aeronautics",
-        "University Innovation",
+        "Mars",
+        "General",
+        "Jet Propulsion Laboratory",
+        "Meteors & Meteorites",
         "航天",
         "科学"
       ],
@@ -143,13 +175,15 @@
       }
     },
     {
-      "id": "https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/",
-      "url": "https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/",
-      "title": "NASA Selects 19 New Citizen Science Proposals in 2026",
-      "content_text": "So far, 2026 has seen a flood of successes for volunteers who do NASA science, exemplifying NASA’s commitment to gold-standard science—transparent, reproducible…",
-      "summary": "So far, 2026 has seen a flood of successes for volunteers who do NASA science, exemplifying NASA’s commitment to gold-standard science—transparent, reproducible…",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://www.nasa.gov/news-release/nasa-names-troy-asher-armstrong-flight-research-center-director/",
+      "url": "https://www.nasa.gov/news-release/nasa-names-troy-asher-armstrong-flight-research-center-director/",
+      "title": "NASA Names Troy Asher Armstrong Flight Research Center Director",
+      "content_text": "NASA Administrator Jared Isaacman has named Troy Asher director of the agency’s Armstrong Flight Research Center in Edwards, California. Asher, a veteran test p…",
+      "summary": "NASA Administrator Jared Isaacman has named Troy Asher director of the agency’s Armstrong Flight Research Center in Edwards, California. Asher, a veteran test p…",
+      "date_published": "2026-10-29T00:00:00Z",
       "tags": [
+        "Leadership",
+        "People of NASA",
         "航天",
         "科学"
       ],
@@ -164,14 +198,14 @@
       }
     },
     {
-      "id": "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
-      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
-      "title": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
-      "content_text": "Written by Lucy Lim, Planetary Scientist at NASA’s Goddard Space Flight Center Earth planning date: Friday, Oct. 16, 2026 Following the Basque Lakes drill campa…",
-      "summary": "Written by Lucy Lim, Planetary Scientist at NASA’s Goddard Space Flight Center Earth planning date: Friday, Oct. 16, 2026 Following the Basque Lakes drill campa…",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/",
+      "title": "Halloween Aboard the International Space Station",
+      "content_text": "Although no ghouls, goblins, or trick-or-treaters come knocking at the International Space Station’s front hatch, crew members aboard the orbiting laboratory st…",
+      "summary": "Although no ghouls, goblins, or trick-or-treaters come knocking at the International Space Station’s front hatch, crew members aboard the orbiting laboratory st…",
+      "date_published": "2026-10-29T00:00:00Z",
       "tags": [
-        "Blogs",
+        "Johnson Space Center",
         "航天",
         "科学"
       ],
@@ -186,14 +220,14 @@
       }
     },
     {
-      "id": "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/",
-      "url": "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/",
-      "title": "APOD: 2026 October 28 – The Mutual Occultation of Ganymede and Io",
-      "content_text": "APODScienceAPODAPOD: 2026 October 28 – The…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover…",
-      "summary": "APODScienceAPODAPOD: 2026 October 28 – The…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover…",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://www.nasa.gov/news-release/envia-tu-nombre-a-titan-a-bordo-de-la-mision-dragonfly-de-la-nasa/",
+      "url": "https://www.nasa.gov/news-release/envia-tu-nombre-a-titan-a-bordo-de-la-mision-dragonfly-de-la-nasa/",
+      "title": "Envía tu nombre a Titán a bordo de la misión Dragonfly de la NASA",
+      "content_text": "Read this release in English here. Puede que nunca llegues a surcar los cielos bajo las nubes o sobre las arenas orgánicas de la luna Titán de Saturno, ¡pero tu…",
+      "summary": "Read this release in English here. Puede que nunca llegues a surcar los cielos bajo las nubes o sobre las arenas orgánicas de la luna Titán de Saturno, ¡pero tu…",
+      "date_published": "2026-10-29T00:00:00Z",
       "tags": [
-        "APOD",
+        "NASA en español",
         "航天",
         "科学"
       ],

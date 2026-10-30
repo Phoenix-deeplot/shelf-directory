@@ -1,46 +1,229 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/t-1f88be.xml</id>
-  <title>公共目录 · #科学</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · #科学</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-1f88be.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/</id>
-    <title>Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy</title>
-    <link rel="alternate" type="text/html" href="https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Artemis II Commander Reid Wiseman has been named Caltech associate vice president and deputy director of NASA’s Jet Propulsion Laboratory in Southern California…</summary>
-    <source><title>NASA</title></source>
-    <category term="Jet Propulsion Laboratory"/>
-    <category term="Artemis 2"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/</id>
-    <title>Arnab Strikes India</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">The first named storm of the North Indian Ocean’s cyclone season made landfall along the coast of Andhra Pradesh.</summary>
+    <id>https://science.nasa.gov/earth/earth-observatory/vega-island-frozen-in-fright/</id>
+    <title>Vega Island Frozen in Fright</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/earth/earth-observatory/vega-island-frozen-in-fright/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">The sight of an icy skull-like visage on the Antarctic island could make one’s blood run cold.</summary>
     <source><title>NASA</title></source>
     <category term="Earth Observatory"/>
-    <category term="Hurricanes &amp; Typhoons"/>
+    <category term="Ice &amp; Glaciers"/>
+    <category term="Landsat 9"/>
     <category term="航天"/>
     <category term="科学"/>
   </entry>
   <entry>
-    <id>https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/</id>
-    <title>APOD: 29 October 2026 – The Horns of Venus</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">APOD Science APOD APOD: 29 October 2026 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the…</summary>
+    <id>https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/</id>
+    <title>Map Showing Potential Origins of Martian Meteorite Teghaza 001</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Description This global map of Mars shows 13 locations that match the mineralogy and chemistry of Teghaza 001, one of the most ancient Martian meteorites ever f…</summary>
+    <source><title>NASA</title></source>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/</id>
+    <title>APOD: 2026 October 30 – Haunting the Cepheus Flare</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">APOD Science APOD APOD: 2026 October 30 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…</summary>
     <source><title>NASA</title></source>
     <category term="APOD"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261028234238.htm</id>
+    <title>Six popular sugar substitutes linked to faster brain aging</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261028234238.htm"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">A study of nearly 13,000 adults found that people consuming the most artificial sweeteners experienced a 62% faster decline in memory and thinking skills, equiv…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261028232701.htm</id>
+    <title>Scientists discover that cranberry juice may help fight tooth decay</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261028232701.htm"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Cranberry juice may offer an unexpected benefit beyond its reputation for helping prevent urinary tract infections: protecting teeth from decay. Researchers at…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261028232715.htm</id>
+    <title>NASA discovers Jupiter’s invisible shield is more complex than Earth’s</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261028232715.htm"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">NASA’s Juno spacecraft has discovered that Jupiter uses a surprisingly complex system of powerful plasma waves and multiple shock regions to defend against the…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261028232707.htm</id>
+    <title>Less than 42 minutes of bright daylight linked to higher dementia risk</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261028232707.htm"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Getting more daylight could be linked to a surprisingly powerful benefit for brain health. In a study of more than 87,000 adults, researchers found that higher…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261028232719.htm</id>
+    <title>Einstein's equations may explain the universe without dark energy</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261028232719.htm"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Mathematicians have uncovered what they argue is a fundamental flaw in the standard model of the universe, potentially challenging the need for dark energy. The…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261028232659.htm</id>
+    <title>A single brain signal may explain schizophrenia's most puzzling symptoms</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261028232659.htm"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Scientists have identified a weakened brain signal that may connect several seemingly unrelated symptoms of schizophrenia, including sensory processing difficul…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261028232709.htm</id>
+    <title>A 700,000-year-old elephant tooth reveals a lost world where early humans lived</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261028232709.htm"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">A remarkably preserved elephant tooth dating back nearly 700,000 years has revealed a surprisingly lush prehistoric world where giant elephants and early humans…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261028232713.htm</id>
+    <title>128,000-year-old ice in Tibet could rewrite climate history</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261028232713.htm"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Ancient ice discovered high in Tibet may be more than 128,000 years old, preserving an extraordinary record of Earth's climate that scientists previously though…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/</id>
+    <title>Slice of Martian Meteorite Teghaza 001</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Description This slice of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth, was used to determine the age of the rock. Reflected ligh…</summary>
+    <source><title>NASA</title></source>
+    <category term="Meteors &amp; Meteorites"/>
+    <category term="Photojournal"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.nasa.gov/news-release/send-your-name-to-titan-aboard-nasas-dragonfly-mission/</id>
+    <title>Send Your Name to Titan Aboard NASA’s Dragonfly Mission</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/news-release/send-your-name-to-titan-aboard-nasas-dragonfly-mission/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">You may never soar under the clouds or over the organic sands of Saturn’s moon Titan, but your name can. NASA is inviting the public to send their names aboard…</summary>
+    <source><title>NASA</title></source>
+    <category term="Dragonfly"/>
+    <category term="Marshall Space Flight Center"/>
+    <category term="Saturn"/>
+    <category term="Saturn Moons"/>
+    <category term="Science Mission Directorate"/>
+    <category term="Titan"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nih-nasa-qusafe-challenge/</id>
+    <title>NIH–NASA QuSAFE Challenge</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nih-nasa-qusafe-challenge/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">The Quantum-Enabled Predictive Preclinical NAMs for Toxicity and Safety (QuSAFE) Challenge, a collaboration between the National Institutes of Health (NIH) and…</summary>
+    <source><title>NASA</title></source>
+    <category term="CoECI News"/>
+    <category term="General"/>
+    <category term="Get Involved"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/</id>
+    <title>NASA-funded Study Details One of Oldest Mars Meteorites Ever Found</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">When a rose-colored meteorite was found in the Sahara Desert in 2022, no one knew how old it was or where it came from. Not until NASA-funded scientists age-dat…</summary>
+    <source><title>NASA</title></source>
+    <category term="Mars"/>
+    <category term="General"/>
+    <category term="Jet Propulsion Laboratory"/>
+    <category term="Meteors &amp; Meteorites"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.nasa.gov/news-release/nasa-names-troy-asher-armstrong-flight-research-center-director/</id>
+    <title>NASA Names Troy Asher Armstrong Flight Research Center Director</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/news-release/nasa-names-troy-asher-armstrong-flight-research-center-director/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">NASA Administrator Jared Isaacman has named Troy Asher director of the agency’s Armstrong Flight Research Center in Edwards, California. Asher, a veteran test p…</summary>
+    <source><title>NASA</title></source>
+    <category term="Leadership"/>
+    <category term="People of NASA"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/</id>
+    <title>Halloween Aboard the International Space Station</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Although no ghouls, goblins, or trick-or-treaters come knocking at the International Space Station’s front hatch, crew members aboard the orbiting laboratory st…</summary>
+    <source><title>NASA</title></source>
+    <category term="Johnson Space Center"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.nasa.gov/news-release/envia-tu-nombre-a-titan-a-bordo-de-la-mision-dragonfly-de-la-nasa/</id>
+    <title>Envía tu nombre a Titán a bordo de la misión Dragonfly de la NASA</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/news-release/envia-tu-nombre-a-titan-a-bordo-de-la-mision-dragonfly-de-la-nasa/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Read this release in English here. Puede que nunca llegues a surcar los cielos bajo las nubes o sobre las arenas orgánicas de la luna Titán de Saturno, ¡pero tu…</summary>
+    <source><title>NASA</title></source>
+    <category term="NASA en español"/>
     <category term="航天"/>
     <category term="科学"/>
   </entry>
@@ -174,77 +357,6 @@
     <summary type="text">A new Finnish study reveals that just 30 minutes in a sauna can temporarily flood the bloodstream with additional white blood cells, potentially helping the imm…</summary>
     <source><title>Latest Science News -- ScienceDaily</title></source>
     <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/</id>
-    <title>Webb Sees Turbulent Star Nursery</title>
-    <link rel="alternate" type="text/html" href="https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">In this Webb image released on Oct. 22, 2026, we see a turbulent cauldron of star formation filled with dense clumps of gas. This region is named N159 and is lo…</summary>
-    <source><title>NASA</title></source>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/</id>
-    <title>NASA Welcomes Vietnam as Newest Artemis Accords Signatory</title>
-    <link rel="alternate" type="text/html" href="https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">The Socialist Republic of Vietnam became the 78th nation to sign the Artemis Accords, joining a growing coalition of like-minded nations committed to the peacef…</summary>
-    <source><title>NASA</title></source>
-    <category term="Artemis Accords"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/</id>
-    <title>NASA University Challenge Ignites Trajectory of Drone Entrepreneur</title>
-    <link rel="alternate" type="text/html" href="https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Five years ago, Gavin Gardner was a Michigan State University engineering student researching next-generation drone technology as part of a NASA grant. Garder e…</summary>
-    <source><title>NASA</title></source>
-    <category term="Aeronautics"/>
-    <category term="University Innovation"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/</id>
-    <title>NASA Selects 19 New Citizen Science Proposals in 2026</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">So far, 2026 has seen a flood of successes for volunteers who do NASA science, exemplifying NASA’s commitment to gold-standard science—transparent, reproducible…</summary>
-    <source><title>NASA</title></source>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/</id>
-    <title>Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Written by Lucy Lim, Planetary Scientist at NASA’s Goddard Space Flight Center Earth planning date: Friday, Oct. 16, 2026 Following the Basque Lakes drill campa…</summary>
-    <source><title>NASA</title></source>
-    <category term="Blogs"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/</id>
-    <title>APOD: 2026 October 28 – The Mutual Occultation of Ganymede and Io</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">APODScienceAPODAPOD: 2026 October 28 – The…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover…</summary>
-    <source><title>NASA</title></source>
-    <category term="APOD"/>
-    <category term="航天"/>
     <category term="科学"/>
   </entry>
   <entry>
@@ -463,105 +575,6 @@
     <updated>2026-10-26T00:00:00Z</updated>
     <published>2026-10-26T00:00:00Z</published>
     <summary type="text">A mysterious shipwreck off Turkey’s coast may be the oldest ever discovered, dating back approximately 4,500 years to the age of the Egyptian pyramids. Although…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261024222031.htm</id>
-    <title>AI detects “invisible” signs of pancreatic cancer years before diagnosis</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261024222031.htm"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">A powerful new AI system could help doctors detect pancreatic cancer years before it becomes visible on conventional scans. The technology, called REDMOD, ident…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261025073055.htm</id>
-    <title>A 2,700-year-old solar eclipse just revealed something surprising about Earth</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261025073055.htm"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">A solar eclipse recorded more than 2,700 years ago is revealing surprising secrets about Earth's rotation and the Sun's ancient behavior. By correcting an eight…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261025073042.htm</id>
-    <title>1.9-million-year-old discovery rewrites the story of human evolution</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261025073042.htm"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">New evidence suggests that early humans reached the Jordan Valley at least 1.9 million years ago, hundreds of thousands of years earlier than scientists previou…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261024222000.htm</id>
-    <title>Three giant black holes discovered in a galaxy from the dawn of time</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261024222000.htm"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">Astronomers have discovered three actively feeding black holes inside a single galaxy more than 12.5 billion light-years away, revealing a remarkable scene from…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261024222021.htm</id>
-    <title>This mysterious mushroom makes people see hundreds of tiny humans</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261024222021.htm"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">For nearly a century, people in distant parts of the world have reported a bizarre experience after eating certain wild mushrooms: seeing dozens or even hundred…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261024222028.htm</id>
-    <title>Scientists reveal the hidden danger of missing blood pressure medication</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261024222028.htm"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">Missing blood pressure medication could mean losing much of its protection against heart attacks and strokes, according to an analysis of more than 91,000 peopl…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261024222024.htm</id>
-    <title>Scientists overcome a hidden obstacle to more powerful quantum computers</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261024222024.htm"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">Scientists have discovered a way to operate multiple silicon qubits simultaneously with remarkable accuracy, overcoming a major challenge in scaling up quantum…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261024221849.htm</id>
-    <title>Scientists discover how pancreatic cancer rewrites its DNA to escape treatment</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261024221849.htm"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">Scientists have discovered how pancreatic cancer cells continually reshape their genetic makeup to become more aggressive, spread, and evade treatment. In labor…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261024221952.htm</id>
-    <title>Popular cannabis sleep gummies may have a hidden dark side</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261024221952.htm"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">A cannabis-derived ingredient commonly found in sleep gummies may be more habit-forming than previously thought, with new research showing that repeated exposur…</summary>
     <source><title>Latest Science News -- ScienceDaily</title></source>
     <category term="学术"/>
     <category term="科学"/>

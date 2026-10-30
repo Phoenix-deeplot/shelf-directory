@@ -1,229 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/ai.xml</id>
-  <title>公共目录 · #AI</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · #AI</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/ai.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6486266.html</id>
-    <title>鹅厂出手：面向Agent的网盘，到底应该长什么样？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486266.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">作者手上十几个 AI 工具，一直想给它们找个共同的仓库。腾讯网盘把「面向 Agent」写进了定位，他把内测几天折腾下来的连接、授权、备份和跨工具取资料的体验记了一遍，哪些真省事，哪些还差口气。 必须承认，我现在用AI，某种意义上就是一种消费。 我的工具一大堆—— Claude Code、Codex、WorkBuddy、…</summary>
+    <id>https://www.woshipm.com/ai/6486879.html</id>
+    <title>豆包终于学会了腾讯WorkBuddy的杀手锏？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486879.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">字节的豆包工作，终于开始向腾讯 WorkBuddy 学习了。 以后用豆包工作，背后帮你干活的可能是 DeepSeek，也可能是 Kimi、GLM。 昨天，豆包工作开始向企业客户开放第三方大模型服务，首批接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等系列模型。 字节辛辛苦苦研发…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="Codex"/>
+    <category term="DeepSeek"/>
+    <category term="Kimi"/>
     <category term="WorkBuddy"/>
     <category term="腾讯"/>
+    <category term="豆包"/>
     <category term="产品"/>
     <category term="运营"/>
-    <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6486169.html</id>
-    <title>首个记忆原生大模型开源，36B 本地部署实测：成功把规矩”刻”进脑子</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486169.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">AI 编程最痛的不是写不出代码，而是换个会话就忘光。MemT-1 想做的事很直接：把踩过的坑写进模型权重，36B 版本在单卡 A100 上跑通，长程任务里到底管不管用，这篇给了实测。 做智能体或者日常用 Cursor、Claude Code、Windsurf 等 AI 辅助写代码的老铁们，大概率都经历过同一种“内伤”：…</summary>
+    <id>https://www.woshipm.com/ai/6486774.html</id>
+    <title>挖到个宝藏27B开源Code2Video模型！可本地安装，还送MG Skill～</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486774.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">HeyGen 的 Code2Video 榜单上，前八名清一色闭源，Claude Opus 5.5 排第一，开源模型多在百分之十上下。一个 27B 开源模型能本地安装，还能在 HyperFrames 里稳定出片。 老粉应该知道，我最开始是一个后端开发，剪辑和AE是完全一窍不通。 但从今年2月开始，我陆陆续续用代码做了不少…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
     <category term="AI编程"/>
-    <category term="MemOS"/>
-    <category term="案例分析"/>
-    <category term="行业观察"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6486194.html</id>
-    <title>详细拆解 Pi Agent：产品经理搞懂 Agent 的最佳实践</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486194.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">OpenClaw 背后真正负责思考和动手的，是一个叫 Pi 的极简框架。拆完整个项目，作者把 Agent 的循环、上下文工程、工具系统与状态管理，讲成了一套可以迁移的产品原则。 如果你正在学习 Agent，或者要面向 Agent 优化迭代你的产品，强烈建议深度使用、拆解、学习 Pi Agent 这套开源项目。 我前段时…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="AI产品"/>
-    <category term="Claude"/>
-    <category term="产品分析"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6486181.html</id>
-    <title>腾讯网盘上线，行业首个Agent网盘来了，实测惊艳</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486181.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">腾讯网盘上线，主打面向 Agent 的存储底座：连上 WorkBuddy、ima、腾讯文档与飞书，把散落各处的资料归到一处。五个步骤实测下来，它到底能不能当 AI 时代的统一入口。 早在今年 6 月份，就有可靠消息显示，腾讯正在研发一款 Agent 网盘产品：腾讯网盘。 我还专为此写过一篇文章，对这个产品充满期待。 腾…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI产品"/>
-    <category term="WorkBuddy"/>
-    <category term="腾讯网盘"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6486200.html</id>
-    <title>电商产品设计终极工作流：用AI一键生成可交互、可拆解的产品3D demo</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486200.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">从亚马逊评论中挖掘产品改进机会，再生成可交互的3D Demo，这套工作流让产品设计效率倍增。本文详细拆解如何用WorkBuddy和卖家精灵MCP，完成VOC分析、方案构思到三维演示的全过程，并附上实用提示词和模板，助你快速上手。 今天想给大家分享一个有趣又实用的电商产品设计工作流，对产品设计、运营、设计师都会有很大帮助…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="3D Demo"/>
-    <category term="AI应用"/>
-    <category term="VOC分析"/>
-    <category term="WorkBuddy"/>
-    <category term="卖家精灵"/>
-    <category term="电商产品设计"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6486183.html</id>
-    <title>张一鸣又造出一个国民级APP</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486183.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">谁能想到，曾经被不少人嫌弃“又土又俗”的短剧，如今已经成了互联网大厂争夺用户时间的重要战场。 10月29日，一组关于红果短剧的数据引发关注。 QuestMobile数据显示，2026年5月，红果短剧月活跃用户达到3.56亿；7月日活跃用户达到1.68亿，同比增长107%，甚至超过腾讯视频、爱奇艺、优酷、芒果TV四家长视…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="小程序"/>
-    <category term="微信"/>
-    <category term="抖音"/>
-    <category term="腾讯"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6486063.html</id>
-    <title>开源性转马尔福 AI 女友，用即梦短剧工作室做的</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486063.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">性转马尔福一条帖子刷到 2300 万浏览，有人干脆用即梦 AI 短剧工作室做了个桌面应用：第一人称剧情、好感度解锁、角色就住在桌面里。画面和配音用即梦，音乐用 Suno，代码交给 Claude。 这一个多月，你应该刷到过性转马尔福吧。 起因是 9 月 22 日，一位俄罗斯画师在 X 上发了一张图。 图上是一个穿着斯莱特…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI应用"/>
-    <category term="Claude"/>
-    <category term="Suno"/>
+    <category term="Claude Code"/>
     <category term="经验分享"/>
     <category term="产品"/>
     <category term="运营"/>
+    <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6486168.html</id>
-    <title>从 GEO 实战重新理解知识图谱</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486168.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">知识图谱不是静态资料库，而是品牌在 AI 世界的认知底座。本文从 GEO 优化视角，拆解知识图谱如何统一认知、指导选题、串联内容并发现缺口，并分享市场部运营人员从零搭建、持续迭代的实战方法，让知识树既能摘果也能灌溉。 一、前提 最近在重新梳理公司的知识图谱。最开始的原因其实很简单——我看了不少 GEO的行业报告，里面几…</summary>
+    <id>https://www.woshipm.com/ai/6486782.html</id>
+    <title>我花了 10 个小时，用AI编了一套精美的诗集：Skills 开源，附 6 套宋代美学模板</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486782.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">为了验证百万级上下文，他用 Kimi K3.1 Pro 编了一套苏轼诗集，一千四百四十八页、三千二百条作品，中途废掉一版竖排稿，烧掉一点六九亿 Token，三百多次调用十小时完工。 现在的大模型普遍支持最高 1M 超长上下文 周二我发了 Kimi K3.1 Pro 的实测：国产最强开源大模型，Kimi K3.1 Pro…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI搜索"/>
-    <category term="GEO"/>
-    <category term="内容运营"/>
-    <category term="市场部"/>
-    <category term="知识图谱"/>
-    <category term="经验总结"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6485988.html</id>
-    <title>下一代PPT，AI 做 PPT 的终极形态</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485988.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">当 AI 能生成 3D 模型和动态视频，PPT 的叙事逻辑正在被改写。本文从产品演示的真实痛点出发，结合 Rebecca Minkoff、宜家等案例，拆解如何用 3D 视角和动态画面讲清空间关系与变化过程，并给出从产品图到短视频的完整实操路径。 2026年，用 AI 做 PPT 的终极形态，长这样 先说结论：我做 PP…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="3D 模型"/>
-    <category term="AI 应用"/>
-    <category term="AI 生成 PPT"/>
-    <category term="产品展示"/>
-    <category term="动态演示"/>
-    <category term="案例分析"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6486185.html</id>
-    <title>ChatGPT 每月送 API 额度，最多 500 美元/月</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486185.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">OpenAI 给 ChatGPT 订阅加了项福利：Pro 和 Business 用户每月可领与订阅等额的 API 额度，最高 500 美元。与此同时，原有额度被砍掉一半，这笔账要怎么算，几步就能领。 OpenAI 给 ChatGPT 订阅加了一项福利：Pro 和 Business 用户，每月可领 API 额度，等同于订…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="ChatGPT"/>
-    <category term="OpenAI"/>
-    <category term="行业动态"/>
+    <category term="AI应用"/>
+    <category term="Kimi"/>
+    <category term="经验分享"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.freightwaves.com/news/double-nickel-launches-ai-agent-to-automate-driver-employment-checks</id>
-    <title>Double Nickel launches AI agent to automate driver employment checks</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/double-nickel-launches-ai-agent-to-automate-driver-employment-checks"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Double Nickel has launched an artificial intelligence agent to automate employment verifications for trucking companies, targeting a time-consuming part of driv…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="News"/>
-    <category term="Technology"/>
+    <id>https://www.woshipm.com/ai/6486778.html</id>
+    <title>微软谷歌重整办公套件，腾讯 Buddy One 串联应用：办公 AI 开始比拼生态协同</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486778.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">微软给 Work IQ 加了检索工具，Google 让 Gemini 打通邮件与云盘，腾讯发布 Buddy One 串联自家应用。办公 AI 从单点功能转向生态协同，组合订阅成了留住付费的理由。 “创造力，就是把事物连接起来。”——史蒂夫·乔布斯，1996 年《连线》 10 月 20 日，微软为 Work IQ 推出新…</summary>
+    <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
-    <category term="Double Nickel"/>
-    <category term="FreightWaves"/>
-    <category term="logistics"/>
-    <category term="货运"/>
-    <category term="数据"/>
+    <category term="个人随笔"/>
+    <category term="AI产品"/>
+    <category term="腾讯"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.freightwaves.com/news/japan-airlines-hires-b747-cargo-carriers-to-meet-high-tech-demand</id>
-    <title>Japan Airlines hires B747 cargo carriers to meet high-tech demand</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/japan-airlines-hires-b747-cargo-carriers-to-meet-high-tech-demand"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Japan Airlines is adding more dedicated, long-haul cargo capacity by outsourcing flying to airlines with large freighter aircraft. The post Japan Airlines hires…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Air Cargo"/>
-    <category term="American Shipper"/>
-    <category term="News"/>
+    <id>https://www.woshipm.com/ai/6486764.html</id>
+    <title>学到钉钉们的精髓了？Claude上线逆天功能，帮企业监控员工是否用AI摸鱼</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486764.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Anthropic 为 Claude Enterprise 上线智能报告，管理员能读取团队二十八天内的对话，把工作归到不同流程，标出哪些会话没有产出。一家把安全写进使命的公司，先做出了监工工具。 2026年10月，Anthropic为Claude Enterprise上线了一个新功能——“智能报告”。 名字平平无奇，能…</summary>
+    <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
-    <category term="Artificial intelligence"/>
-    <category term="Atlas Air"/>
-    <category term="Japan Airlines"/>
-    <category term="nippon express"/>
+    <category term="个人随笔"/>
+    <category term="Anthropic"/>
+    <category term="Claude"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.freightwaves.com/news/ai-air-freight-drives-kuehnenagel-profit-increase</id>
-    <title>AI air freight drives Kuehne+Nagel profit increase</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/ai-air-freight-drives-kuehnenagel-profit-increase"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Logistics behemoth Kuehne+Nagel reported strong results in the third quarter, powered by hyperscaler demand for air cargo and productivity gains. The post AI ai…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Air Cargo"/>
-    <category term="American Shipper"/>
-    <category term="Company Earnings"/>
-    <category term="News"/>
+    <id>https://www.woshipm.com/ai/6486788.html</id>
+    <title>DeepSeek的尽头，居然是一条会喊你爸爸的蓝色大肥鱼。</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486788.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">DeepSeek 的 Logo 是条鲸鱼，一次自我识别认成了蓝色大肥鱼，外号就这么叫开。网友围绕它二创出鲸鱼娘，蓝发鲸尾、爱吃白饭、干活还得讨 Token，各平台都在闹鱼灾。 最近，我真的感觉，国内互联网，快要被一群蓝色大肥鱼给统治了。 刷B站有她，刷抖音也有她，刷小红书还是她。 无论在哪个平台，好像大家都想给她完整的…</summary>
+    <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
-    <category term="earnings"/>
-    <category term="Kuehne+Nagel"/>
-    <category term="货运"/>
+    <category term="个人随笔"/>
+    <category term="DeepSeek"/>
+    <category term="内容创作"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
   </entry>
 </feed>

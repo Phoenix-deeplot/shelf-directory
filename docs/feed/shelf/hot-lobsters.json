@@ -1,9 +1,9 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · Lobsters",
+  "title": "知树阅读-个人图书空间 · Lobsters",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/shelf/hot-lobsters.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
@@ -12,9 +12,9 @@
       "id": "https://entropicthoughts.com/what-the-fox-say",
       "url": "https://entropicthoughts.com/what-the-fox-say",
       "title": "What the fox say?",
-      "content_text": "第 5 名 · ▲ 8 · games · 2 条评论",
-      "summary": "第 5 名 · ▲ 8 · games · 2 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 5 名 · ▲ 60 · games · 13 条评论",
+      "summary": "第 5 名 · ▲ 60 · games · 13 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -30,12 +30,12 @@
       }
     },
     {
-      "id": "https://www.netmeister.org/blog/defense-ddos.html",
-      "url": "https://www.netmeister.org/blog/defense-ddos.html",
-      "title": "This is not sustainable",
-      "content_text": "第 7 名 · ▲ 136 · security · 33 条评论",
-      "summary": "第 7 名 · ▲ 136 · security · 33 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://lobste.rs/s/eccbci",
+      "url": "https://lobste.rs/s/eccbci",
+      "title": "Shared password manager for families?",
+      "content_text": "第 6 名 · ▲ 30 · ask security · 41 条评论",
+      "summary": "第 6 名 · ▲ 30 · ask security · 41 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -51,12 +51,12 @@
       }
     },
     {
-      "id": "https://v12.sh/blog/the-case-of-the-9bit-aes-key",
-      "url": "https://v12.sh/blog/the-case-of-the-9bit-aes-key",
-      "title": "The case of the 9 bit AES key",
-      "content_text": "第 9 名 · ▲ 20 · cryptography reversing · 0 条评论",
-      "summary": "第 9 名 · ▲ 20 · cryptography reversing · 0 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://divagr.com/blog/qwenputer",
+      "url": "https://divagr.com/blog/qwenputer",
+      "title": "Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5",
+      "content_text": "第 10 名 · ▲ 40 · ai · 6 条评论",
+      "summary": "第 10 名 · ▲ 40 · ai · 6 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -72,12 +72,12 @@
       }
     },
     {
-      "id": "https://spritely.institute/news/hoot-0-10-0-released.html",
-      "url": "https://spritely.institute/news/hoot-0-10-0-released.html",
-      "title": "Hoot 0.10.0 released",
-      "content_text": "第 10 名 · ▲ 35 · lisp release · 2 条评论",
-      "summary": "第 10 名 · ▲ 35 · lisp release · 2 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://discourse.imfreedom.org/t/pidgin-3-0-alpha-4-2-98-0-has-been-released/445",
+      "url": "https://discourse.imfreedom.org/t/pidgin-3-0-alpha-4-2-98-0-has-been-released/445",
+      "title": "Pidgin 3.0 Alpha 4 2.98.0 has been released",
+      "content_text": "第 3 名 · ▲ 8 · release · 1 条评论",
+      "summary": "第 3 名 · ▲ 8 · release · 1 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -93,12 +93,12 @@
       }
     },
     {
-      "id": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
-      "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
-      "title": "GitLab security incident: attempted exploitation of CVE-2026-97229",
-      "content_text": "第 2 名 · ▲ 31 · linux security · 5 条评论",
-      "summary": "第 2 名 · ▲ 31 · linux security · 5 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.phorge.it/",
+      "url": "https://www.phorge.it/",
+      "title": "Phorge",
+      "content_text": "第 9 名 · ▲ 19 · php vcs · 7 条评论",
+      "summary": "第 9 名 · ▲ 19 · php vcs · 7 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -114,12 +114,12 @@
       }
     },
     {
-      "id": "https://thestateofinahaze.net/blog/c-goto-considered-totally-sick/",
-      "url": "https://thestateofinahaze.net/blog/c-goto-considered-totally-sick/",
-      "title": "GOTO Considered Totally Sick (for error handling in C)",
-      "content_text": "第 8 名 · ▲ 34 · c · 12 条评论",
-      "summary": "第 8 名 · ▲ 34 · c · 12 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://mastodon.sdf.org/@netbsd/117518160563539748",
+      "url": "https://mastodon.sdf.org/@netbsd/117518160563539748",
+      "title": "NetBSD adds a new Emacs-like text editor called atto",
+      "content_text": "第 4 名 · ▲ 46 · editors netbsd · 26 条评论",
+      "summary": "第 4 名 · ▲ 46 · editors netbsd · 26 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -135,12 +135,12 @@
       }
     },
     {
-      "id": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/",
-      "url": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/",
-      "title": "EMACS turns 50",
-      "content_text": "第 3 名 · ▲ 43 · emacs historical · 2 条评论",
-      "summary": "第 3 名 · ▲ 43 · emacs historical · 2 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+      "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+      "title": "My favourite PowerMac is a Nintendo Wii",
+      "content_text": "第 8 名 · ▲ 38 · retrocomputing reversing · 1 条评论",
+      "summary": "第 8 名 · ▲ 38 · retrocomputing reversing · 1 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -156,12 +156,54 @@
       }
     },
     {
-      "id": "https://wiki.alpinebsd.org/",
-      "url": "https://wiki.alpinebsd.org/",
-      "title": "AlpineBSD",
-      "content_text": "第 6 名 · ▲ 71 · netbsd · 19 条评论",
-      "summary": "第 6 名 · ▲ 71 · netbsd · 19 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://lobste.rs/s/dsrruj",
+      "url": "https://lobste.rs/s/dsrruj",
+      "title": "London meetup",
+      "content_text": "第 1 名 · ▲ 27 · event · 17 条评论",
+      "summary": "第 1 名 · ▲ 27 · event · 17 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Lobsters"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-lobsters"
+      }
+    },
+    {
+      "id": "http://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+      "url": "http://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+      "title": "If you love a website, back it up",
+      "content_text": "第 2 名 · ▲ 16 · web · 5 条评论",
+      "summary": "第 2 名 · ▲ 16 · web · 5 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Lobsters"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-lobsters"
+      }
+    },
+    {
+      "id": "https://www.da.vidbuchanan.co.uk/blog/c2pa-four.html",
+      "url": "https://www.da.vidbuchanan.co.uk/blog/c2pa-four.html",
+      "title": "C2PA's eMudhra Moment",
+      "content_text": "第 7 名 · ▲ 15 · cryptography security · 1 条评论",
+      "summary": "第 7 名 · ▲ 15 · cryptography security · 1 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"

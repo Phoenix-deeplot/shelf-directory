@@ -1,117 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/shelf/hot-hackernews.xml</id>
-  <title>公共目录 · Hacker News</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · Hacker News</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/hot-hackernews.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://nullpt.rs/fingerprinting-bioweapons</id>
-    <title>Why is this fingerprinting script creating bioweapons?</title>
-    <link rel="alternate" type="text/html" href="https://nullpt.rs/fingerprinting-bioweapons"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 1 名 · ▲ 1,217 · 231 条评论</summary>
+    <id>https://www.bbc.com/news/articles/cm8xz7pkd0jjo</id>
+    <title>What we know so far about Spain train crash</title>
+    <link rel="alternate" type="text/html" href="https://www.bbc.com/news/articles/cm8xz7pkd0jjo"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 9 名 · ▲ 184 · 356 条评论</summary>
     <source><title>Hacker News</title></source>
     <category term="热榜"/>
     <category term="hacker news"/>
   </entry>
   <entry>
-    <id>https://www.circuithub.com/post/unveiling-the-grid</id>
-    <title>The Grid, a factory-scale robot in Massachusetts that builds PCBs on demand</title>
-    <link rel="alternate" type="text/html" href="https://www.circuithub.com/post/unveiling-the-grid"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 5 名 · ▲ 499 · 227 条评论</summary>
+    <id>https://mistral.ai/news/mistral-large-4-oss/</id>
+    <title>We're releasing the weights of Mistral Large 4</title>
+    <link rel="alternate" type="text/html" href="https://mistral.ai/news/mistral-large-4-oss/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 2 名 · ▲ 1,406 · 381 条评论</summary>
     <source><title>Hacker News</title></source>
     <category term="热榜"/>
     <category term="hacker news"/>
   </entry>
   <entry>
-    <id>https://data.stackexchange.com/stackoverflow/query/1926661</id>
-    <title>StackOverflow now gets fewer than 1000 questions a month</title>
-    <link rel="alternate" type="text/html" href="https://data.stackexchange.com/stackoverflow/query/1926661"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 8 名 · ▲ 442 · 365 条评论</summary>
+    <id>https://labs.ycombinator.com/projects/games/index.html</id>
+    <title>We ran AI agent swarms in Minecraft and Mindustry</title>
+    <link rel="alternate" type="text/html" href="https://labs.ycombinator.com/projects/games/index.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 7 名 · ▲ 263 · 89 条评论</summary>
     <source><title>Hacker News</title></source>
     <category term="热榜"/>
     <category term="hacker news"/>
   </entry>
   <entry>
-    <id>https://divagr.com/blog/qwenputer</id>
-    <title>Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5</title>
-    <link rel="alternate" type="text/html" href="https://divagr.com/blog/qwenputer"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 7 名 · ▲ 456 · 96 条评论</summary>
+    <id>https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html</id>
+    <title>Patrick Stewart has died</title>
+    <link rel="alternate" type="text/html" href="https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 1 名 · ▲ 2,869 · 609 条评论</summary>
     <source><title>Hacker News</title></source>
     <category term="热榜"/>
     <category term="hacker news"/>
   </entry>
   <entry>
-    <id>https://www.apple.com/macbook-pro/proled-xdr-display/</id>
-    <title>MacBook Pro with PROLED XDR Display and Touch</title>
-    <link rel="alternate" type="text/html" href="https://www.apple.com/macbook-pro/proled-xdr-display/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 4 名 · ▲ 578 · 977 条评论</summary>
+    <id>https://martinfowler.com/bliki/LLM-Voice.html</id>
+    <title>LLM Voice</title>
+    <link rel="alternate" type="text/html" href="https://martinfowler.com/bliki/LLM-Voice.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 4 名 · ▲ 454 · 244 条评论</summary>
     <source><title>Hacker News</title></source>
     <category term="热榜"/>
     <category term="hacker news"/>
   </entry>
   <entry>
-    <id>https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/</id>
-    <title>Gemini 4 Carbon</title>
-    <link rel="alternate" type="text/html" href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 3 名 · ▲ 933 · 749 条评论</summary>
+    <id>https://iptrust.co/blog/if-ipv4-were-land</id>
+    <title>If IPv4 were land</title>
+    <link rel="alternate" type="text/html" href="https://iptrust.co/blog/if-ipv4-were-land"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 6 名 · ▲ 278 · 385 条评论</summary>
     <source><title>Hacker News</title></source>
     <category term="热榜"/>
     <category term="hacker news"/>
   </entry>
   <entry>
-    <id>https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce</id>
-    <title>Claude Code regularly sends each background agent’s transcript to its model</title>
-    <link rel="alternate" type="text/html" href="https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 9 名 · ▲ 363 · 120 条评论</summary>
+    <id>https://github.com/herdrdev/herdr-app</id>
+    <title>Herdr has released native app</title>
+    <link rel="alternate" type="text/html" href="https://github.com/herdrdev/herdr-app"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 10 名 · ▲ 161 · 97 条评论</summary>
     <source><title>Hacker News</title></source>
     <category term="热榜"/>
     <category term="hacker news"/>
   </entry>
   <entry>
-    <id>https://carmelitegothic.com/cnc-stone-carving/</id>
-    <title>CNC Stone Carving</title>
-    <link rel="alternate" type="text/html" href="https://carmelitegothic.com/cnc-stone-carving/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 6 名 · ▲ 470 · 130 条评论</summary>
+    <id>https://sidbala.com/h-264-is-magic/</id>
+    <title>H.264 Is Magic (2016)</title>
+    <link rel="alternate" type="text/html" href="https://sidbala.com/h-264-is-magic/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 5 名 · ▲ 405 · 148 条评论</summary>
     <source><title>Hacker News</title></source>
     <category term="热榜"/>
     <category term="hacker news"/>
   </entry>
   <entry>
-    <id>https://emudhra.we-have-a-problem.com/apple.html</id>
-    <title>Apple's git still trusts the compromised eMudhra certificates</title>
-    <link rel="alternate" type="text/html" href="https://emudhra.we-have-a-problem.com/apple.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 2 名 · ▲ 1,134 · 396 条评论</summary>
+    <id>https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8</id>
+    <title>Binance-hacker-1029 – $5.6B stolen from Binance</title>
+    <link rel="alternate" type="text/html" href="https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 3 名 · ▲ 1,223 · 755 条评论</summary>
     <source><title>Hacker News</title></source>
     <category term="热榜"/>
     <category term="hacker news"/>
   </entry>
   <entry>
-    <id>https://furbo.org/2026/10/28/a-health-update/</id>
-    <title>A Health Update</title>
-    <link rel="alternate" type="text/html" href="https://furbo.org/2026/10/28/a-health-update/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 10 名 · ▲ 252 · 40 条评论</summary>
+    <id>https://github.com/SheepSeb/tinyworldformer</id>
+    <title>A tiny world model running games on a Raspberry Pi Pico 2 W</title>
+    <link rel="alternate" type="text/html" href="https://github.com/SheepSeb/tinyworldformer"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 8 名 · ▲ 195 · 13 条评论</summary>
     <source><title>Hacker News</title></source>
     <category term="热榜"/>
     <category term="hacker news"/>

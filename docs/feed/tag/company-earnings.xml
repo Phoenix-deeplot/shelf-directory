@@ -1,11 +1,160 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/company-earnings.xml</id>
-  <title>公共目录 · #Company Earnings</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · #Company Earnings</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/company-earnings.xml"/>
-  <updated>2026-10-28T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/fedex-freight-sees-volumes-stabilize-eyes-q4-margin-improvement</id>
+    <title>FedEx Freight sees volumes stabilize, eyes Q4 margin improvement</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/fedex-freight-sees-volumes-stabilize-eyes-q4-margin-improvement"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">FedEx Freight reported Thursday that volumes continue to stabilize, and it anticipates stronger operating leverage next year, bolstered by business wins and an…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="Less than Truckload (LTL)"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="FedEx"/>
+    <category term="FedEx Freight"/>
+    <category term="FedEx Freight spinoff"/>
+    <category term="LTL carriers"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/xpos-pricing-operating-initiatives-drive-q3-beat</id>
+    <title>XPO’s pricing, operating initiatives drive Q3 beat</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/xpos-pricing-operating-initiatives-drive-q3-beat"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Driven by higher volumes and stronger pricing, XPO once again exceeded expectations as these factors continue to amplify the impact of its operational efficienc…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="Less than Truckload (LTL)"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="xpo"/>
+    <category term="Less-than-truckload pricing"/>
+    <category term="LTL carriers"/>
+    <category term="LTL pricing"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/saias-expanded-terminal-network-delivers-record-revenue-tonnage</id>
+    <title>Saia’s expanded terminal network delivers record revenue, tonnage</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/saias-expanded-terminal-network-delivers-record-revenue-tonnage"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Less-than-truckload carrier Saia achieved record revenue and tonnage in the third quarter by leveraging its expanded terminal network, with operational focus no…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="Less than Truckload (LTL)"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="LTL carriers"/>
+    <category term="LTL terminal additions"/>
+    <category term="LTL terminals"/>
+    <category term="LTL tonnage"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/rxos-earnings-still-coming-out-had-solid-profitable-quarter</id>
+    <title>RXO’s earnings still coming out, had solid profitable quarter</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/rxos-earnings-still-coming-out-had-solid-profitable-quarter"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">RXO remains a publicly-traded company as it prepares to be acquired by C.H. Robinson, posting its earnings Thursday that showed mostly positive numbers in all k…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="3PL and Brokerage"/>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="C.H. Robinson"/>
+    <category term="RXO"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/first-look-tfi-truckload-sparkles-but-or-at-ltl-slips</id>
+    <title>First look: TFI Truckload sparkles, but OR at LTL slips</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/first-look-tfi-truckload-sparkles-but-or-at-ltl-slips"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">TFI International has tried to get investors to take notice of its Truckload operations, which are substantial but smaller than its more better-known LTL segmen…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="Trucking"/>
+    <category term="TFI International"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/first-look-covenant-logistics-q3-freight-revenue-surges-68</id>
+    <title>First look: Covenant Logistics’ Q3 freight revenue surges 68%</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/first-look-covenant-logistics-q3-freight-revenue-surges-68"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Covenant Logistics Group reported a 19.2% increase in third-quarter revenue to $353.9 million, fueled by rapid growth in its managed freight segment. The post F…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Trucking"/>
+    <category term="Covenant"/>
+    <category term="Covenant Logistics"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/fedex-cashes-in-on-premium-logistics-services-fuel-surcharges</id>
+    <title>FedEx cashes in on premium logistics services, fuel surcharges</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/fedex-cashes-in-on-premium-logistics-services-fuel-surcharges"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">FedEx posted positive third quarter results on volume growth and better pricing and anticipates a strong peak season. The post FedEx cashes in on premium logist…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="American Shipper"/>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="earnings"/>
+    <category term="FedEx"/>
+    <category term="logistics services"/>
+    <category term="parcel carriers"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/cpkc-reports-record-revenue-on-strength-of-grain-and-intermodal-traffic</id>
+    <title>CPKC reports record revenue on strength of grain and intermodal traffic</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/cpkc-reports-record-revenue-on-strength-of-grain-and-intermodal-traffic"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">CPKC turned in record 3Q revenue as the railway set records for domestic and international intermodal volumes, as well as for grain. The post CPKC reports recor…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Railroad"/>
+    <category term="Top Stories"/>
+    <category term="carloads"/>
+    <category term="CPKC"/>
+    <category term="earnings"/>
+    <category term="intermodal"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/amazon-battles-freight-inflation-as-shipping-costs-jump-11-in-q3</id>
+    <title>Amazon battles freight inflation as shipping costs jump 11% in Q3</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/amazon-battles-freight-inflation-as-shipping-costs-jump-11-in-q3"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Amazon's logistics network absorbed higher fuel and linehaul costs in the third-quarter while delivering more than 1.5 billion items same-day or overnight. The…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="E-commerce &amp; Fulfillment"/>
+    <category term="News"/>
+    <category term="Amazon"/>
+    <category term="Amazon Logistics"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/werner-enterprises-sees-cost-headwinds-lingering-into-q1</id>
     <title>Werner Enterprises sees cost headwinds lingering into Q1</title>
@@ -119,11 +268,11 @@
     <category term="Company Earnings"/>
     <category term="News"/>
     <category term="Railroad"/>
-    <category term="Top Stories"/>
     <category term="CPKC"/>
     <category term="earnings"/>
     <category term="intermodal"/>
     <category term="railroads"/>
+    <category term="货运"/>
   </entry>
   <entry>
     <id>https://www.freightwaves.com/news/c-h-robinson-and-landstar-stock-prices-slammed-insurance-costs-a-factor</id>
@@ -140,40 +289,6 @@
     <category term="C.H. Robinson"/>
     <category term="Landstar"/>
     <category term="RXO"/>
-    <category term="货运"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/dsv-3q-profit-rises-19-5-as-schenker-integration-lifts-earnings</id>
-    <title>DSV 3Q profit rises 19.5% as Schenker integration lifts earnings</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/dsv-3q-profit-rises-19-5-as-schenker-integration-lifts-earnings"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">DSV’s third-quarter operating profit improved as the Schenker integration savings boosted earnings, offsetting weakness in its trucking division. The post DSV 3…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Company Earnings"/>
-    <category term="Finance"/>
-    <category term="Logistics/Supply Chains"/>
-    <category term="News"/>
-    <category term="Top Stories"/>
-    <category term="trucking"/>
-    <category term="D.B. Schenker"/>
-    <category term="DSV"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/ai-air-freight-drives-kuehnenagel-profit-increase</id>
-    <title>AI air freight drives Kuehne+Nagel profit increase</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/ai-air-freight-drives-kuehnenagel-profit-increase"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Logistics behemoth Kuehne+Nagel reported strong results in the third quarter, powered by hyperscaler demand for air cargo and productivity gains. The post AI ai…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Air Cargo"/>
-    <category term="American Shipper"/>
-    <category term="Company Earnings"/>
-    <category term="News"/>
-    <category term="AI"/>
-    <category term="earnings"/>
-    <category term="Kuehne+Nagel"/>
     <category term="货运"/>
   </entry>
 </feed>

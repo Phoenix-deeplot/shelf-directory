@@ -1,13 +1,35 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #思考",
+  "title": "知树阅读-个人图书空间 · #思考",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-a6c149.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
+    {
+      "id": "https://www.npr.org/2026/10/30/nx-s1-6020932/can-curiosity-save-the-wild",
+      "url": "https://www.npr.org/2026/10/30/nx-s1-6020932/can-curiosity-save-the-wild",
+      "title": "Can curiosity save the wild?",
+      "content_text": "How do we inspire people to care about wild animals without disrupting their lives? This hour, two surprising approaches to getting to know wildlife — and rethi…",
+      "summary": "How do we inspire people to care about wild animals without disrupting their lives? This hour, two surprising approaches to getting to know wildlife — and rethi…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1080+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F76%2Fd9%2Fafd6e0a54db0b4ceeea459eafe2b%2F4719c4bb-9350-4c17-b08c-8af00ddac05c.jpg",
+      "tags": [
+        "演讲",
+        "思考"
+      ],
+      "authors": [
+        {
+          "name": "TED Radio Hour"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "feeds-npr-org-2"
+      }
+    },
     {
       "id": "https://freakonomics.com",
       "url": "https://freakonomics.com",
@@ -1071,28 +1093,6 @@
       "summary": "Before his passing, conductor Robert Franz guided us through the first movement of Dvorák's \"New World Symphony\" using his four essential tools for listening—rh…",
       "date_published": "2025-12-10T00:00:00Z",
       "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3377x1900+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff1%2Fdb%2F19bc343a498989533fb67aaf4d19%2Ffeb7962b-1e27-4349-b721-ea0801172a13.jpg",
-      "tags": [
-        "演讲",
-        "思考"
-      ],
-      "authors": [
-        {
-          "name": "TED Radio Hour"
-        }
-      ],
-      "_shelf": {
-        "type": "audio",
-        "shelf": "feeds-npr-org-2"
-      }
-    },
-    {
-      "id": "https://www.npr.org/2025/12/05/nx-s1-5633258/finding-your-bliss",
-      "url": "https://www.npr.org/2025/12/05/nx-s1-5633258/finding-your-bliss",
-      "title": "Finding your bliss",
-      "content_text": "It's been a long, complicated year. This hour, TED speakers share ideas to help you get grounded, back on track, and even edge toward something like bliss. TED…",
-      "summary": "It's been a long, complicated year. This hour, TED speakers share ideas to help you get grounded, back on track, and even edge toward something like bliss. TED…",
-      "date_published": "2025-12-05T00:00:00Z",
-      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1080+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc8%2F16%2Fd08d5dd54634880f068b1125a282%2F794ea64a-51c2-4d86-9b40-46a4c79deaff.jpg",
       "tags": [
         "演讲",
         "思考"

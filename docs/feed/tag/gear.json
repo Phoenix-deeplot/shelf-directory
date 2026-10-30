@@ -1,13 +1,39 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #Gear",
+  "title": "知树阅读-个人图书空间 · #Gear",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/gear.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
+    {
+      "id": "https://www.wired.com/story/best-kindle-accessories/",
+      "url": "https://www.wired.com/story/best-kindle-accessories/",
+      "title": "The Kindle Accessories I Never Want to Read Without (2026)",
+      "content_text": "Looking to better protect your Kindle or add a little personality to your favorite e-reader? From cases and covers to page-turners and stickers, this is the gui…",
+      "summary": "Looking to better protect your Kindle or add a little personality to your favorite e-reader? From cases and covers to page-turners and stickers, this is the gui…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae246c98025c0ad4677ba62/master/pass/Update%20Best%20Kindle%20Accessories%20102026%20top%20art%20SOURCE%20Amazon-Bondi.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Buying Guides",
+        "Gear / Products / Tablets",
+        "Better Reading",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
     {
       "id": "https://www.wired.com/story/skullcandy-discount-code/",
       "url": "https://www.wired.com/story/skullcandy-discount-code/",
@@ -20,6 +46,32 @@
         "Gear",
         "Gear / Deals",
         "Coupons",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/review/reencle-essential-electric-composter/",
+      "url": "https://www.wired.com/review/reencle-essential-electric-composter/",
+      "title": "Reencle Essential Review: Same Scraps, Lower Price",
+      "content_text": "Reencle has made your favorite kitchen composter cheaper—with a few compromises.",
+      "summary": "Reencle has made your favorite kitchen composter cheaper—with a few compromises.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae254611851ee1df8759d45/master/pass/Review%20Reencle%20Essential%20Electric%20Composter%20102026%20top%20art%20SOURCE%20Amazon.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Home",
+        "Ground Work",
         "科技",
         "社会"
       ],
@@ -70,6 +122,58 @@
         "Gear",
         "Gear / Deals",
         "Coupons",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/petkit-sale-october-2026/",
+      "url": "https://www.wired.com/story/petkit-sale-october-2026/",
+      "title": "Petkit Automatic Cat Litter Box Sale (2026)",
+      "content_text": "As WIRED’s resident pet tech tester, I have lots of opinions on what’s worth your money. Petkit’s automatic litter boxes are my top picks—and my favorite models…",
+      "summary": "As WIRED’s resident pet tech tester, I have lots of opinions on what’s worth your money. Petkit’s automatic litter boxes are my top picks—and my favorite models…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae2af53aad2e56b125912cc/master/pass/Petkit%20Deals%20102026%20top%20art%20SOURCE%20Shop.com.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products / Home",
+        "Cat’s Meow",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/nothing-cmf-deals-october-2026/",
+      "url": "https://www.wired.com/story/nothing-cmf-deals-october-2026/",
+      "title": "Nothing Headphones Sale: Stylish and Up to 41% Off",
+      "content_text": "Some of the brand’s best styles, including the Nothing Headphone (1) and CMF Headphone Pro, are at the lowest prices I’ve ever seen ahead of Black Friday.",
+      "summary": "Some of the brand’s best styles, including the Nothing Headphone (1) and CMF Headphone Pro, are at the lowest prices I’ve ever seen ahead of Black Friday.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae36f07feb0012f49429412/master/pass/Nothing%20Headphone%20Deals%20October%20102026%20top%20art%20SOURCE%20Shop.com.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products / Audio",
+        "Nothing to See Here",
         "科技",
         "社会"
       ],
@@ -184,6 +288,31 @@
       }
     },
     {
+      "id": "https://www.wired.com/story/i-did-push-ups-with-snaps-chunky-ar-glasses/",
+      "url": "https://www.wired.com/story/i-did-push-ups-with-snaps-chunky-ar-glasses/",
+      "title": "I Did Push-Ups With Snap’s Chunky AR Glasses",
+      "content_text": "They fit better than they look and stay put when you move, but Snap’s $2,195 Specs still feel like a developer prototype in search of a purpose.",
+      "summary": "They fit better than they look and stay put when you move, but Snap’s $2,195 Specs still feel like a developer prototype in search of a purpose.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae21f8d86313c19910c81e0/master/pass/Snap%20Specs%20SOURCE%20Boone%20Ashworth.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Gear News and Events",
+        "Reality Check",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/hungryroot-promo-code/",
       "url": "https://www.wired.com/story/hungryroot-promo-code/",
       "title": "Hungryroot Coupon Codes: 30% Off This November 2026",
@@ -209,6 +338,32 @@
       }
     },
     {
+      "id": "https://www.wired.com/review/review-hisense-ur8/",
+      "url": "https://www.wired.com/review/review-hisense-ur8/",
+      "title": "Hisense UR8 RGB MiniLED TV: Midrange Quality, Upscale Color Accuracy",
+      "content_text": "The Hisense UR8 RGB MiniLED is more affordable than competitors and offers exceptional color accuracy, but is otherwise just OK.",
+      "summary": "The Hisense UR8 RGB MiniLED is more affordable than competitors and offers exceptional color accuracy, but is otherwise just OK.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae24c8e168dfe749932c9c5/master/pass/Review%20Hisense%20UR8%20RGB%20MiniLED%20TV%20102026%20top%20art%20SOURCE%20Best%20Buy.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Televisions",
+        "Product Review",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/govee-discount-code/",
       "url": "https://www.wired.com/story/govee-discount-code/",
       "title": "Govee Discount Codes and Deals: 30% Off",
@@ -219,6 +374,32 @@
       "tags": [
         "Gear",
         "Coupons",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/ridge-wallet-deal-october-2026/",
+      "url": "https://www.wired.com/story/ridge-wallet-deal-october-2026/",
+      "title": "Go Minimal—the Ridge Wallet is 20 Percent Off Right Now",
+      "content_text": "The popular Ridge Wallet lives up to the hype and is on sale, along with other Ridge gear. Plus, you can try it risk-free for 99 days.",
+      "summary": "The popular Ridge Wallet lives up to the hype and is on sale, along with other Ridge gear. Plus, you can try it risk-free for 99 days.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae37394a4dff0c29ced940a/master/pass/Ridge%20Wallet%20sale%20deal%20102026%20top%20art%20SOURCE%20Shop.com.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products / Lifestyle",
+        "Stack It Up",
         "科技",
         "社会"
       ],
@@ -412,30 +593,6 @@
       }
     },
     {
-      "id": "https://www.wired.com/story/squarespace-promo-code/",
-      "url": "https://www.wired.com/story/squarespace-promo-code/",
-      "title": "Squarespace Promo Codes: 20% Off in October 2026",
-      "content_text": "Get 20% off your next website, 10% off with exclusive Squarespace discount code, 50% off plans, and more top coupons from WIRED.",
-      "summary": "Get 20% off your next website, 10% off with exclusive Squarespace discount code, 50% off plans, and more top coupons from WIRED.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/66ea076ee8502211cd1d9a42/master/pass/WIRED-Coupons-13.jpg",
-      "tags": [
-        "Gear",
-        "Coupons",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
       "id": "https://www.wired.com/story/sony-wants-you-to-forget-about-discs-with-its-gorgeous-transparent-controller/",
       "url": "https://www.wired.com/story/sony-wants-you-to-forget-about-discs-with-its-gorgeous-transparent-controller/",
       "title": "Sony Wants You to Forget About Discs With Its Gorgeous Transparent Controllers",
@@ -473,201 +630,6 @@
         "Gear",
         "Gear / Trends",
         "We Want the Funk",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/peacock-promo-code/",
-      "url": "https://www.wired.com/story/peacock-promo-code/",
-      "title": "Peacock Promo Codes: 40% Off October 2026",
-      "content_text": "Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.",
-      "summary": "Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/66ea03340e63ccab6b8add4b/master/pass/WIRED-Coupons-1.jpg",
-      "tags": [
-        "Gear",
-        "Coupons",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/paramount-plus-coupon-code/",
-      "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
-      "title": "Paramount+ Coupon Codes and Deals for 2026",
-      "content_text": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
-      "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/67b63b985c0507c1bb18ab66/master/pass/WIRED-Coupons-R2_14.png",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Coupons",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/nordvpn-coupon/",
-      "url": "https://www.wired.com/story/nordvpn-coupon/",
-      "title": "NordVPN Coupons: 75% Off, Plus 3 Months Free in October 2026",
-      "content_text": "Save up to 77% on 2-year plans and get 3 free months with our NordVPN discount codes.",
-      "summary": "Save up to 77% on 2-year plans and get 3 free months with our NordVPN discount codes.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/66ea076fca863bb4c1028b64/master/pass/WIRED-Coupons-11.jpg",
-      "tags": [
-        "Gear",
-        "Coupons",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/nike-promo-code/",
-      "url": "https://www.wired.com/story/nike-promo-code/",
-      "title": "Nike Promo Codes and Discounts: 30% for October 2026",
-      "content_text": "Check out our deals for Nike this October 2026, including 15% off select purchases.",
-      "summary": "Check out our deals for Nike this October 2026, including 15% off select purchases.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/66ea076ea6cbbaa16c12af30/master/pass/WIRED-Coupons-12.jpg",
-      "tags": [
-        "Gear",
-        "Coupons",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/lg-promo-code/",
-      "url": "https://www.wired.com/story/lg-promo-code/",
-      "title": "LG Promo Codes and Coupons for October 2026",
-      "content_text": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors.",
-      "summary": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/67b63b985a505b018b67ed90/master/pass/WIRED-Coupons-R2_17.png",
-      "tags": [
-        "Gear",
-        "Coupons",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/google-workspace-promo-code/",
-      "url": "https://www.wired.com/story/google-workspace-promo-code/",
-      "title": "Google Workspace Promo Codes: 14% Off for October 2026",
-      "content_text": "Boost your productivity and save with exclusive Google Workspace coupons from WIRED. Get up to 14% off plans for three months, including Starter, Standard, and…",
-      "summary": "Boost your productivity and save with exclusive Google Workspace coupons from WIRED. Get up to 14% off plans for three months, including Starter, Standard, and…",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/67b63b967f8fc45af4896200/master/pass/WIRED-Coupons-R2_7.png",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Coupons",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/dyson-cordless-vacuum-promo-code/",
-      "url": "https://www.wired.com/story/dyson-cordless-vacuum-promo-code/",
-      "title": "Dyson Promo Codes: 25% Off in October 2026",
-      "content_text": "Get 25% off with a Dyson coupon code, plus save up to $600 with discounts on vacuums, $150 off Airwraps, and more.",
-      "summary": "Get 25% off with a Dyson coupon code, plus save up to $600 with discounts on vacuums, $150 off Airwraps, and more.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/67b63b919468ebbf8f0cbc7a/master/pass/WIRED-Coupons-R2_9.png",
-      "tags": [
-        "Gear",
-        "coupons",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/disney-plus-discounts/",
-      "url": "https://www.wired.com/story/disney-plus-discounts/",
-      "title": "Disney Plus Discount Codes: 52% Off October 2026",
-      "content_text": "Cut your subscription costs with the latest active Disney+ bundle deals, verified student offers, and partner promotions.",
-      "summary": "Cut your subscription costs with the latest active Disney+ bundle deals, verified student offers, and partner promotions.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/66ea076e56fd4954a7f91e0c/master/pass/WIRED-Coupons-17.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Coupons",
         "科技",
         "社会"
       ],
@@ -747,105 +709,6 @@
         "Gear / Gear News and Events",
         "Gear / Products / Smart Home",
         "Echo Chamber",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/vistaprint-coupon-code/",
-      "url": "https://www.wired.com/story/vistaprint-coupon-code/",
-      "title": "30% VistaPrint Coupon & Promo Codes | October 2026",
-      "content_text": "From personalized gifts to business essentials, WIRED can help you save with our selection of VistaPrint promo codes.",
-      "summary": "From personalized gifts to business essentials, WIRED can help you save with our selection of VistaPrint promo codes.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/67b63b919468ebbf8f0cbc7a/master/pass/WIRED-Coupons-R2_9.png",
-      "tags": [
-        "Gear",
-        "Coupons",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/samsung-promo-codes/",
-      "url": "https://www.wired.com/story/samsung-promo-codes/",
-      "title": "20% Off Samsung Promo Code | October 2026",
-      "content_text": "Save 30% or 10% with Samsung coupon codes, up to $1,000 on appliances, plus limited-time deals on the Galaxy Z Fold7, Flip7, and S25.",
-      "summary": "Save 30% or 10% with Samsung coupon codes, up to $1,000 on appliances, plus limited-time deals on the Galaxy Z Fold7, Flip7, and S25.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/66ea077251891e6d3cb5d5cf/master/pass/WIRED-Coupons-3.jpg",
-      "tags": [
-        "Gear",
-        "Coupons",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/motorola-razr-deal-october-2026/",
-      "url": "https://www.wired.com/story/motorola-razr-deal-october-2026/",
-      "title": "Motorola Deal: Get a Free Smartwatch and Earbuds When You Buy a Razr",
-      "content_text": "The Razr is our favorite budget foldable phone. While it isn’t on sale yet, Motorola is adding extras to sweeten this October deal.",
-      "summary": "The Razr is our favorite budget foldable phone. While it isn’t on sale yet, Motorola is adding extras to sweeten this October deal.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ae0eec7a5839fc652c5a3e9/master/pass/Motorola%20October%202026%20Deal%20102026%20top%20art%20SOURCE%20motorola.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Gear / Products / Phones",
-        "Razr Xtra",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/everblog-homecal-deal-october-2026/",
-      "url": "https://www.wired.com/story/everblog-homecal-deal-october-2026/",
-      "title": "Best Skylight Calendar Alternative on Sale: Save $100 on Everblog HomeCal (2026)",
-      "content_text": "The Everblog HomeCal delivers a similar experience, including a digital photo frame and meal planning at no extra cost.",
-      "summary": "The Everblog HomeCal delivers a similar experience, including a digital photo frame and meal planning at no extra cost.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://media.wired.com/photos/6a35a476fb39402b67c3b903/master/pass/Are-Digital-Wall-Calendars-Worth-It-.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Sync or Swim",
         "科技",
         "社会"
       ],

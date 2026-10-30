@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/logistics.xml</id>
-  <title>公共目录 · #Logistics</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · #logistics</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/logistics.xml"/>
-  <updated>2026-10-28T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-29T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/500000-sig-sauer-shipment-stolen-in-fictitious-pickup-two-arrested-in-california</id>
+    <title>$500,000 SIG Sauer shipment stolen in fictitious pickup, two arrested in California</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/500000-sig-sauer-shipment-stolen-in-fictitious-pickup-two-arrested-in-california"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">A shipment worth half a million dollars left a Torrance warehouse under fraudulent circumstances, triggering a cargo theft investigation by Los Angeles County d…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Business"/>
+    <category term="Fraud"/>
+    <category term="Playbook: Cash &amp; Capital"/>
+    <category term="Top Stories"/>
+    <category term="cargo theft"/>
+    <category term="freight fraud"/>
+    <category term="logistics"/>
+    <category term="Trucking"/>
+  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/forward-air-saves-significant-portion-of-major-customer-account</id>
     <title>Forward Air saves ‘significant portion’ of major customer account</title>
@@ -39,39 +56,5 @@
     <category term="logistics"/>
     <category term="Trucking"/>
     <category term="货运"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/double-nickel-launches-ai-agent-to-automate-driver-employment-checks</id>
-    <title>Double Nickel launches AI agent to automate driver employment checks</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/double-nickel-launches-ai-agent-to-automate-driver-employment-checks"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Double Nickel has launched an artificial intelligence agent to automate employment verifications for trucking companies, targeting a time-consuming part of driv…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="News"/>
-    <category term="Technology"/>
-    <category term="AI"/>
-    <category term="Double Nickel"/>
-    <category term="FreightWaves"/>
-    <category term="logistics"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/band24-seeks-early-testers-for-satellite-connected-asset-tracker-ahead-of-nov-13-deadline</id>
-    <title>Band24 seeks early testers for satellite-connected asset tracker ahead of Nov. 13 deadline</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/band24-seeks-early-testers-for-satellite-connected-asset-tracker-ahead-of-nov-13-deadline"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Asset-tracking company Band24 is seeking businesses to test Terra, a new tracker combining Bluetooth, cellular and satellite connectivity, ahead of a Nov. 13 de…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="News"/>
-    <category term="Technology"/>
-    <category term="Band24"/>
-    <category term="Freight"/>
-    <category term="FreightWaves"/>
-    <category term="logistics"/>
-    <category term="货运"/>
-    <category term="数据"/>
   </entry>
 </feed>

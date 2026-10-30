@@ -1,20 +1,20 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · Google 热搜 · US",
+  "title": "知树阅读-个人图书空间 · Google 热搜 · US",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/shelf/hot-gtrends.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
     {
-      "id": "https://www.espn.com/tennis/story/_/id/50296505/first-round-loss-china-drops-venus-0-13-singles",
-      "url": "https://www.espn.com/tennis/story/_/id/50296505/first-round-loss-china-drops-venus-0-13-singles",
-      "title": "xinran sun",
-      "content_text": "第 7 名 · 搜索 100+ · First-round loss in China drops Venus Williams to 0-13 in singles",
-      "summary": "第 7 名 · 搜索 100+ · First-round loss in China drops Venus Williams to 0-13 in singles",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.timesunion.com/shopportunist/article/black-friday-2026-costco-target-walmart-22496474.php",
+      "url": "https://www.timesunion.com/shopportunist/article/black-friday-2026-costco-target-walmart-22496474.php",
+      "title": "when is black friday 2026",
+      "content_text": "第 7 名 · 搜索 100+ · Black Friday sales are starting early at Costco, Target and Walmart",
+      "summary": "第 7 名 · 搜索 100+ · Black Friday sales are starting early at Costco, Target and Walmart",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热搜"
       ],
@@ -29,12 +29,12 @@
       }
     },
     {
-      "id": "https://www.imdb.com/fr/news/ni66082921/?ref_=hm_tpnw_tp_4",
-      "url": "https://www.imdb.com/fr/news/ni66082921/?ref_=hm_tpnw_tp_4",
-      "title": "wicker 4dx",
-      "content_text": "第 9 名 · 搜索 100+ · 4Dx Expands ‘Wicker’ to One-Week Run Thanks to Social Media-Driven Demand",
-      "summary": "第 9 名 · 搜索 100+ · 4Dx Expands ‘Wicker’ to One-Week Run Thanks to Social Media-Driven Demand",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.koat.com/article/discounted-uber-rides-for-halloween-weekend/74288833",
+      "url": "https://www.koat.com/article/discounted-uber-rides-for-halloween-weekend/74288833",
+      "title": "uber ride",
+      "content_text": "第 2 名 · 搜索 100+ · Bernalillo County offers discounted Uber rides for Halloween weekend",
+      "summary": "第 2 名 · 搜索 100+ · Bernalillo County offers discounted Uber rides for Halloween weekend",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热搜"
       ],
@@ -49,12 +49,12 @@
       }
     },
     {
-      "id": "https://www.instyle.com/sophia-bush-breaks-silence-chad-michael-murray-divorce-memoir-12171803",
-      "url": "https://www.instyle.com/sophia-bush-breaks-silence-chad-michael-murray-divorce-memoir-12171803",
-      "title": "sophia bush chad michael murray marriage",
-      "content_text": "第 8 名 · 搜索 100+ · Sophia Bush Finally Breaks Her Silence on the Real Reason for Her Divorce From Chad Michael Murray",
-      "summary": "第 8 名 · 搜索 100+ · Sophia Bush Finally Breaks Her Silence on the Real Reason for Her Divorce From Chad Michael Murray",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.women.com/2294469/pamela-anderson-is-jumping-on-the-ombre-manicure-trend-aka-the-french-fade/",
+      "url": "https://www.women.com/2294469/pamela-anderson-is-jumping-on-the-ombre-manicure-trend-aka-the-french-fade/",
+      "title": "pamela anderson",
+      "content_text": "第 1 名 · 搜索 200+ · Pamela Anderson Is Jumping On The Ombré Manicure Trend, Aka 'The French Fade'",
+      "summary": "第 1 名 · 搜索 200+ · Pamela Anderson Is Jumping On The Ombré Manicure Trend, Aka 'The French Fade'",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热搜"
       ],
@@ -69,12 +69,12 @@
       }
     },
     {
-      "id": "https://www.reuters.com/world/india/gold-slips-markets-assess-fed-signals-await-us-inflation-data-2026-10-29/",
-      "url": "https://www.reuters.com/world/india/gold-slips-markets-assess-fed-signals-await-us-inflation-data-2026-10-29/",
-      "title": "price of gold",
-      "content_text": "第 4 名 · 搜索 500+ · Gold drops 1% as markets assess Fed signals, await US inflation data",
-      "summary": "第 4 名 · 搜索 500+ · Gold drops 1% as markets assess Fed signals, await US inflation data",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.autoblog.com/news/winter-storm-warning-issued-for-up-to-15-inches-of-snow-through-friday",
+      "url": "https://www.autoblog.com/news/winter-storm-warning-issued-for-up-to-15-inches-of-snow-through-friday",
+      "title": "nws fairbanks winter storm warning",
+      "content_text": "第 9 名 · 搜索 50000+ · Winter Storm Warning Issued for Up to 15 Inches of Snow Through Friday",
+      "summary": "第 9 名 · 搜索 50000+ · Winter Storm Warning Issued for Up to 15 Inches of Snow Through Friday",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热搜"
       ],
@@ -89,12 +89,12 @@
       }
     },
     {
-      "id": "https://www.inquirer.com/phillies/zack-wheeler-comeback-players-mlbpa-award-20261028.html",
-      "url": "https://www.inquirer.com/phillies/zack-wheeler-comeback-players-mlbpa-award-20261028.html",
-      "title": "philadelphia phillies",
-      "content_text": "第 6 名 · 搜索 100+ · Phillies’ Zack Wheeler wins MLBPA NL Comeback Player of the Year",
-      "summary": "第 6 名 · 搜索 100+ · Phillies’ Zack Wheeler wins MLBPA NL Comeback Player of the Year",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.imdb.com/de/news/ni66085871/?ref_=int_nwr_2",
+      "url": "https://www.imdb.com/de/news/ni66085871/?ref_=int_nwr_2",
+      "title": "mike flanagan",
+      "content_text": "第 10 名 · 搜索 200+ · Why Halloween on Netflix Hasn’t Been the Same Since Mike Flanagan Left",
+      "summary": "第 10 名 · 搜索 200+ · Why Halloween on Netflix Hasn’t Been the Same Since Mike Flanagan Left",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热搜"
       ],
@@ -109,12 +109,12 @@
       }
     },
     {
-      "id": "https://www.bbc.com/news/articles/cmq8nwd748v3o",
-      "url": "https://www.bbc.com/news/articles/cmq8nwd748v3o",
-      "title": "peptides",
-      "content_text": "第 3 名 · 搜索 200+ · US Health Secretary RFK Jr to expand access to unapproved peptides",
-      "summary": "第 3 名 · 搜索 200+ · US Health Secretary RFK Jr to expand access to unapproved peptides",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://people.com/brittany-and-patrick-mahomes-kids-pose-pumpkins-cute-snap-family-halloween-outing-12200005",
+      "url": "https://people.com/brittany-and-patrick-mahomes-kids-pose-pumpkins-cute-snap-family-halloween-outing-12200005",
+      "title": "mahomes",
+      "content_text": "第 3 名 · 搜索 10000+ · Brittany and Patrick Mahomes’ Kids Pose with Pumpkins in Cute Snap During Family Halloween Outing",
+      "summary": "第 3 名 · 搜索 10000+ · Brittany and Patrick Mahomes’ Kids Pose with Pumpkins in Cute Snap During Family Halloween Outing",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热搜"
       ],
@@ -129,12 +129,12 @@
       }
     },
     {
-      "id": "https://www.npr.org/2026/10/29/nx-s1-6020921/2026-house-map-democrats-flip-republicans-tossup-triage",
-      "url": "https://www.npr.org/2026/10/29/nx-s1-6020921/2026-house-map-democrats-flip-republicans-tossup-triage",
-      "title": "midterms",
-      "content_text": "第 1 名 · 搜索 100+ · These are the House races to watch in the 2026 midterm election on Nov. 3",
-      "summary": "第 1 名 · 搜索 100+ · These are the House races to watch in the 2026 midterm election on Nov. 3",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://247wallst.com/cards/apple-just-took-out-its-own-week-old-record-closing-at-348-aapl-price-extreme-01m650wja5djcyhmm0kgv9ad3e",
+      "url": "https://247wallst.com/cards/apple-just-took-out-its-own-week-old-record-closing-at-348-aapl-price-extreme-01m650wja5djcyhmm0kgv9ad3e",
+      "title": "macd",
+      "content_text": "第 8 名 · 搜索 100+ · Apple Closes at $348.91, Setting a Second 52-Week High in Eight Days",
+      "summary": "第 8 名 · 搜索 100+ · Apple Closes at $348.91, Setting a Second 52-Week High in Eight Days",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热搜"
       ],
@@ -149,12 +149,12 @@
       }
     },
     {
-      "id": "https://www.sheepesports.com/en/articles/gcd-the-lol-esports-global-contract-database/en",
-      "url": "https://www.sheepesports.com/en/articles/gcd-the-lol-esports-global-contract-database/en",
-      "title": "lol",
-      "content_text": "第 10 名 · 搜索 100+ · GCD: The LoL Esports Global Contract Database",
-      "summary": "第 10 名 · 搜索 100+ · GCD: The LoL Esports Global Contract Database",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.sportytrader.com/es/resultados-vivo/kaitlin-quevedo-jil-belen-teichmann-8939334/",
+      "url": "https://www.sportytrader.com/es/resultados-vivo/kaitlin-quevedo-jil-belen-teichmann-8939334/",
+      "title": "kaitlin quevedo",
+      "content_text": "第 4 名 · 搜索 200+ · Kaitlin Quevedo - Jil Belen Teichmann en vivo - WTA Guangzhou 30 de octubre de 2026",
+      "summary": "第 4 名 · 搜索 200+ · Kaitlin Quevedo - Jil Belen Teichmann en vivo - WTA Guangzhou 30 de octubre de 2026",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热搜"
       ],
@@ -169,12 +169,12 @@
       }
     },
     {
-      "id": "https://www.realtor.com/news/trends/vacancy-zombie-foreclosure-rates-decline-attom-q3-2026/",
-      "url": "https://www.realtor.com/news/trends/vacancy-zombie-foreclosure-rates-decline-attom-q3-2026/",
-      "title": "foreclosure",
-      "content_text": "第 2 名 · 搜索 200+ · Vacancy and ‘Zombie Foreclosure’ Rates Decline as Housing Supply Remains Tight",
-      "summary": "第 2 名 · 搜索 200+ · Vacancy and ‘Zombie Foreclosure’ Rates Decline as Housing Supply Remains Tight",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://allhiphop.com/news/exclusive-faith-evans-loses-as-judge-awards-biggies-mothers-trust-12-5m/",
+      "url": "https://allhiphop.com/news/exclusive-faith-evans-loses-as-judge-awards-biggies-mothers-trust-12-5m/",
+      "title": "faith evans",
+      "content_text": "第 5 名 · 搜索 100+ · EXCLUSIVE: Faith Evans Loses As Judge Awards Biggie’s Mother’s Trust $12.5M",
+      "summary": "第 5 名 · 搜索 100+ · EXCLUSIVE: Faith Evans Loses As Judge Awards Biggie’s Mother’s Trust $12.5M",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热搜"
       ],
@@ -189,12 +189,12 @@
       }
     },
     {
-      "id": "https://www.npr.org/2026/10/28/nx-s1-6020180/us-cruise-ship-fuel-costs",
-      "url": "https://www.npr.org/2026/10/28/nx-s1-6020180/us-cruise-ship-fuel-costs",
-      "title": "cambodia",
-      "content_text": "第 5 名 · 搜索 5000+ · A U.S. cruise ship suspends a global voyage due to fuel costs, stranding 200 passengers",
-      "summary": "第 5 名 · 搜索 5000+ · A U.S. cruise ship suspends a global voyage due to fuel costs, stranding 200 passengers",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.cricinfo.com/story/mi-part-ways-with-malinga-mhambrey-and-hopkinson-1560552",
+      "url": "https://www.cricinfo.com/story/mi-part-ways-with-malinga-mhambrey-and-hopkinson-1560552",
+      "title": "cricbuzz",
+      "content_text": "第 6 名 · 搜索 200+ · MI continue coaching revamp; Malinga and Mhambrey leave franchise",
+      "summary": "第 6 名 · 搜索 200+ · MI continue coaching revamp; Malinga and Mhambrey leave franchise",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热搜"
       ],

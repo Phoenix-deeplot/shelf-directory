@@ -1,21 +1,48 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #Kids",
+  "title": "知树阅读-个人图书空间 · #Kids",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/kids.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
     {
-      "id": "https://slate.com/advice/2026/10/parenting-advice-thanksgiving-opt-out.html?via=rss",
-      "url": "https://slate.com/advice/2026/10/parenting-advice-thanksgiving-opt-out.html?via=rss",
-      "title": "My Son Wants to Opt Out of Family Thanksgiving. He’s 12!",
-      "content_text": "I want him with us.",
-      "summary": "I want him with us.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://compote.slate.com/images/454dba4c-6f96-4be0-8343-669f62f5e05c.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "id": "https://slate.com/life/2026/10/easy-homemade-halloween-treats-recipes-for-kids.html?via=rss",
+      "url": "https://slate.com/life/2026/10/easy-homemade-halloween-treats-recipes-for-kids.html?via=rss",
+      "title": "Parents Colluded With Corporations to Kill a Beloved Halloween Tradition. I Think It’s Time We Raise It From the Grave.",
+      "content_text": "I’m haunted by the memory of what this holiday could be.",
+      "summary": "I’m haunted by the memory of what this holiday could be.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/7a205525-8bc6-40a2-9f0b-b45aa409c9b0.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Cooking",
+        "Food",
+        "Halloween",
+        "Holidays",
+        "Kids",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/parenting-advice-religious-grandma-time-out.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/parenting-advice-religious-grandma-time-out.html?via=rss",
+      "title": "My Mother-in-Law Destroyed a Toy to Protect Our Family From the Devil. I Want to Put Her in Time Out.",
+      "content_text": "I miss my Ouija Board.",
+      "summary": "I miss my Ouija Board.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/562e4c67-32b9-4663-9443-22b4b8d36f67.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
       "tags": [
         "Advice",
         "Family",
@@ -34,13 +61,13 @@
       }
     },
     {
-      "id": "https://slate.com/advice/2026/10/parenting-advice-pills-on-floor.html?via=rss",
-      "url": "https://slate.com/advice/2026/10/parenting-advice-pills-on-floor.html?via=rss",
-      "title": "I See My Husband’s “Messy” Habit Very Differently Now That We Have a Kid",
-      "content_text": "Our baby could get seriously hurt.",
-      "summary": "Our baby could get seriously hurt.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://compote.slate.com/images/ead57748-0c70-4817-b251-0e2846bd71d4.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "id": "https://slate.com/advice/2026/10/parenting-advice-two-daughters-one-dad.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/parenting-advice-two-daughters-one-dad.html?via=rss",
+      "title": "I Have Two 9-Year-Olds by Two Different Women. Now the Whole Thing is About to Blow Up.",
+      "content_text": "I don't think I'm ready.",
+      "summary": "I don't think I'm ready.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/2f21734c-c5e3-4772-a6bb-2da7c08d94c7.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
       "tags": [
         "Advice",
         "Family",

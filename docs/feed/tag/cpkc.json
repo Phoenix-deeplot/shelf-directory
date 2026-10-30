@@ -1,13 +1,40 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #CPKC",
+  "title": "知树阅读-个人图书空间 · #CPKC",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/cpkc.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
+    {
+      "id": "https://www.freightwaves.com/news/cpkc-reports-record-revenue-on-strength-of-grain-and-intermodal-traffic",
+      "url": "https://www.freightwaves.com/news/cpkc-reports-record-revenue-on-strength-of-grain-and-intermodal-traffic",
+      "title": "CPKC reports record revenue on strength of grain and intermodal traffic",
+      "content_text": "CPKC turned in record 3Q revenue as the railway set records for domestic and international intermodal volumes, as well as for grain. The post CPKC reports recor…",
+      "summary": "CPKC turned in record 3Q revenue as the railway set records for domestic and international intermodal volumes, as well as for grain. The post CPKC reports recor…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "News",
+        "Railroad",
+        "Top Stories",
+        "carloads",
+        "CPKC",
+        "earnings",
+        "intermodal"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
     {
       "id": "https://www.freightwaves.com/news/first-look-cpkc-earnings-2",
       "url": "https://www.freightwaves.com/news/first-look-cpkc-earnings-2",
@@ -19,11 +46,11 @@
         "Company Earnings",
         "News",
         "Railroad",
-        "Top Stories",
         "CPKC",
         "earnings",
         "intermodal",
-        "railroads"
+        "railroads",
+        "货运"
       ],
       "authors": [
         {

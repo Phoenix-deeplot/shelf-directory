@@ -2,6 +2,18 @@
  "id": "openculture-com",
  "items": [
   {
+   "url": "https://www.openculture.com/2026/10/watch-150-classic-horror-and-suspense-films-free-online.html",
+   "title": "Watch 150 Classic Horror and Suspense Films Free Online: Nosferatu, The Cabinet of Dr. Caligari, Carnival of Souls, Night of the Living Dead…",
+   "summary": "﻿ From roughly the mid-nineteen-fifties through the mid-nineteen-seventies, the availability of airtime on American television stations exceeded their capacity…",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [
+    "Film"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.openculture.com/2026/10/the-early-years-of-electronic-pop-the-moog-craze-psychedelic-experiments-and-more.html",
    "title": "The Early Years of Electronic Pop: The Moog Craze, Psychedelic Experiments, and More",
    "summary": "There’s a decent chance you’ve heard at least a couple of tracks from Wendy Carlos’ Switched-On Bach. But when was the last time you put on Switched-On Rock, Sw…",
@@ -185,18 +197,6 @@
    ],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://www.openculture.com/2026/10/how-clare-torry-made-gig-in-the-sky-great.html",
-   "title": "Hear How Clare Torry’s Vocals on Pink Floyd’s “The Great Gig in the Sky” Made the Song Go from Pretty Good to Downright Great",
-   "summary": "Smack in the middle of Pink Floyd’s classic Dark Side of the Moon sits a song many listeners may hear as an extended bridge between the two true centerpieces, “…",
-   "image": "",
-   "date": "2026-10-20",
-   "tags": [
-    "Music"
-   ],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -213,6 +213,6 @@
  "parser": 3,
  "status": "ok",
  "error": "",
- "etag": "\"a7d759d237a8538209e2440cd0032c47\"",
- "modified": "Thu, 29 Oct 2026 09:00:29 GMT"
+ "etag": "\"54aa95be673af5567c789e4b3b622513\"",
+ "modified": "Fri, 30 Oct 2026 08:00:18 GMT"
 }

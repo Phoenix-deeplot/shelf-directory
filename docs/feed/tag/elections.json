@@ -1,9 +1,9 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #Elections",
+  "title": "知树阅读-个人图书空间 · #Elections",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/elections.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
@@ -50,31 +50,7 @@
         "Senate",
         "New Hampshire",
         "2026 Midterms",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/news-and-politics/2026/10/israeli-election-netanyahu-outcome-palestine-safety.html?via=rss",
-      "url": "https://slate.com/news-and-politics/2026/10/israeli-election-netanyahu-outcome-palestine-safety.html?via=rss",
-      "title": "I Wanted to Understand What Israelis Think of This Election. What I Learned Was Chilling.",
-      "content_text": "Israelis are waiting on the results of a historic election. But their priorities are more revealing than their votes.",
-      "summary": "Israelis are waiting on the results of a historic election. But their priorities are more revealing than their votes.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://compote.slate.com/images/402293a8-de11-4961-94a7-d84ab62b9391.jpeg?crop=5469%2C3646%2Cx0%2Cy1",
-      "tags": [
-        "Elections",
-        "Israel",
-        "Palestine",
+        "2026 Midterms Highlights",
         "评论",
         "文化"
       ],

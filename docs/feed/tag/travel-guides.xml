@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/travel-guides.xml</id>
-  <title>公共目录 · #Travel Guides</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · #Travel Guides</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/travel-guides.xml"/>
   <updated>2026-10-28T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <author><name>知树阅读-个人图书空间</name></author>
   <entry>
     <id>https://www.eater.com/maps/best-restaurants-barcelona-spain</id>
     <title>The 38 Best Restaurants in Barcelona, According to a Local Food Guide</title>
@@ -16,18 +16,6 @@
     <source><title>Eater</title></source>
     <category term="Barcelona"/>
     <category term="Spain"/>
-    <category term="Travel Guides"/>
-    <category term="美食"/>
-    <category term="餐饮"/>
-  </entry>
-  <entry>
-    <id>https://www.eater.com/travel-guides/992604/the-best-culinary-resorts-in-the-united-states</id>
-    <title>The Best Culinary Resorts in the United States</title>
-    <link rel="alternate" type="text/html" href="https://www.eater.com/travel-guides/992604/the-best-culinary-resorts-in-the-united-states"/>
-    <updated>2026-10-15T00:00:00Z</updated>
-    <published>2026-10-15T00:00:00Z</published>
-    <summary type="text">At some hotels, food is an afterthought: Breakfast buffets are bland, in-room mini bars are stocked with generic snacks, and lobby bars are lackluster. But othe…</summary>
-    <source><title>Eater</title></source>
     <category term="Travel Guides"/>
     <category term="美食"/>
     <category term="餐饮"/>

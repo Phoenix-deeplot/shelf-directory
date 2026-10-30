@@ -1,9 +1,9 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · 网易云音乐飙升榜",
+  "title": "知树阅读-个人图书空间 · 网易云音乐飙升榜",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/shelf/hot-netease.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
@@ -11,11 +11,11 @@
     {
       "id": "https://music.163.com/",
       "url": "https://music.163.com/",
-      "title": "一张相片 — 连麻Swimming",
-      "content_text": "第 1 名 · 斩鸭线",
-      "summary": "第 1 名 · 斩鸭线",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://p2.music.126.net/Eafh2qRUgw2IXXOVD4B9LQ==/109951174139932904.jpg",
+      "title": "时过境迁 — 苏艺馨Chency",
+      "content_text": "第 1 名 · 时过境迁",
+      "summary": "第 1 名 · 时过境迁",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://p2.music.126.net/A5J9gFuJgfzqravyuj184g==/109951168881933739.jpg",
       "tags": [
         "音乐",
         "热榜"

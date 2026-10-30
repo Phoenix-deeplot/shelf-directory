@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/blue-yonder.xml</id>
+  <title>知树阅读-个人图书空间 · #Blue Yonder</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/blue-yonder.xml"/>
+  <updated>2026-10-29T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/how-transportation-leaders-are-turning-ai-and-connected-data-into-a-competitive-edge</id>
+    <title>How transportation leaders are turning AI and connected data into a competitive edge</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/how-transportation-leaders-are-turning-ai-and-connected-data-into-a-competitive-edge"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">AI is gaining ground in transportation, but are companies actually turning that potential into results? As supply chains face constant disruption, rising expect…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Media"/>
+    <category term="News"/>
+    <category term="White Papers"/>
+    <category term="Blue Yonder"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+</feed>

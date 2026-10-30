@@ -1,21 +1,21 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #meirl",
+  "title": "知树阅读-个人图书空间 · #meirl",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/meirl.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
     {
-      "id": "https://www.reddit.com/r/meirl/comments/1xhokxb/meirl/",
-      "url": "https://www.reddit.com/r/meirl/comments/1xhokxb/meirl/",
+      "id": "https://www.reddit.com/r/meirl/comments/1xispkw/meirl/",
+      "url": "https://www.reddit.com/r/meirl/comments/1xispkw/meirl/",
       "title": "meirl",
-      "content_text": "submitted by /u/Glass-Fan111 to r/meirl [link] [comments]",
-      "summary": "submitted by /u/Glass-Fan111 to r/meirl [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://preview.redd.it/ut5f0iqeq7yh1.jpeg?width=640&crop=smart&auto=webp&s=8d43a2a46a0710c6860bab41b547f711b1e26d98",
+      "content_text": "submitted by /u/EmergencyRead5254 to r/meirl [link] [comments]",
+      "summary": "submitted by /u/EmergencyRead5254 to r/meirl [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://preview.redd.it/ruoa84cndgyh1.jpeg?width=640&crop=smart&auto=webp&s=648400070ef24799ed800b43eff2a9e34da694d6",
       "tags": [
         "meirl",
         "社区",
@@ -32,36 +32,13 @@
       }
     },
     {
-      "id": "https://www.reddit.com/r/meirl/comments/1xhort5/meirl/",
-      "url": "https://www.reddit.com/r/meirl/comments/1xhort5/meirl/",
+      "id": "https://www.reddit.com/r/meirl/comments/1xilaq1/meirl/",
+      "url": "https://www.reddit.com/r/meirl/comments/1xilaq1/meirl/",
       "title": "Meirl",
-      "content_text": "submitted by /u/Glass-Fan111 to r/meirl [link] [comments]",
-      "summary": "submitted by /u/Glass-Fan111 to r/meirl [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://preview.redd.it/kicgos5rr7yh1.jpeg?width=640&crop=smart&auto=webp&s=2c02f0cd5182a8d66d986cc7b5819aa0fa7ecc49",
-      "tags": [
-        "meirl",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/meirl/comments/1xhux5h/meirl/",
-      "url": "https://www.reddit.com/r/meirl/comments/1xhux5h/meirl/",
-      "title": "Meirl",
-      "content_text": "submitted by /u/Spiritual-Pudding-70 to r/meirl [link] [comments]",
-      "summary": "submitted by /u/Spiritual-Pudding-70 to r/meirl [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://preview.redd.it/53znbponv8yh1.jpeg?width=640&crop=smart&auto=webp&s=fa356d31a5451b31e47b8bc8a44d560c3d4e9cb9",
+      "content_text": "submitted by /u/lonewolff321 to r/meirl [link] [comments]",
+      "summary": "submitted by /u/lonewolff321 to r/meirl [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://preview.redd.it/n8nxplno0fyh1.jpeg?width=640&crop=smart&auto=webp&s=bdd2ce34b5edc71e99cdcd7c5cd34bdc9c76dba9",
       "tags": [
         "meirl",
         "社区",

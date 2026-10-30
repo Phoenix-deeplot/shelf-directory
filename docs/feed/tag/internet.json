@@ -1,0 +1,67 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #Internet",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/internet.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://slate.com/technology/2026/10/draco-malfoid-harry-potter-meme.html?via=rss",
+      "url": "https://slate.com/technology/2026/10/draco-malfoid-harry-potter-meme.html?via=rss",
+      "title": "The U.S. Department of Education Posted an Incel Meme. It Gets Worse From There.",
+      "content_text": "The right has finally found a gender swap they can get behind.",
+      "summary": "The right has finally found a gender swap they can get behind.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/0395a07f-d443-4c96-bb1a-6bbe092a62f8.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Artificial Intelligence",
+        "Department of Education",
+        "Harry Potter",
+        "Internet",
+        "Social Media",
+        "Memes",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://daily.jstor.org/how-telepathy-helped-build-the-russian-internet/",
+      "url": "https://daily.jstor.org/how-telepathy-helped-build-the-russian-internet/",
+      "title": "How Telepathy Helped Build the Russian Internet",
+      "content_text": "During the Cold War, Soviet scientists pursued an unlikely way to communicate with the outside world. The post How Telepathy Helped Build the Russian Internet a…",
+      "summary": "During the Cold War, Soviet scientists pursued an unlikely way to communicate with the outside world. The post How Telepathy Helped Build the Russian Internet a…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Arts & Culture",
+        "Language & Literature",
+        "Science & Technology",
+        "Technology",
+        "internet",
+        "Path to Open",
+        "Russia",
+        "学术"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    }
+  ]
+}

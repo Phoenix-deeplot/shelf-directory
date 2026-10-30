@@ -1,9 +1,9 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #2026 Midterms",
+  "title": "知树阅读-个人图书空间 · #2026 Midterms",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/2026-midterms.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
@@ -37,6 +37,31 @@
       }
     },
     {
+      "id": "https://slate.com/podcasts/political-gabfest/2026/10/politics-midterm-polls-senate-races-and-what-to-expect-tuesday?via=rss",
+      "url": "https://slate.com/podcasts/political-gabfest/2026/10/politics-midterm-polls-senate-races-and-what-to-expect-tuesday?via=rss",
+      "title": "Polls Inch Toward Democrats, and Voters Worry More About Corruption",
+      "content_text": "Money keeps flowing toward ruby red turf as races enter the margin of error. Whether Democrats squeak by or win big will shape the story after Tuesday.",
+      "summary": "Money keeps flowing toward ruby red turf as races enter the margin of error. Whether Democrats squeak by or win big will shape the story after Tuesday.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/536630e9-c0e8-4568-8aa1-b800428abed3.jpeg?crop=6000%2C4000%2Cx0%2Cy0",
+      "tags": [
+        "Artificial Intelligence",
+        "Israel",
+        "2026 Midterms",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
       "id": "https://slate.com/news-and-politics/2026/10/senate-race-pappas-sununu-new-hampshire.html?via=rss",
       "url": "https://slate.com/news-and-politics/2026/10/senate-race-pappas-sununu-new-hampshire.html?via=rss",
       "title": "My State’s Democratic Candidate Has Zero Rizz. He Could Decide Control of the Senate. Good!",
@@ -50,6 +75,7 @@
         "Senate",
         "New Hampshire",
         "2026 Midterms",
+        "2026 Midterms Highlights",
         "评论",
         "文化"
       ],

@@ -1,21 +1,21 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #Dear Prudence",
+  "title": "知树阅读-个人图书空间 · #Dear Prudence",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/dear-prudence.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
     {
-      "id": "https://slate.com/advice/2026/10/family-advice-pregnancy-grandparents-child-care.html?via=rss",
-      "url": "https://slate.com/advice/2026/10/family-advice-pregnancy-grandparents-child-care.html?via=rss",
-      "title": "Help! Our Expecting Daughter-in-Law Just Made an Eye-Popping “Announcement.”",
-      "content_text": "I'm judging them.",
-      "summary": "I'm judging them.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://compote.slate.com/images/211612a4-5497-4125-a6c3-4ecbfe9d1527.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "id": "https://slate.com/advice/2026/10/dear-prudence-chat-perfect-relationship-bad-detective.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/dear-prudence-chat-perfect-relationship-bad-detective.html?via=rss",
+      "title": "I Discovered a Secret That Broke Up My Sister’s “Perfect” Relationship. Turns Out I’m Not So Good a Detective.",
+      "content_text": "Prudie says: “Do mental gymnastics to find meaning and erase any possible conflict!”",
+      "summary": "Prudie says: “Do mental gymnastics to find meaning and erase any possible conflict!”",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/6666a1b1-13c8-457d-a7c5-8fb45a8ed178.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
       "tags": [
         "Advice",
         "Dear Prudence",
@@ -33,18 +33,16 @@
       }
     },
     {
-      "id": "https://slate.com/advice/2026/10/family-advice-friends-reaching-out.html?via=rss",
-      "url": "https://slate.com/advice/2026/10/family-advice-friends-reaching-out.html?via=rss",
-      "title": "Help! I Ran a Two-Week Experiment on My Family and Friends. The Results Stung.",
-      "content_text": "I'm not sure they even care.",
-      "summary": "I'm not sure they even care.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://compote.slate.com/images/971500fe-bec9-430c-9279-6b42a894ddfd.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "id": "https://slate.com/advice/2026/10/dear-prudence-special-talent-retirement-community.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/dear-prudence-special-talent-retirement-community.html?via=rss",
+      "title": "I Brought a Special Talent to My Retirement Community. I Had No Idea Sharing It Could Turn Out So Badly.",
+      "content_text": "I know I’m skilled, but leave me alone!",
+      "summary": "I know I’m skilled, but leave me alone!",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/91098b7c-b965-4c27-943f-233eb789c35d.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
       "tags": [
         "Advice",
         "Dear Prudence",
-        "Family",
-        "Friendship",
         "评论",
         "文化"
       ],

@@ -1,9 +1,9 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #Slate Games",
+  "title": "知树阅读-个人图书空间 · #Slate Games",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/slate-games.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
@@ -15,11 +15,59 @@
       "content_text": "Test your wits on the Slate Quiz for Oct. 29, 2026.",
       "summary": "Test your wits on the Slate Quiz for Oct. 29, 2026.",
       "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://compote.slate.com/images/0c5a8414-1600-480f-85fc-c40b4cc9ae10.jpeg",
+      "image": "https://compote.slate.com/images/9bcf8540-2990-4c36-bdd3-82ecf9a4e8ff.jpeg",
       "tags": [
         "Quizzes",
         "Trivia",
         "Slate Games",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/life/2026/10/slate-soundbites-for-october-29-2026.html?via=rss",
+      "url": "https://slate.com/life/2026/10/slate-soundbites-for-october-29-2026.html?via=rss",
+      "title": "Slate SoundBites for October 29, 2026",
+      "content_text": "Build your answer from the sound up with our new game, SoundBites!",
+      "summary": "Build your answer from the sound up with our new game, SoundBites!",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/cfb2ab0f-1ca4-4da3-b38d-817bc8e8315c.png",
+      "tags": [
+        "Slate Games",
+        "SoundBites",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/life/2026/10/word-game-slate-pears-441-for-october-29-2026.html?via=rss",
+      "url": "https://slate.com/life/2026/10/word-game-slate-pears-441-for-october-29-2026.html?via=rss",
+      "title": "Slate Pears Game 441: Oct. 29, 2026",
+      "content_text": "Today's puzzle has five pears.",
+      "summary": "Today's puzzle has five pears.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/61d47363-da12-4f08-a295-7bf3f3f4f236.png",
+      "tags": [
+        "Slate Games",
+        "Pears",
         "评论",
         "文化"
       ],
@@ -58,86 +106,13 @@
       }
     },
     {
-      "id": "https://slate.com/news-and-politics/2026/10/trivia-quiz-daily-slate-history-war-assassination-attempts-us-supreme-court.html?via=rss",
-      "url": "https://slate.com/news-and-politics/2026/10/trivia-quiz-daily-slate-history-war-assassination-attempts-us-supreme-court.html?via=rss",
-      "title": "Which Two Kingdoms Engaged in the Hundred Years’ War?",
-      "content_text": "Test your wits on the Slate Quiz for Oct. 28, 2026.",
-      "summary": "Test your wits on the Slate Quiz for Oct. 28, 2026.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://compote.slate.com/images/0c5a8414-1600-480f-85fc-c40b4cc9ae10.jpeg",
-      "tags": [
-        "Quizzes",
-        "Trivia",
-        "Slate Games",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/life/2026/10/slate-soundbites-for-october-28-2026.html?via=rss",
-      "url": "https://slate.com/life/2026/10/slate-soundbites-for-october-28-2026.html?via=rss",
-      "title": "Slate SoundBites for October 28, 2026",
-      "content_text": "Build your answer from the sound up with our new game, SoundBites!",
-      "summary": "Build your answer from the sound up with our new game, SoundBites!",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://compote.slate.com/images/cfb2ab0f-1ca4-4da3-b38d-817bc8e8315c.png",
-      "tags": [
-        "Slate Games",
-        "SoundBites",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/life/2026/10/word-game-slate-pears-440-for-october-28-2026.html?via=rss",
-      "url": "https://slate.com/life/2026/10/word-game-slate-pears-440-for-october-28-2026.html?via=rss",
-      "title": "Slate Pears Game 440: Oct. 28, 2026",
-      "content_text": "Today's puzzle has seven pears.",
-      "summary": "Today's puzzle has seven pears.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://compote.slate.com/images/61d47363-da12-4f08-a295-7bf3f3f4f236.png",
-      "tags": [
-        "Slate Games",
-        "Pears",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/life/2026/10/crossword-slate-daily-puzzle-oct-28-2026.html?via=rss",
-      "url": "https://slate.com/life/2026/10/crossword-slate-daily-puzzle-oct-28-2026.html?via=rss",
-      "title": "Slate Crossword: Attempted to Take a Seat? (Three Letters)",
-      "content_text": "Ready for some wordplay? Sharpen your skills with Slate’s puzzle for Oct. 28, 2026.",
-      "summary": "Ready for some wordplay? Sharpen your skills with Slate’s puzzle for Oct. 28, 2026.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://compote.slate.com/images/eb10aaaf-9466-419d-a6cd-d01f745ddbf8.jpeg?crop=3000%2C2000%2Cx0%2Cy0",
+      "id": "https://slate.com/life/2026/10/crossword-slate-daily-puzzle-oct-29-2026.html?via=rss",
+      "url": "https://slate.com/life/2026/10/crossword-slate-daily-puzzle-oct-29-2026.html?via=rss",
+      "title": "Slate Crossword: Articles You Might Be Inclined to Write? (Five Letters)",
+      "content_text": "Ready for some wordplay? Sharpen your skills with Slate’s puzzle for Oct. 29, 2026.",
+      "summary": "Ready for some wordplay? Sharpen your skills with Slate’s puzzle for Oct. 29, 2026.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/d9433e9f-08cc-4410-a18d-2a683f74753a.jpeg?crop=3000%2C2000%2Cx0%2Cy0",
       "tags": [
         "Slate Games",
         "Crossword",

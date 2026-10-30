@@ -2,8 +2,178 @@
  "id": "cnbc-com",
  "items": [
   {
+   "url": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
+   "title": "Biggest-ever crypto hack impacts $6.3 billion as Binance works to contain fallout",
+   "summary": "Binance estimated the impact of a security incident at $6.3 billion, with around $3 billion in crypto assets frozen, and pledged to cover all losses.",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html",
+   "title": "Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms",
+   "summary": "Iran said four tankers struck mines in the Strait of Hormuz, while Tehran disputed a U.S. claim that key shipping lanes had been cleared.",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/30/novartis-remibrutinib-multiple-sclerosis.html",
+   "title": "A pharma giant is moving past one patent cliff — but another is already looming",
+   "summary": "Disappointing data highlights Novartis' challenge to build its next generation of blockbuster medicines, following a series of clinical trial setbacks.",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/30/israel-election-netanyahu-eisenkot-coalition-talks-.html",
+   "title": "Israel faces weeks of coalition haggling as Netanyahu’s party claims election 'stolen'",
+   "summary": "Israel's election leaves the country facing weeks of coalition bargaining and an uphill battle for the opposition party to form a majority government.",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html",
+   "title": "BOJ holds rates as underlying inflation aligns with 2% target for first time since 2013",
+   "summary": "The BOJ declared that its underlying inflation target of 2% has been met, the first time the central bank has done so since it set the target in 2013.",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/29/alaska-senate-governor-investigation-sullivan-peltola-doj.html",
+   "title": "DOJ escalates Alaska Senate lawsuit over dueling Sullivan candidacies",
+   "summary": "Alaska's election could determine which party has a majority in the Senate. GOP Sen. Dan Sullivan faces a strong challenge from Democrat Mary Peltola.",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html",
+   "title": "Intel stock plunges 21% as chipmaker blames PC slowdown for weak guidance",
+   "summary": "Intel has been a Wall Street darling this year due to its emergence as a player in AI, but the company is being weighed down by a struggling PC market.",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/30/election-trump-brazil-serbia-hungary.html",
+   "title": "How elections worldwide are testing Trump’s influence abroad",
+   "summary": "Recent election losses by leaders linked to Trump have prompted questions about whether his influence over the global right is weakening.",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/29/microsoft-25-billion-debt-offering.html",
+   "title": "Microsoft plans to raise $25 billion in debt as it pursues AI buildout",
+   "summary": "Microsoft boasts a strong credit rating and has managed to maintain positive free cash flow, unlike Meta, Alphabet and Amazon.",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/investingclub/2026/10/29/intel-plunges-on-a-major-guidance-miss-what-went-wrong-how-to-proceed.html",
+   "title": "Intel plunges on a major guidance miss. What went wrong — and how to proceed",
+   "summary": "Further downside is certainly possible, but selling now won't erase the losses we've taken.",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html",
+   "title": "Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks",
+   "summary": "Reddit posts third-quarter earnings and reveals plans to require all users to create official accounts as Google search traffic shrinks",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/29/polymarket-reports-outage-on-international-exchange-halts-trading.html",
+   "title": "Some Polymarket user funds stolen by hackers; exchange referring matter to U.K. authorities",
+   "summary": "The outage comes just days before the platform is expected to experience heightened trading during the U.S. midterm elections.",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html",
+   "title": "Amazon posts negative free cash flow of $42.4 billion, holds 2026 capex unchanged",
+   "summary": "Amazon's negative free cash flow ballooned during the third quarter, while its earnings and revenue fell short of Wall Street's expectations.",
+   "image": "",
+   "date": "2026-10-29",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/29/bank-north-dakota-socialism-election.html",
+   "title": "It's a 'socialist' bank — and North Dakota Republicans love it",
+   "summary": "Democratic socialist candidates have held up North Dakota's state-owned bank as a model to emulate.",
+   "image": "",
+   "date": "2026-10-29",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/29/servicenow-now-earnings-q3-2026.html",
+   "title": "ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears",
+   "summary": "ServiceNow's stock recorded its worst day ever on underwhelming third-quarter results.",
+   "image": "",
+   "date": "2026-10-29",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/29/trump-accounts-frank-bisignano-brooklyn.html",
+   "title": "IRS CEO Bisignano donates to Trump Accounts in his childhood Brooklyn ZIP code",
+   "summary": "IRS CEO Frank Bisignano has donated to Trump Accounts for Brooklyn kids from his hometown ZIP code. Here's what families need to know.",
+   "image": "",
+   "date": "2026-10-29",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/29/aws-q3-earnings-report-2026.html",
+   "title": "Amazon AWS posts 39% revenue growth as cloud rivals also accelerate",
+   "summary": "Amazon's cloud signed deals with Meta and OpenAI during the quarter, helping revenue to exceed consensus.",
+   "image": "",
+   "date": "2026-10-29",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
-   "title": "Alphabet falls 10% in premarket, putting it on course for its biggest ever post-earnings drop",
+   "title": "Alphabet tanks nearly 13% for worst day ever, losing $500 billion in value",
    "summary": "Alphabet reported a larger negative free cash flow than analysts had expected while maintaining its spending gudiance for the year.",
    "image": "",
    "date": "2026-10-29",
@@ -12,9 +182,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.cnbc.com/2026/10/29/us-iran-war-trump-hormuz.html",
-   "title": "Hegseth reportedly fires U.S. top military planner as Trump downplays Iran peace talks",
-   "summary": "Lieutenant General Brett Sylvia was removed as head of strategy, plans and policy on the Joint Chiefs of Staff.",
+   "url": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html",
+   "title": "Alphabet earnings miss reflects first real sign that AI is taking a bite out of search",
+   "summary": "Wall Street hammered Alphabet for an earnings miss that included weaker-than-expected revenue out of the company's core business.",
    "image": "",
    "date": "2026-10-29",
    "tags": [],
@@ -22,9 +192,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.cnbc.com/2026/10/29/putin-elon-musk-starlink-ukraine.html",
-   "title": "Putin praises Elon Musk as a ‘real genius’ as Russia develops Starlink alternative",
-   "summary": "Russia is trying to develop is own version of the satellite constellation Starlink: Rassvet.",
+   "url": "https://www.cnbc.com/investingclub/2026/10/29/jim-cramer-why-investors-are-punishing-alphabet-and-giving-microsoft-a-pass.html",
+   "title": "Jim Cramer: Why investors are punishing Alphabet and giving Microsoft a pass",
+   "summary": "Microsoft is faring better because of its financial spending, Jim Cramer said Thursday, a day after earnings.",
    "image": "",
    "date": "2026-10-29",
    "tags": [],
@@ -32,9 +202,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.cnbc.com/2026/10/29/shell-earnings-oil-q3.html",
-   "title": "Shell nearly doubles quarterly profit year-on-year as refining margins soar to record high",
-   "summary": "The oil major hiked its share buyback program as geopolitical volatility and a refined products crunch drove energy and fuel prices sharply higher.",
+   "url": "https://www.cnbc.com/2026/10/29/rivian-rivn-earnings-q3-2026.html",
+   "title": "Rivian third-quarter earnings beat estimates as software revenue, R2 deliveries rise",
+   "summary": "Rivian also revised its 2026 guidance to mark expected improvements in its vehicle deliveries, pre-tax adjusted earnings and capital expenditures.",
    "image": "",
    "date": "2026-10-29",
    "tags": [],
@@ -42,9 +212,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html",
-   "title": "Analysis: Warsh is learning to wield the Fed's power without showing his hand",
-   "summary": "The new chairman made clear he leans toward higher interest rates, but left himself options depending on how the data comes in.",
+   "url": "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html",
+   "title": "Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'",
+   "summary": "Nvidia disputed a New York Times report that U.S. intelligence agencies surveilled a person close to CEO Jensen Huang over concerns she could be a Chinese spy.",
    "image": "",
    "date": "2026-10-29",
    "tags": [],
@@ -52,9 +222,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
-   "title": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
-   "summary": "Microsoft reported better-than-expected results driven by 48% growth in Azure revenue.",
+   "url": "https://www.cnbc.com/2026/10/29/starbucks-sbux-q4-2026-earnings.html",
+   "title": "Starbucks sales miss expectations, but its U.S. turnaround is gaining steam",
+   "summary": "Starbucks' U.S. stores topped Wall Street's comparable sales expectations but its international business fell short of estimates.",
    "image": "",
    "date": "2026-10-29",
    "tags": [],
@@ -62,9 +232,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.cnbc.com/2026/10/29/tencent-visa-citi-mastercard-.html",
-   "title": "Tencent, Visa deepen payments push in China after regulatory green light",
-   "summary": "Tencent and Visa are expanding their payments partnership following recent regulatory approvals for foreign financial firms in China.",
+   "url": "https://www.cnbc.com/2026/10/29/steve-eisman-gets-more-conservative-with-portfolio-as-ai-trade-nears-tipping-point.html",
+   "title": "Steve Eisman gets more conservative with portfolio as AI trade nears 'tipping point'",
+   "summary": "The noted investor, famous from \"The Big Short,\" says it would be \"impossible\" for an AI crash not to hurt the broader market",
    "image": "",
    "date": "2026-10-29",
    "tags": [],
@@ -72,9 +242,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.cnbc.com/2026/10/29/dhs-data-breach-ice-cdp-deportations.html",
-   "title": "Over 41,000 U.S. Homeland Security officials' details apparently exposed after massive data breach",
-   "summary": "CNBC was able to access the database on the website, and saw it contained names alleged to be of officials, titles, agencies, and offices in cities and states.",
+   "url": "https://www.cnbc.com/2026/10/29/royal-caribbean-carnival-norwegian-fuel-costs.html",
+   "title": "Cruise companies aim to keep fuel costs down. Their strategies for doing so differ",
+   "summary": "Carnival is cutting fuel use, while Royal Caribbean and Norwegian rely on \"hedging\" to keep fuel costs down amid conflict in the Middle East.",
    "image": "",
    "date": "2026-10-29",
    "tags": [],
@@ -82,9 +252,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.cnbc.com/2026/10/29/trump-methane-rollback-oil-prices-epa.html",
-   "title": "Trump methane policy rollback may have minimal impact on crude prices, EPA says",
-   "summary": "The EPA projects Trump’s methane rollback would only lower 2027 U.S. crude prices 11 cents a barrel, while lifting domestic oil output 0.09%.",
+   "url": "https://www.cnbc.com/2026/10/29/big-oil-earnings-are-set-to-surge-why-investors-may-want-to-be-cautious.html",
+   "title": "Big Oil earnings are set to surge. Why investors may want to be cautious",
+   "summary": "Big Oil earnings are coming. Why guidance could matter most and why the the charts suggest investors should be cautious.",
    "image": "",
    "date": "2026-10-29",
    "tags": [],
@@ -92,9 +262,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.cnbc.com/2026/10/29/ambani-billionaire-jio-ipo-india.html",
-   "title": "Billionaire Ambani cries tears of joy as Jio Platforms becomes the second most valued Indian firm",
-   "summary": "Ahead of Jio's listing, Mukesh Ambani teared up as his three children shared the journey of building Jio and vowed to create value for investors over the next 5…",
+   "url": "https://www.cnbc.com/2026/10/29/druckenmiller-hyperliquid-surge.html",
+   "title": "Rare Stanley Druckenmiller post sends crypto-linked stock surging",
+   "summary": "Options traders pounced on the closest publicly-traded play to the news.",
    "image": "",
    "date": "2026-10-29",
    "tags": [],
@@ -102,9 +272,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html",
-   "title": "Samsung Electronics shares slid despite record profit in the third-quarter",
-   "summary": "Samsung Electronics reported third-quarter earnings on Thursday.",
+   "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
+   "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
+   "summary": "The personal consumption expenditures price index was projected to increase 0.5% in September for an annual rate of 3.7%, according to the Dow Jones consensus.",
    "image": "",
    "date": "2026-10-29",
    "tags": [],
@@ -112,9 +282,9 @@
    "type": "article"
   },
   {
-   "url": "https://www.cnbc.com/2026/10/29/china-tech-stocks-selloff.html",
-   "title": "China’s tech darlings are losing their shine. Here’s what’s behind the sell-off",
-   "summary": "China's tech rally is being tested as as investors question whether AI profits can justify lofty valuations.",
+   "url": "https://www.cnbc.com/2026/10/29/midterm-elections-stock-market-history.html",
+   "title": "Some investors have midterm election jitters. Here’s what history shows about stocks",
+   "summary": "Investors are anxious about the 2026 midterms. Here's what historical S&P 500 data shows happened before and after past elections.",
    "image": "",
    "date": "2026-10-29",
    "tags": [],
@@ -122,181 +292,11 @@
    "type": "article"
   },
   {
-   "url": "https://www.cnbc.com/investingclub/2026/10/28/microsofts-quarter-validates-stock-rebound-heres-our-new-price-target.html",
-   "title": "Microsoft’s strong quarter backs up its stock rebound. Here's our new price target",
-   "summary": "Microsoft shares are up nearly 3% in after-hours trading, putting the stock in record-high territory.",
+   "url": "https://www.cnbc.com/2026/10/29/norwegian-earnings-guidance-shares.html",
+   "title": "Norwegian shares surge 13% on earnings beat, guidance raise",
+   "summary": "Norwegian said the company's bookings had \"improved modestly\" but remain below its optimal range.",
    "image": "",
    "date": "2026-10-29",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html",
-   "title": "Here are five key takeaways from the Fed rate decision and Warsh news conference",
-   "summary": "Even though the interest-rate vote went as expected, there were a few surprises out of this week's Federal Open Market Committee meeting.",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/28/weil-gotshal-law-firm-wall-street-wind-down.html",
-   "title": "Weil, Gotshal & Manges, longtime Wall Street law firm, plans wind down",
-   "summary": "Weil, Gotshal & Manges, a multinational law firm, has represented major corporations over its nearly century-long history.",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/28/ford-motor-f-earnings-q3-2026.html",
-   "title": "Ford reports mixed third-quarter results, says 2027 earnings will be in line with this year",
-   "summary": "Ford Motor reported earnings that beat Wall Street’s estimates but slightly missed on revenue.",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/28/doordash-instacart-maplebear.html",
-   "title": "DoorDash's deal to buy Instacart coming as early as Thursday morning, sources tell CNBC",
-   "summary": "Speculation of a deal has swirled since last week, and several outlets reported the acquisition could value Instacart at roughly $17 billion.",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/28/fedex-fdx-sept-2026-earnings.html",
-   "title": "FedEx beats expectations, raises outlook in first report since calendar adjustment",
-   "summary": "FedEx on Wednesday beat Wall Street expectations on the top and bottom lines for the third quarter of its newly aligned fiscal year.",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/28/scott-bessent-interview.html",
-   "title": "Bessent says 'not necessarily' a mistake if the Fed hikes again",
-   "summary": "Treasury Secretary Scott Bessent joined CNBC for an interview on Oct. 28, 2026.",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/28/as-waymo-expands-overseas-it-remains-a-niche-cash-burning-business.html",
-   "title": "As Waymo expands overseas, it remains a niche cash-burning business",
-   "summary": "Alphabet's Other Bets segment, which includes Waymo, accounted for 0.3% of total revenue in the quarter.",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/28/cramer-sk-hynix-ai-chip-stocks.html",
-   "title": "Jim Cramer sees major implications from SK Hynix's home-run quarter",
-   "summary": "CNBC’s Jim Cramer said SK Hynix’s blockbuster earnings showed that AI stocks can still rally.",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/28/apple-touchscreen-macbook-pro-hands-on.html",
-   "title": "Hands-on with Apple's first touchscreen laptop: Touch is totally optional",
-   "summary": "Any button that can be clicked can also be touched.",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/28/doj-questions-nvidias-12point9-billion-hugging-face-deal.html",
-   "title": "Nvidia's $12.9 billion Hugging Face deal draws DOJ scrutiny",
-   "summary": "Nvidia faces DOJ inquiry over its $12.9 billion purchase of Hugging Face.",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/28/chipotle-mexican-grill-cmg-q3-2026-earnings.html",
-   "title": "Chipotle shares rise 7% after CEO says same-store sales growth will continue",
-   "summary": "For the first time this year, low-income consumers during the quarter outperformed the high-income cohort at its restaurants, CEO Scott Boatwright said.",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/28/bond-investor-jeff-gundlach-talks-feds-rate-pause-with-cnbc.html",
-   "title": "Bond investor Jeff Gundlach on Fed's rate pause: 'What are you waiting for?'",
-   "summary": "The DoubleLine founder spoke with CNBC's \"Closing Bell\" on Wednesday after the Fed held interest rates steady.",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/29/where-chinas-wealthy-are-turning-for-second-passports.html",
-   "title": "One passport isn’t enough for some wealthy Chinese. Here’s where they’re looking next",
-   "summary": "For some wealthy Chinese, securing a foreign passport is becoming worth the ultimate trade-off: giving up their citizenship.",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/28/trump-white-house-media-ban-cnn-msnow-politico.html",
-   "title": "Three media outlets seek full White House access in amended lawsuit",
-   "summary": "President Donald Trump banned MS NOW, CNN and Politico from the White House in September, only to have a judge he appointed order their return.",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/28/fed-rate-decision-consumer-borrowing-costs.html",
-   "title": "Fed leaves rates unchanged: What it means for credit cards, mortgages, auto loans and savings accounts",
-   "summary": "The Fed's benchmark affects many consumer borrowing costs, including the rates tied to mortgages, credit cards, auto loans and savings accounts.",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/28/oracle-forecast-growth-2030.html",
-   "title": "Oracle stock pops 11% as long-term revenue forecast and clarity on financing ease debt concerns",
-   "summary": "Oracle issued a revenue forecast for fiscal year 2030 of $225 billion, and said it will limit additional fundraising over that stretch to $20 billion.",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.cnbc.com/2026/10/28/nelson-peltz-trian-wendys-1point4-billion.html",
-   "title": "Wendy's shares jump 15% as Nelson Peltz's Trian offers $1.4 billion to buy burger chain",
-   "summary": "Wendy's has endured a tough two-year stretch as diners eat out less often.",
-   "image": "",
-   "date": "2026-10-28",
    "tags": [],
    "lang": "en",
    "type": "article"

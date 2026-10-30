@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/t-54b8a9.xml</id>
-  <title>公共目录 · #数据</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · #数据</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-54b8a9.xml"/>
   <updated>2026-10-29T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/what-the-mastio-rankings-actually-tell-shippers</id>
+    <title>What the Mastio Rankings Actually Tell Shippers</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/what-the-mastio-rankings-actually-tell-shippers"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">When a shipper puts an LTL lane out to bid, price is the number everyone can compare in five minutes. Price, however, doesn’t say much about what happens six mo…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Less than Truckload (LTL)"/>
+    <category term="News"/>
+    <category term="Sponsored Insights"/>
+    <category term="LTL"/>
+    <category term="Old Dominion Freight Line"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/scan-global-logistics-to-acquire-oregon-based-oia-global</id>
     <title>Scan Global Logistics to acquire Oregon-based OIA Global</title>
@@ -19,6 +35,85 @@
     <category term="News"/>
     <category term="Top Stories"/>
     <category term="Scan Global Logistics"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/rxos-earnings-still-coming-out-had-solid-profitable-quarter</id>
+    <title>RXO’s earnings still coming out, had solid profitable quarter</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/rxos-earnings-still-coming-out-had-solid-profitable-quarter"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">RXO remains a publicly-traded company as it prepares to be acquired by C.H. Robinson, posting its earnings Thursday that showed mostly positive numbers in all k…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="3PL and Brokerage"/>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="C.H. Robinson"/>
+    <category term="RXO"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/how-transportation-leaders-are-turning-ai-and-connected-data-into-a-competitive-edge</id>
+    <title>How transportation leaders are turning AI and connected data into a competitive edge</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/how-transportation-leaders-are-turning-ai-and-connected-data-into-a-competitive-edge"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">AI is gaining ground in transportation, but are companies actually turning that potential into results? As supply chains face constant disruption, rising expect…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Media"/>
+    <category term="News"/>
+    <category term="White Papers"/>
+    <category term="Blue Yonder"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/first-look-tfi-truckload-sparkles-but-or-at-ltl-slips</id>
+    <title>First look: TFI Truckload sparkles, but OR at LTL slips</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/first-look-tfi-truckload-sparkles-but-or-at-ltl-slips"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">TFI International has tried to get investors to take notice of its Truckload operations, which are substantial but smaller than its more better-known LTL segmen…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="Trucking"/>
+    <category term="TFI International"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/first-look-covenant-logistics-q3-freight-revenue-surges-68</id>
+    <title>First look: Covenant Logistics’ Q3 freight revenue surges 68%</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/first-look-covenant-logistics-q3-freight-revenue-surges-68"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Covenant Logistics Group reported a 19.2% increase in third-quarter revenue to $353.9 million, fueled by rapid growth in its managed freight segment. The post F…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Trucking"/>
+    <category term="Covenant"/>
+    <category term="Covenant Logistics"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/amazon-battles-freight-inflation-as-shipping-costs-jump-11-in-q3</id>
+    <title>Amazon battles freight inflation as shipping costs jump 11% in Q3</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/amazon-battles-freight-inflation-as-shipping-costs-jump-11-in-q3"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Amazon's logistics network absorbed higher fuel and linehaul costs in the third-quarter while delivering more than 1.5 billion items same-day or overnight. The…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="E-commerce &amp; Fulfillment"/>
+    <category term="News"/>
+    <category term="Amazon"/>
+    <category term="Amazon Logistics"/>
     <category term="货运"/>
     <category term="数据"/>
   </entry>
@@ -45,6 +140,23 @@
     <source><title>FreightWaves</title></source>
     <category term="FreightWaves Today"/>
     <category term="FreightWaves TV"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/9-alleged-mexican-cartel-associates-arrested-in-california-train-theft-ring</id>
+    <title>9 alleged Mexican Cartel associates arrested in California train theft ring</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/9-alleged-mexican-cartel-associates-arrested-in-california-train-theft-ring"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Nine men allegedly connected to Mexico's Sinaloa Cartel were arrested in Southern California as part of a cargo train theft operation. The post 9 alleged Mexica…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="News"/>
+    <category term="Railroad"/>
+    <category term="BNSF"/>
+    <category term="cargo crime"/>
+    <category term="cargo theft"/>
+    <category term="Cartel"/>
     <category term="货运"/>
     <category term="数据"/>
   </entry>
@@ -153,53 +265,6 @@
     <category term="数据"/>
   </entry>
   <entry>
-    <id>https://www.freightwaves.com/news/the-biggest-shift-in-freight-liability-since-deregulation-is-here-and-few-are-ready-for-it</id>
-    <title>The Biggest Shift In Freight Liability Since Deregulation Is Here, And Few Are Ready For It</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/the-biggest-shift-in-freight-liability-since-deregulation-is-here-and-few-are-ready-for-it"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">The way courts decide who is responsible when a contracted truck ends up in a wreck is changing faster than most of the freight industry realizes, and the shift…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="3PL and Brokerage"/>
-    <category term="F3: Future of Freight Festival"/>
-    <category term="Montgomery vs. Caribe"/>
-    <category term="Nuclear verdicts"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/federal-guidance-on-carrier-selection-not-around-the-corner-tias-burroughs</id>
-    <title>Federal guidance on carrier selection not around the corner: TIA’s Burroughs</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/federal-guidance-on-carrier-selection-not-around-the-corner-tias-burroughs"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Chattanooga–The Transportation Intermediaries Association (TIA) was quick out of the box earlier this year after two key court decisions that didn’t favor the b…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="3PL and Brokerage"/>
-    <category term="Legal issues"/>
-    <category term="News"/>
-    <category term="Top Stories"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/double-nickel-launches-ai-agent-to-automate-driver-employment-checks</id>
-    <title>Double Nickel launches AI agent to automate driver employment checks</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/double-nickel-launches-ai-agent-to-automate-driver-employment-checks"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Double Nickel has launched an artificial intelligence agent to automate employment verifications for trucking companies, targeting a time-consuming part of driv…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="News"/>
-    <category term="Technology"/>
-    <category term="AI"/>
-    <category term="Double Nickel"/>
-    <category term="FreightWaves"/>
-    <category term="logistics"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
     <id>https://www.freightwaves.com/news/diesel-is-breaking-records-while-gasoline-stays-cheap-and-the-reason-is-not-what-most-truckers-think</id>
     <title>Diesel Is Breaking Records While Gasoline Stays Cheap, And The Reason Is Not What Most Truckers Think</title>
     <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/diesel-is-breaking-records-while-gasoline-stays-cheap-and-the-reason-is-not-what-most-truckers-think"/>
@@ -215,23 +280,6 @@
     <category term="数据"/>
   </entry>
   <entry>
-    <id>https://www.freightwaves.com/news/band24-seeks-early-testers-for-satellite-connected-asset-tracker-ahead-of-nov-13-deadline</id>
-    <title>Band24 seeks early testers for satellite-connected asset tracker ahead of Nov. 13 deadline</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/band24-seeks-early-testers-for-satellite-connected-asset-tracker-ahead-of-nov-13-deadline"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Asset-tracking company Band24 is seeking businesses to test Terra, a new tracker combining Bluetooth, cellular and satellite connectivity, ahead of a Nov. 13 de…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="News"/>
-    <category term="Technology"/>
-    <category term="Band24"/>
-    <category term="Freight"/>
-    <category term="FreightWaves"/>
-    <category term="logistics"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
     <id>https://ourworldindata.org/how-much-development-aid-is-spent-on-climate-change</id>
     <title>How much development aid is spent on climate change?</title>
     <link rel="alternate" type="text/html" href="https://ourworldindata.org/how-much-development-aid-is-spent-on-climate-change"/>
@@ -241,71 +289,6 @@
     <source><title>Our World in Data</title></source>
     <category term="数据"/>
     <category term="经济"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/trucking-needs-more-than-a-choice-between-diesel-and-ev-trucks</id>
-    <title>Trucking Needs More Than a Choice Between Diesel and EV Trucks</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/trucking-needs-more-than-a-choice-between-diesel-and-ev-trucks"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">This Range Energy whitepaper compares different ways fleets can cut diesel use. The evaluated options: do nothing, purchase an electric tractor, or purchase a R…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Media"/>
-    <category term="News"/>
-    <category term="White Papers"/>
-    <category term="Range Energy"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/mexican-truckers-launch-national-strike-over-highway-security-rising-costs</id>
-    <title>Mexican truckers launch national strike over highway security, rising costs</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/mexican-truckers-launch-national-strike-over-highway-security-rising-costs"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Mexican truckers launched a nationwide strike Monday with protests planned in major freight hubs that could disrupt commercial traffic and cross-border supply c…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Borderlands: Mexico"/>
-    <category term="News"/>
-    <category term="Trucking"/>
-    <category term="CANACAR"/>
-    <category term="Protest"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/fedex-taps-autozone-executive-to-be-finance-chief</id>
-    <title>FedEx taps AutoZone executive to be finance chief</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/fedex-taps-autozone-executive-to-be-finance-chief"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">FedEx has named a retail executive to be its next CFO. The post FedEx taps AutoZone executive to be finance chief appeared first on FreightWaves.</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="American Shipper"/>
-    <category term="News"/>
-    <category term="Parcel Freight"/>
-    <category term="Top Stories"/>
-    <category term="CFO"/>
-    <category term="FedEx"/>
-    <category term="货运"/>
-    <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/fmcsas-elison-addresses-motus-again-still-no-date-on-full-repair</id>
-    <title>FMCSA’s Elison addresses Motus again, still no date on full repair</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/fmcsas-elison-addresses-motus-again-still-no-date-on-full-repair"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Chattanooga–It hasn’t been that long–less than a month–since Jesse Elison spoke to an industry event and addressed the issue of the beleaguered new Motus regist…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="News"/>
-    <category term="Top Stories"/>
-    <category term="Trucking"/>
-    <category term="Trucking Regulation"/>
-    <category term="Broker transparency"/>
-    <category term="Motus registration system"/>
-    <category term="货运"/>
-    <category term="数据"/>
   </entry>
   <entry>
     <id>https://ourworldindata.org/when-do-people-experience-mental-health-conditions-for-the-first-time</id>

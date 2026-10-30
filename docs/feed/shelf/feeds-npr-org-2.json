@@ -1,13 +1,35 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · TED Radio Hour",
+  "title": "知树阅读-个人图书空间 · TED Radio Hour",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/shelf/feeds-npr-org-2.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
+    {
+      "id": "https://www.npr.org/2026/10/30/nx-s1-6020932/can-curiosity-save-the-wild",
+      "url": "https://www.npr.org/2026/10/30/nx-s1-6020932/can-curiosity-save-the-wild",
+      "title": "Can curiosity save the wild?",
+      "content_text": "How do we inspire people to care about wild animals without disrupting their lives? This hour, two surprising approaches to getting to know wildlife — and rethi…",
+      "summary": "How do we inspire people to care about wild animals without disrupting their lives? This hour, two surprising approaches to getting to know wildlife — and rethi…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1080+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F76%2Fd9%2Fafd6e0a54db0b4ceeea459eafe2b%2F4719c4bb-9350-4c17-b08c-8af00ddac05c.jpg",
+      "tags": [
+        "演讲",
+        "思考"
+      ],
+      "authors": [
+        {
+          "name": "TED Radio Hour"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "feeds-npr-org-2"
+      }
+    },
     {
       "id": "https://www.npr.org/2026/10/23/nx-s1-6010864/how-we-experience-time",
       "url": "https://www.npr.org/2026/10/23/nx-s1-6010864/how-we-experience-time",
@@ -1072,28 +1094,6 @@
       "summary": "It's been a long, complicated year. This hour, TED speakers share ideas to help you get grounded, back on track, and even edge toward something like bliss. TED…",
       "date_published": "2025-12-05T00:00:00Z",
       "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1080+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc8%2F16%2Fd08d5dd54634880f068b1125a282%2F794ea64a-51c2-4d86-9b40-46a4c79deaff.jpg",
-      "tags": [
-        "演讲",
-        "思考"
-      ],
-      "authors": [
-        {
-          "name": "TED Radio Hour"
-        }
-      ],
-      "_shelf": {
-        "type": "audio",
-        "shelf": "feeds-npr-org-2"
-      }
-    },
-    {
-      "id": "https://www.npr.org/2025/11/28/nx-s1-5620804/decoding-natures-hidden-patterns",
-      "url": "https://www.npr.org/2025/11/28/nx-s1-5620804/decoding-natures-hidden-patterns",
-      "title": "Decoding nature’s hidden patterns",
-      "content_text": "We can’t protect what we don’t understand. From decoding wolf howls to making sense of millions of citizen-science sightings, we explore the tools helping resea…",
-      "summary": "We can’t protect what we don’t understand. From decoding wolf howls to making sense of millions of citizen-science sightings, we explore the tools helping resea…",
-      "date_published": "2025-11-28T00:00:00Z",
-      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1080+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7a%2Ff5%2F18b9cff44d6792ca36bf7f0047ca%2F5ad365df-a992-4f44-98a2-08d5e9bed88c.jpg",
       "tags": [
         "演讲",
         "思考"

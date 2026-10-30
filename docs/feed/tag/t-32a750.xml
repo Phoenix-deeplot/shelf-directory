@@ -1,40 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/t-32a750.xml</id>
-  <title>公共目录 · #个人观点</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · #个人观点</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-32a750.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://www.woshipm.com/share/6486110.html</id>
-    <title>用户要的从来不是钻头，而是墙上的洞</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486110.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">用户要的从来不是钻头，而是墙上的洞。 座舱体验开发与设计，不应执着于功能、控件、动画这些 “钻头” 本身，而要锚定用户场景目标；先识别用户想要达成的体验结果，再选择最简合适的实现路径，不为功能而做功能。 一 我们手里握着很多精良的「钻头」： 流畅的 UI 动画、丰富的语音能力、多样的座舱交互、强劲的算力、琳琅满目的配置…</summary>
+    <id>https://www.woshipm.com/share/6486711.html</id>
+    <title>情景记忆：AI 听记产品从 “记录工具” 到 “认知资产” 的跃迁</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486711.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">本文承接上一篇《Agent 记忆体系分类・触发编码・生命周期维护》。那篇文章系统拆解了记忆的四大类型与全生命周期机制，其中情景记忆是四类里最特别、也最接近 "人" 的一类。这一次，我们把它单独拎出来，落到 AI 听记这个具体产品场景，看一个抽象概念如何真正变成产品能力。 引言：一个被忽视的分水岭 市面上几乎所有 AI…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="个人随笔"/>
+    <category term="AI产品"/>
     <category term="个人观点"/>
-    <category term="产品思考"/>
-    <category term="需求分析"/>
+    <category term="产品分析"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/chuangye/6486082.html</id>
-    <title>一人 AI 公司，专门服务美国年入百万的本地老板，这笔钱怎么赚</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6486082.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">美国做水管和空调的公司约 11.2 万家，平均每家年入 250 万美元，真正把 AI 用进日常经营的只占 14%。对这些老板别讲 AI，讲多接几通电话、多订几单活。一个人怎么把 AI 卖给本地生意？ 你有没有想过，大家都在抢着把 AI 卖给旧金山的人，真正付得起钱的，却可能是街边修水管、修空调的公司？ James Di…</summary>
+    <id>https://www.woshipm.com/share/6486699.html</id>
+    <title>AI时代，RPA产品应该如何升级？从流程自动化到智能化执行</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486699.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">RPA曾是企业自动化市场的热门赛道，如今又迎来大模型与AI智能体带来的新机会。当AI开始尝试接管复杂任务，企业选择RPA平台，不能只看传统流程执行能力，还需要重新审视系统兼容、流程治理、异常处理与AI融合能力。技术路线在变，但决定自动化能否长期创造价值的，始终是平台对真实业务的支撑能力。 大家还记得RPA吗？ RPA这…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="创业学院"/>
-    <category term="AI应用"/>
-    <category term="Shopify"/>
+    <category term="个人随笔"/>
+    <category term="AI时代"/>
+    <category term="RPA"/>
     <category term="个人观点"/>
-    <category term="商业模式"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>

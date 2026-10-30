@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/religion.xml</id>
+  <title>知树阅读-个人图书空间 · #Religion</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/religion.xml"/>
+  <updated>2026-10-29T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://slate.com/life/2026/10/hillsong-carl-lentz-laura-cheating-affair-book.html?via=rss</id>
+    <title>America’s Most Famous Pastor Just Revealed How He Treats His Wife. It Tells Us Something About Evangelicals.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/hillsong-carl-lentz-laura-cheating-affair-book.html?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">It’s a sad, old trick.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Books"/>
+    <category term="Marriage"/>
+    <category term="Religion"/>
+    <category term="Podcasts"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://www.openculture.com/2026/10/inside-the-making-of-the-sagrada-familia-barcelonas-144-year-megaproject.html</id>
+    <title>Inside the Making of the Sagrada Família, Barcelona’s 144-Year Megaproject</title>
+    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/inside-the-making-of-the-sagrada-familia-barcelonas-144-year-megaproject.html"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">To get a sense of Sagrada Família’s popularity with YouTubers, you have only to take a look at the related Open Culture posts linked below. As will hardly escap…</summary>
+    <source><title>Open Culture</title></source>
+    <category term="Architecture"/>
+    <category term="History"/>
+    <category term="Religion"/>
+    <category term="文化"/>
+    <category term="免费资源"/>
+  </entry>
+</feed>

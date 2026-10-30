@@ -1,717 +1,650 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/all.xml</id>
-  <title>公共目录</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/all.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6486266.html</id>
-    <title>鹅厂出手：面向Agent的网盘，到底应该长什么样？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486266.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">作者手上十几个 AI 工具，一直想给它们找个共同的仓库。腾讯网盘把「面向 Agent」写进了定位，他把内测几天折腾下来的连接、授权、备份和跨工具取资料的体验记了一遍，哪些真省事，哪些还差口气。 必须承认，我现在用AI，某种意义上就是一种消费。 我的工具一大堆—— Claude Code、Codex、WorkBuddy、…</summary>
+    <id>https://www.woshipm.com/share/6486768.html</id>
+    <title>餐饮/零售品牌门店新品上市AI评估模型</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486768.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">新品上架常靠拍脑袋，失败率高、试错也贵。把选品、上市前评估、试销、上市后经营和淘汰复盘拆成五类场景，再配六大类指标，上新就能从经验判断变成可复用的数据流程，一次搭好长期可用。 无论是传统的零售门店，亦或者是餐饮门店，都会遇到产品上新的问题。 那么问题来了：产品上新有没有评估模型，能否让“产品上新”从经验判断升级为数据驱…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="Codex"/>
-    <category term="WorkBuddy"/>
-    <category term="腾讯"/>
+    <category term="AI应用"/>
+    <category term="产品策略"/>
+    <category term="新零售"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6486169.html</id>
-    <title>首个记忆原生大模型开源，36B 本地部署实测：成功把规矩”刻”进脑子</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486169.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">AI 编程最痛的不是写不出代码，而是换个会话就忘光。MemT-1 想做的事很直接：把踩过的坑写进模型权重，36B 版本在单卡 A100 上跑通，长程任务里到底管不管用，这篇给了实测。 做智能体或者日常用 Cursor、Claude Code、Windsurf 等 AI 辅助写代码的老铁们，大概率都经历过同一种“内伤”：…</summary>
+    <id>https://www.woshipm.com/ai/6486879.html</id>
+    <title>豆包终于学会了腾讯WorkBuddy的杀手锏？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486879.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">字节的豆包工作，终于开始向腾讯 WorkBuddy 学习了。 以后用豆包工作，背后帮你干活的可能是 DeepSeek，也可能是 Kimi、GLM。 昨天，豆包工作开始向企业客户开放第三方大模型服务，首批接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等系列模型。 字节辛辛苦苦研发…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI编程"/>
-    <category term="MemOS"/>
-    <category term="案例分析"/>
+    <category term="DeepSeek"/>
+    <category term="Kimi"/>
+    <category term="WorkBuddy"/>
+    <category term="腾讯"/>
+    <category term="豆包"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/it/6486854.html</id>
+    <title>绿泡泡，其实“救了”红果短剧？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6486854.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">红果短剧刚宣布下线金币功能、上线休息提醒，看似从容不迫，但字节随即整合AI短剧资源，推出即梦短剧工作室，打造从剧本到成片的AI流水线。微信绿泡泡短剧月活已破亿，增长迅猛。这场短剧之争背后，是AI视频商业化路径的清晰化，以及快手、阿里等大厂的潜在入局。红果的危机感，或许才刚刚开始。 红果短剧开始有危机感了。 大家都知道，…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="业界动态"/>
+    <category term="AI短剧"/>
+    <category term="字节跳动"/>
+    <category term="微信绿泡泡"/>
+    <category term="红果短剧"/>
     <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6486194.html</id>
-    <title>详细拆解 Pi Agent：产品经理搞懂 Agent 的最佳实践</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486194.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">OpenClaw 背后真正负责思考和动手的，是一个叫 Pi 的极简框架。拆完整个项目，作者把 Agent 的循环、上下文工程、工具系统与状态管理，讲成了一套可以迁移的产品原则。 如果你正在学习 Agent，或者要面向 Agent 优化迭代你的产品，强烈建议深度使用、拆解、学习 Pi Agent 这套开源项目。 我前段时…</summary>
+    <id>https://www.woshipm.com/share/6486561.html</id>
+    <title>砸了300万做小红书双11投放，总结出的7条运营经验！</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486561.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">砸了300万做小红书双11投放，看到的ROI可能是假的——同一用户被重复计数、老客复购被当成新增量。本文用7条实战经验，讲清如何用达摩盘做数据去重修正ROI、用3层漏斗倒推法定位断点，重新理解小红书对生意的真实价值。 最近给一些品牌做小红书双11的跟进性投放复盘和策略迭代，发现很多品牌容易陷入2类误区： 要么迷信达人爆…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="ROI"/>
+    <category term="双11"/>
+    <category term="小红书投放"/>
+    <category term="电商运营"/>
+    <category term="运营经验"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6486550.html</id>
+    <title>泡泡玛特与蜜雪冰城：优势还在，为什么海外增长变难了？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486550.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">泡泡玛特2026年Q3美洲市场下降70%至75%，蜜雪冰城海外门店半年净减428家。一个靠潮玩IP风靡全球，一个靠低价供应链开出数万家门店，增长都出现了变化。优势还在，为什么海外增长变难了？ 最近，泡泡玛特公布2026年第三季度业务情况：整体收益同比下降45%至50%，其中，美洲市场下降70%至75%。 而蜜雪冰城的海…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="市场分析"/>
+    <category term="泡泡玛特"/>
+    <category term="消费升级"/>
+    <category term="蜜雪冰城"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6486774.html</id>
+    <title>挖到个宝藏27B开源Code2Video模型！可本地安装，还送MG Skill～</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486774.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">HeyGen 的 Code2Video 榜单上，前八名清一色闭源，Claude Opus 5.5 排第一，开源模型多在百分之十上下。一个 27B 开源模型能本地安装，还能在 HyperFrames 里稳定出片。 老粉应该知道，我最开始是一个后端开发，剪辑和AE是完全一窍不通。 但从今年2月开始，我陆陆续续用代码做了不少…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI编程"/>
+    <category term="Claude Code"/>
+    <category term="经验分享"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6486782.html</id>
+    <title>我花了 10 个小时，用AI编了一套精美的诗集：Skills 开源，附 6 套宋代美学模板</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486782.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">为了验证百万级上下文，他用 Kimi K3.1 Pro 编了一套苏轼诗集，一千四百四十八页、三千二百条作品，中途废掉一版竖排稿，烧掉一点六九亿 Token，三百多次调用十小时完工。 现在的大模型普遍支持最高 1M 超长上下文 周二我发了 Kimi K3.1 Pro 的实测：国产最强开源大模型，Kimi K3.1 Pro…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI应用"/>
+    <category term="Kimi"/>
+    <category term="经验分享"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6486711.html</id>
+    <title>情景记忆：AI 听记产品从 “记录工具” 到 “认知资产” 的跃迁</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486711.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">本文承接上一篇《Agent 记忆体系分类・触发编码・生命周期维护》。那篇文章系统拆解了记忆的四大类型与全生命周期机制，其中情景记忆是四类里最特别、也最接近 "人" 的一类。这一次，我们把它单独拎出来，落到 AI 听记这个具体产品场景，看一个抽象概念如何真正变成产品能力。 引言：一个被忽视的分水岭 市面上几乎所有 AI…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
     <category term="AI产品"/>
-    <category term="Claude"/>
+    <category term="个人观点"/>
     <category term="产品分析"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6486181.html</id>
-    <title>腾讯网盘上线，行业首个Agent网盘来了，实测惊艳</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486181.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">腾讯网盘上线，主打面向 Agent 的存储底座：连上 WorkBuddy、ima、腾讯文档与飞书，把散落各处的资料归到一处。五个步骤实测下来，它到底能不能当 AI 时代的统一入口。 早在今年 6 月份，就有可靠消息显示，腾讯正在研发一款 Agent 网盘产品：腾讯网盘。 我还专为此写过一篇文章，对这个产品充满期待。 腾…</summary>
+    <id>https://www.woshipm.com/ai/6486778.html</id>
+    <title>微软谷歌重整办公套件，腾讯 Buddy One 串联应用：办公 AI 开始比拼生态协同</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486778.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">微软给 Work IQ 加了检索工具，Google 让 Gemini 打通邮件与云盘，腾讯发布 Buddy One 串联自家应用。办公 AI 从单点功能转向生态协同，组合订阅成了留住付费的理由。 “创造力，就是把事物连接起来。”——史蒂夫·乔布斯，1996 年《连线》 10 月 20 日，微软为 Work IQ 推出新…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
     <category term="AI产品"/>
-    <category term="WorkBuddy"/>
-    <category term="腾讯网盘"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6486191.html</id>
-    <title>社媒广告投了大半年遇瓶颈？聊聊谷歌广告如何协同破局</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486191.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">社媒广告跑到一定阶段就上不去，是不少独立站老板的共同瓶颈。海外消费者刷到你之后会去 Google 搜什么，决定了这笔广告费能不能沉淀成品牌资产，而不是一停投就归零。 最近和几个做独立站的朋友小聚，聊起今年的海外营销大盘，有个问题被其他小伙伴重点提起。 “我的重心都在社交媒体广告（比如Meta），前期跑得好好的，但增长到…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="市场分析"/>
-    <category term="谷歌广告"/>
-    <category term="跨境电商"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6486200.html</id>
-    <title>电商产品设计终极工作流：用AI一键生成可交互、可拆解的产品3D demo</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486200.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">从亚马逊评论中挖掘产品改进机会，再生成可交互的3D Demo，这套工作流让产品设计效率倍增。本文详细拆解如何用WorkBuddy和卖家精灵MCP，完成VOC分析、方案构思到三维演示的全过程，并附上实用提示词和模板，助你快速上手。 今天想给大家分享一个有趣又实用的电商产品设计工作流，对产品设计、运营、设计师都会有很大帮助…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="3D Demo"/>
-    <category term="AI应用"/>
-    <category term="VOC分析"/>
-    <category term="WorkBuddy"/>
-    <category term="卖家精灵"/>
-    <category term="电商产品设计"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6486110.html</id>
-    <title>用户要的从来不是钻头，而是墙上的洞</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486110.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">用户要的从来不是钻头，而是墙上的洞。 座舱体验开发与设计，不应执着于功能、控件、动画这些 “钻头” 本身，而要锚定用户场景目标；先识别用户想要达成的体验结果，再选择最简合适的实现路径，不为功能而做功能。 一 我们手里握着很多精良的「钻头」： 流畅的 UI 动画、丰富的语音能力、多样的座舱交互、强劲的算力、琳琅满目的配置…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="个人观点"/>
-    <category term="产品思考"/>
-    <category term="需求分析"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6486072.html</id>
-    <title>抖音内测短剧互动道具，花钱能参与剧情，开启情绪付费新玩法</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486072.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">抖音正在内测短剧专属互动道具，观众花 1 钻约 0.1 元，就能在包厢对峙的节点刷出铁砂掌特效，直接改变画面。在全集解锁、广告、短剧卡之外，这是又一条情绪付费链路，也是拉高单用户消费的解法。 抖音正在内测短剧场景专属的道具礼物，观众消耗平台钻石即可送出，礼物触发后会直接在短剧的画面里，弹出配套的剧情互动特效。简单来说，…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="商业模式"/>
-    <category term="抖音"/>
-    <category term="短视频"/>
+    <category term="腾讯"/>
     <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/share/6486272.html</id>
-    <title>我反对品牌盲目「去登味」！</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486272.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">「登味」成了品牌圈的新罪名，于是大家都开始讲松弛、讲梗、讲年轻人的生活方式。作者认为这是矫枉过正：权威、秩序和掌控感同样是真实存在的心理需求，掌舵者人格有它不可替代的商业价值。 现在的品牌营销圈，似乎正在形成一种新的共识： 做品牌，千万不能有“登味”。 广告里出现几个西装革履的中年男人，被说成登味十足； 品牌宣传强调行…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="品牌建设"/>
-    <category term="品牌管理"/>
-    <category term="消费洞察"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6486183.html</id>
-    <title>张一鸣又造出一个国民级APP</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486183.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">谁能想到，曾经被不少人嫌弃“又土又俗”的短剧，如今已经成了互联网大厂争夺用户时间的重要战场。 10月29日，一组关于红果短剧的数据引发关注。 QuestMobile数据显示，2026年5月，红果短剧月活跃用户达到3.56亿；7月日活跃用户达到1.68亿，同比增长107%，甚至超过腾讯视频、爱奇艺、优酷、芒果TV四家长视…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="小程序"/>
-    <category term="微信"/>
-    <category term="抖音"/>
-    <category term="腾讯"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6486063.html</id>
-    <title>开源性转马尔福 AI 女友，用即梦短剧工作室做的</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486063.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">性转马尔福一条帖子刷到 2300 万浏览，有人干脆用即梦 AI 短剧工作室做了个桌面应用：第一人称剧情、好感度解锁、角色就住在桌面里。画面和配音用即梦，音乐用 Suno，代码交给 Claude。 这一个多月，你应该刷到过性转马尔福吧。 起因是 9 月 22 日，一位俄罗斯画师在 X 上发了一张图。 图上是一个穿着斯莱特…</summary>
+    <id>https://www.woshipm.com/ai/6486764.html</id>
+    <title>学到钉钉们的精髓了？Claude上线逆天功能，帮企业监控员工是否用AI摸鱼</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486764.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Anthropic 为 Claude Enterprise 上线智能报告，管理员能读取团队二十八天内的对话，把工作归到不同流程，标出哪些会话没有产出。一家把安全写进使命的公司，先做出了监工工具。 2026年10月，Anthropic为Claude Enterprise上线了一个新功能——“智能报告”。 名字平平无奇，能…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI应用"/>
+    <category term="Anthropic"/>
     <category term="Claude"/>
-    <category term="Suno"/>
-    <category term="经验分享"/>
+    <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
+    <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6486168.html</id>
-    <title>从 GEO 实战重新理解知识图谱</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486168.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">知识图谱不是静态资料库，而是品牌在 AI 世界的认知底座。本文从 GEO 优化视角，拆解知识图谱如何统一认知、指导选题、串联内容并发现缺口，并分享市场部运营人员从零搭建、持续迭代的实战方法，让知识树既能摘果也能灌溉。 一、前提 最近在重新梳理公司的知识图谱。最开始的原因其实很简单——我看了不少 GEO的行业报告，里面几…</summary>
+    <id>https://www.woshipm.com/it/6486483.html</id>
+    <title>声音直播正在批量制造地下偶像</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6486483.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">有声直播陷入商业化困境，单纯依靠声音和陪伴难以突破。克拉克拉通过CV+广播剧+有声直播的模式，将角色扮演转化为恋人偶像，实现头部主播年流水超千万。本文深度拆解这一案例，探讨声音经济如何从即时陪伴转向情感叙事，为行业寻找新增长方向。 一、有声直播的商业化困境：声音代表什么 人类接收信息共分为六个介质，分别是眼耳口鼻舌触，…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI搜索"/>
-    <category term="GEO"/>
-    <category term="内容运营"/>
-    <category term="市场部"/>
-    <category term="知识图谱"/>
+    <category term="业界动态"/>
+    <category term="广播剧"/>
+    <category term="情感消费"/>
+    <category term="有声直播"/>
+    <category term="虚拟恋人"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/pd/6486784.html</id>
+    <title>一文看懂：集团司库全景</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/pd/6486784.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">几十家子公司、多套 ERP、与多家银行合作，总部看得到余额，资金会上却仍说不清下个月缺多少钱。集团司库要先把管理边界、决策权限、数据贯通和交易核实定下来，再谈系统怎么建。 假设一个集团有几十家子公司，分布在境内外，使用多套ERP，与多家银行合作。 总部每天能看到银行余额，也已经实现统一付款。 但资金会上，聊到以下问题时…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="产品设计"/>
+    <category term="企业服务"/>
+    <category term="数字化转型"/>
     <category term="经验总结"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6485988.html</id>
-    <title>下一代PPT，AI 做 PPT 的终极形态</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485988.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">当 AI 能生成 3D 模型和动态视频，PPT 的叙事逻辑正在被改写。本文从产品演示的真实痛点出发，结合 Rebecca Minkoff、宜家等案例，拆解如何用 3D 视角和动态画面讲清空间关系与变化过程，并给出从产品图到短视频的完整实操路径。 2026年，用 AI 做 PPT 的终极形态，长这样 先说结论：我做 PP…</summary>
+    <id>https://www.woshipm.com/share/6486839.html</id>
+    <title>Whiplr：一款专攻小众癖好的约会软件</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486839.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">当主流社交市场趋于饱和，小众垂直社交还有机会吗？Whiplr 以 BDSM 等多元亲密关系为切入点，通过精细标签、特色互动和差异化付费机制，精准捕获小众群体。本文深度体验其产品设计，并探讨隐私安全与 AI 时代「一人千面」的社交新可能。 《五十度灰》或许算不上电影史上的永恒经典，但它确实让另类亲密关系与情趣话题走进了大…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="Whiplr"/>
+    <category term="产品分析"/>
+    <category term="会员付费"/>
+    <category term="垂直社交"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6486788.html</id>
+    <title>DeepSeek的尽头，居然是一条会喊你爸爸的蓝色大肥鱼。</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486788.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">DeepSeek 的 Logo 是条鲸鱼，一次自我识别认成了蓝色大肥鱼，外号就这么叫开。网友围绕它二创出鲸鱼娘，蓝发鲸尾、爱吃白饭、干活还得讨 Token，各平台都在闹鱼灾。 最近，我真的感觉，国内互联网，快要被一群蓝色大肥鱼给统治了。 刷B站有她，刷抖音也有她，刷小红书还是她。 无论在哪个平台，好像大家都想给她完整的…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="3D 模型"/>
-    <category term="AI 应用"/>
-    <category term="AI 生成 PPT"/>
-    <category term="产品展示"/>
-    <category term="动态演示"/>
-    <category term="案例分析"/>
+    <category term="DeepSeek"/>
+    <category term="内容创作"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/chuangye/6486082.html</id>
-    <title>一人 AI 公司，专门服务美国年入百万的本地老板，这笔钱怎么赚</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6486082.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">美国做水管和空调的公司约 11.2 万家，平均每家年入 250 万美元，真正把 AI 用进日常经营的只占 14%。对这些老板别讲 AI，讲多接几通电话、多订几单活。一个人怎么把 AI 卖给本地生意？ 你有没有想过，大家都在抢着把 AI 卖给旧金山的人，真正付得起钱的，却可能是街边修水管、修空调的公司？ James Di…</summary>
+    <id>https://www.woshipm.com/share/6486699.html</id>
+    <title>AI时代，RPA产品应该如何升级？从流程自动化到智能化执行</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486699.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">RPA曾是企业自动化市场的热门赛道，如今又迎来大模型与AI智能体带来的新机会。当AI开始尝试接管复杂任务，企业选择RPA平台，不能只看传统流程执行能力，还需要重新审视系统兼容、流程治理、异常处理与AI融合能力。技术路线在变，但决定自动化能否长期创造价值的，始终是平台对真实业务的支撑能力。 大家还记得RPA吗？ RPA这…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="创业学院"/>
-    <category term="AI应用"/>
-    <category term="Shopify"/>
+    <category term="个人随笔"/>
+    <category term="AI时代"/>
+    <category term="RPA"/>
     <category term="个人观点"/>
-    <category term="商业模式"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6486185.html</id>
-    <title>ChatGPT 每月送 API 额度，最多 500 美元/月</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486185.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">OpenAI 给 ChatGPT 订阅加了项福利：Pro 和 Business 用户每月可领与订阅等额的 API 额度，最高 500 美元。与此同时，原有额度被砍掉一半，这笔账要怎么算，几步就能领。 OpenAI 给 ChatGPT 订阅加了一项福利：Pro 和 Business 用户，每月可领 API 额度，等同于订…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="ChatGPT"/>
-    <category term="OpenAI"/>
-    <category term="行业动态"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/skullcandy-discount-code/</id>
-    <title>Skullcandy Discount Code: 30% Off | November 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/skullcandy-discount-code/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Save on today’s top Skullcandy Promo Codes for Crusher Evo headphones, 36% off Crusher ANC 2 noise-canceling headphones, and more with amazing deals.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/pura-promo-code/</id>
-    <title>Pura Promo Codes: $20 Off November 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/pura-promo-code/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Enhance your home's ambiance for less with active Pura promo codes. Find savings on smart diffusers, exclusive scents, and subscribe &amp; save offers.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/petlibro-discount-code/</id>
-    <title>Petlibro Offers: 30% Off in November 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/petlibro-discount-code/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Save on Petlibro essentials, including automatic feeders, water fountains, and accessories to keep cats and dogs fed, hydrated, and comfortable every day.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/norton-coupon-code/</id>
-    <title>Norton Coupon Codes: Up to 58% Off</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/norton-coupon-code/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Whether you’re looking to protect your small business or your personal computer, we have the top coupons and deals to help you save at Norton.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/nzxt-discount-code/</id>
-    <title>NZXT Discount Codes: 50% Off in November 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/nzxt-discount-code/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Save 50%, plus up to $250 with NZXT promo codes and discounts.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/loop-earplugs-discount-code/</id>
-    <title>Loop Earplugs Discount Codes: 40% Off</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/loop-earplugs-discount-code/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Save on Loop Earplugs, including Quiet 2 and popular gift sets for improved sleep, focus, and comfort.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/liquid-glass-finally-makes-sense-on-the-iphone-duo/</id>
-    <title>Liquid Glass Finally Makes Sense on the iPhone Duo</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/liquid-glass-finally-makes-sense-on-the-iphone-duo/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Liquid Glass was a divisive redesign. But with a radically different iPhone, the pieces are finally falling into place.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Gear News and Events"/>
-    <category term="Crystal Clear"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/law-firm-linked-to-elon-musk-started-an-election-integrity-organization/</id>
-    <title>Law Firm Linked to Elon Musk Started an ‘Election Integrity’ Organization</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/law-firm-linked-to-elon-musk-started-an-election-integrity-organization/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">The firm that helped set up Elon Musk’s America PAC is behind the new group, which will work with election officials to pursue policies aligned with Donald Trum…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Politics"/>
-    <category term="Midterms 2026"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/hungryroot-promo-code/</id>
-    <title>Hungryroot Coupon Codes: 30% Off This November 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/hungryroot-promo-code/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Get up to 30% off your first order and free gifts using a Hungryroot promo code today. Discover our best coupons and discounts to let you save on your healthy g…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/govee-discount-code/</id>
-    <title>Govee Discount Codes and Deals: 30% Off</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/govee-discount-code/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">New to Govee? Get a $5 coupon on your first purchase just for signing up.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/dermstore-promo-code/</id>
-    <title>Dermstore Coupons: 25% Off for November 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/dermstore-promo-code/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Score major savings on premium skincare, hair care, and cosmetics with these verified Dermstore discount codes and rewards offers.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/bluesky-blocks-links-to-major-leak-of-dhs-data/</id>
-    <title>Bluesky Is Blocking Links to a Major Leak of DHS Employee Records</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/bluesky-blocks-links-to-major-leak-of-dhs-data/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Bluesky tells WIRED it blocked links to a leaked archive of information on 41,000 ICE, CBP, and other DHS workers because it contains people’s contact informati…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Security"/>
-    <category term="ICE’d Out"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/astronomers-discover-a-possible-new-dwarf-planet-in-our-solar-system/</id>
-    <title>Astronomers Discover a Possible New Dwarf Planet in Our Solar System</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/astronomers-discover-a-possible-new-dwarf-planet-in-our-solar-system/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Lying beyond Pluto, 2026 ED138 could be as large as 1,500 kilometers in diameter. Astronomers are still working to confirm whether it meets the criteria for a d…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Space"/>
-    <category term="Hi Neighbor"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/tempur-pedic-promo-code/</id>
-    <title>30% Off Tempur-Pedic Promo Codes | November 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/tempur-pedic-promo-code/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Whether you’re looking to upgrade your mattress or swap out your bedding, browse our Tempur-Pedic coupons for up to $300 off and the best sleep of your life.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://tech.meituan.com/2026/10/29/AI-Coding-IN-Distributed-Storage-System.html</id>
-    <title>如何在“不能出错”的系统里使用 AI Coding？分布式存储实践与边界</title>
-    <link rel="alternate" type="text/html" href="https://tech.meituan.com/2026/10/29/AI-Coding-IN-Distributed-Storage-System.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">本文结合美团基础技术部在 AI 评审、问题排查和自动化开发中的真实实践，分享 AI 能帮上什么忙、容易在哪些地方犯错，以及哪些地方仍需要人来把关。比「多写代码」更重要的，是让代码和结论经得起验证。</summary>
-    <source><title>美团 · 技术团队</title></source>
-    <category term="架构"/>
-    <category term="工程"/>
-  </entry>
-  <entry>
-    <id>https://sspai.com/prime/story/how-to-analyze-health-data-with-agent</id>
-    <title>让 Agent 读懂你的身体：数据处理篇</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/prime/story/how-to-analyze-health-data-with-agent"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">在上一篇文章《让Agent读懂你的身体：数据获取篇》中，我花了很大的篇幅讲清楚了第一个问题：Agent怎样拿到数据。如果照着实践完，你大概率已经收获了一份存储了运动健康数据的SQLite、Markdo ...查看全文 本文为会员文章，出自《单篇文章》，订阅后可阅读全文。</summary>
+    <id>https://sspai.com/post/116435</id>
+    <title>精确到秒的时间记录是怎样的？我的柳比歇夫法半年实践</title>
+    <link rel="alternate" type="text/html" href="https://sspai.com/post/116435"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">就像一个运动员无法预计自己能否取得金牌，但能控制自己投入于训练的时间一样，我们无法决定性地控制工作和生活中每一项事项的成功与否，但可以控制自己投入更多还是更少的时间。查看全文</summary>
     <source><title>少数派</title></source>
     <category term="效率"/>
     <category term="工具"/>
   </entry>
   <entry>
-    <id>https://sspai.com/post/117750</id>
-    <title>派早报：Apple 推出触控款 MacBook Pro、华为发布多款新品等</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/117750"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Google 推出世界模型 Genie 4、索尼推出手机主摄图像传感器 LYTIA 720 等。查看全文</summary>
+    <id>https://sspai.com/post/117827</id>
+    <title>派早报：全球首款 Android XR 有线眼镜 XREAL AURA 发售等</title>
+    <link rel="alternate" type="text/html" href="https://sspai.com/post/117827"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">腾讯与 Visa 签署合作备忘录，Bose 有线消噪耳塞国行上市等。查看全文</summary>
     <source><title>少数派</title></source>
     <category term="效率"/>
     <category term="工具"/>
   </entry>
   <entry>
-    <id>https://sspai.com/post/116686</id>
-    <title>一日一技｜iPhone 恶意被锁，线上移除流程拆招</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/116686"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">如果你从网上购买过 Apple ID，又在自己的设备上登录，那就会存在一种风险：这类共享 ID 的密码掌握在卖家手里，卖家可以随时更改。本文就介绍了移除激活锁的全过程。查看全文</summary>
+    <id>https://sspai.com/prime/story/zhuanglesha-261030</id>
+    <title>《久坐健康指南》作者、运动健康领域创作者阿帅装了啥？</title>
+    <link rel="alternate" type="text/html" href="https://sspai.com/prime/story/zhuanglesha-261030"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">编者按：@阿帅的健康笔记长期专注于运动健康领域的创作，发表了不少兼具实用性与科普性的文章，并著有付费栏目《久坐健康指南》，受到许多读者喜爱。本期《装了啥》邀请他分享运动、创作与工作中的心得，以及常用的 ...查看全文 本文为会员文章，出自《单篇文章》，订阅后可阅读全文。</summary>
     <source><title>少数派</title></source>
     <category term="效率"/>
     <category term="工具"/>
   </entry>
   <entry>
-    <id>https://slate.com/news-and-politics/2026/10/2020-election-tuesday-midterms-trump-threats.html?via=rss</id>
-    <title>Why There’s a Real Risk of a Replay of the 2020 Election Come Tuesday</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/news-and-politics/2026/10/2020-election-tuesday-midterms-trump-threats.html?via=rss"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">These are ominous words from the president.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Donald Trump"/>
-    <category term="Elections"/>
-    <category term="Voting"/>
-    <category term="Voting Rights"/>
-    <category term="Capitol Riot"/>
-    <category term="2026 Midterms"/>
-    <category term="Executive Dysfunction"/>
-    <category term="评论"/>
+    <id>https://sspai.com/post/116047</id>
+    <title>App+1｜该吃药了：一片小药板，让吃药提醒变得轻松有趣</title>
+    <link rel="alternate" type="text/html" href="https://sspai.com/post/116047"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">它简单、稳定，也有意思，不会把按时吃药变成一个负担——而是一件看见了就随手去做、轻松愉快的小事。查看全文</summary>
+    <source><title>少数派</title></source>
+    <category term="效率"/>
+    <category term="工具"/>
   </entry>
   <entry>
-    <id>https://slate.com/news-and-politics/2026/10/trivia-quiz-daily-slate-science-vitamins-geology-evolution.html?via=rss</id>
-    <title>What Is Defined Scientifically as a Force Multiplied by a Time Divided by an Area?</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/news-and-politics/2026/10/trivia-quiz-daily-slate-science-vitamins-geology-evolution.html?via=rss"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Test your wits on the Slate Quiz for Oct. 29, 2026.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Quizzes"/>
-    <category term="Trivia"/>
-    <category term="Slate Games"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/podcasts/decoder-ring/2026/10/dracula-bram-stoker-iceland-vampires-powers-of-darkness-translation-makt-myrkranna?via=rss</id>
-    <title>Was the Strange, Long-Lost Icelandic Version of &lt;em&gt;Dracula&lt;/em&gt; Written by Bram Stoker Himself?</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/podcasts/decoder-ring/2026/10/dracula-bram-stoker-iceland-vampires-powers-of-darkness-translation-makt-myrkranna?via=rss"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">How a raunchy, proto-fascist Dracula was born in the Nordic North.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/podcasts/what-next/2026/10/will-the-new-epstein-release-force-the-doj-to-investigate?via=rss</id>
-    <title>The Next Epstein Files</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/podcasts/what-next/2026/10/will-the-new-epstein-release-force-the-doj-to-investigate?via=rss"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">A longshot bid for a special counsel.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Department of Justice"/>
-    <category term="Donald Trump"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-29-2026.html?via=rss</id>
-    <title>Slate Mini Crossword for Oct. 29, 2026</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-29-2026.html?via=rss"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Take a quick break with our daily 5x5 grid.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Mini Crossword"/>
-    <category term="Slate Games"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/news-and-politics/2026/10/senate-race-pappas-sununu-new-hampshire.html?via=rss</id>
-    <title>My State’s Democratic Candidate Has Zero Rizz. He Could Decide Control of the Senate. Good!</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/news-and-politics/2026/10/senate-race-pappas-sununu-new-hampshire.html?via=rss"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">In a year of insurgents and stars, this establishment-versus-establishment contest is deeply revealing.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Donald Trump"/>
-    <category term="Elections"/>
-    <category term="Senate"/>
-    <category term="New Hampshire"/>
-    <category term="2026 Midterms"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://www.reddit.com/r/interesting/comments/1xiafkr/mexico_upgraded_to_free_health_care/</id>
-    <title>Mexico upgraded to free health care!</title>
-    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/interesting/comments/1xiafkr/mexico_upgraded_to_free_health_care/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">submitted by /u/Negative_1by12_aura to r/interesting [link] [comments]</summary>
-    <source><title>top scoring links : popular</title></source>
-    <category term="interesting"/>
-    <category term="社区"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.reddit.com/r/oddlysatisfying/comments/1xi52mh/mesmerizing_process/</id>
-    <title>Mesmerizing Process</title>
-    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/oddlysatisfying/comments/1xi52mh/mesmerizing_process/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">submitted by /u/Alternative-Dot-34 to r/oddlysatisfying [link] [comments]</summary>
-    <source><title>top scoring links : popular</title></source>
-    <category term="oddlysatisfying"/>
-    <category term="社区"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.reddit.com/r/news/comments/1xi6a2i/details_of_thousands_of_us_immigration_agents/</id>
-    <title>Details of thousands of US immigration agents leaked in major hack</title>
-    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/news/comments/1xi6a2i/details_of_thousands_of_us_immigration_agents/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">submitted by /u/zmayes to r/news [link] [comments]</summary>
-    <source><title>top scoring links : popular</title></source>
-    <category term="news"/>
-    <category term="社区"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>http://www.bbc.co.uk/programmes/p0pk7d0p</id>
-    <title>Is aircon the answer to a heating world?</title>
-    <link rel="alternate" type="text/html" href="http://www.bbc.co.uk/programmes/p0pk7d0p"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Do you ever feel it is too hot to sleep? With climate change gradually increasing world temperatures, people across the world are becoming increasingly affected…</summary>
-    <source><title>6 Minute English</title></source>
-    <category term="英语学习"/>
-    <category term="英语听力"/>
-  </entry>
-  <entry>
-    <id>https://www.openculture.com/2026/10/the-early-years-of-electronic-pop-the-moog-craze-psychedelic-experiments-and-more.html</id>
-    <title>The Early Years of Electronic Pop: The Moog Craze, Psychedelic Experiments, and More</title>
-    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/the-early-years-of-electronic-pop-the-moog-craze-psychedelic-experiments-and-more.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">There’s a decent chance you’ve heard at least a couple of tracks from Wendy Carlos’ Switched-On Bach. But when was the last time you put on Switched-On Rock, Sw…</summary>
+    <id>https://www.openculture.com/2026/10/watch-150-classic-horror-and-suspense-films-free-online.html</id>
+    <title>Watch 150 Classic Horror and Suspense Films Free Online: Nosferatu, The Cabinet of Dr. Caligari, Carnival of Souls, Night of the Living Dead…</title>
+    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/watch-150-classic-horror-and-suspense-films-free-online.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">﻿ From roughly the mid-nineteen-fifties through the mid-nineteen-seventies, the availability of airtime on American television stations exceeded their capacity…</summary>
     <source><title>Open Culture</title></source>
-    <category term="History"/>
-    <category term="Music"/>
-    <category term="Technology"/>
-    <category term="文化"/>
-    <category term="免费资源"/>
-  </entry>
-  <entry>
-    <id>https://www.openculture.com/2026/10/surreal-pinscreen-animations-bring-kafka-gogol-mussorgsky-to-life-1933-1972.html</id>
-    <title>Surreal Pinscreen Animations Bring Kafka, Gogol &amp; Mussorgsky to Life (1933–1972)</title>
-    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/surreal-pinscreen-animations-bring-kafka-gogol-mussorgsky-to-life-1933-1972.html"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">What do Franz Kafka, Nikolai Gogol, and Modest Mussorgsky have in common? They stand alone among their peers for their darkly humorous sensibilities, fascinatio…</summary>
-    <source><title>Open Culture</title></source>
-    <category term="Animation"/>
     <category term="Film"/>
-    <category term="Literature"/>
-    <category term="Uncategorized"/>
     <category term="文化"/>
     <category term="免费资源"/>
   </entry>
   <entry>
-    <id>https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/</id>
-    <title>Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy</title>
-    <link rel="alternate" type="text/html" href="https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Artemis II Commander Reid Wiseman has been named Caltech associate vice president and deputy director of NASA’s Jet Propulsion Laboratory in Southern California…</summary>
-    <source><title>NASA</title></source>
-    <category term="Jet Propulsion Laboratory"/>
-    <category term="Artemis 2"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/</id>
-    <title>Arnab Strikes India</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">The first named storm of the North Indian Ocean’s cyclone season made landfall along the coast of Andhra Pradesh.</summary>
+    <id>https://science.nasa.gov/earth/earth-observatory/vega-island-frozen-in-fright/</id>
+    <title>Vega Island Frozen in Fright</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/earth/earth-observatory/vega-island-frozen-in-fright/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">The sight of an icy skull-like visage on the Antarctic island could make one’s blood run cold.</summary>
     <source><title>NASA</title></source>
     <category term="Earth Observatory"/>
-    <category term="Hurricanes &amp; Typhoons"/>
+    <category term="Ice &amp; Glaciers"/>
+    <category term="Landsat 9"/>
     <category term="航天"/>
     <category term="科学"/>
   </entry>
   <entry>
-    <id>https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/</id>
-    <title>APOD: 29 October 2026 – The Horns of Venus</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">APOD Science APOD APOD: 29 October 2026 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the…</summary>
+    <id>https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/</id>
+    <title>Map Showing Potential Origins of Martian Meteorite Teghaza 001</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Description This global map of Mars shows 13 locations that match the mineralogy and chemistry of Teghaza 001, one of the most ancient Martian meteorites ever f…</summary>
+    <source><title>NASA</title></source>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/</id>
+    <title>APOD: 2026 October 30 – Haunting the Cepheus Flare</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">APOD Science APOD APOD: 2026 October 30 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…</summary>
     <source><title>NASA</title></source>
     <category term="APOD"/>
     <category term="航天"/>
     <category term="科学"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2098771415411291576</id>
-    <title>科普书出现「双头虾」图片，出版社称正在下架召回，为何出现如此明显错误？科普类出版该限制 AI 配图吗？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098771415411291576"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 3 名 · 375 万热度 · 83 回答 · 164 关注 — 近日，有网友在社交平台指出，《南海海洋生物科普丛书》中有“双头虾”的错误图片，引发关注。 有读者在社交平台反映，其购入中国农业出版社出版发行的《南海海洋生物科普丛书》，丛书序言表示，本套丛书里绝大多数图片由AI绘图工具生成。但其发现丛书的绘图中出现了…</summary>
+    <id>https://www.zhihu.com/question/2099258545564643597</id>
+    <title>谷歌美股开盘大跌超13%，创历史最大单日跌幅，总市值蒸发5000亿美元，为啥会这样？还会持续下跌吗？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099258545564643597"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 6 名 · 391 万热度 · 151 回答 · 513 关注 — 10月29日消息，谷歌母公司Alphabet美股开盘大跌，现将跌幅扩大至13%，创其历史上最大单日跌幅，报283美元，市值较前一交易日收盘减少逾5000亿美元。谷歌盘初大跌超13% 创其历史上最大单日跌幅，总市值蒸发5000亿美元</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2098804738414399591</id>
-    <title>江苏一医生被曝用「豆包」查药，患者家属因此拒绝其开具处方，你看诊时能接受医生使用 AI 工具吗？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098804738414399591"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 7 名 · 217 万热度 · 38 回答 · 62 关注 — 看到医生查AI，你能接受吗？近日，江苏一医生被曝用“豆包”开药，患者家属因此拒绝其开具处方，涉事医院回应称，当时医生在查询新药是否适合患者使用，发现不适合就没开。对此，有人觉得，医生靠AI查药不专业，有人认为，不过是换了个工具查资料。说到底，问题其实落…</summary>
+    <id>https://www.zhihu.com/question/458627547</id>
+    <title>菜鸟驿站为什么那么多转让的？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/458627547"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 4 名 · 410 万热度 · 785 回答 · 3651 关注</summary>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
+  </entry>
+  <entry>
+    <id>https://www.zhihu.com/question/2099465313452389327</id>
+    <title>校方通报「学生摆拍大体老师头骨」一事，涉事学生被处分并取消年度评优资格，如何看待学校的处理？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099465313452389327"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 5 名 · 393 万热度 · 150 回答 · 218 关注 — 10月29日，长沙民政职业技术学院医学院发布情况通报： 10月14日，我院一名2026级新生在解剖实验课后，对大体老师头骨标本进行摆拍并在朋友圈发布，造成不良影响。学校对此行为坚决零容忍，已对涉事学生进行批评教育，给予校纪处分，取消年度评优评先资格…</summary>
+    <source><title>知乎热榜</title></source>
+    <category term="热榜"/>
+    <category term="知乎"/>
+  </entry>
+  <entry>
+    <id>https://www.zhihu.com/question/2099167053160760200</id>
+    <title>小伙因亲人少怕婚礼冷清邀网友喝喜酒，近 200 人从全国各地赴宴，有人送冰箱有人带整猪，如何看待此事？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099167053160760200"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 9 名 · 372 万热度 · 68 回答 · 217 关注 — 近日，云南昭通一名男子的婚礼邀约引发关注。博主讲述：“在我3岁的时候，爸爸就因病逝世了，妈妈在我5岁时就改嫁了，剩下一个唯一的长辈奶奶就带着我和我哥，我哥大我3岁，可是两年后奶奶也因病去了和我爸同样的地方。”兄弟二人相依为命，初中辍学后务工打拼。小伙…</summary>
+    <source><title>知乎热榜</title></source>
+    <category term="热榜"/>
+    <category term="知乎"/>
+  </entry>
+  <entry>
+    <id>https://www.zhihu.com/question/2099233723589969810</id>
+    <title>如何看待蒋方舟因论文抄袭被撤销学位后，时隔 107 天再发文《37岁才明白的事》？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099233723589969810"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 2 名 · 712 万热度 · 313 回答 · 503 关注 — [5 张图片]</summary>
+    <source><title>知乎热榜</title></source>
+    <category term="热榜"/>
+    <category term="知乎"/>
+  </entry>
+  <entry>
+    <id>https://www.zhihu.com/question/2099125476149274126</id>
+    <title>如何看待红果短剧跃升为国内第四大app？它瓜分了谁的市场？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099125476149274126"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 1 名 · 4245 万热度 · 627 回答 · 1393 关注 — 红果短剧跃升为国内第四大app（时长）仅次于微信和两个抖音，那么如何看待其的快速发展，短剧平台的兴起是否瓜分了哔站，快手，抖音等视频平台的蛋糕，此外短剧中不少是ai短剧，是否也触碰了真人创作者诸如哔站百大为首以及背后的摄像工具企业诸如大疆影石的…</summary>
+    <source><title>知乎热榜</title></source>
+    <category term="热榜"/>
+    <category term="知乎"/>
+  </entry>
+  <entry>
+    <id>https://www.zhihu.com/question/2099446310872900107</id>
+    <title>如何看待币安遭黑客攻击，数十亿美元资产被盗，或成历史金额最大被盗事件？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099446310872900107"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 8 名 · 386 万热度 · 36 回答 · 108 关注 — 2026 年 10 月 29 日晚（UTC 时间 20:24 起，北京时间 30 日凌晨 4 时左右），全球最大加密货币交易所币安的多个热钱包出现异常大额资金转出，链上数据与分析师普遍认为这是一场针对热钱包的黑客攻击。事件涉及以太坊、比特币、波场等多…</summary>
+    <source><title>知乎热榜</title></source>
+    <category term="热榜"/>
+    <category term="知乎"/>
+  </entry>
+  <entry>
+    <id>https://www.zhihu.com/question/2098940094346433079</id>
+    <title>如何看待中科大给学生提供每天一亿的token额度？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098940094346433079"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 3 名 · 625 万热度 · 132 回答 · 522 关注 — 是真的吗？ 读好书来科大，每天都发一个亿！ 嗨 每一位“科大人” 属于中国科大独有的校园浪漫来啦 每天一个亿的Token 让你的AI专属算力“拉满弓” 零费用｜无门槛｜每日重置 开学第一天，就能拥有专属“AI智囊团” 比起手把手教你如何使用AI 科…</summary>
+    <source><title>知乎热榜</title></source>
+    <category term="热榜"/>
+    <category term="知乎"/>
+  </entry>
+  <entry>
+    <id>https://www.zhihu.com/question/312800690</id>
+    <title>为什么李白的书法作品只有《上阳台帖》流传下来了？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/312800690"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 10 名 · 367 万热度 · 33 回答 · 115 关注 — 按说一个文人的作品会被细心保留，何况李白如此伟大有名气的人物。</summary>
+    <source><title>知乎热榜</title></source>
+    <category term="热榜"/>
+    <category term="知乎"/>
+  </entry>
+  <entry>
+    <id>https://www.zhihu.com/question/2001260067715044038</id>
+    <title>为什么BBA不进商场开店？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2001260067715044038"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 7 名 · 390 万热度 · 39 回答 · 45 关注 — 现在新能源汽车很多都在商场开店，BBA的客户不在商场吗？还是其它原因？</summary>
+    <source><title>知乎热榜</title></source>
+    <category term="热榜"/>
+    <category term="知乎"/>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=vPssxrTbnmM</id>
+    <title>R.E.P.O. SUNSTONE UPDATE | Launch Trailer</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=vPssxrTbnmM"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 8 名 · 观看 44.6 万 · semiwork — Detailed Patch Notes: https://store.steampowered.com/news/app/3241660/view/672883630592236353 Get the game here: https://store.st…</summary>
+    <source><title>YouTube 热门 · US</title></source>
+    <category term="视频"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=gI2tyTGvFag</id>
+    <title>Overwatch Animated Short | “In the Wolf's Mouth”</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=gI2tyTGvFag"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 6 名 · 观看 92.0 万 · PlayOverwatch — It’s Doomfist vs. Vendetta in the final confrontation for control of Talon. After a year of shifting loyalties and ruthless…</summary>
+    <source><title>YouTube 热门 · US</title></source>
+    <category term="视频"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=BpJikRTDqdk</id>
+    <title>My Chemical Romance &amp; Lauren Tsai - Prelude to The End (An Animated Short Film)</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=BpJikRTDqdk"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 4 名 · 观看 34.0 万 · My Chemical Romance — My Chemical Romance &amp; Lauren Tsai - Prelude to The End (An Animated Short Film) Directed by Lauren Tsai An UNREAL INC.…</summary>
+    <source><title>YouTube 热门 · US</title></source>
+    <category term="视频"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=Pksr9T8m_aA</id>
+    <title>JISOO - ADDICTED (Official MV)</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=Pksr9T8m_aA"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 1 名 · 观看 338.8 万 · JISOO — JISOO Official 📱 / https://www.jisoo.app https://www.youtube.com/@sooyaaa__ https://www.instagram.com/sooyaaa__ https://www.tiktok.…</summary>
+    <source><title>YouTube 热门 · US</title></source>
+    <category term="视频"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=C0Z3iKSkXOA</id>
+    <title>Here You Come, There You Go</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=C0Z3iKSkXOA"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 10 名 · 观看 13.2 万 · Gracie Abrams - Topic — Provided to YouTube by Universal Music Group Here You Come, There You Go · Gracie Abrams Here You Come, There You G…</summary>
+    <source><title>YouTube 热门 · US</title></source>
+    <category term="视频"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=yPm9yiBDA2s</id>
+    <title>Foogiano - Halfway In [Official Music Video]</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=yPm9yiBDA2s"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 7 名 · 观看 10.9 万 · Foogiano — Foogiano - Halfway In Download/Stream: [LINKFIRE] Subscribe for more official content from Foogiano: https://foogiano.lnk.to/Yout…</summary>
+    <source><title>YouTube 热门 · US</title></source>
+    <category term="视频"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=Sd5SQ40sCoI</id>
+    <title>Dream Needs To Stop Lying</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=Sd5SQ40sCoI"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 9 名 · 观看 114.4 万 · Karl Jobst — Play IdleOn on Steam: https://store.steampowered.com/app/1476970?utm_source=youtube&amp;utm_campaign=CloverTalent Play IdleOn on i…</summary>
+    <source><title>YouTube 热门 · US</title></source>
+    <category term="视频"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=1t2HMUuiMpE</id>
+    <title>BLG vs TES | WORLDS 2026 | Swiss Stage Day 6</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=1t2HMUuiMpE"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 3 名 · 观看 171.1 万 · LoL Esports — THIS IS OUR MOMENT Worlds 2026 returns to North America for a month of international competition across 3 locations. The Play…</summary>
+    <source><title>YouTube 热门 · US</title></source>
+    <category term="视频"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=yQ9LVy4DR9U</id>
+    <title>Apex Legends: Cipher Gameplay Trailer</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=yQ9LVy4DR9U"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 2 名 · 观看 50.2 万 · Apex Legends — In this Arena, the deadliest weapon isn’t a gun, it’s information. Hack the fight and gather essential intel for your squad w…</summary>
+    <source><title>YouTube 热门 · US</title></source>
+    <category term="视频"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=MGMZKJCCaW8</id>
+    <title>'Eagle's Shadow' Update Trailer / War Thunder</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=MGMZKJCCaW8"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 5 名 · 观看 26.4 万 · War Thunder. Official channel. — The next major update for War Thunder — 'Eagle's Shadow'! 🔘 Site: http://warthunder.com/ 🔘 Twitch: https://…</summary>
+    <source><title>YouTube 热门 · US</title></source>
+    <category term="视频"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://en.wikipedia.org/wiki/VisionQuest</id>
+    <title>VisionQuest</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/VisionQuest"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 10 名 · 浏览 13.7 万</summary>
+    <source><title>维基百科阅读榜（英文）</title></source>
+    <category term="百科"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://en.wikipedia.org/wiki/Ted_Bundy</id>
+    <title>Ted Bundy</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Ted_Bundy"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 8 名 · 浏览 14.3 万</summary>
+    <source><title>维基百科阅读榜（英文）</title></source>
+    <category term="百科"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://en.wikipedia.org/wiki/Susan_Saint_James</id>
+    <title>Susan Saint James</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Susan_Saint_James"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 3 名 · 浏览 20.0 万</summary>
+    <source><title>维基百科阅读榜（英文）</title></source>
+    <category term="百科"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://en.wikipedia.org/wiki/Gadi_Eisenkot</id>
+    <title>Gadi Eisenkot</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Gadi_Eisenkot"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 4 名 · 浏览 18.6 万</summary>
+    <source><title>维基百科阅读榜（英文）</title></source>
+    <category term="百科"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://en.wikipedia.org/wiki/Elizabeth_Holmes</id>
+    <title>Elizabeth Holmes</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Elizabeth_Holmes"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 7 名 · 浏览 14.3 万</summary>
+    <source><title>维基百科阅读榜（英文）</title></source>
+    <category term="百科"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://en.wikipedia.org/wiki/Deaths_in_2026</id>
+    <title>Deaths in 2026</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Deaths_in_2026"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 9 名 · 浏览 14.2 万</summary>
+    <source><title>维基百科阅读榜（英文）</title></source>
+    <category term="百科"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35</id>
+    <title>Dancing with the Stars (American TV series) season 35</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 5 名 · 浏览 17.3 万</summary>
+    <source><title>维基百科阅读榜（英文）</title></source>
+    <category term="百科"/>
+    <category term="热榜"/>
   </entry>
 </feed>
