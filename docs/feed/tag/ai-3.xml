@@ -4,38 +4,37 @@
   <title>公共目录 · #AI产品</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/ai-3.xml"/>
-  <updated>2026-10-28T00:00:00Z</updated>
+  <updated>2026-10-29T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6485564.html</id>
-    <title>当DeepSeek成为一种亚文化</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485564.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">DeepSeek 在 AI 圈以技术和融资闻名，却在年轻人中意外催生了“鲸鱼娘”“D老师”等二创亚文化。官方零运营，用户却自发创作表情包、同人动画甚至收费内容。这种“反商业”的活人感如何成为流量密码？饭圈化又会带来哪些风险？本文深度拆解 DeepSeek 的亚文化出圈逻辑与潜在变量。 01 亚文化符号 这个世界上可能存…</summary>
+    <id>https://www.woshipm.com/ai/6486194.html</id>
+    <title>详细拆解 Pi Agent：产品经理搞懂 Agent 的最佳实践</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486194.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">OpenClaw 背后真正负责思考和动手的，是一个叫 Pi 的极简框架。拆完整个项目，作者把 Agent 的循环、上下文工程、工具系统与状态管理，讲成了一套可以迁移的产品原则。 如果你正在学习 Agent，或者要面向 Agent 优化迭代你的产品，强烈建议深度使用、拆解、学习 Pi Agent 这套开源项目。 我前段时…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="AI产品"/>
-    <category term="DeepSeek"/>
-    <category term="亚文化"/>
-    <category term="用户运营"/>
-    <category term="饭圈文化"/>
+    <category term="Claude"/>
+    <category term="产品分析"/>
     <category term="产品"/>
     <category term="运营"/>
+    <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6485257.html</id>
-    <title>WorkBuddy上线「本地文档默认打开方式」，可一键开启</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485257.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">双击本地文档，默认弹出来的不再只有 Office，也可以是 WorkBuddy 的文件浏览器。设置里新增默认打开方式入口，勾选文档类型、过一次系统授权即可改成默认，Dock 里会单独立一个图标。 近日，WorkBuddy 频繁更新。 之前上线了AI 办公 Agent 行业首个本地「文件浏览器」功能。 可通过 WorkB…</summary>
+    <id>https://www.woshipm.com/ai/6486181.html</id>
+    <title>腾讯网盘上线，行业首个Agent网盘来了，实测惊艳</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486181.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">腾讯网盘上线，主打面向 Agent 的存储底座：连上 WorkBuddy、ima、腾讯文档与飞书，把散落各处的资料归到一处。五个步骤实测下来，它到底能不能当 AI 时代的统一入口。 早在今年 6 月份，就有可靠消息显示，腾讯正在研发一款 Agent 网盘产品：腾讯网盘。 我还专为此写过一篇文章，对这个产品充满期待。 腾…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
     <category term="AI产品"/>
     <category term="WorkBuddy"/>
-    <category term="功能分析"/>
+    <category term="腾讯网盘"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>

@@ -9,6 +9,31 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/the-companies-that-write-the-standards-will-own-the-next-decade-of-freight",
+      "url": "https://www.freightwaves.com/news/the-companies-that-write-the-standards-will-own-the-next-decade-of-freight",
+      "title": "The Companies That Write The Standards Will Own The Next Decade Of Freight",
+      "content_text": "The freight industry has spent years and real money chasing fraud, piling up more tracking, more data, and more awareness than it has ever had, and the losses k…",
+      "summary": "The freight industry has spent years and real money chasing fraud, piling up more tracking, more data, and more awareness than it has ever had, and the losses k…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "3PL and Brokerage",
+        "F3: Future of Freight Festival",
+        "Fraud",
+        "News",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/the-biggest-shift-in-freight-liability-since-deregulation-is-here-and-few-are-ready-for-it",
       "url": "https://www.freightwaves.com/news/the-biggest-shift-in-freight-liability-since-deregulation-is-here-and-few-are-ready-for-it",
       "title": "The Biggest Shift In Freight Liability Since Deregulation Is Here, And Few Are Ready For It",

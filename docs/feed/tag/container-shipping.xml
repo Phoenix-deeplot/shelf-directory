@@ -24,6 +24,23 @@
     <category term="货运"/>
   </entry>
   <entry>
+    <id>https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach</id>
+    <title>Backlog grows as 35,000 containers await rail service at LA–Long Beach</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="American Shipper"/>
+    <category term="Container Shipping"/>
+    <category term="Maritime"/>
+    <category term="News"/>
+    <category term="Railroad"/>
+    <category term="Top Stories"/>
+    <category term="imports"/>
+    <category term="peak season"/>
+  </entry>
+  <entry>
     <id>https://www.freightwaves.com/news/shipbuilding-central-to-new-us-denmark-maritime-pact</id>
     <title>Shipbuilding central to new US-Denmark maritime pact</title>
     <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/shipbuilding-central-to-new-us-denmark-maritime-pact"/>
@@ -56,56 +73,5 @@
     <category term="ocean rates"/>
     <category term="Red Sea"/>
     <category term="trans-Pacific"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/canada-port-reaches-new-longshore-union-labor-deal</id>
-    <title>Canada port reaches new longshore union labor deal</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/canada-port-reaches-new-longshore-union-labor-deal"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">A tentative contract agreement at Halifax settles potential labor unrest, for now. The post Canada port reaches new longshore union labor deal appeared first on…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="American Shipper"/>
-    <category term="Container Shipping"/>
-    <category term="Maritime"/>
-    <category term="News"/>
-    <category term="Top Stories"/>
-    <category term="Canada"/>
-    <category term="DP World"/>
-    <category term="Labor Contract"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates</id>
-    <title>New Drewry data shows import demand boosting trans-Pacific rates</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">Drewry’s World Container Index rose on higher rates on trans-Pacific and Asia-Europe routes. The post New Drewry data shows import demand boosting trans-Pacific…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="American Shipper"/>
-    <category term="Container Shipping"/>
-    <category term="Maritime"/>
-    <category term="News"/>
-    <category term="Top Stories"/>
-    <category term="Capacity"/>
-    <category term="Drewry"/>
-    <category term="imports"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/a-new-pnw-container-port-205m-for-oregon-rail-project</id>
-    <title>A new PNW container port? $205M for Oregon rail project</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/a-new-pnw-container-port-205m-for-oregon-rail-project"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">Oregon port wins $205 million in federal funding to upgrade its rail line and boost a proposed container terminal project. The post A new PNW container port? $2…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Container Shipping"/>
-    <category term="Maritime"/>
-    <category term="News"/>
-    <category term="Railroad"/>
-    <category term="Top Stories"/>
-    <category term="trade"/>
-    <category term="CRISI program"/>
-    <category term="Development"/>
   </entry>
 </feed>

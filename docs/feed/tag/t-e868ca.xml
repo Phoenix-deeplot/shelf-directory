@@ -4,37 +4,48 @@
   <title>公共目录 · #百科</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-e868ca.xml"/>
-  <updated>2026-10-28T00:00:00Z</updated>
+  <updated>2026-10-29T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
     <id>https://en.wikipedia.org/wiki/Walter_Koenig</id>
     <title>Walter Koenig</title>
     <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Walter_Koenig"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">第 6 名 · 浏览 27.7 万</summary>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">第 8 名 · 浏览 18.2 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://en.wikipedia.org/wiki/Student_List</id>
-    <title>Student List</title>
-    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Student_List"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">第 9 名 · 浏览 18.6 万</summary>
+    <id>https://en.wikipedia.org/wiki/Susan_Saint_James</id>
+    <title>Susan Saint James</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Susan_Saint_James"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">第 4 名 · 浏览 29.8 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://en.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva</id>
-    <title>Luiz Inácio Lula da Silva</title>
-    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">第 4 名 · 浏览 39.6 万</summary>
+    <id>https://en.wikipedia.org/wiki/Harry_Kane</id>
+    <title>Harry Kane</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Harry_Kane"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">第 3 名 · 浏览 35.9 万</summary>
+    <source><title>维基百科阅读榜（英文）</title></source>
+    <category term="百科"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://en.wikipedia.org/wiki/Gadi_Eisenkot</id>
+    <title>Gadi Eisenkot</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Gadi_Eisenkot"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">第 9 名 · 浏览 18.0 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
@@ -43,20 +54,20 @@
     <id>https://en.wikipedia.org/wiki/Eric_Bauza</id>
     <title>Eric Bauza</title>
     <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Eric_Bauza"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">第 1 名 · 浏览 51.2 万</summary>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">第 10 名 · 浏览 15.7 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://en.wikipedia.org/wiki/Clayface_(film)</id>
-    <title>Clayface (film)</title>
-    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Clayface_(film)"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">第 10 名 · 浏览 18.5 万</summary>
+    <id>https://en.wikipedia.org/wiki/ChatGPT</id>
+    <title>ChatGPT</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/ChatGPT"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">第 7 名 · 浏览 18.4 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
@@ -65,31 +76,20 @@
     <id>https://en.wikipedia.org/wiki/Ballon_d'Or</id>
     <title>Ballon d'Or</title>
     <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Ballon_d'Or"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">第 8 名 · 浏览 21.9 万</summary>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">第 5 名 · 浏览 27.1 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election</id>
-    <title>2026 Serbian parliamentary election</title>
-    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">第 5 名 · 浏览 29.0 万</summary>
-    <source><title>维基百科阅读榜（英文）</title></source>
-    <category term="百科"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://en.wikipedia.org/wiki/2026_Brazilian_general_election</id>
-    <title>2026 Brazilian general election</title>
-    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/2026_Brazilian_general_election"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">第 3 名 · 浏览 42.1 万</summary>
+    <id>https://en.wikipedia.org/wiki/2026_Israeli_legislative_election</id>
+    <title>2026 Israeli legislative election</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/2026_Israeli_legislative_election"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">第 1 名 · 浏览 43.9 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
@@ -98,9 +98,9 @@
     <id>https://en.wikipedia.org/wiki/2026_Ballon_d'Or</id>
     <title>2026 Ballon d'Or</title>
     <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/2026_Ballon_d'Or"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">第 2 名 · 浏览 45.2 万</summary>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">第 6 名 · 浏览 23.8 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>
@@ -109,9 +109,9 @@
     <id>https://en.wikipedia.org/wiki/.xxx</id>
     <title>.xxx</title>
     <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/.xxx"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">第 7 名 · 浏览 24.0 万</summary>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">第 2 名 · 浏览 36.3 万</summary>
     <source><title>维基百科阅读榜（英文）</title></source>
     <category term="百科"/>
     <category term="热榜"/>

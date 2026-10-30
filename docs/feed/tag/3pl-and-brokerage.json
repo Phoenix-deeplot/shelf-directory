@@ -9,6 +9,58 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/the-companies-that-write-the-standards-will-own-the-next-decade-of-freight",
+      "url": "https://www.freightwaves.com/news/the-companies-that-write-the-standards-will-own-the-next-decade-of-freight",
+      "title": "The Companies That Write The Standards Will Own The Next Decade Of Freight",
+      "content_text": "The freight industry has spent years and real money chasing fraud, piling up more tracking, more data, and more awareness than it has ever had, and the losses k…",
+      "summary": "The freight industry has spent years and real money chasing fraud, piling up more tracking, more data, and more awareness than it has ever had, and the losses k…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "3PL and Brokerage",
+        "F3: Future of Freight Festival",
+        "Fraud",
+        "News",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/jacobs-rxos-creator-backs-its-acquisition-by-c-h-robinson",
+      "url": "https://www.freightwaves.com/news/jacobs-rxos-creator-backs-its-acquisition-by-c-h-robinson",
+      "title": "Jacobs, RXO’s creator, backs its acquisition by C.H. Robinson",
+      "content_text": "Chattanooga–The man who created RXO gave his public support to the 3PL’s acquisition by C.H. Robinson, saying you need “scale and density” to make it in the bro…",
+      "summary": "Chattanooga–The man who created RXO gave his public support to the 3PL’s acquisition by C.H. Robinson, saying you need “scale and density” to make it in the bro…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "3PL and Brokerage",
+        "News",
+        "Top Stories",
+        "Trucking",
+        "C.H. Robinson",
+        "GXO",
+        "QXO",
+        "RXO"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/insurance-claims-adjustments-tank-landstars-otherwise-strong-q3",
       "url": "https://www.freightwaves.com/news/insurance-claims-adjustments-tank-landstars-otherwise-strong-q3",
       "title": "Insurance claims adjustments tank Landstar’s otherwise strong Q3",
@@ -24,6 +76,60 @@
         "Landstar",
         "Landstar BCOs",
         "Landstar System"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/frst-look-almost-all-good-news-at-c-h-robinson-in-the-third-quarter",
+      "url": "https://www.freightwaves.com/news/frst-look-almost-all-good-news-at-c-h-robinson-in-the-third-quarter",
+      "title": "First look: almost all good news at C.H. Robinson in the third quarter",
+      "content_text": "The third quarter at C.H. Robinson might be remembered for both the highs and the lows. It was the period when Lipe vs. Lupus Superior came down, and just days…",
+      "summary": "The third quarter at C.H. Robinson might be remembered for both the highs and the lows. It was the period when Lipe vs. Lupus Superior came down, and just days…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "3PL and Brokerage",
+        "Company Earnings",
+        "News",
+        "Top Stories",
+        "C.H. Robinson",
+        "RXO",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/c-h-robinson-and-landstar-stock-prices-slammed-insurance-costs-a-factor",
+      "url": "https://www.freightwaves.com/news/c-h-robinson-and-landstar-stock-prices-slammed-insurance-costs-a-factor",
+      "title": "C.H Robinson and Landstar stock prices slammed; insurance a factor",
+      "content_text": "(Editor’s note: the initial article has been revised to note that the companies discussed increased claims, not insurance premiums). Strong financial numbers re…",
+      "summary": "(Editor’s note: the initial article has been revised to note that the companies discussed increased claims, not insurance premiums). Strong financial numbers re…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "3PL and Brokerage",
+        "Company Earnings",
+        "News",
+        "Top Stories",
+        "C.H. Robinson",
+        "Landstar",
+        "RXO",
+        "货运"
       ],
       "authors": [
         {

@@ -2,6 +2,126 @@
  "id": "sciencedaily-com",
  "items": [
   {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261027231021.htm",
+   "title": "A single sauna session sends immune cells surging through your body",
+   "summary": "A new Finnish study reveals that just 30 minutes in a sauna can temporarily flood the bloodstream with additional white blood cells, potentially helping the imm…",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261027063814.htm",
+   "title": "Your blood pressure could be dangerous even when your numbers look normal",
+   "summary": "Researchers have discovered a small group of brain cells that prevents dangerous blood pressure swings, even when average readings appear normal. The finding re…",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261027063713.htm",
+   "title": "Scientists just broke a textbook rule of physics",
+   "summary": "Scientists have defied a long-standing rule of laser physics by generating X-rays with much higher energies than conventional theory predicts. The surprising di…",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261027063710.htm",
+   "title": "Meteors don't just burn up. What really happens is far more violent",
+   "summary": "Scientists have uncovered seven surprising stages that space rocks go through as they hurtle toward Earth, revealing that melting and violent fragmentation, rat…",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261027063708.htm",
+   "title": "Smaller EV batteries, longer range? Scientists may have found a way",
+   "summary": "Scientists have developed a new technology that could make electric vehicle batteries smaller, lighter, and longer-lasting, potentially allowing cars to travel…",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261027063707.htm",
+   "title": "Scientists discover a secret glow in toxic fire salamanders",
+   "summary": "Researchers have discovered a surprising hidden ability in Europe's familiar black-and-yellow fire salamanders: they glow green and cyan under ultraviolet light…",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261027063704.htm",
+   "title": "Scientists discover a hidden reason why muscles weaken with age",
+   "summary": "Scientists have uncovered a hidden defense mechanism in aging muscles that sacrifices strength to protect cells from damage. In mice, partially restoring a cruc…",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261027063702.htm",
+   "title": "Scientists discover a hidden oxygen reservoir deep inside Earth",
+   "summary": "Scientists have discovered that magma deep inside Earth can store surprising amounts of extra oxygen, potentially revealing a hidden contributor to our planet's…",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261027063701.htm",
+   "title": "Antarctica’s “Doomsday Glacier” could raise sea levels twice as much as predicted",
+   "summary": "Antarctica’s Thwaites Glacier may be melting twice as much as previously predicted, even without additional global warming. Scientists discovered that warm ocea…",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261027063659.htm",
+   "title": "NASA’s Artemis I mission reveals surprising radiation levels near the Moon",
+   "summary": "NASA’s Artemis I mission has revealed that cosmic radiation near the Moon is higher than in Earth orbit, but not by as much as scientists might expect. Tiny exp…",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261026225615.htm",
+   "title": "Scientists discover a hidden 100-million-year-old volcanic system",
+   "summary": "Scientists have uncovered a long-lost volcanic system in Iran that dates back roughly 100 million years, revealing a hidden chapter in Earth's tectonic history.…",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261026225610.htm",
+   "title": "Earth's ice ages may have been driven by a hidden ocean chain reaction",
+   "summary": "Scientists have uncovered a surprising connection between Earth's opposite poles that may help explain how the planet plunged into past ice ages. New research s…",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.sciencedaily.com/releases/2026/10/261027230715.htm",
    "title": "A simple daily fiber supplement reduced arthritis pain and improved strength",
    "summary": "A new clinical trial suggests that a simple daily fiber supplement could significantly reduce knee osteoarthritis pain, improve muscle strength, and make the bo…",
@@ -232,16 +352,6 @@
    "type": "article"
   },
   {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261022081259.htm",
-   "title": "Scientists discover Arctic sea ice loss could be far worse than predicted",
-   "summary": "Arctic winter sea ice could disappear much faster than scientists previously expected, according to new research using climate clues from 6,000 years ago. By co…",
-   "image": "",
-   "date": "2026-10-26",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
    "url": "https://www.sciencedaily.com/releases/2026/10/261025222339.htm",
    "title": "A simple liquid can stop cavities without drilling, major study confirms",
    "summary": "A simple liquid painted onto teeth in seconds can stop cavities without drilling, injections, or anesthesia, according to a major clinical trial involving young…",
@@ -390,116 +500,6 @@
    "tags": [],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261023023723.htm",
-   "title": "Astronomers uncover a mysterious magnetic web above the Sun",
-   "summary": "The Sun’s seemingly peaceful regions are hiding a surprisingly complex magnetic world. Using a balloon-borne telescope high above Earth, scientists discovered d…",
-   "image": "",
-   "date": "2026-10-24",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261023023718.htm",
-   "title": "These tiny snakes roll four times faster than they slither",
-   "summary": "Tiny snakes in Southeast Asia have mastered an extraordinary escape technique: rolling across the ground at speeds up to four times faster than ordinary slither…",
-   "image": "",
-   "date": "2026-10-24",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261023023713.htm",
-   "title": "Your blood could reveal inflammatory bowel disease 10 years before diagnosis",
-   "summary": "A major study has uncovered hidden warning signs of inflammatory bowel disease in the blood up to 10 years before diagnosis. Researchers discovered distinct ant…",
-   "image": "",
-   "date": "2026-10-24",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261023003337.htm",
-   "title": "Mediterranean diet may boost tiny proteins that protect the heart and brain",
-   "summary": "Scientists have uncovered a surprising new clue to why the Mediterranean diet is so good for the heart, brain, and healthy aging. Researchers at USC found that…",
-   "image": "",
-   "date": "2026-10-24",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261023002905.htm",
-   "title": "Scientists discover a hidden switch that burns fat and blocks new fat cells",
-   "summary": "Scientists have discovered that switching off a protein called Mitch makes human cells burn more fat and prevents new fat cells from developing. The breakthroug…",
-   "image": "",
-   "date": "2026-10-24",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261023023726.htm",
-   "title": "Scientists propose a way to detect dangerous “mirror life” before it exists",
-   "summary": "Scientists have proposed a way to detect “mirror life,” a hypothetical form of life that could pose serious risks to humans, animals, and ecosystems if artifici…",
-   "image": "",
-   "date": "2026-10-23",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261023023710.htm",
-   "title": "This 150-million-year-old bird had dinosaur teeth and a strange secret",
-   "summary": "A 150-million-year-old fossil discovered in China reveals a bizarre early bird with sharp teeth, a dinosaur-like claw, and a body built for life on the ground r…",
-   "image": "",
-   "date": "2026-10-23",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261023003214.htm",
-   "title": "One of Earth’s most powerful supervolcanoes is refilling with fresh magma",
-   "summary": "Deep beneath Japan’s Kikai caldera, a massive magma reservoir is refilling 7,300 years after one of the most powerful volcanic eruptions in Earth's recent geolo…",
-   "image": "",
-   "date": "2026-10-23",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261022081316.htm",
-   "title": "Nearly 20% of Switzerland’s glacier ice has vanished in just five years",
-   "summary": "Switzerland’s glaciers are disappearing at an alarming rate, losing more than 5% of their ice volume in 2026 alone. Some of the country’s most famous glaciers e…",
-   "image": "",
-   "date": "2026-10-23",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261022081314.htm",
-   "title": "Dental implants can hijack your immune system, scientists discover",
-   "summary": "Researchers have uncovered a surprising reason dental implant infections often resist antibiotics: the implants themselves can contribute to the problem. Bacter…",
-   "image": "",
-   "date": "2026-10-23",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261022081309.htm",
-   "title": "Breakthrough PTSD treatment achieves 68% remission rate in clinical trial",
-   "summary": "A newly FDA-cleared PTSD treatment uses personalized brain mapping and magnetic stimulation to target abnormal brain activity, with a clinical trial reporting a…",
-   "image": "",
-   "date": "2026-10-23",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -517,5 +517,5 @@
  "status": "ok",
  "error": "",
  "etag": "",
- "modified": "Wed, 28 Oct 2026 03:56:48 GMT"
+ "modified": "Thu, 29 Oct 2026 03:54:55 GMT"
 }

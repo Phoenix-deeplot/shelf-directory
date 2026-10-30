@@ -4,89 +4,55 @@
   <title>公共目录 · #AI应用</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/ai-2.xml"/>
-  <updated>2026-10-28T00:00:00Z</updated>
+  <updated>2026-10-29T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6485432.html</id>
-    <title>腾讯网盘实测：跳出容量竞赛，大厂押注Agent存储</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485432.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">腾讯正在内测「腾讯网盘」，定位不再是文件仓库，而是多 Agent 的统一记忆底座，可连接腾讯文档、WorkBuddy 等智能体，让多个 AI 在同一份资料上协同工作。实测下来，长处与短板都相当清楚。 腾讯已开启“腾讯网盘”内测，部分功能仍在迭代完善，腾讯网盘计划配有App版本。腾讯网盘聚焦文件存储、数据管理与AI应用，…</summary>
+    <id>https://www.woshipm.com/ai/6486200.html</id>
+    <title>电商产品设计终极工作流：用AI一键生成可交互、可拆解的产品3D demo</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486200.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">从亚马逊评论中挖掘产品改进机会，再生成可交互的3D Demo，这套工作流让产品设计效率倍增。本文详细拆解如何用WorkBuddy和卖家精灵MCP，完成VOC分析、方案构思到三维演示的全过程，并附上实用提示词和模板，助你快速上手。 今天想给大家分享一个有趣又实用的电商产品设计工作流，对产品设计、运营、设计师都会有很大帮助…</summary>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
+    <category term="3D Demo"/>
     <category term="AI应用"/>
-    <category term="产品分析"/>
-    <category term="网盘"/>
-    <category term="腾讯"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6485254.html</id>
-    <title>最强开源 1.3B OCR模型，本地Agent、知识库都有救了～</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485254.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">1.3B 参数的 OXR 只占单卡24G显存，却在三大基准评测上排到第一。十个真实工况跑下来，多栏报纸、热敏小票、曲面营养表都能还原成结构化文本，连化学分子式都能输出成 SMILES 字符串。 前几天刷 X 的时候，刚好看到一个叫OXR的国产开源文档解析模型在技术圈讨论度很高，还登上了 X Daily News， 更主…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI应用"/>
-    <category term="OCR"/>
-    <category term="Qwen"/>
-    <category term="功能分析"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6485427.html</id>
-    <title>招 Agent 工程师，为什么张口就是 LangChain？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485427.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">招聘 Agent 工程师，JD 第一行常写「熟悉 LangChain」。这个 2022 年 10 月才开源的项目，四年间从工具库长成 Agent 工程体系，它究竟解决了什么问题，又凭什么成了行业默认门槛？ 最近很多同学反映，找一个Agent工程师的工作，都要求要会langchain，好像不会langchain就不会开发…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="Agent"/>
-    <category term="AI应用"/>
-    <category term="AI编程"/>
-    <category term="LangChain"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6485617.html</id>
-    <title>我用 WorkBuddy 给全家做了一个生活管理后台，全套技能开源！</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485617.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">日记、记账、读书笔记、凭证、健康档案、电脑体检，六件家庭杂事被收进一个聊天框，数据全部存在腾讯文档里，家里人在手机上发一句话就能记，电脑关着也照样查得到。整套技能已经全开源。 我用 WorkBuddy 给家人搭了一个「生活管理后台」：日记、读书笔记、健康档案、各种凭证、记账、电脑管理，6 件生活杂事，全靠一句话 所有数…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI应用"/>
+    <category term="VOC分析"/>
     <category term="WorkBuddy"/>
-    <category term="智能体"/>
-    <category term="腾讯文档"/>
+    <category term="卖家精灵"/>
+    <category term="电商产品设计"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6486063.html</id>
+    <title>开源性转马尔福 AI 女友，用即梦短剧工作室做的</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486063.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">性转马尔福一条帖子刷到 2300 万浏览，有人干脆用即梦 AI 短剧工作室做了个桌面应用：第一人称剧情、好感度解锁、角色就住在桌面里。画面和配音用即梦，音乐用 Suno，代码交给 Claude。 这一个多月，你应该刷到过性转马尔福吧。 起因是 9 月 22 日，一位俄罗斯画师在 X 上发了一张图。 图上是一个穿着斯莱特…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI应用"/>
+    <category term="Claude"/>
+    <category term="Suno"/>
+    <category term="经验分享"/>
     <category term="产品"/>
     <category term="运营"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/zhichang/6485376.html</id>
-    <title>公开裁员拿钱走人，变相裁员背后伤人</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/zhichang/6485376.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">微软6万人“明裁”N+7看似体面，但更多企业正用“暗裁”套路逼你主动离职。从冷落边缘化到绩效PUA，从诱导谈话到调岗降薪，一套组合拳让你分文补偿拿不到。本文通过两个真实案例，拆解变相裁员的全套剧本，并给出搜集证据、底线反击的实操方法，帮你在AI裁员潮中守住应得权益。 近日微软向全球员工发出内部备忘录，以“自愿离职方案”…</summary>
+    <id>https://www.woshipm.com/chuangye/6486082.html</id>
+    <title>一人 AI 公司，专门服务美国年入百万的本地老板，这笔钱怎么赚</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/chuangye/6486082.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">美国做水管和空调的公司约 11.2 万家，平均每家年入 250 万美元，真正把 AI 用进日常经营的只占 14%。对这些老板别讲 AI，讲多接几通电话、多订几单活。一个人怎么把 AI 卖给本地生意？ 你有没有想过，大家都在抢着把 AI 卖给旧金山的人，真正付得起钱的，却可能是街边修水管、修空调的公司？ James Di…</summary>
     <source><title>人人都是产品经理</title></source>
-    <category term="职场攻略"/>
+    <category term="创业学院"/>
     <category term="AI应用"/>
-    <category term="劳动仲裁"/>
-    <category term="微软裁员"/>
-    <category term="案例分析"/>
+    <category term="Shopify"/>
+    <category term="个人观点"/>
+    <category term="商业模式"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>

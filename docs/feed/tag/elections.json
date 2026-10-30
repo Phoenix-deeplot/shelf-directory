@@ -1,0 +1,116 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Elections",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/elections.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://slate.com/news-and-politics/2026/10/2020-election-tuesday-midterms-trump-threats.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/2020-election-tuesday-midterms-trump-threats.html?via=rss",
+      "title": "Why There’s a Real Risk of a Replay of the 2020 Election Come Tuesday",
+      "content_text": "These are ominous words from the president.",
+      "summary": "These are ominous words from the president.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/89e88f09-fe9f-4b08-b1de-e26eff3350ff.jpeg?crop=1403%2C936%2Cx0%2Cy0",
+      "tags": [
+        "Donald Trump",
+        "Elections",
+        "Voting",
+        "Voting Rights",
+        "Capitol Riot",
+        "2026 Midterms",
+        "Executive Dysfunction",
+        "评论"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/news-and-politics/2026/10/senate-race-pappas-sununu-new-hampshire.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/senate-race-pappas-sununu-new-hampshire.html?via=rss",
+      "title": "My State’s Democratic Candidate Has Zero Rizz. He Could Decide Control of the Senate. Good!",
+      "content_text": "In a year of insurgents and stars, this establishment-versus-establishment contest is deeply revealing.",
+      "summary": "In a year of insurgents and stars, this establishment-versus-establishment contest is deeply revealing.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/837cf875-cf1d-4f95-9633-aedd8ffe5cf6.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Donald Trump",
+        "Elections",
+        "Senate",
+        "New Hampshire",
+        "2026 Midterms",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/news-and-politics/2026/10/israeli-election-netanyahu-outcome-palestine-safety.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/israeli-election-netanyahu-outcome-palestine-safety.html?via=rss",
+      "title": "I Wanted to Understand What Israelis Think of This Election. What I Learned Was Chilling.",
+      "content_text": "Israelis are waiting on the results of a historic election. But their priorities are more revealing than their votes.",
+      "summary": "Israelis are waiting on the results of a historic election. But their priorities are more revealing than their votes.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/402293a8-de11-4961-94a7-d84ab62b9391.jpeg?crop=5469%2C3646%2Cx0%2Cy1",
+      "tags": [
+        "Elections",
+        "Israel",
+        "Palestine",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://daily.jstor.org/the-forgotten-stories-behind-presidential-campaign-buttons/",
+      "url": "https://daily.jstor.org/the-forgotten-stories-behind-presidential-campaign-buttons/",
+      "title": "The Forgotten Stories Behind Presidential Campaign Buttons",
+      "content_text": "The race for the White House has always inspired unusual publicity stunts. A vast collection shows just how strange they could get. The post The Forgotten Stori…",
+      "summary": "The race for the White House has always inspired unusual publicity stunts. A vast collection shows just how strange they could get. The post The Forgotten Stori…",
+      "date_published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "Arts & Culture",
+        "elections",
+        "presidents",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    }
+  ]
+}

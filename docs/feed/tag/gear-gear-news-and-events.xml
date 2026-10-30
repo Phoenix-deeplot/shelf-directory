@@ -4,48 +4,92 @@
   <title>公共目录 · #Gear / Gear News and Events</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/gear-gear-news-and-events.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-29T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://www.wired.com/story/instagram-is-a-streaming-service-now/</id>
-    <title>Instagram Is a Streaming Service Now</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/instagram-is-a-streaming-service-now/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Instagram’s long-form video update is more than a swipe at YouTube. It’s an attempt to capture the clip economy.</summary>
+    <id>https://www.wired.com/story/liquid-glass-finally-makes-sense-on-the-iphone-duo/</id>
+    <title>Liquid Glass Finally Makes Sense on the iPhone Duo</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/liquid-glass-finally-makes-sense-on-the-iphone-duo/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Liquid Glass was a divisive redesign. But with a radically different iPhone, the pieces are finally falling into place.</summary>
     <source><title>WIRED</title></source>
     <category term="Gear"/>
     <category term="Gear / Gear News and Events"/>
-    <category term="Couch Potato"/>
+    <category term="Crystal Clear"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>
   <entry>
-    <id>https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/</id>
-    <title>I Tested Every Major AI Agent for a Day. Here’s the Best One</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">I ranked six AI agents—from Meta’s Muse to Anthropic’s Claude Duet—on how well they completed basic tasks.</summary>
+    <id>https://www.wired.com/story/the-men-dropping-50000-and-up-on-teslas-new-roadster/</id>
+    <title>The Men Spending $50,000 Just to Reserve a Tesla Roadster</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-men-dropping-50000-and-up-on-teslas-new-roadster/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">The base model—without thrusters or the flight system—will likely cost several times that amount to buy. “I’m going to do everything in my power to get the flyi…</summary>
     <source><title>WIRED</title></source>
     <category term="Gear"/>
     <category term="Gear / Gear News and Events"/>
-    <category term="Battle Bots"/>
+    <category term="Rocket Man"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>
   <entry>
-    <id>https://www.wired.com/story/some-iphone-duo-models-are-breaking-ifixits-teardown-might-explain-why/</id>
-    <title>Some iPhone Duo Models Are Breaking. iFixit’s Teardown Might Explain Why</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/some-iphone-duo-models-are-breaking-ifixits-teardown-might-explain-why/"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Apple confirmed a “small number” of iPhone Duo units have an issue impacting the inner display.</summary>
+    <id>https://www.wired.com/story/the-inside-story-of-why-apple-finally-brought-a-touch-display-to-the-mac/</id>
+    <title>The Inside Story of Why Apple Finally Brought a Touch Display to the Mac</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-inside-story-of-why-apple-finally-brought-a-touch-display-to-the-mac/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">An exclusive early look at Apple’s new touchscreen MacBook Pro—the computer Apple said would never happen.</summary>
+    <source><title>WIRED</title></source>
+    <category term="The Big Story"/>
+    <category term="Gear"/>
+    <category term="Gear / Gear News and Events"/>
+    <category term="Hands On"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/the-2000-nit-oled-in-apples-new-macbook-pro-is-a-big-deal/</id>
+    <title>The 2,000-Nit OLED in Apple’s New MacBook Is a Big Deal</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-2000-nit-oled-in-apples-new-macbook-pro-is-a-big-deal/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">The touchscreen in the new MacBook Pro is crazily bright with very deep blacks. Here’s why it’s unlike anything else you can currently buy.</summary>
     <source><title>WIRED</title></source>
     <category term="Gear"/>
     <category term="Gear / Gear News and Events"/>
-    <category term="Gear / Products / Phones"/>
-    <category term="Fold Fix"/>
+    <category term="Dark Magic"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/sony-wants-you-to-forget-about-discs-with-its-gorgeous-transparent-controller/</id>
+    <title>Sony Wants You to Forget About Discs With Its Gorgeous Transparent Controllers</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/sony-wants-you-to-forget-about-discs-with-its-gorgeous-transparent-controller/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Sony has new, spiffy see-through controllers and covers for its PlayStation 5 that let you see the hardware guts inside.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Gear News and Events"/>
+    <category term="Gear / Products / Gaming"/>
+    <category term="Plastic Fantastic"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/amazon-adds-an-alexa-photo-frame-and-a-bedside-clock-to-its-echo-family/</id>
+    <title>Amazon Adds an Alexa Photo Frame and a Bedside Clock to Its Echo Family</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/amazon-adds-an-alexa-photo-frame-and-a-bedside-clock-to-its-echo-family/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">The new Echo Studio also gets a camera, and the Echo Show 16 debuts an AI-generated Alexa interface.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Gear News and Events"/>
+    <category term="Gear / Products / Smart Home"/>
+    <category term="Echo Chamber"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>

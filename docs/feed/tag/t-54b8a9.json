@@ -9,6 +9,78 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/scan-global-logistics-to-acquire-oregon-based-oia-global",
+      "url": "https://www.freightwaves.com/news/scan-global-logistics-to-acquire-oregon-based-oia-global",
+      "title": "Scan Global Logistics to acquire Oregon-based OIA Global",
+      "content_text": "Scan Global Logistics has agreed to acquire OIA Global, based in Portland, Oregon. The post Scan Global Logistics to acquire Oregon-based OIA Global appeared fi…",
+      "summary": "Scan Global Logistics has agreed to acquire OIA Global, based in Portland, Oregon. The post Scan Global Logistics to acquire Oregon-based OIA Global appeared fi…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "M&A",
+        "News",
+        "Top Stories",
+        "Scan Global Logistics",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/ai-in-logistics-the-end-of-bad-truckload-routes",
+      "url": "https://www.freightwaves.com/news/ai-in-logistics-the-end-of-bad-truckload-routes",
+      "title": "AI in Logistics: The End of Bad Truckload Routes?",
+      "content_text": "Kuebix AI is here to streamline your shipper TMS operations. FreightWise CEO Chris Cochran explains how their new AI-enabled platform, built from a legacy Kuebi…",
+      "summary": "Kuebix AI is here to streamline your shipper TMS operations. FreightWise CEO Chris Cochran explains how their new AI-enabled platform, built from a legacy Kuebi…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/ai-roi-why-90-satisfaction-still-means-leaders-want-more",
+      "url": "https://www.freightwaves.com/news/ai-roi-why-90-satisfaction-still-means-leaders-want-more",
+      "title": "AI ROI: Why 90% Satisfaction Still Means Leaders Want MORE!",
+      "content_text": "A new Sparq report reveals a surprising trend: most transportation and logistics leaders are satisfied with their AI and technology investments, with 90% report…",
+      "summary": "A new Sparq report reveals a surprising trend: most transportation and logistics leaders are satisfied with their AI and technology investments, with 90% report…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "FreightWaves Today",
+        "FreightWaves TV",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/wex-euclid-ai-target-90-reduction-in-trucking-transaction-costs",
       "url": "https://www.freightwaves.com/news/wex-euclid-ai-target-90-reduction-in-trucking-transaction-costs",
       "title": "WEX, Euclid AI target 90% reduction in trucking transaction costs",
@@ -20,6 +92,108 @@
         "Technology",
         "Trucking",
         "AI agents",
+        "WEX",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/the-companies-that-write-the-standards-will-own-the-next-decade-of-freight",
+      "url": "https://www.freightwaves.com/news/the-companies-that-write-the-standards-will-own-the-next-decade-of-freight",
+      "title": "The Companies That Write The Standards Will Own The Next Decade Of Freight",
+      "content_text": "The freight industry has spent years and real money chasing fraud, piling up more tracking, more data, and more awareness than it has ever had, and the losses k…",
+      "summary": "The freight industry has spent years and real money chasing fraud, piling up more tracking, more data, and more awareness than it has ever had, and the losses k…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "3PL and Brokerage",
+        "F3: Future of Freight Festival",
+        "Fraud",
+        "News",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/how-one-trucker-turned-one-video-a-day-into-billions-of-views-and-what-it-cost-him",
+      "url": "https://www.freightwaves.com/news/how-one-trucker-turned-one-video-a-day-into-billions-of-views-and-what-it-cost-him",
+      "title": "How One Trucker Turned One Video A Day Into Billions Of Views, And What It Cost Him",
+      "content_text": "Larry Cothran did not set out to become what he now calls the number one trucking content creator in the world, he set out to post one video a day and then simp…",
+      "summary": "Larry Cothran did not set out to become what he now calls the number one trucking content creator in the world, he set out to post one video a day and then simp…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Playbook: Featured",
+        "The Playbook",
+        "Trucker Tools",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/frst-look-almost-all-good-news-at-c-h-robinson-in-the-third-quarter",
+      "url": "https://www.freightwaves.com/news/frst-look-almost-all-good-news-at-c-h-robinson-in-the-third-quarter",
+      "title": "First look: almost all good news at C.H. Robinson in the third quarter",
+      "content_text": "The third quarter at C.H. Robinson might be remembered for both the highs and the lows. It was the period when Lipe vs. Lupus Superior came down, and just days…",
+      "summary": "The third quarter at C.H. Robinson might be remembered for both the highs and the lows. It was the period when Lipe vs. Lupus Superior came down, and just days…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "3PL and Brokerage",
+        "Company Earnings",
+        "News",
+        "Top Stories",
+        "C.H. Robinson",
+        "RXO",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/diesel-prices-may-stay-elevated-into-spring-2027-fuel-executives-warn",
+      "url": "https://www.freightwaves.com/news/diesel-prices-may-stay-elevated-into-spring-2027-fuel-executives-warn",
+      "title": "Diesel prices may stay elevated into spring 2027, fuel executives warn",
+      "content_text": "Energy and truck stop executives said limited refining and pipeline capacity could leave U.S. trucking fleets vulnerable to higher diesel prices in 2027. The po…",
+      "summary": "Energy and truck stop executives said limited refining and pipeline capacity could leave U.S. trucking fleets vulnerable to higher diesel prices in 2027. The po…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "News",
+        "Trucking",
+        "diesel",
+        "Fuel",
         "WEX",
         "货运",
         "数据"
@@ -322,102 +496,6 @@
         "Trucking Regulation",
         "Broker transparency",
         "Motus registration system",
-        "货运",
-        "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/truckload-contract-rate-increases-riding-steady-above-10",
-      "url": "https://www.freightwaves.com/news/truckload-contract-rate-increases-riding-steady-above-10",
-      "title": "Truckload contract rate increases riding steady above 10%",
-      "content_text": "The new index from SONAR shows that carriers have been trying to get rate increases since before the market turned, now they are getting what would have been th…",
-      "summary": "The new index from SONAR shows that carriers have been trying to get rate increases since before the market turned, now they are getting what would have been th…",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "Chart of the Week",
-        "trucking capacity",
-        "truckload contract rates",
-        "Truckload rates",
-        "货运",
-        "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/truckings-ruthless-vs-conservative-whos-winning",
-      "url": "https://www.freightwaves.com/news/truckings-ruthless-vs-conservative-whos-winning",
-      "title": "Trucking’s “Ruthless” vs. “Conservative:” Who’s Winning?",
-      "content_text": "In a lukewarm freight market, not all carriers are feeling the same heat. Craig Fuller and Paul Tonsager dive deep into why Knight-Swift’s ‘ruthless’ approach m…",
-      "summary": "In a lukewarm freight market, not all carriers are feeling the same heat. Craig Fuller and Paul Tonsager dive deep into why Knight-Swift’s ‘ruthless’ approach m…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "FreightWaves Today",
-        "FreightWaves TV",
-        "货运",
-        "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/how-much-do-rejected-loads-really-cost-shippers",
-      "url": "https://www.freightwaves.com/news/how-much-do-rejected-loads-really-cost-shippers",
-      "title": "How Much Do Rejected Loads REALLY Cost Shippers?",
-      "content_text": "Discover how new Sonar indices are revolutionizing freight cost transparency. Shippers can now accurately track the real premiums paid for rejected loads and un…",
-      "summary": "Discover how new Sonar indices are revolutionizing freight cost transparency. Shippers can now accurately track the real premiums paid for rejected loads and un…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "FreightWaves Today",
-        "FreightWaves TV",
-        "货运",
-        "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/ryder-fleet-facing-possible-growth-need-as-epa-27-nears",
-      "url": "https://www.freightwaves.com/news/ryder-fleet-facing-possible-growth-need-as-epa-27-nears",
-      "title": "Ryder fleet facing possible growth need as EPA ‘27 nears",
-      "content_text": "With the EPA ‘27 engine rules impacting nitrogen oxide (NoX) emissions in heavy duty vehicles getting closer every day, the new rules will have a major impact o…",
-      "summary": "With the EPA ‘27 engine rules impacting nitrogen oxide (NoX) emissions in heavy duty vehicles getting closer every day, the new rules will have a major impact o…",
-      "date_published": "2026-10-22T00:00:00Z",
-      "tags": [
-        "News",
-        "OEM Trucking",
-        "Top Stories",
-        "Trucking",
         "货运",
         "数据"
       ],

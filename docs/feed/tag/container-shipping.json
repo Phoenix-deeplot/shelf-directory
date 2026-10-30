@@ -36,6 +36,33 @@
       }
     },
     {
+      "id": "https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach",
+      "url": "https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach",
+      "title": "Backlog grows as 35,000 containers await rail service at LA–Long Beach",
+      "content_text": "Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages…",
+      "summary": "Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Container Shipping",
+        "Maritime",
+        "News",
+        "Railroad",
+        "Top Stories",
+        "imports",
+        "peak season"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/shipbuilding-central-to-new-us-denmark-maritime-pact",
       "url": "https://www.freightwaves.com/news/shipbuilding-central-to-new-us-denmark-maritime-pact",
       "title": "Shipbuilding central to new US-Denmark maritime pact",
@@ -78,87 +105,6 @@
         "ocean rates",
         "Red Sea",
         "trans-Pacific"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/canada-port-reaches-new-longshore-union-labor-deal",
-      "url": "https://www.freightwaves.com/news/canada-port-reaches-new-longshore-union-labor-deal",
-      "title": "Canada port reaches new longshore union labor deal",
-      "content_text": "A tentative contract agreement at Halifax settles potential labor unrest, for now. The post Canada port reaches new longshore union labor deal appeared first on…",
-      "summary": "A tentative contract agreement at Halifax settles potential labor unrest, for now. The post Canada port reaches new longshore union labor deal appeared first on…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "American Shipper",
-        "Container Shipping",
-        "Maritime",
-        "News",
-        "Top Stories",
-        "Canada",
-        "DP World",
-        "Labor Contract"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates",
-      "url": "https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates",
-      "title": "New Drewry data shows import demand boosting trans-Pacific rates",
-      "content_text": "Drewry’s World Container Index rose on higher rates on trans-Pacific and Asia-Europe routes. The post New Drewry data shows import demand boosting trans-Pacific…",
-      "summary": "Drewry’s World Container Index rose on higher rates on trans-Pacific and Asia-Europe routes. The post New Drewry data shows import demand boosting trans-Pacific…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "American Shipper",
-        "Container Shipping",
-        "Maritime",
-        "News",
-        "Top Stories",
-        "Capacity",
-        "Drewry",
-        "imports"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/a-new-pnw-container-port-205m-for-oregon-rail-project",
-      "url": "https://www.freightwaves.com/news/a-new-pnw-container-port-205m-for-oregon-rail-project",
-      "title": "A new PNW container port? $205M for Oregon rail project",
-      "content_text": "Oregon port wins $205 million in federal funding to upgrade its rail line and boost a proposed container terminal project. The post A new PNW container port? $2…",
-      "summary": "Oregon port wins $205 million in federal funding to upgrade its rail line and boost a proposed container terminal project. The post A new PNW container port? $2…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "Container Shipping",
-        "Maritime",
-        "News",
-        "Railroad",
-        "Top Stories",
-        "trade",
-        "CRISI program",
-        "Development"
       ],
       "authors": [
         {

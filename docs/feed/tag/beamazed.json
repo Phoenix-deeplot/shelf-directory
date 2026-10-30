@@ -1,0 +1,35 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #BeAmazed",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/beamazed.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.reddit.com/r/BeAmazed/comments/1xhsbof/time_lapse_of_pregnancy/",
+      "url": "https://www.reddit.com/r/BeAmazed/comments/1xhsbof/time_lapse_of_pregnancy/",
+      "title": "Time Lapse of Pregnancy",
+      "content_text": "submitted by /u/No-Razzmatazz6225 to r/BeAmazed [link] [comments]",
+      "summary": "submitted by /u/No-Razzmatazz6225 to r/BeAmazed [link] [comments]",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://external-preview.redd.it/N2hiMXV2ZzdmOHloMfXqrsvL6kumWXPn10gxack3C_P3mfMCxwzhf8O5XVgU.png?width=640&crop=smart&auto=webp&s=a1808d68165bd1df8d5191b33cfa204155ca7955",
+      "tags": [
+        "BeAmazed",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    }
+  ]
+}

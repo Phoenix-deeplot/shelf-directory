@@ -1,0 +1,39 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #BNSF Railroad",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/bnsf-railroad.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/stolen-shoes-on-ebay-lead-police-to-1-million-in-missing-bnsf-train-cargo",
+      "url": "https://www.freightwaves.com/news/stolen-shoes-on-ebay-lead-police-to-1-million-in-missing-bnsf-train-cargo",
+      "title": "Stolen shoes on eBay lead police to $1 million in missing BNSF train cargo",
+      "content_text": "An eBay listing for stolen shoes exposed a $1 million cargo recovery in Los Angeles. Investigators arrested the business owner, but questions remain about where…",
+      "summary": "An eBay listing for stolen shoes exposed a $1 million cargo recovery in Los Angeles. Investigators arrested the business owner, but questions remain about where…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Business",
+        "Fraud",
+        "Playbook: Cash & Capital",
+        "Top Stories",
+        "BNSF Railroad",
+        "cargo theft",
+        "rail theft",
+        "recovery"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}

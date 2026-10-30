@@ -4,57 +4,15 @@
   <title>公共目录 · #Politics</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/politics.xml"/>
-  <updated>2026-10-28T00:00:00Z</updated>
+  <updated>2026-10-29T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://slate.com/podcasts/what-next/2026/10/why-political-ads-are-more-depraved-than-ever-before?via=rss</id>
-    <title>Were Midterm Ads Always &lt;em&gt;This &lt;/em&gt;Bad?</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/podcasts/what-next/2026/10/why-political-ads-are-more-depraved-than-ever-before?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Are ads meeting the moment or just making everything worse?</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Politics"/>
-    <category term="2026 Midterms"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/the-big-interview-podcast-jess-asato/</id>
-    <title>UK Politician Jess Asato Got Deepfaked. Now She’s Taking xAI to Court</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-big-interview-podcast-jess-asato/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Jess Asato’s public campaigning for victims of online abuse put her in the crosshairs of Grok’s deepfake scandal. Then the UK member of parliament became a vict…</summary>
-    <source><title>WIRED</title></source>
-    <category term="The Big Story"/>
-    <category term="Politics"/>
-    <category term="Security"/>
-    <category term="The Big Interview"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/</id>
-    <title>UK Home Office May Face Investigation Over Use of OpenAI Tech</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">A government watchdog is considering a probe into the Home Office’s use of ChatGPT technology to process asylum claims amid concerns over the tools’ accuracy an…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Politics"/>
-    <category term="Politics / Policy"/>
-    <category term="Prompt Action"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/massive-groups-of-volunteers-are-ready-to-face-down-ice-at-the-polls/</id>
-    <title>Massive Groups of Volunteers Are Ready to Face Down ICE at the Polls</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/massive-groups-of-volunteers-are-ready-to-face-down-ice-at-the-polls/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">From heat maps to Signal chats to war rooms, volunteers across the US are ready to act if federal immigration agents show up on Election Day.</summary>
+    <id>https://www.wired.com/story/law-firm-linked-to-elon-musk-started-an-election-integrity-organization/</id>
+    <title>Law Firm Linked to Elon Musk Started an ‘Election Integrity’ Organization</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/law-firm-linked-to-elon-musk-started-an-election-integrity-organization/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">The firm that helped set up Elon Musk’s America PAC is behind the new group, which will work with election officials to pursue policies aligned with Donald Trum…</summary>
     <source><title>WIRED</title></source>
     <category term="Politics"/>
     <category term="Midterms 2026"/>
@@ -62,31 +20,30 @@
     <category term="社会"/>
   </entry>
   <entry>
-    <id>https://www.wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-record-of-him-working-there/</id>
-    <title>A 28-Year-Old DOGE Operative Gutted USAID. HR Had No Record of Him Working There</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-record-of-him-working-there/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Despite the agency's human resources department saying he hadn’t even been onboarded, Jeremy Lewin oversaw the destruction of USAID. It’s not clear he had the l…</summary>
+    <id>https://www.wired.com/story/this-is-what-the-gops-final-midterms-push-looks-like/</id>
+    <title>This Is What the GOP’s Final Midterms Push Looks Like</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/this-is-what-the-gops-final-midterms-push-looks-like/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Republicans are spending their time and money on Senate races in historically red states—a sign they’re more nervous than ever as Election Day looms.</summary>
     <source><title>WIRED</title></source>
     <category term="Politics"/>
     <category term="Politics / Politics News"/>
-    <category term="Takeover"/>
+    <category term="Inner Loop"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>
   <entry>
-    <id>https://slate.com/podcasts/slate-money/2026/10/artificial-intelligence-destroy-alarmist-tech-politics-policy?via=rss</id>
-    <title>Money Talks: The Real Threats of Artificial Intelligence</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/podcasts/slate-money/2026/10/artificial-intelligence-destroy-alarmist-tech-politics-policy?via=rss"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">What’s alarmist and what’s real about artificial intelligence. Plus, how lawmakers are dealing with a situation they don't really understand.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Artificial Intelligence"/>
-    <category term="Economics"/>
+    <id>https://www.wired.com/story/senators-demand-to-know-if-dr-oz-collaborated-with-election-denial-groups/</id>
+    <title>Senators Demand to Know if Dr. Oz Collaborated With Election Denial Groups</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/senators-demand-to-know-if-dr-oz-collaborated-with-election-denial-groups/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">A far-right campaign claiming leftists are stealing votes from nursing home residents has centered on changing guidance from Mehmet Oz’s Centers for Medicare an…</summary>
+    <source><title>WIRED</title></source>
     <category term="Politics"/>
-    <category term="评论"/>
-    <category term="文化"/>
+    <category term="Midterms 2026"/>
+    <category term="科技"/>
+    <category term="社会"/>
   </entry>
 </feed>

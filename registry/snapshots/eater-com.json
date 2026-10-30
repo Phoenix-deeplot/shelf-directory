@@ -2,6 +2,32 @@
  "id": "eater-com",
  "items": [
   {
+   "url": "https://www.eater.com/dining-out/996325/restaurants-fake-yelp-reviews-penalties",
+   "title": "Even for Desperate Restaurants, Fake Reviews Just Aren’t Worth It",
+   "summary": "When Yelp was first launched in 2004, it flopped. The company’s initial model of an email-based referral service failed to take off until its creators realized…",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [
+    "Dining Out"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.eater.com/maps/best-restaurants-barcelona-spain",
+   "title": "The 38 Best Restaurants in Barcelona, According to a Local Food Guide",
+   "summary": "From Barcelona’s towering churches and bustling avenues to the sun-drenched beaches and idyllic plazas, it’s obvious why this city captures visitors’ hearts. Yo…",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [
+    "Barcelona",
+    "Spain",
+    "Travel Guides"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.eater.com/dining-out/995457/alfies-washington-dc-thai-restaurant-steak-frites",
    "title": "Inside the New D.C. Restaurant That Only Sells Five Curry Steak Frites Every Night",
    "summary": "The hottest new spot in Washington, D.C. focuses on the traditional heat-packed cooking methods of northern Thailand, while still using local ingredients from a…",
@@ -104,30 +130,6 @@
    ],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://www.eater.com/travel-guides/992622/these-resorts-offer-a-real-taste-of-american-regional-cuisine",
-   "title": "These Resorts Offer a Real Taste of American Regional Cuisine",
-   "summary": "American resorts are once again having a moment — and it’s not pickleball partisans driving the trend. A new generation of travelers, beset with decision fatigu…",
-   "image": "",
-   "date": "2026-10-15",
-   "tags": [
-    "Travel Guides"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.eater.com/travel-guides/992688/enjoy-fishing-foraging-and-focaccia-making-at-these-u-s-resorts",
-   "title": "Enjoy Fishing, Foraging, and Focaccia-Making at These U.S. Resorts",
-   "summary": "Plenty of resorts across the country have excellent restaurants, but travelers seeking more should explore the hands-on side of culinary resort experiences. Fro…",
-   "image": "",
-   "date": "2026-10-15",
-   "tags": [
-    "Travel Guides"
-   ],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -144,6 +146,6 @@
  "parser": 3,
  "status": "ok",
  "error": "",
- "etag": "\"1e4f66c3d80e45effec06a384b696361\"",
+ "etag": "\"116480d6247989720f8a54b6d7901574\"",
  "modified": ""
 }

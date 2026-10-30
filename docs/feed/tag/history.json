@@ -9,6 +9,30 @@
   },
   "items": [
     {
+      "id": "https://www.openculture.com/2026/10/the-early-years-of-electronic-pop-the-moog-craze-psychedelic-experiments-and-more.html",
+      "url": "https://www.openculture.com/2026/10/the-early-years-of-electronic-pop-the-moog-craze-psychedelic-experiments-and-more.html",
+      "title": "The Early Years of Electronic Pop: The Moog Craze, Psychedelic Experiments, and More",
+      "content_text": "There’s a decent chance you’ve heard at least a couple of tracks from Wendy Carlos’ Switched-On Bach. But when was the last time you put on Switched-On Rock, Sw…",
+      "summary": "There’s a decent chance you’ve heard at least a couple of tracks from Wendy Carlos’ Switched-On Bach. But when was the last time you put on Switched-On Rock, Sw…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "History",
+        "Music",
+        "Technology",
+        "文化",
+        "免费资源"
+      ],
+      "authors": [
+        {
+          "name": "Open Culture"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "openculture-com"
+      }
+    },
+    {
       "id": "https://www.openculture.com/2026/10/inside-the-making-of-the-sagrada-familia-barcelonas-144-year-megaproject.html",
       "url": "https://www.openculture.com/2026/10/inside-the-making-of-the-sagrada-familia-barcelonas-144-year-megaproject.html",
       "title": "Inside the Making of the Sagrada Família, Barcelona’s 144-Year Megaproject",
@@ -156,30 +180,6 @@
       "tags": [
         "History",
         "Technology",
-        "文化",
-        "免费资源"
-      ],
-      "authors": [
-        {
-          "name": "Open Culture"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "openculture-com"
-      }
-    },
-    {
-      "id": "https://www.openculture.com/2026/10/the-dark-story-behind-edgar-allan-poes-most-famous-photograph.html",
-      "url": "https://www.openculture.com/2026/10/the-dark-story-behind-edgar-allan-poes-most-famous-photograph.html",
-      "title": "The Dark Story Behind Edgar Allan Poe’s Most Famous Photograph, Taken Four Days After a Laudanum Overdose",
-      "content_text": "In the Halloween season, one American writer comes to mind more often than any other: Edgar Allan Poe. That owes in large part to his famously macabre tales lik…",
-      "summary": "In the Halloween season, one American writer comes to mind more often than any other: Edgar Allan Poe. That owes in large part to his famously macabre tales lik…",
-      "date_published": "2026-10-19T00:00:00Z",
-      "tags": [
-        "History",
-        "Literature",
-        "Photography",
         "文化",
         "免费资源"
       ],

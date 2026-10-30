@@ -1,0 +1,58 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #comics",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/comics.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.reddit.com/r/comics/comments/1xhmkrd/reincarnation_comic_oc/",
+      "url": "https://www.reddit.com/r/comics/comments/1xhmkrd/reincarnation_comic_oc/",
+      "title": "Reincarnation comic [OC]",
+      "content_text": "submitted by /u/JuntheBold to r/comics [link] [comments]",
+      "summary": "submitted by /u/JuntheBold to r/comics [link] [comments]",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://preview.redd.it/69xgn8tua7yh1.jpeg?width=140&height=140&crop=1:1,smart&auto=webp&s=27638293d5a6558bd4b933c060e878a859655b0a",
+      "tags": [
+        "comics",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/comics/comments/1xhury4/landlords_hate_this_one_trick/",
+      "url": "https://www.reddit.com/r/comics/comments/1xhury4/landlords_hate_this_one_trick/",
+      "title": "Landlords hate this one trick",
+      "content_text": "submitted by /u/Pizzacakecomic to r/comics [link] [comments]",
+      "summary": "submitted by /u/Pizzacakecomic to r/comics [link] [comments]",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://preview.redd.it/prv21tyou8yh1.png?width=640&crop=smart&auto=webp&s=4238bbcb641b56d3bebfed212526803a1facfa4b",
+      "tags": [
+        "comics",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    }
+  ]
+}

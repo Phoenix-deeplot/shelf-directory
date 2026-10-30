@@ -1,0 +1,37 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Buttoned Up",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/buttoned-up.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.wired.com/story/adult-video-stars-want-to-teach-you-how-to-make-dinner/",
+      "url": "https://www.wired.com/story/adult-video-stars-want-to-teach-you-how-to-make-dinner/",
+      "title": "Pornhub Stars Want to Teach You How to Make Dinner",
+      "content_text": "Faced with censorship and anti-porn laws, the adult site is encouraging creators to embrace cooking, gaming, podcasting, and other safe-for-work content.",
+      "summary": "Faced with censorship and anti-porn laws, the adult site is encouraging creators to embrace cooking, gaming, podcasting, and other safe-for-work content.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adede77dbc6676891653f9d/master/pass/SFW%20pornhub.jpg",
+      "tags": [
+        "Culture",
+        "Culture / Digital Culture",
+        "Buttoned Up",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    }
+  ]
+}

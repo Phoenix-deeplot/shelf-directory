@@ -9,6 +9,33 @@
   },
   "items": [
     {
+      "id": "https://daily.jstor.org/how-telepathy-helped-build-the-russian-internet/",
+      "url": "https://daily.jstor.org/how-telepathy-helped-build-the-russian-internet/",
+      "title": "How Telepathy Helped Build the Russian Internet",
+      "content_text": "During the Cold War, Soviet scientists pursued an unlikely way to communicate with the outside world. The post How Telepathy Helped Build the Russian Internet a…",
+      "summary": "During the Cold War, Soviet scientists pursued an unlikely way to communicate with the outside world. The post How Telepathy Helped Build the Russian Internet a…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Arts & Culture",
+        "Language & Literature",
+        "Science & Technology",
+        "Technology",
+        "internet",
+        "Path to Open",
+        "Russia",
+        "学术"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    },
+    {
       "id": "https://daily.jstor.org/teaching-students-to-see-what-they-miss/",
       "url": "https://daily.jstor.org/teaching-students-to-see-what-they-miss/",
       "title": "Teaching Students to See What They Miss",

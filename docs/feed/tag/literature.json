@@ -9,6 +9,31 @@
   },
   "items": [
     {
+      "id": "https://www.openculture.com/2026/10/surreal-pinscreen-animations-bring-kafka-gogol-mussorgsky-to-life-1933-1972.html",
+      "url": "https://www.openculture.com/2026/10/surreal-pinscreen-animations-bring-kafka-gogol-mussorgsky-to-life-1933-1972.html",
+      "title": "Surreal Pinscreen Animations Bring Kafka, Gogol & Mussorgsky to Life (1933–1972)",
+      "content_text": "What do Franz Kafka, Nikolai Gogol, and Modest Mussorgsky have in common? They stand alone among their peers for their darkly humorous sensibilities, fascinatio…",
+      "summary": "What do Franz Kafka, Nikolai Gogol, and Modest Mussorgsky have in common? They stand alone among their peers for their darkly humorous sensibilities, fascinatio…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "Animation",
+        "Film",
+        "Literature",
+        "Uncategorized",
+        "文化",
+        "免费资源"
+      ],
+      "authors": [
+        {
+          "name": "Open Culture"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "openculture-com"
+      }
+    },
+    {
       "id": "https://www.openculture.com/2026/10/how-balzacs-extreme-coffee-habit-fueled-his-productive-writing-routine.html",
       "url": "https://www.openculture.com/2026/10/how-balzacs-extreme-coffee-habit-fueled-his-productive-writing-routine.html",
       "title": "How Balzac’s Extreme Coffee Habit Fueled His Productive Writing Routine",
@@ -63,30 +88,6 @@
       "date_published": "2026-10-22T00:00:00Z",
       "tags": [
         "Literature",
-        "文化",
-        "免费资源"
-      ],
-      "authors": [
-        {
-          "name": "Open Culture"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "openculture-com"
-      }
-    },
-    {
-      "id": "https://www.openculture.com/2026/10/the-dark-story-behind-edgar-allan-poes-most-famous-photograph.html",
-      "url": "https://www.openculture.com/2026/10/the-dark-story-behind-edgar-allan-poes-most-famous-photograph.html",
-      "title": "The Dark Story Behind Edgar Allan Poe’s Most Famous Photograph, Taken Four Days After a Laudanum Overdose",
-      "content_text": "In the Halloween season, one American writer comes to mind more often than any other: Edgar Allan Poe. That owes in large part to his famously macabre tales lik…",
-      "summary": "In the Halloween season, one American writer comes to mind more often than any other: Edgar Allan Poe. That owes in large part to his famously macabre tales lik…",
-      "date_published": "2026-10-19T00:00:00Z",
-      "tags": [
-        "History",
-        "Literature",
-        "Photography",
         "文化",
         "免费资源"
       ],

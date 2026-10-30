@@ -4,19 +4,90 @@
   <title>公共目录 · NASA</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/nasa-gov.xml"/>
-  <updated>2026-10-28T00:00:00Z</updated>
+  <updated>2026-10-29T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://science.nasa.gov/earth/earth-observatory/the-land-of-the-standing-up-rocks/</id>
-    <title>The Land of the Standing-Up Rocks</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/earth/earth-observatory/the-land-of-the-standing-up-rocks/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">A national monument since the 1920s, Chiricahua is America’s newest national park.</summary>
+    <id>https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/</id>
+    <title>Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Artemis II Commander Reid Wiseman has been named Caltech associate vice president and deputy director of NASA’s Jet Propulsion Laboratory in Southern California…</summary>
+    <source><title>NASA</title></source>
+    <category term="Jet Propulsion Laboratory"/>
+    <category term="Artemis 2"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/</id>
+    <title>Arnab Strikes India</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">The first named storm of the North Indian Ocean’s cyclone season made landfall along the coast of Andhra Pradesh.</summary>
     <source><title>NASA</title></source>
     <category term="Earth Observatory"/>
-    <category term="Landsat 9"/>
-    <category term="Topography"/>
+    <category term="Hurricanes &amp; Typhoons"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/</id>
+    <title>APOD: 29 October 2026 – The Horns of Venus</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">APOD Science APOD APOD: 29 October 2026 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the…</summary>
+    <source><title>NASA</title></source>
+    <category term="APOD"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/</id>
+    <title>Webb Sees Turbulent Star Nursery</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">In this Webb image released on Oct. 22, 2026, we see a turbulent cauldron of star formation filled with dense clumps of gas. This region is named N159 and is lo…</summary>
+    <source><title>NASA</title></source>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/</id>
+    <title>NASA Welcomes Vietnam as Newest Artemis Accords Signatory</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">The Socialist Republic of Vietnam became the 78th nation to sign the Artemis Accords, joining a growing coalition of like-minded nations committed to the peacef…</summary>
+    <source><title>NASA</title></source>
+    <category term="Artemis Accords"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/</id>
+    <title>NASA University Challenge Ignites Trajectory of Drone Entrepreneur</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Five years ago, Gavin Gardner was a Michigan State University engineering student researching next-generation drone technology as part of a NASA grant. Garder e…</summary>
+    <source><title>NASA</title></source>
+    <category term="Aeronautics"/>
+    <category term="University Innovation"/>
+    <category term="航天"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/</id>
+    <title>NASA Selects 19 New Citizen Science Proposals in 2026</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">So far, 2026 has seen a flood of successes for volunteers who do NASA science, exemplifying NASA’s commitment to gold-standard science—transparent, reproducible…</summary>
+    <source><title>NASA</title></source>
     <category term="航天"/>
     <category term="科学"/>
   </entry>
@@ -33,108 +104,31 @@
     <category term="科学"/>
   </entry>
   <entry>
+    <id>https://www.nasa.gov/image-article/artemis-iii-sls-core-stage-joins-boosters-at-kennedy/</id>
+    <title>Artemis III SLS Core Stage Joins Boosters at Kennedy</title>
+    <link rel="alternate" type="text/html" href="https://www.nasa.gov/image-article/artemis-iii-sls-core-stage-joins-boosters-at-kennedy/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">NASA’s Artemis III SLS (Space Launch System) core stage is integrated alongside the twin solid rocket boosters on Oct. 28 inside the Vehicle Assembly Building’s…</summary>
+    <source><title>NASA</title></source>
+    <category term="Andre Douglas"/>
+    <category term="Artemis"/>
+    <category term="Artemis 3"/>
+    <category term="Exploration Ground Systems"/>
+    <category term="Frank Rubio"/>
+    <category term="Kennedy Space Center"/>
+    <category term="Randolph J. Bresnik"/>
+    <category term="Space Launch System (SLS)"/>
+  </entry>
+  <entry>
     <id>https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/</id>
     <title>APOD: 2026 October 28 – The Mutual Occultation of Ganymede and Io</title>
     <link rel="alternate" type="text/html" href="https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/"/>
     <updated>2026-10-28T00:00:00Z</updated>
     <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">APOD Science APOD APOD: 2026 October 28 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the…</summary>
+    <summary type="text">APODScienceAPODAPOD: 2026 October 28 – The…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover…</summary>
     <source><title>NASA</title></source>
     <category term="APOD"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/</id>
-    <title>NASA’s Neo Surveyor Sunshade</title>
-    <link rel="alternate" type="text/html" href="https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">A technician inspects the large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission in this image released on Oct. 26, 2026. The sunshade structure, whi…</summary>
-    <source><title>NASA</title></source>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/</id>
-    <title>NASA Invites Media to Crew Completion of Yearlong Mars Simulation</title>
-    <link rel="alternate" type="text/html" href="https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">The four volunteers who lived and worked in a simulated NASA Mars mission for more than a year will exit their habitat on Saturday, Oct. 31, after 378 days of i…</summary>
-    <source><title>NASA</title></source>
-    <category term="CHAPEA Mission 2"/>
-    <category term="Human Research Program"/>
-    <category term="Johnson Space Center"/>
-    <category term="Missions"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/</id>
-    <title>How a Johnson Mentor Shapes the Next Generation of NASA Talent</title>
-    <link rel="alternate" type="text/html" href="https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">When Rice University student Malvika Bhardwaj asked her mentor Daniel Cohen, a Guidance, Navigation &amp; Control (GN&amp;C) engineer at NASA’s Johnson Space Center, wh…</summary>
-    <source><title>NASA</title></source>
-    <category term="General"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/</id>
-    <title>APOD: 2026 October 27 – Noctilucent Clouds over Sweden</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">APOD Science APOD APOD: 2026 October 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…</summary>
-    <source><title>NASA</title></source>
-    <category term="APOD"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/</id>
-    <title>A-81 Reaches South Georgia</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">The Antarctic iceberg made a relatively quick exit from the Weddell Sea, only to slow at the edge of a remote island’s underwater shelf.</summary>
-    <source><title>NASA</title></source>
-    <category term="Earth Observatory"/>
-    <category term="Ice &amp; Glaciers"/>
-    <category term="Terra"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/</id>
-    <title>NASA’s Perseverance Views Dust at Neretva Vallis</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Description This 360-degree look at Neretva Vallis within Mars’ Jezero Crater was stitched together using 217 images acquired by the rover’s Mastcam-Z on May 20…</summary>
-    <source><title>NASA</title></source>
-    <category term="Mars 2020"/>
-    <category term="Photojournal"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/</id>
-    <title>NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust</title>
-    <link rel="alternate" type="text/html" href="https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Over 1,645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of spacesuit materials…</summary>
-    <source><title>NASA</title></source>
-    <category term="Mars 2020"/>
-    <category term="General"/>
-    <category term="Jet Propulsion Laboratory"/>
-    <category term="Mars"/>
-    <category term="Perseverance (Rover)"/>
-    <category term="Planetary Science Division"/>
     <category term="航天"/>
     <category term="科学"/>
   </entry>

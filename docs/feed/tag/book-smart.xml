@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/book-smart.xml</id>
+  <title>公共目录 · #Book Smart</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/book-smart.xml"/>
+  <updated>2026-10-28T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.wired.com/gallery/best-kindle/</id>
+    <title>What’s the Best Kindle of 2026 (So Far)?</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/gallery/best-kindle/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">I’ve tested every single Kindle, from Paperwhite and Colorsoft to the new aluminum models. Here’s how Amazon’s ebook readers stack up.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Buying Guides"/>
+    <category term="Gear / Products / Accessories"/>
+    <category term="Book Smart"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+</feed>

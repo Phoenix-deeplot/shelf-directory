@@ -1,0 +1,66 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #腾讯",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-3842b6.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.woshipm.com/ai/6486266.html",
+      "url": "https://www.woshipm.com/ai/6486266.html",
+      "title": "鹅厂出手：面向Agent的网盘，到底应该长什么样？",
+      "content_text": "作者手上十几个 AI 工具，一直想给它们找个共同的仓库。腾讯网盘把「面向 Agent」写进了定位，他把内测几天折腾下来的连接、授权、备份和跨工具取资料的体验记了一遍，哪些真省事，哪些还差口气。 必须承认，我现在用AI，某种意义上就是一种消费。 我的工具一大堆—— Claude Code、Codex、WorkBuddy、…",
+      "summary": "作者手上十几个 AI 工具，一直想给它们找个共同的仓库。腾讯网盘把「面向 Agent」写进了定位，他把内测几天折腾下来的连接、授权、备份和跨工具取资料的体验记了一遍，哪些真省事，哪些还差口气。 必须承认，我现在用AI，某种意义上就是一种消费。 我的工具一大堆—— Claude Code、Codex、WorkBuddy、…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "Codex",
+        "WorkBuddy",
+        "腾讯",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6486183.html",
+      "url": "https://www.woshipm.com/ai/6486183.html",
+      "title": "张一鸣又造出一个国民级APP",
+      "content_text": "谁能想到，曾经被不少人嫌弃“又土又俗”的短剧，如今已经成了互联网大厂争夺用户时间的重要战场。 10月29日，一组关于红果短剧的数据引发关注。 QuestMobile数据显示，2026年5月，红果短剧月活跃用户达到3.56亿；7月日活跃用户达到1.68亿，同比增长107%，甚至超过腾讯视频、爱奇艺、优酷、芒果TV四家长视…",
+      "summary": "谁能想到，曾经被不少人嫌弃“又土又俗”的短剧，如今已经成了互联网大厂争夺用户时间的重要战场。 10月29日，一组关于红果短剧的数据引发关注。 QuestMobile数据显示，2026年5月，红果短剧月活跃用户达到3.56亿；7月日活跃用户达到1.68亿，同比增长107%，甚至超过腾讯视频、爱奇艺、优酷、芒果TV四家长视…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "AI",
+        "小程序",
+        "微信",
+        "抖音",
+        "腾讯",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    }
+  ]
+}

@@ -9,17 +9,17 @@
   },
   "items": [
     {
-      "id": "https://www.wired.com/story/instagram-is-a-streaming-service-now/",
-      "url": "https://www.wired.com/story/instagram-is-a-streaming-service-now/",
-      "title": "Instagram Is a Streaming Service Now",
-      "content_text": "Instagram’s long-form video update is more than a swipe at YouTube. It’s an attempt to capture the clip economy.",
-      "summary": "Instagram’s long-form video update is more than a swipe at YouTube. It’s an attempt to capture the clip economy.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ae06babed02f1088a5b33a4/master/pass/GettyImages-2239130168.jpg",
+      "id": "https://www.wired.com/story/liquid-glass-finally-makes-sense-on-the-iphone-duo/",
+      "url": "https://www.wired.com/story/liquid-glass-finally-makes-sense-on-the-iphone-duo/",
+      "title": "Liquid Glass Finally Makes Sense on the iPhone Duo",
+      "content_text": "Liquid Glass was a divisive redesign. But with a radically different iPhone, the pieces are finally falling into place.",
+      "summary": "Liquid Glass was a divisive redesign. But with a radically different iPhone, the pieces are finally falling into place.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ad79403fc73d5bd28140aac/master/pass/DSC_9897.jpg",
       "tags": [
         "Gear",
         "Gear / Gear News and Events",
-        "Couch Potato",
+        "Crystal Clear",
         "科技",
         "社会"
       ],
@@ -34,17 +34,17 @@
       }
     },
     {
-      "id": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/",
-      "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/",
-      "title": "I Tested Every Major AI Agent for a Day. Here’s the Best One",
-      "content_text": "I ranked six AI agents—from Meta’s Muse to Anthropic’s Claude Duet—on how well they completed basic tasks.",
-      "summary": "I ranked six AI agents—from Meta’s Muse to Anthropic’s Claude Duet—on how well they completed basic tasks.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adbdf82eed013bcc79da54f/master/pass/gear-ai-agent-best.jpg",
+      "id": "https://www.wired.com/story/the-men-dropping-50000-and-up-on-teslas-new-roadster/",
+      "url": "https://www.wired.com/story/the-men-dropping-50000-and-up-on-teslas-new-roadster/",
+      "title": "The Men Spending $50,000 Just to Reserve a Tesla Roadster",
+      "content_text": "The base model—without thrusters or the flight system—will likely cost several times that amount to buy. “I’m going to do everything in my power to get the flyi…",
+      "summary": "The base model—without thrusters or the flight system—will likely cost several times that amount to buy. “I’m going to do everything in my power to get the flyi…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae10eb0f7e0fe592a7ec4f3/master/pass/Roadster_78.jpg",
       "tags": [
         "Gear",
         "Gear / Gear News and Events",
-        "Battle Bots",
+        "Rocket Man",
         "科技",
         "社会"
       ],
@@ -59,18 +59,95 @@
       }
     },
     {
-      "id": "https://www.wired.com/story/some-iphone-duo-models-are-breaking-ifixits-teardown-might-explain-why/",
-      "url": "https://www.wired.com/story/some-iphone-duo-models-are-breaking-ifixits-teardown-might-explain-why/",
-      "title": "Some iPhone Duo Models Are Breaking. iFixit’s Teardown Might Explain Why",
-      "content_text": "Apple confirmed a “small number” of iPhone Duo units have an issue impacting the inner display.",
-      "summary": "Apple confirmed a “small number” of iPhone Duo units have an issue impacting the inner display.",
-      "date_published": "2026-10-26T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adf134c0a7918a0f61a89fd/master/pass/iPhone%20Duo_94.jpg",
+      "id": "https://www.wired.com/story/the-inside-story-of-why-apple-finally-brought-a-touch-display-to-the-mac/",
+      "url": "https://www.wired.com/story/the-inside-story-of-why-apple-finally-brought-a-touch-display-to-the-mac/",
+      "title": "The Inside Story of Why Apple Finally Brought a Touch Display to the Mac",
+      "content_text": "An exclusive early look at Apple’s new touchscreen MacBook Pro—the computer Apple said would never happen.",
+      "summary": "An exclusive early look at Apple’s new touchscreen MacBook Pro—the computer Apple said would never happen.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae20ca456ee4dcb93f11044/master/pass/1027_AppleNF_Illustration_v1.jpg",
+      "tags": [
+        "The Big Story",
+        "Gear",
+        "Gear / Gear News and Events",
+        "Hands On",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/the-2000-nit-oled-in-apples-new-macbook-pro-is-a-big-deal/",
+      "url": "https://www.wired.com/story/the-2000-nit-oled-in-apples-new-macbook-pro-is-a-big-deal/",
+      "title": "The 2,000-Nit OLED in Apple’s New MacBook Is a Big Deal",
+      "content_text": "The touchscreen in the new MacBook Pro is crazily bright with very deep blacks. Here’s why it’s unlike anything else you can currently buy.",
+      "summary": "The touchscreen in the new MacBook Pro is crazily bright with very deep blacks. Here’s why it’s unlike anything else you can currently buy.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae27b1cbef604c6ee2089e7/master/pass/APPLE_OLED.jpg",
       "tags": [
         "Gear",
         "Gear / Gear News and Events",
-        "Gear / Products / Phones",
-        "Fold Fix",
+        "Dark Magic",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/sony-wants-you-to-forget-about-discs-with-its-gorgeous-transparent-controller/",
+      "url": "https://www.wired.com/story/sony-wants-you-to-forget-about-discs-with-its-gorgeous-transparent-controller/",
+      "title": "Sony Wants You to Forget About Discs With Its Gorgeous Transparent Controllers",
+      "content_text": "Sony has new, spiffy see-through controllers and covers for its PlayStation 5 that let you see the hardware guts inside.",
+      "summary": "Sony has new, spiffy see-through controllers and covers for its PlayStation 5 that let you see the hardware guts inside.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae09646dad85b6a01dd12fd/master/pass/PRISM-Collection_DSonly_3UP_16X6.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Gear News and Events",
+        "Gear / Products / Gaming",
+        "Plastic Fantastic",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/amazon-adds-an-alexa-photo-frame-and-a-bedside-clock-to-its-echo-family/",
+      "url": "https://www.wired.com/story/amazon-adds-an-alexa-photo-frame-and-a-bedside-clock-to-its-echo-family/",
+      "title": "Amazon Adds an Alexa Photo Frame and a Bedside Clock to Its Echo Family",
+      "content_text": "The new Echo Studio also gets a camera, and the Echo Show 16 debuts an AI-generated Alexa interface.",
+      "summary": "The new Echo Studio also gets a camera, and the Echo Show 16 debuts an AI-generated Alexa interface.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae097bb45acc693d52eb8ba/master/pass/New%20Amazon%202026%20Echo%20Speakers%20SOURCE%20Julian%20Chokkattu.jpg.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Gear News and Events",
+        "Gear / Products / Smart Home",
+        "Echo Chamber",
         "科技",
         "社会"
       ],

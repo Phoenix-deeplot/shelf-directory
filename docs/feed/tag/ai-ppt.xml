@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/ai-ppt.xml</id>
+  <title>公共目录 · #AI 生成 PPT</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/ai-ppt.xml"/>
+  <updated>2026-10-29T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.woshipm.com/ai/6485988.html</id>
+    <title>下一代PPT，AI 做 PPT 的终极形态</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6485988.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">当 AI 能生成 3D 模型和动态视频，PPT 的叙事逻辑正在被改写。本文从产品演示的真实痛点出发，结合 Rebecca Minkoff、宜家等案例，拆解如何用 3D 视角和动态画面讲清空间关系与变化过程，并给出从产品图到短视频的完整实操路径。 2026年，用 AI 做 PPT 的终极形态，长这样 先说结论：我做 PP…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="3D 模型"/>
+    <category term="AI 应用"/>
+    <category term="AI 生成 PPT"/>
+    <category term="产品展示"/>
+    <category term="动态演示"/>
+    <category term="案例分析"/>
+  </entry>
+</feed>

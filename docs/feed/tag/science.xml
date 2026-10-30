@@ -4,8 +4,22 @@
   <title>公共目录 · #Science</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/science.xml"/>
-  <updated>2026-10-28T00:00:00Z</updated>
+  <updated>2026-10-29T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.wired.com/story/astronomers-discover-a-possible-new-dwarf-planet-in-our-solar-system/</id>
+    <title>Astronomers Discover a Possible New Dwarf Planet in Our Solar System</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/astronomers-discover-a-possible-new-dwarf-planet-in-our-solar-system/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Lying beyond Pluto, 2026 ED138 could be as large as 1,500 kilometers in diameter. Astronomers are still working to confirm whether it meets the criteria for a d…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Science"/>
+    <category term="Science / Space"/>
+    <category term="Hi Neighbor"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
   <entry>
     <id>https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/</id>
     <title>AI Emergency Alerts Are Coming. Humans Might Not Be Ready</title>
@@ -34,20 +48,6 @@
     <category term="免费资源"/>
   </entry>
   <entry>
-    <id>https://www.wired.com/story/how-nasa-oldest-martian-spacecraft-run-for-decades/</id>
-    <title>NASA’s Oldest Martian Spacecraft Have Been Running for Decades. Here’s How</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/how-nasa-oldest-martian-spacecraft-run-for-decades/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Two orbiters have long outlasted their expected lifespans and completely reshaped our understanding of the Red Planet, all while operating 140 million miles fro…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Space"/>
-    <category term="Staying Alive"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
     <id>https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/</id>
     <title>Anthropic Says It Will Revolutionize Biology—Some Day</title>
     <link rel="alternate" type="text/html" href="https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/"/>
@@ -74,20 +74,6 @@
     <category term="Science / Environment"/>
     <category term="Business"/>
     <category term="P(Doom)"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets/</id>
-    <title>Scientists Trapped an Antimatter Particle for Months to Study Its Secrets</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/scientists-trapped-an-antimatter-particle-for-months-to-study-its-secrets/"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">These elusive and reactive particles have been challenging to hold on to and even more challenging to study, but a new method paves the way for tests on the dif…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Physics and Math"/>
-    <category term="Catch and Release"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>

@@ -9,6 +9,59 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/scan-global-logistics-to-acquire-oregon-based-oia-global",
+      "url": "https://www.freightwaves.com/news/scan-global-logistics-to-acquire-oregon-based-oia-global",
+      "title": "Scan Global Logistics to acquire Oregon-based OIA Global",
+      "content_text": "Scan Global Logistics has agreed to acquire OIA Global, based in Portland, Oregon. The post Scan Global Logistics to acquire Oregon-based OIA Global appeared fi…",
+      "summary": "Scan Global Logistics has agreed to acquire OIA Global, based in Portland, Oregon. The post Scan Global Logistics to acquire Oregon-based OIA Global appeared fi…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "M&A",
+        "News",
+        "Top Stories",
+        "Scan Global Logistics",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/strike-threat-by-port-security-workers-at-los-angeles-long-beach",
+      "url": "https://www.freightwaves.com/news/strike-threat-by-port-security-workers-at-los-angeles-long-beach",
+      "title": "Strike threat by port security workers at Los Angeles–Long Beach",
+      "content_text": "About 250 security workers could walk out Nov. 1, potentially disrupting terminals at the busiest U.S. port complex. The post Strike threat by port security wor…",
+      "summary": "About 250 security workers could walk out Nov. 1, potentially disrupting terminals at the busiest U.S. port complex. The post Strike threat by port security wor…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Maritime",
+        "News",
+        "Top Stories",
+        "Labor Contract",
+        "Port of Los Angeles-Long Beach",
+        "Strike",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/port-houston-container-volumes-jump-11-as-imports-surge-in-september",
       "url": "https://www.freightwaves.com/news/port-houston-container-volumes-jump-11-as-imports-surge-in-september",
       "title": "Port Houston container volumes jump 11% as imports surge in September",
@@ -24,6 +77,33 @@
         "Houston Ship Channel",
         "Port Houston",
         "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach",
+      "url": "https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach",
+      "title": "Backlog grows as 35,000 containers await rail service at LA–Long Beach",
+      "content_text": "Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages…",
+      "summary": "Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Container Shipping",
+        "Maritime",
+        "News",
+        "Railroad",
+        "Top Stories",
+        "imports",
+        "peak season"
       ],
       "authors": [
         {
@@ -171,33 +251,6 @@
       }
     },
     {
-      "id": "https://www.freightwaves.com/news/canada-port-reaches-new-longshore-union-labor-deal",
-      "url": "https://www.freightwaves.com/news/canada-port-reaches-new-longshore-union-labor-deal",
-      "title": "Canada port reaches new longshore union labor deal",
-      "content_text": "A tentative contract agreement at Halifax settles potential labor unrest, for now. The post Canada port reaches new longshore union labor deal appeared first on…",
-      "summary": "A tentative contract agreement at Halifax settles potential labor unrest, for now. The post Canada port reaches new longshore union labor deal appeared first on…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "American Shipper",
-        "Container Shipping",
-        "Maritime",
-        "News",
-        "Top Stories",
-        "Canada",
-        "DP World",
-        "Labor Contract"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
       "id": "https://www.freightwaves.com/news/australia-post-ceo-to-retire-as-financial-challenges-continue",
       "url": "https://www.freightwaves.com/news/australia-post-ceo-to-retire-as-financial-challenges-continue",
       "title": "Australia Post CEO to retire as financial challenges continue",
@@ -239,114 +292,6 @@
         "AI",
         "earnings",
         "Kuehne+Nagel",
-        "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness",
-      "url": "https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness",
-      "title": "Workforce gaps keep supply chain AI stuck in pilot mode",
-      "content_text": "AI adoption across 13 supply chain functions averages 1.94 on a five-point scale. ASCM CEO Abe Eshkenazi says companies are buying the tool before fixing the pr…",
-      "summary": "AI adoption across 13 supply chain functions averages 1.94 on a five-point scale. ASCM CEO Abe Eshkenazi says companies are buying the tool before fixing the pr…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "American Shipper",
-        "Logistics/Supply Chains",
-        "News",
-        "Technology",
-        "Abe Eshkenazi",
-        "AI agents",
-        "AI pilots",
-        "ASCM"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/russian-diesel-tanker-heads-for-u-s-following-trump-putin-deal",
-      "url": "https://www.freightwaves.com/news/russian-diesel-tanker-heads-for-u-s-following-trump-putin-deal",
-      "title": "Russian diesel tanker heads for U.S. following Trump-Putin deal",
-      "content_text": "The first shipment of Russian diesel fuel heads for the U.S. as Trump looks for boost ahead of midterm elections. The post Russian diesel tanker heads for U.S.…",
-      "summary": "The first shipment of Russian diesel fuel heads for the U.S. as Trump looks for boost ahead of midterm elections. The post Russian diesel tanker heads for U.S.…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "American Shipper",
-        "Fuel News",
-        "Maritime",
-        "News",
-        "Top Stories",
-        "Diesel fuel",
-        "Russia",
-        "sanctions"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates",
-      "url": "https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates",
-      "title": "New Drewry data shows import demand boosting trans-Pacific rates",
-      "content_text": "Drewry’s World Container Index rose on higher rates on trans-Pacific and Asia-Europe routes. The post New Drewry data shows import demand boosting trans-Pacific…",
-      "summary": "Drewry’s World Container Index rose on higher rates on trans-Pacific and Asia-Europe routes. The post New Drewry data shows import demand boosting trans-Pacific…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "American Shipper",
-        "Container Shipping",
-        "Maritime",
-        "News",
-        "Top Stories",
-        "Capacity",
-        "Drewry",
-        "imports"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/airbus-sees-46-freighter-increase-by-2045-amid-stable-air-cargo-growth",
-      "url": "https://www.freightwaves.com/news/airbus-sees-46-freighter-increase-by-2045-amid-stable-air-cargo-growth",
-      "title": "Airbus sees 46% freighter increase by 2045 amid stable air cargo growth",
-      "content_text": "The Airbus 20-year outlook for freighter demand is little changed from last year, showing a global fleet nearly 50% larger than today. The post Airbus sees 46%…",
-      "summary": "The Airbus 20-year outlook for freighter demand is little changed from last year, showing a global fleet nearly 50% larger than today. The post Airbus sees 46%…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "Air Cargo",
-        "American Shipper",
-        "News",
-        "air cargo industry outlook",
-        "Airbus",
-        "forecast",
-        "freighter aircraft",
         "货运"
       ],
       "authors": [

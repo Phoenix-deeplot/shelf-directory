@@ -9,6 +9,33 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/strike-threat-by-port-security-workers-at-los-angeles-long-beach",
+      "url": "https://www.freightwaves.com/news/strike-threat-by-port-security-workers-at-los-angeles-long-beach",
+      "title": "Strike threat by port security workers at Los Angeles–Long Beach",
+      "content_text": "About 250 security workers could walk out Nov. 1, potentially disrupting terminals at the busiest U.S. port complex. The post Strike threat by port security wor…",
+      "summary": "About 250 security workers could walk out Nov. 1, potentially disrupting terminals at the busiest U.S. port complex. The post Strike threat by port security wor…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Maritime",
+        "News",
+        "Top Stories",
+        "Labor Contract",
+        "Port of Los Angeles-Long Beach",
+        "Strike",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/port-houston-container-volumes-jump-11-as-imports-surge-in-september",
       "url": "https://www.freightwaves.com/news/port-houston-container-volumes-jump-11-as-imports-surge-in-september",
       "title": "Port Houston container volumes jump 11% as imports surge in September",
@@ -24,6 +51,33 @@
         "Houston Ship Channel",
         "Port Houston",
         "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach",
+      "url": "https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach",
+      "title": "Backlog grows as 35,000 containers await rail service at LA–Long Beach",
+      "content_text": "Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages…",
+      "summary": "Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Container Shipping",
+        "Maritime",
+        "News",
+        "Railroad",
+        "Top Stories",
+        "imports",
+        "peak season"
       ],
       "authors": [
         {
@@ -78,114 +132,6 @@
         "ocean rates",
         "Red Sea",
         "trans-Pacific"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/canada-port-reaches-new-longshore-union-labor-deal",
-      "url": "https://www.freightwaves.com/news/canada-port-reaches-new-longshore-union-labor-deal",
-      "title": "Canada port reaches new longshore union labor deal",
-      "content_text": "A tentative contract agreement at Halifax settles potential labor unrest, for now. The post Canada port reaches new longshore union labor deal appeared first on…",
-      "summary": "A tentative contract agreement at Halifax settles potential labor unrest, for now. The post Canada port reaches new longshore union labor deal appeared first on…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "American Shipper",
-        "Container Shipping",
-        "Maritime",
-        "News",
-        "Top Stories",
-        "Canada",
-        "DP World",
-        "Labor Contract"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/russian-diesel-tanker-heads-for-u-s-following-trump-putin-deal",
-      "url": "https://www.freightwaves.com/news/russian-diesel-tanker-heads-for-u-s-following-trump-putin-deal",
-      "title": "Russian diesel tanker heads for U.S. following Trump-Putin deal",
-      "content_text": "The first shipment of Russian diesel fuel heads for the U.S. as Trump looks for boost ahead of midterm elections. The post Russian diesel tanker heads for U.S.…",
-      "summary": "The first shipment of Russian diesel fuel heads for the U.S. as Trump looks for boost ahead of midterm elections. The post Russian diesel tanker heads for U.S.…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "American Shipper",
-        "Fuel News",
-        "Maritime",
-        "News",
-        "Top Stories",
-        "Diesel fuel",
-        "Russia",
-        "sanctions"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates",
-      "url": "https://www.freightwaves.com/news/new-drewry-data-shows-import-demand-boosting-trans-pacific-rates",
-      "title": "New Drewry data shows import demand boosting trans-Pacific rates",
-      "content_text": "Drewry’s World Container Index rose on higher rates on trans-Pacific and Asia-Europe routes. The post New Drewry data shows import demand boosting trans-Pacific…",
-      "summary": "Drewry’s World Container Index rose on higher rates on trans-Pacific and Asia-Europe routes. The post New Drewry data shows import demand boosting trans-Pacific…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "American Shipper",
-        "Container Shipping",
-        "Maritime",
-        "News",
-        "Top Stories",
-        "Capacity",
-        "Drewry",
-        "imports"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/a-new-pnw-container-port-205m-for-oregon-rail-project",
-      "url": "https://www.freightwaves.com/news/a-new-pnw-container-port-205m-for-oregon-rail-project",
-      "title": "A new PNW container port? $205M for Oregon rail project",
-      "content_text": "Oregon port wins $205 million in federal funding to upgrade its rail line and boost a proposed container terminal project. The post A new PNW container port? $2…",
-      "summary": "Oregon port wins $205 million in federal funding to upgrade its rail line and boost a proposed container terminal project. The post A new PNW container port? $2…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "Container Shipping",
-        "Maritime",
-        "News",
-        "Railroad",
-        "Top Stories",
-        "trade",
-        "CRISI program",
-        "Development"
       ],
       "authors": [
         {

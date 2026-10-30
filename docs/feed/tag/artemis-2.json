@@ -1,0 +1,35 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Artemis 2",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/artemis-2.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/",
+      "url": "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/",
+      "title": "Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
+      "content_text": "Artemis II Commander Reid Wiseman has been named Caltech associate vice president and deputy director of NASA’s Jet Propulsion Laboratory in Southern California…",
+      "summary": "Artemis II Commander Reid Wiseman has been named Caltech associate vice president and deputy director of NASA’s Jet Propulsion Laboratory in Southern California…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "Jet Propulsion Laboratory",
+        "Artemis 2",
+        "航天",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "NASA"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "nasa-gov"
+      }
+    }
+  ]
+}

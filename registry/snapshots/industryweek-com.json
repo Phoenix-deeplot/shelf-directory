@@ -2,6 +2,30 @@
  "id": "industryweek-com",
  "items": [
   {
+   "url": "https://www.industryweek.com/the-economy/news/55415104/us-fed-holds-interest-rates-steady-despite-surging-inflation",
+   "title": "US Fed Holds Interest Rates Steady Despite Surging Inflation",
+   "summary": "U.S. President Donald Trump's war on Iran, launched in late February, has sent energy prices skyrocketing and fueled domestic inflation, alongside his wide-rang…",
+   "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ae241ad46a1bd3839ecb569-dreamstime_xxl_35409360.png",
+   "date": "2026-10-28",
+   "tags": [
+    "The Economy"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.industryweek.com/supply-chain/news/55388479/strait-of-hormuz-watch-weekly-snapshot-of-energy-disruptions-and-maritime-conditions",
+   "title": "Strait of Hormuz Watch: Vessel Attacks Persist",
+   "summary": "Data and insights tracking transit activity, oil prices, petroleum reserves, supply chain impacts and geopolitical developments affecting the waterway.",
+   "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/07/6a46a3de1f56184995d3086c-dreamstime_xxl_368153131.png",
+   "date": "2026-10-28",
+   "tags": [
+    "Supply Chain"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.industryweek.com/leadership/strategic-planning-execution/article/55414764/how-well-is-your-team-functioning-take-this-assessment-and-find-out",
    "title": "How Well Is Your Team Functioning? Take This Assessment and Find Out",
    "summary": "Answering these nine questions will produce a reliable snapshot of your team’s current effectiveness, and targeted suggestions for how to improve.",
@@ -186,18 +210,6 @@
    "type": "article"
   },
   {
-   "url": "https://www.industryweek.com/supply-chain/news/55388479/strait-of-hormuz-watch-weekly-snapshot-of-energy-disruptions-and-maritime-conditions",
-   "title": "Strait of Hormuz Watch: Commercial Vessel Attacks Intensify",
-   "summary": "Data and insights tracking transit activity, oil prices, petroleum reserves, supply chain impacts and geopolitical developments affecting the waterway.",
-   "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/07/6a46a3de1f56184995d3086c-dreamstime_xxl_368153131.png",
-   "date": "2026-10-19",
-   "tags": [
-    "Supply Chain"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
    "url": "https://www.industryweek.com/industryweek-us-500/media-gallery/55411240/iw-us-500-top-pharmaceutical-and-biotechnology-manufacturing-companies",
    "title": "IW U.S. 500: Top Pharmaceutical and Biotechnology Manufacturing Companies",
    "summary": "Most of the pharmaceutical and biotechnology manufacturing companies on the 2026 IW 500 list enjoyed revenue growth in fiscal 2025. Sales for the category grew…",
@@ -260,18 +272,6 @@
    "tags": [],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://www.industryweek.com/leadership/growth-strategies/podcast/55412005/podcast-what-happened-when-fidelity-manufacturing-changed-from-family-owned-to-employee-owned",
-   "title": "Podcast: What Happened When Fidelity Manufacturing Changed From Family-Owned To Employee-Owned",
-   "summary": "In this episode of Great Question: a Manufacturing Podcast, Mitch Twardosky, CEO of Fidelity Manufacturing discusses the manufacturing company's recent ownershi…",
-   "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6acff8bd19dfcf00182c4263-fidelity1mirrorgq.png",
-   "date": "2026-10-15",
-   "tags": [
-    "Leadership / Growth Strategies"
-   ],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -289,5 +289,5 @@
  "status": "ok",
  "error": "",
  "etag": "",
- "modified": "Wed, 28 Oct 2026 09:26:47 GMT"
+ "modified": "Thu, 29 Oct 2026 09:55:14 GMT"
 }

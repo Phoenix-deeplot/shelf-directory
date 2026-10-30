@@ -9,6 +9,33 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/f3-freightwaves-announces-shipper-of-choice-winners",
+      "url": "https://www.freightwaves.com/news/f3-freightwaves-announces-shipper-of-choice-winners",
+      "title": "F3: FreightWaves announces Shipper of Choice winners",
+      "content_text": "FreightWaves named 10 Shipper of Choice award winners at the F3: Future of Freight Festival, recognizing companies for their carrier relationships, operational…",
+      "summary": "FreightWaves named 10 Shipper of Choice award winners at the F3: Future of Freight Festival, recognizing companies for their carrier relationships, operational…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Awards",
+        "Editor's Picks",
+        "News",
+        "Shipper of Choice Award",
+        "Top Stories",
+        "Freight",
+        "FreightWaves",
+        "shipper"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/2027-freighttech-25-winners-announced-at-f3",
       "url": "https://www.freightwaves.com/news/2027-freighttech-25-winners-announced-at-f3",
       "title": "2027 FreightTech 25 winners announced at F3",

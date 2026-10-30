@@ -9,12 +9,33 @@
   },
   "items": [
     {
+      "id": "https://entropicthoughts.com/what-the-fox-say",
+      "url": "https://entropicthoughts.com/what-the-fox-say",
+      "title": "What the fox say?",
+      "content_text": "第 5 名 · ▲ 8 · games · 2 条评论",
+      "summary": "第 5 名 · ▲ 8 · games · 2 条评论",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Lobsters"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-lobsters"
+      }
+    },
+    {
       "id": "https://www.netmeister.org/blog/defense-ddos.html",
       "url": "https://www.netmeister.org/blog/defense-ddos.html",
       "title": "This is not sustainable",
-      "content_text": "第 2 名 · ▲ 30 · security · 6 条评论",
-      "summary": "第 2 名 · ▲ 30 · security · 6 条评论",
-      "date_published": "2026-10-28T00:00:00Z",
+      "content_text": "第 7 名 · ▲ 136 · security · 33 条评论",
+      "summary": "第 7 名 · ▲ 136 · security · 33 条评论",
+      "date_published": "2026-10-29T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -30,12 +51,12 @@
       }
     },
     {
-      "id": "http://shittyscreenshare.com",
-      "url": "http://shittyscreenshare.com",
-      "title": "Shitty Screenshare",
-      "content_text": "第 7 名 · ▲ 75 · browsers web · 32 条评论",
-      "summary": "第 7 名 · ▲ 75 · browsers web · 32 条评论",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://v12.sh/blog/the-case-of-the-9bit-aes-key",
+      "url": "https://v12.sh/blog/the-case-of-the-9bit-aes-key",
+      "title": "The case of the 9 bit AES key",
+      "content_text": "第 9 名 · ▲ 20 · cryptography reversing · 0 条评论",
+      "summary": "第 9 名 · ▲ 20 · cryptography reversing · 0 条评论",
+      "date_published": "2026-10-29T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -51,12 +72,12 @@
       }
     },
     {
-      "id": "https://portswigger.net/research/scalable-vector-grief",
-      "url": "https://portswigger.net/research/scalable-vector-grief",
-      "title": "Scalable Vector Grief",
-      "content_text": "第 10 名 · ▲ 5 · security web · 0 条评论",
-      "summary": "第 10 名 · ▲ 5 · security web · 0 条评论",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://spritely.institute/news/hoot-0-10-0-released.html",
+      "url": "https://spritely.institute/news/hoot-0-10-0-released.html",
+      "title": "Hoot 0.10.0 released",
+      "content_text": "第 10 名 · ▲ 35 · lisp release · 2 条评论",
+      "summary": "第 10 名 · ▲ 35 · lisp release · 2 条评论",
+      "date_published": "2026-10-29T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -72,12 +93,12 @@
       }
     },
     {
-      "id": "https://lobste.rs/s/87iesc",
-      "url": "https://lobste.rs/s/87iesc",
-      "title": "Reminder: Lobsters NYC Meetup Tomorrow 5:30 at Walker's",
-      "content_text": "第 8 名 · ▲ 13 · event · 0 条评论",
-      "summary": "第 8 名 · ▲ 13 · event · 0 条评论",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
+      "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
+      "title": "GitLab security incident: attempted exploitation of CVE-2026-97229",
+      "content_text": "第 2 名 · ▲ 31 · linux security · 5 条评论",
+      "summary": "第 2 名 · ▲ 31 · linux security · 5 条评论",
+      "date_published": "2026-10-29T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -93,12 +114,12 @@
       }
     },
     {
-      "id": "https://gracefulliberty.com/articles/four-months-of-zig/",
-      "url": "https://gracefulliberty.com/articles/four-months-of-zig/",
-      "title": "Four Months of Zig",
-      "content_text": "第 3 名 · ▲ 56 · zig · 10 条评论",
-      "summary": "第 3 名 · ▲ 56 · zig · 10 条评论",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://thestateofinahaze.net/blog/c-goto-considered-totally-sick/",
+      "url": "https://thestateofinahaze.net/blog/c-goto-considered-totally-sick/",
+      "title": "GOTO Considered Totally Sick (for error handling in C)",
+      "content_text": "第 8 名 · ▲ 34 · c · 12 条评论",
+      "summary": "第 8 名 · ▲ 34 · c · 12 条评论",
+      "date_published": "2026-10-29T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -114,12 +135,12 @@
       }
     },
     {
-      "id": "https://thenumb.at/Syl-Intro/",
-      "url": "https://thenumb.at/Syl-Intro/",
-      "title": "Compile-Time Dependent Types",
-      "content_text": "第 9 名 · ▲ 25 · ml plt · 9 条评论",
-      "summary": "第 9 名 · ▲ 25 · ml plt · 9 条评论",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/",
+      "url": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/",
+      "title": "EMACS turns 50",
+      "content_text": "第 3 名 · ▲ 43 · emacs historical · 2 条评论",
+      "summary": "第 3 名 · ▲ 43 · emacs historical · 2 条评论",
+      "date_published": "2026-10-29T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -135,33 +156,12 @@
       }
     },
     {
-      "id": "https://astral.sh/blog/tar-codec",
-      "url": "https://astral.sh/blog/tar-codec",
-      "title": "A fast and secure tar parser for the Rust ecosystem",
-      "content_text": "第 1 名 · ▲ 65 · python rust · 10 条评论",
-      "summary": "第 1 名 · ▲ 65 · python rust · 10 条评论",
-      "date_published": "2026-10-28T00:00:00Z",
-      "tags": [
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "Lobsters"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "hot-lobsters"
-      }
-    },
-    {
-      "id": "https://planetpeanut.studio/post/2026/10/27/pidgin-emoji-twitch",
-      "url": "https://planetpeanut.studio/post/2026/10/27/pidgin-emoji-twitch",
-      "title": "1,447 emoji? We'll do it live",
-      "content_text": "第 6 名 · ▲ 36 · design · 2 条评论",
-      "summary": "第 6 名 · ▲ 36 · design · 2 条评论",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://wiki.alpinebsd.org/",
+      "url": "https://wiki.alpinebsd.org/",
+      "title": "AlpineBSD",
+      "content_text": "第 6 名 · ▲ 71 · netbsd · 19 条评论",
+      "summary": "第 6 名 · ▲ 71 · netbsd · 19 条评论",
+      "date_published": "2026-10-29T00:00:00Z",
       "tags": [
         "社区",
         "热榜"

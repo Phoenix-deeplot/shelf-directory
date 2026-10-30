@@ -9,6 +9,55 @@
   },
   "items": [
     {
+      "id": "https://www.openculture.com/2026/10/the-early-years-of-electronic-pop-the-moog-craze-psychedelic-experiments-and-more.html",
+      "url": "https://www.openculture.com/2026/10/the-early-years-of-electronic-pop-the-moog-craze-psychedelic-experiments-and-more.html",
+      "title": "The Early Years of Electronic Pop: The Moog Craze, Psychedelic Experiments, and More",
+      "content_text": "There’s a decent chance you’ve heard at least a couple of tracks from Wendy Carlos’ Switched-On Bach. But when was the last time you put on Switched-On Rock, Sw…",
+      "summary": "There’s a decent chance you’ve heard at least a couple of tracks from Wendy Carlos’ Switched-On Bach. But when was the last time you put on Switched-On Rock, Sw…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "History",
+        "Music",
+        "Technology",
+        "文化",
+        "免费资源"
+      ],
+      "authors": [
+        {
+          "name": "Open Culture"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "openculture-com"
+      }
+    },
+    {
+      "id": "https://www.openculture.com/2026/10/surreal-pinscreen-animations-bring-kafka-gogol-mussorgsky-to-life-1933-1972.html",
+      "url": "https://www.openculture.com/2026/10/surreal-pinscreen-animations-bring-kafka-gogol-mussorgsky-to-life-1933-1972.html",
+      "title": "Surreal Pinscreen Animations Bring Kafka, Gogol & Mussorgsky to Life (1933–1972)",
+      "content_text": "What do Franz Kafka, Nikolai Gogol, and Modest Mussorgsky have in common? They stand alone among their peers for their darkly humorous sensibilities, fascinatio…",
+      "summary": "What do Franz Kafka, Nikolai Gogol, and Modest Mussorgsky have in common? They stand alone among their peers for their darkly humorous sensibilities, fascinatio…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "Animation",
+        "Film",
+        "Literature",
+        "Uncategorized",
+        "文化",
+        "免费资源"
+      ],
+      "authors": [
+        {
+          "name": "Open Culture"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "openculture-com"
+      }
+    },
+    {
       "id": "https://www.openculture.com/2026/10/the-vibrant-color-wheels-designed-by-goethe-newton-other-theorists.html",
       "url": "https://www.openculture.com/2026/10/the-vibrant-color-wheels-designed-by-goethe-newton-other-theorists.html",
       "title": "The Vibrant Color Wheels Designed by Goethe, Newton & Other Theorists of Color (1665–1810)",
@@ -293,53 +342,6 @@
         "Artificial Intelligence",
         "Technology",
         "Television",
-        "文化",
-        "免费资源"
-      ],
-      "authors": [
-        {
-          "name": "Open Culture"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "openculture-com"
-      }
-    },
-    {
-      "id": "https://www.openculture.com/2026/10/when-a-cat-co-authored-a-paper-in-a-leading-physics-journal.html",
-      "url": "https://www.openculture.com/2026/10/when-a-cat-co-authored-a-paper-in-a-leading-physics-journal.html",
-      "title": "When a Cat Co-Authored a Paper in a Leading Physics Journal (1975)",
-      "content_text": "Back in 1975, Jack H. Hetherington, a physics professor at Michigan State University, wrote a research paper on low–temperature physics for the respected scient…",
-      "summary": "Back in 1975, Jack H. Hetherington, a physics professor at Michigan State University, wrote a research paper on low–temperature physics for the respected scient…",
-      "date_published": "2026-10-19T00:00:00Z",
-      "tags": [
-        "Physics",
-        "Random",
-        "文化",
-        "免费资源"
-      ],
-      "authors": [
-        {
-          "name": "Open Culture"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "openculture-com"
-      }
-    },
-    {
-      "id": "https://www.openculture.com/2026/10/the-dark-story-behind-edgar-allan-poes-most-famous-photograph.html",
-      "url": "https://www.openculture.com/2026/10/the-dark-story-behind-edgar-allan-poes-most-famous-photograph.html",
-      "title": "The Dark Story Behind Edgar Allan Poe’s Most Famous Photograph, Taken Four Days After a Laudanum Overdose",
-      "content_text": "In the Halloween season, one American writer comes to mind more often than any other: Edgar Allan Poe. That owes in large part to his famously macabre tales lik…",
-      "summary": "In the Halloween season, one American writer comes to mind more often than any other: Edgar Allan Poe. That owes in large part to his famously macabre tales lik…",
-      "date_published": "2026-10-19T00:00:00Z",
-      "tags": [
-        "History",
-        "Literature",
-        "Photography",
         "文化",
         "免费资源"
       ],

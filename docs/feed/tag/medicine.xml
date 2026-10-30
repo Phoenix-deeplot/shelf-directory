@@ -4,20 +4,22 @@
   <title>公共目录 · #Medicine</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/medicine.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://slate.com/technology/2026/10/birth-control-iud-paragard-side-effects-miudella.html?via=rss</id>
-    <title>If You Hate Your Birth Control, There’s a New Option That Might Be Worth Considering</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/technology/2026/10/birth-control-iud-paragard-side-effects-miudella.html?via=rss"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">What took us so long to get a better copper IUD?</summary>
+    <id>https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-amanda-seyfried.html?via=rss</id>
+    <title>Everyone in &lt;em&gt;You Can See Everything&lt;/em&gt; Is Playing a Character, but Only One Performer Is Utterly Convincing</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-amanda-seyfried.html?via=rss"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">The movie isn’t so much a documentary with a great performance as it is a documentary about performance.</summary>
     <source><title>Slate Magazine</title></source>
-    <category term="Health"/>
+    <category term="Crime"/>
+    <category term="Fraud"/>
     <category term="Medicine"/>
-    <category term="Research"/>
-    <category term="Women"/>
+    <category term="Movies"/>
+    <category term="Documentaries"/>
+    <category term="You Can See Everything"/>
     <category term="评论"/>
     <category term="文化"/>
   </entry>

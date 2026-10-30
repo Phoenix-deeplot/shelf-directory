@@ -9,18 +9,22 @@
   },
   "items": [
     {
-      "id": "https://slate.com/podcasts/what-next/2026/10/why-political-ads-are-more-depraved-than-ever-before?via=rss",
-      "url": "https://slate.com/podcasts/what-next/2026/10/why-political-ads-are-more-depraved-than-ever-before?via=rss",
-      "title": "Were Midterm Ads Always <em>This </em>Bad?",
-      "content_text": "Are ads meeting the moment or just making everything worse?",
-      "summary": "Are ads meeting the moment or just making everything worse?",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://compote.slate.com/images/e9c53990-ceb6-4ac2-a8a9-d64408de8610.jpeg?crop=4500%2C3000%2Cx0%2Cy0",
+      "id": "https://slate.com/news-and-politics/2026/10/2020-election-tuesday-midterms-trump-threats.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/2020-election-tuesday-midterms-trump-threats.html?via=rss",
+      "title": "Why There’s a Real Risk of a Replay of the 2020 Election Come Tuesday",
+      "content_text": "These are ominous words from the president.",
+      "summary": "These are ominous words from the president.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/89e88f09-fe9f-4b08-b1de-e26eff3350ff.jpeg?crop=1403%2C936%2Cx0%2Cy0",
       "tags": [
-        "Politics",
+        "Donald Trump",
+        "Elections",
+        "Voting",
+        "Voting Rights",
+        "Capitol Riot",
         "2026 Midterms",
-        "评论",
-        "文化"
+        "Executive Dysfunction",
+        "评论"
       ],
       "authors": [
         {
@@ -33,439 +37,13 @@
       }
     },
     {
-      "id": "https://slate.com/podcasts/icymi/2026/10/the-internet-cant-agree-on-you-can-see-everything?via=rss",
-      "url": "https://slate.com/podcasts/icymi/2026/10/the-internet-cant-agree-on-you-can-see-everything?via=rss",
-      "title": "The Documentary Dividing The Internet",
-      "content_text": "Nathan Fielder’s documentary has divided the discourse.",
-      "summary": "Nathan Fielder’s documentary has divided the discourse.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://compote.slate.com/images/27112895-8771-4708-93c7-5c6c210ed770.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "Internet Culture",
-        "Movies",
-        "Documentaries",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/news-and-politics/2026/10/donald-trump-epstein-files-new-report-women-rape.html?via=rss",
-      "url": "https://slate.com/news-and-politics/2026/10/donald-trump-epstein-files-new-report-women-rape.html?via=rss",
-      "title": "We Finally Know Why Trump Has Tried So Hard to Hide the Epstein Files",
-      "content_text": "This is its own kind of October surprise.",
-      "summary": "This is its own kind of October surprise.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/f8942dfd-bd16-4fe4-8ec9-aafa00e46e14.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "Democrats",
-        "Donald Trump",
-        "Republicans",
-        "Sexual Assault",
-        "Women",
-        "Jeffrey Epstein",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/business/2026/10/trump-fico-credit-score-mortgage-monopoly.html?via=rss",
-      "url": "https://slate.com/business/2026/10/trump-fico-credit-score-mortgage-monopoly.html?via=rss",
-      "title": "Unfortunately, I Must Hand It to the Trump Administration in This One Instance",
-      "content_text": "A monopoly on mortgages is finally loosening. Homebuyers aren’t the only ones who stand to benefit.",
-      "summary": "A monopoly on mortgages is finally loosening. Homebuyers aren’t the only ones who stand to benefit.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/2ed59c56-dbf8-4f04-abf0-0195d2d014aa.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "Donald Trump",
-        "Housing",
-        "Personal Finance",
-        "Finance",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/podcasts/what-next/2026/10/is-healthcare-still-the-democrats-best-issue?via=rss",
-      "url": "https://slate.com/podcasts/what-next/2026/10/is-healthcare-still-the-democrats-best-issue?via=rss",
-      "title": "Trump Slashed Healthcare. Is It Payback Time?",
-      "content_text": "Get ready for the fight to define “Medicare for All.”",
-      "summary": "Get ready for the fight to define “Medicare for All.”",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/7bb12ffa-c4ef-4502-aba3-f5d8e1882767.jpeg?crop=4500%2C3000%2Cx0%2Cy0",
-      "tags": [
-        "Donald Trump",
-        "Health Care",
-        "Medicare",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/news-and-politics/2026/10/el-sayed-ossoff-hot-democrats-midterms.html?via=rss",
-      "url": "https://slate.com/news-and-politics/2026/10/el-sayed-ossoff-hot-democrats-midterms.html?via=rss",
-      "title": "The Democrats Need a Daddy. I Know Exactly Who It Should Be.",
-      "content_text": "This sure is the midterms of Democratic thirst.",
-      "summary": "This sure is the midterms of Democratic thirst.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/44dfbcdf-78a3-48d9-944f-5f11860dba0e.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "Democrats",
-        "2026 Midterms",
-        "2028 Campaign",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/culture/2026/10/klara-and-the-sun-movie-review-jenna-ortega-taika-waititi-book-kazuo-ishiguro.html?via=rss",
-      "url": "https://slate.com/culture/2026/10/klara-and-the-sun-movie-review-jenna-ortega-taika-waititi-book-kazuo-ishiguro.html?via=rss",
-      "title": "Taika Waititi Adapted a Strange and Beautiful Novel. The Result Is Shaping Up to Be a Legendary Bomb.",
-      "content_text": "Taika Waititi can be a great filmmaker. That’s not the case with Klara and the Sun.",
-      "summary": "Taika Waititi can be a great filmmaker. That’s not the case with Klara and the Sun.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/9781197f-a70c-4731-9fb4-c344b1d24ba4.jpeg?crop=1560%2C1041%2Cx0%2Cy0",
-      "tags": [
-        "Books",
-        "Movies",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/news-and-politics/2026/10/midterms-trump-republicans-gerrymandering-mail-voting.html?via=rss",
-      "url": "https://slate.com/news-and-politics/2026/10/midterms-trump-republicans-gerrymandering-mail-voting.html?via=rss",
-      "title": "Sometimes Trump’s Incompetence Outstrips His Malice. This Is One of Those Times.",
-      "content_text": "Trump’s attempt to tilt the midterms is working—against Republicans.",
-      "summary": "Trump’s attempt to tilt the midterms is working—against Republicans.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/bf1b87d7-2645-4b62-8c79-0727172f54b6.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/advice/2026/10/work-advice-friends-ex-hr-email.html?via=rss",
-      "url": "https://slate.com/advice/2026/10/work-advice-friends-ex-hr-email.html?via=rss",
-      "title": "Someone Is Harassing My Co-Worker. HR Thinks It’s Me.",
-      "content_text": "It wasn't me!",
-      "summary": "It wasn't me!",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/d810ffcb-c280-4836-92c0-e4bc8c06e184.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "Advice",
-        "Dating and Relationships",
-        "Family",
-        "Workplace",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/life/2026/10/slate-soundbites-for-october-27-2026.html?via=rss",
-      "url": "https://slate.com/life/2026/10/slate-soundbites-for-october-27-2026.html?via=rss",
-      "title": "Slate SoundBites for October 27, 2026",
-      "content_text": "Build your answer from the sound up with our new game, SoundBites!",
-      "summary": "Build your answer from the sound up with our new game, SoundBites!",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/cfb2ab0f-1ca4-4da3-b38d-817bc8e8315c.png",
-      "tags": [
-        "Slate Games",
-        "SoundBites",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/life/2026/10/word-game-slate-pears-439-for-october-27-2026.html?via=rss",
-      "url": "https://slate.com/life/2026/10/word-game-slate-pears-439-for-october-27-2026.html?via=rss",
-      "title": "Slate Pears Game 439: Oct. 27, 2026",
-      "content_text": "Today's puzzle has five pears.",
-      "summary": "Today's puzzle has five pears.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/61d47363-da12-4f08-a295-7bf3f3f4f236.png",
-      "tags": [
-        "Slate Games",
-        "Pears",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-27-2026.html?via=rss",
-      "url": "https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-27-2026.html?via=rss",
-      "title": "Slate Mini Crossword for Oct. 27, 2026",
-      "content_text": "Take a quick break with our daily 5x5 grid.",
-      "summary": "Take a quick break with our daily 5x5 grid.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/9ba6a7ed-df0c-4a7d-a4bb-9937e0937dfc.jpeg",
-      "tags": [
-        "Mini Crossword",
-        "Slate Games",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/life/2026/10/crossword-slate-daily-puzzle-oct-27-2026.html?via=rss",
-      "url": "https://slate.com/life/2026/10/crossword-slate-daily-puzzle-oct-27-2026.html?via=rss",
-      "title": "Slate Crossword: Ironic Day to Enjoy a Caesar Salad, Perhaps (11 Letters)",
-      "content_text": "Ready for some wordplay? Sharpen your skills with Slate’s puzzle for Oct. 27, 2026.",
-      "summary": "Ready for some wordplay? Sharpen your skills with Slate’s puzzle for Oct. 27, 2026.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/d1794f92-6b9e-4b07-ba5d-e2d05cede6c0.jpeg?crop=3000%2C2000%2Cx0%2Cy0",
-      "tags": [
-        "Slate Games",
-        "Crossword",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/news-and-politics/2026/10/supreme-court-abortion-crime-indiana-courts.html?via=rss",
-      "url": "https://slate.com/news-and-politics/2026/10/supreme-court-abortion-crime-indiana-courts.html?via=rss",
-      "title": "Several States Made It a Crime to Talk About Abortion. Will Courts Now Enforce It?",
-      "content_text": "Since the fall of Roe v. Wade, states that ban abortion have struggled to enforce their laws. They may have found a new way.",
-      "summary": "Since the fall of Roe v. Wade, states that ban abortion have struggled to enforce their laws. They may have found a new way.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/08f03840-7f79-4876-9875-8ef1a6ed1041.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "Abortion",
-        "Jurisprudence",
-        "Supreme Court",
-        "Judiciary",
-        "South Dakota",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/advice/2026/10/dating-advice-new-girlfriend-sister-reaction.html?via=rss",
-      "url": "https://slate.com/advice/2026/10/dating-advice-new-girlfriend-sister-reaction.html?via=rss",
-      "title": "My New Girlfriend’s Sister Is Telling an Atrocious Lie About Me. I’m Worried About What Will Come Next.",
-      "content_text": "What other stunts might she pull?",
-      "summary": "What other stunts might she pull?",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/d05d15fa-bc5b-4b7f-9874-44be30d1c6c4.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "Advice",
-        "Dating and Relationships",
-        "Dear Prudence",
-        "Family",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/advice/2026/10/parenting-advice-supporting-grieving-kids.html?via=rss",
-      "url": "https://slate.com/advice/2026/10/parenting-advice-supporting-grieving-kids.html?via=rss",
-      "title": "My Ex-Husband Just Died. My Kids Can Never Know How I Really Feel.",
-      "content_text": "I just can't relate.",
-      "summary": "I just can't relate.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/d6837ca8-2c03-478d-b7d2-55f468dea38d.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "Advice",
-        "Family",
-        "Kids",
-        "Parenting",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/advice/2026/10/work-advice-rbf-smile-more.html?via=rss",
-      "url": "https://slate.com/advice/2026/10/work-advice-rbf-smile-more.html?via=rss",
-      "title": "My Boss Keeps Making the Same Complaint About My Face",
-      "content_text": "That's just what I look like!",
-      "summary": "That's just what I look like!",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/83a8448e-2594-48f2-b13f-6d00e6430323.jpeg?crop=2000%2C1333%2Cx0%2Cy0",
-      "tags": [
-        "Advice",
-        "Workplace",
-        "Jobs",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/podcasts/slate-money/2026/10/artificial-intelligence-destroy-alarmist-tech-politics-policy?via=rss",
-      "url": "https://slate.com/podcasts/slate-money/2026/10/artificial-intelligence-destroy-alarmist-tech-politics-policy?via=rss",
-      "title": "Money Talks: The Real Threats of Artificial Intelligence",
-      "content_text": "What’s alarmist and what’s real about artificial intelligence. Plus, how lawmakers are dealing with a situation they don't really understand.",
-      "summary": "What’s alarmist and what’s real about artificial intelligence. Plus, how lawmakers are dealing with a situation they don't really understand.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/0ad4cce0-1643-405e-b092-a65cc2f24b9e.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "Artificial Intelligence",
-        "Economics",
-        "Politics",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/news-and-politics/2026/10/trivia-quiz-daily-slate-culture-tv-books-music-theory.html?via=rss",
-      "url": "https://slate.com/news-and-politics/2026/10/trivia-quiz-daily-slate-culture-tv-books-music-theory.html?via=rss",
-      "title": "In Music, Which Is the Relative Minor of the Key of A Major?",
-      "content_text": "Test your wits on the Slate Quiz for Oct. 27, 2026.",
-      "summary": "Test your wits on the Slate Quiz for Oct. 27, 2026.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/398b81a5-9de9-4451-bb51-a150db7e6360.jpeg",
+      "id": "https://slate.com/news-and-politics/2026/10/trivia-quiz-daily-slate-science-vitamins-geology-evolution.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/trivia-quiz-daily-slate-science-vitamins-geology-evolution.html?via=rss",
+      "title": "What Is Defined Scientifically as a Force Multiplied by a Time Divided by an Area?",
+      "content_text": "Test your wits on the Slate Quiz for Oct. 29, 2026.",
+      "summary": "Test your wits on the Slate Quiz for Oct. 29, 2026.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/0c5a8414-1600-480f-85fc-c40b4cc9ae10.jpeg",
       "tags": [
         "Quizzes",
         "Trivia",
@@ -484,18 +62,14 @@
       }
     },
     {
-      "id": "https://slate.com/technology/2026/10/birth-control-iud-paragard-side-effects-miudella.html?via=rss",
-      "url": "https://slate.com/technology/2026/10/birth-control-iud-paragard-side-effects-miudella.html?via=rss",
-      "title": "If You Hate Your Birth Control, There’s a New Option That Might Be Worth Considering",
-      "content_text": "What took us so long to get a better copper IUD?",
-      "summary": "What took us so long to get a better copper IUD?",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/0922d7ff-a671-4d1f-a289-d0d2379f3203.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "id": "https://slate.com/podcasts/decoder-ring/2026/10/dracula-bram-stoker-iceland-vampires-powers-of-darkness-translation-makt-myrkranna?via=rss",
+      "url": "https://slate.com/podcasts/decoder-ring/2026/10/dracula-bram-stoker-iceland-vampires-powers-of-darkness-translation-makt-myrkranna?via=rss",
+      "title": "Was the Strange, Long-Lost Icelandic Version of <em>Dracula</em> Written by Bram Stoker Himself?",
+      "content_text": "How a raunchy, proto-fascist Dracula was born in the Nordic North.",
+      "summary": "How a raunchy, proto-fascist Dracula was born in the Nordic North.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/14721829-86f0-42f2-b60f-8e807becb25b.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
       "tags": [
-        "Health",
-        "Medicine",
-        "Research",
-        "Women",
         "评论",
         "文化"
       ],
@@ -510,17 +84,16 @@
       }
     },
     {
-      "id": "https://slate.com/advice/2026/10/work-advice-unpaid-intern-applicants.html?via=rss",
-      "url": "https://slate.com/advice/2026/10/work-advice-unpaid-intern-applicants.html?via=rss",
-      "title": "I Was Excited to Hire an Intern. Then My Boss Told Me More About the “Role.”",
-      "content_text": "This is going to suck.",
-      "summary": "This is going to suck.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/a6f94541-334a-41b8-9b57-dd2733ef1ddf.jpeg?crop=2000%2C1333%2Cx0%2Cy0",
+      "id": "https://slate.com/podcasts/what-next/2026/10/will-the-new-epstein-release-force-the-doj-to-investigate?via=rss",
+      "url": "https://slate.com/podcasts/what-next/2026/10/will-the-new-epstein-release-force-the-doj-to-investigate?via=rss",
+      "title": "The Next Epstein Files",
+      "content_text": "A longshot bid for a special counsel.",
+      "summary": "A longshot bid for a special counsel.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/a4900ac5-9954-478d-b06b-349781442b56.jpeg?crop=4500%2C3000%2Cx0%2Cy0",
       "tags": [
-        "Advice",
-        "Workplace",
-        "Jobs",
+        "Department of Justice",
+        "Donald Trump",
         "评论",
         "文化"
       ],
@@ -535,16 +108,16 @@
       }
     },
     {
-      "id": "https://slate.com/advice/2026/10/sex-advice-wife-enjoyment-orgasm-sounds.html?via=rss",
-      "url": "https://slate.com/advice/2026/10/sex-advice-wife-enjoyment-orgasm-sounds.html?via=rss",
-      "title": "I Trained Myself to Go Faster During Sex. It’s Massively Backfiring.",
-      "content_text": "How do I fix this?",
-      "summary": "How do I fix this?",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/f4e52359-b539-4b7f-b0f1-1368b7830b0f.gif?crop=1560%2C1040%2Cx0%2Cy0",
+      "id": "https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-29-2026.html?via=rss",
+      "url": "https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-29-2026.html?via=rss",
+      "title": "Slate Mini Crossword for Oct. 29, 2026",
+      "content_text": "Take a quick break with our daily 5x5 grid.",
+      "summary": "Take a quick break with our daily 5x5 grid.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/9ba6a7ed-df0c-4a7d-a4bb-9937e0937dfc.jpeg",
       "tags": [
-        "Advice",
-        "Sex",
+        "Mini Crossword",
+        "Slate Games",
         "评论",
         "文化"
       ],
@@ -559,41 +132,18 @@
       }
     },
     {
-      "id": "https://slate.com/advice/2026/10/sex-advice-husband-trust-consent.html?via=rss",
-      "url": "https://slate.com/advice/2026/10/sex-advice-husband-trust-consent.html?via=rss",
-      "title": "I Asked My Husband to Stop Doing Something in Bed. Then He Completely Broke My Trust.",
-      "content_text": "This isn't the first time.",
-      "summary": "This isn't the first time.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/fc5f48e6-d5ae-4184-8e0a-be226d1d1f3f.gif?crop=1560%2C1040%2Cx0%2Cy0",
+      "id": "https://slate.com/news-and-politics/2026/10/senate-race-pappas-sununu-new-hampshire.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/senate-race-pappas-sununu-new-hampshire.html?via=rss",
+      "title": "My State’s Democratic Candidate Has Zero Rizz. He Could Decide Control of the Senate. Good!",
+      "content_text": "In a year of insurgents and stars, this establishment-versus-establishment contest is deeply revealing.",
+      "summary": "In a year of insurgents and stars, this establishment-versus-establishment contest is deeply revealing.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/837cf875-cf1d-4f95-9633-aedd8ffe5cf6.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
       "tags": [
-        "Advice",
-        "Sex",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/news-and-politics/2026/10/midterms-elon-musk-republicans-china.html?via=rss",
-      "url": "https://slate.com/news-and-politics/2026/10/midterms-elon-musk-republicans-china.html?via=rss",
-      "title": "Elon Musk’s Future May Depend on the Midterms",
-      "content_text": "Musk has a lot to lose if things don't go his way on election night.",
-      "summary": "Musk has a lot to lose if things don't go his way on election night.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/92700f02-c600-4655-805b-09f1c4568e19.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "China",
-        "Republicans",
-        "Elon Musk",
+        "Donald Trump",
+        "Elections",
+        "Senate",
+        "New Hampshire",
         "2026 Midterms",
         "评论",
         "文化"
@@ -609,18 +159,462 @@
       }
     },
     {
-      "id": "https://slate.com/culture/2026/10/you-can-see-everything-oscars-best-picture-amanda-seyfried.html?via=rss",
-      "url": "https://slate.com/culture/2026/10/you-can-see-everything-oscars-best-picture-amanda-seyfried.html?via=rss",
-      "title": "<em>You Can See Everything</em> Seems Poised to Do What No Movie Has Ever Done Before",
-      "content_text": "The cinematic sensation could make history at this year’s Oscars—in more ways than one.",
-      "summary": "The cinematic sensation could make history at this year’s Oscars—in more ways than one.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://compote.slate.com/images/de93a4fa-baff-417d-a19c-51637cbb82d9.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "id": "https://slate.com/news-and-politics/2026/10/trivia-quiz-daily-slate-history-war-assassination-attempts-us-supreme-court.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/trivia-quiz-daily-slate-history-war-assassination-attempts-us-supreme-court.html?via=rss",
+      "title": "Which Two Kingdoms Engaged in the Hundred Years’ War?",
+      "content_text": "Test your wits on the Slate Quiz for Oct. 28, 2026.",
+      "summary": "Test your wits on the Slate Quiz for Oct. 28, 2026.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/0c5a8414-1600-480f-85fc-c40b4cc9ae10.jpeg",
+      "tags": [
+        "Quizzes",
+        "Trivia",
+        "Slate Games",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/sex-advice-swinging-marriage-first-time.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/sex-advice-swinging-marriage-first-time.html?via=rss",
+      "title": "We’ve Done All the Work to Open Up Our Marriage. But There’s One Last Risk We’re Worried About.",
+      "content_text": "We have all our other bases covered.",
+      "summary": "We have all our other bases covered.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/5e00138f-9cdd-4079-92e9-30b73823ac47.gif?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Sex",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/sex-advice-house-renovation-bathroom.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/sex-advice-house-renovation-bathroom.html?via=rss",
+      "title": "We Want to Renovate Our House to Make It … Sex Friendly. We Foresee It’ll Become an Issue.",
+      "content_text": "We miss doing it like this.",
+      "summary": "We miss doing it like this.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/a42acfd1-5b0b-4c0c-8af3-cdc509e0b033.gif?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Sex",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/business/2026/10/home-ownership-regret-interest-rates-renting-vs-buying.html?via=rss",
+      "url": "https://slate.com/business/2026/10/home-ownership-regret-interest-rates-renting-vs-buying.html?via=rss",
+      "title": "We Bought a House. We Had Help From My Husband’s Parents. It Was One of the Biggest Mistakes We’ve Ever Made.",
+      "content_text": "We gave up what makes life meaningful in order to do it.",
+      "summary": "We gave up what makes life meaningful in order to do it.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/fac0b47f-1649-487e-8691-8b116d70b6c3.jpeg?crop=1558%2C1039%2Cx1%2Cy0",
+      "tags": [
+        "Economy",
+        "Housing",
+        "Personal Finance",
+        "Millennials",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/life/2026/10/slate-soundbites-for-october-28-2026.html?via=rss",
+      "url": "https://slate.com/life/2026/10/slate-soundbites-for-october-28-2026.html?via=rss",
+      "title": "Slate SoundBites for October 28, 2026",
+      "content_text": "Build your answer from the sound up with our new game, SoundBites!",
+      "summary": "Build your answer from the sound up with our new game, SoundBites!",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/cfb2ab0f-1ca4-4da3-b38d-817bc8e8315c.png",
+      "tags": [
+        "Slate Games",
+        "SoundBites",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/life/2026/10/word-game-slate-pears-440-for-october-28-2026.html?via=rss",
+      "url": "https://slate.com/life/2026/10/word-game-slate-pears-440-for-october-28-2026.html?via=rss",
+      "title": "Slate Pears Game 440: Oct. 28, 2026",
+      "content_text": "Today's puzzle has seven pears.",
+      "summary": "Today's puzzle has seven pears.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/61d47363-da12-4f08-a295-7bf3f3f4f236.png",
+      "tags": [
+        "Slate Games",
+        "Pears",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/life/2026/10/crossword-slate-daily-puzzle-oct-28-2026.html?via=rss",
+      "url": "https://slate.com/life/2026/10/crossword-slate-daily-puzzle-oct-28-2026.html?via=rss",
+      "title": "Slate Crossword: Attempted to Take a Seat? (Three Letters)",
+      "content_text": "Ready for some wordplay? Sharpen your skills with Slate’s puzzle for Oct. 28, 2026.",
+      "summary": "Ready for some wordplay? Sharpen your skills with Slate’s puzzle for Oct. 28, 2026.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/eb10aaaf-9466-419d-a6cd-d01f745ddbf8.jpeg?crop=3000%2C2000%2Cx0%2Cy0",
+      "tags": [
+        "Slate Games",
+        "Crossword",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/life/2026/10/jennifer-lawrence-hair-mes-beauty.html?via=rss",
+      "url": "https://slate.com/life/2026/10/jennifer-lawrence-hair-mes-beauty.html?via=rss",
+      "title": "She’s an Oscar Winner. She’s About to Star in a Scorsese Film. I Can’t Figure Out Why She’s Doing … This.",
+      "content_text": "Even she seems slightly embarrassed by the whole thing.",
+      "summary": "Even she seems slightly embarrassed by the whole thing.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/3aea5709-0f11-4e9d-968c-bfd1e73e9468.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Beauty",
+        "Celebrities",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/culture/2026/10/noah-wyle-sexiest-man-alive-people-the-pitt-er-controversy.html?via=rss",
+      "url": "https://slate.com/culture/2026/10/noah-wyle-sexiest-man-alive-people-the-pitt-er-controversy.html?via=rss",
+      "title": "People’s New Sexiest Man Alive Is Proving Weirdly Controversial",
+      "content_text": "Explaining the ire that some Pitt-heads feel about Noah Wyle.",
+      "summary": "Explaining the ire that some Pitt-heads feel about Noah Wyle.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/39db3627-b191-4e7e-91d8-acb5bba7ce2a.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Celebrities",
+        "TV",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/parenting-advice-thanksgiving-opt-out.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/parenting-advice-thanksgiving-opt-out.html?via=rss",
+      "title": "My Son Wants to Opt Out of Family Thanksgiving. He’s 12!",
+      "content_text": "I want him with us.",
+      "summary": "I want him with us.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/454dba4c-6f96-4be0-8343-669f62f5e05c.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Family",
+        "Kids",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/money-advice-husband-resents-move.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/money-advice-husband-resents-move.html?via=rss",
+      "title": "My Mom Saved Us After My Husband’s Job Loss. He Can’t Forgive Her.",
+      "content_text": "It's not my mom's fault.",
+      "summary": "It's not my mom's fault.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/15d0c396-3d14-41d3-a3ae-7ec285c2a468.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Family",
+        "Personal Finance",
+        "Real Estate",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/technology/2026/10/facebook-meta-rebrand-five-years.html?via=rss",
+      "url": "https://slate.com/technology/2026/10/facebook-meta-rebrand-five-years.html?via=rss",
+      "title": "Mark Zuckerberg Has Made a Lot of Awful Decisions. One of His Most Infamous Was Probably His Smartest.",
+      "content_text": "Facebook’s rebrand may have placed the company in a better position for what came after—even if the legless avatars never came to life.",
+      "summary": "Facebook’s rebrand may have placed the company in a better position for what came after—even if the legless avatars never came to life.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/8acaba46-e425-4772-a7ba-961b4b3c4a40.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Facebook",
+        "Mark Zuckerberg",
+        "Social Media",
+        "Virtual Reality",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/money-advice-expensive-halloween-decor.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/money-advice-expensive-halloween-decor.html?via=rss",
+      "title": "I’m Cutting My Brother Off Over His Elaborate Halloween Decor",
+      "content_text": "This is outrageous.",
+      "summary": "This is outrageous.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/e8d1c001-c183-4793-a53e-96dd8087b68d.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Family",
+        "Personal Finance",
+        "Real Estate",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/news-and-politics/2026/10/israeli-election-netanyahu-outcome-palestine-safety.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/israeli-election-netanyahu-outcome-palestine-safety.html?via=rss",
+      "title": "I Wanted to Understand What Israelis Think of This Election. What I Learned Was Chilling.",
+      "content_text": "Israelis are waiting on the results of a historic election. But their priorities are more revealing than their votes.",
+      "summary": "Israelis are waiting on the results of a historic election. But their priorities are more revealing than their votes.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/402293a8-de11-4961-94a7-d84ab62b9391.jpeg?crop=5469%2C3646%2Cx0%2Cy1",
+      "tags": [
+        "Elections",
+        "Israel",
+        "Palestine",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/parenting-advice-pills-on-floor.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/parenting-advice-pills-on-floor.html?via=rss",
+      "title": "I See My Husband’s “Messy” Habit Very Differently Now That We Have a Kid",
+      "content_text": "Our baby could get seriously hurt.",
+      "summary": "Our baby could get seriously hurt.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/ead57748-0c70-4817-b251-0e2846bd71d4.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Family",
+        "Kids",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/news-and-politics/2026/10/dan-sullivan-mary-peltola-alaska-senate.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/dan-sullivan-mary-peltola-alaska-senate.html?via=rss",
+      "title": "How to Lose Your Party a Senate Seat: Alaska Edition",
+      "content_text": "Trying to trick voters isn’t nice. Getting caught trying to trick voters isn’t smart.",
+      "summary": "Trying to trick voters isn’t nice. Getting caught trying to trick voters isn’t smart.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/8ae73832-3d41-43ce-a1cf-57de87e132db.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/family-advice-pregnancy-grandparents-child-care.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/family-advice-pregnancy-grandparents-child-care.html?via=rss",
+      "title": "Help! Our Expecting Daughter-in-Law Just Made an Eye-Popping “Announcement.”",
+      "content_text": "I'm judging them.",
+      "summary": "I'm judging them.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/211612a4-5497-4125-a6c3-4ecbfe9d1527.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Dear Prudence",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/family-advice-friends-reaching-out.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/family-advice-friends-reaching-out.html?via=rss",
+      "title": "Help! I Ran a Two-Week Experiment on My Family and Friends. The Results Stung.",
+      "content_text": "I'm not sure they even care.",
+      "summary": "I'm not sure they even care.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/971500fe-bec9-430c-9279-6b42a894ddfd.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Dear Prudence",
+        "Family",
+        "Friendship",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-amanda-seyfried.html?via=rss",
+      "url": "https://slate.com/culture/2026/10/you-can-see-everything-elizabeth-holmes-amanda-seyfried.html?via=rss",
+      "title": "Everyone in <em>You Can See Everything</em> Is Playing a Character, but Only One Performer Is Utterly Convincing",
+      "content_text": "The movie isn’t so much a documentary with a great performance as it is a documentary about performance.",
+      "summary": "The movie isn’t so much a documentary with a great performance as it is a documentary about performance.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/b6b47c6e-e6bb-40d7-a1f9-e2c3d042d0ef.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
       "tags": [
         "Crime",
         "Fraud",
+        "Medicine",
         "Movies",
-        "The Oscars",
         "Documentaries",
         "You Can See Everything",
         "评论",

@@ -4,50 +4,78 @@
   <title>公共目录 · #Family</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/family.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-28T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://slate.com/advice/2026/10/work-advice-friends-ex-hr-email.html?via=rss</id>
-    <title>Someone Is Harassing My Co-Worker. HR Thinks It’s Me.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/work-advice-friends-ex-hr-email.html?via=rss"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">It wasn't me!</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Advice"/>
-    <category term="Dating and Relationships"/>
-    <category term="Family"/>
-    <category term="Workplace"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/advice/2026/10/dating-advice-new-girlfriend-sister-reaction.html?via=rss</id>
-    <title>My New Girlfriend’s Sister Is Telling an Atrocious Lie About Me. I’m Worried About What Will Come Next.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/dating-advice-new-girlfriend-sister-reaction.html?via=rss"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">What other stunts might she pull?</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Advice"/>
-    <category term="Dating and Relationships"/>
-    <category term="Dear Prudence"/>
-    <category term="Family"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/advice/2026/10/parenting-advice-supporting-grieving-kids.html?via=rss</id>
-    <title>My Ex-Husband Just Died. My Kids Can Never Know How I Really Feel.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/parenting-advice-supporting-grieving-kids.html?via=rss"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">I just can't relate.</summary>
+    <id>https://slate.com/advice/2026/10/parenting-advice-thanksgiving-opt-out.html?via=rss</id>
+    <title>My Son Wants to Opt Out of Family Thanksgiving. He’s 12!</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/parenting-advice-thanksgiving-opt-out.html?via=rss"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">I want him with us.</summary>
     <source><title>Slate Magazine</title></source>
     <category term="Advice"/>
     <category term="Family"/>
     <category term="Kids"/>
-    <category term="Parenting"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/advice/2026/10/money-advice-husband-resents-move.html?via=rss</id>
+    <title>My Mom Saved Us After My Husband’s Job Loss. He Can’t Forgive Her.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/money-advice-husband-resents-move.html?via=rss"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">It's not my mom's fault.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Advice"/>
+    <category term="Family"/>
+    <category term="Personal Finance"/>
+    <category term="Real Estate"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/advice/2026/10/money-advice-expensive-halloween-decor.html?via=rss</id>
+    <title>I’m Cutting My Brother Off Over His Elaborate Halloween Decor</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/money-advice-expensive-halloween-decor.html?via=rss"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">This is outrageous.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Advice"/>
+    <category term="Family"/>
+    <category term="Personal Finance"/>
+    <category term="Real Estate"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/advice/2026/10/parenting-advice-pills-on-floor.html?via=rss</id>
+    <title>I See My Husband’s “Messy” Habit Very Differently Now That We Have a Kid</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/parenting-advice-pills-on-floor.html?via=rss"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Our baby could get seriously hurt.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Advice"/>
+    <category term="Family"/>
+    <category term="Kids"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/advice/2026/10/family-advice-friends-reaching-out.html?via=rss</id>
+    <title>Help! I Ran a Two-Week Experiment on My Family and Friends. The Results Stung.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/family-advice-friends-reaching-out.html?via=rss"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">I'm not sure they even care.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Advice"/>
+    <category term="Dear Prudence"/>
+    <category term="Family"/>
+    <category term="Friendship"/>
     <category term="评论"/>
     <category term="文化"/>
   </entry>

@@ -9,13 +9,15 @@
   },
   "items": [
     {
-      "id": "https://www.eater.com/travel-guides/992622/these-resorts-offer-a-real-taste-of-american-regional-cuisine",
-      "url": "https://www.eater.com/travel-guides/992622/these-resorts-offer-a-real-taste-of-american-regional-cuisine",
-      "title": "These Resorts Offer a Real Taste of American Regional Cuisine",
-      "content_text": "American resorts are once again having a moment — and it’s not pickleball partisans driving the trend. A new generation of travelers, beset with decision fatigu…",
-      "summary": "American resorts are once again having a moment — and it’s not pickleball partisans driving the trend. A new generation of travelers, beset with decision fatigu…",
-      "date_published": "2026-10-15T00:00:00Z",
+      "id": "https://www.eater.com/maps/best-restaurants-barcelona-spain",
+      "url": "https://www.eater.com/maps/best-restaurants-barcelona-spain",
+      "title": "The 38 Best Restaurants in Barcelona, According to a Local Food Guide",
+      "content_text": "From Barcelona’s towering churches and bustling avenues to the sun-drenched beaches and idyllic plazas, it’s obvious why this city captures visitors’ hearts. Yo…",
+      "summary": "From Barcelona’s towering churches and bustling avenues to the sun-drenched beaches and idyllic plazas, it’s obvious why this city captures visitors’ hearts. Yo…",
+      "date_published": "2026-10-28T00:00:00Z",
       "tags": [
+        "Barcelona",
+        "Spain",
         "Travel Guides",
         "美食",
         "餐饮"
@@ -58,28 +60,6 @@
       "title": "Resort Life",
       "content_text": "It’s a brilliant fall day on Carter’s Creek in Irvington, Virginia, and a small group is hauling baskets of oysters from the brackish waters. They aren’t Chesap…",
       "summary": "It’s a brilliant fall day on Carter’s Creek in Irvington, Virginia, and a small group is hauling baskets of oysters from the brackish waters. They aren’t Chesap…",
-      "date_published": "2026-10-15T00:00:00Z",
-      "tags": [
-        "Travel Guides",
-        "美食",
-        "餐饮"
-      ],
-      "authors": [
-        {
-          "name": "Eater"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "eater-com"
-      }
-    },
-    {
-      "id": "https://www.eater.com/travel-guides/992688/enjoy-fishing-foraging-and-focaccia-making-at-these-u-s-resorts",
-      "url": "https://www.eater.com/travel-guides/992688/enjoy-fishing-foraging-and-focaccia-making-at-these-u-s-resorts",
-      "title": "Enjoy Fishing, Foraging, and Focaccia-Making at These U.S. Resorts",
-      "content_text": "Plenty of resorts across the country have excellent restaurants, but travelers seeking more should explore the hands-on side of culinary resort experiences. Fro…",
-      "summary": "Plenty of resorts across the country have excellent restaurants, but travelers seeking more should explore the hands-on side of culinary resort experiences. Fro…",
       "date_published": "2026-10-15T00:00:00Z",
       "tags": [
         "Travel Guides",

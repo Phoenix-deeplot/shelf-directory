@@ -4,8 +4,19 @@
   <title>公共目录 · #英语学习</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-a30d60.xml"/>
-  <updated>2026-10-22T00:00:00Z</updated>
+  <updated>2026-10-29T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>http://www.bbc.co.uk/programmes/p0pk7d0p</id>
+    <title>Is aircon the answer to a heating world?</title>
+    <link rel="alternate" type="text/html" href="http://www.bbc.co.uk/programmes/p0pk7d0p"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Do you ever feel it is too hot to sleep? With climate change gradually increasing world temperatures, people across the world are becoming increasingly affected…</summary>
+    <source><title>6 Minute English</title></source>
+    <category term="英语学习"/>
+    <category term="英语听力"/>
+  </entry>
   <entry>
     <id>http://www.bbc.co.uk/programmes/p0phz9z7</id>
     <title>What should you eat for a better night’s sleep?</title>
@@ -541,17 +552,6 @@
     <updated>2025-11-20T00:00:00Z</updated>
     <published>2025-11-20T00:00:00Z</published>
     <summary type="text">Do you know the 'proper' way to behave during meals? And what would be the worst thing someone could do while eating? This episode is all about etiquette, what…</summary>
-    <source><title>6 Minute English</title></source>
-    <category term="英语学习"/>
-    <category term="英语听力"/>
-  </entry>
-  <entry>
-    <id>http://www.bbc.co.uk/programmes/p0mg882t</id>
-    <title>How important is play?</title>
-    <link rel="alternate" type="text/html" href="http://www.bbc.co.uk/programmes/p0mg882t"/>
-    <updated>2025-11-13T00:00:00Z</updated>
-    <published>2025-11-13T00:00:00Z</published>
-    <summary type="text">We all remember playgrounds when we were children – slides, swings, climbing frames. But have you heard of the new playgrounds which are designed to include thi…</summary>
     <source><title>6 Minute English</title></source>
     <category term="英语学习"/>
     <category term="英语听力"/>

@@ -2,6 +2,35 @@
  "id": "openculture-com",
  "items": [
   {
+   "url": "https://www.openculture.com/2026/10/the-early-years-of-electronic-pop-the-moog-craze-psychedelic-experiments-and-more.html",
+   "title": "The Early Years of Electronic Pop: The Moog Craze, Psychedelic Experiments, and More",
+   "summary": "There’s a decent chance you’ve heard at least a couple of tracks from Wendy Carlos’ Switched-On Bach. But when was the last time you put on Switched-On Rock, Sw…",
+   "image": "",
+   "date": "2026-10-29",
+   "tags": [
+    "History",
+    "Music",
+    "Technology"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.openculture.com/2026/10/surreal-pinscreen-animations-bring-kafka-gogol-mussorgsky-to-life-1933-1972.html",
+   "title": "Surreal Pinscreen Animations Bring Kafka, Gogol & Mussorgsky to Life (1933–1972)",
+   "summary": "What do Franz Kafka, Nikolai Gogol, and Modest Mussorgsky have in common? They stand alone among their peers for their darkly humorous sensibilities, fascinatio…",
+   "image": "",
+   "date": "2026-10-29",
+   "tags": [
+    "Animation",
+    "Film",
+    "Literature",
+    "Uncategorized"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.openculture.com/2026/10/inside-the-making-of-the-sagrada-familia-barcelonas-144-year-megaproject.html",
    "title": "Inside the Making of the Sagrada Família, Barcelona’s 144-Year Megaproject",
    "summary": "To get a sense of Sagrada Família’s popularity with YouTubers, you have only to take a look at the related Open Culture posts linked below. As will hardly escap…",
@@ -168,33 +197,6 @@
    ],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://www.openculture.com/2026/10/the-dark-story-behind-edgar-allan-poes-most-famous-photograph.html",
-   "title": "The Dark Story Behind Edgar Allan Poe’s Most Famous Photograph, Taken Four Days After a Laudanum Overdose",
-   "summary": "In the Halloween season, one American writer comes to mind more often than any other: Edgar Allan Poe. That owes in large part to his famously macabre tales lik…",
-   "image": "",
-   "date": "2026-10-19",
-   "tags": [
-    "History",
-    "Literature",
-    "Photography"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.openculture.com/2026/10/when-a-cat-co-authored-a-paper-in-a-leading-physics-journal.html",
-   "title": "When a Cat Co-Authored a Paper in a Leading Physics Journal (1975)",
-   "summary": "Back in 1975, Jack H. Hetherington, a physics professor at Michigan State University, wrote a research paper on low–temperature physics for the respected scient…",
-   "image": "",
-   "date": "2026-10-19",
-   "tags": [
-    "Physics",
-    "Random"
-   ],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -211,6 +213,6 @@
  "parser": 3,
  "status": "ok",
  "error": "",
- "etag": "\"5250e2579bc77e5a0b02f7516d616ce3\"",
- "modified": "Wed, 28 Oct 2026 09:00:07 GMT"
+ "etag": "\"a7d759d237a8538209e2440cd0032c47\"",
+ "modified": "Thu, 29 Oct 2026 09:00:29 GMT"
 }

@@ -4,51 +4,51 @@
   <title>公共目录 · #Donald Trump</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/donald-trump.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-10-29T00:00:00Z</updated>
   <author><name>公共目录</name></author>
   <entry>
-    <id>https://slate.com/news-and-politics/2026/10/donald-trump-epstein-files-new-report-women-rape.html?via=rss</id>
-    <title>We Finally Know Why Trump Has Tried So Hard to Hide the Epstein Files</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/news-and-politics/2026/10/donald-trump-epstein-files-new-report-women-rape.html?via=rss"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">This is its own kind of October surprise.</summary>
+    <id>https://slate.com/news-and-politics/2026/10/2020-election-tuesday-midterms-trump-threats.html?via=rss</id>
+    <title>Why There’s a Real Risk of a Replay of the 2020 Election Come Tuesday</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/news-and-politics/2026/10/2020-election-tuesday-midterms-trump-threats.html?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">These are ominous words from the president.</summary>
     <source><title>Slate Magazine</title></source>
-    <category term="Democrats"/>
     <category term="Donald Trump"/>
-    <category term="Republicans"/>
-    <category term="Sexual Assault"/>
-    <category term="Women"/>
-    <category term="Jeffrey Epstein"/>
+    <category term="Elections"/>
+    <category term="Voting"/>
+    <category term="Voting Rights"/>
+    <category term="Capitol Riot"/>
+    <category term="2026 Midterms"/>
+    <category term="Executive Dysfunction"/>
+    <category term="评论"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/podcasts/what-next/2026/10/will-the-new-epstein-release-force-the-doj-to-investigate?via=rss</id>
+    <title>The Next Epstein Files</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/podcasts/what-next/2026/10/will-the-new-epstein-release-force-the-doj-to-investigate?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">A longshot bid for a special counsel.</summary>
+    <source><title>Slate Magazine</title></source>
+    <category term="Department of Justice"/>
+    <category term="Donald Trump"/>
     <category term="评论"/>
     <category term="文化"/>
   </entry>
   <entry>
-    <id>https://slate.com/business/2026/10/trump-fico-credit-score-mortgage-monopoly.html?via=rss</id>
-    <title>Unfortunately, I Must Hand It to the Trump Administration in This One Instance</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/business/2026/10/trump-fico-credit-score-mortgage-monopoly.html?via=rss"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">A monopoly on mortgages is finally loosening. Homebuyers aren’t the only ones who stand to benefit.</summary>
+    <id>https://slate.com/news-and-politics/2026/10/senate-race-pappas-sununu-new-hampshire.html?via=rss</id>
+    <title>My State’s Democratic Candidate Has Zero Rizz. He Could Decide Control of the Senate. Good!</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/news-and-politics/2026/10/senate-race-pappas-sununu-new-hampshire.html?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">In a year of insurgents and stars, this establishment-versus-establishment contest is deeply revealing.</summary>
     <source><title>Slate Magazine</title></source>
     <category term="Donald Trump"/>
-    <category term="Housing"/>
-    <category term="Personal Finance"/>
-    <category term="Finance"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/podcasts/what-next/2026/10/is-healthcare-still-the-democrats-best-issue?via=rss</id>
-    <title>Trump Slashed Healthcare. Is It Payback Time?</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/podcasts/what-next/2026/10/is-healthcare-still-the-democrats-best-issue?via=rss"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Get ready for the fight to define “Medicare for All.”</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Donald Trump"/>
-    <category term="Health Care"/>
-    <category term="Medicare"/>
+    <category term="Elections"/>
+    <category term="Senate"/>
+    <category term="New Hampshire"/>
+    <category term="2026 Midterms"/>
     <category term="评论"/>
     <category term="文化"/>
   </entry>

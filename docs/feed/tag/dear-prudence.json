@@ -1,0 +1,62 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Dear Prudence",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/dear-prudence.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://slate.com/advice/2026/10/family-advice-pregnancy-grandparents-child-care.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/family-advice-pregnancy-grandparents-child-care.html?via=rss",
+      "title": "Help! Our Expecting Daughter-in-Law Just Made an Eye-Popping “Announcement.”",
+      "content_text": "I'm judging them.",
+      "summary": "I'm judging them.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/211612a4-5497-4125-a6c3-4ecbfe9d1527.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Dear Prudence",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/family-advice-friends-reaching-out.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/family-advice-friends-reaching-out.html?via=rss",
+      "title": "Help! I Ran a Two-Week Experiment on My Family and Friends. The Results Stung.",
+      "content_text": "I'm not sure they even care.",
+      "summary": "I'm not sure they even care.",
+      "date_published": "2026-10-28T00:00:00Z",
+      "image": "https://compote.slate.com/images/971500fe-bec9-430c-9279-6b42a894ddfd.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Dear Prudence",
+        "Family",
+        "Friendship",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    }
+  ]
+}

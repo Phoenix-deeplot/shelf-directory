@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/bet-your-boots.xml</id>
+  <title>公共目录 · #Bet Your Boots</title>
+  <subtitle>公共目录</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/bet-your-boots.xml"/>
+  <updated>2026-10-28T00:00:00Z</updated>
+  <author><name>公共目录</name></author>
+  <entry>
+    <id>https://www.wired.com/story/most-servers-on-the-planet-are-vulnerable-to-a-code-execution-flaw-in-uefi-firmware/</id>
+    <title>Most Servers on the Planet Are Vulnerable to This Firmware Code-Execution Flaw</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/most-servers-on-the-planet-are-vulnerable-to-a-code-execution-flaw-in-uefi-firmware/"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">The critical flaw in UEFI firmware—used by most server vendors and data centers—allows attackers to execute code early in the boot process.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Security"/>
+    <category term="Bet Your Boots"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+</feed>

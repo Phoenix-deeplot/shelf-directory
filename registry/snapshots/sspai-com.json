@@ -2,6 +2,46 @@
  "id": "sspai-com",
  "items": [
   {
+   "url": "https://sspai.com/prime/story/how-to-analyze-health-data-with-agent",
+   "title": "让 Agent 读懂你的身体：数据处理篇",
+   "summary": "在上一篇文章《让Agent读懂你的身体：数据获取篇》中，我花了很大的篇幅讲清楚了第一个问题：Agent怎样拿到数据。如果照着实践完，你大概率已经收获了一份存储了运动健康数据的SQLite、Markdo ...查看全文 本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
+   "image": "",
+   "date": "2026-10-29",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://sspai.com/post/116686",
+   "title": "一日一技｜iPhone 恶意被锁，线上移除流程拆招",
+   "summary": "如果你从网上购买过 Apple ID，又在自己的设备上登录，那就会存在一种风险：这类共享 ID 的密码掌握在卖家手里，卖家可以随时更改。本文就介绍了移除激活锁的全过程。查看全文",
+   "image": "",
+   "date": "2026-10-29",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://sspai.com/post/117750",
+   "title": "派早报：Apple 推出触控款 MacBook Pro、华为发布多款新品等",
+   "summary": "Google 推出世界模型 Genie 4、索尼推出手机主摄图像传感器 LYTIA 720 等。查看全文",
+   "image": "",
+   "date": "2026-10-29",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://sspai.com/post/117725",
+   "title": "备受期待的国产 3A 游戏新作：《影之刃零》游玩体验",
+   "summary": "编注：《影之刃零》（PhantomBladeZero）是由中国游戏开发商「灵游坊」（S-GAME）自主研发的暗黑武侠动作冒险游戏，采用虚幻引擎5打造。游戏以独特的「功夫朋克」美学为特色，将中国传统武侠 ...查看全文",
+   "image": "",
+   "date": "2026-10-28",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
    "url": "https://sspai.com/post/116990",
    "title": "断舍离只是起点：打造能长期经营的实用主义衣柜",
    "summary": "只扔不买是没有用的，穿衣服时不多费心神才是目的。查看全文",
@@ -57,46 +97,6 @@
    "summary": "借助 NUT 网络 UPS 协议，我们只需要一台 UPS，就可以驱动局域网中多台设备协同断电保护。查看全文",
    "image": "",
    "date": "2026-10-27",
-   "tags": [],
-   "lang": "zh",
-   "type": "article"
-  },
-  {
-   "url": "https://sspai.com/post/117600",
-   "title": "派早报：Apple 发布 iPad mini (A20 Pro) 等",
-   "summary": "少数派的近期动态全新设计复古设备鼠标垫上架，会员可使用点数兑换。前往选购iPhone少数派共创配件上新，自由选择保护、充电、线缆和支架组合。欢迎选购你可能错过的文章少数派×红树林基金会｜候鸟季公益直播 ...查看全文",
-   "image": "",
-   "date": "2026-10-27",
-   "tags": [],
-   "lang": "zh",
-   "type": "article"
-  },
-  {
-   "url": "https://sspai.com/post/117529",
-   "title": "派评 | 近期值得关注的 App",
-   "summary": ">下载少数派客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
-   "image": "",
-   "date": "2026-10-26",
-   "tags": [],
-   "lang": "zh",
-   "type": "article"
-  },
-  {
-   "url": "https://sspai.com/post/117414",
-   "title": "秋冬换季护肤买什么，双 11 选购推荐",
-   "summary": "双 11 到来之际的秋冬护肤选购与搭配建议。查看全文",
-   "image": "",
-   "date": "2026-10-26",
-   "tags": [],
-   "lang": "zh",
-   "type": "article"
-  },
-  {
-   "url": "https://sspai.com/post/115074",
-   "title": "曲高和寡、终成绝唱：傲腾 P5800X 测试报告",
-   "summary": "一起来看看 3D XPoint 这夸张的性能表现吧。查看全文",
-   "image": "",
-   "date": "2026-10-26",
    "tags": [],
    "lang": "zh",
    "type": "article"

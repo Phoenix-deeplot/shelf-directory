@@ -1,0 +1,36 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "公共目录 · #Barcelona",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/barcelona.json",
+  "description": "公共目录",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.eater.com/maps/best-restaurants-barcelona-spain",
+      "url": "https://www.eater.com/maps/best-restaurants-barcelona-spain",
+      "title": "The 38 Best Restaurants in Barcelona, According to a Local Food Guide",
+      "content_text": "From Barcelona’s towering churches and bustling avenues to the sun-drenched beaches and idyllic plazas, it’s obvious why this city captures visitors’ hearts. Yo…",
+      "summary": "From Barcelona’s towering churches and bustling avenues to the sun-drenched beaches and idyllic plazas, it’s obvious why this city captures visitors’ hearts. Yo…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Barcelona",
+        "Spain",
+        "Travel Guides",
+        "美食",
+        "餐饮"
+      ],
+      "authors": [
+        {
+          "name": "Eater"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "eater-com"
+      }
+    }
+  ]
+}

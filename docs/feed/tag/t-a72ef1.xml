@@ -4,8 +4,41 @@
   <title>公共目录 · #工具</title>
   <subtitle>公共目录</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-a72ef1.xml"/>
-  <updated>2026-10-28T00:00:00Z</updated>
+  <updated>2026-10-29T00:00:00Z</updated>
   <author><name>公共目录</name></author>
+  <entry>
+    <id>https://sspai.com/prime/story/how-to-analyze-health-data-with-agent</id>
+    <title>让 Agent 读懂你的身体：数据处理篇</title>
+    <link rel="alternate" type="text/html" href="https://sspai.com/prime/story/how-to-analyze-health-data-with-agent"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">在上一篇文章《让Agent读懂你的身体：数据获取篇》中，我花了很大的篇幅讲清楚了第一个问题：Agent怎样拿到数据。如果照着实践完，你大概率已经收获了一份存储了运动健康数据的SQLite、Markdo ...查看全文 本文为会员文章，出自《单篇文章》，订阅后可阅读全文。</summary>
+    <source><title>少数派</title></source>
+    <category term="效率"/>
+    <category term="工具"/>
+  </entry>
+  <entry>
+    <id>https://sspai.com/post/117750</id>
+    <title>派早报：Apple 推出触控款 MacBook Pro、华为发布多款新品等</title>
+    <link rel="alternate" type="text/html" href="https://sspai.com/post/117750"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Google 推出世界模型 Genie 4、索尼推出手机主摄图像传感器 LYTIA 720 等。查看全文</summary>
+    <source><title>少数派</title></source>
+    <category term="效率"/>
+    <category term="工具"/>
+  </entry>
+  <entry>
+    <id>https://sspai.com/post/116686</id>
+    <title>一日一技｜iPhone 恶意被锁，线上移除流程拆招</title>
+    <link rel="alternate" type="text/html" href="https://sspai.com/post/116686"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">如果你从网上购买过 Apple ID，又在自己的设备上登录，那就会存在一种风险：这类共享 ID 的密码掌握在卖家手里，卖家可以随时更改。本文就介绍了移除激活锁的全过程。查看全文</summary>
+    <source><title>少数派</title></source>
+    <category term="效率"/>
+    <category term="工具"/>
+  </entry>
   <entry>
     <id>https://sspai.com/post/117684</id>
     <title>派早报：Apple 发布 M6 版 iMac 和 MacBook Pro 等</title>
@@ -40,23 +73,23 @@
     <category term="工具"/>
   </entry>
   <entry>
+    <id>https://sspai.com/post/117725</id>
+    <title>备受期待的国产 3A 游戏新作：《影之刃零》游玩体验</title>
+    <link rel="alternate" type="text/html" href="https://sspai.com/post/117725"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">编注：《影之刃零》（PhantomBladeZero）是由中国游戏开发商「灵游坊」（S-GAME）自主研发的暗黑武侠动作冒险游戏，采用虚幻引擎5打造。游戏以独特的「功夫朋克」美学为特色，将中国传统武侠 ...查看全文</summary>
+    <source><title>少数派</title></source>
+    <category term="效率"/>
+    <category term="工具"/>
+  </entry>
+  <entry>
     <id>https://sspai.com/post/117633</id>
     <title>社区速递 163 | 金豪 59 调整版钢笔与九月派友剁手清单</title>
     <link rel="alternate" type="text/html" href="https://sspai.com/post/117633"/>
     <updated>2026-10-27T00:00:00Z</updated>
     <published>2026-10-27T00:00:00Z</published>
     <summary type="text">除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文</summary>
-    <source><title>少数派</title></source>
-    <category term="效率"/>
-    <category term="工具"/>
-  </entry>
-  <entry>
-    <id>https://sspai.com/post/117600</id>
-    <title>派早报：Apple 发布 iPad mini (A20 Pro) 等</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/117600"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">少数派的近期动态全新设计复古设备鼠标垫上架，会员可使用点数兑换。前往选购iPhone少数派共创配件上新，自由选择保护、充电、线缆和支架组合。欢迎选购你可能错过的文章少数派×红树林基金会｜候鸟季公益直播 ...查看全文</summary>
     <source><title>少数派</title></source>
     <category term="效率"/>
     <category term="工具"/>
@@ -79,39 +112,6 @@
     <updated>2026-10-27T00:00:00Z</updated>
     <published>2026-10-27T00:00:00Z</published>
     <summary type="text">作为一个从小看CCTV-5体育频道下饭的「体育迷」，在互联网时代我一般都看新浪门户网站的体育板块来获取最新的体育资讯，在智能手机逐渐普及后，百度贴吧、虎扑、懂球帝等平台又是我获取体育资讯以及和网友们吹 ...查看全文</summary>
-    <source><title>少数派</title></source>
-    <category term="效率"/>
-    <category term="工具"/>
-  </entry>
-  <entry>
-    <id>https://sspai.com/post/117414</id>
-    <title>秋冬换季护肤买什么，双 11 选购推荐</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/117414"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">双 11 到来之际的秋冬护肤选购与搭配建议。查看全文</summary>
-    <source><title>少数派</title></source>
-    <category term="效率"/>
-    <category term="工具"/>
-  </entry>
-  <entry>
-    <id>https://sspai.com/post/117529</id>
-    <title>派评 | 近期值得关注的 App</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/117529"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">&gt;下载少数派客户端、关注少数派公众号，解锁全新阅读体验📰&gt;实用、好用的正版软件，少数派为你呈现🚀查看全文</summary>
-    <source><title>少数派</title></source>
-    <category term="效率"/>
-    <category term="工具"/>
-  </entry>
-  <entry>
-    <id>https://sspai.com/post/115074</id>
-    <title>曲高和寡、终成绝唱：傲腾 P5800X 测试报告</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/115074"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">一起来看看 3D XPoint 这夸张的性能表现吧。查看全文</summary>
     <source><title>少数派</title></source>
     <category term="效率"/>
     <category term="工具"/>

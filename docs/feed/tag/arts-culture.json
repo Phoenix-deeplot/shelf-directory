@@ -9,6 +9,33 @@
   },
   "items": [
     {
+      "id": "https://daily.jstor.org/how-telepathy-helped-build-the-russian-internet/",
+      "url": "https://daily.jstor.org/how-telepathy-helped-build-the-russian-internet/",
+      "title": "How Telepathy Helped Build the Russian Internet",
+      "content_text": "During the Cold War, Soviet scientists pursued an unlikely way to communicate with the outside world. The post How Telepathy Helped Build the Russian Internet a…",
+      "summary": "During the Cold War, Soviet scientists pursued an unlikely way to communicate with the outside world. The post How Telepathy Helped Build the Russian Internet a…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Arts & Culture",
+        "Language & Literature",
+        "Science & Technology",
+        "Technology",
+        "internet",
+        "Path to Open",
+        "Russia",
+        "学术"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    },
+    {
       "id": "https://daily.jstor.org/mental-hospitals-at-the-movies/",
       "url": "https://daily.jstor.org/mental-hospitals-at-the-movies/",
       "title": "Mental Hospitals at the Movies",
@@ -118,31 +145,6 @@
         "Arts & Culture",
         "housework",
         "race",
-        "学术",
-        "人文"
-      ],
-      "authors": [
-        {
-          "name": "JSTOR Daily"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "daily-jstor-org"
-      }
-    },
-    {
-      "id": "https://daily.jstor.org/ten-poems-about-sleep-and-dreaming/",
-      "url": "https://daily.jstor.org/ten-poems-about-sleep-and-dreaming/",
-      "title": "Ten Poems about Sleep and Dreaming",
-      "content_text": "Visions of the unconscious by Emily Dickinson, Louise Glück, Lucille Clifton, Carl Phillips, and more. The post Ten Poems about Sleep and Dreaming appeared firs…",
-      "summary": "Visions of the unconscious by Emily Dickinson, Louise Glück, Lucille Clifton, Carl Phillips, and more. The post Ten Poems about Sleep and Dreaming appeared firs…",
-      "date_published": "2026-10-15T00:00:00Z",
-      "tags": [
-        "Arts & Culture",
-        "Language & Literature",
-        "poems and poetry",
-        "sleep",
         "学术",
         "人文"
       ],
