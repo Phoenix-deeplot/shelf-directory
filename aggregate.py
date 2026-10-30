@@ -63,6 +63,7 @@ FEED_KEEP = 50                     # newest items kept from a feed
 REPO_FILES = 500                   # files listed from one GitHub repository
 REPO_READ = 30                     # of those, files whose first lines are read for a title and a summary
 SUMMARY = 160
+ABSTRACT = 500                     # a longer text of an item that only the feeds carry (the pages of the directory keep SUMMARY): a feed reader shows more than a line
 TITLE = 140
 TAGS_PER_ITEM = 8
 DOWN_AFTER = 7                     # failed runs in a row before a shelf is hidden from the directory
@@ -72,7 +73,7 @@ ALLOW_LOCAL = False                # tests only: lets http:// and 127.0.0.1 thro
 GITHUB_API = 'https://api.github.com'
 GITHUB_RAW = 'https://raw.githubusercontent.com'
 
-PARSER = 3                         # raise it whenever what is read from a source changes: snapshots of older rules are then read again, not "not modified"
+PARSER = 4                         # raise it whenever what is read from a source changes: snapshots of older rules are then read again, not "not modified"
 TYPES = ('article', 'note', 'video', 'audio', 'pdf', 'tool', 'book')
 VIDEO_HOSTS = ('youtube.com', 'youtu.be', 'bilibili.com', 'vimeo.com')
 COMMON_FEEDS = ('/feed.xml', '/atom.xml', '/rss.xml', '/index.xml', '/feed', '/rss', '/feed.json')
@@ -351,18 +352,37 @@ def guess_type(url, mime='', hint=''):
     return 'article'
 
 
+def abstract_of(raw, short):
+    """About ABSTRACT characters of a text, ended at a sentence when there is one in the last part, with … when it is cut; '' when it adds nothing to the short summary."""
+    s = clean(raw)
+    if len(s) <= len(short.rstrip('…')) + 20:
+        return ''
+    if len(s) > ABSTRACT:
+        cut = s[:ABSTRACT]
+        ends = [m.end() for m in re.finditer(r'[。！？!?]|\.(?=\s)', cut) if m.end() >= ABSTRACT * 0.6]
+        s = cut[:ends[-1]] if ends else cut.rstrip() + '…'
+    return s
+
+
 def make_item(url, title, summary='', image='', date='', tags=None, lang='', typ='', base='', mime=''):
     url = abs_url(url, base)
     if not url:
         return None
-    summary = clean(summary, SUMMARY)
+    raw = summary
+    summary = clean(raw, SUMMARY)
+    abstract = abstract_of(raw, summary)
     title = clean(title, TITLE) or clean(summary, 80) or (urllib.parse.urlsplit(url).hostname or url)
     if summary == title:
         summary = ''
+    if abstract == title:
+        abstract = ''
     image = abs_url(image, base)
     ranked = bool(re.match(r'第\s*\d+\s*名', summary))                  # a hot list's row ("第 3 名 · 热度 …" is written in Chinese by the service, whatever the language of the platform): the title says the language
-    return {'url': url, 'title': title, 'summary': summary, 'image': image if image.startswith('https://') else '', 'date': parse_date(date),
+    item = {'url': url, 'title': title, 'summary': summary, 'image': image if image.startswith('https://') else '', 'date': parse_date(date),
             'tags': norm_tags(tags), 'lang': norm_lang(lang, title if ranked else title + ' ' + summary), 'type': guess_type(url, mime, typ)}
+    if abstract:
+        item['abstract'] = abstract
+    return item
 
 
 # ======================================================================= safe fetching
@@ -1918,7 +1938,26 @@ def fetch_all(only=None, log=print):
 
 
 # ======================================================================= build docs/
-def atom_feed(title, subtitle, self_url, home, items, shelves):
+def entry_html(i, shelf_name, abstract=''):
+    """The body of an entry for a feed reader: the picture, the longer text, where it is from, the tags and a plain link to the original. Nothing is copied from the page beyond the text the directory keeps."""
+    h = lambda x: xml_escape(str(x), {'"': '&quot;', "'": '&#39;'})
+    zh = i.get('lang') == 'zh'
+    out = []
+    if i.get('image'):
+        out.append('<p><img src="%s" alt="" referrerpolicy="no-referrer"></p>' % h(i['image']))
+    text = abstract or i.get('summary') or ''
+    if text:
+        out.append('<p>%s</p>' % h(text))
+    where = [x for x in (shelf_name, i.get('date')) if x]
+    if where:
+        out.append('<p>%s</p>' % h(('来源：' if zh else 'Source: ') + ' · '.join(where)))
+    if i.get('tags'):
+        out.append('<p>%s</p>' % h(('标签：' if zh else 'Tags: ') + ' '.join('#' + t for t in i['tags'][:6])))
+    out.append('<p><a href="%s">%s</a></p>' % (h(i['url']), '阅读原文 →' if zh else 'Read the original →'))
+    return ''.join(out)
+
+
+def atom_feed(title, subtitle, self_url, home, items, shelves, abstracts=None):
     latest = max([i['date'] for i in items if i['date']] or ['1970-01-01']) + 'T00:00:00Z'
     out = ['<?xml version="1.0" encoding="utf-8"?>', '<feed xmlns="http://www.w3.org/2005/Atom">', '  <id>%s</id>' % xml_escape(self_url or home or 'urn:shelf-directory'),
            '  <title>%s</title>' % xml_escape(title)]
@@ -1935,6 +1974,7 @@ def atom_feed(title, subtitle, self_url, home, items, shelves):
             out.append('    <published>%s</published>' % stamp)
         if i['summary']:
             out.append('    <summary type="text">%s</summary>' % xml_escape(i['summary']))
+        out.append('    <content type="html">%s</content>' % xml_escape(entry_html(i, shelves[i['shelf']]['name'], (abstracts or {}).get(i['id'], ''))))
         out.append('    <source><title>%s</title></source>' % xml_escape(shelves[i['shelf']]['name']))
         out += ['    <category term="%s"/>' % xml_escape(t, {'"': '&quot;'}) for t in i['tags']]
         out.append('  </entry>')
@@ -1942,7 +1982,7 @@ def atom_feed(title, subtitle, self_url, home, items, shelves):
     return '\n'.join(out) + '\n'
 
 
-def json_feed(title, subtitle, self_url, home, items, shelves):
+def json_feed(title, subtitle, self_url, home, items, shelves, abstracts=None):
     jf = {'version': 'https://jsonfeed.org/version/1.1', 'title': title}
     if home:
         jf['home_page_url'] = home
@@ -1953,7 +1993,8 @@ def json_feed(title, subtitle, self_url, home, items, shelves):
     jf['_shelf'] = {'spec': 1}
     jf['items'] = []
     for i in items:
-        e = {'id': i['url'], 'url': i['url'], 'title': i['title'], 'content_text': i['summary'] or i['title']}
+        ab = (abstracts or {}).get(i['id'], '')
+        e = {'id': i['url'], 'url': i['url'], 'title': i['title'], 'content_html': entry_html(i, shelves[i['shelf']]['name'], ab), 'content_text': ab or i['summary'] or i['title']}
         if i['summary']:
             e['summary'] = i['summary']
         if i['date']:
@@ -1975,6 +2016,7 @@ def build():
     alias = {tag_key(k): v for k, v in alias.items() if not str(k).startswith('_')} if isinstance(alias, dict) else {}
     repo = str(cfg.get('repo') or os.environ.get('GITHUB_REPOSITORY') or '').strip()
     shelves, items, seen, seen_sha = {}, [], set(), set()
+    abstracts = {}                                           # id of an item -> its longer text, for the feeds only (directory.json does not carry it)
     sources = []
     ids = {x['id'] for x in load_topics()}
     mine, paused = {}, 0                                     # what the owner says about each source (the right ones), and how many are paused
@@ -1993,7 +2035,7 @@ def build():
         post_items = []
         for p in posts:
             post_items.append({'url': '%sp/%s/' % (base, urllib.parse.quote(p['slug'])), 'title': p['title'], 'summary': clean(mdsafe.plain_text(p['body']), SUMMARY), 'image': '',
-                               'date': p['date'], 'tags': p['tags'], 'lang': p['lang'], 'type': 'book' if p['kind'] == 'record' else 'article', 'sha': 'post:' + p['hash'], 'hash': p['hash'],
+                               'abstract': abstract_of(mdsafe.plain_text(p['body']), clean(mdsafe.plain_text(p['body']), SUMMARY)), 'date': p['date'], 'tags': p['tags'], 'lang': p['lang'], 'type': 'book' if p['kind'] == 'record' else 'article', 'sha': 'post:' + p['hash'], 'hash': p['hash'],
                                'author': p['author'], 'pages': p['pages'], 'toc': p['toc']})
             post_pages['p/%s/index.html' % p['slug']] = post_page(p, cfg, repo)
         pname = cfg.get('posts_title') or '社区投稿'
@@ -2033,6 +2075,8 @@ def build():
                     tags.append(t)
             row = {'id': hashlib.sha1(i['url'].encode()).hexdigest()[:10], 'title': i['title'], 'summary': i.get('summary', ''), 'url': i['url'], 'image': i.get('image', ''),
                    'date': i.get('date', ''), 'type': i.get('type') if i.get('type') in TYPES else 'article', 'lang': i.get('lang') or 'en', 'tags': tags[:TAGS_PER_ITEM], 'shelf': e['id']}
+            if clean(i.get('abstract')):
+                abstracts[row['id']] = clean(i['abstract'], ABSTRACT + 1)
             if i.get('hash'):                                        # a hosted post: the submit function compares new texts with this
                 row['hash'] = i['hash']
             if i.get('author'):                                      # and new ones with this title + author
@@ -2090,8 +2134,8 @@ def build():
     def feeds(path, sub, rows):
         rows = rows[:FEED_KEEP]
         self_x, self_j = (base + path + '.xml', base + path + '.json') if base else ('', '')
-        out[path + '.xml'] = atom_feed(sub, feed_about, self_x, base, rows, shelves)
-        out[path + '.json'] = json_feed(sub, feed_about, self_j, base, rows, shelves)
+        out[path + '.xml'] = atom_feed(sub, feed_about, self_x, base, rows, shelves, abstracts)
+        out[path + '.json'] = json_feed(sub, feed_about, self_j, base, rows, shelves, abstracts)
 
     feeds('feed/all', feed_title, items)
     for ty in types:

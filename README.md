@@ -90,6 +90,7 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
 - 每个来访者每 10 分钟最多 15 次查找、40 次更新、40 次阅读（按暖实例计的软限制，真正的限流在 Vercel）；页面来源和提交服务一样由 `ALLOWED_ORIGINS` 控制（默认 `https://books.zhitree.cn`）。
 - 主站页面通过 `directory.json` 里的 `submit_api` 找到它（末尾的 `/submit` 换成 `/feed`）；想指向别处，在 `registry/config.json` 里写 `"feed_api": "https://…/api/feed"`。打开 `https://你的目录站点/api/feed`，应该看到 `{"ok": true, "service": "shelf-feed"}`。
 - **订阅源的名字和简介**：`registry/config.json` 里的 `"title"` 是目录自己的名字（`directory.json`、网页标题用它）；Feedly 等阅读器里看到的订阅源名字、OPML 的名字用 `"feed_title"`，名字下面的一句话用 `"feed_subtitle"`，两个都不写就还是 `"title"`。现在是“知树阅读-个人图书空间”加一句主要功能的介绍；分类、标签、书架的订阅源叫“名字 · 分类”。下一次 Action 构建后生效（阅读器里已订阅的会自己更新名字）。测试：`tests/test_aggregate.py` 的 `test_feeds_are_named_by_the_config_not_by_the_directory_name`。
+- **订阅源里每一条的内容**：阅读器里原来只有标题和 160 字的摘要（目录只记标题、摘要、链接，不存全文）。现在每一条多一段**约 500 字的摘要**（`abstract`，尽量在句号处结束；只给订阅源用，`directory.json` 和页面上的卡片还是 160 字），正文（Atom 的 `<content type="html">`、JSON Feed 的 `content_html`）里有封面图、这段摘要、“来源 · 日期”、标签和“阅读原文 →”链接，所有内容都转义过；`<summary>` 仍是那 160 字。仍然**不放全文**。读取规则变了（`PARSER` 升到 4），下一次 Action 会把所有来源重新读一遍，之后每天照旧。每个订阅源最多 50 条没变。测试：`tests/test_aggregate.py` 的 `TestFeedBody`。
 
 ### B3. 批量审核（`batch.yml`）
 

@@ -698,6 +698,61 @@ def feed_site(site, title='Blog', posts=(('One', '2026-10-01'),), path='/feed.xm
     site.put(path, '<?xml version="1.0"?><rss version="2.0"><channel><title>%s</title><link>https://x.example/</link><language>en</language>%s</channel></rss>' % (title, rows), 'application/rss+xml')
 
 
+class TestFeedBody(Base):
+    LONG = ''.join('这是第%d句，写了一些内容，足够长。' % n for n in range(1, 60))
+    ROW = {'id': 'i1', 'url': 'https://x.example/p?a=1&b=2', 'title': 'T <b>', 'summary': 'short', 'image': 'https://x.example/i.png', 'date': '2026-10-29',
+           'type': 'article', 'lang': 'zh', 'tags': ['AI', '"><img src=x onerror=1>'], 'shelf': 's1'}
+    SHELVES = {'s1': {'name': '人人都是产品经理'}}
+
+    def test_a_long_text_gets_an_abstract_that_ends_at_a_sentence(self):
+        it = agg.make_item('https://x.example/a', 'T', self.LONG)
+        self.assertEqual(len(it['summary']), agg.SUMMARY + 1)                                  # the summary is what it was: 160 characters and a …
+        self.assertTrue(400 < len(it['abstract']) <= agg.ABSTRACT, len(it['abstract']))
+        self.assertTrue(it['abstract'].endswith('。') and it['abstract'].startswith('这是第1句'))
+        en = agg.make_item('https://x.example/b', 'T', 'Sentence number one is right here. ' * 40)
+        self.assertTrue(en['abstract'].endswith('here.'))
+
+    def test_a_short_text_has_no_abstract(self):
+        self.assertNotIn('abstract', agg.make_item('https://x.example/a', 'T', '很短的摘要'))
+        self.assertNotIn('abstract', agg.make_item('https://x.example/a', 'T', 'x' * 170))      # (the summary has all but a few characters of it)
+        self.assertNotIn('abstract', agg.make_item('https://x.example/a', 'Same', 'Same'))
+
+    def test_the_entry_body_has_the_text_the_source_the_tags_and_the_link_and_is_escaped(self):
+        h = agg.entry_html(self.ROW, '人人都是产品经理', '更长的一段摘要。')
+        self.assertIn('<img src="https://x.example/i.png"', h)
+        self.assertIn('<p>更长的一段摘要。</p>', h)
+        self.assertIn('来源：人人都是产品经理 · 2026-10-29', h)
+        self.assertIn('<a href="https://x.example/p?a=1&amp;b=2">阅读原文 →</a>', h)
+        self.assertNotIn('<img src=x', h)                                                        # a tag cannot bring markup
+        self.assertIn('&quot;&gt;&lt;img src=x', h)
+        en = agg.entry_html({**self.ROW, 'lang': 'en'}, 'Blog', '')
+        self.assertIn('Read the original', en)
+        self.assertIn('<p>short</p>', en)                                                        # without an abstract: the summary
+
+    def test_the_feeds_carry_the_abstract_in_the_body_and_the_summary_stays_short(self):
+        at = ET.fromstring(agg.atom_feed('T', 'S', 'https://x.example/f.xml', 'https://x.example/', [self.ROW], self.SHELVES, {'i1': '更长的一段摘要。'}).encode())
+        ns = {'a': 'http://www.w3.org/2005/Atom'}
+        e = at.find('a:entry', ns)
+        self.assertEqual((e.find('a:summary', ns).text, e.find('a:content', ns).get('type')), ('short', 'html'))
+        self.assertIn('更长的一段摘要。', e.find('a:content', ns).text)
+        jf = json.loads(agg.json_feed('T', 'S', '', '', [self.ROW], self.SHELVES, {'i1': '更长的一段摘要。'}))
+        self.assertEqual((jf['items'][0]['content_text'], jf['items'][0]['summary']), ('更长的一段摘要。', 'short'))
+        self.assertIn('阅读原文', jf['items'][0]['content_html'])
+
+    def test_build_puts_the_abstract_into_the_feeds_but_not_into_directory_json(self):
+        self.site.put('/feed.xml', '<?xml version="1.0"?><rss version="2.0"><channel><title>Blog</title><link>https://x.example/</link><language>zh</language>'
+                      '<item><title>One</title><link>https://x.example/one</link><pubDate>Thu, 01 Oct 2026 08:00:00 GMT</pubDate><description>%s</description></item></channel></rss>' % self.LONG, 'application/rss+xml')
+        agg.approve(self.site.url + '/feed.xml', [])
+        out = agg.build()
+        d = json.loads(out['directory.json'])
+        self.assertNotIn('abstract', d['items'][0])
+        self.assertEqual(len(d['items'][0]['summary']), agg.SUMMARY + 1)
+        at = ET.fromstring(out['feed/all.xml'].encode())
+        body = at.find('{http://www.w3.org/2005/Atom}entry/{http://www.w3.org/2005/Atom}content').text
+        self.assertIn('这是第20句', body)                                                          # (twice as far as the 160 characters of the summary reach)
+        self.assertIn('阅读原文', body)
+
+
 class TestRegistryAndBuild(Base):
     def test_approve_fetch_build(self):
         feed_site(self.site, posts=(('One', '2026-10-01'), ('Two', '2026-10-02')))
