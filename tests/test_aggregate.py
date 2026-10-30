@@ -733,6 +733,31 @@ class TestRegistryAndBuild(Base):
         self.assertEqual(opml.find('.//outline[@type="rss"]').get('xmlUrl'), self.site.url + '/feed.xml')
         self.assertTrue(os.path.exists(os.path.join(self.tmp, 'docs', 'directory.json')))
 
+    def test_feeds_are_named_by_the_config_not_by_the_directory_name(self):
+        feed_site(self.site, posts=(('One', '2026-10-01'),))
+        e, r = agg.approve(self.site.url + '/feed.xml', ['Supply Chain'])
+        os.makedirs(os.path.join(self.tmp, 'registry'), exist_ok=True)
+        cfgp = os.path.join(self.tmp, 'registry', 'config.json')
+        with open(cfgp, 'w', encoding='utf-8') as f:
+            json.dump({'title': '公共目录'}, f, ensure_ascii=False)
+        ns = {'a': 'http://www.w3.org/2005/Atom'}
+        out = agg.build()
+        at = ET.fromstring(out['feed/all.xml'].encode())
+        self.assertEqual((at.find('a:title', ns).text, at.find('a:subtitle', ns).text), ('公共目录', '公共目录'))       # no feed_title: as it always was
+        with open(cfgp, 'w', encoding='utf-8') as f:
+            json.dump({'title': '公共目录', 'feed_title': '知树阅读-个人图书空间', 'feed_subtitle': '个人数字图书馆：在线阅读、读书笔记、订阅博客。'}, f, ensure_ascii=False)
+        out = agg.build()
+        at = ET.fromstring(out['feed/all.xml'].encode())
+        self.assertEqual((at.find('a:title', ns).text, at.find('a:subtitle', ns).text, at.find('a:author/a:name', ns).text),
+                         ('知树阅读-个人图书空间', '个人数字图书馆：在线阅读、读书笔记、订阅博客。', '知树阅读-个人图书空间'))
+        self.assertEqual(ET.fromstring(out['feed/tag/supply-chain.xml'].encode()).find('a:title', ns).text, '知树阅读-个人图书空间 · #Supply Chain')
+        self.assertEqual(ET.fromstring(out['feed/type/article.xml'].encode()).find('a:title', ns).text, '知树阅读-个人图书空间 · article')
+        jf = json.loads(out['feed/all.json'])
+        self.assertEqual((jf['title'], jf['description']), ('知树阅读-个人图书空间', '个人数字图书馆：在线阅读、读书笔记、订阅博客。'))
+        opml = ET.fromstring(out['shelves.opml'].encode())
+        self.assertEqual((opml.find('head/title').text, opml.find('body/outline').get('text')), ('知树阅读-个人图书空间 · shelves', '知树阅读-个人图书空间'))
+        self.assertEqual(json.loads(out['directory.json'])['title'], '公共目录')                                         # the directory keeps its own name
+
     def test_a_starter_feed_is_marked_in_the_directory_and_nothing_else_is(self):
         feed_site(self.site, title='Good', posts=(('One', '2026-10-01'),), path='/a.xml')
         feed_site(self.site, title='Other', posts=(('Two', '2026-10-02'),), path='/b.xml')

@@ -89,6 +89,7 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
 - **`read` 怎么读**（`readable.py`，只用标准库）：读者点开一篇文章时才读一次，不带 cookie、不登录、用户代理自报 `ZhiTreeBooks-Reader/1 (+https://books.zhitree.cn; …)`，**遵守对方的 robots.txt**（环境变量 `READ_IGNORE_ROBOTS=1` 才忽略，不建议）；找出正文（`article` / `main` / 文字最密的块，去掉导航、侧栏、页脚、广告），重建成安全 HTML，每篇限 15 万字符，超出会说明；要登录、付费墙、人机验证、靠脚本显示、PDF 和别的文件类型识别出来后返回原因。**什么都不保存**。GitHub、视频这类地址不走 `read`。
 - 每个来访者每 10 分钟最多 15 次查找、40 次更新、40 次阅读（按暖实例计的软限制，真正的限流在 Vercel）；页面来源和提交服务一样由 `ALLOWED_ORIGINS` 控制（默认 `https://books.zhitree.cn`）。
 - 主站页面通过 `directory.json` 里的 `submit_api` 找到它（末尾的 `/submit` 换成 `/feed`）；想指向别处，在 `registry/config.json` 里写 `"feed_api": "https://…/api/feed"`。打开 `https://你的目录站点/api/feed`，应该看到 `{"ok": true, "service": "shelf-feed"}`。
+- **订阅源的名字和简介**：`registry/config.json` 里的 `"title"` 是目录自己的名字（`directory.json`、网页标题用它）；Feedly 等阅读器里看到的订阅源名字、OPML 的名字用 `"feed_title"`，名字下面的一句话用 `"feed_subtitle"`，两个都不写就还是 `"title"`。现在是“知树阅读-个人图书空间”加一句主要功能的介绍；分类、标签、书架的订阅源叫“名字 · 分类”。下一次 Action 构建后生效（阅读器里已订阅的会自己更新名字）。测试：`tests/test_aggregate.py` 的 `test_feeds_are_named_by_the_config_not_by_the_directory_name`。
 
 ### B3. 批量审核（`batch.yml`）
 
