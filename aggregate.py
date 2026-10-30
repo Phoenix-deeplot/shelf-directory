@@ -1926,7 +1926,7 @@ def atom_feed(title, subtitle, self_url, home, items, shelves):
         out.append('  <subtitle>%s</subtitle>' % xml_escape(subtitle))
     if self_url:
         out.append('  <link rel="self" type="application/atom+xml" href="%s"/>' % xml_escape(self_url, {'"': '&quot;'}))
-    out += ['  <updated>%s</updated>' % latest, '  <author><name>%s</name></author>' % xml_escape(config().get('title') or 'Shelf directory')]
+    out += ['  <updated>%s</updated>' % latest, '  <author><name>%s</name></author>' % xml_escape(config().get('feed_title') or config().get('title') or 'Shelf directory')]
     for i in items:
         stamp = (i['date'] or '1970-01-01') + 'T00:00:00Z'
         out += ['  <entry>', '    <id>%s</id>' % xml_escape(i['url']), '    <title>%s</title>' % xml_escape(i['title']),
@@ -2084,22 +2084,24 @@ def build():
                                         'topics': load_topics(), **({'columns': columns} if columns else {}), 'tags': tags[:300], 'feeds': {'all': 'feed/all', 'type': 'feed/type/{type}', 'tag': 'feed/tag/{slug}', 'shelf': 'feed/shelf/{id}'},
                                         'items': items}, ensure_ascii=False, separators=(',', ':')) + '\n'
     title = cfg.get('title') or 'Shelf directory'
+    feed_title = str(cfg.get('feed_title') or '').strip() or title                    # (what a feed reader shows as the name of the feeds, and of the list of shelves: "title" is the name of the directory itself)
+    feed_about = str(cfg.get('feed_subtitle') or '').strip() or title                 # (and the line under it: what this is)
 
     def feeds(path, sub, rows):
         rows = rows[:FEED_KEEP]
         self_x, self_j = (base + path + '.xml', base + path + '.json') if base else ('', '')
-        out[path + '.xml'] = atom_feed(sub, title, self_x, base, rows, shelves)
-        out[path + '.json'] = json_feed(sub, title, self_j, base, rows, shelves)
+        out[path + '.xml'] = atom_feed(sub, feed_about, self_x, base, rows, shelves)
+        out[path + '.json'] = json_feed(sub, feed_about, self_j, base, rows, shelves)
 
-    feeds('feed/all', title, items)
+    feeds('feed/all', feed_title, items)
     for ty in types:
-        feeds('feed/type/' + ty, '%s · %s' % (title, ty), [i for i in items if i['type'] == ty])
+        feeds('feed/type/' + ty, '%s · %s' % (feed_title, ty), [i for i in items if i['type'] == ty])
     for t in tags[:MAX_TAG_FEEDS]:
-        feeds('feed/tag/' + t['slug'], '%s · #%s' % (title, t['name']), [i for i in items if any(tag_key(x) == tag_key(t['name']) for x in i['tags'])])
+        feeds('feed/tag/' + t['slug'], '%s · #%s' % (feed_title, t['name']), [i for i in items if any(tag_key(x) == tag_key(t['name']) for x in i['tags'])])
     for s in shelf_list:
-        feeds('feed/shelf/' + s['id'], '%s · %s' % (title, s['name']), [i for i in items if i['shelf'] == s['id']])
-    opml = ['<?xml version="1.0" encoding="UTF-8"?>', '<opml version="2.0">', '  <head><title>%s</title></head>' % xml_escape(title + ' · shelves'), '  <body>',
-            '    <outline text="%s" title="%s">' % (xml_escape(title, {'"': '&quot;'}), xml_escape(title, {'"': '&quot;'}))]
+        feeds('feed/shelf/' + s['id'], '%s · %s' % (feed_title, s['name']), [i for i in items if i['shelf'] == s['id']])
+    opml = ['<?xml version="1.0" encoding="UTF-8"?>', '<opml version="2.0">', '  <head><title>%s</title></head>' % xml_escape(feed_title + ' · shelves'), '  <body>',
+            '    <outline text="%s" title="%s">' % (xml_escape(feed_title, {'"': '&quot;'}), xml_escape(feed_title, {'"': '&quot;'}))]
     for s in shelf_list:
         xml = s['feed'] or (base + s['shelf_feed'] + '.xml')
         opml.append('      <outline type="rss" text="%s" title="%s" xmlUrl="%s" htmlUrl="%s"/>' % tuple(xml_escape(x, {'"': '&quot;'}) for x in (s['name'], s['name'], xml, s['home'])))
