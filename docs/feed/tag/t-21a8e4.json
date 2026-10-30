@@ -1,75 +1,21 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #抖音",
+  "title": "知树阅读-个人图书空间 · #抖音",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-21a8e4.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/share/6486072.html",
-      "url": "https://www.woshipm.com/share/6486072.html",
-      "title": "抖音内测短剧互动道具，花钱能参与剧情，开启情绪付费新玩法",
-      "content_text": "抖音正在内测短剧专属互动道具，观众花 1 钻约 0.1 元，就能在包厢对峙的节点刷出铁砂掌特效，直接改变画面。在全集解锁、广告、短剧卡之外，这是又一条情绪付费链路，也是拉高单用户消费的解法。 抖音正在内测短剧场景专属的道具礼物，观众消耗平台钻石即可送出，礼物触发后会直接在短剧的画面里，弹出配套的剧情互动特效。简单来说，…",
-      "summary": "抖音正在内测短剧专属互动道具，观众花 1 钻约 0.1 元，就能在包厢对峙的节点刷出铁砂掌特效，直接改变画面。在全集解锁、广告、短剧卡之外，这是又一条情绪付费链路，也是拉高单用户消费的解法。 抖音正在内测短剧场景专属的道具礼物，观众消耗平台钻石即可送出，礼物触发后会直接在短剧的画面里，弹出配套的剧情互动特效。简单来说，…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "个人随笔",
-        "商业模式",
-        "抖音",
-        "短视频",
-        "行业观察",
-        "产品",
-        "运营",
-        "商业"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/ai/6486183.html",
-      "url": "https://www.woshipm.com/ai/6486183.html",
-      "title": "张一鸣又造出一个国民级APP",
-      "content_text": "谁能想到，曾经被不少人嫌弃“又土又俗”的短剧，如今已经成了互联网大厂争夺用户时间的重要战场。 10月29日，一组关于红果短剧的数据引发关注。 QuestMobile数据显示，2026年5月，红果短剧月活跃用户达到3.56亿；7月日活跃用户达到1.68亿，同比增长107%，甚至超过腾讯视频、爱奇艺、优酷、芒果TV四家长视…",
-      "summary": "谁能想到，曾经被不少人嫌弃“又土又俗”的短剧，如今已经成了互联网大厂争夺用户时间的重要战场。 10月29日，一组关于红果短剧的数据引发关注。 QuestMobile数据显示，2026年5月，红果短剧月活跃用户达到3.56亿；7月日活跃用户达到1.68亿，同比增长107%，甚至超过腾讯视频、爱奇艺、优酷、芒果TV四家长视…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "AI",
-        "小程序",
-        "微信",
-        "抖音",
-        "腾讯",
-        "产品",
-        "运营",
-        "商业"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.douyin.com/hot/2719442",
-      "url": "https://www.douyin.com/hot/2719442",
-      "title": "预习一下初冬穿搭",
-      "content_text": "第 5 名 · 热度 1051.6 万",
-      "summary": "第 5 名 · 热度 1051.6 万",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://p11-sign.douyinpic.com/tos-cn-i-0813/ooCvAbb4yFDAeAGAEqEDm3fvIA2Wg9bUANg9Q9~noop.jpeg?lk3s=bfd515bb&x-expires=1793286000&x-signature=iaWFgvcbjtjzbuJDm%2FMDW9BQ%2BJU%3D&from=3218412987",
+      "id": "https://www.douyin.com/hot/2721162",
+      "url": "https://www.douyin.com/hot/2721162",
+      "title": "跨越山海的长征精神回响",
+      "content_text": "第 4 名 · 热度 1103.7 万",
+      "summary": "第 4 名 · 热度 1103.7 万",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://p11-sign.douyinpic.com/tos-cn-p-0015/oADB23eAPtHDlS0rDaS9UzfUAxAFa1EqgIqIBJ~noop.jpeg?lk3s=bfd515bb&x-expires=1793372400&x-signature=%2BFBpplUv9%2FAa0gVzFM7ttWuOHTo%3D&from=3218412987",
       "tags": [
         "热榜",
         "抖音"
@@ -85,13 +31,13 @@
       }
     },
     {
-      "id": "https://www.douyin.com/hot/2718579",
-      "url": "https://www.douyin.com/hot/2718579",
-      "title": "造山女团的阿姨们太有劲了",
-      "content_text": "第 10 名 · 热度 775.8 万",
-      "summary": "第 10 名 · 热度 775.8 万",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015c000-ce/oAfqATqAEICEu2w60pDneqQ04I558f9NHFCAXX~noop.jpeg?lk3s=bfd515bb&x-expires=1793286000&x-signature=JiOp%2Fkh0CLdrNjQiohOIEdEfbTg%3D&from=3218412987",
+      "id": "https://www.douyin.com/hot/2721276",
+      "url": "https://www.douyin.com/hot/2721276",
+      "title": "解放军霸气喊话菲律宾军机",
+      "content_text": "第 5 名 · 热度 1042.2 万",
+      "summary": "第 5 名 · 热度 1042.2 万",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://p11-sign.douyinpic.com/tos-cn-p-0015/okAJCfvbBAr1iXWAtkiTilIvcBCIpdGgzbeydA~noop.jpeg?lk3s=bfd515bb&x-expires=1793372400&x-signature=M0VJ7wFpBy8uRyrom3dVePfuJPo%3D&from=3218412987",
       "tags": [
         "热榜",
         "抖音"
@@ -107,13 +53,13 @@
       }
     },
     {
-      "id": "https://www.douyin.com/hot/2718148",
-      "url": "https://www.douyin.com/hot/2718148",
-      "title": "秋日山野漫游",
-      "content_text": "第 2 名 · 热度 1128.1 万",
-      "summary": "第 2 名 · 热度 1128.1 万",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://p26-sign.douyinpic.com/tos-cn-p-0015c000-ce/oYBsPNIgOyAL0I60mv73oveXPGGSJDZQfSQVuf~noop.jpeg?lk3s=bfd515bb&x-expires=1793286000&x-signature=u375bcqCeKRfREC5ltLfaySWqOs%3D&from=3218412987",
+      "id": "https://www.douyin.com/hot/2720443",
+      "url": "https://www.douyin.com/hot/2720443",
+      "title": "特朗普怒怼质疑其身体状况记者",
+      "content_text": "第 10 名 · 热度 816.3 万",
+      "summary": "第 10 名 · 热度 816.3 万",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/oAkjb5EEAd7DDIwIdCFVA8bDAfE5HBCTffxBO6~noop.jpeg?lk3s=bfd515bb&x-expires=1793372400&x-signature=WobRQdRaC9WrWwaoD865Ws9jD2o%3D&from=3218412987",
       "tags": [
         "热榜",
         "抖音"
@@ -129,13 +75,13 @@
       }
     },
     {
-      "id": "https://www.douyin.com/hot/2718142",
-      "url": "https://www.douyin.com/hot/2718142",
-      "title": "独家揭秘白鹤滩水电站",
-      "content_text": "第 6 名 · 热度 1047.8 万",
-      "summary": "第 6 名 · 热度 1047.8 万",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://p3-sign.douyinpic.com/tos-cn-p-0015/okABafdBa0VgeCHVnfGU2glJEwR7IcLAvllBwt~noop.jpeg?lk3s=bfd515bb&x-expires=1793286000&x-signature=wjxmLMP76BgOFD6VzBG9cpkB608%3D&from=3218412987",
+      "id": "https://www.douyin.com/hot/2721025",
+      "url": "https://www.douyin.com/hot/2721025",
+      "title": "海绵宝宝把比奇堡搬来厦门了",
+      "content_text": "第 9 名 · 热度 847.5 万",
+      "summary": "第 9 名 · 热度 847.5 万",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://p11-sign.douyinpic.com/tos-cn-p-0015/o4fq299PAcB4JjwimyiUaEYtA2oRIgByebCCrA~noop.jpeg?lk3s=bfd515bb&x-expires=1793372400&x-signature=C2j2OgMYMzRYgz9OjVaZs9owaQo%3D&from=3218412987",
       "tags": [
         "热榜",
         "抖音"
@@ -151,13 +97,13 @@
       }
     },
     {
-      "id": "https://www.douyin.com/hot/2719510",
-      "url": "https://www.douyin.com/hot/2719510",
-      "title": "我国海洋经济发展态势向新向优",
-      "content_text": "第 8 名 · 热度 914.9 万",
-      "summary": "第 8 名 · 热度 914.9 万",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://p3-sign.douyinpic.com/tos-cn-p-0015/oABK9yDt4brfQD8fir2IDGWEDpzFIAqDAIgAKC~noop.jpeg?lk3s=bfd515bb&x-expires=1793286000&x-signature=GLKpRNdQcIEjqDBRLZZQNTlBDAY%3D&from=3218412987",
+      "id": "https://www.douyin.com/hot/2720702",
+      "url": "https://www.douyin.com/hot/2720702",
+      "title": "比冬天先来的是一顿热火锅",
+      "content_text": "第 2 名 · 热度 1126.5 万",
+      "summary": "第 2 名 · 热度 1126.5 万",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015c000-ce/oUw0DZEqVvJKm9EFDqFEggDeBxA7fgHQQ0fFQc~noop.jpeg?lk3s=bfd515bb&x-expires=1793372400&x-signature=BB66i%2Bvyalss6X8ueNUmDNF37kY%3D&from=3218412987",
       "tags": [
         "热榜",
         "抖音"
@@ -173,13 +119,13 @@
       }
     },
     {
-      "id": "https://www.douyin.com/hot/2719522",
-      "url": "https://www.douyin.com/hot/2719522",
-      "title": "广电新规让看电视更简单",
-      "content_text": "第 7 名 · 热度 919.6 万",
-      "summary": "第 7 名 · 热度 919.6 万",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://p9-sign.douyinpic.com/tos-cn-p-0015/oITh9dgWqECrAjAu0B4F6HFEIfDCsAAh2gfcZI~noop.jpeg?lk3s=bfd515bb&x-expires=1793286000&x-signature=uiD89sKWAvyjELoYZRSftcaS9DU%3D&from=3218412987",
+      "id": "https://www.douyin.com/hot/2720500",
+      "url": "https://www.douyin.com/hot/2720500",
+      "title": "国防部称遵义舰从容应对侵权挑衅",
+      "content_text": "第 8 名 · 热度 916.0 万",
+      "summary": "第 8 名 · 热度 916.0 万",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://p3-sign.douyinpic.com/tos-cn-p-0015/osMHCr52QmxfAXLfeDIQtACeMnZjEAMtDgN82i~noop.jpeg?lk3s=bfd515bb&x-expires=1793372400&x-signature=W7T%2B4NnTgQ8YDZkgWhw0HBhj1oE%3D&from=3218412987",
       "tags": [
         "热榜",
         "抖音"
@@ -195,13 +141,13 @@
       }
     },
     {
-      "id": "https://www.douyin.com/hot/2718280",
-      "url": "https://www.douyin.com/hot/2718280",
-      "title": "寻味城市招牌美食",
-      "content_text": "第 9 名 · 热度 912.7 万",
-      "summary": "第 9 名 · 热度 912.7 万",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://p26-sign.douyinpic.com/tos-cn-p-0015c000-ce/owDKByAI7Qje1afkLgJCfgSwQA9VNkGVRrxJLD~noop.jpeg?lk3s=bfd515bb&x-expires=1793286000&x-signature=JxN7fkRq7sB5HXY4YSTiENKe0SQ%3D&from=3218412987",
+      "id": "https://www.douyin.com/hot/2721274",
+      "url": "https://www.douyin.com/hot/2721274",
+      "title": "党的二十届五中全会公报一图速览",
+      "content_text": "第 3 名 · 热度 1109.8 万",
+      "summary": "第 3 名 · 热度 1109.8 万",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://p11-sign.douyinpic.com/tos-cn-p-0015/ooPKlIAgn7C3EENBnIwIQiQaRwjKhaEPPAuAi~noop.jpeg?lk3s=bfd515bb&x-expires=1793372400&x-signature=SkBWRGgsQQPKqCRgKRGjT0B6K70%3D&from=3218412987",
       "tags": [
         "热榜",
         "抖音"
@@ -217,13 +163,13 @@
       }
     },
     {
-      "id": "https://www.douyin.com/hot/2718668",
-      "url": "https://www.douyin.com/hot/2718668",
-      "title": "多视角解读前三季度经济数据",
-      "content_text": "第 3 名 · 热度 1123.8 万",
-      "summary": "第 3 名 · 热度 1123.8 万",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://p26-sign.douyinpic.com/tos-cn-p-0015/o0WiPRgcfAIsrSTHGBe1NSBiqiANiAd5FVjIE8~noop.jpeg?lk3s=bfd515bb&x-expires=1793286000&x-signature=nWy4neTVH%2FPyh1fQWTQkSMStwnQ%3D&from=3218412987",
+      "id": "https://www.douyin.com/hot/2720335",
+      "url": "https://www.douyin.com/hot/2720335",
+      "title": "中国U17女足首进世界杯8强",
+      "content_text": "第 6 名 · 热度 1031.6 万",
+      "summary": "第 6 名 · 热度 1031.6 万",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://p3-sign.douyinpic.com/tos-cn-p-0015/osP7niGIAgAjiBdzJ2Po7aIxc9BuI0iQxBpP7~noop.jpeg?lk3s=bfd515bb&x-expires=1793372400&x-signature=H90BkQ1aXScuB6yX86wNtyq4iik%3D&from=3218412987",
       "tags": [
         "热榜",
         "抖音"
@@ -239,13 +185,13 @@
       }
     },
     {
-      "id": "https://www.douyin.com/hot/2719779",
-      "url": "https://www.douyin.com/hot/2719779",
-      "title": "二十届五中全会公报",
-      "content_text": "第 1 名 · 热度 1205.9 万",
-      "summary": "第 1 名 · 热度 1205.9 万",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://p26-sign.douyinpic.com/tos-cn-p-0015/owFarc6q4A3zAU1FEhtxf9FBCrjfQj0zAYogQD~noop.jpeg?lk3s=bfd515bb&x-expires=1793286000&x-signature=l8tC3LNPdVdOmJp7VqBq8xAP2fE%3D&from=3218412987",
+      "id": "https://www.douyin.com/hot/2719825",
+      "url": "https://www.douyin.com/hot/2719825",
+      "title": "中共中央举行新闻发布会",
+      "content_text": "第 1 名 · 热度 1210.8 万",
+      "summary": "第 1 名 · 热度 1210.8 万",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://p9-sign.douyinpic.com/tos-cn-p-0015/ogeBRIYMCYYjN0JMfRueAEAg2AloMeP4DjEr4G~noop.jpeg?lk3s=bfd515bb&x-expires=1793372400&x-signature=64qpSFH%2F55AoXaoUhomS24hzBgI%3D&from=3218412987",
       "tags": [
         "热榜",
         "抖音"
@@ -261,13 +207,13 @@
       }
     },
     {
-      "id": "https://www.douyin.com/hot/2718891",
-      "url": "https://www.douyin.com/hot/2718891",
-      "title": "为什么抖音vibe知识让人上头",
-      "content_text": "第 4 名 · 热度 1107.9 万",
-      "summary": "第 4 名 · 热度 1107.9 万",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://p26-sign.douyinpic.com/tos-cn-p-0015/osfFhGoAABBEMagZqnD1DqIr4Izpiy9ZcFlAre~noop.jpeg?lk3s=bfd515bb&x-expires=1793286000&x-signature=Qghn%2BctngGaqqp91iQq%2F5jEqVwk%3D&from=3218412987",
+      "id": "https://www.douyin.com/hot/2720350",
+      "url": "https://www.douyin.com/hot/2720350",
+      "title": "10架美军机飞抵以色列空军基地",
+      "content_text": "第 7 名 · 热度 917.2 万",
+      "summary": "第 7 名 · 热度 917.2 万",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://p3-sign.douyinpic.com/tos-cn-p-0015/oAxBee6HMAe7GLjQGs8IAZCEpBxLQoHAVacJB3~noop.jpeg?lk3s=bfd515bb&x-expires=1793372400&x-signature=de1FeN0muzRY3DGdCrzP8A5ukno%3D&from=3218412987",
       "tags": [
         "热榜",
         "抖音"

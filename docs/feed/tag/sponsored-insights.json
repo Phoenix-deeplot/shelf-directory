@@ -1,23 +1,26 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #Sponsored Insights",
+  "title": "知树阅读-个人图书空间 · #Sponsored Insights",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/sponsored-insights.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
     {
-      "id": "https://www.freightwaves.com/news/why-logistics-ai-still-needs-experts-in-the-loop",
-      "url": "https://www.freightwaves.com/news/why-logistics-ai-still-needs-experts-in-the-loop",
-      "title": "Why Logistics AI Still Needs “Experts in the Loop”",
-      "content_text": "As AI tools multiply across freight and logistics, the important question is how much control to hand over, and to what. On the latest Lean Quarterly Dive, host…",
-      "summary": "As AI tools multiply across freight and logistics, the important question is how much control to hand over, and to what. On the latest Lean Quarterly Dive, host…",
-      "date_published": "2026-10-27T00:00:00Z",
+      "id": "https://www.freightwaves.com/news/what-the-mastio-rankings-actually-tell-shippers",
+      "url": "https://www.freightwaves.com/news/what-the-mastio-rankings-actually-tell-shippers",
+      "title": "What the Mastio Rankings Actually Tell Shippers",
+      "content_text": "When a shipper puts an LTL lane out to bid, price is the number everyone can compare in five minutes. Price, however, doesn’t say much about what happens six mo…",
+      "summary": "When a shipper puts an LTL lane out to bid, price is the number everyone can compare in five minutes. Price, however, doesn’t say much about what happens six mo…",
+      "date_published": "2026-10-29T00:00:00Z",
       "tags": [
+        "Less than Truckload (LTL)",
         "News",
         "Sponsored Insights",
+        "LTL",
+        "Old Dominion Freight Line",
         "货运",
         "数据"
       ],
@@ -32,21 +35,17 @@
       }
     },
     {
-      "id": "https://www.freightwaves.com/news/completing-the-capacity-stack",
-      "url": "https://www.freightwaves.com/news/completing-the-capacity-stack",
-      "title": "Completing the Capacity Stack",
-      "content_text": "123Loadboard and Direct Freight are combining two independent freight marketplaces so brokers can close capacity gaps and carriers can find better-matched freig…",
-      "summary": "123Loadboard and Direct Freight are combining two independent freight marketplaces so brokers can close capacity gaps and carriers can find better-matched freig…",
-      "date_published": "2026-10-26T00:00:00Z",
+      "id": "https://www.freightwaves.com/news/why-logistics-ai-still-needs-experts-in-the-loop",
+      "url": "https://www.freightwaves.com/news/why-logistics-ai-still-needs-experts-in-the-loop",
+      "title": "Why Logistics AI Still Needs “Experts in the Loop”",
+      "content_text": "As AI tools multiply across freight and logistics, the important question is how much control to hand over, and to what. On the latest Lean Quarterly Dive, host…",
+      "summary": "As AI tools multiply across freight and logistics, the important question is how much control to hand over, and to what. On the latest Lean Quarterly Dive, host…",
+      "date_published": "2026-10-27T00:00:00Z",
       "tags": [
-        "Business",
         "News",
         "Sponsored Insights",
-        "Technology",
-        "123Loadboard",
-        "brokers",
-        "Capacity",
-        "capacity radar"
+        "货运",
+        "数据"
       ],
       "authors": [
         {

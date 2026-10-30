@@ -1,11 +1,155 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/shelf/producthunt-com.xml</id>
-  <title>公共目录 · Product Hunt — The best new products, every day</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · Product Hunt — The best new products, every day</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/producthunt-com.xml"/>
-  <updated>2026-10-28T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-29T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.producthunt.com/products/sitesolide</id>
+    <title>sitesolide</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/sitesolide"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Deploy your vibe-coded apps on your own server Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/ilse</id>
+    <title>ilse</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/ilse"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Point at your app and your AI agent changes the code Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/stepgrab</id>
+    <title>StepGrab</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/stepgrab"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Now on Windows, with redaction and a real editor Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/speakon</id>
+    <title>SpeakON Agent</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/speakon"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Turn natural speech into real work for an agent to complete Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/norah-studio</id>
+    <title>Norah Studio</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/norah-studio"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">A new space to explore your music Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/nocto</id>
+    <title>Nocto</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/nocto"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Your MacBook notch, finally useful Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/faylee</id>
+    <title>Faylee</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/faylee"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Bug reports your coding agent can fix from one link Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/chopstick</id>
+    <title>Chopstick</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/chopstick"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Mac activity and action widgets that write themselves Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/canva</id>
+    <title>Canva Brush</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/canva"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Canva Brush: a vision-language model that edits your designs Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/axonnic</id>
+    <title>Axonnic</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/axonnic"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Muscle-sensing sleeves for robot training Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/isurge</id>
+    <title>iSurge</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/isurge"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">An activity monitor, at your notch. Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/fastbrowse</id>
+    <title>fastbrowse</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/fastbrowse"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Fastest open source browser agent Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
   <entry>
     <id>https://www.producthunt.com/products/suno</id>
     <title>Suno MCP</title>
@@ -60,7 +204,7 @@
     <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/notch-metrics"/>
     <updated>2026-10-28T00:00:00Z</updated>
     <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Put your revenue and product analytics metrics in the notch Discussion | Link</summary>
+    <summary type="text">Use claude code to build analytics widgets for your notch Discussion | Link</summary>
     <source><title>Product Hunt — The best new products, every day</title></source>
     <category term="产品"/>
     <category term="科技"/>
@@ -84,7 +228,19 @@
     <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/kin-6"/>
     <updated>2026-10-28T00:00:00Z</updated>
     <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Connect your accounts once. Every AI follows your rules. Discussion | Link</summary>
+    <summary type="text">The AI labs want to own you. Make them answer to you. Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/kestrix</id>
+    <title>Kestrix</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/kestrix"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Repo-agnostic CI control plane with DAG-based triggers. Discussion | Link</summary>
     <source><title>Product Hunt — The best new products, every day</title></source>
     <category term="产品"/>
     <category term="科技"/>
@@ -175,36 +331,36 @@
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.producthunt.com/products/licenseal</id>
-    <title>licenseal</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/licenseal"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Catch incompatible dependency licenses before release Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/yardlet-2</id>
-    <title>Yardlet</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/yardlet-2"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">The Mac app for the coding agents you already use Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
     <id>https://www.producthunt.com/products/voxel51</id>
     <title>Voxel51 Multimodal</title>
     <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/voxel51"/>
     <updated>2026-10-27T00:00:00Z</updated>
     <published>2026-10-27T00:00:00Z</published>
     <summary type="text">Better data. Smarter robots. Repeat. Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/vaani-developer-platfrom</id>
+    <title>Vaani Developer Platform</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/vaani-developer-platfrom"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">The only voice AI harness that you'll ever need Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/teable-4</id>
+    <title>Teable Mobile</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/teable-4"/>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <published>2026-10-27T00:00:00Z</published>
+    <summary type="text">Build the systems your team runs on, now from your phone Discussion | Link</summary>
     <source><title>Product Hunt — The best new products, every day</title></source>
     <category term="产品"/>
     <category term="科技"/>
@@ -247,66 +403,6 @@
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.producthunt.com/products/our-silly-games</id>
-    <title>Our Silly Games</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/our-silly-games"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Skills to build games with Claude. Free multiplayer hosting. Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/open-for-sales</id>
-    <title>Open For sales</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/open-for-sales"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Your next sales campaign is one prompt away Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/notikeep</id>
-    <title>NotiKeep</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/notikeep"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Notification history for iPhone, on your device Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/lfm2</id>
-    <title>LFM3 by Liquid AI</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/lfm2"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Six 2B-class models for phones, laptops and robots Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/gemini-1-5-pro</id>
-    <title>Genie 4</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/gemini-1-5-pro"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Turn a prompt into a living world you can steer Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
     <id>https://www.producthunt.com/products/enclave-2</id>
     <title>Enclave</title>
     <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/enclave-2"/>
@@ -331,36 +427,36 @@
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.producthunt.com/products/alpha-vantage</id>
-    <title>Congress Trades</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/alpha-vantage"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">See how Congress members trade, and if copying them pays off Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
     <id>https://www.producthunt.com/products/confetti-5</id>
     <title>Confetti</title>
     <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/confetti-5"/>
     <updated>2026-10-27T00:00:00Z</updated>
     <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Build hardware projects using plain-English prompts Discussion | Link</summary>
+    <summary type="text">Easiest way to build hardware gadgets using plain English Discussion | Link</summary>
     <source><title>Product Hunt — The best new products, every day</title></source>
     <category term="产品"/>
     <category term="科技"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.producthunt.com/products/basedash</id>
-    <title>Basedash View-only members</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/basedash"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">Share dashboards with anyone. They can look, not edit. Discussion | Link</summary>
+    <id>https://www.producthunt.com/products/sparkbots-ai-analyze-pages-and-pdfs</id>
+    <title>SparkBots AI (Powered by Jev)</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/sparkbots-ai-analyze-pages-and-pdfs"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Instantly extract key details and analyze any webpage or PDF Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/knocket-ai</id>
+    <title>Knocket AI</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/knocket-ai"/>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <published>2026-10-26T00:00:00Z</published>
+    <summary type="text">Chat with visitors from your website or link Discussion | Link</summary>
     <source><title>Product Hunt — The best new products, every day</title></source>
     <category term="产品"/>
     <category term="科技"/>
@@ -379,24 +475,12 @@
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.producthunt.com/products/hob-3</id>
-    <title>Hob</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/hob-3"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Open-source, on device alternative to Claude and ChatGPT Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/dotverse</id>
-    <title>Dotverse</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/dotverse"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Your Dot now with a crew Discussion | Link</summary>
+    <id>https://www.producthunt.com/products/stereolift-live</id>
+    <title>StereoLift Live</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/stereolift-live"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <published>2026-10-25T00:00:00Z</published>
+    <summary type="text">your desktop in real 3D, live on your Quest Discussion | Link</summary>
     <source><title>Product Hunt — The best new products, every day</title></source>
     <category term="产品"/>
     <category term="科技"/>
@@ -415,60 +499,12 @@
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.producthunt.com/products/trellis-4</id>
-    <title>Trellis</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/trellis-4"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">More than a terminal: a native macOS workspace for devs Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/tonko</id>
-    <title>TONKO</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/tonko"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">Pocket money app that teaches kids about money Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/fraud-blocker</id>
-    <title>Fraud Blocker</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/fraud-blocker"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">AI ad fraud protection for Google and Meta ads Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
     <id>https://www.producthunt.com/products/gologin</id>
     <title>Gologin Cloud Browser</title>
     <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/gologin"/>
     <updated>2026-10-22T00:00:00Z</updated>
     <published>2026-10-22T00:00:00Z</published>
     <summary type="text">Cloud browser for AI agents and tough sites Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/bytemail</id>
-    <title>bytemail</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/bytemail"/>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <published>2026-10-21T00:00:00Z</published>
-    <summary type="text">Native Mac email: every inbox, in your notch, no trackers Discussion | Link</summary>
     <source><title>Product Hunt — The best new products, every day</title></source>
     <category term="产品"/>
     <category term="科技"/>
@@ -487,12 +523,36 @@
     <category term="热榜"/>
   </entry>
   <entry>
+    <id>https://www.producthunt.com/products/xwiki</id>
+    <title>MCP Server by XWiki</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/xwiki"/>
+    <updated>2026-10-20T00:00:00Z</updated>
+    <published>2026-10-20T00:00:00Z</published>
+    <summary type="text">Give your AI your wiki's knowledge while keeping the control Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
     <id>https://www.producthunt.com/products/viggle-ai</id>
     <title>Viggle JST-2</title>
     <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/viggle-ai"/>
     <updated>2026-10-19T00:00:00Z</updated>
     <published>2026-10-19T00:00:00Z</published>
     <summary type="text">JST-2: 3D scenes, characters and motion from one model Discussion | Link</summary>
+    <source><title>Product Hunt — The best new products, every day</title></source>
+    <category term="产品"/>
+    <category term="科技"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.producthunt.com/products/topmessage</id>
+    <title>TopAgent</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/topmessage"/>
+    <updated>2026-10-19T00:00:00Z</updated>
+    <published>2026-10-19T00:00:00Z</published>
+    <summary type="text">Drive B2B event attendance with an AI agent Discussion | Link</summary>
     <source><title>Product Hunt — The best new products, every day</title></source>
     <category term="产品"/>
     <category term="科技"/>
@@ -511,12 +571,12 @@
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.producthunt.com/products/trigger-dev</id>
-    <title>Trigger.dev: Webhooks for your AI agents</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/trigger-dev"/>
+    <id>https://www.producthunt.com/products/cluinn</id>
+    <title>Cluinn</title>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/cluinn"/>
     <updated>2026-10-16T00:00:00Z</updated>
     <published>2026-10-16T00:00:00Z</published>
-    <summary type="text">Run AI agents with Slack, Supabase and 50+ other services Discussion | Link</summary>
+    <summary type="text">Answers your questions during the call, not after. For Mac. Discussion | Link</summary>
     <source><title>Product Hunt — The best new products, every day</title></source>
     <category term="产品"/>
     <category term="科技"/>
@@ -535,72 +595,12 @@
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.producthunt.com/products/mudroom-3</id>
-    <title>Mudroom</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/mudroom-3"/>
-    <updated>2026-10-12T00:00:00Z</updated>
-    <published>2026-10-12T00:00:00Z</published>
-    <summary type="text">Run coding agents in a VM, review changes like a PR Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/zro</id>
-    <title>Zro: Uncensored Security Models</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/zro"/>
-    <updated>2026-10-11T00:00:00Z</updated>
-    <published>2026-10-11T00:00:00Z</published>
-    <summary type="text">Abliterated open models for security work Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/ragelayer</id>
-    <title>RageLayer</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/ragelayer"/>
-    <updated>2026-10-04T00:00:00Z</updated>
-    <published>2026-10-04T00:00:00Z</published>
-    <summary type="text">Let visitors smash your website, then sweep it back Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/app-store-screenshots</id>
-    <title>App Store Screenshots</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/app-store-screenshots"/>
-    <updated>2026-10-04T00:00:00Z</updated>
-    <published>2026-10-04T00:00:00Z</published>
-    <summary type="text">Your coding agent designs your app store screenshots Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
     <id>https://www.producthunt.com/products/chatinbox-2</id>
     <title>ChatInbox</title>
     <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/chatinbox-2"/>
     <updated>2026-09-04T00:00:00Z</updated>
     <published>2026-09-04T00:00:00Z</published>
     <summary type="text">Email that groups your inbox by contact Discussion | Link</summary>
-    <source><title>Product Hunt — The best new products, every day</title></source>
-    <category term="产品"/>
-    <category term="科技"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.producthunt.com/products/tulu</id>
-    <title>Tulu</title>
-    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/tulu"/>
-    <updated>2026-07-19T00:00:00Z</updated>
-    <published>2026-07-19T00:00:00Z</published>
-    <summary type="text">Autonomous marketing operations &amp; analytics for SMBs Discussion | Link</summary>
     <source><title>Product Hunt — The best new products, every day</title></source>
     <category term="产品"/>
     <category term="科技"/>

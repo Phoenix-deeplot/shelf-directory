@@ -1,20 +1,20 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #hacker news",
+  "title": "知树阅读-个人图书空间 · #hacker news",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/hacker-news.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
     {
-      "id": "https://nullpt.rs/fingerprinting-bioweapons",
-      "url": "https://nullpt.rs/fingerprinting-bioweapons",
-      "title": "Why is this fingerprinting script creating bioweapons?",
-      "content_text": "第 1 名 · ▲ 1,217 · 231 条评论",
-      "summary": "第 1 名 · ▲ 1,217 · 231 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.bbc.com/news/articles/cm8xz7pkd0jjo",
+      "url": "https://www.bbc.com/news/articles/cm8xz7pkd0jjo",
+      "title": "What we know so far about Spain train crash",
+      "content_text": "第 9 名 · ▲ 201 · 367 条评论",
+      "summary": "第 9 名 · ▲ 201 · 367 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热榜",
         "hacker news"
@@ -30,12 +30,12 @@
       }
     },
     {
-      "id": "https://www.circuithub.com/post/unveiling-the-grid",
-      "url": "https://www.circuithub.com/post/unveiling-the-grid",
-      "title": "The Grid, a factory-scale robot in Massachusetts that builds PCBs on demand",
-      "content_text": "第 5 名 · ▲ 499 · 227 条评论",
-      "summary": "第 5 名 · ▲ 499 · 227 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://mistral.ai/news/mistral-large-4-oss/",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "title": "We're releasing the weights of Mistral Large 4",
+      "content_text": "第 2 名 · ▲ 1,466 · 396 条评论",
+      "summary": "第 2 名 · ▲ 1,466 · 396 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热榜",
         "hacker news"
@@ -51,12 +51,12 @@
       }
     },
     {
-      "id": "https://data.stackexchange.com/stackoverflow/query/1926661",
-      "url": "https://data.stackexchange.com/stackoverflow/query/1926661",
-      "title": "StackOverflow now gets fewer than 1000 questions a month",
-      "content_text": "第 8 名 · ▲ 442 · 365 条评论",
-      "summary": "第 8 名 · ▲ 442 · 365 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://labs.ycombinator.com/projects/games/index.html",
+      "url": "https://labs.ycombinator.com/projects/games/index.html",
+      "title": "We ran AI agent swarms in Minecraft and Mindustry",
+      "content_text": "第 6 名 · ▲ 287 · 100 条评论",
+      "summary": "第 6 名 · ▲ 287 · 100 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热榜",
         "hacker news"
@@ -72,12 +72,12 @@
       }
     },
     {
-      "id": "https://divagr.com/blog/qwenputer",
-      "url": "https://divagr.com/blog/qwenputer",
-      "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
-      "content_text": "第 7 名 · ▲ 456 · 96 条评论",
-      "summary": "第 7 名 · ▲ 456 · 96 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+      "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+      "title": "Patrick Stewart has died",
+      "content_text": "第 1 名 · ▲ 2,983 · 628 条评论",
+      "summary": "第 1 名 · ▲ 2,983 · 628 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热榜",
         "hacker news"
@@ -93,12 +93,12 @@
       }
     },
     {
-      "id": "https://www.apple.com/macbook-pro/proled-xdr-display/",
-      "url": "https://www.apple.com/macbook-pro/proled-xdr-display/",
-      "title": "MacBook Pro with PROLED XDR Display and Touch",
-      "content_text": "第 4 名 · ▲ 578 · 977 条评论",
-      "summary": "第 4 名 · ▲ 578 · 977 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "title": "LLM Voice",
+      "content_text": "第 4 名 · ▲ 478 · 253 条评论",
+      "summary": "第 4 名 · ▲ 478 · 253 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热榜",
         "hacker news"
@@ -114,12 +114,12 @@
       }
     },
     {
-      "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-      "title": "Gemini 4 Carbon",
-      "content_text": "第 3 名 · ▲ 933 · 749 条评论",
-      "summary": "第 3 名 · ▲ 933 · 749 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://iptrust.co/blog/if-ipv4-were-land",
+      "url": "https://iptrust.co/blog/if-ipv4-were-land",
+      "title": "If IPv4 were land",
+      "content_text": "第 7 名 · ▲ 286 · 402 条评论",
+      "summary": "第 7 名 · ▲ 286 · 402 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热榜",
         "hacker news"
@@ -135,12 +135,12 @@
       }
     },
     {
-      "id": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-      "title": "Claude Code regularly sends each background agent’s transcript to its model",
-      "content_text": "第 9 名 · ▲ 363 · 120 条评论",
-      "summary": "第 9 名 · ▲ 363 · 120 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://github.com/herdrdev/herdr-app",
+      "url": "https://github.com/herdrdev/herdr-app",
+      "title": "Herdr has released native app",
+      "content_text": "第 10 名 · ▲ 199 · 125 条评论",
+      "summary": "第 10 名 · ▲ 199 · 125 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热榜",
         "hacker news"
@@ -156,12 +156,12 @@
       }
     },
     {
-      "id": "https://carmelitegothic.com/cnc-stone-carving/",
-      "url": "https://carmelitegothic.com/cnc-stone-carving/",
-      "title": "CNC Stone Carving",
-      "content_text": "第 6 名 · ▲ 470 · 130 条评论",
-      "summary": "第 6 名 · ▲ 470 · 130 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://sidbala.com/h-264-is-magic/",
+      "url": "https://sidbala.com/h-264-is-magic/",
+      "title": "H.264 Is Magic (2016)",
+      "content_text": "第 5 名 · ▲ 434 · 149 条评论",
+      "summary": "第 5 名 · ▲ 434 · 149 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热榜",
         "hacker news"
@@ -177,12 +177,12 @@
       }
     },
     {
-      "id": "https://emudhra.we-have-a-problem.com/apple.html",
-      "url": "https://emudhra.we-have-a-problem.com/apple.html",
-      "title": "Apple's git still trusts the compromised eMudhra certificates",
-      "content_text": "第 2 名 · ▲ 1,134 · 396 条评论",
-      "summary": "第 2 名 · ▲ 1,134 · 396 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+      "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+      "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+      "content_text": "第 3 名 · ▲ 1,350 · 829 条评论",
+      "summary": "第 3 名 · ▲ 1,350 · 829 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热榜",
         "hacker news"
@@ -198,12 +198,12 @@
       }
     },
     {
-      "id": "https://furbo.org/2026/10/28/a-health-update/",
-      "url": "https://furbo.org/2026/10/28/a-health-update/",
-      "title": "A Health Update",
-      "content_text": "第 10 名 · ▲ 252 · 40 条评论",
-      "summary": "第 10 名 · ▲ 252 · 40 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://github.com/SheepSeb/tinyworldformer",
+      "url": "https://github.com/SheepSeb/tinyworldformer",
+      "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+      "content_text": "第 8 名 · ▲ 210 · 15 条评论",
+      "summary": "第 8 名 · ▲ 210 · 15 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热榜",
         "hacker news"

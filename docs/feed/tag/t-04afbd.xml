@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/t-04afbd.xml</id>
-  <title>公共目录 · #制造</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · #制造</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-04afbd.xml"/>
-  <updated>2026-10-28T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-29T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.industryweek.com/technology-and-iiot/systems-integration/article/55415415/erp-transformation-starts-with-your-operating-model</id>
+    <title>ERP Transformation Starts With Your Operating Model</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/technology-and-iiot/systems-integration/article/55415415/erp-transformation-starts-with-your-operating-model"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">If installing software is your first priority, the project can quickly turn into a technology swap carrying over old problems and workarounds.</summary>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.industryweek.com/resources/industryweek-best-plants-awards/article/55415154/2026-industry-best-plants-lb-foster-burnaby-is-a-small-plant-punching-above-its-weight</id>
+    <title>2026 IndustryWeek Best Plants: L.B. Foster Burnaby Is a Small Plant Punching Above Its Weight</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/resources/industryweek-best-plants-awards/article/55415154/2026-industry-best-plants-lb-foster-burnaby-is-a-small-plant-punching-above-its-weight"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">A culture of innovation and collaboration leads to enviable results.</summary>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
   <entry>
     <id>https://www.industryweek.com/the-economy/news/55415104/us-fed-holds-interest-rates-steady-despite-surging-inflation</id>
     <title>US Fed Holds Interest Rates Steady Despite Surging Inflation</title>
@@ -266,28 +288,6 @@
     <updated>2026-10-16T00:00:00Z</updated>
     <published>2026-10-16T00:00:00Z</published>
     <summary type="text">The sales force of the industrial products distributor shrank by 400 in the third quarter. Executives say they need fewer people at customer sites these days an…</summary>
-    <source><title>Home | IndustryWeek</title></source>
-    <category term="制造"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.industryweek.com/talent/recruiting-retention/article/55412231/manufacturing-day-2026-celebrating-spacecraft-innovation-and-high-tech-shipbuilding</id>
-    <title>Manufacturing Day 2026: Celebrating Spacecraft Innovation and High-Tech Shipbuilding</title>
-    <link rel="alternate" type="text/html" href="https://www.industryweek.com/talent/recruiting-retention/article/55412231/manufacturing-day-2026-celebrating-spacecraft-innovation-and-high-tech-shipbuilding"/>
-    <updated>2026-10-15T00:00:00Z</updated>
-    <published>2026-10-15T00:00:00Z</published>
-    <summary type="text">Welders, machinists and fabricators are finding jobs building autonomous vessels and rocket engines.</summary>
-    <source><title>Home | IndustryWeek</title></source>
-    <category term="制造"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.industryweek.com/industry-events/manufacturing-day/article/55412272/faces-of-manufacturing-i-love-that-manufacturing-mixes-technical-work-with-teamwork</id>
-    <title>Faces of Manufacturing: 'I Love That Manufacturing Mixes Technical Work with Teamwork'</title>
-    <link rel="alternate" type="text/html" href="https://www.industryweek.com/industry-events/manufacturing-day/article/55412272/faces-of-manufacturing-i-love-that-manufacturing-mixes-technical-work-with-teamwork"/>
-    <updated>2026-10-15T00:00:00Z</updated>
-    <published>2026-10-15T00:00:00Z</published>
-    <summary type="text">"You get to use science and engineering every day, but you also rely on collaboration and problem solving to turn ideas into tangible products," says Gustavo Su…</summary>
     <source><title>Home | IndustryWeek</title></source>
     <category term="制造"/>
     <category term="运营"/>

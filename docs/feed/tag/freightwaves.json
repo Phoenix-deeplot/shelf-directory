@@ -1,9 +1,9 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #FreightWaves",
+  "title": "知树阅读-个人图书空间 · #FreightWaves",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/freightwaves.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
@@ -51,60 +51,6 @@
         "logistics",
         "Trucking",
         "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/double-nickel-launches-ai-agent-to-automate-driver-employment-checks",
-      "url": "https://www.freightwaves.com/news/double-nickel-launches-ai-agent-to-automate-driver-employment-checks",
-      "title": "Double Nickel launches AI agent to automate driver employment checks",
-      "content_text": "Double Nickel has launched an artificial intelligence agent to automate employment verifications for trucking companies, targeting a time-consuming part of driv…",
-      "summary": "Double Nickel has launched an artificial intelligence agent to automate employment verifications for trucking companies, targeting a time-consuming part of driv…",
-      "date_published": "2026-10-27T00:00:00Z",
-      "tags": [
-        "News",
-        "Technology",
-        "AI",
-        "Double Nickel",
-        "FreightWaves",
-        "logistics",
-        "货运",
-        "数据"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/band24-seeks-early-testers-for-satellite-connected-asset-tracker-ahead-of-nov-13-deadline",
-      "url": "https://www.freightwaves.com/news/band24-seeks-early-testers-for-satellite-connected-asset-tracker-ahead-of-nov-13-deadline",
-      "title": "Band24 seeks early testers for satellite-connected asset tracker ahead of Nov. 13 deadline",
-      "content_text": "Asset-tracking company Band24 is seeking businesses to test Terra, a new tracker combining Bluetooth, cellular and satellite connectivity, ahead of a Nov. 13 de…",
-      "summary": "Asset-tracking company Band24 is seeking businesses to test Terra, a new tracker combining Bluetooth, cellular and satellite connectivity, ahead of a Nov. 13 de…",
-      "date_published": "2026-10-27T00:00:00Z",
-      "tags": [
-        "News",
-        "Technology",
-        "Band24",
-        "Freight",
-        "FreightWaves",
-        "logistics",
-        "货运",
-        "数据"
       ],
       "authors": [
         {

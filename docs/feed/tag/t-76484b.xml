@@ -1,11 +1,176 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/t-76484b.xml</id>
-  <title>公共目录 · #新闻</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · #新闻</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-76484b.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/30/trump-vance-rally-midterm-elections-.html</id>
+    <title>Trump, Vance scrap planned appearances in final stretch of midterm campaign</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/30/trump-vance-rally-midterm-elections-.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Trump and JD Vance have canceled planned appearances across three states, reducing in-person campaigning in the final days before midterm elections.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/29/polymarket-reports-outage-on-international-exchange-halts-trading.html</id>
+    <title>Some Polymarket user funds stolen by hackers; exchange referring matter to U.K. authorities</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/polymarket-reports-outage-on-international-exchange-halts-trading.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">The outage comes just days before the platform is expected to experience heightened trading during the U.S. midterm elections.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html</id>
+    <title>Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Reddit posts third-quarter earnings and reveals plans to require all users to create official accounts as Google search traffic shrinks</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/29/microsoft-25-billion-debt-offering.html</id>
+    <title>Microsoft plans to raise $25 billion in debt as it pursues AI buildout</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/microsoft-25-billion-debt-offering.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Microsoft boasts a strong credit rating and has managed to maintain positive free cash flow, unlike Meta, Alphabet and Amazon.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/30/israel-election-netanyahu-eisenkot-coalition-talks-.html</id>
+    <title>Israel faces weeks of coalition haggling as Netanyahu’s party claims election 'stolen'</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/30/israel-election-netanyahu-eisenkot-coalition-talks-.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Israel's election leaves the country facing weeks of coalition bargaining and an uphill battle for the opposition party to form a majority government.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html</id>
+    <title>Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Iran said four tankers struck mines in the Strait of Hormuz, while Tehran disputed a U.S. claim that key shipping lanes had been cleared.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/30/election-trump-brazil-serbia-hungary.html</id>
+    <title>How elections worldwide are testing Trump’s influence abroad</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/30/election-trump-brazil-serbia-hungary.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Recent election losses by leaders linked to Trump have prompted questions about whether his influence over the global right is weakening.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/30/hon-hai-technology-group-foxconn-ai-server-young-liu-.html</id>
+    <title>Foxconn hopes to own 50% of the global AI server market within a couple years</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/30/hon-hai-technology-group-foxconn-ai-server-young-liu-.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Foxconn's chairman told CNBC that AI demand remains strong as the company eyes U.S. expansion and a larger share of the global AI server market.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/29/alaska-senate-governor-investigation-sullivan-peltola-doj.html</id>
+    <title>DOJ escalates Alaska Senate lawsuit over dueling Sullivan candidacies</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/alaska-senate-governor-investigation-sullivan-peltola-doj.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Alaska's election could determine which party has a majority in the Senate. GOP Sen. Dan Sullivan faces a strong challenge from Democrat Mary Peltola.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/30/billions-in-crypto-frozen-in-binance-hack-heres-what-happens-next-.html</id>
+    <title>Binance's $6.3 billion hack: What we know and what comes next</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/30/billions-in-crypto-frozen-in-binance-hack-heres-what-happens-next-.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Billions in crypto assets have been frozen following a potential Binance security breach, raising questions about whether the funds can be recovered.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html</id>
+    <title>Biggest-ever crypto hack impacts $6.3 billion as Binance works to contain fallout</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Binance estimated the impact of a security incident at $6.3 billion, with around $3 billion in crypto assets frozen, and pledged to cover all losses.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/30/bp-earnings-oil-q3.html</id>
+    <title>BP’s third-quarter profit nearly quadruples to $8.5 billion as refining margins surge</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/30/bp-earnings-oil-q3.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">The oil major was the latest to smash profit expectations as global conflicts continue to drive energy market volatility.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html</id>
+    <title>BOJ holds rates as underlying inflation aligns with 2% target for first time since 2013</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">The BOJ declared that its underlying inflation target of 2% has been met, the first time the central bank has done so since it set the target in 2013.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html</id>
+    <title>Amazon falls 7%, Intel plunges 25% in premarket trading, as pressure mounts after earnings</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Investors are nervous about the massive AI spending from the tech giants and whether that will pay off.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/30/novartis-remibrutinib-multiple-sclerosis.html</id>
+    <title>A pharma giant is moving past one patent cliff — but another is already looming</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/30/novartis-remibrutinib-multiple-sclerosis.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Disappointing data highlights Novartis' challenge to build its next generation of blockbuster medicines, following a series of clinical trial setbacks.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
   <entry>
     <id>https://www.npr.org/2026/10/29/nx-s1-6021969/midterm-spending-blitz-gdp-inflations-reports-israel-election-deadlock-iran-war</id>
     <title>Midterm Spending Blitz, GDP &amp; Inflations Reports, Israel Election Deadlock &amp; Iran War</title>
@@ -18,144 +183,166 @@
     <category term="英语听力"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/2026/10/29/trump-methane-rollback-oil-prices-epa.html</id>
-    <title>Trump methane policy rollback may have minimal impact on crude prices, EPA says</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/trump-methane-rollback-oil-prices-epa.html"/>
+    <id>https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html</id>
+    <title>Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"/>
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">The EPA projects Trump’s methane rollback would only lower 2027 U.S. crude prices 11 cents a barrel, while lifting domestic oil output 0.09%.</summary>
+    <summary type="text">The personal consumption expenditures price index was projected to increase 0.5% in September for an annual rate of 3.7%, according to the Dow Jones consensus.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/2026/10/29/tencent-visa-citi-mastercard-.html</id>
-    <title>Tencent, Visa deepen payments push in China after regulatory green light</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/tencent-visa-citi-mastercard-.html"/>
+    <id>https://www.cnbc.com/2026/10/29/steve-eisman-gets-more-conservative-with-portfolio-as-ai-trade-nears-tipping-point.html</id>
+    <title>Steve Eisman gets more conservative with portfolio as AI trade nears 'tipping point'</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/steve-eisman-gets-more-conservative-with-portfolio-as-ai-trade-nears-tipping-point.html"/>
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Tencent and Visa are expanding their payments partnership following recent regulatory approvals for foreign financial firms in China.</summary>
+    <summary type="text">The noted investor, famous from "The Big Short," says it would be "impossible" for an AI crash not to hurt the broader market</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/2026/10/29/shell-earnings-oil-q3.html</id>
-    <title>Shell nearly doubles quarterly profit year-on-year as refining margins soar to record high</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/shell-earnings-oil-q3.html"/>
+    <id>https://www.cnbc.com/2026/10/29/starbucks-sbux-q4-2026-earnings.html</id>
+    <title>Starbucks sales miss expectations, but its U.S. turnaround is gaining steam</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/starbucks-sbux-q4-2026-earnings.html"/>
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">The oil major hiked its share buyback program as geopolitical volatility and a refined products crunch drove energy and fuel prices sharply higher.</summary>
+    <summary type="text">Starbucks' U.S. stores topped Wall Street's comparable sales expectations but its international business fell short of estimates.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html</id>
-    <title>Samsung Electronics shares slid despite record profit in the third-quarter</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html"/>
+    <id>https://www.cnbc.com/2026/10/29/midterm-elections-stock-market-history.html</id>
+    <title>Some investors have midterm election jitters. Here’s what history shows about stocks</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/midterm-elections-stock-market-history.html"/>
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Samsung Electronics reported third-quarter earnings on Thursday.</summary>
+    <summary type="text">Investors are anxious about the 2026 midterms. Here's what historical S&amp;P 500 data shows happened before and after past elections.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/2026/10/29/putin-elon-musk-starlink-ukraine.html</id>
-    <title>Putin praises Elon Musk as a ‘real genius’ as Russia develops Starlink alternative</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/putin-elon-musk-starlink-ukraine.html"/>
+    <id>https://www.cnbc.com/2026/10/29/rivian-rivn-earnings-q3-2026.html</id>
+    <title>Rivian third-quarter earnings beat estimates as software revenue, R2 deliveries rise</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/rivian-rivn-earnings-q3-2026.html"/>
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Russia is trying to develop is own version of the satellite constellation Starlink: Rassvet.</summary>
+    <summary type="text">Rivian also revised its 2026 guidance to mark expected improvements in its vehicle deliveries, pre-tax adjusted earnings and capital expenditures.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/2026/10/29/dhs-data-breach-ice-cdp-deportations.html</id>
-    <title>Over 41,000 U.S. Homeland Security officials' details apparently exposed after massive data breach</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/dhs-data-breach-ice-cdp-deportations.html"/>
+    <id>https://www.cnbc.com/2026/10/29/druckenmiller-hyperliquid-surge.html</id>
+    <title>Rare Stanley Druckenmiller post sends crypto-linked stock surging</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/druckenmiller-hyperliquid-surge.html"/>
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">CNBC was able to access the database on the website, and saw it contained names alleged to be of officials, titles, agencies, and offices in cities and states.</summary>
+    <summary type="text">Options traders pounced on the closest publicly-traded play to the news.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/investingclub/2026/10/28/microsofts-quarter-validates-stock-rebound-heres-our-new-price-target.html</id>
-    <title>Microsoft’s strong quarter backs up its stock rebound. Here's our new price target</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/investingclub/2026/10/28/microsofts-quarter-validates-stock-rebound-heres-our-new-price-target.html"/>
+    <id>https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html</id>
+    <title>Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html"/>
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Microsoft shares are up nearly 3% in after-hours trading, putting the stock in record-high territory.</summary>
+    <summary type="text">Nvidia disputed a New York Times report that U.S. intelligence agencies surveilled a person close to CEO Jensen Huang over concerns she could be a Chinese spy.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html</id>
-    <title>Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html"/>
+    <id>https://www.cnbc.com/2026/10/29/norwegian-earnings-guidance-shares.html</id>
+    <title>Norwegian shares surge 13% on earnings beat, guidance raise</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/norwegian-earnings-guidance-shares.html"/>
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Microsoft reported better-than-expected results driven by 48% growth in Azure revenue.</summary>
+    <summary type="text">Norwegian said the company's bookings had "improved modestly" but remain below its optimal range.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/2026/10/29/us-iran-war-trump-hormuz.html</id>
-    <title>Hegseth reportedly fires U.S. top military planner as Trump downplays Iran peace talks</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/us-iran-war-trump-hormuz.html"/>
+    <id>https://www.cnbc.com/2026/10/29/bank-north-dakota-socialism-election.html</id>
+    <title>It's a 'socialist' bank — and North Dakota Republicans love it</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/bank-north-dakota-socialism-election.html"/>
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Lieutenant General Brett Sylvia was removed as head of strategy, plans and policy on the Joint Chiefs of Staff.</summary>
+    <summary type="text">Democratic socialist candidates have held up North Dakota's state-owned bank as a model to emulate.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/2026/10/29/china-tech-stocks-selloff.html</id>
-    <title>China’s tech darlings are losing their shine. Here’s what’s behind the sell-off</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/china-tech-stocks-selloff.html"/>
+    <id>https://www.cnbc.com/2026/10/29/trump-accounts-frank-bisignano-brooklyn.html</id>
+    <title>IRS CEO Bisignano donates to Trump Accounts in his childhood Brooklyn ZIP code</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/trump-accounts-frank-bisignano-brooklyn.html"/>
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">China's tech rally is being tested as as investors question whether AI profits can justify lofty valuations.</summary>
+    <summary type="text">IRS CEO Frank Bisignano has donated to Trump Accounts for Brooklyn kids from his hometown ZIP code. Here's what families need to know.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/2026/10/29/ambani-billionaire-jio-ipo-india.html</id>
-    <title>Billionaire Ambani cries tears of joy as Jio Platforms becomes the second most valued Indian firm</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/ambani-billionaire-jio-ipo-india.html"/>
+    <id>https://www.cnbc.com/2026/10/29/royal-caribbean-carnival-norwegian-fuel-costs.html</id>
+    <title>Cruise companies aim to keep fuel costs down. Their strategies for doing so differ</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/royal-caribbean-carnival-norwegian-fuel-costs.html"/>
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Ahead of Jio's listing, Mukesh Ambani teared up as his three children shared the journey of building Jio and vowed to create value for investors over the next 5…</summary>
+    <summary type="text">Carnival is cutting fuel use, while Royal Caribbean and Norwegian rely on "hedging" to keep fuel costs down amid conflict in the Middle East.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html</id>
-    <title>Analysis: Warsh is learning to wield the Fed's power without showing his hand</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html"/>
+    <id>https://www.cnbc.com/2026/10/29/coinbase-coin-earnings-q3-2026-.html</id>
+    <title>Coinbase net income surges 66% in third quarter, benefiting from bitcoin investment gains</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/coinbase-coin-earnings-q3-2026-.html"/>
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">The new chairman made clear he leans toward higher interest rates, but left himself options depending on how the data comes in.</summary>
+    <summary type="text">Coinbase posted better-than-expected earnings in the third quarter, largely due to a recovery in the cryptocurrency market.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
   </entry>
   <entry>
-    <id>https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html</id>
-    <title>Alphabet falls 10% in premarket, putting it on course for its biggest ever post-earnings drop</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html"/>
+    <id>https://www.cnbc.com/2026/10/29/big-oil-earnings-are-set-to-surge-why-investors-may-want-to-be-cautious.html</id>
+    <title>Big Oil earnings are set to surge. Why investors may want to be cautious</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/big-oil-earnings-are-set-to-surge-why-investors-may-want-to-be-cautious.html"/>
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Alphabet reported a larger negative free cash flow than analysts had expected while maintaining its spending gudiance for the year.</summary>
+    <summary type="text">Big Oil earnings are coming. Why guidance could matter most and why the the charts suggest investors should be cautious.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/29/aws-q3-earnings-report-2026.html</id>
+    <title>Amazon AWS posts 39% revenue growth as cloud rivals also accelerate</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/aws-q3-earnings-report-2026.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Amazon's cloud signed deals with Meta and OpenAI during the quarter, helping revenue to exceed consensus.</summary>
+    <source><title>US Top News and Analysis</title></source>
+    <category term="金融"/>
+    <category term="新闻"/>
+  </entry>
+  <entry>
+    <id>https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html</id>
+    <title>Alphabet earnings miss reflects first real sign that AI is taking a bite out of search</title>
+    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Wall Street hammered Alphabet for an earnings miss that included weaker-than-expected revenue out of the company's core business.</summary>
     <source><title>US Top News and Analysis</title></source>
     <category term="金融"/>
     <category term="新闻"/>
@@ -170,193 +357,6 @@
     <source><title>Up First from NPR</title></source>
     <category term="新闻"/>
     <category term="英语听力"/>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/2026/10/28/nelson-peltz-trian-wendys-1point4-billion.html</id>
-    <title>Wendy's shares jump 15% as Nelson Peltz's Trian offers $1.4 billion to buy burger chain</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/28/nelson-peltz-trian-wendys-1point4-billion.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Wendy's has endured a tough two-year stretch as diners eat out less often.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/2026/10/28/weil-gotshal-law-firm-wall-street-wind-down.html</id>
-    <title>Weil, Gotshal &amp; Manges, longtime Wall Street law firm, plans wind down</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/28/weil-gotshal-law-firm-wall-street-wind-down.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Weil, Gotshal &amp; Manges, a multinational law firm, has represented major corporations over its nearly century-long history.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/2026/10/28/trump-white-house-media-ban-cnn-msnow-politico.html</id>
-    <title>Three media outlets seek full White House access in amended lawsuit</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/28/trump-white-house-media-ban-cnn-msnow-politico.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">President Donald Trump banned MS NOW, CNN and Politico from the White House in September, only to have a judge he appointed order their return.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/2026/10/28/oracle-forecast-growth-2030.html</id>
-    <title>Oracle stock pops 11% as long-term revenue forecast and clarity on financing ease debt concerns</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/28/oracle-forecast-growth-2030.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Oracle issued a revenue forecast for fiscal year 2030 of $225 billion, and said it will limit additional fundraising over that stretch to $20 billion.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/2026/10/29/where-chinas-wealthy-are-turning-for-second-passports.html</id>
-    <title>One passport isn’t enough for some wealthy Chinese. Here’s where they’re looking next</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/29/where-chinas-wealthy-are-turning-for-second-passports.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">For some wealthy Chinese, securing a foreign passport is becoming worth the ultimate trade-off: giving up their citizenship.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/2026/10/28/doj-questions-nvidias-12point9-billion-hugging-face-deal.html</id>
-    <title>Nvidia's $12.9 billion Hugging Face deal draws DOJ scrutiny</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/28/doj-questions-nvidias-12point9-billion-hugging-face-deal.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Nvidia faces DOJ inquiry over its $12.9 billion purchase of Hugging Face.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/2026/10/28/cramer-sk-hynix-ai-chip-stocks.html</id>
-    <title>Jim Cramer sees major implications from SK Hynix's home-run quarter</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/28/cramer-sk-hynix-ai-chip-stocks.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">CNBC’s Jim Cramer said SK Hynix’s blockbuster earnings showed that AI stocks can still rally.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html</id>
-    <title>Here are five key takeaways from the Fed rate decision and Warsh news conference</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Even though the interest-rate vote went as expected, there were a few surprises out of this week's Federal Open Market Committee meeting.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/2026/10/28/apple-touchscreen-macbook-pro-hands-on.html</id>
-    <title>Hands-on with Apple's first touchscreen laptop: Touch is totally optional</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/28/apple-touchscreen-macbook-pro-hands-on.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Any button that can be clicked can also be touched.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/2026/10/28/ford-motor-f-earnings-q3-2026.html</id>
-    <title>Ford reports mixed third-quarter results, says 2027 earnings will be in line with this year</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/28/ford-motor-f-earnings-q3-2026.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Ford Motor reported earnings that beat Wall Street’s estimates but slightly missed on revenue.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/2026/10/28/fedex-fdx-sept-2026-earnings.html</id>
-    <title>FedEx beats expectations, raises outlook in first report since calendar adjustment</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/28/fedex-fdx-sept-2026-earnings.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">FedEx on Wednesday beat Wall Street expectations on the top and bottom lines for the third quarter of its newly aligned fiscal year.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/2026/10/28/fed-rate-decision-consumer-borrowing-costs.html</id>
-    <title>Fed leaves rates unchanged: What it means for credit cards, mortgages, auto loans and savings accounts</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/28/fed-rate-decision-consumer-borrowing-costs.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">The Fed's benchmark affects many consumer borrowing costs, including the rates tied to mortgages, credit cards, auto loans and savings accounts.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/2026/10/28/doordash-instacart-maplebear.html</id>
-    <title>DoorDash's deal to buy Instacart coming as early as Thursday morning, sources tell CNBC</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/28/doordash-instacart-maplebear.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Speculation of a deal has swirled since last week, and several outlets reported the acquisition could value Instacart at roughly $17 billion.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/2026/10/28/chipotle-mexican-grill-cmg-q3-2026-earnings.html</id>
-    <title>Chipotle shares rise 7% after CEO says same-store sales growth will continue</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/28/chipotle-mexican-grill-cmg-q3-2026-earnings.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">For the first time this year, low-income consumers during the quarter outperformed the high-income cohort at its restaurants, CEO Scott Boatwright said.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/2026/10/28/bond-investor-jeff-gundlach-talks-feds-rate-pause-with-cnbc.html</id>
-    <title>Bond investor Jeff Gundlach on Fed's rate pause: 'What are you waiting for?'</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/28/bond-investor-jeff-gundlach-talks-feds-rate-pause-with-cnbc.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">The DoubleLine founder spoke with CNBC's "Closing Bell" on Wednesday after the Fed held interest rates steady.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/2026/10/28/scott-bessent-interview.html</id>
-    <title>Bessent says 'not necessarily' a mistake if the Fed hikes again</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/28/scott-bessent-interview.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Treasury Secretary Scott Bessent joined CNBC for an interview on Oct. 28, 2026.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
-  </entry>
-  <entry>
-    <id>https://www.cnbc.com/2026/10/28/as-waymo-expands-overseas-it-remains-a-niche-cash-burning-business.html</id>
-    <title>As Waymo expands overseas, it remains a niche cash-burning business</title>
-    <link rel="alternate" type="text/html" href="https://www.cnbc.com/2026/10/28/as-waymo-expands-overseas-it-remains-a-niche-cash-burning-business.html"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Alphabet's Other Bets segment, which includes Waymo, accounted for 0.3% of total revenue in the quarter.</summary>
-    <source><title>US Top News and Analysis</title></source>
-    <category term="金融"/>
-    <category term="新闻"/>
   </entry>
   <entry>
     <id>https://www.npr.org/2026/10/27/nx-s1-6019096/democrats-lead-in-npr-poll-preparations-for-election-challenge-israel-voting-begins</id>

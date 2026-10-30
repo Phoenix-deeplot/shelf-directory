@@ -1,26 +1,25 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #运营",
+  "title": "知树阅读-个人图书空间 · #运营",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-97fd06.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/ai/6486266.html",
-      "url": "https://www.woshipm.com/ai/6486266.html",
-      "title": "鹅厂出手：面向Agent的网盘，到底应该长什么样？",
-      "content_text": "作者手上十几个 AI 工具，一直想给它们找个共同的仓库。腾讯网盘把「面向 Agent」写进了定位，他把内测几天折腾下来的连接、授权、备份和跨工具取资料的体验记了一遍，哪些真省事，哪些还差口气。 必须承认，我现在用AI，某种意义上就是一种消费。 我的工具一大堆—— Claude Code、Codex、WorkBuddy、…",
-      "summary": "作者手上十几个 AI 工具，一直想给它们找个共同的仓库。腾讯网盘把「面向 Agent」写进了定位，他把内测几天折腾下来的连接、授权、备份和跨工具取资料的体验记了一遍，哪些真省事，哪些还差口气。 必须承认，我现在用AI，某种意义上就是一种消费。 我的工具一大堆—— Claude Code、Codex、WorkBuddy、…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.woshipm.com/share/6486768.html",
+      "url": "https://www.woshipm.com/share/6486768.html",
+      "title": "餐饮/零售品牌门店新品上市AI评估模型",
+      "content_text": "新品上架常靠拍脑袋，失败率高、试错也贵。把选品、上市前评估、试销、上市后经营和淘汰复盘拆成五类场景，再配六大类指标，上新就能从经验判断变成可复用的数据流程，一次搭好长期可用。 无论是传统的零售门店，亦或者是餐饮门店，都会遇到产品上新的问题。 那么问题来了：产品上新有没有评估模型，能否让“产品上新”从经验判断升级为数据驱…",
+      "summary": "新品上架常靠拍脑袋，失败率高、试错也贵。把选品、上市前评估、试销、上市后经营和淘汰复盘拆成五类场景，再配六大类指标，上新就能从经验判断变成可复用的数据流程，一次搭好长期可用。 无论是传统的零售门店，亦或者是餐饮门店，都会遇到产品上新的问题。 那么问题来了：产品上新有没有评估模型，能否让“产品上新”从经验判断升级为数据驱…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
-        "AI",
         "个人随笔",
-        "Codex",
-        "WorkBuddy",
-        "腾讯",
+        "AI应用",
+        "产品策略",
+        "新零售",
         "产品",
         "运营",
         "商业"
@@ -36,18 +35,45 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6486169.html",
-      "url": "https://www.woshipm.com/ai/6486169.html",
-      "title": "首个记忆原生大模型开源，36B 本地部署实测：成功把规矩”刻”进脑子",
-      "content_text": "AI 编程最痛的不是写不出代码，而是换个会话就忘光。MemT-1 想做的事很直接：把踩过的坑写进模型权重，36B 版本在单卡 A100 上跑通，长程任务里到底管不管用，这篇给了实测。 做智能体或者日常用 Cursor、Claude Code、Windsurf 等 AI 辅助写代码的老铁们，大概率都经历过同一种“内伤”：…",
-      "summary": "AI 编程最痛的不是写不出代码，而是换个会话就忘光。MemT-1 想做的事很直接：把踩过的坑写进模型权重，36B 版本在单卡 A100 上跑通，长程任务里到底管不管用，这篇给了实测。 做智能体或者日常用 Cursor、Claude Code、Windsurf 等 AI 辅助写代码的老铁们，大概率都经历过同一种“内伤”：…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6486879.html",
+      "url": "https://www.woshipm.com/ai/6486879.html",
+      "title": "豆包终于学会了腾讯WorkBuddy的杀手锏？",
+      "content_text": "字节的豆包工作，终于开始向腾讯 WorkBuddy 学习了。 以后用豆包工作，背后帮你干活的可能是 DeepSeek，也可能是 Kimi、GLM。 昨天，豆包工作开始向企业客户开放第三方大模型服务，首批接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等系列模型。 字节辛辛苦苦研发…",
+      "summary": "字节的豆包工作，终于开始向腾讯 WorkBuddy 学习了。 以后用豆包工作，背后帮你干活的可能是 DeepSeek，也可能是 Kimi、GLM。 昨天，豆包工作开始向企业客户开放第三方大模型服务，首批接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等系列模型。 字节辛辛苦苦研发…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "AI",
-        "个人随笔",
-        "AI编程",
-        "MemOS",
-        "案例分析",
+        "DeepSeek",
+        "Kimi",
+        "WorkBuddy",
+        "腾讯",
+        "豆包",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/it/6486854.html",
+      "url": "https://www.woshipm.com/it/6486854.html",
+      "title": "绿泡泡，其实“救了”红果短剧？",
+      "content_text": "红果短剧刚宣布下线金币功能、上线休息提醒，看似从容不迫，但字节随即整合AI短剧资源，推出即梦短剧工作室，打造从剧本到成片的AI流水线。微信绿泡泡短剧月活已破亿，增长迅猛。这场短剧之争背后，是AI视频商业化路径的清晰化，以及快手、阿里等大厂的潜在入局。红果的危机感，或许才刚刚开始。 红果短剧开始有危机感了。 大家都知道，…",
+      "summary": "红果短剧刚宣布下线金币功能、上线休息提醒，看似从容不迫，但字节随即整合AI短剧资源，推出即梦短剧工作室，打造从剧本到成片的AI流水线。微信绿泡泡短剧月活已破亿，增长迅猛。这场短剧之争背后，是AI视频商业化路径的清晰化，以及快手、阿里等大厂的潜在入局。红果的危机感，或许才刚刚开始。 红果短剧开始有危机感了。 大家都知道，…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "业界动态",
+        "AI短剧",
+        "字节跳动",
+        "微信绿泡泡",
+        "红果短剧",
         "行业观察",
         "产品",
         "运营"
@@ -63,16 +89,70 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6486194.html",
-      "url": "https://www.woshipm.com/ai/6486194.html",
-      "title": "详细拆解 Pi Agent：产品经理搞懂 Agent 的最佳实践",
-      "content_text": "OpenClaw 背后真正负责思考和动手的，是一个叫 Pi 的极简框架。拆完整个项目，作者把 Agent 的循环、上下文工程、工具系统与状态管理，讲成了一套可以迁移的产品原则。 如果你正在学习 Agent，或者要面向 Agent 优化迭代你的产品，强烈建议深度使用、拆解、学习 Pi Agent 这套开源项目。 我前段时…",
-      "summary": "OpenClaw 背后真正负责思考和动手的，是一个叫 Pi 的极简框架。拆完整个项目，作者把 Agent 的循环、上下文工程、工具系统与状态管理，讲成了一套可以迁移的产品原则。 如果你正在学习 Agent，或者要面向 Agent 优化迭代你的产品，强烈建议深度使用、拆解、学习 Pi Agent 这套开源项目。 我前段时…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6486774.html",
+      "url": "https://www.woshipm.com/ai/6486774.html",
+      "title": "挖到个宝藏27B开源Code2Video模型！可本地安装，还送MG Skill～",
+      "content_text": "HeyGen 的 Code2Video 榜单上，前八名清一色闭源，Claude Opus 5.5 排第一，开源模型多在百分之十上下。一个 27B 开源模型能本地安装，还能在 HyperFrames 里稳定出片。 老粉应该知道，我最开始是一个后端开发，剪辑和AE是完全一窍不通。 但从今年2月开始，我陆陆续续用代码做了不少…",
+      "summary": "HeyGen 的 Code2Video 榜单上，前八名清一色闭源，Claude Opus 5.5 排第一，开源模型多在百分之十上下。一个 27B 开源模型能本地安装，还能在 HyperFrames 里稳定出片。 老粉应该知道，我最开始是一个后端开发，剪辑和AE是完全一窍不通。 但从今年2月开始，我陆陆续续用代码做了不少…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "AI",
+        "个人随笔",
+        "AI编程",
+        "Claude Code",
+        "经验分享",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6486782.html",
+      "url": "https://www.woshipm.com/ai/6486782.html",
+      "title": "我花了 10 个小时，用AI编了一套精美的诗集：Skills 开源，附 6 套宋代美学模板",
+      "content_text": "为了验证百万级上下文，他用 Kimi K3.1 Pro 编了一套苏轼诗集，一千四百四十八页、三千二百条作品，中途废掉一版竖排稿，烧掉一点六九亿 Token，三百多次调用十小时完工。 现在的大模型普遍支持最高 1M 超长上下文 周二我发了 Kimi K3.1 Pro 的实测：国产最强开源大模型，Kimi K3.1 Pro…",
+      "summary": "为了验证百万级上下文，他用 Kimi K3.1 Pro 编了一套苏轼诗集，一千四百四十八页、三千二百条作品，中途废掉一版竖排稿，烧掉一点六九亿 Token，三百多次调用十小时完工。 现在的大模型普遍支持最高 1M 超长上下文 周二我发了 Kimi K3.1 Pro 的实测：国产最强开源大模型，Kimi K3.1 Pro…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "AI应用",
+        "Kimi",
+        "经验分享",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/share/6486711.html",
+      "url": "https://www.woshipm.com/share/6486711.html",
+      "title": "情景记忆：AI 听记产品从 “记录工具” 到 “认知资产” 的跃迁",
+      "content_text": "本文承接上一篇《Agent 记忆体系分类・触发编码・生命周期维护》。那篇文章系统拆解了记忆的四大类型与全生命周期机制，其中情景记忆是四类里最特别、也最接近 \"人\" 的一类。这一次，我们把它单独拎出来，落到 AI 听记这个具体产品场景，看一个抽象概念如何真正变成产品能力。 引言：一个被忽视的分水岭 市面上几乎所有 AI…",
+      "summary": "本文承接上一篇《Agent 记忆体系分类・触发编码・生命周期维护》。那篇文章系统拆解了记忆的四大类型与全生命周期机制，其中情景记忆是四类里最特别、也最接近 \"人\" 的一类。这一次，我们把它单独拎出来，落到 AI 听记这个具体产品场景，看一个抽象概念如何真正变成产品能力。 引言：一个被忽视的分水岭 市面上几乎所有 AI…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "个人随笔",
         "AI产品",
-        "Claude",
+        "个人观点",
         "产品分析",
         "产品",
         "运营",
@@ -89,96 +169,17 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6486181.html",
-      "url": "https://www.woshipm.com/ai/6486181.html",
-      "title": "腾讯网盘上线，行业首个Agent网盘来了，实测惊艳",
-      "content_text": "腾讯网盘上线，主打面向 Agent 的存储底座：连上 WorkBuddy、ima、腾讯文档与飞书，把散落各处的资料归到一处。五个步骤实测下来，它到底能不能当 AI 时代的统一入口。 早在今年 6 月份，就有可靠消息显示，腾讯正在研发一款 Agent 网盘产品：腾讯网盘。 我还专为此写过一篇文章，对这个产品充满期待。 腾…",
-      "summary": "腾讯网盘上线，主打面向 Agent 的存储底座：连上 WorkBuddy、ima、腾讯文档与飞书，把散落各处的资料归到一处。五个步骤实测下来，它到底能不能当 AI 时代的统一入口。 早在今年 6 月份，就有可靠消息显示，腾讯正在研发一款 Agent 网盘产品：腾讯网盘。 我还专为此写过一篇文章，对这个产品充满期待。 腾…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6486778.html",
+      "url": "https://www.woshipm.com/ai/6486778.html",
+      "title": "微软谷歌重整办公套件，腾讯 Buddy One 串联应用：办公 AI 开始比拼生态协同",
+      "content_text": "微软给 Work IQ 加了检索工具，Google 让 Gemini 打通邮件与云盘，腾讯发布 Buddy One 串联自家应用。办公 AI 从单点功能转向生态协同，组合订阅成了留住付费的理由。 “创造力，就是把事物连接起来。”——史蒂夫·乔布斯，1996 年《连线》 10 月 20 日，微软为 Work IQ 推出新…",
+      "summary": "微软给 Work IQ 加了检索工具，Google 让 Gemini 打通邮件与云盘，腾讯发布 Buddy One 串联自家应用。办公 AI 从单点功能转向生态协同，组合订阅成了留住付费的理由。 “创造力，就是把事物连接起来。”——史蒂夫·乔布斯，1996 年《连线》 10 月 20 日，微软为 Work IQ 推出新…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "AI",
         "个人随笔",
         "AI产品",
-        "WorkBuddy",
-        "腾讯网盘",
-        "产品",
-        "运营",
-        "商业"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/share/6486191.html",
-      "url": "https://www.woshipm.com/share/6486191.html",
-      "title": "社媒广告投了大半年遇瓶颈？聊聊谷歌广告如何协同破局",
-      "content_text": "社媒广告跑到一定阶段就上不去，是不少独立站老板的共同瓶颈。海外消费者刷到你之后会去 Google 搜什么，决定了这笔广告费能不能沉淀成品牌资产，而不是一停投就归零。 最近和几个做独立站的朋友小聚，聊起今年的海外营销大盘，有个问题被其他小伙伴重点提起。 “我的重心都在社交媒体广告（比如Meta），前期跑得好好的，但增长到…",
-      "summary": "社媒广告跑到一定阶段就上不去，是不少独立站老板的共同瓶颈。海外消费者刷到你之后会去 Google 搜什么，决定了这笔广告费能不能沉淀成品牌资产，而不是一停投就归零。 最近和几个做独立站的朋友小聚，聊起今年的海外营销大盘，有个问题被其他小伙伴重点提起。 “我的重心都在社交媒体广告（比如Meta），前期跑得好好的，但增长到…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "个人随笔",
-        "市场分析",
-        "谷歌广告",
-        "跨境电商",
-        "产品",
-        "运营",
-        "商业"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/share/6486110.html",
-      "url": "https://www.woshipm.com/share/6486110.html",
-      "title": "用户要的从来不是钻头，而是墙上的洞",
-      "content_text": "用户要的从来不是钻头，而是墙上的洞。 座舱体验开发与设计，不应执着于功能、控件、动画这些 “钻头” 本身，而要锚定用户场景目标；先识别用户想要达成的体验结果，再选择最简合适的实现路径，不为功能而做功能。 一 我们手里握着很多精良的「钻头」： 流畅的 UI 动画、丰富的语音能力、多样的座舱交互、强劲的算力、琳琅满目的配置…",
-      "summary": "用户要的从来不是钻头，而是墙上的洞。 座舱体验开发与设计，不应执着于功能、控件、动画这些 “钻头” 本身，而要锚定用户场景目标；先识别用户想要达成的体验结果，再选择最简合适的实现路径，不为功能而做功能。 一 我们手里握着很多精良的「钻头」： 流畅的 UI 动画、丰富的语音能力、多样的座舱交互、强劲的算力、琳琅满目的配置…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "个人随笔",
-        "个人观点",
-        "产品思考",
-        "需求分析",
-        "产品",
-        "运营",
-        "商业"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/share/6486072.html",
-      "url": "https://www.woshipm.com/share/6486072.html",
-      "title": "抖音内测短剧互动道具，花钱能参与剧情，开启情绪付费新玩法",
-      "content_text": "抖音正在内测短剧专属互动道具，观众花 1 钻约 0.1 元，就能在包厢对峙的节点刷出铁砂掌特效，直接改变画面。在全集解锁、广告、短剧卡之外，这是又一条情绪付费链路，也是拉高单用户消费的解法。 抖音正在内测短剧场景专属的道具礼物，观众消耗平台钻石即可送出，礼物触发后会直接在短剧的画面里，弹出配套的剧情互动特效。简单来说，…",
-      "summary": "抖音正在内测短剧专属互动道具，观众花 1 钻约 0.1 元，就能在包厢对峙的节点刷出铁砂掌特效，直接改变画面。在全集解锁、广告、短剧卡之外，这是又一条情绪付费链路，也是拉高单用户消费的解法。 抖音正在内测短剧场景专属的道具礼物，观众消耗平台钻石即可送出，礼物触发后会直接在短剧的画面里，弹出配套的剧情互动特效。简单来说，…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "个人随笔",
-        "商业模式",
-        "抖音",
-        "短视频",
+        "腾讯",
         "行业观察",
         "产品",
         "运营",
@@ -195,72 +196,19 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/share/6486272.html",
-      "url": "https://www.woshipm.com/share/6486272.html",
-      "title": "我反对品牌盲目「去登味」！",
-      "content_text": "「登味」成了品牌圈的新罪名，于是大家都开始讲松弛、讲梗、讲年轻人的生活方式。作者认为这是矫枉过正：权威、秩序和掌控感同样是真实存在的心理需求，掌舵者人格有它不可替代的商业价值。 现在的品牌营销圈，似乎正在形成一种新的共识： 做品牌，千万不能有“登味”。 广告里出现几个西装革履的中年男人，被说成登味十足； 品牌宣传强调行…",
-      "summary": "「登味」成了品牌圈的新罪名，于是大家都开始讲松弛、讲梗、讲年轻人的生活方式。作者认为这是矫枉过正：权威、秩序和掌控感同样是真实存在的心理需求，掌舵者人格有它不可替代的商业价值。 现在的品牌营销圈，似乎正在形成一种新的共识： 做品牌，千万不能有“登味”。 广告里出现几个西装革履的中年男人，被说成登味十足； 品牌宣传强调行…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "个人随笔",
-        "品牌建设",
-        "品牌管理",
-        "消费洞察",
-        "产品",
-        "运营",
-        "商业"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/ai/6486183.html",
-      "url": "https://www.woshipm.com/ai/6486183.html",
-      "title": "张一鸣又造出一个国民级APP",
-      "content_text": "谁能想到，曾经被不少人嫌弃“又土又俗”的短剧，如今已经成了互联网大厂争夺用户时间的重要战场。 10月29日，一组关于红果短剧的数据引发关注。 QuestMobile数据显示，2026年5月，红果短剧月活跃用户达到3.56亿；7月日活跃用户达到1.68亿，同比增长107%，甚至超过腾讯视频、爱奇艺、优酷、芒果TV四家长视…",
-      "summary": "谁能想到，曾经被不少人嫌弃“又土又俗”的短剧，如今已经成了互联网大厂争夺用户时间的重要战场。 10月29日，一组关于红果短剧的数据引发关注。 QuestMobile数据显示，2026年5月，红果短剧月活跃用户达到3.56亿；7月日活跃用户达到1.68亿，同比增长107%，甚至超过腾讯视频、爱奇艺、优酷、芒果TV四家长视…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "AI",
-        "小程序",
-        "微信",
-        "抖音",
-        "腾讯",
-        "产品",
-        "运营",
-        "商业"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/ai/6486063.html",
-      "url": "https://www.woshipm.com/ai/6486063.html",
-      "title": "开源性转马尔福 AI 女友，用即梦短剧工作室做的",
-      "content_text": "性转马尔福一条帖子刷到 2300 万浏览，有人干脆用即梦 AI 短剧工作室做了个桌面应用：第一人称剧情、好感度解锁、角色就住在桌面里。画面和配音用即梦，音乐用 Suno，代码交给 Claude。 这一个多月，你应该刷到过性转马尔福吧。 起因是 9 月 22 日，一位俄罗斯画师在 X 上发了一张图。 图上是一个穿着斯莱特…",
-      "summary": "性转马尔福一条帖子刷到 2300 万浏览，有人干脆用即梦 AI 短剧工作室做了个桌面应用：第一人称剧情、好感度解锁、角色就住在桌面里。画面和配音用即梦，音乐用 Suno，代码交给 Claude。 这一个多月，你应该刷到过性转马尔福吧。 起因是 9 月 22 日，一位俄罗斯画师在 X 上发了一张图。 图上是一个穿着斯莱特…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6486947.html",
+      "url": "https://www.woshipm.com/ai/6486947.html",
+      "title": "微信小微升级，开始Personal Agent化",
+      "content_text": "灵光 2.0 向所有用户开放，千问 Go 紧随其后，微信小微也开始往 Personal Agent 的方向升级。国内的个人助理产品从 PPT 走进内测和公测，能力边界第一次能被真实使用检验。三条路线不同，但都在争同一个入口：谁替用户把事情真正办完。 之前，国内的 Personal Agent 产品探索。 还停留在媒体的…",
+      "summary": "灵光 2.0 向所有用户开放，千问 Go 紧随其后，微信小微也开始往 Personal Agent 的方向升级。国内的个人助理产品从 PPT 走进内测和公测，能力边界第一次能被真实使用检验。三条路线不同，但都在争同一个入口：谁替用户把事情真正办完。 之前，国内的 Personal Agent 产品探索。 还停留在媒体的…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "AI",
         "个人随笔",
-        "AI应用",
-        "Claude",
-        "Suno",
-        "经验分享",
+        "Personal Agent",
+        "功能分析",
+        "微信小微",
+        "灵光",
         "产品",
         "运营"
       ],
@@ -275,18 +223,18 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/chuangye/6486082.html",
-      "url": "https://www.woshipm.com/chuangye/6486082.html",
-      "title": "一人 AI 公司，专门服务美国年入百万的本地老板，这笔钱怎么赚",
-      "content_text": "美国做水管和空调的公司约 11.2 万家，平均每家年入 250 万美元，真正把 AI 用进日常经营的只占 14%。对这些老板别讲 AI，讲多接几通电话、多订几单活。一个人怎么把 AI 卖给本地生意？ 你有没有想过，大家都在抢着把 AI 卖给旧金山的人，真正付得起钱的，却可能是街边修水管、修空调的公司？ James Di…",
-      "summary": "美国做水管和空调的公司约 11.2 万家，平均每家年入 250 万美元，真正把 AI 用进日常经营的只占 14%。对这些老板别讲 AI，讲多接几通电话、多订几单活。一个人怎么把 AI 卖给本地生意？ 你有没有想过，大家都在抢着把 AI 卖给旧金山的人，真正付得起钱的，却可能是街边修水管、修空调的公司？ James Di…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.woshipm.com/it/6486812.html",
+      "url": "https://www.woshipm.com/it/6486812.html",
+      "title": "对话 Google AI 基建负责人：从芯片配比到全球部署，Agent 正在重写数据中心的建设逻辑",
+      "content_text": "算力的账不能只看 FLOPS。Google AI 基建负责人 Amin Vahdat 谈 TPU 配比、十万卡集群的故障恢复，以及长时程 Agent 如何改写数据中心的供电与冷却，回报要算到任务真完成。 当一家公司的 AI 服务能力需要每六个月翻一倍，买更多芯片只是问题的开始。十万颗加速器组成的集群里，故障随时发生；模…",
+      "summary": "算力的账不能只看 FLOPS。Google AI 基建负责人 Amin Vahdat 谈 TPU 配比、十万卡集群的故障恢复，以及长时程 Agent 如何改写数据中心的供电与冷却，回报要算到任务真完成。 当一家公司的 AI 服务能力需要每六个月翻一倍，买更多芯片只是问题的开始。十万颗加速器组成的集群里，故障随时发生；模…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
-        "创业学院",
-        "AI应用",
-        "Shopify",
+        "业界动态",
+        "AI产品",
+        "google",
+        "TPU",
         "个人观点",
-        "商业模式",
         "产品",
         "运营",
         "商业"
@@ -302,18 +250,18 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6486185.html",
-      "url": "https://www.woshipm.com/ai/6486185.html",
-      "title": "ChatGPT 每月送 API 额度，最多 500 美元/月",
-      "content_text": "OpenAI 给 ChatGPT 订阅加了项福利：Pro 和 Business 用户每月可领与订阅等额的 API 额度，最高 500 美元。与此同时，原有额度被砍掉一半，这笔账要怎么算，几步就能领。 OpenAI 给 ChatGPT 订阅加了一项福利：Pro 和 Business 用户，每月可领 API 额度，等同于订…",
-      "summary": "OpenAI 给 ChatGPT 订阅加了项福利：Pro 和 Business 用户每月可领与订阅等额的 API 额度，最高 500 美元。与此同时，原有额度被砍掉一半，这笔账要怎么算，几步就能领。 OpenAI 给 ChatGPT 订阅加了一项福利：Pro 和 Business 用户，每月可领 API 额度，等同于订…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6486764.html",
+      "url": "https://www.woshipm.com/ai/6486764.html",
+      "title": "学到钉钉们的精髓了？Claude上线逆天功能，帮企业监控员工是否用AI摸鱼",
+      "content_text": "Anthropic 为 Claude Enterprise 上线智能报告，管理员能读取团队二十八天内的对话，把工作归到不同流程，标出哪些会话没有产出。一家把安全写进使命的公司，先做出了监工工具。 2026年10月，Anthropic为Claude Enterprise上线了一个新功能——“智能报告”。 名字平平无奇，能…",
+      "summary": "Anthropic 为 Claude Enterprise 上线智能报告，管理员能读取团队二十八天内的对话，把工作归到不同流程，标出哪些会话没有产出。一家把安全写进使命的公司，先做出了监工工具。 2026年10月，Anthropic为Claude Enterprise上线了一个新功能——“智能报告”。 名字平平无奇，能…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "AI",
         "个人随笔",
-        "ChatGPT",
-        "OpenAI",
-        "行业动态",
+        "Anthropic",
+        "Claude",
+        "行业观察",
         "产品",
         "运营",
         "商业"
@@ -326,6 +274,182 @@
       "_shelf": {
         "type": "article",
         "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/pd/6486784.html",
+      "url": "https://www.woshipm.com/pd/6486784.html",
+      "title": "一文看懂：集团司库全景",
+      "content_text": "几十家子公司、多套 ERP、与多家银行合作，总部看得到余额，资金会上却仍说不清下个月缺多少钱。集团司库要先把管理边界、决策权限、数据贯通和交易核实定下来，再谈系统怎么建。 假设一个集团有几十家子公司，分布在境内外，使用多套ERP，与多家银行合作。 总部每天能看到银行余额，也已经实现统一付款。 但资金会上，聊到以下问题时…",
+      "summary": "几十家子公司、多套 ERP、与多家银行合作，总部看得到余额，资金会上却仍说不清下个月缺多少钱。集团司库要先把管理边界、决策权限、数据贯通和交易核实定下来，再谈系统怎么建。 假设一个集团有几十家子公司，分布在境内外，使用多套ERP，与多家银行合作。 总部每天能看到银行余额，也已经实现统一付款。 但资金会上，聊到以下问题时…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "产品设计",
+        "企业服务",
+        "数字化转型",
+        "经验总结",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6486912.html",
+      "url": "https://www.woshipm.com/ai/6486912.html",
+      "title": "WorkBuddy悄悄上线「手动安装插件」，丝滑操控浏览器",
+      "content_text": "Chrome 插件商店不科学上网打不开，Edge 和 QQ 浏览器又都跳回同一个地址。WorkBuddy 上线了手动安装拓展程序：选浏览器、打开本地插件文件夹、把文件夹拖进扩展页面，三步装完。文中还实测了让 Agent 自己找网址、开标签页的过程。 前阵子，WorkBuddy 悄悄上线了「浏览器插件」。 支持在 Chr…",
+      "summary": "Chrome 插件商店不科学上网打不开，Edge 和 QQ 浏览器又都跳回同一个地址。WorkBuddy 上线了手动安装拓展程序：选浏览器、打开本地插件文件夹、把文件夹拖进扩展页面，三步装完。文中还实测了让 Agent 自己找网址、开标签页的过程。 前阵子，WorkBuddy 悄悄上线了「浏览器插件」。 支持在 Chr…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "AI工具",
+        "Chrome",
+        "WorkBuddy",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ucd/6486807.html",
+      "url": "https://www.woshipm.com/ucd/6486807.html",
+      "title": "Vibe 技巧：别再只跟 AI 说“弹出弹窗”了！",
+      "content_text": "在 Vibe Coding 里，最磨人的往往不是技术门槛，而是说不清自己想要什么。模态对话框、Popover、Toast 各有名字，把模糊的视觉感受换成准确的组件词汇，AI 才能少猜几次，界面也才更像样。 在 Vibe Coding 中，经常出现脑子里是有画面的，但是给 AI 讲了半天，最终做出来个完全不相关的页面，我…",
+      "summary": "在 Vibe Coding 里，最磨人的往往不是技术门槛，而是说不清自己想要什么。模态对话框、Popover、Toast 各有名字，把模糊的视觉感受换成准确的组件词汇，AI 才能少猜几次，界面也才更像样。 在 Vibe Coding 中，经常出现脑子里是有画面的，但是给 AI 讲了半天，最终做出来个完全不相关的页面，我…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "交互体验",
+        "AI编程",
+        "Vibe Coding",
+        "产品分析",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6486788.html",
+      "url": "https://www.woshipm.com/ai/6486788.html",
+      "title": "DeepSeek的尽头，居然是一条会喊你爸爸的蓝色大肥鱼。",
+      "content_text": "DeepSeek 的 Logo 是条鲸鱼，一次自我识别认成了蓝色大肥鱼，外号就这么叫开。网友围绕它二创出鲸鱼娘，蓝发鲸尾、爱吃白饭、干活还得讨 Token，各平台都在闹鱼灾。 最近，我真的感觉，国内互联网，快要被一群蓝色大肥鱼给统治了。 刷B站有她，刷抖音也有她，刷小红书还是她。 无论在哪个平台，好像大家都想给她完整的…",
+      "summary": "DeepSeek 的 Logo 是条鲸鱼，一次自我识别认成了蓝色大肥鱼，外号就这么叫开。网友围绕它二创出鲸鱼娘，蓝发鲸尾、爱吃白饭、干活还得讨 Token，各平台都在闹鱼灾。 最近，我真的感觉，国内互联网，快要被一群蓝色大肥鱼给统治了。 刷B站有她，刷抖音也有她，刷小红书还是她。 无论在哪个平台，好像大家都想给她完整的…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "DeepSeek",
+        "内容创作",
+        "行业观察",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/share/6486699.html",
+      "url": "https://www.woshipm.com/share/6486699.html",
+      "title": "AI时代，RPA产品应该如何升级？从流程自动化到智能化执行",
+      "content_text": "RPA曾是企业自动化市场的热门赛道，如今又迎来大模型与AI智能体带来的新机会。当AI开始尝试接管复杂任务，企业选择RPA平台，不能只看传统流程执行能力，还需要重新审视系统兼容、流程治理、异常处理与AI融合能力。技术路线在变，但决定自动化能否长期创造价值的，始终是平台对真实业务的支撑能力。 大家还记得RPA吗？ RPA这…",
+      "summary": "RPA曾是企业自动化市场的热门赛道，如今又迎来大模型与AI智能体带来的新机会。当AI开始尝试接管复杂任务，企业选择RPA平台，不能只看传统流程执行能力，还需要重新审视系统兼容、流程治理、异常处理与AI融合能力。技术路线在变，但决定自动化能否长期创造价值的，始终是平台对真实业务的支撑能力。 大家还记得RPA吗？ RPA这…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "个人随笔",
+        "AI时代",
+        "RPA",
+        "个人观点",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/technology-and-iiot/systems-integration/article/55415415/erp-transformation-starts-with-your-operating-model",
+      "url": "https://www.industryweek.com/technology-and-iiot/systems-integration/article/55415415/erp-transformation-starts-with-your-operating-model",
+      "title": "ERP Transformation Starts With Your Operating Model",
+      "content_text": "If installing software is your first priority, the project can quickly turn into a technology swap carrying over old problems and workarounds.",
+      "summary": "If installing software is your first priority, the project can quickly turn into a technology swap carrying over old problems and workarounds.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ae3a71b8b6b5de4628a5175-dreamstime_xxl_255670084.png",
+      "tags": [
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/resources/industryweek-best-plants-awards/article/55415154/2026-industry-best-plants-lb-foster-burnaby-is-a-small-plant-punching-above-its-weight",
+      "url": "https://www.industryweek.com/resources/industryweek-best-plants-awards/article/55415154/2026-industry-best-plants-lb-foster-burnaby-is-a-small-plant-punching-above-its-weight",
+      "title": "2026 IndustryWeek Best Plants: L.B. Foster Burnaby Is a Small Plant Punching Above Its Weight",
+      "content_text": "A culture of innovation and collaboration leads to enviable results.",
+      "summary": "A culture of innovation and collaboration leads to enviable results.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ae36ff07d6230226fb88f70-lb_foster_two_production_workers.png",
+      "tags": [
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
       }
     },
     {
@@ -831,50 +955,6 @@
       "summary": "The sales force of the industrial products distributor shrank by 400 in the third quarter. Executives say they need fewer people at customer sites these days an…",
       "date_published": "2026-10-16T00:00:00Z",
       "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad2841855a0c53ae5690c37-fast_vending_1.png",
-      "tags": [
-        "制造",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "Home | IndustryWeek"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "industryweek-com"
-      }
-    },
-    {
-      "id": "https://www.industryweek.com/talent/recruiting-retention/article/55412231/manufacturing-day-2026-celebrating-spacecraft-innovation-and-high-tech-shipbuilding",
-      "url": "https://www.industryweek.com/talent/recruiting-retention/article/55412231/manufacturing-day-2026-celebrating-spacecraft-innovation-and-high-tech-shipbuilding",
-      "title": "Manufacturing Day 2026: Celebrating Spacecraft Innovation and High-Tech Shipbuilding",
-      "content_text": "Welders, machinists and fabricators are finding jobs building autonomous vessels and rocket engines.",
-      "summary": "Welders, machinists and fabricators are finding jobs building autonomous vessels and rocket engines.",
-      "date_published": "2026-10-15T00:00:00Z",
-      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad1262919dfcf0018303ff6-industryweek_3.png",
-      "tags": [
-        "制造",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "Home | IndustryWeek"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "industryweek-com"
-      }
-    },
-    {
-      "id": "https://www.industryweek.com/industry-events/manufacturing-day/article/55412272/faces-of-manufacturing-i-love-that-manufacturing-mixes-technical-work-with-teamwork",
-      "url": "https://www.industryweek.com/industry-events/manufacturing-day/article/55412272/faces-of-manufacturing-i-love-that-manufacturing-mixes-technical-work-with-teamwork",
-      "title": "Faces of Manufacturing: 'I Love That Manufacturing Mixes Technical Work with Teamwork'",
-      "content_text": "\"You get to use science and engineering every day, but you also rely on collaboration and problem solving to turn ideas into tangible products,\" says Gustavo Su…",
-      "summary": "\"You get to use science and engineering every day, but you also rely on collaboration and problem solving to turn ideas into tangible products,\" says Gustavo Su…",
-      "date_published": "2026-10-15T00:00:00Z",
-      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad12b377a1551ee5fe4b915-gustavo_suarez_elcon2.png",
       "tags": [
         "制造",
         "运营"

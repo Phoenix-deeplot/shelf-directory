@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/sponsored-insights.xml</id>
-  <title>公共目录 · #Sponsored Insights</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · #Sponsored Insights</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/sponsored-insights.xml"/>
-  <updated>2026-10-27T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-29T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/what-the-mastio-rankings-actually-tell-shippers</id>
+    <title>What the Mastio Rankings Actually Tell Shippers</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/what-the-mastio-rankings-actually-tell-shippers"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">When a shipper puts an LTL lane out to bid, price is the number everyone can compare in five minutes. Price, however, doesn’t say much about what happens six mo…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Less than Truckload (LTL)"/>
+    <category term="News"/>
+    <category term="Sponsored Insights"/>
+    <category term="LTL"/>
+    <category term="Old Dominion Freight Line"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/why-logistics-ai-still-needs-experts-in-the-loop</id>
     <title>Why Logistics AI Still Needs “Experts in the Loop”</title>
@@ -18,22 +34,5 @@
     <category term="Sponsored Insights"/>
     <category term="货运"/>
     <category term="数据"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/completing-the-capacity-stack</id>
-    <title>Completing the Capacity Stack</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/completing-the-capacity-stack"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">123Loadboard and Direct Freight are combining two independent freight marketplaces so brokers can close capacity gaps and carriers can find better-matched freig…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Business"/>
-    <category term="News"/>
-    <category term="Sponsored Insights"/>
-    <category term="Technology"/>
-    <category term="123Loadboard"/>
-    <category term="brokers"/>
-    <category term="Capacity"/>
-    <category term="capacity radar"/>
   </entry>
 </feed>

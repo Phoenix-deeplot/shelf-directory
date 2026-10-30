@@ -1,13 +1,206 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #学术",
+  "title": "知树阅读-个人图书空间 · #学术",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-38dd30.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
+    {
+      "id": "https://www.sciencedaily.com/releases/2026/10/261028234238.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261028234238.htm",
+      "title": "Six popular sugar substitutes linked to faster brain aging",
+      "content_text": "A study of nearly 13,000 adults found that people consuming the most artificial sweeteners experienced a 62% faster decline in memory and thinking skills, equiv…",
+      "summary": "A study of nearly 13,000 adults found that people consuming the most artificial sweeteners experienced a 62% faster decline in memory and thinking skills, equiv…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "学术",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "Latest Science News -- ScienceDaily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sciencedaily-com"
+      }
+    },
+    {
+      "id": "https://www.sciencedaily.com/releases/2026/10/261028232701.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261028232701.htm",
+      "title": "Scientists discover that cranberry juice may help fight tooth decay",
+      "content_text": "Cranberry juice may offer an unexpected benefit beyond its reputation for helping prevent urinary tract infections: protecting teeth from decay. Researchers at…",
+      "summary": "Cranberry juice may offer an unexpected benefit beyond its reputation for helping prevent urinary tract infections: protecting teeth from decay. Researchers at…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "学术",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "Latest Science News -- ScienceDaily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sciencedaily-com"
+      }
+    },
+    {
+      "id": "https://www.sciencedaily.com/releases/2026/10/261028232715.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261028232715.htm",
+      "title": "NASA discovers Jupiter’s invisible shield is more complex than Earth’s",
+      "content_text": "NASA’s Juno spacecraft has discovered that Jupiter uses a surprisingly complex system of powerful plasma waves and multiple shock regions to defend against the…",
+      "summary": "NASA’s Juno spacecraft has discovered that Jupiter uses a surprisingly complex system of powerful plasma waves and multiple shock regions to defend against the…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "学术",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "Latest Science News -- ScienceDaily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sciencedaily-com"
+      }
+    },
+    {
+      "id": "https://www.sciencedaily.com/releases/2026/10/261028232707.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261028232707.htm",
+      "title": "Less than 42 minutes of bright daylight linked to higher dementia risk",
+      "content_text": "Getting more daylight could be linked to a surprisingly powerful benefit for brain health. In a study of more than 87,000 adults, researchers found that higher…",
+      "summary": "Getting more daylight could be linked to a surprisingly powerful benefit for brain health. In a study of more than 87,000 adults, researchers found that higher…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "学术",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "Latest Science News -- ScienceDaily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sciencedaily-com"
+      }
+    },
+    {
+      "id": "https://www.sciencedaily.com/releases/2026/10/261028232719.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261028232719.htm",
+      "title": "Einstein's equations may explain the universe without dark energy",
+      "content_text": "Mathematicians have uncovered what they argue is a fundamental flaw in the standard model of the universe, potentially challenging the need for dark energy. The…",
+      "summary": "Mathematicians have uncovered what they argue is a fundamental flaw in the standard model of the universe, potentially challenging the need for dark energy. The…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "学术",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "Latest Science News -- ScienceDaily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sciencedaily-com"
+      }
+    },
+    {
+      "id": "https://www.sciencedaily.com/releases/2026/10/261028232659.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261028232659.htm",
+      "title": "A single brain signal may explain schizophrenia's most puzzling symptoms",
+      "content_text": "Scientists have identified a weakened brain signal that may connect several seemingly unrelated symptoms of schizophrenia, including sensory processing difficul…",
+      "summary": "Scientists have identified a weakened brain signal that may connect several seemingly unrelated symptoms of schizophrenia, including sensory processing difficul…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "学术",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "Latest Science News -- ScienceDaily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sciencedaily-com"
+      }
+    },
+    {
+      "id": "https://www.sciencedaily.com/releases/2026/10/261028232709.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261028232709.htm",
+      "title": "A 700,000-year-old elephant tooth reveals a lost world where early humans lived",
+      "content_text": "A remarkably preserved elephant tooth dating back nearly 700,000 years has revealed a surprisingly lush prehistoric world where giant elephants and early humans…",
+      "summary": "A remarkably preserved elephant tooth dating back nearly 700,000 years has revealed a surprisingly lush prehistoric world where giant elephants and early humans…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "学术",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "Latest Science News -- ScienceDaily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sciencedaily-com"
+      }
+    },
+    {
+      "id": "https://www.sciencedaily.com/releases/2026/10/261028232713.htm",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261028232713.htm",
+      "title": "128,000-year-old ice in Tibet could rewrite climate history",
+      "content_text": "Ancient ice discovered high in Tibet may be more than 128,000 years old, preserving an extraordinary record of Earth's climate that scientists previously though…",
+      "summary": "Ancient ice discovered high in Tibet may be more than 128,000 years old, preserving an extraordinary record of Earth's climate that scientists previously though…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "学术",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "Latest Science News -- ScienceDaily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sciencedaily-com"
+      }
+    },
+    {
+      "id": "https://daily.jstor.org/londons-railway-for-the-dead/",
+      "url": "https://daily.jstor.org/londons-railway-for-the-dead/",
+      "title": "London’s Railway for the Dead",
+      "content_text": "As London's graveyards overflowed, a private company proposed a remarkable new way to bury the dead. The post London’s Railway for the Dead appeared first on JS…",
+      "summary": "As London's graveyards overflowed, a private company proposed a remarkable new way to bury the dead. The post London’s Railway for the Dead appeared first on JS…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "Politics & History",
+        "Quirky History",
+        "death",
+        "London",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    },
     {
       "id": "https://www.sciencedaily.com/releases/2026/10/261027063814.htm",
       "url": "https://www.sciencedaily.com/releases/2026/10/261027063814.htm",
@@ -869,195 +1062,6 @@
       "content_text": "Missing blood pressure medication could mean losing much of its protection against heart attacks and strokes, according to an analysis of more than 91,000 peopl…",
       "summary": "Missing blood pressure medication could mean losing much of its protection against heart attacks and strokes, according to an analysis of more than 91,000 peopl…",
       "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "学术",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "Latest Science News -- ScienceDaily"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "sciencedaily-com"
-      }
-    },
-    {
-      "id": "https://www.sciencedaily.com/releases/2026/10/261024222024.htm",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261024222024.htm",
-      "title": "Scientists overcome a hidden obstacle to more powerful quantum computers",
-      "content_text": "Scientists have discovered a way to operate multiple silicon qubits simultaneously with remarkable accuracy, overcoming a major challenge in scaling up quantum…",
-      "summary": "Scientists have discovered a way to operate multiple silicon qubits simultaneously with remarkable accuracy, overcoming a major challenge in scaling up quantum…",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "学术",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "Latest Science News -- ScienceDaily"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "sciencedaily-com"
-      }
-    },
-    {
-      "id": "https://www.sciencedaily.com/releases/2026/10/261024221849.htm",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261024221849.htm",
-      "title": "Scientists discover how pancreatic cancer rewrites its DNA to escape treatment",
-      "content_text": "Scientists have discovered how pancreatic cancer cells continually reshape their genetic makeup to become more aggressive, spread, and evade treatment. In labor…",
-      "summary": "Scientists have discovered how pancreatic cancer cells continually reshape their genetic makeup to become more aggressive, spread, and evade treatment. In labor…",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "学术",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "Latest Science News -- ScienceDaily"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "sciencedaily-com"
-      }
-    },
-    {
-      "id": "https://www.sciencedaily.com/releases/2026/10/261024221952.htm",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261024221952.htm",
-      "title": "Popular cannabis sleep gummies may have a hidden dark side",
-      "content_text": "A cannabis-derived ingredient commonly found in sleep gummies may be more habit-forming than previously thought, with new research showing that repeated exposur…",
-      "summary": "A cannabis-derived ingredient commonly found in sleep gummies may be more habit-forming than previously thought, with new research showing that repeated exposur…",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "学术",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "Latest Science News -- ScienceDaily"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "sciencedaily-com"
-      }
-    },
-    {
-      "id": "https://www.sciencedaily.com/releases/2026/10/261024221956.htm",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261024221956.htm",
-      "title": "New evidence suggests spinosaurus spent most of its life underwater",
-      "content_text": "Millions of years after animals first conquered land, some took an extraordinary evolutionary U-turn and returned to the water. Using machine learning and thous…",
-      "summary": "Millions of years after animals first conquered land, some took an extraordinary evolutionary U-turn and returned to the water. Using machine learning and thous…",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "学术",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "Latest Science News -- ScienceDaily"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "sciencedaily-com"
-      }
-    },
-    {
-      "id": "https://www.sciencedaily.com/releases/2026/10/261024222026.htm",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261024222026.htm",
-      "title": "Low-dose aspirin linked to 70% lower dementia risk, but there's a catch",
-      "content_text": "A common, inexpensive medication could hold an unexpected clue to preventing dementia. Researchers found that older adults with a specific genetic profile had a…",
-      "summary": "A common, inexpensive medication could hold an unexpected clue to preventing dementia. Researchers found that older adults with a specific genetic profile had a…",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "学术",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "Latest Science News -- ScienceDaily"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "sciencedaily-com"
-      }
-    },
-    {
-      "id": "https://www.sciencedaily.com/releases/2026/10/261024222030.htm",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261024222030.htm",
-      "title": "Just two drinks a day may be far riskier than you think",
-      "content_text": "A major new study reveals that drinking just two alcoholic beverages a day is associated with a 1 in 25 lifetime risk of death from alcohol-related causes, chal…",
-      "summary": "A major new study reveals that drinking just two alcoholic beverages a day is associated with a 1 in 25 lifetime risk of death from alcohol-related causes, chal…",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "学术",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "Latest Science News -- ScienceDaily"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "sciencedaily-com"
-      }
-    },
-    {
-      "id": "https://www.sciencedaily.com/releases/2026/10/261025222339.htm",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261025222339.htm",
-      "title": "A simple liquid can stop cavities without drilling, major study confirms",
-      "content_text": "A simple liquid painted onto teeth in seconds can stop cavities without drilling, injections, or anesthesia, according to a major clinical trial involving young…",
-      "summary": "A simple liquid painted onto teeth in seconds can stop cavities without drilling, injections, or anesthesia, according to a major clinical trial involving young…",
-      "date_published": "2026-10-25T00:00:00Z",
-      "tags": [
-        "学术",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "Latest Science News -- ScienceDaily"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "sciencedaily-com"
-      }
-    },
-    {
-      "id": "https://www.sciencedaily.com/releases/2026/10/261023023731.htm",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261023023731.htm",
-      "title": "Scientists discover a hidden flaw that challenges 40 years of superconductor science",
-      "content_text": "A superconducting material studied for 40 years has turned out to be far more complex than scientists believed. Advanced 3D imaging revealed a hidden patchwork…",
-      "summary": "A superconducting material studied for 40 years has turned out to be far more complex than scientists believed. Advanced 3D imaging revealed a hidden patchwork…",
-      "date_published": "2026-10-24T00:00:00Z",
-      "tags": [
-        "学术",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "Latest Science News -- ScienceDaily"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "sciencedaily-com"
-      }
-    },
-    {
-      "id": "https://www.sciencedaily.com/releases/2026/10/261023023734.htm",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261023023734.htm",
-      "title": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret",
-      "content_text": "Tiny samples from asteroid Bennu are rewriting scientists' understanding of how our Solar System formed. New evidence suggests that Bennu was born where materia…",
-      "summary": "Tiny samples from asteroid Bennu are rewriting scientists' understanding of how our Solar System formed. New evidence suggests that Bennu was born where materia…",
-      "date_published": "2026-10-24T00:00:00Z",
       "tags": [
         "学术",
         "科学"

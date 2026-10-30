@@ -1,21 +1,21 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · QQ 音乐飙升榜",
+  "title": "知树阅读-个人图书空间 · QQ 音乐飙升榜",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/shelf/hot-qqmusic.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
     {
-      "id": "https://y.qq.com/n/ryqq/songDetail/002GnkGs2TknvY",
-      "url": "https://y.qq.com/n/ryqq/songDetail/002GnkGs2TknvY",
-      "title": "过渡期 — 小宇-宋念宇",
-      "content_text": "第 7 名 · 再一次",
-      "summary": "第 7 名 · 再一次",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001Uw5qE3Wjlo6.jpg",
+      "id": "https://y.qq.com/n/ryqq/songDetail/001yreba3kfYUt",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001yreba3kfYUt",
+      "title": "礼拜四 — HENDERY (黄冠亨)",
+      "content_text": "第 7 名 · 礼拜四",
+      "summary": "第 7 名 · 礼拜四",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001uObJh0orcZT.jpg",
       "tags": [
         "音乐",
         "热榜"
@@ -31,13 +31,13 @@
       }
     },
     {
-      "id": "https://y.qq.com/n/ryqq/songDetail/0048w21Z1fHXth",
-      "url": "https://y.qq.com/n/ryqq/songDetail/0048w21Z1fHXth",
-      "title": "枝仔冰 — 庾澄庆",
-      "content_text": "第 10 名 · 枝仔冰",
-      "summary": "第 10 名 · 枝仔冰",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003mDn5b0xyq6j.jpg",
+      "id": "https://y.qq.com/n/ryqq/songDetail/003mGfGc4bZMKf",
+      "url": "https://y.qq.com/n/ryqq/songDetail/003mGfGc4bZMKf",
+      "title": "星赴 — 刘竞屿 / 熊艺文",
+      "content_text": "第 5 名 · L≡X",
+      "summary": "第 5 名 · L≡X",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002FhtVH3O27Sk.jpg",
       "tags": [
         "音乐",
         "热榜"
@@ -53,13 +53,13 @@
       }
     },
     {
-      "id": "https://y.qq.com/n/ryqq/songDetail/004UDmIV1ECKYR",
-      "url": "https://y.qq.com/n/ryqq/songDetail/004UDmIV1ECKYR",
-      "title": "月之印记 — 张碧晨",
-      "content_text": "第 6 名 · 月之印记",
-      "summary": "第 6 名 · 月之印记",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000044p3Cy3SiEqx.jpg",
+      "id": "https://y.qq.com/n/ryqq/songDetail/003nPEAq0wKVrb",
+      "url": "https://y.qq.com/n/ryqq/songDetail/003nPEAq0wKVrb",
+      "title": "我们之间到底算什么呢（Bigger than us） — 蒲熠星",
+      "content_text": "第 2 名 · 我们之间到底算什么呢（Bigger than us）",
+      "summary": "第 2 名 · 我们之间到底算什么呢（Bigger than us）",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001G2jGq0YRWse.jpg",
       "tags": [
         "音乐",
         "热榜"
@@ -75,13 +75,13 @@
       }
     },
     {
-      "id": "https://y.qq.com/n/ryqq/songDetail/000uW4pt0WyfhW",
-      "url": "https://y.qq.com/n/ryqq/songDetail/000uW4pt0WyfhW",
-      "title": "暗恋过 结局呢 — 新街口组合 / Mona Lavi",
-      "content_text": "第 2 名 · 国王",
-      "summary": "第 2 名 · 国王",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000013bTvi0ZvSbw.jpg",
+      "id": "https://y.qq.com/n/ryqq/songDetail/000hwRyX1AVjsz",
+      "url": "https://y.qq.com/n/ryqq/songDetail/000hwRyX1AVjsz",
+      "title": "季候风 / 有一天我会 — 王菲",
+      "content_text": "第 1 名 · 季候风",
+      "summary": "第 1 名 · 季候风",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000hmEcf32AE1H.jpg",
       "tags": [
         "音乐",
         "热榜"
@@ -97,35 +97,13 @@
       }
     },
     {
-      "id": "https://y.qq.com/n/ryqq/songDetail/000gMlKd3pj6KU",
-      "url": "https://y.qq.com/n/ryqq/songDetail/000gMlKd3pj6KU",
-      "title": "无尽冬 — 周深",
-      "content_text": "第 1 名 · 无尽冬",
-      "summary": "第 1 名 · 无尽冬",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002JkES13koV1w.jpg",
-      "tags": [
-        "音乐",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "QQ 音乐飙升榜"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "hot-qqmusic"
-      }
-    },
-    {
-      "id": "https://y.qq.com/n/ryqq/songDetail/001pkxoQ32maf6",
-      "url": "https://y.qq.com/n/ryqq/songDetail/001pkxoQ32maf6",
-      "title": "她的年轮 — 方珂欣",
-      "content_text": "第 3 名 · 她的年轮",
-      "summary": "第 3 名 · 她的年轮",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003hNZ4Q0766sT.jpg",
+      "id": "https://y.qq.com/n/ryqq/songDetail/001uDenz03slon",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001uDenz03slon",
+      "title": "名为偶然的必然 — 刘竞屿",
+      "content_text": "第 8 名 · L≡X",
+      "summary": "第 8 名 · L≡X",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002FhtVH3O27Sk.jpg",
       "tags": [
         "音乐",
         "热榜"
@@ -144,9 +122,9 @@
       "id": "https://y.qq.com/n/ryqq/songDetail/0027oMO61wWi55",
       "url": "https://y.qq.com/n/ryqq/songDetail/0027oMO61wWi55",
       "title": "发如雪 — 周杰伦",
-      "content_text": "第 8 名 · 十一月的萧邦",
-      "summary": "第 8 名 · 十一月的萧邦",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 6 名 · 十一月的萧邦",
+      "summary": "第 6 名 · 十一月的萧邦",
+      "date_published": "2026-10-30T00:00:00Z",
       "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000024bjiL2aocxT.jpg",
       "tags": [
         "音乐",
@@ -163,13 +141,13 @@
       }
     },
     {
-      "id": "https://y.qq.com/n/ryqq/songDetail/004e3QnK26YCrY",
-      "url": "https://y.qq.com/n/ryqq/songDetail/004e3QnK26YCrY",
-      "title": "不懂事 — 吴炳文",
-      "content_text": "第 4 名 · 不懂事",
-      "summary": "第 4 名 · 不懂事",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000000VbgK0B6o2e.jpg",
+      "id": "https://y.qq.com/n/ryqq/songDetail/001Sdket2oRaC1",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001Sdket2oRaC1",
+      "title": "不及我 — 姚冠宇",
+      "content_text": "第 4 名 · 不及我",
+      "summary": "第 4 名 · 不及我",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002Xlyow0hWtxQ.jpg",
       "tags": [
         "音乐",
         "热榜"
@@ -185,13 +163,13 @@
       }
     },
     {
-      "id": "https://y.qq.com/n/ryqq/songDetail/003rhZCs46EDau",
-      "url": "https://y.qq.com/n/ryqq/songDetail/003rhZCs46EDau",
-      "title": "RUD3 — 王栎鑫",
-      "content_text": "第 5 名 · RUD3",
-      "summary": "第 5 名 · RUD3",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001KlLNU04Xncb.jpg",
+      "id": "https://y.qq.com/n/ryqq/songDetail/002dG09F2B9jlJ",
+      "url": "https://y.qq.com/n/ryqq/songDetail/002dG09F2B9jlJ",
+      "title": "You Are All I Need — FLY COAST / 二宮愛",
+      "content_text": "第 3 名 · Flight Number 001",
+      "summary": "第 3 名 · Flight Number 001",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000B8U3p19UV0b.jpg",
       "tags": [
         "音乐",
         "热榜"
@@ -207,13 +185,35 @@
       }
     },
     {
-      "id": "https://y.qq.com/n/ryqq/songDetail/004BNUz54BDX3X",
-      "url": "https://y.qq.com/n/ryqq/songDetail/004BNUz54BDX3X",
-      "title": "Back at One — 董思成",
-      "content_text": "第 9 名 · Back at One",
-      "summary": "第 9 名 · Back at One",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001Avhju1Av2bO.jpg",
+      "id": "https://y.qq.com/n/ryqq/songDetail/000OPr7v3UUaNh",
+      "url": "https://y.qq.com/n/ryqq/songDetail/000OPr7v3UUaNh",
+      "title": "TWINROSE — 刘竞屿 / 熊艺文",
+      "content_text": "第 10 名 · L≡X",
+      "summary": "第 10 名 · L≡X",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002FhtVH3O27Sk.jpg",
+      "tags": [
+        "音乐",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "QQ 音乐飙升榜"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-qqmusic"
+      }
+    },
+    {
+      "id": "https://y.qq.com/n/ryqq/songDetail/0004wWxV2PxRQQ",
+      "url": "https://y.qq.com/n/ryqq/songDetail/0004wWxV2PxRQQ",
+      "title": "CRUX — 熊艺文",
+      "content_text": "第 9 名 · L≡X",
+      "summary": "第 9 名 · L≡X",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002FhtVH3O27Sk.jpg",
       "tags": [
         "音乐",
         "热榜"

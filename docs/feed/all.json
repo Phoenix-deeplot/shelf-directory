@@ -1,26 +1,25 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录",
+  "title": "知树阅读-个人图书空间",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/all.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/ai/6486266.html",
-      "url": "https://www.woshipm.com/ai/6486266.html",
-      "title": "鹅厂出手：面向Agent的网盘，到底应该长什么样？",
-      "content_text": "作者手上十几个 AI 工具，一直想给它们找个共同的仓库。腾讯网盘把「面向 Agent」写进了定位，他把内测几天折腾下来的连接、授权、备份和跨工具取资料的体验记了一遍，哪些真省事，哪些还差口气。 必须承认，我现在用AI，某种意义上就是一种消费。 我的工具一大堆—— Claude Code、Codex、WorkBuddy、…",
-      "summary": "作者手上十几个 AI 工具，一直想给它们找个共同的仓库。腾讯网盘把「面向 Agent」写进了定位，他把内测几天折腾下来的连接、授权、备份和跨工具取资料的体验记了一遍，哪些真省事，哪些还差口气。 必须承认，我现在用AI，某种意义上就是一种消费。 我的工具一大堆—— Claude Code、Codex、WorkBuddy、…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.woshipm.com/share/6486768.html",
+      "url": "https://www.woshipm.com/share/6486768.html",
+      "title": "餐饮/零售品牌门店新品上市AI评估模型",
+      "content_text": "新品上架常靠拍脑袋，失败率高、试错也贵。把选品、上市前评估、试销、上市后经营和淘汰复盘拆成五类场景，再配六大类指标，上新就能从经验判断变成可复用的数据流程，一次搭好长期可用。 无论是传统的零售门店，亦或者是餐饮门店，都会遇到产品上新的问题。 那么问题来了：产品上新有没有评估模型，能否让“产品上新”从经验判断升级为数据驱…",
+      "summary": "新品上架常靠拍脑袋，失败率高、试错也贵。把选品、上市前评估、试销、上市后经营和淘汰复盘拆成五类场景，再配六大类指标，上新就能从经验判断变成可复用的数据流程，一次搭好长期可用。 无论是传统的零售门店，亦或者是餐饮门店，都会遇到产品上新的问题。 那么问题来了：产品上新有没有评估模型，能否让“产品上新”从经验判断升级为数据驱…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
-        "AI",
         "个人随笔",
-        "Codex",
-        "WorkBuddy",
-        "腾讯",
+        "AI应用",
+        "产品策略",
+        "新零售",
         "产品",
         "运营",
         "商业"
@@ -36,18 +35,45 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6486169.html",
-      "url": "https://www.woshipm.com/ai/6486169.html",
-      "title": "首个记忆原生大模型开源，36B 本地部署实测：成功把规矩”刻”进脑子",
-      "content_text": "AI 编程最痛的不是写不出代码，而是换个会话就忘光。MemT-1 想做的事很直接：把踩过的坑写进模型权重，36B 版本在单卡 A100 上跑通，长程任务里到底管不管用，这篇给了实测。 做智能体或者日常用 Cursor、Claude Code、Windsurf 等 AI 辅助写代码的老铁们，大概率都经历过同一种“内伤”：…",
-      "summary": "AI 编程最痛的不是写不出代码，而是换个会话就忘光。MemT-1 想做的事很直接：把踩过的坑写进模型权重，36B 版本在单卡 A100 上跑通，长程任务里到底管不管用，这篇给了实测。 做智能体或者日常用 Cursor、Claude Code、Windsurf 等 AI 辅助写代码的老铁们，大概率都经历过同一种“内伤”：…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6486879.html",
+      "url": "https://www.woshipm.com/ai/6486879.html",
+      "title": "豆包终于学会了腾讯WorkBuddy的杀手锏？",
+      "content_text": "字节的豆包工作，终于开始向腾讯 WorkBuddy 学习了。 以后用豆包工作，背后帮你干活的可能是 DeepSeek，也可能是 Kimi、GLM。 昨天，豆包工作开始向企业客户开放第三方大模型服务，首批接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等系列模型。 字节辛辛苦苦研发…",
+      "summary": "字节的豆包工作，终于开始向腾讯 WorkBuddy 学习了。 以后用豆包工作，背后帮你干活的可能是 DeepSeek，也可能是 Kimi、GLM。 昨天，豆包工作开始向企业客户开放第三方大模型服务，首批接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等系列模型。 字节辛辛苦苦研发…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "AI",
-        "个人随笔",
-        "AI编程",
-        "MemOS",
-        "案例分析",
+        "DeepSeek",
+        "Kimi",
+        "WorkBuddy",
+        "腾讯",
+        "豆包",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/it/6486854.html",
+      "url": "https://www.woshipm.com/it/6486854.html",
+      "title": "绿泡泡，其实“救了”红果短剧？",
+      "content_text": "红果短剧刚宣布下线金币功能、上线休息提醒，看似从容不迫，但字节随即整合AI短剧资源，推出即梦短剧工作室，打造从剧本到成片的AI流水线。微信绿泡泡短剧月活已破亿，增长迅猛。这场短剧之争背后，是AI视频商业化路径的清晰化，以及快手、阿里等大厂的潜在入局。红果的危机感，或许才刚刚开始。 红果短剧开始有危机感了。 大家都知道，…",
+      "summary": "红果短剧刚宣布下线金币功能、上线休息提醒，看似从容不迫，但字节随即整合AI短剧资源，推出即梦短剧工作室，打造从剧本到成片的AI流水线。微信绿泡泡短剧月活已破亿，增长迅猛。这场短剧之争背后，是AI视频商业化路径的清晰化，以及快手、阿里等大厂的潜在入局。红果的危机感，或许才刚刚开始。 红果短剧开始有危机感了。 大家都知道，…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "业界动态",
+        "AI短剧",
+        "字节跳动",
+        "微信绿泡泡",
+        "红果短剧",
         "行业观察",
         "产品",
         "运营"
@@ -63,16 +89,70 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6486194.html",
-      "url": "https://www.woshipm.com/ai/6486194.html",
-      "title": "详细拆解 Pi Agent：产品经理搞懂 Agent 的最佳实践",
-      "content_text": "OpenClaw 背后真正负责思考和动手的，是一个叫 Pi 的极简框架。拆完整个项目，作者把 Agent 的循环、上下文工程、工具系统与状态管理，讲成了一套可以迁移的产品原则。 如果你正在学习 Agent，或者要面向 Agent 优化迭代你的产品，强烈建议深度使用、拆解、学习 Pi Agent 这套开源项目。 我前段时…",
-      "summary": "OpenClaw 背后真正负责思考和动手的，是一个叫 Pi 的极简框架。拆完整个项目，作者把 Agent 的循环、上下文工程、工具系统与状态管理，讲成了一套可以迁移的产品原则。 如果你正在学习 Agent，或者要面向 Agent 优化迭代你的产品，强烈建议深度使用、拆解、学习 Pi Agent 这套开源项目。 我前段时…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6486774.html",
+      "url": "https://www.woshipm.com/ai/6486774.html",
+      "title": "挖到个宝藏27B开源Code2Video模型！可本地安装，还送MG Skill～",
+      "content_text": "HeyGen 的 Code2Video 榜单上，前八名清一色闭源，Claude Opus 5.5 排第一，开源模型多在百分之十上下。一个 27B 开源模型能本地安装，还能在 HyperFrames 里稳定出片。 老粉应该知道，我最开始是一个后端开发，剪辑和AE是完全一窍不通。 但从今年2月开始，我陆陆续续用代码做了不少…",
+      "summary": "HeyGen 的 Code2Video 榜单上，前八名清一色闭源，Claude Opus 5.5 排第一，开源模型多在百分之十上下。一个 27B 开源模型能本地安装，还能在 HyperFrames 里稳定出片。 老粉应该知道，我最开始是一个后端开发，剪辑和AE是完全一窍不通。 但从今年2月开始，我陆陆续续用代码做了不少…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "AI",
+        "个人随笔",
+        "AI编程",
+        "Claude Code",
+        "经验分享",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6486782.html",
+      "url": "https://www.woshipm.com/ai/6486782.html",
+      "title": "我花了 10 个小时，用AI编了一套精美的诗集：Skills 开源，附 6 套宋代美学模板",
+      "content_text": "为了验证百万级上下文，他用 Kimi K3.1 Pro 编了一套苏轼诗集，一千四百四十八页、三千二百条作品，中途废掉一版竖排稿，烧掉一点六九亿 Token，三百多次调用十小时完工。 现在的大模型普遍支持最高 1M 超长上下文 周二我发了 Kimi K3.1 Pro 的实测：国产最强开源大模型，Kimi K3.1 Pro…",
+      "summary": "为了验证百万级上下文，他用 Kimi K3.1 Pro 编了一套苏轼诗集，一千四百四十八页、三千二百条作品，中途废掉一版竖排稿，烧掉一点六九亿 Token，三百多次调用十小时完工。 现在的大模型普遍支持最高 1M 超长上下文 周二我发了 Kimi K3.1 Pro 的实测：国产最强开源大模型，Kimi K3.1 Pro…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "AI应用",
+        "Kimi",
+        "经验分享",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/share/6486711.html",
+      "url": "https://www.woshipm.com/share/6486711.html",
+      "title": "情景记忆：AI 听记产品从 “记录工具” 到 “认知资产” 的跃迁",
+      "content_text": "本文承接上一篇《Agent 记忆体系分类・触发编码・生命周期维护》。那篇文章系统拆解了记忆的四大类型与全生命周期机制，其中情景记忆是四类里最特别、也最接近 \"人\" 的一类。这一次，我们把它单独拎出来，落到 AI 听记这个具体产品场景，看一个抽象概念如何真正变成产品能力。 引言：一个被忽视的分水岭 市面上几乎所有 AI…",
+      "summary": "本文承接上一篇《Agent 记忆体系分类・触发编码・生命周期维护》。那篇文章系统拆解了记忆的四大类型与全生命周期机制，其中情景记忆是四类里最特别、也最接近 \"人\" 的一类。这一次，我们把它单独拎出来，落到 AI 听记这个具体产品场景，看一个抽象概念如何真正变成产品能力。 引言：一个被忽视的分水岭 市面上几乎所有 AI…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "个人随笔",
         "AI产品",
-        "Claude",
+        "个人观点",
         "产品分析",
         "产品",
         "运营",
@@ -89,123 +169,17 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6486181.html",
-      "url": "https://www.woshipm.com/ai/6486181.html",
-      "title": "腾讯网盘上线，行业首个Agent网盘来了，实测惊艳",
-      "content_text": "腾讯网盘上线，主打面向 Agent 的存储底座：连上 WorkBuddy、ima、腾讯文档与飞书，把散落各处的资料归到一处。五个步骤实测下来，它到底能不能当 AI 时代的统一入口。 早在今年 6 月份，就有可靠消息显示，腾讯正在研发一款 Agent 网盘产品：腾讯网盘。 我还专为此写过一篇文章，对这个产品充满期待。 腾…",
-      "summary": "腾讯网盘上线，主打面向 Agent 的存储底座：连上 WorkBuddy、ima、腾讯文档与飞书，把散落各处的资料归到一处。五个步骤实测下来，它到底能不能当 AI 时代的统一入口。 早在今年 6 月份，就有可靠消息显示，腾讯正在研发一款 Agent 网盘产品：腾讯网盘。 我还专为此写过一篇文章，对这个产品充满期待。 腾…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6486778.html",
+      "url": "https://www.woshipm.com/ai/6486778.html",
+      "title": "微软谷歌重整办公套件，腾讯 Buddy One 串联应用：办公 AI 开始比拼生态协同",
+      "content_text": "微软给 Work IQ 加了检索工具，Google 让 Gemini 打通邮件与云盘，腾讯发布 Buddy One 串联自家应用。办公 AI 从单点功能转向生态协同，组合订阅成了留住付费的理由。 “创造力，就是把事物连接起来。”——史蒂夫·乔布斯，1996 年《连线》 10 月 20 日，微软为 Work IQ 推出新…",
+      "summary": "微软给 Work IQ 加了检索工具，Google 让 Gemini 打通邮件与云盘，腾讯发布 Buddy One 串联自家应用。办公 AI 从单点功能转向生态协同，组合订阅成了留住付费的理由。 “创造力，就是把事物连接起来。”——史蒂夫·乔布斯，1996 年《连线》 10 月 20 日，微软为 Work IQ 推出新…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "AI",
         "个人随笔",
         "AI产品",
-        "WorkBuddy",
-        "腾讯网盘",
-        "产品",
-        "运营",
-        "商业"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/share/6486191.html",
-      "url": "https://www.woshipm.com/share/6486191.html",
-      "title": "社媒广告投了大半年遇瓶颈？聊聊谷歌广告如何协同破局",
-      "content_text": "社媒广告跑到一定阶段就上不去，是不少独立站老板的共同瓶颈。海外消费者刷到你之后会去 Google 搜什么，决定了这笔广告费能不能沉淀成品牌资产，而不是一停投就归零。 最近和几个做独立站的朋友小聚，聊起今年的海外营销大盘，有个问题被其他小伙伴重点提起。 “我的重心都在社交媒体广告（比如Meta），前期跑得好好的，但增长到…",
-      "summary": "社媒广告跑到一定阶段就上不去，是不少独立站老板的共同瓶颈。海外消费者刷到你之后会去 Google 搜什么，决定了这笔广告费能不能沉淀成品牌资产，而不是一停投就归零。 最近和几个做独立站的朋友小聚，聊起今年的海外营销大盘，有个问题被其他小伙伴重点提起。 “我的重心都在社交媒体广告（比如Meta），前期跑得好好的，但增长到…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "个人随笔",
-        "市场分析",
-        "谷歌广告",
-        "跨境电商",
-        "产品",
-        "运营",
-        "商业"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/ai/6486200.html",
-      "url": "https://www.woshipm.com/ai/6486200.html",
-      "title": "电商产品设计终极工作流：用AI一键生成可交互、可拆解的产品3D demo",
-      "content_text": "从亚马逊评论中挖掘产品改进机会，再生成可交互的3D Demo，这套工作流让产品设计效率倍增。本文详细拆解如何用WorkBuddy和卖家精灵MCP，完成VOC分析、方案构思到三维演示的全过程，并附上实用提示词和模板，助你快速上手。 今天想给大家分享一个有趣又实用的电商产品设计工作流，对产品设计、运营、设计师都会有很大帮助…",
-      "summary": "从亚马逊评论中挖掘产品改进机会，再生成可交互的3D Demo，这套工作流让产品设计效率倍增。本文详细拆解如何用WorkBuddy和卖家精灵MCP，完成VOC分析、方案构思到三维演示的全过程，并附上实用提示词和模板，助你快速上手。 今天想给大家分享一个有趣又实用的电商产品设计工作流，对产品设计、运营、设计师都会有很大帮助…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "AI",
-        "个人随笔",
-        "3D Demo",
-        "AI应用",
-        "VOC分析",
-        "WorkBuddy",
-        "卖家精灵",
-        "电商产品设计"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/share/6486110.html",
-      "url": "https://www.woshipm.com/share/6486110.html",
-      "title": "用户要的从来不是钻头，而是墙上的洞",
-      "content_text": "用户要的从来不是钻头，而是墙上的洞。 座舱体验开发与设计，不应执着于功能、控件、动画这些 “钻头” 本身，而要锚定用户场景目标；先识别用户想要达成的体验结果，再选择最简合适的实现路径，不为功能而做功能。 一 我们手里握着很多精良的「钻头」： 流畅的 UI 动画、丰富的语音能力、多样的座舱交互、强劲的算力、琳琅满目的配置…",
-      "summary": "用户要的从来不是钻头，而是墙上的洞。 座舱体验开发与设计，不应执着于功能、控件、动画这些 “钻头” 本身，而要锚定用户场景目标；先识别用户想要达成的体验结果，再选择最简合适的实现路径，不为功能而做功能。 一 我们手里握着很多精良的「钻头」： 流畅的 UI 动画、丰富的语音能力、多样的座舱交互、强劲的算力、琳琅满目的配置…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "个人随笔",
-        "个人观点",
-        "产品思考",
-        "需求分析",
-        "产品",
-        "运营",
-        "商业"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/share/6486072.html",
-      "url": "https://www.woshipm.com/share/6486072.html",
-      "title": "抖音内测短剧互动道具，花钱能参与剧情，开启情绪付费新玩法",
-      "content_text": "抖音正在内测短剧专属互动道具，观众花 1 钻约 0.1 元，就能在包厢对峙的节点刷出铁砂掌特效，直接改变画面。在全集解锁、广告、短剧卡之外，这是又一条情绪付费链路，也是拉高单用户消费的解法。 抖音正在内测短剧场景专属的道具礼物，观众消耗平台钻石即可送出，礼物触发后会直接在短剧的画面里，弹出配套的剧情互动特效。简单来说，…",
-      "summary": "抖音正在内测短剧专属互动道具，观众花 1 钻约 0.1 元，就能在包厢对峙的节点刷出铁砂掌特效，直接改变画面。在全集解锁、广告、短剧卡之外，这是又一条情绪付费链路，也是拉高单用户消费的解法。 抖音正在内测短剧场景专属的道具礼物，观众消耗平台钻石即可送出，礼物触发后会直接在短剧的画面里，弹出配套的剧情互动特效。简单来说，…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "个人随笔",
-        "商业模式",
-        "抖音",
-        "短视频",
+        "腾讯",
         "行业观察",
         "产品",
         "运营",
@@ -222,72 +196,19 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/share/6486272.html",
-      "url": "https://www.woshipm.com/share/6486272.html",
-      "title": "我反对品牌盲目「去登味」！",
-      "content_text": "「登味」成了品牌圈的新罪名，于是大家都开始讲松弛、讲梗、讲年轻人的生活方式。作者认为这是矫枉过正：权威、秩序和掌控感同样是真实存在的心理需求，掌舵者人格有它不可替代的商业价值。 现在的品牌营销圈，似乎正在形成一种新的共识： 做品牌，千万不能有“登味”。 广告里出现几个西装革履的中年男人，被说成登味十足； 品牌宣传强调行…",
-      "summary": "「登味」成了品牌圈的新罪名，于是大家都开始讲松弛、讲梗、讲年轻人的生活方式。作者认为这是矫枉过正：权威、秩序和掌控感同样是真实存在的心理需求，掌舵者人格有它不可替代的商业价值。 现在的品牌营销圈，似乎正在形成一种新的共识： 做品牌，千万不能有“登味”。 广告里出现几个西装革履的中年男人，被说成登味十足； 品牌宣传强调行…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "个人随笔",
-        "品牌建设",
-        "品牌管理",
-        "消费洞察",
-        "产品",
-        "运营",
-        "商业"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/ai/6486183.html",
-      "url": "https://www.woshipm.com/ai/6486183.html",
-      "title": "张一鸣又造出一个国民级APP",
-      "content_text": "谁能想到，曾经被不少人嫌弃“又土又俗”的短剧，如今已经成了互联网大厂争夺用户时间的重要战场。 10月29日，一组关于红果短剧的数据引发关注。 QuestMobile数据显示，2026年5月，红果短剧月活跃用户达到3.56亿；7月日活跃用户达到1.68亿，同比增长107%，甚至超过腾讯视频、爱奇艺、优酷、芒果TV四家长视…",
-      "summary": "谁能想到，曾经被不少人嫌弃“又土又俗”的短剧，如今已经成了互联网大厂争夺用户时间的重要战场。 10月29日，一组关于红果短剧的数据引发关注。 QuestMobile数据显示，2026年5月，红果短剧月活跃用户达到3.56亿；7月日活跃用户达到1.68亿，同比增长107%，甚至超过腾讯视频、爱奇艺、优酷、芒果TV四家长视…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "AI",
-        "小程序",
-        "微信",
-        "抖音",
-        "腾讯",
-        "产品",
-        "运营",
-        "商业"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/ai/6486063.html",
-      "url": "https://www.woshipm.com/ai/6486063.html",
-      "title": "开源性转马尔福 AI 女友，用即梦短剧工作室做的",
-      "content_text": "性转马尔福一条帖子刷到 2300 万浏览，有人干脆用即梦 AI 短剧工作室做了个桌面应用：第一人称剧情、好感度解锁、角色就住在桌面里。画面和配音用即梦，音乐用 Suno，代码交给 Claude。 这一个多月，你应该刷到过性转马尔福吧。 起因是 9 月 22 日，一位俄罗斯画师在 X 上发了一张图。 图上是一个穿着斯莱特…",
-      "summary": "性转马尔福一条帖子刷到 2300 万浏览，有人干脆用即梦 AI 短剧工作室做了个桌面应用：第一人称剧情、好感度解锁、角色就住在桌面里。画面和配音用即梦，音乐用 Suno，代码交给 Claude。 这一个多月，你应该刷到过性转马尔福吧。 起因是 9 月 22 日，一位俄罗斯画师在 X 上发了一张图。 图上是一个穿着斯莱特…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6486947.html",
+      "url": "https://www.woshipm.com/ai/6486947.html",
+      "title": "微信小微升级，开始Personal Agent化",
+      "content_text": "灵光 2.0 向所有用户开放，千问 Go 紧随其后，微信小微也开始往 Personal Agent 的方向升级。国内的个人助理产品从 PPT 走进内测和公测，能力边界第一次能被真实使用检验。三条路线不同，但都在争同一个入口：谁替用户把事情真正办完。 之前，国内的 Personal Agent 产品探索。 还停留在媒体的…",
+      "summary": "灵光 2.0 向所有用户开放，千问 Go 紧随其后，微信小微也开始往 Personal Agent 的方向升级。国内的个人助理产品从 PPT 走进内测和公测，能力边界第一次能被真实使用检验。三条路线不同，但都在争同一个入口：谁替用户把事情真正办完。 之前，国内的 Personal Agent 产品探索。 还停留在媒体的…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "AI",
         "个人随笔",
-        "AI应用",
-        "Claude",
-        "Suno",
-        "经验分享",
+        "Personal Agent",
+        "功能分析",
+        "微信小微",
+        "灵光",
         "产品",
         "运营"
       ],
@@ -302,72 +223,18 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6486168.html",
-      "url": "https://www.woshipm.com/ai/6486168.html",
-      "title": "从 GEO 实战重新理解知识图谱",
-      "content_text": "知识图谱不是静态资料库，而是品牌在 AI 世界的认知底座。本文从 GEO 优化视角，拆解知识图谱如何统一认知、指导选题、串联内容并发现缺口，并分享市场部运营人员从零搭建、持续迭代的实战方法，让知识树既能摘果也能灌溉。 一、前提 最近在重新梳理公司的知识图谱。最开始的原因其实很简单——我看了不少 GEO的行业报告，里面几…",
-      "summary": "知识图谱不是静态资料库，而是品牌在 AI 世界的认知底座。本文从 GEO 优化视角，拆解知识图谱如何统一认知、指导选题、串联内容并发现缺口，并分享市场部运营人员从零搭建、持续迭代的实战方法，让知识树既能摘果也能灌溉。 一、前提 最近在重新梳理公司的知识图谱。最开始的原因其实很简单——我看了不少 GEO的行业报告，里面几…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.woshipm.com/it/6486812.html",
+      "url": "https://www.woshipm.com/it/6486812.html",
+      "title": "对话 Google AI 基建负责人：从芯片配比到全球部署，Agent 正在重写数据中心的建设逻辑",
+      "content_text": "算力的账不能只看 FLOPS。Google AI 基建负责人 Amin Vahdat 谈 TPU 配比、十万卡集群的故障恢复，以及长时程 Agent 如何改写数据中心的供电与冷却，回报要算到任务真完成。 当一家公司的 AI 服务能力需要每六个月翻一倍，买更多芯片只是问题的开始。十万颗加速器组成的集群里，故障随时发生；模…",
+      "summary": "算力的账不能只看 FLOPS。Google AI 基建负责人 Amin Vahdat 谈 TPU 配比、十万卡集群的故障恢复，以及长时程 Agent 如何改写数据中心的供电与冷却，回报要算到任务真完成。 当一家公司的 AI 服务能力需要每六个月翻一倍，买更多芯片只是问题的开始。十万颗加速器组成的集群里，故障随时发生；模…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
-        "AI",
-        "个人随笔",
-        "AI搜索",
-        "GEO",
-        "内容运营",
-        "市场部",
-        "知识图谱",
-        "经验总结"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/ai/6485988.html",
-      "url": "https://www.woshipm.com/ai/6485988.html",
-      "title": "下一代PPT，AI 做 PPT 的终极形态",
-      "content_text": "当 AI 能生成 3D 模型和动态视频，PPT 的叙事逻辑正在被改写。本文从产品演示的真实痛点出发，结合 Rebecca Minkoff、宜家等案例，拆解如何用 3D 视角和动态画面讲清空间关系与变化过程，并给出从产品图到短视频的完整实操路径。 2026年，用 AI 做 PPT 的终极形态，长这样 先说结论：我做 PP…",
-      "summary": "当 AI 能生成 3D 模型和动态视频，PPT 的叙事逻辑正在被改写。本文从产品演示的真实痛点出发，结合 Rebecca Minkoff、宜家等案例，拆解如何用 3D 视角和动态画面讲清空间关系与变化过程，并给出从产品图到短视频的完整实操路径。 2026年，用 AI 做 PPT 的终极形态，长这样 先说结论：我做 PP…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "AI",
-        "个人随笔",
-        "3D 模型",
-        "AI 应用",
-        "AI 生成 PPT",
-        "产品展示",
-        "动态演示",
-        "案例分析"
-      ],
-      "authors": [
-        {
-          "name": "人人都是产品经理"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "woshipm-com"
-      }
-    },
-    {
-      "id": "https://www.woshipm.com/chuangye/6486082.html",
-      "url": "https://www.woshipm.com/chuangye/6486082.html",
-      "title": "一人 AI 公司，专门服务美国年入百万的本地老板，这笔钱怎么赚",
-      "content_text": "美国做水管和空调的公司约 11.2 万家，平均每家年入 250 万美元，真正把 AI 用进日常经营的只占 14%。对这些老板别讲 AI，讲多接几通电话、多订几单活。一个人怎么把 AI 卖给本地生意？ 你有没有想过，大家都在抢着把 AI 卖给旧金山的人，真正付得起钱的，却可能是街边修水管、修空调的公司？ James Di…",
-      "summary": "美国做水管和空调的公司约 11.2 万家，平均每家年入 250 万美元，真正把 AI 用进日常经营的只占 14%。对这些老板别讲 AI，讲多接几通电话、多订几单活。一个人怎么把 AI 卖给本地生意？ 你有没有想过，大家都在抢着把 AI 卖给旧金山的人，真正付得起钱的，却可能是街边修水管、修空调的公司？ James Di…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "创业学院",
-        "AI应用",
-        "Shopify",
+        "业界动态",
+        "AI产品",
+        "google",
+        "TPU",
         "个人观点",
-        "商业模式",
         "产品",
         "运营",
         "商业"
@@ -383,18 +250,18 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6486185.html",
-      "url": "https://www.woshipm.com/ai/6486185.html",
-      "title": "ChatGPT 每月送 API 额度，最多 500 美元/月",
-      "content_text": "OpenAI 给 ChatGPT 订阅加了项福利：Pro 和 Business 用户每月可领与订阅等额的 API 额度，最高 500 美元。与此同时，原有额度被砍掉一半，这笔账要怎么算，几步就能领。 OpenAI 给 ChatGPT 订阅加了一项福利：Pro 和 Business 用户，每月可领 API 额度，等同于订…",
-      "summary": "OpenAI 给 ChatGPT 订阅加了项福利：Pro 和 Business 用户每月可领与订阅等额的 API 额度，最高 500 美元。与此同时，原有额度被砍掉一半，这笔账要怎么算，几步就能领。 OpenAI 给 ChatGPT 订阅加了一项福利：Pro 和 Business 用户，每月可领 API 额度，等同于订…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6486764.html",
+      "url": "https://www.woshipm.com/ai/6486764.html",
+      "title": "学到钉钉们的精髓了？Claude上线逆天功能，帮企业监控员工是否用AI摸鱼",
+      "content_text": "Anthropic 为 Claude Enterprise 上线智能报告，管理员能读取团队二十八天内的对话，把工作归到不同流程，标出哪些会话没有产出。一家把安全写进使命的公司，先做出了监工工具。 2026年10月，Anthropic为Claude Enterprise上线了一个新功能——“智能报告”。 名字平平无奇，能…",
+      "summary": "Anthropic 为 Claude Enterprise 上线智能报告，管理员能读取团队二十八天内的对话，把工作归到不同流程，标出哪些会话没有产出。一家把安全写进使命的公司，先做出了监工工具。 2026年10月，Anthropic为Claude Enterprise上线了一个新功能——“智能报告”。 名字平平无奇，能…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "AI",
         "个人随笔",
-        "ChatGPT",
-        "OpenAI",
-        "行业动态",
+        "Anthropic",
+        "Claude",
+        "行业观察",
         "产品",
         "运营",
         "商业"
@@ -410,314 +277,150 @@
       }
     },
     {
-      "id": "https://www.wired.com/story/skullcandy-discount-code/",
-      "url": "https://www.wired.com/story/skullcandy-discount-code/",
-      "title": "Skullcandy Discount Code: 30% Off | November 2026",
-      "content_text": "Save on today’s top Skullcandy Promo Codes for Crusher Evo headphones, 36% off Crusher ANC 2 noise-canceling headphones, and more with amazing deals.",
-      "summary": "Save on today’s top Skullcandy Promo Codes for Crusher Evo headphones, 36% off Crusher ANC 2 noise-canceling headphones, and more with amazing deals.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://media.wired.com/photos/67b63b9c2c751893c256c1e8/master/pass/WIRED-Coupons-R2_13.png",
+      "id": "https://www.woshipm.com/pd/6486784.html",
+      "url": "https://www.woshipm.com/pd/6486784.html",
+      "title": "一文看懂：集团司库全景",
+      "content_text": "几十家子公司、多套 ERP、与多家银行合作，总部看得到余额，资金会上却仍说不清下个月缺多少钱。集团司库要先把管理边界、决策权限、数据贯通和交易核实定下来，再谈系统怎么建。 假设一个集团有几十家子公司，分布在境内外，使用多套ERP，与多家银行合作。 总部每天能看到银行余额，也已经实现统一付款。 但资金会上，聊到以下问题时…",
+      "summary": "几十家子公司、多套 ERP、与多家银行合作，总部看得到余额，资金会上却仍说不清下个月缺多少钱。集团司库要先把管理边界、决策权限、数据贯通和交易核实定下来，再谈系统怎么建。 假设一个集团有几十家子公司，分布在境内外，使用多套ERP，与多家银行合作。 总部每天能看到银行余额，也已经实现统一付款。 但资金会上，聊到以下问题时…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Coupons",
-        "科技",
-        "社会"
+        "产品设计",
+        "企业服务",
+        "数字化转型",
+        "经验总结",
+        "产品",
+        "运营",
+        "商业"
       ],
       "authors": [
         {
-          "name": "WIRED"
+          "name": "人人都是产品经理"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "wired-com"
+        "shelf": "woshipm-com"
       }
     },
     {
-      "id": "https://www.wired.com/story/pura-promo-code/",
-      "url": "https://www.wired.com/story/pura-promo-code/",
-      "title": "Pura Promo Codes: $20 Off November 2026",
-      "content_text": "Enhance your home's ambiance for less with active Pura promo codes. Find savings on smart diffusers, exclusive scents, and subscribe & save offers.",
-      "summary": "Enhance your home's ambiance for less with active Pura promo codes. Find savings on smart diffusers, exclusive scents, and subscribe & save offers.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://media.wired.com/photos/66ea076fca863bb4c1028b64/master/pass/WIRED-Coupons-11.jpg",
+      "id": "https://www.woshipm.com/ai/6486912.html",
+      "url": "https://www.woshipm.com/ai/6486912.html",
+      "title": "WorkBuddy悄悄上线「手动安装插件」，丝滑操控浏览器",
+      "content_text": "Chrome 插件商店不科学上网打不开，Edge 和 QQ 浏览器又都跳回同一个地址。WorkBuddy 上线了手动安装拓展程序：选浏览器、打开本地插件文件夹、把文件夹拖进扩展页面，三步装完。文中还实测了让 Agent 自己找网址、开标签页的过程。 前阵子，WorkBuddy 悄悄上线了「浏览器插件」。 支持在 Chr…",
+      "summary": "Chrome 插件商店不科学上网打不开，Edge 和 QQ 浏览器又都跳回同一个地址。WorkBuddy 上线了手动安装拓展程序：选浏览器、打开本地插件文件夹、把文件夹拖进扩展页面，三步装完。文中还实测了让 Agent 自己找网址、开标签页的过程。 前阵子，WorkBuddy 悄悄上线了「浏览器插件」。 支持在 Chr…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Coupons",
-        "科技",
-        "社会"
+        "AI",
+        "个人随笔",
+        "AI工具",
+        "Chrome",
+        "WorkBuddy",
+        "产品",
+        "运营",
+        "商业"
       ],
       "authors": [
         {
-          "name": "WIRED"
+          "name": "人人都是产品经理"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "wired-com"
+        "shelf": "woshipm-com"
       }
     },
     {
-      "id": "https://www.wired.com/story/petlibro-discount-code/",
-      "url": "https://www.wired.com/story/petlibro-discount-code/",
-      "title": "Petlibro Offers: 30% Off in November 2026",
-      "content_text": "Save on Petlibro essentials, including automatic feeders, water fountains, and accessories to keep cats and dogs fed, hydrated, and comfortable every day.",
-      "summary": "Save on Petlibro essentials, including automatic feeders, water fountains, and accessories to keep cats and dogs fed, hydrated, and comfortable every day.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://media.wired.com/photos/67b63b9283a9f95e0ab9b215/master/pass/WIRED-Coupons-R2_3.png",
+      "id": "https://www.woshipm.com/ucd/6486807.html",
+      "url": "https://www.woshipm.com/ucd/6486807.html",
+      "title": "Vibe 技巧：别再只跟 AI 说“弹出弹窗”了！",
+      "content_text": "在 Vibe Coding 里，最磨人的往往不是技术门槛，而是说不清自己想要什么。模态对话框、Popover、Toast 各有名字，把模糊的视觉感受换成准确的组件词汇，AI 才能少猜几次，界面也才更像样。 在 Vibe Coding 中，经常出现脑子里是有画面的，但是给 AI 讲了半天，最终做出来个完全不相关的页面，我…",
+      "summary": "在 Vibe Coding 里，最磨人的往往不是技术门槛，而是说不清自己想要什么。模态对话框、Popover、Toast 各有名字，把模糊的视觉感受换成准确的组件词汇，AI 才能少猜几次，界面也才更像样。 在 Vibe Coding 中，经常出现脑子里是有画面的，但是给 AI 讲了半天，最终做出来个完全不相关的页面，我…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Coupons",
-        "科技",
-        "社会"
+        "交互体验",
+        "AI编程",
+        "Vibe Coding",
+        "产品分析",
+        "产品",
+        "运营",
+        "商业"
       ],
       "authors": [
         {
-          "name": "WIRED"
+          "name": "人人都是产品经理"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "wired-com"
+        "shelf": "woshipm-com"
       }
     },
     {
-      "id": "https://www.wired.com/story/norton-coupon-code/",
-      "url": "https://www.wired.com/story/norton-coupon-code/",
-      "title": "Norton Coupon Codes: Up to 58% Off",
-      "content_text": "Whether you’re looking to protect your small business or your personal computer, we have the top coupons and deals to help you save at Norton.",
-      "summary": "Whether you’re looking to protect your small business or your personal computer, we have the top coupons and deals to help you save at Norton.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://media.wired.com/photos/66ea076e56fd4954a7f91e0c/master/pass/WIRED-Coupons-17.jpg",
+      "id": "https://www.woshipm.com/ai/6486788.html",
+      "url": "https://www.woshipm.com/ai/6486788.html",
+      "title": "DeepSeek的尽头，居然是一条会喊你爸爸的蓝色大肥鱼。",
+      "content_text": "DeepSeek 的 Logo 是条鲸鱼，一次自我识别认成了蓝色大肥鱼，外号就这么叫开。网友围绕它二创出鲸鱼娘，蓝发鲸尾、爱吃白饭、干活还得讨 Token，各平台都在闹鱼灾。 最近，我真的感觉，国内互联网，快要被一群蓝色大肥鱼给统治了。 刷B站有她，刷抖音也有她，刷小红书还是她。 无论在哪个平台，好像大家都想给她完整的…",
+      "summary": "DeepSeek 的 Logo 是条鲸鱼，一次自我识别认成了蓝色大肥鱼，外号就这么叫开。网友围绕它二创出鲸鱼娘，蓝发鲸尾、爱吃白饭、干活还得讨 Token，各平台都在闹鱼灾。 最近，我真的感觉，国内互联网，快要被一群蓝色大肥鱼给统治了。 刷B站有她，刷抖音也有她，刷小红书还是她。 无论在哪个平台，好像大家都想给她完整的…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Coupons",
-        "科技",
-        "社会"
+        "AI",
+        "个人随笔",
+        "DeepSeek",
+        "内容创作",
+        "行业观察",
+        "产品",
+        "运营",
+        "商业"
       ],
       "authors": [
         {
-          "name": "WIRED"
+          "name": "人人都是产品经理"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "wired-com"
+        "shelf": "woshipm-com"
       }
     },
     {
-      "id": "https://www.wired.com/story/nzxt-discount-code/",
-      "url": "https://www.wired.com/story/nzxt-discount-code/",
-      "title": "NZXT Discount Codes: 50% Off in November 2026",
-      "content_text": "Save 50%, plus up to $250 with NZXT promo codes and discounts.",
-      "summary": "Save 50%, plus up to $250 with NZXT promo codes and discounts.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://media.wired.com/photos/67b63b995a505b018b67ed92/master/pass/WIRED-Coupons-R2_10.png",
+      "id": "https://www.woshipm.com/share/6486699.html",
+      "url": "https://www.woshipm.com/share/6486699.html",
+      "title": "AI时代，RPA产品应该如何升级？从流程自动化到智能化执行",
+      "content_text": "RPA曾是企业自动化市场的热门赛道，如今又迎来大模型与AI智能体带来的新机会。当AI开始尝试接管复杂任务，企业选择RPA平台，不能只看传统流程执行能力，还需要重新审视系统兼容、流程治理、异常处理与AI融合能力。技术路线在变，但决定自动化能否长期创造价值的，始终是平台对真实业务的支撑能力。 大家还记得RPA吗？ RPA这…",
+      "summary": "RPA曾是企业自动化市场的热门赛道，如今又迎来大模型与AI智能体带来的新机会。当AI开始尝试接管复杂任务，企业选择RPA平台，不能只看传统流程执行能力，还需要重新审视系统兼容、流程治理、异常处理与AI融合能力。技术路线在变，但决定自动化能否长期创造价值的，始终是平台对真实业务的支撑能力。 大家还记得RPA吗？ RPA这…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Coupons",
-        "科技",
-        "社会"
+        "个人随笔",
+        "AI时代",
+        "RPA",
+        "个人观点",
+        "产品",
+        "运营",
+        "商业"
       ],
       "authors": [
         {
-          "name": "WIRED"
+          "name": "人人都是产品经理"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "wired-com"
+        "shelf": "woshipm-com"
       }
     },
     {
-      "id": "https://www.wired.com/story/loop-earplugs-discount-code/",
-      "url": "https://www.wired.com/story/loop-earplugs-discount-code/",
-      "title": "Loop Earplugs Discount Codes: 40% Off",
-      "content_text": "Save on Loop Earplugs, including Quiet 2 and popular gift sets for improved sleep, focus, and comfort.",
-      "summary": "Save on Loop Earplugs, including Quiet 2 and popular gift sets for improved sleep, focus, and comfort.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://media.wired.com/photos/67b63b995a505b018b67ed92/master/pass/WIRED-Coupons-R2_10.png",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Coupons",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/liquid-glass-finally-makes-sense-on-the-iphone-duo/",
-      "url": "https://www.wired.com/story/liquid-glass-finally-makes-sense-on-the-iphone-duo/",
-      "title": "Liquid Glass Finally Makes Sense on the iPhone Duo",
-      "content_text": "Liquid Glass was a divisive redesign. But with a radically different iPhone, the pieces are finally falling into place.",
-      "summary": "Liquid Glass was a divisive redesign. But with a radically different iPhone, the pieces are finally falling into place.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ad79403fc73d5bd28140aac/master/pass/DSC_9897.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Gear News and Events",
-        "Crystal Clear",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/law-firm-linked-to-elon-musk-started-an-election-integrity-organization/",
-      "url": "https://www.wired.com/story/law-firm-linked-to-elon-musk-started-an-election-integrity-organization/",
-      "title": "Law Firm Linked to Elon Musk Started an ‘Election Integrity’ Organization",
-      "content_text": "The firm that helped set up Elon Musk’s America PAC is behind the new group, which will work with election officials to pursue policies aligned with Donald Trum…",
-      "summary": "The firm that helped set up Elon Musk’s America PAC is behind the new group, which will work with election officials to pursue policies aligned with Donald Trum…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adf9665ae47ffa8435ebbf6/master/pass/GettyImages-2207247570.jpg",
-      "tags": [
-        "Politics",
-        "Midterms 2026",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/hungryroot-promo-code/",
-      "url": "https://www.wired.com/story/hungryroot-promo-code/",
-      "title": "Hungryroot Coupon Codes: 30% Off This November 2026",
-      "content_text": "Get up to 30% off your first order and free gifts using a Hungryroot promo code today. Discover our best coupons and discounts to let you save on your healthy g…",
-      "summary": "Get up to 30% off your first order and free gifts using a Hungryroot promo code today. Discover our best coupons and discounts to let you save on your healthy g…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://media.wired.com/photos/67b63b972c751893c256c1e6/master/pass/WIRED-Coupons-R2_16.png",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Coupons",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/govee-discount-code/",
-      "url": "https://www.wired.com/story/govee-discount-code/",
-      "title": "Govee Discount Codes and Deals: 30% Off",
-      "content_text": "New to Govee? Get a $5 coupon on your first purchase just for signing up.",
-      "summary": "New to Govee? Get a $5 coupon on your first purchase just for signing up.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://media.wired.com/photos/66ea076ee8502211cd1d9a42/master/pass/WIRED-Coupons-13.jpg",
-      "tags": [
-        "Gear",
-        "Coupons",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/dermstore-promo-code/",
-      "url": "https://www.wired.com/story/dermstore-promo-code/",
-      "title": "Dermstore Coupons: 25% Off for November 2026",
-      "content_text": "Score major savings on premium skincare, hair care, and cosmetics with these verified Dermstore discount codes and rewards offers.",
-      "summary": "Score major savings on premium skincare, hair care, and cosmetics with these verified Dermstore discount codes and rewards offers.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://media.wired.com/photos/67b63b919468ebbf8f0cbc7b/master/pass/WIRED-Coupons-R2_6.png",
-      "tags": [
-        "Gear",
-        "Gear / Deals",
-        "Coupons",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/bluesky-blocks-links-to-major-leak-of-dhs-data/",
-      "url": "https://www.wired.com/story/bluesky-blocks-links-to-major-leak-of-dhs-data/",
-      "title": "Bluesky Is Blocking Links to a Major Leak of DHS Employee Records",
-      "content_text": "Bluesky tells WIRED it blocked links to a leaked archive of information on 41,000 ICE, CBP, and other DHS workers because it contains people’s contact informati…",
-      "summary": "Bluesky tells WIRED it blocked links to a leaked archive of information on 41,000 ICE, CBP, and other DHS workers because it contains people’s contact informati…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ae2b697af20331957eab942/master/pass/2195830714",
-      "tags": [
-        "Security",
-        "ICE’d Out",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/astronomers-discover-a-possible-new-dwarf-planet-in-our-solar-system/",
-      "url": "https://www.wired.com/story/astronomers-discover-a-possible-new-dwarf-planet-in-our-solar-system/",
-      "title": "Astronomers Discover a Possible New Dwarf Planet in Our Solar System",
-      "content_text": "Lying beyond Pluto, 2026 ED138 could be as large as 1,500 kilometers in diameter. Astronomers are still working to confirm whether it meets the criteria for a d…",
-      "summary": "Lying beyond Pluto, 2026 ED138 could be as large as 1,500 kilometers in diameter. Astronomers are still working to confirm whether it meets the criteria for a d…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ae26ce6735e20536e98e3d0/master/pass/noirlab2626b.jpg",
+      "id": "https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/",
+      "url": "https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/",
+      "title": "The Iran War’s Impact on Oil Is Hitting Key Senate Races Hard",
+      "content_text": "Democrats are using the high price of diesel, heating oil, and fertilizer to tie Republicans to President Donald Trump’s unpopular, costly war in Iran.",
+      "summary": "Democrats are using the high price of diesel, heating oil, and fertilizer to tie Republicans to President Donald Trump’s unpopular, costly war in Iran.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae3489ed0f1304b56163b28/master/pass/102916-Iran%20War%20US.jpg",
       "tags": [
         "Science",
-        "Science / Space",
-        "Hi Neighbor",
+        "Science / Environment",
+        "Politics",
+        "Gassed Up",
         "科技",
         "社会"
       ],
@@ -732,17 +435,18 @@
       }
     },
     {
-      "id": "https://www.wired.com/story/tempur-pedic-promo-code/",
-      "url": "https://www.wired.com/story/tempur-pedic-promo-code/",
-      "title": "30% Off Tempur-Pedic Promo Codes | November 2026",
-      "content_text": "Whether you’re looking to upgrade your mattress or swap out your bedding, browse our Tempur-Pedic coupons for up to $300 off and the best sleep of your life.",
-      "summary": "Whether you’re looking to upgrade your mattress or swap out your bedding, browse our Tempur-Pedic coupons for up to $300 off and the best sleep of your life.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://media.wired.com/photos/67b63b917d355db73b38e0c0/master/pass/WIRED-Coupons-R2_1.png",
+      "id": "https://www.wired.com/story/ego-blower-sale-tp-cannon-october-2026/",
+      "url": "https://www.wired.com/story/ego-blower-sale-tp-cannon-october-2026/",
+      "title": "The Best Leaf Blower We’ve Tested Is Ready for Halloween",
+      "content_text": "Our top Ego pick is discounted, and our resident leaf blower expert demonstrates how to make a TP cannon.",
+      "summary": "Our top Ego pick is discounted, and our resident leaf blower expert demonstrates how to make a TP cannon.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae2b955645fdd4f7481a1a0/master/pass/Leaf%20Blower%20Power+%20880%20CFM%20sale%20102026%20top%20art%20SOURCE%20Lowes.jpg",
       "tags": [
         "Gear",
         "Gear / Deals",
-        "Coupons",
+        "Gear / Products / Outdoor",
+        "Roll Model",
         "科技",
         "社会"
       ],
@@ -757,54 +461,38 @@
       }
     },
     {
-      "id": "https://tech.meituan.com/2026/10/29/AI-Coding-IN-Distributed-Storage-System.html",
-      "url": "https://tech.meituan.com/2026/10/29/AI-Coding-IN-Distributed-Storage-System.html",
-      "title": "如何在“不能出错”的系统里使用 AI Coding？分布式存储实践与边界",
-      "content_text": "本文结合美团基础技术部在 AI 评审、问题排查和自动化开发中的真实实践，分享 AI 能帮上什么忙、容易在哪些地方犯错，以及哪些地方仍需要人来把关。比「多写代码」更重要的，是让代码和结论经得起验证。",
-      "summary": "本文结合美团基础技术部在 AI 评审、问题排查和自动化开发中的真实实践，分享 AI 能帮上什么忙、容易在哪些地方犯错，以及哪些地方仍需要人来把关。比「多写代码」更重要的，是让代码和结论经得起验证。",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.wired.com/story/gifts-for-friends/",
+      "url": "https://www.wired.com/story/gifts-for-friends/",
+      "title": "Gift Ideas for Friends (2026): Wellness Tech, Kitchen Essentials",
+      "content_text": "These are the WIRED-tested gadgets, kitchen tools, and cozy comforts I’d actually buy for my own inner circle.",
+      "summary": "These are the WIRED-tested gadgets, kitchen tools, and cozy comforts I’d actually buy for my own inner circle.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae3c65712651ae6c2d7998a/master/pass/Best%20Gifts%20for%20Friends%20102026%20top%20art%20SOURCE%20shop.com.jpg",
       "tags": [
-        "架构",
-        "工程"
+        "Gear",
+        "Gear / Buying Guides",
+        "Gear / Products / Home",
+        "Present Company",
+        "科技",
+        "社会"
       ],
       "authors": [
         {
-          "name": "美团 · 技术团队"
+          "name": "WIRED"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "tech-meituan-com"
+        "shelf": "wired-com"
       }
     },
     {
-      "id": "https://sspai.com/prime/story/how-to-analyze-health-data-with-agent",
-      "url": "https://sspai.com/prime/story/how-to-analyze-health-data-with-agent",
-      "title": "让 Agent 读懂你的身体：数据处理篇",
-      "content_text": "在上一篇文章《让Agent读懂你的身体：数据获取篇》中，我花了很大的篇幅讲清楚了第一个问题：Agent怎样拿到数据。如果照着实践完，你大概率已经收获了一份存储了运动健康数据的SQLite、Markdo ...查看全文 本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
-      "summary": "在上一篇文章《让Agent读懂你的身体：数据获取篇》中，我花了很大的篇幅讲清楚了第一个问题：Agent怎样拿到数据。如果照着实践完，你大概率已经收获了一份存储了运动健康数据的SQLite、Markdo ...查看全文 本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "效率",
-        "工具"
-      ],
-      "authors": [
-        {
-          "name": "少数派"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "sspai-com"
-      }
-    },
-    {
-      "id": "https://sspai.com/post/117750",
-      "url": "https://sspai.com/post/117750",
-      "title": "派早报：Apple 推出触控款 MacBook Pro、华为发布多款新品等",
-      "content_text": "Google 推出世界模型 Genie 4、索尼推出手机主摄图像传感器 LYTIA 720 等。查看全文",
-      "summary": "Google 推出世界模型 Genie 4、索尼推出手机主摄图像传感器 LYTIA 720 等。查看全文",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://sspai.com/post/116435",
+      "url": "https://sspai.com/post/116435",
+      "title": "精确到秒的时间记录是怎样的？我的柳比歇夫法半年实践",
+      "content_text": "就像一个运动员无法预计自己能否取得金牌，但能控制自己投入于训练的时间一样，我们无法决定性地控制工作和生活中每一项事项的成功与否，但可以控制自己投入更多还是更少的时间。查看全文",
+      "summary": "就像一个运动员无法预计自己能否取得金牌，但能控制自己投入于训练的时间一样，我们无法决定性地控制工作和生活中每一项事项的成功与否，但可以控制自己投入更多还是更少的时间。查看全文",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "效率",
         "工具"
@@ -820,12 +508,12 @@
       }
     },
     {
-      "id": "https://sspai.com/post/116686",
-      "url": "https://sspai.com/post/116686",
-      "title": "一日一技｜iPhone 恶意被锁，线上移除流程拆招",
-      "content_text": "如果你从网上购买过 Apple ID，又在自己的设备上登录，那就会存在一种风险：这类共享 ID 的密码掌握在卖家手里，卖家可以随时更改。本文就介绍了移除激活锁的全过程。查看全文",
-      "summary": "如果你从网上购买过 Apple ID，又在自己的设备上登录，那就会存在一种风险：这类共享 ID 的密码掌握在卖家手里，卖家可以随时更改。本文就介绍了移除激活锁的全过程。查看全文",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://sspai.com/post/117827",
+      "url": "https://sspai.com/post/117827",
+      "title": "派早报：全球首款 Android XR 有线眼镜 XREAL AURA 发售等",
+      "content_text": "腾讯与 Visa 签署合作备忘录，Bose 有线消噪耳塞国行上市等。查看全文",
+      "summary": "腾讯与 Visa 签署合作备忘录，Bose 有线消噪耳塞国行上市等。查看全文",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "效率",
         "工具"
@@ -841,41 +529,55 @@
       }
     },
     {
-      "id": "https://slate.com/news-and-politics/2026/10/2020-election-tuesday-midterms-trump-threats.html?via=rss",
-      "url": "https://slate.com/news-and-politics/2026/10/2020-election-tuesday-midterms-trump-threats.html?via=rss",
-      "title": "Why There’s a Real Risk of a Replay of the 2020 Election Come Tuesday",
-      "content_text": "These are ominous words from the president.",
-      "summary": "These are ominous words from the president.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://compote.slate.com/images/89e88f09-fe9f-4b08-b1de-e26eff3350ff.jpeg?crop=1403%2C936%2Cx0%2Cy0",
+      "id": "https://sspai.com/prime/story/zhuanglesha-261030",
+      "url": "https://sspai.com/prime/story/zhuanglesha-261030",
+      "title": "《久坐健康指南》作者、运动健康领域创作者阿帅装了啥？",
+      "content_text": "编者按：@阿帅的健康笔记长期专注于运动健康领域的创作，发表了不少兼具实用性与科普性的文章，并著有付费栏目《久坐健康指南》，受到许多读者喜爱。本期《装了啥》邀请他分享运动、创作与工作中的心得，以及常用的 ...查看全文 本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
+      "summary": "编者按：@阿帅的健康笔记长期专注于运动健康领域的创作，发表了不少兼具实用性与科普性的文章，并著有付费栏目《久坐健康指南》，受到许多读者喜爱。本期《装了啥》邀请他分享运动、创作与工作中的心得，以及常用的 ...查看全文 本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
-        "Donald Trump",
-        "Elections",
-        "Voting",
-        "Voting Rights",
-        "Capitol Riot",
-        "2026 Midterms",
-        "Executive Dysfunction",
-        "评论"
+        "效率",
+        "工具"
       ],
       "authors": [
         {
-          "name": "Slate Magazine"
+          "name": "少数派"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "slate-com"
+        "shelf": "sspai-com"
       }
     },
     {
-      "id": "https://slate.com/news-and-politics/2026/10/trivia-quiz-daily-slate-science-vitamins-geology-evolution.html?via=rss",
-      "url": "https://slate.com/news-and-politics/2026/10/trivia-quiz-daily-slate-science-vitamins-geology-evolution.html?via=rss",
-      "title": "What Is Defined Scientifically as a Force Multiplied by a Time Divided by an Area?",
-      "content_text": "Test your wits on the Slate Quiz for Oct. 29, 2026.",
-      "summary": "Test your wits on the Slate Quiz for Oct. 29, 2026.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://compote.slate.com/images/0c5a8414-1600-480f-85fc-c40b4cc9ae10.jpeg",
+      "id": "https://sspai.com/post/116047",
+      "url": "https://sspai.com/post/116047",
+      "title": "App+1｜该吃药了：一片小药板，让吃药提醒变得轻松有趣",
+      "content_text": "它简单、稳定，也有意思，不会把按时吃药变成一个负担——而是一件看见了就随手去做、轻松愉快的小事。查看全文",
+      "summary": "它简单、稳定，也有意思，不会把按时吃药变成一个负担——而是一件看见了就随手去做、轻松愉快的小事。查看全文",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "效率",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "少数派"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "sspai-com"
+      }
+    },
+    {
+      "id": "https://slate.com/news-and-politics/2026/10/slate-news-quiz-2026-midterms.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/slate-news-quiz-2026-midterms.html?via=rss",
+      "title": "Think You Know More About the Midterms Than Slate’s Senior Politics Writer? Find Out With This Week’s News Quiz.",
+      "content_text": "Test your knowledge of this year’s wild midterms races.",
+      "summary": "Test your knowledge of this year’s wild midterms races.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://compote.slate.com/images/3c7f80c5-7b7a-4dc8-aa7c-6b50335f117c.jpeg",
       "tags": [
         "Quizzes",
         "Trivia",
@@ -894,14 +596,16 @@
       }
     },
     {
-      "id": "https://slate.com/podcasts/decoder-ring/2026/10/dracula-bram-stoker-iceland-vampires-powers-of-darkness-translation-makt-myrkranna?via=rss",
-      "url": "https://slate.com/podcasts/decoder-ring/2026/10/dracula-bram-stoker-iceland-vampires-powers-of-darkness-translation-makt-myrkranna?via=rss",
-      "title": "Was the Strange, Long-Lost Icelandic Version of <em>Dracula</em> Written by Bram Stoker Himself?",
-      "content_text": "How a raunchy, proto-fascist Dracula was born in the Nordic North.",
-      "summary": "How a raunchy, proto-fascist Dracula was born in the Nordic North.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://compote.slate.com/images/14721829-86f0-42f2-b60f-8e807becb25b.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "id": "https://slate.com/podcasts/what-next-tbd/2026/10/kevin-roose-thinks-a-i-has-arrived?via=rss",
+      "url": "https://slate.com/podcasts/what-next-tbd/2026/10/kevin-roose-thinks-a-i-has-arrived?via=rss",
+      "title": "The First Real A.I. Test",
+      "content_text": "AGI-pilled author Kevin Roose makes the case.",
+      "summary": "AGI-pilled author Kevin Roose makes the case.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://compote.slate.com/images/4fba6953-e71b-4b43-8168-db0178bd7b8d.jpeg?crop=4500%2C3000%2Cx0%2Cy0",
       "tags": [
+        "Artificial Intelligence",
+        "Stock Market",
         "评论",
         "文化"
       ],
@@ -916,37 +620,12 @@
       }
     },
     {
-      "id": "https://slate.com/podcasts/what-next/2026/10/will-the-new-epstein-release-force-the-doj-to-investigate?via=rss",
-      "url": "https://slate.com/podcasts/what-next/2026/10/will-the-new-epstein-release-force-the-doj-to-investigate?via=rss",
-      "title": "The Next Epstein Files",
-      "content_text": "A longshot bid for a special counsel.",
-      "summary": "A longshot bid for a special counsel.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://compote.slate.com/images/a4900ac5-9954-478d-b06b-349781442b56.jpeg?crop=4500%2C3000%2Cx0%2Cy0",
-      "tags": [
-        "Department of Justice",
-        "Donald Trump",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-29-2026.html?via=rss",
-      "url": "https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-29-2026.html?via=rss",
-      "title": "Slate Mini Crossword for Oct. 29, 2026",
+      "id": "https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-30-2026.html?via=rss",
+      "url": "https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-30-2026.html?via=rss",
+      "title": "Slate Mini Crossword for Oct. 30, 2026",
       "content_text": "Take a quick break with our daily 5x5 grid.",
       "summary": "Take a quick break with our daily 5x5 grid.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://compote.slate.com/images/9ba6a7ed-df0c-4a7d-a4bb-9937e0937dfc.jpeg",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "Mini Crossword",
         "Slate Games",
@@ -964,19 +643,19 @@
       }
     },
     {
-      "id": "https://slate.com/news-and-politics/2026/10/senate-race-pappas-sununu-new-hampshire.html?via=rss",
-      "url": "https://slate.com/news-and-politics/2026/10/senate-race-pappas-sununu-new-hampshire.html?via=rss",
-      "title": "My State’s Democratic Candidate Has Zero Rizz. He Could Decide Control of the Senate. Good!",
-      "content_text": "In a year of insurgents and stars, this establishment-versus-establishment contest is deeply revealing.",
-      "summary": "In a year of insurgents and stars, this establishment-versus-establishment contest is deeply revealing.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://compote.slate.com/images/837cf875-cf1d-4f95-9633-aedd8ffe5cf6.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "id": "https://slate.com/life/2026/10/trump-election-ohio-midterm-ice-evangelical.html?via=rss",
+      "url": "https://slate.com/life/2026/10/trump-election-ohio-midterm-ice-evangelical.html?via=rss",
+      "title": "Evangelicals Traveled to Their Country in Record Numbers. Then Trump Said They Were Evil.",
+      "content_text": "In Ohio, the president’s religious base has been tested—and it’s clear whom it chose.",
+      "summary": "In Ohio, the president’s religious base has been tested—and it’s clear whom it chose.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://compote.slate.com/images/09e57a5f-4452-47fd-aff8-1475974b2683.jpeg?crop=2000%2C1333%2Cx0%2Cy0",
       "tags": [
         "Donald Trump",
-        "Elections",
-        "Senate",
-        "New Hampshire",
-        "2026 Midterms",
+        "Evangelicals",
+        "Haiti",
+        "Ohio",
+        "Religion",
         "评论",
         "文化"
       ],
@@ -991,130 +670,41 @@
       }
     },
     {
-      "id": "https://www.reddit.com/r/interesting/comments/1xiafkr/mexico_upgraded_to_free_health_care/",
-      "url": "https://www.reddit.com/r/interesting/comments/1xiafkr/mexico_upgraded_to_free_health_care/",
-      "title": "Mexico upgraded to free health care!",
-      "content_text": "submitted by /u/Negative_1by12_aura to r/interesting [link] [comments]",
-      "summary": "submitted by /u/Negative_1by12_aura to r/interesting [link] [comments]",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://preview.redd.it/fml5yx9t3cyh1.png?width=320&crop=smart&auto=webp&s=0181a70e3b676befe5c29e0474e3547c154a604c",
+      "id": "https://slate.com/news-and-politics/2026/10/donald-trump-corruption-constitution-impeachment-fail.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/donald-trump-corruption-constitution-impeachment-fail.html?via=rss",
+      "title": "Donald Trump Sure Is Corrupt. If Only There Were a Constitutional Remedy for That.",
+      "content_text": "The most common ground for impeachment throughout Anglo-American history has been corruption.",
+      "summary": "The most common ground for impeachment throughout Anglo-American history has been corruption.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://compote.slate.com/images/f15b8001-05ac-4351-a63c-d59d5f7fba77.jpeg?crop=1536%2C1024%2Cx0%2Cy0",
       "tags": [
-        "interesting",
-        "社区",
-        "热榜"
+        "Constitution",
+        "Donald Trump",
+        "Impeachment",
+        "Jurisprudence",
+        "Try, Try Again?",
+        "评论",
+        "文化"
       ],
       "authors": [
         {
-          "name": "top scoring links : popular"
+          "name": "Slate Magazine"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "reddit-com"
+        "shelf": "slate-com"
       }
     },
     {
-      "id": "https://www.reddit.com/r/oddlysatisfying/comments/1xi52mh/mesmerizing_process/",
-      "url": "https://www.reddit.com/r/oddlysatisfying/comments/1xi52mh/mesmerizing_process/",
-      "title": "Mesmerizing Process",
-      "content_text": "submitted by /u/Alternative-Dot-34 to r/oddlysatisfying [link] [comments]",
-      "summary": "submitted by /u/Alternative-Dot-34 to r/oddlysatisfying [link] [comments]",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://external-preview.redd.it/a2NndjA5czl0YXloMUUQawQiZwwLL1_LCJdQErGzB6Nb_LZpl8PYr1HEPGn5.png?width=320&crop=smart&auto=webp&s=a8ffe7d8786d93b0bf0ca99e9eae14a861ac0bfc",
+      "id": "https://www.openculture.com/2026/10/watch-150-classic-horror-and-suspense-films-free-online.html",
+      "url": "https://www.openculture.com/2026/10/watch-150-classic-horror-and-suspense-films-free-online.html",
+      "title": "Watch 150 Classic Horror and Suspense Films Free Online: Nosferatu, The Cabinet of Dr. Caligari, Carnival of Souls, Night of the Living Dead…",
+      "content_text": "﻿ From roughly the mid-nineteen-fifties through the mid-nineteen-seventies, the availability of airtime on American television stations exceeded their capacity…",
+      "summary": "﻿ From roughly the mid-nineteen-fifties through the mid-nineteen-seventies, the availability of airtime on American television stations exceeded their capacity…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
-        "oddlysatisfying",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/news/comments/1xi6a2i/details_of_thousands_of_us_immigration_agents/",
-      "url": "https://www.reddit.com/r/news/comments/1xi6a2i/details_of_thousands_of_us_immigration_agents/",
-      "title": "Details of thousands of US immigration agents leaked in major hack",
-      "content_text": "submitted by /u/zmayes to r/news [link] [comments]",
-      "summary": "submitted by /u/zmayes to r/news [link] [comments]",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "news",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "http://www.bbc.co.uk/programmes/p0pk7d0p",
-      "url": "http://www.bbc.co.uk/programmes/p0pk7d0p",
-      "title": "Is aircon the answer to a heating world?",
-      "content_text": "Do you ever feel it is too hot to sleep? With climate change gradually increasing world temperatures, people across the world are becoming increasingly affected…",
-      "summary": "Do you ever feel it is too hot to sleep? With climate change gradually increasing world temperatures, people across the world are becoming increasingly affected…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "英语学习",
-        "英语听力"
-      ],
-      "authors": [
-        {
-          "name": "6 Minute English"
-        }
-      ],
-      "_shelf": {
-        "type": "audio",
-        "shelf": "podcasts-files-bbci-co-uk"
-      }
-    },
-    {
-      "id": "https://www.openculture.com/2026/10/the-early-years-of-electronic-pop-the-moog-craze-psychedelic-experiments-and-more.html",
-      "url": "https://www.openculture.com/2026/10/the-early-years-of-electronic-pop-the-moog-craze-psychedelic-experiments-and-more.html",
-      "title": "The Early Years of Electronic Pop: The Moog Craze, Psychedelic Experiments, and More",
-      "content_text": "There’s a decent chance you’ve heard at least a couple of tracks from Wendy Carlos’ Switched-On Bach. But when was the last time you put on Switched-On Rock, Sw…",
-      "summary": "There’s a decent chance you’ve heard at least a couple of tracks from Wendy Carlos’ Switched-On Bach. But when was the last time you put on Switched-On Rock, Sw…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "History",
-        "Music",
-        "Technology",
-        "文化",
-        "免费资源"
-      ],
-      "authors": [
-        {
-          "name": "Open Culture"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "openculture-com"
-      }
-    },
-    {
-      "id": "https://www.openculture.com/2026/10/surreal-pinscreen-animations-bring-kafka-gogol-mussorgsky-to-life-1933-1972.html",
-      "url": "https://www.openculture.com/2026/10/surreal-pinscreen-animations-bring-kafka-gogol-mussorgsky-to-life-1933-1972.html",
-      "title": "Surreal Pinscreen Animations Bring Kafka, Gogol & Mussorgsky to Life (1933–1972)",
-      "content_text": "What do Franz Kafka, Nikolai Gogol, and Modest Mussorgsky have in common? They stand alone among their peers for their darkly humorous sensibilities, fascinatio…",
-      "summary": "What do Franz Kafka, Nikolai Gogol, and Modest Mussorgsky have in common? They stand alone among their peers for their darkly humorous sensibilities, fascinatio…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "Animation",
         "Film",
-        "Literature",
-        "Uncategorized",
         "文化",
         "免费资源"
       ],
@@ -1129,38 +719,16 @@
       }
     },
     {
-      "id": "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/",
-      "url": "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/",
-      "title": "Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
-      "content_text": "Artemis II Commander Reid Wiseman has been named Caltech associate vice president and deputy director of NASA’s Jet Propulsion Laboratory in Southern California…",
-      "summary": "Artemis II Commander Reid Wiseman has been named Caltech associate vice president and deputy director of NASA’s Jet Propulsion Laboratory in Southern California…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "Jet Propulsion Laboratory",
-        "Artemis 2",
-        "航天",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "NASA"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "nasa-gov"
-      }
-    },
-    {
-      "id": "https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/",
-      "url": "https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/",
-      "title": "Arnab Strikes India",
-      "content_text": "The first named storm of the North Indian Ocean’s cyclone season made landfall along the coast of Andhra Pradesh.",
-      "summary": "The first named storm of the North Indian Ocean’s cyclone season made landfall along the coast of Andhra Pradesh.",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://science.nasa.gov/earth/earth-observatory/vega-island-frozen-in-fright/",
+      "url": "https://science.nasa.gov/earth/earth-observatory/vega-island-frozen-in-fright/",
+      "title": "Vega Island Frozen in Fright",
+      "content_text": "The sight of an icy skull-like visage on the Antarctic island could make one’s blood run cold.",
+      "summary": "The sight of an icy skull-like visage on the Antarctic island could make one’s blood run cold.",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "Earth Observatory",
-        "Hurricanes & Typhoons",
+        "Ice & Glaciers",
+        "Landsat 9",
         "航天",
         "科学"
       ],
@@ -1175,12 +743,33 @@
       }
     },
     {
-      "id": "https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/",
-      "url": "https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/",
-      "title": "APOD: 29 October 2026 – The Horns of Venus",
-      "content_text": "APOD Science APOD APOD: 29 October 2026 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the…",
-      "summary": "APOD Science APOD APOD: 29 October 2026 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/",
+      "url": "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/",
+      "title": "Map Showing Potential Origins of Martian Meteorite Teghaza 001",
+      "content_text": "Description This global map of Mars shows 13 locations that match the mineralogy and chemistry of Teghaza 001, one of the most ancient Martian meteorites ever f…",
+      "summary": "Description This global map of Mars shows 13 locations that match the mineralogy and chemistry of Teghaza 001, one of the most ancient Martian meteorites ever f…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "航天",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "NASA"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "nasa-gov"
+      }
+    },
+    {
+      "id": "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/",
+      "title": "APOD: 2026 October 30 – Haunting the Cepheus Flare",
+      "content_text": "APOD Science APOD APOD: 2026 October 30 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…",
+      "summary": "APOD Science APOD APOD: 2026 October 30 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "APOD",
         "航天",
@@ -1197,13 +786,13 @@
       }
     },
     {
-      "id": "https://www.zhihu.com/question/2098771415411291576",
-      "url": "https://www.zhihu.com/question/2098771415411291576",
-      "title": "科普书出现「双头虾」图片，出版社称正在下架召回，为何出现如此明显错误？科普类出版该限制 AI 配图吗？",
-      "content_text": "第 3 名 · 375 万热度 · 83 回答 · 164 关注 — 近日，有网友在社交平台指出，《南海海洋生物科普丛书》中有“双头虾”的错误图片，引发关注。 有读者在社交平台反映，其购入中国农业出版社出版发行的《南海海洋生物科普丛书》，丛书序言表示，本套丛书里绝大多数图片由AI绘图工具生成。但其发现丛书的绘图中出现了…",
-      "summary": "第 3 名 · 375 万热度 · 83 回答 · 164 关注 — 近日，有网友在社交平台指出，《南海海洋生物科普丛书》中有“双头虾”的错误图片，引发关注。 有读者在社交平台反映，其购入中国农业出版社出版发行的《南海海洋生物科普丛书》，丛书序言表示，本套丛书里绝大多数图片由AI绘图工具生成。但其发现丛书的绘图中出现了…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://pic4.zhimg.com/50/v2-a59f2d2ce4c8e09a0914ba8d47bb0d15_b.jpg",
+      "id": "https://www.zhihu.com/question/2099465313452389327",
+      "url": "https://www.zhihu.com/question/2099465313452389327",
+      "title": "校方通报「学生摆拍大体老师头骨」一事，涉事学生被处分并取消年度评优资格，如何看待学校的处理？",
+      "content_text": "第 7 名 · 495 万热度 · 218 回答 · 308 关注 — 10月29日，长沙民政职业技术学院医学院发布情况通报： 10月14日，我院一名2026级新生在解剖实验课后，对大体老师头骨标本进行摆拍并在朋友圈发布，造成不良影响。学校对此行为坚决零容忍，已对涉事学生进行批评教育，给予校纪处分，取消年度评优评先资格…",
+      "summary": "第 7 名 · 495 万热度 · 218 回答 · 308 关注 — 10月29日，长沙民政职业技术学院医学院发布情况通报： 10月14日，我院一名2026级新生在解剖实验课后，对大体老师头骨标本进行摆拍并在朋友圈发布，造成不良影响。学校对此行为坚决零容忍，已对涉事学生进行批评教育，给予校纪处分，取消年度评优评先资格…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://pic4.zhimg.com/v2-8d7d93d96612b47ff7a28b015fa58083_1440w.jpg",
       "tags": [
         "热榜",
         "知乎"
@@ -1219,13 +808,13 @@
       }
     },
     {
-      "id": "https://www.zhihu.com/question/2098804738414399591",
-      "url": "https://www.zhihu.com/question/2098804738414399591",
-      "title": "江苏一医生被曝用「豆包」查药，患者家属因此拒绝其开具处方，你看诊时能接受医生使用 AI 工具吗？",
-      "content_text": "第 7 名 · 217 万热度 · 38 回答 · 62 关注 — 看到医生查AI，你能接受吗？近日，江苏一医生被曝用“豆包”开药，患者家属因此拒绝其开具处方，涉事医院回应称，当时医生在查询新药是否适合患者使用，发现不适合就没开。对此，有人觉得，医生靠AI查药不专业，有人认为，不过是换了个工具查资料。说到底，问题其实落…",
-      "summary": "第 7 名 · 217 万热度 · 38 回答 · 62 关注 — 看到医生查AI，你能接受吗？近日，江苏一医生被曝用“豆包”开药，患者家属因此拒绝其开具处方，涉事医院回应称，当时医生在查询新药是否适合患者使用，发现不适合就没开。对此，有人觉得，医生靠AI查药不专业，有人认为，不过是换了个工具查资料。说到底，问题其实落…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://picx.zhimg.com/80/v2-eeabce1c4731011a579cf4949d48aa39_1440w.webp?source=1def8aca",
+      "id": "https://www.zhihu.com/question/2099249184477902760",
+      "url": "https://www.zhihu.com/question/2099249184477902760",
+      "title": "已故演员高秀敏、张少华形象被印上祭祀用品，这种做法涉嫌违法吗？",
+      "content_text": "第 8 名 · 482 万热度 · 30 回答 · 62 关注 — 10月27日，IP属地显示是吉林的一名网友发布一段视频引发关注。视频显示，一件祭祀用品上印着已故演员高秀敏、张少华的形象。 视频发布者称，自己是参加葬礼时看到的，“挺长时间了”，不清楚当时祭品是否进行了焚烧。 已故演员高秀敏、张少华被印上祭祀用品，律师…",
+      "summary": "第 8 名 · 482 万热度 · 30 回答 · 62 关注 — 10月27日，IP属地显示是吉林的一名网友发布一段视频引发关注。视频显示，一件祭祀用品上印着已故演员高秀敏、张少华的形象。 视频发布者称，自己是参加葬礼时看到的，“挺长时间了”，不清楚当时祭品是否进行了焚烧。 已故演员高秀敏、张少华被印上祭祀用品，律师…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://pica.zhimg.com/50/v2-d51ea75457e2b3867a276fb2a7f32ec0_b.jpg",
       "tags": [
         "热榜",
         "知乎"
@@ -1238,6 +827,380 @@
       "_shelf": {
         "type": "article",
         "shelf": "hot-zhihu"
+      }
+    },
+    {
+      "id": "https://www.zhihu.com/question/2099167053160760200",
+      "url": "https://www.zhihu.com/question/2099167053160760200",
+      "title": "小伙因亲人少怕婚礼冷清邀网友喝喜酒，近 200 人从全国各地赴宴，有人送冰箱有人带整猪，如何看待此事？",
+      "content_text": "第 2 名 · 529 万热度 · 96 回答 · 275 关注 — 近日，云南昭通一名男子的婚礼邀约引发关注。博主讲述：“在我3岁的时候，爸爸就因病逝世了，妈妈在我5岁时就改嫁了，剩下一个唯一的长辈奶奶就带着我和我哥，我哥大我3岁，可是两年后奶奶也因病去了和我爸同样的地方。”兄弟二人相依为命，初中辍学后务工打拼。小伙…",
+      "summary": "第 2 名 · 529 万热度 · 96 回答 · 275 关注 — 近日，云南昭通一名男子的婚礼邀约引发关注。博主讲述：“在我3岁的时候，爸爸就因病逝世了，妈妈在我5岁时就改嫁了，剩下一个唯一的长辈奶奶就带着我和我哥，我哥大我3岁，可是两年后奶奶也因病去了和我爸同样的地方。”兄弟二人相依为命，初中辍学后务工打拼。小伙…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://picx.zhimg.com/v2-76d6b84b703af9db01fa049eeec7861b.png",
+      "tags": [
+        "热榜",
+        "知乎"
+      ],
+      "authors": [
+        {
+          "name": "知乎热榜"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-zhihu"
+      }
+    },
+    {
+      "id": "https://www.zhihu.com/question/2099233723589969810",
+      "url": "https://www.zhihu.com/question/2099233723589969810",
+      "title": "如何看待蒋方舟因论文抄袭被撤销学位后，时隔 107 天再发文《37岁才明白的事》？",
+      "content_text": "第 5 名 · 501 万热度 · 402 回答 · 651 关注 — [5 张图片]",
+      "summary": "第 5 名 · 501 万热度 · 402 回答 · 651 关注 — [5 张图片]",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://picx.zhimg.com/v2-81fa65e03badba492ecad05a38ccadcf.png",
+      "tags": [
+        "热榜",
+        "知乎"
+      ],
+      "authors": [
+        {
+          "name": "知乎热榜"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-zhihu"
+      }
+    },
+    {
+      "id": "https://www.zhihu.com/question/2099125476149274126",
+      "url": "https://www.zhihu.com/question/2099125476149274126",
+      "title": "如何看待红果短剧跃升为国内第四大app？它瓜分了谁的市场？",
+      "content_text": "第 1 名 · 3119 万热度 · 706 回答 · 1596 关注 — 红果短剧跃升为国内第四大app（时长）仅次于微信和两个抖音，那么如何看待其的快速发展，短剧平台的兴起是否瓜分了哔站，快手，抖音等视频平台的蛋糕，此外短剧中不少是ai短剧，是否也触碰了真人创作者诸如哔站百大为首以及背后的摄像工具企业诸如大疆影石的…",
+      "summary": "第 1 名 · 3119 万热度 · 706 回答 · 1596 关注 — 红果短剧跃升为国内第四大app（时长）仅次于微信和两个抖音，那么如何看待其的快速发展，短剧平台的兴起是否瓜分了哔站，快手，抖音等视频平台的蛋糕，此外短剧中不少是ai短剧，是否也触碰了真人创作者诸如哔站百大为首以及背后的摄像工具企业诸如大疆影石的…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://pic1.zhimg.com/v2-5b4ce39e094a8e42158d433f1b140cf6.png",
+      "tags": [
+        "热榜",
+        "知乎"
+      ],
+      "authors": [
+        {
+          "name": "知乎热榜"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-zhihu"
+      }
+    },
+    {
+      "id": "https://www.zhihu.com/question/2099446310872900107",
+      "url": "https://www.zhihu.com/question/2099446310872900107",
+      "title": "如何看待币安遭黑客攻击，数十亿美元资产被盗，或成历史金额最大被盗事件？",
+      "content_text": "第 3 名 · 517 万热度 · 68 回答 · 199 关注 — 2026 年 10 月 29 日晚（UTC 时间 20:24 起，北京时间 30 日凌晨 4 时左右），全球最大加密货币交易所币安的多个热钱包出现异常大额资金转出，链上数据与分析师普遍认为这是一场针对热钱包的黑客攻击。事件涉及以太坊、比特币、波场等多…",
+      "summary": "第 3 名 · 517 万热度 · 68 回答 · 199 关注 — 2026 年 10 月 29 日晚（UTC 时间 20:24 起，北京时间 30 日凌晨 4 时左右），全球最大加密货币交易所币安的多个热钱包出现异常大额资金转出，链上数据与分析师普遍认为这是一场针对热钱包的黑客攻击。事件涉及以太坊、比特币、波场等多…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://picx.zhimg.com/80/v2-dd09f807462dfa99959f2fa4b170aefd_1440w.webp?source=1def8aca",
+      "tags": [
+        "热榜",
+        "知乎"
+      ],
+      "authors": [
+        {
+          "name": "知乎热榜"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-zhihu"
+      }
+    },
+    {
+      "id": "https://www.zhihu.com/question/2098940094346433079",
+      "url": "https://www.zhihu.com/question/2098940094346433079",
+      "title": "如何看待中科大给学生提供每天一亿的token额度？",
+      "content_text": "第 9 名 · 479 万热度 · 147 回答 · 576 关注 — 是真的吗？ 读好书来科大，每天都发一个亿！ 嗨 每一位“科大人” 属于中国科大独有的校园浪漫来啦 每天一个亿的Token 让你的AI专属算力“拉满弓” 零费用｜无门槛｜每日重置 开学第一天，就能拥有专属“AI智囊团” 比起手把手教你如何使用AI 科…",
+      "summary": "第 9 名 · 479 万热度 · 147 回答 · 576 关注 — 是真的吗？ 读好书来科大，每天都发一个亿！ 嗨 每一位“科大人” 属于中国科大独有的校园浪漫来啦 每天一个亿的Token 让你的AI专属算力“拉满弓” 零费用｜无门槛｜每日重置 开学第一天，就能拥有专属“AI智囊团” 比起手把手教你如何使用AI 科…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://pica.zhimg.com/v2-1591885b0472695cb5895ce2a900e486.png",
+      "tags": [
+        "热榜",
+        "知乎"
+      ],
+      "authors": [
+        {
+          "name": "知乎热榜"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-zhihu"
+      }
+    },
+    {
+      "id": "https://www.zhihu.com/question/2098745060527432814",
+      "url": "https://www.zhihu.com/question/2098745060527432814",
+      "title": "女孩恳请学校取消周日返校，称其带来严重焦虑，甚至影响周六，学校应该取消吗？周日返校有什么意义？",
+      "content_text": "第 4 名 · 502 万热度 · 268 回答 · 405 关注 — 最近，关于东莞中小学返校时间的讨论持续刷屏。不少家长疑惑“新学期要取消周日晚修，统一周一返校吗？” 近日，有市民在阳光热线问政平台发帖《支持学校周日错峰返校反对一刀切周一返校》质疑部分人士过度解读“不得强制提前返校”政策，并明确表达了对周日错峰返校…",
+      "summary": "第 4 名 · 502 万热度 · 268 回答 · 405 关注 — 最近，关于东莞中小学返校时间的讨论持续刷屏。不少家长疑惑“新学期要取消周日晚修，统一周一返校吗？” 近日，有市民在阳光热线问政平台发帖《支持学校周日错峰返校反对一刀切周一返校》质疑部分人士过度解读“不得强制提前返校”政策，并明确表达了对周日错峰返校…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://pica.zhimg.com/v2-baa2ccdfd0993f145dffdef01ee5cb5a.png",
+      "tags": [
+        "热榜",
+        "知乎"
+      ],
+      "authors": [
+        {
+          "name": "知乎热榜"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-zhihu"
+      }
+    },
+    {
+      "id": "https://www.zhihu.com/question/312800690",
+      "url": "https://www.zhihu.com/question/312800690",
+      "title": "为什么李白的书法作品只有《上阳台帖》流传下来了？",
+      "content_text": "第 10 名 · 465 万热度 · 34 回答 · 134 关注 — 按说一个文人的作品会被细心保留，何况李白如此伟大有名气的人物。",
+      "summary": "第 10 名 · 465 万热度 · 34 回答 · 134 关注 — 按说一个文人的作品会被细心保留，何况李白如此伟大有名气的人物。",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://picx.zhimg.com/50/v2-beb06b65d5c7f0749454d0e1c64f86cf_b.jpg",
+      "tags": [
+        "热榜",
+        "知乎"
+      ],
+      "authors": [
+        {
+          "name": "知乎热榜"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-zhihu"
+      }
+    },
+    {
+      "id": "https://www.zhihu.com/question/2001260067715044038",
+      "url": "https://www.zhihu.com/question/2001260067715044038",
+      "title": "为什么BBA不进商场开店？",
+      "content_text": "第 6 名 · 498 万热度 · 57 回答 · 74 关注 — 现在新能源汽车很多都在商场开店，BBA的客户不在商场吗？还是其它原因？",
+      "summary": "第 6 名 · 498 万热度 · 57 回答 · 74 关注 — 现在新能源汽车很多都在商场开店，BBA的客户不在商场吗？还是其它原因？",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://pic3.zhimg.com/50/v2-5ff52c67dfc5908654485c4f234257f6_b.jpg",
+      "tags": [
+        "热榜",
+        "知乎"
+      ],
+      "authors": [
+        {
+          "name": "知乎热榜"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-zhihu"
+      }
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=khtCd6MCUkI",
+      "url": "https://www.youtube.com/watch?v=khtCd6MCUkI",
+      "title": "🔴LIVE | AGE OF EMPIRES | KONA X HABIBI X JOHN X GIMMICK | SPOOKY SEASON | OOOooOoooOOoO | #BUNGULATE",
+      "content_text": "第 3 名 · 观看 104.6 万 · TheBurntPeanut",
+      "summary": "第 3 名 · 观看 104.6 万 · TheBurntPeanut",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://i.ytimg.com/vi/khtCd6MCUkI/mqdefault.jpg",
+      "tags": [
+        "视频",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "YouTube 热门 · US"
+        }
+      ],
+      "_shelf": {
+        "type": "video",
+        "shelf": "hot-youtube"
+      }
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=Z72SeA0T028",
+      "url": "https://www.youtube.com/watch?v=Z72SeA0T028",
+      "title": "Why Is She Watching Me…",
+      "content_text": "第 6 名 · 观看 42.0 万 · CaseOh — Starforge https://starforgepc.com/CaseOh GamerSupps -10% off Code CaseOh - https://gamersupps.gg/ Merch - https://caseohgames.com/…",
+      "summary": "第 6 名 · 观看 42.0 万 · CaseOh — Starforge https://starforgepc.com/CaseOh GamerSupps -10% off Code CaseOh - https://gamersupps.gg/ Merch - https://caseohgames.com/…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://i.ytimg.com/vi/Z72SeA0T028/mqdefault.jpg",
+      "tags": [
+        "视频",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "YouTube 热门 · US"
+        }
+      ],
+      "_shelf": {
+        "type": "video",
+        "shelf": "hot-youtube"
+      }
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=vPssxrTbnmM",
+      "url": "https://www.youtube.com/watch?v=vPssxrTbnmM",
+      "title": "R.E.P.O. SUNSTONE UPDATE | Launch Trailer",
+      "content_text": "第 8 名 · 观看 45.7 万 · semiwork — Detailed Patch Notes: https://store.steampowered.com/news/app/3241660/view/672883630592236353 Get the game here: https://store.st…",
+      "summary": "第 8 名 · 观看 45.7 万 · semiwork — Detailed Patch Notes: https://store.steampowered.com/news/app/3241660/view/672883630592236353 Get the game here: https://store.st…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://i.ytimg.com/vi/vPssxrTbnmM/mqdefault.jpg",
+      "tags": [
+        "视频",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "YouTube 热门 · US"
+        }
+      ],
+      "_shelf": {
+        "type": "video",
+        "shelf": "hot-youtube"
+      }
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=BpJikRTDqdk",
+      "url": "https://www.youtube.com/watch?v=BpJikRTDqdk",
+      "title": "My Chemical Romance & Lauren Tsai - Prelude to The End (An Animated Short Film)",
+      "content_text": "第 4 名 · 观看 37.5 万 · My Chemical Romance — My Chemical Romance & Lauren Tsai - Prelude to The End (An Animated Short Film) Directed by Lauren Tsai An UNREAL INC.…",
+      "summary": "第 4 名 · 观看 37.5 万 · My Chemical Romance — My Chemical Romance & Lauren Tsai - Prelude to The End (An Animated Short Film) Directed by Lauren Tsai An UNREAL INC.…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://i.ytimg.com/vi/BpJikRTDqdk/mqdefault.jpg",
+      "tags": [
+        "视频",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "YouTube 热门 · US"
+        }
+      ],
+      "_shelf": {
+        "type": "video",
+        "shelf": "hot-youtube"
+      }
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=Pksr9T8m_aA",
+      "url": "https://www.youtube.com/watch?v=Pksr9T8m_aA",
+      "title": "JISOO - ADDICTED (Official MV)",
+      "content_text": "第 1 名 · 观看 397.9 万 · JISOO — JISOO Official 📱 / https://www.jisoo.app https://www.youtube.com/@sooyaaa__ https://www.instagram.com/sooyaaa__ https://www.tiktok.…",
+      "summary": "第 1 名 · 观看 397.9 万 · JISOO — JISOO Official 📱 / https://www.jisoo.app https://www.youtube.com/@sooyaaa__ https://www.instagram.com/sooyaaa__ https://www.tiktok.…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://i.ytimg.com/vi/Pksr9T8m_aA/mqdefault.jpg",
+      "tags": [
+        "视频",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "YouTube 热门 · US"
+        }
+      ],
+      "_shelf": {
+        "type": "video",
+        "shelf": "hot-youtube"
+      }
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=yPm9yiBDA2s",
+      "url": "https://www.youtube.com/watch?v=yPm9yiBDA2s",
+      "title": "Foogiano - Halfway In [Official Music Video]",
+      "content_text": "第 7 名 · 观看 11.6 万 · Foogiano — Foogiano - Halfway In Download/Stream: [LINKFIRE] Subscribe for more official content from Foogiano: https://foogiano.lnk.to/Yout…",
+      "summary": "第 7 名 · 观看 11.6 万 · Foogiano — Foogiano - Halfway In Download/Stream: [LINKFIRE] Subscribe for more official content from Foogiano: https://foogiano.lnk.to/Yout…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://i.ytimg.com/vi/yPm9yiBDA2s/mqdefault.jpg",
+      "tags": [
+        "视频",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "YouTube 热门 · US"
+        }
+      ],
+      "_shelf": {
+        "type": "video",
+        "shelf": "hot-youtube"
+      }
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=Sd5SQ40sCoI",
+      "url": "https://www.youtube.com/watch?v=Sd5SQ40sCoI",
+      "title": "Dream Needs To Stop Lying",
+      "content_text": "第 9 名 · 观看 124.7 万 · Karl Jobst — Play IdleOn on Steam: https://store.steampowered.com/app/1476970?utm_source=youtube&utm_campaign=CloverTalent Play IdleOn on i…",
+      "summary": "第 9 名 · 观看 124.7 万 · Karl Jobst — Play IdleOn on Steam: https://store.steampowered.com/app/1476970?utm_source=youtube&utm_campaign=CloverTalent Play IdleOn on i…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://i.ytimg.com/vi/Sd5SQ40sCoI/mqdefault.jpg",
+      "tags": [
+        "视频",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "YouTube 热门 · US"
+        }
+      ],
+      "_shelf": {
+        "type": "video",
+        "shelf": "hot-youtube"
+      }
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=loHWbkN9SvM",
+      "url": "https://www.youtube.com/watch?v=loHWbkN9SvM",
+      "title": "DigBar- BIG D RANDY: THE CALL",
+      "content_text": "第 10 名 · 观看 10.2 万 · itsDigBar — Worked really hard on this one yall, I hope yall fw it. Thank yall so much for all the support with this series. I hope i deliv…",
+      "summary": "第 10 名 · 观看 10.2 万 · itsDigBar — Worked really hard on this one yall, I hope yall fw it. Thank yall so much for all the support with this series. I hope i deliv…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://i.ytimg.com/vi/loHWbkN9SvM/mqdefault.jpg",
+      "tags": [
+        "视频",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "YouTube 热门 · US"
+        }
+      ],
+      "_shelf": {
+        "type": "video",
+        "shelf": "hot-youtube"
+      }
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=yQ9LVy4DR9U",
+      "url": "https://www.youtube.com/watch?v=yQ9LVy4DR9U",
+      "title": "Apex Legends: Cipher Gameplay Trailer",
+      "content_text": "第 5 名 · 观看 51.6 万 · Apex Legends — In this Arena, the deadliest weapon isn’t a gun, it’s information. Hack the fight and gather essential intel for your squad w…",
+      "summary": "第 5 名 · 观看 51.6 万 · Apex Legends — In this Arena, the deadliest weapon isn’t a gun, it’s information. Hack the fight and gather essential intel for your squad w…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://i.ytimg.com/vi/yQ9LVy4DR9U/mqdefault.jpg",
+      "tags": [
+        "视频",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "YouTube 热门 · US"
+        }
+      ],
+      "_shelf": {
+        "type": "video",
+        "shelf": "hot-youtube"
       }
     }
   ]

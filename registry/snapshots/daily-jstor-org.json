@@ -2,6 +2,21 @@
  "id": "daily-jstor-org",
  "items": [
   {
+   "url": "https://daily.jstor.org/londons-railway-for-the-dead/",
+   "title": "London’s Railway for the Dead",
+   "summary": "As London's graveyards overflowed, a private company proposed a remarkable new way to bury the dead. The post London’s Railway for the Dead appeared first on JS…",
+   "image": "",
+   "date": "2026-10-29",
+   "tags": [
+    "Politics & History",
+    "Quirky History",
+    "death",
+    "London"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://daily.jstor.org/how-telepathy-helped-build-the-russian-internet/",
    "title": "How Telepathy Helped Build the Russian Internet",
    "summary": "During the Cold War, Soviet scientists pursued an unlikely way to communicate with the outside world. The post How Telepathy Helped Build the Russian Internet a…",
@@ -136,21 +151,6 @@
    ],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://daily.jstor.org/the-women-breaking-the-rules-of-balinese-dance/",
-   "title": "The Women Breaking the Rules of Balinese Dance",
-   "summary": "Middle-aged performers are taking on roles once reserved for men, challenging expectations about age and gender in Bali. The post The Women Breaking the Rules o…",
-   "image": "",
-   "date": "2026-10-16",
-   "tags": [
-    "Politics & History",
-    "Social History",
-    "dance",
-    "gender"
-   ],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -167,6 +167,6 @@
  "parser": 3,
  "status": "ok",
  "error": "",
- "etag": "\"c66dcc37801ae2e5605f161aa4d7dd08\"",
- "modified": "Wed, 28 Oct 2026 14:01:26 GMT"
+ "etag": "\"2cd6d32bbc77798cf266dd6dd9542155\"",
+ "modified": "Thu, 29 Oct 2026 20:57:22 GMT"
 }

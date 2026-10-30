@@ -1,13 +1,67 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #Donald Trump",
+  "title": "知树阅读-个人图书空间 · #Donald Trump",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/donald-trump.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
+    {
+      "id": "https://slate.com/life/2026/10/trump-election-ohio-midterm-ice-evangelical.html?via=rss",
+      "url": "https://slate.com/life/2026/10/trump-election-ohio-midterm-ice-evangelical.html?via=rss",
+      "title": "Evangelicals Traveled to Their Country in Record Numbers. Then Trump Said They Were Evil.",
+      "content_text": "In Ohio, the president’s religious base has been tested—and it’s clear whom it chose.",
+      "summary": "In Ohio, the president’s religious base has been tested—and it’s clear whom it chose.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://compote.slate.com/images/09e57a5f-4452-47fd-aff8-1475974b2683.jpeg?crop=2000%2C1333%2Cx0%2Cy0",
+      "tags": [
+        "Donald Trump",
+        "Evangelicals",
+        "Haiti",
+        "Ohio",
+        "Religion",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/news-and-politics/2026/10/donald-trump-corruption-constitution-impeachment-fail.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/donald-trump-corruption-constitution-impeachment-fail.html?via=rss",
+      "title": "Donald Trump Sure Is Corrupt. If Only There Were a Constitutional Remedy for That.",
+      "content_text": "The most common ground for impeachment throughout Anglo-American history has been corruption.",
+      "summary": "The most common ground for impeachment throughout Anglo-American history has been corruption.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://compote.slate.com/images/f15b8001-05ac-4351-a63c-d59d5f7fba77.jpeg?crop=1536%2C1024%2Cx0%2Cy0",
+      "tags": [
+        "Constitution",
+        "Donald Trump",
+        "Impeachment",
+        "Jurisprudence",
+        "Try, Try Again?",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
     {
       "id": "https://slate.com/news-and-politics/2026/10/2020-election-tuesday-midterms-trump-threats.html?via=rss",
       "url": "https://slate.com/news-and-politics/2026/10/2020-election-tuesday-midterms-trump-threats.html?via=rss",
@@ -74,6 +128,7 @@
         "Senate",
         "New Hampshire",
         "2026 Midterms",
+        "2026 Midterms Highlights",
         "评论",
         "文化"
       ],

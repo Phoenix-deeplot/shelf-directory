@@ -1,9 +1,9 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #Security",
+  "title": "知树阅读-个人图书空间 · #Security",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/security.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
@@ -19,6 +19,30 @@
       "tags": [
         "Security",
         "ICE’d Out",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/a-hacker-targeted-high-stakes-poker-players-with-malware-that-exposed-their-cards/",
+      "url": "https://www.wired.com/story/a-hacker-targeted-high-stakes-poker-players-with-malware-that-exposed-their-cards/",
+      "title": "A Hacker Targeted High-Stakes Poker Players With Malware That Exposed Their Cards",
+      "content_text": "Illicit software on the computers of some of the world’s best online poker players allowed the accused cheater to see what cards were in the victims’ hands—and…",
+      "summary": "Illicit software on the computers of some of the world’s best online poker players allowed the accused cheater to see what cards were in the victims’ hands—and…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6adfb9e14342ac0de5548666/master/pass/Security_A%20Hacker%20Snuck%20Malware%20Onto%20Online%20Poker%20Players%E2%80%99%20Computers%20That%20Let%20Him%20See%20Their%20Cards_v1.jpg",
+      "tags": [
+        "Security",
+        "Tables Turned",
         "科技",
         "社会"
       ],
@@ -67,31 +91,6 @@
       "tags": [
         "Security",
         "Going Public",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
-      "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
-      "title": "ICE Is Running One of the Largest Anti-Left Surveillance Operations in US History",
-      "content_text": "ICE’s Homeland Security Investigations is engaged in far-reaching spying against left-wing activists that rivals the FBI and CIA crackdowns on the Civil Rights…",
-      "summary": "ICE’s Homeland Security Investigations is engaged in far-reaching spying against left-wing activists that rivals the FBI and CIA crackdowns on the Civil Rights…",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/6adf8486990ea20354efad62/master/pass/Security_ICE%20Is%20Carrying%20Out%20%E2%80%98Cointelpro%202.0%E2%80%99_v2.jpg",
-      "tags": [
-        "Security",
-        "Security / National Security",
-        "Repeat History",
         "科技",
         "社会"
       ],

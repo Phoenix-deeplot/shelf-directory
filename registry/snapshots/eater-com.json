@@ -2,6 +2,18 @@
  "id": "eater-com",
  "items": [
   {
+   "url": "https://www.eater.com/trends/996747/food-fashion-print-trend",
+   "title": "Food-Themed Fashion Is Starting to Feel Gluttonous",
+   "summary": "There was a time, not too long ago, when a purse shaped like a baguette felt like a thrilling — even subversive — novelty. Now, we hardly bat an eye when we see…",
+   "image": "",
+   "date": "2026-10-29",
+   "tags": [
+    "Food and Restaurant Trends"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.eater.com/dining-out/996325/restaurants-fake-yelp-reviews-penalties",
    "title": "Even for Desperate Restaurants, Fake Reviews Just Aren’t Worth It",
    "summary": "When Yelp was first launched in 2004, it flopped. The company’s initial model of an email-based referral service failed to take off until its creators realized…",
@@ -118,18 +130,6 @@
    ],
    "lang": "en",
    "type": "article"
-  },
-  {
-   "url": "https://www.eater.com/travel-guides/992604/the-best-culinary-resorts-in-the-united-states",
-   "title": "The Best Culinary Resorts in the United States",
-   "summary": "At some hotels, food is an afterthought: Breakfast buffets are bland, in-room mini bars are stocked with generic snacks, and lobby bars are lackluster. But othe…",
-   "image": "",
-   "date": "2026-10-15",
-   "tags": [
-    "Travel Guides"
-   ],
-   "lang": "en",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -146,6 +146,6 @@
  "parser": 3,
  "status": "ok",
  "error": "",
- "etag": "\"116480d6247989720f8a54b6d7901574\"",
+ "etag": "\"b3e1f1485b38b1b0cc4daef011037e20\"",
  "modified": ""
 }

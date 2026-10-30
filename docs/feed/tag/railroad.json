@@ -1,13 +1,94 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #Railroad",
+  "title": "知树阅读-个人图书空间 · #Railroad",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/railroad.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
+    {
+      "id": "https://www.freightwaves.com/news/u-s-rail-traffic-up-7-8-as-intermodal-leads-gainers",
+      "url": "https://www.freightwaves.com/news/u-s-rail-traffic-up-7-8-as-intermodal-leads-gainers",
+      "title": "U.S. rail traffic up 7.8% as intermodal leads gainers",
+      "content_text": "U.S. rail traffic rose in the latest week as gains across eight of 10 carload commodity groups showed broad — but uneven — growth. The post U.S. rail traffic up…",
+      "summary": "U.S. rail traffic rose in the latest week as gains across eight of 10 carload commodity groups showed broad — but uneven — growth. The post U.S. rail traffic up…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "News",
+        "Railroad",
+        "Top Stories",
+        "carloads",
+        "intermodal",
+        "railfreight volume",
+        "railroads",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/cpkc-reports-record-revenue-on-strength-of-grain-and-intermodal-traffic",
+      "url": "https://www.freightwaves.com/news/cpkc-reports-record-revenue-on-strength-of-grain-and-intermodal-traffic",
+      "title": "CPKC reports record revenue on strength of grain and intermodal traffic",
+      "content_text": "CPKC turned in record 3Q revenue as the railway set records for domestic and international intermodal volumes, as well as for grain. The post CPKC reports recor…",
+      "summary": "CPKC turned in record 3Q revenue as the railway set records for domestic and international intermodal volumes, as well as for grain. The post CPKC reports recor…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "News",
+        "Railroad",
+        "Top Stories",
+        "carloads",
+        "CPKC",
+        "earnings",
+        "intermodal"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/9-alleged-mexican-cartel-associates-arrested-in-california-train-theft-ring",
+      "url": "https://www.freightwaves.com/news/9-alleged-mexican-cartel-associates-arrested-in-california-train-theft-ring",
+      "title": "9 alleged Mexican Cartel associates arrested in California train theft ring",
+      "content_text": "Nine men allegedly connected to Mexico's Sinaloa Cartel were arrested in Southern California as part of a cargo train theft operation. The post 9 alleged Mexica…",
+      "summary": "Nine men allegedly connected to Mexico's Sinaloa Cartel were arrested in Southern California as part of a cargo train theft operation. The post 9 alleged Mexica…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "News",
+        "Railroad",
+        "BNSF",
+        "cargo crime",
+        "cargo theft",
+        "Cartel",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
     {
       "id": "https://www.freightwaves.com/news/greenbrier-profit-falls-as-railcar-demand-weighs-on-sales",
       "url": "https://www.freightwaves.com/news/greenbrier-profit-falls-as-railcar-demand-weighs-on-sales",
@@ -46,11 +127,11 @@
         "Company Earnings",
         "News",
         "Railroad",
-        "Top Stories",
         "CPKC",
         "earnings",
         "intermodal",
-        "railroads"
+        "railroads",
+        "货运"
       ],
       "authors": [
         {
@@ -78,33 +159,6 @@
         "Top Stories",
         "imports",
         "peak season"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/police-recover-54k-in-hot-wheels-after-bnsf-freight-train-burglary-in-california",
-      "url": "https://www.freightwaves.com/news/police-recover-54k-in-hot-wheels-after-bnsf-freight-train-burglary-in-california",
-      "title": "Police recover $54K in Hot Wheels after BNSF freight train burglary in California",
-      "content_text": "A freight train burglary in Colton, California, ended with one arrest and $54,000 in recovered Hot Wheels. Police released footage of the investigation as quest…",
-      "summary": "A freight train burglary in Colton, California, ended with one arrest and $54,000 in recovered Hot Wheels. Police released footage of the investigation as quest…",
-      "date_published": "2026-10-27T00:00:00Z",
-      "tags": [
-        "Business",
-        "Playbook: Cash & Capital",
-        "Railroad",
-        "Top Stories",
-        "BNSF",
-        "California",
-        "cargo theft",
-        "货运"
       ],
       "authors": [
         {

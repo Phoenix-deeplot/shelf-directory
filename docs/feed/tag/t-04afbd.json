@@ -1,13 +1,57 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #制造",
+  "title": "知树阅读-个人图书空间 · #制造",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-04afbd.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
+    {
+      "id": "https://www.industryweek.com/technology-and-iiot/systems-integration/article/55415415/erp-transformation-starts-with-your-operating-model",
+      "url": "https://www.industryweek.com/technology-and-iiot/systems-integration/article/55415415/erp-transformation-starts-with-your-operating-model",
+      "title": "ERP Transformation Starts With Your Operating Model",
+      "content_text": "If installing software is your first priority, the project can quickly turn into a technology swap carrying over old problems and workarounds.",
+      "summary": "If installing software is your first priority, the project can quickly turn into a technology swap carrying over old problems and workarounds.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ae3a71b8b6b5de4628a5175-dreamstime_xxl_255670084.png",
+      "tags": [
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
+    {
+      "id": "https://www.industryweek.com/resources/industryweek-best-plants-awards/article/55415154/2026-industry-best-plants-lb-foster-burnaby-is-a-small-plant-punching-above-its-weight",
+      "url": "https://www.industryweek.com/resources/industryweek-best-plants-awards/article/55415154/2026-industry-best-plants-lb-foster-burnaby-is-a-small-plant-punching-above-its-weight",
+      "title": "2026 IndustryWeek Best Plants: L.B. Foster Burnaby Is a Small Plant Punching Above Its Weight",
+      "content_text": "A culture of innovation and collaboration leads to enviable results.",
+      "summary": "A culture of innovation and collaboration leads to enviable results.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ae36ff07d6230226fb88f70-lb_foster_two_production_workers.png",
+      "tags": [
+        "制造",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "Home | IndustryWeek"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "industryweek-com"
+      }
+    },
     {
       "id": "https://www.industryweek.com/the-economy/news/55415104/us-fed-holds-interest-rates-steady-despite-surging-inflation",
       "url": "https://www.industryweek.com/the-economy/news/55415104/us-fed-holds-interest-rates-steady-despite-surging-inflation",
@@ -511,50 +555,6 @@
       "summary": "The sales force of the industrial products distributor shrank by 400 in the third quarter. Executives say they need fewer people at customer sites these days an…",
       "date_published": "2026-10-16T00:00:00Z",
       "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad2841855a0c53ae5690c37-fast_vending_1.png",
-      "tags": [
-        "制造",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "Home | IndustryWeek"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "industryweek-com"
-      }
-    },
-    {
-      "id": "https://www.industryweek.com/talent/recruiting-retention/article/55412231/manufacturing-day-2026-celebrating-spacecraft-innovation-and-high-tech-shipbuilding",
-      "url": "https://www.industryweek.com/talent/recruiting-retention/article/55412231/manufacturing-day-2026-celebrating-spacecraft-innovation-and-high-tech-shipbuilding",
-      "title": "Manufacturing Day 2026: Celebrating Spacecraft Innovation and High-Tech Shipbuilding",
-      "content_text": "Welders, machinists and fabricators are finding jobs building autonomous vessels and rocket engines.",
-      "summary": "Welders, machinists and fabricators are finding jobs building autonomous vessels and rocket engines.",
-      "date_published": "2026-10-15T00:00:00Z",
-      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad1262919dfcf0018303ff6-industryweek_3.png",
-      "tags": [
-        "制造",
-        "运营"
-      ],
-      "authors": [
-        {
-          "name": "Home | IndustryWeek"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "industryweek-com"
-      }
-    },
-    {
-      "id": "https://www.industryweek.com/industry-events/manufacturing-day/article/55412272/faces-of-manufacturing-i-love-that-manufacturing-mixes-technical-work-with-teamwork",
-      "url": "https://www.industryweek.com/industry-events/manufacturing-day/article/55412272/faces-of-manufacturing-i-love-that-manufacturing-mixes-technical-work-with-teamwork",
-      "title": "Faces of Manufacturing: 'I Love That Manufacturing Mixes Technical Work with Teamwork'",
-      "content_text": "\"You get to use science and engineering every day, but you also rely on collaboration and problem solving to turn ideas into tangible products,\" says Gustavo Su…",
-      "summary": "\"You get to use science and engineering every day, but you also rely on collaboration and problem solving to turn ideas into tangible products,\" says Gustavo Su…",
-      "date_published": "2026-10-15T00:00:00Z",
-      "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad12b377a1551ee5fe4b915-gustavo_suarez_elcon2.png",
       "tags": [
         "制造",
         "运营"

@@ -1,0 +1,38 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #Books",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/books.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://slate.com/life/2026/10/hillsong-carl-lentz-laura-cheating-affair-book.html?via=rss",
+      "url": "https://slate.com/life/2026/10/hillsong-carl-lentz-laura-cheating-affair-book.html?via=rss",
+      "title": "America’s Most Famous Pastor Just Revealed How He Treats His Wife. It Tells Us Something About Evangelicals.",
+      "content_text": "It’s a sad, old trick.",
+      "summary": "It’s a sad, old trick.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/dfd7542d-864a-4c07-8d29-ce3ffb28c07a.jpeg?crop=4488%2C2992%2Cx0%2Cy40",
+      "tags": [
+        "Books",
+        "Marriage",
+        "Religion",
+        "Podcasts",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    }
+  ]
+}

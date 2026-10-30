@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/shelf/hot-github.xml</id>
-  <title>公共目录 · GitHub Trending（今日）</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · GitHub Trending（今日）</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/hot-github.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
   <entry>
     <id>https://github.com/togg53192-cmd/jailbreaks</id>
     <title>togg53192-cmd/jailbreaks</title>
     <link rel="alternate" type="text/html" href="https://github.com/togg53192-cmd/jailbreaks"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 10 名 · 今日 +1,477 ★ · LIST OF ALL MY JAILBREAKS</summary>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 10 名 · 今日 +1,594 ★ · LIST OF ALL MY JAILBREAKS</summary>
+    <source><title>GitHub Trending（今日）</title></source>
+    <category term="热榜"/>
+    <category term="开源"/>
+  </entry>
+  <entry>
+    <id>https://github.com/thedotmack/claude-mem</id>
+    <title>thedotmack/claude-mem</title>
+    <link rel="alternate" type="text/html" href="https://github.com/thedotmack/claude-mem"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 8 名 · 今日 +336 ★ · TypeScript · Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI…</summary>
     <source><title>GitHub Trending（今日）</title></source>
     <category term="热榜"/>
     <category term="开源"/>
@@ -21,9 +32,9 @@
     <id>https://github.com/pbakaus/impeccable</id>
     <title>pbakaus/impeccable</title>
     <link rel="alternate" type="text/html" href="https://github.com/pbakaus/impeccable"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 7 名 · 今日 +1,472 ★ · Rust · The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it…</summary>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 3 名 · 今日 +2,870 ★ · Rust · The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it…</summary>
     <source><title>GitHub Trending（今日）</title></source>
     <category term="热榜"/>
     <category term="开源"/>
@@ -32,9 +43,9 @@
     <id>https://github.com/obra/superpowers</id>
     <title>obra/superpowers</title>
     <link rel="alternate" type="text/html" href="https://github.com/obra/superpowers"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 3 名 · 今日 +1,095 ★ · Shell · An agentic skills framework &amp; software development methodology that works.</summary>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 2 名 · 今日 +1,034 ★ · Shell · An agentic skills framework &amp; software development methodology that works.</summary>
     <source><title>GitHub Trending（今日）</title></source>
     <category term="热榜"/>
     <category term="开源"/>
@@ -43,31 +54,20 @@
     <id>https://github.com/nightly-labs/openbot</id>
     <title>nightly-labs/openbot</title>
     <link rel="alternate" type="text/html" href="https://github.com/nightly-labs/openbot"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 9 名 · 今日 +1,054 ★ · TypeScript · A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queu…</summary>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 6 名 · 今日 +709 ★ · TypeScript · A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues…</summary>
     <source><title>GitHub Trending（今日）</title></source>
     <category term="热榜"/>
     <category term="开源"/>
   </entry>
   <entry>
-    <id>https://github.com/makecindy/cindy</id>
-    <title>makecindy/cindy</title>
-    <link rel="alternate" type="text/html" href="https://github.com/makecindy/cindy"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 8 名 · 今日 +728 ★ · TypeScript · Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。</summary>
-    <source><title>GitHub Trending（今日）</title></source>
-    <category term="热榜"/>
-    <category term="开源"/>
-  </entry>
-  <entry>
-    <id>https://github.com/macro-inc/macro</id>
-    <title>macro-inc/macro</title>
-    <link rel="alternate" type="text/html" href="https://github.com/macro-inc/macro"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 5 名 · 今日 +117 ★ · Rust · Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.</summary>
+    <id>https://github.com/milind-soni/OpenMausBot</id>
+    <title>milind-soni/OpenMausBot</title>
+    <link rel="alternate" type="text/html" href="https://github.com/milind-soni/OpenMausBot"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 5 名 · 今日 +1,199 ★ · TypeScript · Open-source Grok Bot alternative with a virtual machine that bots can use</summary>
     <source><title>GitHub Trending（今日）</title></source>
     <category term="热榜"/>
     <category term="开源"/>
@@ -76,20 +76,9 @@
     <id>https://github.com/elayadesign/ai-design-skills</id>
     <title>elayadesign/ai-design-skills</title>
     <link rel="alternate" type="text/html" href="https://github.com/elayadesign/ai-design-skills"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 2 名 · 今日 +2,139 ★</summary>
-    <source><title>GitHub Trending（今日）</title></source>
-    <category term="热榜"/>
-    <category term="开源"/>
-  </entry>
-  <entry>
-    <id>https://github.com/Nutlope/hallmark</id>
-    <title>Nutlope/hallmark</title>
-    <link rel="alternate" type="text/html" href="https://github.com/Nutlope/hallmark"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 6 名 · 今日 +2,110 ★ · CSS · Anti-AI-slop design skill for Claude Code, Cursor, and Codex.</summary>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 7 名 · 今日 +1,187 ★</summary>
     <source><title>GitHub Trending（今日）</title></source>
     <category term="热榜"/>
     <category term="开源"/>
@@ -98,9 +87,9 @@
     <id>https://github.com/JetBrains/thinkrail</id>
     <title>JetBrains/thinkrail</title>
     <link rel="alternate" type="text/html" href="https://github.com/JetBrains/thinkrail"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 1 名 · 今日 +1,068 ★ · TypeScript · Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need</summary>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 4 名 · 今日 +1,117 ★ · TypeScript · Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need</summary>
     <source><title>GitHub Trending（今日）</title></source>
     <category term="热榜"/>
     <category term="开源"/>
@@ -109,9 +98,20 @@
     <id>https://github.com/HKUDS/DeepTutor</id>
     <title>HKUDS/DeepTutor</title>
     <link rel="alternate" type="text/html" href="https://github.com/HKUDS/DeepTutor"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 4 名 · 今日 +2,371 ★ · Python · DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .</summary>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 1 名 · 今日 +1,930 ★ · Python · DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .</summary>
+    <source><title>GitHub Trending（今日）</title></source>
+    <category term="热榜"/>
+    <category term="开源"/>
+  </entry>
+  <entry>
+    <id>https://github.com/CopilotKit/OpenBot</id>
+    <title>CopilotKit/OpenBot</title>
+    <link rel="alternate" type="text/html" href="https://github.com/CopilotKit/OpenBot"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 9 名 · 今日 +247 ★ · TypeScript · Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it…</summary>
     <source><title>GitHub Trending（今日）</title></source>
     <category term="热榜"/>
     <category term="开源"/>

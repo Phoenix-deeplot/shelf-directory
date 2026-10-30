@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/politics.xml</id>
-  <title>公共目录 · #Politics</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · #Politics</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/politics.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/</id>
+    <title>The Iran War’s Impact on Oil Is Hitting Key Senate Races Hard</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Democrats are using the high price of diesel, heating oil, and fertilizer to tie Republicans to President Donald Trump’s unpopular, costly war in Iran.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Science"/>
+    <category term="Science / Environment"/>
+    <category term="Politics"/>
+    <category term="Gassed Up"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
   <entry>
     <id>https://www.wired.com/story/law-firm-linked-to-elon-musk-started-an-election-integrity-organization/</id>
     <title>Law Firm Linked to Elon Musk Started an ‘Election Integrity’ Organization</title>
@@ -16,6 +31,19 @@
     <source><title>WIRED</title></source>
     <category term="Politics"/>
     <category term="Midterms 2026"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/</id>
+    <title>A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Sources tell WIRED that an Accenture employee’s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could b…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Politics"/>
+    <category term="Agent Alert"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>

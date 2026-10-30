@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/type/audio.xml</id>
-  <title>公共目录 · audio</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · audio</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/type/audio.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.npr.org/2026/10/30/nx-s1-6020932/can-curiosity-save-the-wild</id>
+    <title>Can curiosity save the wild?</title>
+    <link rel="alternate" type="text/html" href="https://www.npr.org/2026/10/30/nx-s1-6020932/can-curiosity-save-the-wild"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">How do we inspire people to care about wild animals without disrupting their lives? This hour, two surprising approaches to getting to know wildlife — and rethi…</summary>
+    <source><title>TED Radio Hour</title></source>
+    <category term="演讲"/>
+    <category term="思考"/>
+  </entry>
+  <entry>
+    <id>https://www.xiaoyuzhoufm.com/episode/6ae4546797726cd4675a2ef0?utm_source=rss</id>
+    <title>512 与王恺漫话江南食事：从文人蟹宴到乡野土菜</title>
+    <link rel="alternate" type="text/html" href="https://www.xiaoyuzhoufm.com/episode/6ae4546797726cd4675a2ef0?utm_source=rss"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">- 导语 - 秋风起，蟹脚痒，又到了吃蟹的时节。苏州的蟹宴与糕团、南京的盐水鸭与野菜，再到杭州的醋鱼与乡间土菜，虽同处江南，各地的饮食也藏着许多不同讲究。传统苏州蟹宴为何不提倡客人自己动手剥蟹？养殖技术的发展如何改变了人们餐桌上的大闸蟹？那些古籍中有名的菜肴，又经过了当代厨师怎样的改造？从家宴旧事到市井小馆，本期节目与…</summary>
+    <source><title>忽左忽右</title></source>
+    <category term="人文"/>
+    <category term="历史"/>
+  </entry>
   <entry>
     <id>http://www.bbc.co.uk/programmes/p0pk7d0p</id>
     <title>Is aircon the answer to a heating world?</title>
@@ -531,27 +553,5 @@
     <source><title>忽左忽右</title></source>
     <category term="人文"/>
     <category term="历史"/>
-  </entry>
-  <entry>
-    <id>http://www.bbc.co.uk/programmes/p0pdc9cq</id>
-    <title>Why does heartbreak hurt so much?</title>
-    <link rel="alternate" type="text/html" href="http://www.bbc.co.uk/programmes/p0pdc9cq"/>
-    <updated>2026-10-01T00:00:00Z</updated>
-    <published>2026-10-01T00:00:00Z</published>
-    <summary type="text">Anyone who has had their heart broken will know how horrible it feels. But did you know that the pain you feel is not just imaginary – it registers in the same…</summary>
-    <source><title>6 Minute English</title></source>
-    <category term="英语学习"/>
-    <category term="英语听力"/>
-  </entry>
-  <entry>
-    <id>https://www.npr.org/2026/10/01/nx-s1-5986830/flydubai-midair-attack-trump-midterm-campaigning-hegseth-reshaping-military</id>
-    <title>FlyDubai Midair Attack, Trump Midterm Campaigning, Hegseth Reshaping Military</title>
-    <link rel="alternate" type="text/html" href="https://www.npr.org/2026/10/01/nx-s1-5986830/flydubai-midair-attack-trump-midterm-campaigning-hegseth-reshaping-military"/>
-    <updated>2026-10-01T00:00:00Z</updated>
-    <published>2026-10-01T00:00:00Z</published>
-    <summary type="text">A FlyDubai flight bound for Israel made an emergency landing in Saudi Arabia after one pilot allegedly stabbed the other and tried to crash the plane, with all…</summary>
-    <source><title>Up First from NPR</title></source>
-    <category term="新闻"/>
-    <category term="英语听力"/>
   </entry>
 </feed>

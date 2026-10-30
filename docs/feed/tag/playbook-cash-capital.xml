@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/playbook-cash-capital.xml</id>
-  <title>公共目录 · #Playbook: Cash &amp; Capital</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · #Playbook: Cash &amp; Capital</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/playbook-cash-capital.xml"/>
-  <updated>2026-10-28T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-29T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/500000-sig-sauer-shipment-stolen-in-fictitious-pickup-two-arrested-in-california</id>
+    <title>$500,000 SIG Sauer shipment stolen in fictitious pickup, two arrested in California</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/500000-sig-sauer-shipment-stolen-in-fictitious-pickup-two-arrested-in-california"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">A shipment worth half a million dollars left a Torrance warehouse under fraudulent circumstances, triggering a cargo theft investigation by Los Angeles County d…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Business"/>
+    <category term="Fraud"/>
+    <category term="Playbook: Cash &amp; Capital"/>
+    <category term="Top Stories"/>
+    <category term="cargo theft"/>
+    <category term="freight fraud"/>
+    <category term="logistics"/>
+    <category term="Trucking"/>
+  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/stolen-shoes-on-ebay-lead-police-to-1-million-in-missing-bnsf-train-cargo</id>
     <title>Stolen shoes on eBay lead police to $1 million in missing BNSF train cargo</title>
@@ -22,23 +39,6 @@
     <category term="cargo theft"/>
     <category term="rail theft"/>
     <category term="recovery"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/police-recover-54k-in-hot-wheels-after-bnsf-freight-train-burglary-in-california</id>
-    <title>Police recover $54K in Hot Wheels after BNSF freight train burglary in California</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/police-recover-54k-in-hot-wheels-after-bnsf-freight-train-burglary-in-california"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">A freight train burglary in Colton, California, ended with one arrest and $54,000 in recovered Hot Wheels. Police released footage of the investigation as quest…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Business"/>
-    <category term="Playbook: Cash &amp; Capital"/>
-    <category term="Railroad"/>
-    <category term="Top Stories"/>
-    <category term="BNSF"/>
-    <category term="California"/>
-    <category term="cargo theft"/>
-    <category term="货运"/>
   </entry>
   <entry>
     <id>https://www.freightwaves.com/news/millions-in-stolen-freight-reveal-a-weakness-criminals-keep-exploiting</id>

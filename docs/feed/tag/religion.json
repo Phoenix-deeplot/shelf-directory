@@ -1,0 +1,89 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #Religion",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/religion.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://slate.com/life/2026/10/trump-election-ohio-midterm-ice-evangelical.html?via=rss",
+      "url": "https://slate.com/life/2026/10/trump-election-ohio-midterm-ice-evangelical.html?via=rss",
+      "title": "Evangelicals Traveled to Their Country in Record Numbers. Then Trump Said They Were Evil.",
+      "content_text": "In Ohio, the president’s religious base has been tested—and it’s clear whom it chose.",
+      "summary": "In Ohio, the president’s religious base has been tested—and it’s clear whom it chose.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://compote.slate.com/images/09e57a5f-4452-47fd-aff8-1475974b2683.jpeg?crop=2000%2C1333%2Cx0%2Cy0",
+      "tags": [
+        "Donald Trump",
+        "Evangelicals",
+        "Haiti",
+        "Ohio",
+        "Religion",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/life/2026/10/hillsong-carl-lentz-laura-cheating-affair-book.html?via=rss",
+      "url": "https://slate.com/life/2026/10/hillsong-carl-lentz-laura-cheating-affair-book.html?via=rss",
+      "title": "America’s Most Famous Pastor Just Revealed How He Treats His Wife. It Tells Us Something About Evangelicals.",
+      "content_text": "It’s a sad, old trick.",
+      "summary": "It’s a sad, old trick.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/dfd7542d-864a-4c07-8d29-ce3ffb28c07a.jpeg?crop=4488%2C2992%2Cx0%2Cy40",
+      "tags": [
+        "Books",
+        "Marriage",
+        "Religion",
+        "Podcasts",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://www.openculture.com/2026/10/inside-the-making-of-the-sagrada-familia-barcelonas-144-year-megaproject.html",
+      "url": "https://www.openculture.com/2026/10/inside-the-making-of-the-sagrada-familia-barcelonas-144-year-megaproject.html",
+      "title": "Inside the Making of the Sagrada Família, Barcelona’s 144-Year Megaproject",
+      "content_text": "To get a sense of Sagrada Família’s popularity with YouTubers, you have only to take a look at the related Open Culture posts linked below. As will hardly escap…",
+      "summary": "To get a sense of Sagrada Família’s popularity with YouTubers, you have only to take a look at the related Open Culture posts linked below. As will hardly escap…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "Architecture",
+        "History",
+        "Religion",
+        "文化",
+        "免费资源"
+      ],
+      "authors": [
+        {
+          "name": "Open Culture"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "openculture-com"
+      }
+    }
+  ]
+}

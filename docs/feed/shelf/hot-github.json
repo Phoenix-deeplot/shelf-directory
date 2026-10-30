@@ -1,9 +1,9 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · GitHub Trending（今日）",
+  "title": "知树阅读-个人图书空间 · GitHub Trending（今日）",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/shelf/hot-github.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
@@ -12,9 +12,30 @@
       "id": "https://github.com/togg53192-cmd/jailbreaks",
       "url": "https://github.com/togg53192-cmd/jailbreaks",
       "title": "togg53192-cmd/jailbreaks",
-      "content_text": "第 10 名 · 今日 +1,477 ★ · LIST OF ALL MY JAILBREAKS",
-      "summary": "第 10 名 · 今日 +1,477 ★ · LIST OF ALL MY JAILBREAKS",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 10 名 · 今日 +1,594 ★ · LIST OF ALL MY JAILBREAKS",
+      "summary": "第 10 名 · 今日 +1,594 ★ · LIST OF ALL MY JAILBREAKS",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "热榜",
+        "开源"
+      ],
+      "authors": [
+        {
+          "name": "GitHub Trending（今日）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-github"
+      }
+    },
+    {
+      "id": "https://github.com/thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "title": "thedotmack/claude-mem",
+      "content_text": "第 8 名 · 今日 +336 ★ · TypeScript · Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI…",
+      "summary": "第 8 名 · 今日 +336 ★ · TypeScript · Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热榜",
         "开源"
@@ -33,9 +54,9 @@
       "id": "https://github.com/pbakaus/impeccable",
       "url": "https://github.com/pbakaus/impeccable",
       "title": "pbakaus/impeccable",
-      "content_text": "第 7 名 · 今日 +1,472 ★ · Rust · The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it…",
-      "summary": "第 7 名 · 今日 +1,472 ★ · Rust · The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 3 名 · 今日 +2,870 ★ · Rust · The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it…",
+      "summary": "第 3 名 · 今日 +2,870 ★ · Rust · The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热榜",
         "开源"
@@ -54,9 +75,9 @@
       "id": "https://github.com/obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "title": "obra/superpowers",
-      "content_text": "第 3 名 · 今日 +1,095 ★ · Shell · An agentic skills framework & software development methodology that works.",
-      "summary": "第 3 名 · 今日 +1,095 ★ · Shell · An agentic skills framework & software development methodology that works.",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 2 名 · 今日 +1,034 ★ · Shell · An agentic skills framework & software development methodology that works.",
+      "summary": "第 2 名 · 今日 +1,034 ★ · Shell · An agentic skills framework & software development methodology that works.",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热榜",
         "开源"
@@ -75,9 +96,9 @@
       "id": "https://github.com/nightly-labs/openbot",
       "url": "https://github.com/nightly-labs/openbot",
       "title": "nightly-labs/openbot",
-      "content_text": "第 9 名 · 今日 +1,054 ★ · TypeScript · A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queu…",
-      "summary": "第 9 名 · 今日 +1,054 ★ · TypeScript · A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queu…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 6 名 · 今日 +709 ★ · TypeScript · A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues…",
+      "summary": "第 6 名 · 今日 +709 ★ · TypeScript · A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热榜",
         "开源"
@@ -93,33 +114,12 @@
       }
     },
     {
-      "id": "https://github.com/makecindy/cindy",
-      "url": "https://github.com/makecindy/cindy",
-      "title": "makecindy/cindy",
-      "content_text": "第 8 名 · 今日 +728 ★ · TypeScript · Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
-      "summary": "第 8 名 · 今日 +728 ★ · TypeScript · Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "热榜",
-        "开源"
-      ],
-      "authors": [
-        {
-          "name": "GitHub Trending（今日）"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "hot-github"
-      }
-    },
-    {
-      "id": "https://github.com/macro-inc/macro",
-      "url": "https://github.com/macro-inc/macro",
-      "title": "macro-inc/macro",
-      "content_text": "第 5 名 · 今日 +117 ★ · Rust · Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
-      "summary": "第 5 名 · 今日 +117 ★ · Rust · Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://github.com/milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "title": "milind-soni/OpenMausBot",
+      "content_text": "第 5 名 · 今日 +1,199 ★ · TypeScript · Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "summary": "第 5 名 · 今日 +1,199 ★ · TypeScript · Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热榜",
         "开源"
@@ -138,30 +138,9 @@
       "id": "https://github.com/elayadesign/ai-design-skills",
       "url": "https://github.com/elayadesign/ai-design-skills",
       "title": "elayadesign/ai-design-skills",
-      "content_text": "第 2 名 · 今日 +2,139 ★",
-      "summary": "第 2 名 · 今日 +2,139 ★",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "热榜",
-        "开源"
-      ],
-      "authors": [
-        {
-          "name": "GitHub Trending（今日）"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "hot-github"
-      }
-    },
-    {
-      "id": "https://github.com/Nutlope/hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "title": "Nutlope/hallmark",
-      "content_text": "第 6 名 · 今日 +2,110 ★ · CSS · Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "summary": "第 6 名 · 今日 +2,110 ★ · CSS · Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 7 名 · 今日 +1,187 ★",
+      "summary": "第 7 名 · 今日 +1,187 ★",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热榜",
         "开源"
@@ -180,9 +159,9 @@
       "id": "https://github.com/JetBrains/thinkrail",
       "url": "https://github.com/JetBrains/thinkrail",
       "title": "JetBrains/thinkrail",
-      "content_text": "第 1 名 · 今日 +1,068 ★ · TypeScript · Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
-      "summary": "第 1 名 · 今日 +1,068 ★ · TypeScript · Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 4 名 · 今日 +1,117 ★ · TypeScript · Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "summary": "第 4 名 · 今日 +1,117 ★ · TypeScript · Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热榜",
         "开源"
@@ -201,9 +180,30 @@
       "id": "https://github.com/HKUDS/DeepTutor",
       "url": "https://github.com/HKUDS/DeepTutor",
       "title": "HKUDS/DeepTutor",
-      "content_text": "第 4 名 · 今日 +2,371 ★ · Python · DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
-      "summary": "第 4 名 · 今日 +2,371 ★ · Python · DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 1 名 · 今日 +1,930 ★ · Python · DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "summary": "第 1 名 · 今日 +1,930 ★ · Python · DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "热榜",
+        "开源"
+      ],
+      "authors": [
+        {
+          "name": "GitHub Trending（今日）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-github"
+      }
+    },
+    {
+      "id": "https://github.com/CopilotKit/OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "title": "CopilotKit/OpenBot",
+      "content_text": "第 9 名 · 今日 +247 ★ · TypeScript · Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it…",
+      "summary": "第 9 名 · 今日 +247 ★ · TypeScript · Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "热榜",
         "开源"

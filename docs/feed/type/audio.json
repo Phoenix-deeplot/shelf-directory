@@ -1,13 +1,56 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · audio",
+  "title": "知树阅读-个人图书空间 · audio",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/type/audio.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
+    {
+      "id": "https://www.npr.org/2026/10/30/nx-s1-6020932/can-curiosity-save-the-wild",
+      "url": "https://www.npr.org/2026/10/30/nx-s1-6020932/can-curiosity-save-the-wild",
+      "title": "Can curiosity save the wild?",
+      "content_text": "How do we inspire people to care about wild animals without disrupting their lives? This hour, two surprising approaches to getting to know wildlife — and rethi…",
+      "summary": "How do we inspire people to care about wild animals without disrupting their lives? This hour, two surprising approaches to getting to know wildlife — and rethi…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1080+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F76%2Fd9%2Fafd6e0a54db0b4ceeea459eafe2b%2F4719c4bb-9350-4c17-b08c-8af00ddac05c.jpg",
+      "tags": [
+        "演讲",
+        "思考"
+      ],
+      "authors": [
+        {
+          "name": "TED Radio Hour"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "feeds-npr-org-2"
+      }
+    },
+    {
+      "id": "https://www.xiaoyuzhoufm.com/episode/6ae4546797726cd4675a2ef0?utm_source=rss",
+      "url": "https://www.xiaoyuzhoufm.com/episode/6ae4546797726cd4675a2ef0?utm_source=rss",
+      "title": "512 与王恺漫话江南食事：从文人蟹宴到乡野土菜",
+      "content_text": "- 导语 - 秋风起，蟹脚痒，又到了吃蟹的时节。苏州的蟹宴与糕团、南京的盐水鸭与野菜，再到杭州的醋鱼与乡间土菜，虽同处江南，各地的饮食也藏着许多不同讲究。传统苏州蟹宴为何不提倡客人自己动手剥蟹？养殖技术的发展如何改变了人们餐桌上的大闸蟹？那些古籍中有名的菜肴，又经过了当代厨师怎样的改造？从家宴旧事到市井小馆，本期节目与…",
+      "summary": "- 导语 - 秋风起，蟹脚痒，又到了吃蟹的时节。苏州的蟹宴与糕团、南京的盐水鸭与野菜，再到杭州的醋鱼与乡间土菜，虽同处江南，各地的饮食也藏着许多不同讲究。传统苏州蟹宴为何不提倡客人自己动手剥蟹？养殖技术的发展如何改变了人们餐桌上的大闸蟹？那些古籍中有名的菜肴，又经过了当代厨师怎样的改造？从家宴旧事到市井小馆，本期节目与…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "人文",
+        "历史"
+      ],
+      "authors": [
+        {
+          "name": "忽左忽右"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "feed-xyzfm-space"
+      }
+    },
     {
       "id": "http://www.bbc.co.uk/programmes/p0pk7d0p",
       "url": "http://www.bbc.co.uk/programmes/p0pk7d0p",
@@ -1020,48 +1063,6 @@
       "_shelf": {
         "type": "audio",
         "shelf": "feed-xyzfm-space"
-      }
-    },
-    {
-      "id": "http://www.bbc.co.uk/programmes/p0pdc9cq",
-      "url": "http://www.bbc.co.uk/programmes/p0pdc9cq",
-      "title": "Why does heartbreak hurt so much?",
-      "content_text": "Anyone who has had their heart broken will know how horrible it feels. But did you know that the pain you feel is not just imaginary – it registers in the same…",
-      "summary": "Anyone who has had their heart broken will know how horrible it feels. But did you know that the pain you feel is not just imaginary – it registers in the same…",
-      "date_published": "2026-10-01T00:00:00Z",
-      "tags": [
-        "英语学习",
-        "英语听力"
-      ],
-      "authors": [
-        {
-          "name": "6 Minute English"
-        }
-      ],
-      "_shelf": {
-        "type": "audio",
-        "shelf": "podcasts-files-bbci-co-uk"
-      }
-    },
-    {
-      "id": "https://www.npr.org/2026/10/01/nx-s1-5986830/flydubai-midair-attack-trump-midterm-campaigning-hegseth-reshaping-military",
-      "url": "https://www.npr.org/2026/10/01/nx-s1-5986830/flydubai-midair-attack-trump-midterm-campaigning-hegseth-reshaping-military",
-      "title": "FlyDubai Midair Attack, Trump Midterm Campaigning, Hegseth Reshaping Military",
-      "content_text": "A FlyDubai flight bound for Israel made an emergency landing in Saudi Arabia after one pilot allegedly stabbed the other and tried to crash the plane, with all…",
-      "summary": "A FlyDubai flight bound for Israel made an emergency landing in Saudi Arabia after one pilot allegedly stabbed the other and tried to crash the plane, with all…",
-      "date_published": "2026-10-01T00:00:00Z",
-      "tags": [
-        "新闻",
-        "英语听力"
-      ],
-      "authors": [
-        {
-          "name": "Up First from NPR"
-        }
-      ],
-      "_shelf": {
-        "type": "audio",
-        "shelf": "feeds-npr-org"
       }
     }
   ]

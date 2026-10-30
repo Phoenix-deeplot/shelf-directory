@@ -1,117 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/shelf/hot-weibo.xml</id>
-  <title>公共目录 · 微博热搜</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · 微博热搜</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/hot-weibo.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%90%83%E5%87%89%E5%9C%9F%E8%B1%86%E8%98%B8%E8%BE%A3%E6%A4%92%E9%9D%A22%E4%B8%AA%E6%9C%88%E7%98%A622%E6%96%A4%23</id>
-    <title>男子吃凉土豆蘸辣椒面2个月瘦22斤</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%90%83%E5%87%89%E5%9C%9F%E8%B1%86%E8%98%B8%E8%BE%A3%E6%A4%92%E9%9D%A22%E4%B8%AA%E6%9C%88%E7%98%A622%E6%96%A4%23"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 2 名 · 热度 95.1 万 · 新</summary>
+    <id>https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E9%81%AD%E5%A5%B3%E6%8A%80%E5%B8%88%E4%BE%B5%E7%8A%AF%E6%B6%89%E4%BA%8B%E4%BC%9A%E6%89%80%E5%B7%B2%E5%81%9C%E4%B8%9A%23</id>
+    <title>男子遭女技师侵犯涉事会所已停业</title>
+    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E9%81%AD%E5%A5%B3%E6%8A%80%E5%B8%88%E4%BE%B5%E7%8A%AF%E6%B6%89%E4%BA%8B%E4%BC%9A%E6%89%80%E5%B7%B2%E5%81%9C%E4%B8%9A%23"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 4 名 · 热度 101.4 万 · 新</summary>
     <source><title>微博热搜</title></source>
     <category term="热榜"/>
     <category term="微博"/>
   </entry>
   <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E6%B5%B7%E5%BD%92%E5%8C%BB%E5%AD%A6%E5%8D%9A%E5%A3%AB%E7%9C%8B%E7%89%87%E5%AD%90%E6%89%BE%E4%B8%8D%E5%88%B0%E7%97%85%E7%81%B6%23</id>
-    <title>海归医学博士看片子找不到病灶</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E6%B5%B7%E5%BD%92%E5%8C%BB%E5%AD%A6%E5%8D%9A%E5%A3%AB%E7%9C%8B%E7%89%87%E5%AD%90%E6%89%BE%E4%B8%8D%E5%88%B0%E7%97%85%E7%81%B6%23"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 10 名 · 热度 41.6 万 · 新</summary>
+    <id>https://s.weibo.com/weibo?q=%23%E7%94%B2%E7%A1%9D%E5%94%91%E7%A3%A8%E7%B2%89%E6%B2%BB%E9%BC%BB%E7%82%8E%E5%8C%BB%E7%94%9F%E9%83%BD%E6%87%B5%E4%BA%86%23</id>
+    <title>甲硝唑磨粉治鼻炎医生都懵了</title>
+    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E7%94%B2%E7%A1%9D%E5%94%91%E7%A3%A8%E7%B2%89%E6%B2%BB%E9%BC%BB%E7%82%8E%E5%8C%BB%E7%94%9F%E9%83%BD%E6%87%B5%E4%BA%86%23"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 5 名 · 热度 101.0 万</summary>
     <source><title>微博热搜</title></source>
     <category term="热榜"/>
     <category term="微博"/>
   </entry>
   <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E6%B4%9B%E9%98%B3%E4%B8%80%E5%8D%A4%E8%9B%8B%E5%BA%97%E7%88%86%E7%81%AB%E8%80%81%E6%9D%BF%E8%B7%AA%E6%B1%82%E5%B0%91%E6%9D%A5%23</id>
-    <title>洛阳一卤蛋店爆火老板跪求少来</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E6%B4%9B%E9%98%B3%E4%B8%80%E5%8D%A4%E8%9B%8B%E5%BA%97%E7%88%86%E7%81%AB%E8%80%81%E6%9D%BF%E8%B7%AA%E6%B1%82%E5%B0%91%E6%9D%A5%23"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 6 名 · 热度 51.8 万 · 新</summary>
+    <id>https://s.weibo.com/weibo?q=%23%E6%98%9F%E5%B7%B4%E5%85%8B%E5%9B%9E%E5%BA%94%E7%94%B7%E5%AD%90%E4%B8%8D%E6%B6%88%E8%B4%B9%E8%A2%AB%E5%8A%9D%E7%A6%BB%E5%90%8E%E6%8A%A5%E8%AD%A6%23</id>
+    <title>星巴克回应男子不消费被劝离后报警</title>
+    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E6%98%9F%E5%B7%B4%E5%85%8B%E5%9B%9E%E5%BA%94%E7%94%B7%E5%AD%90%E4%B8%8D%E6%B6%88%E8%B4%B9%E8%A2%AB%E5%8A%9D%E7%A6%BB%E5%90%8E%E6%8A%A5%E8%AD%A6%23"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 8 名 · 热度 94.3 万 · 新</summary>
     <source><title>微博热搜</title></source>
     <category term="热榜"/>
     <category term="微博"/>
   </entry>
   <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E7%BD%91%E6%B0%91%E7%A7%B0%E5%AF%B9%E4%B8%89%E4%B8%BD%E9%B8%A5%E5%BE%88%E5%A4%B1%E6%9C%9B%23</id>
-    <title>日本网民称对三丽鸥很失望</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E7%BD%91%E6%B0%91%E7%A7%B0%E5%AF%B9%E4%B8%89%E4%B8%BD%E9%B8%A5%E5%BE%88%E5%A4%B1%E6%9C%9B%23"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 7 名 · 热度 43.3 万 · 新</summary>
+    <id>https://s.weibo.com/weibo?q=%23%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%E6%80%BB%E5%86%B3%E8%B5%9B%E5%A6%86%E9%80%A0%23</id>
+    <title>披荆斩棘总决赛妆造</title>
+    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%E6%80%BB%E5%86%B3%E8%B5%9B%E5%A6%86%E9%80%A0%23"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 10 名 · 热度 90.2 万 · 综艺</summary>
     <source><title>微博热搜</title></source>
     <category term="热榜"/>
     <category term="微博"/>
   </entry>
   <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E5%A4%9A%E8%A7%86%E8%A7%92%E8%A7%A3%E8%AF%BB%E4%B8%89%E5%AD%A3%E5%BA%A6%E7%BB%8F%E6%B5%8E%E6%95%B0%E6%8D%AE%23</id>
-    <title>多视角解读三季度经济数据</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E5%A4%9A%E8%A7%86%E8%A7%92%E8%A7%A3%E8%AF%BB%E4%B8%89%E5%AD%A3%E5%BA%A6%E7%BB%8F%E6%B5%8E%E6%95%B0%E6%8D%AE%23"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 3 名 · 热度 69.2 万</summary>
+    <id>https://s.weibo.com/weibo?q=%23%E5%B8%83%E6%B3%BD%E5%B0%94%E6%88%90%E6%9C%80%E5%B9%B4%E8%BD%BB%E4%B8%89%E5%8F%8C%E5%89%8D%E9%94%8B%23</id>
+    <title>布泽尔成最年轻三双前锋</title>
+    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E5%B8%83%E6%B3%BD%E5%B0%94%E6%88%90%E6%9C%80%E5%B9%B4%E8%BD%BB%E4%B8%89%E5%8F%8C%E5%89%8D%E9%94%8B%23"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 2 名 · 热度 106.4 万 · 新</summary>
     <source><title>微博热搜</title></source>
     <category term="热榜"/>
     <category term="微博"/>
   </entry>
   <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E4%B8%89%E4%B8%BD%E9%B8%A5%E5%8F%96%E6%B6%88Vivant%E8%81%94%E5%90%8D%23</id>
-    <title>外交部回应三丽鸥取消Vivant联名</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E4%B8%89%E4%B8%BD%E9%B8%A5%E5%8F%96%E6%B6%88Vivant%E8%81%94%E5%90%8D%23"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 4 名 · 热度 67.5 万</summary>
+    <id>https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E5%91%8A%E4%BA%86%E7%99%BD%E8%A1%A3%E5%B1%B1%E7%8C%AB%23</id>
+    <title>小城良方告了白衣山猫</title>
+    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E5%91%8A%E4%BA%86%E7%99%BD%E8%A1%A3%E5%B1%B1%E7%8C%AB%23"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 1 名 · 热度 107.1 万 · 剧集</summary>
     <source><title>微博热搜</title></source>
     <category term="热榜"/>
     <category term="微博"/>
   </entry>
   <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E5%8E%BB%E4%B8%96%E6%8A%97%E7%99%8C%E5%8D%9A%E4%B8%BB%E6%9B%BE%E5%9B%A0%E6%98%AF%E5%8C%BB%E5%AD%A6%E7%94%9F%E6%B2%A1%E6%9C%89%E9%87%8D%E8%A7%86%23</id>
-    <title>去世抗癌博主曾因是医学生没有重视</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E5%8E%BB%E4%B8%96%E6%8A%97%E7%99%8C%E5%8D%9A%E4%B8%BB%E6%9B%BE%E5%9B%A0%E6%98%AF%E5%8C%BB%E5%AD%A6%E7%94%9F%E6%B2%A1%E6%9C%89%E9%87%8D%E8%A7%86%23"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 8 名 · 热度 43.2 万</summary>
+    <id>https://s.weibo.com/weibo?q=%23%E5%81%9C%E8%8D%AF%E8%BA%AB%E4%BA%A1%E5%A5%B3%E5%AD%90%E6%AF%8F%E5%91%A8%E7%BB%99AI%E5%8F%911500%E6%9D%A1%E4%BF%A1%E6%81%AF%23</id>
+    <title>停药身亡女子每周给AI发1500条信息</title>
+    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E5%81%9C%E8%8D%AF%E8%BA%AB%E4%BA%A1%E5%A5%B3%E5%AD%90%E6%AF%8F%E5%91%A8%E7%BB%99AI%E5%8F%911500%E6%9D%A1%E4%BF%A1%E6%81%AF%23"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 9 名 · 热度 93.0 万 · 新</summary>
     <source><title>微博热搜</title></source>
     <category term="热榜"/>
     <category term="微博"/>
   </entry>
   <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E4%BA%8C%E5%8D%81%E5%B1%8A%E4%BA%94%E4%B8%AD%E5%85%A8%E4%BC%9A%E5%85%AC%E6%8A%A5%23</id>
-    <title>二十届五中全会公报</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E4%BA%8C%E5%8D%81%E5%B1%8A%E4%BA%94%E4%B8%AD%E5%85%A8%E4%BC%9A%E5%85%AC%E6%8A%A5%23"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 5 名 · 热度 53.5 万 · 新</summary>
+    <id>https://s.weibo.com/weibo?q=%23%E4%B8%80%E5%8F%B0%E7%94%B5%E8%BD%A6%E8%B7%9146%E4%B8%87%E5%85%AC%E9%87%8C%E6%98%AF%E4%BB%80%E4%B9%88%E6%B0%B4%E5%B9%B3%23</id>
+    <title>一台电车跑46万公里是什么水平</title>
+    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E4%B8%80%E5%8F%B0%E7%94%B5%E8%BD%A6%E8%B7%9146%E4%B8%87%E5%85%AC%E9%87%8C%E6%98%AF%E4%BB%80%E4%B9%88%E6%B0%B4%E5%B9%B3%23"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 7 名 · 热度 96.9 万 · 新</summary>
     <source><title>微博热搜</title></source>
     <category term="热榜"/>
     <category term="微博"/>
   </entry>
   <entry>
-    <id>https://s.weibo.com/weibo?q=%23%E4%B8%89%E4%B8%BD%E9%B8%A5%E6%97%A5%E6%9C%AC%E5%AE%98%E7%BD%91%E8%87%B4%E6%AD%89%23</id>
-    <title>三丽鸥日本官网致歉</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E4%B8%89%E4%B8%BD%E9%B8%A5%E6%97%A5%E6%9C%AC%E5%AE%98%E7%BD%91%E8%87%B4%E6%AD%89%23"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 9 名 · 热度 42.2 万</summary>
+    <id>https://s.weibo.com/weibo?q=%2311%E6%9C%88%E8%BF%99%E4%BA%9B%E6%96%B0%E8%A7%84%E5%B0%86%E6%96%BD%E8%A1%8C%23</id>
+    <title>11月这些新规将施行</title>
+    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%2311%E6%9C%88%E8%BF%99%E4%BA%9B%E6%96%B0%E8%A7%84%E5%B0%86%E6%96%BD%E8%A1%8C%23"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 3 名 · 热度 104.1 万 · 新</summary>
     <source><title>微博热搜</title></source>
     <category term="热榜"/>
     <category term="微博"/>
   </entry>
   <entry>
-    <id>https://s.weibo.com/weibo?q=%23ChatGPT%E8%A2%AB%E6%8C%87%E8%87%B4%E7%94%A8%E6%88%B7%E6%AD%BB%E4%BA%A1%23</id>
-    <title>ChatGPT被指致用户死亡</title>
-    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23ChatGPT%E8%A2%AB%E6%8C%87%E8%87%B4%E7%94%A8%E6%88%B7%E6%AD%BB%E4%BA%A1%23"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 1 名 · 热度 117.4 万 · 新</summary>
+    <id>https://s.weibo.com/weibo?q=%2310%E6%9C%88A%E8%82%A1%E6%94%B6%E5%AE%98%23</id>
+    <title>10月A股收官</title>
+    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%2310%E6%9C%88A%E8%82%A1%E6%94%B6%E5%AE%98%23"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 6 名 · 热度 97.5 万 · 新</summary>
     <source><title>微博热搜</title></source>
     <category term="热榜"/>
     <category term="微博"/>

@@ -1,11 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/earnings.xml</id>
-  <title>公共目录 · #earnings</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · #earnings</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/earnings.xml"/>
-  <updated>2026-10-28T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-29T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/fedex-cashes-in-on-premium-logistics-services-fuel-surcharges</id>
+    <title>FedEx cashes in on premium logistics services, fuel surcharges</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/fedex-cashes-in-on-premium-logistics-services-fuel-surcharges"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">FedEx posted positive third quarter results on volume growth and better pricing and anticipates a strong peak season. The post FedEx cashes in on premium logist…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="American Shipper"/>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="earnings"/>
+    <category term="FedEx"/>
+    <category term="logistics services"/>
+    <category term="parcel carriers"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/cpkc-reports-record-revenue-on-strength-of-grain-and-intermodal-traffic</id>
+    <title>CPKC reports record revenue on strength of grain and intermodal traffic</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/cpkc-reports-record-revenue-on-strength-of-grain-and-intermodal-traffic"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">CPKC turned in record 3Q revenue as the railway set records for domestic and international intermodal volumes, as well as for grain. The post CPKC reports recor…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Railroad"/>
+    <category term="Top Stories"/>
+    <category term="carloads"/>
+    <category term="CPKC"/>
+    <category term="earnings"/>
+    <category term="intermodal"/>
+  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/greenbrier-profit-falls-as-railcar-demand-weighs-on-sales</id>
     <title>Greenbrier profit falls as railcar demand weighs on sales</title>
@@ -34,27 +68,10 @@
     <category term="Company Earnings"/>
     <category term="News"/>
     <category term="Railroad"/>
-    <category term="Top Stories"/>
     <category term="CPKC"/>
     <category term="earnings"/>
     <category term="intermodal"/>
     <category term="railroads"/>
-  </entry>
-  <entry>
-    <id>https://www.freightwaves.com/news/ai-air-freight-drives-kuehnenagel-profit-increase</id>
-    <title>AI air freight drives Kuehne+Nagel profit increase</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/ai-air-freight-drives-kuehnenagel-profit-increase"/>
-    <updated>2026-10-26T00:00:00Z</updated>
-    <published>2026-10-26T00:00:00Z</published>
-    <summary type="text">Logistics behemoth Kuehne+Nagel reported strong results in the third quarter, powered by hyperscaler demand for air cargo and productivity gains. The post AI ai…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Air Cargo"/>
-    <category term="American Shipper"/>
-    <category term="Company Earnings"/>
-    <category term="News"/>
-    <category term="AI"/>
-    <category term="earnings"/>
-    <category term="Kuehne+Nagel"/>
     <category term="货运"/>
   </entry>
 </feed>

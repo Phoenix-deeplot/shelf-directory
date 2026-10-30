@@ -1,29 +1,29 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #AI搜索",
+  "title": "知树阅读-个人图书空间 · #AI工具",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/ai-5.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/ai/6486168.html",
-      "url": "https://www.woshipm.com/ai/6486168.html",
-      "title": "从 GEO 实战重新理解知识图谱",
-      "content_text": "知识图谱不是静态资料库，而是品牌在 AI 世界的认知底座。本文从 GEO 优化视角，拆解知识图谱如何统一认知、指导选题、串联内容并发现缺口，并分享市场部运营人员从零搭建、持续迭代的实战方法，让知识树既能摘果也能灌溉。 一、前提 最近在重新梳理公司的知识图谱。最开始的原因其实很简单——我看了不少 GEO的行业报告，里面几…",
-      "summary": "知识图谱不是静态资料库，而是品牌在 AI 世界的认知底座。本文从 GEO 优化视角，拆解知识图谱如何统一认知、指导选题、串联内容并发现缺口，并分享市场部运营人员从零搭建、持续迭代的实战方法，让知识树既能摘果也能灌溉。 一、前提 最近在重新梳理公司的知识图谱。最开始的原因其实很简单——我看了不少 GEO的行业报告，里面几…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6486912.html",
+      "url": "https://www.woshipm.com/ai/6486912.html",
+      "title": "WorkBuddy悄悄上线「手动安装插件」，丝滑操控浏览器",
+      "content_text": "Chrome 插件商店不科学上网打不开，Edge 和 QQ 浏览器又都跳回同一个地址。WorkBuddy 上线了手动安装拓展程序：选浏览器、打开本地插件文件夹、把文件夹拖进扩展页面，三步装完。文中还实测了让 Agent 自己找网址、开标签页的过程。 前阵子，WorkBuddy 悄悄上线了「浏览器插件」。 支持在 Chr…",
+      "summary": "Chrome 插件商店不科学上网打不开，Edge 和 QQ 浏览器又都跳回同一个地址。WorkBuddy 上线了手动安装拓展程序：选浏览器、打开本地插件文件夹、把文件夹拖进扩展页面，三步装完。文中还实测了让 Agent 自己找网址、开标签页的过程。 前阵子，WorkBuddy 悄悄上线了「浏览器插件」。 支持在 Chr…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "AI",
         "个人随笔",
-        "AI搜索",
-        "GEO",
-        "内容运营",
-        "市场部",
-        "知识图谱",
-        "经验总结"
+        "AI工具",
+        "Chrome",
+        "WorkBuddy",
+        "产品",
+        "运营",
+        "商业"
       ],
       "authors": [
         {

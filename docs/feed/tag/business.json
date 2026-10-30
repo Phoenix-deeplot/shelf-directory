@@ -1,24 +1,25 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #Business",
+  "title": "知树阅读-个人图书空间 · #Business",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/business.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
     {
-      "id": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
-      "url": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
-      "title": "Should AI Decide Your Court Case? This Judge Says Yes",
-      "content_text": "One of England’s top judges, Geoffrey Vos, believes that AI could adjudicate plenty of civil cases. The question, he says, is where the line should be drawn.",
-      "summary": "One of England’s top judges, Geoffrey Vos, believes that AI could adjudicate plenty of civil cases. The question, he says, is where the line should be drawn.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ae127707e979e34b6579966/master/pass/Business_Should%20AI%20Decide%20Your%20Court%20Case_%20ThisJudgeSaysYes.gif",
+      "id": "https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/",
+      "url": "https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/",
+      "title": "The ‘Pain in the Ass’ Math That Could Save Vibe Coding From Itself",
+      "content_text": "A new startup called &Truth is joining the race to automate formal verification, a painstaking process that uses math to prove software works as intended.",
+      "summary": "A new startup called &Truth is joining the race to automate formal verification, a painstaking process that uses math to prove software works as intended.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae2968f0262809bad6615e8/master/pass/Untitled-6.gif",
       "tags": [
         "Business",
-        "Order!",
+        "Business / Startups",
+        "Building Proofs",
         "科技",
         "社会"
       ],
@@ -30,6 +31,81 @@
       "_shelf": {
         "type": "article",
         "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/polymarket-flagship-platform-hack-traders-lose-money/",
+      "url": "https://www.wired.com/story/polymarket-flagship-platform-hack-traders-lose-money/",
+      "title": "Polymarket Halted International Trading After Hackers Drained Accounts",
+      "content_text": "The company says an unnamed third-party provider was compromised. Trading has resumed, and Polymarket says affected traders will be made whole.",
+      "summary": "The company says an unnamed third-party provider was compromised. Trading has resumed, and Polymarket says affected traders will be made whole.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae3a1d0b3ee5efdf6d00c9f/master/pass/GettyImages-2259602081.jpg",
+      "tags": [
+        "Business",
+        "Hack Attack",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
+      "url": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
+      "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
+      "content_text": "The French AI lab claims its latest release matches or outperforms even the best models from DeepSeek and Z.ai in coding and cybersecurity.",
+      "summary": "The French AI lab claims its latest release matches or outperforms even the best models from DeepSeek and Z.ai in coding and cybersecurity.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae34b392cfd29b998d6a112/master/pass/Business_Mistral%20Says%20Its%20%E2%80%98Le%20Chonk%E2%80%99%20Model%20Can%20Outperform%20Top%20Chinese%20Models%20in%20Coding%20and%20Cybersecurity_v3.jpg",
+      "tags": [
+        "Business",
+        "Even Chonkier",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/500000-sig-sauer-shipment-stolen-in-fictitious-pickup-two-arrested-in-california",
+      "url": "https://www.freightwaves.com/news/500000-sig-sauer-shipment-stolen-in-fictitious-pickup-two-arrested-in-california",
+      "title": "$500,000 SIG Sauer shipment stolen in fictitious pickup, two arrested in California",
+      "content_text": "A shipment worth half a million dollars left a Torrance warehouse under fraudulent circumstances, triggering a cargo theft investigation by Los Angeles County d…",
+      "summary": "A shipment worth half a million dollars left a Torrance warehouse under fraudulent circumstances, triggering a cargo theft investigation by Los Angeles County d…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "Business",
+        "Fraud",
+        "Playbook: Cash & Capital",
+        "Top Stories",
+        "cargo theft",
+        "freight fraud",
+        "logistics",
+        "Trucking"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
       }
     },
     {
@@ -111,85 +187,6 @@
       }
     },
     {
-      "id": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
-      "url": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
-      "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
-      "content_text": "In breathless press releases and posts, the company has touted its models’ ability to deliver scientific breakthroughs. But its IPO filing taps the brakes on ju…",
-      "summary": "In breathless press releases and posts, the company has touted its models’ ability to deliver scientific breakthroughs. But its IPO filing taps the brakes on ju…",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ae0b0627e979e34b657973e/master/pass/102726-Anthropic%20Bio.jpg",
-      "tags": [
-        "Science",
-        "Science / Biotech",
-        "Business",
-        "Learning Curve",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/anthropic-ipo-identifies-gas-supply-as-big-near-term-risks/",
-      "url": "https://www.wired.com/story/anthropic-ipo-identifies-gas-supply-as-big-near-term-risks/",
-      "title": "Anthropic Flags Gas Supply as One of Its Biggest Near-Term Risks",
-      "content_text": "The data center buildout could cause a massive increase in gas prices as companies scramble for limited supplies and infrastructure fails to meet demand.",
-      "summary": "The data center buildout could cause a massive increase in gas prices as companies scramble for limited supplies and infrastructure fails to meet demand.",
-      "date_published": "2026-10-27T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ae0a917b092bac6ae652e82/master/pass/102626_Anthropic%20Gas%20S1.jpg",
-      "tags": [
-        "Science",
-        "Science / Environment",
-        "Business",
-        "P(Doom)",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/police-recover-54k-in-hot-wheels-after-bnsf-freight-train-burglary-in-california",
-      "url": "https://www.freightwaves.com/news/police-recover-54k-in-hot-wheels-after-bnsf-freight-train-burglary-in-california",
-      "title": "Police recover $54K in Hot Wheels after BNSF freight train burglary in California",
-      "content_text": "A freight train burglary in Colton, California, ended with one arrest and $54,000 in recovered Hot Wheels. Police released footage of the investigation as quest…",
-      "summary": "A freight train burglary in Colton, California, ended with one arrest and $54,000 in recovered Hot Wheels. Police released footage of the investigation as quest…",
-      "date_published": "2026-10-27T00:00:00Z",
-      "tags": [
-        "Business",
-        "Playbook: Cash & Capital",
-        "Railroad",
-        "Top Stories",
-        "BNSF",
-        "California",
-        "cargo theft",
-        "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
       "id": "https://www.freightwaves.com/news/millions-in-stolen-freight-reveal-a-weakness-criminals-keep-exploiting",
       "url": "https://www.freightwaves.com/news/millions-in-stolen-freight-reveal-a-weakness-criminals-keep-exploiting",
       "title": "Millions in stolen freight reveal a weakness criminals keep exploiting",
@@ -205,60 +202,6 @@
         "logistics",
         "Trucking",
         "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/shipbuilding-central-to-new-us-denmark-maritime-pact",
-      "url": "https://www.freightwaves.com/news/shipbuilding-central-to-new-us-denmark-maritime-pact",
-      "title": "Shipbuilding central to new US-Denmark maritime pact",
-      "content_text": "The United States and Denmark signed a maritime agreement to bolster American shipbuilding through workforce training, Danish investment and technology sharing.…",
-      "summary": "The United States and Denmark signed a maritime agreement to bolster American shipbuilding through workforce training, Danish investment and technology sharing.…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "American Shipper",
-        "Business",
-        "Infrastructure",
-        "Maritime",
-        "News",
-        "Top Stories",
-        "container shipping",
-        "Denmark"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/completing-the-capacity-stack",
-      "url": "https://www.freightwaves.com/news/completing-the-capacity-stack",
-      "title": "Completing the Capacity Stack",
-      "content_text": "123Loadboard and Direct Freight are combining two independent freight marketplaces so brokers can close capacity gaps and carriers can find better-matched freig…",
-      "summary": "123Loadboard and Direct Freight are combining two independent freight marketplaces so brokers can close capacity gaps and carriers can find better-matched freig…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "Business",
-        "News",
-        "Sponsored Insights",
-        "Technology",
-        "123Loadboard",
-        "brokers",
-        "Capacity",
-        "capacity radar"
       ],
       "authors": [
         {

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/intermodal.xml</id>
+  <title>知树阅读-个人图书空间 · #intermodal</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/intermodal.xml"/>
+  <updated>2026-10-29T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/u-s-rail-traffic-up-7-8-as-intermodal-leads-gainers</id>
+    <title>U.S. rail traffic up 7.8% as intermodal leads gainers</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/u-s-rail-traffic-up-7-8-as-intermodal-leads-gainers"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">U.S. rail traffic rose in the latest week as gains across eight of 10 carload commodity groups showed broad — but uneven — growth. The post U.S. rail traffic up…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="News"/>
+    <category term="Railroad"/>
+    <category term="Top Stories"/>
+    <category term="carloads"/>
+    <category term="intermodal"/>
+    <category term="railfreight volume"/>
+    <category term="railroads"/>
+    <category term="货运"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/cpkc-reports-record-revenue-on-strength-of-grain-and-intermodal-traffic</id>
+    <title>CPKC reports record revenue on strength of grain and intermodal traffic</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/cpkc-reports-record-revenue-on-strength-of-grain-and-intermodal-traffic"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">CPKC turned in record 3Q revenue as the railway set records for domestic and international intermodal volumes, as well as for grain. The post CPKC reports recor…</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Railroad"/>
+    <category term="Top Stories"/>
+    <category term="carloads"/>
+    <category term="CPKC"/>
+    <category term="earnings"/>
+    <category term="intermodal"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/first-look-cpkc-earnings-2</id>
+    <title>First look: CPKC earnings</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/first-look-cpkc-earnings-2"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">CPKC’s third-quarter revenue and earnings climbed, though higher fuel costs squeezed margins. The post First look: CPKC earnings appeared first on FreightWaves.</summary>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Railroad"/>
+    <category term="CPKC"/>
+    <category term="earnings"/>
+    <category term="intermodal"/>
+    <category term="railroads"/>
+    <category term="货运"/>
+  </entry>
+</feed>

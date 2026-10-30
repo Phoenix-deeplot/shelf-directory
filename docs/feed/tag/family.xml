@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/family.xml</id>
-  <title>公共目录 · #Family</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · #Family</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/family.xml"/>
-  <updated>2026-10-28T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-29T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://slate.com/advice/2026/10/parenting-advice-thanksgiving-opt-out.html?via=rss</id>
-    <title>My Son Wants to Opt Out of Family Thanksgiving. He’s 12!</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/parenting-advice-thanksgiving-opt-out.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">I want him with us.</summary>
+    <id>https://slate.com/advice/2026/10/parenting-advice-religious-grandma-time-out.html?via=rss</id>
+    <title>My Mother-in-Law Destroyed a Toy to Protect Our Family From the Devil. I Want to Put Her in Time Out.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/parenting-advice-religious-grandma-time-out.html?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">I miss my Ouija Board.</summary>
     <source><title>Slate Magazine</title></source>
     <category term="Advice"/>
     <category term="Family"/>
@@ -21,61 +21,16 @@
     <category term="文化"/>
   </entry>
   <entry>
-    <id>https://slate.com/advice/2026/10/money-advice-husband-resents-move.html?via=rss</id>
-    <title>My Mom Saved Us After My Husband’s Job Loss. He Can’t Forgive Her.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/money-advice-husband-resents-move.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">It's not my mom's fault.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Advice"/>
-    <category term="Family"/>
-    <category term="Personal Finance"/>
-    <category term="Real Estate"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/advice/2026/10/money-advice-expensive-halloween-decor.html?via=rss</id>
-    <title>I’m Cutting My Brother Off Over His Elaborate Halloween Decor</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/money-advice-expensive-halloween-decor.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">This is outrageous.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Advice"/>
-    <category term="Family"/>
-    <category term="Personal Finance"/>
-    <category term="Real Estate"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/advice/2026/10/parenting-advice-pills-on-floor.html?via=rss</id>
-    <title>I See My Husband’s “Messy” Habit Very Differently Now That We Have a Kid</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/parenting-advice-pills-on-floor.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Our baby could get seriously hurt.</summary>
+    <id>https://slate.com/advice/2026/10/parenting-advice-two-daughters-one-dad.html?via=rss</id>
+    <title>I Have Two 9-Year-Olds by Two Different Women. Now the Whole Thing is About to Blow Up.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/parenting-advice-two-daughters-one-dad.html?via=rss"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">I don't think I'm ready.</summary>
     <source><title>Slate Magazine</title></source>
     <category term="Advice"/>
     <category term="Family"/>
     <category term="Kids"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/advice/2026/10/family-advice-friends-reaching-out.html?via=rss</id>
-    <title>Help! I Ran a Two-Week Experiment on My Family and Friends. The Results Stung.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/advice/2026/10/family-advice-friends-reaching-out.html?via=rss"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">I'm not sure they even care.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Advice"/>
-    <category term="Dear Prudence"/>
-    <category term="Family"/>
-    <category term="Friendship"/>
     <category term="评论"/>
     <category term="文化"/>
   </entry>

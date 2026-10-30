@@ -1,0 +1,90 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #Gear / Products / Home",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/gear-products-home.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.wired.com/story/gifts-for-friends/",
+      "url": "https://www.wired.com/story/gifts-for-friends/",
+      "title": "Gift Ideas for Friends (2026): Wellness Tech, Kitchen Essentials",
+      "content_text": "These are the WIRED-tested gadgets, kitchen tools, and cozy comforts I’d actually buy for my own inner circle.",
+      "summary": "These are the WIRED-tested gadgets, kitchen tools, and cozy comforts I’d actually buy for my own inner circle.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae3c65712651ae6c2d7998a/master/pass/Best%20Gifts%20for%20Friends%20102026%20top%20art%20SOURCE%20shop.com.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Buying Guides",
+        "Gear / Products / Home",
+        "Present Company",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/review/reencle-essential-electric-composter/",
+      "url": "https://www.wired.com/review/reencle-essential-electric-composter/",
+      "title": "Reencle Essential Review: Same Scraps, Lower Price",
+      "content_text": "Reencle has made your favorite kitchen composter cheaper—with a few compromises.",
+      "summary": "Reencle has made your favorite kitchen composter cheaper—with a few compromises.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae254611851ee1df8759d45/master/pass/Review%20Reencle%20Essential%20Electric%20Composter%20102026%20top%20art%20SOURCE%20Amazon.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Home",
+        "Ground Work",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/petkit-sale-october-2026/",
+      "url": "https://www.wired.com/story/petkit-sale-october-2026/",
+      "title": "Petkit Automatic Cat Litter Box Sale (2026)",
+      "content_text": "As WIRED’s resident pet tech tester, I have lots of opinions on what’s worth your money. Petkit’s automatic litter boxes are my top picks—and my favorite models…",
+      "summary": "As WIRED’s resident pet tech tester, I have lots of opinions on what’s worth your money. Petkit’s automatic litter boxes are my top picks—and my favorite models…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae2af53aad2e56b125912cc/master/pass/Petkit%20Deals%20102026%20top%20art%20SOURCE%20Shop.com.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products / Home",
+        "Cat’s Meow",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    }
+  ]
+}

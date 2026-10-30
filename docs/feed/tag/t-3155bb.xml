@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/t-3155bb.xml</id>
-  <title>公共目录 · #播客</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · #播客</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-3155bb.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
   <entry>
     <id>https://podcasts.apple.com/cn/podcast/%E9%9C%93%E8%BE%BE%E6%92%AD%E5%AE%A2/id1668626930</id>
     <title>霓达播客</title>
     <link rel="alternate" type="text/html" href="https://podcasts.apple.com/cn/podcast/%E9%9C%93%E8%BE%BE%E6%92%AD%E5%AE%A2/id1668626930"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 9 名 · 霓达播台NidaMedia · 犯罪纪实</summary>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 8 名 · 霓达播台NidaMedia · 犯罪纪实</summary>
     <source><title>Apple 播客榜 · 中国</title></source>
     <category term="播客"/>
     <category term="榜单"/>
@@ -21,8 +21,8 @@
     <id>https://podcasts.apple.com/cn/podcast/%E8%B0%AD%E7%AB%8B%E4%BA%BA/id1771401634</id>
     <title>谭立人</title>
     <link rel="alternate" type="text/html" href="https://podcasts.apple.com/cn/podcast/%E8%B0%AD%E7%AB%8B%E4%BA%BA/id1771401634"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
     <summary type="text">第 7 名 · 谭立人 · 休闲</summary>
     <source><title>Apple 播客榜 · 中国</title></source>
     <category term="播客"/>
@@ -32,8 +32,8 @@
     <id>https://podcasts.apple.com/cn/podcast/%E8%87%AA%E6%88%91%E8%BF%9B%E5%8C%96%E8%AE%BA/id1498170617</id>
     <title>自我进化论</title>
     <link rel="alternate" type="text/html" href="https://podcasts.apple.com/cn/podcast/%E8%87%AA%E6%88%91%E8%BF%9B%E5%8C%96%E8%AE%BA/id1498170617"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
     <summary type="text">第 4 名 · 颜晓静Athena · 休闲</summary>
     <source><title>Apple 播客榜 · 中国</title></source>
     <category term="播客"/>
@@ -43,9 +43,20 @@
     <id>https://podcasts.apple.com/cn/podcast/%E7%9F%A5%E8%A1%8C%E5%B0%8F%E9%85%92%E9%A6%86/id1559695855</id>
     <title>知行小酒馆</title>
     <link rel="alternate" type="text/html" href="https://podcasts.apple.com/cn/podcast/%E7%9F%A5%E8%A1%8C%E5%B0%8F%E9%85%92%E9%A6%86/id1559695855"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 8 名 · 有知有行 · 商务</summary>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 9 名 · 有知有行 · 商务</summary>
+    <source><title>Apple 播客榜 · 中国</title></source>
+    <category term="播客"/>
+    <category term="榜单"/>
+  </entry>
+  <entry>
+    <id>https://podcasts.apple.com/cn/podcast/%E6%90%9E%E9%92%B1%E5%A5%B3%E5%AD%A9/id1676099257</id>
+    <title>搞钱女孩</title>
+    <link rel="alternate" type="text/html" href="https://podcasts.apple.com/cn/podcast/%E6%90%9E%E9%92%B1%E5%A5%B3%E5%AD%A9/id1676099257"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">第 10 名 · 搞钱女孩小辉 · 社会与文化</summary>
     <source><title>Apple 播客榜 · 中国</title></source>
     <category term="播客"/>
     <category term="榜单"/>
@@ -54,8 +65,8 @@
     <id>https://podcasts.apple.com/cn/podcast/%E5%B2%A9%E4%B8%AD%E8%8A%B1%E8%BF%B0/id1582119137</id>
     <title>岩中花述</title>
     <link rel="alternate" type="text/html" href="https://podcasts.apple.com/cn/podcast/%E5%B2%A9%E4%B8%AD%E8%8A%B1%E8%BF%B0/id1582119137"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
     <summary type="text">第 2 名 · GIADA · 艺术</summary>
     <source><title>Apple 播客榜 · 中国</title></source>
     <category term="播客"/>
@@ -65,8 +76,8 @@
     <id>https://podcasts.apple.com/cn/podcast/%E5%A4%A9%E7%9C%9F%E4%B8%8D%E5%A4%A9%E7%9C%9F/id1731784296</id>
     <title>天真不天真</title>
     <link rel="alternate" type="text/html" href="https://podcasts.apple.com/cn/podcast/%E5%A4%A9%E7%9C%9F%E4%B8%8D%E5%A4%A9%E7%9C%9F/id1731784296"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
     <summary type="text">第 5 名 · 杨天真本真 · 休闲</summary>
     <source><title>Apple 播客榜 · 中国</title></source>
     <category term="播客"/>
@@ -76,8 +87,8 @@
     <id>https://podcasts.apple.com/cn/podcast/%E5%A3%B0%E5%8A%A8%E6%97%A9%E5%92%96%E5%95%A1/id1573189055</id>
     <title>声动早咖啡</title>
     <link rel="alternate" type="text/html" href="https://podcasts.apple.com/cn/podcast/%E5%A3%B0%E5%8A%A8%E6%97%A9%E5%92%96%E5%95%A1/id1573189055"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
     <summary type="text">第 1 名 · 声动活泼 · 商务</summary>
     <source><title>Apple 播客榜 · 中国</title></source>
     <category term="播客"/>
@@ -87,8 +98,8 @@
     <id>https://podcasts.apple.com/cn/podcast/%E5%87%B9%E5%87%B8%E7%94%B5%E6%B3%A2/id1455784513</id>
     <title>凹凸电波</title>
     <link rel="alternate" type="text/html" href="https://podcasts.apple.com/cn/podcast/%E5%87%B9%E5%87%B8%E7%94%B5%E6%B3%A2/id1455784513"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
     <summary type="text">第 3 名 · 凹凸电波 · 喜剧</summary>
     <source><title>Apple 播客榜 · 中国</title></source>
     <category term="播客"/>
@@ -98,20 +109,9 @@
     <id>https://podcasts.apple.com/cn/podcast/all-ears-english-podcast/id751574016</id>
     <title>All Ears English Podcast</title>
     <link rel="alternate" type="text/html" href="https://podcasts.apple.com/cn/podcast/all-ears-english-podcast/id751574016"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
     <summary type="text">第 6 名 · Lindsay McMahon and Michelle Kaplan · 教育</summary>
-    <source><title>Apple 播客榜 · 中国</title></source>
-    <category term="播客"/>
-    <category term="榜单"/>
-  </entry>
-  <entry>
-    <id>https://podcasts.apple.com/cn/podcast/6-minute-english/id262026947</id>
-    <title>6 Minute English</title>
-    <link rel="alternate" type="text/html" href="https://podcasts.apple.com/cn/podcast/6-minute-english/id262026947"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">第 10 名 · BBC Radio · 教育</summary>
     <source><title>Apple 播客榜 · 中国</title></source>
     <category term="播客"/>
     <category term="榜单"/>

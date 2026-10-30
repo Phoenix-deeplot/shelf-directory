@@ -1,0 +1,66 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #Kimi",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/kimi.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.woshipm.com/ai/6486879.html",
+      "url": "https://www.woshipm.com/ai/6486879.html",
+      "title": "豆包终于学会了腾讯WorkBuddy的杀手锏？",
+      "content_text": "字节的豆包工作，终于开始向腾讯 WorkBuddy 学习了。 以后用豆包工作，背后帮你干活的可能是 DeepSeek，也可能是 Kimi、GLM。 昨天，豆包工作开始向企业客户开放第三方大模型服务，首批接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等系列模型。 字节辛辛苦苦研发…",
+      "summary": "字节的豆包工作，终于开始向腾讯 WorkBuddy 学习了。 以后用豆包工作，背后帮你干活的可能是 DeepSeek，也可能是 Kimi、GLM。 昨天，豆包工作开始向企业客户开放第三方大模型服务，首批接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等系列模型。 字节辛辛苦苦研发…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "AI",
+        "DeepSeek",
+        "Kimi",
+        "WorkBuddy",
+        "腾讯",
+        "豆包",
+        "产品",
+        "运营"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.woshipm.com/ai/6486782.html",
+      "url": "https://www.woshipm.com/ai/6486782.html",
+      "title": "我花了 10 个小时，用AI编了一套精美的诗集：Skills 开源，附 6 套宋代美学模板",
+      "content_text": "为了验证百万级上下文，他用 Kimi K3.1 Pro 编了一套苏轼诗集，一千四百四十八页、三千二百条作品，中途废掉一版竖排稿，烧掉一点六九亿 Token，三百多次调用十小时完工。 现在的大模型普遍支持最高 1M 超长上下文 周二我发了 Kimi K3.1 Pro 的实测：国产最强开源大模型，Kimi K3.1 Pro…",
+      "summary": "为了验证百万级上下文，他用 Kimi K3.1 Pro 编了一套苏轼诗集，一千四百四十八页、三千二百条作品，中途废掉一版竖排稿，烧掉一点六九亿 Token，三百多次调用十小时完工。 现在的大模型普遍支持最高 1M 超长上下文 周二我发了 Kimi K3.1 Pro 的实测：国产最强开源大模型，Kimi K3.1 Pro…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "AI",
+        "个人随笔",
+        "AI应用",
+        "Kimi",
+        "经验分享",
+        "产品",
+        "运营",
+        "商业"
+      ],
+      "authors": [
+        {
+          "name": "人人都是产品经理"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "woshipm-com"
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #Science / Space",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/science-space.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.wired.com/story/what-to-know-about-chinas-top-secret-spaceplane/",
+      "url": "https://www.wired.com/story/what-to-know-about-chinas-top-secret-spaceplane/",
+      "title": "What to Know About China’s Top-Secret Spaceplane",
+      "content_text": "This week, the Pentagon released a full-resolution image of the vehicle, the capabilities of which remain rather mysterious.",
+      "summary": "This week, the Pentagon released a full-resolution image of the vehicle, the capabilities of which remain rather mysterious.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae3aab21b78b1068035e643/master/pass/PRC%20Space%20Plane_Vantor.jpg",
+      "tags": [
+        "Science",
+        "Science / Space",
+        "Space Race",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/astronomers-discover-a-possible-new-dwarf-planet-in-our-solar-system/",
+      "url": "https://www.wired.com/story/astronomers-discover-a-possible-new-dwarf-planet-in-our-solar-system/",
+      "title": "Astronomers Discover a Possible New Dwarf Planet in Our Solar System",
+      "content_text": "Lying beyond Pluto, 2026 ED138 could be as large as 1,500 kilometers in diameter. Astronomers are still working to confirm whether it meets the criteria for a d…",
+      "summary": "Lying beyond Pluto, 2026 ED138 could be as large as 1,500 kilometers in diameter. Astronomers are still working to confirm whether it meets the criteria for a d…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae26ce6735e20536e98e3d0/master/pass/noirlab2626b.jpg",
+      "tags": [
+        "Science",
+        "Science / Space",
+        "Hi Neighbor",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    }
+  ]
+}

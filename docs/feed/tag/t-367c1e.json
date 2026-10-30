@@ -1,88 +1,20 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #社区",
+  "title": "知树阅读-个人图书空间 · #社区",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-367c1e.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
     {
-      "id": "https://www.reddit.com/r/interesting/comments/1xiafkr/mexico_upgraded_to_free_health_care/",
-      "url": "https://www.reddit.com/r/interesting/comments/1xiafkr/mexico_upgraded_to_free_health_care/",
-      "title": "Mexico upgraded to free health care!",
-      "content_text": "submitted by /u/Negative_1by12_aura to r/interesting [link] [comments]",
-      "summary": "submitted by /u/Negative_1by12_aura to r/interesting [link] [comments]",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://preview.redd.it/fml5yx9t3cyh1.png?width=320&crop=smart&auto=webp&s=0181a70e3b676befe5c29e0474e3547c154a604c",
-      "tags": [
-        "interesting",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/oddlysatisfying/comments/1xi52mh/mesmerizing_process/",
-      "url": "https://www.reddit.com/r/oddlysatisfying/comments/1xi52mh/mesmerizing_process/",
-      "title": "Mesmerizing Process",
-      "content_text": "submitted by /u/Alternative-Dot-34 to r/oddlysatisfying [link] [comments]",
-      "summary": "submitted by /u/Alternative-Dot-34 to r/oddlysatisfying [link] [comments]",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://external-preview.redd.it/a2NndjA5czl0YXloMUUQawQiZwwLL1_LCJdQErGzB6Nb_LZpl8PYr1HEPGn5.png?width=320&crop=smart&auto=webp&s=a8ffe7d8786d93b0bf0ca99e9eae14a861ac0bfc",
-      "tags": [
-        "oddlysatisfying",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/news/comments/1xi6a2i/details_of_thousands_of_us_immigration_agents/",
-      "url": "https://www.reddit.com/r/news/comments/1xi6a2i/details_of_thousands_of_us_immigration_agents/",
-      "title": "Details of thousands of US immigration agents leaked in major hack",
-      "content_text": "submitted by /u/zmayes to r/news [link] [comments]",
-      "summary": "submitted by /u/zmayes to r/news [link] [comments]",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "news",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.v2ex.com/t/1252775",
-      "url": "https://www.v2ex.com/t/1252775",
-      "title": "被裁了，今天最后一天。",
-      "content_text": "第 5 名 · 回复 85 · 职场话题 — 27 号通知的，29 号离职，谈了是协议离职，只给了 N ，公司蛮好的，所以也不想太撕破脸(别杠，杠就是你对)。 谈一下这几天的感受，也记录一下，以后翻到了可能有不一样的心境。 经常在网上摸鱼刷帖子，所以也看了不少，也心里准备，但是没想到这么快。 反正很突然，给了 2 天交…",
-      "summary": "第 5 名 · 回复 85 · 职场话题 — 27 号通知的，29 号离职，谈了是协议离职，只给了 N ，公司蛮好的，所以也不想太撕破脸(别杠，杠就是你对)。 谈一下这几天的感受，也记录一下，以后翻到了可能有不一样的心境。 经常在网上摸鱼刷帖子，所以也看了不少，也心里准备，但是没想到这么快。 反正很突然，给了 2 天交…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.v2ex.com/t/1253030",
+      "url": "https://www.v2ex.com/t/1253030",
+      "title": "这算是被阴阳了吗？",
+      "content_text": "第 5 名 · 回复 94 · 问与答 — 昨天发了一个帖子，讲述 MacBook Pro 升级点，标题突出了信仰灯回归，和个人感觉。然后隔壁一个帖子在讨论特努斯上任后的产品和感受，我这个帖子被引用，引用人也是正常表达萝卜青菜各有所爱。然后下面一个评论，感觉在阴阳人，一个 logo 灯就高潮了这 G 点太低了吧，还有几…",
+      "summary": "第 5 名 · 回复 94 · 问与答 — 昨天发了一个帖子，讲述 MacBook Pro 升级点，标题突出了信仰灯回归，和个人感觉。然后隔壁一个帖子在讨论特努斯上任后的产品和感受，我这个帖子被引用，引用人也是正常表达萝卜青菜各有所爱。然后下面一个评论，感觉在阴阳人，一个 logo 灯就高潮了这 G 点太低了吧，还有几…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -98,12 +30,12 @@
       }
     },
     {
-      "id": "https://www.v2ex.com/t/1252733",
-      "url": "https://www.v2ex.com/t/1252733",
-      "title": "现在的 AI 是不是能达到或者超越一个标准本科生了？？",
-      "content_text": "第 7 名 · 回复 78 · 问与答 — 现在的 AI 是不是能达到或者超越一个标准本科生了？？？？",
-      "summary": "第 7 名 · 回复 78 · 问与答 — 现在的 AI 是不是能达到或者超越一个标准本科生了？？？？",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.v2ex.com/t/1253104",
+      "url": "https://www.v2ex.com/t/1253104",
+      "title": "第一次相亲的一点情况",
+      "content_text": "第 2 名 · 回复 112 · 生活 — ### 介绍认识 对方父母和我家里人比较熟悉，他们得知双方子女都没有对象后，遂起了介绍双方子女认识的心思。 我起初不想相亲，因为我知道我不会聊天也不会追人。但迫于家中的压力，我还是同意了。 双方先经过父母交换了照片，觉得都还可以，然后对方提出想见一面线下聊，看看有没有眼缘。我…",
+      "summary": "第 2 名 · 回复 112 · 生活 — ### 介绍认识 对方父母和我家里人比较熟悉，他们得知双方子女都没有对象后，遂起了介绍双方子女认识的心思。 我起初不想相亲，因为我知道我不会聊天也不会追人。但迫于家中的压力，我还是同意了。 双方先经过父母交换了照片，觉得都还可以，然后对方提出想见一面线下聊，看看有没有眼缘。我…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -119,12 +51,12 @@
       }
     },
     {
-      "id": "https://www.v2ex.com/t/1252725",
-      "url": "https://www.v2ex.com/t/1252725",
-      "title": "新款 MacBook 的触摸屏真的有用吗？",
-      "content_text": "第 3 名 · 回复 95 · MacBook Pro — 作为一个用了几代苹果的长期用户来说，对于这个功能真的很费解。 如果想触摸就得拿近点，那我为什么不拿个平板呢？ 如果正常用键盘，屏幕就够不着，那要触摸有什么用呢？ 是不是现在手机、电脑的设计已经到头了，在没有革命性创新的情况下，就只能靠堆料和加塞来提升溢价，体现…",
-      "summary": "第 3 名 · 回复 95 · MacBook Pro — 作为一个用了几代苹果的长期用户来说，对于这个功能真的很费解。 如果想触摸就得拿近点，那我为什么不拿个平板呢？ 如果正常用键盘，屏幕就够不着，那要触摸有什么用呢？ 是不是现在手机、电脑的设计已经到头了，在没有革命性创新的情况下，就只能靠堆料和加塞来提升溢价，体现…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.v2ex.com/t/1253134",
+      "url": "https://www.v2ex.com/t/1253134",
+      "title": "有女朋友但是看到胸大屁股大的女生内心还是蠢蠢欲动",
+      "content_text": "第 6 名 · 回复 92 · 生活 — 本人恪守原则，恋爱也谈过几段期间也没什么出轨等狗血剧情。 这段是最久的，也是第一个进入身体的，之前的恋爱都是比较克制而且淡淡的，坚持了两年主要原因就是 x 生活比较和谐，但是每次走在街上还是忍不住观察，遇到惊艳的身体就想入非非。我想我就算结婚了有了一定的财富和地位可能也不安分守…",
+      "summary": "第 6 名 · 回复 92 · 生活 — 本人恪守原则，恋爱也谈过几段期间也没什么出轨等狗血剧情。 这段是最久的，也是第一个进入身体的，之前的恋爱都是比较克制而且淡淡的，坚持了两年主要原因就是 x 生活比较和谐，但是每次走在街上还是忍不住观察，遇到惊艳的身体就想入非非。我想我就算结婚了有了一定的财富和地位可能也不安分守…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -140,12 +72,12 @@
       }
     },
     {
-      "id": "https://www.v2ex.com/t/1252785",
-      "url": "https://www.v2ex.com/t/1252785",
-      "title": "我想问一下低空经济和无人机培训是泡沫，还是未来发展的趋势",
-      "content_text": "第 8 名 · 回复 76 · 问与答 — 我想问一下低空经济和无人机培训是泡沫，还是未来发展的趋势，大家有没有知道的啊，求分享",
-      "summary": "第 8 名 · 回复 76 · 问与答 — 我想问一下低空经济和无人机培训是泡沫，还是未来发展的趋势，大家有没有知道的啊，求分享",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.v2ex.com/t/1253095",
+      "url": "https://www.v2ex.com/t/1253095",
+      "title": "推荐一款日常打字聊天就可以顺便学习英语的工具",
+      "content_text": "第 9 名 · 回复 62 · macOS — ![Glint：输入中文，顺手看见英文]( https://raw.githubusercontent.com/jsogn/Glint/main/docs/assets/glint-video-cover-clean.jpg) Glint 是一个 macOS 工具，把中文…",
+      "summary": "第 9 名 · 回复 62 · macOS — ![Glint：输入中文，顺手看见英文]( https://raw.githubusercontent.com/jsogn/Glint/main/docs/assets/glint-video-cover-clean.jpg) Glint 是一个 macOS 工具，把中文…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -161,12 +93,12 @@
       }
     },
     {
-      "id": "https://www.v2ex.com/t/1252622",
-      "url": "https://www.v2ex.com/t/1252622",
-      "title": "复刻 JetBrains 的 Git 客户端做成 VS Code 插件发布到插件市场了",
-      "content_text": "第 9 名 · 回复 74 · 程序员 — 上周让 AI 复刻的 git 插件，这周花了些时间优化了一下，现在发布到 vscode 插件市场了，欢迎试用 插件市场搜索 **ideagittool** 即可找到 ![插件]( https://github.com/PGshen/vs-idea-gittool/blob/m…",
-      "summary": "第 9 名 · 回复 74 · 程序员 — 上周让 AI 复刻的 git 插件，这周花了些时间优化了一下，现在发布到 vscode 插件市场了，欢迎试用 插件市场搜索 **ideagittool** 即可找到 ![插件]( https://github.com/PGshen/vs-idea-gittool/blob/m…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.v2ex.com/t/1253076",
+      "url": "https://www.v2ex.com/t/1253076",
+      "title": "我没有任何办法用 Claude 了吗？",
+      "content_text": "第 3 名 · 回复 106 · Claude — 有一个 Google 老号，今年 1 月订阅 Max 到这个月初，一切好好的 10 月中旬，这个老号，直接被封。 然后立刻，换了一个相对老一点的 gmail 账号，重新订阅 Max 用到今天早上弹认证，然后 CN 护照认证，直接被封 然后又用了一个比较新的 gmail…",
+      "summary": "第 3 名 · 回复 106 · Claude — 有一个 Google 老号，今年 1 月订阅 Max 到这个月初，一切好好的 10 月中旬，这个老号，直接被封。 然后立刻，换了一个相对老一点的 gmail 账号，重新订阅 Max 用到今天早上弹认证，然后 CN 护照认证，直接被封 然后又用了一个比较新的 gmail…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -182,12 +114,12 @@
       }
     },
     {
-      "id": "https://www.v2ex.com/t/1252716",
-      "url": "https://www.v2ex.com/t/1252716",
-      "title": "兄弟们， MacBook Pro 经典 LOGO 发光的重新回归，有点小激动啊",
-      "content_text": "第 2 名 · 回复 124 · MacBook Pro — 灵动岛、触摸屏、LOGO 灯，集大成于一身，有点入手的想法啊，特别是这个灯，逼格满满 ![]( https://i.imgur.com/0CvyxJR.png) ![]( https://i.imgur.com/RPgwkmP.png)",
-      "summary": "第 2 名 · 回复 124 · MacBook Pro — 灵动岛、触摸屏、LOGO 灯，集大成于一身，有点入手的想法啊，特别是这个灯，逼格满满 ![]( https://i.imgur.com/0CvyxJR.png) ![]( https://i.imgur.com/RPgwkmP.png)",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.v2ex.com/t/1253091",
+      "url": "https://www.v2ex.com/t/1253091",
+      "title": "就是想买，有人劝醒我么？",
+      "content_text": "第 1 名 · 回复 168 · 问与答 — 以前也没玩过微单，所以想买一个微单来拍拍娃和风景。毕竟也不便宜，怕冲动消费最后吃灰（无人机还在吃灰）。 已经拖了半个多月，越拖越想买。 机器考虑：a7c2 （ 8300 ）、a7m5 （ 13500 ） 镜头: 20mm-70mm f4 (5800) 有没有买过之后一直吃灰…",
+      "summary": "第 1 名 · 回复 168 · 问与答 — 以前也没玩过微单，所以想买一个微单来拍拍娃和风景。毕竟也不便宜，怕冲动消费最后吃灰（无人机还在吃灰）。 已经拖了半个多月，越拖越想买。 机器考虑：a7c2 （ 8300 ）、a7m5 （ 13500 ） 镜头: 20mm-70mm f4 (5800) 有没有买过之后一直吃灰…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -203,12 +135,12 @@
       }
     },
     {
-      "id": "https://www.v2ex.com/t/1252878",
-      "url": "https://www.v2ex.com/t/1252878",
-      "title": "亲戚来上海找工作想在我家打地铺，老婆不乐意，我妈说我不懂人情世故",
-      "content_text": "第 1 名 · 回复 237 · 上海 — 我和老婆在上海租房，一室一厅，只有一张床。老家一个亲戚，男的，刚毕业，说来上海面试，想在我这打地铺住 我同意了 我老婆就有点怨我：说不方便。我也理解她一张床的房子，来一个成年男性住几天，她换衣服、起夜、跟我说话都不自在。 现在人过来了 由于我上班没时间做饭 我妈就让我给他转几…",
-      "summary": "第 1 名 · 回复 237 · 上海 — 我和老婆在上海租房，一室一厅，只有一张床。老家一个亲戚，男的，刚毕业，说来上海面试，想在我这打地铺住 我同意了 我老婆就有点怨我：说不方便。我也理解她一张床的房子，来一个成年男性住几天，她换衣服、起夜、跟我说话都不自在。 现在人过来了 由于我上班没时间做饭 我妈就让我给他转几…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.v2ex.com/t/1253038",
+      "url": "https://www.v2ex.com/t/1253038",
+      "title": "失业 2 个月, 看了红果一个半月, 今天卸载红果 2 天了",
+      "content_text": "第 8 名 · 回复 68 · 问与答 — 从九月份失业, 在家弄点 AI 玩, 然后就刷红果 脑子真的看傻了, 去面试脑子都转不动了, 痛定思痛卸载了红果 爽剧高强度的信息轰炸, 真的有点受不了了 大脑喜欢预测, 对于满足预期的爽剧看多了 真的就费了, 刚好又失业, 越看越颓废",
+      "summary": "第 8 名 · 回复 68 · 问与答 — 从九月份失业, 在家弄点 AI 玩, 然后就刷红果 脑子真的看傻了, 去面试脑子都转不动了, 痛定思痛卸载了红果 爽剧高强度的信息轰炸, 真的有点受不了了 大脑喜欢预测, 对于满足预期的爽剧看多了 真的就费了, 刚好又失业, 越看越颓废",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -224,12 +156,12 @@
       }
     },
     {
-      "id": "https://www.v2ex.com/t/1252752",
-      "url": "https://www.v2ex.com/t/1252752",
-      "title": "[送码] 做了个本地影音库 Inscura，支持电影剧集刮削和本地 Ai 画面检索（Mac/Windows）",
-      "content_text": "第 4 名 · 回复 94 · 分享创造 — Inscura 主要用来整理和浏览自己硬盘里的视频。并且通过刮削插件可以快速补齐海报、简介、演职员等资料，用标签和合集分类，也可以非常自由的创建各种类型的标签.并支持刮削插件自定义。 主要目的是为了*维护和管理本地的电影、视频、电视剧* --- 对标软件： > Movie…",
-      "summary": "第 4 名 · 回复 94 · 分享创造 — Inscura 主要用来整理和浏览自己硬盘里的视频。并且通过刮削插件可以快速补齐海报、简介、演职员等资料，用标签和合集分类，也可以非常自由的创建各种类型的标签.并支持刮削插件自定义。 主要目的是为了*维护和管理本地的电影、视频、电视剧* --- 对标软件： > Movie…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.v2ex.com/t/1253058",
+      "url": "https://www.v2ex.com/t/1253058",
+      "title": "同居一年，男友却要每周出去一天",
+      "content_text": "第 7 名 · 回复 71 · 生活 — 听我老婆讲了一个公司里的瓜。 A 和 B 谈了两年，分手时对外说的原因是 B 要去异地。后来有人继续往下扒，才发现事情很玄妙 两人之前同居过一年。那段时间，B 要求 A 每周固定有一天出去住，因为她要把前男友 C 叫到家里做饭、吃饭。B 解释说，她和 C 之间是“灵魂救赎”的关…",
+      "summary": "第 7 名 · 回复 71 · 生活 — 听我老婆讲了一个公司里的瓜。 A 和 B 谈了两年，分手时对外说的原因是 B 要去异地。后来有人继续往下扒，才发现事情很玄妙 两人之前同居过一年。那段时间，B 要求 A 每周固定有一天出去住，因为她要把前男友 C 叫到家里做饭、吃饭。B 解释说，她和 C 之间是“灵魂救赎”的关…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -245,33 +177,12 @@
       }
     },
     {
-      "id": "https://www.v2ex.com/t/1252726",
-      "url": "https://www.v2ex.com/t/1252726",
-      "title": "[公益站] 迫于 token 太多，秉持不浪费的原则分享给大家使用而开站。",
-      "content_text": "第 6 名 · 回复 79 · 推广 — 目前国模 token 太多了，和朋友一起开站让大家也都来跑一跑 玩一玩。 目前接入了两个模型： DeepSeek：deepseek-4.1-flash 智谱：glm-5.3-flash 签到送余额。后期不够也可以联系我要。 公益站地址 https://tokenhub.icu/…",
-      "summary": "第 6 名 · 回复 79 · 推广 — 目前国模 token 太多了，和朋友一起开站让大家也都来跑一跑 玩一玩。 目前接入了两个模型： DeepSeek：deepseek-4.1-flash 智谱：glm-5.3-flash 签到送余额。后期不够也可以联系我要。 公益站地址 https://tokenhub.icu/…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "V2EX 今日热议"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "hot-v2ex"
-      }
-    },
-    {
-      "id": "https://www.v2ex.com/t/1252772",
-      "url": "https://www.v2ex.com/t/1252772",
-      "title": "OpenAI 有个小福利 去领一下",
-      "content_text": "第 10 名 · 回复 71 · OpenAI — OpenAI 官方宣布，ChatGPT Pro 和 Business 订阅用户每月可免费领取最高 500 美元 API 额度，已经订阅的用户也能领。 https://help.openai.com/en/articles/20001626-api-credits-be…",
-      "summary": "第 10 名 · 回复 71 · OpenAI — OpenAI 官方宣布，ChatGPT Pro 和 Business 订阅用户每月可免费领取最高 500 美元 API 额度，已经订阅的用户也能领。 https://help.openai.com/en/articles/20001626-api-credits-be…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.v2ex.com/t/1253068",
+      "url": "https://www.v2ex.com/t/1253068",
+      "title": "为啥这帮煞笔前端设计师，把 PC WEB 滚动条 搞 那么细？",
+      "content_text": "第 4 名 · 回复 96 · 程序员 — - 纯吐槽，不知道大家有没有同感？ - 鼠标很难准确点到，需要仔细，浪费大脑算力，浪费眼力。 - 这帮设计师是怎么想的，自己网站，自己不用？",
+      "summary": "第 4 名 · 回复 96 · 程序员 — - 纯吐槽，不知道大家有没有同感？ - 鼠标很难准确点到，需要仔细，浪费大脑算力，浪费眼力。 - 这帮设计师是怎么想的，自己网站，自己不用？",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -290,9 +201,9 @@
       "id": "https://entropicthoughts.com/what-the-fox-say",
       "url": "https://entropicthoughts.com/what-the-fox-say",
       "title": "What the fox say?",
-      "content_text": "第 5 名 · ▲ 8 · games · 2 条评论",
-      "summary": "第 5 名 · ▲ 8 · games · 2 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 8 名 · ▲ 60 · games · 13 条评论",
+      "summary": "第 8 名 · ▲ 60 · games · 13 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -308,12 +219,12 @@
       }
     },
     {
-      "id": "https://www.netmeister.org/blog/defense-ddos.html",
-      "url": "https://www.netmeister.org/blog/defense-ddos.html",
-      "title": "This is not sustainable",
-      "content_text": "第 7 名 · ▲ 136 · security · 33 条评论",
-      "summary": "第 7 名 · ▲ 136 · security · 33 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://lobste.rs/s/eccbci",
+      "url": "https://lobste.rs/s/eccbci",
+      "title": "Shared password manager for families?",
+      "content_text": "第 6 名 · ▲ 34 · ask security · 44 条评论",
+      "summary": "第 6 名 · ▲ 34 · ask security · 44 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -329,12 +240,12 @@
       }
     },
     {
-      "id": "https://v12.sh/blog/the-case-of-the-9bit-aes-key",
-      "url": "https://v12.sh/blog/the-case-of-the-9bit-aes-key",
-      "title": "The case of the 9 bit AES key",
-      "content_text": "第 9 名 · ▲ 20 · cryptography reversing · 0 条评论",
-      "summary": "第 9 名 · ▲ 20 · cryptography reversing · 0 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://discourse.imfreedom.org/t/pidgin-3-0-alpha-4-2-98-0-has-been-released/445",
+      "url": "https://discourse.imfreedom.org/t/pidgin-3-0-alpha-4-2-98-0-has-been-released/445",
+      "title": "Pidgin 3.0 Alpha 4 2.98.0 has been released",
+      "content_text": "第 3 名 · ▲ 10 · release · 1 条评论",
+      "summary": "第 3 名 · ▲ 10 · release · 1 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -350,12 +261,12 @@
       }
     },
     {
-      "id": "https://spritely.institute/news/hoot-0-10-0-released.html",
-      "url": "https://spritely.institute/news/hoot-0-10-0-released.html",
-      "title": "Hoot 0.10.0 released",
-      "content_text": "第 10 名 · ▲ 35 · lisp release · 2 条评论",
-      "summary": "第 10 名 · ▲ 35 · lisp release · 2 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.phorge.it/",
+      "url": "https://www.phorge.it/",
+      "title": "Phorge",
+      "content_text": "第 10 名 · ▲ 20 · php vcs · 7 条评论",
+      "summary": "第 10 名 · ▲ 20 · php vcs · 7 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -371,12 +282,12 @@
       }
     },
     {
-      "id": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
-      "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
-      "title": "GitLab security incident: attempted exploitation of CVE-2026-97229",
-      "content_text": "第 2 名 · ▲ 31 · linux security · 5 条评论",
-      "summary": "第 2 名 · ▲ 31 · linux security · 5 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://mastodon.sdf.org/@netbsd/117518160563539748",
+      "url": "https://mastodon.sdf.org/@netbsd/117518160563539748",
+      "title": "NetBSD adds a new Emacs-like text editor called atto",
+      "content_text": "第 5 名 · ▲ 47 · editors netbsd · 26 条评论",
+      "summary": "第 5 名 · ▲ 47 · editors netbsd · 26 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -392,12 +303,12 @@
       }
     },
     {
-      "id": "https://thestateofinahaze.net/blog/c-goto-considered-totally-sick/",
-      "url": "https://thestateofinahaze.net/blog/c-goto-considered-totally-sick/",
-      "title": "GOTO Considered Totally Sick (for error handling in C)",
-      "content_text": "第 8 名 · ▲ 34 · c · 12 条评论",
-      "summary": "第 8 名 · ▲ 34 · c · 12 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+      "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+      "title": "My favourite PowerMac is a Nintendo Wii",
+      "content_text": "第 9 名 · ▲ 40 · retrocomputing reversing · 1 条评论",
+      "summary": "第 9 名 · ▲ 40 · retrocomputing reversing · 1 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -413,12 +324,12 @@
       }
     },
     {
-      "id": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/",
-      "url": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/",
-      "title": "EMACS turns 50",
-      "content_text": "第 3 名 · ▲ 43 · emacs historical · 2 条评论",
-      "summary": "第 3 名 · ▲ 43 · emacs historical · 2 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://lobste.rs/s/dsrruj",
+      "url": "https://lobste.rs/s/dsrruj",
+      "title": "London meetup",
+      "content_text": "第 1 名 · ▲ 38 · event · 25 条评论",
+      "summary": "第 1 名 · ▲ 38 · event · 25 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -434,12 +345,54 @@
       }
     },
     {
-      "id": "https://wiki.alpinebsd.org/",
-      "url": "https://wiki.alpinebsd.org/",
-      "title": "AlpineBSD",
-      "content_text": "第 6 名 · ▲ 71 · netbsd · 19 条评论",
-      "summary": "第 6 名 · ▲ 71 · netbsd · 19 条评论",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "http://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+      "url": "http://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+      "title": "If you love a website, back it up",
+      "content_text": "第 2 名 · ▲ 26 · web · 10 条评论",
+      "summary": "第 2 名 · ▲ 26 · web · 10 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Lobsters"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-lobsters"
+      }
+    },
+    {
+      "id": "https://seriot.ch/computation/curl.html",
+      "url": "https://seriot.ch/computation/curl.html",
+      "title": "How curl was accidentally Turing-complete for nine months",
+      "content_text": "第 4 名 · ▲ 11 · compsci · 1 条评论",
+      "summary": "第 4 名 · ▲ 11 · compsci · 1 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "Lobsters"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-lobsters"
+      }
+    },
+    {
+      "id": "https://www.da.vidbuchanan.co.uk/blog/c2pa-four.html",
+      "url": "https://www.da.vidbuchanan.co.uk/blog/c2pa-four.html",
+      "title": "C2PA's eMudhra Moment",
+      "content_text": "第 7 名 · ▲ 16 · cryptography security · 1 条评论",
+      "summary": "第 7 名 · ▲ 16 · cryptography security · 1 条评论",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "社区",
         "热榜"
@@ -458,9 +411,9 @@
       "id": "https://dev.to/hemapriya_kanagala/dev-pet-corner-3-show-us-your-pets-35n",
       "url": "https://dev.to/hemapriya_kanagala/dev-pet-corner-3-show-us-your-pets-35n",
       "title": "🐾 DEV Pet Corner #3: Show Us Your Pets!",
-      "content_text": "第 7 名 · ♥ 69 · Hemapriya Kanagala · 15 条评论 — TL;DR DEV Pet Corner is back for another Sunday! It's a weekly series where we take a little break...",
-      "summary": "第 7 名 · ♥ 69 · Hemapriya Kanagala · 15 条评论 — TL;DR DEV Pet Corner is back for another Sunday! It's a weekly series where we take a little break...",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 10 名 · ♥ 78 · Hemapriya Kanagala · 15 条评论 — TL;DR DEV Pet Corner is back for another Sunday! It's a weekly series where we take a little break...",
+      "summary": "第 10 名 · ♥ 78 · Hemapriya Kanagala · 15 条评论 — TL;DR DEV Pet Corner is back for another Sunday! It's a weekly series where we take a little break...",
+      "date_published": "2026-10-30T00:00:00Z",
       "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fot17ffvas98xbk9dak4b.jpeg",
       "tags": [
         "文章",
@@ -480,9 +433,9 @@
       "id": "https://dev.to/devteam/your-dev-posts-have-a-beautiful-new-share-card-4be8",
       "url": "https://dev.to/devteam/your-dev-posts-have-a-beautiful-new-share-card-4be8",
       "title": "Your DEV posts have a beautiful new share card ✨",
-      "content_text": "第 1 名 · ♥ 85 · Jess Lee · 19 条评论 — The image that shows up when you share a DEV post just got a brand-new look! I got to work on...",
-      "summary": "第 1 名 · ♥ 85 · Jess Lee · 19 条评论 — The image that shows up when you share a DEV post just got a brand-new look! I got to work on...",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 1 名 · ♥ 136 · Jess Lee · 30 条评论 — The image that shows up when you share a DEV post just got a brand-new look! I got to work on...",
+      "summary": "第 1 名 · ♥ 136 · Jess Lee · 30 条评论 — The image that shows up when you share a DEV post just got a brand-new look! I got to work on...",
+      "date_published": "2026-10-30T00:00:00Z",
       "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fzayaadne36cbq4m0gftb.png",
       "tags": [
         "文章",
@@ -499,13 +452,13 @@
       }
     },
     {
-      "id": "https://dev.to/canro91/to-recover-from-burnout-writing-became-my-therapy-and-this-week-my-first-coding-book-turns-1-year-388e",
-      "url": "https://dev.to/canro91/to-recover-from-burnout-writing-became-my-therapy-and-this-week-my-first-coding-book-turns-1-year-388e",
-      "title": "When Recovering From Burnout, Writing Became My Therapy. And This Week My First Coding Book Turns 1 Year Old. Ask Me Anything!",
-      "content_text": "第 8 名 · ♥ 29 · Cesar Aguirre · 28 条评论 — Hi, I'm Cesar, a Senior Software Engineer with 10+ years of experience. In 2023, I got sick and...",
-      "summary": "第 8 名 · ♥ 29 · Cesar Aguirre · 28 条评论 — Hi, I'm Cesar, a Senior Software Engineer with 10+ years of experience. In 2023, I got sick and...",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0724bt3kfrbnmfab2a2y.png",
+      "id": "https://dev.to/sylwia-lask/yes-0-no-javascript-isnt-broken-14ob",
+      "url": "https://dev.to/sylwia-lask/yes-0-no-javascript-isnt-broken-14ob",
+      "title": "Yes, {} + [] = 0. No, JavaScript Isn’t Broken",
+      "content_text": "第 9 名 · ♥ 51 · Sylwia Laskowska · 28 条评论 — JavaScript is a legendary programming language. Created in the mid-1990s in just 10 days, it was born...",
+      "summary": "第 9 名 · ♥ 51 · Sylwia Laskowska · 28 条评论 — JavaScript is a legendary programming language. Created in the mid-1990s in just 10 days, it was born...",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Folm3zyjvpymz88fwvzrw.png",
       "tags": [
         "文章",
         "社区"
@@ -524,10 +477,32 @@
       "id": "https://dev.to/xulingfeng/stratagems-32-the-ai-logged-a-withdrawal-p-took-it-as-proof-2jo2",
       "url": "https://dev.to/xulingfeng/stratagems-32-the-ai-logged-a-withdrawal-p-took-it-as-proof-2jo2",
       "title": "Stratagems #32: The AI Logged a Withdrawal. P Took It as Proof.",
-      "content_text": "第 5 名 · ♥ 107 · xulingfeng · 54 条评论 — Make empty what is already empty. Let doubt breed inside doubt. — The 36 Stratagems, The Empty Fort...",
-      "summary": "第 5 名 · ♥ 107 · xulingfeng · 54 条评论 — Make empty what is already empty. Let doubt breed inside doubt. — The 36 Stratagems, The Empty Fort...",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 6 名 · ♥ 109 · xulingfeng · 62 条评论 — Make empty what is already empty. Let doubt breed inside doubt. — The 36 Stratagems, The Empty Fort...",
+      "summary": "第 6 名 · ♥ 109 · xulingfeng · 62 条评论 — Make empty what is already empty. Let doubt breed inside doubt. — The 36 Stratagems, The Empty Fort...",
+      "date_published": "2026-10-30T00:00:00Z",
       "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsenpd6txz4k8ooplo6yj.png",
+      "tags": [
+        "文章",
+        "社区"
+      ],
+      "authors": [
+        {
+          "name": "DEV 社区（本周）"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "hot-devto"
+      }
+    },
+    {
+      "id": "https://dev.to/dannwaneri/no-human-will-ever-write-code-better-than-llms-better-at-what-1dme",
+      "url": "https://dev.to/dannwaneri/no-human-will-ever-write-code-better-than-llms-better-at-what-1dme",
+      "title": "No Human Will Ever Write Code Better Than LLMs? Better at What?",
+      "content_text": "第 7 名 · ♥ 37 · Daniel Nwaneri · 28 条评论 — A tweet went around saying: \"No human will ever write code better than LLMs. Accept this fact, stop...",
+      "summary": "第 7 名 · ♥ 37 · Daniel Nwaneri · 28 条评论 — A tweet went around saying: \"No human will ever write code better than LLMs. Accept this fact, stop...",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyef0r2qscs29hbs0j5ba.jpg",
       "tags": [
         "文章",
         "社区"
@@ -546,9 +521,9 @@
       "id": "https://dev.to/dj29/im-not-on-the-dev-team-i-still-debugged-their-missing-badges-from-public-code-and-my-first-test-18oo",
       "url": "https://dev.to/dj29/im-not-on-the-dev-team-i-still-debugged-their-missing-badges-from-public-code-and-my-first-test-18oo",
       "title": "I'm Not on the DEV Team. I Still Debugged Their Missing Badges From Public Code. (And My First Test Was Wrong.)",
-      "content_text": "第 3 名 · ♥ 126 · Dhruv Jani · 49 条评论 — I’m not on the DEV team. I don’t have an admin panel, production database access, or internal Slack....",
-      "summary": "第 3 名 · ♥ 126 · Dhruv Jani · 49 条评论 — I’m not on the DEV team. I don’t have an admin panel, production database access, or internal Slack....",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 3 名 · ♥ 137 · Dhruv Jani · 57 条评论 — I’m not on the DEV team. I don’t have an admin panel, production database access, or internal Slack....",
+      "summary": "第 3 名 · ♥ 137 · Dhruv Jani · 57 条评论 — I’m not on the DEV team. I don’t have an admin panel, production database access, or internal Slack....",
+      "date_published": "2026-10-30T00:00:00Z",
       "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu93kz0lmzx5azbphc6x9.png",
       "tags": [
         "文章",
@@ -568,9 +543,9 @@
       "id": "https://dev.to/georgekobaidze/i-earned-a-seat-at-github-universe-itll-stay-empty-and-thats-not-fair-3d7k",
       "url": "https://dev.to/georgekobaidze/i-earned-a-seat-at-github-universe-itll-stay-empty-and-thats-not-fair-3d7k",
       "title": "I Earned a Seat at GitHub Universe. It'll Stay Empty, and That's Not Fair",
-      "content_text": "第 2 名 · ♥ 120 · Giorgi Kobaidze · 83 条评论 — Why Am I Writing This? I'm writing this to show how unfair the world we live in can be,...",
-      "summary": "第 2 名 · ♥ 120 · Giorgi Kobaidze · 83 条评论 — Why Am I Writing This? I'm writing this to show how unfair the world we live in can be,...",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 2 名 · ♥ 141 · Giorgi Kobaidze · 94 条评论 — Why Am I Writing This? I'm writing this to show how unfair the world we live in can be,...",
+      "summary": "第 2 名 · ♥ 141 · Giorgi Kobaidze · 94 条评论 — Why Am I Writing This? I'm writing this to show how unfair the world we live in can be,...",
+      "date_published": "2026-10-30T00:00:00Z",
       "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5ofbuqqo9pzzeizx3l7s.jpeg",
       "tags": [
         "文章",
@@ -590,9 +565,9 @@
       "id": "https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n",
       "url": "https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n",
       "title": "HEXAW programming language for WebAssembly instead WAT",
-      "content_text": "第 9 名 · ♥ 39 · Peter Vivo · 12 条评论 — This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...",
-      "summary": "第 9 名 · ♥ 39 · Peter Vivo · 12 条评论 — This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 8 名 · ♥ 44 · Peter Vivo · 14 条评论 — This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...",
+      "summary": "第 8 名 · ♥ 44 · Peter Vivo · 14 条评论 — This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...",
+      "date_published": "2026-10-30T00:00:00Z",
       "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu8zgu8f4zouggzb33wqm.png",
       "tags": [
         "文章",
@@ -612,9 +587,9 @@
       "id": "https://dev.to/devengers/doors-i-walked-through-to-reach-dev-5294",
       "url": "https://dev.to/devengers/doors-i-walked-through-to-reach-dev-5294",
       "title": "Doors I Walked Through to Reach DEV",
-      "content_text": "第 6 名 · ♥ 103 · Giorgi Kobaidze · 68 条评论 — Table of Contents Knock, Knock: The First Domino The Numbers and a Plot Twist How Did I...",
-      "summary": "第 6 名 · ♥ 103 · Giorgi Kobaidze · 68 条评论 — Table of Contents Knock, Knock: The First Domino The Numbers and a Plot Twist How Did I...",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 5 名 · ♥ 128 · Giorgi Kobaidze · 78 条评论 — Table of Contents Knock, Knock: The First Domino The Numbers and a Plot Twist How Did I...",
+      "summary": "第 5 名 · ♥ 128 · Giorgi Kobaidze · 78 条评论 — Table of Contents Knock, Knock: The First Domino The Numbers and a Plot Twist How Did I...",
+      "date_published": "2026-10-30T00:00:00Z",
       "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjfops8afd4rt21u0mxjz.jpeg",
       "tags": [
         "文章",
@@ -634,9 +609,9 @@
       "id": "https://dev.to/devengers/dev-opportunity-radar-22-50k-basis-fellowship-perplexity-ai-research-fellowship-and-fc-4806",
       "url": "https://dev.to/devengers/dev-opportunity-radar-22-50k-basis-fellowship-perplexity-ai-research-fellowship-and-fc-4806",
       "title": "Dev Opportunity Radar #22: $50K Basis Fellowship, Perplexity AI Research Fellowship, and FC Barcelona Analytics Hackathon",
-      "content_text": "第 4 名 · ♥ 92 · Hemapriya Kanagala · 21 条评论 — TL;DR Welcome back to Dev Opportunity Radar! This is a weekly series where I share opportunities,...",
-      "summary": "第 4 名 · ♥ 92 · Hemapriya Kanagala · 21 条评论 — TL;DR Welcome back to Dev Opportunity Radar! This is a weekly series where I share opportunities,...",
-      "date_published": "2026-10-29T00:00:00Z",
+      "content_text": "第 4 名 · ♥ 93 · Hemapriya Kanagala · 21 条评论 — TL;DR Welcome back to Dev Opportunity Radar! This is a weekly series where I share opportunities,...",
+      "summary": "第 4 名 · ♥ 93 · Hemapriya Kanagala · 21 条评论 — TL;DR Welcome back to Dev Opportunity Radar! This is a weekly series where I share opportunities,...",
+      "date_published": "2026-10-30T00:00:00Z",
       "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnkr4pyevncepf1nth6r2.jpeg",
       "tags": [
         "文章",
@@ -653,35 +628,36 @@
       }
     },
     {
-      "id": "https://dev.to/advikdivekar/a-small-not-so-smart-model-went-from-10-to-996-at-reading-property-deeds-for-115-and-it-says-490k",
-      "url": "https://dev.to/advikdivekar/a-small-not-so-smart-model-went-from-10-to-996-at-reading-property-deeds-for-115-and-it-says-490k",
-      "title": "A small, not-so-smart model went from 10% to 99.6% at reading property deeds for $1.15, and it says 'check this line' instead of bluffing",
-      "content_text": "第 10 名 · ♥ 77 · Advik Divekar · 30 条评论 — This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady N 86°29'...",
-      "summary": "第 10 名 · ♥ 77 · Advik Divekar · 30 条评论 — This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady N 86°29'...",
+      "id": "https://www.reddit.com/r/NatureIsFuckingLit/comments/1xij8y3/so_salmon_sharks_exist/",
+      "url": "https://www.reddit.com/r/NatureIsFuckingLit/comments/1xij8y3/so_salmon_sharks_exist/",
+      "title": "🔥 so Salmon Sharks exist",
+      "content_text": "submitted by /u/TerraByteTerror to r/NatureIsFuckingLit [link] [comments]",
+      "summary": "submitted by /u/TerraByteTerror to r/NatureIsFuckingLit [link] [comments]",
       "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ft3b1to37tqk917uggnoj.png",
+      "image": "https://preview.redd.it/liingod6meyh1.jpeg?width=140&height=140&auto=webp&s=67f784225f6f997b60b8c4d18cf9cfbc9ae4dc25",
       "tags": [
-        "文章",
-        "社区"
+        "NatureIsFuckingLit",
+        "社区",
+        "热榜"
       ],
       "authors": [
         {
-          "name": "DEV 社区（本周）"
+          "name": "top scoring links : popular"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "hot-devto"
+        "shelf": "reddit-com"
       }
     },
     {
-      "id": "https://www.reddit.com/r/meirl/comments/1xhokxb/meirl/",
-      "url": "https://www.reddit.com/r/meirl/comments/1xhokxb/meirl/",
+      "id": "https://www.reddit.com/r/meirl/comments/1xispkw/meirl/",
+      "url": "https://www.reddit.com/r/meirl/comments/1xispkw/meirl/",
       "title": "meirl",
-      "content_text": "submitted by /u/Glass-Fan111 to r/meirl [link] [comments]",
-      "summary": "submitted by /u/Glass-Fan111 to r/meirl [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://preview.redd.it/ut5f0iqeq7yh1.jpeg?width=640&crop=smart&auto=webp&s=8d43a2a46a0710c6860bab41b547f711b1e26d98",
+      "content_text": "submitted by /u/EmergencyRead5254 to r/meirl [link] [comments]",
+      "summary": "submitted by /u/EmergencyRead5254 to r/meirl [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://preview.redd.it/ruoa84cndgyh1.jpeg?width=640&crop=smart&auto=webp&s=648400070ef24799ed800b43eff2a9e34da694d6",
       "tags": [
         "meirl",
         "社区",
@@ -698,379 +674,13 @@
       }
     },
     {
-      "id": "https://www.reddit.com/r/BeAmazed/comments/1xhsbof/time_lapse_of_pregnancy/",
-      "url": "https://www.reddit.com/r/BeAmazed/comments/1xhsbof/time_lapse_of_pregnancy/",
-      "title": "Time Lapse of Pregnancy",
-      "content_text": "submitted by /u/No-Razzmatazz6225 to r/BeAmazed [link] [comments]",
-      "summary": "submitted by /u/No-Razzmatazz6225 to r/BeAmazed [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://external-preview.redd.it/N2hiMXV2ZzdmOHloMfXqrsvL6kumWXPn10gxack3C_P3mfMCxwzhf8O5XVgU.png?width=640&crop=smart&auto=webp&s=a1808d68165bd1df8d5191b33cfa204155ca7955",
-      "tags": [
-        "BeAmazed",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/NonPoliticalTwitter/comments/1xhww2x/these_are_actually_some_toptier_cat_names/",
-      "url": "https://www.reddit.com/r/NonPoliticalTwitter/comments/1xhww2x/these_are_actually_some_toptier_cat_names/",
-      "title": "These are actually some top-tier cat names",
-      "content_text": "submitted by /u/trevrichards to r/NonPoliticalTwitter [link] [comments]",
-      "summary": "submitted by /u/trevrichards to r/NonPoliticalTwitter [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://preview.redd.it/9vx4yjwc89yh1.jpeg?width=640&crop=smart&auto=webp&s=f7db1c30ff323ff9966df293f45d0c6b3ccf8241",
-      "tags": [
-        "NonPoliticalTwitter",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/memes/comments/1xhnyz5/the_genie_is_out_of_the_bottle/",
-      "url": "https://www.reddit.com/r/memes/comments/1xhnyz5/the_genie_is_out_of_the_bottle/",
-      "title": "The genie is out of the bottle.",
-      "content_text": "submitted by /u/-This-cant-be-real- to r/memes [link] [comments]",
-      "summary": "submitted by /u/-This-cant-be-real- to r/memes [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://preview.redd.it/k1e1ngexl7yh1.jpeg?width=640&crop=smart&auto=webp&s=f3251ac4bf2f5bfaa19cce5da229112fb7aa44c4",
-      "tags": [
-        "memes",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/PoursTea/comments/1xhnd57/that_about_sums_it_up/",
-      "url": "https://www.reddit.com/r/PoursTea/comments/1xhnd57/that_about_sums_it_up/",
-      "title": "That about sums it up.",
-      "content_text": "submitted by /u/Veshaad to r/PoursTea [link] [comments]",
-      "summary": "submitted by /u/Veshaad to r/PoursTea [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://preview.redd.it/dv1cbbudh7yh1.jpeg?width=640&crop=smart&auto=webp&s=f12e0259d4962083579e838303481b4ac5ef41d2",
-      "tags": [
-        "PoursTea",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/comics/comments/1xhmkrd/reincarnation_comic_oc/",
-      "url": "https://www.reddit.com/r/comics/comments/1xhmkrd/reincarnation_comic_oc/",
-      "title": "Reincarnation comic [OC]",
-      "content_text": "submitted by /u/JuntheBold to r/comics [link] [comments]",
-      "summary": "submitted by /u/JuntheBold to r/comics [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://preview.redd.it/69xgn8tua7yh1.jpeg?width=140&height=140&crop=1:1,smart&auto=webp&s=27638293d5a6558bd4b933c060e878a859655b0a",
-      "tags": [
-        "comics",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/lovethissmug/comments/1xhrnqn/memes_with_this_guy_as_some_sort_of_higher_power/",
-      "url": "https://www.reddit.com/r/lovethissmug/comments/1xhrnqn/memes_with_this_guy_as_some_sort_of_higher_power/",
-      "title": "Memes with this guy as some sort of higher power meddling with someone's life or daily circumstances",
-      "content_text": "submitted by /u/Dependent_Nature_830 to r/lovethissmug [link] [comments]",
-      "summary": "submitted by /u/Dependent_Nature_830 to r/lovethissmug [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://preview.redd.it/6wz5eh02b8yh1.jpeg?width=640&crop=smart&auto=webp&s=f30d3534acf73dd3dfc45ff67e5af6c606fa719f",
-      "tags": [
-        "lovethissmug",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/meirl/comments/1xhort5/meirl/",
-      "url": "https://www.reddit.com/r/meirl/comments/1xhort5/meirl/",
-      "title": "Meirl",
-      "content_text": "submitted by /u/Glass-Fan111 to r/meirl [link] [comments]",
-      "summary": "submitted by /u/Glass-Fan111 to r/meirl [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://preview.redd.it/kicgos5rr7yh1.jpeg?width=640&crop=smart&auto=webp&s=2c02f0cd5182a8d66d986cc7b5819aa0fa7ecc49",
-      "tags": [
-        "meirl",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/meirl/comments/1xhux5h/meirl/",
-      "url": "https://www.reddit.com/r/meirl/comments/1xhux5h/meirl/",
-      "title": "Meirl",
-      "content_text": "submitted by /u/Spiritual-Pudding-70 to r/meirl [link] [comments]",
-      "summary": "submitted by /u/Spiritual-Pudding-70 to r/meirl [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://preview.redd.it/53znbponv8yh1.jpeg?width=640&crop=smart&auto=webp&s=fa356d31a5451b31e47b8bc8a44d560c3d4e9cb9",
-      "tags": [
-        "meirl",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/technology/comments/1xhz9fy/massive_leak_exposes_41000_homeland_security/",
-      "url": "https://www.reddit.com/r/technology/comments/1xhz9fy/massive_leak_exposes_41000_homeland_security/",
-      "title": "Massive Leak Exposes 41,000 Homeland Security Workers—Including Undercover ICE Agents",
-      "content_text": "submitted by /u/CarciaNerissa to r/technology [link] [comments]",
-      "summary": "submitted by /u/CarciaNerissa to r/technology [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://external-preview.redd.it/bisWoflABc4JeYxihCQ1h1MKkgQebrTvvF28MwePFEk.jpeg?width=640&crop=smart&auto=webp&s=dc31b52185252ceb76ee0b7190cd571602b73172",
-      "tags": [
-        "technology",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/comics/comments/1xhury4/landlords_hate_this_one_trick/",
-      "url": "https://www.reddit.com/r/comics/comments/1xhury4/landlords_hate_this_one_trick/",
-      "title": "Landlords hate this one trick",
-      "content_text": "submitted by /u/Pizzacakecomic to r/comics [link] [comments]",
-      "summary": "submitted by /u/Pizzacakecomic to r/comics [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://preview.redd.it/prv21tyou8yh1.png?width=640&crop=smart&auto=webp&s=4238bbcb641b56d3bebfed212526803a1facfa4b",
-      "tags": [
-        "comics",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/technology/comments/1xhnxg6/ice_is_running_one_of_the_largest_antileft/",
-      "url": "https://www.reddit.com/r/technology/comments/1xhnxg6/ice_is_running_one_of_the_largest_antileft/",
-      "title": "ICE Is Running One of the Largest Anti-Left Surveillance Operations in US History",
-      "content_text": "submitted by /u/Wagamaga to r/technology [link] [comments]",
-      "summary": "submitted by /u/Wagamaga to r/technology [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://external-preview.redd.it/wfuMkCY2cwu64ZoUwvkTQw-LIg5Wkh7QSnO2p7vmG9Y.jpeg?width=640&crop=smart&auto=webp&s=27bd7fb5c970654175af8be410423d02820ded35",
-      "tags": [
-        "technology",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/HolUp/comments/1xhu5rh/i_will_on_leave/",
-      "url": "https://www.reddit.com/r/HolUp/comments/1xhu5rh/i_will_on_leave/",
-      "title": "I will on leave.",
-      "content_text": "submitted by /u/Coffee_MysticRealm to r/HolUp [link] [comments]",
-      "summary": "submitted by /u/Coffee_MysticRealm to r/HolUp [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://preview.redd.it/hdlveofwq8yh1.jpeg?width=640&crop=smart&auto=webp&s=a300ad294a092a2ef0ffb2640645a764aa4b60bf",
-      "tags": [
-        "HolUp",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/BlackPeopleTwitter/comments/1xhzclj/i_couldnt_agree_more_with_this_trade_proposal/",
-      "url": "https://www.reddit.com/r/BlackPeopleTwitter/comments/1xhzclj/i_couldnt_agree_more_with_this_trade_proposal/",
-      "title": "I couldn't agree more with this trade proposal.",
-      "content_text": "If we had a Racial Draft 2026 (classic 2004 Dave Chappelle skit) I think this deal is fair. Shout out to RoyIsDaTruth. submitted by /u/Large-Lack-2933 to r/Blac…",
-      "summary": "If we had a Racial Draft 2026 (classic 2004 Dave Chappelle skit) I think this deal is fair. Shout out to RoyIsDaTruth. submitted by /u/Large-Lack-2933 to r/Blac…",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://preview.redd.it/gujnk046o9yh1.jpeg?width=640&crop=smart&auto=webp&s=715d92ce58e543410130eecf3cbf32123fd35281",
-      "tags": [
-        "BlackPeopleTwitter",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/Unexpected/comments/1xhqbt0/either_way_counts/",
-      "url": "https://www.reddit.com/r/Unexpected/comments/1xhqbt0/either_way_counts/",
-      "title": "Either way counts",
-      "content_text": "submitted by /u/Johnnila to r/Unexpected [link] [comments]",
-      "summary": "submitted by /u/Johnnila to r/Unexpected [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "tags": [
-        "Unexpected",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/news/comments/1xhvi25/conservative_influencer_james_okeefe_charged_with/",
-      "url": "https://www.reddit.com/r/news/comments/1xhvi25/conservative_influencer_james_okeefe_charged_with/",
-      "title": "Conservative influencer James O’Keefe charged with unlawful voting and identity theft in Minnesota",
-      "content_text": "submitted by /u/Hrekires to r/news [link] [comments]",
-      "summary": "submitted by /u/Hrekires to r/news [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "tags": [
-        "news",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/mildlyinfuriating/comments/1xhoh37/amazon_sent_my_husband_this_costume_instead_of/",
-      "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1xhoh37/amazon_sent_my_husband_this_costume_instead_of/",
-      "title": "Amazon sent my husband this costume instead of Skywalker robes",
-      "content_text": "Close enough Edited to add: Reveal in comments! submitted by /u/XXLady_Vortex to r/mildlyinfuriating [link] [comments]",
-      "summary": "Close enough Edited to add: Reveal in comments! submitted by /u/XXLady_Vortex to r/mildlyinfuriating [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://preview.redd.it/x9mol8anp7yh1.jpeg?width=640&crop=smart&auto=webp&s=4fed51312659f895bcd83b627b21e2b47ab8015b",
-      "tags": [
-        "mildlyinfuriating",
-        "社区",
-        "热榜"
-      ],
-      "authors": [
-        {
-          "name": "top scoring links : popular"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "reddit-com"
-      }
-    },
-    {
-      "id": "https://www.reddit.com/r/MadeMeSmile/comments/1xhubiy/amazing_cancer_survivor_with_of_gold/",
-      "url": "https://www.reddit.com/r/MadeMeSmile/comments/1xhubiy/amazing_cancer_survivor_with_of_gold/",
-      "title": "Amazing cancer survivor with ❤️ of gold",
-      "content_text": "submitted by /u/mustu04 to r/MadeMeSmile [link] [comments]",
-      "summary": "submitted by /u/mustu04 to r/MadeMeSmile [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://preview.redd.it/lxco0srvr8yh1.jpeg?width=320&crop=smart&auto=webp&s=ad4302640949314fb1f8dac9a839c8f8346f3762",
+      "id": "https://www.reddit.com/r/MadeMeSmile/comments/1xiob1w/when_you_lie_on_your_resume_and_get_the_job/",
+      "url": "https://www.reddit.com/r/MadeMeSmile/comments/1xiob1w/when_you_lie_on_your_resume_and_get_the_job/",
+      "title": "When you lie on your resume and get the job",
+      "content_text": "submitted by /u/ambachk to r/MadeMeSmile [link] [comments]",
+      "summary": "submitted by /u/ambachk to r/MadeMeSmile [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://external-preview.redd.it/eGMyaTc2MXhrZnloMb2HV7KZmRBa5kn6A1JhvZDz96yAr0NCy8RGuy6TkQf0.png?width=320&crop=smart&auto=webp&s=82d32317d7a30f39841e7436eff2ae194daa1250",
       "tags": [
         "MadeMeSmile",
         "社区",
@@ -1087,15 +697,404 @@
       }
     },
     {
-      "id": "https://www.reddit.com/r/PoursTea/comments/1xhr4jr/alex_prettis_father_speaks_out/",
-      "url": "https://www.reddit.com/r/PoursTea/comments/1xhr4jr/alex_prettis_father_speaks_out/",
-      "title": "Alex Pretti's father speaks out.",
-      "content_text": "submitted by /u/Veshaad to r/PoursTea [link] [comments]",
-      "summary": "submitted by /u/Veshaad to r/PoursTea [link] [comments]",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://preview.redd.it/clvragcm78yh1.jpeg?width=640&crop=smart&auto=webp&s=ce563eb3d349e7fafd49d961df05f2f7bcbfa2f7",
+      "id": "https://www.reddit.com/r/PoursTea/comments/1xip04u/trump_rally_attendee_to_fox_news_well_in_the_late/",
+      "url": "https://www.reddit.com/r/PoursTea/comments/1xip04u/trump_rally_attendee_to_fox_news_well_in_the_late/",
+      "title": "Trump rally attendee to Fox News: \"Well, in the late 70s, I was a little too young to go to South America for the Jonestown Massacre. But th…",
+      "content_text": "submitted by /u/MoreMotivation to r/PoursTea [link] [comments]",
+      "summary": "submitted by /u/MoreMotivation to r/PoursTea [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://external-preview.redd.it/cTV0dWNtYWRwZnloMQrgiZtN88aBfn5QyiEFy4rUDuQnuereX-qV8JzWFPgf.png?width=640&crop=smart&auto=webp&s=2e345ae15b7631d0fc183177f5d32e4702cb4e51",
       "tags": [
         "PoursTea",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/MadeMeSmile/comments/1xikp7r/stokes_county_is_pleased_to_announce_their_first/",
+      "url": "https://www.reddit.com/r/MadeMeSmile/comments/1xikp7r/stokes_county_is_pleased_to_announce_their_first/",
+      "title": "Stokes County is pleased to announce their first female Eagle Scout!",
+      "content_text": "submitted by /u/TrumpsDoubleChin to r/MadeMeSmile [link] [comments]",
+      "summary": "submitted by /u/TrumpsDoubleChin to r/MadeMeSmile [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://preview.redd.it/4bmf252mweyh1.png?width=640&crop=smart&auto=webp&s=4790f6bc1932214c217ed1248ea4c43cd4e1f739",
+      "tags": [
+        "MadeMeSmile",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/mildlyinfuriating/comments/1xiip7c/so_my_father_mistook_my_nieces_drawing_tab_toy/",
+      "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1xiip7c/so_my_father_mistook_my_nieces_drawing_tab_toy/",
+      "title": "So my father mistook my niece's drawing tab toy for a cutting board",
+      "content_text": "submitted by /u/ApprehensiveBat7108 to r/mildlyinfuriating [link] [comments]",
+      "summary": "submitted by /u/ApprehensiveBat7108 to r/mildlyinfuriating [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://preview.redd.it/sj0lntrnheyh1.jpeg?width=640&crop=smart&auto=webp&s=779ee7a1664f76774a865e1bb894887620741f2b",
+      "tags": [
+        "mildlyinfuriating",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/movies/comments/1xitw9q/sir_patrick_stewart_dead_at_86/",
+      "url": "https://www.reddit.com/r/movies/comments/1xitw9q/sir_patrick_stewart_dead_at_86/",
+      "title": "Sir Patrick Stewart dead at 86.",
+      "content_text": "submitted by /u/Minifig81 to r/movies [link] [comments]",
+      "summary": "submitted by /u/Minifig81 to r/movies [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "movies",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/comics/comments/1xiiugd/real_horrors_oc/",
+      "url": "https://www.reddit.com/r/comics/comments/1xiiugd/real_horrors_oc/",
+      "title": "Real horrors (OC)",
+      "content_text": "A repost from last year… Follow me for more comics: IG: @glass.housescomics Reddit: u/GlasshousesComics Bluesky: @glasshousescomics.bsky.social Also on FB, Thre…",
+      "summary": "A repost from last year… Follow me for more comics: IG: @glass.housescomics Reddit: u/GlasshousesComics Bluesky: @glasshousescomics.bsky.social Also on FB, Thre…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://preview.redd.it/my04q56vieyh1.jpeg?width=140&height=140&auto=webp&s=21c45d0f10bf3714ceb0a30cfeb4af4829b29ec4",
+      "tags": [
+        "comics",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/TopGear/comments/1xivhzk/rip_patrick_stewart/",
+      "url": "https://www.reddit.com/r/TopGear/comments/1xivhzk/rip_patrick_stewart/",
+      "title": "RIP Patrick Stewart",
+      "content_text": "submitted by /u/TheDowntownPonce to r/TopGear [link] [comments]",
+      "summary": "submitted by /u/TheDowntownPonce to r/TopGear [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://preview.redd.it/3yg5u3w8wgyh1.png?width=320&crop=smart&auto=webp&s=b9f92d3fd6ad98b24bc320554c1aff2059cb583d",
+      "tags": [
+        "TopGear",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/interestingasfuck/comments/1xig79v/photo_of_an_east_german_stasi_agent_taking_a/",
+      "url": "https://www.reddit.com/r/interestingasfuck/comments/1xig79v/photo_of_an_east_german_stasi_agent_taking_a/",
+      "title": "Photo of an East German Stasi agent taking a photo of a CIA agent taking a photo of him at the same time",
+      "content_text": "submitted by /u/Battlefleet_Sol to r/interestingasfuck [link] [comments]",
+      "summary": "submitted by /u/Battlefleet_Sol to r/interestingasfuck [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://preview.redd.it/9ohty2g3vdyh1.jpeg?width=640&crop=smart&auto=webp&s=65ce0aec7ed09c8b1232c1d7c308f0b7dd358a3b",
+      "tags": [
+        "interestingasfuck",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/shittymoviedetails/comments/1xiujfz/patrick_stewart_the_voice_of_poop_in_the_emoji/",
+      "url": "https://www.reddit.com/r/shittymoviedetails/comments/1xiujfz/patrick_stewart_the_voice_of_poop_in_the_emoji/",
+      "title": "Patrick Stewart, the voice of Poop in The Emoji Movie, has passed away",
+      "content_text": "submitted by /u/804Brady to r/shittymoviedetails [link] [comments]",
+      "summary": "submitted by /u/804Brady to r/shittymoviedetails [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://preview.redd.it/7smuprzupgyh1.jpeg?width=320&crop=smart&auto=webp&s=9f424d74e307bf23a6691d3c72b7b5e7449e1450",
+      "tags": [
+        "shittymoviedetails",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/news/comments/1xiu6de/patrick_stewart_dies_star_trek_the_next/",
+      "url": "https://www.reddit.com/r/news/comments/1xiu6de/patrick_stewart_dies_star_trek_the_next/",
+      "title": "Patrick Stewart Dies: ‘Star Trek: The Next Generation’ Actor Was 86",
+      "content_text": "submitted by /u/sunblade16 to r/news [link] [comments]",
+      "summary": "submitted by /u/sunblade16 to r/news [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "news",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/PoursTea/comments/1xify4y/obama_mocks_trump_and_maga_mouthpieces_reaction/",
+      "url": "https://www.reddit.com/r/PoursTea/comments/1xify4y/obama_mocks_trump_and_maga_mouthpieces_reaction/",
+      "title": "Obama Mocks Trump And MAGA Mouthpieces’ Reaction To His Cheesecake Factory Joke: “They mobilize a whole government response to that joke - n…",
+      "content_text": "Source article (published October 28, 2026): https://thehill.com/homenews/campaign/6180017-obama-trump-cheesecake-factory-joke/ —— Get out and vote, America! ✅…",
+      "summary": "Source article (published October 28, 2026): https://thehill.com/homenews/campaign/6180017-obama-trump-cheesecake-factory-joke/ —— Get out and vote, America! ✅…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://external-preview.redd.it/NXV1aWRnd2ZzZHloMam8XgxpE1Os53Rg4GbZ9OaeAp9kJ1POy7gdSXRsig70.jpeg?width=640&crop=smart&auto=webp&s=436ab1b17ed1a3a3f36e59b336d780b79c12a008",
+      "tags": [
+        "PoursTea",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/meirl/comments/1xilaq1/meirl/",
+      "url": "https://www.reddit.com/r/meirl/comments/1xilaq1/meirl/",
+      "title": "Meirl",
+      "content_text": "submitted by /u/lonewolff321 to r/meirl [link] [comments]",
+      "summary": "submitted by /u/lonewolff321 to r/meirl [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://preview.redd.it/n8nxplno0fyh1.jpeg?width=640&crop=smart&auto=webp&s=bdd2ce34b5edc71e99cdcd7c5cd34bdc9c76dba9",
+      "tags": [
+        "meirl",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/me_irl/comments/1xik11t/me_irl/",
+      "url": "https://www.reddit.com/r/me_irl/comments/1xik11t/me_irl/",
+      "title": "Me_irl",
+      "content_text": "submitted by /u/Spotter24o5 to r/me_irl [link] [comments]",
+      "summary": "submitted by /u/Spotter24o5 to r/me_irl [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://preview.redd.it/sww1fwpzreyh1.jpeg?width=640&crop=smart&auto=webp&s=eac1fe2f99f7d315b56b28280b5bab251173ccdf",
+      "tags": [
+        "me_irl",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/Fauxmoi/comments/1xiph8j/fox_news_asks_man_why_hes_attending_trump_rally/",
+      "url": "https://www.reddit.com/r/Fauxmoi/comments/1xiph8j/fox_news_asks_man_why_hes_attending_trump_rally/",
+      "title": "Fox News asks man why he’s attending Trump rally: “Well, in the late 70s, I was a little too young to go to South America for the Jonestown…",
+      "content_text": "submitted by /u/Independent-Bet-8772 to r/Fauxmoi [link] [comments]",
+      "summary": "submitted by /u/Independent-Bet-8772 to r/Fauxmoi [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://external-preview.redd.it/OWx3M3NlZGdzZnloMcK86OJ26ZRo0LgpBld1jebYGIfGytC-_3jni45NmvBO.jpeg?width=640&crop=smart&auto=webp&s=876882106e764237637d5a272a90c73fde69d118",
+      "tags": [
+        "Fauxmoi",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/videos/comments/1xithac/fox_news_asks_man_why_hes_attending_trump_rally/",
+      "url": "https://www.reddit.com/r/videos/comments/1xithac/fox_news_asks_man_why_hes_attending_trump_rally/",
+      "title": "Fox News asks man why he's attending Trump rally: \"Well, in the late 70s, I was a little too young to go to South America for the Jonestown…",
+      "content_text": "submitted by /u/Lehmanite to r/videos [link] [comments]",
+      "summary": "submitted by /u/Lehmanite to r/videos [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://external-preview.redd.it/izHmcM-JaQGKVGIzjpo_uD1oCXshK-OhZLifr9CIvi8.jpeg?width=320&crop=smart&auto=webp&s=8b39fe7b779dbb6563cee82c60dce49b4f12495e",
+      "tags": [
+        "videos",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/interesting/comments/1xil49f/extremely_polite_moose_bull_gently_reminds_a/",
+      "url": "https://www.reddit.com/r/interesting/comments/1xil49f/extremely_polite_moose_bull_gently_reminds_a/",
+      "title": "Extremely polite moose bull gently reminds a tourist that wildlife should be respected",
+      "content_text": "submitted by /u/Lui_Belmont to r/interesting [link] [comments]",
+      "summary": "submitted by /u/Lui_Belmont to r/interesting [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://external-preview.redd.it/ZGFiNTFxNGZ6ZXloMdBNmMbU5CE_VXW6_n8PQ6RhIXfQroK_zzgPVbaDX2n-.png?width=320&crop=smart&auto=webp&s=f37750b386bf91db2029da10c3322436c6379b79",
+      "tags": [
+        "interesting",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/BeAmazed/comments/1xipc3j/crows_leaving_bread_on_a_balcony_because_they/",
+      "url": "https://www.reddit.com/r/BeAmazed/comments/1xipc3j/crows_leaving_bread_on_a_balcony_because_they/",
+      "title": "Crows leaving bread on a balcony because they think their human friend has run out of food is a remarkable display of intelligence",
+      "content_text": "Just goes to show how intelligent crows are and how much they notice about us. submitted by /u/MambaMentality24x2 to r/BeAmazed [link] [comments]",
+      "summary": "Just goes to show how intelligent crows are and how much they notice about us. submitted by /u/MambaMentality24x2 to r/BeAmazed [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://preview.redd.it/y7wqt63krfyh1.jpeg?width=640&crop=smart&auto=webp&s=580cd2774156b55d2fa2d0236d5b4a5c2ea5cb2f",
+      "tags": [
+        "BeAmazed",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/MadeMeSmile/comments/1xiy4th/company_stands_up_for_employee_caught_in_viral/",
+      "url": "https://www.reddit.com/r/MadeMeSmile/comments/1xiy4th/company_stands_up_for_employee_caught_in_viral/",
+      "title": "Company Stands Up for Employee Caught in Viral Prank",
+      "content_text": "submitted by /u/EmergencyRead5254 to r/MadeMeSmile [link] [comments]",
+      "summary": "submitted by /u/EmergencyRead5254 to r/MadeMeSmile [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://preview.redd.it/smjapjqsehyh1.jpeg?width=640&crop=smart&auto=webp&s=4ed32b7f40a9fb34e9d582f0df4deaf0063a7fd9",
+      "tags": [
+        "MadeMeSmile",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/interesting/comments/1xijcci/cat_with_a_natural_mullet/",
+      "url": "https://www.reddit.com/r/interesting/comments/1xijcci/cat_with_a_natural_mullet/",
+      "title": "Cat with a natural mullet",
+      "content_text": "submitted by /u/Steve_Apple0 to r/interesting [link] [comments]",
+      "summary": "submitted by /u/Steve_Apple0 to r/interesting [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://preview.redd.it/tnz8iggvmeyh1.jpeg?width=640&crop=smart&auto=webp&s=ea9d0deb2c9a7f989fe07c012d31cdf65ff2f9e7",
+      "tags": [
+        "interesting",
         "社区",
         "热榜"
       ],

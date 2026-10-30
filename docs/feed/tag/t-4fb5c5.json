@@ -1,13 +1,35 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #餐饮",
+  "title": "知树阅读-个人图书空间 · #餐饮",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-4fb5c5.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
+    {
+      "id": "https://www.eater.com/trends/996747/food-fashion-print-trend",
+      "url": "https://www.eater.com/trends/996747/food-fashion-print-trend",
+      "title": "Food-Themed Fashion Is Starting to Feel Gluttonous",
+      "content_text": "There was a time, not too long ago, when a purse shaped like a baguette felt like a thrilling — even subversive — novelty. Now, we hardly bat an eye when we see…",
+      "summary": "There was a time, not too long ago, when a purse shaped like a baguette felt like a thrilling — even subversive — novelty. Now, we hardly bat an eye when we see…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "Food and Restaurant Trends",
+        "美食",
+        "餐饮"
+      ],
+      "authors": [
+        {
+          "name": "Eater"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "eater-com"
+      }
+    },
     {
       "id": "https://www.eater.com/maps/best-restaurants-barcelona-spain",
       "url": "https://www.eater.com/maps/best-restaurants-barcelona-spain",
@@ -181,28 +203,6 @@
         "Eater at Home",
         "Holiday Gift Guides",
         "Shopping Guides",
-        "美食",
-        "餐饮"
-      ],
-      "authors": [
-        {
-          "name": "Eater"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "eater-com"
-      }
-    },
-    {
-      "id": "https://www.eater.com/travel-guides/992604/the-best-culinary-resorts-in-the-united-states",
-      "url": "https://www.eater.com/travel-guides/992604/the-best-culinary-resorts-in-the-united-states",
-      "title": "The Best Culinary Resorts in the United States",
-      "content_text": "At some hotels, food is an afterthought: Breakfast buffets are bland, in-room mini bars are stocked with generic snacks, and lobby bars are lackluster. But othe…",
-      "summary": "At some hotels, food is an afterthought: Breakfast buffets are bland, in-room mini bars are stocked with generic snacks, and lobby bars are lackluster. But othe…",
-      "date_published": "2026-10-15T00:00:00Z",
-      "tags": [
-        "Travel Guides",
         "美食",
         "餐饮"
       ],

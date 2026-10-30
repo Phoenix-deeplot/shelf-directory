@@ -1,13 +1,67 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #Maritime",
+  "title": "知树阅读-个人图书空间 · #Maritime",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/maritime.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
+    {
+      "id": "https://www.freightwaves.com/news/why-container-rates-are-climbing-despite-cooling-demand",
+      "url": "https://www.freightwaves.com/news/why-container-rates-are-climbing-despite-cooling-demand",
+      "title": "Why container rates are climbing despite cooling demand",
+      "content_text": "Container freight rates climb on major Asia-Europe and trans-Pacific routes despite signs of cooling demand. The post Why container rates are climbing despite c…",
+      "summary": "Container freight rates climb on major Asia-Europe and trans-Pacific routes despite signs of cooling demand. The post Why container rates are climbing despite c…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Container Shipping",
+        "Maritime",
+        "News",
+        "Top Stories",
+        "Freightos",
+        "ocean rates",
+        "Port strike"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/trailer-bridge-appoints-new-ceo",
+      "url": "https://www.freightwaves.com/news/trailer-bridge-appoints-new-ceo",
+      "title": "Trailer Bridge appoints new CEO",
+      "content_text": "Leading Jones Act carrier Trailer Bridge has appointed a new CEO. The post Trailer Bridge appoints new CEO appeared first on FreightWaves.",
+      "summary": "Leading Jones Act carrier Trailer Bridge has appointed a new CEO. The post Trailer Bridge appoints new CEO appeared first on FreightWaves.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Maritime",
+        "News",
+        "Top Stories",
+        "container shipping",
+        "Jones Act",
+        "leadership",
+        "Puerto Rico"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
     {
       "id": "https://www.freightwaves.com/news/strike-threat-by-port-security-workers-at-los-angeles-long-beach",
       "url": "https://www.freightwaves.com/news/strike-threat-by-port-security-workers-at-los-angeles-long-beach",
@@ -78,60 +132,6 @@
         "Top Stories",
         "imports",
         "peak season"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/shipbuilding-central-to-new-us-denmark-maritime-pact",
-      "url": "https://www.freightwaves.com/news/shipbuilding-central-to-new-us-denmark-maritime-pact",
-      "title": "Shipbuilding central to new US-Denmark maritime pact",
-      "content_text": "The United States and Denmark signed a maritime agreement to bolster American shipbuilding through workforce training, Danish investment and technology sharing.…",
-      "summary": "The United States and Denmark signed a maritime agreement to bolster American shipbuilding through workforce training, Danish investment and technology sharing.…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "American Shipper",
-        "Business",
-        "Infrastructure",
-        "Maritime",
-        "News",
-        "Top Stories",
-        "container shipping",
-        "Denmark"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/new-conundrum-asia-us-europe-ocean-rates-diverge",
-      "url": "https://www.freightwaves.com/news/new-conundrum-asia-us-europe-ocean-rates-diverge",
-      "title": "New ‘conundrum’: Asia-US, Europe ocean rates diverge",
-      "content_text": "Container rates on the busiest U.S. trade lanes are signaling a peak while a return to the Red Sea has yet to weaken Europe rates. The post New ‘conundrum’: Asi…",
-      "summary": "Container rates on the busiest U.S. trade lanes are signaling a peak while a return to the Red Sea has yet to weaken Europe rates. The post New ‘conundrum’: Asi…",
-      "date_published": "2026-10-26T00:00:00Z",
-      "tags": [
-        "American Shipper",
-        "Container Shipping",
-        "Maritime",
-        "News",
-        "Top Stories",
-        "ocean rates",
-        "Red Sea",
-        "trans-Pacific"
       ],
       "authors": [
         {

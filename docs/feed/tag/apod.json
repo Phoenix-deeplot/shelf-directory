@@ -1,42 +1,20 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #APOD",
+  "title": "知树阅读-个人图书空间 · #APOD",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/apod.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
     {
-      "id": "https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/",
-      "url": "https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/",
-      "title": "APOD: 29 October 2026 – The Horns of Venus",
-      "content_text": "APOD Science APOD APOD: 29 October 2026 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the…",
-      "summary": "APOD Science APOD APOD: 29 October 2026 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "APOD",
-        "航天",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "NASA"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "nasa-gov"
-      }
-    },
-    {
-      "id": "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/",
-      "url": "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/",
-      "title": "APOD: 2026 October 28 – The Mutual Occultation of Ganymede and Io",
-      "content_text": "APODScienceAPODAPOD: 2026 October 28 – The…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover…",
-      "summary": "APODScienceAPODAPOD: 2026 October 28 – The…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover…",
-      "date_published": "2026-10-28T00:00:00Z",
+      "id": "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/",
+      "title": "APOD: 2026 October 30 – Haunting the Cepheus Flare",
+      "content_text": "APOD Science APOD APOD: 2026 October 30 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…",
+      "summary": "APOD Science APOD APOD: 2026 October 30 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "APOD",
         "航天",

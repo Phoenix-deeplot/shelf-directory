@@ -1,11 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/shelf/sciencedaily-com.xml</id>
-  <title>公共目录 · Latest Science News -- ScienceDaily</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · Latest Science News -- ScienceDaily</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/sciencedaily-com.xml"/>
-  <updated>2026-10-28T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-29T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261028234238.htm</id>
+    <title>Six popular sugar substitutes linked to faster brain aging</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261028234238.htm"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">A study of nearly 13,000 adults found that people consuming the most artificial sweeteners experienced a 62% faster decline in memory and thinking skills, equiv…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261028232701.htm</id>
+    <title>Scientists discover that cranberry juice may help fight tooth decay</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261028232701.htm"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Cranberry juice may offer an unexpected benefit beyond its reputation for helping prevent urinary tract infections: protecting teeth from decay. Researchers at…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261028232715.htm</id>
+    <title>NASA discovers Jupiter’s invisible shield is more complex than Earth’s</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261028232715.htm"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">NASA’s Juno spacecraft has discovered that Jupiter uses a surprisingly complex system of powerful plasma waves and multiple shock regions to defend against the…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261028232707.htm</id>
+    <title>Less than 42 minutes of bright daylight linked to higher dementia risk</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261028232707.htm"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Getting more daylight could be linked to a surprisingly powerful benefit for brain health. In a study of more than 87,000 adults, researchers found that higher…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261028232719.htm</id>
+    <title>Einstein's equations may explain the universe without dark energy</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261028232719.htm"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Mathematicians have uncovered what they argue is a fundamental flaw in the standard model of the universe, potentially challenging the need for dark energy. The…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261028232659.htm</id>
+    <title>A single brain signal may explain schizophrenia's most puzzling symptoms</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261028232659.htm"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Scientists have identified a weakened brain signal that may connect several seemingly unrelated symptoms of schizophrenia, including sensory processing difficul…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261028232709.htm</id>
+    <title>A 700,000-year-old elephant tooth reveals a lost world where early humans lived</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261028232709.htm"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">A remarkably preserved elephant tooth dating back nearly 700,000 years has revealed a surprisingly lush prehistoric world where giant elephants and early humans…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
+  <entry>
+    <id>https://www.sciencedaily.com/releases/2026/10/261028232713.htm</id>
+    <title>128,000-year-old ice in Tibet could rewrite climate history</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261028232713.htm"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Ancient ice discovered high in Tibet may be more than 128,000 years old, preserving an extraordinary record of Earth's climate that scientists previously though…</summary>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
+    <category term="科学"/>
+  </entry>
   <entry>
     <id>https://www.sciencedaily.com/releases/2026/10/261027063814.htm</id>
     <title>Your blood pressure could be dangerous even when your numbers look normal</title>
@@ -436,39 +524,6 @@
     <category term="科学"/>
   </entry>
   <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261024221849.htm</id>
-    <title>Scientists discover how pancreatic cancer rewrites its DNA to escape treatment</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261024221849.htm"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">Scientists have discovered how pancreatic cancer cells continually reshape their genetic makeup to become more aggressive, spread, and evade treatment. In labor…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261024221952.htm</id>
-    <title>Popular cannabis sleep gummies may have a hidden dark side</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261024221952.htm"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">A cannabis-derived ingredient commonly found in sleep gummies may be more habit-forming than previously thought, with new research showing that repeated exposur…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261024221956.htm</id>
-    <title>New evidence suggests spinosaurus spent most of its life underwater</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261024221956.htm"/>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <published>2026-10-25T00:00:00Z</published>
-    <summary type="text">Millions of years after animals first conquered land, some took an extraordinary evolutionary U-turn and returned to the water. Using machine learning and thous…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
     <id>https://www.sciencedaily.com/releases/2026/10/261024222026.htm</id>
     <title>Low-dose aspirin linked to 70% lower dementia risk, but there's a catch</title>
     <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261024222026.htm"/>
@@ -497,61 +552,6 @@
     <updated>2026-10-25T00:00:00Z</updated>
     <published>2026-10-25T00:00:00Z</published>
     <summary type="text">A simple liquid painted onto teeth in seconds can stop cavities without drilling, injections, or anesthesia, according to a major clinical trial involving young…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261023023731.htm</id>
-    <title>Scientists discover a hidden flaw that challenges 40 years of superconductor science</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261023023731.htm"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">A superconducting material studied for 40 years has turned out to be far more complex than scientists believed. Advanced 3D imaging revealed a hidden patchwork…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261023023734.htm</id>
-    <title>NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261023023734.htm"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">Tiny samples from asteroid Bennu are rewriting scientists' understanding of how our Solar System formed. New evidence suggests that Bennu was born where materia…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261023023732.htm</id>
-    <title>Could lowering high blood pressure be as simple as stimulating your ear?</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261023023732.htm"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">A small device that gently stimulates nerves through the ear could offer a new way to tackle stubborn high blood pressure. In a clinical trial of 63 patients al…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261023023736.htm</id>
-    <title>Astronomers may have discovered the first moon beyond our Solar System</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261023023736.htm"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">Astronomers have uncovered evidence of a bizarre, potentially historic discovery: the first moon ever detected beyond our Solar System. Unlike familiar moons, t…</summary>
-    <source><title>Latest Science News -- ScienceDaily</title></source>
-    <category term="学术"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
-    <id>https://www.sciencedaily.com/releases/2026/10/261023023738.htm</id>
-    <title>A hidden bias in human language challenges 70 years of science</title>
-    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261023023738.htm"/>
-    <updated>2026-10-24T00:00:00Z</updated>
-    <published>2026-10-24T00:00:00Z</published>
-    <summary type="text">A groundbreaking study challenges 70 years of assumptions about how human language works. By analyzing billions of word uses, scientists discovered that meaning…</summary>
     <source><title>Latest Science News -- ScienceDaily</title></source>
     <category term="学术"/>
     <category term="科学"/>

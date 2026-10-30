@@ -1,13 +1,40 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "公共目录 · #Halloween",
+  "title": "知树阅读-个人图书空间 · #Halloween",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/halloween.json",
-  "description": "公共目录",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
   "_shelf": {
     "spec": 1
   },
   "items": [
+    {
+      "id": "https://slate.com/life/2026/10/easy-homemade-halloween-treats-recipes-for-kids.html?via=rss",
+      "url": "https://slate.com/life/2026/10/easy-homemade-halloween-treats-recipes-for-kids.html?via=rss",
+      "title": "Parents Colluded With Corporations to Kill a Beloved Halloween Tradition. I Think It’s Time We Raise It From the Grave.",
+      "content_text": "I’m haunted by the memory of what this holiday could be.",
+      "summary": "I’m haunted by the memory of what this holiday could be.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://compote.slate.com/images/7a205525-8bc6-40a2-9f0b-b45aa409c9b0.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Cooking",
+        "Food",
+        "Halloween",
+        "Holidays",
+        "Kids",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
     {
       "id": "https://daily.jstor.org/editors-picks-halloween/",
       "url": "https://daily.jstor.org/editors-picks-halloween/",

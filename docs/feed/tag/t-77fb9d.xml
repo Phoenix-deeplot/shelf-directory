@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/t-77fb9d.xml</id>
+  <title>知树阅读-个人图书空间 · #产品分析</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-77fb9d.xml"/>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.woshipm.com/share/6486711.html</id>
+    <title>情景记忆：AI 听记产品从 “记录工具” 到 “认知资产” 的跃迁</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486711.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">本文承接上一篇《Agent 记忆体系分类・触发编码・生命周期维护》。那篇文章系统拆解了记忆的四大类型与全生命周期机制，其中情景记忆是四类里最特别、也最接近 "人" 的一类。这一次，我们把它单独拎出来，落到 AI 听记这个具体产品场景，看一个抽象概念如何真正变成产品能力。 引言：一个被忽视的分水岭 市面上几乎所有 AI…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="AI产品"/>
+    <category term="个人观点"/>
+    <category term="产品分析"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ucd/6486807.html</id>
+    <title>Vibe 技巧：别再只跟 AI 说“弹出弹窗”了！</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ucd/6486807.html"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">在 Vibe Coding 里，最磨人的往往不是技术门槛，而是说不清自己想要什么。模态对话框、Popover、Toast 各有名字，把模糊的视觉感受换成准确的组件词汇，AI 才能少猜几次，界面也才更像样。 在 Vibe Coding 中，经常出现脑子里是有画面的，但是给 AI 讲了半天，最终做出来个完全不相关的页面，我…</summary>
+    <source><title>人人都是产品经理</title></source>
+    <category term="交互体验"/>
+    <category term="AI编程"/>
+    <category term="Vibe Coding"/>
+    <category term="产品分析"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+</feed>

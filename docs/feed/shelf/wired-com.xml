@@ -1,11 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/shelf/wired-com.xml</id>
-  <title>公共目录 · WIRED</title>
-  <subtitle>公共目录</subtitle>
+  <title>知树阅读-个人图书空间 · WIRED</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/wired-com.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
-  <author><name>公共目录</name></author>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/</id>
+    <title>The Iran War’s Impact on Oil Is Hitting Key Senate Races Hard</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Democrats are using the high price of diesel, heating oil, and fertilizer to tie Republicans to President Donald Trump’s unpopular, costly war in Iran.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Science"/>
+    <category term="Science / Environment"/>
+    <category term="Politics"/>
+    <category term="Gassed Up"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/ego-blower-sale-tp-cannon-october-2026/</id>
+    <title>The Best Leaf Blower We’ve Tested Is Ready for Halloween</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/ego-blower-sale-tp-cannon-october-2026/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Our top Ego pick is discounted, and our resident leaf blower expert demonstrates how to make a TP cannon.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Gear / Products / Outdoor"/>
+    <category term="Roll Model"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/gifts-for-friends/</id>
+    <title>Gift Ideas for Friends (2026): Wellness Tech, Kitchen Essentials</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/gifts-for-friends/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">These are the WIRED-tested gadgets, kitchen tools, and cozy comforts I’d actually buy for my own inner circle.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Buying Guides"/>
+    <category term="Gear / Products / Home"/>
+    <category term="Present Company"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/what-to-know-about-chinas-top-secret-spaceplane/</id>
+    <title>What to Know About China’s Top-Secret Spaceplane</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/what-to-know-about-chinas-top-secret-spaceplane/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">This week, the Pentagon released a full-resolution image of the vehicle, the capabilities of which remain rather mysterious.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Science"/>
+    <category term="Science / Space"/>
+    <category term="Space Race"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/</id>
+    <title>The ‘Pain in the Ass’ Math That Could Save Vibe Coding From Itself</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">A new startup called &amp;Truth is joining the race to automate formal verification, a painstaking process that uses math to prove software works as intended.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Business / Startups"/>
+    <category term="Building Proofs"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/best-kindle-accessories/</id>
+    <title>The Kindle Accessories I Never Want to Read Without (2026)</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/best-kindle-accessories/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Looking to better protect your Kindle or add a little personality to your favorite e-reader? From cases and covers to page-turners and stickers, this is the gui…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Buying Guides"/>
+    <category term="Gear / Products / Tablets"/>
+    <category term="Better Reading"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
   <entry>
     <id>https://www.wired.com/story/skullcandy-discount-code/</id>
     <title>Skullcandy Discount Code: 30% Off | November 2026</title>
@@ -17,6 +105,21 @@
     <category term="Gear"/>
     <category term="Gear / Deals"/>
     <category term="Coupons"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/review/reencle-essential-electric-composter/</id>
+    <title>Reencle Essential Review: Same Scraps, Lower Price</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/review/reencle-essential-electric-composter/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Reencle has made your favorite kitchen composter cheaper—with a few compromises.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Reviews"/>
+    <category term="Gear / Products / Home"/>
+    <category term="Ground Work"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>
@@ -35,6 +138,19 @@
     <category term="社会"/>
   </entry>
   <entry>
+    <id>https://www.wired.com/story/polymarket-flagship-platform-hack-traders-lose-money/</id>
+    <title>Polymarket Halted International Trading After Hackers Drained Accounts</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/polymarket-flagship-platform-hack-traders-lose-money/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">The company says an unnamed third-party provider was compromised. Trading has resumed, and Polymarket says affected traders will be made whole.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Hack Attack"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
     <id>https://www.wired.com/story/petlibro-discount-code/</id>
     <title>Petlibro Offers: 30% Off in November 2026</title>
     <link rel="alternate" type="text/html" href="https://www.wired.com/story/petlibro-discount-code/"/>
@@ -45,6 +161,36 @@
     <category term="Gear"/>
     <category term="Gear / Deals"/>
     <category term="Coupons"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/petkit-sale-october-2026/</id>
+    <title>Petkit Automatic Cat Litter Box Sale (2026)</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/petkit-sale-october-2026/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">As WIRED’s resident pet tech tester, I have lots of opinions on what’s worth your money. Petkit’s automatic litter boxes are my top picks—and my favorite models…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Gear / Products / Home"/>
+    <category term="Cat’s Meow"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/nothing-cmf-deals-october-2026/</id>
+    <title>Nothing Headphones Sale: Stylish and Up to 41% Off</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/nothing-cmf-deals-october-2026/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Some of the brand’s best styles, including the Nothing Headphone (1) and CMF Headphone Pro, are at the lowest prices I’ve ever seen ahead of Black Friday.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Gear / Products / Audio"/>
+    <category term="Nothing to See Here"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>
@@ -73,6 +219,19 @@
     <category term="Gear"/>
     <category term="Gear / Deals"/>
     <category term="Coupons"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/</id>
+    <title>Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">The French AI lab claims its latest release matches or outperforms even the best models from DeepSeek and Z.ai in coding and cybersecurity.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Even Chonkier"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>
@@ -118,6 +277,35 @@
     <category term="社会"/>
   </entry>
   <entry>
+    <id>https://www.wired.com/story/i-gave-an-ai-death-clock-my-blood/</id>
+    <title>I Gave My Blood to the AI Death Clock</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/i-gave-an-ai-death-clock-my-blood/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Death Clock promises to predict when you’re going to die and help you extend your time on Earth. After a month, I felt like it was sucking the life out of me.</summary>
+    <source><title>WIRED</title></source>
+    <category term="The Big Story"/>
+    <category term="Culture"/>
+    <category term="Science"/>
+    <category term="Ghost Writer"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/i-did-push-ups-with-snaps-chunky-ar-glasses/</id>
+    <title>I Did Push-Ups With Snap’s Chunky AR Glasses</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/i-did-push-ups-with-snaps-chunky-ar-glasses/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">They fit better than they look and stay put when you move, but Snap’s $2,195 Specs still feel like a developer prototype in search of a purpose.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Gear News and Events"/>
+    <category term="Reality Check"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
     <id>https://www.wired.com/story/hungryroot-promo-code/</id>
     <title>Hungryroot Coupon Codes: 30% Off This November 2026</title>
     <link rel="alternate" type="text/html" href="https://www.wired.com/story/hungryroot-promo-code/"/>
@@ -132,6 +320,21 @@
     <category term="社会"/>
   </entry>
   <entry>
+    <id>https://www.wired.com/review/review-hisense-ur8/</id>
+    <title>Hisense UR8 RGB MiniLED TV: Midrange Quality, Upscale Color Accuracy</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/review/review-hisense-ur8/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">The Hisense UR8 RGB MiniLED is more affordable than competitors and offers exceptional color accuracy, but is otherwise just OK.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Reviews"/>
+    <category term="Gear / Products / Televisions"/>
+    <category term="Product Review"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
     <id>https://www.wired.com/story/govee-discount-code/</id>
     <title>Govee Discount Codes and Deals: 30% Off</title>
     <link rel="alternate" type="text/html" href="https://www.wired.com/story/govee-discount-code/"/>
@@ -141,6 +344,21 @@
     <source><title>WIRED</title></source>
     <category term="Gear"/>
     <category term="Coupons"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/ridge-wallet-deal-october-2026/</id>
+    <title>Go Minimal—the Ridge Wallet is 20 Percent Off Right Now</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/ridge-wallet-deal-october-2026/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">The popular Ridge Wallet lives up to the hype and is on sale, along with other Ridge gear. Plus, you can try it risk-free for 99 days.</summary>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Gear / Products / Lifestyle"/>
+    <category term="Stack It Up"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>
@@ -182,6 +400,46 @@
     <category term="Science"/>
     <category term="Science / Space"/>
     <category term="Hi Neighbor"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/ai-made-decades-of-computer-science-research-irrelevant/</id>
+    <title>An AI Breakthrough Has Made Decades of Computer Science Research ‘Irrelevant’</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/ai-made-decades-of-computer-science-research-irrelevant/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Anthropic and OpenAI say they’ve disproved a key tenet of computer science. Researchers are struggling with the fall but also feel like “overexcited bunnies” as…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Science"/>
+    <category term="Science / Physics and Math"/>
+    <category term="Does Not Compute"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/a-hacker-targeted-high-stakes-poker-players-with-malware-that-exposed-their-cards/</id>
+    <title>A Hacker Targeted High-Stakes Poker Players With Malware That Exposed Their Cards</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/a-hacker-targeted-high-stakes-poker-players-with-malware-that-exposed-their-cards/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Illicit software on the computers of some of the world’s best online poker players allowed the accused cheater to see what cards were in the victims’ hands—and…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Security"/>
+    <category term="Tables Turned"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/</id>
+    <title>A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Sources tell WIRED that an Accenture employee’s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could b…</summary>
+    <source><title>WIRED</title></source>
+    <category term="Politics"/>
+    <category term="Agent Alert"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>
@@ -288,19 +546,6 @@
     <category term="社会"/>
   </entry>
   <entry>
-    <id>https://www.wired.com/story/squarespace-promo-code/</id>
-    <title>Squarespace Promo Codes: 20% Off in October 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/squarespace-promo-code/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Get 20% off your next website, 10% off with exclusive Squarespace discount code, 50% off plans, and more top coupons from WIRED.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
     <id>https://www.wired.com/story/sony-wants-you-to-forget-about-discs-with-its-gorgeous-transparent-controller/</id>
     <title>Sony Wants You to Forget About Discs With Its Gorgeous Transparent Controllers</title>
     <link rel="alternate" type="text/html" href="https://www.wired.com/story/sony-wants-you-to-forget-about-discs-with-its-gorgeous-transparent-controller/"/>
@@ -312,19 +557,6 @@
     <category term="Gear / Gear News and Events"/>
     <category term="Gear / Products / Gaming"/>
     <category term="Plastic Fantastic"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/</id>
-    <title>Should AI Decide Your Court Case? This Judge Says Yes</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">One of England’s top judges, Geoffrey Vos, believes that AI could adjudicate plenty of civil cases. The question, he says, is where the line should be drawn.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Business"/>
-    <category term="Order!"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>
@@ -383,59 +615,6 @@
     <category term="社会"/>
   </entry>
   <entry>
-    <id>https://www.wired.com/story/peacock-promo-code/</id>
-    <title>Peacock Promo Codes: 40% Off October 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/peacock-promo-code/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/paramount-plus-coupon-code/</id>
-    <title>Paramount+ Coupon Codes and Deals for 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/paramount-plus-coupon-code/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/nordvpn-coupon/</id>
-    <title>NordVPN Coupons: 75% Off, Plus 3 Months Free in October 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/nordvpn-coupon/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Save up to 77% on 2-year plans and get 3 free months with our NordVPN discount codes.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/nike-promo-code/</id>
-    <title>Nike Promo Codes and Discounts: 30% for October 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/nike-promo-code/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Check out our deals for Nike this October 2026, including 15% off select purchases.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
     <id>https://www.wired.com/story/most-servers-on-the-planet-are-vulnerable-to-a-code-execution-flaw-in-uefi-firmware/</id>
     <title>Most Servers on the Planet Are Vulnerable to This Firmware Code-Execution Flaw</title>
     <link rel="alternate" type="text/html" href="https://www.wired.com/story/most-servers-on-the-planet-are-vulnerable-to-a-code-execution-flaw-in-uefi-firmware/"/>
@@ -476,33 +655,6 @@
     <category term="社会"/>
   </entry>
   <entry>
-    <id>https://www.wired.com/story/lg-promo-code/</id>
-    <title>LG Promo Codes and Coupons for October 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/lg-promo-code/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/</id>
-    <title>ICE Is Running One of the Largest Anti-Left Surveillance Operations in US History</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">ICE’s Homeland Security Investigations is engaged in far-reaching spying against left-wing activists that rivals the FBI and CIA crackdowns on the Civil Rights…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Security"/>
-    <category term="Security / National Security"/>
-    <category term="Repeat History"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
     <id>https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/</id>
     <title>I Put a Bunch of AI Agents in Charge of a Fantasy Soccer Team. They’re Not Better Than Humans—Yet</title>
     <link rel="alternate" type="text/html" href="https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/"/>
@@ -512,47 +664,6 @@
     <source><title>WIRED</title></source>
     <category term="Business"/>
     <category term="AI Lab"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/google-workspace-promo-code/</id>
-    <title>Google Workspace Promo Codes: 14% Off for October 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/google-workspace-promo-code/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Boost your productivity and save with exclusive Google Workspace coupons from WIRED. Get up to 14% off plans for three months, including Starter, Standard, and…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/dyson-cordless-vacuum-promo-code/</id>
-    <title>Dyson Promo Codes: 25% Off in October 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/dyson-cordless-vacuum-promo-code/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Get 25% off with a Dyson coupon code, plus save up to $600 with discounts on vacuums, $150 off Airwraps, and more.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/disney-plus-discounts/</id>
-    <title>Disney Plus Discount Codes: 52% Off October 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/disney-plus-discounts/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Cut your subscription costs with the latest active Disney+ bundle deals, verified student offers, and partner promotions.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Coupons"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>
@@ -599,105 +710,6 @@
     <category term="Gear / Gear News and Events"/>
     <category term="Gear / Products / Smart Home"/>
     <category term="Echo Chamber"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/</id>
-    <title>AI Emergency Alerts Are Coming. Humans Might Not Be Ready</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Human beings struggle with emergency communication. Chatbots can help—if people take them seriously.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Environment"/>
-    <category term="Warning Signs"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/vistaprint-coupon-code/</id>
-    <title>30% VistaPrint Coupon &amp; Promo Codes | October 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/vistaprint-coupon-code/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">From personalized gifts to business essentials, WIRED can help you save with our selection of VistaPrint promo codes.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/samsung-promo-codes/</id>
-    <title>20% Off Samsung Promo Code | October 2026</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/samsung-promo-codes/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Save 30% or 10% with Samsung coupon codes, up to $1,000 on appliances, plus limited-time deals on the Galaxy Z Fold7, Flip7, and S25.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Coupons"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/motorola-razr-deal-october-2026/</id>
-    <title>Motorola Deal: Get a Free Smartwatch and Earbuds When You Buy a Razr</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/motorola-razr-deal-october-2026/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">The Razr is our favorite budget foldable phone. While it isn’t on sale yet, Motorola is adding extras to sweeten this October deal.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Gear / Products / Phones"/>
-    <category term="Razr Xtra"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/everblog-homecal-deal-october-2026/</id>
-    <title>Best Skylight Calendar Alternative on Sale: Save $100 on Everblog HomeCal (2026)</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/everblog-homecal-deal-october-2026/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">The Everblog HomeCal delivers a similar experience, including a digital photo frame and meal planning at no extra cost.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Sync or Swim"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/</id>
-    <title>Anthropic Says It Will Revolutionize Biology—Some Day</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">In breathless press releases and posts, the company has touted its models’ ability to deliver scientific breakthroughs. But its IPO filing taps the brakes on ju…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Biotech"/>
-    <category term="Business"/>
-    <category term="Learning Curve"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/anthropic-ipo-identifies-gas-supply-as-big-near-term-risks/</id>
-    <title>Anthropic Flags Gas Supply as One of Its Biggest Near-Term Risks</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/anthropic-ipo-identifies-gas-supply-as-big-near-term-risks/"/>
-    <updated>2026-10-27T00:00:00Z</updated>
-    <published>2026-10-27T00:00:00Z</published>
-    <summary type="text">The data center buildout could cause a massive increase in gas prices as companies scramble for limited supplies and infrastructure fails to meet demand.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Science"/>
-    <category term="Science / Environment"/>
-    <category term="Business"/>
-    <category term="P(Doom)"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>

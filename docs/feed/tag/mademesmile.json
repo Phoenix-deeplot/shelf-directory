@@ -1,0 +1,81 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #MadeMeSmile",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/mademesmile.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.reddit.com/r/MadeMeSmile/comments/1xiob1w/when_you_lie_on_your_resume_and_get_the_job/",
+      "url": "https://www.reddit.com/r/MadeMeSmile/comments/1xiob1w/when_you_lie_on_your_resume_and_get_the_job/",
+      "title": "When you lie on your resume and get the job",
+      "content_text": "submitted by /u/ambachk to r/MadeMeSmile [link] [comments]",
+      "summary": "submitted by /u/ambachk to r/MadeMeSmile [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://external-preview.redd.it/eGMyaTc2MXhrZnloMb2HV7KZmRBa5kn6A1JhvZDz96yAr0NCy8RGuy6TkQf0.png?width=320&crop=smart&auto=webp&s=82d32317d7a30f39841e7436eff2ae194daa1250",
+      "tags": [
+        "MadeMeSmile",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/MadeMeSmile/comments/1xikp7r/stokes_county_is_pleased_to_announce_their_first/",
+      "url": "https://www.reddit.com/r/MadeMeSmile/comments/1xikp7r/stokes_county_is_pleased_to_announce_their_first/",
+      "title": "Stokes County is pleased to announce their first female Eagle Scout!",
+      "content_text": "submitted by /u/TrumpsDoubleChin to r/MadeMeSmile [link] [comments]",
+      "summary": "submitted by /u/TrumpsDoubleChin to r/MadeMeSmile [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://preview.redd.it/4bmf252mweyh1.png?width=640&crop=smart&auto=webp&s=4790f6bc1932214c217ed1248ea4c43cd4e1f739",
+      "tags": [
+        "MadeMeSmile",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/MadeMeSmile/comments/1xiy4th/company_stands_up_for_employee_caught_in_viral/",
+      "url": "https://www.reddit.com/r/MadeMeSmile/comments/1xiy4th/company_stands_up_for_employee_caught_in_viral/",
+      "title": "Company Stands Up for Employee Caught in Viral Prank",
+      "content_text": "submitted by /u/EmergencyRead5254 to r/MadeMeSmile [link] [comments]",
+      "summary": "submitted by /u/EmergencyRead5254 to r/MadeMeSmile [link] [comments]",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://preview.redd.it/smjapjqsehyh1.jpeg?width=640&crop=smart&auto=webp&s=4ed32b7f40a9fb34e9d582f0df4deaf0063a7fd9",
+      "tags": [
+        "MadeMeSmile",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    }
+  ]
+}
