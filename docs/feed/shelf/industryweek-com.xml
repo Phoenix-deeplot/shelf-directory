@@ -4,8 +4,45 @@
   <title>知树阅读-个人图书空间 · Home | IndustryWeek</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/industryweek-com.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
+  <updated>2026-10-30T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.industryweek.com/news/article/55415599/musk-and-milestones-candy-quiz-and-whos-breaking-manufacturing-ground-industryweeks-weekly-review</id>
+    <title>Musk and Milestones, Candy Quiz and Who's Breaking Ground: IndustryWeek's Weekly Review</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/news/article/55415599/musk-and-milestones-candy-quiz-and-whos-breaking-manufacturing-ground-industryweeks-weekly-review"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Also, let's talk interest rates, what's up in the Strait of Hormuz, the power of reverse innovation, and more.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ae4b9af5b71f0f6166b053a-shovels_in_grounddreamstime_m_4543978.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Also, let&amp;#39;s talk interest rates, what&amp;#39;s up in the Strait of Hormuz, the power of reverse innovation, and more.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #News #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/news/article/55415599/musk-and-milestones-candy-quiz-and-whos-breaking-manufacturing-ground-industryweeks-weekly-review"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="News"/>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.industryweek.com/industry-events/manufacturing-day/article/55415594/meet-a-70-year-old-packaging-company-that-opened-its-doors-for-manufacturing-day</id>
+    <title>Meet a 70-Year-Old Packaging Company That Opened Its Doors for Manufacturing Day</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/industry-events/manufacturing-day/article/55415594/meet-a-70-year-old-packaging-company-that-opened-its-doors-for-manufacturing-day"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">We are 100% employee-owned, and that shapes how our people talk about what they do.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ae4b5bb8dfa39b4519ef1ed-bay_cities_manufacturing_day_photo.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;We are 100% employee-owned, and that shapes how our people talk about what they do.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/industry-events/manufacturing-day/article/55415594/meet-a-70-year-old-packaging-company-that-opened-its-doors-for-manufacturing-day"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.industryweek.com/leadership/companies-executives/news/55415358/ford-execs-stick-to-2029-ev-breakeven-target</id>
+    <title>Ford Execs Stick to 2029 EV Breakeven Target</title>
+    <link rel="alternate" type="text/html" href="https://www.industryweek.com/leadership/companies-executives/news/55415358/ford-execs-stick-to-2029-ev-breakeven-target"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">More investments in the Fathom truck and battery capacity are on tap for next year and revenues are expected to ramp in early 2028.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ae377b78dfa39b45193c102-f_mustang_mach_e_1.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;More investments in the Fathom truck and battery capacity are on tap for next year and revenues are expected to ramp in early 2028.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/leadership/companies-executives/news/55415358/ford-execs-stick-to-2029-ev-breakeven-target"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>Home | IndustryWeek</title></source>
+    <category term="制造"/>
+    <category term="运营"/>
+  </entry>
   <entry>
     <id>https://www.industryweek.com/technology-and-iiot/systems-integration/article/55415415/erp-transformation-starts-with-your-operating-model</id>
     <title>ERP Transformation Starts With Your Operating Model</title>
@@ -13,6 +50,7 @@
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
     <summary type="text">If installing software is your first priority, the project can quickly turn into a technology swap carrying over old problems and workarounds.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ae3a71b8b6b5de4628a5175-dreamstime_xxl_255670084.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;If installing software is your first priority, the project can quickly turn into a technology swap carrying over old problems and workarounds.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-29&lt;/p&gt;&lt;p&gt;Tags: #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/technology-and-iiot/systems-integration/article/55415415/erp-transformation-starts-with-your-operating-model"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="制造"/>
     <category term="运营"/>
@@ -24,6 +62,7 @@
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
     <summary type="text">A culture of innovation and collaboration leads to enviable results.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ae36ff07d6230226fb88f70-lb_foster_two_production_workers.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;A culture of innovation and collaboration leads to enviable results.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-29&lt;/p&gt;&lt;p&gt;Tags: #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/resources/industryweek-best-plants-awards/article/55415154/2026-industry-best-plants-lb-foster-burnaby-is-a-small-plant-punching-above-its-weight"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="制造"/>
     <category term="运营"/>
@@ -35,6 +74,7 @@
     <updated>2026-10-28T00:00:00Z</updated>
     <published>2026-10-28T00:00:00Z</published>
     <summary type="text">U.S. President Donald Trump's war on Iran, launched in late February, has sent energy prices skyrocketing and fueled domestic inflation, alongside his wide-rang…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ae241ad46a1bd3839ecb569-dreamstime_xxl_35409360.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;U.S. President Donald Trump&amp;#39;s war on Iran, launched in late February, has sent energy prices skyrocketing and fueled domestic inflation, alongside his wide-rang…&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-28&lt;/p&gt;&lt;p&gt;Tags: #The Economy #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/the-economy/news/55415104/us-fed-holds-interest-rates-steady-despite-surging-inflation"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="The Economy"/>
     <category term="制造"/>
@@ -47,6 +87,7 @@
     <updated>2026-10-28T00:00:00Z</updated>
     <published>2026-10-28T00:00:00Z</published>
     <summary type="text">Data and insights tracking transit activity, oil prices, petroleum reserves, supply chain impacts and geopolitical developments affecting the waterway.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/07/6a46a3de1f56184995d3086c-dreamstime_xxl_368153131.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Data and insights tracking transit activity, oil prices, petroleum reserves, supply chain impacts and geopolitical developments affecting the waterway.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-28&lt;/p&gt;&lt;p&gt;Tags: #Supply Chain #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/supply-chain/news/55388479/strait-of-hormuz-watch-weekly-snapshot-of-energy-disruptions-and-maritime-conditions"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="Supply Chain"/>
     <category term="制造"/>
@@ -59,6 +100,7 @@
     <updated>2026-10-27T00:00:00Z</updated>
     <published>2026-10-27T00:00:00Z</published>
     <summary type="text">Why you should use Plan, Do, Check, Act as a learning cycle for solving problems, rather than as a checklist for implementing solutions.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6adeb56ad5e1da30a5ba35fe-pdcadreamstime_m_439501631_edited.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Why you should use Plan, Do, Check, Act as a learning cycle for solving problems, rather than as a checklist for implementing solutions.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-27&lt;/p&gt;&lt;p&gt;Tags: #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/operations/continuous-improvement/podcast/55414250/plan-do-check-act-pdca-focus-on-the-learning"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="制造"/>
     <category term="运营"/>
@@ -70,6 +112,7 @@
     <updated>2026-10-27T00:00:00Z</updated>
     <published>2026-10-27T00:00:00Z</published>
     <summary type="text">Answering these nine questions will produce a reliable snapshot of your team’s current effectiveness, and targeted suggestions for how to improve.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ae0e762fb016690dc9378d4-dreamstime_xxl_48568990.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Answering these nine questions will produce a reliable snapshot of your team’s current effectiveness, and targeted suggestions for how to improve.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-27&lt;/p&gt;&lt;p&gt;Tags: #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/leadership/strategic-planning-execution/article/55414764/how-well-is-your-team-functioning-take-this-assessment-and-find-out"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="制造"/>
     <category term="运营"/>
@@ -81,6 +124,7 @@
     <updated>2026-10-26T00:00:00Z</updated>
     <published>2026-10-26T00:00:00Z</published>
     <summary type="text">Your house may be covered in fake cobwebs and giant skeletons, but take this quiz to find out how much you know about where Halloween costumes and decorations c…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6adf4b549163fb62eb83eaf7-shutterstock_2851388779.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Your house may be covered in fake cobwebs and giant skeletons, but take this quiz to find out how much you know about where Halloween costumes and decorations c…&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-26&lt;/p&gt;&lt;p&gt;Tags: #Quiz #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/quiz/article/55414279/halloween-quiz-candy-and-skelly-and-pumpkins-oh-my"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="Quiz"/>
     <category term="制造"/>
@@ -93,6 +137,7 @@
     <updated>2026-10-26T00:00:00Z</updated>
     <published>2026-10-26T00:00:00Z</published>
     <summary type="text">The development of new materials has had a profound impact on our prosperity, culture and quality of life in these 250 years.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6adfac6ab8863308a46d157f-dreamstime_xxl_460309538.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;The development of new materials has had a profound impact on our prosperity, culture and quality of life in these 250 years.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-26&lt;/p&gt;&lt;p&gt;Tags: #Leadership #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/leadership/article/55414412/chemistry-helped-build-americaand-will-shape-its-future"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="Leadership"/>
     <category term="制造"/>
@@ -105,6 +150,7 @@
     <updated>2026-10-26T00:00:00Z</updated>
     <published>2026-10-26T00:00:00Z</published>
     <summary type="text">Find out where companies like U.S. Steel, Genentech and Avio USA are investing in new facilities and expansion projects.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6adbdb09f8864325ba14607f-avio0929262.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Find out where companies like U.S. Steel, Genentech and Avio USA are investing in new facilities and expansion projects.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-26&lt;/p&gt;&lt;p&gt;Tags: #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/leadership/companies-executives/news/55414225/5-manufacturers-breaking-ground-on-new-us-facilities"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="制造"/>
     <category term="运营"/>
@@ -116,6 +162,7 @@
     <updated>2026-10-26T00:00:00Z</updated>
     <published>2026-10-26T00:00:00Z</published>
     <summary type="text">Browse the top 10 makers of consumer packaged goods from the IndustryWeek U.S. 500.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad7cf35ef31995b38c4758b-dreamstime_xxl_19411092.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Browse the top 10 makers of consumer packaged goods from the IndustryWeek U.S. 500.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-26&lt;/p&gt;&lt;p&gt;Tags: #IndustryWeek US 500 #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/industryweek-us-500/media-gallery/55410756/2026-iw-us-500-top-consumer-packaged-products-manufacturers"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="IndustryWeek US 500"/>
     <category term="制造"/>
@@ -128,6 +175,7 @@
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
     <summary type="text">The CEO of the automotive, energy and robotics manufacturer thinks vehicle production can be double the company’s total capacity by 2030. Tesla’s vehicle engine…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ada78526b561efdc6c949d9-tsla_cybercab_1.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;The CEO of the automotive, energy and robotics manufacturer thinks vehicle production can be double the company’s total capacity by 2030. Tesla’s vehicle engineering VP says expansion investments are already starting to pay off.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-23&lt;/p&gt;&lt;p&gt;Tags: #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/leadership/companies-executives/news/55413917/musk-and-tesla-target-a-big-2030-sales-target"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="制造"/>
     <category term="运营"/>
@@ -139,6 +187,7 @@
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
     <summary type="text">Gulf Coast manufacturer Merrick Industries collaborates with community partners every step of the way.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6adba84c6d89c4afca770982-merrick_company800.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Gulf Coast manufacturer Merrick Industries collaborates with community partners every step of the way.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-23&lt;/p&gt;&lt;p&gt;Tags: #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/industry-events/manufacturing-day/article/55414146/manufacturing-day-2026-building-a-strong-talent-pipeline-in-florida"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="制造"/>
     <category term="运营"/>
@@ -150,6 +199,7 @@
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
     <summary type="text">Also, the status of the Strait of Hormuz and manufacturing history by the numbers.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6adb7e3e0340641c28a587db-dreamstime_xxl_14811976.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Also, the status of the Strait of Hormuz and manufacturing history by the numbers.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-23&lt;/p&gt;&lt;p&gt;Tags: #Leadership #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/leadership/article/55414048/different-by-design-formalizing-accountability-and-who-watches-the-ai-agents-industryweeks-weekly-review"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="Leadership"/>
     <category term="制造"/>
@@ -162,6 +212,7 @@
     <updated>2026-10-22T00:00:00Z</updated>
     <published>2026-10-22T00:00:00Z</published>
     <summary type="text">Proper product differentiation ensures that new, higher value items are visually and materially distinct.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ada3ddeb80196bc2ff5c536-dreamstime_m_146436223.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Proper product differentiation ensures that new, higher value items are visually and materially distinct.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-22&lt;/p&gt;&lt;p&gt;Tags: #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/leadership/strategic-planning-execution/article/55413780/the-power-and-potential-trap-of-reverse-innovation-lessons-from-ge-mercedes-benz-dewalt"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="制造"/>
     <category term="运营"/>
@@ -173,6 +224,7 @@
     <updated>2026-10-22T00:00:00Z</updated>
     <published>2026-10-22T00:00:00Z</published>
     <summary type="text">The leaders of Cleveland-Cliffs and Steel Dynamics have recently told investors that demand remains healthy while supplies are often limited. Expect prices to k…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad94f95d1d86f20dc3f12a9-stld_sinton_1.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;The leaders of Cleveland-Cliffs and Steel Dynamics have recently told investors that demand remains healthy while supplies are often limited. Expect prices to keep climbing into 2027.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-22&lt;/p&gt;&lt;p&gt;Tags: #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/leadership/companies-executives/news/55413632/buyers-of-metal-are-prioritizing-certainty-over-price-which-means-metals-ceos-are-pushing-price"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="制造"/>
     <category term="运营"/>
@@ -184,6 +236,7 @@
     <updated>2026-10-21T00:00:00Z</updated>
     <published>2026-10-21T00:00:00Z</published>
     <summary type="text">Separating a Chinese factory is the easy part. The harder problem sits one or two tiers upstream, in the minerals and machines China controls.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad91b7ad4c3ec9700591bef-3_gigafactoryshanghai_01.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Separating a Chinese factory is the easy part. The harder problem sits one or two tiers upstream, in the minerals and machines China controls.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-21&lt;/p&gt;&lt;p&gt;Tags: #Leadership / Corporate Finance #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/leadership/corporate-finance/article/55413569/musk-can-wall-off-shanghai-he-cannot-wall-off-chinas-supply-chain"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="Leadership / Corporate Finance"/>
     <category term="制造"/>
@@ -196,6 +249,7 @@
     <updated>2026-10-21T00:00:00Z</updated>
     <published>2026-10-21T00:00:00Z</published>
     <summary type="text">“We obviously have work to do and we plan to do it,” Chair and CEO Mary Barra told analysts about finding ways to become more efficient next year.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad7d560aade3fb629c1b185-gm_27_gmc_sierra_chevy_silverado.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;“We obviously have work to do and we plan to do it,” Chair and CEO Mary Barra told analysts about finding ways to become more efficient next year.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-21&lt;/p&gt;&lt;p&gt;Tags: #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/leadership/companies-executives/news/55413295/gm-cfo-recent-inflation-jump-could-cut-27-ebitda-by-15b"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="制造"/>
     <category term="运营"/>
@@ -207,6 +261,7 @@
     <updated>2026-10-21T00:00:00Z</updated>
     <published>2026-10-21T00:00:00Z</published>
     <summary type="text">"The transition into manufacturing was a deliberate one. The tech world is being commodified due to cheap and effective LLMs. I wanted to get into both the real…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad905a1efab1730dace5af6-remconceoseanjohnston.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;&amp;quot;The transition into manufacturing was a deliberate one. The tech world is being commodified due to cheap and effective LLMs. I wanted to get into both the real world as well as my local community,&amp;quot; says Sean Johnston, CEO, Remcon Equipment Inc.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-21&lt;/p&gt;&lt;p&gt;Tags: #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/industry-events/manufacturing-day/article/55413265/faces-of-manufacturing-ceo-steps-out-of-tech-steps-into-manufacturing"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="制造"/>
     <category term="运营"/>
@@ -218,6 +273,7 @@
     <updated>2026-10-21T00:00:00Z</updated>
     <published>2026-10-21T00:00:00Z</published>
     <summary type="text">Also, optimism prevails across trade shows, MillerKnoll names new leader, Misumi launches educational foundation, cyber threats frighten manufacturing boards, a…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad8e464e11d93f4c199fdfa-computerbuttonsdreamstime_m_157587733.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Also, optimism prevails across trade shows, MillerKnoll names new leader, Misumi launches educational foundation, cyber threats frighten manufacturing boards, and 3M extends presence in data center products.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-21&lt;/p&gt;&lt;p&gt;Tags: #Members Only #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/members/article/55413410/are-rogue-ai-agents-pushing-the-buttons-on-your-manufacturing-shop-floor-so-that-happened"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="Members Only"/>
     <category term="制造"/>
@@ -230,6 +286,7 @@
     <updated>2026-10-20T00:00:00Z</updated>
     <published>2026-10-20T00:00:00Z</published>
     <summary type="text">Before deciding that a management layer is redundant, it's vital to understand how information actually moves through that layer.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad7999d0659b191d64049a8-dreamstime_m_119420139.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Before deciding that a management layer is redundant, it&amp;#39;s vital to understand how information actually moves through that layer.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-20&lt;/p&gt;&lt;p&gt;Tags: #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/leadership/strategic-planning-execution/article/55413131/go-and-see-before-you-restructure-around-ai"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="制造"/>
     <category term="运营"/>
@@ -241,6 +298,7 @@
     <updated>2026-10-20T00:00:00Z</updated>
     <published>2026-10-20T00:00:00Z</published>
     <summary type="text">Accountability is not punishment or blame; it is a two-way commitment between workers and leaders.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad66c2a9e3f57f9d56caef3-grouparoundboarddreamstime_m_419846052.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Accountability is not punishment or blame; it is a two-way commitment between workers and leaders.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-20&lt;/p&gt;&lt;p&gt;Tags: #Operations #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/operations/podcast/55412884/effective-daily-huddles-the-importance-of-accountability"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="Operations"/>
     <category term="制造"/>
@@ -253,42 +311,9 @@
     <updated>2026-10-19T00:00:00Z</updated>
     <published>2026-10-19T00:00:00Z</published>
     <summary type="text">Most of the pharmaceutical and biotechnology manufacturing companies on the 2026 IW 500 list enjoyed revenue growth in fiscal 2025. Sales for the category grew…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6acfe2b89e3f57f9d5586ffd-pharmaceutical_image_dreamstime_m_478600565.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Most of the pharmaceutical and biotechnology manufacturing companies on the 2026 IW 500 list enjoyed revenue growth in fiscal 2025. Sales for the category grew 7.4% to $559 billion.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-19&lt;/p&gt;&lt;p&gt;Tags: #IndustryWeek US 500 #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/industryweek-us-500/media-gallery/55411240/iw-us-500-top-pharmaceutical-and-biotechnology-manufacturing-companies"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="IndustryWeek US 500"/>
-    <category term="制造"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.industryweek.com/resources/industryweek-best-plants-awards/article/55412435/2026-industryweek-best-plants-bullen-ultrasonics-excels-by-being-different-for-all-the-right-reasons</id>
-    <title>2026 IndustryWeek Best Plants: Bullen Ultrasonics Excels by Being Different for All the Right Reasons</title>
-    <link rel="alternate" type="text/html" href="https://www.industryweek.com/resources/industryweek-best-plants-awards/article/55412435/2026-industryweek-best-plants-bullen-ultrasonics-excels-by-being-different-for-all-the-right-reasons"/>
-    <updated>2026-10-19T00:00:00Z</updated>
-    <published>2026-10-19T00:00:00Z</published>
-    <summary type="text">Bullen’s commitment to supportive leadership, teamwork and workforce development fosters strong performance and creates an environment for employees to thrive.</summary>
-    <source><title>Home | IndustryWeek</title></source>
-    <category term="制造"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.industryweek.com/the-economy/article/55412419/tooling-takedown-census-smarts-and-additives-sweet-spot-industryweeks-weekly-review</id>
-    <title>Tooling Takedown, Census Smarts and Additive's Sweet Spot: IndustryWeek's Weekly Review</title>
-    <link rel="alternate" type="text/html" href="https://www.industryweek.com/the-economy/article/55412419/tooling-takedown-census-smarts-and-additives-sweet-spot-industryweeks-weekly-review"/>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <published>2026-10-16T00:00:00Z</published>
-    <summary type="text">Also, Cambodia pushes to raise its manufacturing profile, visual management's key to success, and more from Manufacturing Day and Month.</summary>
-    <source><title>Home | IndustryWeek</title></source>
-    <category term="The Economy"/>
-    <category term="制造"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.industryweek.com/leadership/companies-executives/news/55412573/fastenal-finding-success-with-a-more-with-less-model-that-leans-on-tech</id>
-    <title>Fastenal Finding Success With a More-With-Less Model That Leans on Tech</title>
-    <link rel="alternate" type="text/html" href="https://www.industryweek.com/leadership/companies-executives/news/55412573/fastenal-finding-success-with-a-more-with-less-model-that-leans-on-tech"/>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <published>2026-10-16T00:00:00Z</published>
-    <summary type="text">The sales force of the industrial products distributor shrank by 400 in the third quarter. Executives say they need fewer people at customer sites these days an…</summary>
-    <source><title>Home | IndustryWeek</title></source>
     <category term="制造"/>
     <category term="运营"/>
   </entry>

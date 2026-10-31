@@ -4,114 +4,112 @@
   <title>知树阅读-个人图书空间 · Hacker News</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/hot-hackernews.xml"/>
-  <updated>2026-10-30T00:00:00Z</updated>
+  <updated>2026-10-31T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://www.bbc.com/news/articles/cm8xz7pkd0jjo</id>
-    <title>What we know so far about Spain train crash</title>
-    <link rel="alternate" type="text/html" href="https://www.bbc.com/news/articles/cm8xz7pkd0jjo"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 9 名 · ▲ 201 · 367 条评论</summary>
+    <id>https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/</id>
+    <title>Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man</title>
+    <link rel="alternate" type="text/html" href="https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">第 6 名 · ▲ 306 · 176 条评论</summary>
+    <content type="html">&lt;p&gt;第 6 名 · ▲ 306 · 176 条评论&lt;/p&gt;&lt;p&gt;Source: Hacker News · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #热榜 #hacker news&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Hacker News</title></source>
     <category term="热榜"/>
     <category term="hacker news"/>
   </entry>
   <entry>
-    <id>https://mistral.ai/news/mistral-large-4-oss/</id>
-    <title>We're releasing the weights of Mistral Large 4</title>
-    <link rel="alternate" type="text/html" href="https://mistral.ai/news/mistral-large-4-oss/"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 2 名 · ▲ 1,466 · 396 条评论</summary>
+    <id>https://tangled.org/blog/forge/</id>
+    <title>The federated code forge</title>
+    <link rel="alternate" type="text/html" href="https://tangled.org/blog/forge/"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">第 7 名 · ▲ 285 · 84 条评论</summary>
+    <content type="html">&lt;p&gt;第 7 名 · ▲ 285 · 84 条评论&lt;/p&gt;&lt;p&gt;Source: Hacker News · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #热榜 #hacker news&lt;/p&gt;&lt;p&gt;&lt;a href="https://tangled.org/blog/forge/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Hacker News</title></source>
     <category term="热榜"/>
     <category term="hacker news"/>
   </entry>
   <entry>
-    <id>https://labs.ycombinator.com/projects/games/index.html</id>
-    <title>We ran AI agent swarms in Minecraft and Mindustry</title>
-    <link rel="alternate" type="text/html" href="https://labs.ycombinator.com/projects/games/index.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 6 名 · ▲ 287 · 100 条评论</summary>
+    <id>https://github.com/dbreunig/nesformer</id>
+    <title>Show HN: A working Nintendo in ~1GB of Qwen weights</title>
+    <link rel="alternate" type="text/html" href="https://github.com/dbreunig/nesformer"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">第 10 名 · ▲ 248 · 122 条评论</summary>
+    <content type="html">&lt;p&gt;第 10 名 · ▲ 248 · 122 条评论&lt;/p&gt;&lt;p&gt;Source: Hacker News · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #热榜 #hacker news&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/dbreunig/nesformer"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Hacker News</title></source>
     <category term="热榜"/>
     <category term="hacker news"/>
   </entry>
   <entry>
-    <id>https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html</id>
-    <title>Patrick Stewart has died</title>
-    <link rel="alternate" type="text/html" href="https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 1 名 · ▲ 2,983 · 628 条评论</summary>
+    <id>https://status.northflank.com</id>
+    <title>Northflank Breached</title>
+    <link rel="alternate" type="text/html" href="https://status.northflank.com"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">第 3 名 · ▲ 431 · 315 条评论</summary>
+    <content type="html">&lt;p&gt;第 3 名 · ▲ 431 · 315 条评论&lt;/p&gt;&lt;p&gt;Source: Hacker News · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #热榜 #hacker news&lt;/p&gt;&lt;p&gt;&lt;a href="https://status.northflank.com"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Hacker News</title></source>
     <category term="热榜"/>
     <category term="hacker news"/>
   </entry>
   <entry>
-    <id>https://martinfowler.com/bliki/LLM-Voice.html</id>
-    <title>LLM Voice</title>
-    <link rel="alternate" type="text/html" href="https://martinfowler.com/bliki/LLM-Voice.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 4 名 · ▲ 478 · 253 条评论</summary>
+    <id>https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/</id>
+    <title>My favourite PowerMac is a Nintendo Wii</title>
+    <link rel="alternate" type="text/html" href="https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">第 5 名 · ▲ 308 · 88 条评论</summary>
+    <content type="html">&lt;p&gt;第 5 名 · ▲ 308 · 88 条评论&lt;/p&gt;&lt;p&gt;Source: Hacker News · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #热榜 #hacker news&lt;/p&gt;&lt;p&gt;&lt;a href="https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Hacker News</title></source>
     <category term="热榜"/>
     <category term="hacker news"/>
   </entry>
   <entry>
-    <id>https://iptrust.co/blog/if-ipv4-were-land</id>
-    <title>If IPv4 were land</title>
-    <link rel="alternate" type="text/html" href="https://iptrust.co/blog/if-ipv4-were-land"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 7 名 · ▲ 286 · 402 条评论</summary>
+    <id>https://github.com/kevinraymond/florilegium</id>
+    <title>Florilegium: Procedural Flowers in LaTeX</title>
+    <link rel="alternate" type="text/html" href="https://github.com/kevinraymond/florilegium"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">第 8 名 · ▲ 275 · 46 条评论</summary>
+    <content type="html">&lt;p&gt;第 8 名 · ▲ 275 · 46 条评论&lt;/p&gt;&lt;p&gt;Source: Hacker News · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #热榜 #hacker news&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/kevinraymond/florilegium"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Hacker News</title></source>
     <category term="热榜"/>
     <category term="hacker news"/>
   </entry>
   <entry>
-    <id>https://github.com/herdrdev/herdr-app</id>
-    <title>Herdr has released native app</title>
-    <link rel="alternate" type="text/html" href="https://github.com/herdrdev/herdr-app"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 10 名 · ▲ 199 · 125 条评论</summary>
+    <id>https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/</id>
+    <title>Breaking the open web won't stop the bad bots</title>
+    <link rel="alternate" type="text/html" href="https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">第 9 名 · ▲ 259 · 109 条评论</summary>
+    <content type="html">&lt;p&gt;第 9 名 · ▲ 259 · 109 条评论&lt;/p&gt;&lt;p&gt;Source: Hacker News · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #热榜 #hacker news&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Hacker News</title></source>
     <category term="热榜"/>
     <category term="hacker news"/>
   </entry>
   <entry>
-    <id>https://sidbala.com/h-264-is-magic/</id>
-    <title>H.264 Is Magic (2016)</title>
-    <link rel="alternate" type="text/html" href="https://sidbala.com/h-264-is-magic/"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 5 名 · ▲ 434 · 149 条评论</summary>
+    <id>https://phorion.io/blog/offical-claude-code-vsx-compromise/</id>
+    <title>Backdoor in Claude Code for VS Code extension on the Cursor Marketplace</title>
+    <link rel="alternate" type="text/html" href="https://phorion.io/blog/offical-claude-code-vsx-compromise/"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">第 1 名 · ▲ 890 · 525 条评论</summary>
+    <content type="html">&lt;p&gt;第 1 名 · ▲ 890 · 525 条评论&lt;/p&gt;&lt;p&gt;Source: Hacker News · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #热榜 #hacker news&lt;/p&gt;&lt;p&gt;&lt;a href="https://phorion.io/blog/offical-claude-code-vsx-compromise/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Hacker News</title></source>
     <category term="热榜"/>
     <category term="hacker news"/>
   </entry>
   <entry>
-    <id>https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8</id>
-    <title>Binance-hacker-1029 – $5.6B stolen from Binance</title>
-    <link rel="alternate" type="text/html" href="https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 3 名 · ▲ 1,350 · 829 条评论</summary>
-    <source><title>Hacker News</title></source>
-    <category term="热榜"/>
-    <category term="hacker news"/>
-  </entry>
-  <entry>
-    <id>https://github.com/SheepSeb/tinyworldformer</id>
-    <title>A tiny world model running games on a Raspberry Pi Pico 2 W</title>
-    <link rel="alternate" type="text/html" href="https://github.com/SheepSeb/tinyworldformer"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 8 名 · ▲ 210 · 15 条评论</summary>
+    <id>https://www.binarysecurity.no/posts/2026/10/one-root-case</id>
+    <title>Azure's Weakest Link – Five Full Cross-Tenant Compromises</title>
+    <link rel="alternate" type="text/html" href="https://www.binarysecurity.no/posts/2026/10/one-root-case"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">第 4 名 · ▲ 310 · 58 条评论</summary>
+    <content type="html">&lt;p&gt;第 4 名 · ▲ 310 · 58 条评论&lt;/p&gt;&lt;p&gt;Source: Hacker News · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #热榜 #hacker news&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.binarysecurity.no/posts/2026/10/one-root-case"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Hacker News</title></source>
     <category term="热榜"/>
     <category term="hacker news"/>

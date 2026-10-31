@@ -9,10 +9,33 @@
   },
   "items": [
     {
+      "id": "https://freakonomics.com",
+      "url": "https://freakonomics.com",
+      "title": "693. What’s Our Job as Humans Anymore?",
+      "content_html": "<p>It may just be being human. Stephen Dubner interviews A.I. performer Tilly Norwood to find out if we are as replaceable as we fear. (Part two of a two-part series.) SOURCES: Sean Astin, actor, president of SAG-AFTRA. Kevin Kelly, co-founder of Wired. Ethan Mollick, associate professor of management at the Wharton School of the University of Pennsylvania. Tilly Norwood, A.I. performer. Eline Van der Velden, founder and C.E.O. of Particle6.</p><p>Source: Freakonomics Radio · 2026-10-30</p><p>Tags: #经济 #思考</p><p><a href=\"https://freakonomics.com\">Read the original →</a></p>",
+      "content_text": "It may just be being human. Stephen Dubner interviews A.I. performer Tilly Norwood to find out if we are as replaceable as we fear. (Part two of a two-part series.) SOURCES: Sean Astin, actor, president of SAG-AFTRA. Kevin Kelly, co-founder of Wired. Ethan Mollick, associate professor of management at the Wharton School of the University of Pennsylvania. Tilly Norwood, A.I. performer. Eline Van der Velden, founder and C.E.O. of Particle6.",
+      "summary": "It may just be being human. Stephen Dubner interviews A.I. performer Tilly Norwood to find out if we are as replaceable as we fear. (Part two of a two-part seri…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "经济",
+        "思考"
+      ],
+      "authors": [
+        {
+          "name": "Freakonomics Radio"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "feeds-simplecast-com"
+      }
+    },
+    {
       "id": "https://www.npr.org/2026/10/30/nx-s1-6020932/can-curiosity-save-the-wild",
       "url": "https://www.npr.org/2026/10/30/nx-s1-6020932/can-curiosity-save-the-wild",
       "title": "Can curiosity save the wild?",
-      "content_text": "How do we inspire people to care about wild animals without disrupting their lives? This hour, two surprising approaches to getting to know wildlife — and rethi…",
+      "content_html": "<p><img src=\"https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1080+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F76%2Fd9%2Fafd6e0a54db0b4ceeea459eafe2b%2F4719c4bb-9350-4c17-b08c-8af00ddac05c.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>How do we inspire people to care about wild animals without disrupting their lives? This hour, two surprising approaches to getting to know wildlife — and rethinking what it means to protect it. Guests include conservationist Maya Higa and computational linguist Jeffery Reed. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include sponsor-free listening. Learn more at plus.npr.org.</p><p>Source: TED Radio Hour · 2026-10-30</p><p>Tags: #演讲 #思考</p><p><a href=\"https://www.npr.org/2026/10/30/nx-s1-6020932/can-curiosity-save-the-wild\">Read the original →</a></p>",
+      "content_text": "How do we inspire people to care about wild animals without disrupting their lives? This hour, two surprising approaches to getting to know wildlife — and rethinking what it means to protect it. Guests include conservationist Maya Higa and computational linguist Jeffery Reed. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include sponsor-free listening. Learn more at plus.npr.org.",
       "summary": "How do we inspire people to care about wild animals without disrupting their lives? This hour, two surprising approaches to getting to know wildlife — and rethi…",
       "date_published": "2026-10-30T00:00:00Z",
       "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1080+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F76%2Fd9%2Fafd6e0a54db0b4ceeea459eafe2b%2F4719c4bb-9350-4c17-b08c-8af00ddac05c.jpg",
@@ -31,10 +54,33 @@
       }
     },
     {
+      "id": "https://www.npr.org/2026/10/30/nx-s1-6023035/final-days-of-midterm-campaigning-alaska-senate-race-controversy-iran-war-plans",
+      "url": "https://www.npr.org/2026/10/30/nx-s1-6023035/final-days-of-midterm-campaigning-alaska-senate-race-controversy-iran-war-plans",
+      "title": "Final Days Of Midterm Campaigning, Alaska Senate Race Controversy, Iran War Plans",
+      "content_html": "<p>President Trump is changing his final campaign strategy as Republicans try to close an early-voting gap and hold off Democratic gains in competitive races across the country. Alaska’s tight Senate race is facing new scrutiny after allegations that Democrats helped recruit a spoiler candidate with the same name as the Republican incumbent, while Mary Peltola denies knowing about the effort. Connecticut Democratic Senator Chris Murphy, who was briefed on possible new U.S.</p><p>Source: Up First from NPR · 2026-10-30</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/30/nx-s1-6023035/final-days-of-midterm-campaigning-alaska-senate-race-controversy-iran-war-plans\">Read the original →</a></p>",
+      "content_text": "President Trump is changing his final campaign strategy as Republicans try to close an early-voting gap and hold off Democratic gains in competitive races across the country. Alaska’s tight Senate race is facing new scrutiny after allegations that Democrats helped recruit a spoiler candidate with the same name as the Republican incumbent, while Mary Peltola denies knowing about the effort. Connecticut Democratic Senator Chris Murphy, who was briefed on possible new U.S.",
+      "summary": "President Trump is changing his final campaign strategy as Republicans try to close an early-voting gap and hold off Democratic gains in competitive races acros…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "新闻",
+        "英语听力"
+      ],
+      "authors": [
+        {
+          "name": "Up First from NPR"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "feeds-npr-org"
+      }
+    },
+    {
       "id": "https://www.xiaoyuzhoufm.com/episode/6ae4546797726cd4675a2ef0?utm_source=rss",
       "url": "https://www.xiaoyuzhoufm.com/episode/6ae4546797726cd4675a2ef0?utm_source=rss",
       "title": "512 与王恺漫话江南食事：从文人蟹宴到乡野土菜",
-      "content_text": "- 导语 - 秋风起，蟹脚痒，又到了吃蟹的时节。苏州的蟹宴与糕团、南京的盐水鸭与野菜，再到杭州的醋鱼与乡间土菜，虽同处江南，各地的饮食也藏着许多不同讲究。传统苏州蟹宴为何不提倡客人自己动手剥蟹？养殖技术的发展如何改变了人们餐桌上的大闸蟹？那些古籍中有名的菜肴，又经过了当代厨师怎样的改造？从家宴旧事到市井小馆，本期节目与…",
+      "content_html": "<p>- 导语 - 秋风起，蟹脚痒，又到了吃蟹的时节。苏州的蟹宴与糕团、南京的盐水鸭与野菜，再到杭州的醋鱼与乡间土菜，虽同处江南，各地的饮食也藏着许多不同讲究。传统苏州蟹宴为何不提倡客人自己动手剥蟹？养殖技术的发展如何改变了人们餐桌上的大闸蟹？那些古籍中有名的菜肴，又经过了当代厨师怎样的改造？从家宴旧事到市井小馆，本期节目与王恺一起聊聊江南的地方风味，以及食物背后的日常生活。 感谢支付宝碰一下对本期节目的特别支持！ 江南人的吃喝有不少讲究，从传统蟹宴到街头小馆，吃什么、怎么吃，都是过日子的乐趣。支付宝碰一下也鼓励大家多出门走走，和朋友见见面，感受身边的烟火气。10月26日至11月1日，支付宝碰一下推出「疯狂碰友节」秋促活动。在设有碰一下蓝环设备的活动门店，使用支付宝碰一下支付，有机会享受首笔立减优惠，最高享5元优惠，还有超多爆品低至1分抢，权益有限，先到先得。 - 本期话题成员 - 程衍樑（微博@GrenadierGuard2） 王恺，作家、资深媒体人，《三联生活周刊》前主笔。</p><p>来源：忽左忽右 · 2026-10-30</p><p>标签：#人文 #历史</p><p><a href=\"https://www.xiaoyuzhoufm.com/episode/6ae4546797726cd4675a2ef0?utm_source=rss\">阅读原文 →</a></p>",
+      "content_text": "- 导语 - 秋风起，蟹脚痒，又到了吃蟹的时节。苏州的蟹宴与糕团、南京的盐水鸭与野菜，再到杭州的醋鱼与乡间土菜，虽同处江南，各地的饮食也藏着许多不同讲究。传统苏州蟹宴为何不提倡客人自己动手剥蟹？养殖技术的发展如何改变了人们餐桌上的大闸蟹？那些古籍中有名的菜肴，又经过了当代厨师怎样的改造？从家宴旧事到市井小馆，本期节目与王恺一起聊聊江南的地方风味，以及食物背后的日常生活。 感谢支付宝碰一下对本期节目的特别支持！ 江南人的吃喝有不少讲究，从传统蟹宴到街头小馆，吃什么、怎么吃，都是过日子的乐趣。支付宝碰一下也鼓励大家多出门走走，和朋友见见面，感受身边的烟火气。10月26日至11月1日，支付宝碰一下推出「疯狂碰友节」秋促活动。在设有碰一下蓝环设备的活动门店，使用支付宝碰一下支付，有机会享受首笔立减优惠，最高享5元优惠，还有超多爆品低至1分抢，权益有限，先到先得。 - 本期话题成员 - 程衍樑（微博@GrenadierGuard2） 王恺，作家、资深媒体人，《三联生活周刊》前主笔。",
       "summary": "- 导语 - 秋风起，蟹脚痒，又到了吃蟹的时节。苏州的蟹宴与糕团、南京的盐水鸭与野菜，再到杭州的醋鱼与乡间土菜，虽同处江南，各地的饮食也藏着许多不同讲究。传统苏州蟹宴为何不提倡客人自己动手剥蟹？养殖技术的发展如何改变了人们餐桌上的大闸蟹？那些古籍中有名的菜肴，又经过了当代厨师怎样的改造？从家宴旧事到市井小馆，本期节目与…",
       "date_published": "2026-10-30T00:00:00Z",
       "tags": [
@@ -55,7 +101,8 @@
       "id": "http://www.bbc.co.uk/programmes/p0pk7d0p",
       "url": "http://www.bbc.co.uk/programmes/p0pk7d0p",
       "title": "Is aircon the answer to a heating world?",
-      "content_text": "Do you ever feel it is too hot to sleep? With climate change gradually increasing world temperatures, people across the world are becoming increasingly affected…",
+      "content_html": "<p>Do you ever feel it is too hot to sleep? With climate change gradually increasing world temperatures, people across the world are becoming increasingly affected by hot weather. In many locations, air conditioning is used to help cool down homes and workplaces, but not everyone has access to this. And it isn&#39;t just about getting a good night&#39;s sleep – extremely hot weather can be a serious health risk. Georgie and Neil discuss this and teach you some new vocabulary.</p><p>Source: 6 Minute English · 2026-10-29</p><p>Tags: #英语学习 #英语听力</p><p><a href=\"http://www.bbc.co.uk/programmes/p0pk7d0p\">Read the original →</a></p>",
+      "content_text": "Do you ever feel it is too hot to sleep? With climate change gradually increasing world temperatures, people across the world are becoming increasingly affected by hot weather. In many locations, air conditioning is used to help cool down homes and workplaces, but not everyone has access to this. And it isn't just about getting a good night's sleep – extremely hot weather can be a serious health risk. Georgie and Neil discuss this and teach you some new vocabulary.",
       "summary": "Do you ever feel it is too hot to sleep? With climate change gradually increasing world temperatures, people across the world are becoming increasingly affected…",
       "date_published": "2026-10-29T00:00:00Z",
       "tags": [
@@ -76,7 +123,8 @@
       "id": "https://www.npr.org/2026/10/29/nx-s1-6021969/midterm-spending-blitz-gdp-inflations-reports-israel-election-deadlock-iran-war",
       "url": "https://www.npr.org/2026/10/29/nx-s1-6021969/midterm-spending-blitz-gdp-inflations-reports-israel-election-deadlock-iran-war",
       "title": "Midterm Spending Blitz, GDP & Inflations Reports, Israel Election Deadlock & Iran War",
-      "content_text": "Ad spending in Kansas’ Senate race has jumped tenfold in weeks as Democrats pour money into Republican-heavy districts in the final days before the midterms. Th…",
+      "content_html": "<p>Ad spending in Kansas’ Senate race has jumped tenfold in weeks as Democrats pour money into Republican-heavy districts in the final days before the midterms. The economy appears to be growing at a solid pace, but inflation is still running ahead of wages and leaving many Americans feeling worse off financially.</p><p>Source: Up First from NPR · 2026-10-29</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/29/nx-s1-6021969/midterm-spending-blitz-gdp-inflations-reports-israel-election-deadlock-iran-war\">Read the original →</a></p>",
+      "content_text": "Ad spending in Kansas’ Senate race has jumped tenfold in weeks as Democrats pour money into Republican-heavy districts in the final days before the midterms. The economy appears to be growing at a solid pace, but inflation is still running ahead of wages and leaving many Americans feeling worse off financially.",
       "summary": "Ad spending in Kansas’ Senate race has jumped tenfold in weeks as Democrats pour money into Republican-heavy districts in the final days before the midterms. Th…",
       "date_published": "2026-10-29T00:00:00Z",
       "tags": [
@@ -97,7 +145,8 @@
       "id": "https://www.npr.org/2026/10/28/nx-s1-6020166/trump-rallies-for-republicans-israel-election-results-fed-interest-rates-meeting",
       "url": "https://www.npr.org/2026/10/28/nx-s1-6020166/trump-rallies-for-republicans-israel-election-results-fed-interest-rates-meeting",
       "title": "Trump Rallies For Republicans, Israel Election Results, Fed Interest Rates Meeting",
-      "content_text": "President Trump rallied for Republican Senate candidate Ken Paxton in Texas, but his personal grievances kept competing with his party’s closing message ahead o…",
+      "content_html": "<p>President Trump rallied for Republican Senate candidate Ken Paxton in Texas, but his personal grievances kept competing with his party’s closing message ahead of the midterms. Israel’s election remains too close to call, with Benjamin Netanyahu and Gadi Eisenkot both short of a governing majority and Arab-led parties potentially holding the balance of power.</p><p>Source: Up First from NPR · 2026-10-28</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/28/nx-s1-6020166/trump-rallies-for-republicans-israel-election-results-fed-interest-rates-meeting\">Read the original →</a></p>",
+      "content_text": "President Trump rallied for Republican Senate candidate Ken Paxton in Texas, but his personal grievances kept competing with his party’s closing message ahead of the midterms. Israel’s election remains too close to call, with Benjamin Netanyahu and Gadi Eisenkot both short of a governing majority and Arab-led parties potentially holding the balance of power.",
       "summary": "President Trump rallied for Republican Senate candidate Ken Paxton in Texas, but his personal grievances kept competing with his party’s closing message ahead o…",
       "date_published": "2026-10-28T00:00:00Z",
       "tags": [
@@ -118,7 +167,8 @@
       "id": "https://www.npr.org/2026/10/27/nx-s1-6019096/democrats-lead-in-npr-poll-preparations-for-election-challenge-israel-voting-begins",
       "url": "https://www.npr.org/2026/10/27/nx-s1-6019096/democrats-lead-in-npr-poll-preparations-for-election-challenge-israel-voting-begins",
       "title": "Democrats Lead In NPR Poll, Preparations For Election Challenge, Israel Voting Begins",
-      "content_text": "A new NPR/PBS News/Marist poll gives Democrats an eight-point lead on the congressional ballot, but lagging enthusiasm among young voters and independents could…",
+      "content_html": "<p>A new NPR/PBS News/Marist poll gives Democrats an eight-point lead on the congressional ballot, but lagging enthusiasm among young voters and independents could complicate their push to win Congress. Democrats are preparing legal and political responses to possible election challenges from President Trump as he offers million-dollar rewards for tips leading to voter fraud convictions.</p><p>Source: Up First from NPR · 2026-10-27</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/27/nx-s1-6019096/democrats-lead-in-npr-poll-preparations-for-election-challenge-israel-voting-begins\">Read the original →</a></p>",
+      "content_text": "A new NPR/PBS News/Marist poll gives Democrats an eight-point lead on the congressional ballot, but lagging enthusiasm among young voters and independents could complicate their push to win Congress. Democrats are preparing legal and political responses to possible election challenges from President Trump as he offers million-dollar rewards for tips leading to voter fraud convictions.",
       "summary": "A new NPR/PBS News/Marist poll gives Democrats an eight-point lead on the congressional ballot, but lagging enthusiasm among young voters and independents could…",
       "date_published": "2026-10-27T00:00:00Z",
       "tags": [
@@ -139,7 +189,8 @@
       "id": "https://www.xiaoyuzhoufm.com/episode/6ae0674fc96c8942ec13048e?utm_source=rss",
       "url": "https://www.xiaoyuzhoufm.com/episode/6ae0674fc96c8942ec13048e?utm_source=rss",
       "title": "511 重新发现费孝通：文学视角下的三十年代江南丝业危机与北平青年思潮",
-      "content_text": "- 导语 - 2016年，一部尘封多年的费孝通英文小说手稿，在伦敦政治经济学院意外重见天日。这部题为《茧》的小说，也为理解费孝通的学术道路提供了新的线索。小说以苏南一家制丝工厂为背景，与茅盾《春蚕》共同触及三十年代江南农村的经济困境，却对农村出路提出了不同设想。这部小说与费孝通的社会学名著《江村经济》究竟是什么关系？它…",
+      "content_html": "<p>- 导语 - 2016年，一部尘封多年的费孝通英文小说手稿，在伦敦政治经济学院意外重见天日。这部题为《茧》的小说，也为理解费孝通的学术道路提供了新的线索。小说以苏南一家制丝工厂为背景，与茅盾《春蚕》共同触及三十年代江南农村的经济困境，却对农村出路提出了不同设想。这部小说与费孝通的社会学名著《江村经济》究竟是什么关系？它又如何与三十年代的社会性质论战形成关联？费孝通为何最终选择社会学？大革命失败与家族命运，又在其中扮演了怎样的角色？请听本期嘉宾袁先欣老师带来的精彩分享！ - 本期话题成员 - 程衍樑（微博@GrenadierGuard2） 袁先欣，清华大学人文学院副教授。 - 时间轴 - 02:27 费孝通小说《茧》手稿的重新发现 07:21 伦敦文学经纪人的邀约与「赛珍珠神话」 13:50 革命与改良：茅盾《春蚕》与费孝通《茧》的两种叙事 20:43 中国农村文学的地域差异 27:11 《茧》工厂的现实参照：华新制丝所与永泰丝厂 37:26 陶希圣挑起社会性质论战：中国到底是一个什么社会？</p><p>来源：忽左忽右 · 2026-10-27</p><p>标签：#人文 #历史</p><p><a href=\"https://www.xiaoyuzhoufm.com/episode/6ae0674fc96c8942ec13048e?utm_source=rss\">阅读原文 →</a></p>",
+      "content_text": "- 导语 - 2016年，一部尘封多年的费孝通英文小说手稿，在伦敦政治经济学院意外重见天日。这部题为《茧》的小说，也为理解费孝通的学术道路提供了新的线索。小说以苏南一家制丝工厂为背景，与茅盾《春蚕》共同触及三十年代江南农村的经济困境，却对农村出路提出了不同设想。这部小说与费孝通的社会学名著《江村经济》究竟是什么关系？它又如何与三十年代的社会性质论战形成关联？费孝通为何最终选择社会学？大革命失败与家族命运，又在其中扮演了怎样的角色？请听本期嘉宾袁先欣老师带来的精彩分享！ - 本期话题成员 - 程衍樑（微博@GrenadierGuard2） 袁先欣，清华大学人文学院副教授。 - 时间轴 - 02:27 费孝通小说《茧》手稿的重新发现 07:21 伦敦文学经纪人的邀约与「赛珍珠神话」 13:50 革命与改良：茅盾《春蚕》与费孝通《茧》的两种叙事 20:43 中国农村文学的地域差异 27:11 《茧》工厂的现实参照：华新制丝所与永泰丝厂 37:26 陶希圣挑起社会性质论战：中国到底是一个什么社会？",
       "summary": "- 导语 - 2016年，一部尘封多年的费孝通英文小说手稿，在伦敦政治经济学院意外重见天日。这部题为《茧》的小说，也为理解费孝通的学术道路提供了新的线索。小说以苏南一家制丝工厂为背景，与茅盾《春蚕》共同触及三十年代江南农村的经济困境，却对农村出路提出了不同设想。这部小说与费孝通的社会学名著《江村经济》究竟是什么关系？它…",
       "date_published": "2026-10-27T00:00:00Z",
       "tags": [
@@ -160,7 +211,8 @@
       "id": "https://crazy.capital/150",
       "url": "https://crazy.capital/150",
       "title": "150 ✪ alo入华姗姗来迟；凯乐石、之禾持续提价",
-      "content_text": "「双十一」购物季即将到来，我们来聊几个定价稍高的消费品牌。虽然「消费降级」的说法已经提了好几年，但有些品牌却在逆势增长、甚至实现了令人羡慕的「量价齐升」。 什么因素导致alo现在才进入中国市场？虽然姗姗来迟，alo中国开业当天就打破了天猫运动户外行业新品牌开店的销售纪录。但依靠名人效应和时尚生活方式构建品牌溢价的打法，…",
+      "content_html": "<p>「双十一」购物季即将到来，我们来聊几个定价稍高的消费品牌。虽然「消费降级」的说法已经提了好几年，但有些品牌却在逆势增长、甚至实现了令人羡慕的「量价齐升」。 什么因素导致alo现在才进入中国市场？虽然姗姗来迟，alo中国开业当天就打破了天猫运动户外行业新品牌开店的销售纪录。但依靠名人效应和时尚生活方式构建品牌溢价的打法，在中国有多大发展空间？ 高端鞋服不再是洋品牌的专利，国产品牌正在强势崛起。之前的节目我们聊过山下有松，这期节目聊到的凯乐石和之禾也是其中的典型代表。 凯乐石如何从濒临倒闭一跃成为年销售额近百亿的国产户外品牌扛把子？创始人的传奇经历，如何成为其它品牌无法复制的信任与背书？之禾产品均价2400元，年复购率竟高达68%，到底是什么人在买？如何实现扩大高端原材料比例提升产品价格的同时，维护好稳定复购的核心用户圈层？ 中国消费市场需要更多这样的品牌故事。 疯投圈第二期长沙游学 2026年11月20日～21日（周五～周六）疯投圈将举行第二期的长沙游学考察活动。微信搜索「疯投圈」服务号，发送关键词「长沙」了解详情和报名。</p><p>来源：疯投圈 · 2026-10-27</p><p>标签：#商业 #创投</p><p><a href=\"https://crazy.capital/150\">阅读原文 →</a></p>",
+      "content_text": "「双十一」购物季即将到来，我们来聊几个定价稍高的消费品牌。虽然「消费降级」的说法已经提了好几年，但有些品牌却在逆势增长、甚至实现了令人羡慕的「量价齐升」。 什么因素导致alo现在才进入中国市场？虽然姗姗来迟，alo中国开业当天就打破了天猫运动户外行业新品牌开店的销售纪录。但依靠名人效应和时尚生活方式构建品牌溢价的打法，在中国有多大发展空间？ 高端鞋服不再是洋品牌的专利，国产品牌正在强势崛起。之前的节目我们聊过山下有松，这期节目聊到的凯乐石和之禾也是其中的典型代表。 凯乐石如何从濒临倒闭一跃成为年销售额近百亿的国产户外品牌扛把子？创始人的传奇经历，如何成为其它品牌无法复制的信任与背书？之禾产品均价2400元，年复购率竟高达68%，到底是什么人在买？如何实现扩大高端原材料比例提升产品价格的同时，维护好稳定复购的核心用户圈层？ 中国消费市场需要更多这样的品牌故事。 疯投圈第二期长沙游学 2026年11月20日～21日（周五～周六）疯投圈将举行第二期的长沙游学考察活动。微信搜索「疯投圈」服务号，发送关键词「长沙」了解详情和报名。",
       "summary": "「双十一」购物季即将到来，我们来聊几个定价稍高的消费品牌。虽然「消费降级」的说法已经提了好几年，但有些品牌却在逆势增长、甚至实现了令人羡慕的「量价齐升」。 什么因素导致alo现在才进入中国市场？虽然姗姗来迟，alo中国开业当天就打破了天猫运动户外行业新品牌开店的销售纪录。但依靠名人效应和时尚生活方式构建品牌溢价的打法，…",
       "date_published": "2026-10-27T00:00:00Z",
       "tags": [
@@ -181,7 +233,8 @@
       "id": "https://www.npr.org/2026/10/26/nx-s1-6016798/gop-redistricting-bust-lula-wins-brazil-election-protest-spread-in-europe",
       "url": "https://www.npr.org/2026/10/26/nx-s1-6016798/gop-redistricting-bust-lula-wins-brazil-election-protest-spread-in-europe",
       "title": "GOP Redistricting Bust, Lula Wins Brazil Election, Protest Spread In Europe",
-      "content_text": "Republicans redrew 15 House districts hoping to protect their majority, but most have become competitive races as the party’s redistricting strategy falls short…",
+      "content_html": "<p>Republicans redrew 15 House districts hoping to protect their majority, but most have become competitive races as the party’s redistricting strategy falls short of expectations. Brazil’s leftist President Luiz Inácio Lula da Silva won reelection after trailing in the first round, but far-right rival Flávio Bolsonaro is demanding the result be thrown out.</p><p>Source: Up First from NPR · 2026-10-26</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/26/nx-s1-6016798/gop-redistricting-bust-lula-wins-brazil-election-protest-spread-in-europe\">Read the original →</a></p>",
+      "content_text": "Republicans redrew 15 House districts hoping to protect their majority, but most have become competitive races as the party’s redistricting strategy falls short of expectations. Brazil’s leftist President Luiz Inácio Lula da Silva won reelection after trailing in the first round, but far-right rival Flávio Bolsonaro is demanding the result be thrown out.",
       "summary": "Republicans redrew 15 House districts hoping to protect their majority, but most have become competitive races as the party’s redistricting strategy falls short…",
       "date_published": "2026-10-26T00:00:00Z",
       "tags": [
@@ -202,7 +255,8 @@
       "id": "https://www.npr.org/2026/10/25/nx-s1-6014758/pinching-pennies-casting-ballots-a-midterms-dispatch-from-the-midwest",
       "url": "https://www.npr.org/2026/10/25/nx-s1-6014758/pinching-pennies-casting-ballots-a-midterms-dispatch-from-the-midwest",
       "title": "Pinching pennies, casting ballots: a midterms dispatch from the Midwest",
-      "content_text": "The Midwest used to be known as an affordable place to live. Lately, though, many people there are having a hard time making ends meet. In this episode of The S…",
+      "content_html": "<p><img src=\"https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5712x3213+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3e%2F22%2F4f98db054bec90d546b6f33da2ea%2Fe3eb4aee-d68c-4a0a-a246-025e7bd7e3d9.jpeg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>The Midwest used to be known as an affordable place to live. Lately, though, many people there are having a hard time making ends meet. In this episode of The Sunday Story, Holly Edgell and Daniel Wheaton from NPR’s Midwest Newsroom bring us the voices of Midwesterners. We hear about how people in the region are struggling financially, and how the affordability crisis is impacting their votes in the midterms.</p><p>Source: Up First from NPR · 2026-10-25</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/25/nx-s1-6014758/pinching-pennies-casting-ballots-a-midterms-dispatch-from-the-midwest\">Read the original →</a></p>",
+      "content_text": "The Midwest used to be known as an affordable place to live. Lately, though, many people there are having a hard time making ends meet. In this episode of The Sunday Story, Holly Edgell and Daniel Wheaton from NPR’s Midwest Newsroom bring us the voices of Midwesterners. We hear about how people in the region are struggling financially, and how the affordability crisis is impacting their votes in the midterms.",
       "summary": "The Midwest used to be known as an affordable place to live. Lately, though, many people there are having a hard time making ends meet. In this episode of The S…",
       "date_published": "2026-10-25T00:00:00Z",
       "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5712x3213+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3e%2F22%2F4f98db054bec90d546b6f33da2ea%2Fe3eb4aee-d68c-4a0a-a246-025e7bd7e3d9.jpeg",
@@ -224,7 +278,8 @@
       "id": "https://www.npr.org/2026/10/24/nx-s1-6014537/websites-go-offline-protests-in-france-netflix-downsizes",
       "url": "https://www.npr.org/2026/10/24/nx-s1-6014537/websites-go-offline-protests-in-france-netflix-downsizes",
       "title": "Websites Go Offline, Protests in France, Netflix Downsizes",
-      "content_text": "AI discovered a vulnerability in part of the internet's architecture, called PHP2SHELL. Security researchers rushed to fix it, but the news leaked and hackers h…",
+      "content_html": "<p>AI discovered a vulnerability in part of the internet&#39;s architecture, called PHP2SHELL. Security researchers rushed to fix it, but the news leaked and hackers have swooped in. France deploys hordes of police as another wave of protests begin. Netflix is regrouping after the release of its latest quarterly earnings this week. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include sponsor-free listening. Learn more at plus.npr.org.</p><p>Source: Up First from NPR · 2026-10-24</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/24/nx-s1-6014537/websites-go-offline-protests-in-france-netflix-downsizes\">Read the original →</a></p>",
+      "content_text": "AI discovered a vulnerability in part of the internet's architecture, called PHP2SHELL. Security researchers rushed to fix it, but the news leaked and hackers have swooped in. France deploys hordes of police as another wave of protests begin. Netflix is regrouping after the release of its latest quarterly earnings this week. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include sponsor-free listening. Learn more at plus.npr.org.",
       "summary": "AI discovered a vulnerability in part of the internet's architecture, called PHP2SHELL. Security researchers rushed to fix it, but the news leaked and hackers h…",
       "date_published": "2026-10-24T00:00:00Z",
       "tags": [
@@ -242,31 +297,11 @@
       }
     },
     {
-      "id": "https://freakonomics.com",
-      "url": "https://freakonomics.com",
-      "title": "692. What Will A.I. Do to (and for) Human Creativity?",
-      "content_text": "Writers, designers, actors, coders, musicians, thinkers — they’re all worried about being replaced by machines. But what if the A.I.s are actually here to help?…",
-      "summary": "Writers, designers, actors, coders, musicians, thinkers — they’re all worried about being replaced by machines. But what if the A.I.s are actually here to help?…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "经济",
-        "思考"
-      ],
-      "authors": [
-        {
-          "name": "Freakonomics Radio"
-        }
-      ],
-      "_shelf": {
-        "type": "audio",
-        "shelf": "feeds-simplecast-com"
-      }
-    },
-    {
       "id": "https://www.npr.org/2026/10/23/nx-s1-6010864/how-we-experience-time",
       "url": "https://www.npr.org/2026/10/23/nx-s1-6010864/how-we-experience-time",
       "title": "How we experience time",
-      "content_text": "Why does one hour drag by, but a year can pass in a flash? And how does our relationship with time influence our behavior? This hour, TED speakers share ideas o…",
+      "content_html": "<p><img src=\"https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1080+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff3%2F4c%2F657ce39d4e7b81214a636d5fb506%2F06d8a0a0-cfb3-42ec-9791-9fde1ad9f6cd.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Why does one hour drag by, but a year can pass in a flash? And how does our relationship with time influence our behavior? This hour, TED speakers share ideas on making the most of the time we have. Guests include artist Katie Paterson, cognitive neuroscientist Irena Arslanova, the late music director Robert Franz and the late psychologist Philip Zimbardo. Original broadcast date: May 16, 2025 Support public media with NPR+ and enjoy perks for over 25 podcasts like this one.</p><p>Source: TED Radio Hour · 2026-10-23</p><p>Tags: #演讲 #思考</p><p><a href=\"https://www.npr.org/2026/10/23/nx-s1-6010864/how-we-experience-time\">Read the original →</a></p>",
+      "content_text": "Why does one hour drag by, but a year can pass in a flash? And how does our relationship with time influence our behavior? This hour, TED speakers share ideas on making the most of the time we have. Guests include artist Katie Paterson, cognitive neuroscientist Irena Arslanova, the late music director Robert Franz and the late psychologist Philip Zimbardo. Original broadcast date: May 16, 2025 Support public media with NPR+ and enjoy perks for over 25 podcasts like this one.",
       "summary": "Why does one hour drag by, but a year can pass in a flash? And how does our relationship with time influence our behavior? This hour, TED speakers share ideas o…",
       "date_published": "2026-10-23T00:00:00Z",
       "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1080+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff3%2F4c%2F657ce39d4e7b81214a636d5fb506%2F06d8a0a0-cfb3-42ec-9791-9fde1ad9f6cd.jpg",
@@ -288,7 +323,8 @@
       "id": "https://www.npr.org/2026/10/23/nx-s1-6013298/us-prepares-for-possible-strikes-midterm-early-voting-trump-bbc-deposition",
       "url": "https://www.npr.org/2026/10/23/nx-s1-6013298/us-prepares-for-possible-strikes-midterm-early-voting-trump-bbc-deposition",
       "title": "US Prepares For Possible Strikes, Midterm Early Voting, Trump BBC Deposition",
-      "content_text": "The U.S. is sending a third aircraft carrier to the Middle East as oil prices climb and the prospect of another attack on Iran grows. More than 19 million Ameri…",
+      "content_html": "<p>The U.S. is sending a third aircraft carrier to the Middle East as oil prices climb and the prospect of another attack on Iran grows. More than 19 million Americans have already voted, with strong turnout among Democrats and voters of color, but the numbers can’t tell us who will win. A judge has ordered President Trump to testify in his $10 billion defamation case against the BBC, potentially forcing him to answer questions about his finances and January 6.</p><p>Source: Up First from NPR · 2026-10-23</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/23/nx-s1-6013298/us-prepares-for-possible-strikes-midterm-early-voting-trump-bbc-deposition\">Read the original →</a></p>",
+      "content_text": "The U.S. is sending a third aircraft carrier to the Middle East as oil prices climb and the prospect of another attack on Iran grows. More than 19 million Americans have already voted, with strong turnout among Democrats and voters of color, but the numbers can’t tell us who will win. A judge has ordered President Trump to testify in his $10 billion defamation case against the BBC, potentially forcing him to answer questions about his finances and January 6.",
       "summary": "The U.S. is sending a third aircraft carrier to the Middle East as oil prices climb and the prospect of another attack on Iran grows. More than 19 million Ameri…",
       "date_published": "2026-10-23T00:00:00Z",
       "tags": [
@@ -309,7 +345,8 @@
       "id": "https://www.xiaoyuzhoufm.com/episode/6adb27a497726cd4675696ad?utm_source=rss",
       "url": "https://www.xiaoyuzhoufm.com/episode/6adb27a497726cd4675696ad?utm_source=rss",
       "title": "510 泰国侨批沉浮录：下南洋浪潮中的跨国华人经济网络",
-      "content_text": "- 导语 - 电影《给阿嬷的情书》曾让更多人认识了「侨批」与「侨汇」，在这些钱和信的背后，连接着一套横跨曼谷、香港与汕头的商业网络。学者汪玉姣以泰国华人为切入点，梳理十九世纪下半叶至二十世纪末泰国侨批业兴衰。早期福建商人如何与暹罗王室建立联系？批局怎样通过汇兑与贸易对冲实现跨境资金流转？民族主义兴起后，泰国对华人推行了…",
+      "content_html": "<p>- 导语 - 电影《给阿嬷的情书》曾让更多人认识了「侨批」与「侨汇」，在这些钱和信的背后，连接着一套横跨曼谷、香港与汕头的商业网络。学者汪玉姣以泰国华人为切入点，梳理十九世纪下半叶至二十世纪末泰国侨批业兴衰。早期福建商人如何与暹罗王室建立联系？批局怎样通过汇兑与贸易对冲实现跨境资金流转？民族主义兴起后，泰国对华人推行了哪些同化政策与金融管制？在「泰日同盟」的二战局势下，侨批业者又如何维系秘密汇路？请听本期嘉宾汪玉姣带来的精彩分享！ - 本期话题成员 - 程衍樑（微博@GrenadierGuard2） 汪玉姣，早稻田大学博士。著有《金钱与血脉：泰国侨批商业帝国的百年激荡（1850年代—1990年代）》 - 时间轴 - 02:24 电影的浪漫化之外，真实的侨批更像一张收据 09:09 早期福建商人与暹罗王室的贸易、联姻 13:54 亚洲摆脱被殖民的三种路径：「中国以大，日本以强，泰国以巧」 16:43 华裔借英法籍身份规避暹罗邮政监管 24:47 泰国政府眼中的侨批为何成了「走私信件」与外汇流出？ 32:25 无详细地址的信件如何准确发往目的地？</p><p>来源：忽左忽右 · 2026-10-23</p><p>标签：#人文 #历史</p><p><a href=\"https://www.xiaoyuzhoufm.com/episode/6adb27a497726cd4675696ad?utm_source=rss\">阅读原文 →</a></p>",
+      "content_text": "- 导语 - 电影《给阿嬷的情书》曾让更多人认识了「侨批」与「侨汇」，在这些钱和信的背后，连接着一套横跨曼谷、香港与汕头的商业网络。学者汪玉姣以泰国华人为切入点，梳理十九世纪下半叶至二十世纪末泰国侨批业兴衰。早期福建商人如何与暹罗王室建立联系？批局怎样通过汇兑与贸易对冲实现跨境资金流转？民族主义兴起后，泰国对华人推行了哪些同化政策与金融管制？在「泰日同盟」的二战局势下，侨批业者又如何维系秘密汇路？请听本期嘉宾汪玉姣带来的精彩分享！ - 本期话题成员 - 程衍樑（微博@GrenadierGuard2） 汪玉姣，早稻田大学博士。著有《金钱与血脉：泰国侨批商业帝国的百年激荡（1850年代—1990年代）》 - 时间轴 - 02:24 电影的浪漫化之外，真实的侨批更像一张收据 09:09 早期福建商人与暹罗王室的贸易、联姻 13:54 亚洲摆脱被殖民的三种路径：「中国以大，日本以强，泰国以巧」 16:43 华裔借英法籍身份规避暹罗邮政监管 24:47 泰国政府眼中的侨批为何成了「走私信件」与外汇流出？ 32:25 无详细地址的信件如何准确发往目的地？",
       "summary": "- 导语 - 电影《给阿嬷的情书》曾让更多人认识了「侨批」与「侨汇」，在这些钱和信的背后，连接着一套横跨曼谷、香港与汕头的商业网络。学者汪玉姣以泰国华人为切入点，梳理十九世纪下半叶至二十世纪末泰国侨批业兴衰。早期福建商人如何与暹罗王室建立联系？批局怎样通过汇兑与贸易对冲实现跨境资金流转？民族主义兴起后，泰国对华人推行了…",
       "date_published": "2026-10-23T00:00:00Z",
       "tags": [
@@ -330,7 +367,8 @@
       "id": "http://www.bbc.co.uk/programmes/p0phz9z7",
       "url": "http://www.bbc.co.uk/programmes/p0phz9z7",
       "title": "What should you eat for a better night’s sleep?",
-      "content_text": "Have you ever had the feeling of lying awake at night, unable to get to sleep? Many of us know what it is like to struggle with sleep, especially if we have dru…",
+      "content_html": "<p>Have you ever had the feeling of lying awake at night, unable to get to sleep? Many of us know what it is like to struggle with sleep, especially if we have drunk too much tea or coffee before bed! But did you know that your sleep quality can be affected by other parts of your diet too? Georgie and Phil discuss this and teach you some new vocabulary. Get a free transcript and quiz at bbclearningenglish.com (currently experiencing technical issues).</p><p>Source: 6 Minute English · 2026-10-22</p><p>Tags: #英语学习 #英语听力</p><p><a href=\"http://www.bbc.co.uk/programmes/p0phz9z7\">Read the original →</a></p>",
+      "content_text": "Have you ever had the feeling of lying awake at night, unable to get to sleep? Many of us know what it is like to struggle with sleep, especially if we have drunk too much tea or coffee before bed! But did you know that your sleep quality can be affected by other parts of your diet too? Georgie and Phil discuss this and teach you some new vocabulary. Get a free transcript and quiz at bbclearningenglish.com (currently experiencing technical issues).",
       "summary": "Have you ever had the feeling of lying awake at night, unable to get to sleep? Many of us know what it is like to struggle with sleep, especially if we have dru…",
       "date_published": "2026-10-22T00:00:00Z",
       "tags": [
@@ -351,7 +389,8 @@
       "id": "https://www.npr.org/2026/10/22/nx-s1-6012014/democratic-surrogates-campaign-us-israel-plan-iran-strikes-tesla-spacex-merger",
       "url": "https://www.npr.org/2026/10/22/nx-s1-6012014/democratic-surrogates-campaign-us-israel-plan-iran-strikes-tesla-spacex-merger",
       "title": "Democratic Surrogates Campaign, US & Israel Plan Iran Strikes, Tesla SpaceX Merger",
-      "content_text": "Democrats are sending former President Barack Obama and former Vice President Kamala Harris into competitive Senate races to help the party win in Republican te…",
+      "content_html": "<p>Democrats are sending former President Barack Obama and former Vice President Kamala Harris into competitive Senate races to help the party win in Republican territory. NPR has learned the U.S. and Israel are preparing for a possible attack on Iran after the midterms, while Americans face settler violence and military arrests in the West Bank.</p><p>Source: Up First from NPR · 2026-10-22</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/22/nx-s1-6012014/democratic-surrogates-campaign-us-israel-plan-iran-strikes-tesla-spacex-merger\">Read the original →</a></p>",
+      "content_text": "Democrats are sending former President Barack Obama and former Vice President Kamala Harris into competitive Senate races to help the party win in Republican territory. NPR has learned the U.S. and Israel are preparing for a possible attack on Iran after the midterms, while Americans face settler violence and military arrests in the West Bank.",
       "summary": "Democrats are sending former President Barack Obama and former Vice President Kamala Harris into competitive Senate races to help the party win in Republican te…",
       "date_published": "2026-10-22T00:00:00Z",
       "tags": [
@@ -372,7 +411,8 @@
       "id": "https://www.npr.org/2026/10/21/nx-s1-6010363/zelenskyy-mending-ties-trump-in-north-carolina-saudi-arabia-gets-british-support",
       "url": "https://www.npr.org/2026/10/21/nx-s1-6010363/zelenskyy-mending-ties-trump-in-north-carolina-saudi-arabia-gets-british-support",
       "title": "Zelenskyy Mending Ties, Trump In North Carolina, Saudi Arabia Gets British Support",
-      "content_text": "Ukrainian President Volodymyr Zelenskyy is trying to repair ties with Washington as President Trump’s envoy Steve Witkoff carries new peace proposals to Russia.…",
+      "content_html": "<p>Ukrainian President Volodymyr Zelenskyy is trying to repair ties with Washington as President Trump’s envoy Steve Witkoff carries new peace proposals to Russia. President Trump is campaigning in North Carolina as Republicans struggle in key races and he ties federal relief promises to the outcome of the midterms. Britain is sending fighter jets to help Saudi Arabia defend against Houthi attacks as the war disrupts the kingdom’s economy and deepens the humanitarian crisis in Yemen.</p><p>Source: Up First from NPR · 2026-10-21</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/21/nx-s1-6010363/zelenskyy-mending-ties-trump-in-north-carolina-saudi-arabia-gets-british-support\">Read the original →</a></p>",
+      "content_text": "Ukrainian President Volodymyr Zelenskyy is trying to repair ties with Washington as President Trump’s envoy Steve Witkoff carries new peace proposals to Russia. President Trump is campaigning in North Carolina as Republicans struggle in key races and he ties federal relief promises to the outcome of the midterms. Britain is sending fighter jets to help Saudi Arabia defend against Houthi attacks as the war disrupts the kingdom’s economy and deepens the humanitarian crisis in Yemen.",
       "summary": "Ukrainian President Volodymyr Zelenskyy is trying to repair ties with Washington as President Trump’s envoy Steve Witkoff carries new peace proposals to Russia.…",
       "date_published": "2026-10-21T00:00:00Z",
       "tags": [
@@ -393,7 +433,8 @@
       "id": "https://www.npr.org/2026/10/20/nx-s1-6008838/pushback-on-trumps-russia-policy-competitive-midterm-races-doj-noncitizen-voting",
       "url": "https://www.npr.org/2026/10/20/nx-s1-6008838/pushback-on-trumps-russia-policy-competitive-midterm-races-doj-noncitizen-voting",
       "title": "Pushback On Trump's Russia Policy, Competitive Midterm Races, DOJ Noncitizen Voting",
-      "content_text": "1Ukrainian President Volodymyr Zelenskyy is taking his concerns about delayed U.S. weapons and intelligence directly to Congress as lawmakers in both parties qu…",
+      "content_html": "<p>1Ukrainian President Volodymyr Zelenskyy is taking his concerns about delayed U.S. weapons and intelligence directly to Congress as lawmakers in both parties question President Trump’s approach to Russia. Republicans are spending heavily to defend traditionally conservative territory as Democrats expand the midterm map two weeks before Election Day.</p><p>Source: Up First from NPR · 2026-10-20</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/20/nx-s1-6008838/pushback-on-trumps-russia-policy-competitive-midterm-races-doj-noncitizen-voting\">Read the original →</a></p>",
+      "content_text": "1Ukrainian President Volodymyr Zelenskyy is taking his concerns about delayed U.S. weapons and intelligence directly to Congress as lawmakers in both parties question President Trump’s approach to Russia. Republicans are spending heavily to defend traditionally conservative territory as Democrats expand the midterm map two weeks before Election Day.",
       "summary": "1Ukrainian President Volodymyr Zelenskyy is taking his concerns about delayed U.S. weapons and intelligence directly to Congress as lawmakers in both parties qu…",
       "date_published": "2026-10-20T00:00:00Z",
       "tags": [
@@ -414,7 +455,8 @@
       "id": "https://www.xiaoyuzhoufm.com/episode/6ad72c1ff80d9814a6e11f31?utm_source=rss",
       "url": "https://www.xiaoyuzhoufm.com/episode/6ad72c1ff80d9814a6e11f31?utm_source=rss",
       "title": "509 通往战时陪都之路：卢作孚建设重庆北碚往事",
-      "content_text": "- 导语 - 民国时期，位于四川四县交界的北碚，军阀混战、匪患丛生，被形容为「千年虎狼之邑」。1918年，当地士绅自发组建峡防营守护秩序，后来改组为峡防局，并于1927年交由实业家卢作孚接掌。从开发煤矿、修筑北川铁路推动乡村现代化，再到创办中国西部科学院、推动西南资源调查、将国家意识与民族主义注入地方治理，北碚在十余年…",
+      "content_html": "<p>- 导语 - 民国时期，位于四川四县交界的北碚，军阀混战、匪患丛生，被形容为「千年虎狼之邑」。1918年，当地士绅自发组建峡防营守护秩序，后来改组为峡防局，并于1927年交由实业家卢作孚接掌。从开发煤矿、修筑北川铁路推动乡村现代化，再到创办中国西部科学院、推动西南资源调查、将国家意识与民族主义注入地方治理，北碚在十余年间展开了一场「创造新世界」的社会实验。民国时期的地方军阀如何与士绅互相背书？传统团练如何演变为「寓兵于工」的现代组织？与梁漱溟、晏阳初的乡建相比，一代船王卢作孚的「在地工业化」有何独特之处？请听本期嘉宾王果老师带来的精彩分享！ - 本期话题成员 - 程衍樑（微博@GrenadierGuard2） 王果，四川大学历史文化学院教授，新作《创造新世界：重庆北碚的乡村现代化探索（1918—1936）》 - 时间轴 - 04:21 美洲作物和现代工业两次改造大西南山区 06:39 「峡防局」的诞生与小三峡区域匪患问题 14:32 第一任峡防局长胡南先：将共和理论与地方社会相结合 20:31 卢作孚与「少年中国学会」：在四川寻找救国方案 33:48 北碚工业化的开端：煤炭、铁路与政治…</p><p>来源：忽左忽右 · 2026-10-20</p><p>标签：#人文 #历史</p><p><a href=\"https://www.xiaoyuzhoufm.com/episode/6ad72c1ff80d9814a6e11f31?utm_source=rss\">阅读原文 →</a></p>",
+      "content_text": "- 导语 - 民国时期，位于四川四县交界的北碚，军阀混战、匪患丛生，被形容为「千年虎狼之邑」。1918年，当地士绅自发组建峡防营守护秩序，后来改组为峡防局，并于1927年交由实业家卢作孚接掌。从开发煤矿、修筑北川铁路推动乡村现代化，再到创办中国西部科学院、推动西南资源调查、将国家意识与民族主义注入地方治理，北碚在十余年间展开了一场「创造新世界」的社会实验。民国时期的地方军阀如何与士绅互相背书？传统团练如何演变为「寓兵于工」的现代组织？与梁漱溟、晏阳初的乡建相比，一代船王卢作孚的「在地工业化」有何独特之处？请听本期嘉宾王果老师带来的精彩分享！ - 本期话题成员 - 程衍樑（微博@GrenadierGuard2） 王果，四川大学历史文化学院教授，新作《创造新世界：重庆北碚的乡村现代化探索（1918—1936）》 - 时间轴 - 04:21 美洲作物和现代工业两次改造大西南山区 06:39 「峡防局」的诞生与小三峡区域匪患问题 14:32 第一任峡防局长胡南先：将共和理论与地方社会相结合 20:31 卢作孚与「少年中国学会」：在四川寻找救国方案 33:48 北碚工业化的开端：煤炭、铁路与政治…",
       "summary": "- 导语 - 民国时期，位于四川四县交界的北碚，军阀混战、匪患丛生，被形容为「千年虎狼之邑」。1918年，当地士绅自发组建峡防营守护秩序，后来改组为峡防局，并于1927年交由实业家卢作孚接掌。从开发煤矿、修筑北川铁路推动乡村现代化，再到创办中国西部科学院、推动西南资源调查、将国家意识与民族主义注入地方治理，北碚在十余年…",
       "date_published": "2026-10-20T00:00:00Z",
       "tags": [
@@ -435,7 +477,8 @@
       "id": "https://www.npr.org/2026/10/19/nx-s1-6007650/trump-eases-russia-sanctions-midterm-campaign-money-violent-protests-in-france",
       "url": "https://www.npr.org/2026/10/19/nx-s1-6007650/trump-eases-russia-sanctions-midterm-campaign-money-violent-protests-in-france",
       "title": "Trump Eases Russia Sanctions, Midterm Campaign Money, Violent Protests In France",
-      "content_text": "President Trump is easing pressure on Russia by waiving new sanctions as Ukraine continues striking Russian energy targets and tensions deepen between Trump and…",
+      "content_html": "<p>President Trump is easing pressure on Russia by waiving new sanctions as Ukraine continues striking Russian energy targets and tensions deepen between Trump and Ukrainian President Volodymyr Zelenskyy. Democratic candidates are outraising Republicans across many competitive midterm races, while Elon Musk pours hundreds of millions into GOP super PACs.</p><p>Source: Up First from NPR · 2026-10-19</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/19/nx-s1-6007650/trump-eases-russia-sanctions-midterm-campaign-money-violent-protests-in-france\">Read the original →</a></p>",
+      "content_text": "President Trump is easing pressure on Russia by waiving new sanctions as Ukraine continues striking Russian energy targets and tensions deepen between Trump and Ukrainian President Volodymyr Zelenskyy. Democratic candidates are outraising Republicans across many competitive midterm races, while Elon Musk pours hundreds of millions into GOP super PACs.",
       "summary": "President Trump is easing pressure on Russia by waiving new sanctions as Ukraine continues striking Russian energy targets and tensions deepen between Trump and…",
       "date_published": "2026-10-19T00:00:00Z",
       "tags": [
@@ -456,7 +499,8 @@
       "id": "https://www.npr.org/2026/10/18/nx-s1-6005247/israeli-voters-see-their-upcoming-elections-as-a-matter-of-life-or-death",
       "url": "https://www.npr.org/2026/10/18/nx-s1-6005247/israeli-voters-see-their-upcoming-elections-as-a-matter-of-life-or-death",
       "title": "Israelis have changed. Will they change their leader?",
-      "content_text": "Israelis will vote in national elections next week. It’s the first vote since the Oct. 7 Hamas attacks and the Gaza war. Many Israelis call it the most importan…",
+      "content_html": "<p><img src=\"https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8192x4608+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc3%2F4f%2Fdfbda2714f9889bd58dfb18e3ca6%2Fcfbd820a-643d-4d7e-a314-f92105603824.jpeg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Israelis will vote in national elections next week. It’s the first vote since the Oct. 7 Hamas attacks and the Gaza war. Many Israelis call it the most important vote in their country’s history. On this episode of the Sunday Story, NPR’s Daniel Estrin reports on Israelis and how they’ve changed after three years of wars across the Middle East. Prime Minister Benjamin Netanyahu, one of the world’s most controversial and consequential leaders, is seeking a seventh term.</p><p>Source: Up First from NPR · 2026-10-18</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/18/nx-s1-6005247/israeli-voters-see-their-upcoming-elections-as-a-matter-of-life-or-death\">Read the original →</a></p>",
+      "content_text": "Israelis will vote in national elections next week. It’s the first vote since the Oct. 7 Hamas attacks and the Gaza war. Many Israelis call it the most important vote in their country’s history. On this episode of the Sunday Story, NPR’s Daniel Estrin reports on Israelis and how they’ve changed after three years of wars across the Middle East. Prime Minister Benjamin Netanyahu, one of the world’s most controversial and consequential leaders, is seeking a seventh term.",
       "summary": "Israelis will vote in national elections next week. It’s the first vote since the Oct. 7 Hamas attacks and the Gaza war. Many Israelis call it the most importan…",
       "date_published": "2026-10-18T00:00:00Z",
       "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8192x4608+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc3%2F4f%2Fdfbda2714f9889bd58dfb18e3ca6%2Fcfbd820a-643d-4d7e-a314-f92105603824.jpeg",
@@ -478,7 +522,8 @@
       "id": "https://www.npr.org/2026/10/17/nx-s1-6005278/school-shooting-in-bend-elon-musks-power-mn-senate-race",
       "url": "https://www.npr.org/2026/10/17/nx-s1-6005278/school-shooting-in-bend-elon-musks-power-mn-senate-race",
       "title": "School Shooting in Bend, Elon Musk's Power, MN Senate Race",
-      "content_text": "Authorities say the 16-year-old suspect in a school shooting that killed three children and one teacher at an elementary school in Bend, Oregon was once a stude…",
+      "content_html": "<p>Authorities say the 16-year-old suspect in a school shooting that killed three children and one teacher at an elementary school in Bend, Oregon was once a student there. Elon Musk has influence across the economy and politics. The major party candidates for Minnesota’s U.S. Senate seat faced off in a debate Friday on MPR News. Affordability and fallout from the Trump administration’s policies were key points. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one.</p><p>Source: Up First from NPR · 2026-10-17</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/17/nx-s1-6005278/school-shooting-in-bend-elon-musks-power-mn-senate-race\">Read the original →</a></p>",
+      "content_text": "Authorities say the 16-year-old suspect in a school shooting that killed three children and one teacher at an elementary school in Bend, Oregon was once a student there. Elon Musk has influence across the economy and politics. The major party candidates for Minnesota’s U.S. Senate seat faced off in a debate Friday on MPR News. Affordability and fallout from the Trump administration’s policies were key points. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one.",
       "summary": "Authorities say the 16-year-old suspect in a school shooting that killed three children and one teacher at an elementary school in Bend, Oregon was once a stude…",
       "date_published": "2026-10-17T00:00:00Z",
       "tags": [
@@ -499,7 +544,8 @@
       "id": "https://www.npr.org/2026/10/16/nx-s1-6001767/have-we-forgotten-how-to-play",
       "url": "https://www.npr.org/2026/10/16/nx-s1-6001767/have-we-forgotten-how-to-play",
       "title": "Have we forgotten how to play?",
-      "content_text": "Play is how we evolved to learn, solve problems, and navigate the world. So why do we treat it as optional? This hour, the science of play — and what happens wh…",
+      "content_html": "<p><img src=\"https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1080+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F82%2Fea%2F3be1c9474169b69407729d7cb6a5%2F90347620-18e8-48a7-b0cc-8269df51e0ae.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Play is how we evolved to learn, solve problems, and navigate the world. So why do we treat it as optional? This hour, the science of play — and what happens when we don’t get enough of it. Guests include psychology researcher Peter Gray, sailor and social activist Tracy Edwards and photographer Stefen Chow. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include sponsor-free listening. Learn more at plus.npr.org.</p><p>Source: TED Radio Hour · 2026-10-16</p><p>Tags: #演讲 #思考</p><p><a href=\"https://www.npr.org/2026/10/16/nx-s1-6001767/have-we-forgotten-how-to-play\">Read the original →</a></p>",
+      "content_text": "Play is how we evolved to learn, solve problems, and navigate the world. So why do we treat it as optional? This hour, the science of play — and what happens when we don’t get enough of it. Guests include psychology researcher Peter Gray, sailor and social activist Tracy Edwards and photographer Stefen Chow. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include sponsor-free listening. Learn more at plus.npr.org.",
       "summary": "Play is how we evolved to learn, solve problems, and navigate the world. So why do we treat it as optional? This hour, the science of play — and what happens wh…",
       "date_published": "2026-10-16T00:00:00Z",
       "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1080+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F82%2Fea%2F3be1c9474169b69407729d7cb6a5%2F90347620-18e8-48a7-b0cc-8269df51e0ae.jpg",
@@ -521,7 +567,8 @@
       "id": "https://www.npr.org/2026/10/16/nx-s1-6004791/oregon-school-shooting-russias-view-on-us-ukraine-split-doj-sues-california",
       "url": "https://www.npr.org/2026/10/16/nx-s1-6004791/oregon-school-shooting-russias-view-on-us-ukraine-split-doj-sues-california",
       "title": "Oregon School Shooting, Russia's View On US-Ukraine Split, DOJ Sues California",
-      "content_text": "At least three children and a teacher were killed in a shooting at an elementary school in Bend, Oregon, where police say a 16-year-old gunman was killed by an…",
+      "content_html": "<p>At least three children and a teacher were killed in a shooting at an elementary school in Bend, Oregon, where police say a 16-year-old gunman was killed by an armed community member. As President Trump increasingly blames Ukrainian President Volodymyr Zelenskyy for the failure of peace efforts, Russia is watching the growing divide while beginning to release diesel under its new deal with the United States.</p><p>Source: Up First from NPR · 2026-10-16</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/16/nx-s1-6004791/oregon-school-shooting-russias-view-on-us-ukraine-split-doj-sues-california\">Read the original →</a></p>",
+      "content_text": "At least three children and a teacher were killed in a shooting at an elementary school in Bend, Oregon, where police say a 16-year-old gunman was killed by an armed community member. As President Trump increasingly blames Ukrainian President Volodymyr Zelenskyy for the failure of peace efforts, Russia is watching the growing divide while beginning to release diesel under its new deal with the United States.",
       "summary": "At least three children and a teacher were killed in a shooting at an elementary school in Bend, Oregon, where police say a 16-year-old gunman was killed by an…",
       "date_published": "2026-10-16T00:00:00Z",
       "tags": [
@@ -542,7 +589,8 @@
       "id": "https://www.xiaoyuzhoufm.com/episode/6ad1e13c0e4e410a05bdd935?utm_source=rss",
       "url": "https://www.xiaoyuzhoufm.com/episode/6ad1e13c0e4e410a05bdd935?utm_source=rss",
       "title": "508 相蓝欣谈国际关系视野下的中美欧今昔：从「斯坦佛小集团」到「军事凯恩斯主义」",
-      "content_text": "- 导语 - 纵横国际关系学界的相蓝欣教授，曾长期在日内瓦任教，并与基辛格等外交政策圈人士保持交往。从陪同《凯恩斯传》作者、俄裔学者斯基德尔斯基重返哈尔滨，到走进五角大楼与美国战略大师安德鲁·马歇尔长谈，相蓝欣在本期节目中分享了诸多国际政治掌故，以及对当下中美欧关系的观察。他为何判断北约已进入「最后的倒计时」？如何从「…",
+      "content_html": "<p>- 导语 - 纵横国际关系学界的相蓝欣教授，曾长期在日内瓦任教，并与基辛格等外交政策圈人士保持交往。从陪同《凯恩斯传》作者、俄裔学者斯基德尔斯基重返哈尔滨，到走进五角大楼与美国战略大师安德鲁·马歇尔长谈，相蓝欣在本期节目中分享了诸多国际政治掌故，以及对当下中美欧关系的观察。他为何判断北约已进入「最后的倒计时」？如何从「三个特朗普」框架和WWE表演模式理解特朗普的外交手段？戴高乐如何影响了基辛格而基辛格外交思路又如何影响了特朗普？中欧贸易战山雨欲来，德国的「军事凯恩斯主义」倾向是怎么一回事？请听本期嘉宾相蓝欣教授带来的精彩分享！ - 本期话题成员 - 程衍樑（微博@GrenadierGuard2） 相蓝欣，华东师范大学特聘讲座教授，华盛顿史汀生中心杰出研究员，日内瓦高等国际关系和发展研究生院终身教授。主要研究领域为中国国际关系和现代中国史，合译有《凯恩斯传》。</p><p>来源：忽左忽右 · 2026-10-16</p><p>标签：#人文 #历史</p><p><a href=\"https://www.xiaoyuzhoufm.com/episode/6ad1e13c0e4e410a05bdd935?utm_source=rss\">阅读原文 →</a></p>",
+      "content_text": "- 导语 - 纵横国际关系学界的相蓝欣教授，曾长期在日内瓦任教，并与基辛格等外交政策圈人士保持交往。从陪同《凯恩斯传》作者、俄裔学者斯基德尔斯基重返哈尔滨，到走进五角大楼与美国战略大师安德鲁·马歇尔长谈，相蓝欣在本期节目中分享了诸多国际政治掌故，以及对当下中美欧关系的观察。他为何判断北约已进入「最后的倒计时」？如何从「三个特朗普」框架和WWE表演模式理解特朗普的外交手段？戴高乐如何影响了基辛格而基辛格外交思路又如何影响了特朗普？中欧贸易战山雨欲来，德国的「军事凯恩斯主义」倾向是怎么一回事？请听本期嘉宾相蓝欣教授带来的精彩分享！ - 本期话题成员 - 程衍樑（微博@GrenadierGuard2） 相蓝欣，华东师范大学特聘讲座教授，华盛顿史汀生中心杰出研究员，日内瓦高等国际关系和发展研究生院终身教授。主要研究领域为中国国际关系和现代中国史，合译有《凯恩斯传》。",
       "summary": "- 导语 - 纵横国际关系学界的相蓝欣教授，曾长期在日内瓦任教，并与基辛格等外交政策圈人士保持交往。从陪同《凯恩斯传》作者、俄裔学者斯基德尔斯基重返哈尔滨，到走进五角大楼与美国战略大师安德鲁·马歇尔长谈，相蓝欣在本期节目中分享了诸多国际政治掌故，以及对当下中美欧关系的观察。他为何判断北约已进入「最后的倒计时」？如何从「…",
       "date_published": "2026-10-16T00:00:00Z",
       "tags": [
@@ -563,7 +611,8 @@
       "id": "https://www.ximalaya.com/sound/1024469851",
       "url": "https://www.ximalaya.com/sound/1024469851",
       "title": "对话TEA联合创始人Wade：AI如何让健康管理变得好玩？",
-      "content_text": "当 AI 开始进入健康管理，真正的机会或许不只是“让工具变得更智能”，而在于能否理解用户每天面对的真实问题，并把短暂的新鲜感转化为可以长期坚持的习惯。 这一期，我们邀请 TEA AI 联合创始人兼 COO 宋航 Wade，从他亲历 AI 健康产品 Peako 从 0 到 1 的创业经历出发，聊聊 AI 与日常健康正在碰…",
+      "content_html": "<p><img src=\"https://fdfs.xmcdn.com/storages/d196-audiofreehighqps/6A/4D/GAqhaTsOpllHAAYcYQTpAZGp.jpeg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>当 AI 开始进入健康管理，真正的机会或许不只是“让工具变得更智能”，而在于能否理解用户每天面对的真实问题，并把短暂的新鲜感转化为可以长期坚持的习惯。 这一期，我们邀请 TEA AI 联合创始人兼 COO 宋航 Wade，从他亲历 AI 健康产品 Peako 从 0 到 1 的创业经历出发，聊聊 AI 与日常健康正在碰撞出哪些新的可能：为什么选择 AI 健康这个方向？海外用户对 AI 健康产品有哪些真实需求？我们也会进一步聊聊 AI 产品在海外市场的增长路径，以及从软件走向硬件可能面临的机会与挑战。 如果你也好奇 AI 会如何改变我们管理健康的方式，或者想知道一款面向海外市场的产品，是怎样从一个想法逐渐找到用户和增长路径的，不妨和我们一起听听 Wade 的实践与思考。 【嘉宾信息】 宋航 Wade，MIT毕业的连续创业者，现任 TEA AI 联合创始人兼 COO。曾获 IDG、a16z 等机构投资，并曾任职于多家顶级美元私募股权基金，累计投资额近10亿美元。 目前，他专注于探索 AI 与日常健康的结合，希望打造“Duolingo for Daily Health”。</p><p>来源：出海合伙人 · 2026-10-15</p><p><a href=\"https://www.ximalaya.com/sound/1024469851\">阅读原文 →</a></p>",
+      "content_text": "当 AI 开始进入健康管理，真正的机会或许不只是“让工具变得更智能”，而在于能否理解用户每天面对的真实问题，并把短暂的新鲜感转化为可以长期坚持的习惯。 这一期，我们邀请 TEA AI 联合创始人兼 COO 宋航 Wade，从他亲历 AI 健康产品 Peako 从 0 到 1 的创业经历出发，聊聊 AI 与日常健康正在碰撞出哪些新的可能：为什么选择 AI 健康这个方向？海外用户对 AI 健康产品有哪些真实需求？我们也会进一步聊聊 AI 产品在海外市场的增长路径，以及从软件走向硬件可能面临的机会与挑战。 如果你也好奇 AI 会如何改变我们管理健康的方式，或者想知道一款面向海外市场的产品，是怎样从一个想法逐渐找到用户和增长路径的，不妨和我们一起听听 Wade 的实践与思考。 【嘉宾信息】 宋航 Wade，MIT毕业的连续创业者，现任 TEA AI 联合创始人兼 COO。曾获 IDG、a16z 等机构投资，并曾任职于多家顶级美元私募股权基金，累计投资额近10亿美元。 目前，他专注于探索 AI 与日常健康的结合，希望打造“Duolingo for Daily Health”。",
       "summary": "当 AI 开始进入健康管理，真正的机会或许不只是“让工具变得更智能”，而在于能否理解用户每天面对的真实问题，并把短暂的新鲜感转化为可以长期坚持的习惯。 这一期，我们邀请 TEA AI 联合创始人兼 COO 宋航 Wade，从他亲历 AI 健康产品 Peako 从 0 到 1 的创业经历出发，聊聊 AI 与日常健康正在碰…",
       "date_published": "2026-10-15T00:00:00Z",
       "image": "https://fdfs.xmcdn.com/storages/d196-audiofreehighqps/6A/4D/GAqhaTsOpllHAAYcYQTpAZGp.jpeg",
@@ -582,7 +631,8 @@
       "id": "http://www.bbc.co.uk/programmes/p0pgs2w6",
       "url": "http://www.bbc.co.uk/programmes/p0pgs2w6",
       "title": "Why has gold got so expensive?",
-      "content_text": "Many of us own jewellery or other items that are gold coloured, but do you own anything that is made from real gold? Gold is a precious metal, which means that…",
+      "content_html": "<p>Many of us own jewellery or other items that are gold coloured, but do you own anything that is made from real gold? Gold is a precious metal, which means that there is a limited supply in the world. This not only makes it expensive, but also means that it holds a relatively stable value. So, why are investors interested in it, and should the rest of us start buying more of it? Georgie and Phil discuss this and teach you some new vocabulary. 6 Minute English now has a VIDEO VERSION!</p><p>Source: 6 Minute English · 2026-10-15</p><p>Tags: #英语学习 #英语听力</p><p><a href=\"http://www.bbc.co.uk/programmes/p0pgs2w6\">Read the original →</a></p>",
+      "content_text": "Many of us own jewellery or other items that are gold coloured, but do you own anything that is made from real gold? Gold is a precious metal, which means that there is a limited supply in the world. This not only makes it expensive, but also means that it holds a relatively stable value. So, why are investors interested in it, and should the rest of us start buying more of it? Georgie and Phil discuss this and teach you some new vocabulary. 6 Minute English now has a VIDEO VERSION!",
       "summary": "Many of us own jewellery or other items that are gold coloured, but do you own anything that is made from real gold? Gold is a precious metal, which means that…",
       "date_published": "2026-10-15T00:00:00Z",
       "tags": [
@@ -603,7 +653,8 @@
       "id": "https://www.npr.org/2026/10/15/nx-s1-6003418/trumps-midterm-travel-ukraine-starshield-restrictions-houthis-attack-aramco",
       "url": "https://www.npr.org/2026/10/15/nx-s1-6003418/trumps-midterm-travel-ukraine-starshield-restrictions-houthis-attack-aramco",
       "title": "Trump's Midterm Travel, Ukraine Starshield Restrictions, Houthis Attack Aramco",
-      "content_text": "President Donald Trump is campaigning across traditionally Republican states as his party tries to turn out voters in an increasingly competitive midterm map. U…",
+      "content_html": "<p>President Donald Trump is campaigning across traditionally Republican states as his party tries to turn out voters in an increasingly competitive midterm map. Ukraine says U.S.-supplied Starshield satellite communications have suddenly been restricted, disrupting the drones it uses to attack Russia and defend against Russian strikes.</p><p>Source: Up First from NPR · 2026-10-15</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/15/nx-s1-6003418/trumps-midterm-travel-ukraine-starshield-restrictions-houthis-attack-aramco\">Read the original →</a></p>",
+      "content_text": "President Donald Trump is campaigning across traditionally Republican states as his party tries to turn out voters in an increasingly competitive midterm map. Ukraine says U.S.-supplied Starshield satellite communications have suddenly been restricted, disrupting the drones it uses to attack Russia and defend against Russian strikes.",
       "summary": "President Donald Trump is campaigning across traditionally Republican states as his party tries to turn out voters in an increasingly competitive midterm map. U…",
       "date_published": "2026-10-15T00:00:00Z",
       "tags": [
@@ -624,7 +675,8 @@
       "id": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/c3a45f73-ecc0-4edb-b892-3cb369fb5ed0/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=c3a45f73-ecc0-4edb-b892-3cb369fb5ed0&feed=HMwRVgVt&t=podcast&e=nx-s1-6003561&p=510318&d=2487&size=39798536",
       "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/c3a45f73-ecc0-4edb-b892-3cb369fb5ed0/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=c3a45f73-ecc0-4edb-b892-3cb369fb5ed0&feed=HMwRVgVt&t=podcast&e=nx-s1-6003561&p=510318&d=2487&size=39798536",
       "title": "Hasan Piker on his rise as a voice of the 'insurgent left' | NPR's Newsmakers",
-      "content_text": "President Donald Trump recently called Hasan Piker a “terrible liability” and a “communist.” The California-based streamer — who describes himself as a socialis…",
+      "content_html": "<p>President Donald Trump recently called Hasan Piker a “terrible liability” and a “communist.” The California-based streamer — who describes himself as a socialist — has become the GOP’s political bogeyman ahead of the midterm elections. Piker argues those attacks will backfire, but also says he has played a role in being portrayed as a &#39;figurehead of the insurgent left.&#39; “The way that I&#39;m portrayed in the media is an America-hating communist Islamist fundamentalist who wants to secretly do jihad,…</p><p>Source: Up First from NPR · 2026-10-15</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/c3a45f73-ecc0-4edb-b892-3cb369fb5ed0/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&amp;awEpisodeId=c3a45f73-ecc0-4edb-b892-3cb369fb5ed0&amp;feed=HMwRVgVt&amp;t=podcast&amp;e=nx-s1-6003561&amp;p=510318&amp;d=2487&amp;size=39798536\">Read the original →</a></p>",
+      "content_text": "President Donald Trump recently called Hasan Piker a “terrible liability” and a “communist.” The California-based streamer — who describes himself as a socialist — has become the GOP’s political bogeyman ahead of the midterm elections. Piker argues those attacks will backfire, but also says he has played a role in being portrayed as a 'figurehead of the insurgent left.' “The way that I'm portrayed in the media is an America-hating communist Islamist fundamentalist who wants to secretly do jihad,…",
       "summary": "President Donald Trump recently called Hasan Piker a “terrible liability” and a “communist.” The California-based streamer — who describes himself as a socialis…",
       "date_published": "2026-10-15T00:00:00Z",
       "tags": [
@@ -645,7 +697,8 @@
       "id": "https://www.npr.org/2026/10/14/nx-s1-6001409/ukraines-president-sits-with-npr-pope-leo-cancer-ambassador-guilfoyle-forced-out",
       "url": "https://www.npr.org/2026/10/14/nx-s1-6001409/ukraines-president-sits-with-npr-pope-leo-cancer-ambassador-guilfoyle-forced-out",
       "title": "Ukraine's President Sits With NPR, Pope Leo Cancer, Ambassador Guilfoyle Forced Out",
-      "content_text": "In a sit-down interview with NPR, Ukrainian President Volodymyr Zelenskyy says the U.S. warned it could cut intelligence sharing over Ukraine’s attacks on Russi…",
+      "content_html": "<p>In a sit-down interview with NPR, Ukrainian President Volodymyr Zelenskyy says the U.S. warned it could cut intelligence sharing over Ukraine’s attacks on Russian oil refineries. Pope Leo XIV is recovering from surgery after the Vatican announced he has lung cancer, as doctors wait for more test results to determine what comes next. President Trump forced out U.S.</p><p>Source: Up First from NPR · 2026-10-14</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/14/nx-s1-6001409/ukraines-president-sits-with-npr-pope-leo-cancer-ambassador-guilfoyle-forced-out\">Read the original →</a></p>",
+      "content_text": "In a sit-down interview with NPR, Ukrainian President Volodymyr Zelenskyy says the U.S. warned it could cut intelligence sharing over Ukraine’s attacks on Russian oil refineries. Pope Leo XIV is recovering from surgery after the Vatican announced he has lung cancer, as doctors wait for more test results to determine what comes next. President Trump forced out U.S.",
       "summary": "In a sit-down interview with NPR, Ukrainian President Volodymyr Zelenskyy says the U.S. warned it could cut intelligence sharing over Ukraine’s attacks on Russi…",
       "date_published": "2026-10-14T00:00:00Z",
       "tags": [
@@ -666,7 +719,8 @@
       "id": "https://www.npr.org/2026/10/13/nx-s1-5999968/trump-midterm-campaigning-rep-omar-home-searched-europe-pushes-back-on-russia-deal",
       "url": "https://www.npr.org/2026/10/13/nx-s1-5999968/trump-midterm-campaigning-rep-omar-home-searched-europe-pushes-back-on-russia-deal",
       "title": "Trump Midterm Campaigning, Rep. Omar Home Searched, Europe Pushes Back on Russia Deal",
-      "content_text": "President Trump is ramping up campaign travel and putting himself at the center of the midterms as Republicans fight increasingly competitive races in states he…",
+      "content_html": "<p>President Trump is ramping up campaign travel and putting himself at the center of the midterms as Republicans fight increasingly competitive races in states he won easily. Federal agents searched Democratic Representative Ilhan Omar’s home as part of a criminal investigation just weeks before the midterms, prompting her to accuse the Trump administration of political targeting.</p><p>Source: Up First from NPR · 2026-10-13</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/13/nx-s1-5999968/trump-midterm-campaigning-rep-omar-home-searched-europe-pushes-back-on-russia-deal\">Read the original →</a></p>",
+      "content_text": "President Trump is ramping up campaign travel and putting himself at the center of the midterms as Republicans fight increasingly competitive races in states he won easily. Federal agents searched Democratic Representative Ilhan Omar’s home as part of a criminal investigation just weeks before the midterms, prompting her to accuse the Trump administration of political targeting.",
       "summary": "President Trump is ramping up campaign travel and putting himself at the center of the midterms as Republicans fight increasingly competitive races in states he…",
       "date_published": "2026-10-13T00:00:00Z",
       "tags": [
@@ -687,7 +741,8 @@
       "id": "https://www.xiaoyuzhoufm.com/episode/6acdee13195d838e2af13466?utm_source=rss",
       "url": "https://www.xiaoyuzhoufm.com/episode/6acdee13195d838e2af13466?utm_source=rss",
       "title": "507 葡萄酒盲品漫话：「神童」安德烈眼中的世锦赛、风土与掌故",
-      "content_text": "- 导语 - 葡萄酒「盲品」是一种玄学吗？曾拿下葡萄酒盲品全国冠军的纪录片导演安德烈，即将代表中国队出征在法国举办的葡萄酒盲品世锦赛。在他的讲述里，盲品既有日常娱乐的趣味，也有严格的竞技规则。1976年的「巴黎审判」如何挑战法国人长期掌握的葡萄酒评价权威？在葡萄酒鉴赏圈，风土、审美与评判标准是从何而来？从山东烟台到云南…",
+      "content_html": "<p>- 导语 - 葡萄酒「盲品」是一种玄学吗？曾拿下葡萄酒盲品全国冠军的纪录片导演安德烈，即将代表中国队出征在法国举办的葡萄酒盲品世锦赛。在他的讲述里，盲品既有日常娱乐的趣味，也有严格的竞技规则。1976年的「巴黎审判」如何挑战法国人长期掌握的葡萄酒评价权威？在葡萄酒鉴赏圈，风土、审美与评判标准是从何而来？从山东烟台到云南德钦梅里，中国葡萄酒的短板与潜力又在哪里？请听本期嘉宾安德烈带来的精彩分享！ - 本期话题成员 - 程衍樑（微博@GrenadierGuard2） 安德烈，美食纪录片导演、2025年RVF葡萄酒盲品中国锦标赛全国个人及团体冠军。（小红书：新炊间黄粱） - 时间轴 - 01:34 安德烈：被RVF称为「中国神童」的葡萄酒盲品冠军 08:46 葡萄酒盲品娱乐局与专业盲品比赛的差异 11:43 盲品的四个维度：品种、国家、产区、年份 15:59 中国队在盲品世锦赛中历史成绩很好 23:57 不同风格选手如何达成一致答案？</p><p>来源：忽左忽右 · 2026-10-13</p><p>标签：#人文 #历史</p><p><a href=\"https://www.xiaoyuzhoufm.com/episode/6acdee13195d838e2af13466?utm_source=rss\">阅读原文 →</a></p>",
+      "content_text": "- 导语 - 葡萄酒「盲品」是一种玄学吗？曾拿下葡萄酒盲品全国冠军的纪录片导演安德烈，即将代表中国队出征在法国举办的葡萄酒盲品世锦赛。在他的讲述里，盲品既有日常娱乐的趣味，也有严格的竞技规则。1976年的「巴黎审判」如何挑战法国人长期掌握的葡萄酒评价权威？在葡萄酒鉴赏圈，风土、审美与评判标准是从何而来？从山东烟台到云南德钦梅里，中国葡萄酒的短板与潜力又在哪里？请听本期嘉宾安德烈带来的精彩分享！ - 本期话题成员 - 程衍樑（微博@GrenadierGuard2） 安德烈，美食纪录片导演、2025年RVF葡萄酒盲品中国锦标赛全国个人及团体冠军。（小红书：新炊间黄粱） - 时间轴 - 01:34 安德烈：被RVF称为「中国神童」的葡萄酒盲品冠军 08:46 葡萄酒盲品娱乐局与专业盲品比赛的差异 11:43 盲品的四个维度：品种、国家、产区、年份 15:59 中国队在盲品世锦赛中历史成绩很好 23:57 不同风格选手如何达成一致答案？",
       "summary": "- 导语 - 葡萄酒「盲品」是一种玄学吗？曾拿下葡萄酒盲品全国冠军的纪录片导演安德烈，即将代表中国队出征在法国举办的葡萄酒盲品世锦赛。在他的讲述里，盲品既有日常娱乐的趣味，也有严格的竞技规则。1976年的「巴黎审判」如何挑战法国人长期掌握的葡萄酒评价权威？在葡萄酒鉴赏圈，风土、审美与评判标准是从何而来？从山东烟台到云南…",
       "date_published": "2026-10-13T00:00:00Z",
       "tags": [
@@ -708,7 +763,8 @@
       "id": "https://crazy.capital/149",
       "url": "https://crazy.capital/149",
       "title": "149 ✪ 抖省省突袭美团到店业务：本地生活怎么卷",
-      "content_text": "2026年初抖音推出独立团购app「抖省省」，正式把本地生活业务从抖音主app的内容信息流中单独剥离，推向目的性交易场景。上线仅半年，它便迅速积累起庞大的活跃用户，也把竞争压力直接带到了美团利润率最高的核心腹地：到店业务。 面对抖省省的低价攻势，大众点评积累二十年的真实评价，究竟是不是足够坚固的壁垒？ 如果消费者在大众…",
+      "content_html": "<p>2026年初抖音推出独立团购app「抖省省」，正式把本地生活业务从抖音主app的内容信息流中单独剥离，推向目的性交易场景。上线仅半年，它便迅速积累起庞大的活跃用户，也把竞争压力直接带到了美团利润率最高的核心腹地：到店业务。 面对抖省省的低价攻势，大众点评积累二十年的真实评价，究竟是不是足够坚固的壁垒？ 如果消费者在大众点评完成找店和决策、却转到价格更低的其他平台买券下单，大众点评的商业模式如何还能完美闭环？ 美团当下难以替代的优势是更加完整的商户覆盖，但这是否是抖省省无法逾越的障碍？ 抛开平台竞争的角度，站在线下商家的角度来看本地生活之战，它们面临的问题更加现实：当所有平台都在争夺入口、所有商家都在比拼优惠，标准化产品最终只能走向价格战。依赖平台流量的门店，又该如何建立自己的稳定消费群体？ 体验型业态，将是面对这一难题的重要解法。我们以长沙的东茅街茶馆和天符台为例，揭示体验型消费在当下中国商业环境中的重要性：线下空间如何通过地道的本地文化、明确的客群定位和持续发生的真实城市生活，成为消费者无需四处比价也能形成习惯、主动前往的目的地。</p><p>来源：疯投圈 · 2026-10-13</p><p>标签：#商业 #创投</p><p><a href=\"https://crazy.capital/149\">阅读原文 →</a></p>",
+      "content_text": "2026年初抖音推出独立团购app「抖省省」，正式把本地生活业务从抖音主app的内容信息流中单独剥离，推向目的性交易场景。上线仅半年，它便迅速积累起庞大的活跃用户，也把竞争压力直接带到了美团利润率最高的核心腹地：到店业务。 面对抖省省的低价攻势，大众点评积累二十年的真实评价，究竟是不是足够坚固的壁垒？ 如果消费者在大众点评完成找店和决策、却转到价格更低的其他平台买券下单，大众点评的商业模式如何还能完美闭环？ 美团当下难以替代的优势是更加完整的商户覆盖，但这是否是抖省省无法逾越的障碍？ 抛开平台竞争的角度，站在线下商家的角度来看本地生活之战，它们面临的问题更加现实：当所有平台都在争夺入口、所有商家都在比拼优惠，标准化产品最终只能走向价格战。依赖平台流量的门店，又该如何建立自己的稳定消费群体？ 体验型业态，将是面对这一难题的重要解法。我们以长沙的东茅街茶馆和天符台为例，揭示体验型消费在当下中国商业环境中的重要性：线下空间如何通过地道的本地文化、明确的客群定位和持续发生的真实城市生活，成为消费者无需四处比价也能形成习惯、主动前往的目的地。",
       "summary": "2026年初抖音推出独立团购app「抖省省」，正式把本地生活业务从抖音主app的内容信息流中单独剥离，推向目的性交易场景。上线仅半年，它便迅速积累起庞大的活跃用户，也把竞争压力直接带到了美团利润率最高的核心腹地：到店业务。 面对抖省省的低价攻势，大众点评积累二十年的真实评价，究竟是不是足够坚固的壁垒？ 如果消费者在大众…",
       "date_published": "2026-10-13T00:00:00Z",
       "tags": [
@@ -729,7 +785,8 @@
       "id": "https://www.npr.org/2026/10/12/nx-s1-5998617/trump-pressures-ukraine-trumps-midterm-priorities-saudi-arabia-airport-attacks",
       "url": "https://www.npr.org/2026/10/12/nx-s1-5998617/trump-pressures-ukraine-trumps-midterm-priorities-saudi-arabia-airport-attacks",
       "title": "Trump Pressures Ukraine, Trump's Midterm Priorities, Saudi Arabia Airport Attacks",
-      "content_text": "President Trump is increasing pressure on Ukraine over its strikes on Russian oil refineries while again calling on Ukrainians to hold wartime elections and thr…",
+      "content_html": "<p>President Trump is increasing pressure on Ukraine over its strikes on Russian oil refineries while again calling on Ukrainians to hold wartime elections and threatening to cut off U.S. intelligence support. President Trump is trying to show voters he is focused on affordability as record fuel prices and a controversial Russian diesel deal collide with his familiar political grievances just weeks before the midterms.</p><p>Source: Up First from NPR · 2026-10-12</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/12/nx-s1-5998617/trump-pressures-ukraine-trumps-midterm-priorities-saudi-arabia-airport-attacks\">Read the original →</a></p>",
+      "content_text": "President Trump is increasing pressure on Ukraine over its strikes on Russian oil refineries while again calling on Ukrainians to hold wartime elections and threatening to cut off U.S. intelligence support. President Trump is trying to show voters he is focused on affordability as record fuel prices and a controversial Russian diesel deal collide with his familiar political grievances just weeks before the midterms.",
       "summary": "President Trump is increasing pressure on Ukraine over its strikes on Russian oil refineries while again calling on Ukrainians to hold wartime elections and thr…",
       "date_published": "2026-10-12T00:00:00Z",
       "tags": [
@@ -750,7 +807,8 @@
       "id": "https://www.npr.org/2026/10/11/nx-s1-5996599/the-women-who-fought-back-when-their-jailers-assaulted-them",
       "url": "https://www.npr.org/2026/10/11/nx-s1-5996599/the-women-who-fought-back-when-their-jailers-assaulted-them",
       "title": "The women who fought back when their jailers assaulted them",
-      "content_text": "Aliksandria Prout had only been at the Central California Women’s Facility for a few days when a male officer stopped her at a checkpoint. “You have beautiful l…",
+      "content_html": "<p><img src=\"https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x4644+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F62%2Fae%2F2974092e449f91ae7a7652bc5269%2Fc2ff02c5-3393-419d-ba0a-8f6c8b45c030.jpeg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Aliksandria Prout had only been at the Central California Women’s Facility for a few days when a male officer stopped her at a checkpoint. “You have beautiful lips and beautiful eyes,” he said. That was just the beginning. On this episode of The Sunday Story, we feature the first episode of a new three-part series from KQED’s Snap Judgment called “We Are Jane Doe.” It follows thirteen women and their fight for justice against the jailers who sexually assaulted them.</p><p>Source: Up First from NPR · 2026-10-11</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/11/nx-s1-5996599/the-women-who-fought-back-when-their-jailers-assaulted-them\">Read the original →</a></p>",
+      "content_text": "Aliksandria Prout had only been at the Central California Women’s Facility for a few days when a male officer stopped her at a checkpoint. “You have beautiful lips and beautiful eyes,” he said. That was just the beginning. On this episode of The Sunday Story, we feature the first episode of a new three-part series from KQED’s Snap Judgment called “We Are Jane Doe.” It follows thirteen women and their fight for justice against the jailers who sexually assaulted them.",
       "summary": "Aliksandria Prout had only been at the Central California Women’s Facility for a few days when a male officer stopped her at a checkpoint. “You have beautiful l…",
       "date_published": "2026-10-11T00:00:00Z",
       "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x4644+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F62%2Fae%2F2974092e449f91ae7a7652bc5269%2Fc2ff02c5-3393-419d-ba0a-8f6c8b45c030.jpeg",
@@ -772,7 +830,8 @@
       "id": "https://www.npr.org/2026/10/10/nx-s1-5996581/hurricane-isaias-floods-the-panhandle-a-russian-oil-deal-ice-shooting-in-new-york",
       "url": "https://www.npr.org/2026/10/10/nx-s1-5996581/hurricane-isaias-floods-the-panhandle-a-russian-oil-deal-ice-shooting-in-new-york",
       "title": "Hurricane Isaias Floods the Panhandle, A Russian Oil Deal, ICE Shooting in New York",
-      "content_text": "The first hurricane of the Atlantic hurricane season strikes the Florida panhandle and drenches the southeast. Trump agrees to import Russian diesel, in the hop…",
+      "content_html": "<p>The first hurricane of the Atlantic hurricane season strikes the Florida panhandle and drenches the southeast. Trump agrees to import Russian diesel, in the hopes of lowering gas prices. New York City is rattled after ICE shot a man who was driving his 5-year-old son home from school. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include sponsor-free listening. Learn more at plus.npr.org.</p><p>Source: Up First from NPR · 2026-10-10</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/10/nx-s1-5996581/hurricane-isaias-floods-the-panhandle-a-russian-oil-deal-ice-shooting-in-new-york\">Read the original →</a></p>",
+      "content_text": "The first hurricane of the Atlantic hurricane season strikes the Florida panhandle and drenches the southeast. Trump agrees to import Russian diesel, in the hopes of lowering gas prices. New York City is rattled after ICE shot a man who was driving his 5-year-old son home from school. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include sponsor-free listening. Learn more at plus.npr.org.",
       "summary": "The first hurricane of the Atlantic hurricane season strikes the Florida panhandle and drenches the southeast. Trump agrees to import Russian diesel, in the hop…",
       "date_published": "2026-10-10T00:00:00Z",
       "tags": [
@@ -793,7 +852,8 @@
       "id": "https://www.npr.org/2026/10/09/nx-s1-5995249/the-shocking-power-of-tiny-things",
       "url": "https://www.npr.org/2026/10/09/nx-s1-5995249/the-shocking-power-of-tiny-things",
       "title": "The shocking power of tiny things",
-      "content_text": "You don't need to be big and boisterous to pack a punch. This hour, TED speakers explore the surprising strength of all things minuscule and fleeting. Guests in…",
+      "content_html": "<p><img src=\"https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1080+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F03%2F3d%2F8936caa84ac38dbf6592a99988c8%2F1b17bbc0-25ed-4b05-a1ad-4e63387891f0.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>You don&#39;t need to be big and boisterous to pack a punch. This hour, TED speakers explore the surprising strength of all things minuscule and fleeting. Guests include microbiologist Anne Madden, cognitive scientist Lera Boroditsky, former educator YeYoon Kim and former industrial engineer and Zen Buddhist monk Bart Weetjens. Original broadcast date: February 24, 2023. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one.</p><p>Source: TED Radio Hour · 2026-10-09</p><p>Tags: #演讲 #思考</p><p><a href=\"https://www.npr.org/2026/10/09/nx-s1-5995249/the-shocking-power-of-tiny-things\">Read the original →</a></p>",
+      "content_text": "You don't need to be big and boisterous to pack a punch. This hour, TED speakers explore the surprising strength of all things minuscule and fleeting. Guests include microbiologist Anne Madden, cognitive scientist Lera Boroditsky, former educator YeYoon Kim and former industrial engineer and Zen Buddhist monk Bart Weetjens. Original broadcast date: February 24, 2023. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one.",
       "summary": "You don't need to be big and boisterous to pack a punch. This hour, TED speakers explore the surprising strength of all things minuscule and fleeting. Guests in…",
       "date_published": "2026-10-09T00:00:00Z",
       "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1080+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F03%2F3d%2F8936caa84ac38dbf6592a99988c8%2F1b17bbc0-25ed-4b05-a1ad-4e63387891f0.jpg",
@@ -815,7 +875,8 @@
       "id": "https://www.npr.org/2026/10/09/nx-s1-5996414/bracing-for-hurricane-isaias-ukraine-pushes-russia-back-iran-war-impact-on-midterms",
       "url": "https://www.npr.org/2026/10/09/nx-s1-5996414/bracing-for-hurricane-isaias-ukraine-pushes-russia-back-iran-war-impact-on-midterms",
       "title": "Bracing For Hurricane Isaias, Ukraine Pushes Russia Back, Iran War Impact On Midterms",
-      "content_text": "Hurricane Isaias is expected to strike near the Alabama-Florida state line as communities prepare for dangerous winds, flooding and a life-threatening storm sur…",
+      "content_html": "<p>Hurricane Isaias is expected to strike near the Alabama-Florida state line as communities prepare for dangerous winds, flooding and a life-threatening storm surge. Ukraine is reclaiming territory in the east with a counteroffensive that uses drones and unmanned ground vehicles to push back Russian forces. President Trump says the U.S. will not launch new strikes on Iran before the midterm elections as the unpopular war weighs on Republicans heading into Election Day.</p><p>Source: Up First from NPR · 2026-10-09</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/09/nx-s1-5996414/bracing-for-hurricane-isaias-ukraine-pushes-russia-back-iran-war-impact-on-midterms\">Read the original →</a></p>",
+      "content_text": "Hurricane Isaias is expected to strike near the Alabama-Florida state line as communities prepare for dangerous winds, flooding and a life-threatening storm surge. Ukraine is reclaiming territory in the east with a counteroffensive that uses drones and unmanned ground vehicles to push back Russian forces. President Trump says the U.S. will not launch new strikes on Iran before the midterm elections as the unpopular war weighs on Republicans heading into Election Day.",
       "summary": "Hurricane Isaias is expected to strike near the Alabama-Florida state line as communities prepare for dangerous winds, flooding and a life-threatening storm sur…",
       "date_published": "2026-10-09T00:00:00Z",
       "tags": [
@@ -836,7 +897,8 @@
       "id": "https://www.xiaoyuzhoufm.com/episode/6ac8a47fe742e36efcc052a9?utm_source=rss",
       "url": "https://www.xiaoyuzhoufm.com/episode/6ac8a47fe742e36efcc052a9?utm_source=rss",
       "title": "506 亿万美元间谍：托卡契夫与冷战晚期美苏情报大案",
-      "content_text": "- 导语 - 20世纪70年代末，经历了一段缓和期的美苏关系再度紧张，双方军事竞争与情报较量持续升级。苏联电子工程师托卡契夫在1979年至1985年间持续向美国中央情报局提供情报，其泄露的苏联军工机密价值连城，也因此有了「亿万美元间谍」之称。美苏新一轮军事竞争为何让苏联军工情报变得如此重要？在真假叛逃者难辨的冷战年代，…",
+      "content_html": "<p>- 导语 - 20世纪70年代末，经历了一段缓和期的美苏关系再度紧张，双方军事竞争与情报较量持续升级。苏联电子工程师托卡契夫在1979年至1985年间持续向美国中央情报局提供情报，其泄露的苏联军工机密价值连城，也因此有了「亿万美元间谍」之称。美苏新一轮军事竞争为何让苏联军工情报变得如此重要？在真假叛逃者难辨的冷战年代，托卡契夫如何一步步获得中央情报局的信赖？双方又如何在克格勃的监视下完成21次莫斯科街头接头？前CIA情报人员的泄密又如何导致托卡契夫身份暴露？请听本期嘉宾沙青青带来的精彩分享！ 也欢迎回顾本期嘉宾沙青青的「谍海轶闻」系列往期节目：《谍海轶闻｜苏联情报史话》《谍海轶闻｜日本谍报物语》。</p><p>来源：忽左忽右 · 2026-10-09</p><p>标签：#人文 #历史</p><p><a href=\"https://www.xiaoyuzhoufm.com/episode/6ac8a47fe742e36efcc052a9?utm_source=rss\">阅读原文 →</a></p>",
+      "content_text": "- 导语 - 20世纪70年代末，经历了一段缓和期的美苏关系再度紧张，双方军事竞争与情报较量持续升级。苏联电子工程师托卡契夫在1979年至1985年间持续向美国中央情报局提供情报，其泄露的苏联军工机密价值连城，也因此有了「亿万美元间谍」之称。美苏新一轮军事竞争为何让苏联军工情报变得如此重要？在真假叛逃者难辨的冷战年代，托卡契夫如何一步步获得中央情报局的信赖？双方又如何在克格勃的监视下完成21次莫斯科街头接头？前CIA情报人员的泄密又如何导致托卡契夫身份暴露？请听本期嘉宾沙青青带来的精彩分享！ 也欢迎回顾本期嘉宾沙青青的「谍海轶闻」系列往期节目：《谍海轶闻｜苏联情报史话》《谍海轶闻｜日本谍报物语》。",
       "summary": "- 导语 - 20世纪70年代末，经历了一段缓和期的美苏关系再度紧张，双方军事竞争与情报较量持续升级。苏联电子工程师托卡契夫在1979年至1985年间持续向美国中央情报局提供情报，其泄露的苏联军工机密价值连城，也因此有了「亿万美元间谍」之称。美苏新一轮军事竞争为何让苏联军工情报变得如此重要？在真假叛逃者难辨的冷战年代，…",
       "date_published": "2026-10-09T00:00:00Z",
       "tags": [
@@ -857,7 +919,8 @@
       "id": "http://www.bbc.co.uk/programmes/p0pflmn5",
       "url": "http://www.bbc.co.uk/programmes/p0pflmn5",
       "title": "Are people drinking less alcohol?",
-      "content_text": "In recent generations many people have chosen to stop drinking alcohol. Surveys from the UK suggest that 16 to 24-year-olds are more likely to be non-drinkers t…",
+      "content_html": "<p>In recent generations many people have chosen to stop drinking alcohol. Surveys from the UK suggest that 16 to 24-year-olds are more likely to be non-drinkers than the older generations. Many people are sharing their experience of drinking less alcohol or being completely sober on social media. Some people have been saying that they want to go out more to drink and have fun with friends, but they have concerns about fitness and wellness.</p><p>Source: 6 Minute English · 2026-10-08</p><p>Tags: #英语学习 #英语听力</p><p><a href=\"http://www.bbc.co.uk/programmes/p0pflmn5\">Read the original →</a></p>",
+      "content_text": "In recent generations many people have chosen to stop drinking alcohol. Surveys from the UK suggest that 16 to 24-year-olds are more likely to be non-drinkers than the older generations. Many people are sharing their experience of drinking less alcohol or being completely sober on social media. Some people have been saying that they want to go out more to drink and have fun with friends, but they have concerns about fitness and wellness.",
       "summary": "In recent generations many people have chosen to stop drinking alcohol. Surveys from the UK suggest that 16 to 24-year-olds are more likely to be non-drinkers t…",
       "date_published": "2026-10-08T00:00:00Z",
       "tags": [
@@ -878,7 +941,8 @@
       "id": "https://www.npr.org/2026/10/08/nx-s1-5994869/hurricane-isaias-prep-competitive-midterm-races-trumps-media-ban-in-court",
       "url": "https://www.npr.org/2026/10/08/nx-s1-5994869/hurricane-isaias-prep-competitive-midterm-races-trumps-media-ban-in-court",
       "title": "Hurricane Isaias Prep, Competitive Midterm Races, Trump's Media Ban In Court",
-      "content_text": "Communities along the Alabama and Florida Gulf Coast are preparing for Hurricane Isaias as officials warn of flooding, damaging winds and disruptions to weekend…",
+      "content_html": "<p>Communities along the Alabama and Florida Gulf Coast are preparing for Hurricane Isaias as officials warn of flooding, damaging winds and disruptions to weekend events. Democrats are targeting House districts President Trump won comfortably in 2024, while Republicans spend heavily to defend seats that would normally be considered safe. CNN, MS NOW and Politico are back in federal court challenging the Trump administration’s efforts to restrict their reporters’ access to the White House.</p><p>Source: Up First from NPR · 2026-10-08</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/08/nx-s1-5994869/hurricane-isaias-prep-competitive-midterm-races-trumps-media-ban-in-court\">Read the original →</a></p>",
+      "content_text": "Communities along the Alabama and Florida Gulf Coast are preparing for Hurricane Isaias as officials warn of flooding, damaging winds and disruptions to weekend events. Democrats are targeting House districts President Trump won comfortably in 2024, while Republicans spend heavily to defend seats that would normally be considered safe. CNN, MS NOW and Politico are back in federal court challenging the Trump administration’s efforts to restrict their reporters’ access to the White House.",
       "summary": "Communities along the Alabama and Florida Gulf Coast are preparing for Hurricane Isaias as officials warn of flooding, damaging winds and disruptions to weekend…",
       "date_published": "2026-10-08T00:00:00Z",
       "tags": [
@@ -899,7 +963,8 @@
       "id": "https://www.npr.org/2026/10/07/nx-s1-5993467/threats-on-us-bases-overseas-france-student-protest-german-spy-arrest",
       "url": "https://www.npr.org/2026/10/07/nx-s1-5993467/threats-on-us-bases-overseas-france-student-protest-german-spy-arrest",
       "title": "Threats On US Bases Overseas, France Student Protest, German Spy Arrest",
-      "content_text": "The U.S. pulled a dozen bombers out of Britain after officials identified a credible Iran-linked threat, raising new questions about how exposed American forces…",
+      "content_html": "<p>The U.S. pulled a dozen bombers out of Britain after officials identified a credible Iran-linked threat, raising new questions about how exposed American forces are to drone attacks overseas. French students are protesting teacher shortages, overcrowded classrooms and deteriorating schools as demonstrations spread nationwide and clashes with police intensify.</p><p>Source: Up First from NPR · 2026-10-07</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/07/nx-s1-5993467/threats-on-us-bases-overseas-france-student-protest-german-spy-arrest\">Read the original →</a></p>",
+      "content_text": "The U.S. pulled a dozen bombers out of Britain after officials identified a credible Iran-linked threat, raising new questions about how exposed American forces are to drone attacks overseas. French students are protesting teacher shortages, overcrowded classrooms and deteriorating schools as demonstrations spread nationwide and clashes with police intensify.",
       "summary": "The U.S. pulled a dozen bombers out of Britain after officials identified a credible Iran-linked threat, raising new questions about how exposed American forces…",
       "date_published": "2026-10-07T00:00:00Z",
       "tags": [
@@ -920,7 +985,8 @@
       "id": "https://www.npr.org/2026/10/06/nx-s1-5992520/democrats-lead-in-midterm-polls-yemen-war-front-paramount-warner-bros-merger",
       "url": "https://www.npr.org/2026/10/06/nx-s1-5992520/democrats-lead-in-midterm-polls-yemen-war-front-paramount-warner-bros-merger",
       "title": "Democrats Lead In Midterm Polls, Yemen War Front, Paramount-Warner Bros. Merger",
-      "content_text": "With four weeks until the midterms, Democrats have the advantage in the polls and are increasingly competitive in Senate races that once looked safe for Republi…",
+      "content_html": "<p>With four weeks until the midterms, Democrats have the advantage in the polls and are increasingly competitive in Senate races that once looked safe for Republican. Saudi-backed forces in Yemen say they have pushed Houthi rebels back from areas around a key Red Sea shipping route, as the Houthis strike Saudi oil facilities and the fighting draws in more outside powers.</p><p>Source: Up First from NPR · 2026-10-06</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/06/nx-s1-5992520/democrats-lead-in-midterm-polls-yemen-war-front-paramount-warner-bros-merger\">Read the original →</a></p>",
+      "content_text": "With four weeks until the midterms, Democrats have the advantage in the polls and are increasingly competitive in Senate races that once looked safe for Republican. Saudi-backed forces in Yemen say they have pushed Houthi rebels back from areas around a key Red Sea shipping route, as the Houthis strike Saudi oil facilities and the fighting draws in more outside powers.",
       "summary": "With four weeks until the midterms, Democrats have the advantage in the polls and are increasingly competitive in Senate races that once looked safe for Republi…",
       "date_published": "2026-10-06T00:00:00Z",
       "tags": [
@@ -941,7 +1007,8 @@
       "id": "https://www.npr.org/2026/10/05/nx-s1-5991357/flydubai-pilot-investigation-scotus-climate-change-case-brazil-runoff-election",
       "url": "https://www.npr.org/2026/10/05/nx-s1-5991357/flydubai-pilot-investigation-scotus-climate-change-case-brazil-runoff-election",
       "title": "FlyDubai Pilot Investigation, SCOTUS Climate Change Case, Brazil Runoff Election",
-      "content_text": "Investigators now believe the Flydubai co-pilot who attacked the captain intended to crash the plane into Israel’s Ben Gurion Airport, raising new questions abo…",
+      "content_html": "<p>Investigators now believe the Flydubai co-pilot who attacked the captain intended to crash the plane into Israel’s Ben Gurion Airport, raising new questions about how he was cleared to fly the route. The Supreme Court begins a new term with a case that could shape whether states and cities can make energy companies pay for climate-related damage.</p><p>Source: Up First from NPR · 2026-10-05</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/05/nx-s1-5991357/flydubai-pilot-investigation-scotus-climate-change-case-brazil-runoff-election\">Read the original →</a></p>",
+      "content_text": "Investigators now believe the Flydubai co-pilot who attacked the captain intended to crash the plane into Israel’s Ben Gurion Airport, raising new questions about how he was cleared to fly the route. The Supreme Court begins a new term with a case that could shape whether states and cities can make energy companies pay for climate-related damage.",
       "summary": "Investigators now believe the Flydubai co-pilot who attacked the captain intended to crash the plane into Israel’s Ben Gurion Airport, raising new questions abo…",
       "date_published": "2026-10-05T00:00:00Z",
       "tags": [
@@ -962,7 +1029,8 @@
       "id": "https://www.npr.org/2026/10/04/nx-s1-5988345/fox-news-wanted-war-images-in-ukraine-their-journalists-died",
       "url": "https://www.npr.org/2026/10/04/nx-s1-5988345/fox-news-wanted-war-images-in-ukraine-their-journalists-died",
       "title": "Fox News wanted war images in Ukraine - their journalists died",
-      "content_text": "Fox News Correspondent Benjamin Hall had been accused by a colleague of taking unnecessary risks when reporting in Syria. Later, Fox News assigned Hall to cover…",
+      "content_html": "<p><img src=\"https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff7%2F01%2F0df489f14deb8f0eaeb27d0daa06%2Fc834574f-6b2e-4157-90ba-b716c60969fc.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Fox News Correspondent Benjamin Hall had been accused by a colleague of taking unnecessary risks when reporting in Syria. Later, Fox News assigned Hall to cover the war in Ukraine. NPR’s David Folkenflik brings the in-depth story of a fatal reporting trip near Kyiv, where Hall was gravely wounded and two other Fox News journalists were killed. Now, the journalists’ families are suing Fox, saying the network put the story ahead of its people.</p><p>Source: Up First from NPR · 2026-10-04</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/04/nx-s1-5988345/fox-news-wanted-war-images-in-ukraine-their-journalists-died\">Read the original →</a></p>",
+      "content_text": "Fox News Correspondent Benjamin Hall had been accused by a colleague of taking unnecessary risks when reporting in Syria. Later, Fox News assigned Hall to cover the war in Ukraine. NPR’s David Folkenflik brings the in-depth story of a fatal reporting trip near Kyiv, where Hall was gravely wounded and two other Fox News journalists were killed. Now, the journalists’ families are suing Fox, saying the network put the story ahead of its people.",
       "summary": "Fox News Correspondent Benjamin Hall had been accused by a colleague of taking unnecessary risks when reporting in Syria. Later, Fox News assigned Hall to cover…",
       "date_published": "2026-10-04T00:00:00Z",
       "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff7%2F01%2F0df489f14deb8f0eaeb27d0daa06%2Fc834574f-6b2e-4157-90ba-b716c60969fc.jpg",
@@ -984,7 +1052,8 @@
       "id": "https://www.npr.org/2026/10/03/nx-s1-5989358/growing-black-unemployment-taxing-california-billionaires-new-supreme-court-cases",
       "url": "https://www.npr.org/2026/10/03/nx-s1-5989358/growing-black-unemployment-taxing-california-billionaires-new-supreme-court-cases",
       "title": "Growing Black Unemployment, Taxing California Billionaires, New Supreme Court Cases",
-      "content_text": "The U.S. economy added fewer jobs than expected last month, and Black unemployment spiked. California voters will decide whether the state should charge a one-t…",
+      "content_html": "<p>The U.S. economy added fewer jobs than expected last month, and Black unemployment spiked. California voters will decide whether the state should charge a one-time tax on billionaires, an idea that has split Democrats. The Supreme Court begins its new term on Monday, with cases involving climate change, guns and religious rights. Want more analysis of the most important news of the day, plus a little fun? Subscribe to the Up First newsletter.</p><p>Source: Up First from NPR · 2026-10-03</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/03/nx-s1-5989358/growing-black-unemployment-taxing-california-billionaires-new-supreme-court-cases\">Read the original →</a></p>",
+      "content_text": "The U.S. economy added fewer jobs than expected last month, and Black unemployment spiked. California voters will decide whether the state should charge a one-time tax on billionaires, an idea that has split Democrats. The Supreme Court begins its new term on Monday, with cases involving climate change, guns and religious rights. Want more analysis of the most important news of the day, plus a little fun? Subscribe to the Up First newsletter.",
       "summary": "The U.S. economy added fewer jobs than expected last month, and Black unemployment spiked. California voters will decide whether the state should charge a one-t…",
       "date_published": "2026-10-03T00:00:00Z",
       "tags": [
@@ -1005,7 +1074,8 @@
       "id": "https://www.npr.org/2026/10/02/nx-s1-5987850/the-women-missing-from-music",
       "url": "https://www.npr.org/2026/10/02/nx-s1-5987850/the-women-missing-from-music",
       "title": "The women missing from music",
-      "content_text": "Women have been writing music for centuries. Why do we know so few of them today? This hour, TED speakers explore the role of women in music history and how we…",
+      "content_html": "<p><img src=\"https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1080+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1c%2Fad%2F914c1098413ab7791409b64f6ed0%2Ff14f8888-852c-4520-a8b4-9fb89013b957.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Women have been writing music for centuries. Why do we know so few of them today? This hour, TED speakers explore the role of women in music history and how we can remember their contributions. Guests include opera singer and activist Gabriella Di Laccio and Nadya Tolokonnikova, a Russian artist and founder of Pussy Riot. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include sponsor-free listening. Learn more at plus.npr.org.</p><p>Source: TED Radio Hour · 2026-10-02</p><p>Tags: #演讲 #思考</p><p><a href=\"https://www.npr.org/2026/10/02/nx-s1-5987850/the-women-missing-from-music\">Read the original →</a></p>",
+      "content_text": "Women have been writing music for centuries. Why do we know so few of them today? This hour, TED speakers explore the role of women in music history and how we can remember their contributions. Guests include opera singer and activist Gabriella Di Laccio and Nadya Tolokonnikova, a Russian artist and founder of Pussy Riot. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include sponsor-free listening. Learn more at plus.npr.org.",
       "summary": "Women have been writing music for centuries. Why do we know so few of them today? This hour, TED speakers explore the role of women in music history and how we…",
       "date_published": "2026-10-02T00:00:00Z",
       "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1080+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1c%2Fad%2F914c1098413ab7791409b64f6ed0%2Ff14f8888-852c-4520-a8b4-9fb89013b957.jpg",
@@ -1027,7 +1097,8 @@
       "id": "https://www.npr.org/2026/10/02/nx-s1-5988792/wages-vs-inflation-tennessee-failed-execution-cornell-rape-case-special-prosecutor",
       "url": "https://www.npr.org/2026/10/02/nx-s1-5988792/wages-vs-inflation-tennessee-failed-execution-cornell-rape-case-special-prosecutor",
       "title": "Wages Vs Inflation, Tennessee Failed Execution, Cornell Rape Case Special Prosecutor",
-      "content_text": "The government has a sobering update on the job market, as workers face wages that fail to keep up with higher prices and borrowing costs. Tennessee has paused…",
+      "content_html": "<p>The government has a sobering update on the job market, as workers face wages that fail to keep up with higher prices and borrowing costs. Tennessee has paused executions after Christa Pike survived two doses of a lethal injection drug, marking the state’s second failed execution this year. New York’s governor has appointed a special prosecutor in the Cornell sexual assault case after new questions emerged about what information campus police shared with the local district attorney.</p><p>Source: Up First from NPR · 2026-10-02</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/02/nx-s1-5988792/wages-vs-inflation-tennessee-failed-execution-cornell-rape-case-special-prosecutor\">Read the original →</a></p>",
+      "content_text": "The government has a sobering update on the job market, as workers face wages that fail to keep up with higher prices and borrowing costs. Tennessee has paused executions after Christa Pike survived two doses of a lethal injection drug, marking the state’s second failed execution this year. New York’s governor has appointed a special prosecutor in the Cornell sexual assault case after new questions emerged about what information campus police shared with the local district attorney.",
       "summary": "The government has a sobering update on the job market, as workers face wages that fail to keep up with higher prices and borrowing costs. Tennessee has paused…",
       "date_published": "2026-10-02T00:00:00Z",
       "tags": [
@@ -1042,27 +1113,6 @@
       "_shelf": {
         "type": "audio",
         "shelf": "feeds-npr-org"
-      }
-    },
-    {
-      "id": "https://www.xiaoyuzhoufm.com/episode/6abf70bee742e36efcbdbcba?utm_source=rss",
-      "url": "https://www.xiaoyuzhoufm.com/episode/6abf70bee742e36efcbdbcba?utm_source=rss",
-      "title": "505 茶海轶闻：与王恺漫谈中国茶的真假传说",
-      "content_text": "- 导语 - 为寻访「中国茶之道」，王恺曾走遍各地茶山。从安徽太平湖畔的猴魁，到武夷山的岩茶山场，再到云南边陲的古茶林，记录了中国茶的种种传说、黑话与玄学。中国茶的诠释权如何掌握在福建茶商手中？那些名噪一时的茶叶为何纷纷淡出大众视野？从香港茶楼到东莞仓库，普洱如何一步步变成金融产品？东亚三国的喝茶审美又如何互相影响？请…",
-      "summary": "- 导语 - 为寻访「中国茶之道」，王恺曾走遍各地茶山。从安徽太平湖畔的猴魁，到武夷山的岩茶山场，再到云南边陲的古茶林，记录了中国茶的种种传说、黑话与玄学。中国茶的诠释权如何掌握在福建茶商手中？那些名噪一时的茶叶为何纷纷淡出大众视野？从香港茶楼到东莞仓库，普洱如何一步步变成金融产品？东亚三国的喝茶审美又如何互相影响？请…",
-      "date_published": "2026-10-02T00:00:00Z",
-      "tags": [
-        "人文",
-        "历史"
-      ],
-      "authors": [
-        {
-          "name": "忽左忽右"
-        }
-      ],
-      "_shelf": {
-        "type": "audio",
-        "shelf": "feed-xyzfm-space"
       }
     }
   ]

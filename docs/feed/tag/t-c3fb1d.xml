@@ -4,71 +4,39 @@
   <title>知树阅读-个人图书空间 · #行业观察</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-c3fb1d.xml"/>
-  <updated>2026-10-30T00:00:00Z</updated>
+  <updated>2026-10-31T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://www.woshipm.com/it/6486854.html</id>
-    <title>绿泡泡，其实“救了”红果短剧？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6486854.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">红果短剧刚宣布下线金币功能、上线休息提醒，看似从容不迫，但字节随即整合AI短剧资源，推出即梦短剧工作室，打造从剧本到成片的AI流水线。微信绿泡泡短剧月活已破亿，增长迅猛。这场短剧之争背后，是AI视频商业化路径的清晰化，以及快手、阿里等大厂的潜在入局。红果的危机感，或许才刚刚开始。 红果短剧开始有危机感了。 大家都知道，…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="业界动态"/>
-    <category term="AI短剧"/>
-    <category term="字节跳动"/>
-    <category term="微信绿泡泡"/>
-    <category term="红果短剧"/>
-    <category term="行业观察"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6486778.html</id>
-    <title>微软谷歌重整办公套件，腾讯 Buddy One 串联应用：办公 AI 开始比拼生态协同</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486778.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">微软给 Work IQ 加了检索工具，Google 让 Gemini 打通邮件与云盘，腾讯发布 Buddy One 串联自家应用。办公 AI 从单点功能转向生态协同，组合订阅成了留住付费的理由。 “创造力，就是把事物连接起来。”——史蒂夫·乔布斯，1996 年《连线》 10 月 20 日，微软为 Work IQ 推出新…</summary>
+    <id>https://www.woshipm.com/ai/6487208.html</id>
+    <title>苹果选择千问，阿里AI拿到大结果</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487208.html"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">苹果把千问接进Siri、写作工具与视觉智能，随iOS 27.3推送。文章回看两年多的备案与谈判过程，梳理苹果为何最终选了阿里，以及这次合作对国产大模型竞争格局意味着什么。 今天早上起来，我打开苹果官网，本来想看看新发的 iPad mini。 当时还犯嘀咕，这么贵，Apple 智能没有，高刷也没有。结果往下一滑，看到苹果…</summary>
+    <content type="html">&lt;p&gt;苹果把千问接进Siri、写作工具与视觉智能，随iOS 27.3推送。文章回看两年多的备案与谈判过程，梳理苹果为何最终选了阿里，以及这次合作对国产大模型竞争格局意味着什么。 今天早上起来，我打开苹果官网，本来想看看新发的 iPad mini。 当时还犯嘀咕，这么贵，Apple 智能没有，高刷也没有。结果往下一滑，看到苹果今天早晨刚发的消息。 苹果说，千问进了 Siri、写作工具和视觉智能，12 月随 iOS 27.3 正式推送。 我看到这条消息，想起了前阵子库克中国行，在上海受访时，他透露Apple智能将接入阿里千问大模型。之后中国果粉一直数着日子催进展。 没想到，库克前脚刚走，后脚Apple 智能这不就来了。 …… 我又翻了一下当时的备案信息。 7月8日过的备案，7 月 15 日网信办正式公告。登记名称是「Apple 智能」，备案主体为苹果技术开发（上海）有限公司。 同批一共7款，华为小艺、OPPO、vivo、小米、三星、努比亚都在名单里。苹果夹在中间，看起来一点都不显眼。 可为了这张证，苹果等了两年多。 早在2023年的时候，就有消息说苹果开始在中国找AI合作伙伴。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #苹果 #行业观察 #阿里 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487208.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI产品"/>
-    <category term="腾讯"/>
+    <category term="苹果"/>
     <category term="行业观察"/>
+    <category term="阿里"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6486764.html</id>
-    <title>学到钉钉们的精髓了？Claude上线逆天功能，帮企业监控员工是否用AI摸鱼</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486764.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">Anthropic 为 Claude Enterprise 上线智能报告，管理员能读取团队二十八天内的对话，把工作归到不同流程，标出哪些会话没有产出。一家把安全写进使命的公司，先做出了监工工具。 2026年10月，Anthropic为Claude Enterprise上线了一个新功能——“智能报告”。 名字平平无奇，能…</summary>
+    <id>https://www.woshipm.com/ai/6487276.html</id>
+    <title>AI电影，正在将电影院逼进“死胡同”</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487276.html"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">AI院线电影《三星堆：未来往事》票房惨淡，仅121.6万元，却为行业投石问路。本文深度剖析AI电影遇冷的深层原因：技术瑕疵、票价体系不适配、年轻人远离影院。当AI颠覆制作流程，传统院线的商业模式与利益分配或将重新改写。 今年的院线，格外得冷。 五一档，首日票房1.6亿元，整个档期总票房破7亿元，相比2023年和2024…</summary>
+    <content type="html">&lt;p&gt;AI院线电影《三星堆：未来往事》票房惨淡，仅121.6万元，却为行业投石问路。本文深度剖析AI电影遇冷的深层原因：技术瑕疵、票价体系不适配、年轻人远离影院。当AI颠覆制作流程，传统院线的商业模式与利益分配或将重新改写。 今年的院线，格外得冷。 五一档，首日票房1.6亿元，整个档期总票房破7亿元，相比2023年和2024年超过15亿元的巅峰时期，近乎腰斩。到了十一档，票房依旧惨淡。电影总票房为11.65亿元，观影人次为3199.59万，同比去年下降37%，对比往年数据，更是直接回到了2014年的水平。 “我们以为去年已经触底了，现在看来，底还在更下面，”一位北京电影发行公司的项目经理坦言。 在这种寒意之下，一部名为《三星堆：未来往事》的电影悄悄上映。全流程AI制作、首部AI院线电影、未来科技等多重标签，成功为影片博得了一定的关注，资本市场更是表现出前所未有的兴奋，但它的票房比预期的还低： 据灯塔专业版数据，该片点映票房1.7万元，上映首日票房30.1万元。截至10月26日16时，累计综合票房（含预售）121.6万元，观影总人次达4.1万，AI预测总票房为260.9万元。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#AI #AI电影 #个人观点 #商业模式 #行业观察 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487276.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="Anthropic"/>
-    <category term="Claude"/>
-    <category term="行业观察"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6486788.html</id>
-    <title>DeepSeek的尽头，居然是一条会喊你爸爸的蓝色大肥鱼。</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486788.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">DeepSeek 的 Logo 是条鲸鱼，一次自我识别认成了蓝色大肥鱼，外号就这么叫开。网友围绕它二创出鲸鱼娘，蓝发鲸尾、爱吃白饭、干活还得讨 Token，各平台都在闹鱼灾。 最近，我真的感觉，国内互联网，快要被一群蓝色大肥鱼给统治了。 刷B站有她，刷抖音也有她，刷小红书还是她。 无论在哪个平台，好像大家都想给她完整的…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="DeepSeek"/>
-    <category term="内容创作"/>
+    <category term="AI电影"/>
+    <category term="个人观点"/>
+    <category term="商业模式"/>
     <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>

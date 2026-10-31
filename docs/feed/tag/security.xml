@@ -4,18 +4,33 @@
   <title>知树阅读-个人图书空间 · #Security</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/security.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
+  <updated>2026-10-30T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://www.wired.com/story/bluesky-blocks-links-to-major-leak-of-dhs-data/</id>
-    <title>Bluesky Is Blocking Links to a Major Leak of DHS Employee Records</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/bluesky-blocks-links-to-major-leak-of-dhs-data/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">Bluesky tells WIRED it blocked links to a leaked archive of information on 41,000 ICE, CBP, and other DHS workers because it contains people’s contact informati…</summary>
+    <id>https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/</id>
+    <title>The $6.3 Billion Binance Hack Was Pulled Off in Just 20 Minutes</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Multiple crypto-tracing firms say notorious North Korean hackers TraderTraitor may be behind the largest digital heist in history—with billions of crypto likely…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://media.wired.com/photos/6ae463bdc091c8b8d1ec019e/master/pass/102026-Binance%20Hacked.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Multiple crypto-tracing firms say notorious North Korean hackers TraderTraitor may be behind the largest digital heist in history—with billions of crypto likely…&lt;/p&gt;&lt;p&gt;Source: WIRED · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #Security #Quick Take #科技 #社会&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>WIRED</title></source>
     <category term="Security"/>
-    <category term="ICE’d Out"/>
+    <category term="Quick Take"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/</id>
+    <title>A Supply Chain Attack Put Malicious Anthropic Claude Extensions on Thousands of Devices</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Thanks to a lucky break, flawed code in a tainted Claude extension prevented the attacker from fully worming their way into some 5,000 developer machines.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://media.wired.com/photos/6ae4bfbc8b1b5cec21132f41/master/pass/103026-HACK_.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Thanks to a lucky break, flawed code in a tainted Claude extension prevented the attacker from fully worming their way into some 5,000 developer machines.&lt;/p&gt;&lt;p&gt;Source: WIRED · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #Security #Near Misses #科技 #社会&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>WIRED</title></source>
+    <category term="Security"/>
+    <category term="Near Misses"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>
@@ -26,35 +41,10 @@
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
     <summary type="text">Illicit software on the computers of some of the world’s best online poker players allowed the accused cheater to see what cards were in the victims’ hands—and…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://media.wired.com/photos/6adfb9e14342ac0de5548666/master/pass/Security_A%20Hacker%20Snuck%20Malware%20Onto%20Online%20Poker%20Players%E2%80%99%20Computers%20That%20Let%20Him%20See%20Their%20Cards_v1.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Illicit software on the computers of some of the world’s best online poker players allowed the accused cheater to see what cards were in the victims’ hands—and trounce them at the tables.&lt;/p&gt;&lt;p&gt;Source: WIRED · 2026-10-29&lt;/p&gt;&lt;p&gt;Tags: #Security #Tables Turned #科技 #社会&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.wired.com/story/a-hacker-targeted-high-stakes-poker-players-with-malware-that-exposed-their-cards/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>WIRED</title></source>
     <category term="Security"/>
     <category term="Tables Turned"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/most-servers-on-the-planet-are-vulnerable-to-a-code-execution-flaw-in-uefi-firmware/</id>
-    <title>Most Servers on the Planet Are Vulnerable to This Firmware Code-Execution Flaw</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/most-servers-on-the-planet-are-vulnerable-to-a-code-execution-flaw-in-uefi-firmware/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">The critical flaw in UEFI firmware—used by most server vendors and data centers—allows attackers to execute code early in the boot process.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Security"/>
-    <category term="Bet Your Boots"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/</id>
-    <title>Massive Leak Exposes 41,000 Homeland Security Workers—Including Undercover ICE Agents</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">The leaked records include the locations of ICE and CBP facilities, workers’ cell phone numbers, and the members of groups tied to wiretap programs, Palantir so…</summary>
-    <source><title>WIRED</title></source>
-    <category term="Security"/>
-    <category term="Going Public"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>

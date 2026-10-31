@@ -1,0 +1,36 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #AnimalsBeingDerps",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/animalsbeingderps.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.reddit.com/r/AnimalsBeingDerps/comments/1xjewev/fun_fish/",
+      "url": "https://www.reddit.com/r/AnimalsBeingDerps/comments/1xjewev/fun_fish/",
+      "title": "Fun fish",
+      "content_html": "<p><img src=\"https://external-preview.redd.it/Z2xlaDE0NnNzbHloMVjrfR8bjyP-gxplqZ9F0xe-XgZ3VMv-9HgPrxTJ8TqY.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=ea84d4ce809e77d1f7fe808299a3121c25d8f511\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>submitted by /u/TerraByteTerror to r/AnimalsBeingDerps [link] [comments]</p><p>Source: top scoring links : popular · 2026-10-30</p><p>Tags: #AnimalsBeingDerps #社区 #热榜</p><p><a href=\"https://www.reddit.com/r/AnimalsBeingDerps/comments/1xjewev/fun_fish/\">Read the original →</a></p>",
+      "content_text": "submitted by /u/TerraByteTerror to r/AnimalsBeingDerps [link] [comments]",
+      "summary": "submitted by /u/TerraByteTerror to r/AnimalsBeingDerps [link] [comments]",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://external-preview.redd.it/Z2xlaDE0NnNzbHloMVjrfR8bjyP-gxplqZ9F0xe-XgZ3VMv-9HgPrxTJ8TqY.png?width=320&crop=smart&auto=webp&s=ea84d4ce809e77d1f7fe808299a3121c25d8f511",
+      "tags": [
+        "AnimalsBeingDerps",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    }
+  ]
+}

@@ -9,18 +9,46 @@
   },
   "items": [
     {
-      "id": "https://slate.com/life/2026/10/hillsong-carl-lentz-laura-cheating-affair-book.html?via=rss",
-      "url": "https://slate.com/life/2026/10/hillsong-carl-lentz-laura-cheating-affair-book.html?via=rss",
-      "title": "America’s Most Famous Pastor Just Revealed How He Treats His Wife. It Tells Us Something About Evangelicals.",
-      "content_text": "It’s a sad, old trick.",
-      "summary": "It’s a sad, old trick.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "image": "https://compote.slate.com/images/dfd7542d-864a-4c07-8d29-ce3ffb28c07a.jpeg?crop=4488%2C2992%2Cx0%2Cy40",
+      "id": "https://slate.com/culture/2026/10/wicker-movie-2026-alexander-skarsgard-olivia-colman-ending-short-story-ursula-wills.html?via=rss",
+      "url": "https://slate.com/culture/2026/10/wicker-movie-2026-alexander-skarsgard-olivia-colman-ending-short-story-ursula-wills.html?via=rss",
+      "title": "She Wrote a Short Story for a Random Website. Now It’s One of the Most Talked-About Movies of the Fall.",
+      "content_html": "<p><img src=\"https://compote.slate.com/images/6a2f729f-9fd7-486d-bddd-ee54dbaecbc9.jpeg?crop=1560%2C1040%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>An interview with “Wicker” author Ursula Wills about the origin of the story, the changes from the source material, and what Skarsgård is like in person.</p><p>Source: Slate Magazine · 2026-10-30</p><p>Tags: #Books #Movies #United Kingdom #Romance #评论 #文化</p><p><a href=\"https://slate.com/culture/2026/10/wicker-movie-2026-alexander-skarsgard-olivia-colman-ending-short-story-ursula-wills.html?via=rss\">Read the original →</a></p>",
+      "content_text": "An interview with “Wicker” author Ursula Wills about the origin of the story, the changes from the source material, and what Skarsgård is like in person.",
+      "summary": "An interview with “Wicker” author Ursula Wills about the origin of the story, the changes from the source material, and what Skarsgård is like in person.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://compote.slate.com/images/6a2f729f-9fd7-486d-bddd-ee54dbaecbc9.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
       "tags": [
         "Books",
-        "Marriage",
-        "Religion",
-        "Podcasts",
+        "Movies",
+        "United Kingdom",
+        "Romance",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/culture/2026/10/nocturne-apple-tv-show-liev-schreiber-stephen-graham-zazie-beetz.html?via=rss",
+      "url": "https://slate.com/culture/2026/10/nocturne-apple-tv-show-liev-schreiber-stephen-graham-zazie-beetz.html?via=rss",
+      "title": "Considerable Talent Is Wasted in Apple’s Star-Studded New Adaptation of a Bestseller",
+      "content_html": "<p><img src=\"https://compote.slate.com/images/f8384228-cd5e-4126-8b68-89f15aa8160d.jpeg?crop=1560%2C1040%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Nocturne, based on a Lars Kepler novel, is cliché after cliché.</p><p>Source: Slate Magazine · 2026-10-30</p><p>Tags: #Apple #Books #TV #Thrillers #评论 #文化</p><p><a href=\"https://slate.com/culture/2026/10/nocturne-apple-tv-show-liev-schreiber-stephen-graham-zazie-beetz.html?via=rss\">Read the original →</a></p>",
+      "content_text": "Nocturne, based on a Lars Kepler novel, is cliché after cliché.",
+      "summary": "Nocturne, based on a Lars Kepler novel, is cliché after cliché.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://compote.slate.com/images/f8384228-cd5e-4126-8b68-89f15aa8160d.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Apple",
+        "Books",
+        "TV",
+        "Thrillers",
         "评论",
         "文化"
       ],

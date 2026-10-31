@@ -2,6 +2,36 @@
  "id": "sspai-com",
  "items": [
   {
+   "url": "https://sspai.com/post/117960",
+   "title": "本月玩什么｜影之刃零、战争机器：事变日等",
+   "summary": "欢迎你在评论区分享 10 月新作的游玩体验。查看全文",
+   "image": "",
+   "date": "2026-10-31",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://sspai.com/post/117953",
+   "title": "一图流 | 一张图看懂中国版 Apple 智能",
+   "summary": "中国版 Apple 智能即将登陆 iPhone，一起看看还有这些细节。查看全文",
+   "image": "",
+   "date": "2026-10-31",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://sspai.com/post/117867",
+   "title": "本周看什么 | 最近值得一看的 9 部作品",
+   "summary": "📅本周新预告《沙丘3》终极预告10月28日，电影《沙丘3》发布了终极预告，中国内地将于12月31日上映。丹尼斯·维伦纽瓦执导，提莫西·查拉梅、赞达亚、杰森·莫玛、弗洛伦丝·皮尤、丽贝卡·弗格森主演，誓 ...查看全文",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
    "url": "https://sspai.com/post/116047",
    "title": "App+1｜该吃药了：一片小药板，让吃药提醒变得轻松有趣",
    "summary": "它简单、稳定，也有意思，不会把按时吃药变成一个负担——而是一件看见了就随手去做、轻松愉快的小事。查看全文",
@@ -70,36 +100,6 @@
    "tags": [],
    "lang": "zh",
    "type": "article"
-  },
-  {
-   "url": "https://sspai.com/post/116686",
-   "title": "一日一技｜iPhone 恶意被锁，线上移除流程拆招",
-   "summary": "如果你从网上购买过 Apple ID，又在自己的设备上登录，那就会存在一种风险：这类共享 ID 的密码掌握在卖家手里，卖家可以随时更改。本文就介绍了移除激活锁的全过程。查看全文",
-   "image": "",
-   "date": "2026-10-29",
-   "tags": [],
-   "lang": "zh",
-   "type": "article"
-  },
-  {
-   "url": "https://sspai.com/post/117750",
-   "title": "派早报：Apple 推出触控款 MacBook Pro、华为发布多款新品等",
-   "summary": "Google 推出世界模型 Genie 4、索尼推出手机主摄图像传感器 LYTIA 720 等。查看全文",
-   "image": "",
-   "date": "2026-10-29",
-   "tags": [],
-   "lang": "zh",
-   "type": "article"
-  },
-  {
-   "url": "https://sspai.com/post/117725",
-   "title": "备受期待的国产 3A 游戏新作：《影之刃零》游玩体验",
-   "summary": "编注：《影之刃零》（PhantomBladeZero）是由中国游戏开发商「灵游坊」（S-GAME）自主研发的暗黑武侠动作冒险游戏，采用虚幻引擎5打造。游戏以独特的「功夫朋克」美学为特色，将中国传统武侠 ...查看全文",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [],
-   "lang": "zh",
-   "type": "article"
   }
  ],
  "shelf": {
@@ -113,7 +113,7 @@
  },
  "fails": 0,
  "kind": "feed",
- "parser": 3,
+ "parser": 4,
  "status": "ok",
  "error": "",
  "etag": "",

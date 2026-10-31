@@ -4,8 +4,34 @@
   <title>知树阅读-个人图书空间 · Eater</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/eater-com.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
+  <updated>2026-10-30T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.eater.com/coffee-shops/994101/sey-200-dollar-coffee-finca-sophia</id>
+    <title>We’re in the Era of the $200 Cup of Coffee</title>
+    <link rel="alternate" type="text/html" href="https://www.eater.com/coffee-shops/994101/sey-200-dollar-coffee-finca-sophia"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">A version of this post originally appeared in Eater Today, which spotlights the freshest news and stories from across the food world every day. Subscribe now. T…</summary>
+    <content type="html">&lt;p&gt;A version of this post originally appeared in Eater Today, which spotlights the freshest news and stories from across the food world every day. Subscribe now. These days, Bushwick is perhaps best known for its graffiti art, ecuavolley, and queer bars; the Brooklyn neighborhood is famous for its family-owned taquerias, American-Italian pastry shops, and the […]&lt;/p&gt;&lt;p&gt;Source: Eater · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #Dining Out #美食 #餐饮&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.eater.com/coffee-shops/994101/sey-200-dollar-coffee-finca-sophia"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>Eater</title></source>
+    <category term="Dining Out"/>
+    <category term="美食"/>
+    <category term="餐饮"/>
+  </entry>
+  <entry>
+    <id>https://www.eater.com/travel-guides/995748/steal-my-food-itinerary-3-days-on-prince-edward-island</id>
+    <title>Steal My Food Itinerary: 3 Days on Prince Edward Island</title>
+    <link rel="alternate" type="text/html" href="https://www.eater.com/travel-guides/995748/steal-my-food-itinerary-3-days-on-prince-edward-island"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Recently I spent a few days exploring Prince Edward Island, a place that embraces its local foodways with gusto. There’s a complex history here, with roots in I…</summary>
+    <content type="html">&lt;p&gt;Recently I spent a few days exploring Prince Edward Island, a place that embraces its local foodways with gusto. There’s a complex history here, with roots in Indigenous Mi’kmaq, Acadian, Irish, Scottish, and other cultures. And if one thing unites these histories, it’s the island’s abundance of seafood and produce, which have helped earn it […]&lt;/p&gt;&lt;p&gt;Source: Eater · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #Travel Guides #美食 #餐饮&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.eater.com/travel-guides/995748/steal-my-food-itinerary-3-days-on-prince-edward-island"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>Eater</title></source>
+    <category term="Travel Guides"/>
+    <category term="美食"/>
+    <category term="餐饮"/>
+  </entry>
   <entry>
     <id>https://www.eater.com/trends/996747/food-fashion-print-trend</id>
     <title>Food-Themed Fashion Is Starting to Feel Gluttonous</title>
@@ -13,6 +39,7 @@
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
     <summary type="text">There was a time, not too long ago, when a purse shaped like a baguette felt like a thrilling — even subversive — novelty. Now, we hardly bat an eye when we see…</summary>
+    <content type="html">&lt;p&gt;There was a time, not too long ago, when a purse shaped like a baguette felt like a thrilling — even subversive — novelty. Now, we hardly bat an eye when we see that Moschino has made a trompe l’oeil celery purse, or that Big Bud Press is making a hot-dog-and-pretzel-print jumpsuit in collaboration with […]&lt;/p&gt;&lt;p&gt;Source: Eater · 2026-10-29&lt;/p&gt;&lt;p&gt;Tags: #Food and Restaurant Trends #美食 #餐饮&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.eater.com/trends/996747/food-fashion-print-trend"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Eater</title></source>
     <category term="Food and Restaurant Trends"/>
     <category term="美食"/>
@@ -25,6 +52,7 @@
     <updated>2026-10-28T00:00:00Z</updated>
     <published>2026-10-28T00:00:00Z</published>
     <summary type="text">From Barcelona’s towering churches and bustling avenues to the sun-drenched beaches and idyllic plazas, it’s obvious why this city captures visitors’ hearts. Yo…</summary>
+    <content type="html">&lt;p&gt;From Barcelona’s towering churches and bustling avenues to the sun-drenched beaches and idyllic plazas, it’s obvious why this city captures visitors’ hearts. You can also eat incredibly well here, and often for not very much money — though Barcelona loves a tasting menu and the World’s 50 Best Restaurant list awarded Disfrutar the No. 1 […]&lt;/p&gt;&lt;p&gt;Source: Eater · 2026-10-28&lt;/p&gt;&lt;p&gt;Tags: #Barcelona #Spain #Travel Guides #美食 #餐饮&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.eater.com/maps/best-restaurants-barcelona-spain"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Eater</title></source>
     <category term="Barcelona"/>
     <category term="Spain"/>
@@ -39,6 +67,7 @@
     <updated>2026-10-28T00:00:00Z</updated>
     <published>2026-10-28T00:00:00Z</published>
     <summary type="text">When Yelp was first launched in 2004, it flopped. The company’s initial model of an email-based referral service failed to take off until its creators realized…</summary>
+    <content type="html">&lt;p&gt;When Yelp was first launched in 2004, it flopped. The company’s initial model of an email-based referral service failed to take off until its creators realized users were taking the platform into their own hands; in lieu of sending one another recommendations via email chain, they began using a “hidden” link at the bottom of […]&lt;/p&gt;&lt;p&gt;Source: Eater · 2026-10-28&lt;/p&gt;&lt;p&gt;Tags: #Dining Out #美食 #餐饮&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.eater.com/dining-out/996325/restaurants-fake-yelp-reviews-penalties"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Eater</title></source>
     <category term="Dining Out"/>
     <category term="美食"/>
@@ -51,6 +80,7 @@
     <updated>2026-10-26T00:00:00Z</updated>
     <published>2026-10-26T00:00:00Z</published>
     <summary type="text">The hottest new spot in Washington, D.C. focuses on the traditional heat-packed cooking methods of northern Thailand, while still using local ingredients from a…</summary>
+    <content type="html">&lt;p&gt;The hottest new spot in Washington, D.C. focuses on the traditional heat-packed cooking methods of northern Thailand, while still using local ingredients from around the DMV. Alfie’s, from chefs Justin Ahn and Alex McCoy, started as a pop-up in Petworth in 2017 before traveling around the world, serving diners in New York and London. This […]&lt;/p&gt;&lt;p&gt;Source: Eater · 2026-10-26&lt;/p&gt;&lt;p&gt;Tags: #Dining Out #Video #美食 #餐饮&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.eater.com/dining-out/995457/alfies-washington-dc-thai-restaurant-steak-frites"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Eater</title></source>
     <category term="Dining Out"/>
     <category term="Video"/>
@@ -64,6 +94,7 @@
     <updated>2026-10-22T00:00:00Z</updated>
     <published>2026-10-22T00:00:00Z</published>
     <summary type="text">This excerpt was originally published in Pre Shift, our newsletter for the hospitality industry. Subscribe for more first-person accounts, advice, and interview…</summary>
+    <content type="html">&lt;p&gt;This excerpt was originally published in Pre Shift, our newsletter for the hospitality industry. Subscribe for more first-person accounts, advice, and interviews. When Chanita Chayaluk decided to open her restaurant and wine bar Taan, she hoped “to showcase Thai food in Chicago in a different light,” she says. “The first [wave of] immigration of Thai […]&lt;/p&gt;&lt;p&gt;Source: Eater · 2026-10-22&lt;/p&gt;&lt;p&gt;Tags: #Dining Out #美食 #餐饮&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.eater.com/dining-out/993334/substitutions-boundaries-pre-shift"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Eater</title></source>
     <category term="Dining Out"/>
     <category term="美食"/>
@@ -76,6 +107,7 @@
     <updated>2026-10-21T00:00:00Z</updated>
     <published>2026-10-21T00:00:00Z</published>
     <summary type="text">This review contains spoilers for the film You Can See Everything. A version of this post originally appeared in Eater Today, which spotlights the freshest news…</summary>
+    <content type="html">&lt;p&gt;This review contains spoilers for the film You Can See Everything. A version of this post originally appeared in Eater Today, which spotlights the freshest news and stories from across the food world every day. Subscribe now. I saw You Can See Everything — the new documentary about disgraced Theranos founder Elizabeth Holmes, co-directed by […]&lt;/p&gt;&lt;p&gt;Source: Eater · 2026-10-21&lt;/p&gt;&lt;p&gt;Tags: #Eater at Home #How to Cook #Movies #美食 #餐饮&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.eater.com/food-culture/993909/you-can-see-everything-scrambled-eggs-scene-analysis-review"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Eater</title></source>
     <category term="Eater at Home"/>
     <category term="How to Cook"/>
@@ -90,6 +122,7 @@
     <updated>2026-10-20T00:00:00Z</updated>
     <published>2026-10-20T00:00:00Z</published>
     <summary type="text">In the suburbs of Chicago where they both grew up, it was just pizza, according to Brittany and Brennan Grosvenor, the couple behind Proof in Portland, Oregon.…</summary>
+    <content type="html">&lt;p&gt;In the suburbs of Chicago where they both grew up, it was just pizza, according to Brittany and Brennan Grosvenor, the couple behind Proof in Portland, Oregon. Ordering came down to the question of “thin-crust, deep-dish, or double-dough,” Brittany recalls of her family’s Friday night tradition. The Grosvernors sell the former at Proof, though the […]&lt;/p&gt;&lt;p&gt;Source: Eater · 2026-10-20&lt;/p&gt;&lt;p&gt;Tags: #Dining Out #Food and Restaurant Trends #美食 #餐饮&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.eater.com/trends/993640/tavern-style-pizza-thin-crust-trend-chicago-midwest"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Eater</title></source>
     <category term="Dining Out"/>
     <category term="Food and Restaurant Trends"/>
@@ -103,36 +136,9 @@
     <updated>2026-10-19T00:00:00Z</updated>
     <published>2026-10-19T00:00:00Z</published>
     <summary type="text">Chef Eric Sze, the owner of NYC’s Wenwen, shows us the bakeries, pizzerias, and restaurants he visits weekly for everything from simple baguette sandwiches to o…</summary>
+    <content type="html">&lt;p&gt;Chef Eric Sze, the owner of NYC’s Wenwen, shows us the bakeries, pizzerias, and restaurants he visits weekly for everything from simple baguette sandwiches to oversized wontons. Sze starts his day off with a sandwich at Bakeri; his go-to order is honey, apple, and brie layered on a crunchy baguette. Then he heads to The […]&lt;/p&gt;&lt;p&gt;Source: Eater · 2026-10-19&lt;/p&gt;&lt;p&gt;Tags: #Video #美食 #餐饮&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.eater.com/dining-out/993531/chef-eric-sze-favorite-restaurants-in-nyc"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Eater</title></source>
     <category term="Video"/>
-    <category term="美食"/>
-    <category term="餐饮"/>
-  </entry>
-  <entry>
-    <id>https://www.eater.com/add-to-cart/892210/the-best-gifts-for-martini-lovers-besides-an-ice-cold-martini</id>
-    <title>The Best Gifts for Martini Lovers (Besides an Ice-Cold Martini)</title>
-    <link rel="alternate" type="text/html" href="https://www.eater.com/add-to-cart/892210/the-best-gifts-for-martini-lovers-besides-an-ice-cold-martini"/>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <published>2026-10-16T00:00:00Z</published>
-    <summary type="text">Ah, a perfectly made martini. When in the right mood, is there anything better than its bracing crispness? Then there’s the saline hit of the brine, should you…</summary>
-    <source><title>Eater</title></source>
-    <category term="Add to Cart"/>
-    <category term="Buy This Thing"/>
-    <category term="Eater at Home"/>
-    <category term="Holiday Gift Guides"/>
-    <category term="Shopping Guides"/>
-    <category term="美食"/>
-    <category term="餐饮"/>
-  </entry>
-  <entry>
-    <id>https://www.eater.com/travel-guides/992550/resort-life</id>
-    <title>Resort Life</title>
-    <link rel="alternate" type="text/html" href="https://www.eater.com/travel-guides/992550/resort-life"/>
-    <updated>2026-10-15T00:00:00Z</updated>
-    <published>2026-10-15T00:00:00Z</published>
-    <summary type="text">It’s a brilliant fall day on Carter’s Creek in Irvington, Virginia, and a small group is hauling baskets of oysters from the brackish waters. They aren’t Chesap…</summary>
-    <source><title>Eater</title></source>
-    <category term="Travel Guides"/>
     <category term="美食"/>
     <category term="餐饮"/>
   </entry>

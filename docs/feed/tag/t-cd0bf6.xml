@@ -4,8 +4,20 @@
   <title>知树阅读-个人图书空间 · #经济</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-cd0bf6.xml"/>
-  <updated>2026-10-26T00:00:00Z</updated>
+  <updated>2026-10-30T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://freakonomics.com</id>
+    <title>693. What’s Our Job as Humans Anymore?</title>
+    <link rel="alternate" type="text/html" href="https://freakonomics.com"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">It may just be being human. Stephen Dubner interviews A.I. performer Tilly Norwood to find out if we are as replaceable as we fear. (Part two of a two-part seri…</summary>
+    <content type="html">&lt;p&gt;It may just be being human. Stephen Dubner interviews A.I. performer Tilly Norwood to find out if we are as replaceable as we fear. (Part two of a two-part series.) SOURCES: Sean Astin, actor, president of SAG-AFTRA. Kevin Kelly, co-founder of Wired. Ethan Mollick, associate professor of management at the Wharton School of the University of Pennsylvania. Tilly Norwood, A.I. performer. Eline Van der Velden, founder and C.E.O. of Particle6.&lt;/p&gt;&lt;p&gt;Source: Freakonomics Radio · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #经济 #思考&lt;/p&gt;&lt;p&gt;&lt;a href="https://freakonomics.com"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>Freakonomics Radio</title></source>
+    <category term="经济"/>
+    <category term="思考"/>
+  </entry>
   <entry>
     <id>https://ourworldindata.org/how-much-development-aid-is-spent-on-climate-change</id>
     <title>How much development aid is spent on climate change?</title>
@@ -13,20 +25,10 @@
     <updated>2026-10-26T00:00:00Z</updated>
     <published>2026-10-26T00:00:00Z</published>
     <summary type="text">Around one-fifth of development aid is spent on climate-related projects. But what does climate-related mean, and does it crowd out other aid projects?&lt;br&gt;&lt;br&gt;&lt;…</summary>
+    <content type="html">&lt;p&gt;Around one-fifth of development aid is spent on climate-related projects. But what does climate-related mean, and does it crowd out other aid projects?&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://ourworldindata.org/how-much-development-aid-is-spent-on-climate-change&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/59464533-c5ca-4a7e-7686-358fc7608500/w=1024&amp;quot;/&amp;gt;&amp;lt;/a&amp;gt;&lt;/p&gt;&lt;p&gt;Source: Our World in Data · 2026-10-26&lt;/p&gt;&lt;p&gt;Tags: #数据 #经济&lt;/p&gt;&lt;p&gt;&lt;a href="https://ourworldindata.org/how-much-development-aid-is-spent-on-climate-change"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Our World in Data</title></source>
     <category term="数据"/>
     <category term="经济"/>
-  </entry>
-  <entry>
-    <id>https://freakonomics.com</id>
-    <title>692. What Will A.I. Do to (and for) Human Creativity?</title>
-    <link rel="alternate" type="text/html" href="https://freakonomics.com"/>
-    <updated>2026-10-23T00:00:00Z</updated>
-    <published>2026-10-23T00:00:00Z</published>
-    <summary type="text">Writers, designers, actors, coders, musicians, thinkers — they’re all worried about being replaced by machines. But what if the A.I.s are actually here to help?…</summary>
-    <source><title>Freakonomics Radio</title></source>
-    <category term="经济"/>
-    <category term="思考"/>
   </entry>
   <entry>
     <id>https://ourworldindata.org/when-do-people-experience-mental-health-conditions-for-the-first-time</id>
@@ -35,6 +37,7 @@
     <updated>2026-10-19T00:00:00Z</updated>
     <published>2026-10-19T00:00:00Z</published>
     <summary type="text">Knowing when people are most at risk allows us to offer support when it might make the biggest difference.&lt;br&gt;&lt;br&gt;&lt;a href="https://ourworldindata.org/when-do-pe…</summary>
+    <content type="html">&lt;p&gt;Knowing when people are most at risk allows us to offer support when it might make the biggest difference.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://ourworldindata.org/when-do-people-experience-mental-health-conditions-for-the-first-time&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/f5a4f0de-6f66-4b12-26b1-55d91ef60c00/w=1024&amp;quot;/&amp;gt;&amp;lt;/a&amp;gt;&lt;/p&gt;&lt;p&gt;Source: Our World in Data · 2026-10-19&lt;/p&gt;&lt;p&gt;Tags: #数据 #经济&lt;/p&gt;&lt;p&gt;&lt;a href="https://ourworldindata.org/when-do-people-experience-mental-health-conditions-for-the-first-time"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Our World in Data</title></source>
     <category term="数据"/>
     <category term="经济"/>
@@ -46,6 +49,7 @@
     <updated>2026-10-08T00:00:00Z</updated>
     <published>2026-10-08T00:00:00Z</published>
     <summary type="text">A guide to understanding the Living Planet Index and what it does and doesn’t mean.&lt;br&gt;&lt;br&gt;&lt;a href="https://ourworldindata.org/2026-lpi-update"&gt;&lt;img src="https:…</summary>
+    <content type="html">&lt;p&gt;A guide to understanding the Living Planet Index and what it does and doesn’t mean.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://ourworldindata.org/2026-lpi-update&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/d040574f-0ac6-4478-620a-8c0681700500/w=1024&amp;quot;/&amp;gt;&amp;lt;/a&amp;gt;&lt;/p&gt;&lt;p&gt;Source: Our World in Data · 2026-10-08&lt;/p&gt;&lt;p&gt;Tags: #数据 #经济&lt;/p&gt;&lt;p&gt;&lt;a href="https://ourworldindata.org/2026-lpi-update"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Our World in Data</title></source>
     <category term="数据"/>
     <category term="经济"/>
@@ -57,6 +61,7 @@
     <updated>2026-10-05T00:00:00Z</updated>
     <published>2026-10-05T00:00:00Z</published>
     <summary type="text">More than 600,000 people die from malaria every year. Will climate change make this worse?&lt;br&gt;&lt;br&gt;&lt;a href="https://ourworldindata.org/what-impact-will-climate-c…</summary>
+    <content type="html">&lt;p&gt;More than 600,000 people die from malaria every year. Will climate change make this worse?&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://ourworldindata.org/what-impact-will-climate-change-have-on-malaria&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/c2d97915-f84d-4efa-3918-5a9c2a5d2400/w=1024&amp;quot;/&amp;gt;&amp;lt;/a&amp;gt;&lt;/p&gt;&lt;p&gt;Source: Our World in Data · 2026-10-05&lt;/p&gt;&lt;p&gt;Tags: #数据 #经济&lt;/p&gt;&lt;p&gt;&lt;a href="https://ourworldindata.org/what-impact-will-climate-change-have-on-malaria"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Our World in Data</title></source>
     <category term="数据"/>
     <category term="经济"/>
@@ -68,6 +73,7 @@
     <updated>2026-09-21T00:00:00Z</updated>
     <published>2026-09-21T00:00:00Z</published>
     <summary type="text">We use long-run census data to understand the scale of recent US migration trends, and how these compare to previous centuries.&lt;br&gt;&lt;br&gt;&lt;a href="https://ourworld…</summary>
+    <content type="html">&lt;p&gt;We use long-run census data to understand the scale of recent US migration trends, and how these compare to previous centuries.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://ourworldindata.org/how-high-is-current-immigration-to-the-united-states-in-historical-perspective&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/62f7240d-9892-4f63-792f-233662d7e800/w=1024&amp;quot;/&amp;gt;&amp;lt;/a&amp;gt;&lt;/p&gt;&lt;p&gt;Source: Our World in Data · 2026-09-21&lt;/p&gt;&lt;p&gt;Tags: #数据 #经济&lt;/p&gt;&lt;p&gt;&lt;a href="https://ourworldindata.org/how-high-is-current-immigration-to-the-united-states-in-historical-perspective"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Our World in Data</title></source>
     <category term="数据"/>
     <category term="经济"/>
@@ -79,6 +85,7 @@
     <updated>2026-09-14T00:00:00Z</updated>
     <published>2026-09-14T00:00:00Z</published>
     <summary type="text">Organic farming often wins when we compare impacts on one unit of land, but there is no clear winner when we look at impacts per unit of food production.&lt;br&gt;&lt;br…</summary>
+    <content type="html">&lt;p&gt;Organic farming often wins when we compare impacts on one unit of land, but there is no clear winner when we look at impacts per unit of food production.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://ourworldindata.org/is-organic-farming-better-for-the-environment-than-conventional-farming&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/c34a94e0-2051-436f-6d7b-7248cb28fa00/w=1024&amp;quot;/&amp;gt;&amp;lt;/a&amp;gt;&lt;/p&gt;&lt;p&gt;Source: Our World in Data · 2026-09-14&lt;/p&gt;&lt;p&gt;Tags: #数据 #经济&lt;/p&gt;&lt;p&gt;&lt;a href="https://ourworldindata.org/is-organic-farming-better-for-the-environment-than-conventional-farming"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Our World in Data</title></source>
     <category term="数据"/>
     <category term="经济"/>
@@ -90,6 +97,7 @@
     <updated>2026-09-07T00:00:00Z</updated>
     <published>2026-09-07T00:00:00Z</published>
     <summary type="text">How often do people in high-burden areas get malaria? Studies suggest that many children can experience five or more malaria infections a year.&lt;br&gt;&lt;br&gt;&lt;a href="…</summary>
+    <content type="html">&lt;p&gt;How often do people in high-burden areas get malaria? Studies suggest that many children can experience five or more malaria infections a year.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://ourworldindata.org/a-never-ending-childhood-of-malaria&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/0abc7616-42a5-4338-94a1-6282c3991000/w=1024&amp;quot;/&amp;gt;&amp;lt;/a&amp;gt;&lt;/p&gt;&lt;p&gt;Source: Our World in Data · 2026-09-07&lt;/p&gt;&lt;p&gt;Tags: #数据 #经济&lt;/p&gt;&lt;p&gt;&lt;a href="https://ourworldindata.org/a-never-ending-childhood-of-malaria"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Our World in Data</title></source>
     <category term="数据"/>
     <category term="经济"/>
@@ -101,6 +109,7 @@
     <updated>2026-08-31T00:00:00Z</updated>
     <published>2026-08-31T00:00:00Z</published>
     <summary type="text">Most beef production in Brazil is to meet domestic rather than international demand.&lt;br&gt;&lt;br&gt;&lt;a href="https://ourworldindata.org/beef-production-in-brazil-has-be…</summary>
+    <content type="html">&lt;p&gt;Most beef production in Brazil is to meet domestic rather than international demand.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://ourworldindata.org/beef-production-in-brazil-has-been-the-largest-driver-of-global-deforestation-in-recent-decades&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/31b278f8-6814-47ba-54ac-73914f6aff00/w=1024&amp;quot;/&amp;gt;&amp;lt;/a&amp;gt;&lt;/p&gt;&lt;p&gt;Source: Our World in Data · 2026-08-31&lt;/p&gt;&lt;p&gt;Tags: #数据 #经济&lt;/p&gt;&lt;p&gt;&lt;a href="https://ourworldindata.org/beef-production-in-brazil-has-been-the-largest-driver-of-global-deforestation-in-recent-decades"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Our World in Data</title></source>
     <category term="数据"/>
     <category term="经济"/>
@@ -112,6 +121,7 @@
     <updated>2026-08-24T00:00:00Z</updated>
     <published>2026-08-24T00:00:00Z</published>
     <summary type="text">How elections spread, voting rights expanded, and political competition developed around the world over the last two centuries.&lt;br&gt;&lt;br&gt;&lt;a href="https://ourworld…</summary>
+    <content type="html">&lt;p&gt;How elections spread, voting rights expanded, and political competition developed around the world over the last two centuries.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://ourworldindata.org/the-rise-of-electoral-democracy&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/8bb8ce32-4bbc-487c-e8bf-4ca148339a00/w=1024&amp;quot;/&amp;gt;&amp;lt;/a&amp;gt;&lt;/p&gt;&lt;p&gt;Source: Our World in Data · 2026-08-24&lt;/p&gt;&lt;p&gt;Tags: #数据 #经济&lt;/p&gt;&lt;p&gt;&lt;a href="https://ourworldindata.org/the-rise-of-electoral-democracy"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Our World in Data</title></source>
     <category term="数据"/>
     <category term="经济"/>
@@ -123,6 +133,7 @@
     <updated>2026-08-17T00:00:00Z</updated>
     <published>2026-08-17T00:00:00Z</published>
     <summary type="text">Falling fertility rates have created a unique scenario in human history: many countries are experiencing structural population decline.&lt;br&gt;&lt;br&gt;&lt;a href="https://…</summary>
+    <content type="html">&lt;p&gt;Falling fertility rates have created a unique scenario in human history: many countries are experiencing structural population decline.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://ourworldindata.org/which-countries-have-already-passed-peak-population-and-when-will-the-rest-do-so&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/0da09f22-48af-466e-88fa-22780080b500/w=1024&amp;quot;/&amp;gt;&amp;lt;/a&amp;gt;&lt;/p&gt;&lt;p&gt;Source: Our World in Data · 2026-08-17&lt;/p&gt;&lt;p&gt;Tags: #数据 #经济&lt;/p&gt;&lt;p&gt;&lt;a href="https://ourworldindata.org/which-countries-have-already-passed-peak-population-and-when-will-the-rest-do-so"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Our World in Data</title></source>
     <category term="数据"/>
     <category term="经济"/>

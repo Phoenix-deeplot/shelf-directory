@@ -13,6 +13,7 @@
     <updated>2026-10-30T00:00:00Z</updated>
     <published>2026-10-30T00:00:00Z</published>
     <summary type="text">这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 四川宜宾市的青少年发展中心，建筑中庭的透光屋顶象征一个万花筒，会有不断变化的日光效果。（via） 不要让 AI 代表你 现在，不少人让 AI…</summary>
+    <content type="html">&lt;p&gt;这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 四川宜宾市的青少年发展中心，建筑中庭的透光屋顶象征一个万花筒，会有不断变化的日光效果。（via） 不要让 AI 代表你 现在，不少人让 AI 代表自己做事，比如购买奶茶、回复邮件。 我建议不要这样。你可以用 AI 帮助自己学习和工作，但不要让它代表你，因为会造成社会混乱。 前不久，有人做了一个实验。他让6个 AI 模型代表自己去退火车票，但是这张票已经过了退票期限，正常情况下是退不掉的。 大家猜猜看，AI 收到这个任务后，做了什么？ （1）Grok 4.7 发现退不掉以后，在15天内向铁路公司、政府官员、议员、媒体等发送了187封抗议和交涉邮件。 （2）Fable 5.1 向5个组织撒谎，谎称当事人的母亲生病了，导致没有及时退票。 （3）Gemini 3.8 Flash 编造了另一种没有及时退票的理由：当事人在国外没有手机信号的偏远地区，无法完成银行身份认证。&lt;/p&gt;&lt;p&gt;来源：阮一峰的网络日志 · 2026-10-30&lt;/p&gt;&lt;p&gt;标签：#Weekly #科技 #周刊&lt;/p&gt;&lt;p&gt;&lt;a href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-417.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>阮一峰的网络日志</title></source>
     <category term="Weekly"/>
     <category term="科技"/>
@@ -25,6 +26,7 @@
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
     <summary type="text">这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 本周启用的上海大歌剧院内部装修。（via） 编程已经面目全非 大多数人只看到，AI 改变了程序员这个职业。很少有人提到，AI 也改变了编程。…</summary>
+    <content type="html">&lt;p&gt;这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 本周启用的上海大歌剧院内部装修。（via） 编程已经面目全非 大多数人只看到，AI 改变了程序员这个职业。很少有人提到，AI 也改变了编程。 AI 推翻了传统的软件开发，编程现在已经面目全非。 即使将来泡沫破灭，AI 也不可能从编程工具链中消失，已经永久成为软件开发的一部分，再也无法移除。 一个国外的资深程序员总结了，AI 改变了编程的哪些方面。 他的观点非常激进，有很多大胆的断言，我觉得一定要分享给更多人看。 （1）代码审查（Code review）将消失。 人工审查代码已经没意义了。因为人类跟不上 AI 生成代码的速度，无法在合理的时间内，发现 AI 代码中的 Bug。 人类未来只能审查整个系统的组成或架构是否合理，而绝不会像现在这样，通过 PR 逐行审查代码。 （2）单元测试可能会消失。 AI 可以随时改变代码的整个实现，再去测试一个个代码单元，就没意义了。&lt;/p&gt;&lt;p&gt;来源：阮一峰的网络日志 · 2026-10-23&lt;/p&gt;&lt;p&gt;标签：#Weekly #科技 #周刊&lt;/p&gt;&lt;p&gt;&lt;a href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>阮一峰的网络日志</title></source>
     <category term="Weekly"/>
     <category term="科技"/>
@@ -37,6 +39,7 @@
     <updated>2026-10-16T00:00:00Z</updated>
     <published>2026-10-16T00:00:00Z</published>
     <summary type="text">这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 湖北咸宁梓山湖度假区的美术馆。（via） 3D 版《看不见的城市》 意大利小说家卡尔维诺有一本著名的幻想小说《看不见的城市》。 小说讲述旅行…</summary>
+    <content type="html">&lt;p&gt;这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 湖北咸宁梓山湖度假区的美术馆。（via） 3D 版《看不见的城市》 意大利小说家卡尔维诺有一本著名的幻想小说《看不见的城市》。 小说讲述旅行家马可波罗，向年迈的元朝皇帝忽必烈介绍他旅行中经过的55座城市。 这些城市没有图片或模型，只有文字描述，所以叫做&amp;quot;看不见的城市&amp;quot;。比如，有一个城市叫做艾琳，马可波罗这样描述： &amp;quot;亮灯的时候，假如你站在高地边沿探身外望，看见的城市便是艾琳。透过澄澈的空气，它远远在你下面展开一片浅红。 有些地方窗户排列较密，在暗淡的小巷里，灯火逐渐疏落，花园子里是浓稠的阴影，塔楼上有信号火光；如果晚上有雾，朦胧的光线会像吸满牛奶的海绵一样涨起来。&amp;quot; 有人想到，可以把这些描述输入 AI 模型，为这55个城市建立可视化的 3D 版本。他就用 GPT-6 Astra 和 Claude Opus 5.5 这两个模型进行尝试。&lt;/p&gt;&lt;p&gt;来源：阮一峰的网络日志 · 2026-10-16&lt;/p&gt;&lt;p&gt;标签：#Weekly #科技 #周刊&lt;/p&gt;&lt;p&gt;&lt;a href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>阮一峰的网络日志</title></source>
     <category term="Weekly"/>
     <category term="科技"/>
@@ -49,6 +52,7 @@
     <updated>2026-10-08T00:00:00Z</updated>
     <published>2026-10-08T00:00:00Z</published>
     <summary type="text">这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 国产首列数字地铁列车 VELLINK，完全无人驾驶，车头改成了大幅玻璃，用于观光。（via） Jev 决策模型有什么用 上个月，最大的 AI…</summary>
+    <content type="html">&lt;p&gt;这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 国产首列数字地铁列车 VELLINK，完全无人驾驶，车头改成了大幅玻璃，用于观光。（via） Jev 决策模型有什么用 上个月，最大的 AI 新闻不是 GPT 或 Claude 模型的新版本，而是一家名不见经传的公司 TypeSafe AI 发布了一种新类型的模型 Jev。 这种新模型跟以前的模型截然不同，叫做&amp;quot;决策模型&amp;quot;。 我看了以后，觉得不可置信，这么有用又这么（概念）简单的东西，以前怎么会没人想到？ Jev 模型的最大特点就是，其他模型返回文字，它返回一个浮点数，表示概率。 为什么返回概率就有用呢？因为我们可以用它处理&amp;quot;是非题&amp;quot;了。你问它&amp;quot;&amp;#39;明天下雨&amp;#39;这句话对不对&amp;quot;。它返回 0，表示正确的概率为0，即明天肯定不下雨；如果返回0.99，表示有99%的可能，这句话是真的，也就是明天必定下雨。 除了是非题，它还能处理&amp;quot;选择题&amp;quot;。&lt;/p&gt;&lt;p&gt;来源：阮一峰的网络日志 · 2026-10-08&lt;/p&gt;&lt;p&gt;标签：#Weekly #科技 #周刊&lt;/p&gt;&lt;p&gt;&lt;a href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-414.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>阮一峰的网络日志</title></source>
     <category term="Weekly"/>
     <category term="科技"/>
@@ -61,6 +65,7 @@
     <updated>2026-09-18T00:00:00Z</updated>
     <published>2026-09-18T00:00:00Z</published>
     <summary type="text">这里记录每周值得分享的科技内容，周五发布。（[通知] 下周五开始的中秋和十一假期，周刊休息。） 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 华东师范大学闵行校区新启用的西校门，仿造了它的前身之一光华大学的校门。（via） 再见了…</summary>
+    <content type="html">&lt;p&gt;这里记录每周值得分享的科技内容，周五发布。（[通知] 下周五开始的中秋和十一假期，周刊休息。） 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面图 华东师范大学闵行校区新启用的西校门，仿造了它的前身之一光华大学的校门。（via） 再见了，React Native Shopify 宣布，放弃 React Native，改用 Swift 和 Kotlin 开发它的移动版。 也就是说，它决定采用原生语言，开发 iOS 和安卓客户端，不再采用 Web 技术开发一个中间版本，再编译成各平台的客户端。 这不禁让人想起，六年前的2020年，它也是写了一篇文章，高调宣布放弃原生语言，全面转向 React Native，拥抱 Web 技术。 这在当时是一个大新闻，很多人认同 Shopify 选择 Web 技术的三个理由。 不用为每个平台重复开发相同的功能。 允许开发人员跨技术栈工作。 多出来的时间和精力，可以用来创造更多的价值。 说实话，这三个理由都是场面话，真正的理由只有一个：省钱。&lt;/p&gt;&lt;p&gt;来源：阮一峰的网络日志 · 2026-09-18&lt;/p&gt;&lt;p&gt;标签：#Weekly #科技 #周刊&lt;/p&gt;&lt;p&gt;&lt;a href="http://www.ruanyifeng.com/blog/2026/09/weekly-issue-413.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>阮一峰的网络日志</title></source>
     <category term="Weekly"/>
     <category term="科技"/>
@@ -73,6 +78,7 @@
     <updated>2026-09-11T00:00:00Z</updated>
     <published>2026-09-11T00:00:00Z</published>
     <summary type="text">这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面 上海前滩太古里举办的"英雄联盟15周年"展览。（via） 禁止 issue，只用 PR 上周，PHP 框架 Laravel 宣布了一个新规定：…</summary>
+    <content type="html">&lt;p&gt;这里记录每周值得分享的科技内容，周五发布。 本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。 封面 上海前滩太古里举办的&amp;quot;英雄联盟15周年&amp;quot;展览。（via） 禁止 issue，只用 PR 上周，PHP 框架 Laravel 宣布了一个新规定：禁止提交 issue，只能提交 Pull Request。 乍一看，这个规定太荒谬了。用户不能提交 issue，怎么报告问题呢？难道你要每个人都读懂源码，自己动手解决问题！ 但是仔细想想，你会发现这个措施很合理，甚至值得推广。 （1）没有了垃圾 issue。 如果一个用户愿意花时间创建 PR，说明他对这个问题更上心。那些机器人和骚扰者，只会提交垃圾 issue，根本不愿意多花时间为项目做贡献。 （2）对维护者更方便。 项目维护者从 PR 里面得到的信息，远远多于 issue，更利于理解和解决问题，投入的时间也更少。 （3）没有增加用户的提交难度。 用户即使不懂源码，也能提交 PR。 他可以向 AI 描述问题，让 AI 生成 PR。&lt;/p&gt;&lt;p&gt;来源：阮一峰的网络日志 · 2026-09-11&lt;/p&gt;&lt;p&gt;标签：#Weekly #科技 #周刊&lt;/p&gt;&lt;p&gt;&lt;a href="http://www.ruanyifeng.com/blog/2026/09/weekly-issue-412.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>阮一峰的网络日志</title></source>
     <category term="Weekly"/>
     <category term="科技"/>

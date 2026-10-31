@@ -13,6 +13,7 @@
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
     <summary type="text">本文结合美团基础技术部在 AI 评审、问题排查和自动化开发中的真实实践，分享 AI 能帮上什么忙、容易在哪些地方犯错，以及哪些地方仍需要人来把关。比「多写代码」更重要的，是让代码和结论经得起验证。</summary>
+    <content type="html">&lt;p&gt;本文结合美团基础技术部在 AI 评审、问题排查和自动化开发中的真实实践，分享 AI 能帮上什么忙、容易在哪些地方犯错，以及哪些地方仍需要人来把关。比「多写代码」更重要的，是让代码和结论经得起验证。&lt;/p&gt;&lt;p&gt;来源：美团 · 技术团队 · 2026-10-29&lt;/p&gt;&lt;p&gt;标签：#架构 #工程&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.meituan.com/2026/10/29/AI-Coding-IN-Distributed-Storage-System.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>美团 · 技术团队</title></source>
     <category term="架构"/>
     <category term="工程"/>
@@ -24,6 +25,7 @@
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
     <summary type="text">美团智播围绕 AI 主播「长得真→动得准→演得活→卖得好」构建了完整技术闭环：真人 1:1 复刻、换装换背景身份不跑偏；动作自然流畅，告别「木偶戏」；边说边动、音画一致；背后还有推理加速技术支撑万路并发开播，让普惠落地成为可能。</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://p0.meituan.net/meituantechblog/a7c5a936998959a941d145ac3eebe7334801382.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;美团智播围绕 AI 主播「长得真→动得准→演得活→卖得好」构建了完整技术闭环：真人 1:1 复刻、换装换背景身份不跑偏；动作自然流畅，告别「木偶戏」；边说边动、音画一致；背后还有推理加速技术支撑万路并发开播，让普惠落地成为可能。&lt;/p&gt;&lt;p&gt;来源：美团 · 技术团队 · 2026-10-23&lt;/p&gt;&lt;p&gt;标签：#架构 #工程&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.meituan.com/2026/09/03/meituan-Digital-Human-practice.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>美团 · 技术团队</title></source>
     <category term="架构"/>
     <category term="工程"/>
@@ -35,6 +37,7 @@
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
     <summary type="text">美团搜索团队正依托团垂融合新架构与生成式大模型新技术，全面重构本地生活搜索底座。本系列技术博客将持续介绍美团搜索 3.0 的技术探索，本文聚焦 LLM 语义表征在服务零售排序场景上的三期实践——从单点特征验证到系统性表征体系构建，再到跨场景迁移复用，探索语义匹配信号在搜索排序中的应用路径。</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://p1.meituan.net/meituantechblog/8f6d0d2a1b53e0fbe26ec7f5426bd45a302269.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;美团搜索团队正依托团垂融合新架构与生成式大模型新技术，全面重构本地生活搜索底座。本系列技术博客将持续介绍美团搜索 3.0 的技术探索，本文聚焦 LLM 语义表征在服务零售排序场景上的三期实践——从单点特征验证到系统性表征体系构建，再到跨场景迁移复用，探索语义匹配信号在搜索排序中的应用路径。&lt;/p&gt;&lt;p&gt;来源：美团 · 技术团队 · 2026-10-23&lt;/p&gt;&lt;p&gt;标签：#架构 #工程&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.meituan.com/2026/08/20/01-meituan-Query-3.0.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>美团 · 技术团队</title></source>
     <category term="架构"/>
     <category term="工程"/>
@@ -46,6 +49,7 @@
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
     <summary type="text">本文分享这套系统的设计理念、架构演进与可信度设计，希望对大家有所帮助或启发。</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://p0.meituan.net/meituantechblog/f96887d93b880574e0fb9ebad114faba529816.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;本文分享这套系统的设计理念、架构演进与可信度设计，希望对大家有所帮助或启发。&lt;/p&gt;&lt;p&gt;来源：美团 · 技术团队 · 2026-10-23&lt;/p&gt;&lt;p&gt;标签：#架构 #工程&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.meituan.com/2026/10/22/LOOP-AutoResearch.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>美团 · 技术团队</title></source>
     <category term="架构"/>
     <category term="工程"/>
@@ -57,6 +61,7 @@
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
     <summary type="text">我们推出了《Agent评测白皮书》系列博客，体系化地为大家讲解评测的落地指南，分为《评测全览》、《冷启动篇》、《扩量篇》、《自进化篇》等共4篇，本文为系列的第一篇。</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://p0.meituan.net/meituantechblog/714ba0bf48f2186bd418d3778da7e214293923.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;我们推出了《Agent评测白皮书》系列博客，体系化地为大家讲解评测的落地指南，分为《评测全览》、《冷启动篇》、《扩量篇》、《自进化篇》等共4篇，本文为系列的第一篇。&lt;/p&gt;&lt;p&gt;来源：美团 · 技术团队 · 2026-10-23&lt;/p&gt;&lt;p&gt;标签：#架构 #工程&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.meituan.com/2026/09/10/Agent-Evaluation-White-Paper-01.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>美团 · 技术团队</title></source>
     <category term="架构"/>
     <category term="工程"/>
@@ -68,6 +73,7 @@
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
     <summary type="text">本文为SLM（Small Language Model， 小参数量语言模型0.5~1B）在搜推场景的大规模落地提供了一套高性能、可复用的工程实践。</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://p0.meituan.net/meituantechblog/449102302ea0d472417c6fff369dd63882001.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;本文为SLM（Small Language Model， 小参数量语言模型0.5~1B）在搜推场景的大规模落地提供了一套高性能、可复用的工程实践。&lt;/p&gt;&lt;p&gt;来源：美团 · 技术团队 · 2026-10-23&lt;/p&gt;&lt;p&gt;标签：#架构 #工程&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.meituan.com/2026/10/15/Small-Language-Model-in-meituan.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>美团 · 技术团队</title></source>
     <category term="架构"/>
     <category term="工程"/>
@@ -79,6 +85,7 @@
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
     <summary type="text">美团在 MTGR 基础上提出统一推荐基座大模型 MTFM，首次实现外卖多个主要业务的统一精排模型。</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://p0.meituan.net/meituantechblog/5dcc2af83b5b9da04717c9fcff76b69a1943722.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;美团在 MTGR 基础上提出统一推荐基座大模型 MTFM，首次实现外卖多个主要业务的统一精排模型。&lt;/p&gt;&lt;p&gt;来源：美团 · 技术团队 · 2026-10-23&lt;/p&gt;&lt;p&gt;标签：#架构 #工程&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.meituan.com/2026/09/22/Meituan-Foundation-Model-for-Recommendation.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>美团 · 技术团队</title></source>
     <category term="架构"/>
     <category term="工程"/>
@@ -90,6 +97,7 @@
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
     <summary type="text">本文精选了美团技术团队被 KDD 2026 收录的 8 篇论文进行分享，这些论文覆盖了推荐大模型、生成与奖励建模框架、智能体搜索、Transformer 框架、元泛化框架等技术领域。</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://p0.meituan.net/meituantechblog/9720828f0ff8f07f6ce01f56d9e3f820362245.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;本文精选了美团技术团队被 KDD 2026 收录的 8 篇论文进行分享，这些论文覆盖了推荐大模型、生成与奖励建模框架、智能体搜索、Transformer 框架、元泛化框架等技术领域。&lt;/p&gt;&lt;p&gt;来源：美团 · 技术团队 · 2026-10-23&lt;/p&gt;&lt;p&gt;标签：#架构 #工程&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.meituan.com/2026/08/13/KDD-2026-meituan-papers.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>美团 · 技术团队</title></source>
     <category term="架构"/>
     <category term="工程"/>
@@ -101,6 +109,7 @@
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
     <summary type="text">ACL 2026杰出论文奖（Outstanding Paper）揭晓，全球共 18 篇入选，其中包含美团履约技术团队的1篇论文。本文介绍了一种专为 RLVR 设计的低秩训练方法，以及它在业务 Agentic RL 中的落地经验。</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://p0.meituan.net/meituantechblog/97ea31d07a6d2933012521da83d6af45614059.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;ACL 2026杰出论文奖（Outstanding Paper）揭晓，全球共 18 篇入选，其中包含美团履约技术团队的1篇论文。本文介绍了一种专为 RLVR 设计的低秩训练方法，以及它在业务 Agentic RL 中的落地经验。&lt;/p&gt;&lt;p&gt;来源：美团 · 技术团队 · 2026-10-23&lt;/p&gt;&lt;p&gt;标签：#架构 #工程&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.meituan.com/2026/08/27/ACL-Outstanding-Paper-GeoRA.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>美团 · 技术团队</title></source>
     <category term="架构"/>
     <category term="工程"/>
@@ -112,6 +121,7 @@
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
     <summary type="text">本篇博客是一篇科普文章，由浅入深的介绍Agent评测。其中前两章系统介绍了评测是什么，以及如何建立评测体系；其中第二章是美团图灵Agent评测团队深入美团各业务团队BP总结出的实践经验，是我们在两年实践过程中逐步打磨出来的认知。</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://p0.meituan.net/meituantechblog/5a8954c2e7b681ee8fb8d2c8a73868cd157865.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;本篇博客是一篇科普文章，由浅入深的介绍Agent评测。其中前两章系统介绍了评测是什么，以及如何建立评测体系；其中第二章是美团图灵Agent评测团队深入美团各业务团队BP总结出的实践经验，是我们在两年实践过程中逐步打磨出来的认知。&lt;/p&gt;&lt;p&gt;来源：美团 · 技术团队 · 2026-10-23&lt;/p&gt;&lt;p&gt;标签：#架构 #工程&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.meituan.com/2026/08/07/Agent-Evaluation.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>美团 · 技术团队</title></source>
     <category term="架构"/>
     <category term="工程"/>

@@ -4,81 +4,40 @@
   <title>知树阅读-个人图书空间 · Lobsters</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/hot-lobsters.xml"/>
-  <updated>2026-10-30T00:00:00Z</updated>
+  <updated>2026-10-31T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://entropicthoughts.com/what-the-fox-say</id>
-    <title>What the fox say?</title>
-    <link rel="alternate" type="text/html" href="https://entropicthoughts.com/what-the-fox-say"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 8 名 · ▲ 60 · games · 13 条评论</summary>
+    <id>https://devblogs.microsoft.com/oldnewthing/20261029-00/?p=112808/</id>
+    <title>The support case of a customer who said that all they could see was a black screen</title>
+    <link rel="alternate" type="text/html" href="https://devblogs.microsoft.com/oldnewthing/20261029-00/?p=112808/"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">第 7 名 · ▲ 20 · historical windows · 1 条评论</summary>
+    <content type="html">&lt;p&gt;第 7 名 · ▲ 20 · historical windows · 1 条评论&lt;/p&gt;&lt;p&gt;Source: Lobsters · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #社区 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://devblogs.microsoft.com/oldnewthing/20261029-00/?p=112808/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Lobsters</title></source>
     <category term="社区"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://lobste.rs/s/eccbci</id>
-    <title>Shared password manager for families?</title>
-    <link rel="alternate" type="text/html" href="https://lobste.rs/s/eccbci"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 6 名 · ▲ 34 · ask security · 44 条评论</summary>
+    <id>https://smoores.dev/post/no_npm_estee_is_not_a_typo/</id>
+    <title>No, npm, “estee” is not a typo of “testem”</title>
+    <link rel="alternate" type="text/html" href="https://smoores.dev/post/no_npm_estee_is_not_a_typo/"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">第 3 名 · ▲ 29 · javascript · 19 条评论</summary>
+    <content type="html">&lt;p&gt;第 3 名 · ▲ 29 · javascript · 19 条评论&lt;/p&gt;&lt;p&gt;Source: Lobsters · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #社区 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://smoores.dev/post/no_npm_estee_is_not_a_typo/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Lobsters</title></source>
     <category term="社区"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://discourse.imfreedom.org/t/pidgin-3-0-alpha-4-2-98-0-has-been-released/445</id>
-    <title>Pidgin 3.0 Alpha 4 2.98.0 has been released</title>
-    <link rel="alternate" type="text/html" href="https://discourse.imfreedom.org/t/pidgin-3-0-alpha-4-2-98-0-has-been-released/445"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 3 名 · ▲ 10 · release · 1 条评论</summary>
-    <source><title>Lobsters</title></source>
-    <category term="社区"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://www.phorge.it/</id>
-    <title>Phorge</title>
-    <link rel="alternate" type="text/html" href="https://www.phorge.it/"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 10 名 · ▲ 20 · php vcs · 7 条评论</summary>
-    <source><title>Lobsters</title></source>
-    <category term="社区"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://mastodon.sdf.org/@netbsd/117518160563539748</id>
-    <title>NetBSD adds a new Emacs-like text editor called atto</title>
-    <link rel="alternate" type="text/html" href="https://mastodon.sdf.org/@netbsd/117518160563539748"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 5 名 · ▲ 47 · editors netbsd · 26 条评论</summary>
-    <source><title>Lobsters</title></source>
-    <category term="社区"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/</id>
-    <title>My favourite PowerMac is a Nintendo Wii</title>
-    <link rel="alternate" type="text/html" href="https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 9 名 · ▲ 40 · retrocomputing reversing · 1 条评论</summary>
-    <source><title>Lobsters</title></source>
-    <category term="社区"/>
-    <category term="热榜"/>
-  </entry>
-  <entry>
-    <id>https://lobste.rs/s/dsrruj</id>
-    <title>London meetup</title>
-    <link rel="alternate" type="text/html" href="https://lobste.rs/s/dsrruj"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 1 名 · ▲ 38 · event · 25 条评论</summary>
+    <id>https://blog.persistent.info/2026/10/infinite-mac-beos.html</id>
+    <title>Infinite Mac: BeOS</title>
+    <link rel="alternate" type="text/html" href="https://blog.persistent.info/2026/10/infinite-mac-beos.html"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">第 8 名 · ▲ 35 · retrocomputing · 5 条评论</summary>
+    <content type="html">&lt;p&gt;第 8 名 · ▲ 35 · retrocomputing · 5 条评论&lt;/p&gt;&lt;p&gt;Source: Lobsters · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #社区 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://blog.persistent.info/2026/10/infinite-mac-beos.html"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Lobsters</title></source>
     <category term="社区"/>
     <category term="热榜"/>
@@ -87,9 +46,22 @@
     <id>http://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/</id>
     <title>If you love a website, back it up</title>
     <link rel="alternate" type="text/html" href="http://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 2 名 · ▲ 26 · web · 10 条评论</summary>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">第 10 名 · ▲ 81 · web · 22 条评论</summary>
+    <content type="html">&lt;p&gt;第 10 名 · ▲ 81 · web · 22 条评论&lt;/p&gt;&lt;p&gt;Source: Lobsters · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #社区 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="http://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>Lobsters</title></source>
+    <category term="社区"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://serce.me/posts/2026-10-30-how-hard-is-it-to-check-for-whitespace</id>
+    <title>How hard is it to check for whitespace?</title>
+    <link rel="alternate" type="text/html" href="https://serce.me/posts/2026-10-30-how-hard-is-it-to-check-for-whitespace"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">第 4 名 · ▲ 17 · java performance · 3 条评论</summary>
+    <content type="html">&lt;p&gt;第 4 名 · ▲ 17 · java performance · 3 条评论&lt;/p&gt;&lt;p&gt;Source: Lobsters · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #社区 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://serce.me/posts/2026-10-30-how-hard-is-it-to-check-for-whitespace"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Lobsters</title></source>
     <category term="社区"/>
     <category term="热榜"/>
@@ -98,20 +70,46 @@
     <id>https://seriot.ch/computation/curl.html</id>
     <title>How curl was accidentally Turing-complete for nine months</title>
     <link rel="alternate" type="text/html" href="https://seriot.ch/computation/curl.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 4 名 · ▲ 11 · compsci · 1 条评论</summary>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">第 9 名 · ▲ 74 · compsci · 7 条评论</summary>
+    <content type="html">&lt;p&gt;第 9 名 · ▲ 74 · compsci · 7 条评论&lt;/p&gt;&lt;p&gt;Source: Lobsters · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #社区 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://seriot.ch/computation/curl.html"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Lobsters</title></source>
     <category term="社区"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.da.vidbuchanan.co.uk/blog/c2pa-four.html</id>
-    <title>C2PA's eMudhra Moment</title>
-    <link rel="alternate" type="text/html" href="https://www.da.vidbuchanan.co.uk/blog/c2pa-four.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 7 名 · ▲ 16 · cryptography security · 1 条评论</summary>
+    <id>https://melaniekat.com/blog/public-on-pds/</id>
+    <title>Do At-Proto Users Know This Is Public?</title>
+    <link rel="alternate" type="text/html" href="https://melaniekat.com/blog/public-on-pds/"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">第 2 名 · ▲ 85 · privacy · 28 条评论</summary>
+    <content type="html">&lt;p&gt;第 2 名 · ▲ 85 · privacy · 28 条评论&lt;/p&gt;&lt;p&gt;Source: Lobsters · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #社区 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://melaniekat.com/blog/public-on-pds/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>Lobsters</title></source>
+    <category term="社区"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>http://www.youtube.com/playlist?list=PLAkHRk3lgU_Q</id>
+    <title>Clojure/Conj 2026</title>
+    <link rel="alternate" type="text/html" href="http://www.youtube.com/playlist?list=PLAkHRk3lgU_Q"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">第 6 名 · ▲ 10 · clojure video · 1 条评论</summary>
+    <content type="html">&lt;p&gt;第 6 名 · ▲ 10 · clojure video · 1 条评论&lt;/p&gt;&lt;p&gt;Source: Lobsters · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #社区 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="http://www.youtube.com/playlist?list=PLAkHRk3lgU_Q"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>Lobsters</title></source>
+    <category term="社区"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://cyberplace.social/@GossiTheDog/117528831681803563</id>
+    <title>Backdoors in Claude Code for VS, Cursor official extensions</title>
+    <link rel="alternate" type="text/html" href="https://cyberplace.social/@GossiTheDog/117528831681803563"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">第 1 名 · ▲ 154 · security · 38 条评论</summary>
+    <content type="html">&lt;p&gt;第 1 名 · ▲ 154 · security · 38 条评论&lt;/p&gt;&lt;p&gt;Source: Lobsters · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #社区 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://cyberplace.social/@GossiTheDog/117528831681803563"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Lobsters</title></source>
     <category term="社区"/>
     <category term="热榜"/>

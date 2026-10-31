@@ -9,9 +9,38 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/story/should-you-get-a-sunrise-alarm-clock/",
+      "url": "https://www.wired.com/story/should-you-get-a-sunrise-alarm-clock/",
+      "title": "Best Sunrise Alarm Clock (2026): Hatch, Lumie",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae4fa24ff45389e1b5f1706/master/pass/Sunrise%20Alarms%20102026%20top%20art%20SOURCE%20Hatch-Amazon.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>I’ve never been a morning person. This bedside gadget is the only thing that’s ever changed that.</p><p>Source: WIRED · 2026-10-31</p><p>Tags: #Gear #Gear / Buying Guides #Gear / Products / Home #Gear / Products / Sleep #Rise &amp; Shine #科技</p><p><a href=\"https://www.wired.com/story/should-you-get-a-sunrise-alarm-clock/\">Read the original →</a></p>",
+      "content_text": "I’ve never been a morning person. This bedside gadget is the only thing that’s ever changed that.",
+      "summary": "I’ve never been a morning person. This bedside gadget is the only thing that’s ever changed that.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae4fa24ff45389e1b5f1706/master/pass/Sunrise%20Alarms%20102026%20top%20art%20SOURCE%20Hatch-Amazon.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Buying Guides",
+        "Gear / Products / Home",
+        "Gear / Products / Sleep",
+        "Rise & Shine",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/gifts-for-friends/",
       "url": "https://www.wired.com/story/gifts-for-friends/",
       "title": "Gift Ideas for Friends (2026): Wellness Tech, Kitchen Essentials",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae3c65712651ae6c2d7998a/master/pass/Best%20Gifts%20for%20Friends%20102026%20top%20art%20SOURCE%20shop.com.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>These are the WIRED-tested gadgets, kitchen tools, and cozy comforts I’d actually buy for my own inner circle.</p><p>Source: WIRED · 2026-10-30</p><p>Tags: #Gear #Gear / Buying Guides #Gear / Products / Home #Present Company #科技 #社会</p><p><a href=\"https://www.wired.com/story/gifts-for-friends/\">Read the original →</a></p>",
       "content_text": "These are the WIRED-tested gadgets, kitchen tools, and cozy comforts I’d actually buy for my own inner circle.",
       "summary": "These are the WIRED-tested gadgets, kitchen tools, and cozy comforts I’d actually buy for my own inner circle.",
       "date_published": "2026-10-30T00:00:00Z",
@@ -38,6 +67,7 @@
       "id": "https://www.wired.com/story/best-kindle-accessories/",
       "url": "https://www.wired.com/story/best-kindle-accessories/",
       "title": "The Kindle Accessories I Never Want to Read Without (2026)",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae246c98025c0ad4677ba62/master/pass/Update%20Best%20Kindle%20Accessories%20102026%20top%20art%20SOURCE%20Amazon-Bondi.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Looking to better protect your Kindle or add a little personality to your favorite e-reader? From cases and covers to page-turners and stickers, this is the gui…</p><p>Source: WIRED · 2026-10-29</p><p>Tags: #Gear #Gear / Buying Guides #Gear / Products / Tablets #Better Reading #科技 #社会</p><p><a href=\"https://www.wired.com/story/best-kindle-accessories/\">Read the original →</a></p>",
       "content_text": "Looking to better protect your Kindle or add a little personality to your favorite e-reader? From cases and covers to page-turners and stickers, this is the gui…",
       "summary": "Looking to better protect your Kindle or add a little personality to your favorite e-reader? From cases and covers to page-turners and stickers, this is the gui…",
       "date_published": "2026-10-29T00:00:00Z",
@@ -47,32 +77,6 @@
         "Gear / Buying Guides",
         "Gear / Products / Tablets",
         "Better Reading",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/gallery/best-kindle/",
-      "url": "https://www.wired.com/gallery/best-kindle/",
-      "title": "What’s the Best Kindle of 2026 (So Far)?",
-      "content_text": "I’ve tested every single Kindle, from Paperwhite and Colorsoft to the new aluminum models. Here’s how Amazon’s ebook readers stack up.",
-      "summary": "I’ve tested every single Kindle, from Paperwhite and Colorsoft to the new aluminum models. Here’s how Amazon’s ebook readers stack up.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ae10eb928ee41eb8014df31/master/pass/Update%20Best%20Kindles%20102026%20top%20art%20SOURCE%20Amazon.jpg",
-      "tags": [
-        "Gear",
-        "Gear / Buying Guides",
-        "Gear / Products / Accessories",
-        "Book Smart",
         "科技",
         "社会"
       ],

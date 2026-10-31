@@ -1,0 +1,66 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #Health",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/health.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://slate.com/podcasts/icymi/2026/10/adult-children-are-struggling-with-screenager-parents?via=rss",
+      "url": "https://slate.com/podcasts/icymi/2026/10/adult-children-are-struggling-with-screenager-parents?via=rss",
+      "title": "Is Your Senior Parent A “Screenager”?",
+      "content_html": "<p><img src=\"https://compote.slate.com/images/ceb4a62f-84f5-48a9-a912-7368994fb234.jpeg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>No one talks about elderly parents’ social media use.</p><p>Source: Slate Magazine · 2026-10-31</p><p>Tags: #Health #Internet Culture #Social Media #评论 #文化</p><p><a href=\"https://slate.com/podcasts/icymi/2026/10/adult-children-are-struggling-with-screenager-parents?via=rss\">Read the original →</a></p>",
+      "content_text": "No one talks about elderly parents’ social media use.",
+      "summary": "No one talks about elderly parents’ social media use.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://compote.slate.com/images/ceb4a62f-84f5-48a9-a912-7368994fb234.jpeg",
+      "tags": [
+        "Health",
+        "Internet Culture",
+        "Social Media",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://daily.jstor.org/teaching-students-to-see-what-they-miss/",
+      "url": "https://daily.jstor.org/teaching-students-to-see-what-they-miss/",
+      "title": "Teaching Students to See What They Miss",
+      "content_html": "<p>A classroom exercise in slow looking uses art to sharpen observation skills and encourage more attentive listening. The post Teaching Students to See What They Miss appeared first on JSTOR Daily.</p><p>Source: JSTOR Daily · 2026-10-23</p><p>Tags: #Education #Education &amp; Society #Health #Science &amp; Technology #art history #medicine</p><p><a href=\"https://daily.jstor.org/teaching-students-to-see-what-they-miss/\">Read the original →</a></p>",
+      "content_text": "A classroom exercise in slow looking uses art to sharpen observation skills and encourage more attentive listening. The post Teaching Students to See What They Miss appeared first on JSTOR Daily.",
+      "summary": "A classroom exercise in slow looking uses art to sharpen observation skills and encourage more attentive listening. The post Teaching Students to See What They…",
+      "date_published": "2026-10-23T00:00:00Z",
+      "tags": [
+        "Education",
+        "Education & Society",
+        "Health",
+        "Science & Technology",
+        "art history",
+        "medicine",
+        "学术",
+        "人文"
+      ],
+      "authors": [
+        {
+          "name": "JSTOR Daily"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "daily-jstor-org"
+      }
+    }
+  ]
+}

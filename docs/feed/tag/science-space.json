@@ -9,9 +9,36 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/story/white-dwarfs-arent-just-white-scientists-discover-dying-stars-turning-pink-and-green/",
+      "url": "https://www.wired.com/story/white-dwarfs-arent-just-white-scientists-discover-dying-stars-turning-pink-and-green/",
+      "title": "White Dwarfs Aren’t Just White. Scientists Discover Dying Stars Turning Pink and Green",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae4f2b6964b916949bd5905/master/pass/2026-10-16T090008Z_1895378929_RC2IYNATEQ2X_RTRMADP_3_SPACE-STAR.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Astronomers find that a white dwarf’s density and the kind of material it absorbed from its surroundings can produce a rainbow of shades in the star’s atmospher…</p><p>Source: WIRED · 2026-10-31</p><p>Tags: #Science #Science / Space #Universe Sprinkles #科技 #社会</p><p><a href=\"https://www.wired.com/story/white-dwarfs-arent-just-white-scientists-discover-dying-stars-turning-pink-and-green/\">Read the original →</a></p>",
+      "content_text": "Astronomers find that a white dwarf’s density and the kind of material it absorbed from its surroundings can produce a rainbow of shades in the star’s atmospher…",
+      "summary": "Astronomers find that a white dwarf’s density and the kind of material it absorbed from its surroundings can produce a rainbow of shades in the star’s atmospher…",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae4f2b6964b916949bd5905/master/pass/2026-10-16T090008Z_1895378929_RC2IYNATEQ2X_RTRMADP_3_SPACE-STAR.jpg",
+      "tags": [
+        "Science",
+        "Science / Space",
+        "Universe Sprinkles",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/what-to-know-about-chinas-top-secret-spaceplane/",
       "url": "https://www.wired.com/story/what-to-know-about-chinas-top-secret-spaceplane/",
       "title": "What to Know About China’s Top-Secret Spaceplane",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae3aab21b78b1068035e643/master/pass/PRC%20Space%20Plane_Vantor.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>This week, the Pentagon released a full-resolution image of the vehicle, the capabilities of which remain rather mysterious.</p><p>Source: WIRED · 2026-10-29</p><p>Tags: #Science #Science / Space #Space Race #科技 #社会</p><p><a href=\"https://www.wired.com/story/what-to-know-about-chinas-top-secret-spaceplane/\">Read the original →</a></p>",
       "content_text": "This week, the Pentagon released a full-resolution image of the vehicle, the capabilities of which remain rather mysterious.",
       "summary": "This week, the Pentagon released a full-resolution image of the vehicle, the capabilities of which remain rather mysterious.",
       "date_published": "2026-10-29T00:00:00Z",
@@ -37,6 +64,7 @@
       "id": "https://www.wired.com/story/astronomers-discover-a-possible-new-dwarf-planet-in-our-solar-system/",
       "url": "https://www.wired.com/story/astronomers-discover-a-possible-new-dwarf-planet-in-our-solar-system/",
       "title": "Astronomers Discover a Possible New Dwarf Planet in Our Solar System",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae26ce6735e20536e98e3d0/master/pass/noirlab2626b.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Lying beyond Pluto, 2026 ED138 could be as large as 1,500 kilometers in diameter. Astronomers are still working to confirm whether it meets the criteria for a d…</p><p>Source: WIRED · 2026-10-29</p><p>Tags: #Science #Science / Space #Hi Neighbor #科技 #社会</p><p><a href=\"https://www.wired.com/story/astronomers-discover-a-possible-new-dwarf-planet-in-our-solar-system/\">Read the original →</a></p>",
       "content_text": "Lying beyond Pluto, 2026 ED138 could be as large as 1,500 kilometers in diameter. Astronomers are still working to confirm whether it meets the criteria for a d…",
       "summary": "Lying beyond Pluto, 2026 ED138 could be as large as 1,500 kilometers in diameter. Astronomers are still working to confirm whether it meets the criteria for a d…",
       "date_published": "2026-10-29T00:00:00Z",

@@ -12,6 +12,7 @@
       "id": "https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/",
       "url": "https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/",
       "title": "The Iran War’s Impact on Oil Is Hitting Key Senate Races Hard",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae3489ed0f1304b56163b28/master/pass/102916-Iran%20War%20US.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Democrats are using the high price of diesel, heating oil, and fertilizer to tie Republicans to President Donald Trump’s unpopular, costly war in Iran.</p><p>Source: WIRED · 2026-10-30</p><p>Tags: #Science #Science / Environment #Politics #Gassed Up #科技 #社会</p><p><a href=\"https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/\">Read the original →</a></p>",
       "content_text": "Democrats are using the high price of diesel, heating oil, and fertilizer to tie Republicans to President Donald Trump’s unpopular, costly war in Iran.",
       "summary": "Democrats are using the high price of diesel, heating oil, and fertilizer to tie Republicans to President Donald Trump’s unpopular, costly war in Iran.",
       "date_published": "2026-10-30T00:00:00Z",
@@ -35,10 +36,36 @@
       }
     },
     {
+      "id": "https://www.wired.com/story/elon-musks-ties-to-texas-republicans-go-much-deeper-than-the-midterms/",
+      "url": "https://www.wired.com/story/elon-musks-ties-to-texas-republicans-go-much-deeper-than-the-midterms/",
+      "title": "Elon Musk’s Ties to Texas Republicans Go Much Deeper Than the Midterms",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae0c75290b99bca949001fd/master/pass/102726-ken-paxton-elon-musk.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>As Election Day approaches, the billionaire’s longstanding relationships with GOP leaders in Texas are under scrutiny.</p><p>Source: WIRED · 2026-10-30</p><p>Tags: #Politics #Midterms 2026 #科技 #社会</p><p><a href=\"https://www.wired.com/story/elon-musks-ties-to-texas-republicans-go-much-deeper-than-the-midterms/\">Read the original →</a></p>",
+      "content_text": "As Election Day approaches, the billionaire’s longstanding relationships with GOP leaders in Texas are under scrutiny.",
+      "summary": "As Election Day approaches, the billionaire’s longstanding relationships with GOP leaders in Texas are under scrutiny.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae0c75290b99bca949001fd/master/pass/102726-ken-paxton-elon-musk.jpg",
+      "tags": [
+        "Politics",
+        "Midterms 2026",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/law-firm-linked-to-elon-musk-started-an-election-integrity-organization/",
       "url": "https://www.wired.com/story/law-firm-linked-to-elon-musk-started-an-election-integrity-organization/",
       "title": "Law Firm Linked to Elon Musk Started an ‘Election Integrity’ Organization",
-      "content_text": "The firm that helped set up Elon Musk’s America PAC is behind the new group, which will work with election officials to pursue policies aligned with Donald Trum…",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6adf9665ae47ffa8435ebbf6/master/pass/GettyImages-2207247570.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>The firm that helped set up Elon Musk’s America PAC is behind the new group, which will work with election officials to pursue policies aligned with Donald Trump’s false election fraud claims.</p><p>Source: WIRED · 2026-10-29</p><p>Tags: #Politics #Midterms 2026 #科技 #社会</p><p><a href=\"https://www.wired.com/story/law-firm-linked-to-elon-musk-started-an-election-integrity-organization/\">Read the original →</a></p>",
+      "content_text": "The firm that helped set up Elon Musk’s America PAC is behind the new group, which will work with election officials to pursue policies aligned with Donald Trump’s false election fraud claims.",
       "summary": "The firm that helped set up Elon Musk’s America PAC is behind the new group, which will work with election officials to pursue policies aligned with Donald Trum…",
       "date_published": "2026-10-29T00:00:00Z",
       "image": "https://media.wired.com/photos/6adf9665ae47ffa8435ebbf6/master/pass/GettyImages-2207247570.jpg",
@@ -62,6 +89,7 @@
       "id": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
       "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
       "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae113db6239096998a832f8/master/pass/102726-department-of-defense-ai-agent.gif\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Sources tell WIRED that an Accenture employee’s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could b…</p><p>Source: WIRED · 2026-10-29</p><p>Tags: #Politics #Agent Alert #科技 #社会</p><p><a href=\"https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/\">Read the original →</a></p>",
       "content_text": "Sources tell WIRED that an Accenture employee’s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could b…",
       "summary": "Sources tell WIRED that an Accenture employee’s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could b…",
       "date_published": "2026-10-29T00:00:00Z",
@@ -69,55 +97,6 @@
       "tags": [
         "Politics",
         "Agent Alert",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/this-is-what-the-gops-final-midterms-push-looks-like/",
-      "url": "https://www.wired.com/story/this-is-what-the-gops-final-midterms-push-looks-like/",
-      "title": "This Is What the GOP’s Final Midterms Push Looks Like",
-      "content_text": "Republicans are spending their time and money on Senate races in historically red states—a sign they’re more nervous than ever as Election Day looms.",
-      "summary": "Republicans are spending their time and money on Senate races in historically red states—a sign they’re more nervous than ever as Election Day looms.",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ae117bf28ee41eb8014dfa9/master/pass/politics_republicans_midterms_spending.jpg",
-      "tags": [
-        "Politics",
-        "Politics / Politics News",
-        "Inner Loop",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
-      "id": "https://www.wired.com/story/senators-demand-to-know-if-dr-oz-collaborated-with-election-denial-groups/",
-      "url": "https://www.wired.com/story/senators-demand-to-know-if-dr-oz-collaborated-with-election-denial-groups/",
-      "title": "Senators Demand to Know if Dr. Oz Collaborated With Election Denial Groups",
-      "content_text": "A far-right campaign claiming leftists are stealing votes from nursing home residents has centered on changing guidance from Mehmet Oz’s Centers for Medicare an…",
-      "summary": "A far-right campaign claiming leftists are stealing votes from nursing home residents has centered on changing guidance from Mehmet Oz’s Centers for Medicare an…",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ae1f97f7b392d6b73757c0e/master/pass/GettyImages-2299832720.jpg",
-      "tags": [
-        "Politics",
-        "Midterms 2026",
         "科技",
         "社会"
       ],

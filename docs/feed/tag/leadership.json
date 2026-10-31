@@ -1,6 +1,6 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "知树阅读-个人图书空间 · #Leadership",
+  "title": "知树阅读-个人图书空间 · #leadership",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/leadership.json",
   "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
@@ -9,32 +9,10 @@
   },
   "items": [
     {
-      "id": "https://www.nasa.gov/news-release/nasa-names-troy-asher-armstrong-flight-research-center-director/",
-      "url": "https://www.nasa.gov/news-release/nasa-names-troy-asher-armstrong-flight-research-center-director/",
-      "title": "NASA Names Troy Asher Armstrong Flight Research Center Director",
-      "content_text": "NASA Administrator Jared Isaacman has named Troy Asher director of the agency’s Armstrong Flight Research Center in Edwards, California. Asher, a veteran test p…",
-      "summary": "NASA Administrator Jared Isaacman has named Troy Asher director of the agency’s Armstrong Flight Research Center in Edwards, California. Asher, a veteran test p…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "Leadership",
-        "People of NASA",
-        "航天",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "NASA"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "nasa-gov"
-      }
-    },
-    {
       "id": "https://www.freightwaves.com/news/trailer-bridge-appoints-new-ceo",
       "url": "https://www.freightwaves.com/news/trailer-bridge-appoints-new-ceo",
       "title": "Trailer Bridge appoints new CEO",
+      "content_html": "<p>Leading Jones Act carrier Trailer Bridge has appointed a new CEO. The post Trailer Bridge appoints new CEO appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-29</p><p>Tags: #American Shipper #Maritime #News #Top Stories #container shipping #Jones Act</p><p><a href=\"https://www.freightwaves.com/news/trailer-bridge-appoints-new-ceo\">Read the original →</a></p>",
       "content_text": "Leading Jones Act carrier Trailer Bridge has appointed a new CEO. The post Trailer Bridge appoints new CEO appeared first on FreightWaves.",
       "summary": "Leading Jones Act carrier Trailer Bridge has appointed a new CEO. The post Trailer Bridge appoints new CEO appeared first on FreightWaves.",
       "date_published": "2026-10-29T00:00:00Z",
@@ -62,6 +40,7 @@
       "id": "https://www.industryweek.com/leadership/article/55414412/chemistry-helped-build-americaand-will-shape-its-future",
       "url": "https://www.industryweek.com/leadership/article/55414412/chemistry-helped-build-americaand-will-shape-its-future",
       "title": "Chemistry Helped Build America—and Will Shape Its Future",
+      "content_html": "<p><img src=\"https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6adfac6ab8863308a46d157f-dreamstime_xxl_460309538.png\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>The development of new materials has had a profound impact on our prosperity, culture and quality of life in these 250 years.</p><p>Source: Home | IndustryWeek · 2026-10-26</p><p>Tags: #Leadership #制造 #运营</p><p><a href=\"https://www.industryweek.com/leadership/article/55414412/chemistry-helped-build-americaand-will-shape-its-future\">Read the original →</a></p>",
       "content_text": "The development of new materials has had a profound impact on our prosperity, culture and quality of life in these 250 years.",
       "summary": "The development of new materials has had a profound impact on our prosperity, culture and quality of life in these 250 years.",
       "date_published": "2026-10-26T00:00:00Z",
@@ -85,6 +64,7 @@
       "id": "https://www.industryweek.com/leadership/article/55414048/different-by-design-formalizing-accountability-and-who-watches-the-ai-agents-industryweeks-weekly-review",
       "url": "https://www.industryweek.com/leadership/article/55414048/different-by-design-formalizing-accountability-and-who-watches-the-ai-agents-industryweeks-weekly-review",
       "title": "Different by Design, Formalizing Accountability and Who Watches the AI Agents? IndustryWeek's Weekly Review",
+      "content_html": "<p><img src=\"https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6adb7e3e0340641c28a587db-dreamstime_xxl_14811976.png\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Also, the status of the Strait of Hormuz and manufacturing history by the numbers.</p><p>Source: Home | IndustryWeek · 2026-10-23</p><p>Tags: #Leadership #制造 #运营</p><p><a href=\"https://www.industryweek.com/leadership/article/55414048/different-by-design-formalizing-accountability-and-who-watches-the-ai-agents-industryweeks-weekly-review\">Read the original →</a></p>",
       "content_text": "Also, the status of the Strait of Hormuz and manufacturing history by the numbers.",
       "summary": "Also, the status of the Strait of Hormuz and manufacturing history by the numbers.",
       "date_published": "2026-10-23T00:00:00Z",

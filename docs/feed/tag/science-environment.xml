@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/science-environment.xml</id>
+  <title>知树阅读-个人图书空间 · #Science / Environment</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/science-environment.xml"/>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/</id>
+    <title>The Iran War’s Impact on Oil Is Hitting Key Senate Races Hard</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Democrats are using the high price of diesel, heating oil, and fertilizer to tie Republicans to President Donald Trump’s unpopular, costly war in Iran.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://media.wired.com/photos/6ae3489ed0f1304b56163b28/master/pass/102916-Iran%20War%20US.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Democrats are using the high price of diesel, heating oil, and fertilizer to tie Republicans to President Donald Trump’s unpopular, costly war in Iran.&lt;/p&gt;&lt;p&gt;Source: WIRED · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #Science #Science / Environment #Politics #Gassed Up #科技 #社会&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>WIRED</title></source>
+    <category term="Science"/>
+    <category term="Science / Environment"/>
+    <category term="Politics"/>
+    <category term="Gassed Up"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/crematoria-heat-homes-and-swimming-pools/</id>
+    <title>Crematoria Are Being Used to Heat Homes and Swimming Pools</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/crematoria-heat-homes-and-swimming-pools/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">European countries are leading the way harvesting heat that would otherwise be wasted as green death practices become more common.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://media.wired.com/photos/6ae4b5c0d55a0e2bc0a8d62b/master/pass/GettyImages-567391969.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;European countries are leading the way harvesting heat that would otherwise be wasted as green death practices become more common.&lt;/p&gt;&lt;p&gt;Source: WIRED · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #Science #Science / Environment #Parting Gift #科技 #社会&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.wired.com/story/crematoria-heat-homes-and-swimming-pools/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>WIRED</title></source>
+    <category term="Science"/>
+    <category term="Science / Environment"/>
+    <category term="Parting Gift"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+</feed>

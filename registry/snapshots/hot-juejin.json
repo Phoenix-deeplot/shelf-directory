@@ -2,41 +2,11 @@
  "id": "hot-juejin",
  "items": [
   {
-   "url": "https://juejin.cn/post/7701269657706315811",
-   "title": "Python 面向对象编程：类、继承、多态与组合",
-   "summary": "第 1 名 · 热度 5634 · vipxieliang",
-   "image": "",
-   "date": "2026-10-30",
-   "tags": [],
-   "lang": "zh",
-   "type": "article"
-  },
-  {
    "url": "https://juejin.cn/post/7701591870955012111",
    "title": "PHP Swoole 协程模型详解：协程与线程/进程、调度、常驻内存及与 Go goroutine 的异同",
-   "summary": "第 2 名 · 热度 4608 · vipxieliang",
+   "summary": "第 1 名 · 热度 4653 · vipxieliang",
    "image": "",
-   "date": "2026-10-30",
-   "tags": [],
-   "lang": "zh",
-   "type": "article"
-  },
-  {
-   "url": "https://juejin.cn/post/7701541249069383706",
-   "title": "Deepseek v5 来了",
-   "summary": "第 3 名 · 热度 3897 · 码事漫谈",
-   "image": "",
-   "date": "2026-10-30",
-   "tags": [],
-   "lang": "zh",
-   "type": "article"
-  },
-  {
-   "url": "https://juejin.cn/post/7701250481567039528",
-   "title": "ValidX vs 正则表达式：可读性与维护性对比",
-   "summary": "第 4 名 · 热度 2241 · vipxieliang",
-   "image": "",
-   "date": "2026-10-30",
+   "date": "2026-10-31",
    "tags": [],
    "lang": "zh",
    "type": "article"
@@ -44,29 +14,9 @@
   {
    "url": "https://juejin.cn/post/7701971738456752162",
    "title": "Service Mesh 可观测性：分布式追踪、指标与日志的统一方案",
-   "summary": "第 5 名 · 热度 2079 · vipxieliang",
+   "summary": "第 2 名 · 热度 2115 · vipxieliang",
    "image": "",
-   "date": "2026-10-30",
-   "tags": [],
-   "lang": "zh",
-   "type": "article"
-  },
-  {
-   "url": "https://juejin.cn/post/7701290557268951066",
-   "title": "删了一个没用的 console.log，生产环境直接崩了!",
-   "summary": "第 6 名 · 热度 1053 · ErpanOmer",
-   "image": "",
-   "date": "2026-10-30",
-   "tags": [],
-   "lang": "zh",
-   "type": "article"
-  },
-  {
-   "url": "https://juejin.cn/post/7701316033940865058",
-   "title": "我买的电视，我还不能研究它吗？",
-   "summary": "第 7 名 · 热度 675 · 程序员_小雨",
-   "image": "",
-   "date": "2026-10-30",
+   "date": "2026-10-31",
    "tags": [],
    "lang": "zh",
    "type": "article"
@@ -74,29 +24,79 @@
   {
    "url": "https://juejin.cn/post/7701870817483259958",
    "title": "史诗级封号收入",
-   "summary": "第 8 名 · 热度 612 · stormzhangV",
+   "summary": "第 3 名 · 热度 747 · stormzhangV",
    "image": "",
-   "date": "2026-10-30",
+   "date": "2026-10-31",
    "tags": [],
    "lang": "zh",
    "type": "article"
   },
   {
-   "url": "https://juejin.cn/post/7701269925755846671",
-   "title": "程序员 1v1 访谈系列第八期：大龄女程序员的困境",
-   "summary": "第 9 名 · 热度 459 · 双越AI_club",
+   "url": "https://juejin.cn/post/7701545991036862491",
+   "title": "现代 Android 架构指南：不要再主动设计 Callback 接口",
+   "summary": "第 4 名 · 热度 531 · 潜龙勿用之化骨龙",
    "image": "",
-   "date": "2026-10-30",
+   "date": "2026-10-31",
    "tags": [],
    "lang": "zh",
    "type": "article"
   },
   {
-   "url": "https://juejin.cn/post/7701352628311392297",
-   "title": "GPT-6.1 Terra上线：更便宜了，干活到底怎么样？",
-   "summary": "第 10 名 · 热度 450 · 老金带你玩AI",
+   "url": "https://juejin.cn/post/7701703182474248211",
+   "title": "Go-Gui:一套 无限接近 现代化UI的 GPU绘制界面组件框架",
+   "summary": "第 5 名 · 热度 486 · 陌离",
    "image": "",
-   "date": "2026-10-30",
+   "date": "2026-10-31",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://juejin.cn/post/7701991107366731785",
+   "title": "最近 Android 有什么更新：Android Dev Summit 2026 技术解读",
+   "summary": "第 6 名 · 热度 351 · 恋猫de小郭",
+   "image": "",
+   "date": "2026-10-31",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://juejin.cn/post/7701870817484210230",
+   "title": "腾讯 Buddy One 来了，办公全家桶一键打通WorkBuddy（附教程）",
+   "summary": "第 7 名 · 热度 306 · 苍何",
+   "image": "",
+   "date": "2026-10-31",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://juejin.cn/post/7701604765431873545",
+   "title": "AI友好的可视化图形引擎自我革命：Meta2d.js 2.0 历时一年全新重写，性能与多人协作全面升级",
+   "summary": "第 8 名 · 热度 297 · alsmile",
+   "image": "",
+   "date": "2026-10-31",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://juejin.cn/post/7701932169296003082",
+   "title": "Rspack 2.3 发布：联手 SWC 团队带来全新编译器",
+   "summary": "第 9 名 · 热度 234 · WebInfra",
+   "image": "",
+   "date": "2026-10-31",
+   "tags": [],
+   "lang": "zh",
+   "type": "article"
+  },
+  {
+   "url": "https://juejin.cn/post/7701925000958115883",
+   "title": "下载神器！Motrix 停更三年后重写回归",
+   "summary": "第 10 名 · 热度 234 · 前端之虎陈随易",
+   "image": "",
+   "date": "2026-10-31",
    "tags": [],
    "lang": "zh",
    "type": "article"
@@ -113,7 +113,7 @@
  },
  "fails": 0,
  "kind": "feed",
- "parser": 3,
+ "parser": 4,
  "status": "ok",
  "error": "",
  "etag": "",

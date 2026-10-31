@@ -4,37 +4,39 @@
   <title>知树阅读-个人图书空间 · #经验分享</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-9b36d0.xml"/>
-  <updated>2026-10-30T00:00:00Z</updated>
+  <updated>2026-10-31T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6486774.html</id>
-    <title>挖到个宝藏27B开源Code2Video模型！可本地安装，还送MG Skill～</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486774.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">HeyGen 的 Code2Video 榜单上，前八名清一色闭源，Claude Opus 5.5 排第一，开源模型多在百分之十上下。一个 27B 开源模型能本地安装，还能在 HyperFrames 里稳定出片。 老粉应该知道，我最开始是一个后端开发，剪辑和AE是完全一窍不通。 但从今年2月开始，我陆陆续续用代码做了不少…</summary>
+    <id>https://www.woshipm.com/ai/6487299.html</id>
+    <title>给 Claude Code 装了个记忆插件，Token 省 10 倍，其他 Harness 也能用</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487299.html"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">新开会话就失忆，是 Claude Code 最烦人的地方。文章介绍开源插件 claude-mem：五个钩子加一个后台服务如何把干过的活压成摘要、三分钟装完的命令，以及把写记忆的模型换成本地 Ollama 的改法。 用 Claude Code 的朋友，大概都经历过这一幕 昨天陪它修完登录 bug，定好了数据存哪、代码怎么…</summary>
+    <content type="html">&lt;p&gt;新开会话就失忆，是 Claude Code 最烦人的地方。文章介绍开源插件 claude-mem：五个钩子加一个后台服务如何把干过的活压成摘要、三分钟装完的命令，以及把写记忆的模型换成本地 Ollama 的改法。 用 Claude Code 的朋友，大概都经历过这一幕 昨天陪它修完登录 bug，定好了数据存哪、代码怎么写，今天新开一个会话，它一脸茫然：这个项目是做什么的？ 今天介绍的开源插件 claude-mem，专治这个毛病 本文老章就来详解一下： 它到底怎么让 Claude Code “记住”的，三张动图讲明白 3 分钟装好的命令，以及两个很多人会踩的坑 Codex、Cursor、OpenCode 等十几款工具也能用 装完建议改的 3 个设置，写记忆的模型还能换成 DeepSeek 或本地模型，文末有清单可以直接照做 01 它解决什么问题 一句话：自动把你和 Claude Code 干过的活记下来，压缩成摘要，下次开新会话时自动带上 整个过程你什么都不用做，它在旁边默默记笔记 我做了一个演示，方便大家理解 看官方放的演示，记忆是实时写进去的： 02 原理：5 个钩子 + 1 个后台…&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #Claude #Claude Code #DeepSeek #经验分享&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487299.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI编程"/>
+    <category term="Claude"/>
     <category term="Claude Code"/>
+    <category term="DeepSeek"/>
     <category term="经验分享"/>
     <category term="产品"/>
     <category term="运营"/>
-    <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6486782.html</id>
-    <title>我花了 10 个小时，用AI编了一套精美的诗集：Skills 开源，附 6 套宋代美学模板</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486782.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">为了验证百万级上下文，他用 Kimi K3.1 Pro 编了一套苏轼诗集，一千四百四十八页、三千二百条作品，中途废掉一版竖排稿，烧掉一点六九亿 Token，三百多次调用十小时完工。 现在的大模型普遍支持最高 1M 超长上下文 周二我发了 Kimi K3.1 Pro 的实测：国产最强开源大模型，Kimi K3.1 Pro…</summary>
+    <id>https://www.woshipm.com/ai/6487189.html</id>
+    <title>WorkBuddy本地部署超强OCR识别小模型</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487189.html"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">建筑图纸里的文字表格总提取不准，问题常常不在提示词，而在模型选型。这篇区分OCR专用模型与多模态模型的边界，用一段提示词把MiniCPM-OCR部署到本地，再拿25页施工图纸实测识别效果。 今天来填个坑的，之前老马写过一篇建筑行业怎么使用WorkBuddy来进行AI办公提升效率的文章。有位从业老哥留言，说我的法子行不通…</summary>
+    <content type="html">&lt;p&gt;建筑图纸里的文字表格总提取不准，问题常常不在提示词，而在模型选型。这篇区分OCR专用模型与多模态模型的边界，用一段提示词把MiniCPM-OCR部署到本地，再拿25页施工图纸实测识别效果。 今天来填个坑的，之前老马写过一篇建筑行业怎么使用WorkBuddy来进行AI办公提升效率的文章。有位从业老哥留言，说我的法子行不通，瞬间就有点丈二和尚摸不着头脑。 他说自己做了几个Skill，发现WorkBuddy对于建筑施工方案，估计应该是图纸类的，提取信息的效果很差，而且存在不准确的情况。 假设建筑施工方案图纸是PDF格式的文件，或者是PNG和JPG的扫描截图也行，不是专业的DWG和DXF文件。那么提取里面的文字、图片、表格等信息，就取决于你用的是什么模型。 OCR模型与多模态模型各管一摊 一般来说分为专业的OCR识别模型和多模态模型，两者各有千秋。OCR模型是高精度的看图识字，对于复杂排版，密集多栏，倾斜标注或者手写字体等情况下的文字识别很稳定，极少会出现幻觉。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #OCR #WorkBuddy #经验分享 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487189.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI应用"/>
-    <category term="Kimi"/>
+    <category term="OCR"/>
+    <category term="WorkBuddy"/>
     <category term="经验分享"/>
     <category term="产品"/>
     <category term="运营"/>

@@ -4,8 +4,62 @@
   <title>知树阅读-个人图书空间 · #Railroad</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/railroad.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
+  <updated>2026-10-30T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/schneider-to-shift-eastern-rail-business-to-norfolk-southern-from-csx</id>
+    <title>Schneider to shift eastern rail business to Norfolk Southern from CSX</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/schneider-to-shift-eastern-rail-business-to-norfolk-southern-from-csx"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Schneider National will make Norfolk Southern its primary eastern rail provider as the railroad pursues a merger with Union Pacific. The post Schneider to shift…</summary>
+    <content type="html">&lt;p&gt;Schneider National will make Norfolk Southern its primary eastern rail provider as the railroad pursues a merger with Union Pacific. The post Schneider to shift eastern rail business to Norfolk Southern from CSX appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #Intermodal #News #Railroad #Top Stories #CSX #Norfolk Southern&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/schneider-to-shift-eastern-rail-business-to-norfolk-southern-from-csx"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>FreightWaves</title></source>
+    <category term="Intermodal"/>
+    <category term="News"/>
+    <category term="Railroad"/>
+    <category term="Top Stories"/>
+    <category term="CSX"/>
+    <category term="Norfolk Southern"/>
+    <category term="Schneider National"/>
+    <category term="货运"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/new-georgia-hub-aims-to-take-26000-containers-off-the-road</id>
+    <title>New Georgia hub aims to take 26,000 containers off the road</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/new-georgia-hub-aims-to-take-26000-containers-off-the-road"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">The state of Georgia officially opens an inland rail hub with plans to take tens of thousands of containers off the roads. The post New Georgia hub aims to take…</summary>
+    <content type="html">&lt;p&gt;The state of Georgia officially opens an inland rail hub with plans to take tens of thousands of containers off the roads. The post New Georgia hub aims to take 26,000 containers off the road appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #Container Shipping #Maritime #News #Railroad #Top Stories #Gainesville Inland Port&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/new-georgia-hub-aims-to-take-26000-containers-off-the-road"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>FreightWaves</title></source>
+    <category term="Container Shipping"/>
+    <category term="Maritime"/>
+    <category term="News"/>
+    <category term="Railroad"/>
+    <category term="Top Stories"/>
+    <category term="Gainesville Inland Port"/>
+    <category term="Georgia"/>
+    <category term="inland ports"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/cn-3q-profit-rises-6-as-freight-revenue-climbs</id>
+    <title>CN 3Q profit rises 6% as freight revenue climbs</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/cn-3q-profit-rises-6-as-freight-revenue-climbs"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Canadian National Railway reported a 6% increase in third-quarter profit as grain, energy and automotive freight activity lifted revenue. The post CN 3Q profit…</summary>
+    <content type="html">&lt;p&gt;Canadian National Railway reported a 6% increase in third-quarter profit as grain, energy and automotive freight activity lifted revenue. The post CN 3Q profit rises 6% as freight revenue climbs appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #Business #Company Earnings #News #Railroad #Top Stories #Canadian National&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/cn-3q-profit-rises-6-as-freight-revenue-climbs"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>FreightWaves</title></source>
+    <category term="Business"/>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Railroad"/>
+    <category term="Top Stories"/>
+    <category term="Canadian National"/>
+    <category term="carload"/>
+    <category term="earnings"/>
+  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/u-s-rail-traffic-up-7-8-as-intermodal-leads-gainers</id>
     <title>U.S. rail traffic up 7.8% as intermodal leads gainers</title>
@@ -13,6 +67,7 @@
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
     <summary type="text">U.S. rail traffic rose in the latest week as gains across eight of 10 carload commodity groups showed broad — but uneven — growth. The post U.S. rail traffic up…</summary>
+    <content type="html">&lt;p&gt;U.S. rail traffic rose in the latest week as gains across eight of 10 carload commodity groups showed broad — but uneven — growth. The post U.S. rail traffic up 7.8% as intermodal leads gainers appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-29&lt;/p&gt;&lt;p&gt;Tags: #News #Railroad #Top Stories #carloads #intermodal #railfreight volume&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/u-s-rail-traffic-up-7-8-as-intermodal-leads-gainers"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>FreightWaves</title></source>
     <category term="News"/>
     <category term="Railroad"/>
@@ -30,6 +85,7 @@
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
     <summary type="text">CPKC turned in record 3Q revenue as the railway set records for domestic and international intermodal volumes, as well as for grain. The post CPKC reports recor…</summary>
+    <content type="html">&lt;p&gt;CPKC turned in record 3Q revenue as the railway set records for domestic and international intermodal volumes, as well as for grain. The post CPKC reports record revenue on strength of grain and intermodal traffic appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-29&lt;/p&gt;&lt;p&gt;Tags: #Company Earnings #News #Railroad #Top Stories #carloads #CPKC&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/cpkc-reports-record-revenue-on-strength-of-grain-and-intermodal-traffic"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>FreightWaves</title></source>
     <category term="Company Earnings"/>
     <category term="News"/>
@@ -47,6 +103,7 @@
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
     <summary type="text">Nine men allegedly connected to Mexico's Sinaloa Cartel were arrested in Southern California as part of a cargo train theft operation. The post 9 alleged Mexica…</summary>
+    <content type="html">&lt;p&gt;Nine men allegedly connected to Mexico&amp;#39;s Sinaloa Cartel were arrested in Southern California as part of a cargo train theft operation. The post 9 alleged Mexican Cartel associates arrested in California train theft ring appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-29&lt;/p&gt;&lt;p&gt;Tags: #News #Railroad #BNSF #cargo crime #cargo theft #Cartel&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/9-alleged-mexican-cartel-associates-arrested-in-california-train-theft-ring"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>FreightWaves</title></source>
     <category term="News"/>
     <category term="Railroad"/>
@@ -58,29 +115,13 @@
     <category term="数据"/>
   </entry>
   <entry>
-    <id>https://www.freightwaves.com/news/greenbrier-profit-falls-as-railcar-demand-weighs-on-sales</id>
-    <title>Greenbrier profit falls as railcar demand weighs on sales</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/greenbrier-profit-falls-as-railcar-demand-weighs-on-sales"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Greenbrier’s fiscal fourth-quarter profit tumbled though outlook for orders and leasing growth improved. The post Greenbrier profit falls as railcar demand weig…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="Company Earnings"/>
-    <category term="News"/>
-    <category term="Railroad"/>
-    <category term="Top Stories"/>
-    <category term="earnings"/>
-    <category term="railcars"/>
-    <category term="Supplier"/>
-    <category term="Tariffs"/>
-  </entry>
-  <entry>
     <id>https://www.freightwaves.com/news/first-look-cpkc-earnings-2</id>
     <title>First look: CPKC earnings</title>
     <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/first-look-cpkc-earnings-2"/>
     <updated>2026-10-28T00:00:00Z</updated>
     <published>2026-10-28T00:00:00Z</published>
     <summary type="text">CPKC’s third-quarter revenue and earnings climbed, though higher fuel costs squeezed margins. The post First look: CPKC earnings appeared first on FreightWaves.</summary>
+    <content type="html">&lt;p&gt;CPKC’s third-quarter revenue and earnings climbed, though higher fuel costs squeezed margins. The post First look: CPKC earnings appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-28&lt;/p&gt;&lt;p&gt;Tags: #Company Earnings #News #Railroad #CPKC #earnings #intermodal&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/first-look-cpkc-earnings-2"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>FreightWaves</title></source>
     <category term="Company Earnings"/>
     <category term="News"/>
@@ -98,6 +139,7 @@
     <updated>2026-10-28T00:00:00Z</updated>
     <published>2026-10-28T00:00:00Z</published>
     <summary type="text">Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages…</summary>
+    <content type="html">&lt;p&gt;Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages slowed inland traffic. The post Backlog grows as 35,000 containers await rail service at LA–Long Beach appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-28&lt;/p&gt;&lt;p&gt;Tags: #American Shipper #Container Shipping #Maritime #News #Railroad #Top Stories&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>FreightWaves</title></source>
     <category term="American Shipper"/>
     <category term="Container Shipping"/>

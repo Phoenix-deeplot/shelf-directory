@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/peak-season.xml</id>
+  <title>知树阅读-个人图书空间 · #peak season</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/peak-season.xml"/>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/european-postal-operators-gear-up-for-surge-in-holiday-volume</id>
+    <title>European postal operators gear up for surge in holiday volume</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/european-postal-operators-gear-up-for-surge-in-holiday-volume"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Posten Bring in Norway and Deutsche Post in Germany are beefing up locker networks and taking other steps to ensure smooth delivery service for the holidays. Th…</summary>
+    <content type="html">&lt;p&gt;Posten Bring in Norway and Deutsche Post in Germany are beefing up locker networks and taking other steps to ensure smooth delivery service for the holidays. The post European postal operators gear up for surge in holiday volume appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #E-commerce &amp;amp; Fulfillment #News #PostalMag #e-commerce #Europe #parcel carriers&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/european-postal-operators-gear-up-for-surge-in-holiday-volume"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>FreightWaves</title></source>
+    <category term="E-commerce &amp; Fulfillment"/>
+    <category term="News"/>
+    <category term="PostalMag"/>
+    <category term="e-commerce"/>
+    <category term="Europe"/>
+    <category term="parcel carriers"/>
+    <category term="peak season"/>
+    <category term="postal carriers"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach</id>
+    <title>Backlog grows as 35,000 containers await rail service at LA–Long Beach</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach"/>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <published>2026-10-28T00:00:00Z</published>
+    <summary type="text">Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages…</summary>
+    <content type="html">&lt;p&gt;Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages slowed inland traffic. The post Backlog grows as 35,000 containers await rail service at LA–Long Beach appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-28&lt;/p&gt;&lt;p&gt;Tags: #American Shipper #Container Shipping #Maritime #News #Railroad #Top Stories&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>FreightWaves</title></source>
+    <category term="American Shipper"/>
+    <category term="Container Shipping"/>
+    <category term="Maritime"/>
+    <category term="News"/>
+    <category term="Railroad"/>
+    <category term="Top Stories"/>
+    <category term="imports"/>
+    <category term="peak season"/>
+  </entry>
+</feed>

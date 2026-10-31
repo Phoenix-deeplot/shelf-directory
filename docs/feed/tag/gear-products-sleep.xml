@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/gear-products-sleep.xml</id>
+  <title>知树阅读-个人图书空间 · #Gear / Products / Sleep</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/gear-products-sleep.xml"/>
+  <updated>2026-10-31T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.wired.com/story/should-you-get-a-sunrise-alarm-clock/</id>
+    <title>Best Sunrise Alarm Clock (2026): Hatch, Lumie</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/should-you-get-a-sunrise-alarm-clock/"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">I’ve never been a morning person. This bedside gadget is the only thing that’s ever changed that.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://media.wired.com/photos/6ae4fa24ff45389e1b5f1706/master/pass/Sunrise%20Alarms%20102026%20top%20art%20SOURCE%20Hatch-Amazon.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;I’ve never been a morning person. This bedside gadget is the only thing that’s ever changed that.&lt;/p&gt;&lt;p&gt;Source: WIRED · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #Gear #Gear / Buying Guides #Gear / Products / Home #Gear / Products / Sleep #Rise &amp;amp; Shine #科技&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.wired.com/story/should-you-get-a-sunrise-alarm-clock/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Buying Guides"/>
+    <category term="Gear / Products / Home"/>
+    <category term="Gear / Products / Sleep"/>
+    <category term="Rise &amp; Shine"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/best-early-bfcm-mattress-deals-10-30-2026/</id>
+    <title>Mattress Deals: Save Over $600 Before Black Friday 2026</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/best-early-bfcm-mattress-deals-10-30-2026/"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Even though Black Friday isn’t for a few more weeks, we’ve found early discounts on our favorite WIRED-tested mattresses and sleep accessories.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://media.wired.com/photos/6a96089130fad2f3a55f8e20/master/pass/The-Best-Early-Labor-Day-Mattress-Deals.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Even though Black Friday isn’t for a few more weeks, we’ve found early discounts on our favorite WIRED-tested mattresses and sleep accessories.&lt;/p&gt;&lt;p&gt;Source: WIRED · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #Gear #Gear / Deals #Gear / Products / Sleep #Bedder Prices #科技 #社会&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.wired.com/story/best-early-bfcm-mattress-deals-10-30-2026/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Gear / Products / Sleep"/>
+    <category term="Bedder Prices"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+</feed>

@@ -2,6 +2,22 @@
  "id": "feeds-npr-org",
  "items": [
   {
+   "url": "https://www.npr.org/2026/10/30/nx-s1-6023035/final-days-of-midterm-campaigning-alaska-senate-race-controversy-iran-war-plans",
+   "title": "Final Days Of Midterm Campaigning, Alaska Senate Race Controversy, Iran War Plans",
+   "summary": "President Trump is changing his final campaign strategy as Republicans try to close an early-voting gap and hold off Democratic gains in competitive races acros…",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "audio",
+   "abstract": "President Trump is changing his final campaign strategy as Republicans try to close an early-voting gap and hold off Democratic gains in competitive races across the country. Alaska’s tight Senate race is facing new scrutiny after allegations that Democrats helped recruit a spoiler candidate with the same name as the Republican incumbent, while Mary Peltola denies knowing about the effort. Connecticut Democratic Senator Chris Murphy, who was briefed on possible new U.S.",
+   "audio": {
+    "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/5e95cdcd-0fd3-48da-8276-fb6a4799f399/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=5e95cdcd-0fd3-48da-8276-fb6a4799f399&feed=HMwRVgVt&t=podcast&e=nx-s1-6023035&p=510318&d=770&size=12326496",
+    "type": "audio/mpeg",
+    "dur": 770
+   }
+  },
+  {
    "url": "https://www.npr.org/2026/10/29/nx-s1-6021969/midterm-spending-blitz-gdp-inflations-reports-israel-election-deadlock-iran-war",
    "title": "Midterm Spending Blitz, GDP & Inflations Reports, Israel Election Deadlock & Iran War",
    "summary": "Ad spending in Kansas’ Senate race has jumped tenfold in weeks as Democrats pour money into Republican-heavy districts in the final days before the midterms. Th…",
@@ -10,6 +26,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "Ad spending in Kansas’ Senate race has jumped tenfold in weeks as Democrats pour money into Republican-heavy districts in the final days before the midterms. The economy appears to be growing at a solid pace, but inflation is still running ahead of wages and leaving many Americans feeling worse off financially.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/403f08a6-9425-44b7-922a-519df253da08/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=403f08a6-9425-44b7-922a-519df253da08&feed=HMwRVgVt&t=podcast&e=nx-s1-6021969&p=510318&d=772&size=12365366",
     "type": "audio/mpeg",
@@ -25,6 +42,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "President Trump rallied for Republican Senate candidate Ken Paxton in Texas, but his personal grievances kept competing with his party’s closing message ahead of the midterms. Israel’s election remains too close to call, with Benjamin Netanyahu and Gadi Eisenkot both short of a governing majority and Arab-led parties potentially holding the balance of power.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/550765f1-a761-4d80-b829-adb84cf37e08/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=550765f1-a761-4d80-b829-adb84cf37e08&feed=HMwRVgVt&t=podcast&e=nx-s1-6020166&p=510318&d=775&size=12403400",
     "type": "audio/mpeg",
@@ -40,6 +58,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "A new NPR/PBS News/Marist poll gives Democrats an eight-point lead on the congressional ballot, but lagging enthusiasm among young voters and independents could complicate their push to win Congress. Democrats are preparing legal and political responses to possible election challenges from President Trump as he offers million-dollar rewards for tips leading to voter fraud convictions.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/1331dd71-7f89-44b4-b744-b58082cf5303/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=1331dd71-7f89-44b4-b744-b58082cf5303&feed=HMwRVgVt&t=podcast&e=nx-s1-6019096&p=510318&d=788&size=12615306",
     "type": "audio/mpeg",
@@ -55,6 +74,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "Republicans redrew 15 House districts hoping to protect their majority, but most have become competitive races as the party’s redistricting strategy falls short of expectations. Brazil’s leftist President Luiz Inácio Lula da Silva won reelection after trailing in the first round, but far-right rival Flávio Bolsonaro is demanding the result be thrown out.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/bdfdcc4d-c29f-4d2f-9216-c9b40222a2d3/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=bdfdcc4d-c29f-4d2f-9216-c9b40222a2d3&feed=HMwRVgVt&t=podcast&e=nx-s1-6016798&p=510318&d=803&size=12859394",
     "type": "audio/mpeg",
@@ -70,6 +90,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "The Midwest used to be known as an affordable place to live. Lately, though, many people there are having a hard time making ends meet. In this episode of The Sunday Story, Holly Edgell and Daniel Wheaton from NPR’s Midwest Newsroom bring us the voices of Midwesterners. We hear about how people in the region are struggling financially, and how the affordability crisis is impacting their votes in the midterms.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/62f160ad-ecff-40a2-9568-91cda604d9dc/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=62f160ad-ecff-40a2-9568-91cda604d9dc&feed=HMwRVgVt&t=podcast&e=nx-s1-6014758&p=510318&d=1479&size=23677474",
     "type": "audio/mpeg",
@@ -85,6 +106,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "AI discovered a vulnerability in part of the internet's architecture, called PHP2SHELL. Security researchers rushed to fix it, but the news leaked and hackers have swooped in. France deploys hordes of police as another wave of protests begin. Netflix is regrouping after the release of its latest quarterly earnings this week. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include sponsor-free listening. Learn more at plus.npr.org.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/bb8e4510-99da-4c48-94c5-513d3c945281/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=bb8e4510-99da-4c48-94c5-513d3c945281&feed=HMwRVgVt&t=podcast&e=nx-s1-6014537&p=510318&d=938&size=15016482",
     "type": "audio/mpeg",
@@ -100,6 +122,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "The U.S. is sending a third aircraft carrier to the Middle East as oil prices climb and the prospect of another attack on Iran grows. More than 19 million Americans have already voted, with strong turnout among Democrats and voters of color, but the numbers can’t tell us who will win. A judge has ordered President Trump to testify in his $10 billion defamation case against the BBC, potentially forcing him to answer questions about his finances and January 6.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/7598d7a4-b298-443f-8689-56b9358725e0/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=7598d7a4-b298-443f-8689-56b9358725e0&feed=HMwRVgVt&t=podcast&e=nx-s1-6013298&p=510318&d=842&size=13478392",
     "type": "audio/mpeg",
@@ -115,6 +138,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "Democrats are sending former President Barack Obama and former Vice President Kamala Harris into competitive Senate races to help the party win in Republican territory. NPR has learned the U.S. and Israel are preparing for a possible attack on Iran after the midterms, while Americans face settler violence and military arrests in the West Bank.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/c6e17d3a-3dd6-4174-8492-f307d68c01bc/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=c6e17d3a-3dd6-4174-8492-f307d68c01bc&feed=HMwRVgVt&t=podcast&e=nx-s1-6012014&p=510318&d=746&size=11941138",
     "type": "audio/mpeg",
@@ -130,6 +154,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "Ukrainian President Volodymyr Zelenskyy is trying to repair ties with Washington as President Trump’s envoy Steve Witkoff carries new peace proposals to Russia. President Trump is campaigning in North Carolina as Republicans struggle in key races and he ties federal relief promises to the outcome of the midterms. Britain is sending fighter jets to help Saudi Arabia defend against Houthi attacks as the war disrupts the kingdom’s economy and deepens the humanitarian crisis in Yemen.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/20bcda5a-23fb-4b26-a3cc-aa1fb0832878/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=20bcda5a-23fb-4b26-a3cc-aa1fb0832878&feed=HMwRVgVt&t=podcast&e=nx-s1-6010363&p=510318&d=750&size=12012608",
     "type": "audio/mpeg",
@@ -145,6 +170,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "1Ukrainian President Volodymyr Zelenskyy is taking his concerns about delayed U.S. weapons and intelligence directly to Congress as lawmakers in both parties question President Trump’s approach to Russia. Republicans are spending heavily to defend traditionally conservative territory as Democrats expand the midterm map two weeks before Election Day.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/8c228097-f2ce-4f85-a362-c329f595480f/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=8c228097-f2ce-4f85-a362-c329f595480f&feed=HMwRVgVt&t=podcast&e=nx-s1-6008838&p=510318&d=790&size=12652504",
     "type": "audio/mpeg",
@@ -160,6 +186,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "President Trump is easing pressure on Russia by waiving new sanctions as Ukraine continues striking Russian energy targets and tensions deepen between Trump and Ukrainian President Volodymyr Zelenskyy. Democratic candidates are outraising Republicans across many competitive midterm races, while Elon Musk pours hundreds of millions into GOP super PACs.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/607a1981-71fc-4e2e-ab98-ad80c2e87a33/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=607a1981-71fc-4e2e-ab98-ad80c2e87a33&feed=HMwRVgVt&t=podcast&e=nx-s1-6007650&p=510318&d=814&size=13029504",
     "type": "audio/mpeg",
@@ -175,6 +202,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "Israelis will vote in national elections next week. It’s the first vote since the Oct. 7 Hamas attacks and the Gaza war. Many Israelis call it the most important vote in their country’s history. On this episode of the Sunday Story, NPR’s Daniel Estrin reports on Israelis and how they’ve changed after three years of wars across the Middle East. Prime Minister Benjamin Netanyahu, one of the world’s most controversial and consequential leaders, is seeking a seventh term.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/92edc4d0-a9fb-4e69-86c7-ec3d3a02839a/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=92edc4d0-a9fb-4e69-86c7-ec3d3a02839a&feed=HMwRVgVt&t=podcast&e=nx-s1-6005247&p=510318&d=2308&size=36928871",
     "type": "audio/mpeg",
@@ -190,6 +218,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "Authorities say the 16-year-old suspect in a school shooting that killed three children and one teacher at an elementary school in Bend, Oregon was once a student there. Elon Musk has influence across the economy and politics. The major party candidates for Minnesota’s U.S. Senate seat faced off in a debate Friday on MPR News. Affordability and fallout from the Trump administration’s policies were key points. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/5583677d-0812-4d8f-99c0-cd544f73d65e/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=5583677d-0812-4d8f-99c0-cd544f73d65e&feed=HMwRVgVt&t=podcast&e=nx-s1-6005278&p=510318&d=1056&size=16905240",
     "type": "audio/mpeg",
@@ -205,6 +234,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "At least three children and a teacher were killed in a shooting at an elementary school in Bend, Oregon, where police say a 16-year-old gunman was killed by an armed community member. As President Trump increasingly blames Ukrainian President Volodymyr Zelenskyy for the failure of peace efforts, Russia is watching the growing divide while beginning to release diesel under its new deal with the United States.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/31f8b135-8fb8-4b96-9a87-e5782f8f7486/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=31f8b135-8fb8-4b96-9a87-e5782f8f7486&feed=HMwRVgVt&t=podcast&e=nx-s1-6004791&p=510318&d=775&size=12407162",
     "type": "audio/mpeg",
@@ -220,6 +250,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "President Donald Trump recently called Hasan Piker a “terrible liability” and a “communist.” The California-based streamer — who describes himself as a socialist — has become the GOP’s political bogeyman ahead of the midterm elections. Piker argues those attacks will backfire, but also says he has played a role in being portrayed as a 'figurehead of the insurgent left.' “The way that I'm portrayed in the media is an America-hating communist Islamist fundamentalist who wants to secretly do jihad,…",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/c3a45f73-ecc0-4edb-b892-3cb369fb5ed0/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=c3a45f73-ecc0-4edb-b892-3cb369fb5ed0&feed=HMwRVgVt&t=podcast&e=nx-s1-6003561&p=510318&d=2487&size=39798536",
     "type": "audio/mpeg",
@@ -235,6 +266,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "President Donald Trump is campaigning across traditionally Republican states as his party tries to turn out voters in an increasingly competitive midterm map. Ukraine says U.S.-supplied Starshield satellite communications have suddenly been restricted, disrupting the drones it uses to attack Russia and defend against Russian strikes.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/face723b-c120-4b3c-8023-2ccb1c2b6ea6/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=face723b-c120-4b3c-8023-2ccb1c2b6ea6&feed=HMwRVgVt&t=podcast&e=nx-s1-6003418&p=510318&d=808&size=12942986",
     "type": "audio/mpeg",
@@ -250,6 +282,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "In a sit-down interview with NPR, Ukrainian President Volodymyr Zelenskyy says the U.S. warned it could cut intelligence sharing over Ukraine’s attacks on Russian oil refineries. Pope Leo XIV is recovering from surgery after the Vatican announced he has lung cancer, as doctors wait for more test results to determine what comes next. President Trump forced out U.S.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/0514932d-467b-4801-be69-fd064740a001/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=0514932d-467b-4801-be69-fd064740a001&feed=HMwRVgVt&t=podcast&e=nx-s1-6001409&p=510318&d=810&size=12971825",
     "type": "audio/mpeg",
@@ -265,6 +298,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "President Trump is ramping up campaign travel and putting himself at the center of the midterms as Republicans fight increasingly competitive races in states he won easily. Federal agents searched Democratic Representative Ilhan Omar’s home as part of a criminal investigation just weeks before the midterms, prompting her to accuse the Trump administration of political targeting.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/d636f969-2768-4d83-8d29-855e52cdb06d/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=d636f969-2768-4d83-8d29-855e52cdb06d&feed=HMwRVgVt&t=podcast&e=nx-s1-5999968&p=510318&d=797&size=12755741",
     "type": "audio/mpeg",
@@ -280,6 +314,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "President Trump is increasing pressure on Ukraine over its strikes on Russian oil refineries while again calling on Ukrainians to hold wartime elections and threatening to cut off U.S. intelligence support. President Trump is trying to show voters he is focused on affordability as record fuel prices and a controversial Russian diesel deal collide with his familiar political grievances just weeks before the midterms.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/2c45282d-c7df-4d05-8c4b-74b9e58100d1/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=2c45282d-c7df-4d05-8c4b-74b9e58100d1&feed=HMwRVgVt&t=podcast&e=nx-s1-5998617&p=510318&d=794&size=12709346",
     "type": "audio/mpeg",
@@ -295,6 +330,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "Aliksandria Prout had only been at the Central California Women’s Facility for a few days when a male officer stopped her at a checkpoint. “You have beautiful lips and beautiful eyes,” he said. That was just the beginning. On this episode of The Sunday Story, we feature the first episode of a new three-part series from KQED’s Snap Judgment called “We Are Jane Doe.” It follows thirteen women and their fight for justice against the jailers who sexually assaulted them.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/d9f3d9a0-cb0c-4fb8-9903-3ffedd1159b9/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=d9f3d9a0-cb0c-4fb8-9903-3ffedd1159b9&feed=HMwRVgVt&t=podcast&e=nx-s1-5996599&p=510318&d=1696&size=27145282",
     "type": "audio/mpeg",
@@ -310,6 +346,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "The first hurricane of the Atlantic hurricane season strikes the Florida panhandle and drenches the southeast. Trump agrees to import Russian diesel, in the hopes of lowering gas prices. New York City is rattled after ICE shot a man who was driving his 5-year-old son home from school. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include sponsor-free listening. Learn more at plus.npr.org.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/11fe23c0-82da-4a6b-a2fc-57b24d7c364e/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=11fe23c0-82da-4a6b-a2fc-57b24d7c364e&feed=HMwRVgVt&t=podcast&e=nx-s1-5996581&p=510318&d=918&size=14697996",
     "type": "audio/mpeg",
@@ -325,6 +362,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "Hurricane Isaias is expected to strike near the Alabama-Florida state line as communities prepare for dangerous winds, flooding and a life-threatening storm surge. Ukraine is reclaiming territory in the east with a counteroffensive that uses drones and unmanned ground vehicles to push back Russian forces. President Trump says the U.S. will not launch new strikes on Iran before the midterm elections as the unpopular war weighs on Republicans heading into Election Day.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/618728b8-9e95-48c8-9405-98f2ce3af8fe/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=618728b8-9e95-48c8-9405-98f2ce3af8fe&feed=HMwRVgVt&t=podcast&e=nx-s1-5996414&p=510318&d=784&size=12550522",
     "type": "audio/mpeg",
@@ -340,6 +378,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "Communities along the Alabama and Florida Gulf Coast are preparing for Hurricane Isaias as officials warn of flooding, damaging winds and disruptions to weekend events. Democrats are targeting House districts President Trump won comfortably in 2024, while Republicans spend heavily to defend seats that would normally be considered safe. CNN, MS NOW and Politico are back in federal court challenging the Trump administration’s efforts to restrict their reporters’ access to the White House.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/18318ca0-5907-4a19-b552-e13815ace276/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=18318ca0-5907-4a19-b552-e13815ace276&feed=HMwRVgVt&t=podcast&e=nx-s1-5994869&p=510318&d=812&size=12998575",
     "type": "audio/mpeg",
@@ -355,6 +394,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "The U.S. pulled a dozen bombers out of Britain after officials identified a credible Iran-linked threat, raising new questions about how exposed American forces are to drone attacks overseas. French students are protesting teacher shortages, overcrowded classrooms and deteriorating schools as demonstrations spread nationwide and clashes with police intensify.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/9275d151-4176-4825-a27e-29679451e025/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=9275d151-4176-4825-a27e-29679451e025&feed=HMwRVgVt&t=podcast&e=nx-s1-5993467&p=510318&d=761&size=12187734",
     "type": "audio/mpeg",
@@ -370,6 +410,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "With four weeks until the midterms, Democrats have the advantage in the polls and are increasingly competitive in Senate races that once looked safe for Republican. Saudi-backed forces in Yemen say they have pushed Houthi rebels back from areas around a key Red Sea shipping route, as the Houthis strike Saudi oil facilities and the fighting draws in more outside powers.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/d8808ee5-0009-458e-a878-6f97da240ed5/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=d8808ee5-0009-458e-a878-6f97da240ed5&feed=HMwRVgVt&t=podcast&e=nx-s1-5992520&p=510318&d=843&size=13500544",
     "type": "audio/mpeg",
@@ -385,6 +426,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "Investigators now believe the Flydubai co-pilot who attacked the captain intended to crash the plane into Israel’s Ben Gurion Airport, raising new questions about how he was cleared to fly the route. The Supreme Court begins a new term with a case that could shape whether states and cities can make energy companies pay for climate-related damage.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/edf88459-97a6-4d23-8f96-57b37f365f4b/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=edf88459-97a6-4d23-8f96-57b37f365f4b&feed=HMwRVgVt&t=podcast&e=nx-s1-5991357&p=510318&d=766&size=12264220",
     "type": "audio/mpeg",
@@ -400,6 +442,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "Fox News Correspondent Benjamin Hall had been accused by a colleague of taking unnecessary risks when reporting in Syria. Later, Fox News assigned Hall to cover the war in Ukraine. NPR’s David Folkenflik brings the in-depth story of a fatal reporting trip near Kyiv, where Hall was gravely wounded and two other Fox News journalists were killed. Now, the journalists’ families are suing Fox, saying the network put the story ahead of its people.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/0858b379-bdb6-4483-87f2-c0924174f814/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=0858b379-bdb6-4483-87f2-c0924174f814&feed=HMwRVgVt&t=podcast&e=nx-s1-5988345&p=510318&d=2115&size=33845586",
     "type": "audio/mpeg",
@@ -415,6 +458,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "The U.S. economy added fewer jobs than expected last month, and Black unemployment spiked. California voters will decide whether the state should charge a one-time tax on billionaires, an idea that has split Democrats. The Supreme Court begins its new term on Monday, with cases involving climate change, guns and religious rights. Want more analysis of the most important news of the day, plus a little fun? Subscribe to the Up First newsletter.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/cf2cb1ac-0284-47e7-a5dc-224c3419172f/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=cf2cb1ac-0284-47e7-a5dc-224c3419172f&feed=HMwRVgVt&t=podcast&e=nx-s1-5989358&p=510318&d=973&size=15570277",
     "type": "audio/mpeg",
@@ -430,6 +474,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "The government has a sobering update on the job market, as workers face wages that fail to keep up with higher prices and borrowing costs. Tennessee has paused executions after Christa Pike survived two doses of a lethal injection drug, marking the state’s second failed execution this year. New York’s governor has appointed a special prosecutor in the Cornell sexual assault case after new questions emerged about what information campus police shared with the local district attorney.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/72dac272-13b8-4a69-9195-392c3647ab5f/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=72dac272-13b8-4a69-9195-392c3647ab5f&feed=HMwRVgVt&t=podcast&e=nx-s1-5988792&p=510318&d=841&size=13461256",
     "type": "audio/mpeg",
@@ -445,6 +490,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "A FlyDubai flight bound for Israel made an emergency landing in Saudi Arabia after one pilot allegedly stabbed the other and tried to crash the plane, with all passengers safe and investigators working to determine exactly what happened. President Trump is starting his midterm campaign push in Oklahoma and Alabama, raising questions about whether his presence would help or hurt Republicans in battleground states.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/8ea2b1dc-e1be-41e3-9593-310be0b5050d/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=8ea2b1dc-e1be-41e3-9593-310be0b5050d&feed=HMwRVgVt&t=podcast&e=nx-s1-5986830&p=510318&d=814&size=13028667",
     "type": "audio/mpeg",
@@ -460,6 +506,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "President Trump told AI executives they can police themselves and signed an order branding the technology “super intelligence,” even as some of those same companies say the rules for keeping it safe are still a work in progress. More than two decades after the U.S. first invaded Iraq, American forces have now left the country as Iran-backed militias remain powerful and some U.S. partners warn they are being left vulnerable.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/94cf90d9-1594-48de-a811-425250c28b3f/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=94cf90d9-1594-48de-a811-425250c28b3f&feed=HMwRVgVt&t=podcast&e=nx-s1-5985698&p=510318&d=745&size=11936123",
     "type": "audio/mpeg",
@@ -475,6 +522,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "Five men arrested near a U.S.-used air base in Britain have been released on bail but remain under investigation, as police say they have not determined whether a foreign state was involved. The Trump administration is rolling back fuel efficiency standards for new cars, saying the change will lower sticker prices even as critics warn drivers could pay more over time in fuel and other costs.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/9401f784-6238-4873-b3f6-d305cf88829b/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=9401f784-6238-4873-b3f6-d305cf88829b&feed=HMwRVgVt&t=podcast&e=nx-s1-5984341&p=510318&d=793&size=12703078",
     "type": "audio/mpeg",
@@ -490,6 +538,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "President Trump rejected Iran’s latest ceasefire proposal but says he remains open to talks, as questions grow over whether there is any realistic path toward ending the war. British police arrested five men on suspicion of preparing an attack near a military base used by the U.S. Air Force, as investigators work to determine whether a foreign government was involved.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/294f3746-ba2e-4e3c-82b3-fe174108191a/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=294f3746-ba2e-4e3c-82b3-fe174108191a&feed=HMwRVgVt&t=podcast&e=nx-s1-5983296&p=510318&d=781&size=12498696",
     "type": "audio/mpeg",
@@ -505,6 +554,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "This November, a notable number of Democrats are running for Congress who all have one thing in common: they are members of the clergy. In a moment when the party is counting on every seat it can flip, will these clergy members be able to win over the party’s secular base? NPR’s religion correspondent Jason DeRose followed four of the candidates who are running competitive races in Texas and Iowa.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/82866304-327e-4909-a0d8-93a1807920c1/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=82866304-327e-4909-a0d8-93a1807920c1&feed=HMwRVgVt&t=podcast&e=nx-s1-5981134&p=510318&d=1953&size=31252149",
     "type": "audio/mpeg",
@@ -520,6 +570,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "A weekend of wild weather as a couple of power storms are set to hit Hawaii and the Northeastern United States. The Supreme Court rejects the new congressional maps in Missouri that favored republicans. Mortgage rates and bond yields continue to rise, raising borrowing costs for both consumers and the government. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include sponsor-free listening. Learn more at plus.npr.org.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/36d8c84a-8ebf-4231-bb83-53a8335db2d3/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=36d8c84a-8ebf-4231-bb83-53a8335db2d3&feed=HMwRVgVt&t=podcast&e=nx-s1-5981231&p=510318&d=839&size=13430326",
     "type": "audio/mpeg",
@@ -535,6 +586,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "President Trump hosts China's leader Xi Jinping. While their differences abound on many issues, they extend their truce on tariffs by two months. CNN and MS NOW are denied access to Trump's State dinner with Xi. And diplomats walk out during Israeli Prime Minister Benjamin Netanyahu's blistering speech at the U.N. Want more analysis of the most important news of the day, plus a little fun? Subscribe to the Up First newsletter.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/05af3599-679f-4b72-a9ec-7f437067a86b/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=05af3599-679f-4b72-a9ec-7f437067a86b&feed=HMwRVgVt&t=podcast&e=nx-s1-5981014&p=510318&d=752&size=12048553",
     "type": "audio/mpeg",
@@ -550,6 +602,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "Tucker Carlson is talking about what happened behind closed doors in his very public break with President Trump. In this episode of NPR's Newsmakers, Carlson told host Steve Inskeep about a meeting with Trump in which, he says, Trump dismissed his concerns about the Iran war by saying, \"We'll all die anyway.\" Carlson has taken the view not only that Israel influenced Trump to launch the war, but that Israel gave Trump no choice, and in fact that outside forces control both American political par…",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/7f8a5f79-c99b-4105-b294-994d5ac0b5da/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=7f8a5f79-c99b-4105-b294-994d5ac0b5da&feed=HMwRVgVt&t=podcast&e=nx-s1-5979848&p=510318&d=3467&size=55484961",
     "type": "audio/mpeg",
@@ -565,6 +618,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "A federal judge ordered the White House to temporarily restore press passes for CNN, MS NOW and Politico after finding the outlets are likely to succeed on their due process claim. Chinese President Xi Jinping meets with President Trump at the White House today, with Taiwan, Iran, artificial intelligence and trade among the major issues on the table. At the United Nations General Assembly, Ukraine pushed for a limited ceasefire with Russia as Iran defends its position in the war with the U.S.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/3427827c-6748-4bec-8086-77bbcdc905f8/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=3427827c-6748-4bec-8086-77bbcdc905f8&feed=HMwRVgVt&t=podcast&e=nx-s1-5979585&p=510318&d=782&size=12513741",
     "type": "audio/mpeg",
@@ -580,6 +634,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "President Trump used his U.N. General Assembly speech to threaten Iran with “annihilation” while also revealing that U.S. and Iranian officials had resumed direct talks aimed at ending the conflict. A new NPR/PBS News/Marist poll shows Democrats with a double-digit advantage over Republicans in the congressional vote as President Trump remains a major factor shaping voters’ choices ahead of the midterms.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/1bbb8122-cf99-4f52-b43d-1fe56feb9517/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=1bbb8122-cf99-4f52-b43d-1fe56feb9517&feed=HMwRVgVt&t=podcast&e=nx-s1-5978592&p=510318&d=781&size=12504965",
     "type": "audio/mpeg",
@@ -595,6 +650,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "Major news organizations are suspending use of White House pool coverage after President Trump banned reporters from CNN and two other outlets, with a court hearing set for Wednesday. President Trump addresses the United Nations this morning aiming to cast himself as a peacemaker, a day before Iran’s president speaks, with the war between them still unresolved.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/8fa3a3f2-283d-4906-aa63-ca119a203259/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=8fa3a3f2-283d-4906-aa63-ca119a203259&feed=HMwRVgVt&t=podcast&e=nx-s1-5977558&p=510318&d=789&size=12637875",
     "type": "audio/mpeg",
@@ -610,6 +666,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "World leaders gather in New York for the U.N. General Assembly with the war between the U.S. and Iran dominating the agenda and questions about whether diplomacy can gain traction with Iran's president in attendance. President Trump says his planned \"triumphal arch\" memorial near Arlington National Cemetery will also house drones, snipers and ammunition, after a judge ordered the administration to give notice before work begins.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/6e5bcfae-da67-4856-83ef-54a2579909dd/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=6e5bcfae-da67-4856-83ef-54a2579909dd&feed=HMwRVgVt&t=podcast&e=nx-s1-5976010&p=510318&d=830&size=13294071",
     "type": "audio/mpeg",
@@ -625,6 +682,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "This is the story of one of the biggest missing-person cases of our time. It’s been more than fourteen years since American journalist Austin Tice vanished in Syria. There have been many stories about what happened to him. His disappearance has reached the highest levels of power and yet, so little is actually known. BBC’s award-winning investigative journalist Josh Baker brings us Where is Austin Tice?, a new series from NPR’s Embedded and BBC Radio 4.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/62851587-204b-40d6-be9b-58928258f5b8/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=62851587-204b-40d6-be9b-58928258f5b8&feed=HMwRVgVt&t=podcast&e=nx-s1-5973326&p=510318&d=1779&size=28471467",
     "type": "audio/mpeg",
@@ -640,6 +698,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "President Trump says he’s banning three news organizations – CNN, MS NOW and Politico – from the White House. Leaders in France, Poland and across the continent have warned that Russia may about to broaden its war in Europe. The warning comes after what they say is a spate of brazen Russian attacks. The Protect College Sports Act — a bill that promises to bring stability to college sports — is racing to clear some of its final hurdles.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/f1b060cc-911d-46d4-ab03-2a0d73dfec3e/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=f1b060cc-911d-46d4-ab03-2a0d73dfec3e&feed=HMwRVgVt&t=podcast&e=nx-s1-5974159&p=510318&d=938&size=15011467",
     "type": "audio/mpeg",
@@ -655,6 +714,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "A federal judge told President Trump he cannot demolish the Kennedy Center without 30 days’ notice, after the board shut the building and Trump threatened to rip it down if his name is not on it. The president has taken a series of hits this week, from the Supreme Court blocking his mail-in voting plan to the Fed increasing interest rates against his wishes, raising questions about how much institutions are willing to push back as the midterms approach.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/1d8b3b10-bbfe-4e9c-aea2-d4e413fce17b/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=1d8b3b10-bbfe-4e9c-aea2-d4e413fce17b&feed=HMwRVgVt&t=podcast&e=nx-s1-5973805&p=510318&d=762&size=12199018",
     "type": "audio/mpeg",
@@ -670,6 +730,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "The Federal Reserve raised interest rates for the first time in three years as it tries to bring down stubborn inflation, putting new Fed Chair Kevin Warsh at odds with President Trump’s calls for lower rates. Rising fuel prices linked to the Iran war are driving protests and economic pressure around the world as Saudi Arabia faces attacks on its oil infrastructure and shipping routes.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/17f07ac9-8b1e-45d6-9f9a-04a8951961a1/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=17f07ac9-8b1e-45d6-9f9a-04a8951961a1&feed=HMwRVgVt&t=podcast&e=nx-s1-5972566&p=510318&d=790&size=12647071",
     "type": "audio/mpeg",
@@ -685,6 +746,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "The Federal Reserve is expected to raise interest rates for the first time in three years as the Iran war pushes inflation higher and borrowing costs are already climbing. Two new government reports put the cost of the Iran war at more than $30 billion and reveal extensive damage to U.S. bases and growing strain on key weapons stockpiles.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/c8fc9d18-4630-4c64-a98f-04bc74e41236/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=c8fc9d18-4630-4c64-a98f-04bc74e41236&feed=HMwRVgVt&t=podcast&e=nx-s1-5970932&p=510318&d=776&size=12418029",
     "type": "audio/mpeg",
@@ -700,6 +762,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "President Trump dismissed warnings from leading AI companies that the technology is advancing too fast, calling fears of machines taking over a hoax and framing AI development as a race with China. The Supreme Court rejected the Trump administration’s bid to impose new Postal Service requirements on mail-in ballots, meaning voting by mail that has already started in several states will continue under existing rules.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/1332ae22-16a3-41f7-90e8-82fc990fe290/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=1332ae22-16a3-41f7-90e8-82fc990fe290&feed=HMwRVgVt&t=podcast&e=nx-s1-5969393&p=510318&d=794&size=12713109",
     "type": "audio/mpeg",
@@ -715,6 +778,7 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "Leaders of some of the biggest AI companies say it is time to slow the pace of development after a string of incidents in which their systems went off script, even as President Trump says the United States should not ease up in the race with China. Talks between Iran and Gulf Arab states aimed at reopening the Strait of Hormuz were postponed as Iran-backed Houthis expand their control near another major shipping route and attacks put more pressure on Saudi oil exports.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/1165b3eb-1432-43e6-8d39-2b8c3cba660b/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=1165b3eb-1432-43e6-8d39-2b8c3cba660b&feed=HMwRVgVt&t=podcast&e=nx-s1-5968419&p=510318&d=806&size=12912475",
     "type": "audio/mpeg",
@@ -730,25 +794,11 @@
    "tags": [],
    "lang": "en",
    "type": "audio",
+   "abstract": "Last week, a judge declared a mistrial in the murder case of Lindsay Clancy, leading the public to wonder: What really went on in the jury room? On this episode of The Sunday Story, Ayesha Rascoe talks to WBUR’s Deborah Becker, who was at the courthouse for the duration of the trial. She explains why this trial ended without a verdict – and what the public interest in the case says about an evolving view of postpartum psychosis.",
    "audio": {
     "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/657f9b92-ecbd-42db-a103-04626a7fe3ea/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=657f9b92-ecbd-42db-a103-04626a7fe3ea&feed=HMwRVgVt&t=podcast&e=nx-s1-5965890&p=510318&d=1708&size=27328766",
     "type": "audio/mpeg",
     "dur": 1708
-   }
-  },
-  {
-   "url": "https://www.npr.org/2026/09/12/nx-s1-5964836/brics-summit-in-india-amazon-air-plane-crash-federal-film-tax-bill",
-   "title": "BRICS Summit in India, Amazon Air Plane Crash, Federal Film Tax Bill",
-   "summary": "India hosts the 18th BRICS summit in New Delhi this weekend. The crash of an Amazon cargo jet in Miami is raising concerns about the safety culture at the retai…",
-   "image": "",
-   "date": "2026-09-12",
-   "tags": [],
-   "lang": "en",
-   "type": "audio",
-   "audio": {
-    "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/30c782bc-4d80-4bbd-b77f-8a11632eb9c8/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=30c782bc-4d80-4bbd-b77f-8a11632eb9c8&feed=HMwRVgVt&t=podcast&e=nx-s1-5964836&p=510318&d=907&size=14521617",
-    "type": "audio/mpeg",
-    "dur": 907
    }
   }
  ],
@@ -763,9 +813,9 @@
  },
  "fails": 0,
  "kind": "feed",
- "parser": 3,
+ "parser": 4,
  "status": "ok",
  "error": "",
- "etag": "W/\"1e57a5-6pI3k2BxZAxACMTKPJw46aQwn2Q\"",
+ "etag": "W/\"1e5cdd-9j31/QBRqdEje0nUZtudOs5/vg4\"",
  "modified": ""
 }

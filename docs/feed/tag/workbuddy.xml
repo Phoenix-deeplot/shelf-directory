@@ -4,38 +4,58 @@
   <title>知树阅读-个人图书空间 · #WorkBuddy</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/workbuddy.xml"/>
-  <updated>2026-10-30T00:00:00Z</updated>
+  <updated>2026-10-31T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6486879.html</id>
-    <title>豆包终于学会了腾讯WorkBuddy的杀手锏？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486879.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">字节的豆包工作，终于开始向腾讯 WorkBuddy 学习了。 以后用豆包工作，背后帮你干活的可能是 DeepSeek，也可能是 Kimi、GLM。 昨天，豆包工作开始向企业客户开放第三方大模型服务，首批接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等系列模型。 字节辛辛苦苦研发…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="DeepSeek"/>
-    <category term="Kimi"/>
-    <category term="WorkBuddy"/>
-    <category term="腾讯"/>
-    <category term="豆包"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6486912.html</id>
-    <title>WorkBuddy悄悄上线「手动安装插件」，丝滑操控浏览器</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486912.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">Chrome 插件商店不科学上网打不开，Edge 和 QQ 浏览器又都跳回同一个地址。WorkBuddy 上线了手动安装拓展程序：选浏览器、打开本地插件文件夹、把文件夹拖进扩展页面，三步装完。文中还实测了让 Agent 自己找网址、开标签页的过程。 前阵子，WorkBuddy 悄悄上线了「浏览器插件」。 支持在 Chr…</summary>
+    <id>https://www.woshipm.com/ai/6487296.html</id>
+    <title>豆包学WorkBuddy，天天签到领额度，还开放模型</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487296.html"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">豆包把 WorkBuddy 那套每日签到领额度的玩法搬了过来，还顺手开放了模型选择。文章逐屏过了一遍签到入口、任务中心、额度兑换和模型下拉框，并算清每天到底能薅到多少额度。 AI Agent 时代，积分就是生产力。 每天早上WorkBuddy 签到领积分，已成了很多用户的习惯，我也是如此。 我担心每天忘记签到，还自己设…</summary>
+    <content type="html">&lt;p&gt;豆包把 WorkBuddy 那套每日签到领额度的玩法搬了过来，还顺手开放了模型选择。文章逐屏过了一遍签到入口、任务中心、额度兑换和模型下拉框，并算清每天到底能薅到多少额度。 AI Agent 时代，积分就是生产力。 每天早上WorkBuddy 签到领积分，已成了很多用户的习惯，我也是如此。 我担心每天忘记签到，还自己设了个定时任务。 每天自动执行去领取，一天都不错过。 并且，没事就去看看 WorkBuddy 的任务，看看是不是能薅点积分。 这一个月下来，每天就靠薅羊毛、领鸡蛋，就能满足日常做任务、办公需要。 积分不够时，再单独买点积分包，按需购买。就算不充会员，积分也够用。 免费积分领取和积分任务，已成了WorkBuddy 的获客、促活、教育用户使用 WorkBuddy 的神器。 也该如此，积分，本来就是天然的运营神器。 近日，打开豆包，发现画风变了。 豆包也可以签到领额度了。豆包的积分，叫额度。 并且，力度比WorkBuddy 还大。 每周一，签到领额度翻倍，400 额度。平日是 200 额度。 豆包和 WorkBuddy 一样，上线了任务中心。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #WorkBuddy #产品分析 #豆包 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487296.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI工具"/>
-    <category term="Chrome"/>
     <category term="WorkBuddy"/>
+    <category term="产品分析"/>
+    <category term="豆包"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6487352.html</id>
+    <title>腾讯又出新Buddy，WorkBuddy多了个兄弟</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487352.html"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">腾讯的AI产品，多的有点像在批量招员工。 打工人有WorkBuddy，程序员有CodeBuddy，搞数据的有DataBuddy，学生有LearnBuddy。 现在，连搞音乐的都安排上了。 腾讯音乐又推出了一款AI音乐创作产品，名字叫MusicBuddy，官网已经上线，目前处于内测阶段。曹哥第一时间拿到了内测权限体验，就…</summary>
+    <content type="html">&lt;p&gt;腾讯的AI产品，多的有点像在批量招员工。 打工人有WorkBuddy，程序员有CodeBuddy，搞数据的有DataBuddy，学生有LearnBuddy。 现在，连搞音乐的都安排上了。 腾讯音乐又推出了一款AI音乐创作产品，名字叫MusicBuddy，官网已经上线，目前处于内测阶段。曹哥第一时间拿到了内测权限体验，就迫不及待的为2026AI产品大会创作了一首主题曲，没想到居然挺不错。 腾讯的Buddy家族越来越热闹了。以后一个人创业，可能都不需要招几个人，直接给自己配上一支Buddy团队：WorkBuddy负责日常办公，CodeBuddy帮忙写代码，DataBuddy处理数据，再让MusicBuddy给公司写首主题曲。 如果以后再来个SalesBuddy负责销售，FinanceBuddy负责算账，老板估计做梦都能笑醒。 玩笑归玩笑，MusicBuddy这次还真有些看点。 我还专门找到了MusicBuddy的相关负责人聊了聊，他们提到一个挺有意思的产品愿景：希望MusicBuddy成为音乐人专属的音乐搭子，帮助音乐人实现“一人厂牌”（OPC），也希望人人都能成为音乐人。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#AI #WorkBuddy #工作流 #程序员 #腾讯 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487352.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="WorkBuddy"/>
+    <category term="工作流"/>
+    <category term="程序员"/>
+    <category term="腾讯"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6487189.html</id>
+    <title>WorkBuddy本地部署超强OCR识别小模型</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487189.html"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">建筑图纸里的文字表格总提取不准，问题常常不在提示词，而在模型选型。这篇区分OCR专用模型与多模态模型的边界，用一段提示词把MiniCPM-OCR部署到本地，再拿25页施工图纸实测识别效果。 今天来填个坑的，之前老马写过一篇建筑行业怎么使用WorkBuddy来进行AI办公提升效率的文章。有位从业老哥留言，说我的法子行不通…</summary>
+    <content type="html">&lt;p&gt;建筑图纸里的文字表格总提取不准，问题常常不在提示词，而在模型选型。这篇区分OCR专用模型与多模态模型的边界，用一段提示词把MiniCPM-OCR部署到本地，再拿25页施工图纸实测识别效果。 今天来填个坑的，之前老马写过一篇建筑行业怎么使用WorkBuddy来进行AI办公提升效率的文章。有位从业老哥留言，说我的法子行不通，瞬间就有点丈二和尚摸不着头脑。 他说自己做了几个Skill，发现WorkBuddy对于建筑施工方案，估计应该是图纸类的，提取信息的效果很差，而且存在不准确的情况。 假设建筑施工方案图纸是PDF格式的文件，或者是PNG和JPG的扫描截图也行，不是专业的DWG和DXF文件。那么提取里面的文字、图片、表格等信息，就取决于你用的是什么模型。 OCR模型与多模态模型各管一摊 一般来说分为专业的OCR识别模型和多模态模型，两者各有千秋。OCR模型是高精度的看图识字，对于复杂排版，密集多栏，倾斜标注或者手写字体等情况下的文字识别很稳定，极少会出现幻觉。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #OCR #WorkBuddy #经验分享 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487189.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="OCR"/>
+    <category term="WorkBuddy"/>
+    <category term="经验分享"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>

@@ -1,0 +1,68 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #CSX",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/csx.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/schneider-to-shift-eastern-rail-business-to-norfolk-southern-from-csx",
+      "url": "https://www.freightwaves.com/news/schneider-to-shift-eastern-rail-business-to-norfolk-southern-from-csx",
+      "title": "Schneider to shift eastern rail business to Norfolk Southern from CSX",
+      "content_html": "<p>Schneider National will make Norfolk Southern its primary eastern rail provider as the railroad pursues a merger with Union Pacific. The post Schneider to shift eastern rail business to Norfolk Southern from CSX appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-30</p><p>Tags: #Intermodal #News #Railroad #Top Stories #CSX #Norfolk Southern</p><p><a href=\"https://www.freightwaves.com/news/schneider-to-shift-eastern-rail-business-to-norfolk-southern-from-csx\">Read the original →</a></p>",
+      "content_text": "Schneider National will make Norfolk Southern its primary eastern rail provider as the railroad pursues a merger with Union Pacific. The post Schneider to shift eastern rail business to Norfolk Southern from CSX appeared first on FreightWaves.",
+      "summary": "Schneider National will make Norfolk Southern its primary eastern rail provider as the railroad pursues a merger with Union Pacific. The post Schneider to shift…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "Intermodal",
+        "News",
+        "Railroad",
+        "Top Stories",
+        "CSX",
+        "Norfolk Southern",
+        "Schneider National",
+        "货运"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/schneider-partners-with-norfolk-southern-raises-outlook-despite-q3-miss",
+      "url": "https://www.freightwaves.com/news/schneider-partners-with-norfolk-southern-raises-outlook-despite-q3-miss",
+      "title": "Schneider partners with Norfolk Southern; raises outlook despite Q3 miss",
+      "content_html": "<p>Alongside its slightly worse-than-expected third-quarter report on Thursday, Schneider National announced a deal to utilize Norfolk Southern’s rail network in the East. The post Schneider partners with Norfolk Southern; raises outlook despite Q3 miss appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-30</p><p>Tags: #Company Earnings #Intermodal #News #CPKC #CSX #IMCs</p><p><a href=\"https://www.freightwaves.com/news/schneider-partners-with-norfolk-southern-raises-outlook-despite-q3-miss\">Read the original →</a></p>",
+      "content_text": "Alongside its slightly worse-than-expected third-quarter report on Thursday, Schneider National announced a deal to utilize Norfolk Southern’s rail network in the East. The post Schneider partners with Norfolk Southern; raises outlook despite Q3 miss appeared first on FreightWaves.",
+      "summary": "Alongside its slightly worse-than-expected third-quarter report on Thursday, Schneider National announced a deal to utilize Norfolk Southern’s rail network in t…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "Intermodal",
+        "News",
+        "CPKC",
+        "CSX",
+        "IMCs",
+        "intermodal cost savings",
+        "Norfolk Southern"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}

@@ -9,9 +9,118 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/story/i-spent-30-minutes-with-apples-ceo-now-i-know-why-john-ternus-got-the-job/",
+      "url": "https://www.wired.com/story/i-spent-30-minutes-with-apples-ceo-now-i-know-why-john-ternus-got-the-job/",
+      "title": "I Spent 30 Minutes With Apple’s CEO. Now I Know Why John Ternus Got the Job",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae3a32037c72c5b8eae6889/master/pass/Backchannel-Top-Art-10302026.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Apple doesn’t need fixing, and it doesn’t want drama. Its new leader is a “product guy” who bleeds six colors.</p><p>Source: WIRED · 2026-10-30</p><p>Tags: #Business #Business / Tech Culture #Backchannel #科技 #社会</p><p><a href=\"https://www.wired.com/story/i-spent-30-minutes-with-apples-ceo-now-i-know-why-john-ternus-got-the-job/\">Read the original →</a></p>",
+      "content_text": "Apple doesn’t need fixing, and it doesn’t want drama. Its new leader is a “product guy” who bleeds six colors.",
+      "summary": "Apple doesn’t need fixing, and it doesn’t want drama. Its new leader is a “product guy” who bleeds six colors.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae3a32037c72c5b8eae6889/master/pass/Backchannel-Top-Art-10302026.jpg",
+      "tags": [
+        "Business",
+        "Business / Tech Culture",
+        "Backchannel",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
+      "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>This week on Uncanny Valley, we also discuss Anthropic’s IPO filing and the volunteers gearing up to counter ICE at the midterms.</p><p>Source: WIRED · 2026-10-30</p><p>Tags: #Business #Business / Big Tech #Uncanny Valley #科技 #社会</p><p><a href=\"https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/\">Read the original →</a></p>",
+      "content_text": "This week on Uncanny Valley, we also discuss Anthropic’s IPO filing and the volunteers gearing up to counter ICE at the midterms.",
+      "summary": "This week on Uncanny Valley, we also discuss Anthropic’s IPO filing and the volunteers gearing up to counter ICE at the midterms.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg",
+      "tags": [
+        "Business",
+        "Business / Big Tech",
+        "Uncanny Valley",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/safety-technology-is-only-as-good-as-the-trust-behind-it",
+      "url": "https://www.freightwaves.com/news/safety-technology-is-only-as-good-as-the-trust-behind-it",
+      "title": "Safety Technology Is Only as Good as the Trust Behind It",
+      "content_html": "<p>Every carrier with a safety technology program eventually learns the same lesson: the hardware is the easy part. Cameras can be mounted, collision mitigation can be specified on new tractors, and telematics can be switched on. What’s harder to install is the belief, among people who spend their working lives behind the wheel, that the […] The post Safety Technology Is Only as Good as the Trust Behind It appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-30</p><p>Tags: #Business #Carrier Safety #News #Sponsored Insights #Technology #Truck Driver Issues</p><p><a href=\"https://www.freightwaves.com/news/safety-technology-is-only-as-good-as-the-trust-behind-it\">Read the original →</a></p>",
+      "content_text": "Every carrier with a safety technology program eventually learns the same lesson: the hardware is the easy part. Cameras can be mounted, collision mitigation can be specified on new tractors, and telematics can be switched on. What’s harder to install is the belief, among people who spend their working lives behind the wheel, that the […] The post Safety Technology Is Only as Good as the Trust Behind It appeared first on FreightWaves.",
+      "summary": "Every carrier with a safety technology program eventually learns the same lesson: the hardware is the easy part. Cameras can be mounted, collision mitigation ca…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "Business",
+        "Carrier Safety",
+        "News",
+        "Sponsored Insights",
+        "Technology",
+        "Truck Driver Issues",
+        "Trucking",
+        "advanced technology"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/cn-3q-profit-rises-6-as-freight-revenue-climbs",
+      "url": "https://www.freightwaves.com/news/cn-3q-profit-rises-6-as-freight-revenue-climbs",
+      "title": "CN 3Q profit rises 6% as freight revenue climbs",
+      "content_html": "<p>Canadian National Railway reported a 6% increase in third-quarter profit as grain, energy and automotive freight activity lifted revenue. The post CN 3Q profit rises 6% as freight revenue climbs appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-30</p><p>Tags: #Business #Company Earnings #News #Railroad #Top Stories #Canadian National</p><p><a href=\"https://www.freightwaves.com/news/cn-3q-profit-rises-6-as-freight-revenue-climbs\">Read the original →</a></p>",
+      "content_text": "Canadian National Railway reported a 6% increase in third-quarter profit as grain, energy and automotive freight activity lifted revenue. The post CN 3Q profit rises 6% as freight revenue climbs appeared first on FreightWaves.",
+      "summary": "Canadian National Railway reported a 6% increase in third-quarter profit as grain, energy and automotive freight activity lifted revenue. The post CN 3Q profit…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "Business",
+        "Company Earnings",
+        "News",
+        "Railroad",
+        "Top Stories",
+        "Canadian National",
+        "carload",
+        "earnings"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/",
       "url": "https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/",
       "title": "The ‘Pain in the Ass’ Math That Could Save Vibe Coding From Itself",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae2968f0262809bad6615e8/master/pass/Untitled-6.gif\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>A new startup called &amp;Truth is joining the race to automate formal verification, a painstaking process that uses math to prove software works as intended.</p><p>Source: WIRED · 2026-10-29</p><p>Tags: #Business #Business / Startups #Building Proofs #科技 #社会</p><p><a href=\"https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/\">Read the original →</a></p>",
       "content_text": "A new startup called &Truth is joining the race to automate formal verification, a painstaking process that uses math to prove software works as intended.",
       "summary": "A new startup called &Truth is joining the race to automate formal verification, a painstaking process that uses math to prove software works as intended.",
       "date_published": "2026-10-29T00:00:00Z",
@@ -37,6 +146,7 @@
       "id": "https://www.wired.com/story/polymarket-flagship-platform-hack-traders-lose-money/",
       "url": "https://www.wired.com/story/polymarket-flagship-platform-hack-traders-lose-money/",
       "title": "Polymarket Halted International Trading After Hackers Drained Accounts",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae3a1d0b3ee5efdf6d00c9f/master/pass/GettyImages-2259602081.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>The company says an unnamed third-party provider was compromised. Trading has resumed, and Polymarket says affected traders will be made whole.</p><p>Source: WIRED · 2026-10-29</p><p>Tags: #Business #Hack Attack #科技 #社会</p><p><a href=\"https://www.wired.com/story/polymarket-flagship-platform-hack-traders-lose-money/\">Read the original →</a></p>",
       "content_text": "The company says an unnamed third-party provider was compromised. Trading has resumed, and Polymarket says affected traders will be made whole.",
       "summary": "The company says an unnamed third-party provider was compromised. Trading has resumed, and Polymarket says affected traders will be made whole.",
       "date_published": "2026-10-29T00:00:00Z",
@@ -61,6 +171,7 @@
       "id": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
       "url": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
       "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae34b392cfd29b998d6a112/master/pass/Business_Mistral%20Says%20Its%20%E2%80%98Le%20Chonk%E2%80%99%20Model%20Can%20Outperform%20Top%20Chinese%20Models%20in%20Coding%20and%20Cybersecurity_v3.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>The French AI lab claims its latest release matches or outperforms even the best models from DeepSeek and Z.ai in coding and cybersecurity.</p><p>Source: WIRED · 2026-10-29</p><p>Tags: #Business #Even Chonkier #科技 #社会</p><p><a href=\"https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/\">Read the original →</a></p>",
       "content_text": "The French AI lab claims its latest release matches or outperforms even the best models from DeepSeek and Z.ai in coding and cybersecurity.",
       "summary": "The French AI lab claims its latest release matches or outperforms even the best models from DeepSeek and Z.ai in coding and cybersecurity.",
       "date_published": "2026-10-29T00:00:00Z",
@@ -85,7 +196,8 @@
       "id": "https://www.freightwaves.com/news/500000-sig-sauer-shipment-stolen-in-fictitious-pickup-two-arrested-in-california",
       "url": "https://www.freightwaves.com/news/500000-sig-sauer-shipment-stolen-in-fictitious-pickup-two-arrested-in-california",
       "title": "$500,000 SIG Sauer shipment stolen in fictitious pickup, two arrested in California",
-      "content_text": "A shipment worth half a million dollars left a Torrance warehouse under fraudulent circumstances, triggering a cargo theft investigation by Los Angeles County d…",
+      "content_html": "<p>A shipment worth half a million dollars left a Torrance warehouse under fraudulent circumstances, triggering a cargo theft investigation by Los Angeles County detectives. The post $500,000 SIG Sauer shipment stolen in fictitious pickup, two arrested in California appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-29</p><p>Tags: #Business #Fraud #Playbook: Cash &amp; Capital #Top Stories #cargo theft #freight fraud</p><p><a href=\"https://www.freightwaves.com/news/500000-sig-sauer-shipment-stolen-in-fictitious-pickup-two-arrested-in-california\">Read the original →</a></p>",
+      "content_text": "A shipment worth half a million dollars left a Torrance warehouse under fraudulent circumstances, triggering a cargo theft investigation by Los Angeles County detectives. The post $500,000 SIG Sauer shipment stolen in fictitious pickup, two arrested in California appeared first on FreightWaves.",
       "summary": "A shipment worth half a million dollars left a Torrance warehouse under fraudulent circumstances, triggering a cargo theft investigation by Los Angeles County d…",
       "date_published": "2026-10-29T00:00:00Z",
       "tags": [
@@ -109,34 +221,11 @@
       }
     },
     {
-      "id": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
-      "url": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
-      "title": "I Put a Bunch of AI Agents in Charge of a Fantasy Soccer Team. They’re Not Better Than Humans—Yet",
-      "content_text": "To experiment with AI’s predictive skills, I let Codex loose on a fantasy team. It tried to bench Erling Haaland at first, but it soon learned the error of its…",
-      "summary": "To experiment with AI’s predictive skills, I let Codex loose on a fantasy team. It tried to bench Erling Haaland at first, but it soon learned the error of its…",
-      "date_published": "2026-10-28T00:00:00Z",
-      "image": "https://media.wired.com/photos/6ae108712ec9b10c531020d9/master/pass/business_ai_predict_future.jpg",
-      "tags": [
-        "Business",
-        "AI Lab",
-        "科技",
-        "社会"
-      ],
-      "authors": [
-        {
-          "name": "WIRED"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "wired-com"
-      }
-    },
-    {
       "id": "https://www.freightwaves.com/news/stolen-shoes-on-ebay-lead-police-to-1-million-in-missing-bnsf-train-cargo",
       "url": "https://www.freightwaves.com/news/stolen-shoes-on-ebay-lead-police-to-1-million-in-missing-bnsf-train-cargo",
       "title": "Stolen shoes on eBay lead police to $1 million in missing BNSF train cargo",
-      "content_text": "An eBay listing for stolen shoes exposed a $1 million cargo recovery in Los Angeles. Investigators arrested the business owner, but questions remain about where…",
+      "content_html": "<p>An eBay listing for stolen shoes exposed a $1 million cargo recovery in Los Angeles. Investigators arrested the business owner, but questions remain about where the merchandise originated. The post Stolen shoes on eBay lead police to $1 million in missing BNSF train cargo appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-28</p><p>Tags: #Business #Fraud #Playbook: Cash &amp; Capital #Top Stories #BNSF Railroad #cargo theft</p><p><a href=\"https://www.freightwaves.com/news/stolen-shoes-on-ebay-lead-police-to-1-million-in-missing-bnsf-train-cargo\">Read the original →</a></p>",
+      "content_text": "An eBay listing for stolen shoes exposed a $1 million cargo recovery in Los Angeles. Investigators arrested the business owner, but questions remain about where the merchandise originated. The post Stolen shoes on eBay lead police to $1 million in missing BNSF train cargo appeared first on FreightWaves.",
       "summary": "An eBay listing for stolen shoes exposed a $1 million cargo recovery in Los Angeles. Investigators arrested the business owner, but questions remain about where…",
       "date_published": "2026-10-28T00:00:00Z",
       "tags": [
@@ -163,7 +252,8 @@
       "id": "https://www.freightwaves.com/news/aurora-charger-logistics-500-driverless-trucks-mou",
       "url": "https://www.freightwaves.com/news/aurora-charger-logistics-500-driverless-trucks-mou",
       "title": "Aurora adds 500-truck Charger MOU toward 30,000-truck goal",
-      "content_text": "Aurora Innovation signed a nonbinding MOU with Charger Logistics for up to 500 driverless trucks, adding to a carrier-owned pipeline Aurora needs to hit its 203…",
+      "content_html": "<p>Aurora Innovation signed a nonbinding MOU with Charger Logistics for up to 500 driverless trucks, adding to a carrier-owned pipeline Aurora needs to hit its 2030 targets. The post Aurora adds 500-truck Charger MOU toward 30,000-truck goal appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-28</p><p>Tags: #Autonomous Vehicles #Business #News #Technology #Aurora Driver #Aurora Driverless Trucks</p><p><a href=\"https://www.freightwaves.com/news/aurora-charger-logistics-500-driverless-trucks-mou\">Read the original →</a></p>",
+      "content_text": "Aurora Innovation signed a nonbinding MOU with Charger Logistics for up to 500 driverless trucks, adding to a carrier-owned pipeline Aurora needs to hit its 2030 targets. The post Aurora adds 500-truck Charger MOU toward 30,000-truck goal appeared first on FreightWaves.",
       "summary": "Aurora Innovation signed a nonbinding MOU with Charger Logistics for up to 500 driverless trucks, adding to a carrier-owned pipeline Aurora needs to hit its 203…",
       "date_published": "2026-10-28T00:00:00Z",
       "tags": [
@@ -175,33 +265,6 @@
         "Aurora Driverless Trucks",
         "Aurora Innovation",
         "autonomous trucking"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/millions-in-stolen-freight-reveal-a-weakness-criminals-keep-exploiting",
-      "url": "https://www.freightwaves.com/news/millions-in-stolen-freight-reveal-a-weakness-criminals-keep-exploiting",
-      "title": "Millions in stolen freight reveal a weakness criminals keep exploiting",
-      "content_text": "From a $12 million cargo theft scheme to fraudulent shipment diversions, recent cases reveal a recurring weakness. The question is whether your team knows how t…",
-      "summary": "From a $12 million cargo theft scheme to fraudulent shipment diversions, recent cases reveal a recurring weakness. The question is whether your team knows how t…",
-      "date_published": "2026-10-27T00:00:00Z",
-      "tags": [
-        "Business",
-        "Fraud",
-        "Playbook: Cash & Capital",
-        "Top Stories",
-        "FreightWaves",
-        "logistics",
-        "Trucking",
-        "货运"
       ],
       "authors": [
         {

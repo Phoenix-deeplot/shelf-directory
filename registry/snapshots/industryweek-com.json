@@ -2,6 +2,38 @@
  "id": "industryweek-com",
  "items": [
   {
+   "url": "https://www.industryweek.com/news/article/55415599/musk-and-milestones-candy-quiz-and-whos-breaking-manufacturing-ground-industryweeks-weekly-review",
+   "title": "Musk and Milestones, Candy Quiz and Who's Breaking Ground: IndustryWeek's Weekly Review",
+   "summary": "Also, let's talk interest rates, what's up in the Strait of Hormuz, the power of reverse innovation, and more.",
+   "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ae4b9af5b71f0f6166b053a-shovels_in_grounddreamstime_m_4543978.png",
+   "date": "2026-10-30",
+   "tags": [
+    "News"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.industryweek.com/industry-events/manufacturing-day/article/55415594/meet-a-70-year-old-packaging-company-that-opened-its-doors-for-manufacturing-day",
+   "title": "Meet a 70-Year-Old Packaging Company That Opened Its Doors for Manufacturing Day",
+   "summary": "We are 100% employee-owned, and that shapes how our people talk about what they do.",
+   "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ae4b5bb8dfa39b4519ef1ed-bay_cities_manufacturing_day_photo.png",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.industryweek.com/leadership/companies-executives/news/55415358/ford-execs-stick-to-2029-ev-breakeven-target",
+   "title": "Ford Execs Stick to 2029 EV Breakeven Target",
+   "summary": "More investments in the Fathom truck and battery capacity are on tap for next year and revenues are expected to ramp in early 2028.",
+   "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ae377b78dfa39b45193c102-f_mustang_mach_e_1.png",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.industryweek.com/technology-and-iiot/systems-integration/article/55415415/erp-transformation-starts-with-your-operating-model",
    "title": "ERP Transformation Starts With Your Operating Model",
    "summary": "If installing software is your first priority, the project can quickly turn into a technology swap carrying over old problems and workarounds.",
@@ -141,7 +173,8 @@
    "date": "2026-10-23",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "The CEO of the automotive, energy and robotics manufacturer thinks vehicle production can be double the company’s total capacity by 2030. Tesla’s vehicle engineering VP says expansion investments are already starting to pay off."
   },
   {
    "url": "https://www.industryweek.com/leadership/strategic-planning-execution/article/55413780/the-power-and-potential-trap-of-reverse-innovation-lessons-from-ge-mercedes-benz-dewalt",
@@ -161,7 +194,8 @@
    "date": "2026-10-22",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "The leaders of Cleveland-Cliffs and Steel Dynamics have recently told investors that demand remains healthy while supplies are often limited. Expect prices to keep climbing into 2027."
   },
   {
    "url": "https://www.industryweek.com/leadership/corporate-finance/article/55413569/musk-can-wall-off-shanghai-he-cannot-wall-off-chinas-supply-chain",
@@ -183,7 +217,8 @@
    "date": "2026-10-21",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "\"The transition into manufacturing was a deliberate one. The tech world is being commodified due to cheap and effective LLMs. I wanted to get into both the real world as well as my local community,\" says Sean Johnston, CEO, Remcon Equipment Inc."
   },
   {
    "url": "https://www.industryweek.com/members/article/55413410/are-rogue-ai-agents-pushing-the-buttons-on-your-manufacturing-shop-floor-so-that-happened",
@@ -195,7 +230,8 @@
     "Members Only"
    ],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Also, optimism prevails across trade shows, MillerKnoll names new leader, Misumi launches educational foundation, cyber threats frighten manufacturing boards, and 3M extends presence in data center products."
   },
   {
    "url": "https://www.industryweek.com/leadership/companies-executives/news/55413295/gm-cfo-recent-inflation-jump-could-cut-27-ebitda-by-15b",
@@ -239,39 +275,8 @@
     "IndustryWeek US 500"
    ],
    "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.industryweek.com/resources/industryweek-best-plants-awards/article/55412435/2026-industryweek-best-plants-bullen-ultrasonics-excels-by-being-different-for-all-the-right-reasons",
-   "title": "2026 IndustryWeek Best Plants: Bullen Ultrasonics Excels by Being Different for All the Right Reasons",
-   "summary": "Bullen’s commitment to supportive leadership, teamwork and workforce development fosters strong performance and creates an environment for employees to thrive.",
-   "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad258626bbb8c6bb9bfe699-bullenultrasonics_ultrasonicmaching_semiconductor_.png",
-   "date": "2026-10-19",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.industryweek.com/leadership/companies-executives/news/55412573/fastenal-finding-success-with-a-more-with-less-model-that-leans-on-tech",
-   "title": "Fastenal Finding Success With a More-With-Less Model That Leans on Tech",
-   "summary": "The sales force of the industrial products distributor shrank by 400 in the third quarter. Executives say they need fewer people at customer sites these days an…",
-   "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad2841855a0c53ae5690c37-fast_vending_1.png",
-   "date": "2026-10-16",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.industryweek.com/the-economy/article/55412419/tooling-takedown-census-smarts-and-additives-sweet-spot-industryweeks-weekly-review",
-   "title": "Tooling Takedown, Census Smarts and Additive's Sweet Spot: IndustryWeek's Weekly Review",
-   "summary": "Also, Cambodia pushes to raise its manufacturing profile, visual management's key to success, and more from Manufacturing Day and Month.",
-   "image": "https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6ad241f59e3f57f9d5601504-chocolates_dreamstime_m_27150405.png",
-   "date": "2026-10-16",
-   "tags": [
-    "The Economy"
-   ],
-   "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Most of the pharmaceutical and biotechnology manufacturing companies on the 2026 IW 500 list enjoyed revenue growth in fiscal 2025. Sales for the category grew 7.4% to $559 billion."
   }
  ],
  "shelf": {
@@ -285,9 +290,9 @@
  },
  "fails": 0,
  "kind": "feed",
- "parser": 3,
+ "parser": 4,
  "status": "ok",
  "error": "",
  "etag": "",
- "modified": "Fri, 30 Oct 2026 09:14:52 GMT"
+ "modified": "Sat, 31 Oct 2026 09:27:31 GMT"
 }

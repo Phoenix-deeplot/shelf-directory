@@ -1,0 +1,68 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #peak season",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/peak-season.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/european-postal-operators-gear-up-for-surge-in-holiday-volume",
+      "url": "https://www.freightwaves.com/news/european-postal-operators-gear-up-for-surge-in-holiday-volume",
+      "title": "European postal operators gear up for surge in holiday volume",
+      "content_html": "<p>Posten Bring in Norway and Deutsche Post in Germany are beefing up locker networks and taking other steps to ensure smooth delivery service for the holidays. The post European postal operators gear up for surge in holiday volume appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-30</p><p>Tags: #E-commerce &amp; Fulfillment #News #PostalMag #e-commerce #Europe #parcel carriers</p><p><a href=\"https://www.freightwaves.com/news/european-postal-operators-gear-up-for-surge-in-holiday-volume\">Read the original →</a></p>",
+      "content_text": "Posten Bring in Norway and Deutsche Post in Germany are beefing up locker networks and taking other steps to ensure smooth delivery service for the holidays. The post European postal operators gear up for surge in holiday volume appeared first on FreightWaves.",
+      "summary": "Posten Bring in Norway and Deutsche Post in Germany are beefing up locker networks and taking other steps to ensure smooth delivery service for the holidays. Th…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "E-commerce & Fulfillment",
+        "News",
+        "PostalMag",
+        "e-commerce",
+        "Europe",
+        "parcel carriers",
+        "peak season",
+        "postal carriers"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach",
+      "url": "https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach",
+      "title": "Backlog grows as 35,000 containers await rail service at LA–Long Beach",
+      "content_html": "<p>Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages slowed inland traffic. The post Backlog grows as 35,000 containers await rail service at LA–Long Beach appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-28</p><p>Tags: #American Shipper #Container Shipping #Maritime #News #Railroad #Top Stories</p><p><a href=\"https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach\">Read the original →</a></p>",
+      "content_text": "Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages slowed inland traffic. The post Backlog grows as 35,000 containers await rail service at LA–Long Beach appeared first on FreightWaves.",
+      "summary": "Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages…",
+      "date_published": "2026-10-28T00:00:00Z",
+      "tags": [
+        "American Shipper",
+        "Container Shipping",
+        "Maritime",
+        "News",
+        "Railroad",
+        "Top Stories",
+        "imports",
+        "peak season"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}

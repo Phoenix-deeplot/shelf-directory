@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/israel.xml</id>
+  <title>知树阅读-个人图书空间 · #Israel</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/israel.xml"/>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://slate.com/news-and-politics/2026/10/israel-election-results-netanyahu-eisenkot-iran.html?via=rss</id>
+    <title>This Week’s Election Revealed a Troubling Truth About Israeli Politics</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/news-and-politics/2026/10/israel-election-results-netanyahu-eisenkot-iran.html?via=rss"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">The question now is this: Does it matter which side ultimately wins?</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://compote.slate.com/images/f6d5566c-1a4d-4ec1-9f5d-dcb4653b1cda.jpeg?crop=1560%2C1040%2Cx0%2Cy0" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;The question now is this: Does it matter which side ultimately wins?&lt;/p&gt;&lt;p&gt;Source: Slate Magazine · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #Donald Trump #Iran #Israel #Palestine #评论 #文化&lt;/p&gt;&lt;p&gt;&lt;a href="https://slate.com/news-and-politics/2026/10/israel-election-results-netanyahu-eisenkot-iran.html?via=rss"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>Slate Magazine</title></source>
+    <category term="Donald Trump"/>
+    <category term="Iran"/>
+    <category term="Israel"/>
+    <category term="Palestine"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/culture/2026/10/you-can-see-everything-musk-documentary-elizabeth-holmes-naza-best.html?via=rss</id>
+    <title>&lt;em&gt;You Can See Everything&lt;/em&gt; Is Just the Tip of the Iceberg</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/culture/2026/10/you-can-see-everything-musk-documentary-elizabeth-holmes-naza-best.html?via=rss"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">If you want to see new movies about real, everyday people, there’s only one place to go.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://compote.slate.com/images/477626da-3633-4b31-900e-67bd753d7f9a.jpeg?crop=1560%2C1040%2Cx0%2Cy0" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;If you want to see new movies about real, everyday people, there’s only one place to go.&lt;/p&gt;&lt;p&gt;Source: Slate Magazine · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #Comedy #Fraud #Israel #Movies #Russia #Syria&lt;/p&gt;&lt;p&gt;&lt;a href="https://slate.com/culture/2026/10/you-can-see-everything-musk-documentary-elizabeth-holmes-naza-best.html?via=rss"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>Slate Magazine</title></source>
+    <category term="Comedy"/>
+    <category term="Fraud"/>
+    <category term="Israel"/>
+    <category term="Movies"/>
+    <category term="Russia"/>
+    <category term="Syria"/>
+    <category term="Documentaries"/>
+    <category term="Palestine"/>
+  </entry>
+</feed>

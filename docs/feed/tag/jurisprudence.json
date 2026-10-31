@@ -1,0 +1,69 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #Jurisprudence",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/jurisprudence.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://slate.com/news-and-politics/2026/10/2026-election-news-alaska-dan-sullivan-shenanigans.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/2026-election-news-alaska-dan-sullivan-shenanigans.html?via=rss",
+      "title": "The Truth About the Alaska Dan Sullivan Shenanigans",
+      "content_html": "<p><img src=\"https://compote.slate.com/images/1a941c2f-f6d9-43ae-bad5-7d863986f393.jpeg?crop=1560%2C1040%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>The threats Republicans are issuing right now are best understood not as fully baked legal theories.</p><p>Source: Slate Magazine · 2026-10-30</p><p>Tags: #Department of Justice #Donald Trump #Jurisprudence #Senate #Judiciary #Alaska</p><p><a href=\"https://slate.com/news-and-politics/2026/10/2026-election-news-alaska-dan-sullivan-shenanigans.html?via=rss\">Read the original →</a></p>",
+      "content_text": "The threats Republicans are issuing right now are best understood not as fully baked legal theories.",
+      "summary": "The threats Republicans are issuing right now are best understood not as fully baked legal theories.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://compote.slate.com/images/1a941c2f-f6d9-43ae-bad5-7d863986f393.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Department of Justice",
+        "Donald Trump",
+        "Jurisprudence",
+        "Senate",
+        "Judiciary",
+        "Alaska",
+        "2026 Midterms",
+        "评论"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/news-and-politics/2026/10/donald-trump-corruption-constitution-impeachment-fail.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/donald-trump-corruption-constitution-impeachment-fail.html?via=rss",
+      "title": "Donald Trump Sure Is Corrupt. If Only There Were a Constitutional Remedy for That.",
+      "content_html": "<p><img src=\"https://compote.slate.com/images/f15b8001-05ac-4351-a63c-d59d5f7fba77.jpeg?crop=1536%2C1024%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>The most common ground for impeachment throughout Anglo-American history has been corruption.</p><p>Source: Slate Magazine · 2026-10-30</p><p>Tags: #Constitution #Donald Trump #Impeachment #Jurisprudence #Try, Try Again? #评论</p><p><a href=\"https://slate.com/news-and-politics/2026/10/donald-trump-corruption-constitution-impeachment-fail.html?via=rss\">Read the original →</a></p>",
+      "content_text": "The most common ground for impeachment throughout Anglo-American history has been corruption.",
+      "summary": "The most common ground for impeachment throughout Anglo-American history has been corruption.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://compote.slate.com/images/f15b8001-05ac-4351-a63c-d59d5f7fba77.jpeg?crop=1536%2C1024%2Cx0%2Cy0",
+      "tags": [
+        "Constitution",
+        "Donald Trump",
+        "Impeachment",
+        "Jurisprudence",
+        "Try, Try Again?",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    }
+  ]
+}

@@ -2,6 +2,32 @@
  "id": "eater-com",
  "items": [
   {
+   "url": "https://www.eater.com/travel-guides/995748/steal-my-food-itinerary-3-days-on-prince-edward-island",
+   "title": "Steal My Food Itinerary: 3 Days on Prince Edward Island",
+   "summary": "Recently I spent a few days exploring Prince Edward Island, a place that embraces its local foodways with gusto. There’s a complex history here, with roots in I…",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [
+    "Travel Guides"
+   ],
+   "lang": "en",
+   "type": "article",
+   "abstract": "Recently I spent a few days exploring Prince Edward Island, a place that embraces its local foodways with gusto. There’s a complex history here, with roots in Indigenous Mi’kmaq, Acadian, Irish, Scottish, and other cultures. And if one thing unites these histories, it’s the island’s abundance of seafood and produce, which have helped earn it […]"
+  },
+  {
+   "url": "https://www.eater.com/coffee-shops/994101/sey-200-dollar-coffee-finca-sophia",
+   "title": "We’re in the Era of the $200 Cup of Coffee",
+   "summary": "A version of this post originally appeared in Eater Today, which spotlights the freshest news and stories from across the food world every day. Subscribe now. T…",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [
+    "Dining Out"
+   ],
+   "lang": "en",
+   "type": "article",
+   "abstract": "A version of this post originally appeared in Eater Today, which spotlights the freshest news and stories from across the food world every day. Subscribe now. These days, Bushwick is perhaps best known for its graffiti art, ecuavolley, and queer bars; the Brooklyn neighborhood is famous for its family-owned taquerias, American-Italian pastry shops, and the […]"
+  },
+  {
    "url": "https://www.eater.com/trends/996747/food-fashion-print-trend",
    "title": "Food-Themed Fashion Is Starting to Feel Gluttonous",
    "summary": "There was a time, not too long ago, when a purse shaped like a baguette felt like a thrilling — even subversive — novelty. Now, we hardly bat an eye when we see…",
@@ -11,7 +37,8 @@
     "Food and Restaurant Trends"
    ],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "There was a time, not too long ago, when a purse shaped like a baguette felt like a thrilling — even subversive — novelty. Now, we hardly bat an eye when we see that Moschino has made a trompe l’oeil celery purse, or that Big Bud Press is making a hot-dog-and-pretzel-print jumpsuit in collaboration with […]"
   },
   {
    "url": "https://www.eater.com/dining-out/996325/restaurants-fake-yelp-reviews-penalties",
@@ -23,7 +50,8 @@
     "Dining Out"
    ],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "When Yelp was first launched in 2004, it flopped. The company’s initial model of an email-based referral service failed to take off until its creators realized users were taking the platform into their own hands; in lieu of sending one another recommendations via email chain, they began using a “hidden” link at the bottom of […]"
   },
   {
    "url": "https://www.eater.com/maps/best-restaurants-barcelona-spain",
@@ -37,7 +65,8 @@
     "Travel Guides"
    ],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "From Barcelona’s towering churches and bustling avenues to the sun-drenched beaches and idyllic plazas, it’s obvious why this city captures visitors’ hearts. You can also eat incredibly well here, and often for not very much money — though Barcelona loves a tasting menu and the World’s 50 Best Restaurant list awarded Disfrutar the No. 1 […]"
   },
   {
    "url": "https://www.eater.com/dining-out/995457/alfies-washington-dc-thai-restaurant-steak-frites",
@@ -50,7 +79,8 @@
     "Video"
    ],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "The hottest new spot in Washington, D.C. focuses on the traditional heat-packed cooking methods of northern Thailand, while still using local ingredients from around the DMV. Alfie’s, from chefs Justin Ahn and Alex McCoy, started as a pop-up in Petworth in 2017 before traveling around the world, serving diners in New York and London. This […]"
   },
   {
    "url": "https://www.eater.com/dining-out/993334/substitutions-boundaries-pre-shift",
@@ -62,7 +92,8 @@
     "Dining Out"
    ],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "This excerpt was originally published in Pre Shift, our newsletter for the hospitality industry. Subscribe for more first-person accounts, advice, and interviews. When Chanita Chayaluk decided to open her restaurant and wine bar Taan, she hoped “to showcase Thai food in Chicago in a different light,” she says. “The first [wave of] immigration of Thai […]"
   },
   {
    "url": "https://www.eater.com/food-culture/993909/you-can-see-everything-scrambled-eggs-scene-analysis-review",
@@ -76,7 +107,8 @@
     "Movies"
    ],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "This review contains spoilers for the film You Can See Everything. A version of this post originally appeared in Eater Today, which spotlights the freshest news and stories from across the food world every day. Subscribe now. I saw You Can See Everything — the new documentary about disgraced Theranos founder Elizabeth Holmes, co-directed by […]"
   },
   {
    "url": "https://www.eater.com/trends/993640/tavern-style-pizza-thin-crust-trend-chicago-midwest",
@@ -89,7 +121,8 @@
     "Food and Restaurant Trends"
    ],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "In the suburbs of Chicago where they both grew up, it was just pizza, according to Brittany and Brennan Grosvenor, the couple behind Proof in Portland, Oregon. Ordering came down to the question of “thin-crust, deep-dish, or double-dough,” Brittany recalls of her family’s Friday night tradition. The Grosvernors sell the former at Proof, though the […]"
   },
   {
    "url": "https://www.eater.com/dining-out/993531/chef-eric-sze-favorite-restaurants-in-nyc",
@@ -101,35 +134,8 @@
     "Video"
    ],
    "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.eater.com/add-to-cart/892210/the-best-gifts-for-martini-lovers-besides-an-ice-cold-martini",
-   "title": "The Best Gifts for Martini Lovers (Besides an Ice-Cold Martini)",
-   "summary": "Ah, a perfectly made martini. When in the right mood, is there anything better than its bracing crispness? Then there’s the saline hit of the brine, should you…",
-   "image": "",
-   "date": "2026-10-16",
-   "tags": [
-    "Add to Cart",
-    "Buy This Thing",
-    "Eater at Home",
-    "Holiday Gift Guides",
-    "Shopping Guides"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.eater.com/travel-guides/992550/resort-life",
-   "title": "Resort Life",
-   "summary": "It’s a brilliant fall day on Carter’s Creek in Irvington, Virginia, and a small group is hauling baskets of oysters from the brackish waters. They aren’t Chesap…",
-   "image": "",
-   "date": "2026-10-15",
-   "tags": [
-    "Travel Guides"
-   ],
-   "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Chef Eric Sze, the owner of NYC’s Wenwen, shows us the bakeries, pizzerias, and restaurants he visits weekly for everything from simple baguette sandwiches to oversized wontons. Sze starts his day off with a sandwich at Bakeri; his go-to order is honey, apple, and brie layered on a crunchy baguette. Then he heads to The […]"
   }
  ],
  "shelf": {
@@ -143,9 +149,9 @@
  },
  "fails": 0,
  "kind": "feed",
- "parser": 3,
+ "parser": 4,
  "status": "ok",
  "error": "",
- "etag": "\"b3e1f1485b38b1b0cc4daef011037e20\"",
+ "etag": "\"8feeaa1e209e0c21e322da3b929982f7\"",
  "modified": ""
 }

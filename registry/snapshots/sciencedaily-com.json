@@ -2,6 +2,105 @@
  "id": "sciencedaily-com",
  "items": [
   {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261030002931.htm",
+   "title": "Astronauts just gave the International Space Station a powerful upgrade",
+   "summary": "Two astronauts completed a 7-hour, 11-minute spacewalk to install a new solar array on the International Space Station, bringing NASA one step closer to a major…",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article",
+   "abstract": "Two astronauts completed a 7-hour, 11-minute spacewalk to install a new solar array on the International Space Station, bringing NASA one step closer to a major power upgrade. Once the final array is installed on November 5, the station will have up to 30% more available power, supporting critical operations and its eventual controlled deorbit."
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261030002922.htm",
+   "title": "The asteroid killed the dinosaurs. Why did crocodiles survive?",
+   "summary": "Scientists may have solved a 66-million-year-old mystery: how crocodiles survived the asteroid that wiped out the dinosaurs. A sweeping analysis of fossils and…",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article",
+   "abstract": "Scientists may have solved a 66-million-year-old mystery: how crocodiles survived the asteroid that wiped out the dinosaurs. A sweeping analysis of fossils and ancient climates suggests that their preference for warm environments placed them in tropical refuges that remained habitable even after the catastrophic impact."
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261029072146.htm",
+   "title": "A computer scientist breaks through a limit that stood since 1996",
+   "summary": "A computer scientist has achieved a breakthrough in a nearly 25-year-old problem involving how computers calculate distances across enormous networks. The new a…",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article",
+   "abstract": "A computer scientist has achieved a breakthrough in a nearly 25-year-old problem involving how computers calculate distances across enormous networks. The new algorithm delivers more reliable estimates for closely connected points without sacrificing speed, overcoming a longstanding limitation of earlier methods. Its secret lies in a smarter way of sampling network connections at multiple scales."
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261029072129.htm",
+   "title": "Type 2 diabetes breakthrough as 54% achieve remission in just 6 months",
+   "summary": "A promising new study suggests that more than half of younger adults with type 2 diabetes could achieve remission in just six months through a combination of a…",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article",
+   "abstract": "A promising new study suggests that more than half of younger adults with type 2 diabetes could achieve remission in just six months through a combination of a low-calorie diet and structured exercise. Researchers found that 54% of participants under age 45 who followed an intensive diet and exercise program achieved remission, compared with just 4% receiving usual care."
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261029072117.htm",
+   "title": "Scientists reveal a hidden snakebite crisis killing up to 513,000 people a year",
+   "summary": "A startling new study suggests that venomous snakebites are killing far more people worldwide than official statistics indicate, with an estimated 274,000 to 51…",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article",
+   "abstract": "A startling new study suggests that venomous snakebites are killing far more people worldwide than official statistics indicate, with an estimated 274,000 to 513,000 deaths every year. Researchers found that as many as 7 million people could suffer snake envenoming annually, while more than 800,000 survivors are left with long-term disabilities."
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261029072113.htm",
+   "title": "Hubble reveals a stunning twist in how the universe emerged from darkness",
+   "summary": "A surprising discovery by astronomers using the Hubble Space Telescope is challenging a leading explanation for how the early universe emerged from a dense fog…",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article",
+   "abstract": "A surprising discovery by astronomers using the Hubble Space Telescope is challenging a leading explanation for how the early universe emerged from a dense fog of hydrogen roughly 13 billion years ago. Scientists once believed powerful winds from exploding stars helped radiation escape galaxies and clear that cosmic fog, but new observations reveal that these winds actually block radiation instead."
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261028234703.htm",
+   "title": "Physicists created a tiny universe and watched time emerge without a clock",
+   "summary": "Scientists have created a miniature universe in the laboratory that could help answer one of the biggest mysteries in physics: What is time, and where does it c…",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article",
+   "abstract": "Scientists have created a miniature universe in the laboratory that could help answer one of the biggest mysteries in physics: What is time, and where does it come from? Using 24,000 ultracold atoms, a University of Birmingham researcher built an isolated quantum system that repeatedly expands and contracts, mimicking the Big Bang and a possible Big Crunch. Remarkably, the experiment showed that time could emerge from changes happening inside the system, without relying on an external clock."
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261028232717.htm",
+   "title": "Why some “lower-risk” childhood cancers turn deadly",
+   "summary": "Scientists have uncovered hidden aggressive cancer cells in children whose tumors were previously considered lower risk, revealing why some cases of rhabdomyosa…",
+   "image": "",
+   "date": "2026-10-30",
+   "tags": [],
+   "lang": "en",
+   "type": "article",
+   "abstract": "Scientists have uncovered hidden aggressive cancer cells in children whose tumors were previously considered lower risk, revealing why some cases of rhabdomyosarcoma become unexpectedly deadly. The discovery could help doctors identify dangerous tumors earlier and develop personalized treatments that improve survival while reducing unnecessary chemotherapy."
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261029072119.htm",
+   "title": "Scientists discover mysterious seahorse lookalikes that no one has ever seen alive",
+   "summary": "Scientists have discovered that three bizarre deep-sea fish that look exactly like seahorses actually belong to a separate evolutionary group, proving that natu…",
+   "image": "",
+   "date": "2026-10-29",
+   "tags": [],
+   "lang": "en",
+   "type": "article",
+   "abstract": "Scientists have discovered that three bizarre deep-sea fish that look exactly like seahorses actually belong to a separate evolutionary group, proving that nature created the same unusual body shape more than once. Nicknamed \"sea muppets,\" these elusive creatures are known from just seven specimens, and no one has ever seen one alive."
+  },
+  {
    "url": "https://www.sciencedaily.com/releases/2026/10/261028234238.htm",
    "title": "Six popular sugar substitutes linked to faster brain aging",
    "summary": "A study of nearly 13,000 adults found that people consuming the most artificial sweeteners experienced a 62% faster decline in memory and thinking skills, equiv…",
@@ -9,7 +108,8 @@
    "date": "2026-10-29",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "A study of nearly 13,000 adults found that people consuming the most artificial sweeteners experienced a 62% faster decline in memory and thinking skills, equivalent to approximately 1.6 additional years of brain aging. Six popular sweeteners were linked to faster cognitive decline, raising concerns about the long-term brain health effects of common sugar substitutes, although causation was not established."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261028232719.htm",
@@ -19,7 +119,8 @@
    "date": "2026-10-29",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Mathematicians have uncovered what they argue is a fundamental flaw in the standard model of the universe, potentially challenging the need for dark energy. Their calculations suggest that the mathematical framework used to describe cosmic expansion is inherently unstable and that the universe could accelerate naturally under Einstein's original theory of gravity."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261028232715.htm",
@@ -29,7 +130,8 @@
    "date": "2026-10-29",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "NASA’s Juno spacecraft has discovered that Jupiter uses a surprisingly complex system of powerful plasma waves and multiple shock regions to defend against the solar wind. The findings reveal major differences between Jupiter and Earth and could help scientists understand the enormous shock waves produced by exploding stars."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261028232713.htm",
@@ -39,7 +141,19 @@
    "date": "2026-10-29",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Ancient ice discovered high in Tibet may be more than 128,000 years old, preserving an extraordinary record of Earth's climate that scientists previously thought had been lost. The discovery reveals a rare glimpse into the last ice age and could reshape our understanding of how glaciers survive dramatic changes in global climate."
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261028232711.htm",
+   "title": "A mysterious star system just 16 light-years away may be hiding habitable planets",
+   "summary": "Astronomers have solved a 170-year-old planetary mystery in a nearby two-star system, discovering that a mysterious wobble was caused by stellar activity rather…",
+   "image": "",
+   "date": "2026-10-29",
+   "tags": [],
+   "lang": "en",
+   "type": "article",
+   "abstract": "Astronomers have solved a 170-year-old planetary mystery in a nearby two-star system, discovering that a mysterious wobble was caused by stellar activity rather than a giant planet. Although Jupiter-sized worlds have been ruled out in key regions, smaller, potentially habitable planets could still be waiting to be discovered just 16 light-years from Earth."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261028232709.htm",
@@ -49,7 +163,8 @@
    "date": "2026-10-29",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "A remarkably preserved elephant tooth dating back nearly 700,000 years has revealed a surprisingly lush prehistoric world where giant elephants and early humans lived side by side. Discovered in northern Israel alongside ancient stone tools, the tooth belonged to a straight-tusked elephant, one of the largest land mammals of the Ice Age."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261028232707.htm",
@@ -59,7 +174,19 @@
    "date": "2026-10-29",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Getting more daylight could be linked to a surprisingly powerful benefit for brain health. In a study of more than 87,000 adults, researchers found that higher daytime light exposure was associated with a 16% lower risk of dementia, with longer exposure to bright light linked to even greater reductions. Remarkably, getting less than 42 minutes of bright daylight daily was a stronger predictor of dementia than six established risk factors."
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261028232706.htm",
+   "title": "Scientists discover why chronic back pain feels so personal",
+   "summary": "A surprising discovery at UC San Diego suggests that chronic lower back pain may become deeply embedded in the brain's sense of personal identity. Researchers f…",
+   "image": "",
+   "date": "2026-10-29",
+   "tags": [],
+   "lang": "en",
+   "type": "article",
+   "abstract": "A surprising discovery at UC San Diego suggests that chronic lower back pain may become deeply embedded in the brain's sense of personal identity. Researchers found that movement-triggered pain activates a brain network associated with self-awareness and memories, even though ordinary acute pain typically shuts this network down."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261028232701.htm",
@@ -69,7 +196,8 @@
    "date": "2026-10-29",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Cranberry juice may offer an unexpected benefit beyond its reputation for helping prevent urinary tract infections: protecting teeth from decay. Researchers at the University of Illinois Chicago discovered that pure, unsweetened cranberry juice slowed the regrowth of dental plaque bacteria and reduced their production of acids that damage tooth enamel. The secret may lie in naturally occurring compounds called proanthocyanidins, which interfere with harmful bacteria."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261028232659.htm",
@@ -79,7 +207,19 @@
    "date": "2026-10-29",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Scientists have identified a weakened brain signal that may connect several seemingly unrelated symptoms of schizophrenia, including sensory processing difficulties, disorganized speech, and greater symptom severity. The surprising discovery could help explain the disorder's underlying mechanisms and potentially lead to earlier detection and new treatments."
+  },
+  {
+   "url": "https://www.sciencedaily.com/releases/2026/10/261027231200.htm",
+   "title": "Scientists confirm global warming is accelerating faster than ever recorded",
+   "summary": "Earth is warming faster than ever recorded, with scientists detecting a major acceleration in global temperatures since around 2015. A new study reveals that th…",
+   "image": "",
+   "date": "2026-10-29",
+   "tags": [],
+   "lang": "en",
+   "type": "article",
+   "abstract": "Earth is warming faster than ever recorded, with scientists detecting a major acceleration in global temperatures since around 2015. A new study reveals that the warming rate has surged to approximately 0.35°C per decade, nearly double the average pace observed from 1970 to 2015. After removing natural climate fluctuations, researchers confirmed the acceleration with more than 98% statistical confidence."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261027231021.htm",
@@ -89,7 +229,8 @@
    "date": "2026-10-28",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "A new Finnish study reveals that just 30 minutes in a sauna can temporarily flood the bloodstream with additional white blood cells, potentially helping the immune system patrol the body and detect threats. The surprising response resembles the immune boost seen during exercise and may help explain some of the health benefits linked to sauna bathing."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261027063814.htm",
@@ -99,7 +240,8 @@
    "date": "2026-10-28",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Researchers have discovered a small group of brain cells that prevents dangerous blood pressure swings, even when average readings appear normal. The finding reveals a hidden source of cardiovascular risk and could open the door to new treatments that protect the heart and brain."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261027063713.htm",
@@ -109,7 +251,8 @@
    "date": "2026-10-28",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Scientists have defied a long-standing rule of laser physics by generating X-rays with much higher energies than conventional theory predicts. The surprising discovery reveals how two electrons working together can overcome a previously accepted limit, opening new possibilities for quantum research."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261027063710.htm",
@@ -119,7 +262,8 @@
    "date": "2026-10-28",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Scientists have uncovered seven surprising stages that space rocks go through as they hurtle toward Earth, revealing that melting and violent fragmentation, rather than simple evaporation, determine their fate. The discovery could help explain why meteorites scatter across the ground and how dangerous asteroids explode in Earth's atmosphere."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261027063708.htm",
@@ -129,7 +273,8 @@
    "date": "2026-10-28",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Scientists have developed a new technology that could make electric vehicle batteries smaller, lighter, and longer-lasting, potentially allowing cars to travel farther on a single charge. By borrowing precision manufacturing techniques from computer chip production, they found a way to prevent damaging lithium buildup that has held back next-generation batteries."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261027063707.htm",
@@ -139,7 +284,8 @@
    "date": "2026-10-28",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Researchers have discovered a surprising hidden ability in Europe's familiar black-and-yellow fire salamanders: they glow green and cyan under ultraviolet light. The mysterious fluorescence comes mainly from glands in their skin and their toxic secretions, which can continue glowing for more than 24 hours after being released."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261027063704.htm",
@@ -149,7 +295,8 @@
    "date": "2026-10-28",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Scientists have uncovered a hidden defense mechanism in aging muscles that sacrifices strength to protect cells from damage. In mice, partially restoring a crucial molecule reversed signs of muscle wasting and prevented premature death, raising hopes for new treatments for age-related muscle decline."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261027063702.htm",
@@ -159,7 +306,8 @@
    "date": "2026-10-28",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Scientists have discovered that magma deep inside Earth can store surprising amounts of extra oxygen, potentially revealing a hidden contributor to our planet's oxygen-rich atmosphere. The findings suggest that ancient volcanic eruptions may have helped transform Earth's atmosphere billions of years ago, with implications for understanding life on other planets."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261027063701.htm",
@@ -169,7 +317,8 @@
    "date": "2026-10-28",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Antarctica’s Thwaites Glacier may be melting twice as much as previously predicted, even without additional global warming. Scientists discovered that warm ocean water is penetrating miles beneath the ice, weakening its foundations and accelerating its retreat. A new model predicts that the glacier could add up to 30 millimeters to global sea levels by 2100, with a 60% chance of losing a crucial stabilizing ridge."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261027063659.htm",
@@ -179,7 +328,8 @@
    "date": "2026-10-28",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "NASA’s Artemis I mission has revealed that cosmic radiation near the Moon is higher than in Earth orbit, but not by as much as scientists might expect. Tiny experimental detectors also uncovered surprising details about how radiation passes through the human body, offering valuable insights for future lunar exploration."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261026225615.htm",
@@ -189,7 +339,8 @@
    "date": "2026-10-28",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Scientists have uncovered a long-lost volcanic system in Iran that dates back roughly 100 million years, revealing a hidden chapter in Earth's tectonic history. The discovery sheds new light on the disappearance of an ancient ocean and the powerful geological forces that reshaped the Middle East."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261026225610.htm",
@@ -199,7 +350,8 @@
    "date": "2026-10-28",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Scientists have uncovered a surprising connection between Earth's opposite poles that may help explain how the planet plunged into past ice ages. New research suggests that as massive ice sheets expanded across the Northern Hemisphere, they cooled Atlantic Ocean waters that eventually traveled south toward Antarctica. This cooling may have disrupted Southern Ocean circulation, allowing the ocean to absorb and store more carbon dioxide from the atmosphere, further cooling the planet."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261027230715.htm",
@@ -209,7 +361,8 @@
    "date": "2026-10-27",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "A new clinical trial suggests that a simple daily fiber supplement could significantly reduce knee osteoarthritis pain, improve muscle strength, and make the body less sensitive to pain. Researchers discovered that the benefits may be linked to changes in gut bacteria and the hormone GLP-1, revealing a promising new approach to arthritis relief."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261027063824.htm",
@@ -219,7 +372,8 @@
    "date": "2026-10-27",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "A major new study reveals that autistic children’s brains process faces differently, and those differences may begin earlier than scientists previously thought. Researchers found that brain signals associated with recognizing faces become more specialized as neurotypical children grow older, but show much less change in autistic children. The discovery could help explain why some autistic people have difficulty recognizing faces and reading emotions."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261026225622.htm",
@@ -229,7 +383,8 @@
    "date": "2026-10-27",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Scientists have discovered that low testosterone and a high-fructose diet can work together to worsen fatty liver disease in mice. Unexpectedly, changes in gut bacteria appear to drive this harmful interaction, revealing a potential new target for preventing liver damage."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261026225620.htm",
@@ -239,7 +394,8 @@
    "date": "2026-10-27",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "The secret to aging more slowly may be hiding in your gut. Scientists discovered that certain gut bacteria are strongly linked to how quickly the body ages, with microbial differences accounting for about 15% of the variation in biological aging rates. Some bacterial species were associated with slower aging, while others were linked to accelerated aging."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261026225617.htm",
@@ -249,7 +405,8 @@
    "date": "2026-10-27",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Scientists at McGill University have discovered a surprising new ability of immune cells that could change how we understand long-term immunity. Researchers found that T cells can actually sense how stiff their surrounding tissues are, using these physical signals to help determine whether they develop into long-lasting memory cells that protect against future infections."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261026225608.htm",
@@ -259,7 +416,8 @@
    "date": "2026-10-27",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "The asteroid that killed the dinosaurs may have set the stage for ants to conquer the planet, with a surprising boost from “jumping genes” hidden in their DNA. Scientists discovered that bursts of activity from these mobile genetic elements coincided with the rise of major ant groups and may have helped sharpen their extraordinary ability to communicate through smell."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261026225606.htm",
@@ -269,7 +427,8 @@
    "date": "2026-10-27",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "A surprising discovery reveals that widely used anti-inflammatory drugs may unintentionally help dangerous viruses spread through the body. Scientists found that JAK inhibitors, prescribed for rheumatoid arthritis and other inflammatory diseases, can weaken a crucial immune defense against influenza, COVID-19, and other infections. By suppressing genes that normally fight viruses, these medications may leave patients more vulnerable to infection."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261026225603.htm",
@@ -279,7 +438,8 @@
    "date": "2026-10-27",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "A scorching lava planet 280 light-years away has surprised astronomers by apparently maintaining a thick atmosphere despite conditions that should have stripped it away billions of years ago. James Webb Space Telescope observations suggest that TOI-561 b reflects about 75% of incoming starlight, possibly because of mineral clouds that act like a giant sunscreen. The planet may also be continually replenishing its atmosphere through gases released from a global ocean of molten rock."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261026225600.htm",
@@ -289,7 +449,8 @@
    "date": "2026-10-27",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Scientists have created one of the largest and most detailed simulations of the early universe ever made, offering an extraordinary new glimpse into the cosmos shortly after the Big Bang. Called Lumina, the groundbreaking simulation recreates the universe’s first 2 billion years, showing how dark matter, gas, and radiation interacted to give rise to the earliest stars, galaxies, and black holes."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261026225555.htm",
@@ -299,7 +460,8 @@
    "date": "2026-10-27",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Scientists have discovered that spiders may sleep in ways surprisingly similar to humans, complete with distinct sleep stages and a dream-like REM state. Researchers at the University of Bonn studied the Australian jumping spider Portia fimbriata, a remarkably clever hunter known for its sophisticated strategies. By recording the spiders over several days and nights, they found clear evidence of regulated sleep, including a REM-like stage marked by eye movements and muscle twitches."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261025222538.htm",
@@ -309,7 +471,8 @@
    "date": "2026-10-27",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Why do some people stay mentally sharp even when their brains show signs of Alzheimer’s disease? Scientists in the Netherlands may have uncovered an important clue hidden in a rare group of immature brain cells. Researchers discovered that these cells remain present even in people over 80, but their behavior differs dramatically between those who develop dementia and those who remain cognitively healthy."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261025073046.htm",
@@ -319,7 +482,8 @@
    "date": "2026-10-27",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Scientists at UC San Diego have developed a surprising new way to store digital information using light instead of magnets, potentially paving the way for smaller, faster, and more energy-efficient memory devices. By precisely shaping and shrinking an ultrafast laser beam, researchers demonstrated that they could switch magnetic states in a material, the basic process used to write digital data."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261025222848.htm",
@@ -329,7 +493,8 @@
    "date": "2026-10-26",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Regular exercise does more than strengthen the heart. New research reveals that it actually reshapes the nerves controlling how the heart functions, and the changes are surprisingly different on the left and right sides of the body."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261025073055.htm",
@@ -339,7 +504,8 @@
    "date": "2026-10-26",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "A solar eclipse recorded more than 2,700 years ago is revealing surprising secrets about Earth's rotation and the Sun's ancient behavior. By correcting an eight-kilometer error in the location of an ancient Chinese capital, scientists were able to reconstruct a total solar eclipse that occurred in 709 BCE and obtain more accurate measurements of how fast Earth was spinning at the time."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261025073053.htm",
@@ -349,7 +515,8 @@
    "date": "2026-10-26",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Scientists have identified a hidden cause of inflammatory bowel disease: antibodies that disable the immune system’s natural ability to control inflammation, potentially explaining severe illness in thousands of patients. The breakthrough also solves a 30-year genetic mystery and could pave the way for more precise diagnoses and targeted treatments."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261025073051.htm",
@@ -359,7 +526,8 @@
    "date": "2026-10-26",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Researchers have developed a groundbreaking 3D invisibility cloak that can hide complex objects from infrared cameras while protecting them from extreme heat and cold. Instead of blocking heat, the device guides it around an object, making the object appear invisible to thermal imaging from virtually any direction. Successfully built and tested, the cloak could transform electronics cooling, thermal protection, and stealth technology."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261025073049.htm",
@@ -369,7 +537,8 @@
    "date": "2026-10-26",
    "tags": [],
    "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "Mayo Clinic scientists have uncovered surprising new insights into “zombie cells,” aging cells that linger in the body and contribute to inflammation and disease. Seven studies reveal why these cells are harmful and identify new strategies for targeting them, including a natural compound found in tomatoes. In aging mice, experimental treatments reduced inflammation and improved physical and brain health."
   },
   {
    "url": "https://www.sciencedaily.com/releases/2026/10/261025073045.htm",
@@ -379,127 +548,8 @@
    "date": "2026-10-26",
    "tags": [],
    "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261025073042.htm",
-   "title": "1.9-million-year-old discovery rewrites the story of human evolution",
-   "summary": "New evidence suggests that early humans reached the Jordan Valley at least 1.9 million years ago, hundreds of thousands of years earlier than scientists previou…",
-   "image": "",
-   "date": "2026-10-26",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261025073038.htm",
-   "title": "Tiny magnetic vortices could help computers work more like your brain",
-   "summary": "Scientists have filmed tiny magnetic vortices called skyrmions melting out of an organized lattice for the first time, revealing new ways to manipulate these un…",
-   "image": "",
-   "date": "2026-10-26",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261025073036.htm",
-   "title": "Archaeologists may have just found the world's oldest shipwreck",
-   "summary": "A mysterious shipwreck off Turkey’s coast may be the oldest ever discovered, dating back approximately 4,500 years to the age of the Egyptian pyramids. Although…",
-   "image": "",
-   "date": "2026-10-26",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261025073034.htm",
-   "title": "Chinese scientists discover “D-rex,” a giant fungus with roots stretching back 65 million years",
-   "summary": "Scientists have discovered a giant new fungus in China that grows up to 20 inches tall and weighs nearly five pounds, making it the largest known of its kind. D…",
-   "image": "",
-   "date": "2026-10-26",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261024222031.htm",
-   "title": "AI detects “invisible” signs of pancreatic cancer years before diagnosis",
-   "summary": "A powerful new AI system could help doctors detect pancreatic cancer years before it becomes visible on conventional scans. The technology, called REDMOD, ident…",
-   "image": "",
-   "date": "2026-10-26",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261025222339.htm",
-   "title": "A simple liquid can stop cavities without drilling, major study confirms",
-   "summary": "A simple liquid painted onto teeth in seconds can stop cavities without drilling, injections, or anesthesia, according to a major clinical trial involving young…",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261024222030.htm",
-   "title": "Just two drinks a day may be far riskier than you think",
-   "summary": "A major new study reveals that drinking just two alcoholic beverages a day is associated with a 1 in 25 lifetime risk of death from alcohol-related causes, chal…",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261024222028.htm",
-   "title": "Scientists reveal the hidden danger of missing blood pressure medication",
-   "summary": "Missing blood pressure medication could mean losing much of its protection against heart attacks and strokes, according to an analysis of more than 91,000 peopl…",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261024222026.htm",
-   "title": "Low-dose aspirin linked to 70% lower dementia risk, but there's a catch",
-   "summary": "A common, inexpensive medication could hold an unexpected clue to preventing dementia. Researchers found that older adults with a specific genetic profile had a…",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261024222024.htm",
-   "title": "Scientists overcome a hidden obstacle to more powerful quantum computers",
-   "summary": "Scientists have discovered a way to operate multiple silicon qubits simultaneously with remarkable accuracy, overcoming a major challenge in scaling up quantum…",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261024222021.htm",
-   "title": "This mysterious mushroom makes people see hundreds of tiny humans",
-   "summary": "For nearly a century, people in distant parts of the world have reported a bizarre experience after eating certain wild mushrooms: seeing dozens or even hundred…",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.sciencedaily.com/releases/2026/10/261024222000.htm",
-   "title": "Three giant black holes discovered in a galaxy from the dawn of time",
-   "summary": "Astronomers have discovered three actively feeding black holes inside a single galaxy more than 12.5 billion light-years away, revealing a remarkable scene from…",
-   "image": "",
-   "date": "2026-10-25",
-   "tags": [],
-   "lang": "en",
-   "type": "article"
+   "type": "article",
+   "abstract": "A surprisingly simple exercise routine could help lower blood pressure without requiring daily workouts or expensive equipment. In a study of 100 adults, researchers found that wall squats performed just once or twice a week helped maintain significant reductions in systolic blood pressure over the short term."
   }
  ],
  "shelf": {
@@ -513,9 +563,9 @@
  },
  "fails": 0,
  "kind": "feed",
- "parser": 3,
+ "parser": 4,
  "status": "ok",
  "error": "",
  "etag": "",
- "modified": "Thu, 29 Oct 2026 13:15:07 GMT"
+ "modified": "Fri, 30 Oct 2026 12:13:34 GMT"
 }

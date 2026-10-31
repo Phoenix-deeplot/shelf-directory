@@ -1,0 +1,36 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #BlackPeopleTwitter",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/blackpeopletwitter.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.reddit.com/r/BlackPeopleTwitter/comments/1xjfen3/not_even_surprised_anymore/",
+      "url": "https://www.reddit.com/r/BlackPeopleTwitter/comments/1xjfen3/not_even_surprised_anymore/",
+      "title": "Not even surprised anymore",
+      "content_html": "<p><img src=\"https://preview.redd.it/8o9z1vunwlyh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=507491f074aada12b0b0e90bbacf639c1e5cd070\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>submitted by /u/Mission-Ad-8536 to r/BlackPeopleTwitter [link] [comments]</p><p>Source: top scoring links : popular · 2026-10-30</p><p>Tags: #BlackPeopleTwitter #社区 #热榜</p><p><a href=\"https://www.reddit.com/r/BlackPeopleTwitter/comments/1xjfen3/not_even_surprised_anymore/\">Read the original →</a></p>",
+      "content_text": "submitted by /u/Mission-Ad-8536 to r/BlackPeopleTwitter [link] [comments]",
+      "summary": "submitted by /u/Mission-Ad-8536 to r/BlackPeopleTwitter [link] [comments]",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://preview.redd.it/8o9z1vunwlyh1.jpeg?width=640&crop=smart&auto=webp&s=507491f074aada12b0b0e90bbacf639c1e5cd070",
+      "tags": [
+        "BlackPeopleTwitter",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    }
+  ]
+}

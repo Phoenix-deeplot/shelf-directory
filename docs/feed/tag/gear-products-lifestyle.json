@@ -1,0 +1,96 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #Gear / Products / Lifestyle",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/gear-products-lifestyle.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.wired.com/story/why-you-need-a-handheld-translator-for-travel/",
+      "url": "https://www.wired.com/story/why-you-need-a-handheld-translator-for-travel/",
+      "title": "The Best Handheld Translators for Work and Travel (2026)",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/69fe53b7692a9d3fda8bda4c/master/pass/AFK%20Portable%20Translators%20Can%20Help%20You%20Speak%20Like%20a%20Local%20When%20Traveling%20Abroad%20top%20art%20052026%20SOURCE%20Amazon-iFlyTek.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Your cell phone can handle basic language translation, but dedicated translator devices can offer a much more immersive, versatile experience.</p><p>Source: WIRED · 2026-10-30</p><p>Tags: #Gear #Gear / How To and Advice #Gear / Products / Lifestyle #Gear / Products #Gear / Reviews #¿Comprendes?</p><p><a href=\"https://www.wired.com/story/why-you-need-a-handheld-translator-for-travel/\">Read the original →</a></p>",
+      "content_text": "Your cell phone can handle basic language translation, but dedicated translator devices can offer a much more immersive, versatile experience.",
+      "summary": "Your cell phone can handle basic language translation, but dedicated translator devices can offer a much more immersive, versatile experience.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://media.wired.com/photos/69fe53b7692a9d3fda8bda4c/master/pass/AFK%20Portable%20Translators%20Can%20Help%20You%20Speak%20Like%20a%20Local%20When%20Traveling%20Abroad%20top%20art%20052026%20SOURCE%20Amazon-iFlyTek.jpg",
+      "tags": [
+        "Gear",
+        "Gear / How To and Advice",
+        "Gear / Products / Lifestyle",
+        "Gear / Products",
+        "Gear / Reviews",
+        "¿Comprendes?",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/googles-pixel-watch-5-is-down-to-its-lowest-price-yet/",
+      "url": "https://www.wired.com/story/googles-pixel-watch-5-is-down-to-its-lowest-price-yet/",
+      "title": "Google Pixel Watch 5 Sale: Its Lowest Price Yet (2026)",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae50ed40af6dcf295d6abe7/master/pass/Google%20Pixel%20Watch%205%20Deals%20Post%2010206%20top%20art%20SOURCE%20Amazon.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Google’s latest smartwatch packs great new health and fitness features, and it’s already on sale ahead of Black Friday.</p><p>Source: WIRED · 2026-10-30</p><p>Tags: #Gear #Gear / Deals #Gear / Products / Watches #Gear / Products / Lifestyle #Smart Savings #科技</p><p><a href=\"https://www.wired.com/story/googles-pixel-watch-5-is-down-to-its-lowest-price-yet/\">Read the original →</a></p>",
+      "content_text": "Google’s latest smartwatch packs great new health and fitness features, and it’s already on sale ahead of Black Friday.",
+      "summary": "Google’s latest smartwatch packs great new health and fitness features, and it’s already on sale ahead of Black Friday.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae50ed40af6dcf295d6abe7/master/pass/Google%20Pixel%20Watch%205%20Deals%20Post%2010206%20top%20art%20SOURCE%20Amazon.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products / Watches",
+        "Gear / Products / Lifestyle",
+        "Smart Savings",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/ridge-wallet-deal-october-2026/",
+      "url": "https://www.wired.com/story/ridge-wallet-deal-october-2026/",
+      "title": "Go Minimal—the Ridge Wallet is 20 Percent Off Right Now",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae37394a4dff0c29ced940a/master/pass/Ridge%20Wallet%20sale%20deal%20102026%20top%20art%20SOURCE%20Shop.com.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>The popular Ridge Wallet lives up to the hype and is on sale, along with other Ridge gear. Plus, you can try it risk-free for 99 days.</p><p>Source: WIRED · 2026-10-29</p><p>Tags: #Gear #Gear / Deals #Gear / Products / Lifestyle #Stack It Up #科技 #社会</p><p><a href=\"https://www.wired.com/story/ridge-wallet-deal-october-2026/\">Read the original →</a></p>",
+      "content_text": "The popular Ridge Wallet lives up to the hype and is on sale, along with other Ridge gear. Plus, you can try it risk-free for 99 days.",
+      "summary": "The popular Ridge Wallet lives up to the hype and is on sale, along with other Ridge gear. Plus, you can try it risk-free for 99 days.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae37394a4dff0c29ced940a/master/pass/Ridge%20Wallet%20sale%20deal%20102026%20top%20art%20SOURCE%20Shop.com.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Deals",
+        "Gear / Products / Lifestyle",
+        "Stack It Up",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    }
+  ]
+}

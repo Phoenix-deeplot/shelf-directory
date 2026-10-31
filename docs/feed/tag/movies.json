@@ -1,6 +1,6 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "知树阅读-个人图书空间 · #movies",
+  "title": "知树阅读-个人图书空间 · #Movies",
   "home_page_url": "https://adminbook.zhitree.cn/",
   "feed_url": "https://adminbook.zhitree.cn/feed/tag/movies.json",
   "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
@@ -9,32 +9,93 @@
   },
   "items": [
     {
-      "id": "https://www.reddit.com/r/movies/comments/1xitw9q/sir_patrick_stewart_dead_at_86/",
-      "url": "https://www.reddit.com/r/movies/comments/1xitw9q/sir_patrick_stewart_dead_at_86/",
-      "title": "Sir Patrick Stewart dead at 86.",
-      "content_text": "submitted by /u/Minifig81 to r/movies [link] [comments]",
-      "summary": "submitted by /u/Minifig81 to r/movies [link] [comments]",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://slate.com/culture/2026/10/wicker-movie-2026-alexander-skarsgard-olivia-colman-ending-short-story-ursula-wills.html?via=rss",
+      "url": "https://slate.com/culture/2026/10/wicker-movie-2026-alexander-skarsgard-olivia-colman-ending-short-story-ursula-wills.html?via=rss",
+      "title": "She Wrote a Short Story for a Random Website. Now It’s One of the Most Talked-About Movies of the Fall.",
+      "content_html": "<p><img src=\"https://compote.slate.com/images/6a2f729f-9fd7-486d-bddd-ee54dbaecbc9.jpeg?crop=1560%2C1040%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>An interview with “Wicker” author Ursula Wills about the origin of the story, the changes from the source material, and what Skarsgård is like in person.</p><p>Source: Slate Magazine · 2026-10-30</p><p>Tags: #Books #Movies #United Kingdom #Romance #评论 #文化</p><p><a href=\"https://slate.com/culture/2026/10/wicker-movie-2026-alexander-skarsgard-olivia-colman-ending-short-story-ursula-wills.html?via=rss\">Read the original →</a></p>",
+      "content_text": "An interview with “Wicker” author Ursula Wills about the origin of the story, the changes from the source material, and what Skarsgård is like in person.",
+      "summary": "An interview with “Wicker” author Ursula Wills about the origin of the story, the changes from the source material, and what Skarsgård is like in person.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://compote.slate.com/images/6a2f729f-9fd7-486d-bddd-ee54dbaecbc9.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
       "tags": [
-        "movies",
-        "社区",
-        "热榜"
+        "Books",
+        "Movies",
+        "United Kingdom",
+        "Romance",
+        "评论",
+        "文化"
       ],
       "authors": [
         {
-          "name": "top scoring links : popular"
+          "name": "Slate Magazine"
         }
       ],
       "_shelf": {
         "type": "article",
-        "shelf": "reddit-com"
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/culture/2026/10/sacha-baron-cohen-ali-g-movie-nathan-fielder-you-can-see-everything.html?via=rss",
+      "url": "https://slate.com/culture/2026/10/sacha-baron-cohen-ali-g-movie-nathan-fielder-you-can-see-everything.html?via=rss",
+      "title": "A Generation of Men Once Revered Him. His New Movie Is the Worst I’ve Seen in Some Time.",
+      "content_html": "<p><img src=\"https://compote.slate.com/images/00f4f21e-e3e7-4b4f-b3a8-aa8cbc43aee6.jpeg?crop=1560%2C1040%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>It’s not even outrageous enough for me to recommend it as a hate-watch.</p><p>Source: Slate Magazine · 2026-10-30</p><p>Tags: #Comedy #Movies #Sacha Baron Cohen #评论 #文化</p><p><a href=\"https://slate.com/culture/2026/10/sacha-baron-cohen-ali-g-movie-nathan-fielder-you-can-see-everything.html?via=rss\">Read the original →</a></p>",
+      "content_text": "It’s not even outrageous enough for me to recommend it as a hate-watch.",
+      "summary": "It’s not even outrageous enough for me to recommend it as a hate-watch.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://compote.slate.com/images/00f4f21e-e3e7-4b4f-b3a8-aa8cbc43aee6.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Comedy",
+        "Movies",
+        "Sacha Baron Cohen",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/culture/2026/10/you-can-see-everything-musk-documentary-elizabeth-holmes-naza-best.html?via=rss",
+      "url": "https://slate.com/culture/2026/10/you-can-see-everything-musk-documentary-elizabeth-holmes-naza-best.html?via=rss",
+      "title": "<em>You Can See Everything</em> Is Just the Tip of the Iceberg",
+      "content_html": "<p><img src=\"https://compote.slate.com/images/477626da-3633-4b31-900e-67bd753d7f9a.jpeg?crop=1560%2C1040%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>If you want to see new movies about real, everyday people, there’s only one place to go.</p><p>Source: Slate Magazine · 2026-10-30</p><p>Tags: #Comedy #Fraud #Israel #Movies #Russia #Syria</p><p><a href=\"https://slate.com/culture/2026/10/you-can-see-everything-musk-documentary-elizabeth-holmes-naza-best.html?via=rss\">Read the original →</a></p>",
+      "content_text": "If you want to see new movies about real, everyday people, there’s only one place to go.",
+      "summary": "If you want to see new movies about real, everyday people, there’s only one place to go.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "image": "https://compote.slate.com/images/477626da-3633-4b31-900e-67bd753d7f9a.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Comedy",
+        "Fraud",
+        "Israel",
+        "Movies",
+        "Russia",
+        "Syria",
+        "Documentaries",
+        "Palestine"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
       }
     },
     {
       "id": "https://www.eater.com/food-culture/993909/you-can-see-everything-scrambled-eggs-scene-analysis-review",
       "url": "https://www.eater.com/food-culture/993909/you-can-see-everything-scrambled-eggs-scene-analysis-review",
       "title": "The Eggs Scene in ‘You Can See Everything’ Scrambles Reality",
-      "content_text": "This review contains spoilers for the film You Can See Everything. A version of this post originally appeared in Eater Today, which spotlights the freshest news…",
+      "content_html": "<p>This review contains spoilers for the film You Can See Everything. A version of this post originally appeared in Eater Today, which spotlights the freshest news and stories from across the food world every day. Subscribe now. I saw You Can See Everything — the new documentary about disgraced Theranos founder Elizabeth Holmes, co-directed by […]</p><p>Source: Eater · 2026-10-21</p><p>Tags: #Eater at Home #How to Cook #Movies #美食 #餐饮</p><p><a href=\"https://www.eater.com/food-culture/993909/you-can-see-everything-scrambled-eggs-scene-analysis-review\">Read the original →</a></p>",
+      "content_text": "This review contains spoilers for the film You Can See Everything. A version of this post originally appeared in Eater Today, which spotlights the freshest news and stories from across the food world every day. Subscribe now. I saw You Can See Everything — the new documentary about disgraced Theranos founder Elizabeth Holmes, co-directed by […]",
       "summary": "This review contains spoilers for the film You Can See Everything. A version of this post originally appeared in Eater Today, which spotlights the freshest news…",
       "date_published": "2026-10-21T00:00:00Z",
       "tags": [

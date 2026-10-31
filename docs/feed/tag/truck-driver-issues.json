@@ -1,0 +1,68 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #Truck Driver Issues",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/truck-driver-issues.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/safety-technology-is-only-as-good-as-the-trust-behind-it",
+      "url": "https://www.freightwaves.com/news/safety-technology-is-only-as-good-as-the-trust-behind-it",
+      "title": "Safety Technology Is Only as Good as the Trust Behind It",
+      "content_html": "<p>Every carrier with a safety technology program eventually learns the same lesson: the hardware is the easy part. Cameras can be mounted, collision mitigation can be specified on new tractors, and telematics can be switched on. What’s harder to install is the belief, among people who spend their working lives behind the wheel, that the […] The post Safety Technology Is Only as Good as the Trust Behind It appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-30</p><p>Tags: #Business #Carrier Safety #News #Sponsored Insights #Technology #Truck Driver Issues</p><p><a href=\"https://www.freightwaves.com/news/safety-technology-is-only-as-good-as-the-trust-behind-it\">Read the original →</a></p>",
+      "content_text": "Every carrier with a safety technology program eventually learns the same lesson: the hardware is the easy part. Cameras can be mounted, collision mitigation can be specified on new tractors, and telematics can be switched on. What’s harder to install is the belief, among people who spend their working lives behind the wheel, that the […] The post Safety Technology Is Only as Good as the Trust Behind It appeared first on FreightWaves.",
+      "summary": "Every carrier with a safety technology program eventually learns the same lesson: the hardware is the easy part. Cameras can be mounted, collision mitigation ca…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "Business",
+        "Carrier Safety",
+        "News",
+        "Sponsored Insights",
+        "Technology",
+        "Truck Driver Issues",
+        "Trucking",
+        "advanced technology"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/arkansas-truck-blitz-nets-183-english-violations-44-arrests-in-48-hours",
+      "url": "https://www.freightwaves.com/news/arkansas-truck-blitz-nets-183-english-violations-44-arrests-in-48-hours",
+      "title": "Arkansas truck blitz nets 183 English violations, 44 arrests in 48 hours",
+      "content_html": "<p>A two-day Arkansas trucking enforcement blitz resulted in 183 English-language proficiency violations, 44 criminal arrests and 74 immigration violations. The post Arkansas truck blitz nets 183 English violations, 44 arrests in 48 hours appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-30</p><p>Tags: #News #Truck Driver Issues #Trucking #Arkansas #CDL #Out of service violations</p><p><a href=\"https://www.freightwaves.com/news/arkansas-truck-blitz-nets-183-english-violations-44-arrests-in-48-hours\">Read the original →</a></p>",
+      "content_text": "A two-day Arkansas trucking enforcement blitz resulted in 183 English-language proficiency violations, 44 criminal arrests and 74 immigration violations. The post Arkansas truck blitz nets 183 English violations, 44 arrests in 48 hours appeared first on FreightWaves.",
+      "summary": "A two-day Arkansas trucking enforcement blitz resulted in 183 English-language proficiency violations, 44 criminal arrests and 74 immigration violations. The po…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "News",
+        "Truck Driver Issues",
+        "Trucking",
+        "Arkansas",
+        "CDL",
+        "Out of service violations",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}

@@ -9,9 +9,33 @@
   },
   "items": [
     {
+      "id": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
+      "title": "APOD: 2026 October 31 – Night on a Spooky Planet",
+      "content_html": "<p>APOD Science APOD APOD: 2026 October 31 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Night on a […]</p><p>Source: NASA · 2026-10-31</p><p>Tags: #APOD #航天 #科学</p><p><a href=\"https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/\">Read the original →</a></p>",
+      "content_text": "APOD Science APOD APOD: 2026 October 31 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Night on a […]",
+      "summary": "APOD Science APOD APOD: 2026 October 31 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "APOD",
+        "航天",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "NASA"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "nasa-gov"
+      }
+    },
+    {
       "id": "https://science.nasa.gov/earth/earth-observatory/vega-island-frozen-in-fright/",
       "url": "https://science.nasa.gov/earth/earth-observatory/vega-island-frozen-in-fright/",
       "title": "Vega Island Frozen in Fright",
+      "content_html": "<p>The sight of an icy skull-like visage on the Antarctic island could make one’s blood run cold.</p><p>Source: NASA · 2026-10-30</p><p>Tags: #Earth Observatory #Ice &amp; Glaciers #Landsat 9 #航天 #科学</p><p><a href=\"https://science.nasa.gov/earth/earth-observatory/vega-island-frozen-in-fright/\">Read the original →</a></p>",
       "content_text": "The sight of an icy skull-like visage on the Antarctic island could make one’s blood run cold.",
       "summary": "The sight of an icy skull-like visage on the Antarctic island could make one’s blood run cold.",
       "date_published": "2026-10-30T00:00:00Z",
@@ -33,10 +57,112 @@
       }
     },
     {
+      "id": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/",
+      "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/",
+      "title": "November’s Night Sky Notes: Light-Day Away",
+      "content_html": "<p>Twin Travelers In 1977, NASA launched twin spacecraft Voyager 1 and 2, taking advantage of a once-every-175-year planetary alignment of the four largest planets in our solar system: Jupiter, Saturn, Uranus, and Neptune. Using six gravity assists between them, this Grand Tour gave us up-close views of the gas and ice giants, including several moons. […]</p><p>Source: NASA · 2026-10-30</p><p>Tags: #Night Sky Network #航天 #科学</p><p><a href=\"https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/\">Read the original →</a></p>",
+      "content_text": "Twin Travelers In 1977, NASA launched twin spacecraft Voyager 1 and 2, taking advantage of a once-every-175-year planetary alignment of the four largest planets in our solar system: Jupiter, Saturn, Uranus, and Neptune. Using six gravity assists between them, this Grand Tour gave us up-close views of the gas and ice giants, including several moons. […]",
+      "summary": "Twin Travelers In 1977, NASA launched twin spacecraft Voyager 1 and 2, taking advantage of a once-every-175-year planetary alignment of the four largest planets…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "Night Sky Network",
+        "航天",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "NASA"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "nasa-gov"
+      }
+    },
+    {
+      "id": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/",
+      "url": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/",
+      "title": "NASA’s James Webb Space Telescope Captures Eerie Cat’s Head",
+      "content_html": "<p>Intricate structures within the Cat’s Head Nebula are illuminated in this mid-infrared view from NASA’s James Webb Space Telescope released on Oct. 29, 2026. The distinctive “cat’s head” shape of the nebula was likely sculpted over time by the intense ultraviolet radiation and winds from massive stars in the Carina Nebula. As this stellar feedback […]</p><p>Source: NASA · 2026-10-30</p><p>Tags: #Nebulae #航天 #科学</p><p><a href=\"https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/\">Read the original →</a></p>",
+      "content_text": "Intricate structures within the Cat’s Head Nebula are illuminated in this mid-infrared view from NASA’s James Webb Space Telescope released on Oct. 29, 2026. The distinctive “cat’s head” shape of the nebula was likely sculpted over time by the intense ultraviolet radiation and winds from massive stars in the Carina Nebula. As this stellar feedback […]",
+      "summary": "Intricate structures within the Cat’s Head Nebula are illuminated in this mid-infrared view from NASA’s James Webb Space Telescope released on Oct. 29, 2026. Th…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "Nebulae",
+        "航天",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "NASA"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "nasa-gov"
+      }
+    },
+    {
+      "id": "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/",
+      "url": "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/",
+      "title": "NASA Releases MAX POWER Key Events for Media, Participants",
+      "content_html": "<p>America’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the agency’s Kennedy Space Center in Florida. Through multiple park experiences at MAX POWER, NASA and a variety of external collaborators […]</p><p>Source: NASA · 2026-10-30</p><p>Tags: #General #Aeronautics #Astronauts #Kennedy Space Center #Moon Base #Quesst (X-59)</p><p><a href=\"https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/\">Read the original →</a></p>",
+      "content_text": "America’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the agency’s Kennedy Space Center in Florida. Through multiple park experiences at MAX POWER, NASA and a variety of external collaborators […]",
+      "summary": "America’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "General",
+        "Aeronautics",
+        "Astronauts",
+        "Kennedy Space Center",
+        "Moon Base",
+        "Quesst (X-59)",
+        "Science Mission Directorate",
+        "Space Nuclear Propulsion (SNP)"
+      ],
+      "authors": [
+        {
+          "name": "NASA"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "nasa-gov"
+      }
+    },
+    {
+      "id": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+      "url": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+      "title": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
+      "content_html": "<p>NASA issued a Request for Information Oct. 29 to learn more about industry capabilities for in-space servicing to support the agency’s Hubble Space Telescope.</p><p>Source: NASA · 2026-10-30</p><p>Tags: #Astrophysics #Astrophysics Division #Goddard Space Flight Center #Hubble Space Telescope #The Universe #航天</p><p><a href=\"https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/\">Read the original →</a></p>",
+      "content_text": "NASA issued a Request for Information Oct. 29 to learn more about industry capabilities for in-space servicing to support the agency’s Hubble Space Telescope.",
+      "summary": "NASA issued a Request for Information Oct. 29 to learn more about industry capabilities for in-space servicing to support the agency’s Hubble Space Telescope.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "Astrophysics",
+        "Astrophysics Division",
+        "Goddard Space Flight Center",
+        "Hubble Space Telescope",
+        "The Universe",
+        "航天",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "NASA"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "nasa-gov"
+      }
+    },
+    {
       "id": "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/",
       "url": "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/",
       "title": "Map Showing Potential Origins of Martian Meteorite Teghaza 001",
-      "content_text": "Description This global map of Mars shows 13 locations that match the mineralogy and chemistry of Teghaza 001, one of the most ancient Martian meteorites ever f…",
+      "content_html": "<p>Description This global map of Mars shows 13 locations that match the mineralogy and chemistry of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth. While scientists can never know for sure where a Martian meteorite originated, Teghaza 001 includes clues that link it to highlands in the southern hemisphere of […]</p><p>Source: NASA · 2026-10-30</p><p>Tags: #航天 #科学</p><p><a href=\"https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/\">Read the original →</a></p>",
+      "content_text": "Description This global map of Mars shows 13 locations that match the mineralogy and chemistry of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth. While scientists can never know for sure where a Martian meteorite originated, Teghaza 001 includes clues that link it to highlands in the southern hemisphere of […]",
       "summary": "Description This global map of Mars shows 13 locations that match the mineralogy and chemistry of Teghaza 001, one of the most ancient Martian meteorites ever f…",
       "date_published": "2026-10-30T00:00:00Z",
       "tags": [
@@ -57,7 +183,8 @@
       "id": "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/",
       "url": "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/",
       "title": "APOD: 2026 October 30 – Haunting the Cepheus Flare",
-      "content_text": "APOD Science APOD APOD: 2026 October 30 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…",
+      "content_html": "<p>APOD Science APOD APOD: 2026 October 30 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Haunting the Cepheus […]</p><p>Source: NASA · 2026-10-30</p><p>Tags: #APOD #航天 #科学</p><p><a href=\"https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/\">Read the original →</a></p>",
+      "content_text": "APOD Science APOD APOD: 2026 October 30 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Haunting the Cepheus […]",
       "summary": "APOD Science APOD APOD: 2026 October 30 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…",
       "date_published": "2026-10-30T00:00:00Z",
       "tags": [
@@ -79,7 +206,8 @@
       "id": "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/",
       "url": "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/",
       "title": "Slice of Martian Meteorite Teghaza 001",
-      "content_text": "Description This slice of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth, was used to determine the age of the rock. Reflected ligh…",
+      "content_html": "<p>Description This slice of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth, was used to determine the age of the rock. Reflected light images like these serve as a scientist’s road map, helping them find minerals of interest to analyze by different instruments. Figure A is the same image with […]</p><p>Source: NASA · 2026-10-29</p><p>Tags: #Meteors &amp; Meteorites #Photojournal #航天 #科学</p><p><a href=\"https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/\">Read the original →</a></p>",
+      "content_text": "Description This slice of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth, was used to determine the age of the rock. Reflected light images like these serve as a scientist’s road map, helping them find minerals of interest to analyze by different instruments. Figure A is the same image with […]",
       "summary": "Description This slice of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth, was used to determine the age of the rock. Reflected ligh…",
       "date_published": "2026-10-29T00:00:00Z",
       "tags": [
@@ -99,135 +227,15 @@
       }
     },
     {
-      "id": "https://www.nasa.gov/news-release/send-your-name-to-titan-aboard-nasas-dragonfly-mission/",
-      "url": "https://www.nasa.gov/news-release/send-your-name-to-titan-aboard-nasas-dragonfly-mission/",
-      "title": "Send Your Name to Titan Aboard NASA’s Dragonfly Mission",
-      "content_text": "You may never soar under the clouds or over the organic sands of Saturn’s moon Titan, but your name can. NASA is inviting the public to send their names aboard…",
-      "summary": "You may never soar under the clouds or over the organic sands of Saturn’s moon Titan, but your name can. NASA is inviting the public to send their names aboard…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "Dragonfly",
-        "Marshall Space Flight Center",
-        "Saturn",
-        "Saturn Moons",
-        "Science Mission Directorate",
-        "Titan",
-        "航天",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "NASA"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "nasa-gov"
-      }
-    },
-    {
-      "id": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nih-nasa-qusafe-challenge/",
-      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nih-nasa-qusafe-challenge/",
-      "title": "NIH–NASA QuSAFE Challenge",
-      "content_text": "The Quantum-Enabled Predictive Preclinical NAMs for Toxicity and Safety (QuSAFE) Challenge, a collaboration between the National Institutes of Health (NIH) and…",
-      "summary": "The Quantum-Enabled Predictive Preclinical NAMs for Toxicity and Safety (QuSAFE) Challenge, a collaboration between the National Institutes of Health (NIH) and…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "CoECI News",
-        "General",
-        "Get Involved",
-        "航天",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "NASA"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "nasa-gov"
-      }
-    },
-    {
-      "id": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
-      "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
-      "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
-      "content_text": "When a rose-colored meteorite was found in the Sahara Desert in 2022, no one knew how old it was or where it came from. Not until NASA-funded scientists age-dat…",
-      "summary": "When a rose-colored meteorite was found in the Sahara Desert in 2022, no one knew how old it was or where it came from. Not until NASA-funded scientists age-dat…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "Mars",
-        "General",
-        "Jet Propulsion Laboratory",
-        "Meteors & Meteorites",
-        "航天",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "NASA"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "nasa-gov"
-      }
-    },
-    {
-      "id": "https://www.nasa.gov/news-release/nasa-names-troy-asher-armstrong-flight-research-center-director/",
-      "url": "https://www.nasa.gov/news-release/nasa-names-troy-asher-armstrong-flight-research-center-director/",
-      "title": "NASA Names Troy Asher Armstrong Flight Research Center Director",
-      "content_text": "NASA Administrator Jared Isaacman has named Troy Asher director of the agency’s Armstrong Flight Research Center in Edwards, California. Asher, a veteran test p…",
-      "summary": "NASA Administrator Jared Isaacman has named Troy Asher director of the agency’s Armstrong Flight Research Center in Edwards, California. Asher, a veteran test p…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "Leadership",
-        "People of NASA",
-        "航天",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "NASA"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "nasa-gov"
-      }
-    },
-    {
       "id": "https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/",
       "url": "https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/",
       "title": "Halloween Aboard the International Space Station",
-      "content_text": "Although no ghouls, goblins, or trick-or-treaters come knocking at the International Space Station’s front hatch, crew members aboard the orbiting laboratory st…",
+      "content_html": "<p>Although no ghouls, goblins, or trick-or-treaters come knocking at the International Space Station’s front hatch, crew members aboard the orbiting laboratory still like to get in the Halloween spirit. Whether individually or as an entire crew, they dress up in sometimes spooky, sometimes scary, but always creative costumes, often designed from materials available aboard the […]</p><p>Source: NASA · 2026-10-29</p><p>Tags: #Johnson Space Center #航天 #科学</p><p><a href=\"https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/\">Read the original →</a></p>",
+      "content_text": "Although no ghouls, goblins, or trick-or-treaters come knocking at the International Space Station’s front hatch, crew members aboard the orbiting laboratory still like to get in the Halloween spirit. Whether individually or as an entire crew, they dress up in sometimes spooky, sometimes scary, but always creative costumes, often designed from materials available aboard the […]",
       "summary": "Although no ghouls, goblins, or trick-or-treaters come knocking at the International Space Station’s front hatch, crew members aboard the orbiting laboratory st…",
       "date_published": "2026-10-29T00:00:00Z",
       "tags": [
         "Johnson Space Center",
-        "航天",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "NASA"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "nasa-gov"
-      }
-    },
-    {
-      "id": "https://www.nasa.gov/news-release/envia-tu-nombre-a-titan-a-bordo-de-la-mision-dragonfly-de-la-nasa/",
-      "url": "https://www.nasa.gov/news-release/envia-tu-nombre-a-titan-a-bordo-de-la-mision-dragonfly-de-la-nasa/",
-      "title": "Envía tu nombre a Titán a bordo de la misión Dragonfly de la NASA",
-      "content_text": "Read this release in English here. Puede que nunca llegues a surcar los cielos bajo las nubes o sobre las arenas orgánicas de la luna Titán de Saturno, ¡pero tu…",
-      "summary": "Read this release in English here. Puede que nunca llegues a surcar los cielos bajo las nubes o sobre las arenas orgánicas de la luna Titán de Saturno, ¡pero tu…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "NASA en español",
         "航天",
         "科学"
       ],
