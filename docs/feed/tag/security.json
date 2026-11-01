@@ -9,6 +9,31 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+      "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+      "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae4e9f503c2c36f4cfc913c/master/pass/KernelPanic_10312026_v1.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Named “Volta-Autodoxer,” the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts.</p><p>Source: WIRED · 2026-10-31</p><p>Tags: #Security #Kernel Panic #科技 #社会</p><p><a href=\"https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/\">Read the original →</a></p>",
+      "content_text": "Named “Volta-Autodoxer,” the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts.",
+      "summary": "Named “Volta-Autodoxer,” the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to…",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae4e9f503c2c36f4cfc913c/master/pass/KernelPanic_10312026_v1.jpg",
+      "tags": [
+        "Security",
+        "Kernel Panic",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
       "url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
       "title": "The $6.3 Billion Binance Hack Was Pulled Off in Just 20 Minutes",

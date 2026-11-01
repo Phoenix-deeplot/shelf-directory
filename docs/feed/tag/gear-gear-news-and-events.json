@@ -9,6 +9,32 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/story/theres-a-completely-new-type-of-whisky-its-french-and-made-in-concrete-eggs/",
+      "url": "https://www.wired.com/story/theres-a-completely-new-type-of-whisky-its-french-and-made-in-concrete-eggs/",
+      "title": "There’s a Completely New Type of Whisky. It’s French and Made in Concrete Eggs",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae3636efade877474b75a13/master/pass/102926-Egg%20Whisky.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>The founders of Maison Lineti are, in a world first, making single malt whisky as if it were wine—and the spirit world is mighty impressed.</p><p>Source: WIRED · 2026-10-31</p><p>Tags: #Gear #Gear / Gear News and Events #Spirit Guide #科技 #社会</p><p><a href=\"https://www.wired.com/story/theres-a-completely-new-type-of-whisky-its-french-and-made-in-concrete-eggs/\">Read the original →</a></p>",
+      "content_text": "The founders of Maison Lineti are, in a world first, making single malt whisky as if it were wine—and the spirit world is mighty impressed.",
+      "summary": "The founders of Maison Lineti are, in a world first, making single malt whisky as if it were wine—and the spirit world is mighty impressed.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae3636efade877474b75a13/master/pass/102926-Egg%20Whisky.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Gear News and Events",
+        "Spirit Guide",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/liquid-glass-finally-makes-sense-on-the-iphone-duo/",
       "url": "https://www.wired.com/story/liquid-glass-finally-makes-sense-on-the-iphone-duo/",
       "title": "Liquid Glass Finally Makes Sense on the iPhone Duo",

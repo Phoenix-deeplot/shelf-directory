@@ -9,6 +9,64 @@
   },
   "items": [
     {
+      "id": "https://slate.com/news-and-politics/2026/10/alaska-senate-scandal-trump-doj.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/alaska-senate-scandal-trump-doj.html?via=rss",
+      "title": "There’s a Likely Scenario for Election Night. It’s Scary for Democrats. It’s Scarier for Democracy.",
+      "content_html": "<p><img src=\"https://compote.slate.com/images/a89954c1-03cc-42e8-89f6-3dbf3a32dc44.jpeg?crop=3000%2C2000%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Here’s how election night gets really, really ugly.</p><p>Source: Slate Magazine · 2026-10-31</p><p>Tags: #Democrats #Department of Justice #Donald Trump #Elections #Republicans #Senate</p><p><a href=\"https://slate.com/news-and-politics/2026/10/alaska-senate-scandal-trump-doj.html?via=rss\">Read the original →</a></p>",
+      "content_text": "Here’s how election night gets really, really ugly.",
+      "summary": "Here’s how election night gets really, really ugly.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://compote.slate.com/images/a89954c1-03cc-42e8-89f6-3dbf3a32dc44.jpeg?crop=3000%2C2000%2Cx0%2Cy0",
+      "tags": [
+        "Democrats",
+        "Department of Justice",
+        "Donald Trump",
+        "Elections",
+        "Republicans",
+        "Senate",
+        "The Surge",
+        "Alaska"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/news-and-politics/2026/10/2026-election-news-donald-trump-mary-peltola-threats.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/2026-election-news-donald-trump-mary-peltola-threats.html?via=rss",
+      "title": "The One Real Danger of Donald Trump’s Mary Peltola Threats",
+      "content_html": "<p><img src=\"https://compote.slate.com/images/5ab95da4-0baa-4d6b-93df-9c033911c539.jpeg?crop=1560%2C1040%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>He could threaten certificaiton.</p><p>Source: Slate Magazine · 2026-10-31</p><p>Tags: #Donald Trump #Jurisprudence #Senate #Alaska #Capitol Riot #2026 Midterms</p><p><a href=\"https://slate.com/news-and-politics/2026/10/2026-election-news-donald-trump-mary-peltola-threats.html?via=rss\">Read the original →</a></p>",
+      "content_text": "He could threaten certificaiton.",
+      "summary": "He could threaten certificaiton.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://compote.slate.com/images/5ab95da4-0baa-4d6b-93df-9c033911c539.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Donald Trump",
+        "Jurisprudence",
+        "Senate",
+        "Alaska",
+        "Capitol Riot",
+        "2026 Midterms",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
       "id": "https://slate.com/news-and-politics/2026/10/israel-election-results-netanyahu-eisenkot-iran.html?via=rss",
       "url": "https://slate.com/news-and-politics/2026/10/israel-election-results-netanyahu-eisenkot-iran.html?via=rss",
       "title": "This Week’s Election Revealed a Troubling Truth About Israeli Politics",
@@ -53,62 +111,6 @@
         "Alaska",
         "2026 Midterms",
         "评论"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/life/2026/10/trump-election-ohio-midterm-ice-evangelical.html?via=rss",
-      "url": "https://slate.com/life/2026/10/trump-election-ohio-midterm-ice-evangelical.html?via=rss",
-      "title": "The Evangelicals Embraced Them. Then Trump Said They Were Evil. The Aftermath Is in Full View.",
-      "content_html": "<p><img src=\"https://compote.slate.com/images/09e57a5f-4452-47fd-aff8-1475974b2683.jpeg?crop=2000%2C1333%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>In Ohio, the president’s religious base has been tested—and it’s clear whom it chose.</p><p>Source: Slate Magazine · 2026-10-30</p><p>Tags: #Donald Trump #Evangelicals #Haiti #Ohio #Religion #评论</p><p><a href=\"https://slate.com/life/2026/10/trump-election-ohio-midterm-ice-evangelical.html?via=rss\">Read the original →</a></p>",
-      "content_text": "In Ohio, the president’s religious base has been tested—and it’s clear whom it chose.",
-      "summary": "In Ohio, the president’s religious base has been tested—and it’s clear whom it chose.",
-      "date_published": "2026-10-30T00:00:00Z",
-      "image": "https://compote.slate.com/images/09e57a5f-4452-47fd-aff8-1475974b2683.jpeg?crop=2000%2C1333%2Cx0%2Cy0",
-      "tags": [
-        "Donald Trump",
-        "Evangelicals",
-        "Haiti",
-        "Ohio",
-        "Religion",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/news-and-politics/2026/10/donald-trump-corruption-constitution-impeachment-fail.html?via=rss",
-      "url": "https://slate.com/news-and-politics/2026/10/donald-trump-corruption-constitution-impeachment-fail.html?via=rss",
-      "title": "Donald Trump Sure Is Corrupt. If Only There Were a Constitutional Remedy for That.",
-      "content_html": "<p><img src=\"https://compote.slate.com/images/f15b8001-05ac-4351-a63c-d59d5f7fba77.jpeg?crop=1536%2C1024%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>The most common ground for impeachment throughout Anglo-American history has been corruption.</p><p>Source: Slate Magazine · 2026-10-30</p><p>Tags: #Constitution #Donald Trump #Impeachment #Jurisprudence #Try, Try Again? #评论</p><p><a href=\"https://slate.com/news-and-politics/2026/10/donald-trump-corruption-constitution-impeachment-fail.html?via=rss\">Read the original →</a></p>",
-      "content_text": "The most common ground for impeachment throughout Anglo-American history has been corruption.",
-      "summary": "The most common ground for impeachment throughout Anglo-American history has been corruption.",
-      "date_published": "2026-10-30T00:00:00Z",
-      "image": "https://compote.slate.com/images/f15b8001-05ac-4351-a63c-d59d5f7fba77.jpeg?crop=1536%2C1024%2Cx0%2Cy0",
-      "tags": [
-        "Constitution",
-        "Donald Trump",
-        "Impeachment",
-        "Jurisprudence",
-        "Try, Try Again?",
-        "评论",
-        "文化"
       ],
       "authors": [
         {

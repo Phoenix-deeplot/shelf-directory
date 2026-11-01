@@ -1,0 +1,60 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #PoursTea",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/pourstea.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.reddit.com/r/PoursTea/comments/1xkjf1y/remember_to_vote/",
+      "url": "https://www.reddit.com/r/PoursTea/comments/1xkjf1y/remember_to_vote/",
+      "title": "Remember to vote.",
+      "content_html": "<p><img src=\"https://preview.redd.it/ckquc0m5wuyh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=79d4a9e100dfa26bbb2143884e1e469b8ca411a1\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>submitted by /u/Keeper_ixx to r/PoursTea [link] [comments]</p><p>Source: top scoring links : popular · 2026-10-31</p><p>Tags: #PoursTea #社区 #热榜</p><p><a href=\"https://www.reddit.com/r/PoursTea/comments/1xkjf1y/remember_to_vote/\">Read the original →</a></p>",
+      "content_text": "submitted by /u/Keeper_ixx to r/PoursTea [link] [comments]",
+      "summary": "submitted by /u/Keeper_ixx to r/PoursTea [link] [comments]",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://preview.redd.it/ckquc0m5wuyh1.jpeg?width=640&crop=smart&auto=webp&s=79d4a9e100dfa26bbb2143884e1e469b8ca411a1",
+      "tags": [
+        "PoursTea",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    },
+    {
+      "id": "https://www.reddit.com/r/PoursTea/comments/1xkbsgw/james_talarico_meeting_with_texans_at_bucees_im_a/",
+      "url": "https://www.reddit.com/r/PoursTea/comments/1xkbsgw/james_talarico_meeting_with_texans_at_bucees_im_a/",
+      "title": "James Talarico Meeting With Texans At Buc-ee's: “I’m a recovering Republican and this is the first time I’ve voted straight ticket for the D…",
+      "content_html": "<p><img src=\"https://external-preview.redd.it/OGE3aTl1cjNkdHloMd88eTaNgOFLzDQUeMmI_2cjYwqX_bbcGlrfnXPTZzIm.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=9137a1e997173dd8763fdf0e37c018ea96f1a07e\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Source video: https://www.instagram.com/reel/DfISwm4x9J2/?srtk=MXBzd2k3dGRlem1qbw%3D%3D —— Visit Vote.org for online voter guides for every state, including voter registration forms and information on deadlines, directions, and ID and residency requirements. 🗳️ submitted by /u/T_Shurt to r/PoursTea [link] [comments]</p><p>Source: top scoring links : popular · 2026-10-31</p><p>Tags: #PoursTea #社区 #热榜</p><p><a href=\"https://www.reddit.com/r/PoursTea/comments/1xkbsgw/james_talarico_meeting_with_texans_at_bucees_im_a/\">Read the original →</a></p>",
+      "content_text": "Source video: https://www.instagram.com/reel/DfISwm4x9J2/?srtk=MXBzd2k3dGRlem1qbw%3D%3D —— Visit Vote.org for online voter guides for every state, including voter registration forms and information on deadlines, directions, and ID and residency requirements. 🗳️ submitted by /u/T_Shurt to r/PoursTea [link] [comments]",
+      "summary": "Source video: https://www.instagram.com/reel/DfISwm4x9J2/?srtk=MXBzd2k3dGRlem1qbw%3D%3D —— Visit Vote.org for online voter guides for every state, including vot…",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://external-preview.redd.it/OGE3aTl1cjNkdHloMd88eTaNgOFLzDQUeMmI_2cjYwqX_bbcGlrfnXPTZzIm.jpeg?width=640&crop=smart&auto=webp&s=9137a1e997173dd8763fdf0e37c018ea96f1a07e",
+      "tags": [
+        "PoursTea",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    }
+  ]
+}

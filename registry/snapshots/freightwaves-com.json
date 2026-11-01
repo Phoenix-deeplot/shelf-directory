@@ -2,6 +2,24 @@
  "id": "freightwaves-com",
  "items": [
   {
+   "url": "https://www.freightwaves.com/news/freight-cycles-are-anything-but-regular",
+   "title": "Freight cycles are anything but regular",
+   "summary": "We call them freight cycles, but the term implies a regularity the data doesn’t support. Since 2000, the domestic transportation market’s turns have looked less…",
+   "image": "",
+   "date": "2026-11-01",
+   "tags": [
+    "Chart of the Week",
+    "Cass shipments index",
+    "Cass Truckload Linehaul Index",
+    "transportation costs",
+    "transportation demand",
+    "Trucking rates"
+   ],
+   "lang": "en",
+   "type": "article",
+   "abstract": "We call them freight cycles, but the term implies a regularity the data doesn’t support. Since 2000, the domestic transportation market’s turns have looked less like clockwork and more like a series of random shocks The post Freight cycles are anything but regular appeared first on FreightWaves."
+  },
+  {
    "url": "https://www.freightwaves.com/news/rail-rivalry-schneiders-bold-move-to-norfolk-southern-from-csx",
    "title": "Rail Rivalry: Schneider’s Bold Move to Norfolk Southern from CSX",
    "summary": "Schneider is making a monumental shift in its intermodal operations, moving all eastern rail business from CSX to Norfolk Southern. This strategic partnership a…",
@@ -898,26 +916,6 @@
    "lang": "en",
    "type": "article",
    "abstract": "Energy and truck stop executives said limited refining and pipeline capacity could leave U.S. trucking fleets vulnerable to higher diesel prices in 2027. The post Diesel prices may stay elevated into spring 2027, fuel executives warn appeared first on FreightWaves."
-  },
-  {
-   "url": "https://www.freightwaves.com/news/forward-air-saves-significant-portion-of-major-customer-account",
-   "title": "Forward Air saves ‘significant portion’ of major customer account",
-   "summary": "Forward Air has finalized a two-year deal to preserve a major share of the business from a contract logistics customer it had earlier warned it could lose. The…",
-   "image": "",
-   "date": "2026-10-28",
-   "tags": [
-    "Company Earnings",
-    "Less than Truckload (LTL)",
-    "Logistics",
-    "News",
-    "contract logistics",
-    "Forward Air",
-    "LTL carriers",
-    "Omni Logistics"
-   ],
-   "lang": "en",
-   "type": "article",
-   "abstract": "Forward Air has finalized a two-year deal to preserve a major share of the business from a contract logistics customer it had earlier warned it could lose. The post Forward Air saves ‘significant portion’ of major customer account appeared first on FreightWaves."
   }
  ],
  "shelf": {
@@ -934,6 +932,6 @@
  "parser": 4,
  "status": "ok",
  "error": "",
- "etag": "W/\"e36239fe744fb9ef3679a6d963fe6027\"",
- "modified": "Sat, 31 Oct 2026 00:25:49 GMT"
+ "etag": "W/\"6b38f91653bc7a31e1ff86ab497b560c\"",
+ "modified": "Fri, 30 Oct 2026 18:31:05 GMT"
 }

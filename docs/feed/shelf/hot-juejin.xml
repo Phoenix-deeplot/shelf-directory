@@ -4,28 +4,16 @@
   <title>知树阅读-个人图书空间 · 掘金热榜</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/shelf/hot-juejin.xml"/>
-  <updated>2026-10-31T00:00:00Z</updated>
+  <updated>2026-11-01T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://juejin.cn/post/7701870817484210230</id>
-    <title>腾讯 Buddy One 来了，办公全家桶一键打通WorkBuddy（附教程）</title>
-    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701870817484210230"/>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <published>2026-10-31T00:00:00Z</published>
-    <summary type="text">第 7 名 · 热度 306 · 苍何</summary>
-    <content type="html">&lt;p&gt;第 7 名 · 热度 306 · 苍何&lt;/p&gt;&lt;p&gt;来源：掘金热榜 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#热榜 #技术&lt;/p&gt;&lt;p&gt;&lt;a href="https://juejin.cn/post/7701870817484210230"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
-    <source><title>掘金热榜</title></source>
-    <category term="热榜"/>
-    <category term="技术"/>
-  </entry>
-  <entry>
-    <id>https://juejin.cn/post/7701545991036862491</id>
-    <title>现代 Android 架构指南：不要再主动设计 Callback 接口</title>
-    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701545991036862491"/>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <published>2026-10-31T00:00:00Z</published>
-    <summary type="text">第 4 名 · 热度 531 · 潜龙勿用之化骨龙</summary>
-    <content type="html">&lt;p&gt;第 4 名 · 热度 531 · 潜龙勿用之化骨龙&lt;/p&gt;&lt;p&gt;来源：掘金热榜 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#热榜 #技术&lt;/p&gt;&lt;p&gt;&lt;a href="https://juejin.cn/post/7701545991036862491"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <id>https://juejin.cn/post/7702250559663292431</id>
+    <title>程序员 1v1 访谈系列第九期：要不要晋升管理层？</title>
+    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7702250559663292431"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 9 名 · 热度 171 · 双越AI_club</summary>
+    <content type="html">&lt;p&gt;第 9 名 · 热度 171 · 双越AI_club&lt;/p&gt;&lt;p&gt;来源：掘金热榜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #技术&lt;/p&gt;&lt;p&gt;&lt;a href="https://juejin.cn/post/7702250559663292431"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>掘金热榜</title></source>
     <category term="热榜"/>
     <category term="技术"/>
@@ -34,22 +22,58 @@
     <id>https://juejin.cn/post/7701991107366731785</id>
     <title>最近 Android 有什么更新：Android Dev Summit 2026 技术解读</title>
     <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701991107366731785"/>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <published>2026-10-31T00:00:00Z</published>
-    <summary type="text">第 6 名 · 热度 351 · 恋猫de小郭</summary>
-    <content type="html">&lt;p&gt;第 6 名 · 热度 351 · 恋猫de小郭&lt;/p&gt;&lt;p&gt;来源：掘金热榜 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#热榜 #技术&lt;/p&gt;&lt;p&gt;&lt;a href="https://juejin.cn/post/7701991107366731785"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 2 名 · 热度 486 · 恋猫de小郭</summary>
+    <content type="html">&lt;p&gt;第 2 名 · 热度 486 · 恋猫de小郭&lt;/p&gt;&lt;p&gt;来源：掘金热榜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #技术&lt;/p&gt;&lt;p&gt;&lt;a href="https://juejin.cn/post/7701991107366731785"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>掘金热榜</title></source>
     <category term="热榜"/>
     <category term="技术"/>
   </entry>
   <entry>
-    <id>https://juejin.cn/post/7701870817483259958</id>
-    <title>史诗级封号收入</title>
-    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701870817483259958"/>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <published>2026-10-31T00:00:00Z</published>
-    <summary type="text">第 3 名 · 热度 747 · stormzhangV</summary>
-    <content type="html">&lt;p&gt;第 3 名 · 热度 747 · stormzhangV&lt;/p&gt;&lt;p&gt;来源：掘金热榜 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#热榜 #技术&lt;/p&gt;&lt;p&gt;&lt;a href="https://juejin.cn/post/7701870817483259958"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <id>https://juejin.cn/post/7702434781235101738</id>
+    <title>我有个朋友，工作八年，公司从 300 人减到 80 人</title>
+    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7702434781235101738"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 8 名 · 热度 234 · 怕浪猫</summary>
+    <content type="html">&lt;p&gt;第 8 名 · 热度 234 · 怕浪猫&lt;/p&gt;&lt;p&gt;来源：掘金热榜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #技术&lt;/p&gt;&lt;p&gt;&lt;a href="https://juejin.cn/post/7702434781235101738"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>掘金热榜</title></source>
+    <category term="热榜"/>
+    <category term="技术"/>
+  </entry>
+  <entry>
+    <id>https://juejin.cn/post/7702402013539336242</id>
+    <title>双 Token 与前端使用 Crypto 公私钥鉴权换 Token，哪种方案更好？</title>
+    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7702402013539336242"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 10 名 · 热度 171 · excel</summary>
+    <content type="html">&lt;p&gt;第 10 名 · 热度 171 · excel&lt;/p&gt;&lt;p&gt;来源：掘金热榜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #技术&lt;/p&gt;&lt;p&gt;&lt;a href="https://juejin.cn/post/7702402013539336242"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>掘金热榜</title></source>
+    <category term="热榜"/>
+    <category term="技术"/>
+  </entry>
+  <entry>
+    <id>https://juejin.cn/post/7702012705843232810</id>
+    <title>别学 subagent 了，很可能要凉了。</title>
+    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7702012705843232810"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 3 名 · 热度 360 · cxuanAI</summary>
+    <content type="html">&lt;p&gt;第 3 名 · 热度 360 · cxuanAI&lt;/p&gt;&lt;p&gt;来源：掘金热榜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #技术&lt;/p&gt;&lt;p&gt;&lt;a href="https://juejin.cn/post/7702012705843232810"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>掘金热榜</title></source>
+    <category term="热榜"/>
+    <category term="技术"/>
+  </entry>
+  <entry>
+    <id>https://juejin.cn/post/7701979838148722724</id>
+    <title>删掉 1.1 万行 C 代码，Rust 正式接手 Android Binder</title>
+    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701979838148722724"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 5 名 · 热度 279 · RockByte</summary>
+    <content type="html">&lt;p&gt;第 5 名 · 热度 279 · RockByte&lt;/p&gt;&lt;p&gt;来源：掘金热榜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #技术&lt;/p&gt;&lt;p&gt;&lt;a href="https://juejin.cn/post/7701979838148722724"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>掘金热榜</title></source>
     <category term="热榜"/>
     <category term="技术"/>
@@ -58,10 +82,34 @@
     <id>https://juejin.cn/post/7701925000958115883</id>
     <title>下载神器！Motrix 停更三年后重写回归</title>
     <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701925000958115883"/>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <published>2026-10-31T00:00:00Z</published>
-    <summary type="text">第 10 名 · 热度 234 · 前端之虎陈随易</summary>
-    <content type="html">&lt;p&gt;第 10 名 · 热度 234 · 前端之虎陈随易&lt;/p&gt;&lt;p&gt;来源：掘金热榜 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#热榜 #技术&lt;/p&gt;&lt;p&gt;&lt;a href="https://juejin.cn/post/7701925000958115883"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 4 名 · 热度 288 · 前端之虎陈随易</summary>
+    <content type="html">&lt;p&gt;第 4 名 · 热度 288 · 前端之虎陈随易&lt;/p&gt;&lt;p&gt;来源：掘金热榜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #技术&lt;/p&gt;&lt;p&gt;&lt;a href="https://juejin.cn/post/7701925000958115883"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>掘金热榜</title></source>
+    <category term="热榜"/>
+    <category term="技术"/>
+  </entry>
+  <entry>
+    <id>https://juejin.cn/post/7702438435248160804</id>
+    <title>一人公司，单月收入近10万，我做了这三门生意（OPC系列-3）</title>
+    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7702438435248160804"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 6 名 · 热度 261 · 老金带你玩AI</summary>
+    <content type="html">&lt;p&gt;第 6 名 · 热度 261 · 老金带你玩AI&lt;/p&gt;&lt;p&gt;来源：掘金热榜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #技术&lt;/p&gt;&lt;p&gt;&lt;a href="https://juejin.cn/post/7702438435248160804"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>掘金热榜</title></source>
+    <category term="热榜"/>
+    <category term="技术"/>
+  </entry>
+  <entry>
+    <id>https://juejin.cn/post/7701929263046000703</id>
+    <title>一个人+AI做情侣食谱小程序，0 费用的服务器</title>
+    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701929263046000703"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 7 名 · 热度 243 · AI全栈的日常</summary>
+    <content type="html">&lt;p&gt;第 7 名 · 热度 243 · AI全栈的日常&lt;/p&gt;&lt;p&gt;来源：掘金热榜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #技术&lt;/p&gt;&lt;p&gt;&lt;a href="https://juejin.cn/post/7701929263046000703"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>掘金热榜</title></source>
     <category term="热榜"/>
     <category term="技术"/>
@@ -70,58 +118,10 @@
     <id>https://juejin.cn/post/7701971738456752162</id>
     <title>Service Mesh 可观测性：分布式追踪、指标与日志的统一方案</title>
     <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701971738456752162"/>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <published>2026-10-31T00:00:00Z</published>
-    <summary type="text">第 2 名 · 热度 2115 · vipxieliang</summary>
-    <content type="html">&lt;p&gt;第 2 名 · 热度 2115 · vipxieliang&lt;/p&gt;&lt;p&gt;来源：掘金热榜 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#热榜 #技术&lt;/p&gt;&lt;p&gt;&lt;a href="https://juejin.cn/post/7701971738456752162"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
-    <source><title>掘金热榜</title></source>
-    <category term="热榜"/>
-    <category term="技术"/>
-  </entry>
-  <entry>
-    <id>https://juejin.cn/post/7701932169296003082</id>
-    <title>Rspack 2.3 发布：联手 SWC 团队带来全新编译器</title>
-    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701932169296003082"/>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <published>2026-10-31T00:00:00Z</published>
-    <summary type="text">第 9 名 · 热度 234 · WebInfra</summary>
-    <content type="html">&lt;p&gt;第 9 名 · 热度 234 · WebInfra&lt;/p&gt;&lt;p&gt;来源：掘金热榜 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#热榜 #技术&lt;/p&gt;&lt;p&gt;&lt;a href="https://juejin.cn/post/7701932169296003082"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
-    <source><title>掘金热榜</title></source>
-    <category term="热榜"/>
-    <category term="技术"/>
-  </entry>
-  <entry>
-    <id>https://juejin.cn/post/7701591870955012111</id>
-    <title>PHP Swoole 协程模型详解：协程与线程/进程、调度、常驻内存及与 Go goroutine 的异同</title>
-    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701591870955012111"/>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <published>2026-10-31T00:00:00Z</published>
-    <summary type="text">第 1 名 · 热度 4653 · vipxieliang</summary>
-    <content type="html">&lt;p&gt;第 1 名 · 热度 4653 · vipxieliang&lt;/p&gt;&lt;p&gt;来源：掘金热榜 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#热榜 #技术&lt;/p&gt;&lt;p&gt;&lt;a href="https://juejin.cn/post/7701591870955012111"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
-    <source><title>掘金热榜</title></source>
-    <category term="热榜"/>
-    <category term="技术"/>
-  </entry>
-  <entry>
-    <id>https://juejin.cn/post/7701703182474248211</id>
-    <title>Go-Gui:一套 无限接近 现代化UI的 GPU绘制界面组件框架</title>
-    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701703182474248211"/>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <published>2026-10-31T00:00:00Z</published>
-    <summary type="text">第 5 名 · 热度 486 · 陌离</summary>
-    <content type="html">&lt;p&gt;第 5 名 · 热度 486 · 陌离&lt;/p&gt;&lt;p&gt;来源：掘金热榜 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#热榜 #技术&lt;/p&gt;&lt;p&gt;&lt;a href="https://juejin.cn/post/7701703182474248211"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
-    <source><title>掘金热榜</title></source>
-    <category term="热榜"/>
-    <category term="技术"/>
-  </entry>
-  <entry>
-    <id>https://juejin.cn/post/7701604765431873545</id>
-    <title>AI友好的可视化图形引擎自我革命：Meta2d.js 2.0 历时一年全新重写，性能与多人协作全面升级</title>
-    <link rel="alternate" type="text/html" href="https://juejin.cn/post/7701604765431873545"/>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <published>2026-10-31T00:00:00Z</published>
-    <summary type="text">第 8 名 · 热度 297 · alsmile</summary>
-    <content type="html">&lt;p&gt;第 8 名 · 热度 297 · alsmile&lt;/p&gt;&lt;p&gt;来源：掘金热榜 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#热榜 #技术&lt;/p&gt;&lt;p&gt;&lt;a href="https://juejin.cn/post/7701604765431873545"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 1 名 · 热度 2142 · vipxieliang</summary>
+    <content type="html">&lt;p&gt;第 1 名 · 热度 2142 · vipxieliang&lt;/p&gt;&lt;p&gt;来源：掘金热榜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #技术&lt;/p&gt;&lt;p&gt;&lt;a href="https://juejin.cn/post/7701971738456752162"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>掘金热榜</title></source>
     <category term="热榜"/>
     <category term="技术"/>

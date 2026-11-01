@@ -9,6 +9,29 @@
   },
   "items": [
     {
+      "id": "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/",
+      "title": "APOD: 2026 November 1 – Colors of the Moon",
+      "content_html": "<p>APOD Science APOD APOD: 2026 November 1 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Colors of the […]</p><p>Source: NASA · 2026-11-01</p><p>Tags: #APOD #航天 #科学</p><p><a href=\"https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/\">Read the original →</a></p>",
+      "content_text": "APOD Science APOD APOD: 2026 November 1 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Colors of the […]",
+      "summary": "APOD Science APOD APOD: 2026 November 1 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…",
+      "date_published": "2026-11-01T00:00:00Z",
+      "tags": [
+        "APOD",
+        "航天",
+        "科学"
+      ],
+      "authors": [
+        {
+          "name": "NASA"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "nasa-gov"
+      }
+    },
+    {
       "id": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
       "url": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
       "title": "APOD: 2026 October 31 – Night on a Spooky Planet",
@@ -213,29 +236,6 @@
       "tags": [
         "Meteors & Meteorites",
         "Photojournal",
-        "航天",
-        "科学"
-      ],
-      "authors": [
-        {
-          "name": "NASA"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "nasa-gov"
-      }
-    },
-    {
-      "id": "https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/",
-      "url": "https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/",
-      "title": "Halloween Aboard the International Space Station",
-      "content_html": "<p>Although no ghouls, goblins, or trick-or-treaters come knocking at the International Space Station’s front hatch, crew members aboard the orbiting laboratory still like to get in the Halloween spirit. Whether individually or as an entire crew, they dress up in sometimes spooky, sometimes scary, but always creative costumes, often designed from materials available aboard the […]</p><p>Source: NASA · 2026-10-29</p><p>Tags: #Johnson Space Center #航天 #科学</p><p><a href=\"https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station/\">Read the original →</a></p>",
-      "content_text": "Although no ghouls, goblins, or trick-or-treaters come knocking at the International Space Station’s front hatch, crew members aboard the orbiting laboratory still like to get in the Halloween spirit. Whether individually or as an entire crew, they dress up in sometimes spooky, sometimes scary, but always creative costumes, often designed from materials available aboard the […]",
-      "summary": "Although no ghouls, goblins, or trick-or-treaters come knocking at the International Space Station’s front hatch, crew members aboard the orbiting laboratory st…",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "Johnson Space Center",
         "航天",
         "科学"
       ],

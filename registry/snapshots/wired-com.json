@@ -2,6 +2,137 @@
  "id": "wired-com",
  "items": [
   {
+   "url": "https://www.wired.com/story/best-chromebooks/",
+   "title": "Best Chromebooks and Googlebooks (2026): Laptops With a Google Touch",
+   "summary": "While Google is heralding a new series of laptops called Googlebooks, Chromebooks are sticking around—for now. These are the ones to consider.",
+   "image": "https://media.wired.com/photos/6ae4f7cdc47e8737f5c92342/master/pass/Update%20Best%20Chromebooks%20102026%20top%20art%20SOURCE%20Amazon-Best%20Buy.jpg",
+   "date": "2026-11-01",
+   "tags": [
+    "Gear",
+    "Gear / Products",
+    "Gear / Products / Computers",
+    "Gear / Reviews",
+    "Googlefied Laptops"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.wired.com/story/a-newly-discovered-trail-of-cosmic-debris-illustrates-what-the-end-of-the-solar-system-could-look-like/",
+   "title": "A Newly Discovered Trail of Cosmic Debris Illustrates How the End of the Solar System Could Look",
+   "summary": "A dying star 1,600 light-years from Earth is surrounded by two rings of gas and dust that astronomers believe are the remnants of the planetary bodies it once h…",
+   "image": "https://media.wired.com/photos/6ae377e1cbf5d13e90635178/master/pass/eso2613a.jpg",
+   "date": "2026-11-01",
+   "tags": [
+    "Science",
+    "Science / Space",
+    "Put a Ring on It"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+   "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+   "summary": "Named “Volta-Autodoxer,” the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to…",
+   "image": "https://media.wired.com/photos/6ae4e9f503c2c36f4cfc913c/master/pass/KernelPanic_10312026_v1.jpg",
+   "date": "2026-10-31",
+   "tags": [
+    "Security",
+    "Kernel Panic"
+   ],
+   "lang": "en",
+   "type": "article",
+   "abstract": "Named “Volta-Autodoxer,” the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts."
+  },
+  {
+   "url": "https://www.wired.com/story/govee-christmas-lights-deal-october-2026/",
+   "title": "Govee Christmas Lights 2 Deal: Save $25 on These Smart String Lights",
+   "summary": "Glow up your home indoors or out with these versatile, discounted, full color smart string lights. They’re WIRED-tested and 25 percent off right now.",
+   "image": "https://media.wired.com/photos/6ae4f146e0310df801ec3341/master/pass/My%20Favorite%20Affordable%20Smart%20String%20Lights%20Are%20On%20Sale%20102026%20top%20art%20SOURCE%20Amazon.jpg",
+   "date": "2026-10-31",
+   "tags": [
+    "Gear",
+    "Gear / Deals",
+    "Gear / Products / Smart Home",
+    "Bright Buy"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.wired.com/story/theres-a-completely-new-type-of-whisky-its-french-and-made-in-concrete-eggs/",
+   "title": "There’s a Completely New Type of Whisky. It’s French and Made in Concrete Eggs",
+   "summary": "The founders of Maison Lineti are, in a world first, making single malt whisky as if it were wine—and the spirit world is mighty impressed.",
+   "image": "https://media.wired.com/photos/6ae3636efade877474b75a13/master/pass/102926-Egg%20Whisky.jpg",
+   "date": "2026-10-31",
+   "tags": [
+    "Gear",
+    "Gear / Gear News and Events",
+    "Spirit Guide"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.wired.com/review/backup-by-biolite/",
+   "title": "Backup by Biolite Review: A Cool Idea",
+   "summary": "Backup by BioLite is designed to power your fridge when the grid goes down. It works, but protecting your ice cream doesn’t come cheap.",
+   "image": "https://media.wired.com/photos/6ae2c94850875d11b16a4a53/master/pass/Review%20Backup%20by%20BioLite%20102026%20top%20art%20SOURCE%20BioLite.jpg",
+   "date": "2026-10-31",
+   "tags": [
+    "Gear",
+    "Gear / Reviews",
+    "Gear / Products / Home",
+    "Cold Comfort"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+   "title": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet",
+   "summary": "Companies have spent the past several weeks trying to reassure investors that Muse and other AI agents pose more of an opportunity than a threat.",
+   "image": "https://media.wired.com/photos/6ae513e3393ae92e17e66a04/master/pass/Business_Everyone%E2%80%99s%20Questioning%20Meta%E2%80%99s%20Hype%20About%20Muse%20Meta%20Says%20Muse%20Is%20Already%20a%20Big%20Shopper_v1.jpg",
+   "date": "2026-10-31",
+   "tags": [
+    "Business",
+    "Secret Agents"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+   "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+   "summary": "A biotech startup let an agent choose a gene therapy and successfully inject the treatment, offering a startling glimpse of the future of research labs.",
+   "image": "https://media.wired.com/photos/6ae4d6bbd55a0e2bc0a8d990/master/pass/103026-AI%20Mouse%2002.jpg",
+   "date": "2026-10-31",
+   "tags": [
+    "Science",
+    "Science / Biotech",
+    "Not Brain Surg—Oh"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
+   "url": "https://www.wired.com/story/bose-deals-october-2026/",
+   "title": "Bose QC Headphones (2nd Gen) Sale: Lowest Price Ahead of Black Friday",
+   "summary": "They’re a steal at over 40 percent off in multiple colors. Plus, other great Bose deals you should know about ahead of Black Friday.",
+   "image": "https://media.wired.com/photos/6ae4c869b2b1587e7c6da348/master/pass/Bose%20Headphone%20Deals%20102026%20top%20art%20SOURCE%20Amazon.jpg",
+   "date": "2026-10-31",
+   "tags": [
+    "Gear",
+    "Gear / Deals",
+    "Gear / Products / Headphones",
+    "Gear / Products / Audio",
+    "Bose for Less"
+   ],
+   "lang": "en",
+   "type": "article"
+  },
+  {
    "url": "https://www.wired.com/review/keurig-alta-brewer/",
    "title": "Keurig Alta Brewer Review: Brand-New Tech, Classically Good Coffee",
    "summary": "This multifaceted home coffee brewer and its new AltaRounds will make you rethink everything you know about Keurig machines.",
@@ -580,132 +711,6 @@
    "title": "Norton Coupon Codes: Up to 58% Off",
    "summary": "Whether you’re looking to protect your small business or your personal computer, we have the top coupons and deals to help you save at Norton.",
    "image": "https://media.wired.com/photos/66ea076e56fd4954a7f91e0c/master/pass/WIRED-Coupons-17.jpg",
-   "date": "2026-10-29",
-   "tags": [
-    "Gear",
-    "Gear / Deals",
-    "Coupons"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.wired.com/story/hungryroot-promo-code/",
-   "title": "Hungryroot Coupon Codes: 30% Off This November 2026",
-   "summary": "Get up to 30% off your first order and free gifts using a Hungryroot promo code today. Discover our best coupons and discounts to let you save on your healthy g…",
-   "image": "https://media.wired.com/photos/67b63b972c751893c256c1e6/master/pass/WIRED-Coupons-R2_16.png",
-   "date": "2026-10-29",
-   "tags": [
-    "Gear",
-    "Gear / Deals",
-    "Coupons"
-   ],
-   "lang": "en",
-   "type": "article",
-   "abstract": "Get up to 30% off your first order and free gifts using a Hungryroot promo code today. Discover our best coupons and discounts to let you save on your healthy groceries as a new or returning customer."
-  },
-  {
-   "url": "https://www.wired.com/story/nzxt-discount-code/",
-   "title": "NZXT Discount Codes: 50% Off in November 2026",
-   "summary": "Save 50%, plus up to $250 with NZXT promo codes and discounts.",
-   "image": "https://media.wired.com/photos/67b63b995a505b018b67ed92/master/pass/WIRED-Coupons-R2_10.png",
-   "date": "2026-10-29",
-   "tags": [
-    "Gear",
-    "Gear / Deals",
-    "Coupons"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.wired.com/story/loop-earplugs-discount-code/",
-   "title": "Loop Earplugs Discount Codes: 40% Off",
-   "summary": "Save on Loop Earplugs, including Quiet 2 and popular gift sets for improved sleep, focus, and comfort.",
-   "image": "https://media.wired.com/photos/67b63b995a505b018b67ed92/master/pass/WIRED-Coupons-R2_10.png",
-   "date": "2026-10-29",
-   "tags": [
-    "Gear",
-    "Gear / Deals",
-    "Coupons"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.wired.com/story/govee-discount-code/",
-   "title": "Govee Discount Codes and Deals: 30% Off",
-   "summary": "New to Govee? Get a $5 coupon on your first purchase just for signing up.",
-   "image": "https://media.wired.com/photos/66ea076ee8502211cd1d9a42/master/pass/WIRED-Coupons-13.jpg",
-   "date": "2026-10-29",
-   "tags": [
-    "Gear",
-    "Coupons"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.wired.com/story/pura-promo-code/",
-   "title": "Pura Promo Codes: $20 Off November 2026",
-   "summary": "Enhance your home's ambiance for less with active Pura promo codes. Find savings on smart diffusers, exclusive scents, and subscribe & save offers.",
-   "image": "https://media.wired.com/photos/66ea076fca863bb4c1028b64/master/pass/WIRED-Coupons-11.jpg",
-   "date": "2026-10-29",
-   "tags": [
-    "Gear",
-    "Gear / Deals",
-    "Coupons"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.wired.com/story/petlibro-discount-code/",
-   "title": "Petlibro Offers: 30% Off in November 2026",
-   "summary": "Save on Petlibro essentials, including automatic feeders, water fountains, and accessories to keep cats and dogs fed, hydrated, and comfortable every day.",
-   "image": "https://media.wired.com/photos/67b63b9283a9f95e0ab9b215/master/pass/WIRED-Coupons-R2_3.png",
-   "date": "2026-10-29",
-   "tags": [
-    "Gear",
-    "Gear / Deals",
-    "Coupons"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.wired.com/story/dermstore-promo-code/",
-   "title": "Dermstore Coupons: 25% Off for November 2026",
-   "summary": "Score major savings on premium skincare, hair care, and cosmetics with these verified Dermstore discount codes and rewards offers.",
-   "image": "https://media.wired.com/photos/67b63b919468ebbf8f0cbc7b/master/pass/WIRED-Coupons-R2_6.png",
-   "date": "2026-10-29",
-   "tags": [
-    "Gear",
-    "Gear / Deals",
-    "Coupons"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.wired.com/story/coleman-promo-code/",
-   "title": "Coleman Promo Codes and Deals: Up to 75% Off in November 2026",
-   "summary": "Gear up for your next adventure with these Coleman coupons and discount codes to save on camping essentials and outdoor gear.",
-   "image": "https://media.wired.com/photos/67b63b985a505b018b67ed90/master/pass/WIRED-Coupons-R2_17.png",
-   "date": "2026-10-29",
-   "tags": [
-    "Gear",
-    "Gear / Deals",
-    "Coupons"
-   ],
-   "lang": "en",
-   "type": "article"
-  },
-  {
-   "url": "https://www.wired.com/story/tempur-pedic-promo-code/",
-   "title": "30% Off Tempur-Pedic Promo Codes | November 2026",
-   "summary": "Whether you’re looking to upgrade your mattress or swap out your bedding, browse our Tempur-Pedic coupons for up to $300 off and the best sleep of your life.",
-   "image": "https://media.wired.com/photos/67b63b917d355db73b38e0c0/master/pass/WIRED-Coupons-R2_1.png",
    "date": "2026-10-29",
    "tags": [
     "Gear",

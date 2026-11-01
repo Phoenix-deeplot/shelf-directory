@@ -9,6 +9,34 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/story/best-chromebooks/",
+      "url": "https://www.wired.com/story/best-chromebooks/",
+      "title": "Best Chromebooks and Googlebooks (2026): Laptops With a Google Touch",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae4f7cdc47e8737f5c92342/master/pass/Update%20Best%20Chromebooks%20102026%20top%20art%20SOURCE%20Amazon-Best%20Buy.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>While Google is heralding a new series of laptops called Googlebooks, Chromebooks are sticking around—for now. These are the ones to consider.</p><p>Source: WIRED · 2026-11-01</p><p>Tags: #Gear #Gear / Products #Gear / Products / Computers #Gear / Reviews #Googlefied Laptops #科技</p><p><a href=\"https://www.wired.com/story/best-chromebooks/\">Read the original →</a></p>",
+      "content_text": "While Google is heralding a new series of laptops called Googlebooks, Chromebooks are sticking around—for now. These are the ones to consider.",
+      "summary": "While Google is heralding a new series of laptops called Googlebooks, Chromebooks are sticking around—for now. These are the ones to consider.",
+      "date_published": "2026-11-01T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae4f7cdc47e8737f5c92342/master/pass/Update%20Best%20Chromebooks%20102026%20top%20art%20SOURCE%20Amazon-Best%20Buy.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Products",
+        "Gear / Products / Computers",
+        "Gear / Reviews",
+        "Googlefied Laptops",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/review/keurig-alta-brewer/",
       "url": "https://www.wired.com/review/keurig-alta-brewer/",
       "title": "Keurig Alta Brewer Review: Brand-New Tech, Classically Good Coffee",
@@ -22,6 +50,33 @@
         "Gear / Reviews",
         "Gear / Products / Kitchen",
         "Keep ’Em Caffeinated",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/review/backup-by-biolite/",
+      "url": "https://www.wired.com/review/backup-by-biolite/",
+      "title": "Backup by Biolite Review: A Cool Idea",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae2c94850875d11b16a4a53/master/pass/Review%20Backup%20by%20BioLite%20102026%20top%20art%20SOURCE%20BioLite.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Backup by BioLite is designed to power your fridge when the grid goes down. It works, but protecting your ice cream doesn’t come cheap.</p><p>Source: WIRED · 2026-10-31</p><p>Tags: #Gear #Gear / Reviews #Gear / Products / Home #Cold Comfort #科技 #社会</p><p><a href=\"https://www.wired.com/review/backup-by-biolite/\">Read the original →</a></p>",
+      "content_text": "Backup by BioLite is designed to power your fridge when the grid goes down. It works, but protecting your ice cream doesn’t come cheap.",
+      "summary": "Backup by BioLite is designed to power your fridge when the grid goes down. It works, but protecting your ice cream doesn’t come cheap.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae2c94850875d11b16a4a53/master/pass/Review%20Backup%20by%20BioLite%20102026%20top%20art%20SOURCE%20BioLite.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Reviews",
+        "Gear / Products / Home",
+        "Cold Comfort",
         "科技",
         "社会"
       ],

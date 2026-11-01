@@ -4,150 +4,114 @@
   <title>知树阅读-个人图书空间 · #AI</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/ai.xml"/>
-  <updated>2026-10-31T00:00:00Z</updated>
+  <updated>2026-11-01T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6487296.html</id>
-    <title>豆包学WorkBuddy，天天签到领额度，还开放模型</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487296.html"/>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <published>2026-10-31T00:00:00Z</published>
-    <summary type="text">豆包把 WorkBuddy 那套每日签到领额度的玩法搬了过来，还顺手开放了模型选择。文章逐屏过了一遍签到入口、任务中心、额度兑换和模型下拉框，并算清每天到底能薅到多少额度。 AI Agent 时代，积分就是生产力。 每天早上WorkBuddy 签到领积分，已成了很多用户的习惯，我也是如此。 我担心每天忘记签到，还自己设…</summary>
-    <content type="html">&lt;p&gt;豆包把 WorkBuddy 那套每日签到领额度的玩法搬了过来，还顺手开放了模型选择。文章逐屏过了一遍签到入口、任务中心、额度兑换和模型下拉框，并算清每天到底能薅到多少额度。 AI Agent 时代，积分就是生产力。 每天早上WorkBuddy 签到领积分，已成了很多用户的习惯，我也是如此。 我担心每天忘记签到，还自己设了个定时任务。 每天自动执行去领取，一天都不错过。 并且，没事就去看看 WorkBuddy 的任务，看看是不是能薅点积分。 这一个月下来，每天就靠薅羊毛、领鸡蛋，就能满足日常做任务、办公需要。 积分不够时，再单独买点积分包，按需购买。就算不充会员，积分也够用。 免费积分领取和积分任务，已成了WorkBuddy 的获客、促活、教育用户使用 WorkBuddy 的神器。 也该如此，积分，本来就是天然的运营神器。 近日，打开豆包，发现画风变了。 豆包也可以签到领额度了。豆包的积分，叫额度。 并且，力度比WorkBuddy 还大。 每周一，签到领额度翻倍，400 额度。平日是 200 额度。 豆包和 WorkBuddy 一样，上线了任务中心。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #WorkBuddy #产品分析 #豆包 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487296.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <id>https://www.woshipm.com/ai/6487373.html</id>
+    <title>教你用WorkBuddy自动生成3D模型</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487373.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">DeepSeek-V4.1-Flash 发布后，用 WorkBuddy 自动操作 Blender 建模的效果有了起色。文章从装软件开始，用一句提示词建出一幢九十年代居民楼，再把 blend 转成 glb 挂到网页上在线预览，并划清哪些做法算作弊。 在GPT6模型发布的时候，不知道有多少小伙伴还记得，很多AI博主拿这个模…</summary>
+    <content type="html">&lt;p&gt;DeepSeek-V4.1-Flash 发布后，用 WorkBuddy 自动操作 Blender 建模的效果有了起色。文章从装软件开始，用一句提示词建出一幢九十年代居民楼，再把 blend 转成 glb 挂到网页上在线预览，并划清哪些做法算作弊。 在GPT6模型发布的时候，不知道有多少小伙伴还记得，很多AI博主拿这个模型，使用Codex的Computer Use能力，自动操作开源的3D建模软件Blender，做出很多不错的3D模型效果。 但很多人一时兴起玩玩热情就过去了，老马当时也用Codex搓了个网页版的3D展厅设计，不得不说也体会了一把非专业人士的乐趣。后来换成WorkBuddy，使用国产模型去复现，始终效果不如意。 直到10月17日Deepseek-V4.1-Flash模型的发布，这款大肥鱼针对3D建模和许愿式编程都好像做了一些优化。因此结合上一篇文章给大家介绍WorkBuddy的Computer Use能力： 今天老马将继续给大家演示用WorkBuddy来自动操作Blender，自动生成各种3D模型，看看到底能达到GPT6+Codex几成的功力。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #Blender #WorkBuddy #经验分享 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487373.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
+    <category term="Blender"/>
     <category term="WorkBuddy"/>
-    <category term="产品分析"/>
-    <category term="豆包"/>
+    <category term="经验分享"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6487208.html</id>
-    <title>苹果选择千问，阿里AI拿到大结果</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487208.html"/>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <published>2026-10-31T00:00:00Z</published>
-    <summary type="text">苹果把千问接进Siri、写作工具与视觉智能，随iOS 27.3推送。文章回看两年多的备案与谈判过程，梳理苹果为何最终选了阿里，以及这次合作对国产大模型竞争格局意味着什么。 今天早上起来，我打开苹果官网，本来想看看新发的 iPad mini。 当时还犯嘀咕，这么贵，Apple 智能没有，高刷也没有。结果往下一滑，看到苹果…</summary>
-    <content type="html">&lt;p&gt;苹果把千问接进Siri、写作工具与视觉智能，随iOS 27.3推送。文章回看两年多的备案与谈判过程，梳理苹果为何最终选了阿里，以及这次合作对国产大模型竞争格局意味着什么。 今天早上起来，我打开苹果官网，本来想看看新发的 iPad mini。 当时还犯嘀咕，这么贵，Apple 智能没有，高刷也没有。结果往下一滑，看到苹果今天早晨刚发的消息。 苹果说，千问进了 Siri、写作工具和视觉智能，12 月随 iOS 27.3 正式推送。 我看到这条消息，想起了前阵子库克中国行，在上海受访时，他透露Apple智能将接入阿里千问大模型。之后中国果粉一直数着日子催进展。 没想到，库克前脚刚走，后脚Apple 智能这不就来了。 …… 我又翻了一下当时的备案信息。 7月8日过的备案，7 月 15 日网信办正式公告。登记名称是「Apple 智能」，备案主体为苹果技术开发（上海）有限公司。 同批一共7款，华为小艺、OPPO、vivo、小米、三星、努比亚都在名单里。苹果夹在中间，看起来一点都不显眼。 可为了这张证，苹果等了两年多。 早在2023年的时候，就有消息说苹果开始在中国找AI合作伙伴。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #苹果 #行业观察 #阿里 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487208.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <id>https://www.woshipm.com/ai/6487433.html</id>
+    <title>当 AI 开始替用户搜索和推荐，企业的获客逻辑会改变吗？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487433.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">当用户开始向AI询问“推荐几款CRM”或“有哪些AI客服方案”，企业的获客逻辑正被悄然改写。本文通过实验数据与搜索行为分析，揭示AI如何成为新的信息筛选者，并探讨企业应如何调整内容策略，以在AI生成的答案中占据一席之地。 过去，企业要让客户找到自己，通常需要做几件事。 在搜索引擎上争取更好的排名，在小红书和抖音上生产内…</summary>
+    <content type="html">&lt;p&gt;当用户开始向AI询问“推荐几款CRM”或“有哪些AI客服方案”，企业的获客逻辑正被悄然改写。本文通过实验数据与搜索行为分析，揭示AI如何成为新的信息筛选者，并探讨企业应如何调整内容策略，以在AI生成的答案中占据一席之地。 过去，企业要让客户找到自己，通常需要做几件事。 在搜索引擎上争取更好的排名，在小红书和抖音上生产内容，在微信生态里建立私域，在电商平台争取搜索曝光和商品推荐。 无论渠道如何变化，底层逻辑大体一致： 企业争取曝光，用户接触信息，然后由用户自己完成筛选、比较和判断。 但现在，这个过程开始出现一个新的参与者：AI。 当用户想买一款产品、寻找一家服务商，或者学习某个专业问题时，他可能不再愿意逐条浏览搜索结果，而是直接向 AI 描述自己的需求： “帮我推荐几款适合中小企业的 CRM 产品。” “我们公司想做 AI 客服，有哪些成熟方案？” “有没有适合传统产品经理转型 AI 的课程？” AI 会根据能够获得的信息，整理候选方案、比较优缺点，甚至给出推荐顺序。 用户原本需要花半小时完成的信息筛选，可能在几轮对话里就完成了。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #AI搜索 #企业获客 #内容营销 #案例分析&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487433.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="苹果"/>
+    <category term="AI搜索"/>
+    <category term="企业获客"/>
+    <category term="内容营销"/>
+    <category term="案例分析"/>
     <category term="行业观察"/>
-    <category term="阿里"/>
     <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6487352.html</id>
-    <title>腾讯又出新Buddy，WorkBuddy多了个兄弟</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487352.html"/>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <published>2026-10-31T00:00:00Z</published>
-    <summary type="text">腾讯的AI产品，多的有点像在批量招员工。 打工人有WorkBuddy，程序员有CodeBuddy，搞数据的有DataBuddy，学生有LearnBuddy。 现在，连搞音乐的都安排上了。 腾讯音乐又推出了一款AI音乐创作产品，名字叫MusicBuddy，官网已经上线，目前处于内测阶段。曹哥第一时间拿到了内测权限体验，就…</summary>
-    <content type="html">&lt;p&gt;腾讯的AI产品，多的有点像在批量招员工。 打工人有WorkBuddy，程序员有CodeBuddy，搞数据的有DataBuddy，学生有LearnBuddy。 现在，连搞音乐的都安排上了。 腾讯音乐又推出了一款AI音乐创作产品，名字叫MusicBuddy，官网已经上线，目前处于内测阶段。曹哥第一时间拿到了内测权限体验，就迫不及待的为2026AI产品大会创作了一首主题曲，没想到居然挺不错。 腾讯的Buddy家族越来越热闹了。以后一个人创业，可能都不需要招几个人，直接给自己配上一支Buddy团队：WorkBuddy负责日常办公，CodeBuddy帮忙写代码，DataBuddy处理数据，再让MusicBuddy给公司写首主题曲。 如果以后再来个SalesBuddy负责销售，FinanceBuddy负责算账，老板估计做梦都能笑醒。 玩笑归玩笑，MusicBuddy这次还真有些看点。 我还专门找到了MusicBuddy的相关负责人聊了聊，他们提到一个挺有意思的产品愿景：希望MusicBuddy成为音乐人专属的音乐搭子，帮助音乐人实现“一人厂牌”（OPC），也希望人人都能成为音乐人。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#AI #WorkBuddy #工作流 #程序员 #腾讯 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487352.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="WorkBuddy"/>
-    <category term="工作流"/>
-    <category term="程序员"/>
-    <category term="腾讯"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6487299.html</id>
-    <title>给 Claude Code 装了个记忆插件，Token 省 10 倍，其他 Harness 也能用</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487299.html"/>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <published>2026-10-31T00:00:00Z</published>
-    <summary type="text">新开会话就失忆，是 Claude Code 最烦人的地方。文章介绍开源插件 claude-mem：五个钩子加一个后台服务如何把干过的活压成摘要、三分钟装完的命令，以及把写记忆的模型换成本地 Ollama 的改法。 用 Claude Code 的朋友，大概都经历过这一幕 昨天陪它修完登录 bug，定好了数据存哪、代码怎么…</summary>
-    <content type="html">&lt;p&gt;新开会话就失忆，是 Claude Code 最烦人的地方。文章介绍开源插件 claude-mem：五个钩子加一个后台服务如何把干过的活压成摘要、三分钟装完的命令，以及把写记忆的模型换成本地 Ollama 的改法。 用 Claude Code 的朋友，大概都经历过这一幕 昨天陪它修完登录 bug，定好了数据存哪、代码怎么写，今天新开一个会话，它一脸茫然：这个项目是做什么的？ 今天介绍的开源插件 claude-mem，专治这个毛病 本文老章就来详解一下： 它到底怎么让 Claude Code “记住”的，三张动图讲明白 3 分钟装好的命令，以及两个很多人会踩的坑 Codex、Cursor、OpenCode 等十几款工具也能用 装完建议改的 3 个设置，写记忆的模型还能换成 DeepSeek 或本地模型，文末有清单可以直接照做 01 它解决什么问题 一句话：自动把你和 Claude Code 干过的活记下来，压缩成摘要，下次开新会话时自动带上 整个过程你什么都不用做，它在旁边默默记笔记 我做了一个演示，方便大家理解 看官方放的演示，记忆是实时写进去的： 02 原理：5 个钩子 + 1 个后台…&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #Claude #Claude Code #DeepSeek #经验分享&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487299.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="Claude"/>
-    <category term="Claude Code"/>
-    <category term="DeepSeek"/>
-    <category term="经验分享"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6487189.html</id>
-    <title>WorkBuddy本地部署超强OCR识别小模型</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487189.html"/>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <published>2026-10-31T00:00:00Z</published>
-    <summary type="text">建筑图纸里的文字表格总提取不准，问题常常不在提示词，而在模型选型。这篇区分OCR专用模型与多模态模型的边界，用一段提示词把MiniCPM-OCR部署到本地，再拿25页施工图纸实测识别效果。 今天来填个坑的，之前老马写过一篇建筑行业怎么使用WorkBuddy来进行AI办公提升效率的文章。有位从业老哥留言，说我的法子行不通…</summary>
-    <content type="html">&lt;p&gt;建筑图纸里的文字表格总提取不准，问题常常不在提示词，而在模型选型。这篇区分OCR专用模型与多模态模型的边界，用一段提示词把MiniCPM-OCR部署到本地，再拿25页施工图纸实测识别效果。 今天来填个坑的，之前老马写过一篇建筑行业怎么使用WorkBuddy来进行AI办公提升效率的文章。有位从业老哥留言，说我的法子行不通，瞬间就有点丈二和尚摸不着头脑。 他说自己做了几个Skill，发现WorkBuddy对于建筑施工方案，估计应该是图纸类的，提取信息的效果很差，而且存在不准确的情况。 假设建筑施工方案图纸是PDF格式的文件，或者是PNG和JPG的扫描截图也行，不是专业的DWG和DXF文件。那么提取里面的文字、图片、表格等信息，就取决于你用的是什么模型。 OCR模型与多模态模型各管一摊 一般来说分为专业的OCR识别模型和多模态模型，两者各有千秋。OCR模型是高精度的看图识字，对于复杂排版，密集多栏，倾斜标注或者手写字体等情况下的文字识别很稳定，极少会出现幻觉。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #OCR #WorkBuddy #经验分享 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487189.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="OCR"/>
-    <category term="WorkBuddy"/>
-    <category term="经验分享"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6487193.html</id>
-    <title>OpenAI 低成本新模型 GPT-6.1 Terra 深夜炸场：每项任务成本仅 Claude Opus 5.5 九分之一，更快更准确</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487193.html"/>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <published>2026-10-31T00:00:00Z</published>
-    <summary type="text">定位不是替代旗舰，而是承接高频Agent任务。GPT-6.1 Terra主打视觉理解、桌面操作与工具调用，速度约为前代三倍，单任务成本压到旗舰的九分之一。文章算了成本账，也点出权限与审计的隐患。 GPT-6.1 Terra 的产品定位很清楚：不是替代所有旗舰模型，而是用更低成本处理大量需要视觉理解、桌面操作和工具调用的…</summary>
-    <content type="html">&lt;p&gt;定位不是替代旗舰，而是承接高频Agent任务。GPT-6.1 Terra主打视觉理解、桌面操作与工具调用，速度约为前代三倍，单任务成本压到旗舰的九分之一。文章算了成本账，也点出权限与审计的隐患。 GPT-6.1 Terra 的产品定位很清楚：不是替代所有旗舰模型，而是用更低成本处理大量需要视觉理解、桌面操作和工具调用的工作。OpenAI 表示，它的任务执行速度超过 GPT-6 Astra 和 GPT-6.1 Sol 的 3 倍，最高推理强度下单任务成本约为 Claude Opus 5.5 的九分之一。 这类模型真正的价值，不在某一张跑分表，而在于能否把办公、财务、浏览器、代码和桌面软件操作变成稳定的自动化流程。模型越便宜，团队越可能把它放进更多任务；但调用规模扩大后，权限、审计和成本观测也必须同步升级。 不是最强模型，而是高频 Agent 的工作模型 GPT-6.1 Terra 面向希望降低自动化成本的企业和开发者。它重点强化视觉推理、电脑操作、事实准确率和编程能力，适合处理发票、技术图纸、桌面软件、表格和命令行任务。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #GPT-6 #OpenAI #行业动态 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487193.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="GPT-6"/>
-    <category term="OpenAI"/>
-    <category term="行业动态"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6487202.html</id>
-    <title>Fable 5.5测试曝光，Claude每次回答后，还会执行一条你看不到的指令</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487202.html"/>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <published>2026-10-31T00:00:00Z</published>
-    <summary type="text">用户发现部分Claude会话被路由到更新的模型，Fable 5.5仍在测试。更值得注意的是回答之后那条看不见的安全复盘指令，它不是实时拦截，却把生成与审查塞进同一条链路，代价与误判风险都要算。 Fable 5.5测试曝光，Claude每次回答后，还会执行一条你看不到的指令 Gemini 4 Carbon 刚进入讨论，A…</summary>
-    <content type="html">&lt;p&gt;用户发现部分Claude会话被路由到更新的模型，Fable 5.5仍在测试。更值得注意的是回答之后那条看不见的安全复盘指令，它不是实时拦截，却把生成与审查塞进同一条链路，代价与误判风险都要算。 Fable 5.5测试曝光，Claude每次回答后，还会执行一条你看不到的指令 Gemini 4 Carbon 刚进入讨论，Anthropic 新模型 Fable 5.5 又被曝出正在测试。用户反馈显示，部分 Opus 5.5 会话可能被路由到了更新的模型：它更能理解隐含目标，也更擅长复杂 SVG 和 Three.js 交互。 更值得关注的是自评估安全机制。Claude 完成回答后，会在用户看不到的上下文中追加安全复盘指令，判断整段对话是否可能涉及滥用，并把结果用于离线筛查。这不是实时拦截器，也不代表所有流量都会启用，但它把“模型生成”和“模型审查”放进了同一条工程链路。 Fable 5.5仍是测试传闻，不是正式发布 现有信息来自用户反馈和外部爆料，Anthropic 尚未正式公布 Fable 5.5 的名称、发布时间、完整能力或公开评测。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #AI应用 #Claude #Fable #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487202.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <id>https://www.woshipm.com/ai/6487382.html</id>
+    <title>从2D小游戏到3D赛车，EvoMeme把游戏创作搬进了AI工厂</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487382.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">EvoMeme 是盛趣游戏做的 AI 游戏创作平台，作者用它做了两款游戏：网页端生成的解压毛线小游戏，和配合 Codex 插件做的反重力赛车。文章记下快速与专业两种模式的差别、虚拟工作室的分工，也点明物理效果与手感仍要自己打磨。 AI游戏创作迎来新玩家。 一张堆满文件夹、咖啡杯和键盘的办公桌，几团彩色毛线缠在一起。 玩…</summary>
+    <content type="html">&lt;p&gt;EvoMeme 是盛趣游戏做的 AI 游戏创作平台，作者用它做了两款游戏：网页端生成的解压毛线小游戏，和配合 Codex 插件做的反重力赛车。文章记下快速与专业两种模式的差别、虚拟工作室的分工，也点明物理效果与手感仍要自己打磨。 AI游戏创作迎来新玩家。 一张堆满文件夹、咖啡杯和键盘的办公桌，几团彩色毛线缠在一起。 玩家要先找出没有被压住的线头，再按颜色收进线轴。抽对一根，屏幕就给出一次轻快的反馈。 这款叫做下班解压毛线的小游戏，是小编用 EvoMeme 做出来的。 EvoMeme 背后是世纪华通旗下的盛趣游戏。说起盛趣游戏，很多人可能更熟悉它以前的名字盛大游戏。 《热血传奇》《传奇世界》《泡泡堂》《龙之谷》等经典作品，陪伴过不少玩家的学生时代。 这几年，盛趣游戏也在尝试用 AI 辅助游戏开发。今年7月，盛趣游戏技术中心公布了自研 AI 编码平台易码 G-Work，可以让 AI 协助代码审查、架构分析和性能优化。 而这次的 EvoMeme 让普通用户也能参与游戏制作，只需要描述自己的想法，就能让 AI 帮忙完成后续开发。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #AI应用 #Codex #产品分析 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487382.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
     <category term="AI应用"/>
-    <category term="Claude"/>
-    <category term="Fable"/>
+    <category term="Codex"/>
+    <category term="产品分析"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6487276.html</id>
-    <title>AI电影，正在将电影院逼进“死胡同”</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487276.html"/>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <published>2026-10-31T00:00:00Z</published>
-    <summary type="text">AI院线电影《三星堆：未来往事》票房惨淡，仅121.6万元，却为行业投石问路。本文深度剖析AI电影遇冷的深层原因：技术瑕疵、票价体系不适配、年轻人远离影院。当AI颠覆制作流程，传统院线的商业模式与利益分配或将重新改写。 今年的院线，格外得冷。 五一档，首日票房1.6亿元，整个档期总票房破7亿元，相比2023年和2024…</summary>
-    <content type="html">&lt;p&gt;AI院线电影《三星堆：未来往事》票房惨淡，仅121.6万元，却为行业投石问路。本文深度剖析AI电影遇冷的深层原因：技术瑕疵、票价体系不适配、年轻人远离影院。当AI颠覆制作流程，传统院线的商业模式与利益分配或将重新改写。 今年的院线，格外得冷。 五一档，首日票房1.6亿元，整个档期总票房破7亿元，相比2023年和2024年超过15亿元的巅峰时期，近乎腰斩。到了十一档，票房依旧惨淡。电影总票房为11.65亿元，观影人次为3199.59万，同比去年下降37%，对比往年数据，更是直接回到了2014年的水平。 “我们以为去年已经触底了，现在看来，底还在更下面，”一位北京电影发行公司的项目经理坦言。 在这种寒意之下，一部名为《三星堆：未来往事》的电影悄悄上映。全流程AI制作、首部AI院线电影、未来科技等多重标签，成功为影片博得了一定的关注，资本市场更是表现出前所未有的兴奋，但它的票房比预期的还低： 据灯塔专业版数据，该片点映票房1.7万元，上映首日票房30.1万元。截至10月26日16时，累计综合票房（含预售）121.6万元，观影总人次达4.1万，AI预测总票房为260.9万元。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#AI #AI电影 #个人观点 #商业模式 #行业观察 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487276.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <id>https://www.woshipm.com/ai/6487440.html</id>
+    <title>WorkBuddy录音笔上线，会转写、能总结、可对话</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487440.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">AI 录音、转写、总结是常见办公场景，但 WorkBuddy 的录音笔藏在 APP 里，桌面端并没有开放。完整链路走了一遍：云端模式开启录音、转写能区分发言人、总结给出核心事件与待办，录音还能直接拉进对话。桌面端为什么不做，给了几个解释。 AI 录音，录音后转译、 AI总结，是常见的办公场景。 作为 AI Agent…</summary>
+    <content type="html">&lt;p&gt;AI 录音、转写、总结是常见办公场景，但 WorkBuddy 的录音笔藏在 APP 里，桌面端并没有开放。完整链路走了一遍：云端模式开启录音、转写能区分发言人、总结给出核心事件与待办，录音还能直接拉进对话。桌面端为什么不做，给了几个解释。 AI 录音，录音后转译、 AI总结，是常见的办公场景。 作为 AI Agent 办公新范式的 WorkBuddy ，功能非常丰富。 但为何 WorkBuddy 没有 AI 录音笔功能，来覆盖这个会议记录的场景呢？ 其实，WorkBuddy是有AI 录音笔的，只是很多人不知道而已。 这个功能，没有在桌面端，而是隐藏在 WorkBuddy APP里。 打开WorkBuddy APP，切换到云端模式下，就可打开 WorkBuddy 的 AI 录音笔了。 启动录音笔，进行录音。 可以看到，一个机器猫的黑胶片在开始收音了，挺有设计感的。 离开当前录音页面，也不影响录音。 完成录音，录音产物，会上传到 WorkBuddy 资料库存储。 点开 WorkBuddy 录音文件，可以看到有 AI 转写、AI 总结两个功能。 AI 转写，是逐字稿，可区分发言人。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #AI应用 #AI录音 #WorkBuddy #办公协同&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487440.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
-    <category term="AI电影"/>
-    <category term="个人观点"/>
-    <category term="商业模式"/>
-    <category term="行业观察"/>
+    <category term="个人随笔"/>
+    <category term="AI应用"/>
+    <category term="AI录音"/>
+    <category term="WorkBuddy"/>
+    <category term="办公协同"/>
     <category term="产品"/>
     <category term="运营"/>
-    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6487435.html</id>
+    <title>ChatGPT和Codex要共用额度了，无限聊天的时代结束了。</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487435.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">OpenAI 凌晨悄悄更新帮助文档：从 12 月起，Plus 和 Pro 用户的 ChatGPT 与 Codex 用量合并成同一个 Token 池。聊天再也不是近乎无限，重度用户的第一反应是天塌了。从自制硬件讲到 2023 年 GPT-4 上线的日子。 今天凌晨，本来在快快乐乐一边打《影之刃零》一边Vibe Codin…</summary>
+    <content type="html">&lt;p&gt;OpenAI 凌晨悄悄更新帮助文档：从 12 月起，Plus 和 Pro 用户的 ChatGPT 与 Codex 用量合并成同一个 Token 池。聊天再也不是近乎无限，重度用户的第一反应是天塌了。从自制硬件讲到 2023 年 GPT-4 上线的日子。 今天凌晨，本来在快快乐乐一边打《影之刃零》一边Vibe Coding我的小产品中。 然后AIHOT就给我弹了一条消息，点进去一看原文，瞬间感觉天塌了，我相信，任何一个ChatGPT重度用户，都会跟我有一样的感觉。 OpenAI凌晨偷偷更新的帮助文档，没有任何官方公告。。 大概意思就是，从12月开始，订阅了Plus、Pro的用户，ChatGPT和Codex的用量，就要合并成同一个额度了。 以后不管你是在ChatGPT里聊天，还是在Codex里写代码，扣的都是同一个池子，而且统一按Token来算，你选的模型越高级，思考深度越深，让它干的活越复杂，额度扣的就越多。 ChatGPT的聊天额度，再也不是近乎无限的了。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #AI编程 #ChatGPT #Codex #OpenAI&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487435.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI编程"/>
+    <category term="ChatGPT"/>
+    <category term="Codex"/>
+    <category term="OpenAI"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6487447.html</id>
+    <title>60亿播放的漫剧赚不到100万</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487447.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">做 AI 漫剧，内容方得赌爆款，平台却不用押注某一部剧。字节手里握着两张牌：番茄开放六万余部原创 IP，红果日活 1.68 亿。把分账公式、广告成交价和监管节点一层层拆开，才算得清这门生意里究竟谁掌握着分钱的规则。 做AI漫剧，内容方得赌爆款，平台却不用押注某一部剧。 一部剧扑了，内容方可能连成本都收不回来，从买IP到…</summary>
+    <content type="html">&lt;p&gt;做 AI 漫剧，内容方得赌爆款，平台却不用押注某一部剧。字节手里握着两张牌：番茄开放六万余部原创 IP，红果日活 1.68 亿。把分账公式、广告成交价和监管节点一层层拆开，才算得清这门生意里究竟谁掌握着分钱的规则。 做AI漫剧，内容方得赌爆款，平台却不用押注某一部剧。 一部剧扑了，内容方可能连成本都收不回来，从买IP到制作完成，钱是一笔一笔垫进去的，播出来没人看，这些钱就沉在片库里。 平台不一样，只要用户还在，换一部剧接着播，广告位照样能卖。 所以，这门生意最值得算的是谁掌握着分钱的规则。 …… 字节系手里的两张牌。 番茄开放了6万余部原创IP，供漫剧改编。红果那边，2026年7月日活1.68亿。按QuestMobile的口径，这个日活比爱优腾芒四家加起来还多。 一个握着故事，一个掌握流量出口。 红果2026年上半年核心营收约200亿元，97%来自广告，同比增长约87%；特别注意，这是媒体测算。 广告主这一头；红果给品牌方的报价，是每千次曝光25元，中插广告强制播放5秒。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #商业模式 #字节跳动 #漫剧 #短剧&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487447.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="商业模式"/>
+    <category term="字节跳动"/>
+    <category term="漫剧"/>
+    <category term="短剧"/>
+    <category term="产品"/>
+    <category term="运营"/>
   </entry>
 </feed>

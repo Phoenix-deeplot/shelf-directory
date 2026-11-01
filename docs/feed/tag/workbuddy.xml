@@ -4,60 +4,42 @@
   <title>知树阅读-个人图书空间 · #WorkBuddy</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/workbuddy.xml"/>
-  <updated>2026-10-31T00:00:00Z</updated>
+  <updated>2026-11-01T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6487296.html</id>
-    <title>豆包学WorkBuddy，天天签到领额度，还开放模型</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487296.html"/>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <published>2026-10-31T00:00:00Z</published>
-    <summary type="text">豆包把 WorkBuddy 那套每日签到领额度的玩法搬了过来，还顺手开放了模型选择。文章逐屏过了一遍签到入口、任务中心、额度兑换和模型下拉框，并算清每天到底能薅到多少额度。 AI Agent 时代，积分就是生产力。 每天早上WorkBuddy 签到领积分，已成了很多用户的习惯，我也是如此。 我担心每天忘记签到，还自己设…</summary>
-    <content type="html">&lt;p&gt;豆包把 WorkBuddy 那套每日签到领额度的玩法搬了过来，还顺手开放了模型选择。文章逐屏过了一遍签到入口、任务中心、额度兑换和模型下拉框，并算清每天到底能薅到多少额度。 AI Agent 时代，积分就是生产力。 每天早上WorkBuddy 签到领积分，已成了很多用户的习惯，我也是如此。 我担心每天忘记签到，还自己设了个定时任务。 每天自动执行去领取，一天都不错过。 并且，没事就去看看 WorkBuddy 的任务，看看是不是能薅点积分。 这一个月下来，每天就靠薅羊毛、领鸡蛋，就能满足日常做任务、办公需要。 积分不够时，再单独买点积分包，按需购买。就算不充会员，积分也够用。 免费积分领取和积分任务，已成了WorkBuddy 的获客、促活、教育用户使用 WorkBuddy 的神器。 也该如此，积分，本来就是天然的运营神器。 近日，打开豆包，发现画风变了。 豆包也可以签到领额度了。豆包的积分，叫额度。 并且，力度比WorkBuddy 还大。 每周一，签到领额度翻倍，400 额度。平日是 200 额度。 豆包和 WorkBuddy 一样，上线了任务中心。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #WorkBuddy #产品分析 #豆包 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487296.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <id>https://www.woshipm.com/ai/6487373.html</id>
+    <title>教你用WorkBuddy自动生成3D模型</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487373.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">DeepSeek-V4.1-Flash 发布后，用 WorkBuddy 自动操作 Blender 建模的效果有了起色。文章从装软件开始，用一句提示词建出一幢九十年代居民楼，再把 blend 转成 glb 挂到网页上在线预览，并划清哪些做法算作弊。 在GPT6模型发布的时候，不知道有多少小伙伴还记得，很多AI博主拿这个模…</summary>
+    <content type="html">&lt;p&gt;DeepSeek-V4.1-Flash 发布后，用 WorkBuddy 自动操作 Blender 建模的效果有了起色。文章从装软件开始，用一句提示词建出一幢九十年代居民楼，再把 blend 转成 glb 挂到网页上在线预览，并划清哪些做法算作弊。 在GPT6模型发布的时候，不知道有多少小伙伴还记得，很多AI博主拿这个模型，使用Codex的Computer Use能力，自动操作开源的3D建模软件Blender，做出很多不错的3D模型效果。 但很多人一时兴起玩玩热情就过去了，老马当时也用Codex搓了个网页版的3D展厅设计，不得不说也体会了一把非专业人士的乐趣。后来换成WorkBuddy，使用国产模型去复现，始终效果不如意。 直到10月17日Deepseek-V4.1-Flash模型的发布，这款大肥鱼针对3D建模和许愿式编程都好像做了一些优化。因此结合上一篇文章给大家介绍WorkBuddy的Computer Use能力： 今天老马将继续给大家演示用WorkBuddy来自动操作Blender，自动生成各种3D模型，看看到底能达到GPT6+Codex几成的功力。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #Blender #WorkBuddy #经验分享 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487373.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="WorkBuddy"/>
-    <category term="产品分析"/>
-    <category term="豆包"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6487352.html</id>
-    <title>腾讯又出新Buddy，WorkBuddy多了个兄弟</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487352.html"/>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <published>2026-10-31T00:00:00Z</published>
-    <summary type="text">腾讯的AI产品，多的有点像在批量招员工。 打工人有WorkBuddy，程序员有CodeBuddy，搞数据的有DataBuddy，学生有LearnBuddy。 现在，连搞音乐的都安排上了。 腾讯音乐又推出了一款AI音乐创作产品，名字叫MusicBuddy，官网已经上线，目前处于内测阶段。曹哥第一时间拿到了内测权限体验，就…</summary>
-    <content type="html">&lt;p&gt;腾讯的AI产品，多的有点像在批量招员工。 打工人有WorkBuddy，程序员有CodeBuddy，搞数据的有DataBuddy，学生有LearnBuddy。 现在，连搞音乐的都安排上了。 腾讯音乐又推出了一款AI音乐创作产品，名字叫MusicBuddy，官网已经上线，目前处于内测阶段。曹哥第一时间拿到了内测权限体验，就迫不及待的为2026AI产品大会创作了一首主题曲，没想到居然挺不错。 腾讯的Buddy家族越来越热闹了。以后一个人创业，可能都不需要招几个人，直接给自己配上一支Buddy团队：WorkBuddy负责日常办公，CodeBuddy帮忙写代码，DataBuddy处理数据，再让MusicBuddy给公司写首主题曲。 如果以后再来个SalesBuddy负责销售，FinanceBuddy负责算账，老板估计做梦都能笑醒。 玩笑归玩笑，MusicBuddy这次还真有些看点。 我还专门找到了MusicBuddy的相关负责人聊了聊，他们提到一个挺有意思的产品愿景：希望MusicBuddy成为音乐人专属的音乐搭子，帮助音乐人实现“一人厂牌”（OPC），也希望人人都能成为音乐人。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#AI #WorkBuddy #工作流 #程序员 #腾讯 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487352.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="WorkBuddy"/>
-    <category term="工作流"/>
-    <category term="程序员"/>
-    <category term="腾讯"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6487189.html</id>
-    <title>WorkBuddy本地部署超强OCR识别小模型</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487189.html"/>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <published>2026-10-31T00:00:00Z</published>
-    <summary type="text">建筑图纸里的文字表格总提取不准，问题常常不在提示词，而在模型选型。这篇区分OCR专用模型与多模态模型的边界，用一段提示词把MiniCPM-OCR部署到本地，再拿25页施工图纸实测识别效果。 今天来填个坑的，之前老马写过一篇建筑行业怎么使用WorkBuddy来进行AI办公提升效率的文章。有位从业老哥留言，说我的法子行不通…</summary>
-    <content type="html">&lt;p&gt;建筑图纸里的文字表格总提取不准，问题常常不在提示词，而在模型选型。这篇区分OCR专用模型与多模态模型的边界，用一段提示词把MiniCPM-OCR部署到本地，再拿25页施工图纸实测识别效果。 今天来填个坑的，之前老马写过一篇建筑行业怎么使用WorkBuddy来进行AI办公提升效率的文章。有位从业老哥留言，说我的法子行不通，瞬间就有点丈二和尚摸不着头脑。 他说自己做了几个Skill，发现WorkBuddy对于建筑施工方案，估计应该是图纸类的，提取信息的效果很差，而且存在不准确的情况。 假设建筑施工方案图纸是PDF格式的文件，或者是PNG和JPG的扫描截图也行，不是专业的DWG和DXF文件。那么提取里面的文字、图片、表格等信息，就取决于你用的是什么模型。 OCR模型与多模态模型各管一摊 一般来说分为专业的OCR识别模型和多模态模型，两者各有千秋。OCR模型是高精度的看图识字，对于复杂排版，密集多栏，倾斜标注或者手写字体等情况下的文字识别很稳定，极少会出现幻觉。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-10-31&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #OCR #WorkBuddy #经验分享 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487189.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="OCR"/>
+    <category term="Blender"/>
     <category term="WorkBuddy"/>
     <category term="经验分享"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6487440.html</id>
+    <title>WorkBuddy录音笔上线，会转写、能总结、可对话</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487440.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">AI 录音、转写、总结是常见办公场景，但 WorkBuddy 的录音笔藏在 APP 里，桌面端并没有开放。完整链路走了一遍：云端模式开启录音、转写能区分发言人、总结给出核心事件与待办，录音还能直接拉进对话。桌面端为什么不做，给了几个解释。 AI 录音，录音后转译、 AI总结，是常见的办公场景。 作为 AI Agent…</summary>
+    <content type="html">&lt;p&gt;AI 录音、转写、总结是常见办公场景，但 WorkBuddy 的录音笔藏在 APP 里，桌面端并没有开放。完整链路走了一遍：云端模式开启录音、转写能区分发言人、总结给出核心事件与待办，录音还能直接拉进对话。桌面端为什么不做，给了几个解释。 AI 录音，录音后转译、 AI总结，是常见的办公场景。 作为 AI Agent 办公新范式的 WorkBuddy ，功能非常丰富。 但为何 WorkBuddy 没有 AI 录音笔功能，来覆盖这个会议记录的场景呢？ 其实，WorkBuddy是有AI 录音笔的，只是很多人不知道而已。 这个功能，没有在桌面端，而是隐藏在 WorkBuddy APP里。 打开WorkBuddy APP，切换到云端模式下，就可打开 WorkBuddy 的 AI 录音笔了。 启动录音笔，进行录音。 可以看到，一个机器猫的黑胶片在开始收音了，挺有设计感的。 离开当前录音页面，也不影响录音。 完成录音，录音产物，会上传到 WorkBuddy 资料库存储。 点开 WorkBuddy 录音文件，可以看到有 AI 转写、AI 总结两个功能。 AI 转写，是逐字稿，可区分发言人。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #AI应用 #AI录音 #WorkBuddy #办公协同&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487440.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI应用"/>
+    <category term="AI录音"/>
+    <category term="WorkBuddy"/>
+    <category term="办公协同"/>
+    <category term="产品"/>
+    <category term="运营"/>
   </entry>
 </feed>

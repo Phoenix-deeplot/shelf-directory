@@ -9,20 +9,47 @@
   },
   "items": [
     {
-      "id": "https://slate.com/life/2026/10/halloween-cocktail-ideas-recipes-for-party.html?via=rss",
-      "url": "https://slate.com/life/2026/10/halloween-cocktail-ideas-recipes-for-party.html?via=rss",
-      "title": "Forget Body Horror and Blood Spatters. There’s an Even Grosser Part of Halloween That Needs to Be Eviscerated.",
-      "content_html": "<p><img src=\"https://compote.slate.com/images/a4b10575-ddae-4893-938d-5840b79bfd9e.jpeg?crop=1372%2C915%2Cx188%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>These are the true nightmares before Christmas.</p><p>Source: Slate Magazine · 2026-10-30</p><p>Tags: #Cooking #Food #Halloween #Holidays #Drink #评论</p><p><a href=\"https://slate.com/life/2026/10/halloween-cocktail-ideas-recipes-for-party.html?via=rss\">Read the original →</a></p>",
-      "content_text": "These are the true nightmares before Christmas.",
-      "summary": "These are the true nightmares before Christmas.",
-      "date_published": "2026-10-30T00:00:00Z",
-      "image": "https://compote.slate.com/images/a4b10575-ddae-4893-938d-5840b79bfd9e.jpeg?crop=1372%2C915%2Cx188%2Cy0",
+      "id": "https://slate.com/life/2026/10/giant-skeleton-halloween-decoration-home-depot-disposal.html?via=rss",
+      "url": "https://slate.com/life/2026/10/giant-skeleton-halloween-decoration-home-depot-disposal.html?via=rss",
+      "title": "It’s the Most Popular Halloween Decoration of Our Time. But It’s Posing a Very Big Problem for Owners.",
+      "content_html": "<p><img src=\"https://compote.slate.com/images/c6e6f33f-1bcb-435a-9d7a-a113bbd938f6.jpeg?crop=1560%2C1040%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>So many bones to sort!</p><p>Source: Slate Magazine · 2026-10-31</p><p>Tags: #Climate Change #Halloween #Holidays #Infrastructure #New York City #评论</p><p><a href=\"https://slate.com/life/2026/10/giant-skeleton-halloween-decoration-home-depot-disposal.html?via=rss\">Read the original →</a></p>",
+      "content_text": "So many bones to sort!",
+      "summary": "So many bones to sort!",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://compote.slate.com/images/c6e6f33f-1bcb-435a-9d7a-a113bbd938f6.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
       "tags": [
-        "Cooking",
-        "Food",
+        "Climate Change",
         "Halloween",
         "Holidays",
-        "Drink",
+        "Infrastructure",
+        "New York City",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/life/2026/10/halloween-party-music-horror-sounds-of-night.html?via=rss",
+      "url": "https://slate.com/life/2026/10/halloween-party-music-horror-sounds-of-night.html?via=rss",
+      "title": "A Halloween Cassette Tape Has Haunted Me Since Childhood. You’ve Definitely Heard It, Too.",
+      "content_html": "<p><img src=\"https://compote.slate.com/images/efeb554b-4e31-45fd-a92d-8596e44c1804.jpeg?crop=1560%2C1040%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>It’s not as if bad things ever happen to horror-movie characters who play mysterious tapes. Right?</p><p>Source: Slate Magazine · 2026-10-31</p><p>Tags: #Halloween #History #Holidays #Music #评论 #文化</p><p><a href=\"https://slate.com/life/2026/10/halloween-party-music-horror-sounds-of-night.html?via=rss\">Read the original →</a></p>",
+      "content_text": "It’s not as if bad things ever happen to horror-movie characters who play mysterious tapes. Right?",
+      "summary": "It’s not as if bad things ever happen to horror-movie characters who play mysterious tapes. Right?",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://compote.slate.com/images/efeb554b-4e31-45fd-a92d-8596e44c1804.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Halloween",
+        "History",
+        "Holidays",
+        "Music",
         "评论",
         "文化"
       ],

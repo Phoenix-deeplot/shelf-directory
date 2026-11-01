@@ -9,6 +9,35 @@
   },
   "items": [
     {
+      "id": "https://slate.com/news-and-politics/2026/10/2026-election-news-donald-trump-mary-peltola-threats.html?via=rss",
+      "url": "https://slate.com/news-and-politics/2026/10/2026-election-news-donald-trump-mary-peltola-threats.html?via=rss",
+      "title": "The One Real Danger of Donald Trump’s Mary Peltola Threats",
+      "content_html": "<p><img src=\"https://compote.slate.com/images/5ab95da4-0baa-4d6b-93df-9c033911c539.jpeg?crop=1560%2C1040%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>He could threaten certificaiton.</p><p>Source: Slate Magazine · 2026-10-31</p><p>Tags: #Donald Trump #Jurisprudence #Senate #Alaska #Capitol Riot #2026 Midterms</p><p><a href=\"https://slate.com/news-and-politics/2026/10/2026-election-news-donald-trump-mary-peltola-threats.html?via=rss\">Read the original →</a></p>",
+      "content_text": "He could threaten certificaiton.",
+      "summary": "He could threaten certificaiton.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://compote.slate.com/images/5ab95da4-0baa-4d6b-93df-9c033911c539.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Donald Trump",
+        "Jurisprudence",
+        "Senate",
+        "Alaska",
+        "Capitol Riot",
+        "2026 Midterms",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
       "id": "https://slate.com/news-and-politics/2026/10/2026-election-news-alaska-dan-sullivan-shenanigans.html?via=rss",
       "url": "https://slate.com/news-and-politics/2026/10/2026-election-news-alaska-dan-sullivan-shenanigans.html?via=rss",
       "title": "The Truth About the Alaska Dan Sullivan Shenanigans",

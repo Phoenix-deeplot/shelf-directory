@@ -9,6 +9,32 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/story/a-newly-discovered-trail-of-cosmic-debris-illustrates-what-the-end-of-the-solar-system-could-look-like/",
+      "url": "https://www.wired.com/story/a-newly-discovered-trail-of-cosmic-debris-illustrates-what-the-end-of-the-solar-system-could-look-like/",
+      "title": "A Newly Discovered Trail of Cosmic Debris Illustrates How the End of the Solar System Could Look",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae377e1cbf5d13e90635178/master/pass/eso2613a.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>A dying star 1,600 light-years from Earth is surrounded by two rings of gas and dust that astronomers believe are the remnants of the planetary bodies it once h…</p><p>Source: WIRED · 2026-11-01</p><p>Tags: #Science #Science / Space #Put a Ring on It #科技 #社会</p><p><a href=\"https://www.wired.com/story/a-newly-discovered-trail-of-cosmic-debris-illustrates-what-the-end-of-the-solar-system-could-look-like/\">Read the original →</a></p>",
+      "content_text": "A dying star 1,600 light-years from Earth is surrounded by two rings of gas and dust that astronomers believe are the remnants of the planetary bodies it once h…",
+      "summary": "A dying star 1,600 light-years from Earth is surrounded by two rings of gas and dust that astronomers believe are the remnants of the planetary bodies it once h…",
+      "date_published": "2026-11-01T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae377e1cbf5d13e90635178/master/pass/eso2613a.jpg",
+      "tags": [
+        "Science",
+        "Science / Space",
+        "Put a Ring on It",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/white-dwarfs-arent-just-white-scientists-discover-dying-stars-turning-pink-and-green/",
       "url": "https://www.wired.com/story/white-dwarfs-arent-just-white-scientists-discover-dying-stars-turning-pink-and-green/",
       "title": "White Dwarfs Aren’t Just White. Scientists Discover Dying Stars Turning Pink and Green",
@@ -46,6 +72,32 @@
       "tags": [
         "Science",
         "Worm Eat Worm World",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
+      "id": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+      "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+      "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae4d6bbd55a0e2bc0a8d990/master/pass/103026-AI%20Mouse%2002.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>A biotech startup let an agent choose a gene therapy and successfully inject the treatment, offering a startling glimpse of the future of research labs.</p><p>Source: WIRED · 2026-10-31</p><p>Tags: #Science #Science / Biotech #Not Brain Surg—Oh #科技 #社会</p><p><a href=\"https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/\">Read the original →</a></p>",
+      "content_text": "A biotech startup let an agent choose a gene therapy and successfully inject the treatment, offering a startling glimpse of the future of research labs.",
+      "summary": "A biotech startup let an agent choose a gene therapy and successfully inject the treatment, offering a startling glimpse of the future of research labs.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae4d6bbd55a0e2bc0a8d990/master/pass/103026-AI%20Mouse%2002.jpg",
+      "tags": [
+        "Science",
+        "Science / Biotech",
+        "Not Brain Surg—Oh",
         "科技",
         "社会"
       ],

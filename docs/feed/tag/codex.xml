@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/codex.xml</id>
+  <title>知树阅读-个人图书空间 · #Codex</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/codex.xml"/>
+  <updated>2026-11-01T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.woshipm.com/ai/6487382.html</id>
+    <title>从2D小游戏到3D赛车，EvoMeme把游戏创作搬进了AI工厂</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487382.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">EvoMeme 是盛趣游戏做的 AI 游戏创作平台，作者用它做了两款游戏：网页端生成的解压毛线小游戏，和配合 Codex 插件做的反重力赛车。文章记下快速与专业两种模式的差别、虚拟工作室的分工，也点明物理效果与手感仍要自己打磨。 AI游戏创作迎来新玩家。 一张堆满文件夹、咖啡杯和键盘的办公桌，几团彩色毛线缠在一起。 玩…</summary>
+    <content type="html">&lt;p&gt;EvoMeme 是盛趣游戏做的 AI 游戏创作平台，作者用它做了两款游戏：网页端生成的解压毛线小游戏，和配合 Codex 插件做的反重力赛车。文章记下快速与专业两种模式的差别、虚拟工作室的分工，也点明物理效果与手感仍要自己打磨。 AI游戏创作迎来新玩家。 一张堆满文件夹、咖啡杯和键盘的办公桌，几团彩色毛线缠在一起。 玩家要先找出没有被压住的线头，再按颜色收进线轴。抽对一根，屏幕就给出一次轻快的反馈。 这款叫做下班解压毛线的小游戏，是小编用 EvoMeme 做出来的。 EvoMeme 背后是世纪华通旗下的盛趣游戏。说起盛趣游戏，很多人可能更熟悉它以前的名字盛大游戏。 《热血传奇》《传奇世界》《泡泡堂》《龙之谷》等经典作品，陪伴过不少玩家的学生时代。 这几年，盛趣游戏也在尝试用 AI 辅助游戏开发。今年7月，盛趣游戏技术中心公布了自研 AI 编码平台易码 G-Work，可以让 AI 协助代码审查、架构分析和性能优化。 而这次的 EvoMeme 让普通用户也能参与游戏制作，只需要描述自己的想法，就能让 AI 帮忙完成后续开发。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #AI应用 #Codex #产品分析 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487382.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI应用"/>
+    <category term="Codex"/>
+    <category term="产品分析"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6487435.html</id>
+    <title>ChatGPT和Codex要共用额度了，无限聊天的时代结束了。</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487435.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">OpenAI 凌晨悄悄更新帮助文档：从 12 月起，Plus 和 Pro 用户的 ChatGPT 与 Codex 用量合并成同一个 Token 池。聊天再也不是近乎无限，重度用户的第一反应是天塌了。从自制硬件讲到 2023 年 GPT-4 上线的日子。 今天凌晨，本来在快快乐乐一边打《影之刃零》一边Vibe Codin…</summary>
+    <content type="html">&lt;p&gt;OpenAI 凌晨悄悄更新帮助文档：从 12 月起，Plus 和 Pro 用户的 ChatGPT 与 Codex 用量合并成同一个 Token 池。聊天再也不是近乎无限，重度用户的第一反应是天塌了。从自制硬件讲到 2023 年 GPT-4 上线的日子。 今天凌晨，本来在快快乐乐一边打《影之刃零》一边Vibe Coding我的小产品中。 然后AIHOT就给我弹了一条消息，点进去一看原文，瞬间感觉天塌了，我相信，任何一个ChatGPT重度用户，都会跟我有一样的感觉。 OpenAI凌晨偷偷更新的帮助文档，没有任何官方公告。。 大概意思就是，从12月开始，订阅了Plus、Pro的用户，ChatGPT和Codex的用量，就要合并成同一个额度了。 以后不管你是在ChatGPT里聊天，还是在Codex里写代码，扣的都是同一个池子，而且统一按Token来算，你选的模型越高级，思考深度越深，让它干的活越复杂，额度扣的就越多。 ChatGPT的聊天额度，再也不是近乎无限的了。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #AI编程 #ChatGPT #Codex #OpenAI&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487435.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI编程"/>
+    <category term="ChatGPT"/>
+    <category term="Codex"/>
+    <category term="OpenAI"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+</feed>

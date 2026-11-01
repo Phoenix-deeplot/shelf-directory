@@ -4,22 +4,38 @@
   <title>知树阅读-个人图书空间 · #Holidays</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/holidays.xml"/>
-  <updated>2026-10-30T00:00:00Z</updated>
+  <updated>2026-10-31T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://slate.com/life/2026/10/halloween-cocktail-ideas-recipes-for-party.html?via=rss</id>
-    <title>Forget Body Horror and Blood Spatters. There’s an Even Grosser Part of Halloween That Needs to Be Eviscerated.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/halloween-cocktail-ideas-recipes-for-party.html?via=rss"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">These are the true nightmares before Christmas.</summary>
-    <content type="html">&lt;p&gt;&lt;img src="https://compote.slate.com/images/a4b10575-ddae-4893-938d-5840b79bfd9e.jpeg?crop=1372%2C915%2Cx188%2Cy0" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;These are the true nightmares before Christmas.&lt;/p&gt;&lt;p&gt;Source: Slate Magazine · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #Cooking #Food #Halloween #Holidays #Drink #评论&lt;/p&gt;&lt;p&gt;&lt;a href="https://slate.com/life/2026/10/halloween-cocktail-ideas-recipes-for-party.html?via=rss"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <id>https://slate.com/life/2026/10/giant-skeleton-halloween-decoration-home-depot-disposal.html?via=rss</id>
+    <title>It’s the Most Popular Halloween Decoration of Our Time. But It’s Posing a Very Big Problem for Owners.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/giant-skeleton-halloween-decoration-home-depot-disposal.html?via=rss"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">So many bones to sort!</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://compote.slate.com/images/c6e6f33f-1bcb-435a-9d7a-a113bbd938f6.jpeg?crop=1560%2C1040%2Cx0%2Cy0" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;So many bones to sort!&lt;/p&gt;&lt;p&gt;Source: Slate Magazine · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #Climate Change #Halloween #Holidays #Infrastructure #New York City #评论&lt;/p&gt;&lt;p&gt;&lt;a href="https://slate.com/life/2026/10/giant-skeleton-halloween-decoration-home-depot-disposal.html?via=rss"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Slate Magazine</title></source>
-    <category term="Cooking"/>
-    <category term="Food"/>
+    <category term="Climate Change"/>
     <category term="Halloween"/>
     <category term="Holidays"/>
-    <category term="Drink"/>
+    <category term="Infrastructure"/>
+    <category term="New York City"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+  <entry>
+    <id>https://slate.com/life/2026/10/halloween-party-music-horror-sounds-of-night.html?via=rss</id>
+    <title>A Halloween Cassette Tape Has Haunted Me Since Childhood. You’ve Definitely Heard It, Too.</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/halloween-party-music-horror-sounds-of-night.html?via=rss"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">It’s not as if bad things ever happen to horror-movie characters who play mysterious tapes. Right?</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://compote.slate.com/images/efeb554b-4e31-45fd-a92d-8596e44c1804.jpeg?crop=1560%2C1040%2Cx0%2Cy0" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;It’s not as if bad things ever happen to horror-movie characters who play mysterious tapes. Right?&lt;/p&gt;&lt;p&gt;Source: Slate Magazine · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #Halloween #History #Holidays #Music #评论 #文化&lt;/p&gt;&lt;p&gt;&lt;a href="https://slate.com/life/2026/10/halloween-party-music-horror-sounds-of-night.html?via=rss"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>Slate Magazine</title></source>
+    <category term="Halloween"/>
+    <category term="History"/>
+    <category term="Holidays"/>
+    <category term="Music"/>
     <category term="评论"/>
     <category term="文化"/>
   </entry>

@@ -111,11 +111,11 @@
   "image": "",
   "tags": []
  },
- "fails": 0,
+ "fails": 1,
  "kind": "feed",
  "parser": 4,
- "status": "ok",
- "error": "",
+ "status": "error",
+ "error": "网站返回了错误（HTTP 502）",
  "etag": "",
  "modified": ""
 }

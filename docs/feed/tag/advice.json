@@ -9,18 +9,123 @@
   },
   "items": [
     {
-      "id": "https://slate.com/advice/2026/10/sex-advice-medical-knowledge-in-bed.html?via=rss",
-      "url": "https://slate.com/advice/2026/10/sex-advice-medical-knowledge-in-bed.html?via=rss",
-      "title": "One Night, a Woman Blew My Mind in the Bedroom in a Very Specific Way. I’ve Been Trying to Recreate It Ever Since.",
-      "content_html": "<p><img src=\"https://compote.slate.com/images/2915aa0d-9d10-47f5-904a-8621328ef647.gif?crop=1560%2C1040%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>How do I find partners who will be as into this as I am?</p><p>Source: Slate Magazine · 2026-10-30</p><p>Tags: #Advice #Dating and Relationships #Sex #评论 #文化</p><p><a href=\"https://slate.com/advice/2026/10/sex-advice-medical-knowledge-in-bed.html?via=rss\">Read the original →</a></p>",
-      "content_text": "How do I find partners who will be as into this as I am?",
-      "summary": "How do I find partners who will be as into this as I am?",
-      "date_published": "2026-10-30T00:00:00Z",
-      "image": "https://compote.slate.com/images/2915aa0d-9d10-47f5-904a-8621328ef647.gif?crop=1560%2C1040%2Cx0%2Cy0",
+      "id": "https://slate.com/advice/2026/10/sex-advice-age-gap-gay-man-male-friend.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/sex-advice-age-gap-gay-man-male-friend.html?via=rss",
+      "title": "My Husband and I Are Super Into Our Sexy New Friend. Everyone Else Thinks We’re Being Creepy.",
+      "content_html": "<p><img src=\"https://compote.slate.com/images/3372ebbc-2480-462f-9235-81e4573f202b.gif?crop=1560%2C1040%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>I&#39;m not sure why everyone has a problem with this.</p><p>Source: Slate Magazine · 2026-10-31</p><p>Tags: #Advice #Sex #评论 #文化</p><p><a href=\"https://slate.com/advice/2026/10/sex-advice-age-gap-gay-man-male-friend.html?via=rss\">Read the original →</a></p>",
+      "content_text": "I'm not sure why everyone has a problem with this.",
+      "summary": "I'm not sure why everyone has a problem with this.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://compote.slate.com/images/3372ebbc-2480-462f-9235-81e4573f202b.gif?crop=1560%2C1040%2Cx0%2Cy0",
       "tags": [
         "Advice",
-        "Dating and Relationships",
         "Sex",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/parent-advice-ex-husband-divorce-child-reaction.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/parent-advice-ex-husband-divorce-child-reaction.html?via=rss",
+      "title": "My Ex-Husband Horribly Betrayed Me. But I’m Not Sure My Daughter’s Reaction Is Good for Her.",
+      "content_html": "<p><img src=\"https://compote.slate.com/images/03d6cbb0-290b-46dc-8fc8-bfc020c8c78c.jpeg?crop=1560%2C1040%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Maybe I should step in.</p><p>Source: Slate Magazine · 2026-10-31</p><p>Tags: #Advice #Family #Kids #Parenting #评论 #文化</p><p><a href=\"https://slate.com/advice/2026/10/parent-advice-ex-husband-divorce-child-reaction.html?via=rss\">Read the original →</a></p>",
+      "content_text": "Maybe I should step in.",
+      "summary": "Maybe I should step in.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://compote.slate.com/images/03d6cbb0-290b-46dc-8fc8-bfc020c8c78c.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Family",
+        "Kids",
+        "Parenting",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/parenting-advice-bully-curse-doll.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/parenting-advice-bully-curse-doll.html?via=rss",
+      "title": "My Daughter Has a New Approach for Dealing With Her Bully. I’m Not Sure About This.",
+      "content_html": "<p><img src=\"https://compote.slate.com/images/6e73d9fb-051c-41e8-9c11-e24bc7c0e294.jpeg?crop=1560%2C1040%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>This seems mean-spirited.</p><p>Source: Slate Magazine · 2026-10-31</p><p>Tags: #Advice #Family #Kids #评论 #文化</p><p><a href=\"https://slate.com/advice/2026/10/parenting-advice-bully-curse-doll.html?via=rss\">Read the original →</a></p>",
+      "content_text": "This seems mean-spirited.",
+      "summary": "This seems mean-spirited.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://compote.slate.com/images/6e73d9fb-051c-41e8-9c11-e24bc7c0e294.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Family",
+        "Kids",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/dear-prudence-boyfriend-deep-cleaning-nasty-surprise.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/dear-prudence-boyfriend-deep-cleaning-nasty-surprise.html?via=rss",
+      "title": "Help! I Surprised My Messy Boyfriend With a Deep Cleaning. The Outrageous Thing He Said About It Could Not Have Been Weirder.",
+      "content_html": "<p><img src=\"https://compote.slate.com/images/635ad8b7-5dc4-47fe-98b6-1c7c68f27631.jpeg?crop=1560%2C1040%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>When I decided to help out with his pigsty, I certainly didn’t expect this!</p><p>Source: Slate Magazine · 2026-10-31</p><p>Tags: #Advice #Dear Prudence #评论 #文化</p><p><a href=\"https://slate.com/advice/2026/10/dear-prudence-boyfriend-deep-cleaning-nasty-surprise.html?via=rss\">Read the original →</a></p>",
+      "content_text": "When I decided to help out with his pigsty, I certainly didn’t expect this!",
+      "summary": "When I decided to help out with his pigsty, I certainly didn’t expect this!",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://compote.slate.com/images/635ad8b7-5dc4-47fe-98b6-1c7c68f27631.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Dear Prudence",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    },
+    {
+      "id": "https://slate.com/advice/2026/10/parenting-advice-toddler-plane-ipad-volume-reddit.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/parenting-advice-toddler-plane-ipad-volume-reddit.html?via=rss",
+      "title": "Help! I Made a Simple Request of a Mom on a Plane. But Her Answer Has Me Questioning My Own Character.",
+      "content_html": "<p><img src=\"https://compote.slate.com/images/669bf149-98ee-42d1-8824-944aa84716ee.jpeg?crop=1560%2C1040%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Is it wrong to ask a 3-year-old to turn the iPad volume down?</p><p>Source: Slate Magazine · 2026-10-31</p><p>Tags: #Advice #Family #Parenting #Travel #Prudie Lurks #评论</p><p><a href=\"https://slate.com/advice/2026/10/parenting-advice-toddler-plane-ipad-volume-reddit.html?via=rss\">Read the original →</a></p>",
+      "content_text": "Is it wrong to ask a 3-year-old to turn the iPad volume down?",
+      "summary": "Is it wrong to ask a 3-year-old to turn the iPad volume down?",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://compote.slate.com/images/669bf149-98ee-42d1-8824-944aa84716ee.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Family",
+        "Parenting",
+        "Travel",
+        "Prudie Lurks",
         "评论",
         "文化"
       ],
@@ -47,58 +152,6 @@
         "Advice",
         "Family",
         "Kids",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/advice/2026/10/marriage-advice-romance-romantasy-book-club.html?via=rss",
-      "url": "https://slate.com/advice/2026/10/marriage-advice-romance-romantasy-book-club.html?via=rss",
-      "title": "My Husband Read a Popular Romantasy Book. It’s Brought Us Closer Together.",
-      "content_html": "<p><img src=\"https://compote.slate.com/images/f99876ad-8dc0-4e11-baae-a3d92a31e032.jpeg?crop=1560%2C1040%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Prudie replies to readers’ comments and suggestions.</p><p>Source: Slate Magazine · 2026-10-30</p><p>Tags: #Advice #Dear Prudence #Marriage #评论 #文化</p><p><a href=\"https://slate.com/advice/2026/10/marriage-advice-romance-romantasy-book-club.html?via=rss\">Read the original →</a></p>",
-      "content_text": "Prudie replies to readers’ comments and suggestions.",
-      "summary": "Prudie replies to readers’ comments and suggestions.",
-      "date_published": "2026-10-30T00:00:00Z",
-      "image": "https://compote.slate.com/images/f99876ad-8dc0-4e11-baae-a3d92a31e032.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "Advice",
-        "Dear Prudence",
-        "Marriage",
-        "评论",
-        "文化"
-      ],
-      "authors": [
-        {
-          "name": "Slate Magazine"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "slate-com"
-      }
-    },
-    {
-      "id": "https://slate.com/advice/2026/10/money-advice-debt-payoff-bribe.html?via=rss",
-      "url": "https://slate.com/advice/2026/10/money-advice-debt-payoff-bribe.html?via=rss",
-      "title": "My Dad Has Made Me a Lifesaving Offer. But There’s a Big Catch.",
-      "content_html": "<p><img src=\"https://compote.slate.com/images/1b35ca5c-cffa-42d2-b017-f32ed38b3ee2.jpeg?crop=1560%2C1040%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>I really need this money.</p><p>Source: Slate Magazine · 2026-10-30</p><p>Tags: #Advice #Family #Personal Finance #评论 #文化</p><p><a href=\"https://slate.com/advice/2026/10/money-advice-debt-payoff-bribe.html?via=rss\">Read the original →</a></p>",
-      "content_text": "I really need this money.",
-      "summary": "I really need this money.",
-      "date_published": "2026-10-30T00:00:00Z",
-      "image": "https://compote.slate.com/images/1b35ca5c-cffa-42d2-b017-f32ed38b3ee2.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
-      "tags": [
-        "Advice",
-        "Family",
-        "Personal Finance",
         "评论",
         "文化"
       ],

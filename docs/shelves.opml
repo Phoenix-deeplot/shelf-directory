@@ -25,6 +25,7 @@
       <outline type="rss" text="Eater" title="Eater" xmlUrl="https://www.eater.com/rss/index.xml" htmlUrl="https://www.eater.com"/>
       <outline type="rss" text="GitHub Trending（今日）" title="GitHub Trending（今日）" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=github" htmlUrl="https://github.com/trending"/>
       <outline type="rss" text="Google 热搜 · US" title="Google 热搜 · US" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=gtrends" htmlUrl="https://trends.google.com/trending"/>
+      <outline type="rss" text="Hacker News" title="Hacker News" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=hackernews" htmlUrl="https://news.ycombinator.com/"/>
       <outline type="rss" text="JSTOR Daily" title="JSTOR Daily" xmlUrl="https://daily.jstor.org/feed/" htmlUrl="https://daily.jstor.org/"/>
       <outline type="rss" text="NASA" title="NASA" xmlUrl="https://www.nasa.gov/feed/" htmlUrl="https://www.nasa.gov/"/>
       <outline type="rss" text="Our World in Data" title="Our World in Data" xmlUrl="https://ourworldindata.org/atom.xml" htmlUrl="https://ourworldindata.org"/>
@@ -40,7 +41,6 @@
       <outline type="rss" text="知乎热榜" title="知乎热榜" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=zhihu" htmlUrl="https://www.zhihu.com/hot"/>
       <outline type="rss" text="维基百科阅读榜（英文）" title="维基百科阅读榜（英文）" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=wikipedia" htmlUrl="https://en.wikipedia.org/wiki/Wikipedia:Top_25_Report"/>
       <outline type="rss" text="美团 · 技术团队" title="美团 · 技术团队" xmlUrl="https://tech.meituan.com/rss.xml" htmlUrl="https://tech.meituan.com/"/>
-      <outline type="rss" text="Hacker News" title="Hacker News" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=hackernews" htmlUrl="https://news.ycombinator.com/"/>
       <outline type="rss" text="Lobsters" title="Lobsters" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=lobsters" htmlUrl="https://lobste.rs/"/>
       <outline type="rss" text="阮一峰的网络日志" title="阮一峰的网络日志" xmlUrl="https://feeds.feedburner.com/ruanyifeng" htmlUrl="http://www.ruanyifeng.com/blog/"/>
       <outline type="rss" text="Freakonomics Radio" title="Freakonomics Radio" xmlUrl="https://feeds.simplecast.com/Y8lFbOT4" htmlUrl="https://feeds.simplecast.com/"/>

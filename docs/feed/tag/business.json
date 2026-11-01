@@ -9,6 +9,31 @@
   },
   "items": [
     {
+      "id": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+      "url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+      "title": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae513e3393ae92e17e66a04/master/pass/Business_Everyone%E2%80%99s%20Questioning%20Meta%E2%80%99s%20Hype%20About%20Muse%20Meta%20Says%20Muse%20Is%20Already%20a%20Big%20Shopper_v1.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Companies have spent the past several weeks trying to reassure investors that Muse and other AI agents pose more of an opportunity than a threat.</p><p>Source: WIRED · 2026-10-31</p><p>Tags: #Business #Secret Agents #科技 #社会</p><p><a href=\"https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/\">Read the original →</a></p>",
+      "content_text": "Companies have spent the past several weeks trying to reassure investors that Muse and other AI agents pose more of an opportunity than a threat.",
+      "summary": "Companies have spent the past several weeks trying to reassure investors that Muse and other AI agents pose more of an opportunity than a threat.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae513e3393ae92e17e66a04/master/pass/Business_Everyone%E2%80%99s%20Questioning%20Meta%E2%80%99s%20Hype%20About%20Muse%20Meta%20Says%20Muse%20Is%20Already%20a%20Big%20Shopper_v1.jpg",
+      "tags": [
+        "Business",
+        "Secret Agents",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    },
+    {
       "id": "https://www.wired.com/story/i-spent-30-minutes-with-apples-ceo-now-i-know-why-john-ternus-got-the-job/",
       "url": "https://www.wired.com/story/i-spent-30-minutes-with-apples-ceo-now-i-know-why-john-ternus-got-the-job/",
       "title": "I Spent 30 Minutes With Apple’s CEO. Now I Know Why John Ternus Got the Job",
