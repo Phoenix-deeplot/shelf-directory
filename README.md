@@ -219,6 +219,18 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
 - 维护：`python -X utf8 books_tool.py fill` 去 Wikisource 把 `ch.n` 重新补全，`python -X utf8 books_tool.py check` 逐个打开 `read` 地址，报告打不开的（有的网站会拦脚本，报 403 时请再用浏览器看一眼）。测试：`tests/test_books.py`（含对真实清单的检查：不重复、领域和语种覆盖、体积）。
 - 不收 Z-Library 这类侵权站点；有版权的书只放作者自己放在网上免费读的。
 
+### B6c. 精选图书的共享内容缓存（`api/book.py`）
+
+- 为什么：第一个读某一章的人要让服务去原站读（几秒，原站慢或挂了就读不到）；之后所有人直接拿到服务保存的那一份，不再去问原站。页面读书时依次试：**读者自己的浏览器 → 这个服务 → 原站（`/api/feed` 的 `read`）**，读到的再存回去。
+- `GET /api/book?b=<书编号>&c=<章序号>`（只有一页的书 `c=0`）→ `{"ok": true, "title", "content"（清理过的安全 HTML）, "lang", "license", "source", "by", "tier": "hot"|"durable"|"source", "cut", "v"}`；`GET /api/book`（不带参数）→ `{"ok": true, "service": "shelf-book", "redis", "durable", "books", "shared"}`。章节地址由服务按 `registry/books.json` 自己拼，**不接受访客给的网址**，所以它不是通用代理，也存不进别的东西。
+- **只存授权允许转载的书**：`license` 是 `public-domain`、`cc0`、`cc-by`、`cc-by-sa`，并且书单条目没有 `"share": false`。别的（`cc-by-nc*`、`free-to-read`，以及没写授权的）回答 `nocache`，页面照旧去原站读，只缓存在读者自己的浏览器里。**以后新增或爬取的书必须写 `license`**，没写的不会进云端。（这是对“目录不存全文”的一个有限例外：只对授权明确的精选图书。）
+- **两层存储**：热层 Redis（读过的章都在，30 天，被读到就再续；长期保存的书 14 天，过期了从长期层补回）；长期层 PostgreSQL（书单里 `"keep": true` 的书，第一次读到就写进去，不过期；别的书，**同一章被读到第 3 次**——`BOOK_PROMOTE_READS`——也自动升到长期层，冷门的、变化快的、不出名的就留在热层里到期消失）。读的顺序：CDN → Redis → PostgreSQL（命中就回填 Redis）→ 原站。现有 54 本都写了 `"keep": true`；以后新增的默认不写，等读得多了自己升层，或者你在书单里加 `"keep": true`。
+- **CDN**：成功的回答带 `Cache-Control: public, max-age=300, s-maxage=3600, stale-while-revalidate=86400` 和 `Vary: Origin`，同一章被很多人读时一小时内连数据库都不用查；出错一律 `no-store`。
+- **防护**：同一章第一次被很多人同时读，只放一个去原站（锁 30 秒），别的稍等再取；一个访客 10 分钟最多让服务读 30 次原站（`BOOK_SOURCE_PER_10MIN`；命中缓存的不算）；单章正文最多 40 万字符；缓存键带正文提取的版本（`bookapi.PARSER`），改了提取方法就自动重读。Redis 或 PostgreSQL 出问题都只当“没有”，不会让读者读不了书。
+- **设置**：Redis 用现有的 `UPSTASH_REDIS_REST_URL` / `_TOKEN`（或 `KV_REST_API_URL` / `_TOKEN`）；PostgreSQL 用 `OPS_DATABASE_URL`（或 `POSTGRES_URL`），先在数据库里执行一次 `migrations/006_library_book_chapters.sql`（只建一个 `library` schema 和一张表 `library.book_chapters`，不碰 `ops`）；然后设好环境变量、推送、`vercel --prod`。两个都不配也能读，只是没有共享存储。**验证数据库**：在你自己的终端里设好 `OPS_DATABASE_URL`，运行 `python bookapi.py check-db`，它写一行再读回再删掉，告诉你表能不能用（口令只在你自己的终端里，不会出现在输出里）。
+- **预热**（可选）：`python -X utf8 books_tool.py warm [--only 书编号]` 礼貌地逐章请求线上服务，让第一批读者也秒开；碰到“读得太频繁”就停，过十分钟再来。
+- 测试：`tests/test_bookapi.py`（授权闸门、章节地址、两层存储和升层、过期后从长期层补回、不配 Redis / PostgreSQL 的退化、锁、限流、出错不存、HTTP 头和来源）；PostgreSQL 的 SQL 用假游标检查，真实数据库要你迁移后用 `check-db` 验证。
+
 ### B7. 来源状态（固定 / 动态 / 试读 / 暂停）
 
 给每个已登记的来源标注几件事。**都是可选的**，不写就按默认，旧的 `registry/shelves.json` 不用改：

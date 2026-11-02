@@ -2227,6 +2227,9 @@ def check_book(b):
         return None, 'a title and a summary are needed'
     if b.get('lang') not in ('zh', 'en') or b.get('kind') not in BOOK_KINDS or lic not in BOOK_LICENSES:
         return None, 'lang (zh|en), kind (%s) and license (%s) must be one of the known ones' % ('|'.join(BOOK_KINDS), '|'.join(BOOK_LICENSES))
+    for flag in ('keep', 'share'):                           # the policy of the shared copy (bookapi.py): "keep": true = kept for good, "share": false = never kept on the server
+        if flag in b and not isinstance(b[flag], bool):
+            return None, '"%s" must be true or false' % flag
     read = abs_url(b.get('read'))
     if not read.startswith('https://'):
         return None, '"read" must be an https address'
