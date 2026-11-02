@@ -2240,7 +2240,12 @@ def check_book(b):
         if not (isinstance(ch, dict) and BOOK_HOST.match(str(ch.get('s') or '')) and isinstance(ch.get('p'), str) and len(ch['p']) <= 200 and isinstance(ch.get('n'), list)
                 and 0 < len(ch['n']) <= BOOK_CH_MAX and all(isinstance(x, str) and 0 < len(x.strip()) <= 120 and '\n' not in x for x in ch['n'])):
             return None, '"ch" must be {"s": site, "p": prefix, "n": [up to %d names]}' % BOOK_CH_MAX
-        ch = {'s': ch['s'], 'p': ch['p'], 'n': [x.strip() for x in ch['n']]}
+        names = [x.strip() for x in ch['n']]
+        ch2 = {'s': ch['s'], 'p': ch['p'], 'n': names}
+        t = ch.get('t')                                                       # a title for each chapter (optional); a list that does not fit is left out (load_books says so), the book is kept
+        if isinstance(t, list) and len(t) == len(names) and all(isinstance(x, str) and len(x.strip()) <= 60 and '\n' not in x for x in t):
+            ch2['t'] = [x.strip() for x in t]
+        ch = ch2
     tags = norm_tags(b.get('tags'), 6)
     if (ch or b.get('readable') is True) and not any(t.lower() in ('在线书籍', 'online books') for t in tags):
         tags = tags[:5] + ['在线书籍']
@@ -2270,6 +2275,8 @@ def load_books(log=print):
         if not item:
             log('build: books: %s: %s (left out)' % (bid, why))
             continue
+        if isinstance(b.get('ch'), dict) and b['ch'].get('t') is not None and 't' not in (item.get('ch') or {}):
+            log('build: books: %s: ch.t must be a list with a title (60 characters at most) for each of the %d chapters: the titles are left out' % (bid, len(b['ch'].get('n') or [])))
         seen.add(bid)
         out.append(item)
     return out

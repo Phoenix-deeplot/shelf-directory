@@ -70,11 +70,12 @@
                 "type": "article", "lang": "zh", "tags": ["…"], "shelf": "books-zhitree-cn",
                 "author": "（可选）作者", "pages": 242, "toc": ["（可选）目录标题", "…"],
                 "license": "（可选，精选图书）public-domain|cc0|cc-by|…|free-to-read", "bid": "（可选，精选图书）hongloumeng：书在 registry/books.json 里的编号",
-                "ch": { "s": "（可选，精选图书）zh.wikisource.org", "p": "紅樓夢/", "n": ["第001回", "第002回"] } } ]
+                "ch": { "s": "（可选，精选图书）zh.wikisource.org", "p": "紅樓夢/", "n": ["第001回", "第002回"], "t": ["（可选）每章一个标题，和 n 一样长", "…"] } } ]
 }
 ```
 
 - **精选图书**（书架 `books`，`featured: true`，`rights: licensed`）：由站长手写的 `registry/books.json` 生成，每本是一条 `type: book` 的条目，`url` 是打开它的地址。`license` 是它的授权（公有领域、CC 系列，或作者放在网上免费读的 `free-to-read`）。`ch`（可选）说明章节在哪：章节地址是 `https://<s>/wiki/<p><n>`（名字里的空格写成 `_`），只写名字不写地址，目录因此很小；有 `ch` 或标了 `readable` 的书带 `在线书籍` 标签，页面可以在站内一章一章读（正文由 `/api/feed` 现取，目录里没有正文）。
+- 精选图书的章节标题 `ch.t`（可选）：和 `ch.n` 一样长的字符串列表，每项最多 60 字（可以是空串，页面只显示章名）；长度对不上或有不合格的项，整个 `t` 被丢掉并在构建日志里说明，书照常收录。`python books_tool.py titles` 从维基文库每章页面的开头读出标题（只做中文书，读到的章不到六成的书不写）。
 - 精选图书的 `registry/books.json` 条目另有两个可选的布尔字段（只给服务端，不进 `directory.json`）：`"keep": true`（精品，章节长期保存在 PostgreSQL）、`"share": false`（无论授权如何都不把正文存到服务器上）；只有 `license` 是 `public-domain` / `cc0` / `cc-by` / `cc-by-sa` 的书才会被存到服务器上的共享缓存（`GET /api/book`，见 README B6c）。
 - `items` 按 `date` 从新到旧；没有自己日期的订阅源条目，`date` 是目录第一次看到它的那天；GitHub 仓库里没有日期的文件，`date` 为空，排在最后。
 - 同一个链接出现在多个来源里只留一条（网址归一后比较：`http`/`https`、`www`、末尾斜杠、`index.html`、跟踪参数都不算区别）；GitHub 仓库里内容完全相同的文件（git 内容哈希）也只留一条，fork 不收录。

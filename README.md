@@ -216,6 +216,7 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
 
 - 站长手挑的、可以免费读的书和刊物：公有领域的小说和经典（红楼梦、福尔摩斯、傲慢与偏见……）、过刊（科学杂志、新青年）、开放获取的期刊和教材（SICP、Pro Git、eLife、OpenStax）。它们是目录里的一个书架（编号 `books`，名字 `精选图书`，可用 `registry/config.json` 的 `"books_title"` 改），默认标成站长推荐。
 - 一本书一个条目：`id`（小写字母、数字、`-`）、`title`、`author`、`lang`（`zh`/`en`）、`kind`（`novel` `story` `poetry` `classic` `magazine` `journal` `textbook` `essay` `library`）、`tags`、`summary`、`license`（`public-domain` `cc0` `cc-by` `cc-by-sa` `cc-by-nc` `cc-by-nc-sa` `free-to-read`，只收任何人都能免费读的）、`source`（来源站点）、`read`（https 地址）。可选：`ch`（`{"s":"zh.wikisource.org","p":"紅樓夢/","n":["第001回",…]}`，最多 300 章，章节地址是 `https://<s>/wiki/<p><n>`，空格写成 `_`）或 `"readable": true`（这个地址本身就是正文页）：有这两项的书页面可以直接在站内读。不合格的条目被跳过并在构建日志里说明，别的照常。
+- **章节标题**：`python -X utf8 books_tool.py titles [--only 书编号] [--force] [--dry]` 从维基文库每章页面的开头读出标题（“第一回　甄士隱夢幻識通靈　賈雨村風塵懷閨秀”→“甄士隱夢幻識通靈 賈雨村風塵懷閨秀”），一次读 25 页、有间隔，写进 `ch.t`（和 `ch.n` 一样长）；读到的章不到六成的书不写（英文书的章名就是 Chapter N，也不写）；已有标题的书不动，`--force` 重读，`--dry` 只看不写。页面的章节面板、章末按钮、书的窗口都会显示标题，没有标题就只显示章名。
 - 维护：`python -X utf8 books_tool.py fill` 去 Wikisource 把 `ch.n` 重新补全，`python -X utf8 books_tool.py check` 逐个打开 `read` 地址，报告打不开的（有的网站会拦脚本，报 403 时请再用浏览器看一眼）。测试：`tests/test_books.py`（含对真实清单的检查：不重复、领域和语种覆盖、体积）。
 - 不收 Z-Library 这类侵权站点；有版权的书只放作者自己放在网上免费读的。
 
