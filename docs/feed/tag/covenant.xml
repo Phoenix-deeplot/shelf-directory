@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/covenant.xml</id>
+  <title>知树阅读-个人图书空间 · #Covenant</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/covenant.xml"/>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/covenant-logistics-ceo-expects-double-digit-truckload-rate-hikes-in-2027</id>
+    <title>Covenant Logistics CEO expects double-digit truckload rate hikes in 2027</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/covenant-logistics-ceo-expects-double-digit-truckload-rate-hikes-in-2027"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Covenant Logistics CEO David Parker expects another year of substantial truckload contract rate increases in 2027. The post Covenant Logistics CEO expects doubl…</summary>
+    <content type="html">&lt;p&gt;Covenant Logistics CEO David Parker expects another year of substantial truckload contract rate increases in 2027. The post Covenant Logistics CEO expects double-digit truckload rate hikes in 2027 appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #Company Earnings #News #Trucking #Covenant #Covenant Logistics #货运&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/covenant-logistics-ceo-expects-double-digit-truckload-rate-hikes-in-2027"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Trucking"/>
+    <category term="Covenant"/>
+    <category term="Covenant Logistics"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/first-look-covenant-logistics-q3-freight-revenue-surges-68</id>
+    <title>First look: Covenant Logistics’ Q3 freight revenue surges 68%</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/first-look-covenant-logistics-q3-freight-revenue-surges-68"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Covenant Logistics Group reported a 19.2% increase in third-quarter revenue to $353.9 million, fueled by rapid growth in its managed freight segment. The post F…</summary>
+    <content type="html">&lt;p&gt;Covenant Logistics Group reported a 19.2% increase in third-quarter revenue to $353.9 million, fueled by rapid growth in its managed freight segment. The post First look: Covenant Logistics’ Q3 freight revenue surges 68% appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-29&lt;/p&gt;&lt;p&gt;Tags: #Company Earnings #News #Trucking #Covenant #Covenant Logistics #货运&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/first-look-covenant-logistics-q3-freight-revenue-surges-68"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Trucking"/>
+    <category term="Covenant"/>
+    <category term="Covenant Logistics"/>
+    <category term="货运"/>
+    <category term="数据"/>
+  </entry>
+</feed>

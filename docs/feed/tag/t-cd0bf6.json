@@ -9,10 +9,33 @@
   },
   "items": [
     {
+      "id": "https://freakonomics.com",
+      "url": "https://freakonomics.com",
+      "title": "693. What’s Our Job as Humans Anymore?",
+      "content_html": "<p>It may just be being human. Stephen Dubner interviews A.I. performer Tilly Norwood to find out if we are as replaceable as we fear. (Part two of a two-part series.) SOURCES: Sean Astin, actor, president of SAG-AFTRA. Kevin Kelly, co-founder of Wired. Ethan Mollick, associate professor of management at the Wharton School of the University of Pennsylvania. Tilly Norwood, A.I. performer. Eline Van der Velden, founder and C.E.O. of Particle6.</p><p>Source: Freakonomics Radio · 2026-10-30</p><p>Tags: #经济 #思考</p><p><a href=\"https://freakonomics.com\">Read the original →</a></p>",
+      "content_text": "It may just be being human. Stephen Dubner interviews A.I. performer Tilly Norwood to find out if we are as replaceable as we fear. (Part two of a two-part series.) SOURCES: Sean Astin, actor, president of SAG-AFTRA. Kevin Kelly, co-founder of Wired. Ethan Mollick, associate professor of management at the Wharton School of the University of Pennsylvania. Tilly Norwood, A.I. performer. Eline Van der Velden, founder and C.E.O. of Particle6.",
+      "summary": "It may just be being human. Stephen Dubner interviews A.I. performer Tilly Norwood to find out if we are as replaceable as we fear. (Part two of a two-part seri…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "经济",
+        "思考"
+      ],
+      "authors": [
+        {
+          "name": "Freakonomics Radio"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "feeds-simplecast-com"
+      }
+    },
+    {
       "id": "https://ourworldindata.org/how-much-development-aid-is-spent-on-climate-change",
       "url": "https://ourworldindata.org/how-much-development-aid-is-spent-on-climate-change",
       "title": "How much development aid is spent on climate change?",
-      "content_text": "Around one-fifth of development aid is spent on climate-related projects. But what does climate-related mean, and does it crowd out other aid projects?<br><br><…",
+      "content_html": "<p>Around one-fifth of development aid is spent on climate-related projects. But what does climate-related mean, and does it crowd out other aid projects?&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://ourworldindata.org/how-much-development-aid-is-spent-on-climate-change&quot;&gt;&lt;img src=&quot;https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/59464533-c5ca-4a7e-7686-358fc7608500/w=1024&quot;/&gt;&lt;/a&gt;</p><p>Source: Our World in Data · 2026-10-26</p><p>Tags: #数据 #经济</p><p><a href=\"https://ourworldindata.org/how-much-development-aid-is-spent-on-climate-change\">Read the original →</a></p>",
+      "content_text": "Around one-fifth of development aid is spent on climate-related projects. But what does climate-related mean, and does it crowd out other aid projects?<br><br><a href=\"https://ourworldindata.org/how-much-development-aid-is-spent-on-climate-change\"><img src=\"https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/59464533-c5ca-4a7e-7686-358fc7608500/w=1024\"/></a>",
       "summary": "Around one-fifth of development aid is spent on climate-related projects. But what does climate-related mean, and does it crowd out other aid projects?<br><br><…",
       "date_published": "2026-10-26T00:00:00Z",
       "tags": [
@@ -30,31 +53,11 @@
       }
     },
     {
-      "id": "https://freakonomics.com",
-      "url": "https://freakonomics.com",
-      "title": "692. What Will A.I. Do to (and for) Human Creativity?",
-      "content_text": "Writers, designers, actors, coders, musicians, thinkers — they’re all worried about being replaced by machines. But what if the A.I.s are actually here to help?…",
-      "summary": "Writers, designers, actors, coders, musicians, thinkers — they’re all worried about being replaced by machines. But what if the A.I.s are actually here to help?…",
-      "date_published": "2026-10-23T00:00:00Z",
-      "tags": [
-        "经济",
-        "思考"
-      ],
-      "authors": [
-        {
-          "name": "Freakonomics Radio"
-        }
-      ],
-      "_shelf": {
-        "type": "audio",
-        "shelf": "feeds-simplecast-com"
-      }
-    },
-    {
       "id": "https://ourworldindata.org/when-do-people-experience-mental-health-conditions-for-the-first-time",
       "url": "https://ourworldindata.org/when-do-people-experience-mental-health-conditions-for-the-first-time",
       "title": "When do people experience mental health conditions for the first time?",
-      "content_text": "Knowing when people are most at risk allows us to offer support when it might make the biggest difference.<br><br><a href=\"https://ourworldindata.org/when-do-pe…",
+      "content_html": "<p>Knowing when people are most at risk allows us to offer support when it might make the biggest difference.&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://ourworldindata.org/when-do-people-experience-mental-health-conditions-for-the-first-time&quot;&gt;&lt;img src=&quot;https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/f5a4f0de-6f66-4b12-26b1-55d91ef60c00/w=1024&quot;/&gt;&lt;/a&gt;</p><p>Source: Our World in Data · 2026-10-19</p><p>Tags: #数据 #经济</p><p><a href=\"https://ourworldindata.org/when-do-people-experience-mental-health-conditions-for-the-first-time\">Read the original →</a></p>",
+      "content_text": "Knowing when people are most at risk allows us to offer support when it might make the biggest difference.<br><br><a href=\"https://ourworldindata.org/when-do-people-experience-mental-health-conditions-for-the-first-time\"><img src=\"https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/f5a4f0de-6f66-4b12-26b1-55d91ef60c00/w=1024\"/></a>",
       "summary": "Knowing when people are most at risk allows us to offer support when it might make the biggest difference.<br><br><a href=\"https://ourworldindata.org/when-do-pe…",
       "date_published": "2026-10-19T00:00:00Z",
       "tags": [
@@ -75,7 +78,8 @@
       "id": "https://ourworldindata.org/2026-lpi-update",
       "url": "https://ourworldindata.org/2026-lpi-update",
       "title": "A 73% average decline in wildlife populations: an overview of the 2026 Living Planet Index report",
-      "content_text": "A guide to understanding the Living Planet Index and what it does and doesn’t mean.<br><br><a href=\"https://ourworldindata.org/2026-lpi-update\"><img src=\"https:…",
+      "content_html": "<p>A guide to understanding the Living Planet Index and what it does and doesn’t mean.&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://ourworldindata.org/2026-lpi-update&quot;&gt;&lt;img src=&quot;https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/d040574f-0ac6-4478-620a-8c0681700500/w=1024&quot;/&gt;&lt;/a&gt;</p><p>Source: Our World in Data · 2026-10-08</p><p>Tags: #数据 #经济</p><p><a href=\"https://ourworldindata.org/2026-lpi-update\">Read the original →</a></p>",
+      "content_text": "A guide to understanding the Living Planet Index and what it does and doesn’t mean.<br><br><a href=\"https://ourworldindata.org/2026-lpi-update\"><img src=\"https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/d040574f-0ac6-4478-620a-8c0681700500/w=1024\"/></a>",
       "summary": "A guide to understanding the Living Planet Index and what it does and doesn’t mean.<br><br><a href=\"https://ourworldindata.org/2026-lpi-update\"><img src=\"https:…",
       "date_published": "2026-10-08T00:00:00Z",
       "tags": [
@@ -96,7 +100,8 @@
       "id": "https://ourworldindata.org/what-impact-will-climate-change-have-on-malaria",
       "url": "https://ourworldindata.org/what-impact-will-climate-change-have-on-malaria",
       "title": "What impact will climate change have on malaria?",
-      "content_text": "More than 600,000 people die from malaria every year. Will climate change make this worse?<br><br><a href=\"https://ourworldindata.org/what-impact-will-climate-c…",
+      "content_html": "<p>More than 600,000 people die from malaria every year. Will climate change make this worse?&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://ourworldindata.org/what-impact-will-climate-change-have-on-malaria&quot;&gt;&lt;img src=&quot;https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/c2d97915-f84d-4efa-3918-5a9c2a5d2400/w=1024&quot;/&gt;&lt;/a&gt;</p><p>Source: Our World in Data · 2026-10-05</p><p>Tags: #数据 #经济</p><p><a href=\"https://ourworldindata.org/what-impact-will-climate-change-have-on-malaria\">Read the original →</a></p>",
+      "content_text": "More than 600,000 people die from malaria every year. Will climate change make this worse?<br><br><a href=\"https://ourworldindata.org/what-impact-will-climate-change-have-on-malaria\"><img src=\"https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/c2d97915-f84d-4efa-3918-5a9c2a5d2400/w=1024\"/></a>",
       "summary": "More than 600,000 people die from malaria every year. Will climate change make this worse?<br><br><a href=\"https://ourworldindata.org/what-impact-will-climate-c…",
       "date_published": "2026-10-05T00:00:00Z",
       "tags": [
@@ -117,7 +122,8 @@
       "id": "https://ourworldindata.org/how-high-is-current-immigration-to-the-united-states-in-historical-perspective",
       "url": "https://ourworldindata.org/how-high-is-current-immigration-to-the-united-states-in-historical-perspective",
       "title": "How high is current immigration to the United States in historical perspective?",
-      "content_text": "We use long-run census data to understand the scale of recent US migration trends, and how these compare to previous centuries.<br><br><a href=\"https://ourworld…",
+      "content_html": "<p>We use long-run census data to understand the scale of recent US migration trends, and how these compare to previous centuries.&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://ourworldindata.org/how-high-is-current-immigration-to-the-united-states-in-historical-perspective&quot;&gt;&lt;img src=&quot;https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/62f7240d-9892-4f63-792f-233662d7e800/w=1024&quot;/&gt;&lt;/a&gt;</p><p>Source: Our World in Data · 2026-09-21</p><p>Tags: #数据 #经济</p><p><a href=\"https://ourworldindata.org/how-high-is-current-immigration-to-the-united-states-in-historical-perspective\">Read the original →</a></p>",
+      "content_text": "We use long-run census data to understand the scale of recent US migration trends, and how these compare to previous centuries.<br><br><a href=\"https://ourworldindata.org/how-high-is-current-immigration-to-the-united-states-in-historical-perspective\"><img src=\"https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/62f7240d-9892-4f63-792f-233662d7e800/w=1024\"/></a>",
       "summary": "We use long-run census data to understand the scale of recent US migration trends, and how these compare to previous centuries.<br><br><a href=\"https://ourworld…",
       "date_published": "2026-09-21T00:00:00Z",
       "tags": [
@@ -138,7 +144,8 @@
       "id": "https://ourworldindata.org/is-organic-farming-better-for-the-environment-than-conventional-farming",
       "url": "https://ourworldindata.org/is-organic-farming-better-for-the-environment-than-conventional-farming",
       "title": "Is organic farming better for the environment than conventional farming?",
-      "content_text": "Organic farming often wins when we compare impacts on one unit of land, but there is no clear winner when we look at impacts per unit of food production.<br><br…",
+      "content_html": "<p>Organic farming often wins when we compare impacts on one unit of land, but there is no clear winner when we look at impacts per unit of food production.&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://ourworldindata.org/is-organic-farming-better-for-the-environment-than-conventional-farming&quot;&gt;&lt;img src=&quot;https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/c34a94e0-2051-436f-6d7b-7248cb28fa00/w=1024&quot;/&gt;&lt;/a&gt;</p><p>Source: Our World in Data · 2026-09-14</p><p>Tags: #数据 #经济</p><p><a href=\"https://ourworldindata.org/is-organic-farming-better-for-the-environment-than-conventional-farming\">Read the original →</a></p>",
+      "content_text": "Organic farming often wins when we compare impacts on one unit of land, but there is no clear winner when we look at impacts per unit of food production.<br><br><a href=\"https://ourworldindata.org/is-organic-farming-better-for-the-environment-than-conventional-farming\"><img src=\"https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/c34a94e0-2051-436f-6d7b-7248cb28fa00/w=1024\"/></a>",
       "summary": "Organic farming often wins when we compare impacts on one unit of land, but there is no clear winner when we look at impacts per unit of food production.<br><br…",
       "date_published": "2026-09-14T00:00:00Z",
       "tags": [
@@ -159,7 +166,8 @@
       "id": "https://ourworldindata.org/a-never-ending-childhood-of-malaria",
       "url": "https://ourworldindata.org/a-never-ending-childhood-of-malaria",
       "title": "A never-ending childhood of malaria",
-      "content_text": "How often do people in high-burden areas get malaria? Studies suggest that many children can experience five or more malaria infections a year.<br><br><a href=\"…",
+      "content_html": "<p>How often do people in high-burden areas get malaria? Studies suggest that many children can experience five or more malaria infections a year.&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://ourworldindata.org/a-never-ending-childhood-of-malaria&quot;&gt;&lt;img src=&quot;https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/0abc7616-42a5-4338-94a1-6282c3991000/w=1024&quot;/&gt;&lt;/a&gt;</p><p>Source: Our World in Data · 2026-09-07</p><p>Tags: #数据 #经济</p><p><a href=\"https://ourworldindata.org/a-never-ending-childhood-of-malaria\">Read the original →</a></p>",
+      "content_text": "How often do people in high-burden areas get malaria? Studies suggest that many children can experience five or more malaria infections a year.<br><br><a href=\"https://ourworldindata.org/a-never-ending-childhood-of-malaria\"><img src=\"https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/0abc7616-42a5-4338-94a1-6282c3991000/w=1024\"/></a>",
       "summary": "How often do people in high-burden areas get malaria? Studies suggest that many children can experience five or more malaria infections a year.<br><br><a href=\"…",
       "date_published": "2026-09-07T00:00:00Z",
       "tags": [
@@ -180,7 +188,8 @@
       "id": "https://ourworldindata.org/beef-production-in-brazil-has-been-the-largest-driver-of-global-deforestation-in-recent-decades",
       "url": "https://ourworldindata.org/beef-production-in-brazil-has-been-the-largest-driver-of-global-deforestation-in-recent-decades",
       "title": "Beef production in Brazil has been the largest driver of global deforestation in recent decades",
-      "content_text": "Most beef production in Brazil is to meet domestic rather than international demand.<br><br><a href=\"https://ourworldindata.org/beef-production-in-brazil-has-be…",
+      "content_html": "<p>Most beef production in Brazil is to meet domestic rather than international demand.&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://ourworldindata.org/beef-production-in-brazil-has-been-the-largest-driver-of-global-deforestation-in-recent-decades&quot;&gt;&lt;img src=&quot;https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/31b278f8-6814-47ba-54ac-73914f6aff00/w=1024&quot;/&gt;&lt;/a&gt;</p><p>Source: Our World in Data · 2026-08-31</p><p>Tags: #数据 #经济</p><p><a href=\"https://ourworldindata.org/beef-production-in-brazil-has-been-the-largest-driver-of-global-deforestation-in-recent-decades\">Read the original →</a></p>",
+      "content_text": "Most beef production in Brazil is to meet domestic rather than international demand.<br><br><a href=\"https://ourworldindata.org/beef-production-in-brazil-has-been-the-largest-driver-of-global-deforestation-in-recent-decades\"><img src=\"https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/31b278f8-6814-47ba-54ac-73914f6aff00/w=1024\"/></a>",
       "summary": "Most beef production in Brazil is to meet domestic rather than international demand.<br><br><a href=\"https://ourworldindata.org/beef-production-in-brazil-has-be…",
       "date_published": "2026-08-31T00:00:00Z",
       "tags": [
@@ -201,7 +210,8 @@
       "id": "https://ourworldindata.org/the-rise-of-electoral-democracy",
       "url": "https://ourworldindata.org/the-rise-of-electoral-democracy",
       "title": "The rise of electoral democracy",
-      "content_text": "How elections spread, voting rights expanded, and political competition developed around the world over the last two centuries.<br><br><a href=\"https://ourworld…",
+      "content_html": "<p>How elections spread, voting rights expanded, and political competition developed around the world over the last two centuries.&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://ourworldindata.org/the-rise-of-electoral-democracy&quot;&gt;&lt;img src=&quot;https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/8bb8ce32-4bbc-487c-e8bf-4ca148339a00/w=1024&quot;/&gt;&lt;/a&gt;</p><p>Source: Our World in Data · 2026-08-24</p><p>Tags: #数据 #经济</p><p><a href=\"https://ourworldindata.org/the-rise-of-electoral-democracy\">Read the original →</a></p>",
+      "content_text": "How elections spread, voting rights expanded, and political competition developed around the world over the last two centuries.<br><br><a href=\"https://ourworldindata.org/the-rise-of-electoral-democracy\"><img src=\"https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/8bb8ce32-4bbc-487c-e8bf-4ca148339a00/w=1024\"/></a>",
       "summary": "How elections spread, voting rights expanded, and political competition developed around the world over the last two centuries.<br><br><a href=\"https://ourworld…",
       "date_published": "2026-08-24T00:00:00Z",
       "tags": [
@@ -222,7 +232,8 @@
       "id": "https://ourworldindata.org/which-countries-have-already-passed-peak-population-and-when-will-the-rest-do-so",
       "url": "https://ourworldindata.org/which-countries-have-already-passed-peak-population-and-when-will-the-rest-do-so",
       "title": "Which countries have already passed peak population, and when will the rest do so?",
-      "content_text": "Falling fertility rates have created a unique scenario in human history: many countries are experiencing structural population decline.<br><br><a href=\"https://…",
+      "content_html": "<p>Falling fertility rates have created a unique scenario in human history: many countries are experiencing structural population decline.&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://ourworldindata.org/which-countries-have-already-passed-peak-population-and-when-will-the-rest-do-so&quot;&gt;&lt;img src=&quot;https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/0da09f22-48af-466e-88fa-22780080b500/w=1024&quot;/&gt;&lt;/a&gt;</p><p>Source: Our World in Data · 2026-08-17</p><p>Tags: #数据 #经济</p><p><a href=\"https://ourworldindata.org/which-countries-have-already-passed-peak-population-and-when-will-the-rest-do-so\">Read the original →</a></p>",
+      "content_text": "Falling fertility rates have created a unique scenario in human history: many countries are experiencing structural population decline.<br><br><a href=\"https://ourworldindata.org/which-countries-have-already-passed-peak-population-and-when-will-the-rest-do-so\"><img src=\"https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/0da09f22-48af-466e-88fa-22780080b500/w=1024\"/></a>",
       "summary": "Falling fertility rates have created a unique scenario in human history: many countries are experiencing structural population decline.<br><br><a href=\"https://…",
       "date_published": "2026-08-17T00:00:00Z",
       "tags": [

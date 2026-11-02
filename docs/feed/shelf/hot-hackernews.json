@@ -9,12 +9,13 @@
   },
   "items": [
     {
-      "id": "https://www.bbc.com/news/articles/cm8xz7pkd0jjo",
-      "url": "https://www.bbc.com/news/articles/cm8xz7pkd0jjo",
-      "title": "What we know so far about Spain train crash",
-      "content_text": "第 9 名 · ▲ 201 · 367 条评论",
-      "summary": "第 9 名 · ▲ 201 · 367 条评论",
-      "date_published": "2026-10-30T00:00:00Z",
+      "id": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "content_html": "<p>第 2 名 · ▲ 510 · 237 条评论</p><p>Source: Hacker News · 2026-11-01</p><p>Tags: #热榜 #hacker news</p><p><a href=\"https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf\">Read the original →</a></p>",
+      "content_text": "第 2 名 · ▲ 510 · 237 条评论",
+      "summary": "第 2 名 · ▲ 510 · 237 条评论",
+      "date_published": "2026-11-01T00:00:00Z",
       "tags": [
         "热榜",
         "hacker news"
@@ -30,12 +31,13 @@
       }
     },
     {
-      "id": "https://mistral.ai/news/mistral-large-4-oss/",
-      "url": "https://mistral.ai/news/mistral-large-4-oss/",
-      "title": "We're releasing the weights of Mistral Large 4",
-      "content_text": "第 2 名 · ▲ 1,466 · 396 条评论",
-      "summary": "第 2 名 · ▲ 1,466 · 396 条评论",
-      "date_published": "2026-10-30T00:00:00Z",
+      "id": "https://aatishb.com/myriad/lets-build-a-brain/",
+      "url": "https://aatishb.com/myriad/lets-build-a-brain/",
+      "title": "Simple circuits can create complex behaviors",
+      "content_html": "<p>第 7 名 · ▲ 253 · 78 条评论</p><p>Source: Hacker News · 2026-11-01</p><p>Tags: #热榜 #hacker news</p><p><a href=\"https://aatishb.com/myriad/lets-build-a-brain/\">Read the original →</a></p>",
+      "content_text": "第 7 名 · ▲ 253 · 78 条评论",
+      "summary": "第 7 名 · ▲ 253 · 78 条评论",
+      "date_published": "2026-11-01T00:00:00Z",
       "tags": [
         "热榜",
         "hacker news"
@@ -51,12 +53,13 @@
       }
     },
     {
-      "id": "https://labs.ycombinator.com/projects/games/index.html",
-      "url": "https://labs.ycombinator.com/projects/games/index.html",
-      "title": "We ran AI agent swarms in Minecraft and Mindustry",
-      "content_text": "第 6 名 · ▲ 287 · 100 条评论",
-      "summary": "第 6 名 · ▲ 287 · 100 条评论",
-      "date_published": "2026-10-30T00:00:00Z",
+      "id": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+      "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+      "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+      "content_html": "<p>第 8 名 · ▲ 236 · 114 条评论</p><p>Source: Hacker News · 2026-11-01</p><p>Tags: #热榜 #hacker news</p><p><a href=\"https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve\">Read the original →</a></p>",
+      "content_text": "第 8 名 · ▲ 236 · 114 条评论",
+      "summary": "第 8 名 · ▲ 236 · 114 条评论",
+      "date_published": "2026-11-01T00:00:00Z",
       "tags": [
         "热榜",
         "hacker news"
@@ -72,12 +75,13 @@
       }
     },
     {
-      "id": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
-      "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
-      "title": "Patrick Stewart has died",
-      "content_text": "第 1 名 · ▲ 2,983 · 628 条评论",
-      "summary": "第 1 名 · ▲ 2,983 · 628 条评论",
-      "date_published": "2026-10-30T00:00:00Z",
+      "id": "https://jepsen.io/analyses/particledb-1.1.4",
+      "url": "https://jepsen.io/analyses/particledb-1.1.4",
+      "title": "Jepsen: ParticleDB 1.1.4",
+      "content_html": "<p>第 6 名 · ▲ 265 · 154 条评论</p><p>Source: Hacker News · 2026-11-01</p><p>Tags: #热榜 #hacker news</p><p><a href=\"https://jepsen.io/analyses/particledb-1.1.4\">Read the original →</a></p>",
+      "content_text": "第 6 名 · ▲ 265 · 154 条评论",
+      "summary": "第 6 名 · ▲ 265 · 154 条评论",
+      "date_published": "2026-11-01T00:00:00Z",
       "tags": [
         "热榜",
         "hacker news"
@@ -93,12 +97,13 @@
       }
     },
     {
-      "id": "https://martinfowler.com/bliki/LLM-Voice.html",
-      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
-      "title": "LLM Voice",
-      "content_text": "第 4 名 · ▲ 478 · 253 条评论",
-      "summary": "第 4 名 · ▲ 478 · 253 条评论",
-      "date_published": "2026-10-30T00:00:00Z",
+      "id": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
+      "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
+      "title": "It's the memory latency, stupid",
+      "content_html": "<p>第 9 名 · ▲ 198 · 61 条评论</p><p>Source: Hacker News · 2026-11-01</p><p>Tags: #热榜 #hacker news</p><p><a href=\"https://pivotlake.io/blog/its-the-memory-latency-stupid/\">Read the original →</a></p>",
+      "content_text": "第 9 名 · ▲ 198 · 61 条评论",
+      "summary": "第 9 名 · ▲ 198 · 61 条评论",
+      "date_published": "2026-11-01T00:00:00Z",
       "tags": [
         "热榜",
         "hacker news"
@@ -114,12 +119,13 @@
       }
     },
     {
-      "id": "https://iptrust.co/blog/if-ipv4-were-land",
-      "url": "https://iptrust.co/blog/if-ipv4-were-land",
-      "title": "If IPv4 were land",
-      "content_text": "第 7 名 · ▲ 286 · 402 条评论",
-      "summary": "第 7 名 · ▲ 286 · 402 条评论",
-      "date_published": "2026-10-30T00:00:00Z",
+      "id": "https://karpathy.bearblog.dev/hacker-tube/",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "content_html": "<p>第 1 名 · ▲ 1,334 · 373 条评论</p><p>Source: Hacker News · 2026-11-01</p><p>Tags: #热榜 #hacker news</p><p><a href=\"https://karpathy.bearblog.dev/hacker-tube/\">Read the original →</a></p>",
+      "content_text": "第 1 名 · ▲ 1,334 · 373 条评论",
+      "summary": "第 1 名 · ▲ 1,334 · 373 条评论",
+      "date_published": "2026-11-01T00:00:00Z",
       "tags": [
         "热榜",
         "hacker news"
@@ -135,12 +141,13 @@
       }
     },
     {
-      "id": "https://github.com/herdrdev/herdr-app",
-      "url": "https://github.com/herdrdev/herdr-app",
-      "title": "Herdr has released native app",
-      "content_text": "第 10 名 · ▲ 199 · 125 条评论",
-      "summary": "第 10 名 · ▲ 199 · 125 条评论",
-      "date_published": "2026-10-30T00:00:00Z",
+      "id": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "title": "Do the math: How we took over ChatGPT accounts",
+      "content_html": "<p>第 5 名 · ▲ 332 · 165 条评论</p><p>Source: Hacker News · 2026-11-01</p><p>Tags: #热榜 #hacker news</p><p><a href=\"https://www.parameter.ai/labs/we-found-a-gap-at-openai\">Read the original →</a></p>",
+      "content_text": "第 5 名 · ▲ 332 · 165 条评论",
+      "summary": "第 5 名 · ▲ 332 · 165 条评论",
+      "date_published": "2026-11-01T00:00:00Z",
       "tags": [
         "热榜",
         "hacker news"
@@ -156,12 +163,13 @@
       }
     },
     {
-      "id": "https://sidbala.com/h-264-is-magic/",
-      "url": "https://sidbala.com/h-264-is-magic/",
-      "title": "H.264 Is Magic (2016)",
-      "content_text": "第 5 名 · ▲ 434 · 149 条评论",
-      "summary": "第 5 名 · ▲ 434 · 149 条评论",
-      "date_published": "2026-10-30T00:00:00Z",
+      "id": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "title": "ChatGPT and Codex usage limits merging",
+      "content_html": "<p>第 10 名 · ▲ 128 · 68 条评论</p><p>Source: Hacker News · 2026-11-01</p><p>Tags: #热榜 #hacker news</p><p><a href=\"https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits\">Read the original →</a></p>",
+      "content_text": "第 10 名 · ▲ 128 · 68 条评论",
+      "summary": "第 10 名 · ▲ 128 · 68 条评论",
+      "date_published": "2026-11-01T00:00:00Z",
       "tags": [
         "热榜",
         "hacker news"
@@ -177,12 +185,13 @@
       }
     },
     {
-      "id": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
-      "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
-      "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
-      "content_text": "第 3 名 · ▲ 1,350 · 829 条评论",
-      "summary": "第 3 名 · ▲ 1,350 · 829 条评论",
-      "date_published": "2026-10-30T00:00:00Z",
+      "id": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+      "title": "Anthropic blocks users for anything touching training larger models",
+      "content_html": "<p>第 4 名 · ▲ 356 · 206 条评论</p><p>Source: Hacker News · 2026-11-01</p><p>Tags: #热榜 #hacker news</p><p><a href=\"https://twitter.com/jiahaoshao1/status/2116475922190922088\">Read the original →</a></p>",
+      "content_text": "第 4 名 · ▲ 356 · 206 条评论",
+      "summary": "第 4 名 · ▲ 356 · 206 条评论",
+      "date_published": "2026-11-01T00:00:00Z",
       "tags": [
         "热榜",
         "hacker news"
@@ -198,12 +207,13 @@
       }
     },
     {
-      "id": "https://github.com/SheepSeb/tinyworldformer",
-      "url": "https://github.com/SheepSeb/tinyworldformer",
-      "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
-      "content_text": "第 8 名 · ▲ 210 · 15 条评论",
-      "summary": "第 8 名 · ▲ 210 · 15 条评论",
-      "date_published": "2026-10-30T00:00:00Z",
+      "id": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+      "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+      "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+      "content_html": "<p>第 3 名 · ▲ 446 · 128 条评论</p><p>Source: Hacker News · 2026-11-01</p><p>Tags: #热榜 #hacker news</p><p><a href=\"https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/\">Read the original →</a></p>",
+      "content_text": "第 3 名 · ▲ 446 · 128 条评论",
+      "summary": "第 3 名 · ▲ 446 · 128 条评论",
+      "date_published": "2026-11-01T00:00:00Z",
       "tags": [
         "热榜",
         "hacker news"

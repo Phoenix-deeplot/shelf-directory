@@ -1,0 +1,67 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #TFI International",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/tfi-international.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/tfi-chief-bedard-rips-into-its-us-ltl-operations-promises-change",
+      "url": "https://www.freightwaves.com/news/tfi-chief-bedard-rips-into-its-us-ltl-operations-promises-change",
+      "title": "TFI chief Bedard rips into its US LTL operations, promises change",
+      "content_html": "<p>Alain Bedard, the CEO of TFI International, had been highly critical of his company’s U.S. LTL operations back in 2024, at one point referring to some of its practices as “stupid.” As recently as April, he was far more optimistic about the segment that was built largely through the TFI acquisition of UPS Freight in […] The post TFI chief Bedard rips into its US LTL operations, promises change appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-30</p><p>Tags: #Company Earnings #Less than Truckload (LTL) #News #Top Stories #Daseke #Old Dominion</p><p><a href=\"https://www.freightwaves.com/news/tfi-chief-bedard-rips-into-its-us-ltl-operations-promises-change\">Read the original →</a></p>",
+      "content_text": "Alain Bedard, the CEO of TFI International, had been highly critical of his company’s U.S. LTL operations back in 2024, at one point referring to some of its practices as “stupid.” As recently as April, he was far more optimistic about the segment that was built largely through the TFI acquisition of UPS Freight in […] The post TFI chief Bedard rips into its US LTL operations, promises change appeared first on FreightWaves.",
+      "summary": "Alain Bedard, the CEO of TFI International, had been highly critical of his company’s U.S. LTL operations back in 2024, at one point referring to some of its pr…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "Less than Truckload (LTL)",
+        "News",
+        "Top Stories",
+        "Daseke",
+        "Old Dominion",
+        "TFI International",
+        "XPO"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/first-look-tfi-truckload-sparkles-but-or-at-ltl-slips",
+      "url": "https://www.freightwaves.com/news/first-look-tfi-truckload-sparkles-but-or-at-ltl-slips",
+      "title": "First look: TFI Truckload sparkles, but OR at LTL slips",
+      "content_html": "<p>TFI International has tried to get investors to take notice of its Truckload operations, which are substantial but smaller than its more better-known LTL segment. The third quarter results may be the catalyst that gets that recognition to occur. Where the third quarter LTL segment at TFI (NYSE: TFII) saw its operating ratio rise compared […] The post First look: TFI Truckload sparkles, but OR at LTL slips appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-29</p><p>Tags: #Company Earnings #News #Top Stories #Trucking #TFI International #货运</p><p><a href=\"https://www.freightwaves.com/news/first-look-tfi-truckload-sparkles-but-or-at-ltl-slips\">Read the original →</a></p>",
+      "content_text": "TFI International has tried to get investors to take notice of its Truckload operations, which are substantial but smaller than its more better-known LTL segment. The third quarter results may be the catalyst that gets that recognition to occur. Where the third quarter LTL segment at TFI (NYSE: TFII) saw its operating ratio rise compared […] The post First look: TFI Truckload sparkles, but OR at LTL slips appeared first on FreightWaves.",
+      "summary": "TFI International has tried to get investors to take notice of its Truckload operations, which are substantial but smaller than its more better-known LTL segmen…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "News",
+        "Top Stories",
+        "Trucking",
+        "TFI International",
+        "货运",
+        "数据"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}

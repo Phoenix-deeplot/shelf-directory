@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/gear-products-audio.xml</id>
+  <title>知树阅读-个人图书空间 · #Gear / Products / Audio</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/gear-products-audio.xml"/>
+  <updated>2026-10-31T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.wired.com/story/bose-deals-october-2026/</id>
+    <title>Bose QC Headphones (2nd Gen) Sale: Lowest Price Ahead of Black Friday</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/bose-deals-october-2026/"/>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <published>2026-10-31T00:00:00Z</published>
+    <summary type="text">They’re a steal at over 40 percent off in multiple colors. Plus, other great Bose deals you should know about ahead of Black Friday.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://media.wired.com/photos/6ae4c869b2b1587e7c6da348/master/pass/Bose%20Headphone%20Deals%20102026%20top%20art%20SOURCE%20Amazon.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;They’re a steal at over 40 percent off in multiple colors. Plus, other great Bose deals you should know about ahead of Black Friday.&lt;/p&gt;&lt;p&gt;Source: WIRED · 2026-10-31&lt;/p&gt;&lt;p&gt;Tags: #Gear #Gear / Deals #Gear / Products / Headphones #Gear / Products / Audio #Bose for Less #科技&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.wired.com/story/bose-deals-october-2026/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Gear / Products / Headphones"/>
+    <category term="Gear / Products / Audio"/>
+    <category term="Bose for Less"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/nothing-cmf-deals-october-2026/</id>
+    <title>Nothing Headphones Sale: Stylish and Up to 41% Off</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/nothing-cmf-deals-october-2026/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Some of the brand’s best styles, including the Nothing Headphone (1) and CMF Headphone Pro, are at the lowest prices I’ve ever seen ahead of Black Friday.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://media.wired.com/photos/6ae36f07feb0012f49429412/master/pass/Nothing%20Headphone%20Deals%20October%20102026%20top%20art%20SOURCE%20Shop.com.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Some of the brand’s best styles, including the Nothing Headphone (1) and CMF Headphone Pro, are at the lowest prices I’ve ever seen ahead of Black Friday.&lt;/p&gt;&lt;p&gt;Source: WIRED · 2026-10-29&lt;/p&gt;&lt;p&gt;Tags: #Gear #Gear / Deals #Gear / Products / Audio #Nothing to See Here #科技 #社会&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.wired.com/story/nothing-cmf-deals-october-2026/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Deals"/>
+    <category term="Gear / Products / Audio"/>
+    <category term="Nothing to See Here"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+</feed>

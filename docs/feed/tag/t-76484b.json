@@ -9,11 +9,519 @@
   },
   "items": [
     {
-      "id": "https://www.cnbc.com/2026/10/30/trump-vance-rally-midterm-elections-.html",
-      "url": "https://www.cnbc.com/2026/10/30/trump-vance-rally-midterm-elections-.html",
-      "title": "Trump, Vance scrap planned appearances in final stretch of midterm campaign",
-      "content_text": "Trump and JD Vance have canceled planned appearances across three states, reducing in-person campaigning in the final days before midterm elections.",
-      "summary": "Trump and JD Vance have canceled planned appearances across three states, reducing in-person campaigning in the final days before midterm elections.",
+      "id": "https://www.npr.org/2026/11/01/nx-s1-6023242/2026-midterms-primer",
+      "url": "https://www.npr.org/2026/11/01/nx-s1-6023242/2026-midterms-primer",
+      "title": "Who decides the future of America?",
+      "content_html": "<p><img src=\"https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5259x2958+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F66%2Fa2%2Fd8ba90f8446a9f4d0518ab9fbb2e%2Fd49676ad-eeef-4a9d-a717-770446586030.png\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Millions of Americans have already cast their votes early ahead of Tuesday’s midterms. On this episode of The Sunday Story, NPR’s senior political correspondent Tamara Keith discusses the turbulent and unpredictable political landscape of this years’ midterm election. Rising costs and unpopular foreign policy decisions have some experts anticipating a blue wave. President Trump is predicting the opposite. But voters on both sides of the aisle share one commonality: they’re not happy.</p><p>Source: Up First from NPR · 2026-11-01</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/11/01/nx-s1-6023242/2026-midterms-primer\">Read the original →</a></p>",
+      "content_text": "Millions of Americans have already cast their votes early ahead of Tuesday’s midterms. On this episode of The Sunday Story, NPR’s senior political correspondent Tamara Keith discusses the turbulent and unpredictable political landscape of this years’ midterm election. Rising costs and unpopular foreign policy decisions have some experts anticipating a blue wave. President Trump is predicting the opposite. But voters on both sides of the aisle share one commonality: they’re not happy.",
+      "summary": "Millions of Americans have already cast their votes early ahead of Tuesday’s midterms. On this episode of The Sunday Story, NPR’s senior political correspondent…",
+      "date_published": "2026-11-01T00:00:00Z",
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5259x2958+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F66%2Fa2%2Fd8ba90f8446a9f4d0518ab9fbb2e%2Fd49676ad-eeef-4a9d-a717-770446586030.png",
+      "tags": [
+        "新闻",
+        "英语听力"
+      ],
+      "authors": [
+        {
+          "name": "Up First from NPR"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "feeds-npr-org"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/11/01/ai-investments-company-earnings.html",
+      "url": "https://www.cnbc.com/2026/11/01/ai-investments-company-earnings.html",
+      "title": "Companies promised AI gains— here's how the payoff showed up in earnings",
+      "content_html": "<p>Santander, Novartis and other companies say AI is beginning to boost revenue, cut costs or improve profitability as investors seek returns.</p><p>Source: US Top News and Analysis · 2026-11-01</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/11/01/ai-investments-company-earnings.html\">Read the original →</a></p>",
+      "content_text": "Santander, Novartis and other companies say AI is beginning to boost revenue, cut costs or improve profitability as investors seek returns.",
+      "summary": "Santander, Novartis and other companies say AI is beginning to boost revenue, cut costs or improve profitability as investors seek returns.",
+      "date_published": "2026-11-01T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
+      "url": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
+      "title": "Binance resumes withdrawals following $6.3 billion hack, says 90% of stolen user assets are covered",
+      "content_html": "<p>Binance says it has restored backing for 90% of assets affected by its $6.3 billion hack and resumed phased withdrawals.</p><p>Source: US Top News and Analysis · 2026-11-01</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html\">Read the original →</a></p>",
+      "content_text": "Binance says it has restored backing for 90% of assets affected by its $6.3 billion hack and resumed phased withdrawals.",
+      "summary": "Binance says it has restored backing for 90% of assets affected by its $6.3 billion hack and resumed phased withdrawals.",
+      "date_published": "2026-11-01T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.npr.org/2026/10/31/nx-s1-6022401/oil-earnings-binance-heist-a-maha-update",
+      "url": "https://www.npr.org/2026/10/31/nx-s1-6022401/oil-earnings-binance-heist-a-maha-update",
+      "title": "Oil Earnings, Binance Heist, A MAHA Update",
+      "content_html": "<p>Oil companies are reporting sky-high profits this quarter. Hackers stole $6.3 billion in cryptocurrency this week, in the largest digital heist ever. It’s been just over two years since the rise of Make America Healthy Again. Has the Trump administration made good on the MAHA agenda? Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include sponsor-free listening. Learn more at plus.npr.org.</p><p>Source: Up First from NPR · 2026-10-31</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/31/nx-s1-6022401/oil-earnings-binance-heist-a-maha-update\">Read the original →</a></p>",
+      "content_text": "Oil companies are reporting sky-high profits this quarter. Hackers stole $6.3 billion in cryptocurrency this week, in the largest digital heist ever. It’s been just over two years since the rise of Make America Healthy Again. Has the Trump administration made good on the MAHA agenda? Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include sponsor-free listening. Learn more at plus.npr.org.",
+      "summary": "Oil companies are reporting sky-high profits this quarter. Hackers stole $6.3 billion in cryptocurrency this week, in the largest digital heist ever. It’s been…",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "新闻",
+        "英语听力"
+      ],
+      "authors": [
+        {
+          "name": "Up First from NPR"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "feeds-npr-org"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/31/2026-midterm-election-super-pacs-donor-disclosure.html",
+      "url": "https://www.cnbc.com/2026/10/31/2026-midterm-election-super-pacs-donor-disclosure.html",
+      "title": "‘Pop-up’ super PACs pour $637 million into 2026 midterm races",
+      "content_html": "<p>Twenty-two late-forming super PACs spent about $637 million in 2026 congressional races, sometimes before voters could see their donors.</p><p>Source: US Top News and Analysis · 2026-10-31</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/31/2026-midterm-election-super-pacs-donor-disclosure.html\">Read the original →</a></p>",
+      "content_text": "Twenty-two late-forming super PACs spent about $637 million in 2026 congressional races, sometimes before voters could see their donors.",
+      "summary": "Twenty-two late-forming super PACs spent about $637 million in 2026 congressional races, sometimes before voters could see their donors.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html",
+      "url": "https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html",
+      "title": "Trump promised to slash energy costs — but gasoline, diesel and jet fuel all soared instead",
+      "content_html": "<p>President Donald Trump promised voters who were angry about inflation that he would slash gasoline prices below $2 a gallon in his first year in office.</p><p>Source: US Top News and Analysis · 2026-10-31</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html\">Read the original →</a></p>",
+      "content_text": "President Donald Trump promised voters who were angry about inflation that he would slash gasoline prices below $2 a gallon in his first year in office.",
+      "summary": "President Donald Trump promised voters who were angry about inflation that he would slash gasoline prices below $2 a gallon in his first year in office.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/31/trump-murdoch-wsj-epstein-defamation-lawsuit-dismissed.html",
+      "url": "https://www.cnbc.com/2026/10/31/trump-murdoch-wsj-epstein-defamation-lawsuit-dismissed.html",
+      "title": "Trump defamation suit against Murdoch, WSJ over Epstein letter dismissed with prejudice",
+      "content_html": "<p>President Donald Trump denied writing a birthday letter to sex offender Jeffrey Epstein, which was the subject of a 2025 Wall Street Journal article.</p><p>Source: US Top News and Analysis · 2026-10-31</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/31/trump-murdoch-wsj-epstein-defamation-lawsuit-dismissed.html\">Read the original →</a></p>",
+      "content_text": "President Donald Trump denied writing a birthday letter to sex offender Jeffrey Epstein, which was the subject of a 2025 Wall Street Journal article.",
+      "summary": "President Donald Trump denied writing a birthday letter to sex offender Jeffrey Epstein, which was the subject of a 2025 Wall Street Journal article.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html",
+      "url": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html",
+      "title": "Trump called out Big Oil profits. Here’s how much their refining earnings have surged since",
+      "content_html": "<p>Trump criticized Big Oil for making “too much money,” but oil majors have since reported surging refining earnings as fuel supplies tightened.</p><p>Source: US Top News and Analysis · 2026-10-31</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html\">Read the original →</a></p>",
+      "content_text": "Trump criticized Big Oil for making “too much money,” but oil majors have since reported surging refining earnings as fuel supplies tightened.",
+      "summary": "Trump criticized Big Oil for making “too much money,” but oil majors have since reported surging refining earnings as fuel supplies tightened.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
+      "url": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
+      "title": "Stocks started the week with promise but ended in despair. Our take on the big reversal",
+      "content_html": "<p>Big Tech earnings reignited AI spending fears, sending investors into defensive stocks.</p><p>Source: US Top News and Analysis · 2026-10-31</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html\">Read the original →</a></p>",
+      "content_text": "Big Tech earnings reignited AI spending fears, sending investors into defensive stocks.",
+      "summary": "Big Tech earnings reignited AI spending fears, sending investors into defensive stocks.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html",
+      "url": "https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html",
+      "title": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution",
+      "content_html": "<p>The Colossus data centers and a power plant that SpaceXAI is also building in Southaven, Mississippi, have faced community backlash for years.</p><p>Source: US Top News and Analysis · 2026-10-31</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html\">Read the original →</a></p>",
+      "content_text": "The Colossus data centers and a power plant that SpaceXAI is also building in Southaven, Mississippi, have faced community backlash for years.",
+      "summary": "The Colossus data centers and a power plant that SpaceXAI is also building in Southaven, Mississippi, have faced community backlash for years.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/31/qatar-iran-us-talks-mediation.html",
+      "url": "https://www.cnbc.com/2026/10/31/qatar-iran-us-talks-mediation.html",
+      "title": "Qatari mediators held talks in Tehran aimed at restarting direct U.S.-Iran negotiations, source says",
+      "content_html": "<p>Axios reported that Qatari mediators held more than 12 hours of talks in Tehran on Friday to reach a deal to avoid a resumption of American-led attacks on Iran.</p><p>Source: US Top News and Analysis · 2026-10-31</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/31/qatar-iran-us-talks-mediation.html\">Read the original →</a></p>",
+      "content_text": "Axios reported that Qatari mediators held more than 12 hours of talks in Tehran on Friday to reach a deal to avoid a resumption of American-led attacks on Iran.",
+      "summary": "Axios reported that Qatari mediators held more than 12 hours of talks in Tehran on Friday to reach a deal to avoid a resumption of American-led attacks on Iran.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html",
+      "url": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html",
+      "title": "OpenAI pares fundraising goal, now seeking up to $20 billion in latest round",
+      "content_html": "<p>The funding round is still in progress and has not closed, so the figures are subject to change, a person directly familiar with the deal told CNBC.</p><p>Source: US Top News and Analysis · 2026-10-31</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html\">Read the original →</a></p>",
+      "content_text": "The funding round is still in progress and has not closed, so the figures are subject to change, a person directly familiar with the deal told CNBC.",
+      "summary": "The funding round is still in progress and has not closed, so the figures are subject to change, a person directly familiar with the deal told CNBC.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/make-it/2026/10/31/weil-wind-down-career-advice.html",
+      "url": "https://www.cnbc.com/make-it/2026/10/31/weil-wind-down-career-advice.html",
+      "title": "In the wake of Weil, a legal recruiter's advice for surviving a company wind-down",
+      "content_html": "<p>Legal recruiter Danielle Thompson shares her best advice for the employees of Weil, Gotshal &amp; Manges and others who face a company wind-down or dissolution.</p><p>Source: US Top News and Analysis · 2026-10-31</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/make-it/2026/10/31/weil-wind-down-career-advice.html\">Read the original →</a></p>",
+      "content_text": "Legal recruiter Danielle Thompson shares her best advice for the employees of Weil, Gotshal & Manges and others who face a company wind-down or dissolution.",
+      "summary": "Legal recruiter Danielle Thompson shares her best advice for the employees of Weil, Gotshal & Manges and others who face a company wind-down or dissolution.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/31/ai-agents-humans-dazzle-duckbill-meta.html",
+      "url": "https://www.cnbc.com/2026/10/31/ai-agents-humans-dazzle-duckbill-meta.html",
+      "title": "Humans are still doing the work behind some AI agents",
+      "content_html": "<p>AI agents from startups including Dazzle, Duckbill and Wajo still rely on human workers for calls and other real-world tasks when software falls short.</p><p>Source: US Top News and Analysis · 2026-10-31</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/31/ai-agents-humans-dazzle-duckbill-meta.html\">Read the original →</a></p>",
+      "content_text": "AI agents from startups including Dazzle, Duckbill and Wajo still rely on human workers for calls and other real-world tasks when software falls short.",
+      "summary": "AI agents from startups including Dazzle, Duckbill and Wajo still rely on human workers for calls and other real-world tasks when software falls short.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/31/how-to-invest-in-art-collecting.html",
+      "url": "https://www.cnbc.com/2026/10/31/how-to-invest-in-art-collecting.html",
+      "title": "How to start an art collection on any budget",
+      "content_html": "<p>A guide to beginning an art collection, including how to research artists, what to buy, and where to connect, from galleries to fairs to auction houses.</p><p>Source: US Top News and Analysis · 2026-10-31</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/31/how-to-invest-in-art-collecting.html\">Read the original →</a></p>",
+      "content_text": "A guide to beginning an art collection, including how to research artists, what to buy, and where to connect, from galleries to fairs to auction houses.",
+      "summary": "A guide to beginning an art collection, including how to research artists, what to buy, and where to connect, from galleries to fairs to auction houses.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/31/binance-crypto-hack-safety.html",
+      "url": "https://www.cnbc.com/2026/10/31/binance-crypto-hack-safety.html",
+      "title": "Binance, crypto and hacks: What to know about keeping coin safe as cyber criminals advance",
+      "content_html": "<p>The Binance hack of $6.3 billion, the largest crypto theft ever, is a wake-up call for investors to understand how coin is guarded and the risk of losing it.</p><p>Source: US Top News and Analysis · 2026-10-31</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/31/binance-crypto-hack-safety.html\">Read the original →</a></p>",
+      "content_text": "The Binance hack of $6.3 billion, the largest crypto theft ever, is a wake-up call for investors to understand how coin is guarded and the risk of losing it.",
+      "summary": "The Binance hack of $6.3 billion, the largest crypto theft ever, is a wake-up call for investors to understand how coin is guarded and the risk of losing it.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/31/berkshire-ekes-out-some-new-highs-but-october-rally-stalls.html",
+      "url": "https://www.cnbc.com/2026/10/31/berkshire-ekes-out-some-new-highs-but-october-rally-stalls.html",
+      "title": "Berkshire ekes out some new highs, but October rally stalls",
+      "content_html": "<p>Berkshire Hathaway shares managed to set a few more all-time highs in an otherwise lackluster week of trading.</p><p>Source: US Top News and Analysis · 2026-10-31</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/31/berkshire-ekes-out-some-new-highs-but-october-rally-stalls.html\">Read the original →</a></p>",
+      "content_text": "Berkshire Hathaway shares managed to set a few more all-time highs in an otherwise lackluster week of trading.",
+      "summary": "Berkshire Hathaway shares managed to set a few more all-time highs in an otherwise lackluster week of trading.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/31/401k-cash-outs-automatic-rollovers.html",
+      "url": "https://www.cnbc.com/2026/10/31/401k-cash-outs-automatic-rollovers.html",
+      "title": "Automatic 401(k) rollovers reduce cash-outs, research finds — but few accounts reach new employer plans",
+      "content_html": "<p>Workers with small 401(k) balances are cashing out less often under an automatic portability program, but most accounts remain in temporary IRAs.</p><p>Source: US Top News and Analysis · 2026-10-31</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/31/401k-cash-outs-automatic-rollovers.html\">Read the original →</a></p>",
+      "content_text": "Workers with small 401(k) balances are cashing out less often under an automatic portability program, but most accounts remain in temporary IRAs.",
+      "summary": "Workers with small 401(k) balances are cashing out less often under an automatic portability program, but most accounts remain in temporary IRAs.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/31/automakers-3d-printing-ford-rivian-gm.html",
+      "url": "https://www.cnbc.com/2026/10/31/automakers-3d-printing-ford-rivian-gm.html",
+      "title": "Automakers like Rivian and Ford are ‘democratizing 3D printing’ to reduce costs and increase speed",
+      "content_html": "<p>Automakers including Ford, Rivian and GM are expanding 3D printing to make prototypes, factory tools and low-volume parts faster and at lower cost.</p><p>Source: US Top News and Analysis · 2026-10-31</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/31/automakers-3d-printing-ford-rivian-gm.html\">Read the original →</a></p>",
+      "content_text": "Automakers including Ford, Rivian and GM are expanding 3D printing to make prototypes, factory tools and low-volume parts faster and at lower cost.",
+      "summary": "Automakers including Ford, Rivian and GM are expanding 3D printing to make prototypes, factory tools and low-volume parts faster and at lower cost.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html",
+      "url": "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html",
+      "title": "Anthropic's path to the Nasdaq just got a lot bumpier",
+      "content_html": "<p>Concerning projections from hyperscalers this week punished tech stocks and pushed the Nasdaq to its first three-week losing streak since March.</p><p>Source: US Top News and Analysis · 2026-10-31</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html\">Read the original →</a></p>",
+      "content_text": "Concerning projections from hyperscalers this week punished tech stocks and pushed the Nasdaq to its first three-week losing streak since March.",
+      "summary": "Concerning projections from hyperscalers this week punished tech stocks and pushed the Nasdaq to its first three-week losing streak since March.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/31/ai-construction-worker-safety.html",
+      "url": "https://www.cnbc.com/2026/10/31/ai-construction-worker-safety.html",
+      "title": "AI is coming to construction sites. But does it make workers safer?",
+      "content_html": "<p>AI is flagging hazards on construction sites, but researchers say evidence that the technology prevents injuries remains limited.</p><p>Source: US Top News and Analysis · 2026-10-31</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/31/ai-construction-worker-safety.html\">Read the original →</a></p>",
+      "content_text": "AI is flagging hazards on construction sites, but researchers say evidence that the technology prevents injuries remains limited.",
+      "summary": "AI is flagging hazards on construction sites, but researchers say evidence that the technology prevents injuries remains limited.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/make-it/2026/10/31/set-active-lindsey-carter-entrepreneurship.html",
+      "url": "https://www.cnbc.com/make-it/2026/10/31/set-active-lindsey-carter-entrepreneurship.html",
+      "title": "35-year-old took on $20K in debt to launch a business from her dining room—now it brings in 8 figures a year",
+      "content_html": "<p>Set Active founder Lindsey Carter shares how she learned to separate her professional stress from her personal life while growing her athleisure company.</p><p>Source: US Top News and Analysis · 2026-10-31</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/make-it/2026/10/31/set-active-lindsey-carter-entrepreneurship.html\">Read the original →</a></p>",
+      "content_text": "Set Active founder Lindsey Carter shares how she learned to separate her professional stress from her personal life while growing her athleisure company.",
+      "summary": "Set Active founder Lindsey Carter shares how she learned to separate her professional stress from her personal life while growing her athleisure company.",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.npr.org/2026/10/30/nx-s1-6023035/final-days-of-midterm-campaigning-alaska-senate-race-controversy-iran-war-plans",
+      "url": "https://www.npr.org/2026/10/30/nx-s1-6023035/final-days-of-midterm-campaigning-alaska-senate-race-controversy-iran-war-plans",
+      "title": "Final Days Of Midterm Campaigning, Alaska Senate Race Controversy, Iran War Plans",
+      "content_html": "<p>President Trump is changing his final campaign strategy as Republicans try to close an early-voting gap and hold off Democratic gains in competitive races across the country. Alaska’s tight Senate race is facing new scrutiny after allegations that Democrats helped recruit a spoiler candidate with the same name as the Republican incumbent, while Mary Peltola denies knowing about the effort. Connecticut Democratic Senator Chris Murphy, who was briefed on possible new U.S.</p><p>Source: Up First from NPR · 2026-10-30</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/30/nx-s1-6023035/final-days-of-midterm-campaigning-alaska-senate-race-controversy-iran-war-plans\">Read the original →</a></p>",
+      "content_text": "President Trump is changing his final campaign strategy as Republicans try to close an early-voting gap and hold off Democratic gains in competitive races across the country. Alaska’s tight Senate race is facing new scrutiny after allegations that Democrats helped recruit a spoiler candidate with the same name as the Republican incumbent, while Mary Peltola denies knowing about the effort. Connecticut Democratic Senator Chris Murphy, who was briefed on possible new U.S.",
+      "summary": "President Trump is changing his final campaign strategy as Republicans try to close an early-voting gap and hold off Democratic gains in competitive races acros…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "新闻",
+        "英语听力"
+      ],
+      "authors": [
+        {
+          "name": "Up First from NPR"
+        }
+      ],
+      "_shelf": {
+        "type": "audio",
+        "shelf": "feeds-npr-org"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/30/treasury-i-bond-rate-through-april-2027.html",
+      "url": "https://www.cnbc.com/2026/10/30/treasury-i-bond-rate-through-april-2027.html",
+      "title": "Treasury Department announces new Series I bond rate of 5.51% for the next six months",
+      "content_html": "<p>The U.S. Department of the Treasury has announced new Series I bond rates through April 2027.</p><p>Source: US Top News and Analysis · 2026-10-30</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/30/treasury-i-bond-rate-through-april-2027.html\">Read the original →</a></p>",
+      "content_text": "The U.S. Department of the Treasury has announced new Series I bond rates through April 2027.",
+      "summary": "The U.S. Department of the Treasury has announced new Series I bond rates through April 2027.",
       "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "金融",
@@ -30,11 +538,12 @@
       }
     },
     {
-      "id": "https://www.cnbc.com/2026/10/29/polymarket-reports-outage-on-international-exchange-halts-trading.html",
-      "url": "https://www.cnbc.com/2026/10/29/polymarket-reports-outage-on-international-exchange-halts-trading.html",
-      "title": "Some Polymarket user funds stolen by hackers; exchange referring matter to U.K. authorities",
-      "content_text": "The outage comes just days before the platform is expected to experience heightened trading during the U.S. midterm elections.",
-      "summary": "The outage comes just days before the platform is expected to experience heightened trading during the U.S. midterm elections.",
+      "id": "https://www.cnbc.com/2026/10/30/reid-hoffman-democrats-epstein-midterms-2026.html",
+      "url": "https://www.cnbc.com/2026/10/30/reid-hoffman-democrats-epstein-midterms-2026.html",
+      "title": "Reid Hoffman gives millions to Dems in late spending spree as Epstein fight spills into election",
+      "content_html": "<p>Reid Hoffman has given $8 million to Wisconsin Democrats backing David Crowley as Tom Tiffany attacks Hoffman&#39;s past ties to Jeffrey Epstein.</p><p>Source: US Top News and Analysis · 2026-10-30</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/30/reid-hoffman-democrats-epstein-midterms-2026.html\">Read the original →</a></p>",
+      "content_text": "Reid Hoffman has given $8 million to Wisconsin Democrats backing David Crowley as Tom Tiffany attacks Hoffman's past ties to Jeffrey Epstein.",
+      "summary": "Reid Hoffman has given $8 million to Wisconsin Democrats backing David Crowley as Tom Tiffany attacks Hoffman's past ties to Jeffrey Epstein.",
       "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "金融",
@@ -51,11 +560,12 @@
       }
     },
     {
-      "id": "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html",
-      "url": "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html",
-      "title": "Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks",
-      "content_text": "Reddit posts third-quarter earnings and reveals plans to require all users to create official accounts as Google search traffic shrinks",
-      "summary": "Reddit posts third-quarter earnings and reveals plans to require all users to create official accounts as Google search traffic shrinks",
+      "id": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html",
+      "url": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html",
+      "title": "Meta outlook revised downward by S&P on cash flow and capex concerns",
+      "content_html": "<p>Meta has been given a negative outlook by S&amp;P Global Ratings due to the company&#39;s hefty capital expenditures and concerns about free cash flow.</p><p>Source: US Top News and Analysis · 2026-10-30</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html\">Read the original →</a></p>",
+      "content_text": "Meta has been given a negative outlook by S&P Global Ratings due to the company's hefty capital expenditures and concerns about free cash flow.",
+      "summary": "Meta has been given a negative outlook by S&P Global Ratings due to the company's hefty capital expenditures and concerns about free cash flow.",
       "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "金融",
@@ -72,200 +582,12 @@
       }
     },
     {
-      "id": "https://www.cnbc.com/2026/10/29/microsoft-25-billion-debt-offering.html",
-      "url": "https://www.cnbc.com/2026/10/29/microsoft-25-billion-debt-offering.html",
-      "title": "Microsoft plans to raise $25 billion in debt as it pursues AI buildout",
-      "content_text": "Microsoft boasts a strong credit rating and has managed to maintain positive free cash flow, unlike Meta, Alphabet and Amazon.",
-      "summary": "Microsoft boasts a strong credit rating and has managed to maintain positive free cash flow, unlike Meta, Alphabet and Amazon.",
-      "date_published": "2026-10-30T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/30/israel-election-netanyahu-eisenkot-coalition-talks-.html",
-      "url": "https://www.cnbc.com/2026/10/30/israel-election-netanyahu-eisenkot-coalition-talks-.html",
-      "title": "Israel faces weeks of coalition haggling as Netanyahu’s party claims election 'stolen'",
-      "content_text": "Israel's election leaves the country facing weeks of coalition bargaining and an uphill battle for the opposition party to form a majority government.",
-      "summary": "Israel's election leaves the country facing weeks of coalition bargaining and an uphill battle for the opposition party to form a majority government.",
-      "date_published": "2026-10-30T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html",
-      "url": "https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html",
-      "title": "Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms",
-      "content_text": "Iran said four tankers struck mines in the Strait of Hormuz, while Tehran disputed a U.S. claim that key shipping lanes had been cleared.",
-      "summary": "Iran said four tankers struck mines in the Strait of Hormuz, while Tehran disputed a U.S. claim that key shipping lanes had been cleared.",
-      "date_published": "2026-10-30T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/30/election-trump-brazil-serbia-hungary.html",
-      "url": "https://www.cnbc.com/2026/10/30/election-trump-brazil-serbia-hungary.html",
-      "title": "How elections worldwide are testing Trump’s influence abroad",
-      "content_text": "Recent election losses by leaders linked to Trump have prompted questions about whether his influence over the global right is weakening.",
-      "summary": "Recent election losses by leaders linked to Trump have prompted questions about whether his influence over the global right is weakening.",
-      "date_published": "2026-10-30T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/30/hon-hai-technology-group-foxconn-ai-server-young-liu-.html",
-      "url": "https://www.cnbc.com/2026/10/30/hon-hai-technology-group-foxconn-ai-server-young-liu-.html",
-      "title": "Foxconn hopes to own 50% of the global AI server market within a couple years",
-      "content_text": "Foxconn's chairman told CNBC that AI demand remains strong as the company eyes U.S. expansion and a larger share of the global AI server market.",
-      "summary": "Foxconn's chairman told CNBC that AI demand remains strong as the company eyes U.S. expansion and a larger share of the global AI server market.",
-      "date_published": "2026-10-30T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/29/alaska-senate-governor-investigation-sullivan-peltola-doj.html",
-      "url": "https://www.cnbc.com/2026/10/29/alaska-senate-governor-investigation-sullivan-peltola-doj.html",
-      "title": "DOJ escalates Alaska Senate lawsuit over dueling Sullivan candidacies",
-      "content_text": "Alaska's election could determine which party has a majority in the Senate. GOP Sen. Dan Sullivan faces a strong challenge from Democrat Mary Peltola.",
-      "summary": "Alaska's election could determine which party has a majority in the Senate. GOP Sen. Dan Sullivan faces a strong challenge from Democrat Mary Peltola.",
-      "date_published": "2026-10-30T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/30/billions-in-crypto-frozen-in-binance-hack-heres-what-happens-next-.html",
-      "url": "https://www.cnbc.com/2026/10/30/billions-in-crypto-frozen-in-binance-hack-heres-what-happens-next-.html",
-      "title": "Binance's $6.3 billion hack: What we know and what comes next",
-      "content_text": "Billions in crypto assets have been frozen following a potential Binance security breach, raising questions about whether the funds can be recovered.",
-      "summary": "Billions in crypto assets have been frozen following a potential Binance security breach, raising questions about whether the funds can be recovered.",
-      "date_published": "2026-10-30T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
-      "url": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
-      "title": "Biggest-ever crypto hack impacts $6.3 billion as Binance works to contain fallout",
-      "content_text": "Binance estimated the impact of a security incident at $6.3 billion, with around $3 billion in crypto assets frozen, and pledged to cover all losses.",
-      "summary": "Binance estimated the impact of a security incident at $6.3 billion, with around $3 billion in crypto assets frozen, and pledged to cover all losses.",
-      "date_published": "2026-10-30T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/30/bp-earnings-oil-q3.html",
-      "url": "https://www.cnbc.com/2026/10/30/bp-earnings-oil-q3.html",
-      "title": "BP’s third-quarter profit nearly quadruples to $8.5 billion as refining margins surge",
-      "content_text": "The oil major was the latest to smash profit expectations as global conflicts continue to drive energy market volatility.",
-      "summary": "The oil major was the latest to smash profit expectations as global conflicts continue to drive energy market volatility.",
-      "date_published": "2026-10-30T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html",
-      "url": "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html",
-      "title": "BOJ holds rates as underlying inflation aligns with 2% target for first time since 2013",
-      "content_text": "The BOJ declared that its underlying inflation target of 2% has been met, the first time the central bank has done so since it set the target in 2013.",
-      "summary": "The BOJ declared that its underlying inflation target of 2% has been met, the first time the central bank has done so since it set the target in 2013.",
+      "id": "https://www.cnbc.com/2026/10/30/jim-cramer-consumer-staples-stocks.html",
+      "url": "https://www.cnbc.com/2026/10/30/jim-cramer-consumer-staples-stocks.html",
+      "title": "Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes",
+      "content_html": "<p>Cramer said investors looking to diversify beyond the struggling AI trade should consider consumer staples.</p><p>Source: US Top News and Analysis · 2026-10-30</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/30/jim-cramer-consumer-staples-stocks.html\">Read the original →</a></p>",
+      "content_text": "Cramer said investors looking to diversify beyond the struggling AI trade should consider consumer staples.",
+      "summary": "Cramer said investors looking to diversify beyond the struggling AI trade should consider consumer staples.",
       "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "金融",
@@ -284,7 +606,8 @@
     {
       "id": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
       "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
-      "title": "Amazon falls 7%, Intel plunges 25% in premarket trading, as pressure mounts after earnings",
+      "title": "Intel stock has worst day since 1970s, wiping about $12 billion off government's stake",
+      "content_html": "<p>Investors are nervous about the massive AI spending from the tech giants and whether that will pay off.</p><p>Source: US Top News and Analysis · 2026-10-30</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html\">Read the original →</a></p>",
       "content_text": "Investors are nervous about the massive AI spending from the tech giants and whether that will pay off.",
       "summary": "Investors are nervous about the massive AI spending from the tech giants and whether that will pay off.",
       "date_published": "2026-10-30T00:00:00Z",
@@ -303,11 +626,100 @@
       }
     },
     {
-      "id": "https://www.cnbc.com/2026/10/30/novartis-remibrutinib-multiple-sclerosis.html",
-      "url": "https://www.cnbc.com/2026/10/30/novartis-remibrutinib-multiple-sclerosis.html",
-      "title": "A pharma giant is moving past one patent cliff — but another is already looming",
-      "content_text": "Disappointing data highlights Novartis' challenge to build its next generation of blockbuster medicines, following a series of clinical trial setbacks.",
-      "summary": "Disappointing data highlights Novartis' challenge to build its next generation of blockbuster medicines, following a series of clinical trial setbacks.",
+      "id": "https://www.cnbc.com/2026/10/30/halloween-gets-pricier-as-chocolate-costs-rise-hershey-could-feel-it.html",
+      "url": "https://www.cnbc.com/2026/10/30/halloween-gets-pricier-as-chocolate-costs-rise-hershey-could-feel-it.html",
+      "title": "Halloween gets pricier as chocolate costs climb — Hershey may feel the pinch",
+      "content_html": "<p>Higher cocoa and sugar prices are fueling above-average cost inflation for candy</p><p>Source: US Top News and Analysis · 2026-10-30</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/30/halloween-gets-pricier-as-chocolate-costs-rise-hershey-could-feel-it.html\">Read the original →</a></p>",
+      "content_text": "Higher cocoa and sugar prices are fueling above-average cost inflation for candy",
+      "summary": "Higher cocoa and sugar prices are fueling above-average cost inflation for candy",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/30/gamble-on-democracy-inside-suspicious-election-contracts-trading-on-prediction-markets-.html",
+      "url": "https://www.cnbc.com/2026/10/30/gamble-on-democracy-inside-suspicious-election-contracts-trading-on-prediction-markets-.html",
+      "title": "Gamble on democracy: Inside suspicious election-contracts trading on prediction markets",
+      "content_html": "<p>CNBC examines unusual price spikes in election prediction markets and how low-volume contracts can be moved by relatively small trades.</p><p>Source: US Top News and Analysis · 2026-10-30</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/30/gamble-on-democracy-inside-suspicious-election-contracts-trading-on-prediction-markets-.html\">Read the original →</a></p>",
+      "content_text": "CNBC examines unusual price spikes in election prediction markets and how low-volume contracts can be moved by relatively small trades.",
+      "summary": "CNBC examines unusual price spikes in election prediction markets and how low-volume contracts can be moved by relatively small trades.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/make-it/2026/10/30/binance-crypto-hack-customer-funds.html",
+      "url": "https://www.cnbc.com/make-it/2026/10/30/binance-crypto-hack-customer-funds.html",
+      "title": "Binance loses $6.3 billion in crypto heist—what happens to your money when an exchange gets hacked",
+      "content_html": "<p>Crypto exchanges make it easier to buy, sell and store digital assets, but they come with risks, too.</p><p>Source: US Top News and Analysis · 2026-10-30</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/make-it/2026/10/30/binance-crypto-hack-customer-funds.html\">Read the original →</a></p>",
+      "content_text": "Crypto exchanges make it easier to buy, sell and store digital assets, but they come with risks, too.",
+      "summary": "Crypto exchanges make it easier to buy, sell and store digital assets, but they come with risks, too.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/30/alaska-senate-election-doj-lawsuit-sullivan-peltola.html",
+      "url": "https://www.cnbc.com/2026/10/30/alaska-senate-election-doj-lawsuit-sullivan-peltola.html",
+      "title": "Alaska Senate election: DOJ wants to 'segregate' all ballots for 2nd Sullivan candidate",
+      "content_html": "<p>The winner of the Alaska election could determine whether Republicans retain their majority in the U.S. Senate or if Democrats take control of the chamber.</p><p>Source: US Top News and Analysis · 2026-10-30</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/30/alaska-senate-election-doj-lawsuit-sullivan-peltola.html\">Read the original →</a></p>",
+      "content_text": "The winner of the Alaska election could determine whether Republicans retain their majority in the U.S. Senate or if Democrats take control of the chamber.",
+      "summary": "The winner of the Alaska election could determine whether Republicans retain their majority in the U.S. Senate or if Democrats take control of the chamber.",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "金融",
+        "新闻"
+      ],
+      "authors": [
+        {
+          "name": "US Top News and Analysis"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "cnbc-com"
+      }
+    },
+    {
+      "id": "https://www.cnbc.com/2026/10/30/binance-hack-elon-musk-tesla-spacex.html",
+      "url": "https://www.cnbc.com/2026/10/30/binance-hack-elon-musk-tesla-spacex.html",
+      "title": "'Bad time to troll': Binance co-founder Zhao asks Musk for support after hack",
+      "content_html": "<p>Binance co-founder Changpeng Zhao asked Elon Musk to stop “trolling” after a $6.3 billion hack, pointing to Binance’s $1 billion-plus SpaceX stake.</p><p>Source: US Top News and Analysis · 2026-10-30</p><p>Tags: #金融 #新闻</p><p><a href=\"https://www.cnbc.com/2026/10/30/binance-hack-elon-musk-tesla-spacex.html\">Read the original →</a></p>",
+      "content_text": "Binance co-founder Changpeng Zhao asked Elon Musk to stop “trolling” after a $6.3 billion hack, pointing to Binance’s $1 billion-plus SpaceX stake.",
+      "summary": "Binance co-founder Changpeng Zhao asked Elon Musk to stop “trolling” after a $6.3 billion hack, pointing to Binance’s $1 billion-plus SpaceX stake.",
       "date_published": "2026-10-30T00:00:00Z",
       "tags": [
         "金融",
@@ -327,7 +739,8 @@
       "id": "https://www.npr.org/2026/10/29/nx-s1-6021969/midterm-spending-blitz-gdp-inflations-reports-israel-election-deadlock-iran-war",
       "url": "https://www.npr.org/2026/10/29/nx-s1-6021969/midterm-spending-blitz-gdp-inflations-reports-israel-election-deadlock-iran-war",
       "title": "Midterm Spending Blitz, GDP & Inflations Reports, Israel Election Deadlock & Iran War",
-      "content_text": "Ad spending in Kansas’ Senate race has jumped tenfold in weeks as Democrats pour money into Republican-heavy districts in the final days before the midterms. Th…",
+      "content_html": "<p>Ad spending in Kansas’ Senate race has jumped tenfold in weeks as Democrats pour money into Republican-heavy districts in the final days before the midterms. The economy appears to be growing at a solid pace, but inflation is still running ahead of wages and leaving many Americans feeling worse off financially.</p><p>Source: Up First from NPR · 2026-10-29</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/29/nx-s1-6021969/midterm-spending-blitz-gdp-inflations-reports-israel-election-deadlock-iran-war\">Read the original →</a></p>",
+      "content_text": "Ad spending in Kansas’ Senate race has jumped tenfold in weeks as Democrats pour money into Republican-heavy districts in the final days before the midterms. The economy appears to be growing at a solid pace, but inflation is still running ahead of wages and leaving many Americans feeling worse off financially.",
       "summary": "Ad spending in Kansas’ Senate race has jumped tenfold in weeks as Democrats pour money into Republican-heavy districts in the final days before the midterms. Th…",
       "date_published": "2026-10-29T00:00:00Z",
       "tags": [
@@ -345,325 +758,11 @@
       }
     },
     {
-      "id": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
-      "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
-      "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
-      "content_text": "The personal consumption expenditures price index was projected to increase 0.5% in September for an annual rate of 3.7%, according to the Dow Jones consensus.",
-      "summary": "The personal consumption expenditures price index was projected to increase 0.5% in September for an annual rate of 3.7%, according to the Dow Jones consensus.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/29/steve-eisman-gets-more-conservative-with-portfolio-as-ai-trade-nears-tipping-point.html",
-      "url": "https://www.cnbc.com/2026/10/29/steve-eisman-gets-more-conservative-with-portfolio-as-ai-trade-nears-tipping-point.html",
-      "title": "Steve Eisman gets more conservative with portfolio as AI trade nears 'tipping point'",
-      "content_text": "The noted investor, famous from \"The Big Short,\" says it would be \"impossible\" for an AI crash not to hurt the broader market",
-      "summary": "The noted investor, famous from \"The Big Short,\" says it would be \"impossible\" for an AI crash not to hurt the broader market",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/29/starbucks-sbux-q4-2026-earnings.html",
-      "url": "https://www.cnbc.com/2026/10/29/starbucks-sbux-q4-2026-earnings.html",
-      "title": "Starbucks sales miss expectations, but its U.S. turnaround is gaining steam",
-      "content_text": "Starbucks' U.S. stores topped Wall Street's comparable sales expectations but its international business fell short of estimates.",
-      "summary": "Starbucks' U.S. stores topped Wall Street's comparable sales expectations but its international business fell short of estimates.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/29/midterm-elections-stock-market-history.html",
-      "url": "https://www.cnbc.com/2026/10/29/midterm-elections-stock-market-history.html",
-      "title": "Some investors have midterm election jitters. Here’s what history shows about stocks",
-      "content_text": "Investors are anxious about the 2026 midterms. Here's what historical S&P 500 data shows happened before and after past elections.",
-      "summary": "Investors are anxious about the 2026 midterms. Here's what historical S&P 500 data shows happened before and after past elections.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/29/rivian-rivn-earnings-q3-2026.html",
-      "url": "https://www.cnbc.com/2026/10/29/rivian-rivn-earnings-q3-2026.html",
-      "title": "Rivian third-quarter earnings beat estimates as software revenue, R2 deliveries rise",
-      "content_text": "Rivian also revised its 2026 guidance to mark expected improvements in its vehicle deliveries, pre-tax adjusted earnings and capital expenditures.",
-      "summary": "Rivian also revised its 2026 guidance to mark expected improvements in its vehicle deliveries, pre-tax adjusted earnings and capital expenditures.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/29/druckenmiller-hyperliquid-surge.html",
-      "url": "https://www.cnbc.com/2026/10/29/druckenmiller-hyperliquid-surge.html",
-      "title": "Rare Stanley Druckenmiller post sends crypto-linked stock surging",
-      "content_text": "Options traders pounced on the closest publicly-traded play to the news.",
-      "summary": "Options traders pounced on the closest publicly-traded play to the news.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html",
-      "url": "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html",
-      "title": "Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'",
-      "content_text": "Nvidia disputed a New York Times report that U.S. intelligence agencies surveilled a person close to CEO Jensen Huang over concerns she could be a Chinese spy.",
-      "summary": "Nvidia disputed a New York Times report that U.S. intelligence agencies surveilled a person close to CEO Jensen Huang over concerns she could be a Chinese spy.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/29/norwegian-earnings-guidance-shares.html",
-      "url": "https://www.cnbc.com/2026/10/29/norwegian-earnings-guidance-shares.html",
-      "title": "Norwegian shares surge 13% on earnings beat, guidance raise",
-      "content_text": "Norwegian said the company's bookings had \"improved modestly\" but remain below its optimal range.",
-      "summary": "Norwegian said the company's bookings had \"improved modestly\" but remain below its optimal range.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/29/bank-north-dakota-socialism-election.html",
-      "url": "https://www.cnbc.com/2026/10/29/bank-north-dakota-socialism-election.html",
-      "title": "It's a 'socialist' bank — and North Dakota Republicans love it",
-      "content_text": "Democratic socialist candidates have held up North Dakota's state-owned bank as a model to emulate.",
-      "summary": "Democratic socialist candidates have held up North Dakota's state-owned bank as a model to emulate.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/29/trump-accounts-frank-bisignano-brooklyn.html",
-      "url": "https://www.cnbc.com/2026/10/29/trump-accounts-frank-bisignano-brooklyn.html",
-      "title": "IRS CEO Bisignano donates to Trump Accounts in his childhood Brooklyn ZIP code",
-      "content_text": "IRS CEO Frank Bisignano has donated to Trump Accounts for Brooklyn kids from his hometown ZIP code. Here's what families need to know.",
-      "summary": "IRS CEO Frank Bisignano has donated to Trump Accounts for Brooklyn kids from his hometown ZIP code. Here's what families need to know.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/29/royal-caribbean-carnival-norwegian-fuel-costs.html",
-      "url": "https://www.cnbc.com/2026/10/29/royal-caribbean-carnival-norwegian-fuel-costs.html",
-      "title": "Cruise companies aim to keep fuel costs down. Their strategies for doing so differ",
-      "content_text": "Carnival is cutting fuel use, while Royal Caribbean and Norwegian rely on \"hedging\" to keep fuel costs down amid conflict in the Middle East.",
-      "summary": "Carnival is cutting fuel use, while Royal Caribbean and Norwegian rely on \"hedging\" to keep fuel costs down amid conflict in the Middle East.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/29/coinbase-coin-earnings-q3-2026-.html",
-      "url": "https://www.cnbc.com/2026/10/29/coinbase-coin-earnings-q3-2026-.html",
-      "title": "Coinbase net income surges 66% in third quarter, benefiting from bitcoin investment gains",
-      "content_text": "Coinbase posted better-than-expected earnings in the third quarter, largely due to a recovery in the cryptocurrency market.",
-      "summary": "Coinbase posted better-than-expected earnings in the third quarter, largely due to a recovery in the cryptocurrency market.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/29/big-oil-earnings-are-set-to-surge-why-investors-may-want-to-be-cautious.html",
-      "url": "https://www.cnbc.com/2026/10/29/big-oil-earnings-are-set-to-surge-why-investors-may-want-to-be-cautious.html",
-      "title": "Big Oil earnings are set to surge. Why investors may want to be cautious",
-      "content_text": "Big Oil earnings are coming. Why guidance could matter most and why the the charts suggest investors should be cautious.",
-      "summary": "Big Oil earnings are coming. Why guidance could matter most and why the the charts suggest investors should be cautious.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/29/aws-q3-earnings-report-2026.html",
-      "url": "https://www.cnbc.com/2026/10/29/aws-q3-earnings-report-2026.html",
-      "title": "Amazon AWS posts 39% revenue growth as cloud rivals also accelerate",
-      "content_text": "Amazon's cloud signed deals with Meta and OpenAI during the quarter, helping revenue to exceed consensus.",
-      "summary": "Amazon's cloud signed deals with Meta and OpenAI during the quarter, helping revenue to exceed consensus.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
-      "id": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html",
-      "url": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html",
-      "title": "Alphabet earnings miss reflects first real sign that AI is taking a bite out of search",
-      "content_text": "Wall Street hammered Alphabet for an earnings miss that included weaker-than-expected revenue out of the company's core business.",
-      "summary": "Wall Street hammered Alphabet for an earnings miss that included weaker-than-expected revenue out of the company's core business.",
-      "date_published": "2026-10-29T00:00:00Z",
-      "tags": [
-        "金融",
-        "新闻"
-      ],
-      "authors": [
-        {
-          "name": "US Top News and Analysis"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "cnbc-com"
-      }
-    },
-    {
       "id": "https://www.npr.org/2026/10/28/nx-s1-6020166/trump-rallies-for-republicans-israel-election-results-fed-interest-rates-meeting",
       "url": "https://www.npr.org/2026/10/28/nx-s1-6020166/trump-rallies-for-republicans-israel-election-results-fed-interest-rates-meeting",
       "title": "Trump Rallies For Republicans, Israel Election Results, Fed Interest Rates Meeting",
-      "content_text": "President Trump rallied for Republican Senate candidate Ken Paxton in Texas, but his personal grievances kept competing with his party’s closing message ahead o…",
+      "content_html": "<p>President Trump rallied for Republican Senate candidate Ken Paxton in Texas, but his personal grievances kept competing with his party’s closing message ahead of the midterms. Israel’s election remains too close to call, with Benjamin Netanyahu and Gadi Eisenkot both short of a governing majority and Arab-led parties potentially holding the balance of power.</p><p>Source: Up First from NPR · 2026-10-28</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/28/nx-s1-6020166/trump-rallies-for-republicans-israel-election-results-fed-interest-rates-meeting\">Read the original →</a></p>",
+      "content_text": "President Trump rallied for Republican Senate candidate Ken Paxton in Texas, but his personal grievances kept competing with his party’s closing message ahead of the midterms. Israel’s election remains too close to call, with Benjamin Netanyahu and Gadi Eisenkot both short of a governing majority and Arab-led parties potentially holding the balance of power.",
       "summary": "President Trump rallied for Republican Senate candidate Ken Paxton in Texas, but his personal grievances kept competing with his party’s closing message ahead o…",
       "date_published": "2026-10-28T00:00:00Z",
       "tags": [
@@ -684,7 +783,8 @@
       "id": "https://www.npr.org/2026/10/27/nx-s1-6019096/democrats-lead-in-npr-poll-preparations-for-election-challenge-israel-voting-begins",
       "url": "https://www.npr.org/2026/10/27/nx-s1-6019096/democrats-lead-in-npr-poll-preparations-for-election-challenge-israel-voting-begins",
       "title": "Democrats Lead In NPR Poll, Preparations For Election Challenge, Israel Voting Begins",
-      "content_text": "A new NPR/PBS News/Marist poll gives Democrats an eight-point lead on the congressional ballot, but lagging enthusiasm among young voters and independents could…",
+      "content_html": "<p>A new NPR/PBS News/Marist poll gives Democrats an eight-point lead on the congressional ballot, but lagging enthusiasm among young voters and independents could complicate their push to win Congress. Democrats are preparing legal and political responses to possible election challenges from President Trump as he offers million-dollar rewards for tips leading to voter fraud convictions.</p><p>Source: Up First from NPR · 2026-10-27</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/27/nx-s1-6019096/democrats-lead-in-npr-poll-preparations-for-election-challenge-israel-voting-begins\">Read the original →</a></p>",
+      "content_text": "A new NPR/PBS News/Marist poll gives Democrats an eight-point lead on the congressional ballot, but lagging enthusiasm among young voters and independents could complicate their push to win Congress. Democrats are preparing legal and political responses to possible election challenges from President Trump as he offers million-dollar rewards for tips leading to voter fraud convictions.",
       "summary": "A new NPR/PBS News/Marist poll gives Democrats an eight-point lead on the congressional ballot, but lagging enthusiasm among young voters and independents could…",
       "date_published": "2026-10-27T00:00:00Z",
       "tags": [
@@ -705,7 +805,8 @@
       "id": "https://www.npr.org/2026/10/26/nx-s1-6016798/gop-redistricting-bust-lula-wins-brazil-election-protest-spread-in-europe",
       "url": "https://www.npr.org/2026/10/26/nx-s1-6016798/gop-redistricting-bust-lula-wins-brazil-election-protest-spread-in-europe",
       "title": "GOP Redistricting Bust, Lula Wins Brazil Election, Protest Spread In Europe",
-      "content_text": "Republicans redrew 15 House districts hoping to protect their majority, but most have become competitive races as the party’s redistricting strategy falls short…",
+      "content_html": "<p>Republicans redrew 15 House districts hoping to protect their majority, but most have become competitive races as the party’s redistricting strategy falls short of expectations. Brazil’s leftist President Luiz Inácio Lula da Silva won reelection after trailing in the first round, but far-right rival Flávio Bolsonaro is demanding the result be thrown out.</p><p>Source: Up First from NPR · 2026-10-26</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/26/nx-s1-6016798/gop-redistricting-bust-lula-wins-brazil-election-protest-spread-in-europe\">Read the original →</a></p>",
+      "content_text": "Republicans redrew 15 House districts hoping to protect their majority, but most have become competitive races as the party’s redistricting strategy falls short of expectations. Brazil’s leftist President Luiz Inácio Lula da Silva won reelection after trailing in the first round, but far-right rival Flávio Bolsonaro is demanding the result be thrown out.",
       "summary": "Republicans redrew 15 House districts hoping to protect their majority, but most have become competitive races as the party’s redistricting strategy falls short…",
       "date_published": "2026-10-26T00:00:00Z",
       "tags": [
@@ -726,7 +827,8 @@
       "id": "https://www.npr.org/2026/10/25/nx-s1-6014758/pinching-pennies-casting-ballots-a-midterms-dispatch-from-the-midwest",
       "url": "https://www.npr.org/2026/10/25/nx-s1-6014758/pinching-pennies-casting-ballots-a-midterms-dispatch-from-the-midwest",
       "title": "Pinching pennies, casting ballots: a midterms dispatch from the Midwest",
-      "content_text": "The Midwest used to be known as an affordable place to live. Lately, though, many people there are having a hard time making ends meet. In this episode of The S…",
+      "content_html": "<p><img src=\"https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5712x3213+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3e%2F22%2F4f98db054bec90d546b6f33da2ea%2Fe3eb4aee-d68c-4a0a-a246-025e7bd7e3d9.jpeg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>The Midwest used to be known as an affordable place to live. Lately, though, many people there are having a hard time making ends meet. In this episode of The Sunday Story, Holly Edgell and Daniel Wheaton from NPR’s Midwest Newsroom bring us the voices of Midwesterners. We hear about how people in the region are struggling financially, and how the affordability crisis is impacting their votes in the midterms.</p><p>Source: Up First from NPR · 2026-10-25</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/25/nx-s1-6014758/pinching-pennies-casting-ballots-a-midterms-dispatch-from-the-midwest\">Read the original →</a></p>",
+      "content_text": "The Midwest used to be known as an affordable place to live. Lately, though, many people there are having a hard time making ends meet. In this episode of The Sunday Story, Holly Edgell and Daniel Wheaton from NPR’s Midwest Newsroom bring us the voices of Midwesterners. We hear about how people in the region are struggling financially, and how the affordability crisis is impacting their votes in the midterms.",
       "summary": "The Midwest used to be known as an affordable place to live. Lately, though, many people there are having a hard time making ends meet. In this episode of The S…",
       "date_published": "2026-10-25T00:00:00Z",
       "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5712x3213+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3e%2F22%2F4f98db054bec90d546b6f33da2ea%2Fe3eb4aee-d68c-4a0a-a246-025e7bd7e3d9.jpeg",
@@ -748,7 +850,8 @@
       "id": "https://www.npr.org/2026/10/24/nx-s1-6014537/websites-go-offline-protests-in-france-netflix-downsizes",
       "url": "https://www.npr.org/2026/10/24/nx-s1-6014537/websites-go-offline-protests-in-france-netflix-downsizes",
       "title": "Websites Go Offline, Protests in France, Netflix Downsizes",
-      "content_text": "AI discovered a vulnerability in part of the internet's architecture, called PHP2SHELL. Security researchers rushed to fix it, but the news leaked and hackers h…",
+      "content_html": "<p>AI discovered a vulnerability in part of the internet&#39;s architecture, called PHP2SHELL. Security researchers rushed to fix it, but the news leaked and hackers have swooped in. France deploys hordes of police as another wave of protests begin. Netflix is regrouping after the release of its latest quarterly earnings this week. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include sponsor-free listening. Learn more at plus.npr.org.</p><p>Source: Up First from NPR · 2026-10-24</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/24/nx-s1-6014537/websites-go-offline-protests-in-france-netflix-downsizes\">Read the original →</a></p>",
+      "content_text": "AI discovered a vulnerability in part of the internet's architecture, called PHP2SHELL. Security researchers rushed to fix it, but the news leaked and hackers have swooped in. France deploys hordes of police as another wave of protests begin. Netflix is regrouping after the release of its latest quarterly earnings this week. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show’s perks include sponsor-free listening. Learn more at plus.npr.org.",
       "summary": "AI discovered a vulnerability in part of the internet's architecture, called PHP2SHELL. Security researchers rushed to fix it, but the news leaked and hackers h…",
       "date_published": "2026-10-24T00:00:00Z",
       "tags": [
@@ -769,7 +872,8 @@
       "id": "https://www.npr.org/2026/10/23/nx-s1-6013298/us-prepares-for-possible-strikes-midterm-early-voting-trump-bbc-deposition",
       "url": "https://www.npr.org/2026/10/23/nx-s1-6013298/us-prepares-for-possible-strikes-midterm-early-voting-trump-bbc-deposition",
       "title": "US Prepares For Possible Strikes, Midterm Early Voting, Trump BBC Deposition",
-      "content_text": "The U.S. is sending a third aircraft carrier to the Middle East as oil prices climb and the prospect of another attack on Iran grows. More than 19 million Ameri…",
+      "content_html": "<p>The U.S. is sending a third aircraft carrier to the Middle East as oil prices climb and the prospect of another attack on Iran grows. More than 19 million Americans have already voted, with strong turnout among Democrats and voters of color, but the numbers can’t tell us who will win. A judge has ordered President Trump to testify in his $10 billion defamation case against the BBC, potentially forcing him to answer questions about his finances and January 6.</p><p>Source: Up First from NPR · 2026-10-23</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/23/nx-s1-6013298/us-prepares-for-possible-strikes-midterm-early-voting-trump-bbc-deposition\">Read the original →</a></p>",
+      "content_text": "The U.S. is sending a third aircraft carrier to the Middle East as oil prices climb and the prospect of another attack on Iran grows. More than 19 million Americans have already voted, with strong turnout among Democrats and voters of color, but the numbers can’t tell us who will win. A judge has ordered President Trump to testify in his $10 billion defamation case against the BBC, potentially forcing him to answer questions about his finances and January 6.",
       "summary": "The U.S. is sending a third aircraft carrier to the Middle East as oil prices climb and the prospect of another attack on Iran grows. More than 19 million Ameri…",
       "date_published": "2026-10-23T00:00:00Z",
       "tags": [
@@ -790,7 +894,8 @@
       "id": "https://www.npr.org/2026/10/22/nx-s1-6012014/democratic-surrogates-campaign-us-israel-plan-iran-strikes-tesla-spacex-merger",
       "url": "https://www.npr.org/2026/10/22/nx-s1-6012014/democratic-surrogates-campaign-us-israel-plan-iran-strikes-tesla-spacex-merger",
       "title": "Democratic Surrogates Campaign, US & Israel Plan Iran Strikes, Tesla SpaceX Merger",
-      "content_text": "Democrats are sending former President Barack Obama and former Vice President Kamala Harris into competitive Senate races to help the party win in Republican te…",
+      "content_html": "<p>Democrats are sending former President Barack Obama and former Vice President Kamala Harris into competitive Senate races to help the party win in Republican territory. NPR has learned the U.S. and Israel are preparing for a possible attack on Iran after the midterms, while Americans face settler violence and military arrests in the West Bank.</p><p>Source: Up First from NPR · 2026-10-22</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/22/nx-s1-6012014/democratic-surrogates-campaign-us-israel-plan-iran-strikes-tesla-spacex-merger\">Read the original →</a></p>",
+      "content_text": "Democrats are sending former President Barack Obama and former Vice President Kamala Harris into competitive Senate races to help the party win in Republican territory. NPR has learned the U.S. and Israel are preparing for a possible attack on Iran after the midterms, while Americans face settler violence and military arrests in the West Bank.",
       "summary": "Democrats are sending former President Barack Obama and former Vice President Kamala Harris into competitive Senate races to help the party win in Republican te…",
       "date_published": "2026-10-22T00:00:00Z",
       "tags": [
@@ -811,7 +916,8 @@
       "id": "https://www.npr.org/2026/10/21/nx-s1-6010363/zelenskyy-mending-ties-trump-in-north-carolina-saudi-arabia-gets-british-support",
       "url": "https://www.npr.org/2026/10/21/nx-s1-6010363/zelenskyy-mending-ties-trump-in-north-carolina-saudi-arabia-gets-british-support",
       "title": "Zelenskyy Mending Ties, Trump In North Carolina, Saudi Arabia Gets British Support",
-      "content_text": "Ukrainian President Volodymyr Zelenskyy is trying to repair ties with Washington as President Trump’s envoy Steve Witkoff carries new peace proposals to Russia.…",
+      "content_html": "<p>Ukrainian President Volodymyr Zelenskyy is trying to repair ties with Washington as President Trump’s envoy Steve Witkoff carries new peace proposals to Russia. President Trump is campaigning in North Carolina as Republicans struggle in key races and he ties federal relief promises to the outcome of the midterms. Britain is sending fighter jets to help Saudi Arabia defend against Houthi attacks as the war disrupts the kingdom’s economy and deepens the humanitarian crisis in Yemen.</p><p>Source: Up First from NPR · 2026-10-21</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/21/nx-s1-6010363/zelenskyy-mending-ties-trump-in-north-carolina-saudi-arabia-gets-british-support\">Read the original →</a></p>",
+      "content_text": "Ukrainian President Volodymyr Zelenskyy is trying to repair ties with Washington as President Trump’s envoy Steve Witkoff carries new peace proposals to Russia. President Trump is campaigning in North Carolina as Republicans struggle in key races and he ties federal relief promises to the outcome of the midterms. Britain is sending fighter jets to help Saudi Arabia defend against Houthi attacks as the war disrupts the kingdom’s economy and deepens the humanitarian crisis in Yemen.",
       "summary": "Ukrainian President Volodymyr Zelenskyy is trying to repair ties with Washington as President Trump’s envoy Steve Witkoff carries new peace proposals to Russia.…",
       "date_published": "2026-10-21T00:00:00Z",
       "tags": [
@@ -832,7 +938,8 @@
       "id": "https://www.npr.org/2026/10/20/nx-s1-6008838/pushback-on-trumps-russia-policy-competitive-midterm-races-doj-noncitizen-voting",
       "url": "https://www.npr.org/2026/10/20/nx-s1-6008838/pushback-on-trumps-russia-policy-competitive-midterm-races-doj-noncitizen-voting",
       "title": "Pushback On Trump's Russia Policy, Competitive Midterm Races, DOJ Noncitizen Voting",
-      "content_text": "1Ukrainian President Volodymyr Zelenskyy is taking his concerns about delayed U.S. weapons and intelligence directly to Congress as lawmakers in both parties qu…",
+      "content_html": "<p>1Ukrainian President Volodymyr Zelenskyy is taking his concerns about delayed U.S. weapons and intelligence directly to Congress as lawmakers in both parties question President Trump’s approach to Russia. Republicans are spending heavily to defend traditionally conservative territory as Democrats expand the midterm map two weeks before Election Day.</p><p>Source: Up First from NPR · 2026-10-20</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/20/nx-s1-6008838/pushback-on-trumps-russia-policy-competitive-midterm-races-doj-noncitizen-voting\">Read the original →</a></p>",
+      "content_text": "1Ukrainian President Volodymyr Zelenskyy is taking his concerns about delayed U.S. weapons and intelligence directly to Congress as lawmakers in both parties question President Trump’s approach to Russia. Republicans are spending heavily to defend traditionally conservative territory as Democrats expand the midterm map two weeks before Election Day.",
       "summary": "1Ukrainian President Volodymyr Zelenskyy is taking his concerns about delayed U.S. weapons and intelligence directly to Congress as lawmakers in both parties qu…",
       "date_published": "2026-10-20T00:00:00Z",
       "tags": [
@@ -853,7 +960,8 @@
       "id": "https://www.npr.org/2026/10/19/nx-s1-6007650/trump-eases-russia-sanctions-midterm-campaign-money-violent-protests-in-france",
       "url": "https://www.npr.org/2026/10/19/nx-s1-6007650/trump-eases-russia-sanctions-midterm-campaign-money-violent-protests-in-france",
       "title": "Trump Eases Russia Sanctions, Midterm Campaign Money, Violent Protests In France",
-      "content_text": "President Trump is easing pressure on Russia by waiving new sanctions as Ukraine continues striking Russian energy targets and tensions deepen between Trump and…",
+      "content_html": "<p>President Trump is easing pressure on Russia by waiving new sanctions as Ukraine continues striking Russian energy targets and tensions deepen between Trump and Ukrainian President Volodymyr Zelenskyy. Democratic candidates are outraising Republicans across many competitive midterm races, while Elon Musk pours hundreds of millions into GOP super PACs.</p><p>Source: Up First from NPR · 2026-10-19</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/19/nx-s1-6007650/trump-eases-russia-sanctions-midterm-campaign-money-violent-protests-in-france\">Read the original →</a></p>",
+      "content_text": "President Trump is easing pressure on Russia by waiving new sanctions as Ukraine continues striking Russian energy targets and tensions deepen between Trump and Ukrainian President Volodymyr Zelenskyy. Democratic candidates are outraising Republicans across many competitive midterm races, while Elon Musk pours hundreds of millions into GOP super PACs.",
       "summary": "President Trump is easing pressure on Russia by waiving new sanctions as Ukraine continues striking Russian energy targets and tensions deepen between Trump and…",
       "date_published": "2026-10-19T00:00:00Z",
       "tags": [
@@ -874,7 +982,8 @@
       "id": "https://www.npr.org/2026/10/18/nx-s1-6005247/israeli-voters-see-their-upcoming-elections-as-a-matter-of-life-or-death",
       "url": "https://www.npr.org/2026/10/18/nx-s1-6005247/israeli-voters-see-their-upcoming-elections-as-a-matter-of-life-or-death",
       "title": "Israelis have changed. Will they change their leader?",
-      "content_text": "Israelis will vote in national elections next week. It’s the first vote since the Oct. 7 Hamas attacks and the Gaza war. Many Israelis call it the most importan…",
+      "content_html": "<p><img src=\"https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8192x4608+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc3%2F4f%2Fdfbda2714f9889bd58dfb18e3ca6%2Fcfbd820a-643d-4d7e-a314-f92105603824.jpeg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Israelis will vote in national elections next week. It’s the first vote since the Oct. 7 Hamas attacks and the Gaza war. Many Israelis call it the most important vote in their country’s history. On this episode of the Sunday Story, NPR’s Daniel Estrin reports on Israelis and how they’ve changed after three years of wars across the Middle East. Prime Minister Benjamin Netanyahu, one of the world’s most controversial and consequential leaders, is seeking a seventh term.</p><p>Source: Up First from NPR · 2026-10-18</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/18/nx-s1-6005247/israeli-voters-see-their-upcoming-elections-as-a-matter-of-life-or-death\">Read the original →</a></p>",
+      "content_text": "Israelis will vote in national elections next week. It’s the first vote since the Oct. 7 Hamas attacks and the Gaza war. Many Israelis call it the most important vote in their country’s history. On this episode of the Sunday Story, NPR’s Daniel Estrin reports on Israelis and how they’ve changed after three years of wars across the Middle East. Prime Minister Benjamin Netanyahu, one of the world’s most controversial and consequential leaders, is seeking a seventh term.",
       "summary": "Israelis will vote in national elections next week. It’s the first vote since the Oct. 7 Hamas attacks and the Gaza war. Many Israelis call it the most importan…",
       "date_published": "2026-10-18T00:00:00Z",
       "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8192x4608+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc3%2F4f%2Fdfbda2714f9889bd58dfb18e3ca6%2Fcfbd820a-643d-4d7e-a314-f92105603824.jpeg",
@@ -896,7 +1005,8 @@
       "id": "https://www.npr.org/2026/10/17/nx-s1-6005278/school-shooting-in-bend-elon-musks-power-mn-senate-race",
       "url": "https://www.npr.org/2026/10/17/nx-s1-6005278/school-shooting-in-bend-elon-musks-power-mn-senate-race",
       "title": "School Shooting in Bend, Elon Musk's Power, MN Senate Race",
-      "content_text": "Authorities say the 16-year-old suspect in a school shooting that killed three children and one teacher at an elementary school in Bend, Oregon was once a stude…",
+      "content_html": "<p>Authorities say the 16-year-old suspect in a school shooting that killed three children and one teacher at an elementary school in Bend, Oregon was once a student there. Elon Musk has influence across the economy and politics. The major party candidates for Minnesota’s U.S. Senate seat faced off in a debate Friday on MPR News. Affordability and fallout from the Trump administration’s policies were key points. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one.</p><p>Source: Up First from NPR · 2026-10-17</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/17/nx-s1-6005278/school-shooting-in-bend-elon-musks-power-mn-senate-race\">Read the original →</a></p>",
+      "content_text": "Authorities say the 16-year-old suspect in a school shooting that killed three children and one teacher at an elementary school in Bend, Oregon was once a student there. Elon Musk has influence across the economy and politics. The major party candidates for Minnesota’s U.S. Senate seat faced off in a debate Friday on MPR News. Affordability and fallout from the Trump administration’s policies were key points. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one.",
       "summary": "Authorities say the 16-year-old suspect in a school shooting that killed three children and one teacher at an elementary school in Bend, Oregon was once a stude…",
       "date_published": "2026-10-17T00:00:00Z",
       "tags": [
@@ -917,7 +1027,8 @@
       "id": "https://www.npr.org/2026/10/16/nx-s1-6004791/oregon-school-shooting-russias-view-on-us-ukraine-split-doj-sues-california",
       "url": "https://www.npr.org/2026/10/16/nx-s1-6004791/oregon-school-shooting-russias-view-on-us-ukraine-split-doj-sues-california",
       "title": "Oregon School Shooting, Russia's View On US-Ukraine Split, DOJ Sues California",
-      "content_text": "At least three children and a teacher were killed in a shooting at an elementary school in Bend, Oregon, where police say a 16-year-old gunman was killed by an…",
+      "content_html": "<p>At least three children and a teacher were killed in a shooting at an elementary school in Bend, Oregon, where police say a 16-year-old gunman was killed by an armed community member. As President Trump increasingly blames Ukrainian President Volodymyr Zelenskyy for the failure of peace efforts, Russia is watching the growing divide while beginning to release diesel under its new deal with the United States.</p><p>Source: Up First from NPR · 2026-10-16</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/16/nx-s1-6004791/oregon-school-shooting-russias-view-on-us-ukraine-split-doj-sues-california\">Read the original →</a></p>",
+      "content_text": "At least three children and a teacher were killed in a shooting at an elementary school in Bend, Oregon, where police say a 16-year-old gunman was killed by an armed community member. As President Trump increasingly blames Ukrainian President Volodymyr Zelenskyy for the failure of peace efforts, Russia is watching the growing divide while beginning to release diesel under its new deal with the United States.",
       "summary": "At least three children and a teacher were killed in a shooting at an elementary school in Bend, Oregon, where police say a 16-year-old gunman was killed by an…",
       "date_published": "2026-10-16T00:00:00Z",
       "tags": [
@@ -938,7 +1049,8 @@
       "id": "https://www.npr.org/2026/10/15/nx-s1-6003418/trumps-midterm-travel-ukraine-starshield-restrictions-houthis-attack-aramco",
       "url": "https://www.npr.org/2026/10/15/nx-s1-6003418/trumps-midterm-travel-ukraine-starshield-restrictions-houthis-attack-aramco",
       "title": "Trump's Midterm Travel, Ukraine Starshield Restrictions, Houthis Attack Aramco",
-      "content_text": "President Donald Trump is campaigning across traditionally Republican states as his party tries to turn out voters in an increasingly competitive midterm map. U…",
+      "content_html": "<p>President Donald Trump is campaigning across traditionally Republican states as his party tries to turn out voters in an increasingly competitive midterm map. Ukraine says U.S.-supplied Starshield satellite communications have suddenly been restricted, disrupting the drones it uses to attack Russia and defend against Russian strikes.</p><p>Source: Up First from NPR · 2026-10-15</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/15/nx-s1-6003418/trumps-midterm-travel-ukraine-starshield-restrictions-houthis-attack-aramco\">Read the original →</a></p>",
+      "content_text": "President Donald Trump is campaigning across traditionally Republican states as his party tries to turn out voters in an increasingly competitive midterm map. Ukraine says U.S.-supplied Starshield satellite communications have suddenly been restricted, disrupting the drones it uses to attack Russia and defend against Russian strikes.",
       "summary": "President Donald Trump is campaigning across traditionally Republican states as his party tries to turn out voters in an increasingly competitive midterm map. U…",
       "date_published": "2026-10-15T00:00:00Z",
       "tags": [
@@ -959,7 +1071,8 @@
       "id": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/c3a45f73-ecc0-4edb-b892-3cb369fb5ed0/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=c3a45f73-ecc0-4edb-b892-3cb369fb5ed0&feed=HMwRVgVt&t=podcast&e=nx-s1-6003561&p=510318&d=2487&size=39798536",
       "url": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/c3a45f73-ecc0-4edb-b892-3cb369fb5ed0/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&awEpisodeId=c3a45f73-ecc0-4edb-b892-3cb369fb5ed0&feed=HMwRVgVt&t=podcast&e=nx-s1-6003561&p=510318&d=2487&size=39798536",
       "title": "Hasan Piker on his rise as a voice of the 'insurgent left' | NPR's Newsmakers",
-      "content_text": "President Donald Trump recently called Hasan Piker a “terrible liability” and a “communist.” The California-based streamer — who describes himself as a socialis…",
+      "content_html": "<p>President Donald Trump recently called Hasan Piker a “terrible liability” and a “communist.” The California-based streamer — who describes himself as a socialist — has become the GOP’s political bogeyman ahead of the midterm elections. Piker argues those attacks will backfire, but also says he has played a role in being portrayed as a &#39;figurehead of the insurgent left.&#39; “The way that I&#39;m portrayed in the media is an America-hating communist Islamist fundamentalist who wants to secretly do jihad,…</p><p>Source: Up First from NPR · 2026-10-15</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://prfx.byspotify.com/e/play.podtrac.com/npr-510318/npr.simplecastaudio.com/d52bee4a-b10a-40f8-9417-45064e6b8632/episodes/c3a45f73-ecc0-4edb-b892-3cb369fb5ed0/audio/128/default.mp3?awCollectionId=d52bee4a-b10a-40f8-9417-45064e6b8632&amp;awEpisodeId=c3a45f73-ecc0-4edb-b892-3cb369fb5ed0&amp;feed=HMwRVgVt&amp;t=podcast&amp;e=nx-s1-6003561&amp;p=510318&amp;d=2487&amp;size=39798536\">Read the original →</a></p>",
+      "content_text": "President Donald Trump recently called Hasan Piker a “terrible liability” and a “communist.” The California-based streamer — who describes himself as a socialist — has become the GOP’s political bogeyman ahead of the midterm elections. Piker argues those attacks will backfire, but also says he has played a role in being portrayed as a 'figurehead of the insurgent left.' “The way that I'm portrayed in the media is an America-hating communist Islamist fundamentalist who wants to secretly do jihad,…",
       "summary": "President Donald Trump recently called Hasan Piker a “terrible liability” and a “communist.” The California-based streamer — who describes himself as a socialis…",
       "date_published": "2026-10-15T00:00:00Z",
       "tags": [
@@ -980,73 +1093,10 @@
       "id": "https://www.npr.org/2026/10/14/nx-s1-6001409/ukraines-president-sits-with-npr-pope-leo-cancer-ambassador-guilfoyle-forced-out",
       "url": "https://www.npr.org/2026/10/14/nx-s1-6001409/ukraines-president-sits-with-npr-pope-leo-cancer-ambassador-guilfoyle-forced-out",
       "title": "Ukraine's President Sits With NPR, Pope Leo Cancer, Ambassador Guilfoyle Forced Out",
-      "content_text": "In a sit-down interview with NPR, Ukrainian President Volodymyr Zelenskyy says the U.S. warned it could cut intelligence sharing over Ukraine’s attacks on Russi…",
+      "content_html": "<p>In a sit-down interview with NPR, Ukrainian President Volodymyr Zelenskyy says the U.S. warned it could cut intelligence sharing over Ukraine’s attacks on Russian oil refineries. Pope Leo XIV is recovering from surgery after the Vatican announced he has lung cancer, as doctors wait for more test results to determine what comes next. President Trump forced out U.S.</p><p>Source: Up First from NPR · 2026-10-14</p><p>Tags: #新闻 #英语听力</p><p><a href=\"https://www.npr.org/2026/10/14/nx-s1-6001409/ukraines-president-sits-with-npr-pope-leo-cancer-ambassador-guilfoyle-forced-out\">Read the original →</a></p>",
+      "content_text": "In a sit-down interview with NPR, Ukrainian President Volodymyr Zelenskyy says the U.S. warned it could cut intelligence sharing over Ukraine’s attacks on Russian oil refineries. Pope Leo XIV is recovering from surgery after the Vatican announced he has lung cancer, as doctors wait for more test results to determine what comes next. President Trump forced out U.S.",
       "summary": "In a sit-down interview with NPR, Ukrainian President Volodymyr Zelenskyy says the U.S. warned it could cut intelligence sharing over Ukraine’s attacks on Russi…",
       "date_published": "2026-10-14T00:00:00Z",
-      "tags": [
-        "新闻",
-        "英语听力"
-      ],
-      "authors": [
-        {
-          "name": "Up First from NPR"
-        }
-      ],
-      "_shelf": {
-        "type": "audio",
-        "shelf": "feeds-npr-org"
-      }
-    },
-    {
-      "id": "https://www.npr.org/2026/10/13/nx-s1-5999968/trump-midterm-campaigning-rep-omar-home-searched-europe-pushes-back-on-russia-deal",
-      "url": "https://www.npr.org/2026/10/13/nx-s1-5999968/trump-midterm-campaigning-rep-omar-home-searched-europe-pushes-back-on-russia-deal",
-      "title": "Trump Midterm Campaigning, Rep. Omar Home Searched, Europe Pushes Back on Russia Deal",
-      "content_text": "President Trump is ramping up campaign travel and putting himself at the center of the midterms as Republicans fight increasingly competitive races in states he…",
-      "summary": "President Trump is ramping up campaign travel and putting himself at the center of the midterms as Republicans fight increasingly competitive races in states he…",
-      "date_published": "2026-10-13T00:00:00Z",
-      "tags": [
-        "新闻",
-        "英语听力"
-      ],
-      "authors": [
-        {
-          "name": "Up First from NPR"
-        }
-      ],
-      "_shelf": {
-        "type": "audio",
-        "shelf": "feeds-npr-org"
-      }
-    },
-    {
-      "id": "https://www.npr.org/2026/10/12/nx-s1-5998617/trump-pressures-ukraine-trumps-midterm-priorities-saudi-arabia-airport-attacks",
-      "url": "https://www.npr.org/2026/10/12/nx-s1-5998617/trump-pressures-ukraine-trumps-midterm-priorities-saudi-arabia-airport-attacks",
-      "title": "Trump Pressures Ukraine, Trump's Midterm Priorities, Saudi Arabia Airport Attacks",
-      "content_text": "President Trump is increasing pressure on Ukraine over its strikes on Russian oil refineries while again calling on Ukrainians to hold wartime elections and thr…",
-      "summary": "President Trump is increasing pressure on Ukraine over its strikes on Russian oil refineries while again calling on Ukrainians to hold wartime elections and thr…",
-      "date_published": "2026-10-12T00:00:00Z",
-      "tags": [
-        "新闻",
-        "英语听力"
-      ],
-      "authors": [
-        {
-          "name": "Up First from NPR"
-        }
-      ],
-      "_shelf": {
-        "type": "audio",
-        "shelf": "feeds-npr-org"
-      }
-    },
-    {
-      "id": "https://www.npr.org/2026/10/11/nx-s1-5996599/the-women-who-fought-back-when-their-jailers-assaulted-them",
-      "url": "https://www.npr.org/2026/10/11/nx-s1-5996599/the-women-who-fought-back-when-their-jailers-assaulted-them",
-      "title": "The women who fought back when their jailers assaulted them",
-      "content_text": "Aliksandria Prout had only been at the Central California Women’s Facility for a few days when a male officer stopped her at a checkpoint. “You have beautiful l…",
-      "summary": "Aliksandria Prout had only been at the Central California Women’s Facility for a few days when a male officer stopped her at a checkpoint. “You have beautiful l…",
-      "date_published": "2026-10-11T00:00:00Z",
-      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x4644+0+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F62%2Fae%2F2974092e449f91ae7a7652bc5269%2Fc2ff02c5-3393-419d-ba0a-8f6c8b45c030.jpeg",
       "tags": [
         "新闻",
         "英语听力"

@@ -1,0 +1,68 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #XPO",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/xpo.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.freightwaves.com/news/tfi-chief-bedard-rips-into-its-us-ltl-operations-promises-change",
+      "url": "https://www.freightwaves.com/news/tfi-chief-bedard-rips-into-its-us-ltl-operations-promises-change",
+      "title": "TFI chief Bedard rips into its US LTL operations, promises change",
+      "content_html": "<p>Alain Bedard, the CEO of TFI International, had been highly critical of his company’s U.S. LTL operations back in 2024, at one point referring to some of its practices as “stupid.” As recently as April, he was far more optimistic about the segment that was built largely through the TFI acquisition of UPS Freight in […] The post TFI chief Bedard rips into its US LTL operations, promises change appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-30</p><p>Tags: #Company Earnings #Less than Truckload (LTL) #News #Top Stories #Daseke #Old Dominion</p><p><a href=\"https://www.freightwaves.com/news/tfi-chief-bedard-rips-into-its-us-ltl-operations-promises-change\">Read the original →</a></p>",
+      "content_text": "Alain Bedard, the CEO of TFI International, had been highly critical of his company’s U.S. LTL operations back in 2024, at one point referring to some of its practices as “stupid.” As recently as April, he was far more optimistic about the segment that was built largely through the TFI acquisition of UPS Freight in […] The post TFI chief Bedard rips into its US LTL operations, promises change appeared first on FreightWaves.",
+      "summary": "Alain Bedard, the CEO of TFI International, had been highly critical of his company’s U.S. LTL operations back in 2024, at one point referring to some of its pr…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "Less than Truckload (LTL)",
+        "News",
+        "Top Stories",
+        "Daseke",
+        "Old Dominion",
+        "TFI International",
+        "XPO"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
+      "id": "https://www.freightwaves.com/news/xpos-pricing-operating-initiatives-drive-q3-beat",
+      "url": "https://www.freightwaves.com/news/xpos-pricing-operating-initiatives-drive-q3-beat",
+      "title": "XPO’s pricing, operating initiatives drive Q3 beat",
+      "content_html": "<p>Driven by higher volumes and stronger pricing, XPO once again exceeded expectations as these factors continue to amplify the impact of its operational efficiency initiatives. The post XPO’s pricing, operating initiatives drive Q3 beat appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-29</p><p>Tags: #Company Earnings #Less than Truckload (LTL) #News #Top Stories #xpo #Less-than-truckload pricing</p><p><a href=\"https://www.freightwaves.com/news/xpos-pricing-operating-initiatives-drive-q3-beat\">Read the original →</a></p>",
+      "content_text": "Driven by higher volumes and stronger pricing, XPO once again exceeded expectations as these factors continue to amplify the impact of its operational efficiency initiatives. The post XPO’s pricing, operating initiatives drive Q3 beat appeared first on FreightWaves.",
+      "summary": "Driven by higher volumes and stronger pricing, XPO once again exceeded expectations as these factors continue to amplify the impact of its operational efficienc…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "tags": [
+        "Company Earnings",
+        "Less than Truckload (LTL)",
+        "News",
+        "Top Stories",
+        "xpo",
+        "Less-than-truckload pricing",
+        "LTL carriers",
+        "LTL pricing"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    }
+  ]
+}

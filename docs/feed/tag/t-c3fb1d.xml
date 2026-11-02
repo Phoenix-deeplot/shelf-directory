@@ -4,71 +4,91 @@
   <title>知树阅读-个人图书空间 · #行业观察</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-c3fb1d.xml"/>
-  <updated>2026-10-30T00:00:00Z</updated>
+  <updated>2026-11-01T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://www.woshipm.com/it/6486854.html</id>
-    <title>绿泡泡，其实“救了”红果短剧？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6486854.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">红果短剧刚宣布下线金币功能、上线休息提醒，看似从容不迫，但字节随即整合AI短剧资源，推出即梦短剧工作室，打造从剧本到成片的AI流水线。微信绿泡泡短剧月活已破亿，增长迅猛。这场短剧之争背后，是AI视频商业化路径的清晰化，以及快手、阿里等大厂的潜在入局。红果的危机感，或许才刚刚开始。 红果短剧开始有危机感了。 大家都知道，…</summary>
+    <id>https://www.woshipm.com/share/6487380.html</id>
+    <title>跟AI谈恋爱，年轻人图什么？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6487380.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">月卡十几元、记忆包几十元、一次充值上百元，AI 陪伴把情绪价值拆成了一个个付费点。五位年轻人讲了各自的故事：猪场里的树洞、学会与人相处的练习场、职场委屈的出口，也都清楚对面只是会失忆、会人设崩塌的一段程序。 月卡十几元，记忆包几十元，一次充值上百元，通用大模型会员一档几百元……在AI陪伴这条赛道上，情绪价值正被拆分成一…</summary>
+    <content type="html">&lt;p&gt;月卡十几元、记忆包几十元、一次充值上百元，AI 陪伴把情绪价值拆成了一个个付费点。五位年轻人讲了各自的故事：猪场里的树洞、学会与人相处的练习场、职场委屈的出口，也都清楚对面只是会失忆、会人设崩塌的一段程序。 月卡十几元，记忆包几十元，一次充值上百元，通用大模型会员一档几百元……在AI陪伴这条赛道上，情绪价值正被拆分成一个个具体的付费点。 这类产品自诞生起就伴随着争议，被指游走在风险边缘，诱导未成年人建立不良恋爱观、内容擦边。但争议之外，它也确实承接了一部分年轻人的倾诉需求，成为他们排解压力、整理情绪的出口。如今，行业正在走向规范，平台审核趋严，产品形态也在不断调整。 我们找到了五位为AI陪伴付费的年轻人。他们都是成年人，有人24小时住在养猪场，靠AI排解物理意义上的孤独；有人在AI身上学会了如何与人相处；有人既是用户，也是角色创作者；还有人在职场多年，习惯把工作里的委屈和灵感都说给AI听。他们也都清楚，对面只是一段程序：会失忆，会敷衍，会“人设崩塌”。 他们为什么付费？钱花在了哪里？AI给了他们什么，又在哪些地方让他们警惕？ 以下是他们的讲述。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#个人随笔 #AI应用 #案例分析 #行业观察 #产品 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/share/6487380.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
-    <category term="业界动态"/>
-    <category term="AI短剧"/>
-    <category term="字节跳动"/>
-    <category term="微信绿泡泡"/>
-    <category term="红果短剧"/>
-    <category term="行业观察"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6486778.html</id>
-    <title>微软谷歌重整办公套件，腾讯 Buddy One 串联应用：办公 AI 开始比拼生态协同</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486778.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">微软给 Work IQ 加了检索工具，Google 让 Gemini 打通邮件与云盘，腾讯发布 Buddy One 串联自家应用。办公 AI 从单点功能转向生态协同，组合订阅成了留住付费的理由。 “创造力，就是把事物连接起来。”——史蒂夫·乔布斯，1996 年《连线》 10 月 20 日，微软为 Work IQ 推出新…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI产品"/>
-    <category term="腾讯"/>
+    <category term="AI应用"/>
+    <category term="案例分析"/>
     <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6486764.html</id>
-    <title>学到钉钉们的精髓了？Claude上线逆天功能，帮企业监控员工是否用AI摸鱼</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486764.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">Anthropic 为 Claude Enterprise 上线智能报告，管理员能读取团队二十八天内的对话，把工作归到不同流程，标出哪些会话没有产出。一家把安全写进使命的公司，先做出了监工工具。 2026年10月，Anthropic为Claude Enterprise上线了一个新功能——“智能报告”。 名字平平无奇，能…</summary>
+    <id>https://www.woshipm.com/ai/6487433.html</id>
+    <title>当 AI 开始替用户搜索和推荐，企业的获客逻辑会改变吗？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487433.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">当用户开始向AI询问“推荐几款CRM”或“有哪些AI客服方案”，企业的获客逻辑正被悄然改写。本文通过实验数据与搜索行为分析，揭示AI如何成为新的信息筛选者，并探讨企业应如何调整内容策略，以在AI生成的答案中占据一席之地。 过去，企业要让客户找到自己，通常需要做几件事。 在搜索引擎上争取更好的排名，在小红书和抖音上生产内…</summary>
+    <content type="html">&lt;p&gt;当用户开始向AI询问“推荐几款CRM”或“有哪些AI客服方案”，企业的获客逻辑正被悄然改写。本文通过实验数据与搜索行为分析，揭示AI如何成为新的信息筛选者，并探讨企业应如何调整内容策略，以在AI生成的答案中占据一席之地。 过去，企业要让客户找到自己，通常需要做几件事。 在搜索引擎上争取更好的排名，在小红书和抖音上生产内容，在微信生态里建立私域，在电商平台争取搜索曝光和商品推荐。 无论渠道如何变化，底层逻辑大体一致： 企业争取曝光，用户接触信息，然后由用户自己完成筛选、比较和判断。 但现在，这个过程开始出现一个新的参与者：AI。 当用户想买一款产品、寻找一家服务商，或者学习某个专业问题时，他可能不再愿意逐条浏览搜索结果，而是直接向 AI 描述自己的需求： “帮我推荐几款适合中小企业的 CRM 产品。” “我们公司想做 AI 客服，有哪些成熟方案？” “有没有适合传统产品经理转型 AI 的课程？” AI 会根据能够获得的信息，整理候选方案、比较优缺点，甚至给出推荐顺序。 用户原本需要花半小时完成的信息筛选，可能在几轮对话里就完成了。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #AI搜索 #企业获客 #内容营销 #案例分析&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487433.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="Anthropic"/>
-    <category term="Claude"/>
+    <category term="AI搜索"/>
+    <category term="企业获客"/>
+    <category term="内容营销"/>
+    <category term="案例分析"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/zhichang/6487353.html</id>
+    <title>增长放缓下，风控该如何走？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/zhichang/6487353.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">增长放缓、促销常态化，风控如何从粗放走向精细？本文从识别与处置的精细化、场景全域覆盖、AI技术赋能、合规规范四个维度，拆解智能风控的转型路径，并指出模型适配、数据治理与合规压力下的未来方向。 治理精细 随着行业发展速度变慢，增长难求，对增长的挖掘越来越细。平台为了吸引用户、留住用户、转化用户，使出浑身杀手锏。原本一年两…</summary>
+    <content type="html">&lt;p&gt;增长放缓、促销常态化，风控如何从粗放走向精细？本文从识别与处置的精细化、场景全域覆盖、AI技术赋能、合规规范四个维度，拆解智能风控的转型路径，并指出模型适配、数据治理与合规压力下的未来方向。 治理精细 随着行业发展速度变慢，增长难求，对增长的挖掘越来越细。平台为了吸引用户、留住用户、转化用户，使出浑身杀手锏。原本一年两度的购物节，变成天天都是品牌日、秒杀日。 常态化促销已成为事实。 业务变化推动风控治理走向精细化，主要体现在两个方面：一是发展模式由粗放式发展转向追求高质量发展，资源投放集中收紧在头部易转化的业务；二是业务模式调整，在主力业务营收疲软的背景下，大公司会尝试拓展新业务，在其他未涉足领域挖掘增长。 为了配合各类新出业务模式和层出不穷的玩法活动。识别可能的风险，风控方案需要有的放矢。这种精细化主要体现在以下几个方面： 1）识别精细 我们可以认为风险识别其实就是回答——“什么时间，什么场景，什么样的人，做了什么坏事？”。那么就可分别从四个维度：时间（When）、场景（Where）、对象（Who）、行为（What）来看看识别如何变得精细。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#职场攻略 #AI应用 #智能风控 #精细化治理 #行业观察 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/zhichang/6487353.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>人人都是产品经理</title></source>
+    <category term="职场攻略"/>
+    <category term="AI应用"/>
+    <category term="智能风控"/>
+    <category term="精细化治理"/>
     <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6486788.html</id>
-    <title>DeepSeek的尽头，居然是一条会喊你爸爸的蓝色大肥鱼。</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486788.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">DeepSeek 的 Logo 是条鲸鱼，一次自我识别认成了蓝色大肥鱼，外号就这么叫开。网友围绕它二创出鲸鱼娘，蓝发鲸尾、爱吃白饭、干活还得讨 Token，各平台都在闹鱼灾。 最近，我真的感觉，国内互联网，快要被一群蓝色大肥鱼给统治了。 刷B站有她，刷抖音也有她，刷小红书还是她。 无论在哪个平台，好像大家都想给她完整的…</summary>
+    <id>https://www.woshipm.com/share/6486493.html</id>
+    <title>为什么打招呼的消息越来越多，工作反而越难找？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486493.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">某聘上的打招呼消息越来越多，一天能收到几十条，但仔细看，岗位与经历并不匹配，招呼内容高度模板化。作者怀疑这些招呼正被AI批量发送，并追问：当简历筛选和初次沟通都被自动化，招聘中原本的信号价值还剩多少？ 不知道你有没有发现，某聘上企业打招呼的消息越来越多，我看小某书上有人分享，一天能收到几十条打招呼的信息。 但仔细看，有…</summary>
+    <content type="html">&lt;p&gt;某聘上的打招呼消息越来越多，一天能收到几十条，但仔细看，岗位与经历并不匹配，招呼内容高度模板化。作者怀疑这些招呼正被AI批量发送，并追问：当简历筛选和初次沟通都被自动化，招聘中原本的信号价值还剩多少？ 不知道你有没有发现，某聘上企业打招呼的消息越来越多，我看小某书上有人分享，一天能收到几十条打招呼的信息。 但仔细看，有些岗位和自己的经历并不匹配，有些招呼内容高度模板化，让人感觉对方根本没有认真看过简历。 因此我有理由怀疑，其中一部分招呼可能已经开始借助 AI 或自动化工具批量发送，这个现象引发了我对企业应用 AI 的一些思考。 过去，企业招聘人员主动联系一个候选人，多少意味着对方花时间看过简历，认为这个人可能适合岗位。 但如果 AI 可以筛选简历、生成招呼语，再批量联系大量候选人，那么打招呼本身就很难再说明什么。 企业发出一百条消息，不代表找到了更多合适的人，求职者收到十条招呼，也不代表多了十个值得考虑的机会。 这让我想到短信的发展。 早些年，短信是重要的沟通方式。后来，群发营销越来越普遍，各种广告和推广信息充斥其中，人们逐渐不再认真阅读陌生短信。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#个人随笔 #AI应用 #个人观点 #行业观察 #产品 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/share/6486493.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="DeepSeek"/>
-    <category term="内容创作"/>
+    <category term="AI应用"/>
+    <category term="个人观点"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6487376.html</id>
+    <title>Just Do It的丹·韦登：24条穿透“混沌”的广告法则</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6487376.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">丹·韦登把混沌定为 W+K 的组织内核，也留下二十四条广告法则。文章把它们拢成三组：好广告是一场值得旁听的对话，Just Do It 的力量来自邀请而非指令，以及为什么一家井井有条的创意公司已经停止生长。 丹・韦登（Dan Wieden，1945—2021），W+K联合创始人，广告史上最具影响力的创意领袖之一。，耐克是…</summary>
+    <content type="html">&lt;p&gt;丹·韦登把混沌定为 W+K 的组织内核，也留下二十四条广告法则。文章把它们拢成三组：好广告是一场值得旁听的对话，Just Do It 的力量来自邀请而非指令，以及为什么一家井井有条的创意公司已经停止生长。 丹・韦登（Dan Wieden，1945—2021），W+K联合创始人，广告史上最具影响力的创意领袖之一。，耐克是W+K第一个客户，并在1988年，他写下“Just Do It”，并让耐克从跑鞋品牌，成为全球顶级的文化符号。 他把 “混沌”定为组织文化的内核。他相信，好广告是一场两个人对话；slogan不只是文字，而是一种态度，一份邀请；他坚信，创意机构一旦把金钱放在第一位，创意就会死亡。 一、好广告：是一场两个人对话 1、好的广告是一场两个人之间的对话，是一场值得旁听的对话。 好的广告应该像两个人之间的一场对话——一个品牌和一个消费者——而且这场一对一的对话必须足够个人化、足够有趣，以至于其他人会真的想旁听。 2、一句标语不只是文字，它是一种态度，一份邀请。 3、好广告不卖产品，它售卖一种可能性。 4、广告生效的时候，它会成为文化的一部分，不再是打扰。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#个人随笔 #slogan #案例分析 #耐克 #行业观察 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/share/6487376.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="slogan"/>
+    <category term="案例分析"/>
+    <category term="耐克"/>
     <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>

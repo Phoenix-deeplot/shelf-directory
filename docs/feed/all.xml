@@ -4,675 +4,706 @@
   <title>知树阅读-个人图书空间</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/all.xml"/>
-  <updated>2026-10-30T00:00:00Z</updated>
+  <updated>2026-11-01T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://www.woshipm.com/share/6486768.html</id>
-    <title>餐饮/零售品牌门店新品上市AI评估模型</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486768.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">新品上架常靠拍脑袋，失败率高、试错也贵。把选品、上市前评估、试销、上市后经营和淘汰复盘拆成五类场景，再配六大类指标，上新就能从经验判断变成可复用的数据流程，一次搭好长期可用。 无论是传统的零售门店，亦或者是餐饮门店，都会遇到产品上新的问题。 那么问题来了：产品上新有没有评估模型，能否让“产品上新”从经验判断升级为数据驱…</summary>
+    <id>https://www.woshipm.com/share/6487380.html</id>
+    <title>跟AI谈恋爱，年轻人图什么？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6487380.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">月卡十几元、记忆包几十元、一次充值上百元，AI 陪伴把情绪价值拆成了一个个付费点。五位年轻人讲了各自的故事：猪场里的树洞、学会与人相处的练习场、职场委屈的出口，也都清楚对面只是会失忆、会人设崩塌的一段程序。 月卡十几元，记忆包几十元，一次充值上百元，通用大模型会员一档几百元……在AI陪伴这条赛道上，情绪价值正被拆分成一…</summary>
+    <content type="html">&lt;p&gt;月卡十几元、记忆包几十元、一次充值上百元，AI 陪伴把情绪价值拆成了一个个付费点。五位年轻人讲了各自的故事：猪场里的树洞、学会与人相处的练习场、职场委屈的出口，也都清楚对面只是会失忆、会人设崩塌的一段程序。 月卡十几元，记忆包几十元，一次充值上百元，通用大模型会员一档几百元……在AI陪伴这条赛道上，情绪价值正被拆分成一个个具体的付费点。 这类产品自诞生起就伴随着争议，被指游走在风险边缘，诱导未成年人建立不良恋爱观、内容擦边。但争议之外，它也确实承接了一部分年轻人的倾诉需求，成为他们排解压力、整理情绪的出口。如今，行业正在走向规范，平台审核趋严，产品形态也在不断调整。 我们找到了五位为AI陪伴付费的年轻人。他们都是成年人，有人24小时住在养猪场，靠AI排解物理意义上的孤独；有人在AI身上学会了如何与人相处；有人既是用户，也是角色创作者；还有人在职场多年，习惯把工作里的委屈和灵感都说给AI听。他们也都清楚，对面只是一段程序：会失忆，会敷衍，会“人设崩塌”。 他们为什么付费？钱花在了哪里？AI给了他们什么，又在哪些地方让他们警惕？ 以下是他们的讲述。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#个人随笔 #AI应用 #案例分析 #行业观察 #产品 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/share/6487380.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
     <category term="个人随笔"/>
     <category term="AI应用"/>
-    <category term="产品策略"/>
-    <category term="新零售"/>
+    <category term="案例分析"/>
+    <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6486879.html</id>
-    <title>豆包终于学会了腾讯WorkBuddy的杀手锏？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486879.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">字节的豆包工作，终于开始向腾讯 WorkBuddy 学习了。 以后用豆包工作，背后帮你干活的可能是 DeepSeek，也可能是 Kimi、GLM。 昨天，豆包工作开始向企业客户开放第三方大模型服务，首批接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等系列模型。 字节辛辛苦苦研发…</summary>
+    <id>https://www.woshipm.com/share/6486565.html</id>
+    <title>流量越来越贵，为什么还有大量的品牌在低成本高增长？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486565.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">低成本做小红书增长，关键不是"少花钱"，而是先把不需要花的地方省下来——省掉教育用户、红海竞争、拉新复购的隐性成本。本文拆解不同阶段品牌如何顺势而为、选对方向，用隐性成本框架避开内卷，实现低成本生意增长。 低成本做小红书增长，关键不在于“少花钱”，而在于先把不需要花的地方省下来——省掉教育用户的成本、省掉红海竞争的成本…</summary>
+    <content type="html">&lt;p&gt;低成本做小红书增长，关键不是&amp;quot;少花钱&amp;quot;，而是先把不需要花的地方省下来——省掉教育用户、红海竞争、拉新复购的隐性成本。本文拆解不同阶段品牌如何顺势而为、选对方向，用隐性成本框架避开内卷，实现低成本生意增长。 低成本做小红书增长，关键不在于“少花钱”，而在于先把不需要花的地方省下来——省掉教育用户的成本、省掉红海竞争的成本、省掉拉新复购的成本。 一、低成本增长底层逻辑：顺势而为，选对方向再动手 1. 选择大于努力 低成本不是执行上抠，而是选择上避开内卷。 选对方向的判断依据不是“哪个品好卖”，而是人群和需求正在发生什么变化。 平台数据摆在这儿：小红书 40 岁以上人群占比 25%、总人数超 8400 万，而品牌扎堆的 25–30 岁只占 19%。 今年增量很猛的某鱼油品牌，核心动作就一个：主打 40 岁以上人群。这就是顺势而为：人口结构变了，人和需求就跟着变；围绕这个变化去做产品化和内容化，成本天然比逆势低。（去找低竞争高增量的位置） 落到执行上，顺势而为指向的是——去人群规模足够大、需求明确存在、但还没被大量品牌满足的空白地带，然后把那个需求做成产品，或做成内容。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#个人随笔 #低成本增长 #品牌策略 #品牌运营 #小红书 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/share/6486565.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="低成本增长"/>
+    <category term="品牌策略"/>
+    <category term="品牌运营"/>
+    <category term="小红书"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6487373.html</id>
+    <title>教你用WorkBuddy自动生成3D模型</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487373.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">DeepSeek-V4.1-Flash 发布后，用 WorkBuddy 自动操作 Blender 建模的效果有了起色。文章从装软件开始，用一句提示词建出一幢九十年代居民楼，再把 blend 转成 glb 挂到网页上在线预览，并划清哪些做法算作弊。 在GPT6模型发布的时候，不知道有多少小伙伴还记得，很多AI博主拿这个模…</summary>
+    <content type="html">&lt;p&gt;DeepSeek-V4.1-Flash 发布后，用 WorkBuddy 自动操作 Blender 建模的效果有了起色。文章从装软件开始，用一句提示词建出一幢九十年代居民楼，再把 blend 转成 glb 挂到网页上在线预览，并划清哪些做法算作弊。 在GPT6模型发布的时候，不知道有多少小伙伴还记得，很多AI博主拿这个模型，使用Codex的Computer Use能力，自动操作开源的3D建模软件Blender，做出很多不错的3D模型效果。 但很多人一时兴起玩玩热情就过去了，老马当时也用Codex搓了个网页版的3D展厅设计，不得不说也体会了一把非专业人士的乐趣。后来换成WorkBuddy，使用国产模型去复现，始终效果不如意。 直到10月17日Deepseek-V4.1-Flash模型的发布，这款大肥鱼针对3D建模和许愿式编程都好像做了一些优化。因此结合上一篇文章给大家介绍WorkBuddy的Computer Use能力： 今天老马将继续给大家演示用WorkBuddy来自动操作Blender，自动生成各种3D模型，看看到底能达到GPT6+Codex几成的功力。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #Blender #WorkBuddy #经验分享 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487373.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
-    <category term="DeepSeek"/>
-    <category term="Kimi"/>
+    <category term="个人随笔"/>
+    <category term="Blender"/>
     <category term="WorkBuddy"/>
-    <category term="腾讯"/>
-    <category term="豆包"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/it/6486854.html</id>
-    <title>绿泡泡，其实“救了”红果短剧？</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6486854.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">红果短剧刚宣布下线金币功能、上线休息提醒，看似从容不迫，但字节随即整合AI短剧资源，推出即梦短剧工作室，打造从剧本到成片的AI流水线。微信绿泡泡短剧月活已破亿，增长迅猛。这场短剧之争背后，是AI视频商业化路径的清晰化，以及快手、阿里等大厂的潜在入局。红果的危机感，或许才刚刚开始。 红果短剧开始有危机感了。 大家都知道，…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="业界动态"/>
-    <category term="AI短剧"/>
-    <category term="字节跳动"/>
-    <category term="微信绿泡泡"/>
-    <category term="红果短剧"/>
-    <category term="行业观察"/>
-    <category term="产品"/>
-    <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6486774.html</id>
-    <title>挖到个宝藏27B开源Code2Video模型！可本地安装，还送MG Skill～</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486774.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">HeyGen 的 Code2Video 榜单上，前八名清一色闭源，Claude Opus 5.5 排第一，开源模型多在百分之十上下。一个 27B 开源模型能本地安装，还能在 HyperFrames 里稳定出片。 老粉应该知道，我最开始是一个后端开发，剪辑和AE是完全一窍不通。 但从今年2月开始，我陆陆续续用代码做了不少…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI编程"/>
-    <category term="Claude Code"/>
     <category term="经验分享"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6486782.html</id>
-    <title>我花了 10 个小时，用AI编了一套精美的诗集：Skills 开源，附 6 套宋代美学模板</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486782.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">为了验证百万级上下文，他用 Kimi K3.1 Pro 编了一套苏轼诗集，一千四百四十八页、三千二百条作品，中途废掉一版竖排稿，烧掉一点六九亿 Token，三百多次调用十小时完工。 现在的大模型普遍支持最高 1M 超长上下文 周二我发了 Kimi K3.1 Pro 的实测：国产最强开源大模型，Kimi K3.1 Pro…</summary>
+    <id>https://www.woshipm.com/ai/6487433.html</id>
+    <title>当 AI 开始替用户搜索和推荐，企业的获客逻辑会改变吗？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487433.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">当用户开始向AI询问“推荐几款CRM”或“有哪些AI客服方案”，企业的获客逻辑正被悄然改写。本文通过实验数据与搜索行为分析，揭示AI如何成为新的信息筛选者，并探讨企业应如何调整内容策略，以在AI生成的答案中占据一席之地。 过去，企业要让客户找到自己，通常需要做几件事。 在搜索引擎上争取更好的排名，在小红书和抖音上生产内…</summary>
+    <content type="html">&lt;p&gt;当用户开始向AI询问“推荐几款CRM”或“有哪些AI客服方案”，企业的获客逻辑正被悄然改写。本文通过实验数据与搜索行为分析，揭示AI如何成为新的信息筛选者，并探讨企业应如何调整内容策略，以在AI生成的答案中占据一席之地。 过去，企业要让客户找到自己，通常需要做几件事。 在搜索引擎上争取更好的排名，在小红书和抖音上生产内容，在微信生态里建立私域，在电商平台争取搜索曝光和商品推荐。 无论渠道如何变化，底层逻辑大体一致： 企业争取曝光，用户接触信息，然后由用户自己完成筛选、比较和判断。 但现在，这个过程开始出现一个新的参与者：AI。 当用户想买一款产品、寻找一家服务商，或者学习某个专业问题时，他可能不再愿意逐条浏览搜索结果，而是直接向 AI 描述自己的需求： “帮我推荐几款适合中小企业的 CRM 产品。” “我们公司想做 AI 客服，有哪些成熟方案？” “有没有适合传统产品经理转型 AI 的课程？” AI 会根据能够获得的信息，整理候选方案、比较优缺点，甚至给出推荐顺序。 用户原本需要花半小时完成的信息筛选，可能在几轮对话里就完成了。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #AI搜索 #企业获客 #内容营销 #案例分析&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487433.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI应用"/>
-    <category term="Kimi"/>
-    <category term="经验分享"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/share/6486711.html</id>
-    <title>情景记忆：AI 听记产品从 “记录工具” 到 “认知资产” 的跃迁</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486711.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">本文承接上一篇《Agent 记忆体系分类・触发编码・生命周期维护》。那篇文章系统拆解了记忆的四大类型与全生命周期机制，其中情景记忆是四类里最特别、也最接近 "人" 的一类。这一次，我们把它单独拎出来，落到 AI 听记这个具体产品场景，看一个抽象概念如何真正变成产品能力。 引言：一个被忽视的分水岭 市面上几乎所有 AI…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="AI产品"/>
-    <category term="个人观点"/>
-    <category term="产品分析"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ai/6486778.html</id>
-    <title>微软谷歌重整办公套件，腾讯 Buddy One 串联应用：办公 AI 开始比拼生态协同</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486778.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">微软给 Work IQ 加了检索工具，Google 让 Gemini 打通邮件与云盘，腾讯发布 Buddy One 串联自家应用。办公 AI 从单点功能转向生态协同，组合订阅成了留住付费的理由。 “创造力，就是把事物连接起来。”——史蒂夫·乔布斯，1996 年《连线》 10 月 20 日，微软为 Work IQ 推出新…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="AI产品"/>
-    <category term="腾讯"/>
+    <category term="AI搜索"/>
+    <category term="企业获客"/>
+    <category term="内容营销"/>
+    <category term="案例分析"/>
     <category term="行业观察"/>
     <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6486947.html</id>
-    <title>微信小微升级，开始Personal Agent化</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486947.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">灵光 2.0 向所有用户开放，千问 Go 紧随其后，微信小微也开始往 Personal Agent 的方向升级。国内的个人助理产品从 PPT 走进内测和公测，能力边界第一次能被真实使用检验。三条路线不同，但都在争同一个入口：谁替用户把事情真正办完。 之前，国内的 Personal Agent 产品探索。 还停留在媒体的…</summary>
+    <id>https://www.woshipm.com/evaluating/6487428.html</id>
+    <title>实测灵光 2.0：对标 Muse 背后，中美 Personal Agent 的底层逻辑其实截然不同</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/evaluating/6487428.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">灵光 2.0 想把 AI 从一次性的任务执行者，变成持续跟进生活事务的个人助理：记住需求、盯住变化，在你离开对话之后继续干活。背靠支付宝，它在信息管理、内容生产和交易执行三条线上各走到了哪一步，又不得不把哪些事交还给你，四个维度逐一实测。 在大模型行业卷完参数、卷完长文本，又在 GUI Agent 的延迟与高错误率里撞…</summary>
+    <content type="html">&lt;p&gt;灵光 2.0 想把 AI 从一次性的任务执行者，变成持续跟进生活事务的个人助理：记住需求、盯住变化，在你离开对话之后继续干活。背靠支付宝，它在信息管理、内容生产和交易执行三条线上各走到了哪一步，又不得不把哪些事交还给你，四个维度逐一实测。 在大模型行业卷完参数、卷完长文本，又在 GUI Agent 的延迟与高错误率里撞得头破血流之后，Personal Agent 到底该怎么落地，成了 2026 年下半年所有大厂的必答题。 2026 年 10 月 27 日，蚂蚁发布灵光 2.0，成为国内大厂较早正式推出的 Personal Agent 产品之一。它试图把 AI 从一次性的任务执行者，变成持续跟进生活事务的个人助理：记住需求、关注变化，在用户离开对话后继续工作。 不过，平台边界仍然难以撼动。尽管各家都在隔空对标海外的 Muse，国内目前还没有一款 Personal Agent 能够自主完成淘宝上的购物闭环。即便是灵光公开展示的购物能力，也主要集中在选购规划、比价和持续跟踪。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#分析评测 #AI产品 #Personal Agent #模型评测 #灵光 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/evaluating/6487428.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
+    <category term="分析评测"/>
+    <category term="AI产品"/>
     <category term="Personal Agent"/>
-    <category term="功能分析"/>
-    <category term="微信小微"/>
+    <category term="模型评测"/>
     <category term="灵光"/>
     <category term="产品"/>
     <category term="运营"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/it/6486812.html</id>
-    <title>对话 Google AI 基建负责人：从芯片配比到全球部署，Agent 正在重写数据中心的建设逻辑</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/it/6486812.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">算力的账不能只看 FLOPS。Google AI 基建负责人 Amin Vahdat 谈 TPU 配比、十万卡集群的故障恢复，以及长时程 Agent 如何改写数据中心的供电与冷却，回报要算到任务真完成。 当一家公司的 AI 服务能力需要每六个月翻一倍，买更多芯片只是问题的开始。十万颗加速器组成的集群里，故障随时发生；模…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="业界动态"/>
-    <category term="AI产品"/>
-    <category term="google"/>
-    <category term="TPU"/>
-    <category term="个人观点"/>
-    <category term="产品"/>
-    <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6486764.html</id>
-    <title>学到钉钉们的精髓了？Claude上线逆天功能，帮企业监控员工是否用AI摸鱼</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486764.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">Anthropic 为 Claude Enterprise 上线智能报告，管理员能读取团队二十八天内的对话，把工作归到不同流程，标出哪些会话没有产出。一家把安全写进使命的公司，先做出了监工工具。 2026年10月，Anthropic为Claude Enterprise上线了一个新功能——“智能报告”。 名字平平无奇，能…</summary>
+    <id>https://www.woshipm.com/zhichang/6487353.html</id>
+    <title>增长放缓下，风控该如何走？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/zhichang/6487353.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">增长放缓、促销常态化，风控如何从粗放走向精细？本文从识别与处置的精细化、场景全域覆盖、AI技术赋能、合规规范四个维度，拆解智能风控的转型路径，并指出模型适配、数据治理与合规压力下的未来方向。 治理精细 随着行业发展速度变慢，增长难求，对增长的挖掘越来越细。平台为了吸引用户、留住用户、转化用户，使出浑身杀手锏。原本一年两…</summary>
+    <content type="html">&lt;p&gt;增长放缓、促销常态化，风控如何从粗放走向精细？本文从识别与处置的精细化、场景全域覆盖、AI技术赋能、合规规范四个维度，拆解智能风控的转型路径，并指出模型适配、数据治理与合规压力下的未来方向。 治理精细 随着行业发展速度变慢，增长难求，对增长的挖掘越来越细。平台为了吸引用户、留住用户、转化用户，使出浑身杀手锏。原本一年两度的购物节，变成天天都是品牌日、秒杀日。 常态化促销已成为事实。 业务变化推动风控治理走向精细化，主要体现在两个方面：一是发展模式由粗放式发展转向追求高质量发展，资源投放集中收紧在头部易转化的业务；二是业务模式调整，在主力业务营收疲软的背景下，大公司会尝试拓展新业务，在其他未涉足领域挖掘增长。 为了配合各类新出业务模式和层出不穷的玩法活动。识别可能的风险，风控方案需要有的放矢。这种精细化主要体现在以下几个方面： 1）识别精细 我们可以认为风险识别其实就是回答——“什么时间，什么场景，什么样的人，做了什么坏事？”。那么就可分别从四个维度：时间（When）、场景（Where）、对象（Who）、行为（What）来看看识别如何变得精细。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#职场攻略 #AI应用 #智能风控 #精细化治理 #行业观察 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/zhichang/6487353.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
-    <category term="个人随笔"/>
-    <category term="Anthropic"/>
-    <category term="Claude"/>
+    <category term="职场攻略"/>
+    <category term="AI应用"/>
+    <category term="智能风控"/>
+    <category term="精细化治理"/>
     <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/pd/6486784.html</id>
-    <title>一文看懂：集团司库全景</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/pd/6486784.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">几十家子公司、多套 ERP、与多家银行合作，总部看得到余额，资金会上却仍说不清下个月缺多少钱。集团司库要先把管理边界、决策权限、数据贯通和交易核实定下来，再谈系统怎么建。 假设一个集团有几十家子公司，分布在境内外，使用多套ERP，与多家银行合作。 总部每天能看到银行余额，也已经实现统一付款。 但资金会上，聊到以下问题时…</summary>
+    <id>https://www.woshipm.com/share/6487456.html</id>
+    <title>叮咚盈利、朴朴降本：烧了十年的“前置仓”，终于开始赚钱了？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6487456.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">烧了十年的前置仓，第一次集体交出盈利答卷：叮咚连续七个季度转正，朴朴靠降本收缩，美团和盒马又杀回福建。这篇拆的是成本账——时间、路由、仓内 SKU，钱到底从哪儿省出来。 最近三个信号，同时冒了出来: 1️⃣ 阿里财报：即时零售收入增长45%，减亏快于预期。 2️⃣ 叮咚买菜：连续7个季度GAAP盈利。 3️⃣ 盒马和美…</summary>
+    <content type="html">&lt;p&gt;烧了十年的前置仓，第一次集体交出盈利答卷：叮咚连续七个季度转正，朴朴靠降本收缩，美团和盒马又杀回福建。这篇拆的是成本账——时间、路由、仓内 SKU，钱到底从哪儿省出来。 最近三个信号，同时冒了出来: 1️⃣ 阿里财报：即时零售收入增长45%，减亏快于预期。 2️⃣ 叮咚买菜：连续7个季度GAAP盈利。 3️⃣ 盒马和美团：杀回福建，强攻朴朴大本营。 前置仓赛道不再“百花齐放”了，美团系（小象+叮咚）阿里系（盒马）外加（朴朴），前三阵营的市占率已经逼近80%。 今天咱们扒扒 “前置仓” 在牌桌上三大寡头，不再厮杀补贴后是如何熬出头，开始赚钱的？ 01 过去一直亏，亏的不是菜钱，是“时间” 传统的前置仓为什么亏？ 因为一个仓，通常只做早晚两波生鲜订单。 早上8点一波，晚上6点一波。 中间十几个小时，仓是空的，骑手是闲的。 你算一笔账： 一个仓一天的房租、人工、设备是固定成本。 不管你出100单还是1000单，这笔钱都得掏。 如果一天只有两波高峰，中间十几个小时都在空转。 这不是订单密度的问题，是时间段填充率的问题。 叮咚，想明白的第一件事，不是疯狂加网点，而是填时间。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#个人随笔 #供应链 #前置仓 #即时零售 #生鲜电商 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/share/6487456.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
-    <category term="产品设计"/>
-    <category term="企业服务"/>
-    <category term="数字化转型"/>
-    <category term="经验总结"/>
+    <category term="个人随笔"/>
+    <category term="供应链"/>
+    <category term="前置仓"/>
+    <category term="即时零售"/>
+    <category term="生鲜电商"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6486912.html</id>
-    <title>WorkBuddy悄悄上线「手动安装插件」，丝滑操控浏览器</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486912.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">Chrome 插件商店不科学上网打不开，Edge 和 QQ 浏览器又都跳回同一个地址。WorkBuddy 上线了手动安装拓展程序：选浏览器、打开本地插件文件夹、把文件夹拖进扩展页面，三步装完。文中还实测了让 Agent 自己找网址、开标签页的过程。 前阵子，WorkBuddy 悄悄上线了「浏览器插件」。 支持在 Chr…</summary>
+    <id>https://www.woshipm.com/ai/6487382.html</id>
+    <title>从2D小游戏到3D赛车，EvoMeme把游戏创作搬进了AI工厂</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487382.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">EvoMeme 是盛趣游戏做的 AI 游戏创作平台，作者用它做了两款游戏：网页端生成的解压毛线小游戏，和配合 Codex 插件做的反重力赛车。文章记下快速与专业两种模式的差别、虚拟工作室的分工，也点明物理效果与手感仍要自己打磨。 AI游戏创作迎来新玩家。 一张堆满文件夹、咖啡杯和键盘的办公桌，几团彩色毛线缠在一起。 玩…</summary>
+    <content type="html">&lt;p&gt;EvoMeme 是盛趣游戏做的 AI 游戏创作平台，作者用它做了两款游戏：网页端生成的解压毛线小游戏，和配合 Codex 插件做的反重力赛车。文章记下快速与专业两种模式的差别、虚拟工作室的分工，也点明物理效果与手感仍要自己打磨。 AI游戏创作迎来新玩家。 一张堆满文件夹、咖啡杯和键盘的办公桌，几团彩色毛线缠在一起。 玩家要先找出没有被压住的线头，再按颜色收进线轴。抽对一根，屏幕就给出一次轻快的反馈。 这款叫做下班解压毛线的小游戏，是小编用 EvoMeme 做出来的。 EvoMeme 背后是世纪华通旗下的盛趣游戏。说起盛趣游戏，很多人可能更熟悉它以前的名字盛大游戏。 《热血传奇》《传奇世界》《泡泡堂》《龙之谷》等经典作品，陪伴过不少玩家的学生时代。 这几年，盛趣游戏也在尝试用 AI 辅助游戏开发。今年7月，盛趣游戏技术中心公布了自研 AI 编码平台易码 G-Work，可以让 AI 协助代码审查、架构分析和性能优化。 而这次的 EvoMeme 让普通用户也能参与游戏制作，只需要描述自己的想法，就能让 AI 帮忙完成后续开发。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #AI应用 #Codex #产品分析 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487382.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI工具"/>
-    <category term="Chrome"/>
-    <category term="WorkBuddy"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ucd/6486807.html</id>
-    <title>Vibe 技巧：别再只跟 AI 说“弹出弹窗”了！</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ucd/6486807.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">在 Vibe Coding 里，最磨人的往往不是技术门槛，而是说不清自己想要什么。模态对话框、Popover、Toast 各有名字，把模糊的视觉感受换成准确的组件词汇，AI 才能少猜几次，界面也才更像样。 在 Vibe Coding 中，经常出现脑子里是有画面的，但是给 AI 讲了半天，最终做出来个完全不相关的页面，我…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="交互体验"/>
-    <category term="AI编程"/>
-    <category term="Vibe Coding"/>
+    <category term="AI应用"/>
+    <category term="Codex"/>
     <category term="产品分析"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/ai/6486788.html</id>
-    <title>DeepSeek的尽头，居然是一条会喊你爸爸的蓝色大肥鱼。</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486788.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">DeepSeek 的 Logo 是条鲸鱼，一次自我识别认成了蓝色大肥鱼，外号就这么叫开。网友围绕它二创出鲸鱼娘，蓝发鲸尾、爱吃白饭、干活还得讨 Token，各平台都在闹鱼灾。 最近，我真的感觉，国内互联网，快要被一群蓝色大肥鱼给统治了。 刷B站有她，刷抖音也有她，刷小红书还是她。 无论在哪个平台，好像大家都想给她完整的…</summary>
+    <id>https://www.woshipm.com/evaluating/6486885.html</id>
+    <title>从 Agent 开发平台到 AI 团队工作台：扣子的三次转向与它的结构性约束</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/evaluating/6486885.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">扣子拿下2025年中国智能体开发平台公有云市场19.3%份额第一，靠的不是可视化搭建界面的易用性，而是分发网络加执行环境——把Agent送到用户面前并让它动手。本文对比Dify、阿里云百炼、腾讯云ADP，拆解扣子三年三跳的产品主线、并入豆包后的身份取舍，以及声量与收入严重不匹配的早期商业化现实。 分析对象：扣子（Coz…</summary>
+    <content type="html">&lt;p&gt;扣子拿下2025年中国智能体开发平台公有云市场19.3%份额第一，靠的不是可视化搭建界面的易用性，而是分发网络加执行环境——把Agent送到用户面前并让它动手。本文对比Dify、阿里云百炼、腾讯云ADP，拆解扣子三年三跳的产品主线、并入豆包后的身份取舍，以及声量与收入严重不匹配的早期商业化现实。 分析对象：扣子（Coze） 对比竞品：Dify、阿里云百炼 Agent Studio、腾讯云 ADP 核心结论： 扣子的真实产品不是「可视化搭 Agent」，而是「把 Agent 送到用户面前并让它动手」。分发网络加执行环境，是它在 2025 年中国智能体开发平台公有云市场拿到 19.3% 份额第一的真正原因，而不是搭建界面的易用性。[1][2][6] 2026 年 8 月团队并入豆包体系，是分析扣子最重要的变量。扣子从「独立平台」变成「能力底座」，豆包工作后台调用的数据抓取、研究、设计等 Agent 来自扣子。能力被复用，路线图的确定性下降。[9][10][11] 商业化还在极早期，声量与收入严重不匹配。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#分析评测 #Agent #Dify #产品分析 #市场分析 #扣子&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/evaluating/6486885.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
-    <category term="AI"/>
+    <category term="分析评测"/>
+    <category term="Agent"/>
+    <category term="Dify"/>
+    <category term="产品分析"/>
+    <category term="市场分析"/>
+    <category term="扣子"/>
+    <category term="智能体"/>
+    <category term="产品"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6486493.html</id>
+    <title>为什么打招呼的消息越来越多，工作反而越难找？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486493.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">某聘上的打招呼消息越来越多，一天能收到几十条，但仔细看，岗位与经历并不匹配，招呼内容高度模板化。作者怀疑这些招呼正被AI批量发送，并追问：当简历筛选和初次沟通都被自动化，招聘中原本的信号价值还剩多少？ 不知道你有没有发现，某聘上企业打招呼的消息越来越多，我看小某书上有人分享，一天能收到几十条打招呼的信息。 但仔细看，有…</summary>
+    <content type="html">&lt;p&gt;某聘上的打招呼消息越来越多，一天能收到几十条，但仔细看，岗位与经历并不匹配，招呼内容高度模板化。作者怀疑这些招呼正被AI批量发送，并追问：当简历筛选和初次沟通都被自动化，招聘中原本的信号价值还剩多少？ 不知道你有没有发现，某聘上企业打招呼的消息越来越多，我看小某书上有人分享，一天能收到几十条打招呼的信息。 但仔细看，有些岗位和自己的经历并不匹配，有些招呼内容高度模板化，让人感觉对方根本没有认真看过简历。 因此我有理由怀疑，其中一部分招呼可能已经开始借助 AI 或自动化工具批量发送，这个现象引发了我对企业应用 AI 的一些思考。 过去，企业招聘人员主动联系一个候选人，多少意味着对方花时间看过简历，认为这个人可能适合岗位。 但如果 AI 可以筛选简历、生成招呼语，再批量联系大量候选人，那么打招呼本身就很难再说明什么。 企业发出一百条消息，不代表找到了更多合适的人，求职者收到十条招呼，也不代表多了十个值得考虑的机会。 这让我想到短信的发展。 早些年，短信是重要的沟通方式。后来，群发营销越来越普遍，各种广告和推广信息充斥其中，人们逐渐不再认真阅读陌生短信。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#个人随笔 #AI应用 #个人观点 #行业观察 #产品 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/share/6486493.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>人人都是产品经理</title></source>
     <category term="个人随笔"/>
-    <category term="DeepSeek"/>
-    <category term="内容创作"/>
+    <category term="AI应用"/>
+    <category term="个人观点"/>
     <category term="行业观察"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.woshipm.com/share/6486699.html</id>
-    <title>AI时代，RPA产品应该如何升级？从流程自动化到智能化执行</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6486699.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">RPA曾是企业自动化市场的热门赛道，如今又迎来大模型与AI智能体带来的新机会。当AI开始尝试接管复杂任务，企业选择RPA平台，不能只看传统流程执行能力，还需要重新审视系统兼容、流程治理、异常处理与AI融合能力。技术路线在变，但决定自动化能否长期创造价值的，始终是平台对真实业务的支撑能力。 大家还记得RPA吗？ RPA这…</summary>
+    <id>https://www.woshipm.com/evaluating/6486495.html</id>
+    <title>不想发朋友圈，也懒得写日记？这个 App 专门收留生活里的小事</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/evaluating/6486495.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">一个名为 footnotes 的日记 App 在2025年9月上线，安卓版20天获3万次安装，Google Play评分4.7。它没有朋友圈、没有信息流，只让用户保存照片、文字、声音等生活碎片，像文章脚注一样收藏容易被忽略的瞬间。 今天分享一个很小的 App，但很有趣：footnotes。 最近，有人在苹果应用商店里给…</summary>
+    <content type="html">&lt;p&gt;一个名为 footnotes 的日记 App 在2025年9月上线，安卓版20天获3万次安装，Google Play评分4.7。它没有朋友圈、没有信息流，只让用户保存照片、文字、声音等生活碎片，像文章脚注一样收藏容易被忽略的瞬间。 今天分享一个很小的 App，但很有趣：footnotes。 最近，有人在苹果应用商店里给一款日记 App 留下了一条很有意思的评价。 她说，自己正在尝试暂时不刷 Instagram，于是下载了这款 App，替代每天忍不住拿起手机刷社交媒体的习惯。 以前拿起手机，是为了看看别人的生活；现在拿起手机，则是为了记录一下自己正在经历什么。 而她使用的这款 App，恰好没有朋友圈，没有公开的信息流，也不鼓励用户每天发布精心编辑的照片。 它甚至不要求你认真写日记。 比如，你下午路过一家咖啡馆，发现窗边的阳光特别好看，可以拍一张照片保存下来。 朋友无意间讲了一句很好笑的话，可以随手录一段声音。 或者晚上突然想起一件小事，打几个字，保存，就结束了。 这些内容不一定值得发朋友圈，也不需要写成一篇完整的日记。 这款 App 有一个很贴切的名字：footnotes。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#分析评测 #AI产品 #google #个人成长 #内容创作 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/evaluating/6486495.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
-    <category term="个人随笔"/>
-    <category term="AI时代"/>
-    <category term="RPA"/>
-    <category term="个人观点"/>
+    <category term="分析评测"/>
+    <category term="AI产品"/>
+    <category term="google"/>
+    <category term="个人成长"/>
+    <category term="内容创作"/>
     <category term="产品"/>
     <category term="运营"/>
     <category term="商业"/>
   </entry>
   <entry>
-    <id>https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/</id>
-    <title>The Iran War’s Impact on Oil Is Hitting Key Senate Races Hard</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/iran-war-impact-on-oil-hits-key-senate-races/"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">Democrats are using the high price of diesel, heating oil, and fertilizer to tie Republicans to President Donald Trump’s unpopular, costly war in Iran.</summary>
+    <id>https://www.woshipm.com/ai/6487440.html</id>
+    <title>WorkBuddy录音笔上线，会转写、能总结、可对话</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487440.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">AI 录音、转写、总结是常见办公场景，但 WorkBuddy 的录音笔藏在 APP 里，桌面端并没有开放。完整链路走了一遍：云端模式开启录音、转写能区分发言人、总结给出核心事件与待办，录音还能直接拉进对话。桌面端为什么不做，给了几个解释。 AI 录音，录音后转译、 AI总结，是常见的办公场景。 作为 AI Agent…</summary>
+    <content type="html">&lt;p&gt;AI 录音、转写、总结是常见办公场景，但 WorkBuddy 的录音笔藏在 APP 里，桌面端并没有开放。完整链路走了一遍：云端模式开启录音、转写能区分发言人、总结给出核心事件与待办，录音还能直接拉进对话。桌面端为什么不做，给了几个解释。 AI 录音，录音后转译、 AI总结，是常见的办公场景。 作为 AI Agent 办公新范式的 WorkBuddy ，功能非常丰富。 但为何 WorkBuddy 没有 AI 录音笔功能，来覆盖这个会议记录的场景呢？ 其实，WorkBuddy是有AI 录音笔的，只是很多人不知道而已。 这个功能，没有在桌面端，而是隐藏在 WorkBuddy APP里。 打开WorkBuddy APP，切换到云端模式下，就可打开 WorkBuddy 的 AI 录音笔了。 启动录音笔，进行录音。 可以看到，一个机器猫的黑胶片在开始收音了，挺有设计感的。 离开当前录音页面，也不影响录音。 完成录音，录音产物，会上传到 WorkBuddy 资料库存储。 点开 WorkBuddy 录音文件，可以看到有 AI 转写、AI 总结两个功能。 AI 转写，是逐字稿，可区分发言人。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #AI应用 #AI录音 #WorkBuddy #办公协同&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487440.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI应用"/>
+    <category term="AI录音"/>
+    <category term="WorkBuddy"/>
+    <category term="办公协同"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6487376.html</id>
+    <title>Just Do It的丹·韦登：24条穿透“混沌”的广告法则</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6487376.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">丹·韦登把混沌定为 W+K 的组织内核，也留下二十四条广告法则。文章把它们拢成三组：好广告是一场值得旁听的对话，Just Do It 的力量来自邀请而非指令，以及为什么一家井井有条的创意公司已经停止生长。 丹・韦登（Dan Wieden，1945—2021），W+K联合创始人，广告史上最具影响力的创意领袖之一。，耐克是…</summary>
+    <content type="html">&lt;p&gt;丹·韦登把混沌定为 W+K 的组织内核，也留下二十四条广告法则。文章把它们拢成三组：好广告是一场值得旁听的对话，Just Do It 的力量来自邀请而非指令，以及为什么一家井井有条的创意公司已经停止生长。 丹・韦登（Dan Wieden，1945—2021），W+K联合创始人，广告史上最具影响力的创意领袖之一。，耐克是W+K第一个客户，并在1988年，他写下“Just Do It”，并让耐克从跑鞋品牌，成为全球顶级的文化符号。 他把 “混沌”定为组织文化的内核。他相信，好广告是一场两个人对话；slogan不只是文字，而是一种态度，一份邀请；他坚信，创意机构一旦把金钱放在第一位，创意就会死亡。 一、好广告：是一场两个人对话 1、好的广告是一场两个人之间的对话，是一场值得旁听的对话。 好的广告应该像两个人之间的一场对话——一个品牌和一个消费者——而且这场一对一的对话必须足够个人化、足够有趣，以至于其他人会真的想旁听。 2、一句标语不只是文字，它是一种态度，一份邀请。 3、好广告不卖产品，它售卖一种可能性。 4、广告生效的时候，它会成为文化的一部分，不再是打扰。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#个人随笔 #slogan #案例分析 #耐克 #行业观察 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/share/6487376.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="slogan"/>
+    <category term="案例分析"/>
+    <category term="耐克"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6487435.html</id>
+    <title>ChatGPT和Codex要共用额度了，无限聊天的时代结束了。</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487435.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">OpenAI 凌晨悄悄更新帮助文档：从 12 月起，Plus 和 Pro 用户的 ChatGPT 与 Codex 用量合并成同一个 Token 池。聊天再也不是近乎无限，重度用户的第一反应是天塌了。从自制硬件讲到 2023 年 GPT-4 上线的日子。 今天凌晨，本来在快快乐乐一边打《影之刃零》一边Vibe Codin…</summary>
+    <content type="html">&lt;p&gt;OpenAI 凌晨悄悄更新帮助文档：从 12 月起，Plus 和 Pro 用户的 ChatGPT 与 Codex 用量合并成同一个 Token 池。聊天再也不是近乎无限，重度用户的第一反应是天塌了。从自制硬件讲到 2023 年 GPT-4 上线的日子。 今天凌晨，本来在快快乐乐一边打《影之刃零》一边Vibe Coding我的小产品中。 然后AIHOT就给我弹了一条消息，点进去一看原文，瞬间感觉天塌了，我相信，任何一个ChatGPT重度用户，都会跟我有一样的感觉。 OpenAI凌晨偷偷更新的帮助文档，没有任何官方公告。。 大概意思就是，从12月开始，订阅了Plus、Pro的用户，ChatGPT和Codex的用量，就要合并成同一个额度了。 以后不管你是在ChatGPT里聊天，还是在Codex里写代码，扣的都是同一个池子，而且统一按Token来算，你选的模型越高级，思考深度越深，让它干的活越复杂，额度扣的就越多。 ChatGPT的聊天额度，再也不是近乎无限的了。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #AI编程 #ChatGPT #Codex #OpenAI&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487435.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI编程"/>
+    <category term="ChatGPT"/>
+    <category term="Codex"/>
+    <category term="OpenAI"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6487447.html</id>
+    <title>60亿播放的漫剧赚不到100万</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487447.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">做 AI 漫剧，内容方得赌爆款，平台却不用押注某一部剧。字节手里握着两张牌：番茄开放六万余部原创 IP，红果日活 1.68 亿。把分账公式、广告成交价和监管节点一层层拆开，才算得清这门生意里究竟谁掌握着分钱的规则。 做AI漫剧，内容方得赌爆款，平台却不用押注某一部剧。 一部剧扑了，内容方可能连成本都收不回来，从买IP到…</summary>
+    <content type="html">&lt;p&gt;做 AI 漫剧，内容方得赌爆款，平台却不用押注某一部剧。字节手里握着两张牌：番茄开放六万余部原创 IP，红果日活 1.68 亿。把分账公式、广告成交价和监管节点一层层拆开，才算得清这门生意里究竟谁掌握着分钱的规则。 做AI漫剧，内容方得赌爆款，平台却不用押注某一部剧。 一部剧扑了，内容方可能连成本都收不回来，从买IP到制作完成，钱是一笔一笔垫进去的，播出来没人看，这些钱就沉在片库里。 平台不一样，只要用户还在，换一部剧接着播，广告位照样能卖。 所以，这门生意最值得算的是谁掌握着分钱的规则。 …… 字节系手里的两张牌。 番茄开放了6万余部原创IP，供漫剧改编。红果那边，2026年7月日活1.68亿。按QuestMobile的口径，这个日活比爱优腾芒四家加起来还多。 一个握着故事，一个掌握流量出口。 红果2026年上半年核心营收约200亿元，97%来自广告，同比增长约87%；特别注意，这是媒体测算。 广告主这一头；红果给品牌方的报价，是每千次曝光25元，中插广告强制播放5秒。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #商业模式 #字节跳动 #漫剧 #短剧&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487447.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="商业模式"/>
+    <category term="字节跳动"/>
+    <category term="漫剧"/>
+    <category term="短剧"/>
+    <category term="产品"/>
+    <category term="运营"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/best-chromebooks/</id>
+    <title>Best Chromebooks and Googlebooks (2026): Laptops With a Google Touch</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/best-chromebooks/"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">While Google is heralding a new series of laptops called Googlebooks, Chromebooks are sticking around—for now. These are the ones to consider.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://media.wired.com/photos/6ae4f7cdc47e8737f5c92342/master/pass/Update%20Best%20Chromebooks%20102026%20top%20art%20SOURCE%20Amazon-Best%20Buy.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;While Google is heralding a new series of laptops called Googlebooks, Chromebooks are sticking around—for now. These are the ones to consider.&lt;/p&gt;&lt;p&gt;Source: WIRED · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #Gear #Gear / Products #Gear / Products / Computers #Gear / Reviews #Googlefied Laptops #科技&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.wired.com/story/best-chromebooks/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>WIRED</title></source>
+    <category term="Gear"/>
+    <category term="Gear / Products"/>
+    <category term="Gear / Products / Computers"/>
+    <category term="Gear / Reviews"/>
+    <category term="Googlefied Laptops"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+  <entry>
+    <id>https://www.wired.com/story/a-newly-discovered-trail-of-cosmic-debris-illustrates-what-the-end-of-the-solar-system-could-look-like/</id>
+    <title>A Newly Discovered Trail of Cosmic Debris Illustrates How the End of the Solar System Could Look</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/a-newly-discovered-trail-of-cosmic-debris-illustrates-what-the-end-of-the-solar-system-could-look-like/"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">A dying star 1,600 light-years from Earth is surrounded by two rings of gas and dust that astronomers believe are the remnants of the planetary bodies it once h…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://media.wired.com/photos/6ae377e1cbf5d13e90635178/master/pass/eso2613a.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;A dying star 1,600 light-years from Earth is surrounded by two rings of gas and dust that astronomers believe are the remnants of the planetary bodies it once h…&lt;/p&gt;&lt;p&gt;Source: WIRED · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #Science #Science / Space #Put a Ring on It #科技 #社会&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.wired.com/story/a-newly-discovered-trail-of-cosmic-debris-illustrates-what-the-end-of-the-solar-system-could-look-like/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>WIRED</title></source>
     <category term="Science"/>
-    <category term="Science / Environment"/>
-    <category term="Politics"/>
-    <category term="Gassed Up"/>
+    <category term="Science / Space"/>
+    <category term="Put a Ring on It"/>
     <category term="科技"/>
     <category term="社会"/>
   </entry>
   <entry>
-    <id>https://www.wired.com/story/ego-blower-sale-tp-cannon-october-2026/</id>
-    <title>The Best Leaf Blower We’ve Tested Is Ready for Halloween</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/ego-blower-sale-tp-cannon-october-2026/"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">Our top Ego pick is discounted, and our resident leaf blower expert demonstrates how to make a TP cannon.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Deals"/>
-    <category term="Gear / Products / Outdoor"/>
-    <category term="Roll Model"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://www.wired.com/story/gifts-for-friends/</id>
-    <title>Gift Ideas for Friends (2026): Wellness Tech, Kitchen Essentials</title>
-    <link rel="alternate" type="text/html" href="https://www.wired.com/story/gifts-for-friends/"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">These are the WIRED-tested gadgets, kitchen tools, and cozy comforts I’d actually buy for my own inner circle.</summary>
-    <source><title>WIRED</title></source>
-    <category term="Gear"/>
-    <category term="Gear / Buying Guides"/>
-    <category term="Gear / Products / Home"/>
-    <category term="Present Company"/>
-    <category term="科技"/>
-    <category term="社会"/>
-  </entry>
-  <entry>
-    <id>https://sspai.com/post/116435</id>
-    <title>精确到秒的时间记录是怎样的？我的柳比歇夫法半年实践</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/116435"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">就像一个运动员无法预计自己能否取得金牌，但能控制自己投入于训练的时间一样，我们无法决定性地控制工作和生活中每一项事项的成功与否，但可以控制自己投入更多还是更少的时间。查看全文</summary>
+    <id>https://sspai.com/post/116991</id>
+    <title>怀旧手记｜夏普 Telios：20 多年前，Handheld PC 中的「少数派」</title>
+    <link rel="alternate" type="text/html" href="https://sspai.com/post/116991"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文</summary>
+    <content type="html">&lt;p&gt;Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文&lt;/p&gt;&lt;p&gt;来源：少数派 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#效率 #工具&lt;/p&gt;&lt;p&gt;&lt;a href="https://sspai.com/post/116991"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>少数派</title></source>
     <category term="效率"/>
     <category term="工具"/>
   </entry>
   <entry>
-    <id>https://sspai.com/post/117827</id>
-    <title>派早报：全球首款 Android XR 有线眼镜 XREAL AURA 发售等</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/117827"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">腾讯与 Visa 签署合作备忘录，Bose 有线消噪耳塞国行上市等。查看全文</summary>
-    <source><title>少数派</title></source>
-    <category term="效率"/>
-    <category term="工具"/>
-  </entry>
-  <entry>
-    <id>https://sspai.com/prime/story/zhuanglesha-261030</id>
-    <title>《久坐健康指南》作者、运动健康领域创作者阿帅装了啥？</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/prime/story/zhuanglesha-261030"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">编者按：@阿帅的健康笔记长期专注于运动健康领域的创作，发表了不少兼具实用性与科普性的文章，并著有付费栏目《久坐健康指南》，受到许多读者喜爱。本期《装了啥》邀请他分享运动、创作与工作中的心得，以及常用的 ...查看全文 本文为会员文章，出自《单篇文章》，订阅后可阅读全文。</summary>
-    <source><title>少数派</title></source>
-    <category term="效率"/>
-    <category term="工具"/>
-  </entry>
-  <entry>
-    <id>https://sspai.com/post/116047</id>
-    <title>App+1｜该吃药了：一片小药板，让吃药提醒变得轻松有趣</title>
-    <link rel="alternate" type="text/html" href="https://sspai.com/post/116047"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">它简单、稳定，也有意思，不会把按时吃药变成一个负担——而是一件看见了就随手去做、轻松愉快的小事。查看全文</summary>
-    <source><title>少数派</title></source>
-    <category term="效率"/>
-    <category term="工具"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/news-and-politics/2026/10/slate-news-quiz-2026-midterms.html?via=rss</id>
-    <title>Think You Know More About the Midterms Than Slate’s Senior Politics Writer? Find Out With This Week’s News Quiz.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/news-and-politics/2026/10/slate-news-quiz-2026-midterms.html?via=rss"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">Test your knowledge of this year’s wild midterms races.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Quizzes"/>
-    <category term="Trivia"/>
-    <category term="Slate Games"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/podcasts/what-next-tbd/2026/10/kevin-roose-thinks-a-i-has-arrived?via=rss</id>
-    <title>The First Real A.I. Test</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/podcasts/what-next-tbd/2026/10/kevin-roose-thinks-a-i-has-arrived?via=rss"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">AGI-pilled author Kevin Roose makes the case.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Artificial Intelligence"/>
-    <category term="Stock Market"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-30-2026.html?via=rss</id>
-    <title>Slate Mini Crossword for Oct. 30, 2026</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/crossword-slate-mini-daily-puzzle-oct-30-2026.html?via=rss"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">Take a quick break with our daily 5x5 grid.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Mini Crossword"/>
-    <category term="Slate Games"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/life/2026/10/trump-election-ohio-midterm-ice-evangelical.html?via=rss</id>
-    <title>Evangelicals Traveled to Their Country in Record Numbers. Then Trump Said They Were Evil.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/life/2026/10/trump-election-ohio-midterm-ice-evangelical.html?via=rss"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">In Ohio, the president’s religious base has been tested—and it’s clear whom it chose.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Donald Trump"/>
-    <category term="Evangelicals"/>
-    <category term="Haiti"/>
-    <category term="Ohio"/>
-    <category term="Religion"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://slate.com/news-and-politics/2026/10/donald-trump-corruption-constitution-impeachment-fail.html?via=rss</id>
-    <title>Donald Trump Sure Is Corrupt. If Only There Were a Constitutional Remedy for That.</title>
-    <link rel="alternate" type="text/html" href="https://slate.com/news-and-politics/2026/10/donald-trump-corruption-constitution-impeachment-fail.html?via=rss"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">The most common ground for impeachment throughout Anglo-American history has been corruption.</summary>
-    <source><title>Slate Magazine</title></source>
-    <category term="Constitution"/>
-    <category term="Donald Trump"/>
-    <category term="Impeachment"/>
-    <category term="Jurisprudence"/>
-    <category term="Try, Try Again?"/>
-    <category term="评论"/>
-    <category term="文化"/>
-  </entry>
-  <entry>
-    <id>https://www.openculture.com/2026/10/watch-150-classic-horror-and-suspense-films-free-online.html</id>
-    <title>Watch 150 Classic Horror and Suspense Films Free Online: Nosferatu, The Cabinet of Dr. Caligari, Carnival of Souls, Night of the Living Dead…</title>
-    <link rel="alternate" type="text/html" href="https://www.openculture.com/2026/10/watch-150-classic-horror-and-suspense-films-free-online.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">﻿ From roughly the mid-nineteen-fifties through the mid-nineteen-seventies, the availability of airtime on American television stations exceeded their capacity…</summary>
-    <source><title>Open Culture</title></source>
-    <category term="Film"/>
-    <category term="文化"/>
-    <category term="免费资源"/>
-  </entry>
-  <entry>
-    <id>https://science.nasa.gov/earth/earth-observatory/vega-island-frozen-in-fright/</id>
-    <title>Vega Island Frozen in Fright</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/earth/earth-observatory/vega-island-frozen-in-fright/"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">The sight of an icy skull-like visage on the Antarctic island could make one’s blood run cold.</summary>
-    <source><title>NASA</title></source>
-    <category term="Earth Observatory"/>
-    <category term="Ice &amp; Glaciers"/>
-    <category term="Landsat 9"/>
-    <category term="航天"/>
+    <id>https://www.sciencedaily.com/releases/2026/10/261031221201.htm</id>
+    <title>Scientists say a forgotten particle may explain why the universe exists</title>
+    <link rel="alternate" type="text/html" href="https://www.sciencedaily.com/releases/2026/10/261031221201.htm"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">A mysterious particle overlooked for decades may hold the key to why matter survived the Big Bang, allowing stars, planets, and life to exist. Scientists believ…</summary>
+    <content type="html">&lt;p&gt;A mysterious particle overlooked for decades may hold the key to why matter survived the Big Bang, allowing stars, planets, and life to exist. Scientists believe this forgotten neutrino reshaped the early universe and may have left detectable gravitational wave signals that could help unlock the cosmos’s deepest mysteries.&lt;/p&gt;&lt;p&gt;Source: Latest Science News -- ScienceDaily · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #学术 #科学&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.sciencedaily.com/releases/2026/10/261031221201.htm"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>Latest Science News -- ScienceDaily</title></source>
+    <category term="学术"/>
     <category term="科学"/>
   </entry>
   <entry>
-    <id>https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/</id>
-    <title>Map Showing Potential Origins of Martian Meteorite Teghaza 001</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">Description This global map of Mars shows 13 locations that match the mineralogy and chemistry of Teghaza 001, one of the most ancient Martian meteorites ever f…</summary>
-    <source><title>NASA</title></source>
-    <category term="航天"/>
-    <category term="科学"/>
+    <id>https://www.reddit.com/r/cats/comments/1xkq404/pocketsized_sleeper/</id>
+    <title>Pocket-sized sleeper</title>
+    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/cats/comments/1xkq404/pocketsized_sleeper/"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">submitted by /u/rainfall_now to r/cats [link] [comments]</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://preview.redd.it/s8wql7zbfwyh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=c355ec1a1da140a27fa941d89ef5d778e78d8544" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/rainfall_now to r/cats [link] [comments]&lt;/p&gt;&lt;p&gt;Source: top scoring links : popular · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #cats #社区 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/cats/comments/1xkq404/pocketsized_sleeper/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>top scoring links : popular</title></source>
+    <category term="cats"/>
+    <category term="社区"/>
+    <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/</id>
-    <title>APOD: 2026 October 30 – Haunting the Cepheus Flare</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">APOD Science APOD APOD: 2026 October 30 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…</summary>
+    <id>https://www.reddit.com/r/pcmasterrace/comments/1xkpfwr/olenna_has_something_to_say/</id>
+    <title>Olenna has something to say.</title>
+    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/pcmasterrace/comments/1xkpfwr/olenna_has_something_to_say/"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">submitted by /u/cyborg762 to r/pcmasterrace [link] [comments]</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://preview.redd.it/jxb9t9779wyh1.jpeg?width=320&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=8ed13679a14f2a6bd958a6a076ad6cdd926f807e" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/cyborg762 to r/pcmasterrace [link] [comments]&lt;/p&gt;&lt;p&gt;Source: top scoring links : popular · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #pcmasterrace #社区 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/pcmasterrace/comments/1xkpfwr/olenna_has_something_to_say/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>top scoring links : popular</title></source>
+    <category term="pcmasterrace"/>
+    <category term="社区"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.reddit.com/r/mildyinteresting/comments/1xksf4h/heidi_klums_halloween_costume_2026/</id>
+    <title>Heidi Klum's Halloween Costume (2026)</title>
+    <link rel="alternate" type="text/html" href="https://www.reddit.com/r/mildyinteresting/comments/1xksf4h/heidi_klums_halloween_costume_2026/"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">submitted by /u/TheBronsXX to r/mildyinteresting [link] [comments]</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://preview.redd.it/yd12577n1xyh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=0f6efed015825cb63ee36a77169ae863f944a3b4" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/TheBronsXX to r/mildyinteresting [link] [comments]&lt;/p&gt;&lt;p&gt;Source: top scoring links : popular · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #mildyinteresting #社区 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/mildyinteresting/comments/1xksf4h/heidi_klums_halloween_costume_2026/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>top scoring links : popular</title></source>
+    <category term="mildyinteresting"/>
+    <category term="社区"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/</id>
+    <title>APOD: 2026 November 1 – Colors of the Moon</title>
+    <link rel="alternate" type="text/html" href="https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">APOD Science APOD APOD: 2026 November 1 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…</summary>
+    <content type="html">&lt;p&gt;APOD Science APOD APOD: 2026 November 1 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Colors of the […]&lt;/p&gt;&lt;p&gt;Source: NASA · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #APOD #航天 #科学&lt;/p&gt;&lt;p&gt;&lt;a href="https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>NASA</title></source>
     <category term="APOD"/>
     <category term="航天"/>
     <category term="科学"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2099465313452389327</id>
-    <title>校方通报「学生摆拍大体老师头骨」一事，涉事学生被处分并取消年度评优资格，如何看待学校的处理？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099465313452389327"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 7 名 · 495 万热度 · 218 回答 · 308 关注 — 10月29日，长沙民政职业技术学院医学院发布情况通报： 10月14日，我院一名2026级新生在解剖实验课后，对大体老师头骨标本进行摆拍并在朋友圈发布，造成不良影响。学校对此行为坚决零容忍，已对涉事学生进行批评教育，给予校纪处分，取消年度评优评先资格…</summary>
+    <id>https://www.zhihu.com/question/2100178342901019827</id>
+    <title>法国爆发第三轮抗议活动，抗议人数从55万降至32万，是意味着这轮社会抗议正在降温吗？抗议还会持续多久？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2100178342901019827"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 5 名 · 473 万热度 · 78 回答 · 184 关注 — 当地时间10月31日，法国爆发近三周以来第三轮全国性大规模抗议示威活动。据法国内政部统计，有数十万人参与了当天的抗议示威活动。法国内政部长努内兹表示，法国警方在当天的活动中，累计实施检查约4万次，对511人实施逮捕。 无法获取视频信息 你可以 刷新…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://pica.zhimg.com/80/v2-0b321ac00aa5144c88f24d06888fdd76_1440w.webp?source=1def8aca" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;第 5 名 · 473 万热度 · 78 回答 · 184 关注 — 当地时间10月31日，法国爆发近三周以来第三轮全国性大规模抗议示威活动。据法国内政部统计，有数十万人参与了当天的抗议示威活动。法国内政部长努内兹表示，法国警方在当天的活动中，累计实施检查约4万次，对511人实施逮捕。 无法获取视频信息 你可以 刷新 试试 努内兹表示，当天法国各地的抗议示威队伍中都出现了暴力破坏和抢劫的人员。他对这些行为表示谴责。 法国内政部在当天早些时候的通报中表示，在波尔多、图卢兹、里尔等城市，部分示威者试图进入市中心实施破坏和抢劫，遭到警方阻止。当天巴黎的示威活动总体保持平静，但在活动结束阶段，巴黎东南部出现骚乱。 法国内政部此前表示，10月31日当天出现“公共秩序混乱”的可能性非常大，因此，政府向全法多地部署共计7万名宪兵和警员维持治安。10月17日和24日，法国多地都爆发了抗议示威活动，涉及诉求包括生活成本、教育和公共服务等。据法国内政部统计，在此前两轮大规模抗议示威活动中，有数十万人参与示威，数千人被警方逮捕。&lt;/p&gt;&lt;p&gt;来源：知乎热榜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #知乎&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.zhihu.com/question/2100178342901019827"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2099249184477902760</id>
-    <title>已故演员高秀敏、张少华形象被印上祭祀用品，这种做法涉嫌违法吗？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099249184477902760"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 8 名 · 482 万热度 · 30 回答 · 62 关注 — 10月27日，IP属地显示是吉林的一名网友发布一段视频引发关注。视频显示，一件祭祀用品上印着已故演员高秀敏、张少华的形象。 视频发布者称，自己是参加葬礼时看到的，“挺长时间了”，不清楚当时祭品是否进行了焚烧。 已故演员高秀敏、张少华被印上祭祀用品，律师…</summary>
+    <id>https://www.zhihu.com/question/2099177192760595220</id>
+    <title>张雪称最怕遇到 「玻璃心」年轻人，遇到挫折是100%的，要有接受挫折的勇气，年轻人抗压能力变差了吗？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099177192760595220"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 7 名 · 355 万热度 · 73 回答 · 129 关注 — [视频]</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://pic1.zhimg.com/v2-c21325b1b55dd1bc94c0ccd99ca4375d.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;第 7 名 · 355 万热度 · 73 回答 · 129 关注 — [视频]&lt;/p&gt;&lt;p&gt;来源：知乎热榜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #知乎&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.zhihu.com/question/2099177192760595220"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2099167053160760200</id>
-    <title>小伙因亲人少怕婚礼冷清邀网友喝喜酒，近 200 人从全国各地赴宴，有人送冰箱有人带整猪，如何看待此事？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099167053160760200"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 2 名 · 529 万热度 · 96 回答 · 275 关注 — 近日，云南昭通一名男子的婚礼邀约引发关注。博主讲述：“在我3岁的时候，爸爸就因病逝世了，妈妈在我5岁时就改嫁了，剩下一个唯一的长辈奶奶就带着我和我哥，我哥大我3岁，可是两年后奶奶也因病去了和我爸同样的地方。”兄弟二人相依为命，初中辍学后务工打拼。小伙…</summary>
+    <id>https://www.zhihu.com/question/2098799350503699522</id>
+    <title>如何评价山东东营80后男子用枯枝搭建巨型齐天大圣走红？为什么这件私人创作能引发这么大共鸣？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098799350503699522"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 1 名 · 2930 万热度 · 151 回答 · 509 关注 — 山东东营垦利区，淄博路与阜盛路交汇处附近，最近多了个显眼的大家伙。一尊用枯树枝搭成的巨型齐天大圣立在路边，眉眼低垂，披着蛛网状交织的枝桠，远远看去像是从荒野里长出来的。路过的市民掏出手机拍照发朋友圈，话题很快爬上了抖音热榜。80后男子用树枝造出巨…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://picx.zhimg.com/80/v2-a7d97431f4a83b13a64cf10521370081_1440w.webp?source=1def8aca" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;第 1 名 · 2930 万热度 · 151 回答 · 509 关注 — 山东东营垦利区，淄博路与阜盛路交汇处附近，最近多了个显眼的大家伙。一尊用枯树枝搭成的巨型齐天大圣立在路边，眉眼低垂，披着蛛网状交织的枝桠，远远看去像是从荒野里长出来的。路过的市民掏出手机拍照发朋友圈，话题很快爬上了抖音热榜。80后男子用树枝造出巨型齐天大圣，为什么这件私人创作能引发这么大共鸣？ 这尊”枯枝大圣”的缔造者叫樊立杰，是个80后。 他做这件事的过程说起来不算复杂。就地取材，在周边收集枯枝，一根根固定、交错搭建。没有精细打磨的木料，也没有上漆上色，全部保留枝桠原生的粗糙质感。枯枝干硬，层层交织在一起，远远近近地勾勒出大圣的轮廓——凤翅紫金冠的翘角、锁子黄金甲的鳞片状层次、还有那张被网友形容为”沉静又桀骜”的脸。&lt;/p&gt;&lt;p&gt;来源：知乎热榜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #知乎&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.zhihu.com/question/2098799350503699522"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2099233723589969810</id>
-    <title>如何看待蒋方舟因论文抄袭被撤销学位后，时隔 107 天再发文《37岁才明白的事》？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099233723589969810"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 5 名 · 501 万热度 · 402 回答 · 651 关注 — [5 张图片]</summary>
+    <id>https://www.zhihu.com/question/2100160196362384887</id>
+    <title>如何评价 2026 年 10 月小米汽车交付量超过 50000 台？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2100160196362384887"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 3 名 · 596 万热度 · 122 回答 · 212 关注 — [图片]</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://pic1.zhimg.com/v2-cbf318814c018624c285b7eb91b638b8_1440w.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;第 3 名 · 596 万热度 · 122 回答 · 212 关注 — [图片]&lt;/p&gt;&lt;p&gt;来源：知乎热榜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #知乎&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.zhihu.com/question/2100160196362384887"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2099125476149274126</id>
-    <title>如何看待红果短剧跃升为国内第四大app？它瓜分了谁的市场？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099125476149274126"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 1 名 · 3119 万热度 · 706 回答 · 1596 关注 — 红果短剧跃升为国内第四大app（时长）仅次于微信和两个抖音，那么如何看待其的快速发展，短剧平台的兴起是否瓜分了哔站，快手，抖音等视频平台的蛋糕，此外短剧中不少是ai短剧，是否也触碰了真人创作者诸如哔站百大为首以及背后的摄像工具企业诸如大疆影石的…</summary>
+    <id>https://www.zhihu.com/question/2099138301290443082</id>
+    <title>如何看待钓友钓58斤青鱼被拖入3米水中，仍紧握鱼竿被连人带鱼救起？你钓鱼时印象最深刻的经历是怎样的？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099138301290443082"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 8 名 · 322 万热度 · 81 回答 · 216 关注 — 近日，湖北襄阳，一名钓友在钓获约58斤大青鱼时，被大鱼发力拽入水深约3米的池塘。所幸该钓友会游泳，岸边其他钓友及时将其救起。钓友落水后仍紧紧握着鱼竿，众人配合约10分钟后将大青鱼也拉上岸。 据鱼场老板石先生介绍，钓友虽然落水后衣物全湿，但钓到巨型青鱼…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://pica.zhimg.com/80/v2-a12e87a9fe604f8fcbcbb314c28c8b2f_1440w.webp?source=1def8aca" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;第 8 名 · 322 万热度 · 81 回答 · 216 关注 — 近日，湖北襄阳，一名钓友在钓获约58斤大青鱼时，被大鱼发力拽入水深约3米的池塘。所幸该钓友会游泳，岸边其他钓友及时将其救起。钓友落水后仍紧紧握着鱼竿，众人配合约10分钟后将大青鱼也拉上岸。 据鱼场老板石先生介绍，钓友虽然落水后衣物全湿，但钓到巨型青鱼的成就感让他非常开心。石先生称，鱼塘中58斤左右的大青鱼仅十余条，该钓友垂钓两小时便钓获，概率较低，十分走运。石先生表示，此前从未发生过大鱼将钓友拽入水中的情况，以往多出现鱼线断裂或鱼竿被拉断的状况，本次是今年鱼塘首次发生此类事件。 湖北一钓友喜提58斤大青鱼，下一秒被鱼拽进3米深池塘，落水后仍紧握鱼竿，众人连人带鱼将其救起_腾讯新闻&lt;/p&gt;&lt;p&gt;来源：知乎热榜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #知乎&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.zhihu.com/question/2099138301290443082"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2099446310872900107</id>
-    <title>如何看待币安遭黑客攻击，数十亿美元资产被盗，或成历史金额最大被盗事件？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099446310872900107"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 3 名 · 517 万热度 · 68 回答 · 199 关注 — 2026 年 10 月 29 日晚（UTC 时间 20:24 起，北京时间 30 日凌晨 4 时左右），全球最大加密货币交易所币安的多个热钱包出现异常大额资金转出，链上数据与分析师普遍认为这是一场针对热钱包的黑客攻击。事件涉及以太坊、比特币、波场等多…</summary>
+    <id>https://www.zhihu.com/question/7615605165</id>
+    <title>太阳占太阳系的总质量的99.86%，为什么银河系中心的黑洞只占银河系总质量的0.0005%？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/7615605165"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 10 名 · 286 万热度 · 30 回答 · 120 关注</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://pic3.zhimg.com/50/v2-add19aed8c8f8ec160f84844165ec11a_b.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;第 10 名 · 286 万热度 · 30 回答 · 120 关注&lt;/p&gt;&lt;p&gt;来源：知乎热榜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #知乎&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.zhihu.com/question/7615605165"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2098940094346433079</id>
-    <title>如何看待中科大给学生提供每天一亿的token额度？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098940094346433079"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 9 名 · 479 万热度 · 147 回答 · 576 关注 — 是真的吗？ 读好书来科大，每天都发一个亿！ 嗨 每一位“科大人” 属于中国科大独有的校园浪漫来啦 每天一个亿的Token 让你的AI专属算力“拉满弓” 零费用｜无门槛｜每日重置 开学第一天，就能拥有专属“AI智囊团” 比起手把手教你如何使用AI 科…</summary>
+    <id>https://www.zhihu.com/question/2099965221775173414</id>
+    <title>四川华蓥大摆荡致1名16岁游客死亡调查报告公布，2名责任人已移送司法机关处理，哪些信息值得关注？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099965221775173414"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 9 名 · 292 万热度 · 26 回答 · 81 关注 — 四川省华蓥市人民政府事故调查组发布了华蓥市溪口玛琉岩大摆荡项目“5·3”一般高处坠落事故调查报告。经调查认定，该事故是一起因项目运营企业安全生产主体责任悬空、管理缺位，未有效辨识管控安全风险，违规安排未经安全生产教育和培训合格人员上岗，属地政府及监管部…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://pic1.zhimg.com/80/v2-9f2970c0078464d634dfd3572ba32beb_1440w.webp?source=1def8aca" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;第 9 名 · 292 万热度 · 26 回答 · 81 关注 — 四川省华蓥市人民政府事故调查组发布了华蓥市溪口玛琉岩大摆荡项目“5·3”一般高处坠落事故调查报告。经调查认定，该事故是一起因项目运营企业安全生产主体责任悬空、管理缺位，未有效辨识管控安全风险，违规安排未经安全生产教育和培训合格人员上岗，属地政府及监管部门安全监管不到位、监督检查存在漏洞而导致的一般生产安全责任事故。 2026年5月3日，华蓥市溪口镇玛琉岩景区1名游客体验大摆荡项目时受伤，经抢救无效死亡。经调查，该事故直接原因是：大摆荡项目操作人员未严格执行操作规程，未正确操作释放绳，导致在滑动承载结构未滑至正常释放位置时，滑动承载结构上的脱钩器释放装置提前打开，菊绳与脱钩器分离，现场缺乏意外坠落安全防范措施，致使游客坠落撞击瀑布岩壁，导致事故发生。 目前，2名事故直接责任人已移送司法机关处理。对在事故调查中发现的有关公职人员履职方面存在的问题，已移交纪检监察机关追责问责。对涉事企业及其他相关人员由有关行政机关依法给予行政处罚。 四川华蓥大摆荡项目事故调查报告公布更多资讯请下载央视新闻客户端&lt;/p&gt;&lt;p&gt;来源：知乎热榜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #知乎&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.zhihu.com/question/2099965221775173414"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2098745060527432814</id>
-    <title>女孩恳请学校取消周日返校，称其带来严重焦虑，甚至影响周六，学校应该取消吗？周日返校有什么意义？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2098745060527432814"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 4 名 · 502 万热度 · 268 回答 · 405 关注 — 最近，关于东莞中小学返校时间的讨论持续刷屏。不少家长疑惑“新学期要取消周日晚修，统一周一返校吗？” 近日，有市民在阳光热线问政平台发帖《支持学校周日错峰返校反对一刀切周一返校》质疑部分人士过度解读“不得强制提前返校”政策，并明确表达了对周日错峰返校…</summary>
+    <id>https://www.zhihu.com/question/2099542758293877225</id>
+    <title>南京一男子在星巴克不消费占座，被店员提醒后反报警，经调解后离开门店，怎样看待这一行为？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099542758293877225"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 6 名 · 469 万热度 · 250 回答 · 409 关注 — 星巴克全国门店推行「消费入座」规则后，近日有网友称，在江苏南京同曦万尚城的星巴克，看到一名男子不消费占座。男子被店员提醒点单时认为店员态度差，先当场投诉，投诉无果后报了警。民警赶到后进行调解，男子最终离开了门店。 如何评价这一事件？遇到顾客长时间不…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://picx.zhimg.com/v2-63c6f4286e852d98af48d9a536974663_1440w.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;第 6 名 · 469 万热度 · 250 回答 · 409 关注 — 星巴克全国门店推行「消费入座」规则后，近日有网友称，在江苏南京同曦万尚城的星巴克，看到一名男子不消费占座。男子被店员提醒点单时认为店员态度差，先当场投诉，投诉无果后报了警。民警赶到后进行调解，男子最终离开了门店。 如何评价这一事件？遇到顾客长时间不消费占座、被提醒后却以「态度差」报警的情况，门店该如何在坚持规则与避免冲突升级之间把握分寸？ https://mp.weixin.qq.com/s/lL4DTr7yUqlnTSF3BoZbfQ&lt;/p&gt;&lt;p&gt;来源：知乎热榜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #知乎&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.zhihu.com/question/2099542758293877225"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/312800690</id>
-    <title>为什么李白的书法作品只有《上阳台帖》流传下来了？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/312800690"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 10 名 · 465 万热度 · 34 回答 · 134 关注 — 按说一个文人的作品会被细心保留，何况李白如此伟大有名气的人物。</summary>
+    <id>https://www.zhihu.com/question/2099855613391893093</id>
+    <title>卖650万捐赠房产要缴450万的税，夫妻遗赠毕生积蓄救人，接收遗产的基金会却被吓退，问题出在哪？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2099855613391893093"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 4 名 · 487 万热度 · 234 回答 · 556 关注 — 在上海徐汇区，有一对老夫妇 他们生前立下遗嘱 要捐出毕生积蓄与房产 救助先心病患儿 可受托基金会 在处置房产变现时遇到难题 房屋一旦先过户、再出售 就要缴纳高额税费 达房屋总价六七成 如何让老人的善意顺利落地？ 一个搪瓷杯、三部老旧手机，还有书本和…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://pic3.zhimg.com/v2-0215cebfebe3ec772155af06aa602726_1440w.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;第 4 名 · 487 万热度 · 234 回答 · 556 关注 — 在上海徐汇区，有一对老夫妇 他们生前立下遗嘱 要捐出毕生积蓄与房产 救助先心病患儿 可受托基金会 在处置房产变现时遇到难题 房屋一旦先过户、再出售 就要缴纳高额税费 达房屋总价六七成 如何让老人的善意顺利落地？ 一个搪瓷杯、三部老旧手机，还有书本和手写笔记。徐汇区长桥街道展出的这些旧物，记录着杜英荣、陆苏英夫妇节俭的一生。两位老人生前累计捐款500多万元。 2018年，他们又立下公证遗嘱，希望身后将剩余存款和房产全部捐出，救助困难家庭的先心病患儿，并指定上海市华侨事业发展基金会为遗产受托人。 普陀区公证处公证员陈鉴媛：我们事先为他们设计了一份法律文书，叫死后生效委托书，就是由华侨基金会作为受托人直接处理，出售老夫妻两人的房产。 两位老人于2018年、2025年先后离世，留下一百多万元存款，以及一套四十多平方米、市价300多万元的住房。如今，存款已经提存到公证处，不过房产迟迟未能出售。 原来，基金会要处理房产时，被相关部门告知：根据民法典相关规定，老人过世后房产要出售，必须先确定新的房屋产权人。&lt;/p&gt;&lt;p&gt;来源：知乎热榜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #知乎&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.zhihu.com/question/2099855613391893093"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.zhihu.com/question/2001260067715044038</id>
-    <title>为什么BBA不进商场开店？</title>
-    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2001260067715044038"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 6 名 · 498 万热度 · 57 回答 · 74 关注 — 现在新能源汽车很多都在商场开店，BBA的客户不在商场吗？还是其它原因？</summary>
+    <id>https://www.zhihu.com/question/2100108531160687738</id>
+    <title>S16 瑞士轮 BLG 2:0 淘汰 HLE 拿下最后一张淘汰赛门票，如何评价这场比赛？</title>
+    <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2100108531160687738"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 2 名 · 714 万热度 · 490 回答 · 646 关注 — 北京时间11月1日，S16瑞士轮最后一个比赛日，HLE 0-2不敌BLG，以2-3的战绩在瑞士轮阶段遭到淘汰，成为LCK赛区唯一一支没能进入淘汰赛的战队。 LCK唯一一个没晋级的，HLE以2-3在瑞士轮阶段遭到淘汰_腾讯新闻</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://pica.zhimg.com/80/v2-6345209a26b1fcb46e05577fab640ec5_1440w.webp?source=1def8aca" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;第 2 名 · 714 万热度 · 490 回答 · 646 关注 — 北京时间11月1日，S16瑞士轮最后一个比赛日，HLE 0-2不敌BLG，以2-3的战绩在瑞士轮阶段遭到淘汰，成为LCK赛区唯一一支没能进入淘汰赛的战队。 LCK唯一一个没晋级的，HLE以2-3在瑞士轮阶段遭到淘汰_腾讯新闻&lt;/p&gt;&lt;p&gt;来源：知乎热榜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #知乎&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.zhihu.com/question/2100108531160687738"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>知乎热榜</title></source>
     <category term="热榜"/>
     <category term="知乎"/>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=khtCd6MCUkI</id>
-    <title>🔴LIVE | AGE OF EMPIRES | KONA X HABIBI X JOHN X GIMMICK | SPOOKY SEASON | OOOooOoooOOoO | #BUNGULATE</title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=khtCd6MCUkI"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 3 名 · 观看 104.6 万 · TheBurntPeanut</summary>
+    <id>https://www.youtube.com/watch?v=H_7jfyXeQ-I</id>
+    <title>🔴LIVE | AGE OF EMPIRES 4 | ME + THE #1 PLAYER IN THE GAME V 6 | #BUNGULATE</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=H_7jfyXeQ-I"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 9 名 · 观看 117.4 万 · TheBurntPeanut</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/H_7jfyXeQ-I/mqdefault.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;第 9 名 · 观看 117.4 万 · TheBurntPeanut&lt;/p&gt;&lt;p&gt;Source: YouTube 热门 · US · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #视频 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=H_7jfyXeQ-I"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>YouTube 热门 · US</title></source>
     <category term="视频"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=Z72SeA0T028</id>
-    <title>Why Is She Watching Me…</title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=Z72SeA0T028"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 6 名 · 观看 42.0 万 · CaseOh — Starforge https://starforgepc.com/CaseOh GamerSupps -10% off Code CaseOh - https://gamersupps.gg/ Merch - https://caseohgames.com/…</summary>
+    <id>https://www.youtube.com/watch?v=tMq10ONbQDo</id>
+    <title>Top Halloween Songs of All Time 🎃 Best Halloween Music Playlist 👻 Ghostbusters Thriller Monster Mash</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=tMq10ONbQDo"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 1 名 · 观看 50.4 万 · Timeless Music — Halloween Playlist 2026 - Celebrate Halloween 2026 with the best Halloween songs of all time! From classic Halloween hits t…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/tMq10ONbQDo/mqdefault.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;第 1 名 · 观看 50.4 万 · Timeless Music — Halloween Playlist 2026 - Celebrate Halloween 2026 with the best Halloween songs of all time! From classic Halloween hits to modern jams this Halloween playlist has all the music you need for a hauntingly good time 🎃👻. This Halloween Songs playlist features all of the best Halloween music you know and love including Ghostbusters song, Monster Mash, Spooky Scary Skeletons, Somebody&amp;#39;s Watching Me, Thriller, This is Halloween, The Addams Family, and more!&lt;/p&gt;&lt;p&gt;Source: YouTube 热门 · US · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #视频 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=tMq10ONbQDo"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>YouTube 热门 · US</title></source>
     <category term="视频"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=vPssxrTbnmM</id>
-    <title>R.E.P.O. SUNSTONE UPDATE | Launch Trailer</title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=vPssxrTbnmM"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 8 名 · 观看 45.7 万 · semiwork — Detailed Patch Notes: https://store.steampowered.com/news/app/3241660/view/672883630592236353 Get the game here: https://store.st…</summary>
+    <id>https://www.youtube.com/watch?v=yS8bZlE-sA8</id>
+    <title>The Cher Witch Project - Halloween Trailer | SNL UK</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=yS8bZlE-sA8"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 8 名 · 观看 22.1 万 · Saturday Night Live UK — In 1994 three filmmakers went into the woods. They Vanished. Three days later their footage was found. Watch Saturd…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/yS8bZlE-sA8/mqdefault.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;第 8 名 · 观看 22.1 万 · Saturday Night Live UK — In 1994 three filmmakers went into the woods. They Vanished. Three days later their footage was found. Watch Saturday Night Live UK, on Sky &amp;amp; NOW. SNL UK ON SOCIAL SNL UK Instagram: https://www.instagram.com/snluk SNL UK TikTok: https://www.tiktok.com/@snluk&lt;/p&gt;&lt;p&gt;Source: YouTube 热门 · US · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #视频 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=yS8bZlE-sA8"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>YouTube 热门 · US</title></source>
     <category term="视频"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=BpJikRTDqdk</id>
-    <title>My Chemical Romance &amp; Lauren Tsai - Prelude to The End (An Animated Short Film)</title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=BpJikRTDqdk"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 4 名 · 观看 37.5 万 · My Chemical Romance — My Chemical Romance &amp; Lauren Tsai - Prelude to The End (An Animated Short Film) Directed by Lauren Tsai An UNREAL INC.…</summary>
+    <id>https://www.youtube.com/watch?v=LM4ByXufv2w</id>
+    <title>Scene - Official Trailer | Suriya | Nazriya Nazim | Naslen | Sushin Shyam | Jithu Madhavan</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=LM4ByXufv2w"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 2 名 · 观看 847.9 万 · Sony Music South — Production House : Zhagaram Studios &amp; 2D Entertainment Cast - Suriya,Nazriya Nazim,Naslen,Anandraj,Lal, Raj Priyan and o…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/LM4ByXufv2w/mqdefault.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;第 2 名 · 观看 847.9 万 · Sony Music South — Production House : Zhagaram Studios &amp;amp; 2D Entertainment Cast - Suriya,Nazriya Nazim,Naslen,Anandraj,Lal, Raj Priyan and others Writer – Director: Jithu Madhavan Producers: Jyotika – Suriya Co-Producer: Jaishree Damodaran Music Composer: Sushin Shyam DOP: Vineeth Augustian Editor: Ajmal Sabu Audiography: Vishnu Govind Production Designer: Ashwini Kale Action: Chethan D’Souza Art Director: A.Rajesh Costume Designer: Mashar Hamsa Make Up: Ronex Xavier Dialogue…&lt;/p&gt;&lt;p&gt;Source: YouTube 热门 · US · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #视频 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=LM4ByXufv2w"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>YouTube 热门 · US</title></source>
     <category term="视频"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=Pksr9T8m_aA</id>
-    <title>JISOO - ADDICTED (Official MV)</title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=Pksr9T8m_aA"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 1 名 · 观看 397.9 万 · JISOO — JISOO Official 📱 / https://www.jisoo.app https://www.youtube.com/@sooyaaa__ https://www.instagram.com/sooyaaa__ https://www.tiktok.…</summary>
+    <id>https://www.youtube.com/watch?v=nnaxiCAot5k</id>
+    <title>Halloween Playlist 2026 💀 All-Time Favorite Halloween Hits Songs 🎃 | The Nightmare Before Christmas</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=nnaxiCAot5k"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 4 名 · 观看 38.6 万 · Darksteel Records — Halloween Playlist 2026 💀 All-Time Favorite Halloween Hits Songs 🎃 | The Nightmare Before Christmas WELCOME TO THE MOST…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/nnaxiCAot5k/mqdefault.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;第 4 名 · 观看 38.6 万 · Darksteel Records — Halloween Playlist 2026 💀 All-Time Favorite Halloween Hits Songs 🎃 | The Nightmare Before Christmas WELCOME TO THE MOST SPOOKTACULAR HALLOWEEN PARTY!👻🔥 Step into a strange and magical Halloween world filled with unforgettable hits, spooky vibes, and the wonderfully twisted atmosphere of 𝐓𝐡𝐞 𝐍𝐢𝐠𝐡𝐭𝐦𝐚𝐫𝐞 𝐁𝐞𝐟𝐨𝐫𝐞 𝐂𝐡𝐫𝐢𝐬𝐭𝐦𝐚𝐬!🎶 Turn up the volume and let the Halloween madness begin!&lt;/p&gt;&lt;p&gt;Source: YouTube 热门 · US · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #视频 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=nnaxiCAot5k"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>YouTube 热门 · US</title></source>
     <category term="视频"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=yPm9yiBDA2s</id>
-    <title>Foogiano - Halfway In [Official Music Video]</title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=yPm9yiBDA2s"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 7 名 · 观看 11.6 万 · Foogiano — Foogiano - Halfway In Download/Stream: [LINKFIRE] Subscribe for more official content from Foogiano: https://foogiano.lnk.to/Yout…</summary>
+    <id>https://www.youtube.com/watch?v=DCqHjkDmwjc</id>
+    <title>Foogiano - The Misunderstood Truth [Official Music Video]</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=DCqHjkDmwjc"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 7 名 · 观看 30.8 万 · Foogiano — Foogiano - The Misunderstood Truth Download/Stream: [LINKFIRE] Subscribe for more official content from Foogiano: https://foogian…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/DCqHjkDmwjc/mqdefault.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;第 7 名 · 观看 30.8 万 · Foogiano — Foogiano - The Misunderstood Truth Download/Stream: [LINKFIRE] Subscribe for more official content from Foogiano: https://foogiano.lnk.to/Youtube FOLLOW Foogiano: Instagram: https://foogiano.lnk.to/Instagram Facebook: https://foogiano.lnk.to/Facebook Twitter: https://foogiano.lnk.to/Twitter LISTEN TO Foogiano: Apple: https://foogiano.lnk.to/AppleMusic Spotify: https://foogiano.lnk.to/Spotify Soundcloud: https://foogiano.lnk.to/Soundcloud Audiomack: https://foogiano…&lt;/p&gt;&lt;p&gt;Source: YouTube 热门 · US · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #视频 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=DCqHjkDmwjc"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>YouTube 热门 · US</title></source>
     <category term="视频"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=Sd5SQ40sCoI</id>
-    <title>Dream Needs To Stop Lying</title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=Sd5SQ40sCoI"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 9 名 · 观看 124.7 万 · Karl Jobst — Play IdleOn on Steam: https://store.steampowered.com/app/1476970?utm_source=youtube&amp;utm_campaign=CloverTalent Play IdleOn on i…</summary>
+    <id>https://www.youtube.com/watch?v=8mN8N5O5ru0</id>
+    <title>FINAL FANTASY XIV: Evercold | Full Trailer | Launches February 23, 2027</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=8mN8N5O5ru0"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 5 名 · 观看 48.9 万 · FINAL FANTASY XIV — Warrior of Light─in shattered skies, wander not alone. Pre-orders begin November 4, 2026! Get early access ahead of rele…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/8mN8N5O5ru0/mqdefault.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;第 5 名 · 观看 48.9 万 · FINAL FANTASY XIV — Warrior of Light─in shattered skies, wander not alone. Pre-orders begin November 4, 2026! Get early access ahead of release and in-game items available immediately upon pre-order. Learn more: https://sqex.to/evercold_web Follow FFXIV: X | https://twitter.com/ff_xiv_en Instagram | https://instagram.com/ffxiv/ Facebook | https://facebook.com/FinalFantasyXIV/ Twitch | https://twitch.tv/finalfantasyxiv Bluesky | https://bsky.app/profile/en.finalfantasyxiv.com…&lt;/p&gt;&lt;p&gt;Source: YouTube 热门 · US · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #视频 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=8mN8N5O5ru0"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>YouTube 热门 · US</title></source>
     <category term="视频"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=loHWbkN9SvM</id>
-    <title>DigBar- BIG D RANDY: THE CALL</title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=loHWbkN9SvM"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 10 名 · 观看 10.2 万 · itsDigBar — Worked really hard on this one yall, I hope yall fw it. Thank yall so much for all the support with this series. I hope i deliv…</summary>
+    <id>https://www.youtube.com/watch?v=9QcKynP2Ub0</id>
+    <title>Drank In My Cup</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=9QcKynP2Ub0"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 10 名 · 观看 3.5 万 · Kirko Bangz - Topic — Provided to YouTube by Foundation Media Drank In My Cup · Kirko Bangz Progression 2: A Young Texas Playa ℗ 2012 Kirko…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/9QcKynP2Ub0/mqdefault.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;第 10 名 · 观看 3.5 万 · Kirko Bangz - Topic — Provided to YouTube by Foundation Media Drank In My Cup · Kirko Bangz Progression 2: A Young Texas Playa ℗ 2012 Kirko Bangz Released on: 2012-01-19 Auto-generated by YouTube.&lt;/p&gt;&lt;p&gt;Source: YouTube 热门 · US · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #视频 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=9QcKynP2Ub0"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>YouTube 热门 · US</title></source>
     <category term="视频"/>
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://www.youtube.com/watch?v=yQ9LVy4DR9U</id>
-    <title>Apex Legends: Cipher Gameplay Trailer</title>
-    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=yQ9LVy4DR9U"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">第 5 名 · 观看 51.6 万 · Apex Legends — In this Arena, the deadliest weapon isn’t a gun, it’s information. Hack the fight and gather essential intel for your squad w…</summary>
+    <id>https://www.youtube.com/watch?v=PfSHrPMW4UU</id>
+    <title>Brawl Talk: Ranked Refresh, 3 New Brawlers and Traditional Brawlidays!</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=PfSHrPMW4UU"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 3 名 · 观看 527.4 万 · Brawl Stars — 🎖️ Ranked refresh! 🐸 3 New Brawlers (or is it 5? 🤔) ✨ 6 New Buffies 🎄 Traditional Brawlidays! 🙌 New game modes, new maps, QoL…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/PfSHrPMW4UU/mqdefault.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;第 3 名 · 观看 527.4 万 · Brawl Stars — 🎖️ Ranked refresh! 🐸 3 New Brawlers (or is it 5? 🤔) ✨ 6 New Buffies 🎄 Traditional Brawlidays! 🙌 New game modes, new maps, QoL improvements and more! #BrawlTalk Freebie: https://link.brawlstars.com/voucher/49966048-c8a6-4b6c-809b-b1e9896cf76d&lt;/p&gt;&lt;p&gt;Source: YouTube 热门 · US · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #视频 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=PfSHrPMW4UU"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>YouTube 热门 · US</title></source>
     <category term="视频"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://www.youtube.com/watch?v=ZT-k42SC7L0</id>
+    <title>10,000 VS 10,000 Player Minecraft War</title>
+    <link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=ZT-k42SC7L0"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 6 名 · 观看 257.0 万 · FlameFrags — 10,000 VS 10,000 Player Minecraft War Unstable SMP: ➜ @wemmbumc ➜ @ParrotX2 ➜ @Spokeishere ➜ @FlameFragsMC Thank you: @Lettuce…</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://i.ytimg.com/vi/ZT-k42SC7L0/mqdefault.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;第 6 名 · 观看 257.0 万 · FlameFrags — 10,000 VS 10,000 Player Minecraft War Unstable SMP: ➜ @wemmbumc ➜ @ParrotX2 ➜ @Spokeishere ➜ @FlameFragsMC Thank you: @LettuceK @SkrilleyMC Antaggg Shoebilly Morrow &amp;amp; UU TRUSTED This video takes place on the Unstable Universe / Unstable SMP: a staged Minecraft server created by FlameFrags, Parrot, Wemmbu, and Spoke to tell cinematic stories in Minecraft. Any future staged content will include a disclaimer in the description.&lt;/p&gt;&lt;p&gt;Source: YouTube 热门 · US · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #视频 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=ZT-k42SC7L0"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>YouTube 热门 · US</title></source>
+    <category term="视频"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://en.wikipedia.org/wiki/Wendy_Neuss</id>
+    <title>Wendy Neuss</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Wendy_Neuss"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 5 名 · 浏览 16.4 万</summary>
+    <content type="html">&lt;p&gt;第 5 名 · 浏览 16.4 万&lt;/p&gt;&lt;p&gt;Source: 维基百科阅读榜（英文） · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #百科 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Wendy_Neuss"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>维基百科阅读榜（英文）</title></source>
+    <category term="百科"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://en.wikipedia.org/wiki/Sunny_Ozell</id>
+    <title>Sunny Ozell</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Sunny_Ozell"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 2 名 · 浏览 48.9 万</summary>
+    <content type="html">&lt;p&gt;第 2 名 · 浏览 48.9 万&lt;/p&gt;&lt;p&gt;Source: 维基百科阅读榜（英文） · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #百科 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Sunny_Ozell"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>维基百科阅读榜（英文）</title></source>
+    <category term="百科"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://en.wikipedia.org/wiki/Sebastian_Croft</id>
+    <title>Sebastian Croft</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Sebastian_Croft"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 8 名 · 浏览 15.3 万</summary>
+    <content type="html">&lt;p&gt;第 8 名 · 浏览 15.3 万&lt;/p&gt;&lt;p&gt;Source: 维基百科阅读榜（英文） · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #百科 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Sebastian_Croft"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>维基百科阅读榜（英文）</title></source>
+    <category term="百科"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://en.wikipedia.org/wiki/Patrick_Stewart</id>
+    <title>Patrick Stewart</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Patrick_Stewart"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 1 名 · 浏览 188.2 万</summary>
+    <content type="html">&lt;p&gt;第 1 名 · 浏览 188.2 万&lt;/p&gt;&lt;p&gt;Source: 维基百科阅读榜（英文） · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #百科 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Patrick_Stewart"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>维基百科阅读榜（英文）</title></source>
+    <category term="百科"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://en.wikipedia.org/wiki/Lewy_body_dementia</id>
+    <title>Lewy body dementia</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Lewy_body_dementia"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 6 名 · 浏览 16.1 万</summary>
+    <content type="html">&lt;p&gt;第 6 名 · 浏览 16.1 万&lt;/p&gt;&lt;p&gt;Source: 维基百科阅读榜（英文） · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #百科 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Lewy_body_dementia"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>维基百科阅读榜（英文）</title></source>
+    <category term="百科"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://en.wikipedia.org/wiki/Jonestown</id>
+    <title>Jonestown</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Jonestown"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 10 名 · 浏览 14.3 万</summary>
+    <content type="html">&lt;p&gt;第 10 名 · 浏览 14.3 万&lt;/p&gt;&lt;p&gt;Source: 维基百科阅读榜（英文） · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #百科 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Jonestown"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>维基百科阅读榜（英文）</title></source>
+    <category term="百科"/>
+    <category term="热榜"/>
+  </entry>
+  <entry>
+    <id>https://en.wikipedia.org/wiki/Ian_McKellen</id>
+    <title>Ian McKellen</title>
+    <link rel="alternate" type="text/html" href="https://en.wikipedia.org/wiki/Ian_McKellen"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 4 名 · 浏览 21.4 万</summary>
+    <content type="html">&lt;p&gt;第 4 名 · 浏览 21.4 万&lt;/p&gt;&lt;p&gt;Source: 维基百科阅读榜（英文） · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #百科 #热榜&lt;/p&gt;&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Ian_McKellen"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>维基百科阅读榜（英文）</title></source>
+    <category term="百科"/>
     <category term="热榜"/>
   </entry>
 </feed>

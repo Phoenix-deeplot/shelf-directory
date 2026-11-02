@@ -4,8 +4,26 @@
   <title>知树阅读-个人图书空间 · #Container Shipping</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/container-shipping.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
+  <updated>2026-10-30T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/new-georgia-hub-aims-to-take-26000-containers-off-the-road</id>
+    <title>New Georgia hub aims to take 26,000 containers off the road</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/new-georgia-hub-aims-to-take-26000-containers-off-the-road"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">The state of Georgia officially opens an inland rail hub with plans to take tens of thousands of containers off the roads. The post New Georgia hub aims to take…</summary>
+    <content type="html">&lt;p&gt;The state of Georgia officially opens an inland rail hub with plans to take tens of thousands of containers off the roads. The post New Georgia hub aims to take 26,000 containers off the road appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #Container Shipping #Maritime #News #Railroad #Top Stories #Gainesville Inland Port&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/new-georgia-hub-aims-to-take-26000-containers-off-the-road"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>FreightWaves</title></source>
+    <category term="Container Shipping"/>
+    <category term="Maritime"/>
+    <category term="News"/>
+    <category term="Railroad"/>
+    <category term="Top Stories"/>
+    <category term="Gainesville Inland Port"/>
+    <category term="Georgia"/>
+    <category term="inland ports"/>
+  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/why-container-rates-are-climbing-despite-cooling-demand</id>
     <title>Why container rates are climbing despite cooling demand</title>
@@ -13,6 +31,7 @@
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
     <summary type="text">Container freight rates climb on major Asia-Europe and trans-Pacific routes despite signs of cooling demand. The post Why container rates are climbing despite c…</summary>
+    <content type="html">&lt;p&gt;Container freight rates climb on major Asia-Europe and trans-Pacific routes despite signs of cooling demand. The post Why container rates are climbing despite cooling demand appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-29&lt;/p&gt;&lt;p&gt;Tags: #American Shipper #Container Shipping #Maritime #News #Top Stories #Freightos&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/why-container-rates-are-climbing-despite-cooling-demand"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>FreightWaves</title></source>
     <category term="American Shipper"/>
     <category term="Container Shipping"/>
@@ -30,6 +49,7 @@
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
     <summary type="text">Leading Jones Act carrier Trailer Bridge has appointed a new CEO. The post Trailer Bridge appoints new CEO appeared first on FreightWaves.</summary>
+    <content type="html">&lt;p&gt;Leading Jones Act carrier Trailer Bridge has appointed a new CEO. The post Trailer Bridge appoints new CEO appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-29&lt;/p&gt;&lt;p&gt;Tags: #American Shipper #Maritime #News #Top Stories #container shipping #Jones Act&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/trailer-bridge-appoints-new-ceo"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>FreightWaves</title></source>
     <category term="American Shipper"/>
     <category term="Maritime"/>
@@ -41,29 +61,13 @@
     <category term="Puerto Rico"/>
   </entry>
   <entry>
-    <id>https://www.freightwaves.com/news/port-houston-container-volumes-jump-11-as-imports-surge-in-september</id>
-    <title>Port Houston container volumes jump 11% as imports surge in September</title>
-    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/port-houston-container-volumes-jump-11-as-imports-surge-in-september"/>
-    <updated>2026-10-28T00:00:00Z</updated>
-    <published>2026-10-28T00:00:00Z</published>
-    <summary type="text">Port Houston saw rising imports and improving exports in September, helping lift container activity at the Gulf Coast gateway. The post Port Houston container v…</summary>
-    <source><title>FreightWaves</title></source>
-    <category term="American Shipper"/>
-    <category term="Maritime"/>
-    <category term="News"/>
-    <category term="container shipping"/>
-    <category term="Gulf Coast ports"/>
-    <category term="Houston Ship Channel"/>
-    <category term="Port Houston"/>
-    <category term="货运"/>
-  </entry>
-  <entry>
     <id>https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach</id>
     <title>Backlog grows as 35,000 containers await rail service at LA–Long Beach</title>
     <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach"/>
     <updated>2026-10-28T00:00:00Z</updated>
     <published>2026-10-28T00:00:00Z</published>
     <summary type="text">Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages…</summary>
+    <content type="html">&lt;p&gt;Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages slowed inland traffic. The post Backlog grows as 35,000 containers await rail service at LA–Long Beach appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-28&lt;/p&gt;&lt;p&gt;Tags: #American Shipper #Container Shipping #Maritime #News #Railroad #Top Stories&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>FreightWaves</title></source>
     <category term="American Shipper"/>
     <category term="Container Shipping"/>

@@ -4,8 +4,44 @@
   <title>知树阅读-个人图书空间 · #Autonomous Vehicles</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/autonomous-vehicles.xml"/>
-  <updated>2026-10-29T00:00:00Z</updated>
+  <updated>2026-10-30T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/venti-driverless-trucks-us-yards</id>
+    <title>Venti brings driverless yard trucks to US yards</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/venti-driverless-trucks-us-yards"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Venti Technologies has run driverless container trucks in Singapore for nearly three years. Its CEO says U.S. rail yards needed new skills first, starting with…</summary>
+    <content type="html">&lt;p&gt;Venti Technologies has run driverless container trucks in Singapore for nearly three years. Its CEO says U.S. rail yards needed new skills first, starting with reverse. The post Venti brings driverless yard trucks to US yards appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #Autonomous Vehicles #News #Startups #Technology #autonomous intermodal #autonomous yard operations&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/venti-driverless-trucks-us-yards"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>FreightWaves</title></source>
+    <category term="Autonomous Vehicles"/>
+    <category term="News"/>
+    <category term="Startups"/>
+    <category term="Technology"/>
+    <category term="autonomous intermodal"/>
+    <category term="autonomous yard operations"/>
+    <category term="autonomous yard tractor"/>
+    <category term="Heidi Wyle"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/aurora-q3-2026-earnings</id>
+    <title>Aurora reaffirms it’s on track to produce more than 1000 trucks in 2027</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/aurora-q3-2026-earnings"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Aurora reported a $257 million operating loss on $3 million in revenue and cut its full-year forecast The post Aurora reaffirms it’s on track to produce more th…</summary>
+    <content type="html">&lt;p&gt;Aurora reported a $257 million operating loss on $3 million in revenue and cut its full-year forecast The post Aurora reaffirms it’s on track to produce more than 1000 trucks in 2027 appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #Autonomous Vehicles #Company Earnings #News #Technology #aurora #Aurora Driver&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/aurora-q3-2026-earnings"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>FreightWaves</title></source>
+    <category term="Autonomous Vehicles"/>
+    <category term="Company Earnings"/>
+    <category term="News"/>
+    <category term="Technology"/>
+    <category term="aurora"/>
+    <category term="Aurora Driver"/>
+    <category term="Aurora Driverless Trucks"/>
+    <category term="Aurora Innovation"/>
+  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/kodiak-dtl-75-driverless-trucks</id>
     <title>Fresno carrier DTL to run 75 Kodiak driverless trucks</title>
@@ -13,6 +49,7 @@
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
     <summary type="text">DTL Transport signed a binding deal to put the Kodiak Driver in 75 trucks it owns and operates, starting on Dallas-El Paso and Dallas-Atlanta lanes Kodiak has t…</summary>
+    <content type="html">&lt;p&gt;DTL Transport signed a binding deal to put the Kodiak Driver in 75 trucks it owns and operates, starting on Dallas-El Paso and Dallas-Atlanta lanes Kodiak has tested. The post Fresno carrier DTL to run 75 Kodiak driverless trucks appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-29&lt;/p&gt;&lt;p&gt;Tags: #Autonomous Vehicles #News #Technology #Trucking #autonomous trucking #Autonomous trucks&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/kodiak-dtl-75-driverless-trucks"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>FreightWaves</title></source>
     <category term="Autonomous Vehicles"/>
     <category term="News"/>
@@ -30,6 +67,7 @@
     <updated>2026-10-28T00:00:00Z</updated>
     <published>2026-10-28T00:00:00Z</published>
     <summary type="text">Aurora Innovation signed a nonbinding MOU with Charger Logistics for up to 500 driverless trucks, adding to a carrier-owned pipeline Aurora needs to hit its 203…</summary>
+    <content type="html">&lt;p&gt;Aurora Innovation signed a nonbinding MOU with Charger Logistics for up to 500 driverless trucks, adding to a carrier-owned pipeline Aurora needs to hit its 2030 targets. The post Aurora adds 500-truck Charger MOU toward 30,000-truck goal appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-28&lt;/p&gt;&lt;p&gt;Tags: #Autonomous Vehicles #Business #News #Technology #Aurora Driver #Aurora Driverless Trucks&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/aurora-charger-logistics-500-driverless-trucks-mou"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>FreightWaves</title></source>
     <category term="Autonomous Vehicles"/>
     <category term="Business"/>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/xpo.xml</id>
+  <title>知树阅读-个人图书空间 · #XPO</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/xpo.xml"/>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.freightwaves.com/news/tfi-chief-bedard-rips-into-its-us-ltl-operations-promises-change</id>
+    <title>TFI chief Bedard rips into its US LTL operations, promises change</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/tfi-chief-bedard-rips-into-its-us-ltl-operations-promises-change"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Alain Bedard, the CEO of TFI International, had been highly critical of his company’s U.S. LTL operations back in 2024, at one point referring to some of its pr…</summary>
+    <content type="html">&lt;p&gt;Alain Bedard, the CEO of TFI International, had been highly critical of his company’s U.S. LTL operations back in 2024, at one point referring to some of its practices as “stupid.” As recently as April, he was far more optimistic about the segment that was built largely through the TFI acquisition of UPS Freight in […] The post TFI chief Bedard rips into its US LTL operations, promises change appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #Company Earnings #Less than Truckload (LTL) #News #Top Stories #Daseke #Old Dominion&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/tfi-chief-bedard-rips-into-its-us-ltl-operations-promises-change"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="Less than Truckload (LTL)"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="Daseke"/>
+    <category term="Old Dominion"/>
+    <category term="TFI International"/>
+    <category term="XPO"/>
+  </entry>
+  <entry>
+    <id>https://www.freightwaves.com/news/xpos-pricing-operating-initiatives-drive-q3-beat</id>
+    <title>XPO’s pricing, operating initiatives drive Q3 beat</title>
+    <link rel="alternate" type="text/html" href="https://www.freightwaves.com/news/xpos-pricing-operating-initiatives-drive-q3-beat"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">Driven by higher volumes and stronger pricing, XPO once again exceeded expectations as these factors continue to amplify the impact of its operational efficienc…</summary>
+    <content type="html">&lt;p&gt;Driven by higher volumes and stronger pricing, XPO once again exceeded expectations as these factors continue to amplify the impact of its operational efficiency initiatives. The post XPO’s pricing, operating initiatives drive Q3 beat appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-29&lt;/p&gt;&lt;p&gt;Tags: #Company Earnings #Less than Truckload (LTL) #News #Top Stories #xpo #Less-than-truckload pricing&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/xpos-pricing-operating-initiatives-drive-q3-beat"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>FreightWaves</title></source>
+    <category term="Company Earnings"/>
+    <category term="Less than Truckload (LTL)"/>
+    <category term="News"/>
+    <category term="Top Stories"/>
+    <category term="xpo"/>
+    <category term="Less-than-truckload pricing"/>
+    <category term="LTL carriers"/>
+    <category term="LTL pricing"/>
+  </entry>
+</feed>

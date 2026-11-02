@@ -113,7 +113,7 @@
  },
  "fails": 0,
  "kind": "feed",
- "parser": 3,
+ "parser": 4,
  "status": "ok",
  "error": "",
  "etag": "",

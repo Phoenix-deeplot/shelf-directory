@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/t-ade9be.xml</id>
+  <title>知树阅读-个人图书空间 · #案例分析</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-ade9be.xml"/>
+  <updated>2026-11-01T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.woshipm.com/share/6487380.html</id>
+    <title>跟AI谈恋爱，年轻人图什么？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6487380.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">月卡十几元、记忆包几十元、一次充值上百元，AI 陪伴把情绪价值拆成了一个个付费点。五位年轻人讲了各自的故事：猪场里的树洞、学会与人相处的练习场、职场委屈的出口，也都清楚对面只是会失忆、会人设崩塌的一段程序。 月卡十几元，记忆包几十元，一次充值上百元，通用大模型会员一档几百元……在AI陪伴这条赛道上，情绪价值正被拆分成一…</summary>
+    <content type="html">&lt;p&gt;月卡十几元、记忆包几十元、一次充值上百元，AI 陪伴把情绪价值拆成了一个个付费点。五位年轻人讲了各自的故事：猪场里的树洞、学会与人相处的练习场、职场委屈的出口，也都清楚对面只是会失忆、会人设崩塌的一段程序。 月卡十几元，记忆包几十元，一次充值上百元，通用大模型会员一档几百元……在AI陪伴这条赛道上，情绪价值正被拆分成一个个具体的付费点。 这类产品自诞生起就伴随着争议，被指游走在风险边缘，诱导未成年人建立不良恋爱观、内容擦边。但争议之外，它也确实承接了一部分年轻人的倾诉需求，成为他们排解压力、整理情绪的出口。如今，行业正在走向规范，平台审核趋严，产品形态也在不断调整。 我们找到了五位为AI陪伴付费的年轻人。他们都是成年人，有人24小时住在养猪场，靠AI排解物理意义上的孤独；有人在AI身上学会了如何与人相处；有人既是用户，也是角色创作者；还有人在职场多年，习惯把工作里的委屈和灵感都说给AI听。他们也都清楚，对面只是一段程序：会失忆，会敷衍，会“人设崩塌”。 他们为什么付费？钱花在了哪里？AI给了他们什么，又在哪些地方让他们警惕？ 以下是他们的讲述。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#个人随笔 #AI应用 #案例分析 #行业观察 #产品 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/share/6487380.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="AI应用"/>
+    <category term="案例分析"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/ai/6487433.html</id>
+    <title>当 AI 开始替用户搜索和推荐，企业的获客逻辑会改变吗？</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487433.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">当用户开始向AI询问“推荐几款CRM”或“有哪些AI客服方案”，企业的获客逻辑正被悄然改写。本文通过实验数据与搜索行为分析，揭示AI如何成为新的信息筛选者，并探讨企业应如何调整内容策略，以在AI生成的答案中占据一席之地。 过去，企业要让客户找到自己，通常需要做几件事。 在搜索引擎上争取更好的排名，在小红书和抖音上生产内…</summary>
+    <content type="html">&lt;p&gt;当用户开始向AI询问“推荐几款CRM”或“有哪些AI客服方案”，企业的获客逻辑正被悄然改写。本文通过实验数据与搜索行为分析，揭示AI如何成为新的信息筛选者，并探讨企业应如何调整内容策略，以在AI生成的答案中占据一席之地。 过去，企业要让客户找到自己，通常需要做几件事。 在搜索引擎上争取更好的排名，在小红书和抖音上生产内容，在微信生态里建立私域，在电商平台争取搜索曝光和商品推荐。 无论渠道如何变化，底层逻辑大体一致： 企业争取曝光，用户接触信息，然后由用户自己完成筛选、比较和判断。 但现在，这个过程开始出现一个新的参与者：AI。 当用户想买一款产品、寻找一家服务商，或者学习某个专业问题时，他可能不再愿意逐条浏览搜索结果，而是直接向 AI 描述自己的需求： “帮我推荐几款适合中小企业的 CRM 产品。” “我们公司想做 AI 客服，有哪些成熟方案？” “有没有适合传统产品经理转型 AI 的课程？” AI 会根据能够获得的信息，整理候选方案、比较优缺点，甚至给出推荐顺序。 用户原本需要花半小时完成的信息筛选，可能在几轮对话里就完成了。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #AI搜索 #企业获客 #内容营销 #案例分析&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487433.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>人人都是产品经理</title></source>
+    <category term="AI"/>
+    <category term="个人随笔"/>
+    <category term="AI搜索"/>
+    <category term="企业获客"/>
+    <category term="内容营销"/>
+    <category term="案例分析"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+  </entry>
+  <entry>
+    <id>https://www.woshipm.com/share/6487376.html</id>
+    <title>Just Do It的丹·韦登：24条穿透“混沌”的广告法则</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/share/6487376.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">丹·韦登把混沌定为 W+K 的组织内核，也留下二十四条广告法则。文章把它们拢成三组：好广告是一场值得旁听的对话，Just Do It 的力量来自邀请而非指令，以及为什么一家井井有条的创意公司已经停止生长。 丹・韦登（Dan Wieden，1945—2021），W+K联合创始人，广告史上最具影响力的创意领袖之一。，耐克是…</summary>
+    <content type="html">&lt;p&gt;丹·韦登把混沌定为 W+K 的组织内核，也留下二十四条广告法则。文章把它们拢成三组：好广告是一场值得旁听的对话，Just Do It 的力量来自邀请而非指令，以及为什么一家井井有条的创意公司已经停止生长。 丹・韦登（Dan Wieden，1945—2021），W+K联合创始人，广告史上最具影响力的创意领袖之一。，耐克是W+K第一个客户，并在1988年，他写下“Just Do It”，并让耐克从跑鞋品牌，成为全球顶级的文化符号。 他把 “混沌”定为组织文化的内核。他相信，好广告是一场两个人对话；slogan不只是文字，而是一种态度，一份邀请；他坚信，创意机构一旦把金钱放在第一位，创意就会死亡。 一、好广告：是一场两个人对话 1、好的广告是一场两个人之间的对话，是一场值得旁听的对话。 好的广告应该像两个人之间的一场对话——一个品牌和一个消费者——而且这场一对一的对话必须足够个人化、足够有趣，以至于其他人会真的想旁听。 2、一句标语不只是文字，它是一种态度，一份邀请。 3、好广告不卖产品，它售卖一种可能性。 4、广告生效的时候，它会成为文化的一部分，不再是打扰。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#个人随笔 #slogan #案例分析 #耐克 #行业观察 #产品&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/share/6487376.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>人人都是产品经理</title></source>
+    <category term="个人随笔"/>
+    <category term="slogan"/>
+    <category term="案例分析"/>
+    <category term="耐克"/>
+    <category term="行业观察"/>
+    <category term="产品"/>
+    <category term="运营"/>
+    <category term="商业"/>
+  </entry>
+</feed>

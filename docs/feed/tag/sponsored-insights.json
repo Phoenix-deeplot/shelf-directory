@@ -9,20 +9,22 @@
   },
   "items": [
     {
-      "id": "https://www.freightwaves.com/news/what-the-mastio-rankings-actually-tell-shippers",
-      "url": "https://www.freightwaves.com/news/what-the-mastio-rankings-actually-tell-shippers",
-      "title": "What the Mastio Rankings Actually Tell Shippers",
-      "content_text": "When a shipper puts an LTL lane out to bid, price is the number everyone can compare in five minutes. Price, however, doesn’t say much about what happens six mo…",
-      "summary": "When a shipper puts an LTL lane out to bid, price is the number everyone can compare in five minutes. Price, however, doesn’t say much about what happens six mo…",
-      "date_published": "2026-10-29T00:00:00Z",
+      "id": "https://www.freightwaves.com/news/safety-technology-is-only-as-good-as-the-trust-behind-it",
+      "url": "https://www.freightwaves.com/news/safety-technology-is-only-as-good-as-the-trust-behind-it",
+      "title": "Safety Technology Is Only as Good as the Trust Behind It",
+      "content_html": "<p>Every carrier with a safety technology program eventually learns the same lesson: the hardware is the easy part. Cameras can be mounted, collision mitigation can be specified on new tractors, and telematics can be switched on. What’s harder to install is the belief, among people who spend their working lives behind the wheel, that the […] The post Safety Technology Is Only as Good as the Trust Behind It appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-30</p><p>Tags: #Business #Carrier Safety #News #Sponsored Insights #Technology #Truck Driver Issues</p><p><a href=\"https://www.freightwaves.com/news/safety-technology-is-only-as-good-as-the-trust-behind-it\">Read the original →</a></p>",
+      "content_text": "Every carrier with a safety technology program eventually learns the same lesson: the hardware is the easy part. Cameras can be mounted, collision mitigation can be specified on new tractors, and telematics can be switched on. What’s harder to install is the belief, among people who spend their working lives behind the wheel, that the […] The post Safety Technology Is Only as Good as the Trust Behind It appeared first on FreightWaves.",
+      "summary": "Every carrier with a safety technology program eventually learns the same lesson: the hardware is the easy part. Cameras can be mounted, collision mitigation ca…",
+      "date_published": "2026-10-30T00:00:00Z",
       "tags": [
-        "Less than Truckload (LTL)",
+        "Business",
+        "Carrier Safety",
         "News",
         "Sponsored Insights",
-        "LTL",
-        "Old Dominion Freight Line",
-        "货运",
-        "数据"
+        "Technology",
+        "Truck Driver Issues",
+        "Trucking",
+        "advanced technology"
       ],
       "authors": [
         {
@@ -35,15 +37,19 @@
       }
     },
     {
-      "id": "https://www.freightwaves.com/news/why-logistics-ai-still-needs-experts-in-the-loop",
-      "url": "https://www.freightwaves.com/news/why-logistics-ai-still-needs-experts-in-the-loop",
-      "title": "Why Logistics AI Still Needs “Experts in the Loop”",
-      "content_text": "As AI tools multiply across freight and logistics, the important question is how much control to hand over, and to what. On the latest Lean Quarterly Dive, host…",
-      "summary": "As AI tools multiply across freight and logistics, the important question is how much control to hand over, and to what. On the latest Lean Quarterly Dive, host…",
-      "date_published": "2026-10-27T00:00:00Z",
+      "id": "https://www.freightwaves.com/news/what-the-mastio-rankings-actually-tell-shippers",
+      "url": "https://www.freightwaves.com/news/what-the-mastio-rankings-actually-tell-shippers",
+      "title": "What the Mastio Rankings Actually Tell Shippers",
+      "content_html": "<p>When a shipper puts an LTL lane out to bid, price is the number everyone can compare in five minutes. Price, however, doesn’t say much about what happens six months into the contract. A rate quote doesn’t indicate whether a shipment arrives on the dock when it’s supposed to, whether the weight matches the bill […] The post What the Mastio Rankings Actually Tell Shippers appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-29</p><p>Tags: #Less than Truckload (LTL) #News #Sponsored Insights #LTL #Old Dominion Freight Line #货运</p><p><a href=\"https://www.freightwaves.com/news/what-the-mastio-rankings-actually-tell-shippers\">Read the original →</a></p>",
+      "content_text": "When a shipper puts an LTL lane out to bid, price is the number everyone can compare in five minutes. Price, however, doesn’t say much about what happens six months into the contract. A rate quote doesn’t indicate whether a shipment arrives on the dock when it’s supposed to, whether the weight matches the bill […] The post What the Mastio Rankings Actually Tell Shippers appeared first on FreightWaves.",
+      "summary": "When a shipper puts an LTL lane out to bid, price is the number everyone can compare in five minutes. Price, however, doesn’t say much about what happens six mo…",
+      "date_published": "2026-10-29T00:00:00Z",
       "tags": [
+        "Less than Truckload (LTL)",
         "News",
         "Sponsored Insights",
+        "LTL",
+        "Old Dominion Freight Line",
         "货运",
         "数据"
       ],

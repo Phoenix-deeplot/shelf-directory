@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/leadership.xml</id>
-  <title>知树阅读-个人图书空间 · #Leadership</title>
+  <title>知树阅读-个人图书空间 · #leadership</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/leadership.xml"/>
   <updated>2026-10-29T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
-  <entry>
-    <id>https://www.nasa.gov/news-release/nasa-names-troy-asher-armstrong-flight-research-center-director/</id>
-    <title>NASA Names Troy Asher Armstrong Flight Research Center Director</title>
-    <link rel="alternate" type="text/html" href="https://www.nasa.gov/news-release/nasa-names-troy-asher-armstrong-flight-research-center-director/"/>
-    <updated>2026-10-29T00:00:00Z</updated>
-    <published>2026-10-29T00:00:00Z</published>
-    <summary type="text">NASA Administrator Jared Isaacman has named Troy Asher director of the agency’s Armstrong Flight Research Center in Edwards, California. Asher, a veteran test p…</summary>
-    <source><title>NASA</title></source>
-    <category term="Leadership"/>
-    <category term="People of NASA"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
   <entry>
     <id>https://www.freightwaves.com/news/trailer-bridge-appoints-new-ceo</id>
     <title>Trailer Bridge appoints new CEO</title>
@@ -26,6 +13,7 @@
     <updated>2026-10-29T00:00:00Z</updated>
     <published>2026-10-29T00:00:00Z</published>
     <summary type="text">Leading Jones Act carrier Trailer Bridge has appointed a new CEO. The post Trailer Bridge appoints new CEO appeared first on FreightWaves.</summary>
+    <content type="html">&lt;p&gt;Leading Jones Act carrier Trailer Bridge has appointed a new CEO. The post Trailer Bridge appoints new CEO appeared first on FreightWaves.&lt;/p&gt;&lt;p&gt;Source: FreightWaves · 2026-10-29&lt;/p&gt;&lt;p&gt;Tags: #American Shipper #Maritime #News #Top Stories #container shipping #Jones Act&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.freightwaves.com/news/trailer-bridge-appoints-new-ceo"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>FreightWaves</title></source>
     <category term="American Shipper"/>
     <category term="Maritime"/>
@@ -43,6 +31,7 @@
     <updated>2026-10-26T00:00:00Z</updated>
     <published>2026-10-26T00:00:00Z</published>
     <summary type="text">The development of new materials has had a profound impact on our prosperity, culture and quality of life in these 250 years.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6adfac6ab8863308a46d157f-dreamstime_xxl_460309538.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;The development of new materials has had a profound impact on our prosperity, culture and quality of life in these 250 years.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-26&lt;/p&gt;&lt;p&gt;Tags: #Leadership #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/leadership/article/55414412/chemistry-helped-build-americaand-will-shape-its-future"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="Leadership"/>
     <category term="制造"/>
@@ -55,6 +44,7 @@
     <updated>2026-10-23T00:00:00Z</updated>
     <published>2026-10-23T00:00:00Z</published>
     <summary type="text">Also, the status of the Strait of Hormuz and manufacturing history by the numbers.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://img.industryweek.com/files/base/ebm/industryweek/image/2026/10/6adb7e3e0340641c28a587db-dreamstime_xxl_14811976.png" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Also, the status of the Strait of Hormuz and manufacturing history by the numbers.&lt;/p&gt;&lt;p&gt;Source: Home | IndustryWeek · 2026-10-23&lt;/p&gt;&lt;p&gt;Tags: #Leadership #制造 #运营&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.industryweek.com/leadership/article/55414048/different-by-design-formalizing-accountability-and-who-watches-the-ai-agents-industryweeks-weekly-review"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>Home | IndustryWeek</title></source>
     <category term="Leadership"/>
     <category term="制造"/>

@@ -9,21 +9,22 @@
   },
   "items": [
     {
-      "id": "https://www.woshipm.com/ai/6486879.html",
-      "url": "https://www.woshipm.com/ai/6486879.html",
-      "title": "豆包终于学会了腾讯WorkBuddy的杀手锏？",
-      "content_text": "字节的豆包工作，终于开始向腾讯 WorkBuddy 学习了。 以后用豆包工作，背后帮你干活的可能是 DeepSeek，也可能是 Kimi、GLM。 昨天，豆包工作开始向企业客户开放第三方大模型服务，首批接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等系列模型。 字节辛辛苦苦研发…",
-      "summary": "字节的豆包工作，终于开始向腾讯 WorkBuddy 学习了。 以后用豆包工作，背后帮你干活的可能是 DeepSeek，也可能是 Kimi、GLM。 昨天，豆包工作开始向企业客户开放第三方大模型服务，首批接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等系列模型。 字节辛辛苦苦研发…",
-      "date_published": "2026-10-30T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6487373.html",
+      "url": "https://www.woshipm.com/ai/6487373.html",
+      "title": "教你用WorkBuddy自动生成3D模型",
+      "content_html": "<p>DeepSeek-V4.1-Flash 发布后，用 WorkBuddy 自动操作 Blender 建模的效果有了起色。文章从装软件开始，用一句提示词建出一幢九十年代居民楼，再把 blend 转成 glb 挂到网页上在线预览，并划清哪些做法算作弊。 在GPT6模型发布的时候，不知道有多少小伙伴还记得，很多AI博主拿这个模型，使用Codex的Computer Use能力，自动操作开源的3D建模软件Blender，做出很多不错的3D模型效果。 但很多人一时兴起玩玩热情就过去了，老马当时也用Codex搓了个网页版的3D展厅设计，不得不说也体会了一把非专业人士的乐趣。后来换成WorkBuddy，使用国产模型去复现，始终效果不如意。 直到10月17日Deepseek-V4.1-Flash模型的发布，这款大肥鱼针对3D建模和许愿式编程都好像做了一些优化。因此结合上一篇文章给大家介绍WorkBuddy的Computer Use能力： 今天老马将继续给大家演示用WorkBuddy来自动操作Blender，自动生成各种3D模型，看看到底能达到GPT6+Codex几成的功力。</p><p>来源：人人都是产品经理 · 2026-11-01</p><p>标签：#AI #个人随笔 #Blender #WorkBuddy #经验分享 #产品</p><p><a href=\"https://www.woshipm.com/ai/6487373.html\">阅读原文 →</a></p>",
+      "content_text": "DeepSeek-V4.1-Flash 发布后，用 WorkBuddy 自动操作 Blender 建模的效果有了起色。文章从装软件开始，用一句提示词建出一幢九十年代居民楼，再把 blend 转成 glb 挂到网页上在线预览，并划清哪些做法算作弊。 在GPT6模型发布的时候，不知道有多少小伙伴还记得，很多AI博主拿这个模型，使用Codex的Computer Use能力，自动操作开源的3D建模软件Blender，做出很多不错的3D模型效果。 但很多人一时兴起玩玩热情就过去了，老马当时也用Codex搓了个网页版的3D展厅设计，不得不说也体会了一把非专业人士的乐趣。后来换成WorkBuddy，使用国产模型去复现，始终效果不如意。 直到10月17日Deepseek-V4.1-Flash模型的发布，这款大肥鱼针对3D建模和许愿式编程都好像做了一些优化。因此结合上一篇文章给大家介绍WorkBuddy的Computer Use能力： 今天老马将继续给大家演示用WorkBuddy来自动操作Blender，自动生成各种3D模型，看看到底能达到GPT6+Codex几成的功力。",
+      "summary": "DeepSeek-V4.1-Flash 发布后，用 WorkBuddy 自动操作 Blender 建模的效果有了起色。文章从装软件开始，用一句提示词建出一幢九十年代居民楼，再把 blend 转成 glb 挂到网页上在线预览，并划清哪些做法算作弊。 在GPT6模型发布的时候，不知道有多少小伙伴还记得，很多AI博主拿这个模…",
+      "date_published": "2026-11-01T00:00:00Z",
       "tags": [
         "AI",
-        "DeepSeek",
-        "Kimi",
+        "个人随笔",
+        "Blender",
         "WorkBuddy",
-        "腾讯",
-        "豆包",
+        "经验分享",
         "产品",
-        "运营"
+        "运营",
+        "商业"
       ],
       "authors": [
         {
@@ -36,21 +37,22 @@
       }
     },
     {
-      "id": "https://www.woshipm.com/ai/6486912.html",
-      "url": "https://www.woshipm.com/ai/6486912.html",
-      "title": "WorkBuddy悄悄上线「手动安装插件」，丝滑操控浏览器",
-      "content_text": "Chrome 插件商店不科学上网打不开，Edge 和 QQ 浏览器又都跳回同一个地址。WorkBuddy 上线了手动安装拓展程序：选浏览器、打开本地插件文件夹、把文件夹拖进扩展页面，三步装完。文中还实测了让 Agent 自己找网址、开标签页的过程。 前阵子，WorkBuddy 悄悄上线了「浏览器插件」。 支持在 Chr…",
-      "summary": "Chrome 插件商店不科学上网打不开，Edge 和 QQ 浏览器又都跳回同一个地址。WorkBuddy 上线了手动安装拓展程序：选浏览器、打开本地插件文件夹、把文件夹拖进扩展页面，三步装完。文中还实测了让 Agent 自己找网址、开标签页的过程。 前阵子，WorkBuddy 悄悄上线了「浏览器插件」。 支持在 Chr…",
-      "date_published": "2026-10-30T00:00:00Z",
+      "id": "https://www.woshipm.com/ai/6487440.html",
+      "url": "https://www.woshipm.com/ai/6487440.html",
+      "title": "WorkBuddy录音笔上线，会转写、能总结、可对话",
+      "content_html": "<p>AI 录音、转写、总结是常见办公场景，但 WorkBuddy 的录音笔藏在 APP 里，桌面端并没有开放。完整链路走了一遍：云端模式开启录音、转写能区分发言人、总结给出核心事件与待办，录音还能直接拉进对话。桌面端为什么不做，给了几个解释。 AI 录音，录音后转译、 AI总结，是常见的办公场景。 作为 AI Agent 办公新范式的 WorkBuddy ，功能非常丰富。 但为何 WorkBuddy 没有 AI 录音笔功能，来覆盖这个会议记录的场景呢？ 其实，WorkBuddy是有AI 录音笔的，只是很多人不知道而已。 这个功能，没有在桌面端，而是隐藏在 WorkBuddy APP里。 打开WorkBuddy APP，切换到云端模式下，就可打开 WorkBuddy 的 AI 录音笔了。 启动录音笔，进行录音。 可以看到，一个机器猫的黑胶片在开始收音了，挺有设计感的。 离开当前录音页面，也不影响录音。 完成录音，录音产物，会上传到 WorkBuddy 资料库存储。 点开 WorkBuddy 录音文件，可以看到有 AI 转写、AI 总结两个功能。 AI 转写，是逐字稿，可区分发言人。</p><p>来源：人人都是产品经理 · 2026-11-01</p><p>标签：#AI #个人随笔 #AI应用 #AI录音 #WorkBuddy #办公协同</p><p><a href=\"https://www.woshipm.com/ai/6487440.html\">阅读原文 →</a></p>",
+      "content_text": "AI 录音、转写、总结是常见办公场景，但 WorkBuddy 的录音笔藏在 APP 里，桌面端并没有开放。完整链路走了一遍：云端模式开启录音、转写能区分发言人、总结给出核心事件与待办，录音还能直接拉进对话。桌面端为什么不做，给了几个解释。 AI 录音，录音后转译、 AI总结，是常见的办公场景。 作为 AI Agent 办公新范式的 WorkBuddy ，功能非常丰富。 但为何 WorkBuddy 没有 AI 录音笔功能，来覆盖这个会议记录的场景呢？ 其实，WorkBuddy是有AI 录音笔的，只是很多人不知道而已。 这个功能，没有在桌面端，而是隐藏在 WorkBuddy APP里。 打开WorkBuddy APP，切换到云端模式下，就可打开 WorkBuddy 的 AI 录音笔了。 启动录音笔，进行录音。 可以看到，一个机器猫的黑胶片在开始收音了，挺有设计感的。 离开当前录音页面，也不影响录音。 完成录音，录音产物，会上传到 WorkBuddy 资料库存储。 点开 WorkBuddy 录音文件，可以看到有 AI 转写、AI 总结两个功能。 AI 转写，是逐字稿，可区分发言人。",
+      "summary": "AI 录音、转写、总结是常见办公场景，但 WorkBuddy 的录音笔藏在 APP 里，桌面端并没有开放。完整链路走了一遍：云端模式开启录音、转写能区分发言人、总结给出核心事件与待办，录音还能直接拉进对话。桌面端为什么不做，给了几个解释。 AI 录音，录音后转译、 AI总结，是常见的办公场景。 作为 AI Agent…",
+      "date_published": "2026-11-01T00:00:00Z",
       "tags": [
         "AI",
         "个人随笔",
-        "AI工具",
-        "Chrome",
+        "AI应用",
+        "AI录音",
         "WorkBuddy",
+        "办公协同",
         "产品",
-        "运营",
-        "商业"
+        "运营"
       ],
       "authors": [
         {

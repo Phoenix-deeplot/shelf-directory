@@ -9,10 +9,39 @@
   },
   "items": [
     {
+      "id": "https://www.freightwaves.com/news/new-georgia-hub-aims-to-take-26000-containers-off-the-road",
+      "url": "https://www.freightwaves.com/news/new-georgia-hub-aims-to-take-26000-containers-off-the-road",
+      "title": "New Georgia hub aims to take 26,000 containers off the road",
+      "content_html": "<p>The state of Georgia officially opens an inland rail hub with plans to take tens of thousands of containers off the roads. The post New Georgia hub aims to take 26,000 containers off the road appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-30</p><p>Tags: #Container Shipping #Maritime #News #Railroad #Top Stories #Gainesville Inland Port</p><p><a href=\"https://www.freightwaves.com/news/new-georgia-hub-aims-to-take-26000-containers-off-the-road\">Read the original →</a></p>",
+      "content_text": "The state of Georgia officially opens an inland rail hub with plans to take tens of thousands of containers off the roads. The post New Georgia hub aims to take 26,000 containers off the road appeared first on FreightWaves.",
+      "summary": "The state of Georgia officially opens an inland rail hub with plans to take tens of thousands of containers off the roads. The post New Georgia hub aims to take…",
+      "date_published": "2026-10-30T00:00:00Z",
+      "tags": [
+        "Container Shipping",
+        "Maritime",
+        "News",
+        "Railroad",
+        "Top Stories",
+        "Gainesville Inland Port",
+        "Georgia",
+        "inland ports"
+      ],
+      "authors": [
+        {
+          "name": "FreightWaves"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "freightwaves-com"
+      }
+    },
+    {
       "id": "https://www.freightwaves.com/news/why-container-rates-are-climbing-despite-cooling-demand",
       "url": "https://www.freightwaves.com/news/why-container-rates-are-climbing-despite-cooling-demand",
       "title": "Why container rates are climbing despite cooling demand",
-      "content_text": "Container freight rates climb on major Asia-Europe and trans-Pacific routes despite signs of cooling demand. The post Why container rates are climbing despite c…",
+      "content_html": "<p>Container freight rates climb on major Asia-Europe and trans-Pacific routes despite signs of cooling demand. The post Why container rates are climbing despite cooling demand appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-29</p><p>Tags: #American Shipper #Container Shipping #Maritime #News #Top Stories #Freightos</p><p><a href=\"https://www.freightwaves.com/news/why-container-rates-are-climbing-despite-cooling-demand\">Read the original →</a></p>",
+      "content_text": "Container freight rates climb on major Asia-Europe and trans-Pacific routes despite signs of cooling demand. The post Why container rates are climbing despite cooling demand appeared first on FreightWaves.",
       "summary": "Container freight rates climb on major Asia-Europe and trans-Pacific routes despite signs of cooling demand. The post Why container rates are climbing despite c…",
       "date_published": "2026-10-29T00:00:00Z",
       "tags": [
@@ -39,6 +68,7 @@
       "id": "https://www.freightwaves.com/news/trailer-bridge-appoints-new-ceo",
       "url": "https://www.freightwaves.com/news/trailer-bridge-appoints-new-ceo",
       "title": "Trailer Bridge appoints new CEO",
+      "content_html": "<p>Leading Jones Act carrier Trailer Bridge has appointed a new CEO. The post Trailer Bridge appoints new CEO appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-29</p><p>Tags: #American Shipper #Maritime #News #Top Stories #container shipping #Jones Act</p><p><a href=\"https://www.freightwaves.com/news/trailer-bridge-appoints-new-ceo\">Read the original →</a></p>",
       "content_text": "Leading Jones Act carrier Trailer Bridge has appointed a new CEO. The post Trailer Bridge appoints new CEO appeared first on FreightWaves.",
       "summary": "Leading Jones Act carrier Trailer Bridge has appointed a new CEO. The post Trailer Bridge appoints new CEO appeared first on FreightWaves.",
       "date_published": "2026-10-29T00:00:00Z",
@@ -63,64 +93,11 @@
       }
     },
     {
-      "id": "https://www.freightwaves.com/news/strike-threat-by-port-security-workers-at-los-angeles-long-beach",
-      "url": "https://www.freightwaves.com/news/strike-threat-by-port-security-workers-at-los-angeles-long-beach",
-      "title": "Strike threat by port security workers at Los Angeles–Long Beach",
-      "content_text": "About 250 security workers could walk out Nov. 1, potentially disrupting terminals at the busiest U.S. port complex. The post Strike threat by port security wor…",
-      "summary": "About 250 security workers could walk out Nov. 1, potentially disrupting terminals at the busiest U.S. port complex. The post Strike threat by port security wor…",
-      "date_published": "2026-10-28T00:00:00Z",
-      "tags": [
-        "American Shipper",
-        "Maritime",
-        "News",
-        "Top Stories",
-        "Labor Contract",
-        "Port of Los Angeles-Long Beach",
-        "Strike",
-        "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
-      "id": "https://www.freightwaves.com/news/port-houston-container-volumes-jump-11-as-imports-surge-in-september",
-      "url": "https://www.freightwaves.com/news/port-houston-container-volumes-jump-11-as-imports-surge-in-september",
-      "title": "Port Houston container volumes jump 11% as imports surge in September",
-      "content_text": "Port Houston saw rising imports and improving exports in September, helping lift container activity at the Gulf Coast gateway. The post Port Houston container v…",
-      "summary": "Port Houston saw rising imports and improving exports in September, helping lift container activity at the Gulf Coast gateway. The post Port Houston container v…",
-      "date_published": "2026-10-28T00:00:00Z",
-      "tags": [
-        "American Shipper",
-        "Maritime",
-        "News",
-        "container shipping",
-        "Gulf Coast ports",
-        "Houston Ship Channel",
-        "Port Houston",
-        "货运"
-      ],
-      "authors": [
-        {
-          "name": "FreightWaves"
-        }
-      ],
-      "_shelf": {
-        "type": "article",
-        "shelf": "freightwaves-com"
-      }
-    },
-    {
       "id": "https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach",
       "url": "https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach",
       "title": "Backlog grows as 35,000 containers await rail service at LA–Long Beach",
-      "content_text": "Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages…",
+      "content_html": "<p>Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages slowed inland traffic. The post Backlog grows as 35,000 containers await rail service at LA–Long Beach appeared first on FreightWaves.</p><p>Source: FreightWaves · 2026-10-28</p><p>Tags: #American Shipper #Container Shipping #Maritime #News #Railroad #Top Stories</p><p><a href=\"https://www.freightwaves.com/news/backlog-grows-as-35000-containers-await-rail-service-at-la-long-beach\">Read the original →</a></p>",
+      "content_text": "Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages slowed inland traffic. The post Backlog grows as 35,000 containers await rail service at LA–Long Beach appeared first on FreightWaves.",
       "summary": "Nearly 35,700 import containers were waiting for on-dock trains at the ports of Los Angeles and Long Beach, as record cargo volumes, reported railcar shortages…",
       "date_published": "2026-10-28T00:00:00Z",
       "tags": [

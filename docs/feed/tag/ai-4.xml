@@ -1,42 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://adminbook.zhitree.cn/feed/tag/ai-4.xml</id>
-  <title>知树阅读-个人图书空间 · #AI编程</title>
+  <title>知树阅读-个人图书空间 · #AI录音</title>
   <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
   <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/ai-4.xml"/>
-  <updated>2026-10-30T00:00:00Z</updated>
+  <updated>2026-11-01T00:00:00Z</updated>
   <author><name>知树阅读-个人图书空间</name></author>
   <entry>
-    <id>https://www.woshipm.com/ai/6486774.html</id>
-    <title>挖到个宝藏27B开源Code2Video模型！可本地安装，还送MG Skill～</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6486774.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">HeyGen 的 Code2Video 榜单上，前八名清一色闭源，Claude Opus 5.5 排第一，开源模型多在百分之十上下。一个 27B 开源模型能本地安装，还能在 HyperFrames 里稳定出片。 老粉应该知道，我最开始是一个后端开发，剪辑和AE是完全一窍不通。 但从今年2月开始，我陆陆续续用代码做了不少…</summary>
+    <id>https://www.woshipm.com/ai/6487440.html</id>
+    <title>WorkBuddy录音笔上线，会转写、能总结、可对话</title>
+    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ai/6487440.html"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">AI 录音、转写、总结是常见办公场景，但 WorkBuddy 的录音笔藏在 APP 里，桌面端并没有开放。完整链路走了一遍：云端模式开启录音、转写能区分发言人、总结给出核心事件与待办，录音还能直接拉进对话。桌面端为什么不做，给了几个解释。 AI 录音，录音后转译、 AI总结，是常见的办公场景。 作为 AI Agent…</summary>
+    <content type="html">&lt;p&gt;AI 录音、转写、总结是常见办公场景，但 WorkBuddy 的录音笔藏在 APP 里，桌面端并没有开放。完整链路走了一遍：云端模式开启录音、转写能区分发言人、总结给出核心事件与待办，录音还能直接拉进对话。桌面端为什么不做，给了几个解释。 AI 录音，录音后转译、 AI总结，是常见的办公场景。 作为 AI Agent 办公新范式的 WorkBuddy ，功能非常丰富。 但为何 WorkBuddy 没有 AI 录音笔功能，来覆盖这个会议记录的场景呢？ 其实，WorkBuddy是有AI 录音笔的，只是很多人不知道而已。 这个功能，没有在桌面端，而是隐藏在 WorkBuddy APP里。 打开WorkBuddy APP，切换到云端模式下，就可打开 WorkBuddy 的 AI 录音笔了。 启动录音笔，进行录音。 可以看到，一个机器猫的黑胶片在开始收音了，挺有设计感的。 离开当前录音页面，也不影响录音。 完成录音，录音产物，会上传到 WorkBuddy 资料库存储。 点开 WorkBuddy 录音文件，可以看到有 AI 转写、AI 总结两个功能。 AI 转写，是逐字稿，可区分发言人。&lt;/p&gt;&lt;p&gt;来源：人人都是产品经理 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#AI #个人随笔 #AI应用 #AI录音 #WorkBuddy #办公协同&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.woshipm.com/ai/6487440.html"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>人人都是产品经理</title></source>
     <category term="AI"/>
     <category term="个人随笔"/>
-    <category term="AI编程"/>
-    <category term="Claude Code"/>
-    <category term="经验分享"/>
+    <category term="AI应用"/>
+    <category term="AI录音"/>
+    <category term="WorkBuddy"/>
+    <category term="办公协同"/>
     <category term="产品"/>
     <category term="运营"/>
-    <category term="商业"/>
-  </entry>
-  <entry>
-    <id>https://www.woshipm.com/ucd/6486807.html</id>
-    <title>Vibe 技巧：别再只跟 AI 说“弹出弹窗”了！</title>
-    <link rel="alternate" type="text/html" href="https://www.woshipm.com/ucd/6486807.html"/>
-    <updated>2026-10-30T00:00:00Z</updated>
-    <published>2026-10-30T00:00:00Z</published>
-    <summary type="text">在 Vibe Coding 里，最磨人的往往不是技术门槛，而是说不清自己想要什么。模态对话框、Popover、Toast 各有名字，把模糊的视觉感受换成准确的组件词汇，AI 才能少猜几次，界面也才更像样。 在 Vibe Coding 中，经常出现脑子里是有画面的，但是给 AI 讲了半天，最终做出来个完全不相关的页面，我…</summary>
-    <source><title>人人都是产品经理</title></source>
-    <category term="交互体验"/>
-    <category term="AI编程"/>
-    <category term="Vibe Coding"/>
-    <category term="产品分析"/>
-    <category term="产品"/>
-    <category term="运营"/>
-    <category term="商业"/>
   </entry>
 </feed>
