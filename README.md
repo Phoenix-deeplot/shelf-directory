@@ -212,6 +212,13 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
 - **站长推荐**：给一个已收录的书架标上推荐和一句话：`python aggregate.py feature 书架编号 --blurb "每周一篇，读完就能用"`（`--off` 取消；收录时也可以直接 `approve 网址 --featured --blurb …`）。标过的书架在 `directory.json` 里有 `featured: true` 和 `blurb`，主站目录页顶部的“站长推荐”和“合集”下拉框里的“站长推荐”用它。
 - **领域标签页**（科技、编程、商业、金融、学术、读书、人文、供应链、音乐、生活、娱乐、教育、工具、新闻、游戏、健康、设计）：`directory.json` 里的 `topics`，一条内容（或它的书架）带有某个领域的任一标签就算这个领域，不分大小写。想改领域，在 `registry/topics.json` 写 `{"topics":[{"id":"tech","zh":"科技","en":"Tech","tags":["科技","tech",…]}]}`（`id` 小写字母、数字、`-`，最多 30 个领域、每个 60 个标签）；没有这个文件或里面一个有效的都没有，就用内置的十七个。“平台”标签页不需要任何设置，主站按网址判断（想手工指定，见 B7 的 `platform`）。
 
+### B6b. 精选图书（`registry/books.json`）
+
+- 站长手挑的、可以免费读的书和刊物：公有领域的小说和经典（红楼梦、福尔摩斯、傲慢与偏见……）、过刊（科学杂志、新青年）、开放获取的期刊和教材（SICP、Pro Git、eLife、OpenStax）。它们是目录里的一个书架（编号 `books`，名字 `精选图书`，可用 `registry/config.json` 的 `"books_title"` 改），默认标成站长推荐。
+- 一本书一个条目：`id`（小写字母、数字、`-`）、`title`、`author`、`lang`（`zh`/`en`）、`kind`（`novel` `story` `poetry` `classic` `magazine` `journal` `textbook` `essay` `library`）、`tags`、`summary`、`license`（`public-domain` `cc0` `cc-by` `cc-by-sa` `cc-by-nc` `cc-by-nc-sa` `free-to-read`，只收任何人都能免费读的）、`source`（来源站点）、`read`（https 地址）。可选：`ch`（`{"s":"zh.wikisource.org","p":"紅樓夢/","n":["第001回",…]}`，最多 300 章，章节地址是 `https://<s>/wiki/<p><n>`，空格写成 `_`）或 `"readable": true`（这个地址本身就是正文页）：有这两项的书页面可以直接在站内读。不合格的条目被跳过并在构建日志里说明，别的照常。
+- 维护：`python -X utf8 books_tool.py fill` 去 Wikisource 把 `ch.n` 重新补全，`python -X utf8 books_tool.py check` 逐个打开 `read` 地址，报告打不开的（有的网站会拦脚本，报 403 时请再用浏览器看一眼）。测试：`tests/test_books.py`（含对真实清单的检查：不重复、领域和语种覆盖、体积）。
+- 不收 Z-Library 这类侵权站点；有版权的书只放作者自己放在网上免费读的。
+
 ### B7. 来源状态（固定 / 动态 / 试读 / 暂停）
 
 给每个已登记的来源标注几件事。**都是可选的**，不写就按默认，旧的 `registry/shelves.json` 不用改：
