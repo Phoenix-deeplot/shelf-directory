@@ -50,6 +50,9 @@ class FakeDurable:
         self.gets += 1
         return self.rows.get((b, c))
 
+    def has(self, b, c):
+        return (b, c) in self.rows
+
     def put(self, b, c, rec, license):
         self.rows[(b, c)] = rec
         self.puts.append((b, c, license))
@@ -392,6 +395,215 @@ class TestTheRealList(unittest.TestCase):
                     u = bookapi.unit(b, i)[0]
                     self.assertTrue(u.startswith('https://%s/wiki/' % b['ch']['s']), (b['id'], u))
                     self.assertNotIn(' ', u)
+
+SECRET = 'postgres://dbuser:S3cretPassw0rd@db.example.com:5432/postgres?pgbouncer=true&supa=base-pooler.x&sslmode=require'
+
+
+class TestTheSettings(unittest.TestCase):
+    def setUp(self):
+        self.dir = tempfile.mkdtemp()
+
+    def tearDown(self):
+        shutil.rmtree(self.dir, ignore_errors=True)
+
+    def write(self, name, text):
+        p = os.path.join(self.dir, name)
+        with open(p, 'w', encoding='utf-8') as f:
+            f.write(text)
+        return p
+
+    def test_an_env_file_is_read_as_the_files_of_vercel_and_dotenv_are_written(self):
+        p = self.write('.env', '# a comment\nPOSTGRES_URL="postgres://u:p@h/db"\nexport IP_SALT=\'abc\'\nOPS_X=plain # tail\n\nbad line\n1BAD=x\nEMPTY=\n')
+        self.assertEqual(bookapi.read_env_file(p), {'POSTGRES_URL': 'postgres://u:p@h/db', 'IP_SALT': 'abc', 'OPS_X': 'plain', 'EMPTY': ''})
+        self.assertEqual(bookapi.read_env_file(os.path.join(self.dir, 'nothing')), {})
+
+    def test_the_shell_wins_over_the_files_and_the_files_are_named_but_never_shown(self):
+        self.write('.env.local', 'POSTGRES_URL="%s"\n' % SECRET)
+        self.write('.env', 'POSTGRES_URL=from-env\nDATABASE_URL=also\n')
+        env, said = bookapi.settings_for_cli([], {'PATH': 'x'}, self.dir)
+        self.assertEqual((env['POSTGRES_URL'], env['DATABASE_URL']), (SECRET, 'also'))                                 # (.env.local first, then .env for what is missing)
+        self.assertEqual(len(said), 2)
+        self.assertTrue(all('S3cret' not in x and 'postgres://' not in x for x in said))
+        self.assertIn('POSTGRES_URL', said[0])
+        env, _ = bookapi.settings_for_cli([], {'POSTGRES_URL': 'from-the-shell'}, self.dir)
+        self.assertEqual(env['POSTGRES_URL'], 'from-the-shell')
+
+    def test_a_file_named_on_the_command_line_is_the_only_one_read(self):
+        self.write('.env', 'POSTGRES_URL=from-env\n')
+        other = self.write('mine.env', 'OPS_DATABASE_URL=mine\n')
+        env, said = bookapi.settings_for_cli(['check-db', '--env-file', other], {}, self.dir)
+        self.assertEqual((env.get('OPS_DATABASE_URL'), env.get('POSTGRES_URL')), ('mine', None))
+        env, said = bookapi.settings_for_cli(['check-db', '--env-file', os.path.join(self.dir, 'gone.env')], {}, self.dir)
+        self.assertTrue('is not there' in said[0] and env.get('POSTGRES_URL') is None)
+
+    def test_the_address_is_found_under_any_of_the_three_names_and_made_fit_for_libpq(self):
+        self.assertEqual(bookapi.database_url({'DATABASE_URL': ' "a" '}), ('a', 'DATABASE_URL'))
+        self.assertEqual(bookapi.database_url({'OPS_DATABASE_URL': 'o', 'POSTGRES_URL': 'p'}), ('o', 'OPS_DATABASE_URL'))
+        self.assertEqual(bookapi.database_url({}), ('', ''))
+        self.assertEqual(bookapi.conninfo(SECRET), 'postgres://dbuser:S3cretPassw0rd@db.example.com:5432/postgres?sslmode=require')      # (a hosted pool's own parameters are taken out)
+        self.assertEqual(bookapi.conninfo('postgres://u:p@h/db'), 'postgres://u:p@h/db')
+
+    def test_why_there_is_no_layer_is_told(self):
+        old = bookapi.driver
+        try:
+            bookapi.driver = lambda: (None, 'psycopg is not installed')
+            self.assertEqual(bookapi.durable_status({}), (None, 'no-url'))
+            self.assertEqual(bookapi.durable_status({'POSTGRES_URL': SECRET}), (None, 'no-driver'))
+            bookapi.driver = lambda: (type('PG', (), {'connect': staticmethod(lambda *a, **k: None)}), '')
+            d, why = bookapi.durable_status({'POSTGRES_URL': SECRET})
+            self.assertEqual((type(d).__name__, why), ('Durable', ''))
+        finally:
+            bookapi.driver = old
+
+
+class TestTheDiagnosis(unittest.TestCase):
+    class Cur:
+        def __init__(self, answers, fail_on=None):
+            self.answers, self.fail_on, self.sql = list(answers), fail_on, []
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *a):
+            return False
+
+        def execute(self, sql, params=()):
+            self.sql.append(sql)
+            if self.fail_on and self.fail_on in sql:
+                raise RuntimeError('permission denied for schema library')
+
+        def fetchone(self):
+            return self.answers.pop(0)
+
+    class Cx:
+        def __init__(self, cur):
+            self.cur = cur
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *a):
+            return False
+
+        def cursor(self):
+            return self.cur
+
+    def diag(self, env, cur=None, connect=None):
+        cx = self.Cx(cur) if cur else None
+
+        def default(url):
+            if connect:
+                raise connect
+            return cx
+        return bookapi.diagnose(env, default)
+
+    def text(self, lines):
+        return '\n'.join(l for _, l in lines)
+
+    def test_no_address_says_where_to_put_it(self):
+        lines, good = bookapi.diagnose({})
+        self.assertFalse(good)
+        self.assertIn('POSTGRES_URL', self.text(lines))
+        self.assertIn('.env', self.text(lines))
+
+    def test_no_driver_is_not_the_same_as_no_address(self):
+        old = bookapi.driver
+        bookapi.driver = lambda: (None, 'psycopg is not installed')
+        try:
+            lines, good = bookapi.diagnose({'POSTGRES_URL': SECRET})
+        finally:
+            bookapi.driver = old
+        self.assertFalse(good)
+        t = self.text(lines)
+        self.assertIn('found in POSTGRES_URL', t)
+        self.assertIn('pip install "psycopg[binary]"', t)
+        self.assertNotIn('S3cret', t)
+
+    def test_a_connection_that_fails_is_told_with_the_kind_of_error_and_never_the_address(self):
+        lines, good = self.diag({'POSTGRES_URL': SECRET}, connect=OSError(SECRET))
+        t = self.text(lines)
+        self.assertFalse(good)
+        self.assertTrue('connection: failed (OSError)' in t and 'S3cret' not in t and 'db.example.com' not in t)
+
+    def test_a_missing_table_says_to_run_the_migration(self):
+        lines, good = self.diag({'POSTGRES_URL': SECRET}, cur=self.Cur([(False,)]))
+        self.assertFalse(good)
+        self.assertIn('006_library_book_chapters.sql', self.text(lines))
+
+    def test_a_table_that_cannot_be_written_is_told(self):
+        lines, good = self.diag({'POSTGRES_URL': SECRET}, cur=self.Cur([(True,), (7,)], fail_on='INSERT'))
+        t = self.text(lines)
+        self.assertFalse(good)
+        self.assertTrue('7 row(s)' in t and 'RuntimeError' in t and 'permission denied' not in t)
+
+    def test_everything_in_place(self):
+        cur = self.Cur([(True,), (12,), ('<p>x</p>',)])
+        lines, good = self.diag({'OPS_DATABASE_URL': SECRET}, cur=cur)
+        self.assertTrue(good and all(ok for ok, _ in lines), lines)
+        self.assertIn('12 row(s)', self.text(lines))
+        self.assertTrue(any('DELETE' in q for q in cur.sql))                                                          # (the test row is taken away again)
+        self.assertNotIn('S3cret', self.text(lines))
+
+
+class TestLoad(Base):
+    def test_the_chapters_of_the_books_that_may_be_kept_are_read_and_written_and_what_is_there_is_left_alone(self):
+        self.durable.rows[('tale', 1)] = {'t': 'there', 'h': '<p>h</p>', 'l': 'en', 'u': 'u', 'at': 1.0}
+        said = []
+        w, there, failed = bookapi.load(self.durable, only='tale', say=said.append, fetch=self.fetch, pause=0, sleep=lambda s: None)
+        self.assertEqual((w, there, failed), (2, 1, 0))
+        self.assertEqual(sorted(self.durable.rows), [('tale', 0), ('tale', 1), ('tale', 2)])
+        self.assertEqual(len(self.fetch.calls), 2)                                                                    # (chapter 2 of 3 was there: not read again)
+        self.assertEqual([p[2] for p in self.durable.puts], ['public-domain', 'public-domain'])
+
+    def test_all_the_books_that_may_be_kept_and_only_those(self):
+        w, there, failed = bookapi.load(self.durable, say=lambda m: None, fetch=self.fetch, pause=0, sleep=lambda s: None)
+        books = {b for b, _ in self.durable.rows}
+        self.assertEqual((books, w, failed), ({'tale', 'side', 'page'}, 7, 0))                                       # (3 + 3 + 1 chapters; not closed, free, hidden)
+
+    def test_a_book_that_may_not_be_kept_is_not_loaded_even_when_it_is_named(self):
+        said = []
+        self.assertEqual(bookapi.load(self.durable, only='closed', say=said.append, fetch=self.fetch, pause=0, sleep=lambda s: None), (0, 0, 0))
+        self.assertTrue(said and 'closed' in said[0])
+        self.assertEqual((self.fetch.calls, self.durable.rows), ([], {}))
+
+    def test_a_page_that_cannot_be_read_is_said_and_counted_and_the_others_go_on(self):
+        calls = []
+
+        def fetch(url):
+            calls.append(url)
+            if url.endswith('Chapter_2'):
+                raise readable.Unreadable('gone')
+            return Fetch()(url)
+        said = []
+        w, there, failed = bookapi.load(self.durable, only='tale', say=said.append, fetch=fetch, pause=0, sleep=lambda s: None)
+        self.assertEqual((w, failed), (2, 1))
+        self.assertTrue(any('chapter 1' in m and 'gone' in m for m in said), said)
+
+    def test_it_stops_when_everything_fails_so_a_dead_database_is_not_hammered(self):
+        class Dead(FakeDurable):
+            def put(self, *a):
+                return False
+        many = [entry('big', ch={'s': 'en.wikisource.org', 'p': 'Big/', 'n': ['C%d' % i for i in range(40)]})]
+        with open(agg.books_path(), 'w', encoding='utf-8') as f:
+            json.dump(many, f)
+        os.utime(agg.books_path(), (T0 + 500, T0 + 500))
+        said = []
+        w, there, failed = bookapi.load(Dead(), say=said.append, fetch=self.fetch, pause=0, sleep=lambda s: None, fails_in_a_row=5)
+        self.assertEqual((w, failed, len(self.fetch.calls)), (0, 5, 5))
+        self.assertIn('stopping', said[-1])
+
+
+class TestStatusSaysWhy(Base):
+    def test_the_status_of_the_service_says_why_there_is_no_long_term_layer(self):
+        h = FakeHandler('GET', origin='')
+        h.path = '/api/book'
+        bookapi.respond(h, ENV, 'GET', store=self.store, durable=None)
+        body = json.loads(h.out['body'])
+        self.assertEqual((body['durable'], body['durable_why']), (False, 'no-url'))
+        h = FakeHandler('GET', origin='')
+        h.path = '/api/book'
+        bookapi.respond(h, ENV, 'GET', store=self.store, durable=self.durable)
+        self.assertNotIn('durable_why', json.loads(h.out['body']))
 
 
 if __name__ == '__main__':
