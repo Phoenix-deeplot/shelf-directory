@@ -35,6 +35,8 @@ jobs:
           GOOGLE_TRANSLATE_KEY: ${{ secrets.GOOGLE_TRANSLATE_KEY }}
           LIBRETRANSLATE_URL: ${{ secrets.LIBRETRANSLATE_URL }}
           LIBRETRANSLATE_KEY: ${{ secrets.LIBRETRANSLATE_KEY }}
+      ALIYUN_ACCESS_KEY_ID: ${{ secrets.ALIYUN_ACCESS_KEY_ID }}
+      ALIYUN_ACCESS_KEY_SECRET: ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }}
         run: python aggregate.py run
       - name: Make sure the labels exist
         env:
