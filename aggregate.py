@@ -2044,6 +2044,12 @@ def build():
         mine['posts'] = {'rights': 'licensed'}                # the author agreed when sending it
     elif posts:
         print('build: %d hosted post(s) NOT published: set "base_url" in registry/config.json (or SHELF_BASE_URL) so that their addresses are known' % len(posts))
+    books = load_books()
+    if books:                                                # the picked books are one more shelf too (featured: they are picked by hand)
+        bname = cfg.get('books_title') or '精选图书'
+        sources.append(({'id': 'books', 'kind': 'books', 'name': bname, 'tags': [], 'source': '', 'featured': True, 'blurb': '人工挑选的、可以免费阅读的书和刊物'},
+                        {'shelf': {'name': bname, 'description': '人工挑选的、可以免费阅读的书和刊物：公有领域的名著，开放获取的期刊，作者自己放在网上的教材', 'home': base, 'lang': '', 'license': ''}, 'items': books, 'status': 'ok'}))
+        mine['books'] = {'rights': 'licensed'}                # (public domain, or given away by whoever wrote it: the licence of each is in the entry)
     for e, s in sources:
         info = s.get('shelf') or {}
         stags = norm_tags(list(e.get('tags') or []) + list(info.get('tags') or []), 5)
@@ -2081,6 +2087,10 @@ def build():
                 row['hash'] = i['hash']
             if i.get('author'):                                      # and new ones with this title + author
                 row['author'] = i['author']
+            if isinstance(i.get('ch'), dict) and i['ch'].get('n'):                   # a book with chapters on a Wikisource: where they are (the page opens them one after the other)
+                row['ch'] = i['ch']
+            if i.get('license'):
+                row['license'] = i['license']
             if norm_pages(i.get('pages')):                           # a book's pages and contents (what its owner's doc.json says): only searched and shown, never fetched
                 row['pages'] = norm_pages(i['pages'])
             if norm_toc(i.get('toc')):
@@ -2190,6 +2200,74 @@ def posts_dir():
 def post_hash(body):
     """The same text sent again (other spacing, other case, other Markdown marks) has the same hash."""
     return hashlib.sha1(re.sub(r'\s+', ' ', mdsafe.plain_text(body)).strip().lower().encode('utf-8')).hexdigest()
+
+
+# ----------------------------------------------------------------------- the picked books (registry/books.json, made by hand, see books_tool.py)
+BOOK_KINDS = ('novel', 'story', 'poetry', 'classic', 'magazine', 'journal', 'textbook', 'essay', 'library')
+BOOK_LICENSES = ('public-domain', 'cc0', 'cc-by', 'cc-by-sa', 'cc-by-nc', 'cc-by-nc-sa', 'free-to-read')     # (only what anybody may read for nothing belongs there)
+BOOK_CH_MAX = 300
+BOOK_ID = re.compile(r'^[a-z0-9][a-z0-9-]{0,40}$')
+BOOK_HOST = re.compile(r'^[a-z0-9][a-z0-9.-]{1,80}\.[a-z]{2,}$')
+
+
+def books_path():
+    return os.path.join(ROOT, 'registry', 'books.json')
+
+
+def check_book(b):
+    """-> (the item of the directory, '') for a well-made entry of books.json, (None, why) for any other. A book is an item of type "book" (tag 在线书籍 when it can be read in the page: it has chapters or
+    "readable": true); "ch" = {"s": site, "p": prefix, "n": [names]} says where its chapters are (https://<s>/wiki/<p><n>): a long list is kept short that way."""
+    if not isinstance(b, dict):
+        return None, 'not an object'
+    bid = str(b.get('id') or '')
+    if not BOOK_ID.match(bid):
+        return None, 'the id must be a slug (a-z, 0-9, -)'
+    title, summary, lic = clean(b.get('title'), TITLE), clean(b.get('summary')), b.get('license')
+    if not title or not summary:
+        return None, 'a title and a summary are needed'
+    if b.get('lang') not in ('zh', 'en') or b.get('kind') not in BOOK_KINDS or lic not in BOOK_LICENSES:
+        return None, 'lang (zh|en), kind (%s) and license (%s) must be one of the known ones' % ('|'.join(BOOK_KINDS), '|'.join(BOOK_LICENSES))
+    read = abs_url(b.get('read'))
+    if not read.startswith('https://'):
+        return None, '"read" must be an https address'
+    ch = b.get('ch')
+    if ch is not None:
+        if not (isinstance(ch, dict) and BOOK_HOST.match(str(ch.get('s') or '')) and isinstance(ch.get('p'), str) and len(ch['p']) <= 200 and isinstance(ch.get('n'), list)
+                and 0 < len(ch['n']) <= BOOK_CH_MAX and all(isinstance(x, str) and 0 < len(x.strip()) <= 120 and '\n' not in x for x in ch['n'])):
+            return None, '"ch" must be {"s": site, "p": prefix, "n": [up to %d names]}' % BOOK_CH_MAX
+        ch = {'s': ch['s'], 'p': ch['p'], 'n': [x.strip() for x in ch['n']]}
+    tags = norm_tags(b.get('tags'), 6)
+    if (ch or b.get('readable') is True) and not any(t.lower() in ('在线书籍', 'online books') for t in tags):
+        tags = tags[:5] + ['在线书籍']
+    image = abs_url(b.get('image'))
+    item = {'url': read, 'title': title, 'summary': clean(summary, SUMMARY), 'image': image if image.startswith('https://') else '', 'date': '', 'tags': tags, 'lang': b['lang'], 'type': 'book',
+            'author': clean(b.get('author'), 80), 'license': lic, 'sha': 'book:' + bid}
+    ab = abstract_of(summary, item['summary'])
+    if ab:
+        item['abstract'] = ab
+    if ch:
+        item['ch'] = ch
+    return item, ''
+
+
+def load_books(log=print):
+    """-> the items of the picked books; an entry that is not right is left out and said (the build goes on)."""
+    d = read_json(books_path(), [])
+    out, seen = [], set()
+    if not isinstance(d, list):
+        log('build: registry/books.json must be a list: ignored')
+        return out
+    for b in d:
+        item, why = check_book(b)
+        bid = (b.get('id') if isinstance(b, dict) else '') or '?'
+        if item and bid in seen:
+            item, why = None, 'the same id twice'
+        if not item:
+            log('build: books: %s: %s (left out)' % (bid, why))
+            continue
+        seen.add(bid)
+        out.append(item)
+    return out
 
 
 def load_posts():
