@@ -2091,6 +2091,8 @@ def build():
                 row['ch'] = i['ch']
             if i.get('license'):
                 row['license'] = i['license']
+            if i.get('bid'):                                         # a picked book: its id in registry/books.json (the page asks GET /api/book?b=<this>&c=<chapter> for a chapter)
+                row['bid'] = i['bid']
             if norm_pages(i.get('pages')):                           # a book's pages and contents (what its owner's doc.json says): only searched and shown, never fetched
                 row['pages'] = norm_pages(i['pages'])
             if norm_toc(i.get('toc')):
@@ -2227,6 +2229,9 @@ def check_book(b):
         return None, 'a title and a summary are needed'
     if b.get('lang') not in ('zh', 'en') or b.get('kind') not in BOOK_KINDS or lic not in BOOK_LICENSES:
         return None, 'lang (zh|en), kind (%s) and license (%s) must be one of the known ones' % ('|'.join(BOOK_KINDS), '|'.join(BOOK_LICENSES))
+    for flag in ('keep', 'share'):                           # the policy of the shared copy (bookapi.py): "keep": true = kept for good, "share": false = never kept on the server
+        if flag in b and not isinstance(b[flag], bool):
+            return None, '"%s" must be true or false' % flag
     read = abs_url(b.get('read'))
     if not read.startswith('https://'):
         return None, '"read" must be an https address'
@@ -2241,7 +2246,7 @@ def check_book(b):
         tags = tags[:5] + ['在线书籍']
     image = abs_url(b.get('image'))
     item = {'url': read, 'title': title, 'summary': clean(summary, SUMMARY), 'image': image if image.startswith('https://') else '', 'date': '', 'tags': tags, 'lang': b['lang'], 'type': 'book',
-            'author': clean(b.get('author'), 80), 'license': lic, 'sha': 'book:' + bid}
+            'author': clean(b.get('author'), 80), 'license': lic, 'sha': 'book:' + bid, 'bid': bid}
     ab = abstract_of(summary, item['summary'])
     if ab:
         item['abstract'] = ab

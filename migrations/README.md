@@ -23,3 +23,12 @@ It keeps collected RSS candidates separate from already-published programs.
 For Vercel, set `OPS_DATABASE_URL` to the PostgreSQL connection URL (or leave
 it unset when the project already provides `POSTGRES_URL`). Deploying installs
 the required PostgreSQL driver from `requirements.txt`.
+
+To keep the chapters of the picked books on the server (the long-term layer of `GET /api/book`, see README B6c), run this once as well. It only creates a schema `library` with one table; it
+does not touch `ops` or `public`:
+
+```sql
+\i migrations/006_library_book_chapters.sql
+```
+
+Then, in your own terminal with `OPS_DATABASE_URL` set, `python bookapi.py check-db` writes one row, reads it back and deletes it, so you know the function can use the table.
