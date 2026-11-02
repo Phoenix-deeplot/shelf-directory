@@ -353,6 +353,27 @@ class TestPinnedConnection(unittest.TestCase):
 
 
 class TestFetch(Base):
+    def test_a_per_request_timeout_can_only_tighten_the_default(self):
+        self.site.put('/quick', 'ok', 'text/plain')
+        real_build_opener = agg.urllib.request.build_opener
+        seen = []
+
+        class OpenerProxy:
+            def __init__(self, opener):
+                self.opener = opener
+
+            def open(self, request, timeout=None):
+                seen.append(timeout)
+                return self.opener.open(request, timeout=timeout)
+
+        agg.urllib.request.build_opener = lambda *handlers: OpenerProxy(real_build_opener(*handlers))
+        try:
+            agg.fetch(self.site.url + '/quick', timeout=2.5)
+            agg.fetch(self.site.url + '/quick', timeout=agg.TIMEOUT + 10)
+        finally:
+            agg.urllib.request.build_opener = real_build_opener
+        self.assertEqual(seen, [2.5, agg.TIMEOUT])
+
     def test_size_limit_and_truncate(self):
         self.site.put('/big', b'x' * (agg.MAX_BYTES + 10), 'text/plain')
         with self.assertRaises(agg.Refused):

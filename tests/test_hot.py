@@ -8,6 +8,7 @@ import sys
 import time
 import unittest
 import xml.etree.ElementTree as ET
+from unittest.mock import patch
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
@@ -299,16 +300,19 @@ class TestWhatIsOn(HotBase):
         st, ctype, body, _ = hotapi.handle({}, {})
         d = json.loads(body)
         self.assertEqual((st, d['service']), (200, 'shelf-hot'))
-        self.assertEqual([c['id'] for c in d['columns']], ['news', 'tech', 'money', 'world', 'ai', 'play'])
+        self.assertEqual([c['id'] for c in d['columns']], ['news', 'tech', 'ai', 'money', 'world', 'entertainment', 'learning', 'media', 'shopping'])
         self.assertEqual([p['id'] for p in d['platforms']], EVERY)
         by = {p['id']: p for p in d['platforms']}
         self.assertEqual((by['weibo']['col'], by['weibo']['ranked'], by['zhihu_daily']['ranked'], by['producthunt']['ranked']), ('news', True, False, False))
         self.assertEqual((by['wechat']['via'], by['xiaohongshu']['via'], 'via' in by['weibo']), ('tophub.today', 'rebang.today', False))
+        self.assertEqual({p['id']: p['col'] for p in d['platforms'] if p['id'] in ('openai', 'arxiv_ai', 'weread_novel', 'qidian', 'netease', 'bilibili')},
+                         {'openai': 'ai', 'arxiv_ai': 'learning', 'weread_novel': 'entertainment', 'qidian': 'entertainment', 'netease': 'media', 'bilibili': 'media'})
         self.assertEqual({k for k, p in by.items() if p.get('read')} - {k for k, v in hotapi.PLATFORMS.items() if v['feed']}, {'zhihu_daily', 'devto', 'wikipedia', 'wikipedia_zh', 'juejin', 'v2ex', 'lobsters', 'hackernews', 'hf_models', 'hf_papers', 'kr36', 'mastodon'})     # what the reader may read in the page: news and blogs (feeds) and the lists whose rows are articles that were tried, not Product Hunt or the platforms' own pages
         self.assertTrue(by['theverge']['read'] and by['dw']['read'] and 'read' not in by['bbc'] and 'read' not in by['bloomberg'] and 'read' not in by['producthunt'] and 'read' not in by['weibo'] and 'read' not in by['github'])
         self.assertTrue(all(p['col'] in [c['id'] for c in d['columns']] for p in d['platforms']))
         gone = json.loads(hotapi.handle({}, {'HOT_DISABLE': ','.join(k for k, v in hotapi.PLATFORMS.items() if v['col'] == 'money')})[2])
-        self.assertNotIn('money', [c['id'] for c in gone['columns']])                                 # a column with nothing in it is not offered
+        self.assertFalse(next(c for c in gone['columns'] if c['id'] == 'money')['enabled'])             # empty columns remain in the stable catalogue but can be hidden by the UI
+        self.assertFalse(next(c for c in d['columns'] if c['id'] == 'shopping')['enabled'])             # shopping is optional and has no source by default
 
     def test_a_request_can_only_choose_among_the_fixed_platforms(self):
         for pid in ('../x', 'https://evil.example/', 'weibo/../../x', 'GITHUB', 'a' * 500, 'youtube'):
@@ -327,7 +331,9 @@ class TestWhatIsOn(HotBase):
         self.assertEqual({k for k, v in hotapi.PLATFORMS.items() if v.get('needs')}, {'youtube'})
         self.assertEqual(len({v['name'] for v in hotapi.PLATFORMS.values()}), len(hotapi.PLATFORMS))
         for c in hotapi.COLUMNS:
-            self.assertGreaterEqual(len([1 for v in hotapi.PLATFORMS.values() if v['col'] == c['id']]), 5, c['id'])
+            n = len([1 for v in hotapi.PLATFORMS.values() if v['col'] == c['id']])
+            minimum = {'news': 3, 'tech': 10, 'ai': 5, 'money': 5, 'world': 8, 'entertainment': 8, 'learning': 10, 'media': 8, 'shopping': 0}[c['id']]
+            self.assertGreaterEqual(n, minimum, c['id'])
 
 
 class TestKeepingAndFailing(HotBase):
@@ -531,6 +537,7 @@ class TestTheOwnersLists(HotBase):
         self.assertEqual((c['zhihu-hot-x']['url'], c['zhihu-hot-x']['ranked'], c['zhihu-hot-x']['via']), ('https://rsshub.example.com/zhihu/hot', True, 'RSSHub'))
         self.assertEqual((c['my-feed']['read'], c['zhihu-hot-x']['read'], c['my-tophub']['read']), (True, False, False))        # a feed in time order is articles; a ranking is the platform's pages
         self.assertEqual((c['my-tophub']['url'], c['my-tophub']['via'], c['my-tophub']['name_en']), ('https://tophub.today/n/AbCdEf12345', 'tophub.today', 'Mine'))
+        self.assertEqual(c['my-tophub']['col'], 'media')             # legacy `play` config is accepted as the new media category
         self.assertEqual(list(hotapi.custom({})), ['my-feed', 'my-tophub'])                           # no RSSHub of the owner's: no route of it
         self.site.put('/myfeed', RSS, 'application/rss+xml')
         r = self.rows('my-feed', env)
@@ -585,7 +592,10 @@ class TestHttp(HotBase):
         old = os.environ.copy()
         os.environ.update(env or ALL)
         try:
-            hotapi.respond(h, os.environ, method)
+            # Never let this HTTP test fixture inherit a real/local database URL;
+            # snapshot tests use an isolated in-memory store in test_hot_events.
+            with patch.object(hotapi, '_store', return_value=None):
+                hotapi.respond(h, os.environ, method)
         finally:
             os.environ.clear()
             os.environ.update(old)
@@ -598,7 +608,7 @@ class TestHttp(HotBase):
         self.assertEqual(o['headers']['Access-Control-Allow-Origin'], '*')
         self.assertEqual(int(o['headers']['Content-Length']), len(o['body']))
         idx = json.loads(self.serve('/api/hot')['body'])                        # what a page reads to know which lists exist
-        self.assertTrue(idx['ok'] and {'github', 'juejin'} <= {x['id'] for x in idx['platforms']} and len(idx['columns']) == 6)
+        self.assertTrue(idx['ok'] and {'github', 'juejin'} <= {x['id'] for x in idx['platforms']} and len(idx['columns']) == 9)
         ET.fromstring(o['body'])
         for m in ('POST', 'PUT', 'DELETE'):
             self.assertEqual(self.serve('/api/hot?p=v2ex', m)['status'], 405)
