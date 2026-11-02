@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/t-3b70f4.xml</id>
+  <title>知树阅读-个人图书空间 · #编程</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-3b70f4.xml"/>
+  <updated>1970-01-01T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html</id>
+    <title>计算机程序的构造和解释（SICP）</title>
+    <link rel="alternate" type="text/html" href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html"/>
+    <updated>1970-01-01T00:00:00Z</updated>
+    <summary type="text">MIT 的经典入门教材，用 Scheme 讲抽象、递归和解释器；全文在线免费，CC BY-SA 授权。</summary>
+    <content type="html">&lt;p&gt;MIT 的经典入门教材，用 Scheme 讲抽象、递归和解释器；全文在线免费，CC BY-SA 授权。&lt;/p&gt;&lt;p&gt;Source: 精选图书&lt;/p&gt;&lt;p&gt;Tags: #技术 #编程 #英文&lt;/p&gt;&lt;p&gt;&lt;a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>精选图书</title></source>
+    <category term="技术"/>
+    <category term="编程"/>
+    <category term="英文"/>
+  </entry>
+  <entry>
+    <id>https://kaisery.github.io/trpl-zh-cn/</id>
+    <title>Rust 程序设计语言（中文版）</title>
+    <link rel="alternate" type="text/html" href="https://kaisery.github.io/trpl-zh-cn/"/>
+    <updated>1970-01-01T00:00:00Z</updated>
+    <summary type="text">Rust 官方“那本书”的中文译本：所有权、借用、并发都讲得很清楚。</summary>
+    <content type="html">&lt;p&gt;Rust 官方“那本书”的中文译本：所有权、借用、并发都讲得很清楚。&lt;/p&gt;&lt;p&gt;来源：精选图书&lt;/p&gt;&lt;p&gt;标签：#技术 #编程&lt;/p&gt;&lt;p&gt;&lt;a href="https://kaisery.github.io/trpl-zh-cn/"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>精选图书</title></source>
+    <category term="技术"/>
+    <category term="编程"/>
+  </entry>
+  <entry>
+    <id>https://git-scm.com/book/zh/v2</id>
+    <title>Pro Git（中文版）</title>
+    <link rel="alternate" type="text/html" href="https://git-scm.com/book/zh/v2"/>
+    <updated>1970-01-01T00:00:00Z</updated>
+    <summary type="text">Git 的权威入门书，中文版在线可读；从基础命令一路讲到内部原理。</summary>
+    <content type="html">&lt;p&gt;Git 的权威入门书，中文版在线可读；从基础命令一路讲到内部原理。&lt;/p&gt;&lt;p&gt;来源：精选图书&lt;/p&gt;&lt;p&gt;标签：#技术 #编程&lt;/p&gt;&lt;p&gt;&lt;a href="https://git-scm.com/book/zh/v2"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>精选图书</title></source>
+    <category term="技术"/>
+    <category term="编程"/>
+  </entry>
+  <entry>
+    <id>https://eloquentjavascript.net/</id>
+    <title>Eloquent JavaScript</title>
+    <link rel="alternate" type="text/html" href="https://eloquentjavascript.net/"/>
+    <updated>1970-01-01T00:00:00Z</updated>
+    <summary type="text">一本讲 JavaScript 和编程思想的在线书，每章后面有可以直接在网页里运行的练习。</summary>
+    <content type="html">&lt;p&gt;一本讲 JavaScript 和编程思想的在线书，每章后面有可以直接在网页里运行的练习。&lt;/p&gt;&lt;p&gt;Source: 精选图书&lt;/p&gt;&lt;p&gt;Tags: #技术 #编程 #英文&lt;/p&gt;&lt;p&gt;&lt;a href="https://eloquentjavascript.net/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>精选图书</title></source>
+    <category term="技术"/>
+    <category term="编程"/>
+    <category term="英文"/>
+  </entry>
+  <entry>
+    <id>https://es6.ruanyifeng.com/</id>
+    <title>ES6 标准入门</title>
+    <link rel="alternate" type="text/html" href="https://es6.ruanyifeng.com/"/>
+    <updated>1970-01-01T00:00:00Z</updated>
+    <summary type="text">阮一峰写的 ECMAScript 6 教程，中文技术书里最常被引用的一本，全文在线。</summary>
+    <content type="html">&lt;p&gt;阮一峰写的 ECMAScript 6 教程，中文技术书里最常被引用的一本，全文在线。&lt;/p&gt;&lt;p&gt;来源：精选图书&lt;/p&gt;&lt;p&gt;标签：#技术 #编程&lt;/p&gt;&lt;p&gt;&lt;a href="https://es6.ruanyifeng.com/"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>精选图书</title></source>
+    <category term="技术"/>
+    <category term="编程"/>
+  </entry>
+  <entry>
+    <id>https://craftinginterpreters.com/contents.html</id>
+    <title>Crafting Interpreters</title>
+    <link rel="alternate" type="text/html" href="https://craftinginterpreters.com/contents.html"/>
+    <updated>1970-01-01T00:00:00Z</updated>
+    <summary type="text">从零写出一门语言的两个解释器，图画很多、写得幽默；作者把全书放在网上免费读。</summary>
+    <content type="html">&lt;p&gt;从零写出一门语言的两个解释器，图画很多、写得幽默；作者把全书放在网上免费读。&lt;/p&gt;&lt;p&gt;Source: 精选图书&lt;/p&gt;&lt;p&gt;Tags: #技术 #编程 #英文&lt;/p&gt;&lt;p&gt;&lt;a href="https://craftinginterpreters.com/contents.html"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>精选图书</title></source>
+    <category term="技术"/>
+    <category term="编程"/>
+    <category term="英文"/>
+  </entry>
+</feed>

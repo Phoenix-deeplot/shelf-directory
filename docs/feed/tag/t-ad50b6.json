@@ -1,0 +1,124 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #哲学",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-ad50b6.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93",
+      "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93",
+      "title": "道德经",
+      "content_html": "<p>八十一章、五千余字：道、无为、柔弱胜刚强，是道家思想的源头。</p><p>来源：精选图书</p><p>标签：#哲学 #古典 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93\">阅读原文 →</a></p>",
+      "content_text": "八十一章、五千余字：道、无为、柔弱胜刚强，是道家思想的源头。",
+      "summary": "八十一章、五千余字：道、无为、柔弱胜刚强，是道家思想的源头。",
+      "tags": [
+        "哲学",
+        "古典",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E",
+      "url": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E",
+      "title": "论语",
+      "content_html": "<p>孔子和弟子的言行记录，二十篇：学而时习之、己所不欲勿施于人，大多是一两句话的小段落。</p><p>来源：精选图书</p><p>标签：#哲学 #古典 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E\">阅读原文 →</a></p>",
+      "content_text": "孔子和弟子的言行记录，二十篇：学而时习之、己所不欲勿施于人，大多是一两句话的小段落。",
+      "summary": "孔子和弟子的言行记录，二十篇：学而时习之、己所不欲勿施于人，大多是一两句话的小段落。",
+      "tags": [
+        "哲学",
+        "古典",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90",
+      "url": "https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90",
+      "title": "庄子",
+      "content_html": "<p>庖丁解牛、濠梁之辩、庄周梦蝶：用寓言讲逍遥与齐物，是中国文字里最有想象力的一部。</p><p>来源：精选图书</p><p>标签：#哲学 #古典 #寓言 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90\">阅读原文 →</a></p>",
+      "content_text": "庖丁解牛、濠梁之辩、庄周梦蝶：用寓言讲逍遥与齐物，是中国文字里最有想象力的一部。",
+      "summary": "庖丁解牛、濠梁之辩、庄周梦蝶：用寓言讲逍遥与齐物，是中国文字里最有想象力的一部。",
+      "tags": [
+        "哲学",
+        "古典",
+        "寓言",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://ctext.org/zh",
+      "url": "https://ctext.org/zh",
+      "title": "中国哲学书电子化计划",
+      "content_html": "<p>先秦两汉到明清的古籍全文库，每句都可以点开看注释和对照，学古文很方便。</p><p>来源：精选图书</p><p>标签：#书库 #古典 #哲学</p><p><a href=\"https://ctext.org/zh\">阅读原文 →</a></p>",
+      "content_text": "先秦两汉到明清的古籍全文库，每句都可以点开看注释和对照，学古文很方便。",
+      "summary": "先秦两汉到明清的古籍全文库，每句都可以点开看注释和对照，学古文很方便。",
+      "tags": [
+        "书库",
+        "古典",
+        "哲学"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus",
+      "url": "https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus",
+      "title": "Meditations",
+      "content_html": "<p>罗马皇帝在行军路上写给自己的笔记：怎样面对愤怒、死亡和不由自己决定的事。</p><p>Source: 精选图书</p><p>Tags: #哲学 #古典 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus\">Read the original →</a></p>",
+      "content_text": "罗马皇帝在行军路上写给自己的笔记：怎样面对愤怒、死亡和不由自己决定的事。",
+      "summary": "罗马皇帝在行军路上写给自己的笔记：怎样面对愤怒、死亡和不由自己决定的事。",
+      "tags": [
+        "哲学",
+        "古典",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    }
+  ]
+}

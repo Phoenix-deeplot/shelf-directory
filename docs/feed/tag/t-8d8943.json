@@ -1,0 +1,81 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #科幻",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-8d8943.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://en.wikisource.org/wiki/The_War_of_the_Worlds_(1898)",
+      "url": "https://en.wikisource.org/wiki/The_War_of_the_Worlds_(1898)",
+      "title": "The War of the Worlds",
+      "content_html": "<p>火星人乘圆筒坠落在英格兰，用热射线和三脚机器横扫伦敦；外星入侵故事的开山之作。</p><p>Source: 精选图书</p><p>Tags: #小说 #科幻 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/The_War_of_the_Worlds_(1898)\">Read the original →</a></p>",
+      "content_text": "火星人乘圆筒坠落在英格兰，用热射线和三脚机器横扫伦敦；外星入侵故事的开山之作。",
+      "summary": "火星人乘圆筒坠落在英格兰，用热射线和三脚机器横扫伦敦；外星入侵故事的开山之作。",
+      "tags": [
+        "小说",
+        "科幻",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/The_Time_Machine_(Heinemann_text)",
+      "url": "https://en.wikisource.org/wiki/The_Time_Machine_(Heinemann_text)",
+      "title": "The Time Machine",
+      "content_html": "<p>一位发明家乘时间机器去了八十万年以后：地上人和地下人的世界，是对阶级分化的一个设想。</p><p>Source: 精选图书</p><p>Tags: #小说 #科幻 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/The_Time_Machine_(Heinemann_text)\">Read the original →</a></p>",
+      "content_text": "一位发明家乘时间机器去了八十万年以后：地上人和地下人的世界，是对阶级分化的一个设想。",
+      "summary": "一位发明家乘时间机器去了八十万年以后：地上人和地下人的世界，是对阶级分化的一个设想。",
+      "tags": [
+        "小说",
+        "科幻",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/Frankenstein,_or_the_Modern_Prometheus_(First_Edition,_1818)",
+      "url": "https://en.wikisource.org/wiki/Frankenstein,_or_the_Modern_Prometheus_(First_Edition,_1818)",
+      "title": "Frankenstein",
+      "content_html": "<p>十九岁的玛丽·雪莱写下的第一部科幻小说：科学家造出的生命，和对它不负责任的造物主。</p><p>Source: 精选图书</p><p>Tags: #小说 #科幻 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/Frankenstein,_or_the_Modern_Prometheus_(First_Edition,_1818)\">Read the original →</a></p>",
+      "content_text": "十九岁的玛丽·雪莱写下的第一部科幻小说：科学家造出的生命，和对它不负责任的造物主。",
+      "summary": "十九岁的玛丽·雪莱写下的第一部科幻小说：科学家造出的生命，和对它不负责任的造物主。",
+      "tags": [
+        "小说",
+        "科幻",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    }
+  ]
+}

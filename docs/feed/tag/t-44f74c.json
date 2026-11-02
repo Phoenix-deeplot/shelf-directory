@@ -1,0 +1,876 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #在线书籍",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-44f74c.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://zh.wikisource.org/wiki/%E9%98%BFQ%E6%AD%A3%E5%82%B3",
+      "url": "https://zh.wikisource.org/wiki/%E9%98%BFQ%E6%AD%A3%E5%82%B3",
+      "title": "阿Q正传",
+      "content_html": "<p>没有名字也没有家的阿Q，靠“精神胜利法”过日子；中国现代文学里最有名的一个人物。</p><p>来源：精选图书</p><p>标签：#小说 #现代 #讽刺 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E9%98%BFQ%E6%AD%A3%E5%82%B3\">阅读原文 →</a></p>",
+      "content_text": "没有名字也没有家的阿Q，靠“精神胜利法”过日子；中国现代文学里最有名的一个人物。",
+      "summary": "没有名字也没有家的阿Q，靠“精神胜利法”过日子；中国现代文学里最有名的一个人物。",
+      "tags": [
+        "小说",
+        "现代",
+        "讽刺",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E9%8F%A1%E8%8A%B1%E7%B7%A3",
+      "url": "https://zh.wikisource.org/wiki/%E9%8F%A1%E8%8A%B1%E7%B7%A3",
+      "title": "镜花缘",
+      "content_html": "<p>唐敖随林之洋出海游历君子国、女儿国等奇异国度，是一部奇想不断的海外游记体小说。</p><p>来源：精选图书</p><p>标签：#小说 #古典 #奇幻 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E9%8F%A1%E8%8A%B1%E7%B7%A3\">阅读原文 →</a></p>",
+      "content_text": "唐敖随林之洋出海游历君子国、女儿国等奇异国度，是一部奇想不断的海外游记体小说。",
+      "summary": "唐敖随林之洋出海游历君子国、女儿国等奇异国度，是一部奇想不断的海外游记体小说。",
+      "tags": [
+        "小说",
+        "古典",
+        "奇幻",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93",
+      "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93",
+      "title": "道德经",
+      "content_html": "<p>八十一章、五千余字：道、无为、柔弱胜刚强，是道家思想的源头。</p><p>来源：精选图书</p><p>标签：#哲学 #古典 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93\">阅读原文 →</a></p>",
+      "content_text": "八十一章、五千余字：道、无为、柔弱胜刚强，是道家思想的源头。",
+      "summary": "八十一章、五千余字：道、无为、柔弱胜刚强，是道家思想的源头。",
+      "tags": [
+        "哲学",
+        "古典",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E",
+      "url": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E",
+      "title": "论语",
+      "content_html": "<p>孔子和弟子的言行记录，二十篇：学而时习之、己所不欲勿施于人，大多是一两句话的小段落。</p><p>来源：精选图书</p><p>标签：#哲学 #古典 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E\">阅读原文 →</a></p>",
+      "content_text": "孔子和弟子的言行记录，二十篇：学而时习之、己所不欲勿施于人，大多是一两句话的小段落。",
+      "summary": "孔子和弟子的言行记录，二十篇：学而时习之、己所不欲勿施于人，大多是一两句话的小段落。",
+      "tags": [
+        "哲学",
+        "古典",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98",
+      "url": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98",
+      "title": "西游记",
+      "content_html": "<p>唐僧师徒四人西天取经，一路降妖伏魔；孙悟空大闹天宫的那一段，至今是最有名的开头。</p><p>来源：精选图书</p><p>标签：#小说 #古典 #奇幻 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98\">阅读原文 →</a></p>",
+      "content_text": "唐僧师徒四人西天取经，一路降妖伏魔；孙悟空大闹天宫的那一段，至今是最有名的开头。",
+      "summary": "唐僧师徒四人西天取经，一路降妖伏魔；孙悟空大闹天宫的那一段，至今是最有名的开头。",
+      "tags": [
+        "小说",
+        "古典",
+        "奇幻",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0",
+      "url": "https://zh.wikisource.org/wiki/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0",
+      "title": "聊斋志异",
+      "content_html": "<p>近五百篇狐仙鬼怪的短篇故事，《聂小倩》《画皮》《促织》是其中最常被改编的几篇。</p><p>来源：精选图书</p><p>标签：#小说 #古典 #志怪 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0\">阅读原文 →</a></p>",
+      "content_text": "近五百篇狐仙鬼怪的短篇故事，《聂小倩》《画皮》《促织》是其中最常被改编的几篇。",
+      "summary": "近五百篇狐仙鬼怪的短篇故事，《聂小倩》《画皮》《促织》是其中最常被改编的几篇。",
+      "tags": [
+        "小说",
+        "古典",
+        "志怪",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E8%80%81%E6%AE%98%E9%81%8A%E8%A8%98",
+      "url": "https://zh.wikisource.org/wiki/%E8%80%81%E6%AE%98%E9%81%8A%E8%A8%98",
+      "title": "老残游记",
+      "content_html": "<p>摇串铃的江湖郎中老残一路行医，一路见闻官场与世情；“大明湖”和“白妞说书”写得极好。</p><p>来源：精选图书</p><p>标签：#小说 #近代 #游记 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E8%80%81%E6%AE%98%E9%81%8A%E8%A8%98\">阅读原文 →</a></p>",
+      "content_text": "摇串铃的江湖郎中老残一路行医，一路见闻官场与世情；“大明湖”和“白妞说书”写得极好。",
+      "summary": "摇串铃的江湖郎中老残一路行医，一路见闻官场与世情；“大明湖”和“白妞说书”写得极好。",
+      "tags": [
+        "小说",
+        "近代",
+        "游记",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E7%B4%85%E6%A8%93%E5%A4%A2",
+      "url": "https://zh.wikisource.org/wiki/%E7%B4%85%E6%A8%93%E5%A4%A2",
+      "title": "红楼梦",
+      "content_html": "<p>贾、史、王、薛四大家族由盛转衰的长卷，宝玉、黛玉、宝钗的情感纠葛里藏着一个时代的兴衰。</p><p>来源：精选图书</p><p>标签：#小说 #古典 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E7%B4%85%E6%A8%93%E5%A4%A2\">阅读原文 →</a></p>",
+      "content_text": "贾、史、王、薛四大家族由盛转衰的长卷，宝玉、黛玉、宝钗的情感纠葛里藏着一个时代的兴衰。",
+      "summary": "贾、史、王、薛四大家族由盛转衰的长卷，宝玉、黛玉、宝钗的情感纠葛里藏着一个时代的兴衰。",
+      "tags": [
+        "小说",
+        "古典",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E7%8B%82%E4%BA%BA%E6%97%A5%E8%A8%98",
+      "url": "https://zh.wikisource.org/wiki/%E7%8B%82%E4%BA%BA%E6%97%A5%E8%A8%98",
+      "title": "狂人日记",
+      "content_html": "<p>中国第一篇现代白话小说：一个“狂人”从满本仁义道德的字缝里，看出了“吃人”两个字。</p><p>来源：精选图书</p><p>标签：#小说 #现代 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E7%8B%82%E4%BA%BA%E6%97%A5%E8%A8%98\">阅读原文 →</a></p>",
+      "content_text": "中国第一篇现代白话小说：一个“狂人”从满本仁义道德的字缝里，看出了“吃人”两个字。",
+      "summary": "中国第一篇现代白话小说：一个“狂人”从满本仁义道德的字缝里，看出了“吃人”两个字。",
+      "tags": [
+        "小说",
+        "现代",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E6%B0%B4%E6%BB%B8%E5%82%B3_(100%E5%9B%9E%E6%9C%AC)",
+      "url": "https://zh.wikisource.org/wiki/%E6%B0%B4%E6%BB%B8%E5%82%B3_(100%E5%9B%9E%E6%9C%AC)",
+      "title": "水浒传",
+      "content_html": "<p>一百单八位好汉被逼上梁山又接受招安的故事，鲁智深、武松、林冲各有一段传奇。</p><p>来源：精选图书</p><p>标签：#小说 #古典 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E6%B0%B4%E6%BB%B8%E5%82%B3_(100%E5%9B%9E%E6%9C%AC)\">阅读原文 →</a></p>",
+      "content_text": "一百单八位好汉被逼上梁山又接受招安的故事，鲁智深、武松、林冲各有一段传奇。",
+      "summary": "一百单八位好汉被逼上梁山又接受招安的故事，鲁智深、武松、林冲各有一段传奇。",
+      "tags": [
+        "小说",
+        "古典",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E6%9C%9D%E8%8A%B1%E5%A4%95%E6%8B%BE",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%9D%E8%8A%B1%E5%A4%95%E6%8B%BE",
+      "title": "朝花夕拾",
+      "content_html": "<p>十篇回忆童年和青年时代的散文，《从百草园到三味书屋》《藤野先生》都出自这里。</p><p>来源：精选图书</p><p>标签：#散文 #现代 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E6%9C%9D%E8%8A%B1%E5%A4%95%E6%8B%BE\">阅读原文 →</a></p>",
+      "content_text": "十篇回忆童年和青年时代的散文，《从百草园到三味书屋》《藤野先生》都出自这里。",
+      "summary": "十篇回忆童年和青年时代的散文，《从百草园到三味书屋》《藤野先生》都出自这里。",
+      "tags": [
+        "散文",
+        "现代",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E6%96%B0%E9%9D%92%E5%B9%B4",
+      "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E9%9D%92%E5%B9%B4",
+      "title": "新青年",
+      "content_html": "<p>1915 至 1926 年的新文化运动旗帜刊物：《狂人日记》和“德先生、赛先生”的讨论最早都登在这里。</p><p>来源：精选图书</p><p>标签：#杂志 #近代 #思想 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E6%96%B0%E9%9D%92%E5%B9%B4\">阅读原文 →</a></p>",
+      "content_text": "1915 至 1926 年的新文化运动旗帜刊物：《狂人日记》和“德先生、赛先生”的讨论最早都登在这里。",
+      "summary": "1915 至 1926 年的新文化运动旗帜刊物：《狂人日记》和“德先生、赛先生”的讨论最早都登在这里。",
+      "tags": [
+        "杂志",
+        "近代",
+        "思想",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E5%BD%B7%E5%BE%A8",
+      "url": "https://zh.wikisource.org/wiki/%E5%BD%B7%E5%BE%A8",
+      "title": "彷徨",
+      "content_html": "<p>《祝福》《在酒楼上》《伤逝》等十一篇，写一群在旧时代里走投无路的人。</p><p>来源：精选图书</p><p>标签：#小说 #现代 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E5%BD%B7%E5%BE%A8\">阅读原文 →</a></p>",
+      "content_text": "《祝福》《在酒楼上》《伤逝》等十一篇，写一群在旧时代里走投无路的人。",
+      "summary": "《祝福》《在酒楼上》《伤逝》等十一篇，写一群在旧时代里走投无路的人。",
+      "tags": [
+        "小说",
+        "现代",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90",
+      "url": "https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90",
+      "title": "庄子",
+      "content_html": "<p>庖丁解牛、濠梁之辩、庄周梦蝶：用寓言讲逍遥与齐物，是中国文字里最有想象力的一部。</p><p>来源：精选图书</p><p>标签：#哲学 #古典 #寓言 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90\">阅读原文 →</a></p>",
+      "content_text": "庖丁解牛、濠梁之辩、庄周梦蝶：用寓言讲逍遥与齐物，是中国文字里最有想象力的一部。",
+      "summary": "庖丁解牛、濠梁之辩、庄周梦蝶：用寓言讲逍遥与齐物，是中国文字里最有想象力的一部。",
+      "tags": [
+        "哲学",
+        "古典",
+        "寓言",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93",
+      "url": "https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93",
+      "title": "山海经",
+      "content_html": "<p>先秦的山川地理和神怪奇物合集：精卫填海、夸父逐日、九尾狐，都见于此。</p><p>来源：精选图书</p><p>标签：#神话 #古典 #奇幻 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E5%B1%B1%E6%B5%B7%E7%B6%93\">阅读原文 →</a></p>",
+      "content_text": "先秦的山川地理和神怪奇物合集：精卫填海、夸父逐日、九尾狐，都见于此。",
+      "summary": "先秦的山川地理和神怪奇物合集：精卫填海、夸父逐日、九尾狐，都见于此。",
+      "tags": [
+        "神话",
+        "古典",
+        "奇幻",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E5%AD%AB%E5%AD%90%E5%85%B5%E6%B3%95",
+      "url": "https://zh.wikisource.org/wiki/%E5%AD%AB%E5%AD%90%E5%85%B5%E6%B3%95",
+      "title": "孙子兵法",
+      "content_html": "<p>十三篇，两千多年前写成的兵书：知己知彼、不战而屈人之兵，也常被拿来讲商战和人生。</p><p>来源：精选图书</p><p>标签：#思想 #古典 #兵法 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E5%AD%AB%E5%AD%90%E5%85%B5%E6%B3%95\">阅读原文 →</a></p>",
+      "content_text": "十三篇，两千多年前写成的兵书：知己知彼、不战而屈人之兵，也常被拿来讲商战和人生。",
+      "summary": "十三篇，两千多年前写成的兵书：知己知彼、不战而屈人之兵，也常被拿来讲商战和人生。",
+      "tags": [
+        "思想",
+        "古典",
+        "兵法",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E5%94%90%E8%A9%A9%E4%B8%89%E7%99%BE%E9%A6%96",
+      "url": "https://zh.wikisource.org/wiki/%E5%94%90%E8%A9%A9%E4%B8%89%E7%99%BE%E9%A6%96",
+      "title": "唐诗三百首",
+      "content_html": "<p>清代选编的唐诗入门选集，李白、杜甫、王维的名篇基本都在里面。</p><p>来源：精选图书</p><p>标签：#诗歌 #古典 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E5%94%90%E8%A9%A9%E4%B8%89%E7%99%BE%E9%A6%96\">阅读原文 →</a></p>",
+      "content_text": "清代选编的唐诗入门选集，李白、杜甫、王维的名篇基本都在里面。",
+      "summary": "清代选编的唐诗入门选集，李白、杜甫、王维的名篇基本都在里面。",
+      "tags": [
+        "诗歌",
+        "古典",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E5%90%B6%E5%96%8A",
+      "url": "https://zh.wikisource.org/wiki/%E5%90%B6%E5%96%8A",
+      "title": "呐喊",
+      "content_html": "<p>《狂人日记》《孔乙己》《阿Q正传》等十四篇，是中国现代小说的起点。</p><p>来源：精选图书</p><p>标签：#小说 #现代 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E5%90%B6%E5%96%8A\">阅读原文 →</a></p>",
+      "content_text": "《狂人日记》《孔乙己》《阿Q正传》等十四篇，是中国现代小说的起点。",
+      "summary": "《狂人日记》《孔乙己》《阿Q正传》等十四篇，是中国现代小说的起点。",
+      "tags": [
+        "小说",
+        "现代",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98",
+      "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98",
+      "title": "史记",
+      "content_html": "<p>从黄帝写到汉武帝的通史，本纪、世家、列传里的人物个个鲜活，也是极好的传记文学。</p><p>来源：精选图书</p><p>标签：#历史 #古典 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98\">阅读原文 →</a></p>",
+      "content_text": "从黄帝写到汉武帝的通史，本纪、世家、列传里的人物个个鲜活，也是极好的传记文学。",
+      "summary": "从黄帝写到汉武帝的通史，本纪、世家、列传里的人物个个鲜活，也是极好的传记文学。",
+      "tags": [
+        "历史",
+        "古典",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E5%84%92%E6%9E%97%E5%A4%96%E5%8F%B2",
+      "url": "https://zh.wikisource.org/wiki/%E5%84%92%E6%9E%97%E5%A4%96%E5%8F%B2",
+      "title": "儒林外史",
+      "content_html": "<p>一部写读书人和科举的讽刺小说：范进中举、严监生临终伸两根手指，笑着笑着就不笑了。</p><p>来源：精选图书</p><p>标签：#小说 #古典 #讽刺 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E5%84%92%E6%9E%97%E5%A4%96%E5%8F%B2\">阅读原文 →</a></p>",
+      "content_text": "一部写读书人和科举的讽刺小说：范进中举、严监生临终伸两根手指，笑着笑着就不笑了。",
+      "summary": "一部写读书人和科举的讽刺小说：范进中举、严监生临终伸两根手指，笑着笑着就不笑了。",
+      "tags": [
+        "小说",
+        "古典",
+        "讽刺",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E4%B8%96%E8%AA%AA%E6%96%B0%E8%AA%9E",
+      "url": "https://zh.wikisource.org/wiki/%E4%B8%96%E8%AA%AA%E6%96%B0%E8%AA%9E",
+      "title": "世说新语",
+      "content_html": "<p>记魏晋名士言行的小故事集：雪夜访戴、王子猷爱竹、竹林七贤，条条都是短篇。</p><p>来源：精选图书</p><p>标签：#历史 #古典 #笔记 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E4%B8%96%E8%AA%AA%E6%96%B0%E8%AA%9E\">阅读原文 →</a></p>",
+      "content_text": "记魏晋名士言行的小故事集：雪夜访戴、王子猷爱竹、竹林七贤，条条都是短篇。",
+      "summary": "记魏晋名士言行的小故事集：雪夜访戴、王子猷爱竹、竹林七贤，条条都是短篇。",
+      "tags": [
+        "历史",
+        "古典",
+        "笔记",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9",
+      "url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9",
+      "title": "三国演义",
+      "content_html": "<p>从黄巾起义到三国归晋的百年群雄史：桃园结义、赤壁之战、空城计，都在这里。</p><p>来源：精选图书</p><p>标签：#小说 #古典 #历史 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9\">阅读原文 →</a></p>",
+      "content_text": "从黄巾起义到三国归晋的百年群雄史：桃园结义、赤壁之战、空城计，都在这里。",
+      "summary": "从黄巾起义到三国归晋的百年群雄史：桃园结义、赤壁之战、空城计，都在这里。",
+      "tags": [
+        "小说",
+        "古典",
+        "历史",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/Treasure_Island_(1883)",
+      "url": "https://en.wikisource.org/wiki/Treasure_Island_(1883)",
+      "title": "Treasure Island",
+      "content_html": "<p>少年吉姆拿到一张藏宝图，和独腿的海盗约翰·西尔弗一起出海；一切海盗故事的原型。</p><p>Source: 精选图书</p><p>Tags: #小说 #冒险 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/Treasure_Island_(1883)\">Read the original →</a></p>",
+      "content_text": "少年吉姆拿到一张藏宝图，和独腿的海盗约翰·西尔弗一起出海；一切海盗故事的原型。",
+      "summary": "少年吉姆拿到一张藏宝图，和独腿的海盗约翰·西尔弗一起出海；一切海盗故事的原型。",
+      "tags": [
+        "小说",
+        "冒险",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/The_War_of_the_Worlds_(1898)",
+      "url": "https://en.wikisource.org/wiki/The_War_of_the_Worlds_(1898)",
+      "title": "The War of the Worlds",
+      "content_html": "<p>火星人乘圆筒坠落在英格兰，用热射线和三脚机器横扫伦敦；外星入侵故事的开山之作。</p><p>Source: 精选图书</p><p>Tags: #小说 #科幻 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/The_War_of_the_Worlds_(1898)\">Read the original →</a></p>",
+      "content_text": "火星人乘圆筒坠落在英格兰，用热射线和三脚机器横扫伦敦；外星入侵故事的开山之作。",
+      "summary": "火星人乘圆筒坠落在英格兰，用热射线和三脚机器横扫伦敦；外星入侵故事的开山之作。",
+      "tags": [
+        "小说",
+        "科幻",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/The_Time_Machine_(Heinemann_text)",
+      "url": "https://en.wikisource.org/wiki/The_Time_Machine_(Heinemann_text)",
+      "title": "The Time Machine",
+      "content_html": "<p>一位发明家乘时间机器去了八十万年以后：地上人和地下人的世界，是对阶级分化的一个设想。</p><p>Source: 精选图书</p><p>Tags: #小说 #科幻 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/The_Time_Machine_(Heinemann_text)\">Read the original →</a></p>",
+      "content_text": "一位发明家乘时间机器去了八十万年以后：地上人和地下人的世界，是对阶级分化的一个设想。",
+      "summary": "一位发明家乘时间机器去了八十万年以后：地上人和地下人的世界，是对阶级分化的一个设想。",
+      "tags": [
+        "小说",
+        "科幻",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/The_Strand_Magazine",
+      "url": "https://en.wikisource.org/wiki/The_Strand_Magazine",
+      "title": "The Strand Magazine",
+      "content_html": "<p>福尔摩斯故事最早连载的英国月刊，1891 年创刊；老杂志里的插图和广告也值得翻一翻。</p><p>Source: 精选图书</p><p>Tags: #杂志 #悬疑 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/The_Strand_Magazine\">Read the original →</a></p>",
+      "content_text": "福尔摩斯故事最早连载的英国月刊，1891 年创刊；老杂志里的插图和广告也值得翻一翻。",
+      "summary": "福尔摩斯故事最早连载的英国月刊，1891 年创刊；老杂志里的插图和广告也值得翻一翻。",
+      "tags": [
+        "杂志",
+        "悬疑",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/The_Picture_of_Dorian_Gray_(1891)",
+      "url": "https://en.wikisource.org/wiki/The_Picture_of_Dorian_Gray_(1891)",
+      "title": "The Picture of Dorian Gray",
+      "content_html": "<p>一幅肖像替美少年承受岁月和罪行；王尔德唯一的长篇，句子漂亮，结尾冷得让人起鸡皮疙瘩。</p><p>Source: 精选图书</p><p>Tags: #小说 #悬疑 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/The_Picture_of_Dorian_Gray_(1891)\">Read the original →</a></p>",
+      "content_text": "一幅肖像替美少年承受岁月和罪行；王尔德唯一的长篇，句子漂亮，结尾冷得让人起鸡皮疙瘩。",
+      "summary": "一幅肖像替美少年承受岁月和罪行；王尔德唯一的长篇，句子漂亮，结尾冷得让人起鸡皮疙瘩。",
+      "tags": [
+        "小说",
+        "悬疑",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/The_Art_of_War_(Giles)",
+      "url": "https://en.wikisource.org/wiki/The_Art_of_War_(Giles)",
+      "title": "The Art of War",
+      "content_html": "<p>孙子兵法的经典英译本（翟林奈，1910），可以对照中文原文一起读。</p><p>Source: 精选图书</p><p>Tags: #思想 #古典 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/The_Art_of_War_(Giles)\">Read the original →</a></p>",
+      "content_text": "孙子兵法的经典英译本（翟林奈，1910），可以对照中文原文一起读。",
+      "summary": "孙子兵法的经典英译本（翟林奈，1910），可以对照中文原文一起读。",
+      "tags": [
+        "思想",
+        "古典",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/The_Adventures_of_Sherlock_Holmes_(1892,_US)",
+      "url": "https://en.wikisource.org/wiki/The_Adventures_of_Sherlock_Holmes_(1892,_US)",
+      "title": "The Adventures of Sherlock Holmes",
+      "content_html": "<p>十二个短篇，福尔摩斯和华生的经典探案集，《红发会》《斑点带子案》都在这一本里。</p><p>Source: 精选图书</p><p>Tags: #小说 #悬疑 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/The_Adventures_of_Sherlock_Holmes_(1892,_US)\">Read the original →</a></p>",
+      "content_text": "十二个短篇，福尔摩斯和华生的经典探案集，《红发会》《斑点带子案》都在这一本里。",
+      "summary": "十二个短篇，福尔摩斯和华生的经典探案集，《红发会》《斑点带子案》都在这一本里。",
+      "tags": [
+        "小说",
+        "悬疑",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/Pride_and_Prejudice_(1817)",
+      "url": "https://en.wikisource.org/wiki/Pride_and_Prejudice_(1817)",
+      "title": "Pride and Prejudice",
+      "content_html": "<p>班纳特家的二小姐伊丽莎白和傲慢的达西先生，从互相看不顺眼到互相看懂；英国文学里最有名的恋爱喜剧。</p><p>Source: 精选图书</p><p>Tags: #小说 #爱情 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/Pride_and_Prejudice_(1817)\">Read the original →</a></p>",
+      "content_text": "班纳特家的二小姐伊丽莎白和傲慢的达西先生，从互相看不顺眼到互相看懂；英国文学里最有名的恋爱喜剧。",
+      "summary": "班纳特家的二小姐伊丽莎白和傲慢的达西先生，从互相看不顺眼到互相看懂；英国文学里最有名的恋爱喜剧。",
+      "tags": [
+        "小说",
+        "爱情",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/Popular_Science_Monthly",
+      "url": "https://en.wikisource.org/wiki/Popular_Science_Monthly",
+      "title": "Popular Science Monthly",
+      "content_html": "<p>1872 年创刊的美国科普月刊，老一期里有达尔文、赫胥黎和爱迪生时代的科学讨论。</p><p>Source: 精选图书</p><p>Tags: #杂志 #科学 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/Popular_Science_Monthly\">Read the original →</a></p>",
+      "content_text": "1872 年创刊的美国科普月刊，老一期里有达尔文、赫胥黎和爱迪生时代的科学讨论。",
+      "summary": "1872 年创刊的美国科普月刊，老一期里有达尔文、赫胥黎和爱迪生时代的科学讨论。",
+      "tags": [
+        "杂志",
+        "科学",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus",
+      "url": "https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus",
+      "title": "Meditations",
+      "content_html": "<p>罗马皇帝在行军路上写给自己的笔记：怎样面对愤怒、死亡和不由自己决定的事。</p><p>Source: 精选图书</p><p>Tags: #哲学 #古典 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus\">Read the original →</a></p>",
+      "content_text": "罗马皇帝在行军路上写给自己的笔记：怎样面对愤怒、死亡和不由自己决定的事。",
+      "summary": "罗马皇帝在行军路上写给自己的笔记：怎样面对愤怒、死亡和不由自己决定的事。",
+      "tags": [
+        "哲学",
+        "古典",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/Jane_Eyre_(1st_edition)",
+      "url": "https://en.wikisource.org/wiki/Jane_Eyre_(1st_edition)",
+      "title": "Jane Eyre",
+      "content_html": "<p>孤女简·爱从寄宿学校到桑菲尔德庄园当家庭教师，爱上罗切斯特，也守住了自己的尊严。</p><p>Source: 精选图书</p><p>Tags: #小说 #爱情 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/Jane_Eyre_(1st_edition)\">Read the original →</a></p>",
+      "content_text": "孤女简·爱从寄宿学校到桑菲尔德庄园当家庭教师，爱上罗切斯特，也守住了自己的尊严。",
+      "summary": "孤女简·爱从寄宿学校到桑菲尔德庄园当家庭教师，爱上罗切斯特，也守住了自己的尊严。",
+      "tags": [
+        "小说",
+        "爱情",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/Frankenstein,_or_the_Modern_Prometheus_(First_Edition,_1818)",
+      "url": "https://en.wikisource.org/wiki/Frankenstein,_or_the_Modern_Prometheus_(First_Edition,_1818)",
+      "title": "Frankenstein",
+      "content_html": "<p>十九岁的玛丽·雪莱写下的第一部科幻小说：科学家造出的生命，和对它不负责任的造物主。</p><p>Source: 精选图书</p><p>Tags: #小说 #科幻 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/Frankenstein,_or_the_Modern_Prometheus_(First_Edition,_1818)\">Read the original →</a></p>",
+      "content_text": "十九岁的玛丽·雪莱写下的第一部科幻小说：科学家造出的生命，和对它不负责任的造物主。",
+      "summary": "十九岁的玛丽·雪莱写下的第一部科幻小说：科学家造出的生命，和对它不负责任的造物主。",
+      "tags": [
+        "小说",
+        "科幻",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/Dracula",
+      "url": "https://en.wikisource.org/wiki/Dracula",
+      "title": "Dracula",
+      "content_html": "<p>用书信和日记拼出来的吸血鬼故事：伯爵从特兰西瓦尼亚来到伦敦，一群人联手追捕他。</p><p>Source: 精选图书</p><p>Tags: #小说 #悬疑 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/Dracula\">Read the original →</a></p>",
+      "content_text": "用书信和日记拼出来的吸血鬼故事：伯爵从特兰西瓦尼亚来到伦敦，一群人联手追捕他。",
+      "summary": "用书信和日记拼出来的吸血鬼故事：伯爵从特兰西瓦尼亚来到伦敦，一群人联手追捕他。",
+      "tags": [
+        "小说",
+        "悬疑",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/Calculus_Made_Easy",
+      "url": "https://en.wikisource.org/wiki/Calculus_Made_Easy",
+      "title": "Calculus Made Easy",
+      "content_html": "<p>一本 1910 年写给“怕微积分的人”的小书，开头那句“别人能做的蠢事，你也能做”很有名。</p><p>Source: 精选图书</p><p>Tags: #数学 #科学 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/Calculus_Made_Easy\">Read the original →</a></p>",
+      "content_text": "一本 1910 年写给“怕微积分的人”的小书，开头那句“别人能做的蠢事，你也能做”很有名。",
+      "summary": "一本 1910 年写给“怕微积分的人”的小书，开头那句“别人能做的蠢事，你也能做”很有名。",
+      "tags": [
+        "数学",
+        "科学",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/Around_the_World_in_Eighty_Days_(Towle)",
+      "url": "https://en.wikisource.org/wiki/Around_the_World_in_Eighty_Days_(Towle)",
+      "title": "Around the World in Eighty Days",
+      "content_html": "<p>福格先生和朋友打赌八十天环游地球，一路火车、轮船、大象；每一站都是一个小冒险。</p><p>Source: 精选图书</p><p>Tags: #小说 #冒险 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/Around_the_World_in_Eighty_Days_(Towle)\">Read the original →</a></p>",
+      "content_text": "福格先生和朋友打赌八十天环游地球，一路火车、轮船、大象；每一站都是一个小冒险。",
+      "summary": "福格先生和朋友打赌八十天环游地球，一路火车、轮船、大象；每一站都是一个小冒险。",
+      "tags": [
+        "小说",
+        "冒险",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/Alice's_Adventures_in_Wonderland_(1866)",
+      "url": "https://en.wikisource.org/wiki/Alice's_Adventures_in_Wonderland_(1866)",
+      "title": "Alice's Adventures in Wonderland",
+      "content_html": "<p>爱丽丝掉进兔子洞，遇见疯帽匠、柴郡猫和红桃皇后；逻辑和荒诞混在一起的童话。</p><p>Source: 精选图书</p><p>Tags: #小说 #奇幻 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/Alice&#39;s_Adventures_in_Wonderland_(1866)\">Read the original →</a></p>",
+      "content_text": "爱丽丝掉进兔子洞，遇见疯帽匠、柴郡猫和红桃皇后；逻辑和荒诞混在一起的童话。",
+      "summary": "爱丽丝掉进兔子洞，遇见疯帽匠、柴郡猫和红桃皇后；逻辑和荒诞混在一起的童话。",
+      "tags": [
+        "小说",
+        "奇幻",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    }
+  ]
+}

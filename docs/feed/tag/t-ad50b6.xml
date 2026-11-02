@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/t-ad50b6.xml</id>
+  <title>知树阅读-个人图书空间 · #哲学</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-ad50b6.xml"/>
+  <updated>1970-01-01T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93</id>
+    <title>道德经</title>
+    <link rel="alternate" type="text/html" href="https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"/>
+    <updated>1970-01-01T00:00:00Z</updated>
+    <summary type="text">八十一章、五千余字：道、无为、柔弱胜刚强，是道家思想的源头。</summary>
+    <content type="html">&lt;p&gt;八十一章、五千余字：道、无为、柔弱胜刚强，是道家思想的源头。&lt;/p&gt;&lt;p&gt;来源：精选图书&lt;/p&gt;&lt;p&gt;标签：#哲学 #古典 #在线书籍&lt;/p&gt;&lt;p&gt;&lt;a href="https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>精选图书</title></source>
+    <category term="哲学"/>
+    <category term="古典"/>
+    <category term="在线书籍"/>
+  </entry>
+  <entry>
+    <id>https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E</id>
+    <title>论语</title>
+    <link rel="alternate" type="text/html" href="https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E"/>
+    <updated>1970-01-01T00:00:00Z</updated>
+    <summary type="text">孔子和弟子的言行记录，二十篇：学而时习之、己所不欲勿施于人，大多是一两句话的小段落。</summary>
+    <content type="html">&lt;p&gt;孔子和弟子的言行记录，二十篇：学而时习之、己所不欲勿施于人，大多是一两句话的小段落。&lt;/p&gt;&lt;p&gt;来源：精选图书&lt;/p&gt;&lt;p&gt;标签：#哲学 #古典 #在线书籍&lt;/p&gt;&lt;p&gt;&lt;a href="https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>精选图书</title></source>
+    <category term="哲学"/>
+    <category term="古典"/>
+    <category term="在线书籍"/>
+  </entry>
+  <entry>
+    <id>https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90</id>
+    <title>庄子</title>
+    <link rel="alternate" type="text/html" href="https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90"/>
+    <updated>1970-01-01T00:00:00Z</updated>
+    <summary type="text">庖丁解牛、濠梁之辩、庄周梦蝶：用寓言讲逍遥与齐物，是中国文字里最有想象力的一部。</summary>
+    <content type="html">&lt;p&gt;庖丁解牛、濠梁之辩、庄周梦蝶：用寓言讲逍遥与齐物，是中国文字里最有想象力的一部。&lt;/p&gt;&lt;p&gt;来源：精选图书&lt;/p&gt;&lt;p&gt;标签：#哲学 #古典 #寓言 #在线书籍&lt;/p&gt;&lt;p&gt;&lt;a href="https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>精选图书</title></source>
+    <category term="哲学"/>
+    <category term="古典"/>
+    <category term="寓言"/>
+    <category term="在线书籍"/>
+  </entry>
+  <entry>
+    <id>https://ctext.org/zh</id>
+    <title>中国哲学书电子化计划</title>
+    <link rel="alternate" type="text/html" href="https://ctext.org/zh"/>
+    <updated>1970-01-01T00:00:00Z</updated>
+    <summary type="text">先秦两汉到明清的古籍全文库，每句都可以点开看注释和对照，学古文很方便。</summary>
+    <content type="html">&lt;p&gt;先秦两汉到明清的古籍全文库，每句都可以点开看注释和对照，学古文很方便。&lt;/p&gt;&lt;p&gt;来源：精选图书&lt;/p&gt;&lt;p&gt;标签：#书库 #古典 #哲学&lt;/p&gt;&lt;p&gt;&lt;a href="https://ctext.org/zh"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>精选图书</title></source>
+    <category term="书库"/>
+    <category term="古典"/>
+    <category term="哲学"/>
+  </entry>
+  <entry>
+    <id>https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus</id>
+    <title>Meditations</title>
+    <link rel="alternate" type="text/html" href="https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus"/>
+    <updated>1970-01-01T00:00:00Z</updated>
+    <summary type="text">罗马皇帝在行军路上写给自己的笔记：怎样面对愤怒、死亡和不由自己决定的事。</summary>
+    <content type="html">&lt;p&gt;罗马皇帝在行军路上写给自己的笔记：怎样面对愤怒、死亡和不由自己决定的事。&lt;/p&gt;&lt;p&gt;Source: 精选图书&lt;/p&gt;&lt;p&gt;Tags: #哲学 #古典 #英文 #在线书籍&lt;/p&gt;&lt;p&gt;&lt;a href="https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>精选图书</title></source>
+    <category term="哲学"/>
+    <category term="古典"/>
+    <category term="英文"/>
+    <category term="在线书籍"/>
+  </entry>
+</feed>

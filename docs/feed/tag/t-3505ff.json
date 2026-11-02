@@ -1,0 +1,104 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #悬疑",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-3505ff.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://en.wikisource.org/wiki/The_Strand_Magazine",
+      "url": "https://en.wikisource.org/wiki/The_Strand_Magazine",
+      "title": "The Strand Magazine",
+      "content_html": "<p>福尔摩斯故事最早连载的英国月刊，1891 年创刊；老杂志里的插图和广告也值得翻一翻。</p><p>Source: 精选图书</p><p>Tags: #杂志 #悬疑 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/The_Strand_Magazine\">Read the original →</a></p>",
+      "content_text": "福尔摩斯故事最早连载的英国月刊，1891 年创刊；老杂志里的插图和广告也值得翻一翻。",
+      "summary": "福尔摩斯故事最早连载的英国月刊，1891 年创刊；老杂志里的插图和广告也值得翻一翻。",
+      "tags": [
+        "杂志",
+        "悬疑",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/The_Picture_of_Dorian_Gray_(1891)",
+      "url": "https://en.wikisource.org/wiki/The_Picture_of_Dorian_Gray_(1891)",
+      "title": "The Picture of Dorian Gray",
+      "content_html": "<p>一幅肖像替美少年承受岁月和罪行；王尔德唯一的长篇，句子漂亮，结尾冷得让人起鸡皮疙瘩。</p><p>Source: 精选图书</p><p>Tags: #小说 #悬疑 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/The_Picture_of_Dorian_Gray_(1891)\">Read the original →</a></p>",
+      "content_text": "一幅肖像替美少年承受岁月和罪行；王尔德唯一的长篇，句子漂亮，结尾冷得让人起鸡皮疙瘩。",
+      "summary": "一幅肖像替美少年承受岁月和罪行；王尔德唯一的长篇，句子漂亮，结尾冷得让人起鸡皮疙瘩。",
+      "tags": [
+        "小说",
+        "悬疑",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/The_Adventures_of_Sherlock_Holmes_(1892,_US)",
+      "url": "https://en.wikisource.org/wiki/The_Adventures_of_Sherlock_Holmes_(1892,_US)",
+      "title": "The Adventures of Sherlock Holmes",
+      "content_html": "<p>十二个短篇，福尔摩斯和华生的经典探案集，《红发会》《斑点带子案》都在这一本里。</p><p>Source: 精选图书</p><p>Tags: #小说 #悬疑 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/The_Adventures_of_Sherlock_Holmes_(1892,_US)\">Read the original →</a></p>",
+      "content_text": "十二个短篇，福尔摩斯和华生的经典探案集，《红发会》《斑点带子案》都在这一本里。",
+      "summary": "十二个短篇，福尔摩斯和华生的经典探案集，《红发会》《斑点带子案》都在这一本里。",
+      "tags": [
+        "小说",
+        "悬疑",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://en.wikisource.org/wiki/Dracula",
+      "url": "https://en.wikisource.org/wiki/Dracula",
+      "title": "Dracula",
+      "content_html": "<p>用书信和日记拼出来的吸血鬼故事：伯爵从特兰西瓦尼亚来到伦敦，一群人联手追捕他。</p><p>Source: 精选图书</p><p>Tags: #小说 #悬疑 #英文 #在线书籍</p><p><a href=\"https://en.wikisource.org/wiki/Dracula\">Read the original →</a></p>",
+      "content_text": "用书信和日记拼出来的吸血鬼故事：伯爵从特兰西瓦尼亚来到伦敦，一群人联手追捕他。",
+      "summary": "用书信和日记拼出来的吸血鬼故事：伯爵从特兰西瓦尼亚来到伦敦，一群人联手追捕他。",
+      "tags": [
+        "小说",
+        "悬疑",
+        "英文",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    }
+  ]
+}

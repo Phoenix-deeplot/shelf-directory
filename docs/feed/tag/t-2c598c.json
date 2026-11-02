@@ -1,0 +1,78 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #书库",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-2c598c.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://ctext.org/zh",
+      "url": "https://ctext.org/zh",
+      "title": "中国哲学书电子化计划",
+      "content_html": "<p>先秦两汉到明清的古籍全文库，每句都可以点开看注释和对照，学古文很方便。</p><p>来源：精选图书</p><p>标签：#书库 #古典 #哲学</p><p><a href=\"https://ctext.org/zh\">阅读原文 →</a></p>",
+      "content_text": "先秦两汉到明清的古籍全文库，每句都可以点开看注释和对照，学古文很方便。",
+      "summary": "先秦两汉到明清的古籍全文库，每句都可以点开看注释和对照，学古文很方便。",
+      "tags": [
+        "书库",
+        "古典",
+        "哲学"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://standardebooks.org/ebooks",
+      "url": "https://standardebooks.org/ebooks",
+      "title": "Standard Ebooks",
+      "content_html": "<p>把公有领域的名著重新排版校对的免费电子书库，版面很好，可以在线读也可以下载。</p><p>Source: 精选图书</p><p>Tags: #书库 #小说 #英文</p><p><a href=\"https://standardebooks.org/ebooks\">Read the original →</a></p>",
+      "content_text": "把公有领域的名著重新排版校对的免费电子书库，版面很好，可以在线读也可以下载。",
+      "summary": "把公有领域的名著重新排版校对的免费电子书库，版面很好，可以在线读也可以下载。",
+      "tags": [
+        "书库",
+        "小说",
+        "英文"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://www.gutenberg.org/",
+      "url": "https://www.gutenberg.org/",
+      "title": "Project Gutenberg",
+      "content_html": "<p>最老的免费电子书库，七万多本公有领域的书，可以在线读，也可以下载成 EPUB。</p><p>Source: 精选图书</p><p>Tags: #书库 #小说 #英文</p><p><a href=\"https://www.gutenberg.org/\">Read the original →</a></p>",
+      "content_text": "最老的免费电子书库，七万多本公有领域的书，可以在线读，也可以下载成 EPUB。",
+      "summary": "最老的免费电子书库，七万多本公有领域的书，可以在线读，也可以下载成 EPUB。",
+      "tags": [
+        "书库",
+        "小说",
+        "英文"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    }
+  ]
+}

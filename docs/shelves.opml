@@ -3,6 +3,7 @@
   <head><title>知树阅读-个人图书空间 · shelves</title></head>
   <body>
     <outline text="知树阅读-个人图书空间" title="知树阅读-个人图书空间">
+      <outline type="rss" text="精选图书" title="精选图书" xmlUrl="https://adminbook.zhitree.cn/feed/shelf/books.xml" htmlUrl="https://adminbook.zhitree.cn/"/>
       <outline type="rss" text="6 Minute English" title="6 Minute English" xmlUrl="https://podcasts.files.bbci.co.uk/p02pc9tn.rss" htmlUrl="http://www.bbc.co.uk/programmes/p02pc9tn"/>
       <outline type="rss" text="FreightWaves" title="FreightWaves" xmlUrl="https://www.freightwaves.com/feed" htmlUrl="https://www.freightwaves.com/"/>
       <outline type="rss" text="Latest Science News -- ScienceDaily" title="Latest Science News -- ScienceDaily" xmlUrl="https://www.sciencedaily.com/rss/top.xml" htmlUrl="https://www.sciencedaily.com"/>

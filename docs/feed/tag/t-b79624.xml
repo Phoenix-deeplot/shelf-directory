@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/t-b79624.xml</id>
+  <title>知树阅读-个人图书空间 · #数学</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/t-b79624.xml"/>
+  <updated>1970-01-01T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.quantamagazine.org/</id>
+    <title>Quanta Magazine</title>
+    <link rel="alternate" type="text/html" href="https://www.quantamagazine.org/"/>
+    <updated>1970-01-01T00:00:00Z</updated>
+    <summary type="text">专门写数学、物理、计算机和生物前沿的科普杂志，文章长、讲得细，全站免费。</summary>
+    <content type="html">&lt;p&gt;专门写数学、物理、计算机和生物前沿的科普杂志，文章长、讲得细，全站免费。&lt;/p&gt;&lt;p&gt;Source: 精选图书&lt;/p&gt;&lt;p&gt;Tags: #杂志 #科学 #数学 #英文&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.quantamagazine.org/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>精选图书</title></source>
+    <category term="杂志"/>
+    <category term="科学"/>
+    <category term="数学"/>
+    <category term="英文"/>
+  </entry>
+  <entry>
+    <id>https://openstax.org/subjects</id>
+    <title>OpenStax 开放教材</title>
+    <link rel="alternate" type="text/html" href="https://openstax.org/subjects"/>
+    <updated>1970-01-01T00:00:00Z</updated>
+    <summary type="text">大学的物理、生物、心理学、微积分等教材，全部免费在线读，CC BY 授权。</summary>
+    <content type="html">&lt;p&gt;大学的物理、生物、心理学、微积分等教材，全部免费在线读，CC BY 授权。&lt;/p&gt;&lt;p&gt;Source: 精选图书&lt;/p&gt;&lt;p&gt;Tags: #科学 #数学 #英文&lt;/p&gt;&lt;p&gt;&lt;a href="https://openstax.org/subjects"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>精选图书</title></source>
+    <category term="科学"/>
+    <category term="数学"/>
+    <category term="英文"/>
+  </entry>
+  <entry>
+    <id>https://en.wikisource.org/wiki/Calculus_Made_Easy</id>
+    <title>Calculus Made Easy</title>
+    <link rel="alternate" type="text/html" href="https://en.wikisource.org/wiki/Calculus_Made_Easy"/>
+    <updated>1970-01-01T00:00:00Z</updated>
+    <summary type="text">一本 1910 年写给“怕微积分的人”的小书，开头那句“别人能做的蠢事，你也能做”很有名。</summary>
+    <content type="html">&lt;p&gt;一本 1910 年写给“怕微积分的人”的小书，开头那句“别人能做的蠢事，你也能做”很有名。&lt;/p&gt;&lt;p&gt;Source: 精选图书&lt;/p&gt;&lt;p&gt;Tags: #数学 #科学 #英文 #在线书籍&lt;/p&gt;&lt;p&gt;&lt;a href="https://en.wikisource.org/wiki/Calculus_Made_Easy"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>精选图书</title></source>
+    <category term="数学"/>
+    <category term="科学"/>
+    <category term="英文"/>
+    <category term="在线书籍"/>
+  </entry>
+</feed>

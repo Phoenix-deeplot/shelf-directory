@@ -1,0 +1,57 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #期刊",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-e12bfa.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://elifesciences.org/",
+      "url": "https://elifesciences.org/",
+      "title": "eLife",
+      "content_html": "<p>生命科学和医学的开放获取期刊，论文全文免费、CC BY 授权，每篇都有一段给外行看的“摘要”。</p><p>Source: 精选图书</p><p>Tags: #期刊 #科学 #生物 #英文</p><p><a href=\"https://elifesciences.org/\">Read the original →</a></p>",
+      "content_text": "生命科学和医学的开放获取期刊，论文全文免费、CC BY 授权，每篇都有一段给外行看的“摘要”。",
+      "summary": "生命科学和医学的开放获取期刊，论文全文免费、CC BY 授权，每篇都有一段给外行看的“摘要”。",
+      "tags": [
+        "期刊",
+        "科学",
+        "生物",
+        "英文"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://journals.plos.org/plosone/",
+      "url": "https://journals.plos.org/plosone/",
+      "title": "PLOS ONE",
+      "content_html": "<p>涵盖所有学科的开放获取期刊，论文全文免费，CC BY 授权，适合随手翻翻看科学家都在研究什么。</p><p>Source: 精选图书</p><p>Tags: #期刊 #科学 #英文</p><p><a href=\"https://journals.plos.org/plosone/\">Read the original →</a></p>",
+      "content_text": "涵盖所有学科的开放获取期刊，论文全文免费，CC BY 授权，适合随手翻翻看科学家都在研究什么。",
+      "summary": "涵盖所有学科的开放获取期刊，论文全文免费，CC BY 授权，适合随手翻翻看科学家都在研究什么。",
+      "tags": [
+        "期刊",
+        "科学",
+        "英文"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    }
+  ]
+}

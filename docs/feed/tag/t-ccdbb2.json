@@ -1,0 +1,58 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #讽刺",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-ccdbb2.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://zh.wikisource.org/wiki/%E9%98%BFQ%E6%AD%A3%E5%82%B3",
+      "url": "https://zh.wikisource.org/wiki/%E9%98%BFQ%E6%AD%A3%E5%82%B3",
+      "title": "阿Q正传",
+      "content_html": "<p>没有名字也没有家的阿Q，靠“精神胜利法”过日子；中国现代文学里最有名的一个人物。</p><p>来源：精选图书</p><p>标签：#小说 #现代 #讽刺 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E9%98%BFQ%E6%AD%A3%E5%82%B3\">阅读原文 →</a></p>",
+      "content_text": "没有名字也没有家的阿Q，靠“精神胜利法”过日子；中国现代文学里最有名的一个人物。",
+      "summary": "没有名字也没有家的阿Q，靠“精神胜利法”过日子；中国现代文学里最有名的一个人物。",
+      "tags": [
+        "小说",
+        "现代",
+        "讽刺",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E5%84%92%E6%9E%97%E5%A4%96%E5%8F%B2",
+      "url": "https://zh.wikisource.org/wiki/%E5%84%92%E6%9E%97%E5%A4%96%E5%8F%B2",
+      "title": "儒林外史",
+      "content_html": "<p>一部写读书人和科举的讽刺小说：范进中举、严监生临终伸两根手指，笑着笑着就不笑了。</p><p>来源：精选图书</p><p>标签：#小说 #古典 #讽刺 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E5%84%92%E6%9E%97%E5%A4%96%E5%8F%B2\">阅读原文 →</a></p>",
+      "content_text": "一部写读书人和科举的讽刺小说：范进中举、严监生临终伸两根手指，笑着笑着就不笑了。",
+      "summary": "一部写读书人和科举的讽刺小说：范进中举、严监生临终伸两根手指，笑着笑着就不笑了。",
+      "tags": [
+        "小说",
+        "古典",
+        "讽刺",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    }
+  ]
+}
