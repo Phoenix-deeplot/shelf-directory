@@ -69,7 +69,7 @@
   "items":  [ { "id": "a1b2c3d4e5", "title": "…", "summary": "…", "url": "…", "image": "", "date": "2026-10-13",
                 "type": "article", "lang": "zh", "tags": ["…"], "shelf": "books-zhitree-cn",
                 "author": "（可选）作者", "pages": 242, "toc": ["（可选）目录标题", "…"],
-                "license": "（可选，精选图书）public-domain|cc0|cc-by|…|free-to-read",
+                "license": "（可选，精选图书）public-domain|cc0|cc-by|…|free-to-read", "bid": "（可选，精选图书）hongloumeng：书在 registry/books.json 里的编号",
                 "ch": { "s": "（可选，精选图书）zh.wikisource.org", "p": "紅樓夢/", "n": ["第001回", "第002回"] } } ]
 }
 ```

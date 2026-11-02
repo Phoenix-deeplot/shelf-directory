@@ -74,6 +74,7 @@ class TestShelf(Base):
         self.assertEqual((shelf['name'], shelf['n'], shelf.get('featured'), shelf['kind']), ('精选图书', 2, True, 'books'))
         by = {i['title']: i for i in d['items']}
         self.assertEqual((by['红楼梦']['type'], by['红楼梦']['shelf'], by['红楼梦']['ch']['p'], by['红楼梦']['license'], '在线书籍' in by['红楼梦']['tags']), ('book', 'books', '紅樓夢/', 'public-domain', True))
+        self.assertEqual((by['红楼梦']['bid'], by['茶之书']['bid']), ('hlm', 'tea'))                       # (the id in the list: the page asks /api/book for a chapter of THAT book)
         self.assertNotIn('ch', by['茶之书'])
         self.assertTrue(all('abstract' not in i for i in d['items']))                                       # (the longer text is for the feeds only)
         self.assertTrue(any('bad' in m and 'left out' in m for m in log), log)
