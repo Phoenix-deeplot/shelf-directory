@@ -703,7 +703,7 @@ PLATFORMS = {
     'wechat': TH('news', '公众号热文', 'WeChat articles', 'https://weixin.sogou.com/', 'WnBe01o371', ('weixin.qq.com',)),
     'toutiao': P('news', '今日头条热榜', 'Toutiao hot board', 'https://www.toutiao.com/', 'https://www.toutiao.com/hot-event/hot-board/?origin=toutiao_pc', p_toutiao, kw=True),
     'hupu': TH('media', '虎扑步行街热帖', 'Hupu hot posts', 'https://bbs.hupu.com/', 'G47o8weMmN', ('hupu.com',)),
-    'zhihu_daily': P('news', '知乎日报', 'Zhihu Daily', 'https://daily.zhihu.com/', 'https://news-at.zhihu.com/api/4/news/latest', p_zhihu_daily, ranked=False, read=True, detail=True),
+    'zhihu_daily': P('news', '知乎日报', 'Zhihu Daily', 'https://daily.zhihu.com/', 'https://plink.anyfeeder.com/zhihu/daily', read=True, detail=True),
     # ------------------------------------------------------------ 科技与开发
     'github': P('tech', 'GitHub Trending（今日）', 'GitHub Trending (today)', 'https://github.com/trending', 'https://github.com/trending?since=daily', p_github, lang='en', detail=True),
     'juejin': P('tech', '掘金热榜', 'Juejin hot articles', 'https://juejin.cn/hot/articles', 'https://api.juejin.cn/content_api/v1/content/article_rank?category_id=1&type=hot', p_juejin, read=True),

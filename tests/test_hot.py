@@ -22,7 +22,9 @@ WEIBO = {'ok': 1, 'data': {'hotgov': {'word': '#官方置顶#', 'is_gov': 1}, 'r
 ZHIHU = {'data': [{'type': 'hot_list_feed', 'detail_text': '1094 万热度', 'children': [{'type': 'answer', 'thumbnail': 'http://picx.zhimg.com/80/a.jpg'}],
                    'target': {'id': 2096358861804511510, 'title': '为什么……？', 'type': 'question', 'answer_count': 327, 'follower_count': 12, 'excerpt': '摘要 <b>文字</b>'}},
                   {'type': 'hot_list_feed', 'target': {'id': 5, 'title': '一篇文章', 'type': 'article'}}]}
-ZHIHU_DAILY = {'stories': [{'title': '日报的一篇', 'url': 'https://daily.zhihu.com/story/9793540', 'hint': 'Tom · 11 分钟阅读'}, {'title': '外链', 'url': 'https://evil.example/x'}]}
+ZHIHU_DAILY_RSS = ('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>知乎日报</title>'
+                   '<item><title>日报的一篇</title><link>https://daily.zhihu.com/story/9793540</link>'
+                   '<pubDate>Mon, 02 Nov 2026 10:00:00 GMT</pubDate><description>Tom · 11 分钟阅读</description></item></channel></rss>')
 BILI = {'code': 0, 'data': {'list': [{'title': '一个视频', 'bvid': 'BV1C8nH69Ekq', 'owner': {'name': 'UP主'}, 'stat': {'view': 579434}}, {'title': '坏的', 'bvid': 'javascript:1', 'stat': {}}]}}
 TOUTIAO = {'data': [{'ClusterId': 7699707790348045850, 'Title': '头条话题', 'HotValue': '12345678', 'Url': 'https://www.toutiao.com/trending/7699707790348045850/?tracking=1'}, {'ClusterId': 'x', 'Title': '坏'}]}
 DOUYIN = {'data': {'word_list': [{'word': '抖音话题', 'hot_value': 12273749, 'sentence_id': '2714056'}, {'word': '坏的', 'sentence_id': 'x'}]}}
@@ -71,10 +73,10 @@ RSS = ('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title
        '<item><title>Newest one</title><link>https://ex.example/a?utm_source=x&amp;id=1</link><pubDate>Mon, 02 Mar 2026 10:00:00 GMT</pubDate></item>'
        '<item><title>Older one</title><link>https://ex.example/b</link><pubDate>Sun, 01 Mar 2026 10:00:00 GMT</pubDate></item></channel></rss>')
 
-JSONS = {'weibo': WEIBO, 'zhihu': ZHIHU, 'zhihu_daily': ZHIHU_DAILY, 'bilibili': BILI, 'toutiao': TOUTIAO, 'douyin': DOUYIN, 'juejin': JUEJIN, 'v2ex': V2EX, 'netease': NETEASE, 'hackernews': HN, 'lobsters': LOBSTERS, 'devto': DEVTO,
+JSONS = {'weibo': WEIBO, 'zhihu': ZHIHU, 'bilibili': BILI, 'toutiao': TOUTIAO, 'douyin': DOUYIN, 'juejin': JUEJIN, 'v2ex': V2EX, 'netease': NETEASE, 'hackernews': HN, 'lobsters': LOBSTERS, 'devto': DEVTO,
          'ths': THS, 'coingecko': COINGECKO, 'wikipedia': WIKIPEDIA, 'mastodon': MASTODON, 'hf_models': HF_MODELS, 'hf_papers': HF_PAPERS, 'weread_rising': WEREAD, 'openlibrary': OPENLIBRARY, 'gutenberg': GUTENDEX,
          'qqmusic': QQMUSIC, 'apple_pod_cn': APPLE, 'steam': STEAM}
-TEXTS = {'github': (GITHUB, 'text/html; charset=utf-8'), 'gtrends': (GTRENDS, 'application/xml'), 'wechat': (TOPHUB_WECHAT, 'text/html; charset=utf-8'),
+TEXTS = {'github': (GITHUB, 'text/html; charset=utf-8'), 'gtrends': (GTRENDS, 'application/xml'), 'zhihu_daily': (ZHIHU_DAILY_RSS, 'application/rss+xml'), 'wechat': (TOPHUB_WECHAT, 'text/html; charset=utf-8'),
          'xueqiu': (TOPHUB_XUEQIU, 'text/html; charset=utf-8'), 'xiaohongshu': (XIAOHONGSHU, 'text/html; charset=utf-8'), 'producthunt': (RSS, 'application/rss+xml'), 'bbc': (RSS, 'application/rss+xml')}
 FIXTURES = {**{k: (json.dumps(v), 'application/json; charset=utf-8') for k, v in JSONS.items()}, **TEXTS}
 ALL = {'HOT_ENABLE': 'all'}
@@ -156,7 +158,7 @@ class TestParsers(HotBase):
         d, _ = self.items('douyin')
         self.assertEqual((d[0]['title'], d[0]['link'], d[0]['description']), ('抖音话题', 'https://www.douyin.com/hot/2714056', '第 1 名 · 热度 1227.4 万'))
         zd = self.rows('zhihu_daily')
-        self.assertEqual((zd['ranked'], zd['items'][0]['note']), (False, 'Tom · 11 分钟阅读'))       # the daily is not a ranking, and an address that is not Zhihu Daily's is dropped
+        self.assertEqual((zd['ranked'], zd['items'][0]['url'], zd['items'][0]['body']), (False, 'https://daily.zhihu.com/story/9793540', 'Tom · 11 分钟阅读'))
         self.assertEqual(len(zd['items']), 1)
         hn = self.rows('hackernews')['items']
         self.assertEqual((hn[0]['url'], hn[0]['alt'], hn[0]['heat'], hn[0]['note']), ('https://www.sec.gov/x.htm', 'https://news.ycombinator.com/item?id=50242939', '▲ 1,510', '1,480 条评论'))
@@ -307,7 +309,7 @@ class TestWhatIsOn(HotBase):
         self.assertEqual((by['wechat']['via'], by['xiaohongshu']['via'], 'via' in by['weibo']), ('tophub.today', 'rebang.today', False))
         self.assertEqual({p['id']: p['col'] for p in d['platforms'] if p['id'] in ('openai', 'arxiv_ai', 'weread_novel', 'qidian', 'netease', 'bilibili')},
                          {'openai': 'ai', 'arxiv_ai': 'learning', 'weread_novel': 'entertainment', 'qidian': 'entertainment', 'netease': 'media', 'bilibili': 'media'})
-        self.assertEqual({k for k, p in by.items() if p.get('read')} - {k for k, v in hotapi.PLATFORMS.items() if v['feed']}, {'zhihu_daily', 'devto', 'wikipedia', 'wikipedia_zh', 'juejin', 'v2ex', 'lobsters', 'hackernews', 'hf_models', 'hf_papers', 'kr36', 'mastodon'})     # what the reader may read in the page: news and blogs (feeds) and the lists whose rows are articles that were tried, not Product Hunt or the platforms' own pages
+        self.assertEqual({k for k, p in by.items() if p.get('read')} - {k for k, v in hotapi.PLATFORMS.items() if v['feed']}, {'devto', 'wikipedia', 'wikipedia_zh', 'juejin', 'v2ex', 'lobsters', 'hackernews', 'hf_models', 'hf_papers', 'kr36', 'mastodon'})     # article-reading lists that are not feeds
         self.assertTrue(by['theverge']['read'] and by['dw']['read'] and 'read' not in by['bbc'] and 'read' not in by['bloomberg'] and 'read' not in by['producthunt'] and 'read' not in by['weibo'] and 'read' not in by['github'])
         self.assertTrue(all(p['col'] in [c['id'] for c in d['columns']] for p in d['platforms']))
         gone = json.loads(hotapi.handle({}, {'HOT_DISABLE': ','.join(k for k, v in hotapi.PLATFORMS.items() if v['col'] == 'money')})[2])

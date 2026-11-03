@@ -52,3 +52,4 @@ Status: implementation complete; awaiting user preview; not merged or deployed
 - The optional 2.5-second source timeout helper in `aggregate.py` is retained with explicit user approval; existing callers keep their prior timeout behavior by default.
 - Verification reported by the implementation branch: `tests.test_hot` + `tests.test_hot_events` (52 tests) and `tests.test_aggregate` (97 tests) passed; syntax checks and `git diff --check` passed.
 - The migration has not been run against any database. Apply it only after merging and reviewing the migration target; no production database was touched.
+- The Zhihu Daily input was switched from Zhihu's latest-news JSON endpoint to the user-requested AnyFeeder RSS endpoint; the output remains a readable, non-ranked feed item.
