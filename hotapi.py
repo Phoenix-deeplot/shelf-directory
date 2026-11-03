@@ -2,9 +2,9 @@
 GET /api/hot?p=github&format=json  ->  the same as JSON (what the hot-list page of the site reads); GET /api/hot  ->  the columns and the platforms that are on.
 
 What a "hot list" site does, and so does this: it asks the platform for the same small JSON (or page) that the platform's own web page shows, with a browser's headers, takes the rank,
-the title, the heat and the address, and hands that on. No article text is read or kept. Here the answer is an ordinary RSS feed, so a reader follows a hot list like any blog:
-"subscribe" in the shelf, the new entries that came onto the list show up as new articles, a click opens the platform's page. Nothing is stored here: each answer is made from the
-platform's answer of the last few minutes (an in-memory copy for 3 minutes, and the CDN keeps the feed for 10).
+the title, the heat and the address, and hands that on. No article page is read or kept. Here the answer is an ordinary RSS feed, so a reader follows a hot list like any blog:
+"subscribe" in the shelf, the new entries that came onto the list show up as new articles, a click opens the platform's page. The current list is cached briefly in memory and at the CDN.
+When PostgreSQL and migration 007 are configured, one metadata-only ranking snapshot per platform/region/UTC day is retained for the real seven-day view; event tracking stores source links, titles and short feed descriptions, never full articles or copied images.
 
 Where the platform has no list of its own to read, or none that is open, the list comes from one of three other places, and the page says so ("via ..."):
   - the platform's own RSS / Atom feed (news sites, blogs, arXiv, ...): a feed has no rank, so the list shows the newest first, with dates;
@@ -21,6 +21,7 @@ These are the platforms' own front-end addresses, not documented APIs: they can 
 Nothing here reads a page that belongs to the reader: every address is fixed in PLATFORMS below (or in the owner's registry/hot.json), the only thing a request chooses is which of them (and how many entries).
 """
 import hashlib
+import hmac
 import html
 import json
 import os
@@ -28,6 +29,7 @@ import re
 import time
 import urllib.parse
 import xml.etree.ElementTree as ET
+from datetime import datetime, timezone
 from email.utils import formatdate
 from xml.sax.saxutils import escape
 
@@ -45,17 +47,213 @@ PRIVATE = 'private, max-age=300'
 FEED_ACCEPT = 'application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8'
 _CACHE = {}
 
-# The columns of the hot-list page, in the order they are shown.
+# The columns of the hot-list page, in the order they are shown. `play` is
+# accepted as a legacy custom-registry value below, but is never returned.
 COLUMNS = [
     {'id': 'news', 'name': '综合热点', 'name_en': 'Top stories'},
-    {'id': 'tech', 'name': '科技与开发', 'name_en': 'Tech & dev'},
-    {'id': 'money', 'name': '财经', 'name_en': 'Finance'},
-    {'id': 'world', 'name': '国际', 'name_en': 'World'},
-    {'id': 'ai', 'name': 'AI 与学术', 'name_en': 'AI & research'},
-    {'id': 'play', 'name': '读书与影音', 'name_en': 'Books & media'},
+    {'id': 'tech', 'name': '科技', 'name_en': 'Tech'},
+    {'id': 'ai', 'name': 'AI 最新', 'name_en': 'Latest AI'},
+    {'id': 'money', 'name': '金融财经', 'name_en': 'Finance'},
+    {'id': 'world', 'name': '国际时事', 'name_en': 'World affairs'},
+    {'id': 'entertainment', 'name': '娱乐', 'name_en': 'Entertainment'},
+    {'id': 'learning', 'name': '学习与专业提升', 'name_en': 'Learning & growth'},
+    {'id': 'media', 'name': '影音与社区', 'name_en': 'Media & communities'},
+    {'id': 'shopping', 'name': '购物', 'name_en': 'Shopping', 'default': False},
 ]
 COLUMN_IDS = [c['id'] for c in COLUMNS]
+LEGACY_COLUMNS = {'play': 'media'}
 WEB = ('http://', 'https://')
+SNAPSHOT_DAYS = 7
+EVENT_CACHE_SECONDS = 600
+EVENT_RETENTION_DAYS = 7
+EVENT_FETCH_TIMEOUT = 2.5
+EVENT_REFRESH_LOCK_KEY = (871234, 7)
+
+# These are durable event threads, not claims that an event is verified. Each
+# refresh adds source-linked reports and old threads disappear from the public
+# feed once their reports age out. The GDELT query is deliberately broad; the
+# local keyword tests below assign only reports with a clear subject match.
+EVENT_TOPICS = [
+    {'id': 'iran-israel', 'title': '伊以局势', 'title_en': 'Iran–Israel tensions', 'category': 'world',
+     'terms': ('iran', 'israel', 'iranian', 'israeli')},
+    {'id': 'russia-ukraine', 'title': '俄乌战争', 'title_en': 'Russia–Ukraine war', 'category': 'world',
+     'terms': ('ukraine', 'russia', 'russian', 'ukrainian')},
+    {'id': 'gold-market', 'title': '黄金与贵金属', 'title_en': 'Gold and precious metals', 'category': 'money',
+     'terms': ('gold', 'bullion', 'precious metal', 'gold price')},
+    {'id': 'global-markets', 'title': '全球金融市场', 'title_en': 'Global financial markets', 'category': 'money',
+     'terms': ('market', 'markets', 'stock', 'stocks', 'bond', 'bonds', 'inflation', 'central bank', 'economy')},
+    {'id': 'ai-news', 'title': 'AI 最新动态', 'title_en': 'Latest AI developments', 'category': 'ai',
+     'terms': ('artificial intelligence', 'generative ai', 'openai', 'anthropic', 'deepseek', 'ai model', 'ai models')},
+]
+EVENT_GDELT_QUERY = '(Iran OR Israel OR Ukraine OR Russia OR gold OR bullion OR markets OR inflation OR "artificial intelligence" OR OpenAI OR Anthropic OR DeepSeek)'
+
+
+def _database_url(env):
+    return str((env or {}).get('OPS_DATABASE_URL') or (env or {}).get('POSTGRES_URL') or (env or {}).get('DATABASE_URL') or '').strip()
+
+
+class HotStore:
+    """Small PostgreSQL store for ranking snapshots and event metadata only."""
+
+    def __init__(self, url):
+        import psycopg
+        self.connect = lambda: psycopg.connect(url, connect_timeout=4, autocommit=True)
+
+    def save_chart(self, pid, region, fetched_at, rows):
+        snapshot_day = datetime.fromtimestamp(float(fetched_at), timezone.utc).date()
+        with self.connect() as cx, cx.cursor() as cur:
+            cur.execute('INSERT INTO hot.chart_snapshots (platform_id, region, snapshot_date, fetched_at, items) '
+                        'VALUES (%s,%s,%s,%s,%s::jsonb) ON CONFLICT (platform_id, region, snapshot_date) DO NOTHING',
+                        (pid, region or '', snapshot_day, datetime.fromtimestamp(float(fetched_at), timezone.utc), json.dumps(rows, ensure_ascii=False, separators=(',', ':'))))
+            return cur.rowcount > 0
+
+    def chart_week(self, pid, region, now):
+        today = datetime.fromtimestamp(float(now), timezone.utc).date()
+        since = today.fromordinal(today.toordinal() - (SNAPSHOT_DAYS - 1))
+        with self.connect() as cx, cx.cursor() as cur:
+            cur.execute('SELECT snapshot_date, fetched_at, items FROM hot.chart_snapshots '
+                        'WHERE platform_id=%s AND region=%s AND snapshot_date >= %s AND snapshot_date <= %s '
+                        'ORDER BY snapshot_date ASC', (pid, region or '', since, today))
+            snapshots = cur.fetchall()
+        return _aggregate_week(snapshots)
+
+    def latest_event_refresh(self):
+        with self.connect() as cx, cx.cursor() as cur:
+            cur.execute('SELECT refreshed_at FROM hot.event_refresh_state WHERE singleton=true')
+            row = cur.fetchone()
+        return row[0].timestamp() if row and row[0] else 0
+
+    def try_event_refresh_lock(self):
+        """Take a session lock so only one serverless instance refreshes events at once."""
+        cx = self.connect()
+        try:
+            with cx.cursor() as cur:
+                cur.execute('SELECT pg_try_advisory_lock(%s,%s)', EVENT_REFRESH_LOCK_KEY)
+                locked = bool(cur.fetchone()[0])
+            if locked:
+                return cx
+            cx.close()
+            return None
+        except Exception:
+            cx.close()
+            raise
+
+    def release_event_refresh_lock(self, cx):
+        if cx is None:
+            return
+        try:
+            with cx.cursor() as cur:
+                cur.execute('SELECT pg_advisory_unlock(%s,%s)', EVENT_REFRESH_LOCK_KEY)
+        finally:
+            cx.close()
+
+    def save_events(self, candidates, now):
+        refreshed = datetime.fromtimestamp(float(now), timezone.utc)
+        with self.connect() as cx, cx.cursor() as cur:
+            for topic in EVENT_TOPICS:
+                cur.execute('INSERT INTO hot.event_topics (id,title,title_en,category,updated_at) VALUES (%s,%s,%s,%s,%s) '
+                            'ON CONFLICT (id) DO UPDATE SET title=EXCLUDED.title,title_en=EXCLUDED.title_en,category=EXCLUDED.category',
+                            (topic['id'], topic['title'], topic['title_en'], topic['category'], refreshed))
+            total = 0
+            for item in candidates:
+                cur.execute('INSERT INTO hot.event_sources '
+                            '(event_id,source_key,title,url,published_at,excerpt,first_seen_at,last_seen_at) '
+                            'VALUES (%s,%s,%s,%s,%s,%s,%s,%s) '
+                            'ON CONFLICT (event_id,url) DO UPDATE SET source_key=EXCLUDED.source_key,title=EXCLUDED.title,'
+                            'published_at=COALESCE(EXCLUDED.published_at,hot.event_sources.published_at),'
+                            'excerpt=CASE WHEN EXCLUDED.excerpt<>\'\' THEN EXCLUDED.excerpt ELSE hot.event_sources.excerpt END,last_seen_at=EXCLUDED.last_seen_at',
+                            (item['event_id'], item['source'], item['title'], item['url'],
+                             datetime.fromtimestamp(item['published_at'], timezone.utc) if item.get('published_at') else None,
+                             item.get('excerpt') or '', refreshed, refreshed))
+                cur.execute('UPDATE hot.event_topics SET archived_at=NULL,updated_at=%s WHERE id=%s', (refreshed, item['event_id']))
+                total += 1
+            cur.execute('UPDATE hot.event_topics t SET archived_at=%s,updated_at=%s WHERE t.archived_at IS NULL AND NOT EXISTS '
+                        '(SELECT 1 FROM hot.event_sources s WHERE s.event_id=t.id AND COALESCE(s.published_at,s.last_seen_at) >= %s - (%s * interval \'1 day\'))',
+                        (refreshed, refreshed, refreshed, EVENT_RETENTION_DAYS))
+            cur.execute('INSERT INTO hot.event_refresh_state (singleton,refreshed_at,candidate_count) VALUES (true,%s,%s) '
+                        'ON CONFLICT (singleton) DO UPDATE SET refreshed_at=EXCLUDED.refreshed_at,candidate_count=EXCLUDED.candidate_count', (refreshed, total))
+        return total
+
+    def list_events(self, lang, limit, now):
+        cutoff = datetime.fromtimestamp(float(now), timezone.utc)
+        rows = []
+        with self.connect() as cx, cx.cursor() as cur:
+            cur.execute('SELECT t.id,t.title,t.title_en,t.category,t.is_pinned,MAX(COALESCE(s.published_at,s.last_seen_at)) AS updated '
+                        'FROM hot.event_topics t JOIN hot.event_sources s ON s.event_id=t.id '
+                        'WHERE NOT t.is_ignored AND t.archived_at IS NULL AND COALESCE(s.published_at,s.last_seen_at) >= %s - (%s * interval \'1 day\') '
+                        'GROUP BY t.id,t.title,t.title_en,t.category,t.is_pinned '
+                        'ORDER BY t.is_pinned DESC,updated DESC LIMIT %s', (cutoff, EVENT_RETENTION_DAYS, limit))
+            topics = cur.fetchall()
+            for topic in topics:
+                event_id, title, title_en, category, pinned, updated = topic
+                cur.execute('SELECT title,url,source_key,published_at,excerpt,first_seen_at FROM hot.event_sources '
+                            'WHERE event_id=%s AND COALESCE(published_at,last_seen_at) >= %s - (%s * interval \'1 day\') '
+                            'ORDER BY published_at DESC NULLS LAST,first_seen_at DESC LIMIT 12',
+                            (event_id, cutoff, EVENT_RETENTION_DAYS))
+                sources = cur.fetchall()
+                cur.execute('SELECT COUNT(*) FROM hot.event_sources WHERE event_id=%s AND first_seen_at >= %s - interval \'1 day\'', (event_id, cutoff))
+                recent = cur.fetchone()[0]
+                cur.execute('SELECT COUNT(*) FROM hot.event_sources WHERE event_id=%s AND first_seen_at >= %s - interval \'2 day\' AND first_seen_at < %s - interval \'1 day\'',
+                            (event_id, cutoff, cutoff))
+                previous = cur.fetchone()[0]
+                cur.execute('SELECT COUNT(DISTINCT source_key) FROM hot.event_sources WHERE event_id=%s AND COALESCE(published_at,last_seen_at) >= %s - (%s * interval \'1 day\')',
+                            (event_id, cutoff, EVENT_RETENTION_DAYS))
+                source_count = cur.fetchone()[0]
+                if recent > previous and recent >= 2:
+                    trend = 'rising'
+                elif previous > recent and previous >= 2:
+                    trend = 'cooling'
+                else:
+                    trend = 'steady'
+                rows.append({'id': event_id, 'title': title_en if lang == 'en' else title, 'category': category,
+                             'last_updated': int(updated.timestamp()) if updated else 0, 'source_count': int(source_count),
+                             'trend': trend, 'pinned': bool(pinned),
+                             'items': [{'title': r[0], 'url': r[1], 'source': r[2],
+                                        'published_at': int(r[3].timestamp()) if r[3] else 0, 'excerpt': r[4] or ''} for r in sources]})
+        return rows
+
+
+def _store(env):
+    url = _database_url(env)
+    if not url:
+        return None
+    try:
+        return HotStore(url)
+    except ImportError:
+        return None
+
+
+def _aggregate_week(snapshots):
+    """Aggregate actual daily snapshots. `items` retain the current row fields."""
+    by_url = {}
+    dates = set()
+    latest_at = 0
+    for snapshot in snapshots:
+        if len(snapshot) == 3:
+            snapshot_day, fetched_at, rows = snapshot
+        else:
+            continue
+        dates.add(snapshot_day.isoformat() if hasattr(snapshot_day, 'isoformat') else str(snapshot_day))
+        latest_at = max(latest_at, int(fetched_at.timestamp() if hasattr(fetched_at, 'timestamp') else fetched_at or 0))
+        if isinstance(rows, str):
+            try:
+                rows = json.loads(rows)
+            except ValueError:
+                rows = []
+        for rank, row in enumerate(rows if isinstance(rows, list) else [], 1):
+            if not isinstance(row, dict) or not row.get('url'):
+                continue
+            rec = by_url.setdefault(row['url'], {'item': row, 'score': 0.0, 'appearances': 0, 'best_rank': rank})
+            rec['score'] += 100.0 / rank
+            rec['appearances'] += 1
+            rec['best_rank'] = min(rec['best_rank'], rank)
+            rec['item'] = row
+    items = []
+    for rec in by_url.values():
+        items.append({**rec['item'], 'weekly_score': round(rec['score'], 2), 'appearances': rec['appearances'], 'best_rank': rec['best_rank']})
+    items.sort(key=lambda r: (r['weekly_score'], r['appearances'], -r['best_rank']), reverse=True)
+    return items, {'available': bool(dates), 'complete': len(dates) >= SNAPSHOT_DAYS, 'required_days': SNAPSHOT_DAYS,
+                   'snapshots': len(dates), 'dates': sorted(dates), 'updated': latest_at}
 
 
 def _heat(n):
@@ -498,14 +696,14 @@ APPLE = 'https://rss.applemarketingtools.com/api/v2/%s'
 PLATFORMS = {
     # ------------------------------------------------------------ 综合热点
     'weibo': P('news', '微博热搜', 'Weibo hot searches', 'https://s.weibo.com/top/summary', 'https://weibo.com/ajax/side/hotSearch', p_weibo, headers={'Referer': 'https://weibo.com/'}, kw=True),
-    'zhihu': P('news', '知乎热榜', 'Zhihu hot questions', 'https://www.zhihu.com/hot', 'https://api.zhihu.com/topstory/hot-lists/total?limit=50', p_zhihu, kw=True),
-    'douyin': P('news', '抖音热点', 'Douyin hot topics', 'https://www.douyin.com/hot', 'https://www.douyin.com/aweme/v1/web/hot/search/list/?device_platform=webapp&aid=6383&channel=channel_pc_web&detail_list=1', p_douyin, headers={'Referer': 'https://www.douyin.com/'}, kw=True),
-    'xiaohongshu': P('news', '小红书热门', 'Xiaohongshu hot notes', 'https://www.xiaohongshu.com/explore', 'https://rebang.today/?tab=xiaohongshu', p_xiaohongshu, via='rebang.today', ttl=THIRD_SECONDS, kw=True),
-    'bilibili': P('news', 'B 站热门视频', 'Bilibili popular videos', 'https://www.bilibili.com/v/popular/all', 'https://api.bilibili.com/x/web-interface/popular?ps=50&pn=1', p_bilibili, headers={'Referer': 'https://www.bilibili.com/'}),
+    'zhihu': P('media', '知乎热榜', 'Zhihu hot questions', 'https://www.zhihu.com/hot', 'https://api.zhihu.com/topstory/hot-lists/total?limit=50', p_zhihu, kw=True),
+    'douyin': P('entertainment', '抖音热点', 'Douyin hot topics', 'https://www.douyin.com/hot', 'https://www.douyin.com/aweme/v1/web/hot/search/list/?device_platform=webapp&aid=6383&channel=channel_pc_web&detail_list=1', p_douyin, headers={'Referer': 'https://www.douyin.com/'}, kw=True),
+    'xiaohongshu': P('entertainment', '小红书热门', 'Xiaohongshu hot notes', 'https://www.xiaohongshu.com/explore', 'https://rebang.today/?tab=xiaohongshu', p_xiaohongshu, via='rebang.today', ttl=THIRD_SECONDS, kw=True),
+    'bilibili': P('media', 'B 站热门视频', 'Bilibili popular videos', 'https://www.bilibili.com/v/popular/all', 'https://api.bilibili.com/x/web-interface/popular?ps=50&pn=1', p_bilibili, headers={'Referer': 'https://www.bilibili.com/'}),
     'wechat': TH('news', '公众号热文', 'WeChat articles', 'https://weixin.sogou.com/', 'WnBe01o371', ('weixin.qq.com',)),
     'toutiao': P('news', '今日头条热榜', 'Toutiao hot board', 'https://www.toutiao.com/', 'https://www.toutiao.com/hot-event/hot-board/?origin=toutiao_pc', p_toutiao, kw=True),
-    'hupu': TH('news', '虎扑步行街热帖', 'Hupu hot posts', 'https://bbs.hupu.com/', 'G47o8weMmN', ('hupu.com',)),
-    'zhihu_daily': P('news', '知乎日报', 'Zhihu Daily', 'https://daily.zhihu.com/', 'https://news-at.zhihu.com/api/4/news/latest', p_zhihu_daily, ranked=False, read=True, detail=True),
+    'hupu': TH('media', '虎扑步行街热帖', 'Hupu hot posts', 'https://bbs.hupu.com/', 'G47o8weMmN', ('hupu.com',)),
+    'zhihu_daily': P('news', '知乎日报', 'Zhihu Daily', 'https://daily.zhihu.com/', 'https://plink.anyfeeder.com/zhihu/daily', read=True, detail=True),
     # ------------------------------------------------------------ 科技与开发
     'github': P('tech', 'GitHub Trending（今日）', 'GitHub Trending (today)', 'https://github.com/trending', 'https://github.com/trending?since=daily', p_github, lang='en', detail=True),
     'juejin': P('tech', '掘金热榜', 'Juejin hot articles', 'https://juejin.cn/hot/articles', 'https://api.juejin.cn/content_api/v1/content/article_rank?category_id=1&type=hot', p_juejin, read=True),
@@ -548,45 +746,45 @@ PLATFORMS = {
     'france24': P('world', 'France 24（英文）', 'France 24 (English)', 'https://www.france24.com/en/', 'https://www.france24.com/en/rss', lang='en'),
     'conversation': P('world', 'The Conversation（学者写时事）', 'The Conversation', 'https://theconversation.com/global', 'https://theconversation.com/global/articles.atom', lang='en'),
     # ------------------------------------------------------------ AI 与学术
-    'hf_papers': P('ai', 'Hugging Face 每日论文', 'Hugging Face daily papers', 'https://huggingface.co/papers', 'https://huggingface.co/api/daily_papers?limit=50', p_hf_papers, lang='en', read=True),
+    'hf_papers': P('learning', 'Hugging Face 每日论文', 'Hugging Face daily papers', 'https://huggingface.co/papers', 'https://huggingface.co/api/daily_papers?limit=50', p_hf_papers, lang='en', read=True),
     'hf_models': P('ai', 'Hugging Face 热门模型', 'Hugging Face trending models', 'https://huggingface.co/models?sort=trending', 'https://huggingface.co/api/models?sort=trendingScore&limit=50', p_hf_models, lang='en', read=True),
-    'arxiv_ai': P('ai', 'arXiv · cs.AI', 'arXiv · cs.AI', 'https://arxiv.org/list/cs.AI/new', 'https://rss.arxiv.org/rss/cs.AI', lang='en'),
-    'arxiv_cl': P('ai', 'arXiv · cs.CL', 'arXiv · cs.CL', 'https://arxiv.org/list/cs.CL/new', 'https://rss.arxiv.org/rss/cs.CL', lang='en'),
+    'arxiv_ai': P('learning', 'arXiv · cs.AI', 'arXiv · cs.AI', 'https://arxiv.org/list/cs.AI/new', 'https://rss.arxiv.org/rss/cs.AI', lang='en'),
+    'arxiv_cl': P('learning', 'arXiv · cs.CL', 'arXiv · cs.CL', 'https://arxiv.org/list/cs.CL/new', 'https://rss.arxiv.org/rss/cs.CL', lang='en'),
     'openai': P('ai', 'OpenAI 动态', 'OpenAI news', 'https://openai.com/news/', 'https://openai.com/news/rss.xml', lang='en', read=False),
-    'mitnews': P('ai', 'MIT 新闻', 'MIT News', 'https://news.mit.edu/', 'https://news.mit.edu/rss/feed', lang='en'),
+    'mitnews': P('learning', 'MIT 新闻', 'MIT News', 'https://news.mit.edu/', 'https://news.mit.edu/rss/feed', lang='en'),
     'qbitai': P('ai', '量子位', 'QbitAI', 'https://www.qbitai.com/', 'https://www.qbitai.com/feed'),
     'mit_ai': P('ai', 'MIT Technology Review · AI', 'MIT Technology Review · AI', 'https://www.technologyreview.com/topic/artificial-intelligence/', 'https://www.technologyreview.com/topic/artificial-intelligence/feed', lang='en'),
     'techcrunch_ai': P('ai', 'TechCrunch · AI', 'TechCrunch · AI', 'https://techcrunch.com/category/artificial-intelligence/', 'https://techcrunch.com/category/artificial-intelligence/feed/', lang='en'),
-    'nature': P('ai', 'Nature 新闻', 'Nature', 'https://www.nature.com/nature/articles?type=news', 'https://www.nature.com/nature.rss', lang='en'),
-    'science_news': P('ai', 'Science 新闻', 'Science news', 'https://www.science.org/news', 'https://www.science.org/rss/news_current.xml', lang='en', read=False),
-    'physorg': P('ai', 'Phys.org', 'Phys.org', 'https://phys.org/', 'https://phys.org/rss-feed/', lang='en'),
-    'quanta': P('ai', 'Quanta 杂志（数学与科学）', 'Quanta Magazine', 'https://www.quantamagazine.org/', 'https://www.quantamagazine.org/feed/', lang='en'),
-    'sciam': P('ai', '科学美国人', 'Scientific American', 'https://www.scientificamerican.com/', 'https://www.scientificamerican.com/platform/syndication/rss/', lang='en'),
-    'newscientist': P('ai', '新科学家', 'New Scientist', 'https://www.newscientist.com/', 'https://www.newscientist.com/feed/home/', lang='en'),
+    'nature': P('learning', 'Nature 新闻', 'Nature', 'https://www.nature.com/nature/articles?type=news', 'https://www.nature.com/nature.rss', lang='en'),
+    'science_news': P('learning', 'Science 新闻', 'Science news', 'https://www.science.org/news', 'https://www.science.org/rss/news_current.xml', lang='en', read=False),
+    'physorg': P('learning', 'Phys.org', 'Phys.org', 'https://phys.org/', 'https://phys.org/rss-feed/', lang='en'),
+    'quanta': P('learning', 'Quanta 杂志（数学与科学）', 'Quanta Magazine', 'https://www.quantamagazine.org/', 'https://www.quantamagazine.org/feed/', lang='en'),
+    'sciam': P('learning', '科学美国人', 'Scientific American', 'https://www.scientificamerican.com/', 'https://www.scientificamerican.com/platform/syndication/rss/', lang='en'),
+    'newscientist': P('learning', '新科学家', 'New Scientist', 'https://www.newscientist.com/', 'https://www.newscientist.com/feed/home/', lang='en'),
     # ------------------------------------------------------------ 读书与影音
-    'weread_rising': P('play', '微信读书 · 飙升榜', 'WeRead · rising books', 'https://weread.qq.com/web/category/rising', 'https://weread.qq.com/web/bookListInCategory/rising?rank=1', p_weread, headers={'Referer': 'https://weread.qq.com/'}),
-    'weread_novel': P('play', '微信读书 · 小说榜', 'WeRead · novels', 'https://weread.qq.com/web/category/100000', 'https://weread.qq.com/web/bookListInCategory/100000?maxIndex=0', p_weread, headers={'Referer': 'https://weread.qq.com/'}),
-    'qidian': TH('play', '起点中文网热榜', 'Qidian novels', 'https://www.qidian.com/rank/', 'VaobmGneAj', ('qidian.com',)),
-    'qidian_f': TH('play', '起点女生网热榜', 'Qidian Women novels', 'https://www.qdmm.com/rank/', 'DgeygBwvZq', ('qdmm.com', 'qidian.com')),
-    'zongheng': TH('play', '纵横中文网热榜', 'Zongheng novels', 'https://www.zongheng.com/rank/', 'b0vmYyJvB1', ('zongheng.com',)),
-    'tuishujun': TH('play', '推书君网文榜', 'Tuishujun novels', 'https://www.tuishujun.com/', '47o8QGjvMm', ('tuishujun.com',)),
-    'openlibrary': P('play', 'Open Library 近期热门', 'Open Library trending', 'https://openlibrary.org/trending/daily', 'https://openlibrary.org/trending/daily.json?limit=50', p_openlibrary, lang='en'),
-    'gutenberg': P('play', 'Project Gutenberg 热门公版书', 'Project Gutenberg popular books', 'https://www.gutenberg.org/browse/scores/top', 'https://gutendex.com/books/?sort=popular&languages=en', p_gutendex, lang='en'),
-    'netease': P('play', '网易云音乐飙升榜', 'NetEase Cloud Music: rising songs', 'https://music.163.com/#/discover/toplist?id=19723756', 'https://music.163.com/api/playlist/detail?id=19723756', p_netease),
-    'qqmusic': P('play', 'QQ 音乐飙升榜', 'QQ Music: rising songs', 'https://y.qq.com/n/ryqq/toplist/62', 'https://u.y.qq.com/cgi-bin/musicu.fcg?data=%7B%22detail%22%3A%7B%22module%22%3A%22musicToplist.ToplistInfoServer%22%2C%22method%22%3A%22GetDetail%22%2C%22param%22%3A%7B%22topId%22%3A62%2C%22offset%22%3A0%2C%22num%22%3A50%7D%7D%7D', p_qqmusic, headers={'Referer': 'https://y.qq.com/'}),
-    'apple_pod_cn': P('play', 'Apple 播客榜 · 中国', 'Apple Podcasts · China', 'https://podcasts.apple.com/cn/charts', APPLE % 'cn/podcasts/top/50/podcasts.json', p_apple, detail=True),
-    'apple_pod_us': P('play', 'Apple 播客榜 · 美国', 'Apple Podcasts · US', 'https://podcasts.apple.com/us/charts', APPLE % 'us/podcasts/top/50/podcasts.json', p_apple, lang='en', detail=True),
-    'apple_music_us': P('play', 'Apple Music 最多播放 · 美国', 'Apple Music most played · US', 'https://music.apple.com/us/new', APPLE % 'us/music/most-played/50/songs.json', p_apple, lang='en'),
-    'steam': P('play', 'Steam 热销', 'Steam top sellers', 'https://store.steampowered.com/search/?filter=topsellers', 'https://store.steampowered.com/api/featuredcategories?cc=cn&l=schinese', p_steam),
-    'taptap': TH('play', 'TapTap 热门游戏', 'TapTap hot games', 'https://www.taptap.cn/top/download', '6ARe1k2v7n', ('taptap.cn', 'taptap.io')),
-    'douban_movie': TH('play', '豆瓣新片榜', 'Douban new films', 'https://movie.douban.com/chart', 'mDOvnyBoEB', ('douban.com',)),
-    'longreads': P('play', 'Longreads 长文精选', 'Longreads', 'https://longreads.com/', 'https://longreads.com/feed/', lang='en'),
-    'psyche': P('play', 'Psyche（观念与生活）', 'Psyche', 'https://psyche.co/', 'https://psyche.co/feed', lang='en'),
-    'pitchfork': P('play', 'Pitchfork 乐评', 'Pitchfork', 'https://pitchfork.com/', 'https://pitchfork.com/feed/feed-news/rss', lang='en'),
-    'variety': P('play', 'Variety 影视', 'Variety', 'https://variety.com/', 'https://variety.com/feed/', lang='en'),
-    'letterboxd': P('play', 'Letterboxd 影评', 'Letterboxd Journal', 'https://letterboxd.com/journal/', 'https://letterboxd.com/journal/rss/', lang='en'),
-    'polygon': P('play', 'Polygon 游戏', 'Polygon', 'https://www.polygon.com/', 'https://www.polygon.com/rss/index.xml', lang='en'),
-    'youtube': P('play', 'YouTube 热门', 'YouTube most popular', 'https://www.youtube.com/feed/trending',
+    'weread_rising': P('learning', '微信读书 · 飙升榜', 'WeRead · rising books', 'https://weread.qq.com/web/category/rising', 'https://weread.qq.com/web/bookListInCategory/rising?rank=1', p_weread, headers={'Referer': 'https://weread.qq.com/'}),
+    'weread_novel': P('entertainment', '微信读书 · 小说榜', 'WeRead · novels', 'https://weread.qq.com/web/category/100000', 'https://weread.qq.com/web/bookListInCategory/100000?maxIndex=0', p_weread, headers={'Referer': 'https://weread.qq.com/'}),
+    'qidian': TH('entertainment', '起点中文网热榜', 'Qidian novels', 'https://www.qidian.com/rank/', 'VaobmGneAj', ('qidian.com',)),
+    'qidian_f': TH('entertainment', '起点女生网热榜', 'Qidian Women novels', 'https://www.qdmm.com/rank/', 'DgeygBwvZq', ('qdmm.com', 'qidian.com')),
+    'zongheng': TH('entertainment', '纵横中文网热榜', 'Zongheng novels', 'https://www.zongheng.com/rank/', 'b0vmYyJvB1', ('zongheng.com',)),
+    'tuishujun': TH('entertainment', '推书君网文榜', 'Tuishujun novels', 'https://www.tuishujun.com/', '47o8QGjvMm', ('tuishujun.com',)),
+    'openlibrary': P('learning', 'Open Library 近期热门', 'Open Library trending', 'https://openlibrary.org/trending/daily', 'https://openlibrary.org/trending/daily.json?limit=50', p_openlibrary, lang='en'),
+    'gutenberg': P('learning', 'Project Gutenberg 热门公版书', 'Project Gutenberg popular books', 'https://www.gutenberg.org/browse/scores/top', 'https://gutendex.com/books/?sort=popular&languages=en', p_gutendex, lang='en'),
+    'netease': P('media', '网易云音乐飙升榜', 'NetEase Cloud Music: rising songs', 'https://music.163.com/#/discover/toplist?id=19723756', 'https://music.163.com/api/playlist/detail?id=19723756', p_netease),
+    'qqmusic': P('media', 'QQ 音乐飙升榜', 'QQ Music: rising songs', 'https://y.qq.com/n/ryqq/toplist/62', 'https://u.y.qq.com/cgi-bin/musicu.fcg?data=%7B%22detail%22%3A%7B%22module%22%3A%22musicToplist.ToplistInfoServer%22%2C%22method%22%3A%22GetDetail%22%2C%22param%22%3A%7B%22topId%22%3A62%2C%22offset%22%3A0%2C%22num%22%3A50%7D%7D%7D', p_qqmusic, headers={'Referer': 'https://y.qq.com/'}),
+    'apple_pod_cn': P('media', 'Apple 播客榜 · 中国', 'Apple Podcasts · China', 'https://podcasts.apple.com/cn/charts', APPLE % 'cn/podcasts/top/50/podcasts.json', p_apple, detail=True),
+    'apple_pod_us': P('media', 'Apple 播客榜 · 美国', 'Apple Podcasts · US', 'https://podcasts.apple.com/us/charts', APPLE % 'us/podcasts/top/50/podcasts.json', p_apple, lang='en', detail=True),
+    'apple_music_us': P('media', 'Apple Music 最多播放 · 美国', 'Apple Music most played · US', 'https://music.apple.com/us/new', APPLE % 'us/music/most-played/50/songs.json', p_apple, lang='en'),
+    'steam': P('entertainment', 'Steam 热销', 'Steam top sellers', 'https://store.steampowered.com/search/?filter=topsellers', 'https://store.steampowered.com/api/featuredcategories?cc=cn&l=schinese', p_steam),
+    'taptap': TH('entertainment', 'TapTap 热门游戏', 'TapTap hot games', 'https://www.taptap.cn/top/download', '6ARe1k2v7n', ('taptap.cn', 'taptap.io')),
+    'douban_movie': TH('entertainment', '豆瓣新片榜', 'Douban new films', 'https://movie.douban.com/chart', 'mDOvnyBoEB', ('douban.com',)),
+    'longreads': P('learning', 'Longreads 长文精选', 'Longreads', 'https://longreads.com/', 'https://longreads.com/feed/', lang='en'),
+    'psyche': P('learning', 'Psyche（观念与生活）', 'Psyche', 'https://psyche.co/', 'https://psyche.co/feed', lang='en'),
+    'pitchfork': P('media', 'Pitchfork 乐评', 'Pitchfork', 'https://pitchfork.com/', 'https://pitchfork.com/feed/feed-news/rss', lang='en'),
+    'variety': P('entertainment', 'Variety 影视', 'Variety', 'https://variety.com/', 'https://variety.com/feed/', lang='en'),
+    'letterboxd': P('media', 'Letterboxd 影评', 'Letterboxd Journal', 'https://letterboxd.com/journal/', 'https://letterboxd.com/journal/rss/', lang='en'),
+    'polygon': P('entertainment', 'Polygon 游戏', 'Polygon', 'https://www.polygon.com/', 'https://www.polygon.com/rss/index.xml', lang='en'),
+    'youtube': P('media', 'YouTube 热门', 'YouTube most popular', 'https://www.youtube.com/feed/trending',
                  'https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics&chart=mostPopular&maxResults=50&regionCode={REGION}&key={YOUTUBE_API_KEY}', p_youtube, lang='en', needs=['YOUTUBE_API_KEY'], regions=YT_REGIONS, region='US', region_env='YOUTUBE_REGION'),
 }
 
@@ -609,7 +807,8 @@ def custom(env):
         pid, name = str(c.get('id') or ''), agg.clean(c.get('name'), 40)
         if not re.fullmatch(r'[a-z0-9][a-z0-9-]{1,23}', pid) or pid in PLATFORMS or pid in out or not name:
             continue
-        col = c.get('col') if c.get('col') in COLUMN_IDS else 'news'
+        col = c.get('col') if c.get('col') in COLUMN_IDS or c.get('col') in LEGACY_COLUMNS else 'news'
+        col = LEGACY_COLUMNS.get(col, col)
         kw = dict(lang='en' if c.get('lang') == 'en' else 'zh', custom=True)
         if c.get('tophub') and re.fullmatch(r'[A-Za-z0-9]{6,16}', str(c['tophub'])):
             spec = P(col, name, agg.clean(c.get('name_en'), 40) or name, c.get('home') or TOPHUB + c['tophub'], TOPHUB + c['tophub'], tophub(None), via='tophub.today', ttl=THIRD_SECONDS, **kw)
@@ -658,7 +857,7 @@ def feed_rows(body, headers, url):
     return [{'title': i.get('title'), 'url': i.get('url'), 'heat': '', 'note': '', 'date': i.get('date') or '', 'img': i.get('image'), 'body': i.get('summary')} for i in items]
 
 
-def entries(pid, now=None, env=None, region=''):
+def entries(pid, now=None, env=None, region='', timeout=None):
     """-> (the platform's rows now, when they were read). A copy is kept for CACHE_SECONDS (for each country of a list that has countries); an old copy is served when the platform does not answer.
     Raises agg.Refused."""
     now = time.time() if now is None else now
@@ -668,7 +867,7 @@ def entries(pid, now=None, env=None, region=''):
     if hit and now - hit[0] < spec.get('ttl', CACHE_SECONDS):
         return hit[1], hit[0]
     try:
-        final, h, body = agg.fetch(_url(spec, env, now, region), FEED_ACCEPT if spec['feed'] else '*/*', 3 * 1024 * 1024, headers={**BROWSER, **spec['headers']}, truncate=True)
+        final, h, body = agg.fetch(_url(spec, env, now, region), FEED_ACCEPT if spec['feed'] else '*/*', 3 * 1024 * 1024, headers={**BROWSER, **spec['headers']}, truncate=True, timeout=timeout)
         try:
             rows = feed_rows(body, h, final) if spec['feed'] else spec['parse'](agg.decode(body, h))
         except (KeyError, TypeError, ValueError, AttributeError, IndexError, ET.ParseError):
@@ -695,7 +894,7 @@ def rss(pid, spec, rows, now=None, region=''):
         items.append('<item><title>%s</title><link>%s</link><guid isPermaLink="false">hot:%s:%s</guid><pubDate>%s</pubDate><description>%s</description>%s</item>'
                      % (escape(r['title']), escape(r['url']), pid, hashlib.sha1(r['url'].encode('utf-8')).hexdigest()[:12], stamp, escape(desc), thumb))
     return ('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>%s</title><link>%s</link><description>%s</description><language>%s</language><lastBuildDate>%s</lastBuildDate>%s</channel></rss>'
-            % (escape(title), escape(spec['home']), escape('%s：平台当前的榜单（排名、标题、热度和平台自己的链接），由知树阅读按需生成，不保存任何内容。' % title), 'zh-CN' if spec['lang'] == 'zh' else 'en', stamp, ''.join(items)))
+            % (escape(title), escape(spec['home']), escape('%s：平台当前的榜单（排名、标题、热度和平台自己的链接），由知树阅读按需生成；配置数据库时只保存榜单元数据快照，不保存文章全文或图片。' % title), 'zh-CN' if spec['lang'] == 'zh' else 'en', stamp, ''.join(items)))
 
 
 def _info(k, v):
@@ -715,6 +914,177 @@ def _info(k, v):
 
 def _fail(status, error, zh, en):
     return status, 'application/json; charset=utf-8', json.dumps({'ok': False, 'error': error, 'message': zh, 'message_en': en}, ensure_ascii=False).encode('utf-8'), 'no-store'
+
+
+def _event_matches(topic, text):
+    value = re.sub(r'\s+', ' ', str(text or '')).lower()
+    if topic['id'] == 'iran-israel':
+        return ('iran' in value and 'israel' in value) or ('iranian' in value and 'israeli' in value)
+    if topic['id'] == 'russia-ukraine':
+        return ('ukraine' in value and ('russia' in value or 'russian' in value)) or ('ukrainian' in value and 'war' in value)
+    if topic['id'] == 'global-markets' and any(x in value for x in ('gold', 'bullion', 'precious metal')):
+        return False
+    return any(term in value for term in topic['terms'])
+
+
+def _event_epoch(value):
+    if not value:
+        return 0
+    if isinstance(value, (int, float)):
+        return int(value)
+    value = str(value).strip()
+    for fmt in ('%Y%m%dT%H%M%SZ', '%Y-%m-%dT%H:%M:%SZ', '%Y-%m-%d'):
+        try:
+            return int(datetime.strptime(value[:len(datetime.now().strftime(fmt))], fmt).replace(tzinfo=timezone.utc).timestamp())
+        except ValueError:
+            pass
+    return 0
+
+
+def _event_candidate(topic, title, url, source, published_at=0, excerpt=''):
+    title = _text(title, 260)
+    url = _untrack(str(url or '').strip())
+    parsed = urllib.parse.urlsplit(url)
+    if not title or parsed.scheme not in ('http', 'https') or not parsed.hostname or parsed.username or parsed.password or re.search(r'\s', url):
+        return None
+    source = _text(source or parsed.hostname.lower(), 100).lower()
+    return {'event_id': topic['id'], 'title': title, 'url': url, 'source': source,
+            'published_at': int(published_at or 0), 'excerpt': _text(excerpt, 280)}
+
+
+def _event_candidates(env, now):
+    """Fetch only report metadata; never fetch article pages or retain images."""
+    candidates = {}
+    source_succeeded = False
+    params = urllib.parse.urlencode({'query': EVENT_GDELT_QUERY, 'mode': 'ArtList', 'format': 'json', 'maxrecords': 250, 'sort': 'HybridRel', 'timespan': '7d'})
+    try:
+        _, headers, body = agg.fetch('https://api.gdeltproject.org/api/v2/doc/doc?' + params, 'application/json', 2 * 1024 * 1024,
+                                     headers=BROWSER, truncate=True, timeout=EVENT_FETCH_TIMEOUT)
+        source_succeeded = True
+        data = _json(agg.decode(body, headers))
+        articles = data.get('articles') if isinstance(data, dict) else []
+        for article in articles if isinstance(articles, list) else []:
+            if not isinstance(article, dict):
+                continue
+            title, url = _text(article.get('title'), 260), str(article.get('url') or '')
+            for topic in EVENT_TOPICS:
+                if not _event_matches(topic, title):
+                    continue
+                source = _text(article.get('domain') or urllib.parse.urlsplit(url).hostname or '', 100).lower()
+                item = _event_candidate(topic, title, url, source, _event_epoch(article.get('seendate')))
+                if item:
+                    candidates[(item['event_id'], item['url'])] = item
+    except (agg.Refused, ValueError, TypeError, AttributeError):
+        pass
+
+    # These first-party feeds complement cross-source discovery in their areas.
+    # Summaries are capped and remain linked to the source; no page is fetched.
+    for pid in ('wallstreetcn', 'openai'):
+        try:
+            rows, _ = entries(pid, now, env, timeout=EVENT_FETCH_TIMEOUT)
+            source_succeeded = True
+        except (agg.Refused, KeyError, TypeError, ValueError):
+            continue
+        for row in rows:
+            title = _text(row.get('title'), 260)
+            snippet = _text(row.get('body') or row.get('note'), 280)
+            for topic in EVENT_TOPICS:
+                if not _event_matches(topic, title + ' ' + snippet):
+                    continue
+                url = str(row.get('url') or '')
+                source = urllib.parse.urlsplit(url).hostname or pid
+                item = _event_candidate(topic, title, url, source, _event_epoch(row.get('date')), snippet)
+                if item:
+                    key = (item['event_id'], item['url'])
+                    previous = candidates.get(key)
+                    if previous and len(item['excerpt']) <= len(previous['excerpt']):
+                        continue
+                    candidates[key] = item
+    if not source_succeeded:
+        raise agg.Refused('暂时无法读取热点来源', 'Event sources are temporarily unavailable')
+    return list(candidates.values())
+
+
+def _refresh_events(store, env, now, force=False, fetcher=None):
+    """Refresh once per cache window; PostgreSQL advisory locking protects concurrent instances."""
+    last = store.latest_event_refresh()
+    if last and not force and now - last < EVENT_CACHE_SECONDS:
+        return {'cached': True, 'busy': False, 'updated': last, 'candidate_count': 0, 'stored_count': 0}
+    lock = store.try_event_refresh_lock()
+    if not lock:
+        return {'cached': True, 'busy': True, 'updated': last, 'candidate_count': 0, 'stored_count': 0}
+    try:
+        # Another request may have completed while this one waited for a DB connection.
+        last = store.latest_event_refresh()
+        if last and not force and now - last < EVENT_CACHE_SECONDS:
+            return {'cached': True, 'busy': False, 'updated': last, 'candidate_count': 0, 'stored_count': 0}
+        candidates = (fetcher or _event_candidates)(env, now)
+        stored = store.save_events(candidates, now)
+        return {'cached': False, 'busy': False, 'updated': now,
+                'candidate_count': len(candidates), 'stored_count': stored}
+    finally:
+        store.release_event_refresh_lock(lock)
+
+
+def handle_events(query, env, now=None):
+    """Public event feed; stale data remains available while a throttled refresh is attempted."""
+    now = time.time() if now is None else now
+    lang = str((query.get('lang') or ['zh'])[0]).strip().lower()
+    lang = 'en' if lang.startswith('en') else 'zh'
+    try:
+        limit = max(1, min(30, int((query.get('limit') or [12])[0])))
+    except (TypeError, ValueError):
+        limit = 12
+    store = _store(env)
+    if store is None:
+        return _fail(503, 'database', '热点追踪数据库尚未配置', 'The event store is not configured')
+    try:
+        events = store.list_events(lang, limit, now)
+        updated = store.latest_event_refresh()
+    except Exception:
+        return _fail(503, 'database', '热点追踪数据库不可用，请确认已执行 007_hotlist_events.sql', 'The event store is unavailable; check that migration 007_hotlist_events.sql has been applied')
+    if not updated or now - updated >= EVENT_CACHE_SECONDS:
+        try:
+            _refresh_events(store, env, now)
+            events = store.list_events(lang, limit, now)
+            updated = store.latest_event_refresh()
+        except Exception:
+            # Network failures, lock contention, or a transient write error must not
+            # make a previously populated public feed disappear.
+            pass
+    body = json.dumps({'ok': True, 'updated': int(updated or 0), 'events': events}, ensure_ascii=False).encode('utf-8')
+    return 200, 'application/json; charset=utf-8', body, 'public, max-age=60, s-maxage=180, stale-while-revalidate=300'
+
+
+def handle_event_refresh(method, headers, env, query=None, now=None, fetcher=None):
+    """Authenticated scheduler endpoint. Supports GET (Vercel Cron) and POST."""
+    if method not in ('GET', 'POST'):
+        return 405, 'application/json; charset=utf-8', json.dumps({'ok': False, 'error': 'method', 'message': '仅支持 GET 或 POST'}, ensure_ascii=False).encode('utf-8'), 'no-store'
+    env = env or {}
+    secret = str(env.get('HOT_REFRESH_SECRET') or env.get('CRON_SECRET') or '').strip()
+    if not secret:
+        return _fail(503, 'config', '未配置 HOT_REFRESH_SECRET', 'HOT_REFRESH_SECRET is not configured')
+    h = {str(k).lower(): str(v) for k, v in (headers or {}).items()}
+    authorization = h.get('authorization', '')
+    supplied = authorization[7:].strip() if authorization.lower().startswith('bearer ') else ''
+    if not supplied or not hmac.compare_digest(supplied, secret):
+        return _fail(401, 'unauthorized', '没有权限刷新热点', 'Not authorized to refresh events')
+    now = time.time() if now is None else now
+    store = _store(env)
+    if store is None:
+        return _fail(503, 'database', '热点追踪数据库尚未配置', 'The event store is not configured')
+    try:
+        force = str(((query or {}).get('force') or [''])[0]).lower() in ('1', 'true', 'yes')
+        result = _refresh_events(store, env, now, force=force, fetcher=fetcher)
+    except agg.Refused as e:
+        return _fail(502, 'upstream', '热点源暂时不可用：%s' % e, 'The event source is unavailable: %s' % e.en)
+    except Exception:
+        return _fail(503, 'database', '热点追踪数据库不可用，请确认已执行 007_hotlist_events.sql', 'The event store is unavailable; check that migration 007_hotlist_events.sql has been applied')
+    payload = {'ok': True, 'cached': result['cached'], 'updated': int(result['updated'] or 0),
+               'candidate_count': result['candidate_count'], 'stored_count': result['stored_count']}
+    if result['busy']:
+        payload['busy'] = True
+    return 200, 'application/json; charset=utf-8', json.dumps(payload, ensure_ascii=False).encode('utf-8'), 'no-store'
 
 
 def diagnose(pid, env):
@@ -779,7 +1149,7 @@ def handle(query, env, now=None, headers=None):
     if (query.get('detail') or [''])[0] or (query.get('related') or [''])[0] or (query.get('diag') or [''])[0]:
         return _extra(query, env, now)
     if not pid:                                                                # what is on
-        cols = [c for c in COLUMNS if any(plats[k]['col'] == c['id'] for k in on)]
+        cols = [{**c, 'enabled': any(plats[k]['col'] == c['id'] for k in on)} for c in COLUMNS]
         body = json.dumps({'ok': True, 'service': 'shelf-hot', 'columns': cols, 'platforms': [_info(k, plats[k]) for k in on]}, ensure_ascii=False).encode('utf-8')
         return 200, 'application/json; charset=utf-8', body, 'public, max-age=300'
     if pid not in plats or pid not in on:
@@ -788,20 +1158,46 @@ def handle(query, env, now=None, headers=None):
         n = max(1, min(MAX_COUNT, int((query.get('n') or [DEFAULT_COUNT])[0])))
     except ValueError:
         n = DEFAULT_COUNT
+    period = str((query.get('period') or ['day'])[0]).strip().lower()
+    if period not in ('day', 'week'):
+        period = 'day'
     asked = (query.get('region') or [''])[0]
     region = pick_region(plats[pid], env, asked, headers)
     mine = bool(region) and asked.strip().upper() != region                  # the answer depends on who asks (the address, the language): the CDN must not give it to somebody else
-    try:
-        rows, at = entries(pid, now, env, region)
-    except agg.Refused as e:
-        return 502, 'application/json; charset=utf-8', json.dumps({'ok': False, 'error': 'upstream', 'message': '这个榜单现在读不到：%s' % e, 'message_en': 'This list cannot be read right now: %s' % e.en}, ensure_ascii=False).encode('utf-8'), 'no-store'
+    store = _store(env)
+    history = {'available': False, 'complete': False, 'required_days': SNAPSHOT_DAYS, 'snapshots': 0, 'dates': []}
+    if period == 'week':
+        if store is None:
+            rows, at = [], 0
+        else:
+            try:
+                rows, history = store.chart_week(pid, region, now if now is not None else time.time())
+                at = history.get('updated', 0)
+            except Exception:
+                rows, at = [], 0
+        if not history['available']:
+            history = {**history, 'available': False}
+    else:
+        try:
+            rows, at = entries(pid, now, env, region)
+        except agg.Refused as e:
+            return 502, 'application/json; charset=utf-8', json.dumps({'ok': False, 'error': 'upstream', 'message': '这个榜单现在读不到：%s' % e, 'message_en': 'This list cannot be read right now: %s' % e.en}, ensure_ascii=False).encode('utf-8'), 'no-store'
+        if store is not None:
+            try:
+                inserted = store.save_chart(pid, region, at, rows)
+                history = {'available': True, 'complete': False, 'required_days': SNAPSHOT_DAYS,
+                           'snapshots': 1 if inserted else 1, 'dates': [datetime.fromtimestamp(float(at), timezone.utc).date().isoformat()]}
+            except Exception:
+                history = {'available': False, 'complete': False, 'required_days': SNAPSHOT_DAYS, 'snapshots': 0, 'dates': []}
     rows = rows[:n]
     if (query.get('format') or [''])[0] == 'json':
         if (query.get('tr') or [''])[0] == 'zh' and plats[pid]['lang'] == 'en' and translate.provider(env):          # the page is Chinese and the list English: the Chinese of the titles, for a small line under them
             zh = translate.titles(rows, env, persist=False, limit=60)
             rows = [{**r, 'title_zh': zh[r['title']]} if zh.get(r['title']) else r for r in rows]
-        return (200, 'application/json; charset=utf-8', json.dumps({'ok': True, 'platform': pid, **_info(pid, plats[pid]), **({'region': region} if region else {}), 'updated': int(at), 'items': rows}, ensure_ascii=False).encode('utf-8'),
+        return (200, 'application/json; charset=utf-8', json.dumps({'ok': True, 'platform': pid, **_info(pid, plats[pid]), **({'region': region} if region else {}), 'updated': int(at), 'items': rows, 'period': period, 'history': history}, ensure_ascii=False).encode('utf-8'),
                 PRIVATE if mine else CDN)
+    if period == 'week':
+        return _fail(406, 'format', '周榜仅提供 JSON 格式', 'The weekly chart is available as JSON only')
     return 200, 'application/rss+xml; charset=utf-8', rss(pid, plats[pid], rows, now, region).encode('utf-8'), PRIVATE if mine else CDN
 
 

@@ -527,15 +527,15 @@ def decode(body, headers=None):
     return body.decode('utf-8', 'replace')
 
 
-def fetch(url, accept='*/*', max_bytes=MAX_BYTES, headers=None, truncate=False, soft_xml=False):
-    """-> (final address, response headers in lower case, body). Raises Refused, or Unchanged on 304. soft_xml: an XML document that is too long (a podcast's whole history) is cut at the limit, not refused."""
+def fetch(url, accept='*/*', max_bytes=MAX_BYTES, headers=None, truncate=False, soft_xml=False, timeout=None):
+    """-> (final address, lower-case response headers, body). Optional timeout only lowers the normal request limit."""
     check_url(url)
-    timeout = TIMEOUT
+    timeout = min(TIMEOUT, max(0.5, float(timeout))) if timeout is not None else TIMEOUT
     if DEADLINE is not None:                                    # a caller with a time limit of its own (the submit function): the whole reading must end by then
         left = DEADLINE - time.monotonic()
         if left <= 0:
             raise Refused('读取这个网站花的时间太长了', 'Reading this site took too long')
-        timeout = min(TIMEOUT, left)
+        timeout = min(timeout, left)
     req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept': accept, 'Accept-Encoding': 'identity', **(headers or {})})
     handlers = [_Redirect]
     if ALLOW_LOCAL:

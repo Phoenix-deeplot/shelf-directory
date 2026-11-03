@@ -1,6 +1,6 @@
 # Hotlist categories and event tracking (2026-11-02)
 
-Status: approved plan; implementation pending
+Status: implementation complete; awaiting user preview; not merged or deployed
 
 ## User checklist
 
@@ -28,12 +28,12 @@ Status: approved plan; implementation pending
 
 - Start from reviewed existing sources: GDELT DOC for cross-source event discovery; WallStreetCN for Chinese finance; official AI news feeds (OpenAI News etc.) for AI announcements; arXiv remains under learning/research, not AI news.
 - BBC, DW, RFI and other RSS sources require per-source display/redistribution review. Bloomberg is not assumed licensed or stable; WSJ and real-time gold quotes are not treated as free sources.
-- Refresh event feeds on demand with bounded caching; store one daily chart snapshot for a true rolling 7-day chart on Vercel Hobby. The UI must show actual update times. Higher-frequency unattended refresh requires a separate scheduler or plan capability.
+- Public event reads may refresh on demand with a 10-minute throttle and PostgreSQL advisory lock; keep the authenticated refresh route for scheduled invocation. Bound each upstream request to 2.5 seconds, using a backward-compatible optional timeout in `aggregate.py`; store one daily chart snapshot for a true rolling 7-day chart on Vercel Hobby. The UI must show actual update times. Higher-frequency unattended refresh requires a separate scheduler or plan capability.
 - Event candidates are discovered from multiple reports, but surfaced claims link back to sources and are not presented as verified facts. Use source count and freshness as signals, plus manual pin/ignore metadata.
 
 ## Files and tests
 
-- Likely code: `hotapi.py`, `api/hot.py`, new event/refresh API handler(s), `registry/hot.json` only if needed, a new additive `migrations/007_hotlist_events.sql`, and hot API tests.
+- Code: `hotapi.py`, `api/hot.py`, new event/refresh API handlers, `aggregate.py` (optional bounded timeout parameter; default unchanged), a new additive `migrations/007_hotlist_events.sql`, and hot API tests.
 - Keep the migration repeatable and test against an isolated test database; do not run against production.
 - Run hot API unit tests, migration checks, API contract tests, and `git diff --check`; provide local preview only. No push, merge, or deployment.
 
@@ -43,3 +43,13 @@ Status: approved plan; implementation pending
 - Vercel Hobby scheduled jobs run at most daily, so no 15-minute unattended guarantee.
 - Event clustering may merge unrelated finance/conflict stories; preserve source evidence and allow manual ignore/pin.
 - RSS availability is not a redistribution license; keep short excerpts and original links, and check each source's terms.
+
+## Implementation and verification
+
+- API implementation is committed on `codex/hotlist-topics-api` as `a1eb6e4` (`Add hot chart history and event tracking APIs`).
+- Added compatible category migration, daily chart snapshots and 7-day aggregation, event tracking/read/refresh endpoints, and additive migration `migrations/007_hotlist_events.sql`.
+- Public event reads attempt a refresh at most once per 10 minutes under a PostgreSQL advisory lock; stale stored events remain available if refresh fails or another refresh is in progress.
+- The optional 2.5-second source timeout helper in `aggregate.py` is retained with explicit user approval; existing callers keep their prior timeout behavior by default.
+- Verification reported by the implementation branch: `tests.test_hot` + `tests.test_hot_events` (52 tests) and `tests.test_aggregate` (97 tests) passed; syntax checks and `git diff --check` passed.
+- The migration has not been run against any database. Apply it only after merging and reviewing the migration target; no production database was touched.
+- The Zhihu Daily input was switched from Zhihu's latest-news JSON endpoint to the user-requested AnyFeeder RSS endpoint; the output remains a readable, non-ranked feed item.

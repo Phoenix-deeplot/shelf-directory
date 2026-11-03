@@ -1,4 +1,4 @@
-"""Vercel function: GET /api/hot?p=github -> an RSS feed of that platform's hot list right now (GET /api/hot lists what is on). All the logic is in hotapi.py (one directory up). Stores nothing."""
+"""Vercel function: GET /api/hot?p=github -> the platform's current hot list. If PostgreSQL is configured, ranking metadata snapshots are retained for the seven-day view. Logic is in hotapi.py."""
 import os
 import sys
 from http.server import BaseHTTPRequestHandler

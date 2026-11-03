@@ -8,6 +8,7 @@ import sys
 import time
 import unittest
 import xml.etree.ElementTree as ET
+from unittest.mock import patch
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
@@ -21,7 +22,9 @@ WEIBO = {'ok': 1, 'data': {'hotgov': {'word': '#官方置顶#', 'is_gov': 1}, 'r
 ZHIHU = {'data': [{'type': 'hot_list_feed', 'detail_text': '1094 万热度', 'children': [{'type': 'answer', 'thumbnail': 'http://picx.zhimg.com/80/a.jpg'}],
                    'target': {'id': 2096358861804511510, 'title': '为什么……？', 'type': 'question', 'answer_count': 327, 'follower_count': 12, 'excerpt': '摘要 <b>文字</b>'}},
                   {'type': 'hot_list_feed', 'target': {'id': 5, 'title': '一篇文章', 'type': 'article'}}]}
-ZHIHU_DAILY = {'stories': [{'title': '日报的一篇', 'url': 'https://daily.zhihu.com/story/9793540', 'hint': 'Tom · 11 分钟阅读'}, {'title': '外链', 'url': 'https://evil.example/x'}]}
+ZHIHU_DAILY_RSS = ('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>知乎日报</title>'
+                   '<item><title>日报的一篇</title><link>https://daily.zhihu.com/story/9793540</link>'
+                   '<pubDate>Mon, 02 Nov 2026 10:00:00 GMT</pubDate><description>Tom · 11 分钟阅读</description></item></channel></rss>')
 BILI = {'code': 0, 'data': {'list': [{'title': '一个视频', 'bvid': 'BV1C8nH69Ekq', 'owner': {'name': 'UP主'}, 'stat': {'view': 579434}}, {'title': '坏的', 'bvid': 'javascript:1', 'stat': {}}]}}
 TOUTIAO = {'data': [{'ClusterId': 7699707790348045850, 'Title': '头条话题', 'HotValue': '12345678', 'Url': 'https://www.toutiao.com/trending/7699707790348045850/?tracking=1'}, {'ClusterId': 'x', 'Title': '坏'}]}
 DOUYIN = {'data': {'word_list': [{'word': '抖音话题', 'hot_value': 12273749, 'sentence_id': '2714056'}, {'word': '坏的', 'sentence_id': 'x'}]}}
@@ -70,10 +73,10 @@ RSS = ('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title
        '<item><title>Newest one</title><link>https://ex.example/a?utm_source=x&amp;id=1</link><pubDate>Mon, 02 Mar 2026 10:00:00 GMT</pubDate></item>'
        '<item><title>Older one</title><link>https://ex.example/b</link><pubDate>Sun, 01 Mar 2026 10:00:00 GMT</pubDate></item></channel></rss>')
 
-JSONS = {'weibo': WEIBO, 'zhihu': ZHIHU, 'zhihu_daily': ZHIHU_DAILY, 'bilibili': BILI, 'toutiao': TOUTIAO, 'douyin': DOUYIN, 'juejin': JUEJIN, 'v2ex': V2EX, 'netease': NETEASE, 'hackernews': HN, 'lobsters': LOBSTERS, 'devto': DEVTO,
+JSONS = {'weibo': WEIBO, 'zhihu': ZHIHU, 'bilibili': BILI, 'toutiao': TOUTIAO, 'douyin': DOUYIN, 'juejin': JUEJIN, 'v2ex': V2EX, 'netease': NETEASE, 'hackernews': HN, 'lobsters': LOBSTERS, 'devto': DEVTO,
          'ths': THS, 'coingecko': COINGECKO, 'wikipedia': WIKIPEDIA, 'mastodon': MASTODON, 'hf_models': HF_MODELS, 'hf_papers': HF_PAPERS, 'weread_rising': WEREAD, 'openlibrary': OPENLIBRARY, 'gutenberg': GUTENDEX,
          'qqmusic': QQMUSIC, 'apple_pod_cn': APPLE, 'steam': STEAM}
-TEXTS = {'github': (GITHUB, 'text/html; charset=utf-8'), 'gtrends': (GTRENDS, 'application/xml'), 'wechat': (TOPHUB_WECHAT, 'text/html; charset=utf-8'),
+TEXTS = {'github': (GITHUB, 'text/html; charset=utf-8'), 'gtrends': (GTRENDS, 'application/xml'), 'zhihu_daily': (ZHIHU_DAILY_RSS, 'application/rss+xml'), 'wechat': (TOPHUB_WECHAT, 'text/html; charset=utf-8'),
          'xueqiu': (TOPHUB_XUEQIU, 'text/html; charset=utf-8'), 'xiaohongshu': (XIAOHONGSHU, 'text/html; charset=utf-8'), 'producthunt': (RSS, 'application/rss+xml'), 'bbc': (RSS, 'application/rss+xml')}
 FIXTURES = {**{k: (json.dumps(v), 'application/json; charset=utf-8') for k, v in JSONS.items()}, **TEXTS}
 ALL = {'HOT_ENABLE': 'all'}
@@ -155,7 +158,7 @@ class TestParsers(HotBase):
         d, _ = self.items('douyin')
         self.assertEqual((d[0]['title'], d[0]['link'], d[0]['description']), ('抖音话题', 'https://www.douyin.com/hot/2714056', '第 1 名 · 热度 1227.4 万'))
         zd = self.rows('zhihu_daily')
-        self.assertEqual((zd['ranked'], zd['items'][0]['note']), (False, 'Tom · 11 分钟阅读'))       # the daily is not a ranking, and an address that is not Zhihu Daily's is dropped
+        self.assertEqual((zd['ranked'], zd['items'][0]['url'], zd['items'][0]['body']), (False, 'https://daily.zhihu.com/story/9793540', 'Tom · 11 分钟阅读'))
         self.assertEqual(len(zd['items']), 1)
         hn = self.rows('hackernews')['items']
         self.assertEqual((hn[0]['url'], hn[0]['alt'], hn[0]['heat'], hn[0]['note']), ('https://www.sec.gov/x.htm', 'https://news.ycombinator.com/item?id=50242939', '▲ 1,510', '1,480 条评论'))
@@ -299,16 +302,19 @@ class TestWhatIsOn(HotBase):
         st, ctype, body, _ = hotapi.handle({}, {})
         d = json.loads(body)
         self.assertEqual((st, d['service']), (200, 'shelf-hot'))
-        self.assertEqual([c['id'] for c in d['columns']], ['news', 'tech', 'money', 'world', 'ai', 'play'])
+        self.assertEqual([c['id'] for c in d['columns']], ['news', 'tech', 'ai', 'money', 'world', 'entertainment', 'learning', 'media', 'shopping'])
         self.assertEqual([p['id'] for p in d['platforms']], EVERY)
         by = {p['id']: p for p in d['platforms']}
         self.assertEqual((by['weibo']['col'], by['weibo']['ranked'], by['zhihu_daily']['ranked'], by['producthunt']['ranked']), ('news', True, False, False))
         self.assertEqual((by['wechat']['via'], by['xiaohongshu']['via'], 'via' in by['weibo']), ('tophub.today', 'rebang.today', False))
-        self.assertEqual({k for k, p in by.items() if p.get('read')} - {k for k, v in hotapi.PLATFORMS.items() if v['feed']}, {'zhihu_daily', 'devto', 'wikipedia', 'wikipedia_zh', 'juejin', 'v2ex', 'lobsters', 'hackernews', 'hf_models', 'hf_papers', 'kr36', 'mastodon'})     # what the reader may read in the page: news and blogs (feeds) and the lists whose rows are articles that were tried, not Product Hunt or the platforms' own pages
+        self.assertEqual({p['id']: p['col'] for p in d['platforms'] if p['id'] in ('openai', 'arxiv_ai', 'weread_novel', 'qidian', 'netease', 'bilibili')},
+                         {'openai': 'ai', 'arxiv_ai': 'learning', 'weread_novel': 'entertainment', 'qidian': 'entertainment', 'netease': 'media', 'bilibili': 'media'})
+        self.assertEqual({k for k, p in by.items() if p.get('read')} - {k for k, v in hotapi.PLATFORMS.items() if v['feed']}, {'devto', 'wikipedia', 'wikipedia_zh', 'juejin', 'v2ex', 'lobsters', 'hackernews', 'hf_models', 'hf_papers', 'kr36', 'mastodon'})     # article-reading lists that are not feeds
         self.assertTrue(by['theverge']['read'] and by['dw']['read'] and 'read' not in by['bbc'] and 'read' not in by['bloomberg'] and 'read' not in by['producthunt'] and 'read' not in by['weibo'] and 'read' not in by['github'])
         self.assertTrue(all(p['col'] in [c['id'] for c in d['columns']] for p in d['platforms']))
         gone = json.loads(hotapi.handle({}, {'HOT_DISABLE': ','.join(k for k, v in hotapi.PLATFORMS.items() if v['col'] == 'money')})[2])
-        self.assertNotIn('money', [c['id'] for c in gone['columns']])                                 # a column with nothing in it is not offered
+        self.assertFalse(next(c for c in gone['columns'] if c['id'] == 'money')['enabled'])             # empty columns remain in the stable catalogue but can be hidden by the UI
+        self.assertFalse(next(c for c in d['columns'] if c['id'] == 'shopping')['enabled'])             # shopping is optional and has no source by default
 
     def test_a_request_can_only_choose_among_the_fixed_platforms(self):
         for pid in ('../x', 'https://evil.example/', 'weibo/../../x', 'GITHUB', 'a' * 500, 'youtube'):
@@ -327,7 +333,9 @@ class TestWhatIsOn(HotBase):
         self.assertEqual({k for k, v in hotapi.PLATFORMS.items() if v.get('needs')}, {'youtube'})
         self.assertEqual(len({v['name'] for v in hotapi.PLATFORMS.values()}), len(hotapi.PLATFORMS))
         for c in hotapi.COLUMNS:
-            self.assertGreaterEqual(len([1 for v in hotapi.PLATFORMS.values() if v['col'] == c['id']]), 5, c['id'])
+            n = len([1 for v in hotapi.PLATFORMS.values() if v['col'] == c['id']])
+            minimum = {'news': 3, 'tech': 10, 'ai': 5, 'money': 5, 'world': 8, 'entertainment': 8, 'learning': 10, 'media': 8, 'shopping': 0}[c['id']]
+            self.assertGreaterEqual(n, minimum, c['id'])
 
 
 class TestKeepingAndFailing(HotBase):
@@ -531,6 +539,7 @@ class TestTheOwnersLists(HotBase):
         self.assertEqual((c['zhihu-hot-x']['url'], c['zhihu-hot-x']['ranked'], c['zhihu-hot-x']['via']), ('https://rsshub.example.com/zhihu/hot', True, 'RSSHub'))
         self.assertEqual((c['my-feed']['read'], c['zhihu-hot-x']['read'], c['my-tophub']['read']), (True, False, False))        # a feed in time order is articles; a ranking is the platform's pages
         self.assertEqual((c['my-tophub']['url'], c['my-tophub']['via'], c['my-tophub']['name_en']), ('https://tophub.today/n/AbCdEf12345', 'tophub.today', 'Mine'))
+        self.assertEqual(c['my-tophub']['col'], 'media')             # legacy `play` config is accepted as the new media category
         self.assertEqual(list(hotapi.custom({})), ['my-feed', 'my-tophub'])                           # no RSSHub of the owner's: no route of it
         self.site.put('/myfeed', RSS, 'application/rss+xml')
         r = self.rows('my-feed', env)
@@ -585,7 +594,10 @@ class TestHttp(HotBase):
         old = os.environ.copy()
         os.environ.update(env or ALL)
         try:
-            hotapi.respond(h, os.environ, method)
+            # Never let this HTTP test fixture inherit a real/local database URL;
+            # snapshot tests use an isolated in-memory store in test_hot_events.
+            with patch.object(hotapi, '_store', return_value=None):
+                hotapi.respond(h, os.environ, method)
         finally:
             os.environ.clear()
             os.environ.update(old)
@@ -598,7 +610,7 @@ class TestHttp(HotBase):
         self.assertEqual(o['headers']['Access-Control-Allow-Origin'], '*')
         self.assertEqual(int(o['headers']['Content-Length']), len(o['body']))
         idx = json.loads(self.serve('/api/hot')['body'])                        # what a page reads to know which lists exist
-        self.assertTrue(idx['ok'] and {'github', 'juejin'} <= {x['id'] for x in idx['platforms']} and len(idx['columns']) == 6)
+        self.assertTrue(idx['ok'] and {'github', 'juejin'} <= {x['id'] for x in idx['platforms']} and len(idx['columns']) == 9)
         ET.fromstring(o['body'])
         for m in ('POST', 'PUT', 'DELETE'):
             self.assertEqual(self.serve('/api/hot?p=v2ex', m)['status'], 405)
