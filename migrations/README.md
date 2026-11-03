@@ -31,4 +31,4 @@ does not touch `ops` or `public`:
 \i migrations/006_library_book_chapters.sql
 ```
 
-Then, in your own terminal with `OPS_DATABASE_URL` set, `python bookapi.py check-db` writes one row, reads it back and deletes it, so you know the function can use the table.
+Then `python bookapi.py check-db` (the address from this terminal, or from `.env.local` / `.env` of the project folder, or `--env-file <file>`) says step by step what is missing: the address, the driver (`pip install "psycopg[binary]"`), the connection, the table; at the end it writes one row, reads it back and deletes it. `python bookapi.py load [--only <book id>]` then reads the chapters of the books that may be kept straight into the table.

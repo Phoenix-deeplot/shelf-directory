@@ -216,6 +216,7 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
 
 - 站长手挑的、可以免费读的书和刊物：公有领域的小说和经典（红楼梦、福尔摩斯、傲慢与偏见……）、过刊（科学杂志、新青年）、开放获取的期刊和教材（SICP、Pro Git、eLife、OpenStax）。它们是目录里的一个书架（编号 `books`，名字 `精选图书`，可用 `registry/config.json` 的 `"books_title"` 改），默认标成站长推荐。
 - 一本书一个条目：`id`（小写字母、数字、`-`）、`title`、`author`、`lang`（`zh`/`en`）、`kind`（`novel` `story` `poetry` `classic` `magazine` `journal` `textbook` `essay` `library`）、`tags`、`summary`、`license`（`public-domain` `cc0` `cc-by` `cc-by-sa` `cc-by-nc` `cc-by-nc-sa` `free-to-read`，只收任何人都能免费读的）、`source`（来源站点）、`read`（https 地址）。可选：`ch`（`{"s":"zh.wikisource.org","p":"紅樓夢/","n":["第001回",…]}`，最多 300 章，章节地址是 `https://<s>/wiki/<p><n>`，空格写成 `_`）或 `"readable": true`（这个地址本身就是正文页）：有这两项的书页面可以直接在站内读。不合格的条目被跳过并在构建日志里说明，别的照常。
+- **章节标题**：`python -X utf8 books_tool.py titles [--only 书编号] [--force] [--dry]` 从维基文库每章页面的开头读出标题（“第一回　甄士隱夢幻識通靈　賈雨村風塵懷閨秀”→“甄士隱夢幻識通靈 賈雨村風塵懷閨秀”），一次读 25 页、有间隔，写进 `ch.t`（和 `ch.n` 一样长）；读到的章不到六成的书不写（英文书的章名就是 Chapter N，也不写）；已有标题的书不动，`--force` 重读，`--dry` 只看不写。页面的章节面板、章末按钮、书的窗口都会显示标题，没有标题就只显示章名。
 - 维护：`python -X utf8 books_tool.py fill` 去 Wikisource 把 `ch.n` 重新补全，`python -X utf8 books_tool.py check` 逐个打开 `read` 地址，报告打不开的（有的网站会拦脚本，报 403 时请再用浏览器看一眼）。测试：`tests/test_books.py`（含对真实清单的检查：不重复、领域和语种覆盖、体积）。
 - 不收 Z-Library 这类侵权站点；有版权的书只放作者自己放在网上免费读的。
 
@@ -227,8 +228,9 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
 - **两层存储**：热层 Redis（读过的章都在，30 天，被读到就再续；长期保存的书 14 天，过期了从长期层补回）；长期层 PostgreSQL（书单里 `"keep": true` 的书，第一次读到就写进去，不过期；别的书，**同一章被读到第 3 次**——`BOOK_PROMOTE_READS`——也自动升到长期层，冷门的、变化快的、不出名的就留在热层里到期消失）。读的顺序：CDN → Redis → PostgreSQL（命中就回填 Redis）→ 原站。现有 54 本都写了 `"keep": true`；以后新增的默认不写，等读得多了自己升层，或者你在书单里加 `"keep": true`。
 - **CDN**：成功的回答带 `Cache-Control: public, max-age=300, s-maxage=3600, stale-while-revalidate=86400` 和 `Vary: Origin`，同一章被很多人读时一小时内连数据库都不用查；出错一律 `no-store`。
 - **防护**：同一章第一次被很多人同时读，只放一个去原站（锁 30 秒），别的稍等再取；一个访客 10 分钟最多让服务读 30 次原站（`BOOK_SOURCE_PER_10MIN`；命中缓存的不算）；单章正文最多 40 万字符；缓存键带正文提取的版本（`bookapi.PARSER`），改了提取方法就自动重读。Redis 或 PostgreSQL 出问题都只当“没有”，不会让读者读不了书。
-- **设置**：Redis 用现有的 `UPSTASH_REDIS_REST_URL` / `_TOKEN`（或 `KV_REST_API_URL` / `_TOKEN`）；PostgreSQL 用 `OPS_DATABASE_URL`（或 `POSTGRES_URL`），先在数据库里执行一次 `migrations/006_library_book_chapters.sql`（只建一个 `library` schema 和一张表 `library.book_chapters`，不碰 `ops`）；然后设好环境变量、推送、`vercel --prod`。两个都不配也能读，只是没有共享存储。**验证数据库**：在你自己的终端里设好 `OPS_DATABASE_URL`，运行 `python bookapi.py check-db`，它写一行再读回再删掉，告诉你表能不能用（口令只在你自己的终端里，不会出现在输出里）。
-- **预热**（可选）：`python -X utf8 books_tool.py warm [--only 书编号]` 礼貌地逐章请求线上服务，让第一批读者也秒开；碰到“读得太频繁”就停，过十分钟再来。
+- **设置**：Redis 用现有的 `UPSTASH_REDIS_REST_URL` / `_TOKEN`（或 `KV_REST_API_URL` / `_TOKEN`）；PostgreSQL 用 `OPS_DATABASE_URL`（或 `POSTGRES_URL`），先在数据库里执行一次 `migrations/006_library_book_chapters.sql`（只建一个 `library` schema 和一张表 `library.book_chapters`，不碰 `ops`）；然后设好环境变量、推送、`vercel --prod`。两个都不配也能读，只是没有共享存储。**验证数据库**：`python bookapi.py check-db` 一步一步告诉你哪里没好：有没有数据库地址（在这个终端里、或这个文件夹的 `.env.local` / `.env` 里、或 `--env-file 文件`；读到了哪个设置名，不会打印地址和口令）→ 有没有装驱动（没有就 `pip install "psycopg[binary]"`）→ 连不连得上 → 表在不在（不在就执行迁移 006）→ 写一行再读回再删掉。每一步前面标 `OK` 或 `FIX`。服务的 `GET /api/book`（不带参数）也会在没有长期层时说原因：`durable_why` 是 `no-url` 或 `no-driver`。注意：**读书时自动写数据库只在服务（线上，或本机的 `vercel dev`）收到读章节的请求时发生**，并且要有地址、驱动和表；缺哪个都不报错，只是没有长期层。
+- **直接把小说读进数据库**：`python -X utf8 bookapi.py load [--only 书编号]`——不需要 Vercel、不需要 Redis：它从原站把可以存在服务器上的书（授权允许转载的，`--only` 指定一本）逐章读下来，直接写进 PostgreSQL（已经在的章不动，每章间隔约 0.6 秒，连续失败 8 次就停），先做一遍 `check-db` 的检查；更新了书单、想让新书进库时用它。
+- **预热**（可选，要有一个已经在运行的服务）：`python -X utf8 books_tool.py warm [--api 地址] [--only 书编号]` 礼貌地逐章请求服务，让第一批读者也秒开；默认问线上的 `https://adminbook.zhitree.cn/api/book`，本机的 `vercel dev` 用 `--api http://localhost:3000/api/book`；碰到“读得太频繁”就停，过十分钟再来。
 - 测试：`tests/test_bookapi.py`（授权闸门、章节地址、两层存储和升层、过期后从长期层补回、不配 Redis / PostgreSQL 的退化、锁、限流、出错不存、HTTP 头和来源）；PostgreSQL 的 SQL 用假游标检查，真实数据库要你迁移后用 `check-db` 验证。
 
 ### B7. 来源状态（固定 / 动态 / 试读 / 暂停）
