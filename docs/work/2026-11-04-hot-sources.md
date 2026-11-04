@@ -1,6 +1,6 @@
 # 热点事件恢复与热榜来源补充（2026-11-04）
 
-状态：实现中；未合并、未推送、未部署。小程序榜依用户指示搁置。
+状态：已合并（2026-11-04，用户说“除了小程序不合并，其他都合并”）；未推送、未部署。小程序榜依用户指示搁置。
 
 ## 1. 任务清单（用户）
 
@@ -73,6 +73,7 @@
 
 ## 4. 合并记录
 
-- 合并顺序：待用户明确要求合并后填写。
-- 合并后的测试结果：待填写。
-- 删除的分支和 worktree：待填写。
+- 合并顺序（2026-11-04，`--no-ff`，没推送、没部署）：`codex/hot-seo-sources` 直接合进 master（master 在它的分叉点之后没有改动别的文件，没有冲突；合并后的文件树和分支完全一致）。
+- 合并后的测试结果：`tests` 里全部 24 个模块、724 个单测，723 个通过；失败的 1 个是 `tests.test_hotdetail … test_diag_says_why_a_platform_cannot_be_reached_from_here`（知乎的 host 已经是 `plink.anyfeeder.com`，测试还写着 `news-at.zhihu.com`），在合并前的 master 上就一样失败，不是这次带来的。热榜两个模块 `tests.test_hot`、`tests.test_hot_events` 都通过。
+- 删除的分支和 worktree：`codex/hot-seo-sources` 和 `E:\Ztree\wt\codex-hot-seo-sources`。`codex/hotlist-topics-api` 早就合并过，它的 worktree `E:\Ztree\wt\codex-hotlist-topics-api` 还在，这次没动。
+- 上线要用户做：shelf-directory 的部署才会让热榜有 App Store / Polymarket、事件接口失败时返回 502（不再是 200 空数据）；X 来源要在服务端环境变量里设 `X_BEARER_TOKEN`（未设置时不列出，密钥不进仓库）；事件接口还需要线上数据库已经执行 `migrations/007_hotlist_events.sql`（这个我没法从这里确认）。
