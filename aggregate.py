@@ -2135,9 +2135,10 @@ def build():
     out = {}                                                # relative path -> text
     out.update(post_pages)
     columns = load_columns(ids)
+    booklists = load_booklists(items)
     out['directory.json'] = json.dumps({'spec': 1, 'title': cfg.get('title') or 'Shelf directory', 'repo': repo, 'submit_api': str(cfg.get('submit_api') or '').strip(),
                                         **({'feed_api': str(cfg['feed_api']).strip()} if str(cfg.get('feed_api') or '').strip() else {}), 'generated': day, 'base': base, 'count': len(items), 'paused': paused, 'types': types, 'shelves': shelf_list,
-                                        'topics': load_topics(), **({'columns': columns} if columns else {}), 'tags': tags[:300], 'feeds': {'all': 'feed/all', 'type': 'feed/type/{type}', 'tag': 'feed/tag/{slug}', 'shelf': 'feed/shelf/{id}'},
+                                        'topics': load_topics(), **({'columns': columns} if columns else {}), **({'booklists': booklists} if booklists else {}), 'tags': tags[:300], 'feeds': {'all': 'feed/all', 'type': 'feed/type/{type}', 'tag': 'feed/tag/{slug}', 'shelf': 'feed/shelf/{id}'},
                                         'items': items}, ensure_ascii=False, separators=(',', ':')) + '\n'
     title = cfg.get('title') or 'Shelf directory'
     feed_title = str(cfg.get('feed_title') or '').strip() or title                    # (what a feed reader shows as the name of the feeds, and of the list of shelves: "title" is the name of the directory itself)
@@ -2279,6 +2280,71 @@ def load_books(log=print):
             log('build: books: %s: ch.t must be a list with a title (60 characters at most) for each of the %d chapters: the titles are left out' % (bid, len(b['ch'].get('n') or [])))
         seen.add(bid)
         out.append(item)
+    return out
+
+
+# ----------------------------------------------------------------------- the book lists (registry/booklists.json, made by hand): themed lists of picked books, each book with a line on why
+BOOKLIST_MAX, BOOKLIST_BOOKS_MAX = 12, 60
+
+
+def booklists_path():
+    return os.path.join(ROOT, 'registry', 'booklists.json')
+
+
+def _both_languages(v, n):
+    """A text in the two languages of the page: a string (the same for both) or {"zh", "en"}; a language that is missing is filled from the other one. -> {"zh", "en"}, or None when there is none at all."""
+    if isinstance(v, str):
+        v = {'zh': v, 'en': v}
+    if not isinstance(v, dict):
+        return None
+    zh, en = clean(v.get('zh'), n), clean(v.get('en'), n)
+    if not zh and not en:
+        return None
+    return {'zh': zh or en, 'en': en or zh}
+
+
+def load_booklists(items, log=print):
+    """-> the lists of the directory: [{"id", "name": {zh, en}, "blurb": {zh, en}, "books": [{"id": the id of the item in the directory, "why": {zh, en}}]}]. A book is named by its id in registry/books.json
+    ("bid"); one that the directory does not have (left out of books.json, or not well made) is left out of the list and said; a list with fewer than two books left is left out. The build goes on."""
+    d = read_json(booklists_path(), [])
+    out, seen = [], set()
+    if not isinstance(d, list):
+        log('build: registry/booklists.json must be a list: ignored')
+        return out
+    by_bid = {i['bid']: i['id'] for i in items if i.get('bid')}
+    for l in d:
+        lid = (l.get('id') if isinstance(l, dict) else '') or '?'
+        if not isinstance(l, dict) or not BOOK_ID.match(str(l.get('id') or '')):
+            log('build: booklists: %s: the id must be a slug (a-z, 0-9, -) (left out)' % lid)
+            continue
+        if lid in seen:
+            log('build: booklists: %s: the same id twice (left out)' % lid)
+            continue
+        name, blurb = _both_languages(l.get('name'), 40), _both_languages(l.get('blurb'), 120)
+        if not name:
+            log('build: booklists: %s: a name is needed (left out)' % lid)
+            continue
+        rows, ids = [], set()
+        for b in (l.get('books') if isinstance(l.get('books'), list) else [])[:BOOKLIST_BOOKS_MAX]:
+            bid = str((b.get('id') if isinstance(b, dict) else b) or '')
+            if bid not in by_bid:
+                log('build: booklists: %s: the book "%s" is not in the directory (left out of the list)' % (lid, bid))
+                continue
+            if by_bid[bid] in ids:
+                continue
+            ids.add(by_bid[bid])
+            row = {'id': by_bid[bid]}
+            why = _both_languages(b.get('why'), 80) if isinstance(b, dict) else None
+            if why:
+                row['why'] = why
+            rows.append(row)
+        if len(rows) < 2:
+            log('build: booklists: %s: fewer than two books are there (left out)' % lid)
+            continue
+        seen.add(lid)
+        out.append({'id': lid, 'name': name, **({'blurb': blurb} if blurb else {}), 'books': rows})
+        if len(out) >= BOOKLIST_MAX:
+            break
     return out
 
 
