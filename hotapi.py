@@ -58,6 +58,7 @@ COLUMNS = [
     {'id': 'entertainment', 'name': '娱乐', 'name_en': 'Entertainment'},
     {'id': 'learning', 'name': '学习与专业提升', 'name_en': 'Learning & growth'},
     {'id': 'media', 'name': '影音与社区', 'name_en': 'Media & communities'},
+    {'id': 'apps_games', 'name': '应用与游戏', 'name_en': 'Apps & games'},
     {'id': 'shopping', 'name': '购物', 'name_en': 'Shopping', 'default': False},
 ]
 COLUMN_IDS = [c['id'] for c in COLUMNS]
@@ -783,15 +784,15 @@ PLATFORMS = {
     'france24': P('world', 'France 24（英文）', 'France 24 (English)', 'https://www.france24.com/en/', 'https://www.france24.com/en/rss', lang='en'),
     'conversation': P('world', 'The Conversation（学者写时事）', 'The Conversation', 'https://theconversation.com/global', 'https://theconversation.com/global/articles.atom', lang='en'),
     # ------------------------------------------------------------ AI 与学术
-    'hf_papers': P('learning', 'Hugging Face 每日论文', 'Hugging Face daily papers', 'https://huggingface.co/papers', 'https://huggingface.co/api/daily_papers?limit=50', p_hf_papers, lang='en', read=True),
-    'hf_models': P('ai', 'Hugging Face 热门模型', 'Hugging Face trending models', 'https://huggingface.co/models?sort=trending', 'https://huggingface.co/api/models?sort=trendingScore&limit=50', p_hf_models, lang='en', read=True),
-    'arxiv_ai': P('learning', 'arXiv · cs.AI', 'arXiv · cs.AI', 'https://arxiv.org/list/cs.AI/new', 'https://rss.arxiv.org/rss/cs.AI', lang='en'),
-    'arxiv_cl': P('learning', 'arXiv · cs.CL', 'arXiv · cs.CL', 'https://arxiv.org/list/cs.CL/new', 'https://rss.arxiv.org/rss/cs.CL', lang='en'),
-    'openai': P('ai', 'OpenAI 动态', 'OpenAI news', 'https://openai.com/news/', 'https://openai.com/news/rss.xml', lang='en', read=False),
+    'hf_papers': P('learning', 'Hugging Face 每日论文', 'Hugging Face daily papers', 'https://huggingface.co/papers', 'https://huggingface.co/api/daily_papers?limit=50', p_hf_papers, lang='en', read=True, track='research', source_tier='primary'),
+    'hf_models': P('ai', 'Hugging Face 热门模型', 'Hugging Face trending models', 'https://huggingface.co/models?sort=trending', 'https://huggingface.co/api/models?sort=trendingScore&limit=50', p_hf_models, lang='en', read=True, track='applications', source_tier='primary'),
+    'arxiv_ai': P('learning', 'arXiv · cs.AI', 'arXiv · cs.AI', 'https://arxiv.org/list/cs.AI/new', 'https://rss.arxiv.org/rss/cs.AI', lang='en', track='research', source_tier='primary'),
+    'arxiv_cl': P('learning', 'arXiv · cs.CL', 'arXiv · cs.CL', 'https://arxiv.org/list/cs.CL/new', 'https://rss.arxiv.org/rss/cs.CL', lang='en', track='research', source_tier='primary'),
+    'openai': P('ai', 'OpenAI 动态', 'OpenAI news', 'https://openai.com/news/', 'https://openai.com/news/rss.xml', lang='en', read=False, track='vendor', source_tier='primary'),
     'mitnews': P('learning', 'MIT 新闻', 'MIT News', 'https://news.mit.edu/', 'https://news.mit.edu/rss/feed', lang='en'),
-    'qbitai': P('ai', '量子位', 'QbitAI', 'https://www.qbitai.com/', 'https://www.qbitai.com/feed'),
-    'mit_ai': P('ai', 'MIT Technology Review · AI', 'MIT Technology Review · AI', 'https://www.technologyreview.com/topic/artificial-intelligence/', 'https://www.technologyreview.com/topic/artificial-intelligence/feed', lang='en'),
-    'techcrunch_ai': P('ai', 'TechCrunch · AI', 'TechCrunch · AI', 'https://techcrunch.com/category/artificial-intelligence/', 'https://techcrunch.com/category/artificial-intelligence/feed/', lang='en'),
+    'qbitai': P('ai', '量子位', 'QbitAI', 'https://www.qbitai.com/', 'https://www.qbitai.com/feed', track='vendor', source_tier='secondary'),
+    'mit_ai': P('ai', 'MIT Technology Review · AI', 'MIT Technology Review · AI', 'https://www.technologyreview.com/topic/artificial-intelligence/', 'https://www.technologyreview.com/topic/artificial-intelligence/feed', lang='en', track='vendor', source_tier='secondary'),
+    'techcrunch_ai': P('ai', 'TechCrunch · AI', 'TechCrunch · AI', 'https://techcrunch.com/category/artificial-intelligence/', 'https://techcrunch.com/category/artificial-intelligence/feed/', lang='en', track='vendor', source_tier='secondary'),
     'nature': P('learning', 'Nature 新闻', 'Nature', 'https://www.nature.com/nature/articles?type=news', 'https://www.nature.com/nature.rss', lang='en'),
     'science_news': P('learning', 'Science 新闻', 'Science news', 'https://www.science.org/news', 'https://www.science.org/rss/news_current.xml', lang='en', read=False),
     'physorg': P('learning', 'Phys.org', 'Phys.org', 'https://phys.org/', 'https://phys.org/rss-feed/', lang='en'),
@@ -812,12 +813,12 @@ PLATFORMS = {
     'apple_pod_cn': P('media', 'Apple 播客榜 · 中国', 'Apple Podcasts · China', 'https://podcasts.apple.com/cn/charts', APPLE % 'cn/podcasts/top/50/podcasts.json', p_apple, detail=True),
     'apple_pod_us': P('media', 'Apple 播客榜 · 美国', 'Apple Podcasts · US', 'https://podcasts.apple.com/us/charts', APPLE % 'us/podcasts/top/50/podcasts.json', p_apple, lang='en', detail=True),
     'apple_music_us': P('media', 'Apple Music 最多播放 · 美国', 'Apple Music most played · US', 'https://music.apple.com/us/new', APPLE % 'us/music/most-played/50/songs.json', p_apple, lang='en'),
-    'appstore_free_us': P('tech', 'App Store 免费榜 · 美国', 'App Store Top Free · US', 'https://apps.apple.com/us/charts/iphone/top-free-apps/36', APPLE % 'us/apps/top-free/50/apps.json', p_apple, lang='en'),
-    'appstore_free_cn': P('tech', 'App Store 免费榜 · 中国', 'App Store Top Free · China', 'https://apps.apple.com/cn/charts/iphone/top-free-apps/36', APPLE % 'cn/apps/top-free/50/apps.json', p_apple),
+    'appstore_free_us': P('apps_games', 'App Store 免费榜 · 美国', 'App Store Top Free · US', 'https://apps.apple.com/us/charts/iphone/top-free-apps/36', APPLE % 'us/apps/top-free/50/apps.json', p_apple, lang='en'),
+    'appstore_free_cn': P('apps_games', 'App Store 免费榜 · 中国', 'App Store Top Free · China', 'https://apps.apple.com/cn/charts/iphone/top-free-apps/36', APPLE % 'cn/apps/top-free/50/apps.json', p_apple),
     'polymarket': P('news', 'Polymarket 预测市场热度', 'Polymarket market activity', 'https://polymarket.com/', 'https://gamma-api.polymarket.com/events?active=true&closed=false&order={POLY_ORDER}&ascending=false&limit=50', p_polymarket, lang='en'),
     'x_trending': P('news', 'X 热门讨论（关键词）', 'X popular discussions (curated query)', 'https://x.com/explore', 'https://api.x.com/2/tweets/search/recent?query=%28Iran%20OR%20Israel%20OR%20Ukraine%20OR%20gold%20OR%20OpenAI%20OR%20Anthropic%20OR%20DeepSeek%29%20-lang%3Aund%20-is%3Arepost&max_results=50&tweet.fields=created_at%2Cpublic_metrics%2Cauthor_id&expansions=author_id&user.fields=username', p_x, lang='en', needs=['X_BEARER_TOKEN'], headers={'Authorization': 'Bearer {X_BEARER_TOKEN}'}),
-    'steam': P('entertainment', 'Steam 热销', 'Steam top sellers', 'https://store.steampowered.com/search/?filter=topsellers', 'https://store.steampowered.com/api/featuredcategories?cc=cn&l=schinese', p_steam),
-    'taptap': TH('entertainment', 'TapTap 热门游戏', 'TapTap hot games', 'https://www.taptap.cn/top/download', '6ARe1k2v7n', ('taptap.cn', 'taptap.io')),
+    'steam': P('apps_games', 'Steam 热销', 'Steam top sellers', 'https://store.steampowered.com/search/?filter=topsellers', 'https://store.steampowered.com/api/featuredcategories?cc=cn&l=schinese', p_steam),
+    'taptap': TH('apps_games', 'TapTap 热门游戏', 'TapTap hot games', 'https://www.taptap.cn/top/download', '6ARe1k2v7n', ('taptap.cn', 'taptap.io')),
     'douban_movie': TH('entertainment', '豆瓣新片榜', 'Douban new films', 'https://movie.douban.com/chart', 'mDOvnyBoEB', ('douban.com',)),
     'longreads': P('learning', 'Longreads 长文精选', 'Longreads', 'https://longreads.com/', 'https://longreads.com/feed/', lang='en'),
     'psyche': P('learning', 'Psyche（观念与生活）', 'Psyche', 'https://psyche.co/', 'https://psyche.co/feed', lang='en'),
@@ -951,6 +952,10 @@ def _info(k, v):
         d['detail'] = True
     if v.get('kw'):
         d['kw'] = True
+    if v.get('track') in {'vendor', 'research', 'tools', 'applications'}:
+        d['track'] = v['track']
+    if v.get('source_tier') in {'primary', 'secondary'}:
+        d['source_tier'] = v['source_tier']
     if v.get('regions'):
         d['regions'] = list(v['regions'])
     return d
@@ -1197,8 +1202,15 @@ def handle(query, env, now=None, headers=None):
         return _extra(query, env, now)
     if not pid:                                                                # what is on
         cols = [{**c, 'enabled': any(plats[k]['col'] == c['id'] for k in on)} for c in COLUMNS]
-        body = json.dumps({'ok': True, 'service': 'shelf-hot', 'columns': cols, 'platforms': [_info(k, plats[k]) for k in on]}, ensure_ascii=False).encode('utf-8')
-        return 200, 'application/json; charset=utf-8', body, 'public, max-age=300'
+        h = {str(k).lower(): str(v) for k, v in (headers or {}).items()}
+        language = str((query.get('lang') or [h.get('accept-language', 'zh')])[0]).split(',')[0].strip()[:35]
+        language = language if re.fullmatch(r'[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8}){0,2}', language) else 'zh'
+        country = (h.get('x-vercel-ip-country') or '').strip().upper()
+        locale_hint = {'language': language}
+        if re.fullmatch(r'[A-Z]{2}', country):
+            locale_hint['country_code'] = country
+        body = json.dumps({'ok': True, 'service': 'shelf-hot', 'locale_hint': locale_hint, 'columns': cols, 'platforms': [_info(k, plats[k]) for k in on]}, ensure_ascii=False).encode('utf-8')
+        return 200, 'application/json; charset=utf-8', body, PRIVATE if 'country_code' in locale_hint else 'public, max-age=300'
     if pid not in plats or pid not in on:
         return 404, 'application/json; charset=utf-8', json.dumps({'ok': False, 'error': 'platform', 'message': '没有这个榜单', 'message_en': 'No such list'}).encode('utf-8'), 'no-store'
     try:

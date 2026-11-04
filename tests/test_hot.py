@@ -332,7 +332,7 @@ class TestWhatIsOn(HotBase):
         st, ctype, body, _ = hotapi.handle({}, {})
         d = json.loads(body)
         self.assertEqual((st, d['service']), (200, 'shelf-hot'))
-        self.assertEqual([c['id'] for c in d['columns']], ['news', 'tech', 'ai', 'money', 'world', 'entertainment', 'learning', 'media', 'shopping'])
+        self.assertEqual([c['id'] for c in d['columns']], ['news', 'tech', 'ai', 'money', 'world', 'entertainment', 'learning', 'media', 'apps_games', 'shopping'])
         self.assertEqual([p['id'] for p in d['platforms']], EVERY)
         by = {p['id']: p for p in d['platforms']}
         self.assertEqual((by['weibo']['col'], by['weibo']['ranked'], by['zhihu_daily']['ranked'], by['producthunt']['ranked']), ('news', True, False, False))
@@ -346,6 +346,14 @@ class TestWhatIsOn(HotBase):
         gone = json.loads(hotapi.handle({}, {'HOT_DISABLE': ','.join(k for k, v in hotapi.PLATFORMS.items() if v['col'] == 'money')})[2])
         self.assertFalse(next(c for c in gone['columns'] if c['id'] == 'money')['enabled'])             # empty columns remain in the stable catalogue but can be hidden by the UI
         self.assertFalse(next(c for c in d['columns'] if c['id'] == 'shopping')['enabled'])             # shopping is optional and has no source by default
+
+    def test_index_locale_hint_contains_only_edge_country_and_is_private_cached(self):
+        status, _, body, cache = hotapi.handle({}, {}, headers={'x-vercel-ip-country': 'de', 'accept-language': 'ja-JP,ja;q=0.9'})
+        index = json.loads(body)
+        self.assertEqual(status, 200)
+        self.assertEqual(index['locale_hint'], {'language': 'ja-JP', 'country_code': 'DE'})
+        self.assertEqual(cache, hotapi.PRIVATE)
+        self.assertNotIn('ip', index['locale_hint'])
 
     def test_a_request_can_only_choose_among_the_fixed_platforms(self):
         for pid in ('../x', 'https://evil.example/', 'weibo/../../x', 'GITHUB', 'a' * 500, 'youtube'):
@@ -365,7 +373,7 @@ class TestWhatIsOn(HotBase):
         self.assertEqual(len({v['name'] for v in hotapi.PLATFORMS.values()}), len(hotapi.PLATFORMS))
         for c in hotapi.COLUMNS:
             n = len([1 for v in hotapi.PLATFORMS.values() if v['col'] == c['id']])
-            minimum = {'news': 3, 'tech': 10, 'ai': 5, 'money': 5, 'world': 8, 'entertainment': 8, 'learning': 10, 'media': 8, 'shopping': 0}[c['id']]
+            minimum = {'news': 3, 'tech': 10, 'ai': 5, 'money': 5, 'world': 8, 'entertainment': 8, 'learning': 10, 'media': 8, 'apps_games': 3, 'shopping': 0}[c['id']]
             self.assertGreaterEqual(n, minimum, c['id'])
 
 
@@ -641,7 +649,7 @@ class TestHttp(HotBase):
         self.assertEqual(o['headers']['Access-Control-Allow-Origin'], '*')
         self.assertEqual(int(o['headers']['Content-Length']), len(o['body']))
         idx = json.loads(self.serve('/api/hot')['body'])                        # what a page reads to know which lists exist
-        self.assertTrue(idx['ok'] and {'github', 'juejin'} <= {x['id'] for x in idx['platforms']} and len(idx['columns']) == 9)
+        self.assertTrue(idx['ok'] and {'github', 'juejin'} <= {x['id'] for x in idx['platforms']} and len(idx['columns']) == 10)
         ET.fromstring(o['body'])
         for m in ('POST', 'PUT', 'DELETE'):
             self.assertEqual(self.serve('/api/hot?p=v2ex', m)['status'], 405)

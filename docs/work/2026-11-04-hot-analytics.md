@@ -30,7 +30,7 @@
 #### 实验读取与写入
 
 - `GET /api/analytics/config?experiment=hot-layout-v1`：公开只读响应 `{ok,experiment:{id,status,allocation,variants:[{id,label}]}}`；停止/不存在时返回 `status=off`。不包含任何用户分组数据。
-- `POST /api/analytics/events`：仅接受事件批次 `{events:[...]}`，限制体积、批次数和字段长度；枚举事件为 `experiment_exposure`、`item_impression`、`item_click`、`active_time`。响应 `{ok,accepted,rejected}`；不得让浏览器传入任意 SQL、URL 或无约束 JSON。
+- `POST /api/analytics/events`：仅接受事件批次 `{events:[...]}`，限制体积、批次数和字段长度；事件字段使用 `event_id,event_name,occurred_at,experiment_id,variant,anon_id,session_id,module_slug,content_key,program_id,platform_id,locale,country_code,device_class,active_seconds`。浏览器提交随机 UUID `anon_id`，服务端以 HMAC-SHA-256 摘要存储，不接受 `anon_id_hash`；枚举事件为 `experiment_exposure`、`item_impression`、`item_click`、`active_time`。响应 `{ok,accepted,rejected}`；不得让浏览器传入任意 SQL、URL 或无约束 JSON。
 - `POST` 必须校验 Origin allowlist、JSON/body 大小、事件白名单、幂等 event_id，按匿名 ID/来源限频；匿名 ID 应由前端随机生成并在服务端以 SHA-256/HMAC 摘要存储。原始 IP 不写表、不入日志。地区只存可信边缘注入的 ISO country code。
 - A/B 分组在浏览器用匿名 UUID 稳定分配，数据库保存配置（变体、比例、开始/结束/状态），不按 IP 或真实身份分配。首轮两组比例 50/50。
 
