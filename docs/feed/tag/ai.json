@@ -9,6 +9,32 @@
   },
   "items": [
     {
+      "id": "https://www.appinn.com/strata-0-2-10/",
+      "url": "https://www.appinn.com/strata-0-2-10/",
+      "title": "Strata 0.2.10 发布：本地 AI 大模型继续提速，默认使用 DFlash2 降低显存需求，8GB 显卡也能开启 128K 上下文",
+      "content_html": "<p>更新：青小蛙实测提速 25% Strata 0.2.10：https://llm-bench.io/benchmarks/cmw06r368033s01la504nux2nStrata 0.2.9：h</p><p>来源：小众软件 · 2026-11-03</p><p>标签：#AI #Strata #track-Strata #本地大模型 #软件 #工具</p><p><a href=\"https://www.appinn.com/strata-0-2-10/\">阅读原文 →</a></p>",
+      "content_text": "更新：青小蛙实测提速 25% Strata 0.2.10：https://llm-bench.io/benchmarks/cmw06r368033s01la504nux2nStrata 0.2.9：h",
+      "summary": "更新：青小蛙实测提速 25% Strata 0.2.10：https://llm-bench.io/benchmarks/cmw06r368033s01la504nux2nStrata 0.2.9：h",
+      "date_published": "2026-11-03T00:00:00Z",
+      "tags": [
+        "AI",
+        "Strata",
+        "track-Strata",
+        "本地大模型",
+        "软件",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "小众软件"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "appinn-com"
+      }
+    },
+    {
       "id": "https://www.woshipm.com/ai/6487373.html",
       "url": "https://www.woshipm.com/ai/6487373.html",
       "title": "教你用WorkBuddy自动生成3D模型",
@@ -174,6 +200,84 @@
       "_shelf": {
         "type": "article",
         "shelf": "woshipm-com"
+      }
+    },
+    {
+      "id": "https://www.appinn.com/appinn-faxian-channel-markdown-ai-agent/",
+      "url": "https://www.appinn.com/appinn-faxian-channel-markdown-ai-agent/",
+      "title": "小众软件发现频道全量开放 .md 格式内容，可让 AI Agent 直接访问",
+      "content_html": "<p>对于嫌弃论坛访问慢的同学，可以使用 x.appinn.com 直达发现频道。 小众软件论坛的发现频道（faxian.appinn.com）主要收集由开发者/用户提交的各类软件、应用、AI 产品。目前已</p><p>来源：小众软件 · 2026-11-01</p><p>标签：#AI #AI Agent #Markdown #发现频道 #软件 #工具</p><p><a href=\"https://www.appinn.com/appinn-faxian-channel-markdown-ai-agent/\">阅读原文 →</a></p>",
+      "content_text": "对于嫌弃论坛访问慢的同学，可以使用 x.appinn.com 直达发现频道。 小众软件论坛的发现频道（faxian.appinn.com）主要收集由开发者/用户提交的各类软件、应用、AI 产品。目前已",
+      "summary": "对于嫌弃论坛访问慢的同学，可以使用 x.appinn.com 直达发现频道。 小众软件论坛的发现频道（faxian.appinn.com）主要收集由开发者/用户提交的各类软件、应用、AI 产品。目前已",
+      "date_published": "2026-11-01T00:00:00Z",
+      "tags": [
+        "AI",
+        "AI Agent",
+        "Markdown",
+        "发现频道",
+        "软件",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "小众软件"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "appinn-com"
+      }
+    },
+    {
+      "id": "https://www.appinn.com/strata-0-2-9/",
+      "url": "https://www.appinn.com/strata-0-2-9/",
+      "title": "Strata 0.2.9 发布：本地大模型 Prefill 最高提速 88%，还支持 1 比特 DeepSeek",
+      "content_html": "<p>本地运行 AI 大模型的 Strata 0.2.9 发布，又变快了。 日更软件 Strata，今天更新到了 0.2.9 版本，在为本地大模型提速的道路上继续前进。 这次更新有点猛：在 Windows</p><p>来源：小众软件 · 2026-10-31</p><p>标签：#AI #Strata #track-Strata #本地大模型 #软件 #工具</p><p><a href=\"https://www.appinn.com/strata-0-2-9/\">阅读原文 →</a></p>",
+      "content_text": "本地运行 AI 大模型的 Strata 0.2.9 发布，又变快了。 日更软件 Strata，今天更新到了 0.2.9 版本，在为本地大模型提速的道路上继续前进。 这次更新有点猛：在 Windows",
+      "summary": "本地运行 AI 大模型的 Strata 0.2.9 发布，又变快了。 日更软件 Strata，今天更新到了 0.2.9 版本，在为本地大模型提速的道路上继续前进。 这次更新有点猛：在 Windows",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "AI",
+        "Strata",
+        "track-Strata",
+        "本地大模型",
+        "软件",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "小众软件"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "appinn-com"
+      }
+    },
+    {
+      "id": "https://www.appinn.com/apple-intelligence-china-november-4-qwen/",
+      "url": "https://www.appinn.com/apple-intelligence-china-november-4-qwen/",
+      "title": "Apple 智能 11 月 4 日登陆中国，iPhone 15 Pro 起可用，部分功能接入千问，新版 Siri AI 缺席",
+      "content_html": "<p>苹果终于宣布，Apple 智能（Apple Intelligence）即将在中国大陆推出。 首批 Apple 智能功能将于 11 月 4 日通过 iOS 开发者 Beta 版开放测试，并于 12 月随</p><p>来源：小众软件 · 2026-10-31</p><p>标签：#业界消息 #AI #Apple 智能 #苹果智能 #软件 #工具</p><p><a href=\"https://www.appinn.com/apple-intelligence-china-november-4-qwen/\">阅读原文 →</a></p>",
+      "content_text": "苹果终于宣布，Apple 智能（Apple Intelligence）即将在中国大陆推出。 首批 Apple 智能功能将于 11 月 4 日通过 iOS 开发者 Beta 版开放测试，并于 12 月随",
+      "summary": "苹果终于宣布，Apple 智能（Apple Intelligence）即将在中国大陆推出。 首批 Apple 智能功能将于 11 月 4 日通过 iOS 开发者 Beta 版开放测试，并于 12 月随",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "业界消息",
+        "AI",
+        "Apple 智能",
+        "苹果智能",
+        "软件",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "小众软件"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "appinn-com"
       }
     }
   ]

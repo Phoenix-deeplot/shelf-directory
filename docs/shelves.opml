@@ -13,6 +13,7 @@
       <outline type="rss" text="WIRED" title="WIRED" xmlUrl="https://www.wired.com/feed/rss" htmlUrl="https://www.wired.com"/>
       <outline type="rss" text="忽左忽右" title="忽左忽右" xmlUrl="https://feed.xyzfm.space/cv4bkgpuglwp" htmlUrl="https://feed.xyzfm.space/"/>
       <outline type="rss" text="疯投圈" title="疯投圈" xmlUrl="https://crazy.capital/feed" htmlUrl="https://crazy.capital"/>
+      <outline type="rss" text="西海之声 Radio SayHi!" title="西海之声 Radio SayHi!" xmlUrl="https://feed.xyzfm.space/uwehmwvhejqt" htmlUrl="https://feed.xyzfm.space/"/>
       <outline type="rss" text="出海合伙人" title="出海合伙人" xmlUrl="https://www.ximalaya.com/album/74706735.xml" htmlUrl="https://www.ximalaya.com/"/>
       <outline type="rss" text="US Top News and Analysis" title="US Top News and Analysis" xmlUrl="https://www.cnbc.com/id/100003114/device/rss/rss.html" htmlUrl="https://www.cnbc.com/"/>
       <outline type="rss" text="Home | IndustryWeek" title="Home | IndustryWeek" xmlUrl="https://www.industryweek.com/__rss/website-scheduled-content.xml?input=%7B%22sectionAlias%22%3A%22home%22%7D" htmlUrl="https://www.industryweek.com/"/>
@@ -36,6 +37,7 @@
       <outline type="rss" text="YouTube 热门 · US" title="YouTube 热门 · US" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=youtube" htmlUrl="https://www.youtube.com/feed/trending"/>
       <outline type="rss" text="今日头条热榜" title="今日头条热榜" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=toutiao" htmlUrl="https://www.toutiao.com/"/>
       <outline type="rss" text="公众号热文" title="公众号热文" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=wechat" htmlUrl="https://weixin.sogou.com/"/>
+      <outline type="rss" text="小众软件" title="小众软件" xmlUrl="https://www.appinn.com/feed/" htmlUrl="https://www.appinn.com/"/>
       <outline type="rss" text="少数派" title="少数派" xmlUrl="https://sspai.com/feed" htmlUrl="https://sspai.com"/>
       <outline type="rss" text="微博热搜" title="微博热搜" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=weibo" htmlUrl="https://s.weibo.com/top/summary"/>
       <outline type="rss" text="抖音热点" title="抖音热点" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=douyin" htmlUrl="https://www.douyin.com/hot"/>
