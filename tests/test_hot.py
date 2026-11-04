@@ -52,6 +52,10 @@ OPENLIBRARY = {'works': [{'title': 'Atomic Habits', 'key': '/works/OL17930368W',
 GUTENDEX = {'results': [{'id': 1342, 'title': 'Pride and Prejudice', 'authors': [{'name': 'Austen, Jane'}], 'download_count': 190246}, {'id': 'x', 'title': 'bad'}]}
 QQMUSIC = {'detail': {'data': {'songInfoList': [{'name': '歌', 'mid': '004VBMk71TdUuR', 'singer': [{'name': '薛之谦'}], 'album': {'name': '初学者'}}, {'name': '坏的', 'mid': '../x'}]}}}
 APPLE = {'feed': {'results': [{'name': '声动早咖啡', 'artistName': '声动活泼', 'url': 'https://podcasts.apple.com/cn/podcast/x/id1', 'genres': [{'name': '商务'}]}, {'name': '坏的', 'url': 'https://evil.example/'}]}}
+APPSTORE = {'feed': {'results': [{'name': '知树阅读', 'url': 'https://apps.apple.com/us/app/zhitree/id123', 'artworkUrl100': 'https://is1-ssl.mzstatic.com/image/thumb/app/100x100bb.jpg'}]}}
+APPSTORE_CN = {'feed': {'results': [{'name': '知树阅读', 'url': 'https://apps.apple.com/cn/app/zhitree/id123', 'artworkUrl100': 'https://is1-ssl.mzstatic.com/image/thumb/app/100x100bb.jpg'}]}}
+POLYMARKET = [{'title': 'Will AI regulation pass this year?', 'slug': 'ai-regulation-this-year', 'volume24hr': '12345.6'}, {'title': 'Bad slug', 'slug': '../bad', 'volume24hr': '99999'}]
+X_POSTS = {'data': [{'id': '199012345678901234', 'text': 'A fast-moving global topic', 'author_id': '42', 'created_at': '2026-11-04T10:00:00Z', 'public_metrics': {'like_count': 20, 'retweet_count': 3, 'reply_count': 2}}], 'includes': {'users': [{'id': '42', 'username': 'newsdesk'}]}}
 STEAM = {'top_sellers': {'items': [{'id': 4115450, 'name': '影之刃零', 'currency': 'CNY', 'final_price': 26800, 'discount_percent': 0}, {'id': 7, 'name': 'Free One', 'currency': 'CNY', 'final_price': 0, 'discount_percent': 0},
                                    {'id': 8, 'name': 'On Sale', 'currency': 'USD', 'final_price': 1999, 'discount_percent': 20}]}}
 YOUTUBE = {'items': [{'id': 'dQw4w9WgXcQ', 'snippet': {'title': 'A video', 'channelTitle': 'A channel'}, 'statistics': {'viewCount': '1234567'}}, {'id': 'short', 'snippet': {'title': 'bad'}}]}
@@ -75,12 +79,12 @@ RSS = ('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title
 
 JSONS = {'weibo': WEIBO, 'zhihu': ZHIHU, 'bilibili': BILI, 'toutiao': TOUTIAO, 'douyin': DOUYIN, 'juejin': JUEJIN, 'v2ex': V2EX, 'netease': NETEASE, 'hackernews': HN, 'lobsters': LOBSTERS, 'devto': DEVTO,
          'ths': THS, 'coingecko': COINGECKO, 'wikipedia': WIKIPEDIA, 'mastodon': MASTODON, 'hf_models': HF_MODELS, 'hf_papers': HF_PAPERS, 'weread_rising': WEREAD, 'openlibrary': OPENLIBRARY, 'gutenberg': GUTENDEX,
-         'qqmusic': QQMUSIC, 'apple_pod_cn': APPLE, 'steam': STEAM}
+         'qqmusic': QQMUSIC, 'apple_pod_cn': APPLE, 'appstore_free_us': APPSTORE, 'appstore_free_cn': APPSTORE_CN, 'polymarket': POLYMARKET, 'x_trending': X_POSTS, 'steam': STEAM}
 TEXTS = {'github': (GITHUB, 'text/html; charset=utf-8'), 'gtrends': (GTRENDS, 'application/xml'), 'zhihu_daily': (ZHIHU_DAILY_RSS, 'application/rss+xml'), 'wechat': (TOPHUB_WECHAT, 'text/html; charset=utf-8'),
          'xueqiu': (TOPHUB_XUEQIU, 'text/html; charset=utf-8'), 'xiaohongshu': (XIAOHONGSHU, 'text/html; charset=utf-8'), 'producthunt': (RSS, 'application/rss+xml'), 'bbc': (RSS, 'application/rss+xml')}
 FIXTURES = {**{k: (json.dumps(v), 'application/json; charset=utf-8') for k, v in JSONS.items()}, **TEXTS}
 ALL = {'HOT_ENABLE': 'all'}
-EVERY = [k for k in hotapi.PLATFORMS if k != 'youtube']                                       # (YouTube needs a key)
+EVERY = [k for k in hotapi.PLATFORMS if k not in ('youtube', 'x_trending')]                  # (YouTube and X need keys)
 
 
 class HotBase(Base):
@@ -117,9 +121,9 @@ class HotBase(Base):
 class TestParsers(HotBase):
     def test_every_platform_becomes_a_well_formed_feed_with_a_title_a_link_and_a_guid(self):
         want = {'weibo': 2, 'zhihu': 1, 'zhihu_daily': 1, 'bilibili': 1, 'toutiao': 1, 'douyin': 1, 'juejin': 1, 'v2ex': 1, 'netease': 1, 'github': 2, 'hackernews': 2, 'lobsters': 2, 'devto': 1, 'ths': 1, 'coingecko': 1,
-                'wikipedia': 1, 'mastodon': 1, 'hf_models': 1, 'hf_papers': 1, 'weread_rising': 3, 'openlibrary': 1, 'gutenberg': 1, 'qqmusic': 1, 'apple_pod_cn': 1, 'steam': 3, 'gtrends': 2, 'wechat': 2, 'xueqiu': 1,
+                'wikipedia': 1, 'mastodon': 1, 'hf_models': 1, 'hf_papers': 1, 'weread_rising': 3, 'openlibrary': 1, 'gutenberg': 1, 'qqmusic': 1, 'apple_pod_cn': 1, 'appstore_free_us': 1, 'appstore_free_cn': 1, 'polymarket': 1, 'steam': 3, 'gtrends': 2, 'wechat': 2, 'xueqiu': 1,
                 'xiaohongshu': 2, 'producthunt': 2, 'bbc': 2}
-        self.assertEqual(sorted(want), sorted(FIXTURES))                                              # (a fixture for each one that is tried)
+        self.assertEqual(sorted(want), sorted(k for k in FIXTURES if k != 'x_trending'))             # (X is credential-gated)
         for pid, n in want.items():
             items, ch = self.items(pid)
             self.assertEqual(len(items), n, pid)
@@ -153,6 +157,26 @@ class TestParsers(HotBase):
         self.assertEqual((n[0]['title'], n[0]['link']), ('歌 — 甲 / 乙', 'https://music.163.com/#/song?id=2078101758'))
         g, _ = self.items('github')
         self.assertEqual((g[0]['title'], g[0]['link'], g[0]['description']), ('owner/one', 'https://github.com/owner/one', '第 1 名 · 今日 +1,500 ★ · Rust · A great tool'))
+
+    def test_app_store_and_polymarket_rows_are_labeled_and_linked(self):
+        apps = self.rows('appstore_free_us')['items']
+        self.assertEqual((apps[0]['title'], apps[0]['url']), ('知树阅读', 'https://apps.apple.com/us/app/zhitree/id123'))
+        markets = self.rows('polymarket')['items']
+        self.assertEqual((len(markets), markets[0]['url']), (1, 'https://polymarket.com/event/ai-regulation-this-year'))
+        self.assertIn('预测市场热度', markets[0]['note'])
+
+    def test_x_is_hidden_without_a_token_and_uses_it_only_in_server_request_headers(self):
+        self.assertNotIn('x_trending', hotapi.enabled({'HOT_ENABLE': 'all'}))
+        self.assertIn('x_trending', hotapi.enabled({'X_BEARER_TOKEN': 'test-token'}))
+        asked = {}
+        def fake_fetch(url, accept='*/*', max_bytes=0, headers=None, **kwargs):
+            asked.update(url=url, headers=headers or {})
+            return url, {'content-type': 'application/json'}, json.dumps(X_POSTS).encode()
+        with patch.object(agg, 'fetch', side_effect=fake_fetch):
+            rows, _ = hotapi.entries('x_trending', now=1793786400, env={'X_BEARER_TOKEN': 'test-token'})
+        self.assertEqual(rows[0]['url'], 'https://x.com/i/web/status/199012345678901234')
+        self.assertEqual(rows[0]['note'], '@newsdesk')
+        self.assertEqual(asked['headers']['Authorization'], 'Bearer test-token')
 
     def test_what_the_news_and_community_platforms_say(self):
         d, _ = self.items('douyin')
@@ -289,7 +313,7 @@ class TestWhatIsOn(HotBase):
         self.assertNotIn('youtube', hotapi.enabled({}))
         self.assertIn('youtube', hotapi.enabled({'YOUTUBE_API_KEY': 'k'}))
         self.assertNotIn('youtube', hotapi.enabled({'YOUTUBE_API_KEY': '  '}))
-        self.assertEqual(len(hotapi.enabled({'HOT_ENABLE': 'ALL', 'YOUTUBE_API_KEY': 'k'})), len(hotapi.PLATFORMS))
+        self.assertEqual(len(hotapi.enabled({'HOT_ENABLE': 'ALL', 'YOUTUBE_API_KEY': 'k', 'X_BEARER_TOKEN': 'x'})), len(hotapi.PLATFORMS))
 
     def test_any_platform_can_be_turned_off_and_nonsense_is_ignored(self):
         self.assertEqual(hotapi.enabled({'HOT_DISABLE': 'juejin, v2ex'}), [k for k in EVERY if k not in ('juejin', 'v2ex')])
@@ -330,7 +354,7 @@ class TestWhatIsOn(HotBase):
             self.assertTrue(callable(v['parse']) != bool(v['feed']), pid)                             # a parser, or a feed
             self.assertEqual(v['ranked'], v['parse'] is not None and pid != 'zhihu_daily', pid)
             self.assertTrue(all(isinstance(x, str) for x in v['headers'].values()), pid)
-        self.assertEqual({k for k, v in hotapi.PLATFORMS.items() if v.get('needs')}, {'youtube'})
+        self.assertEqual({k for k, v in hotapi.PLATFORMS.items() if v.get('needs')}, {'youtube', 'x_trending'})
         self.assertEqual(len({v['name'] for v in hotapi.PLATFORMS.values()}), len(hotapi.PLATFORMS))
         for c in hotapi.COLUMNS:
             n = len([1 for v in hotapi.PLATFORMS.values() if v['col'] == c['id']])
