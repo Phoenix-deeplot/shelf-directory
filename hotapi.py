@@ -439,9 +439,45 @@ def p_apple(raw):
     """Apple's marketing-tools charts (songs, podcasts)."""
     out = []
     for r in (_json(raw).get('feed') or {}).get('results') or []:
-        if isinstance(r, dict) and r.get('name') and re.match(r'https://(podcasts|music)\.apple\.com/', str(r.get('url') or '')):
+        if isinstance(r, dict) and r.get('name') and re.match(r'https://(podcasts|music|apps)\.apple\.com/', str(r.get('url') or '')):
             genre = ((r.get('genres') or [{}])[0] or {}).get('name', '')
             out.append({'title': r['name'], 'url': r['url'], 'heat': '', 'note': ' · '.join(x for x in (r.get('artistName') or '', genre) if x), 'img': str(r.get('artworkUrl100') or '').replace('/100x100', '/300x300')})
+    return out
+
+
+def p_polymarket(raw):
+    """High-volume Polymarket events. These are prediction-market signals, not verified news."""
+    data = _json(raw)
+    if not isinstance(data, list):
+        data = data.get('events') or [] if isinstance(data, dict) else []
+    out = []
+    for event in data:
+        if not isinstance(event, dict) or not event.get('title') or not re.fullmatch(r'[A-Za-z0-9-]{1,160}', str(event.get('slug') or '')):
+            continue
+        volume = event.get('volume24hr') or event.get('volume_24hr') or event.get('volume24h')
+        try:
+            amount = float(volume or 0)
+        except (TypeError, ValueError):
+            amount = 0
+        heat = ('24h 成交量 $%s' % _heat(amount)) if amount > 0 else ''
+        out.append({'title': event['title'], 'url': 'https://polymarket.com/event/' + event['slug'], 'heat': heat,
+                    'note': '预测市场热度 · 非新闻结论或投资建议'})
+    return out
+
+
+def p_x(raw):
+    """Recent public X posts from a small curated topic query."""
+    data = _json(raw)
+    users = {str(u.get('id')): u.get('username') for u in (data.get('includes') or {}).get('users', []) if isinstance(u, dict)}
+    out = []
+    for post in data.get('data') or []:
+        if not isinstance(post, dict) or not re.fullmatch(r'\d{8,24}', str(post.get('id') or '')) or not post.get('text'):
+            continue
+        metrics = post.get('public_metrics') or {}
+        engagement = sum(int(metrics.get(k) or 0) for k in ('like_count', 'retweet_count', 'reply_count', 'quote_count') if str(metrics.get(k) or '0').isdigit())
+        author = users.get(str(post.get('author_id') or ''), '')
+        out.append({'title': agg.clean(post['text'], 180), 'url': 'https://x.com/i/web/status/' + str(post['id']),
+                    'heat': ('互动 %s' % _n(engagement)) if engagement else '', 'note': ('@' + author) if author else '', 'date': post.get('created_at') or ''})
     return out
 
 
@@ -775,6 +811,10 @@ PLATFORMS = {
     'apple_pod_cn': P('media', 'Apple 播客榜 · 中国', 'Apple Podcasts · China', 'https://podcasts.apple.com/cn/charts', APPLE % 'cn/podcasts/top/50/podcasts.json', p_apple, detail=True),
     'apple_pod_us': P('media', 'Apple 播客榜 · 美国', 'Apple Podcasts · US', 'https://podcasts.apple.com/us/charts', APPLE % 'us/podcasts/top/50/podcasts.json', p_apple, lang='en', detail=True),
     'apple_music_us': P('media', 'Apple Music 最多播放 · 美国', 'Apple Music most played · US', 'https://music.apple.com/us/new', APPLE % 'us/music/most-played/50/songs.json', p_apple, lang='en'),
+    'appstore_free_us': P('tech', 'App Store 免费榜 · 美国', 'App Store Top Free · US', 'https://apps.apple.com/us/charts/iphone/top-free-apps/36', APPLE % 'us/apps/top-free/50/apps.json', p_apple, lang='en'),
+    'appstore_free_cn': P('tech', 'App Store 免费榜 · 中国', 'App Store Top Free · China', 'https://apps.apple.com/cn/charts/iphone/top-free-apps/36', APPLE % 'cn/apps/top-free/50/apps.json', p_apple),
+    'polymarket': P('world', 'Polymarket 预测市场热度', 'Polymarket market activity', 'https://polymarket.com/', 'https://gamma-api.polymarket.com/events?active=true&closed=false&order=volume24hr&ascending=false&limit=50', p_polymarket, lang='en'),
+    'x_trending': P('world', 'X 全球热点讨论', 'X global conversations', 'https://x.com/explore', 'https://api.x.com/2/tweets/search/recent?query=%28Iran%20OR%20Israel%20OR%20Ukraine%20OR%20gold%20OR%20OpenAI%20OR%20Anthropic%20OR%20DeepSeek%29%20-lang%3Aund%20-is%3Arepost&max_results=50&tweet.fields=created_at%2Cpublic_metrics%2Cauthor_id&expansions=author_id&user.fields=username', p_x, lang='en', needs=['X_BEARER_TOKEN'], headers={'Authorization': 'Bearer {X_BEARER_TOKEN}'}),
     'steam': P('entertainment', 'Steam 热销', 'Steam top sellers', 'https://store.steampowered.com/search/?filter=topsellers', 'https://store.steampowered.com/api/featuredcategories?cc=cn&l=schinese', p_steam),
     'taptap': TH('entertainment', 'TapTap 热门游戏', 'TapTap hot games', 'https://www.taptap.cn/top/download', '6ARe1k2v7n', ('taptap.cn', 'taptap.io')),
     'douban_movie': TH('entertainment', '豆瓣新片榜', 'Douban new films', 'https://movie.douban.com/chart', 'mDOvnyBoEB', ('douban.com',)),
@@ -867,7 +907,8 @@ def entries(pid, now=None, env=None, region='', timeout=None):
     if hit and now - hit[0] < spec.get('ttl', CACHE_SECONDS):
         return hit[1], hit[0]
     try:
-        final, h, body = agg.fetch(_url(spec, env, now, region), FEED_ACCEPT if spec['feed'] else '*/*', 3 * 1024 * 1024, headers={**BROWSER, **spec['headers']}, truncate=True, timeout=timeout)
+        request_headers = {k: re.sub(r'\{([A-Z0-9_]+)\}', lambda m: str((env or {}).get(m.group(1)) or ''), v) for k, v in spec['headers'].items()}
+        final, h, body = agg.fetch(_url(spec, env, now, region), FEED_ACCEPT if spec['feed'] else '*/*', 3 * 1024 * 1024, headers={**BROWSER, **request_headers}, truncate=True, timeout=timeout)
         try:
             rows = feed_rows(body, h, final) if spec['feed'] else spec['parse'](agg.decode(body, h))
         except (KeyError, TypeError, ValueError, AttributeError, IndexError, ET.ParseError):
@@ -1043,6 +1084,7 @@ def handle_events(query, env, now=None):
         updated = store.latest_event_refresh()
     except Exception:
         return _fail(503, 'database', '热点追踪数据库不可用，请确认已执行 007_hotlist_events.sql', 'The event store is unavailable; check that migration 007_hotlist_events.sql has been applied')
+    refresh_failed = False
     if not updated or now - updated >= EVENT_CACHE_SECONDS:
         try:
             _refresh_events(store, env, now)
@@ -1051,7 +1093,9 @@ def handle_events(query, env, now=None):
         except Exception:
             # Network failures, lock contention, or a transient write error must not
             # make a previously populated public feed disappear.
-            pass
+            refresh_failed = True
+    if not events and not updated and refresh_failed:
+        return _fail(502, 'upstream', '热点来源暂时不可用，尚无可用缓存；请稍后重试', 'Hot-topic sources are unavailable and no cached results exist; retry later')
     body = json.dumps({'ok': True, 'updated': int(updated or 0), 'events': events}, ensure_ascii=False).encode('utf-8')
     return 200, 'application/json; charset=utf-8', body, 'public, max-age=60, s-maxage=180, stale-while-revalidate=300'
 

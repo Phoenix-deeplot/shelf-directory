@@ -183,6 +183,12 @@ class TestEvents(unittest.TestCase):
             status, data = unpack(hotapi.handle_events({}, {}, self.now))
         self.assertEqual((status, data['error']), (503, 'database'))
 
+    def test_first_refresh_failure_without_cached_rows_is_not_reported_as_successful_empty_feed(self):
+        with patch.object(hotapi, '_store', return_value=self.store), patch.object(hotapi, '_event_candidates', side_effect=hotapi.agg.Refused('offline', 'offline')):
+            status, data = unpack(hotapi.handle_events({}, self.env, self.now))
+        self.assertEqual((status, data['error']), (502, 'upstream'))
+        self.assertIn('no cached results', data['message_en'])
+
     def test_gdelt_and_curated_feeds_are_normalized_without_images_or_long_text(self):
         payload = {'articles': [
             {'title': 'Iran and Israel exchange updates', 'url': 'https://world.example/news/1?utm_source=x', 'domain': 'world.example', 'seendate': '20261102T010203Z', 'socialimage': 'https://world.example/large.jpg'},
