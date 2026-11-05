@@ -59,6 +59,18 @@ async function ops(action, body){
   if(!j || !j.ok) throw new Error((j && j.message) || ('运营服务出错：HTTP ' + r.status));
   return j.data;
 }
+/* What the readers wrote through the feedback box of the page (anonymous: the words, the kind, an optional contact, the page, the day). Asked of the same function as the login, with the same session. */
+async function feedbackCall(body){
+  if(state.mode !== 'password') throw new Error('反馈需要管理密码登录；GitHub 令牌模式只管理审核和来源。');
+  let r, j = null;
+  try{
+    r = await fetch(ADMIN_API, { method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + state.session }, body: JSON.stringify(body) });
+    try{ j = await r.json(); }catch(e){}
+  }catch(e){ throw new Error('连不上管理服务，请检查网络后再试'); }
+  if(r.status === 401 && j && j.error === 'session'){ signedOut('登录已过期，请重新输入密码'); throw new Error('登录已过期，请重新输入密码'); }
+  if(!j || !j.ok) throw new Error((j && j.message) || ('管理服务出错：HTTP ' + r.status));
+  return j;
+}
 function signedOut(msg){ sessions.clear(); state.session = ''; showLogin(msg); }
 const need = (r, what) => { if(!r.ok) throw new Error(what + '：HTTP ' + r.status + (r.data && r.data.message ? ' ' + r.data.message : '')); return r.data; };
 
@@ -487,6 +499,40 @@ function subscriptionsOpsPanel(panel, subscriptions){
   };
   query.addEventListener('input',draw);category.addEventListener('change',draw);target.addEventListener('change',draw);panel.append(el('div',{class:'ops-filters'},query,category,target),count,list);draw();
 }
+/* ---------- feedback ---------- */
+const FB_KIND = { bug: '问题', idea: '建议', content: '内容', other: '其他' };
+const fbDay = d => /^\d{8}$/.test(String(d)) ? String(d).slice(0, 4) + '-' + String(d).slice(4, 6) + '-' + String(d).slice(6) : String(d || '');
+const fb = { items: [], next: null, total: 0, run: 0 };
+async function renderFeedback(more){
+  const box = $('#feedback'), run = ++fb.run;
+  if(state.mode !== 'password'){ box.replaceChildren(el('p', { class: 'empty', text: '反馈需要用管理密码登录；GitHub 令牌模式只管理审核和来源。' })); return; }
+  if(!more){ fb.items = []; fb.next = null; box.replaceChildren(el('p', { class: 'muted', text: '读取中…' })); }
+  try{
+    const j = await feedbackCall({ action: 'feedback_list', limit: 50, ...(more && fb.next ? { before: fb.next } : {}) });
+    if(run !== fb.run) return;
+    fb.items.push(...j.items); fb.next = j.next; fb.total = j.total;
+  }catch(e){ if(run === fb.run) box.replaceChildren(el('p', { class: 'msg bad', text: e.message })); return; }
+  drawFeedback();
+}
+function drawFeedback(){
+  const box = $('#feedback');
+  $('#nFeedback').textContent = fb.total;
+  const del = e => async ev => {
+    if(!confirm('删除这条反馈？')) return;
+    const b = ev.currentTarget; b.disabled = true;
+    try{ await feedbackCall({ action: 'feedback_delete', ids: [e.id] }); fb.items = fb.items.filter(x => x.id !== e.id); fb.total = Math.max(0, fb.total - 1); drawFeedback(); }
+    catch(err){ b.disabled = false; say(err.message, 'bad'); }
+  };
+  const cards = fb.items.map(e => el('article', { class: 'card' },
+    el('p', { class: 'meta' }, el('span', { class: 'badge ' + (e.k === 'bug' ? 'invalid' : ''), text: FB_KIND[e.k] || e.k }), fbDay(e.d), e.w ? '页面：' + e.w : '', e.l === 'en' ? 'EN' : '中文', e.v ? '版本：' + e.v : '', '#' + e.id),
+    el('p', { class: 'fb-msg', text: e.m }),
+    e.c ? el('p', { class: 'meta', text: '联系方式：' + e.c }) : null,
+    el('div', { class: 'actions' }, el('button', { type: 'button', class: 'danger', text: '删除', onclick: del(e) }))));
+  box.replaceChildren(
+    el('p', { class: 'muted', text: fb.items.length ? '共 ' + fb.total + ' 条，新的在前。匿名：只有内容、类型、读者自愿写的联系方式、页面、语言、版本和日期；保存 180 天，最多 2000 条。' : '还没有人写反馈。读者在页面上点“反馈 / 共读群”写的会出现在这里。' }),
+    ...cards,
+    fb.next ? el('button', { type: 'button', text: '再看更早的', onclick: () => renderFeedback(true) }) : null);
+}
 let opsRenderVersion=0;
 async function analyticsOpsPanel(panel){
   panel.append(el('h2',{text:'热榜实验分析'}),el('p',{class:'muted',text:'匿名实验事件按匿名 ID 与内容键去重；曝光与展示合并计数，点击按匿名 ID + 内容键去重，活跃时间使用前台 active_time 秒数。每个变体少于 100 个独立曝光时不判断胜负。'}));
@@ -739,9 +785,10 @@ $('#logoutBtn').addEventListener('click', () => { store.clear(); sessions.clear(
 $('#dailyBtn').addEventListener('click', async () => { try{ await dispatch('daily.yml'); say('已触发更新，约 1–2 分钟后点“刷新”。', 'good'); }catch(e){ say(e.message, 'bad'); } });
 document.querySelectorAll('[data-tab]').forEach(b => b.addEventListener('click', () => {
   document.querySelectorAll('[data-tab]').forEach(x => x.setAttribute('aria-selected', String(x === b)));
-  for(const id of ['pending', 'listed', 'sources', 'ops', 'done']) $('#' + id).hidden = id !== b.dataset.tab;
+  for(const id of ['pending', 'listed', 'sources', 'ops', 'feedback', 'done']) $('#' + id).hidden = id !== b.dataset.tab;
   $('#hint').hidden = b.dataset.tab !== 'pending';                          // the line about applications belongs to the first tab
   if(b.dataset.tab === 'ops') renderOps();
+  if(b.dataset.tab === 'feedback') renderFeedback();
 }));
 
 (async function boot(){

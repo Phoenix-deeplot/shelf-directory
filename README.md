@@ -23,7 +23,7 @@
 
 ## 本地运行（含 `/api`）
 
-不要用 `python -m http.server`、Live Server 或直接打开 `docs/admin/index.html` 测试管理页：它们只能提供静态文件，**不会运行** `api/admin.py`、`api/ops.py` 等 Vercel Python 函数。
+不要用 `python -m http.server`、Live Server 或直接打开 `docs/admin/index.html` 测试管理页：它们只能提供静态文件，**不会运行** Vercel API。部署入口统一为 `api/router.py`；业务处理器在 `api_routes/`，对外 API 地址保持不变。
 
 1. 复制 [`.env.example`](.env.example) 为 `.env`，填入本机 PostgreSQL、管理密码（至少 12 个字符）和 GitHub 管理令牌。`.env` 已被 Git 忽略。
 2. 在 PostgreSQL 的 `postgres` 数据库中执行 [`migrations/004_ops_complete_repair.sql`](migrations/004_ops_complete_repair.sql)。它会创建 `ops` schema 和运营后台需要的表，不会清空 `public` 或已有运营数据。
@@ -44,7 +44,7 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
 
 ### B. 让访客不用 GitHub 账号就能提交（约 10 分钟）
 
-提交函数在 `api/submit.py`，部署成一个 Vercel 项目（和你部署 `my-archive` 的方式一样）：
+提交接口由 `api/router.py` 路由到 `api_routes/submit.py`，部署成一个 Vercel 项目（和你部署 `my-archive` 的方式一样）：
 
 1. 在这个文件夹运行 `vercel`，新建一个项目（名字随意，比如 `shelf-directory`），再 `vercel --prod`。
 2. 给这个项目加环境变量（`vercel env add 名字 production`，或在 Vercel 网页里）：
@@ -69,7 +69,7 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
 
 排重先读**仓库里的** `registry/shelves.json`（刚通过的马上算），再读已发布的 `directory.json`；不用数据库：队列就是仓库里待审的 issue，限流靠 issue 里的一个加盐哈希。
 
-### B3. 可选的“同步码”服务（`api/sync.py`，需要一个 Redis）
+### B3. 可选的“同步码”服务（公开地址 `/api/sync`，处理器 `api_routes/sync.py`，需要一个 Redis）
 
 让读者在几台设备上用同一个书架，不要账号。浏览器自己生成一个长随机同步码，算出三样东西（id、证明身份的密钥、加密钥匙），之后只把**加密后的东西**发到这个函数；加密钥匙从不离开浏览器，服务端读不了标题和内容，同步码只以哈希保存，丢了无法找回。
 
@@ -79,7 +79,7 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
 - **付费**：现在没有付费；每个同步空间有一个可以以后接“授权码”的位置，但还没做。页面在用满 20 分钟后问一次“愿意付费吗”，回答用 `poll` 计数，`GET /api/sync` 里的 `poll` 就是结果。
 - 测试：`tests/test_syncapi.py`（32 个：权限、比较并替换、并发、额度、过期、限流、HTTP 面、Upstash 的线上格式）；页面一侧的两设备端到端测试在草稿目录里。
 
-### B2. 读者订阅的“更新服务”（`api/feed.py`，不用任何设置）
+### B2. 读者订阅的“更新服务”（公开地址 `/api/feed`，处理器 `api_routes/feed.py`，不用任何设置）
 
 主站的读者可以在“添加 → 订阅”里订阅自己想读的博客和文章源，订阅清单和文章只存在他们自己的浏览器里。网页读不了别人的网站，所以由这个函数代读。它**不存任何东西**：没有数据库、不要 GitHub 令牌、不要环境变量，和提交服务部署在同一个 Vercel 项目里，部署完就有。
 
@@ -97,7 +97,7 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
 
 管理页的待审列表里每条申请有个勾：“通过所选”“拒绝所选…”“选中检查通过的”“一键通过全部检查通过的”。这些**不是**给每个 issue 加 `approved` 标签：一次给几十个 issue 加标签会同时启动几十次 `Submissions` 运行，而 GitHub 的并发组里**只留下正在跑的那一个和最后排队的那一个**，中间的会被取消，留下“已批准却没处理”的申请。所以管理页只启动**一次** `batch.yml`（输入：`mode` = approve / reject、`numbers` = 最多 60 个 issue 编号、`reject` 时可带一句 `reason`），在这一次运行里：逐个读 issue（只处理仍然开着、属于待审队列、没有 `listed` / `rejected` 的，其余原样跳过）→ 和单个加标签时完全一样地检查、登记、抓取 → **只构建、提交一次** → 逐个在 issue 里回复、改标签、关闭。输入只通过环境变量进入，由 `aggregate.py batch` 校验（编号只能是数字和逗号，最多 60 个），管理接口的白名单也同样校验。命令行：`python aggregate.py batch --mode approve --numbers 12,13,14 --out results.json` 然后 `python aggregate.py apply --result results.json`（需要 `GITHUB_TOKEN` 和 `GITHUB_REPOSITORY`）。“一键通过”只包含机器人检查通过的；疑似重复的要自己勾。
 
-### B4. 热榜服务（`api/hot.py`，不用任何设置就能用）
+### B4. 热榜服务（公开地址 `/api/hot`，处理器 `api_routes/hot.py`，不用任何设置就能用）
 
 “热榜网站”做的事：向平台**自己网页用的那个小接口**（和你在浏览器里打开那个榜单页时发出的请求一样，带浏览器的请求头）要一份 JSON（或网页），取出名次、标题、热度和链接，几分钟缓存一下再转给你；**不读、不存任何文章正文**。主站的“公共目录 → 热榜”页读的就是它（六栏、每栏几个平台，点开的内容尽量在站内显示，见下面“站内显示”）；同一份榜单也是一份普通的 RSS，所以读者点“订阅这个榜单”就能把它放进书架，之后每次更新就是平台当前的榜单：条目标题是榜上的标题，说明里写“第 N 名 · 热度”。和提交服务、更新服务在同一个 Vercel 项目里，部署完就有。
 
@@ -151,7 +151,7 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
 - 翻译失败（key 错了、额度用完、对方不通）和没有 key 一样：页面照常显示英文标题，不报错。翻译结果必须含中文才会采用，原样返回的丢掉。
 - 页面只在“页面是中文、条目不是中文”时才显示这行小字；英文页面不显示。测试：`tests/test_translate.py`。
 
-### B4c. 今日听什么（`api/listen.py`，不设 key 也有内容）
+### B4c. 今日听什么（公开地址 `/api/listen`，处理器 `api_routes/listen.py`，不设 key 也有内容）
 
 主站公共空间侧栏的“今日听什么”（和发现页上的一小块）读的就是它。**每天换一批**：中国时间的日期是一个固定洗牌的种子（也决定用哪个国家的榜），所以同一天所有人看到的一样，第二天全换；服务不存任何东西，每个来源的回答在实例内存里留 6 小时，CDN 留 30 分钟。
 
@@ -199,7 +199,7 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
   再加 `--browser`（`python -X utf8 listen.py --browser`）：在本机开一个小页面并打开你的浏览器，**每个提供者的前 2 首歌真的用 `<audio>` 放一下**（和站内播放条同一种方式，用你的网络和浏览器），✓ 是真的放出声音了，✗ 写着原因；有 YouTube 的话再放一个嵌入视频给你看。
 - 安全：每个来源的地址写死在 `listen.py` 里，请求不能带任何网址（`?g=` 只认今天有的榜单编号）；站内播放的声音地址只收 Jamendo 的 `jamendo.com`、Apple 的 `audio-ssl.itunes.apple.com`、Deezer 的 `*.dzcdn.net`、Audius 的 `api.audius.co/v1/tracks/<编号>/stream` 和（开了直连时）网易云的 `music.163.com/song/media/outer/url?id=数字.mp3`（都是 https）；key 只在服务端的请求里用，不会出现在回答或错误里。测试：`tests/test_listen.py`（不联网）。
 
-### B5. 匿名计数（`api/stat.py`，需要和同步一样的 Redis）
+### B5. 匿名计数（公开地址 `/api/stat`，处理器 `api_routes/stat.py`，需要和同步一样的 Redis）
 
 公共目录页上的“热度”“热门订阅 / 文章 Top 3”和“热度”排序，来自这里：只记**每条内容被打开、被收藏、被订阅了几次**，别的什么都不记。
 
@@ -207,6 +207,15 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
 - **不存什么**：不存地址、不用 Cookie、不记时间、不建账号。每条每种事件只有“一天一个数字”（保留 40 天）和“总数”。为了让同一个人对同一条一天只算一次，用（盐、当天日期、网络地址、事件类型、条目编号）做一个单向哈希放进 Redis，**两天后自动作废**，不能还原成地址，也没法把同一个人从今天跟到明天；另一个（盐、日期、地址）的哈希数一数这个人今天发了多少个事件，超过 `STAT_DAILY_EVENTS`（默认 200，最大 5000）就丢弃，防止一台机器刷热度。
 - 页面在浏览器开了“请勿跟踪”或“全球隐私控制”时什么都不发；只统计目录里有的内容（编号要符合 `[A-Za-z0-9._-]{1,64}`）。
 - 需要的环境变量：和同步服务一样的 Redis（`UPSTASH_REDIS_REST_URL` + `UPSTASH_REDIS_REST_TOKEN`，或 `KV_REST_API_URL` + `KV_REST_API_TOKEN`）、`IP_SALT`、`ALLOWED_ORIGINS`（来源只认它）；没有 Redis 时 `GET` 说 `"configured": false`，页面就不显示热度。测试：`tests/test_stat.py`（19 个）。
+
+### B5b. 匿名反馈（公开地址 `/api/feedback`，处理器 `api_routes/feedback.py`，需要和同步一样的 Redis）
+
+读者在页面上点“反馈 / 共读群”写几句话，站长在管理页的“反馈”标签里看和删。
+
+- `POST /api/feedback` `{"msg":"…最多 1000 字","kind":"bug|idea|content|other","contact":"…最多 80 字，可空","where":"页面名","lang":"zh|en","ver":"页面版本","website":""}` → `{"ok":true}`；`GET /api/feedback` → `{"configured": bool}`（页面据此决定显不显示反馈入口）。错误：`request` 400（内容空、太长、类型不对）、`rate` 429（同一个人一天最多 `FEEDBACK_PER_DAY` 条，默认 3，1–50）、`size` 413、`origin` 403、`not_configured` 503、`storage` 503。`website` 是蜜罐：真人看不见，填了的当作成功但丢掉；同一个人（或别人）同一天发一模一样的话只存一条，也不告诉对方。
+- **存什么、不存什么**：存内容、类型、读者自己愿意写的联系方式、页面名、语言、页面版本和**日期**（不存时刻）；**不存地址、浏览器、Cookie，不建账号**。限流用（盐、日期、地址）的单向哈希做计数，两天后 Redis 自己忘掉；“同一句话一天一条”用（日期、内容）的哈希，同样两天。只留最新的 `FEEDBACK_KEEP` 条（默认 2000，50–20000），超过 180 天的删掉（每次有人写或站长打开管理页时顺手清）。内容原样当文字存，管理页用文字显示，不会被当成网页。
+- **站长怎么看**：管理页（`/admin/`）里多一个“反馈”标签，用管理密码登录后才有（GitHub 令牌模式没有）：新的在前，一页 50 条，每条写着类型、日期、页面、语言、版本、联系方式，可以逐条删除。函数侧是 `adminapi.py` 的两个动作 `feedback_list`（`before` 翻页、`limit`）和 `feedback_delete`（`ids`，一次最多 50 个），都要有效的登录会话。
+- 需要的环境变量：同步服务的 Redis（`UPSTASH_REDIS_REST_URL` + `UPSTASH_REDIS_REST_TOKEN`，或 `KV_REST_API_URL` + `KV_REST_API_TOKEN`）、`IP_SALT`、`ALLOWED_ORIGINS`；没有 Redis 时 `GET` 说 `"configured": false`，页面就不显示反馈入口，管理页的反馈标签说“没有地方存”。测试：`tests/test_feedback.py`（24 个，含管理页的列出和删除）。
 
 ### B6. 站长推荐和领域标签
 
@@ -219,9 +228,10 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
 - 一本书一个条目：`id`（小写字母、数字、`-`）、`title`、`author`、`lang`（`zh`/`en`）、`kind`（`novel` `story` `poetry` `classic` `magazine` `journal` `textbook` `essay` `library`）、`tags`、`summary`、`license`（`public-domain` `cc0` `cc-by` `cc-by-sa` `cc-by-nc` `cc-by-nc-sa` `free-to-read`，只收任何人都能免费读的）、`source`（来源站点）、`read`（https 地址）。可选：`ch`（`{"s":"zh.wikisource.org","p":"紅樓夢/","n":["第001回",…]}`，最多 300 章，章节地址是 `https://<s>/wiki/<p><n>`，空格写成 `_`）或 `"readable": true`（这个地址本身就是正文页）：有这两项的书页面可以直接在站内读。不合格的条目被跳过并在构建日志里说明，别的照常。
 - **章节标题**：`python -X utf8 books_tool.py titles [--only 书编号] [--force] [--dry]` 从维基文库每章页面的开头读出标题（“第一回　甄士隱夢幻識通靈　賈雨村風塵懷閨秀”→“甄士隱夢幻識通靈 賈雨村風塵懷閨秀”），一次读 25 页、有间隔，写进 `ch.t`（和 `ch.n` 一样长）；读到的章不到六成的书不写（英文书的章名就是 Chapter N，也不写）；已有标题的书不动，`--force` 重读，`--dry` 只看不写。页面的章节面板、章末按钮、书的窗口都会显示标题，没有标题就只显示章名。
 - 维护：`python -X utf8 books_tool.py fill` 去 Wikisource 把 `ch.n` 重新补全，`python -X utf8 books_tool.py check` 逐个打开 `read` 地址，报告打不开的（有的网站会拦脚本，报 403 时请再用浏览器看一眼）。测试：`tests/test_books.py`（含对真实清单的检查：不重复、领域和语种覆盖、体积）。
+- **书单**（`registry/booklists.json`，站长手写）：精选图书页顶上的一排主题单（“鲁迅入门”“四大名著”“程序员书架”……）。一张书单：`id`（小写字母、数字、`-`）、`name` 和 `blurb`（一句话，可选）、`books`（有顺序，最多 60 本）；`name`、`blurb`、每本书的 `why`（一句推荐理由，可选）写成 `{"zh": "…", "en": "…"}`，只写一种语言就两边都用它，写成字符串也一样；书用它在 `registry/books.json` 里的 `id` 指，构建时换成目录里那一条的 `id`，写在 `directory.json` 的 `booklists` 里。书单里指到目录没有的书，这本被跳过并在构建日志里说明；剩下不到两本的书单整张跳过；最多 12 张；没有这个文件，`directory.json` 就没有 `booklists`，页面不显示这一排。测试：`tests/test_booklists.py`（含对真实书单的检查：每本书都是精选图书、中英文的推荐理由都在）。
 - 不收 Z-Library 这类侵权站点；有版权的书只放作者自己放在网上免费读的。
 
-### B6c. 精选图书的共享内容缓存（`api/book.py`）
+### B6c. 精选图书的共享内容缓存（公开地址 `/api/book`，处理器 `api_routes/book.py`）
 
 - 为什么：第一个读某一章的人要让服务去原站读（几秒，原站慢或挂了就读不到）；之后所有人直接拿到服务保存的那一份，不再去问原站。页面读书时依次试：**读者自己的浏览器 → 这个服务 → 原站（`/api/feed` 的 `read`）**，读到的再存回去。
 - `GET /api/book?b=<书编号>&c=<章序号>`（只有一页的书 `c=0`）→ `{"ok": true, "title", "content"（清理过的安全 HTML）, "lang", "license", "source", "by", "tier": "hot"|"durable"|"source", "cut", "v"}`；`GET /api/book`（不带参数）→ `{"ok": true, "service": "shelf-book", "redis", "durable", "books", "shared"}`。章节地址由服务按 `registry/books.json` 自己拼，**不接受访客给的网址**，所以它不是通用代理，也存不进别的东西。

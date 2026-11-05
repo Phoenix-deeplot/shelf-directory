@@ -1,0 +1,101 @@
+[
+  {
+    "id": "luxun",
+    "name": {"zh": "鲁迅入门", "en": "Start with Lu Xun"},
+    "blurb": {"zh": "从最短的一篇读起，再读他的小说集和回忆散文。", "en": "Begin with the shortest story, then the collections and the memoir essays."},
+    "books": [
+      {"id": "kuangren", "why": {"zh": "中国现代小说的开篇，一篇就能读完。", "en": "The story that began modern Chinese fiction; one sitting."}},
+      {"id": "ahq", "why": {"zh": "最有名的一个人物，和“精神胜利法”。", "en": "The most famous character, and his “spiritual victory”."}},
+      {"id": "nahan", "why": {"zh": "《狂人日记》《阿Q正传》都收在里面，其余篇目接着读。", "en": "It holds both of the above; go on with the rest."}},
+      {"id": "panghuang", "why": {"zh": "《呐喊》之后的第二本小说集，笔调更冷。", "en": "The second collection of stories, colder in tone."}},
+      {"id": "zhaohua", "why": {"zh": "回忆童年和师友的散文，最容易读。", "en": "Memoir essays on childhood and teachers; the easiest to read."}}
+    ]
+  },
+  {
+    "id": "four-classics",
+    "name": {"zh": "四大名著", "en": "The four great novels"},
+    "blurb": {"zh": "中国古典小说的四座高峰，想读哪一部都可以从第一回开始。", "en": "Four summits of classical Chinese fiction; start any of them at chapter one."},
+    "books": [
+      {"id": "xiyouji", "why": {"zh": "最适合从头读起的一部，热闹，章回短。", "en": "The easiest to begin with: lively, short chapters."}},
+      {"id": "sanguo", "why": {"zh": "从黄巾起义到三分归晋，人物最多。", "en": "From the Yellow Turbans to the end of the three kingdoms; the biggest cast."}},
+      {"id": "shuihu", "why": {"zh": "一百零八个好汉上梁山。", "en": "Outlaws gather on Liangshan: a hundred and eight of them."}},
+      {"id": "hongloumeng", "why": {"zh": "一个家族的盛衰，也是写得最细的一部。", "en": "The rise and fall of a family; the most finely drawn."}}
+    ]
+  },
+  {
+    "id": "pre-qin",
+    "name": {"zh": "先秦诸子入门", "en": "Thinkers of ancient China"},
+    "blurb": {"zh": "都不长，一本一本读，不用按顺序。", "en": "None is long; read them one by one, in any order."},
+    "books": [
+      {"id": "lunyu", "why": {"zh": "孔子和弟子的对话，一句一句读。", "en": "Confucius and his students in short exchanges."}},
+      {"id": "daodejing", "why": {"zh": "五千字，读一遍用不了半小时。", "en": "Five thousand characters; one pass takes half an hour."}},
+      {"id": "zhuangzi", "why": {"zh": "寓言最多、最好读的一本。", "en": "Full of parables; the most readable."}},
+      {"id": "sunzi", "why": {"zh": "最短的兵书，也常被当作处世的书。", "en": "The shortest book on war, often read as a book on life."}},
+      {"id": "ctext", "why": {"zh": "想读别的先秦著作，到这里找。", "en": "For other early texts, look here."}}
+    ]
+  },
+  {
+    "id": "english-start",
+    "name": {"zh": "英文小说入门", "en": "First novels in English"},
+    "blurb": {"zh": "句子不绕、故事好看，适合第一次整本读英文。", "en": "Plain sentences and good stories: for reading a whole book in English for the first time."},
+    "books": [
+      {"id": "alice", "why": {"zh": "句子短，故事怪，读起来不累。", "en": "Short sentences and a strange story; easy going."}},
+      {"id": "sherlock", "why": {"zh": "一篇一个案子，随时能停。", "en": "One case per story; stop whenever you like."}},
+      {"id": "timemachine", "why": {"zh": "很短，十二章就读完。", "en": "Short: twelve chapters and it is done."}},
+      {"id": "treasureisland", "why": {"zh": "冒险故事，节奏快。", "en": "A fast adventure."}},
+      {"id": "eighty", "why": {"zh": "八十天环游世界，章节短而紧凑。", "en": "Eighty days round the world, in short, tight chapters."}},
+      {"id": "pride", "why": {"zh": "再进一步：长一些，对话多。", "en": "A step up: longer, full of dialogue."}}
+    ]
+  },
+  {
+    "id": "old-scifi-mystery",
+    "name": {"zh": "百年前的科幻与悬疑", "en": "Science fiction and mystery, a century old"},
+    "blurb": {"zh": "今天的科幻片、恐怖片、侦探剧，很多从这几本来。", "en": "Much of today’s science fiction, horror and detective stories comes from these."},
+    "books": [
+      {"id": "frankenstein", "why": {"zh": "科幻的起点之一。", "en": "One of the places science fiction began."}},
+      {"id": "timemachine", "why": {"zh": "时间旅行的老祖宗。", "en": "The grandfather of time travel."}},
+      {"id": "warworlds", "why": {"zh": "外星人入侵的老祖宗。", "en": "The original alien invasion."}},
+      {"id": "dracula", "why": {"zh": "用书信和日记拼出来的恐怖故事。", "en": "Horror told through letters and diaries."}},
+      {"id": "dorian", "why": {"zh": "一幅画替他变老。", "en": "A portrait grows old in his place."}},
+      {"id": "sherlock", "why": {"zh": "侦探小说的样板。", "en": "The pattern of the detective story."}}
+    ]
+  },
+  {
+    "id": "programmers",
+    "name": {"zh": "程序员书架", "en": "A programmer’s shelf"},
+    "blurb": {"zh": "从上手到打底子，都是免费在线读的。", "en": "From first steps to foundations, all free to read online."},
+    "books": [
+      {"id": "eloquentjs", "why": {"zh": "边读边在页面上改代码、跑代码。", "en": "Edit and run the code as you read."}},
+      {"id": "es6", "why": {"zh": "用中文把 ES6 讲清楚。", "en": "ES6 explained in Chinese."}},
+      {"id": "progit", "why": {"zh": "把 Git 讲到底层。", "en": "Git, down to how it works."}},
+      {"id": "trpl", "why": {"zh": "官方的 Rust 入门书，中文版。", "en": "The official Rust book, in Chinese."}},
+      {"id": "tlcl", "why": {"zh": "把命令行从头学一遍。", "en": "Learn the command line from the start."}},
+      {"id": "sicp", "why": {"zh": "计算机科学的一本老经典。", "en": "An old classic of computer science."}},
+      {"id": "crafting", "why": {"zh": "自己动手写一个解释器。", "en": "Write an interpreter yourself."}}
+    ]
+  },
+  {
+    "id": "science-reads",
+    "name": {"zh": "读点科学", "en": "Some science to read"},
+    "blurb": {"zh": "教材和杂志各有一些，不用懂很多也能读。", "en": "Some textbooks and some magazines; no need to know much first."},
+    "books": [
+      {"id": "calculus", "why": {"zh": "微积分的入门书，笔调轻松。", "en": "A light-hearted first book of calculus."}},
+      {"id": "openstax", "why": {"zh": "大学基础课的开放教材。", "en": "Open textbooks for first-year courses."}},
+      {"id": "lightandmatter", "why": {"zh": "一套物理教材，免费读。", "en": "A set of physics textbooks, free to read."}},
+      {"id": "quanta", "why": {"zh": "数学和科学的长文报道。", "en": "Long reads on mathematics and science."}},
+      {"id": "popsci", "why": {"zh": "百年前的科普杂志，看当时怎么讲科学。", "en": "A century-old science magazine: how science was told then."}}
+    ]
+  },
+  {
+    "id": "strange-tales",
+    "name": {"zh": "志怪与神话", "en": "Strange tales and myths"},
+    "blurb": {"zh": "狐仙、异兽、海外奇国，都是短篇，翻到哪读到哪。", "en": "Fox spirits, strange beasts and far countries; short pieces, open anywhere."},
+    "books": [
+      {"id": "liaozhai", "why": {"zh": "狐仙鬼怪的短篇故事，一篇一篇读。", "en": "Short tales of fox spirits and ghosts."}},
+      {"id": "shanhaijing", "why": {"zh": "最早的神话和异兽。", "en": "The oldest myths and beasts."}},
+      {"id": "shishuo", "why": {"zh": "魏晋名士的小故事。", "en": "Small stories of the scholars of the Wei–Jin era."}},
+      {"id": "jinghuayuan", "why": {"zh": "唐敖出海，游历君子国、女儿国。", "en": "A sea voyage to the land of gentlemen and the land of women."}},
+      {"id": "xiyouji", "why": {"zh": "取经路上的妖魔。", "en": "Demons on the road to the scriptures."}}
+    ]
+  }
+]

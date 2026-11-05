@@ -1,0 +1,63 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #Android",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/android.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.appinn.com/andromeld/",
+      "url": "https://www.appinn.com/andromeld/",
+      "title": "Mac 端安卓设备管理工具 AndroMeld 限时 8 折，仅需 28 元起！",
+      "content_html": "<p>在日常工作中，我们经常要使用电脑和手机来协同完成工作。 如果用的是 Mac + iPhone，那当然不会有什么问题。但如果用的是 Mac + 安卓手机，那光是文件传输，就足够让人头大。 AndroMe</p><p>来源：小众软件 · 2026-11-03</p><p>标签：#Android #macOS #安卓 #软件 #工具</p><p><a href=\"https://www.appinn.com/andromeld/\">阅读原文 →</a></p>",
+      "content_text": "在日常工作中，我们经常要使用电脑和手机来协同完成工作。 如果用的是 Mac + iPhone，那当然不会有什么问题。但如果用的是 Mac + 安卓手机，那光是文件传输，就足够让人头大。 AndroMe",
+      "summary": "在日常工作中，我们经常要使用电脑和手机来协同完成工作。 如果用的是 Mac + iPhone，那当然不会有什么问题。但如果用的是 Mac + 安卓手机，那光是文件传输，就足够让人头大。 AndroMe",
+      "date_published": "2026-11-03T00:00:00Z",
+      "tags": [
+        "Android",
+        "macOS",
+        "安卓",
+        "软件",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "小众软件"
+        }
+      ],
+      "_shelf": {
+        "type": "video",
+        "shelf": "appinn-com"
+      }
+    },
+    {
+      "id": "https://www.appinn.com/android-run-ios-xnu/",
+      "url": "https://www.appinn.com/android-run-ios-xnu/",
+      "title": "不开玩笑，在安卓手机上安装 iOS 系统：小米 8、Pixel 6 已成功",
+      "content_html": "<p>最近，接连有开发者成功在 Android 手机上运行 iOS 系统: 注意，这是真正的 iOS 系统移植，并非模仿 iPhone 界面的 Android 主题。 Pixel 6：成功进入 iOS 桌面</p><p>来源：小众软件 · 2026-11-01</p><p>标签：#Android #业界消息 #iOS 16 #安卓 #软件 #工具</p><p><a href=\"https://www.appinn.com/android-run-ios-xnu/\">阅读原文 →</a></p>",
+      "content_text": "最近，接连有开发者成功在 Android 手机上运行 iOS 系统: 注意，这是真正的 iOS 系统移植，并非模仿 iPhone 界面的 Android 主题。 Pixel 6：成功进入 iOS 桌面",
+      "summary": "最近，接连有开发者成功在 Android 手机上运行 iOS 系统: 注意，这是真正的 iOS 系统移植，并非模仿 iPhone 界面的 Android 主题。 Pixel 6：成功进入 iOS 桌面",
+      "date_published": "2026-11-01T00:00:00Z",
+      "tags": [
+        "Android",
+        "业界消息",
+        "iOS 16",
+        "安卓",
+        "软件",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "小众软件"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "appinn-com"
+      }
+    }
+  ]
+}

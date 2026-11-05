@@ -1,0 +1,64 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #track-Strata",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/track-strata.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.appinn.com/strata-0-2-10/",
+      "url": "https://www.appinn.com/strata-0-2-10/",
+      "title": "Strata 0.2.10 发布：本地 AI 大模型继续提速，默认使用 DFlash2 降低显存需求，8GB 显卡也能开启 128K 上下文",
+      "content_html": "<p>更新：青小蛙实测提速 25% Strata 0.2.10：https://llm-bench.io/benchmarks/cmw06r368033s01la504nux2nStrata 0.2.9：h</p><p>来源：小众软件 · 2026-11-03</p><p>标签：#AI #Strata #track-Strata #本地大模型 #软件 #工具</p><p><a href=\"https://www.appinn.com/strata-0-2-10/\">阅读原文 →</a></p>",
+      "content_text": "更新：青小蛙实测提速 25% Strata 0.2.10：https://llm-bench.io/benchmarks/cmw06r368033s01la504nux2nStrata 0.2.9：h",
+      "summary": "更新：青小蛙实测提速 25% Strata 0.2.10：https://llm-bench.io/benchmarks/cmw06r368033s01la504nux2nStrata 0.2.9：h",
+      "date_published": "2026-11-03T00:00:00Z",
+      "tags": [
+        "AI",
+        "Strata",
+        "track-Strata",
+        "本地大模型",
+        "软件",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "小众软件"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "appinn-com"
+      }
+    },
+    {
+      "id": "https://www.appinn.com/strata-0-2-9/",
+      "url": "https://www.appinn.com/strata-0-2-9/",
+      "title": "Strata 0.2.9 发布：本地大模型 Prefill 最高提速 88%，还支持 1 比特 DeepSeek",
+      "content_html": "<p>本地运行 AI 大模型的 Strata 0.2.9 发布，又变快了。 日更软件 Strata，今天更新到了 0.2.9 版本，在为本地大模型提速的道路上继续前进。 这次更新有点猛：在 Windows</p><p>来源：小众软件 · 2026-10-31</p><p>标签：#AI #Strata #track-Strata #本地大模型 #软件 #工具</p><p><a href=\"https://www.appinn.com/strata-0-2-9/\">阅读原文 →</a></p>",
+      "content_text": "本地运行 AI 大模型的 Strata 0.2.9 发布，又变快了。 日更软件 Strata，今天更新到了 0.2.9 版本，在为本地大模型提速的道路上继续前进。 这次更新有点猛：在 Windows",
+      "summary": "本地运行 AI 大模型的 Strata 0.2.9 发布，又变快了。 日更软件 Strata，今天更新到了 0.2.9 版本，在为本地大模型提速的道路上继续前进。 这次更新有点猛：在 Windows",
+      "date_published": "2026-10-31T00:00:00Z",
+      "tags": [
+        "AI",
+        "Strata",
+        "track-Strata",
+        "本地大模型",
+        "软件",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "小众软件"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "appinn-com"
+      }
+    }
+  ]
+}
