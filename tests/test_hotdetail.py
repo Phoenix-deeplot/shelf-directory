@@ -208,7 +208,7 @@ class TestHandle(Base):
         with mock.patch('socket.getaddrinfo', side_effect=OSError('Name or service not known')):
             st, _, body, cache = hotapi.handle({'diag': ['zhihu_daily']}, {'VERCEL_REGION': 'hkg1'})
         d = json.loads(body)
-        self.assertEqual((st, d['host'], d['region'], cache), (200, 'news-at.zhihu.com', 'hkg1', 'no-store'))
+        self.assertEqual((st, d['host'], d['region'], cache), (200, 'plink.anyfeeder.com', 'hkg1', 'no-store'))          # (Zhihu Daily is read from an RSS feed since 2026-11-03: that is the host the diagnosis names)
         self.assertTrue(d['dns'].startswith('failed') and 'connect' not in d)
         with mock.patch('socket.getaddrinfo', return_value=[(2, 1, 6, '', ('203.0.113.7', 443))]), mock.patch('socket.create_connection', side_effect=OSError('timed out')):
             d = json.loads(hotapi.handle({'diag': ['sspai']}, {})[2])
