@@ -637,6 +637,45 @@
    "tags": [],
    "added": "2026-10-28",
    "issue": 42
+  },
+  {
+   "id": "bri-so",
+   "kind": "feed",
+   "url": "https://bri.so/rss/show/xiaoyuzhou/zh.xml",
+   "source": "https://bri.so/rss/show/xiaoyuzhou/zh.xml",
+   "name": "小宇宙每日观测",
+   "tags": [
+    "podcast",
+    "culture"
+   ],
+   "added": "2026-11-04",
+   "issue": 43
+  },
+  {
+   "id": "appinn-com",
+   "kind": "feed",
+   "url": "https://www.appinn.com/feed/",
+   "source": "https://www.appinn.com/feed/",
+   "name": "小众软件",
+   "tags": [
+    "软件",
+    "工具"
+   ],
+   "added": "2026-11-04",
+   "issue": 45
+  },
+  {
+   "id": "feed-xyzfm-space-2",
+   "kind": "feed",
+   "url": "https://feed.xyzfm.space/uwehmwvhejqt",
+   "source": "https://feed.xyzfm.space/uwehmwvhejqt",
+   "name": "西海之声 Radio SayHi!",
+   "tags": [
+    "music",
+    "culture"
+   ],
+   "added": "2026-11-04",
+   "issue": 44
   }
  ]
 }
