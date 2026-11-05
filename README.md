@@ -208,6 +208,15 @@ Windows 的 Python 官方安装通常只有 `python.exe`，而 Vercel 本地构�
 - 页面在浏览器开了“请勿跟踪”或“全球隐私控制”时什么都不发；只统计目录里有的内容（编号要符合 `[A-Za-z0-9._-]{1,64}`）。
 - 需要的环境变量：和同步服务一样的 Redis（`UPSTASH_REDIS_REST_URL` + `UPSTASH_REDIS_REST_TOKEN`，或 `KV_REST_API_URL` + `KV_REST_API_TOKEN`）、`IP_SALT`、`ALLOWED_ORIGINS`（来源只认它）；没有 Redis 时 `GET` 说 `"configured": false`，页面就不显示热度。测试：`tests/test_stat.py`（19 个）。
 
+### B5b. 匿名反馈（`api/feedback.py`，需要和同步一样的 Redis）
+
+读者在页面上点“反馈 / 共读群”写几句话，站长在管理页的“反馈”标签里看和删。
+
+- `POST /api/feedback` `{"msg":"…最多 1000 字","kind":"bug|idea|content|other","contact":"…最多 80 字，可空","where":"页面名","lang":"zh|en","ver":"页面版本","website":""}` → `{"ok":true}`；`GET /api/feedback` → `{"configured": bool}`（页面据此决定显不显示反馈入口）。错误：`request` 400（内容空、太长、类型不对）、`rate` 429（同一个人一天最多 `FEEDBACK_PER_DAY` 条，默认 3，1–50）、`size` 413、`origin` 403、`not_configured` 503、`storage` 503。`website` 是蜜罐：真人看不见，填了的当作成功但丢掉；同一个人（或别人）同一天发一模一样的话只存一条，也不告诉对方。
+- **存什么、不存什么**：存内容、类型、读者自己愿意写的联系方式、页面名、语言、页面版本和**日期**（不存时刻）；**不存地址、浏览器、Cookie，不建账号**。限流用（盐、日期、地址）的单向哈希做计数，两天后 Redis 自己忘掉；“同一句话一天一条”用（日期、内容）的哈希，同样两天。只留最新的 `FEEDBACK_KEEP` 条（默认 2000，50–20000），超过 180 天的删掉（每次有人写或站长打开管理页时顺手清）。内容原样当文字存，管理页用文字显示，不会被当成网页。
+- **站长怎么看**：管理页（`/admin/`）里多一个“反馈”标签，用管理密码登录后才有（GitHub 令牌模式没有）：新的在前，一页 50 条，每条写着类型、日期、页面、语言、版本、联系方式，可以逐条删除。函数侧是 `adminapi.py` 的两个动作 `feedback_list`（`before` 翻页、`limit`）和 `feedback_delete`（`ids`，一次最多 50 个），都要有效的登录会话。
+- 需要的环境变量：同步服务的 Redis（`UPSTASH_REDIS_REST_URL` + `UPSTASH_REDIS_REST_TOKEN`，或 `KV_REST_API_URL` + `KV_REST_API_TOKEN`）、`IP_SALT`、`ALLOWED_ORIGINS`；没有 Redis 时 `GET` 说 `"configured": false`，页面就不显示反馈入口，管理页的反馈标签说“没有地方存”。测试：`tests/test_feedback.py`（24 个，含管理页的列出和删除）。
+
 ### B6. 站长推荐和领域标签
 
 - **站长推荐**：给一个已收录的书架标上推荐和一句话：`python aggregate.py feature 书架编号 --blurb "每周一篇，读完就能用"`（`--off` 取消；收录时也可以直接 `approve 网址 --featured --blurb …`）。标过的书架在 `directory.json` 里有 `featured: true` 和 `blurb`，主站目录页顶部的“站长推荐”和“合集”下拉框里的“站长推荐”用它。

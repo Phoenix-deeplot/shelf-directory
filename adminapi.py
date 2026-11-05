@@ -18,8 +18,11 @@ import time
 import urllib.parse
 
 import aggregate as agg
+import feedbackapi
 import submission
+import syncapi
 from submission import Reply
+from syncapi import StoreError
 
 MIN_PASSWORD = 12
 SESSION_SECONDS = 8 * 3600                 # signed in until the tab is closed or this long, whichever comes first
@@ -224,7 +227,20 @@ def proxy(payload, cfg, now):
     return 200, {'ok': True, 'status': st, 'data': data}
 
 
-def handle(payload, bearer, ip, env, now=None):
+def feedback(action, payload, env, now, store=None):
+    """What the readers wrote through the feedback box (feedbackapi.py): list them (newest first, a page at a time) or delete some. The same Redis as the sync service."""
+    store = store if store is not None else syncapi.store_from_env(env)
+    if store is None:
+        raise Reply(503, 'not_configured', '反馈还没有地方存（需要 Redis：UPSTASH_REDIS_REST_URL 和 UPSTASH_REDIS_REST_TOKEN）', 'Feedback has no storage (Redis is needed)')
+    try:
+        if action == 'feedback_list':
+            return 200, {'ok': True, **feedbackapi.list_items(store, payload.get('before'), payload.get('limit', 50), now, env)}
+        return 200, {'ok': True, 'deleted': feedbackapi.delete_items(store, payload.get('ids'))}
+    except StoreError:
+        raise Reply(503, 'storage', '存储暂时连不上', 'The storage cannot be reached for the moment')
+
+
+def handle(payload, bearer, ip, env, now=None, store=None):
     """-> (HTTP status, JSON-able dict). `bearer` is the session value from the Authorization header."""
     now = now if now is not None else time.time()
     cfg = settings(env)
@@ -236,10 +252,12 @@ def handle(payload, bearer, ip, env, now=None):
         action = payload.get('action')
         if action == 'login':
             return login(payload, cfg, submission.ip_hash(ip, cfg['salt']), now)
-        if action == 'gh':
+        if action in ('gh', 'feedback_list', 'feedback_delete'):
             if not check_session(bearer, cfg, now):
                 raise Reply(401, 'session', '登录已过期，请重新输入密码', 'Signed out; enter the password again')
-            return proxy(payload, cfg, now)
+            if action == 'gh':
+                return proxy(payload, cfg, now)
+            return feedback(action, payload, env, now, store)
         raise Reply(400, 'request', '请求格式不对', 'Bad request')
     except Reply as r:
         return r.status, r.body()
@@ -248,7 +266,7 @@ def handle(payload, bearer, ip, env, now=None):
 
 
 # ---------------------------------------------------------------- the HTTP side (used by api/admin.py and by the tests)
-def respond(h, env, method):
+def respond(h, env, method, store=None):
     """Answer one request on a BaseHTTPRequestHandler `h`. The page and this function are on the same site, so there is no CORS at all: another site's page is refused."""
     cfg = settings(env)
 
@@ -293,5 +311,5 @@ def respond(h, env, method):
     auth = h.headers.get('Authorization') or ''
     bearer = auth[7:].strip() if auth[:7].lower() == 'bearer ' else ''
     ip = (h.headers.get('X-Vercel-Forwarded-For') or h.headers.get('X-Forwarded-For') or h.headers.get('X-Real-IP') or (h.client_address[0] if h.client_address else '')).split(',')[0].strip()
-    status, body = handle(payload, bearer, ip, env)
+    status, body = handle(payload, bearer, ip, env, store=store)
     return send(status, body)
