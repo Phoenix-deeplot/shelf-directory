@@ -534,6 +534,48 @@ function drawFeedback(){
     fb.next ? el('button', { type: 'button', text: '再看更早的', onclick: () => renderFeedback(true) }) : null);
 }
 let opsRenderVersion=0;
+async function analyticsOpsPanel(panel){
+  panel.append(el('h2',{text:'热榜实验分析'}),el('p',{class:'muted',text:'匿名实验事件按匿名 ID 与内容键去重；曝光与展示合并计数，点击按匿名 ID + 内容键去重，活跃时间使用前台 active_time 秒数。每个变体少于 100 个独立曝光时不判断胜负。'}));
+  const msg=el('p',{class:'msg',role:'status'}), list=el('select',{'aria-label':'选择实验'}), key=el('input',{type:'text',placeholder:'实验 key，例如 hot-layout-v1',maxlength:'80'}), name=el('input',{type:'text',placeholder:'实验名称',maxlength:'120'});
+  const status=el('select',{'aria-label':'实验状态'},[['draft','草稿'],['active','运行中'],['paused','暂停'],['off','关闭']].map(x=>el('option',{value:x[0],text:x[1]})));
+  const labels=el('input',{type:'text',value:'对照组,变体 A',placeholder:'变体标签，逗号分隔'}), ids=el('input',{type:'text',value:'control,treatment',placeholder:'变体 id，逗号分隔'});
+  const save=el('button',{type:'button',class:'primary',text:'保存实验配置'}), form=el('section',{class:'card'});
+  form.append(el('h3',{text:'实验配置'}),el('label',{text:'实验 key'}),key,el('label',{text:'名称'}),name,el('label',{text:'状态'}),status,el('label',{text:'变体标签（最多 8 个）'}),labels,el('label',{text:'变体 ID（与标签一一对应）'}),ids,el('p',{class:'muted',text:'首版将流量均分；变体按匿名 UUID 在浏览器稳定分配。'}),save,msg);
+  const from=el('input',{type:'date'}), to=el('input',{type:'date'}), language=el('input',{type:'text',placeholder:'语言筛选，如 zh-CN',maxlength:'30'}), device=el('select',{'aria-label':'设备'},[['','全部设备'],['desktop','桌面'],['mobile','手机'],['tablet','平板'],['other','其他']].map(x=>el('option',{value:x[0],text:x[1]}))), module=el('input',{type:'text',placeholder:'栏目 slug',maxlength:'80'});
+  const table=el('div',{class:'ops-list'}), summaryMsg=el('p',{class:'msg',role:'status'}), run=el('button',{type:'button',class:'primary',text:'查询汇总'});
+  const summary=el('section',{class:'card'},el('h3',{text:'数据汇总'}),el('label',{text:'实验'}),list,el('div',{class:'ops-filters'},from,to,language,device,module),run,summaryMsg,table);
+  panel.append(form,summary);
+  let experiments=[];
+  const setExperiment=x=>{ if(!x)return; key.value=x.id;name.value=x.name;status.value=x.status;ids.value=(x.variants||[]).map(v=>v.id).join(',');labels.value=(x.variants||[]).map(v=>v.label).join(','); };
+  try{
+    experiments=await ops('analytics-config');
+    list.replaceChildren(...experiments.map(x=>el('option',{value:x.id,text:x.name+' · '+x.id+' · '+x.status})));
+    if(experiments.length){setExperiment(experiments[0]);list.value=experiments[0].id;}
+    else list.append(el('option',{value:'',text:'新建实验'}));
+  }catch(e){msg.textContent=e.message+'；请先应用 migrations/008_hot_analytics.sql。';msg.className='msg bad';save.disabled=true;run.disabled=true;return;}
+  list.addEventListener('change',()=>setExperiment(experiments.find(x=>x.id===list.value)));
+  save.addEventListener('click',async()=>{
+    const variantIds=ids.value.split(',').map(x=>x.trim()), variantLabels=labels.value.split(',').map(x=>x.trim());
+    const variants=variantIds.map((id,i)=>({id,label:variantLabels[i]||id}));
+    if(variantIds.length<2||variantIds.length!==variantLabels.length){msg.textContent='变体 ID 与标签数量必须相同，且至少需要两个。';msg.className='msg bad';return;}
+    save.disabled=true;msg.textContent='保存中…';msg.className='msg';
+    try{const saved=await ops('analytics-save-config',{experiment_id:key.value.trim(),name:name.value.trim(),status:status.value,variants,allocation:Object.fromEntries(variantIds.map(id=>[id,100/variantIds.length]))});experiments=await ops('analytics-config');list.replaceChildren(...experiments.map(x=>el('option',{value:x.id,text:x.name+' · '+x.id+' · '+x.status})));list.value=saved.id;setExperiment(saved);msg.textContent='实验配置已保存。';msg.className='msg good';}
+    catch(e){msg.textContent=e.message;msg.className='msg bad';save.disabled=false;}
+  });
+  run.addEventListener('click',async()=>{
+    if(!list.value){summaryMsg.textContent='先选择或保存一个实验。';summaryMsg.className='msg bad';return;}
+    run.disabled=true;summaryMsg.textContent='查询中…';summaryMsg.className='msg';table.textContent='';
+    try{
+      const data=await ops('analytics-summary',{experiment_id:list.value,from:from.value||undefined,to:to.value||undefined,locale:language.value.trim()||undefined,device_class:device.value||undefined,module_slug:module.value.trim()||undefined});
+      summaryMsg.textContent=data.insufficient_sample?'样本不足，暂不判断胜负。':'样本达到展示阈值；仅呈现方向性数据，不自动选择胜者。';summaryMsg.className='msg '+(data.insufficient_sample?'bad':'good');
+      const selected=experiments.find(x=>x.id===list.value);
+      for(const v of data.variants||[]) table.append(el('section',{class:'card'},el('h3',{text:selected?.variants?.find(item=>item.id===v.id)?.label||v.id}),el('p',{text:`独立曝光 ${v.exposures} · 独立点击 ${v.clicks} · CTR ${(v.ctr*100).toFixed(2)}%`}),el('p',{text:`前台活跃 ${v.active_seconds_avg}s 均值 / ${v.active_seconds_median}s 中位数；样本 ${v.insufficient_sample?'不足':'达到阈值'}`})));
+      const rows=data.breakdown||[]; if(rows.length){const t=el('table',{class:'analytics-table'});t.append(el('thead',{},el('tr',{},...['栏目','来源','曝光/展示','点击'].map(x=>el('th',{text:x})))));const body=el('tbody');for(const r of rows)body.append(el('tr',{},el('td',{text:r.module_slug}),el('td',{text:r.source}),el('td',{text:String(r.impressions)}),el('td',{text:String(r.clicks)})));t.append(body);table.append(t);}
+      if(!(data.variants||[]).length)table.append(el('p',{class:'empty',text:'所选日期范围内没有事件。'}));
+    }catch(e){summaryMsg.textContent=e.message;summaryMsg.className='msg bad';}
+    run.disabled=false;
+  });
+}
 async function renderOps(){
   const renderVersion=++opsRenderVersion;
   const box=$('#ops'); box.textContent='';
@@ -554,7 +596,7 @@ async function renderOps(){
   const [dash, programs, subscriptions, modules, covers, ads, contents]=data;
   const sync=el('button',{type:'button',class:'primary',text:'同步目录到运营库',onclick:async()=>{sync.disabled=true; sync.textContent='同步中…'; try{const r=await ops('sync_directory'); sync.textContent='已同步 '+r.programs+' 个节目 / '+r.contents+' 篇内容'; await renderOps();}catch(e){sync.textContent=e.message;sync.className='danger';} sync.disabled=false;}});
   const metric=dash.metrics||{};
-  const tabDefs=[['overview','概览'],['programs','节目'],['subscriptions','订阅目录'],['content','内容'],['modules','展示模块'],['assets','封面与广告']];
+  const tabDefs=[['overview','概览'],['programs','节目'],['subscriptions','订阅目录'],['content','内容'],['modules','展示模块'],['assets','封面与广告'],['analytics','实验分析']];
   const tabs=el('nav',{class:'tabs ops-tabs',role:'tablist','aria-label':'运营功能'});
   const panels={}; let active='overview';
   const activate=id=>{
@@ -627,6 +669,7 @@ async function renderOps(){
   const assetPanel=panels.assets;
   const addCover=el('button',{type:'button',text:'加入粒子网络预设',onclick:async()=>{try{await ops('save_cover',addParticleCover());await renderOps();}catch(e){say(e.message,'bad');}}});
   assetPanel.append(el('h2',{text:'动态 Cover'}),el('p',{class:'muted',text:'封面配置只保存风格规则，标题由公共空间前端实时叠加。'}),el('div',{class:'actions'},addCover),...covers.map(coverOpsCard),el('h2',{text:'广告位'}),el('p',{class:'muted',text:'只管理位置和设备；广告代码继续留在前端配置。'}),...ads.map(adOpsCard));
+  await analyticsOpsPanel(panels.analytics);
   box.append(tabs,...tabDefs.map(([id])=>panels[id]));
 }
 async function renderDone(){

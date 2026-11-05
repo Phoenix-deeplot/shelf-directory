@@ -6,10 +6,12 @@ from http.server import BaseHTTPRequestHandler
 
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from api_routes import admin, book, feed, feedback, hot, hot_events, hot_events_refresh, listen, ops, stat, submit, sync, translate  # noqa: E402
+from api_routes import admin, analytics_config, analytics_events, book, feed, feedback, hot, hot_events, hot_events_refresh, listen, ops, stat, submit, sync, translate  # noqa: E402
 
 ROUTES = {
     '/api/admin': admin.handler,
+    '/api/analytics/config': analytics_config.handler,
+    '/api/analytics/events': analytics_events.handler,
     '/api/book': book.handler,
     '/api/feed': feed.handler,
     '/api/feedback': feedback.handler,

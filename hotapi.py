@@ -58,6 +58,7 @@ COLUMNS = [
     {'id': 'entertainment', 'name': '娱乐', 'name_en': 'Entertainment'},
     {'id': 'learning', 'name': '学习与专业提升', 'name_en': 'Learning & growth'},
     {'id': 'media', 'name': '影音与社区', 'name_en': 'Media & communities'},
+    {'id': 'apps_games', 'name': '应用与游戏', 'name_en': 'Apps & games'},
     {'id': 'shopping', 'name': '购物', 'name_en': 'Shopping', 'default': False},
 ]
 COLUMN_IDS = [c['id'] for c in COLUMNS]
@@ -445,7 +446,7 @@ def p_apple(raw):
     return out
 
 
-def p_polymarket(raw):
+def p_polymarket(raw, period='day'):
     """High-volume Polymarket events. These are prediction-market signals, not verified news."""
     data = _json(raw)
     if not isinstance(data, list):
@@ -454,12 +455,12 @@ def p_polymarket(raw):
     for event in data:
         if not isinstance(event, dict) or not event.get('title') or not re.fullmatch(r'[A-Za-z0-9-]{1,160}', str(event.get('slug') or '')):
             continue
-        volume = event.get('volume24hr') or event.get('volume_24hr') or event.get('volume24h')
+        volume = (event.get('volume1wk') or event.get('volume_1wk') or event.get('volume1w')) if period == 'week' else (event.get('volume24hr') or event.get('volume_24hr') or event.get('volume24h'))
         try:
             amount = float(volume or 0)
         except (TypeError, ValueError):
             amount = 0
-        heat = ('24h 成交量 $%s' % _heat(amount)) if amount > 0 else ''
+        heat = (('近 7 天' if period == 'week' else '24h') + ' 成交量 $%s' % _heat(amount)) if amount > 0 else ''
         out.append({'title': event['title'], 'url': 'https://polymarket.com/event/' + event['slug'], 'heat': heat,
                     'note': '预测市场热度 · 非新闻结论或投资建议'})
     return out
@@ -733,9 +734,10 @@ PLATFORMS = {
     # ------------------------------------------------------------ 综合热点
     'weibo': P('news', '微博热搜', 'Weibo hot searches', 'https://s.weibo.com/top/summary', 'https://weibo.com/ajax/side/hotSearch', p_weibo, headers={'Referer': 'https://weibo.com/'}, kw=True),
     'zhihu': P('media', '知乎热榜', 'Zhihu hot questions', 'https://www.zhihu.com/hot', 'https://api.zhihu.com/topstory/hot-lists/total?limit=50', p_zhihu, kw=True),
-    'douyin': P('entertainment', '抖音热点', 'Douyin hot topics', 'https://www.douyin.com/hot', 'https://www.douyin.com/aweme/v1/web/hot/search/list/?device_platform=webapp&aid=6383&channel=channel_pc_web&detail_list=1', p_douyin, headers={'Referer': 'https://www.douyin.com/'}, kw=True),
-    'xiaohongshu': P('entertainment', '小红书热门', 'Xiaohongshu hot notes', 'https://www.xiaohongshu.com/explore', 'https://rebang.today/?tab=xiaohongshu', p_xiaohongshu, via='rebang.today', ttl=THIRD_SECONDS, kw=True),
-    'bilibili': P('media', 'B 站热门视频', 'Bilibili popular videos', 'https://www.bilibili.com/v/popular/all', 'https://api.bilibili.com/x/web-interface/popular?ps=50&pn=1', p_bilibili, headers={'Referer': 'https://www.bilibili.com/'}),
+    'douyin': P('news', '抖音热点', 'Douyin hot topics', 'https://www.douyin.com/hot', 'https://www.douyin.com/aweme/v1/web/hot/search/list/?device_platform=webapp&aid=6383&channel=channel_pc_web&detail_list=1', p_douyin, headers={'Referer': 'https://www.douyin.com/'}, kw=True),
+    'xiaohongshu': P('news', '小红书热门', 'Xiaohongshu hot notes', 'https://www.xiaohongshu.com/explore', 'https://rebang.today/?tab=xiaohongshu', p_xiaohongshu, via='rebang.today', ttl=THIRD_SECONDS, kw=True),
+    'bilibili': P('news', 'B 站热门视频', 'Bilibili popular videos', 'https://www.bilibili.com/v/popular/all', 'https://api.bilibili.com/x/web-interface/popular?ps=50&pn=1', p_bilibili, headers={'Referer': 'https://www.bilibili.com/'}),
+    'reddit': P('news', 'Reddit 今日热门', 'Reddit popular today', 'https://www.reddit.com/r/popular/top/?t=day', 'https://www.reddit.com/r/popular/top/.rss?t=day', lang='en'),
     'wechat': TH('news', '公众号热文', 'WeChat articles', 'https://weixin.sogou.com/', 'WnBe01o371', ('weixin.qq.com',)),
     'toutiao': P('news', '今日头条热榜', 'Toutiao hot board', 'https://www.toutiao.com/', 'https://www.toutiao.com/hot-event/hot-board/?origin=toutiao_pc', p_toutiao, kw=True),
     'hupu': TH('media', '虎扑步行街热帖', 'Hupu hot posts', 'https://bbs.hupu.com/', 'G47o8weMmN', ('hupu.com',)),
@@ -782,15 +784,15 @@ PLATFORMS = {
     'france24': P('world', 'France 24（英文）', 'France 24 (English)', 'https://www.france24.com/en/', 'https://www.france24.com/en/rss', lang='en'),
     'conversation': P('world', 'The Conversation（学者写时事）', 'The Conversation', 'https://theconversation.com/global', 'https://theconversation.com/global/articles.atom', lang='en'),
     # ------------------------------------------------------------ AI 与学术
-    'hf_papers': P('learning', 'Hugging Face 每日论文', 'Hugging Face daily papers', 'https://huggingface.co/papers', 'https://huggingface.co/api/daily_papers?limit=50', p_hf_papers, lang='en', read=True),
-    'hf_models': P('ai', 'Hugging Face 热门模型', 'Hugging Face trending models', 'https://huggingface.co/models?sort=trending', 'https://huggingface.co/api/models?sort=trendingScore&limit=50', p_hf_models, lang='en', read=True),
-    'arxiv_ai': P('learning', 'arXiv · cs.AI', 'arXiv · cs.AI', 'https://arxiv.org/list/cs.AI/new', 'https://rss.arxiv.org/rss/cs.AI', lang='en'),
-    'arxiv_cl': P('learning', 'arXiv · cs.CL', 'arXiv · cs.CL', 'https://arxiv.org/list/cs.CL/new', 'https://rss.arxiv.org/rss/cs.CL', lang='en'),
-    'openai': P('ai', 'OpenAI 动态', 'OpenAI news', 'https://openai.com/news/', 'https://openai.com/news/rss.xml', lang='en', read=False),
+    'hf_papers': P('learning', 'Hugging Face 每日论文', 'Hugging Face daily papers', 'https://huggingface.co/papers', 'https://huggingface.co/api/daily_papers?limit=50', p_hf_papers, lang='en', read=True, track='research', source_tier='primary'),
+    'hf_models': P('ai', 'Hugging Face 热门模型', 'Hugging Face trending models', 'https://huggingface.co/models?sort=trending', 'https://huggingface.co/api/models?sort=trendingScore&limit=50', p_hf_models, lang='en', read=True, track='applications', source_tier='primary'),
+    'arxiv_ai': P('learning', 'arXiv · cs.AI', 'arXiv · cs.AI', 'https://arxiv.org/list/cs.AI/new', 'https://rss.arxiv.org/rss/cs.AI', lang='en', track='research', source_tier='primary'),
+    'arxiv_cl': P('learning', 'arXiv · cs.CL', 'arXiv · cs.CL', 'https://arxiv.org/list/cs.CL/new', 'https://rss.arxiv.org/rss/cs.CL', lang='en', track='research', source_tier='primary'),
+    'openai': P('ai', 'OpenAI 动态', 'OpenAI news', 'https://openai.com/news/', 'https://openai.com/news/rss.xml', lang='en', read=False, track='vendor', source_tier='primary'),
     'mitnews': P('learning', 'MIT 新闻', 'MIT News', 'https://news.mit.edu/', 'https://news.mit.edu/rss/feed', lang='en'),
-    'qbitai': P('ai', '量子位', 'QbitAI', 'https://www.qbitai.com/', 'https://www.qbitai.com/feed'),
-    'mit_ai': P('ai', 'MIT Technology Review · AI', 'MIT Technology Review · AI', 'https://www.technologyreview.com/topic/artificial-intelligence/', 'https://www.technologyreview.com/topic/artificial-intelligence/feed', lang='en'),
-    'techcrunch_ai': P('ai', 'TechCrunch · AI', 'TechCrunch · AI', 'https://techcrunch.com/category/artificial-intelligence/', 'https://techcrunch.com/category/artificial-intelligence/feed/', lang='en'),
+    'qbitai': P('ai', '量子位', 'QbitAI', 'https://www.qbitai.com/', 'https://www.qbitai.com/feed', track='vendor', source_tier='secondary'),
+    'mit_ai': P('ai', 'MIT Technology Review · AI', 'MIT Technology Review · AI', 'https://www.technologyreview.com/topic/artificial-intelligence/', 'https://www.technologyreview.com/topic/artificial-intelligence/feed', lang='en', track='vendor', source_tier='secondary'),
+    'techcrunch_ai': P('ai', 'TechCrunch · AI', 'TechCrunch · AI', 'https://techcrunch.com/category/artificial-intelligence/', 'https://techcrunch.com/category/artificial-intelligence/feed/', lang='en', track='vendor', source_tier='secondary'),
     'nature': P('learning', 'Nature 新闻', 'Nature', 'https://www.nature.com/nature/articles?type=news', 'https://www.nature.com/nature.rss', lang='en'),
     'science_news': P('learning', 'Science 新闻', 'Science news', 'https://www.science.org/news', 'https://www.science.org/rss/news_current.xml', lang='en', read=False),
     'physorg': P('learning', 'Phys.org', 'Phys.org', 'https://phys.org/', 'https://phys.org/rss-feed/', lang='en'),
@@ -811,12 +813,12 @@ PLATFORMS = {
     'apple_pod_cn': P('media', 'Apple 播客榜 · 中国', 'Apple Podcasts · China', 'https://podcasts.apple.com/cn/charts', APPLE % 'cn/podcasts/top/50/podcasts.json', p_apple, detail=True),
     'apple_pod_us': P('media', 'Apple 播客榜 · 美国', 'Apple Podcasts · US', 'https://podcasts.apple.com/us/charts', APPLE % 'us/podcasts/top/50/podcasts.json', p_apple, lang='en', detail=True),
     'apple_music_us': P('media', 'Apple Music 最多播放 · 美国', 'Apple Music most played · US', 'https://music.apple.com/us/new', APPLE % 'us/music/most-played/50/songs.json', p_apple, lang='en'),
-    'appstore_free_us': P('tech', 'App Store 免费榜 · 美国', 'App Store Top Free · US', 'https://apps.apple.com/us/charts/iphone/top-free-apps/36', APPLE % 'us/apps/top-free/50/apps.json', p_apple, lang='en'),
-    'appstore_free_cn': P('tech', 'App Store 免费榜 · 中国', 'App Store Top Free · China', 'https://apps.apple.com/cn/charts/iphone/top-free-apps/36', APPLE % 'cn/apps/top-free/50/apps.json', p_apple),
-    'polymarket': P('world', 'Polymarket 预测市场热度', 'Polymarket market activity', 'https://polymarket.com/', 'https://gamma-api.polymarket.com/events?active=true&closed=false&order=volume24hr&ascending=false&limit=50', p_polymarket, lang='en'),
-    'x_trending': P('world', 'X 全球热点讨论', 'X global conversations', 'https://x.com/explore', 'https://api.x.com/2/tweets/search/recent?query=%28Iran%20OR%20Israel%20OR%20Ukraine%20OR%20gold%20OR%20OpenAI%20OR%20Anthropic%20OR%20DeepSeek%29%20-lang%3Aund%20-is%3Arepost&max_results=50&tweet.fields=created_at%2Cpublic_metrics%2Cauthor_id&expansions=author_id&user.fields=username', p_x, lang='en', needs=['X_BEARER_TOKEN'], headers={'Authorization': 'Bearer {X_BEARER_TOKEN}'}),
-    'steam': P('entertainment', 'Steam 热销', 'Steam top sellers', 'https://store.steampowered.com/search/?filter=topsellers', 'https://store.steampowered.com/api/featuredcategories?cc=cn&l=schinese', p_steam),
-    'taptap': TH('entertainment', 'TapTap 热门游戏', 'TapTap hot games', 'https://www.taptap.cn/top/download', '6ARe1k2v7n', ('taptap.cn', 'taptap.io')),
+    'appstore_free_us': P('apps_games', 'App Store 免费榜 · 美国', 'App Store Top Free · US', 'https://apps.apple.com/us/charts/iphone/top-free-apps/36', APPLE % 'us/apps/top-free/50/apps.json', p_apple, lang='en'),
+    'appstore_free_cn': P('apps_games', 'App Store 免费榜 · 中国', 'App Store Top Free · China', 'https://apps.apple.com/cn/charts/iphone/top-free-apps/36', APPLE % 'cn/apps/top-free/50/apps.json', p_apple),
+    'polymarket': P('news', 'Polymarket 预测市场热度', 'Polymarket market activity', 'https://polymarket.com/', 'https://gamma-api.polymarket.com/events?active=true&closed=false&order={POLY_ORDER}&ascending=false&limit=50', p_polymarket, lang='en'),
+    'x_trending': P('news', 'X 热门讨论（关键词）', 'X popular discussions (curated query)', 'https://x.com/explore', 'https://api.x.com/2/tweets/search/recent?query=%28Iran%20OR%20Israel%20OR%20Ukraine%20OR%20gold%20OR%20OpenAI%20OR%20Anthropic%20OR%20DeepSeek%29%20-lang%3Aund%20-is%3Arepost&max_results=50&tweet.fields=created_at%2Cpublic_metrics%2Cauthor_id&expansions=author_id&user.fields=username', p_x, lang='en', needs=['X_BEARER_TOKEN'], headers={'Authorization': 'Bearer {X_BEARER_TOKEN}'}),
+    'steam': P('apps_games', 'Steam 热销', 'Steam top sellers', 'https://store.steampowered.com/search/?filter=topsellers', 'https://store.steampowered.com/api/featuredcategories?cc=cn&l=schinese', p_steam),
+    'taptap': TH('apps_games', 'TapTap 热门游戏', 'TapTap hot games', 'https://www.taptap.cn/top/download', '6ARe1k2v7n', ('taptap.cn', 'taptap.io')),
     'douban_movie': TH('entertainment', '豆瓣新片榜', 'Douban new films', 'https://movie.douban.com/chart', 'mDOvnyBoEB', ('douban.com',)),
     'longreads': P('learning', 'Longreads 长文精选', 'Longreads', 'https://longreads.com/', 'https://longreads.com/feed/', lang='en'),
     'psyche': P('learning', 'Psyche（观念与生活）', 'Psyche', 'https://psyche.co/', 'https://psyche.co/feed', lang='en'),
@@ -824,7 +826,7 @@ PLATFORMS = {
     'variety': P('entertainment', 'Variety 影视', 'Variety', 'https://variety.com/', 'https://variety.com/feed/', lang='en'),
     'letterboxd': P('media', 'Letterboxd 影评', 'Letterboxd Journal', 'https://letterboxd.com/journal/', 'https://letterboxd.com/journal/rss/', lang='en'),
     'polygon': P('entertainment', 'Polygon 游戏', 'Polygon', 'https://www.polygon.com/', 'https://www.polygon.com/rss/index.xml', lang='en'),
-    'youtube': P('media', 'YouTube 热门', 'YouTube most popular', 'https://www.youtube.com/feed/trending',
+    'youtube': P('news', 'YouTube 热门', 'YouTube most popular', 'https://www.youtube.com/feed/trending',
                  'https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics&chart=mostPopular&maxResults=50&regionCode={REGION}&key={YOUTUBE_API_KEY}', p_youtube, lang='en', needs=['YOUTUBE_API_KEY'], regions=YT_REGIONS, region='US', region_env='YOUTUBE_REGION'),
 }
 
@@ -880,12 +882,13 @@ def enabled(env, plats=None):
     return [k for k, v in plats.items() if k in on and k not in off and all(str((env or {}).get(n) or '').strip() for n in v.get('needs') or [])]
 
 
-def _url(spec, env, now, region=''):
+def _url(spec, env, now, region='', period='day'):
     """The address, with what changes filled in: the day of Wikipedia's list, YouTube's key, the country of a list that has countries."""
     u = spec['url']
     if '{' not in u:
         return u
     vals = {'DATE': time.strftime('%Y/%m/%d', time.gmtime(now - 2 * 86400)), 'YOUTUBE_API_KEY': urllib.parse.quote(str((env or {}).get('YOUTUBE_API_KEY') or '').strip(), safe=''),
+            'POLY_ORDER': 'volume1wk' if period == 'week' else 'volume24hr',
             'REGION': region if re.fullmatch(r'[A-Z]{2}', region or '') else spec.get('region', 'US')}
     for k, v in vals.items():
         u = u.replace('{%s}' % k, v)
@@ -897,20 +900,21 @@ def feed_rows(body, headers, url):
     return [{'title': i.get('title'), 'url': i.get('url'), 'heat': '', 'note': '', 'date': i.get('date') or '', 'img': i.get('image'), 'body': i.get('summary')} for i in items]
 
 
-def entries(pid, now=None, env=None, region='', timeout=None):
+def entries(pid, now=None, env=None, region='', timeout=None, period='day'):
     """-> (the platform's rows now, when they were read). A copy is kept for CACHE_SECONDS (for each country of a list that has countries); an old copy is served when the platform does not answer.
     Raises agg.Refused."""
     now = time.time() if now is None else now
     spec = platforms(env)[pid]
-    key = '%s:%s' % (pid, region) if spec.get('regions') else pid
+    key = '%s:%s' % (pid, region) if spec.get('regions') else '%s:%s' % (pid, period) if pid == 'polymarket' else pid
     hit = _CACHE.get(key)
     if hit and now - hit[0] < spec.get('ttl', CACHE_SECONDS):
         return hit[1], hit[0]
     try:
         request_headers = {k: re.sub(r'\{([A-Z0-9_]+)\}', lambda m: str((env or {}).get(m.group(1)) or ''), v) for k, v in spec['headers'].items()}
-        final, h, body = agg.fetch(_url(spec, env, now, region), FEED_ACCEPT if spec['feed'] else '*/*', 3 * 1024 * 1024, headers={**BROWSER, **request_headers}, truncate=True, timeout=timeout)
+        final, h, body = agg.fetch(_url(spec, env, now, region, period), FEED_ACCEPT if spec['feed'] else '*/*', 3 * 1024 * 1024, headers={**BROWSER, **request_headers}, truncate=True, timeout=timeout)
         try:
-            rows = feed_rows(body, h, final) if spec['feed'] else spec['parse'](agg.decode(body, h))
+            decoded = agg.decode(body, h)
+            rows = feed_rows(body, h, final) if spec['feed'] else spec['parse'](decoded, period=period) if pid == 'polymarket' else spec['parse'](decoded)
         except (KeyError, TypeError, ValueError, AttributeError, IndexError, ET.ParseError):
             raise _changed()
         rows = [r for r in map(_norm, rows) if r][:KEEP]
@@ -948,6 +952,10 @@ def _info(k, v):
         d['detail'] = True
     if v.get('kw'):
         d['kw'] = True
+    if v.get('track') in {'vendor', 'research', 'tools', 'applications'}:
+        d['track'] = v['track']
+    if v.get('source_tier') in {'primary', 'secondary'}:
+        d['source_tier'] = v['source_tier']
     if v.get('regions'):
         d['regions'] = list(v['regions'])
     return d
@@ -1194,8 +1202,15 @@ def handle(query, env, now=None, headers=None):
         return _extra(query, env, now)
     if not pid:                                                                # what is on
         cols = [{**c, 'enabled': any(plats[k]['col'] == c['id'] for k in on)} for c in COLUMNS]
-        body = json.dumps({'ok': True, 'service': 'shelf-hot', 'columns': cols, 'platforms': [_info(k, plats[k]) for k in on]}, ensure_ascii=False).encode('utf-8')
-        return 200, 'application/json; charset=utf-8', body, 'public, max-age=300'
+        h = {str(k).lower(): str(v) for k, v in (headers or {}).items()}
+        language = str((query.get('lang') or [h.get('accept-language', 'zh')])[0]).split(',')[0].strip()[:35]
+        language = language if re.fullmatch(r'[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8}){0,2}', language) else 'zh'
+        country = (h.get('x-vercel-ip-country') or '').strip().upper()
+        locale_hint = {'language': language}
+        if re.fullmatch(r'[A-Z]{2}', country):
+            locale_hint['country_code'] = country
+        body = json.dumps({'ok': True, 'service': 'shelf-hot', 'locale_hint': locale_hint, 'columns': cols, 'platforms': [_info(k, plats[k]) for k in on]}, ensure_ascii=False).encode('utf-8')
+        return 200, 'application/json; charset=utf-8', body, PRIVATE if 'country_code' in locale_hint else 'public, max-age=300'
     if pid not in plats or pid not in on:
         return 404, 'application/json; charset=utf-8', json.dumps({'ok': False, 'error': 'platform', 'message': '没有这个榜单', 'message_en': 'No such list'}).encode('utf-8'), 'no-store'
     try:
@@ -1211,7 +1226,13 @@ def handle(query, env, now=None, headers=None):
     store = _store(env)
     history = {'available': False, 'complete': False, 'required_days': SNAPSHOT_DAYS, 'snapshots': 0, 'dates': []}
     if period == 'week':
-        if store is None:
+        if pid == 'polymarket':
+            try:
+                rows, at = entries(pid, now, env, region, period='week')
+                history = {'available': True, 'complete': True}
+            except agg.Refused as e:
+                return 502, 'application/json; charset=utf-8', json.dumps({'ok': False, 'error': 'upstream', 'message': '这个榜单现在读不到：%s' % e, 'message_en': 'This list cannot be read right now: %s' % e.en}, ensure_ascii=False).encode('utf-8'), 'no-store'
+        elif store is None:
             rows, at = [], 0
         else:
             try:
@@ -1223,7 +1244,7 @@ def handle(query, env, now=None, headers=None):
             history = {**history, 'available': False}
     else:
         try:
-            rows, at = entries(pid, now, env, region)
+            rows, at = entries(pid, now, env, region, period=period)
         except agg.Refused as e:
             return 502, 'application/json; charset=utf-8', json.dumps({'ok': False, 'error': 'upstream', 'message': '这个榜单现在读不到：%s' % e, 'message_en': 'This list cannot be read right now: %s' % e.en}, ensure_ascii=False).encode('utf-8'), 'no-store'
         if store is not None:

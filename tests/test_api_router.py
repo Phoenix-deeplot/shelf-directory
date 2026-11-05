@@ -32,9 +32,10 @@ class TestRouterPath(unittest.TestCase):
         self.assertIsNone(router._rewritten_target('/api/router?__route=adminapi'))
 
     def test_route_allowlist_covers_all_legacy_api_paths(self):
-        self.assertEqual(len(router.ROUTES), 13)
+        self.assertEqual(len(router.ROUTES), 15)
         self.assertEqual(set(router.ROUTES), {
-            '/api/admin', '/api/book', '/api/feed', '/api/feedback', '/api/hot',
+            '/api/admin', '/api/analytics/config', '/api/analytics/events',
+            '/api/book', '/api/feed', '/api/feedback', '/api/hot',
             '/api/hot/events', '/api/hot/events/refresh', '/api/listen', '/api/ops',
             '/api/stat', '/api/submit', '/api/sync', '/api/translate',
         })
