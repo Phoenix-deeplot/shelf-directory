@@ -13,6 +13,7 @@ import urllib.parse
 
 import adminapi
 import aggregate as agg
+import analyticsapi
 from submission import Reply
 
 try:  # Vercel installs this from requirements.txt; local admin still works without it.
@@ -757,6 +758,8 @@ def handle(payload, bearer, ip, env, now=None):
                 return 200, {"ok": True, "data": schema_status(cur)}
             if action == "dashboard":
                 return 200, {"ok": True, "data": dashboard(cur)}
+            if action in {"analytics-config", "analytics-save-config", "analytics-summary"}:
+                return 200, {"ok": True, "data": analyticsapi.ops_action(cur, payload)}
             if action == "sync_directory":
                 return 200, {"ok": True, "data": sync_directory(cur, cfg)}
             if action == "import_subscription_pool":

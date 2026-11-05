@@ -54,7 +54,7 @@ QQMUSIC = {'detail': {'data': {'songInfoList': [{'name': '歌', 'mid': '004VBMk7
 APPLE = {'feed': {'results': [{'name': '声动早咖啡', 'artistName': '声动活泼', 'url': 'https://podcasts.apple.com/cn/podcast/x/id1', 'genres': [{'name': '商务'}]}, {'name': '坏的', 'url': 'https://evil.example/'}]}}
 APPSTORE = {'feed': {'results': [{'name': '知树阅读', 'url': 'https://apps.apple.com/us/app/zhitree/id123', 'artworkUrl100': 'https://is1-ssl.mzstatic.com/image/thumb/app/100x100bb.jpg'}]}}
 APPSTORE_CN = {'feed': {'results': [{'name': '知树阅读', 'url': 'https://apps.apple.com/cn/app/zhitree/id123', 'artworkUrl100': 'https://is1-ssl.mzstatic.com/image/thumb/app/100x100bb.jpg'}]}}
-POLYMARKET = [{'title': 'Will AI regulation pass this year?', 'slug': 'ai-regulation-this-year', 'volume24hr': '12345.6'}, {'title': 'Bad slug', 'slug': '../bad', 'volume24hr': '99999'}]
+POLYMARKET = [{'title': 'Will AI regulation pass this year?', 'slug': 'ai-regulation-this-year', 'volume24hr': '12345.6', 'volume1wk': '76543.2'}, {'title': 'Bad slug', 'slug': '../bad', 'volume24hr': '99999', 'volume1wk': '999999'}]
 X_POSTS = {'data': [{'id': '199012345678901234', 'text': 'A fast-moving global topic', 'author_id': '42', 'created_at': '2026-11-04T10:00:00Z', 'public_metrics': {'like_count': 20, 'retweet_count': 3, 'reply_count': 2}}], 'includes': {'users': [{'id': '42', 'username': 'newsdesk'}]}}
 STEAM = {'top_sellers': {'items': [{'id': 4115450, 'name': '影之刃零', 'currency': 'CNY', 'final_price': 26800, 'discount_percent': 0}, {'id': 7, 'name': 'Free One', 'currency': 'CNY', 'final_price': 0, 'discount_percent': 0},
                                    {'id': 8, 'name': 'On Sale', 'currency': 'USD', 'final_price': 1999, 'discount_percent': 20}]}}
@@ -80,7 +80,7 @@ RSS = ('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title
 JSONS = {'weibo': WEIBO, 'zhihu': ZHIHU, 'bilibili': BILI, 'toutiao': TOUTIAO, 'douyin': DOUYIN, 'juejin': JUEJIN, 'v2ex': V2EX, 'netease': NETEASE, 'hackernews': HN, 'lobsters': LOBSTERS, 'devto': DEVTO,
          'ths': THS, 'coingecko': COINGECKO, 'wikipedia': WIKIPEDIA, 'mastodon': MASTODON, 'hf_models': HF_MODELS, 'hf_papers': HF_PAPERS, 'weread_rising': WEREAD, 'openlibrary': OPENLIBRARY, 'gutenberg': GUTENDEX,
          'qqmusic': QQMUSIC, 'apple_pod_cn': APPLE, 'appstore_free_us': APPSTORE, 'appstore_free_cn': APPSTORE_CN, 'polymarket': POLYMARKET, 'x_trending': X_POSTS, 'steam': STEAM}
-TEXTS = {'github': (GITHUB, 'text/html; charset=utf-8'), 'gtrends': (GTRENDS, 'application/xml'), 'zhihu_daily': (ZHIHU_DAILY_RSS, 'application/rss+xml'), 'wechat': (TOPHUB_WECHAT, 'text/html; charset=utf-8'),
+TEXTS = {'github': (GITHUB, 'text/html; charset=utf-8'), 'gtrends': (GTRENDS, 'application/xml'), 'zhihu_daily': (ZHIHU_DAILY_RSS, 'application/rss+xml'), 'wechat': (TOPHUB_WECHAT, 'text/html; charset=utf-8'), 'reddit': (RSS, 'application/rss+xml'),
          'xueqiu': (TOPHUB_XUEQIU, 'text/html; charset=utf-8'), 'xiaohongshu': (XIAOHONGSHU, 'text/html; charset=utf-8'), 'producthunt': (RSS, 'application/rss+xml'), 'bbc': (RSS, 'application/rss+xml')}
 FIXTURES = {**{k: (json.dumps(v), 'application/json; charset=utf-8') for k, v in JSONS.items()}, **TEXTS}
 ALL = {'HOT_ENABLE': 'all'}
@@ -112,8 +112,8 @@ class HotBase(Base):
         ch = ET.fromstring(body).find('channel')
         return [{x.tag: (x.text or '') for x in i} for i in ch.findall('item')], ch
 
-    def rows(self, pid, env=ALL):
-        st, ctype, body, _ = self.get(pid, env, format='json')
+    def rows(self, pid, env=ALL, **q):
+        st, ctype, body, _ = self.get(pid, env, format='json', **q)
         self.assertEqual(st, 200, body[:200])
         return json.loads(body)
 
@@ -121,7 +121,7 @@ class HotBase(Base):
 class TestParsers(HotBase):
     def test_every_platform_becomes_a_well_formed_feed_with_a_title_a_link_and_a_guid(self):
         want = {'weibo': 2, 'zhihu': 1, 'zhihu_daily': 1, 'bilibili': 1, 'toutiao': 1, 'douyin': 1, 'juejin': 1, 'v2ex': 1, 'netease': 1, 'github': 2, 'hackernews': 2, 'lobsters': 2, 'devto': 1, 'ths': 1, 'coingecko': 1,
-                'wikipedia': 1, 'mastodon': 1, 'hf_models': 1, 'hf_papers': 1, 'weread_rising': 3, 'openlibrary': 1, 'gutenberg': 1, 'qqmusic': 1, 'apple_pod_cn': 1, 'appstore_free_us': 1, 'appstore_free_cn': 1, 'polymarket': 1, 'steam': 3, 'gtrends': 2, 'wechat': 2, 'xueqiu': 1,
+                'wikipedia': 1, 'mastodon': 1, 'hf_models': 1, 'hf_papers': 1, 'weread_rising': 3, 'openlibrary': 1, 'gutenberg': 1, 'qqmusic': 1, 'apple_pod_cn': 1, 'appstore_free_us': 1, 'appstore_free_cn': 1, 'polymarket': 1, 'reddit': 2, 'steam': 3, 'gtrends': 2, 'wechat': 2, 'xueqiu': 1,
                 'xiaohongshu': 2, 'producthunt': 2, 'bbc': 2}
         self.assertEqual(sorted(want), sorted(k for k in FIXTURES if k != 'x_trending'))             # (X is credential-gated)
         for pid, n in want.items():
@@ -164,6 +164,12 @@ class TestParsers(HotBase):
         markets = self.rows('polymarket')['items']
         self.assertEqual((len(markets), markets[0]['url']), (1, 'https://polymarket.com/event/ai-regulation-this-year'))
         self.assertIn('预测市场热度', markets[0]['note'])
+        self.assertIn('24h 成交量', markets[0]['heat'])
+        self.site.put('/polymarket?order=volume1wk', json.dumps(POLYMARKET), 'application/json; charset=utf-8')
+        hotapi.PLATFORMS['polymarket']['url'] = self.site.url + '/polymarket?order={POLY_ORDER}'
+        week = self.rows('polymarket', period='week')['items']
+        self.assertEqual((len(week), self.site.hits[-1][0]), (1, '/polymarket?order=volume1wk'))
+        self.assertIn('近 7 天 成交量', week[0]['heat'])
 
     def test_x_is_hidden_without_a_token_and_uses_it_only_in_server_request_headers(self):
         self.assertNotIn('x_trending', hotapi.enabled({'HOT_ENABLE': 'all'}))
@@ -326,19 +332,28 @@ class TestWhatIsOn(HotBase):
         st, ctype, body, _ = hotapi.handle({}, {})
         d = json.loads(body)
         self.assertEqual((st, d['service']), (200, 'shelf-hot'))
-        self.assertEqual([c['id'] for c in d['columns']], ['news', 'tech', 'ai', 'money', 'world', 'entertainment', 'learning', 'media', 'shopping'])
+        self.assertEqual([c['id'] for c in d['columns']], ['news', 'tech', 'ai', 'money', 'world', 'entertainment', 'learning', 'media', 'apps_games', 'shopping'])
         self.assertEqual([p['id'] for p in d['platforms']], EVERY)
         by = {p['id']: p for p in d['platforms']}
         self.assertEqual((by['weibo']['col'], by['weibo']['ranked'], by['zhihu_daily']['ranked'], by['producthunt']['ranked']), ('news', True, False, False))
         self.assertEqual((by['wechat']['via'], by['xiaohongshu']['via'], 'via' in by['weibo']), ('tophub.today', 'rebang.today', False))
-        self.assertEqual({p['id']: p['col'] for p in d['platforms'] if p['id'] in ('openai', 'arxiv_ai', 'weread_novel', 'qidian', 'netease', 'bilibili')},
-                         {'openai': 'ai', 'arxiv_ai': 'learning', 'weread_novel': 'entertainment', 'qidian': 'entertainment', 'netease': 'media', 'bilibili': 'media'})
+        with_keys = json.loads(hotapi.handle({}, {'YOUTUBE_API_KEY': 'k', 'X_BEARER_TOKEN': 'x'})[2])['platforms']
+        self.assertEqual({p['id']: p['col'] for p in with_keys if p['id'] in ('openai', 'arxiv_ai', 'weread_novel', 'qidian', 'netease', 'bilibili', 'douyin', 'xiaohongshu', 'reddit', 'polymarket', 'x_trending', 'youtube')},
+                         {'openai': 'ai', 'arxiv_ai': 'learning', 'weread_novel': 'entertainment', 'qidian': 'entertainment', 'netease': 'media', 'bilibili': 'news', 'douyin': 'news', 'xiaohongshu': 'news', 'reddit': 'news', 'polymarket': 'news', 'x_trending': 'news', 'youtube': 'news'})
         self.assertEqual({k for k, p in by.items() if p.get('read')} - {k for k, v in hotapi.PLATFORMS.items() if v['feed']}, {'devto', 'wikipedia', 'wikipedia_zh', 'juejin', 'v2ex', 'lobsters', 'hackernews', 'hf_models', 'hf_papers', 'kr36', 'mastodon'})     # article-reading lists that are not feeds
         self.assertTrue(by['theverge']['read'] and by['dw']['read'] and 'read' not in by['bbc'] and 'read' not in by['bloomberg'] and 'read' not in by['producthunt'] and 'read' not in by['weibo'] and 'read' not in by['github'])
         self.assertTrue(all(p['col'] in [c['id'] for c in d['columns']] for p in d['platforms']))
         gone = json.loads(hotapi.handle({}, {'HOT_DISABLE': ','.join(k for k, v in hotapi.PLATFORMS.items() if v['col'] == 'money')})[2])
         self.assertFalse(next(c for c in gone['columns'] if c['id'] == 'money')['enabled'])             # empty columns remain in the stable catalogue but can be hidden by the UI
         self.assertFalse(next(c for c in d['columns'] if c['id'] == 'shopping')['enabled'])             # shopping is optional and has no source by default
+
+    def test_index_locale_hint_contains_only_edge_country_and_is_private_cached(self):
+        status, _, body, cache = hotapi.handle({}, {}, headers={'x-vercel-ip-country': 'de', 'accept-language': 'ja-JP,ja;q=0.9'})
+        index = json.loads(body)
+        self.assertEqual(status, 200)
+        self.assertEqual(index['locale_hint'], {'language': 'ja-JP', 'country_code': 'DE'})
+        self.assertEqual(cache, hotapi.PRIVATE)
+        self.assertNotIn('ip', index['locale_hint'])
 
     def test_a_request_can_only_choose_among_the_fixed_platforms(self):
         for pid in ('../x', 'https://evil.example/', 'weibo/../../x', 'GITHUB', 'a' * 500, 'youtube'):
@@ -358,7 +373,7 @@ class TestWhatIsOn(HotBase):
         self.assertEqual(len({v['name'] for v in hotapi.PLATFORMS.values()}), len(hotapi.PLATFORMS))
         for c in hotapi.COLUMNS:
             n = len([1 for v in hotapi.PLATFORMS.values() if v['col'] == c['id']])
-            minimum = {'news': 3, 'tech': 10, 'ai': 5, 'money': 5, 'world': 8, 'entertainment': 8, 'learning': 10, 'media': 8, 'shopping': 0}[c['id']]
+            minimum = {'news': 3, 'tech': 10, 'ai': 5, 'money': 5, 'world': 8, 'entertainment': 8, 'learning': 10, 'media': 8, 'apps_games': 3, 'shopping': 0}[c['id']]
             self.assertGreaterEqual(n, minimum, c['id'])
 
 
@@ -634,7 +649,7 @@ class TestHttp(HotBase):
         self.assertEqual(o['headers']['Access-Control-Allow-Origin'], '*')
         self.assertEqual(int(o['headers']['Content-Length']), len(o['body']))
         idx = json.loads(self.serve('/api/hot')['body'])                        # what a page reads to know which lists exist
-        self.assertTrue(idx['ok'] and {'github', 'juejin'} <= {x['id'] for x in idx['platforms']} and len(idx['columns']) == 9)
+        self.assertTrue(idx['ok'] and {'github', 'juejin'} <= {x['id'] for x in idx['platforms']} and len(idx['columns']) == 10)
         ET.fromstring(o['body'])
         for m in ('POST', 'PUT', 'DELETE'):
             self.assertEqual(self.serve('/api/hot?p=v2ex', m)['status'], 405)
