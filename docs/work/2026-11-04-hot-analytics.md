@@ -16,7 +16,7 @@
 
 | 任务 | 负责 | 分支 / worktree | 会改的文件 | 不许碰 |
 |---|---|---|---|---|
-| 后端榜单元数据、埋点 API、实验管理/汇总、DB migration、运营数据面板与单测 | Codex worker | `codex/hot-analytics-service` · `E:\\Ztree\\wt\\codex-hot-analytics-service`；继续自 `codex/polymarket-daily-weekly-api`，另建 worktree，旧预览目录保持不动 | `hotapi.py`、`analyticsapi.py`（新增）、`api/analytics.py`（新增）、`opsapi.py`、`migrations/008_hot_analytics.sql`、`docs/admin/index.html`、`docs/admin/admin.js`、`docs/admin/admin.css`、`tests/test_analytics.py`（新增）、必要时 `tests/test_opsapi.py` | 不碰 my-archive；不改用户 `.gitignore`；不运行生产迁移；不改 Vercel 线上变量/数据库；不存原始 IP/PII；不编辑静态前端接口约定 |
+| 后端榜单元数据、埋点 API、实验管理/汇总、DB migration、运营数据面板与单测 | Codex worker | `codex/hot-analytics-service` · `E:\\Ztree\\wt\\codex-hot-analytics-service`；继续自 `codex/polymarket-daily-weekly-api`，另建 worktree，旧预览目录保持不动 | `hotapi.py`、`analyticsapi.py`（新增）、`api_routes/analytics_config.py`、`api_routes/analytics_events.py`（由单一 `api/router.py` 分发）、`opsapi.py`、`migrations/008_hot_analytics.sql`、`docs/admin/index.html`、`docs/admin/admin.js`、`docs/admin/admin.css`、`tests/test_analytics.py`（新增）、必要时 `tests/test_opsapi.py` | 不碰 my-archive；不改用户 `.gitignore`；不运行生产迁移；不改 Vercel 线上变量/数据库；不存原始 IP/PII；不编辑静态前端接口约定 |
 
 ### API 契约（需与 my-archive 同名计划保持一致）
 
