@@ -371,9 +371,9 @@ class TestHttp(SubBase):
         self.addCleanup(lambda: (srv.shutdown(), srv.server_close()))
         return srv.server_address[1]
 
-    def request(self, port, method, body=None, headers=None):
+    def request(self, port, method, body=None, headers=None, path='/api/submit'):
         c = http.client.HTTPConnection('127.0.0.1', port, timeout=20)
-        c.request(method, '/api/submit', body=json.dumps(body) if isinstance(body, (dict, list)) else body, headers=headers or {})
+        c.request(method, path, body=json.dumps(body) if isinstance(body, (dict, list)) else body, headers=headers or {})
         r = c.getresponse()
         data = r.read()
         out = (r.status, dict(r.getheaders()), json.loads(data) if data else None)
@@ -437,7 +437,7 @@ class TestHttp(SubBase):
         self.assertEqual(self.request(port, 'POST', URL, local)[0], 200)
 
     def test_the_vercel_entry_point(self):
-        spec = importlib.util.spec_from_file_location('vercel_submit', os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'api', 'submit.py'))
+        spec = importlib.util.spec_from_file_location('vercel_router', os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'api', 'router.py'))
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
         self.assertTrue(issubclass(mod.handler, BaseHTTPRequestHandler))
@@ -445,7 +445,7 @@ class TestHttp(SubBase):
         os.environ.update(self.env)
         try:
             port = self.serve(mod.handler)
-            st, h, body = self.request(port, 'POST', URL, {'Origin': 'https://books.zhitree.cn', 'Content-Type': 'application/json'})
+            st, h, body = self.request(port, 'POST', URL, {'Origin': 'https://books.zhitree.cn', 'Content-Type': 'application/json'}, '/api/router?__route=submit')
             self.assertEqual((st, body['ok']), (200, True))
         finally:
             for k, v in old.items():
