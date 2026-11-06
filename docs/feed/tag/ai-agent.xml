@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/ai-agent.xml</id>
+  <title>知树阅读-个人图书空间 · #AI Agent</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/ai-agent.xml"/>
+  <updated>2026-11-01T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.appinn.com/appinn-faxian-channel-markdown-ai-agent/</id>
+    <title>小众软件发现频道全量开放 .md 格式内容，可让 AI Agent 直接访问</title>
+    <link rel="alternate" type="text/html" href="https://www.appinn.com/appinn-faxian-channel-markdown-ai-agent/"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">对于嫌弃论坛访问慢的同学，可以使用 x.appinn.com 直达发现频道。 小众软件论坛的发现频道（faxian.appinn.com）主要收集由开发者/用户提交的各类软件、应用、AI 产品。目前已</summary>
+    <content type="html">&lt;p&gt;对于嫌弃论坛访问慢的同学，可以使用 x.appinn.com 直达发现频道。 小众软件论坛的发现频道（faxian.appinn.com）主要收集由开发者/用户提交的各类软件、应用、AI 产品。目前已&lt;/p&gt;&lt;p&gt;来源：小众软件 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#AI #AI Agent #Markdown #发现频道 #软件 #工具&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.appinn.com/appinn-faxian-channel-markdown-ai-agent/"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>小众软件</title></source>
+    <category term="AI"/>
+    <category term="AI Agent"/>
+    <category term="Markdown"/>
+    <category term="发现频道"/>
+    <category term="软件"/>
+    <category term="工具"/>
+  </entry>
+</feed>

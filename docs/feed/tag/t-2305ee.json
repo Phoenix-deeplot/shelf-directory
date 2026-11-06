@@ -1,0 +1,63 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #游戏",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-2305ee.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.appinn.com/eggs-261103/",
+      "url": "https://www.appinn.com/eggs-261103/",
+      "title": "赛博领鸡蛋加餐：E 宝一口气送 13 款小游戏，11 月 9 日凌晨截止",
+      "content_html": "<p>Epic 商店 13 款小游戏限时免费，涵盖赛车、平台跳跃、迷宫、数学和问答。北京时间 11 月 9 日凌晨 2:30 截止，成功领取后永久入库。</p><p>来源：小众软件 · 2026-11-03</p><p>标签：#游戏 #Epic #赛博领鸡蛋 #软件 #工具</p><p><a href=\"https://www.appinn.com/eggs-261103/\">阅读原文 →</a></p>",
+      "content_text": "Epic 商店 13 款小游戏限时免费，涵盖赛车、平台跳跃、迷宫、数学和问答。北京时间 11 月 9 日凌晨 2:30 截止，成功领取后永久入库。",
+      "summary": "Epic 商店 13 款小游戏限时免费，涵盖赛车、平台跳跃、迷宫、数学和问答。北京时间 11 月 9 日凌晨 2:30 截止，成功领取后永久入库。",
+      "date_published": "2026-11-03T00:00:00Z",
+      "tags": [
+        "游戏",
+        "Epic",
+        "赛博领鸡蛋",
+        "软件",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "小众软件"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "appinn-com"
+      }
+    },
+    {
+      "id": "https://www.appinn.com/totk-recomp/",
+      "url": "https://www.appinn.com/totk-recomp/",
+      "title": "TotK Recomp – 在 Windows 上原生运行《塞尔达传说：王国之泪》，不需要模拟器！",
+      "content_html": "<p>TotK Recomp v0.3.4 发布，主要修复游戏运行中的各种问题，搬运已同步更新。 这次主要是稳定性和兼容性更新，没有公布整体性能提升数据。 升级时直接在原安装目录运行新版安装程序，可以保留游</p><p>来源：小众软件 · 2026-11-02</p><p>标签：#Windows #游戏 #塞尔达传说 #模拟器 #软件 #工具</p><p><a href=\"https://www.appinn.com/totk-recomp/\">阅读原文 →</a></p>",
+      "content_text": "TotK Recomp v0.3.4 发布，主要修复游戏运行中的各种问题，搬运已同步更新。 这次主要是稳定性和兼容性更新，没有公布整体性能提升数据。 升级时直接在原安装目录运行新版安装程序，可以保留游",
+      "summary": "TotK Recomp v0.3.4 发布，主要修复游戏运行中的各种问题，搬运已同步更新。 这次主要是稳定性和兼容性更新，没有公布整体性能提升数据。 升级时直接在原安装目录运行新版安装程序，可以保留游",
+      "date_published": "2026-11-02T00:00:00Z",
+      "tags": [
+        "Windows",
+        "游戏",
+        "塞尔达传说",
+        "模拟器",
+        "软件",
+        "工具"
+      ],
+      "authors": [
+        {
+          "name": "小众软件"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "appinn-com"
+      }
+    }
+  ]
+}

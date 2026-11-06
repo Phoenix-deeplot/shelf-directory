@@ -1,0 +1,38 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #Does Not Compute",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/does-not-compute.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.wired.com/story/ai-made-decades-of-computer-science-research-irrelevant/",
+      "url": "https://www.wired.com/story/ai-made-decades-of-computer-science-research-irrelevant/",
+      "title": "An AI Breakthrough Has Made Decades of Computer Science Research ‘Irrelevant’",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae293587359ba945850d8f8/master/pass/science_math_ai_breakthrough_research.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Anthropic and OpenAI say they’ve disproved a key tenet of computer science. Researchers are struggling with the fall but also feel like “overexcited bunnies” as they look at new questions to explore.</p><p>Source: WIRED · 2026-10-29</p><p>Tags: #Science #Science / Physics and Math #Does Not Compute #科技 #社会</p><p><a href=\"https://www.wired.com/story/ai-made-decades-of-computer-science-research-irrelevant/\">Read the original →</a></p>",
+      "content_text": "Anthropic and OpenAI say they’ve disproved a key tenet of computer science. Researchers are struggling with the fall but also feel like “overexcited bunnies” as they look at new questions to explore.",
+      "summary": "Anthropic and OpenAI say they’ve disproved a key tenet of computer science. Researchers are struggling with the fall but also feel like “overexcited bunnies” as…",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae293587359ba945850d8f8/master/pass/science_math_ai_breakthrough_research.jpg",
+      "tags": [
+        "Science",
+        "Science / Physics and Math",
+        "Does Not Compute",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    }
+  ]
+}
