@@ -63,6 +63,7 @@ AUDIUS_APP = 'zhitree-books'
 APPLE_REGIONS = {'cn': ('中国', 'China'), 'us': ('美国', 'US'), 'jp': ('日本', 'Japan'), 'kr': ('韩国', 'Korea'), 'tw': ('台湾', 'Taiwan'), 'hk': ('香港', 'Hong Kong'), 'gb': ('英国', 'UK'), 'de': ('德国', 'Germany'), 'fr': ('法国', 'France')}
 PROVIDERS = {'apple': 'Apple Music', 'apple_genre': 'Apple Music', 'deezer': 'Deezer', 'deezer_pl': 'Deezer', 'audius': 'Audius', 'audius_pl': 'Audius', 'jamendo': 'Jamendo', 'netease': '网易云音乐', 'youtube': 'YouTube', 'podchart': 'Apple Podcasts', 'dychart': '抖音热歌榜'}
 _CACHE = {}
+SOURCE_TIMEOUT = {'api.xcvts.cn': 8}                     # a source kept by one person answers in a second or not at all: it is waited for 8 seconds, not 15
 COVERS = {}                                 # list id -> the picture its source gives it (Deezer, Audius play lists)
 STATS = {'stale': 0}                       # how many times an older copy was served because a source did not answer (the answer says `stale` when it grew)
 
@@ -196,7 +197,7 @@ def shuffled(items, seed):
 
 def _get(url, headers=None):
     """-> the text of an answer. Raises agg.Refused (its words never contain the address, so a key in it stays private)."""
-    final, h, body = agg.fetch(url, 'application/json, */*;q=0.5', 2 * 1024 * 1024, headers={**hotapi.BROWSER, **(headers or {})}, truncate=True)
+    final, h, body = agg.fetch(url, 'application/json, */*;q=0.5', 2 * 1024 * 1024, headers={**hotapi.BROWSER, **(headers or {})}, truncate=True, timeout=SOURCE_TIMEOUT.get(urllib.parse.urlsplit(url).hostname))
     return agg.decode(body, h)
 
 
