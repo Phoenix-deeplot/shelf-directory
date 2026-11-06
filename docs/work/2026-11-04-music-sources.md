@@ -78,7 +78,7 @@
 
 ### claude
 
-2026-11-06 在分支 `claude/music-sources`（worktree `E:\Ztree\wt\claude-music-sources`）里做完，等用户说“合并”。
+2026-11-06 在分支 `claude/music-sources`（worktree `E:\Ztree\wt\claude-music-sources`）里做完，已合并（见“合并记录”）。
 
 - 新模块 `music_sources.py`（波点、抖音热歌榜、搜索、合并、解析、熔断、健康记录、`pool`、新目录）；`listen.py` 只加了接线：`handle()` 的 `caps` / `region` / `search` / `resolve` / `pool`，`groups(v2=)`，`fetch_group(v2=)`，`diag.providers`，`pooled()` 数 `STATS['stale']`，Deezer / Audius 歌单的 `COVERS`，`KIND_ORDER` 加 `scene`，`JAMENDO_KINDS` 加 `workout / commute / study`。
 - **旧页面不受影响**：不带 `caps=resolve` 时目录和榜单一字不变（`test_a_page_without_caps_sees_exactly_what_it_saw`）：没有 `region / cover / resolve / cands / hot / market / stale`，没有 `dy-hot`，放松 / 专注 / 助眠仍是 `style`。新形态只给带 `caps=resolve` 的页面。
@@ -92,6 +92,7 @@
 
 ## 4. 合并记录
 
-- 合并顺序：
-- 合并后的测试结果：
-- 删除的分支和 worktree：
+- 合并顺序（用户说“继续”，2026-11-06）：master 在分支开出之后没有新提交，所以不需要把 master 并进分支；先在分支上跑完整测试（829 个通过），再 `--no-ff` 合进 `master`（`18c5e41`；用户暂存的 `.gitignore` 先 stash、合并后 `pop --index` 放回，没提交）。
+- 合并后的测试结果：`master` 上全部 `tests.test_*` 829 个通过（原来 775 个，新增 54 个都在 `tests.test_music_sources`）。
+- 删除的分支和 worktree：`claude/music-sources` 和 `E:\Ztree\wt\claude-music-sources` 已删。
+- 之后要用户做的：部署 shelf-directory（Redis 等环境变量不变；`LISTEN_BODIAN` 不设就是开，`0` 关；`LISTEN_NETEASE_DIRECT=1` 照旧）。前端合并之前，旧页面看到的和以前一字不差，新页面带 `caps=resolve` 才看到新形态。
