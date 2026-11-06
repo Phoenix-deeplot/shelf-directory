@@ -431,19 +431,6 @@
     <category term="热榜"/>
   </entry>
   <entry>
-    <id>https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/</id>
-    <title>APOD: 2026 November 1 – Colors of the Moon</title>
-    <link rel="alternate" type="text/html" href="https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/"/>
-    <updated>2026-11-01T00:00:00Z</updated>
-    <published>2026-11-01T00:00:00Z</published>
-    <summary type="text">APOD Science APOD APOD: 2026 November 1 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day…</summary>
-    <content type="html">&lt;p&gt;APOD Science APOD APOD: 2026 November 1 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Colors of the […]&lt;/p&gt;&lt;p&gt;Source: NASA · 2026-11-01&lt;/p&gt;&lt;p&gt;Tags: #APOD #航天 #科学&lt;/p&gt;&lt;p&gt;&lt;a href="https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
-    <source><title>NASA</title></source>
-    <category term="APOD"/>
-    <category term="航天"/>
-    <category term="科学"/>
-  </entry>
-  <entry>
     <id>https://www.zhihu.com/question/2100178342901019827</id>
     <title>法国爆发第三轮抗议活动，抗议人数从55万降至32万，是意味着这轮社会抗议正在降温吗？抗议还会持续多久？</title>
     <link rel="alternate" type="text/html" href="https://www.zhihu.com/question/2100178342901019827"/>
@@ -715,6 +702,18 @@
     <published>2026-11-01T00:00:00Z</published>
     <summary type="text">第 10 名 · 热度 30.5 万 · 综艺</summary>
     <content type="html">&lt;p&gt;第 10 名 · 热度 30.5 万 · 综艺&lt;/p&gt;&lt;p&gt;来源：微博热搜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #微博&lt;/p&gt;&lt;p&gt;&lt;a href="https://s.weibo.com/weibo?q=%23%E6%B5%AA1%E8%BF%99%E4%BA%9B%E6%96%87%E5%AD%97%E5%B1%85%E7%84%B6%E6%98%AF%E8%AE%B8%E9%A3%9E%E5%86%99%E7%9A%84%23"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>微博热搜</title></source>
+    <category term="热榜"/>
+    <category term="微博"/>
+  </entry>
+  <entry>
+    <id>https://s.weibo.com/weibo?q=%23%E6%AF%94%E4%BA%9A%E8%BF%AA%E9%94%80%E9%87%8F%23</id>
+    <title>比亚迪销量</title>
+    <link rel="alternate" type="text/html" href="https://s.weibo.com/weibo?q=%23%E6%AF%94%E4%BA%9A%E8%BF%AA%E9%94%80%E9%87%8F%23"/>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <published>2026-11-01T00:00:00Z</published>
+    <summary type="text">第 8 名 · 热度 31.1 万 · 新</summary>
+    <content type="html">&lt;p&gt;第 8 名 · 热度 31.1 万 · 新&lt;/p&gt;&lt;p&gt;来源：微博热搜 · 2026-11-01&lt;/p&gt;&lt;p&gt;标签：#热榜 #微博&lt;/p&gt;&lt;p&gt;&lt;a href="https://s.weibo.com/weibo?q=%23%E6%AF%94%E4%BA%9A%E8%BF%AA%E9%94%80%E9%87%8F%23"&gt;阅读原文 →&lt;/a&gt;&lt;/p&gt;</content>
     <source><title>微博热搜</title></source>
     <category term="热榜"/>
     <category term="微博"/>
