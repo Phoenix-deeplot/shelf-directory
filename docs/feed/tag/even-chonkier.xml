@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/even-chonkier.xml</id>
+  <title>知树阅读-个人图书空间 · #Even Chonkier</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/even-chonkier.xml"/>
+  <updated>2026-10-29T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/</id>
+    <title>Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race</title>
+    <link rel="alternate" type="text/html" href="https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/"/>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <published>2026-10-29T00:00:00Z</published>
+    <summary type="text">The French AI lab claims its latest release matches or outperforms even the best models from DeepSeek and Z.ai in coding and cybersecurity.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://media.wired.com/photos/6ae34b392cfd29b998d6a112/master/pass/Business_Mistral%20Says%20Its%20%E2%80%98Le%20Chonk%E2%80%99%20Model%20Can%20Outperform%20Top%20Chinese%20Models%20in%20Coding%20and%20Cybersecurity_v3.jpg" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;The French AI lab claims its latest release matches or outperforms even the best models from DeepSeek and Z.ai in coding and cybersecurity.&lt;/p&gt;&lt;p&gt;Source: WIRED · 2026-10-29&lt;/p&gt;&lt;p&gt;Tags: #Business #Even Chonkier #科技 #社会&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>WIRED</title></source>
+    <category term="Business"/>
+    <category term="Even Chonkier"/>
+    <category term="科技"/>
+    <category term="社会"/>
+  </entry>
+</feed>

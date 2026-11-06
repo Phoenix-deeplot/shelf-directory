@@ -1,0 +1,38 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #Crystal Clear",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/crystal-clear.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.wired.com/story/liquid-glass-finally-makes-sense-on-the-iphone-duo/",
+      "url": "https://www.wired.com/story/liquid-glass-finally-makes-sense-on-the-iphone-duo/",
+      "title": "Liquid Glass Finally Makes Sense on the iPhone Duo",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ad79403fc73d5bd28140aac/master/pass/DSC_9897.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>Liquid Glass was a divisive redesign. But with a radically different iPhone, the pieces are finally falling into place.</p><p>Source: WIRED · 2026-10-29</p><p>Tags: #Gear #Gear / Gear News and Events #Crystal Clear #科技 #社会</p><p><a href=\"https://www.wired.com/story/liquid-glass-finally-makes-sense-on-the-iphone-duo/\">Read the original →</a></p>",
+      "content_text": "Liquid Glass was a divisive redesign. But with a radically different iPhone, the pieces are finally falling into place.",
+      "summary": "Liquid Glass was a divisive redesign. But with a radically different iPhone, the pieces are finally falling into place.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ad79403fc73d5bd28140aac/master/pass/DSC_9897.jpg",
+      "tags": [
+        "Gear",
+        "Gear / Gear News and Events",
+        "Crystal Clear",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    }
+  ]
+}

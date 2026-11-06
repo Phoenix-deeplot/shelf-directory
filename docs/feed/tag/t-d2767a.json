@@ -1,0 +1,58 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #近代",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/t-d2767a.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://zh.wikisource.org/wiki/%E8%80%81%E6%AE%98%E9%81%8A%E8%A8%98",
+      "url": "https://zh.wikisource.org/wiki/%E8%80%81%E6%AE%98%E9%81%8A%E8%A8%98",
+      "title": "老残游记",
+      "content_html": "<p>摇串铃的江湖郎中老残一路行医，一路见闻官场与世情；“大明湖”和“白妞说书”写得极好。</p><p>来源：精选图书</p><p>标签：#小说 #近代 #游记 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E8%80%81%E6%AE%98%E9%81%8A%E8%A8%98\">阅读原文 →</a></p>",
+      "content_text": "摇串铃的江湖郎中老残一路行医，一路见闻官场与世情；“大明湖”和“白妞说书”写得极好。",
+      "summary": "摇串铃的江湖郎中老残一路行医，一路见闻官场与世情；“大明湖”和“白妞说书”写得极好。",
+      "tags": [
+        "小说",
+        "近代",
+        "游记",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    },
+    {
+      "id": "https://zh.wikisource.org/wiki/%E6%96%B0%E9%9D%92%E5%B9%B4",
+      "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E9%9D%92%E5%B9%B4",
+      "title": "新青年",
+      "content_html": "<p>1915 至 1926 年的新文化运动旗帜刊物：《狂人日记》和“德先生、赛先生”的讨论最早都登在这里。</p><p>来源：精选图书</p><p>标签：#杂志 #近代 #思想 #在线书籍</p><p><a href=\"https://zh.wikisource.org/wiki/%E6%96%B0%E9%9D%92%E5%B9%B4\">阅读原文 →</a></p>",
+      "content_text": "1915 至 1926 年的新文化运动旗帜刊物：《狂人日记》和“德先生、赛先生”的讨论最早都登在这里。",
+      "summary": "1915 至 1926 年的新文化运动旗帜刊物：《狂人日记》和“德先生、赛先生”的讨论最早都登在这里。",
+      "tags": [
+        "杂志",
+        "近代",
+        "思想",
+        "在线书籍"
+      ],
+      "authors": [
+        {
+          "name": "精选图书"
+        }
+      ],
+      "_shelf": {
+        "type": "book",
+        "shelf": "books"
+      }
+    }
+  ]
+}
