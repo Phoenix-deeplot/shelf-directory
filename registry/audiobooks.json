@@ -45,7 +45,8 @@
    "n": 120,
    "secs": 187295,
    "url": "",
-   "hot": 1
+   "hot": 1,
+   "net": "cn"
   },
   {
    "id": "cn-xyj",
@@ -68,7 +69,8 @@
    "n": 100,
    "secs": 166324,
    "url": "",
-   "hot": 2
+   "hot": 2,
+   "net": "cn"
   },
   {
    "id": "cn-shz",
@@ -91,7 +93,8 @@
    "n": 100,
    "secs": 187736,
    "url": "",
-   "hot": 3
+   "hot": 3,
+   "net": "cn"
   },
   {
    "id": "cn-lz",
@@ -114,7 +117,8 @@
    "n": 151,
    "secs": 38847,
    "url": "",
-   "hot": 4
+   "hot": 4,
+   "net": "cn"
   },
   {
    "id": "lv-200",
@@ -137,7 +141,8 @@
    "n": 12,
    "secs": 10731,
    "url": "https://librivox.org/alices-adventures-in-wonderland-by-lewis-carroll/",
-   "hot": 5
+   "hot": 5,
+   "net": "global"
   },
   {
    "id": "lv-314",
@@ -159,7 +164,8 @@
    "n": 12,
    "secs": 37079,
    "url": "https://librivox.org/the-adventures-of-sherlock-holmes/",
-   "hot": 6
+   "hot": 6,
+   "net": "global"
   },
   {
    "id": "lv-253",
@@ -181,7 +187,8 @@
    "n": 37,
    "secs": 47204,
    "url": "https://librivox.org/pride-and-prejudice-by-jane-austen/",
-   "hot": 7
+   "hot": 7,
+   "net": "global"
   },
   {
    "id": "lv-271",
@@ -204,7 +211,8 @@
    "n": 27,
    "secs": 59469,
    "url": "https://librivox.org/dracula-by-bram-stoker/",
-   "hot": 8
+   "hot": 8,
+   "net": "global"
   },
   {
    "id": "lv-47",
@@ -227,7 +235,8 @@
    "n": 128,
    "secs": 178995,
    "url": "https://librivox.org/the-count-of-monte-cristo-by-alexandre-dumas/",
-   "hot": 9
+   "hot": 9,
+   "net": "global"
   },
   {
    "id": "lv-375",
@@ -249,7 +258,8 @@
    "n": 63,
    "secs": 37952,
    "url": "https://librivox.org/fairy-tales-by-the-brothers-grimm/",
-   "hot": 10
+   "hot": 10,
+   "net": "global"
   },
   {
    "id": "lv-133",
@@ -271,7 +281,8 @@
    "n": 39,
    "secs": 74196,
    "url": "https://librivox.org/jane-eyre-by-charlotte-bront/",
-   "hot": 11
+   "hot": 11,
+   "net": "global"
   },
   {
    "id": "lv-381",
@@ -294,7 +305,8 @@
    "n": 22,
    "secs": 29808,
    "url": "https://librivox.org/frankenstein-or-modern-prometheus-by-mary-w-shelley/",
-   "hot": 12
+   "hot": 12,
+   "net": "global"
   },
   {
    "id": "lv-449",
@@ -317,7 +329,8 @@
    "n": 26,
    "secs": 27008,
    "url": "https://librivox.org/treasure-island-by-robert-louis-stevenson/",
-   "hot": 13
+   "hot": 13,
+   "net": "global"
   },
   {
    "id": "lv-193",
@@ -339,7 +352,8 @@
    "n": 24,
    "secs": 1764,
    "url": "https://librivox.org/aesops-fables-volume-3-fables-51-75/",
-   "hot": 14
+   "hot": 14,
+   "net": "global"
   },
   {
    "id": "lv-71",
@@ -361,7 +375,8 @@
    "n": 7,
    "secs": 4988,
    "url": "https://librivox.org/the-canterville-ghost-by-oscar-wilde/",
-   "hot": 15
+   "hot": 15,
+   "net": "global"
   },
   {
    "id": "lv-140",
@@ -384,7 +399,8 @@
    "n": 5,
    "secs": 11669,
    "url": "https://librivox.org/a-christmas-carol-by-charles-dickens/",
-   "hot": 16
+   "hot": 16,
+   "net": "global"
   },
   {
    "id": "lv-417",
@@ -407,7 +423,8 @@
    "n": 4,
    "secs": 11305,
    "url": "https://librivox.org/the-strange-case-of-dr-jekyll-mr-hyde-by-robert-louis-stevenson/",
-   "hot": 17
+   "hot": 17,
+   "net": "global"
   },
   {
    "id": "lv-901",
@@ -429,7 +446,8 @@
    "n": 15,
    "secs": 21179,
    "url": "https://librivox.org/the-hound-of-the-baskervilles-by-arthur-conan-doyle/",
-   "hot": 18
+   "hot": 18,
+   "net": "global"
   }
  ]
 }

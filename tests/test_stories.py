@@ -222,7 +222,7 @@ def item(title, url='https://archive.org/download/x/%s.mp3', dur='0:10:00', cdat
 
 
 BOOKS = {'version': 1, 'styles': [{'id': 'classic', 'name': '经典名著', 'name_en': 'Classics'}, {'id': 'story', 'name': '故事悬疑', 'name_en': 'Stories'}],
-         'books': [{'id': 'lv-1', 'title': '爱丽丝', 'title_en': 'Alice', 'author': 'Carroll', 'narrator': 'LibriVox 志愿者', 'narrator_en': 'LibriVox volunteers', 'lang': 'en', 'style': ['classic', 'nope'], 'rights': 'public-domain', 'source': 'librivox',
+         'books': [{'id': 'lv-1', 'title': '爱丽丝', 'title_en': 'Alice', 'author': 'Carroll', 'narrator': 'LibriVox 志愿者', 'narrator_en': 'LibriVox volunteers', 'lang': 'en', 'style': ['classic', 'nope'], 'rights': 'public-domain', 'net': 'global', 'source': 'librivox',
                    'feed': 'https://librivox.org/rss/1', 'order': 'asc', 'cover': 'https://archive.org/services/img/a', 'summary': 's', 'n': 3, 'secs': 100, 'hot': 2, 'url': 'https://librivox.org/a'},
                   {'id': 'cn-2', 'title': '红楼梦', 'title_en': 'Dream', 'author': '曹雪芹', 'narrator': '朗读', 'lang': 'zh', 'style': ['classic'], 'rights': 'public-domain', 'source': 'ximalaya.com', 'feed': 'https://www.ximalaya.com/album/2.xml',
                    'order': 'desc', 'cover': 'http://insecure.example/c.jpg', 'summary': 's', 'n': 0, 'secs': 0, 'hot': 1},
@@ -287,6 +287,7 @@ class Audio(unittest.TestCase):
         self.assertEqual([b['id'] for b in cfg['books']], ['lv-1', 'cn-2'])
         self.assertEqual(cfg['books'][0]['style'], ['classic'])                                                                # (a style that is not in the list is dropped)
         self.assertEqual(cfg['books'][1]['cover'], '')                                                                         # (a picture that is not https is dropped)
+        self.assertEqual([b['net'] for b in cfg['books']], ['global', 'cn'])                                                   # (where the sound is: abroad for LibriVox; not said: here)
 
     def test_the_catalogue(self):
         st, d, cache = self.call(books=1, lang='zh')
@@ -356,6 +357,7 @@ class RegistryFiles(unittest.TestCase):
             self.assertTrue(b['style'], b['id'])
             self.assertTrue(b['hot'] > 0, b['id'])
         self.assertTrue({'zh', 'en'} <= {b['lang'] for b in cfg['books']})
+        self.assertTrue(all((b['net'] == 'global') == b['id'].startswith('lv-') for b in cfg['books']))                       # (LibriVox's sounds are on archive.org)
         self.assertEqual(len({b['hot'] for b in cfg['books']}), len(cfg['books']))
 
     def test_the_stories_that_ship(self):

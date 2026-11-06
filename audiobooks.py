@@ -1,6 +1,7 @@
 """Audiobooks for the books page: a short list picked by hand (registry/audiobooks.json: public domain, or the broadcaster's own; nothing else goes in) and, for one book, ALL its chapters in order.
 
-  GET /api/listen?books=1&lang=zh|en   -> {ok, styles: [{id, name, name_en}], books: [{id, title, title_en, author, narrator, lang, style, rights, source, cover, summary, n, secs, hot, url}]}   (the most popular first)
+  GET /api/listen?books=1&lang=zh|en   -> {ok, styles: [{id, name, name_en}], books: [{id, title, title_en, author, narrator, lang, style, rights, net, source, cover, summary, n, secs, hot, url}]}   (the most popular first; net: global = the sound is
+                                        abroad (archive.org for LibriVox) and may be slow in China)
   GET /api/listen?book=<id>            -> {ok, stale?, book: {... the same ..., chapters: [{n, title, audio, dur}]}}                       (n from 1, the first chapter first)
 
 An audiobook is not a podcast: it has a beginning and an end, it is heard in order and picked up where it was left, and all of it is needed (a podcast keeps its last few dozen episodes). The chapters are the items
@@ -91,7 +92,7 @@ def load(path=None):
         cover = str(b.get('cover') or '')
         books.append({'id': b['id'], 'title': agg.clean(b['title'], 80), 'title_en': agg.clean(b.get('title_en'), 100) or agg.clean(b['title'], 80), 'author': agg.clean(b.get('author'), 60), 'narrator': agg.clean(b.get('narrator'), 40),
                       'narrator_en': agg.clean(b.get('narrator_en'), 60) or agg.clean(b.get('narrator'), 40), 'lang': 'zh' if b.get('lang') == 'zh' else 'en', 'style': [x for x in (b.get('style') or []) if x in ok][:3],
-                      'rights': b['rights'], 'source': agg.clean(b.get('source'), 30), 'feed': b['feed'], 'order': b['order'], 'cover': cover if cover.startswith('https://') else '',
+                      'rights': b['rights'], 'net': 'global' if b.get('net') == 'global' else 'cn', 'source': agg.clean(b.get('source'), 30), 'feed': b['feed'], 'order': b['order'], 'cover': cover if cover.startswith('https://') else '',
                       'summary': agg.clean(b.get('summary'), 200), 'n': max(0, int(b.get('n') or 0)), 'secs': max(0, int(b.get('secs') or 0)), 'hot': max(0, int(b.get('hot') or 0)),
                       'url': str(b.get('url') or '') if str(b.get('url') or '').startswith('https://') else ''})
     out = {'styles': styles, 'books': books}
@@ -100,7 +101,7 @@ def load(path=None):
 
 
 def public(b, lang='zh'):
-    return {'id': b['id'], 'title': b['title'], 'title_en': b['title_en'], 'author': b['author'], 'narrator': b['narrator'] if lang != 'en' else b['narrator_en'], 'lang': b['lang'], 'style': b['style'], 'rights': b['rights'],
+    return {'id': b['id'], 'title': b['title'], 'title_en': b['title_en'], 'author': b['author'], 'narrator': b['narrator'] if lang != 'en' else b['narrator_en'], 'lang': b['lang'], 'style': b['style'], 'rights': b['rights'], 'net': b['net'],
             'source': b['source'], 'cover': b['cover'], 'summary': b['summary'], 'n': b['n'], 'secs': b['secs'], 'hot': b['hot'], 'url': b['url']}
 
 

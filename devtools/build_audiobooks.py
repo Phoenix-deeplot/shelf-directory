@@ -113,7 +113,7 @@ def librivox_books():
         au = (b.get('authors') or [{}])[0]
         ident = (b.get('url_iarchive') or '').rstrip('/').rsplit('/', 1)[-1]
         out.append({'id': 'lv-%s' % b['id'], 'title': zh, 'title_en': b['title'].strip(), 'author': ('%s %s' % (au.get('first_name', ''), au.get('last_name', ''))).strip(), 'narrator': 'LibriVox 志愿者', 'narrator_en': 'LibriVox volunteers',
-                    'lang': 'en', 'style': styles, 'rights': 'public-domain', 'source': 'librivox', 'feed': b['url_rss'], 'order': 'asc', 'ident': ident,
+                    'lang': 'en', 'style': styles, 'rights': 'public-domain', 'net': 'global', 'source': 'librivox', 'feed': b['url_rss'], 'order': 'asc', 'ident': ident,
                     'cover': ('https://archive.org/services/img/' + ident) if ident else '', 'summary': clean(b.get('description'), 150), 'n': int(b['num_sections']), 'secs': int(b.get('totaltimesecs') or 0), 'url': b.get('url_librivox', '')})
     # how often archive.org gave each of them away: the order of "hot"
     idents = [x['ident'] for x in out if x['ident']]
@@ -141,7 +141,7 @@ def chinese_books():
             pass
         order = order_of(d1, d2, n)
         print('   %-8s %4d chapters %7.1f h | %s ... %s | %s -> %s | %s' % (zh, n, secs / 3600, f1, f2, d1, d2, order))
-        out.append({'id': 'cn-' + cid, 'title': zh, 'title_en': en, 'author': author, 'narrator': narrator, 'narrator_en': narrator, 'lang': 'zh', 'style': styles, 'rights': 'public-domain', 'source': urllib.parse.urlsplit(feed).hostname,
+        out.append({'id': 'cn-' + cid, 'title': zh, 'title_en': en, 'author': author, 'narrator': narrator, 'narrator_en': narrator, 'lang': 'zh', 'style': styles, 'rights': 'public-domain', 'net': 'cn', 'source': urllib.parse.urlsplit(feed).hostname,
                     'feed': feed, 'order': order, 'cover': cover, 'summary': summary, 'n': n, 'secs': secs, 'url': ''})
     return out
 
