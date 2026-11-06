@@ -141,7 +141,7 @@ def discover(raw, env=None):
     """-> what the address is: {'kind': 'feed', 'feed': address of the feed, ...} (can be subscribed) or {'kind': 'link', ...} (a page: one link, nothing to follow)."""
     url, resolution = feedresolver.resolve(raw, env)
     url = _checked(url)
-    direct = resolution['method'] in ('apple_lookup', 'github_releases', 'rsshub') or (resolution['platform'] == 'github.com' and agg.feed_like(url))
+    direct = resolution['method'] in ('apple_lookup', 'github_releases', 'rsshub', 'youtube_playlist') or (resolution['platform'] == 'github.com' and agg.feed_like(url))
     kind = {'kind': 'feed'} if direct else agg.classify(url)
     if kind['kind'] == 'unsupported':
         raise agg.Refused(kind['zh'], kind['en'])
@@ -149,9 +149,13 @@ def discover(raw, env=None):
     if entry['kind'] == 'link' and pre:
         candidate = feedresolver.page_candidate(pre)
         if candidate:
+            candidate, candidate_resolution = feedresolver.resolve(candidate, env)
             entry, pre, warnings = agg.discover(_checked(candidate))
-            resolution['method'] = 'page_feed'
-            resolution['scope'] = 'site'
+            if candidate_resolution['method'] == 'native':
+                resolution['method'] = 'page_feed'
+                resolution['scope'] = 'site'
+            else:
+                resolution.update(candidate_resolution)
         elif 'json' in pre[1].get('content-type', '').lower():
             raise Reply(422, 'api_adapter', '这个 JSON 接口不是标准 JSON Feed，需要配置字段映射后才能持续订阅。',
                         'This JSON API is not a standard JSON Feed; an adapter is required.')
@@ -166,7 +170,7 @@ def discover(raw, env=None):
         out.update({'kind': 'feed', 'feed': entry['source'], 'image': shelf['image'], 'found': len(items), 'etag': res.get('etag', ''), 'modified': res.get('modified', ''),
                     'items': [_item(i) for i in newest[:DISCOVER_ITEMS]]})
         out['resolution'] = resolution
-    elif resolution['method'] in ('apple_lookup', 'github_releases', 'rsshub'):
+    elif resolution['method'] in ('apple_lookup', 'github_releases', 'rsshub', 'youtube_playlist'):
         raise Reply(422, 'feed_invalid', '已找到候选订阅地址，但没有读到有效 RSS；请稍后重试或提供原生 RSS。',
                     'A candidate was found but did not return a valid feed. Try later or supply a native RSS URL.')
     else:

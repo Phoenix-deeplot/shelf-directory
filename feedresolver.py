@@ -5,7 +5,7 @@ Every returned candidate still has to pass the ordinary feed parser.
 """
 import json
 import re
-from urllib.parse import urlsplit
+from urllib.parse import parse_qs, urlsplit
 
 import aggregate as agg
 from submission import Reply
@@ -88,10 +88,31 @@ def resolve(raw, env=None):
         match = re.fullmatch(r'/(\d+)(?:/.*)?', p.path)
         if match:
             return rsshub('/bilibili/user/video/' + match[1], env), {'method': 'rsshub', 'platform': 'Bilibili', 'scope': 'videos'}
+    if host in ('x.com', 'twitter.com'):
+        match = re.match(r'^/([A-Za-z0-9_]{1,15})(?:/|$)', p.path)
+        reserved = {'home', 'explore', 'search', 'i', 'intent', 'messages', 'notifications', 'settings', 'compose'}
+        if match and match[1].lower() not in reserved:
+            return rsshub('/twitter/user/' + match[1], env), {'method': 'rsshub', 'platform': 'X', 'scope': 'creator', 'auth_required': True}
+    if host == 'xiaohongshu.com':
+        match = re.match(r'^/user/profile/([A-Za-z0-9]{24})(?:/|$)', p.path)
+        if match:
+            return rsshub('/xiaohongshu/user/' + match[1] + '/notes', env), {'method': 'rsshub', 'platform': 'Xiaohongshu', 'scope': 'creator', 'auth_required': True}
+    if host == 'zhihu.com':
+        match = re.fullmatch(r'/people/([A-Za-z0-9_-]+)(?:/activities)?/?', p.path)
+        if match:
+            return rsshub('/zhihu/people/activities/' + match[1], env), {'method': 'rsshub', 'platform': 'Zhihu', 'scope': 'creator', 'auth_required': True}
+        match = re.fullmatch(r'/collection/(\d+)/?', p.path)
+        if match:
+            return rsshub('/zhihu/collection/' + match[1], env), {'method': 'rsshub', 'platform': 'Zhihu', 'scope': 'collection', 'auth_required': True}
+    if host in ('youtube.com', 'm.youtube.com', 'youtu.be'):
+        playlist_id = parse_qs(p.query).get('list', [''])[0]
+        if re.fullmatch(r'[A-Za-z0-9_-]{5,100}', playlist_id):
+            candidate = 'https://www.youtube.com/feeds/videos.xml?playlist_id=' + playlist_id
+            return candidate, {'method': 'youtube_playlist', 'platform': 'YouTube', 'scope': 'playlist'}
     if host in ('open.spotify.com', 'music.163.com', 'y.qq.com', 'music.apple.com', 'qishui.douyin.com'):
         fail('platform_adapter', '这是音乐或节目平台分享链接，当前没有对应的更新订阅适配器；可仅收录，播客请提供节目 RSS 或 Apple Podcasts 链接。',
              'This platform share link needs an update adapter. Save it as a link; for podcasts use RSS or an Apple Podcasts URL.')
-    if host in ('x.com', 'twitter.com', 'xiaohongshu.com', 'www.zhihu.com', 'zhihu.com'):
+    if host in ('x.com', 'twitter.com', 'xiaohongshu.com', 'zhihu.com'):
         fail('platform_adapter', '已识别平台；持续订阅需要对应 RSSHub 路由及实例权限。请提供可用的 RSS 地址，或暂时仅收录。',
              'Following this platform requires a working RSSHub route and instance access. Supply a working feed or save the link.')
     return url, resolution
@@ -111,4 +132,14 @@ def page_candidate(pre):
         match = re.search(r'"(?:channelId|externalId)"\s*:\s*"(UC[\w-]{22})"', text)
         if match:
             return 'https://www.youtube.com/feeds/videos.xml?channel_id=' + match[1]
+    host = host.removeprefix('www.')
+    path = urlsplit(final).path
+    if host == 'space.bilibili.com' and re.fullmatch(r'/\d+/?', path):
+        return final
+    if host in ('x.com', 'twitter.com') and re.match(r'^/[A-Za-z0-9_]{1,15}(?:/|$)', path):
+        return final
+    if host == 'xiaohongshu.com' and re.match(r'^/user/profile/[A-Za-z0-9]{24}(?:/|$)', path):
+        return final
+    if host == 'zhihu.com' and re.fullmatch(r'/people/[A-Za-z0-9_-]+(?:/activities)?/?|/collection/\d+/?', path):
+        return final
     return None
