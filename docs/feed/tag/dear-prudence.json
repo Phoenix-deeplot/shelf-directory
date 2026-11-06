@@ -1,0 +1,37 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #Dear Prudence",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/dear-prudence.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://slate.com/advice/2026/10/dear-prudence-boyfriend-deep-cleaning-nasty-surprise.html?via=rss",
+      "url": "https://slate.com/advice/2026/10/dear-prudence-boyfriend-deep-cleaning-nasty-surprise.html?via=rss",
+      "title": "Help! I Surprised My Messy Boyfriend With a Deep Cleaning. The Outrageous Thing He Said About It Could Not Have Been Weirder.",
+      "content_html": "<p><img src=\"https://compote.slate.com/images/635ad8b7-5dc4-47fe-98b6-1c7c68f27631.jpeg?crop=1560%2C1040%2Cx0%2Cy0\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>When I decided to help out with his pigsty, I certainly didn’t expect this!</p><p>Source: Slate Magazine · 2026-10-31</p><p>Tags: #Advice #Dear Prudence #评论 #文化</p><p><a href=\"https://slate.com/advice/2026/10/dear-prudence-boyfriend-deep-cleaning-nasty-surprise.html?via=rss\">Read the original →</a></p>",
+      "content_text": "When I decided to help out with his pigsty, I certainly didn’t expect this!",
+      "summary": "When I decided to help out with his pigsty, I certainly didn’t expect this!",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://compote.slate.com/images/635ad8b7-5dc4-47fe-98b6-1c7c68f27631.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "tags": [
+        "Advice",
+        "Dear Prudence",
+        "评论",
+        "文化"
+      ],
+      "authors": [
+        {
+          "name": "Slate Magazine"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "slate-com"
+      }
+    }
+  ]
+}

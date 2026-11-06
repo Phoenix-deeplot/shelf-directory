@@ -1,0 +1,36 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #ExpectationVsReality",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/expectationvsreality.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.reddit.com/r/ExpectationVsReality/comments/1xkmlvf/the_dress_i_ordered_vs_the_dress_i_got/",
+      "url": "https://www.reddit.com/r/ExpectationVsReality/comments/1xkmlvf/the_dress_i_ordered_vs_the_dress_i_got/",
+      "title": "The dress I ordered vs the dress I got",
+      "content_html": "<p><img src=\"https://preview.redd.it/qmfj54l0lvyh1.jpeg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=22362d96140aa3b221c33ba8dedf4926633b7c39\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>submitted by /u/OcchiVerdi- to r/ExpectationVsReality [link] [comments]</p><p>Source: top scoring links : popular · 2026-10-31</p><p>Tags: #ExpectationVsReality #社区 #热榜</p><p><a href=\"https://www.reddit.com/r/ExpectationVsReality/comments/1xkmlvf/the_dress_i_ordered_vs_the_dress_i_got/\">Read the original →</a></p>",
+      "content_text": "submitted by /u/OcchiVerdi- to r/ExpectationVsReality [link] [comments]",
+      "summary": "submitted by /u/OcchiVerdi- to r/ExpectationVsReality [link] [comments]",
+      "date_published": "2026-10-31T00:00:00Z",
+      "image": "https://preview.redd.it/qmfj54l0lvyh1.jpeg?width=140&height=140&crop=1:1,smart&auto=webp&s=22362d96140aa3b221c33ba8dedf4926633b7c39",
+      "tags": [
+        "ExpectationVsReality",
+        "社区",
+        "热榜"
+      ],
+      "authors": [
+        {
+          "name": "top scoring links : popular"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "reddit-com"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://adminbook.zhitree.cn/feed/tag/apple.xml</id>
+  <title>知树阅读-个人图书空间 · #Apple</title>
+  <subtitle>个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://adminbook.zhitree.cn/feed/tag/apple.xml"/>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>知树阅读-个人图书空间</name></author>
+  <entry>
+    <id>https://slate.com/culture/2026/10/nocturne-apple-tv-show-liev-schreiber-stephen-graham-zazie-beetz.html?via=rss</id>
+    <title>Considerable Talent Is Wasted in Apple’s Star-Studded New Adaptation of a Bestseller</title>
+    <link rel="alternate" type="text/html" href="https://slate.com/culture/2026/10/nocturne-apple-tv-show-liev-schreiber-stephen-graham-zazie-beetz.html?via=rss"/>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <published>2026-10-30T00:00:00Z</published>
+    <summary type="text">Nocturne, based on a Lars Kepler novel, is cliché after cliché.</summary>
+    <content type="html">&lt;p&gt;&lt;img src="https://compote.slate.com/images/f8384228-cd5e-4126-8b68-89f15aa8160d.jpeg?crop=1560%2C1040%2Cx0%2Cy0" alt="" referrerpolicy="no-referrer"&gt;&lt;/p&gt;&lt;p&gt;Nocturne, based on a Lars Kepler novel, is cliché after cliché.&lt;/p&gt;&lt;p&gt;Source: Slate Magazine · 2026-10-30&lt;/p&gt;&lt;p&gt;Tags: #Apple #Books #TV #Thrillers #评论 #文化&lt;/p&gt;&lt;p&gt;&lt;a href="https://slate.com/culture/2026/10/nocturne-apple-tv-show-liev-schreiber-stephen-graham-zazie-beetz.html?via=rss"&gt;Read the original →&lt;/a&gt;&lt;/p&gt;</content>
+    <source><title>Slate Magazine</title></source>
+    <category term="Apple"/>
+    <category term="Books"/>
+    <category term="TV"/>
+    <category term="Thrillers"/>
+    <category term="评论"/>
+    <category term="文化"/>
+  </entry>
+</feed>
