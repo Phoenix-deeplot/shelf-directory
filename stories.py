@@ -1,4 +1,4 @@
-"""Story podcasts for the podcast side of "今日听什么": lists by style (mystery, true crime, true stories, history, bedtime) and "hot" lists by platform (Ximalaya, Xiaoyuzhou, Lizhi FM).
+"""Story podcasts for the podcast side of "今日听什么": lists by style (mystery, true crime, true stories, history, funny talk, bedtime) and "hot" lists by platform (Ximalaya, Xiaoyuzhou, Lizhi FM).
 
 Where it comes from, and why no private interface of any platform is needed:
   - registry/stories.json: shows picked by hand (the feed is read, the sound answers, it is being updated). That list is the floor.
@@ -25,7 +25,7 @@ STORY_WORDS = re.compile(r'夜话|怪谈|怪奇|怪事|诡|灵异|鬼|惊悚|悬
 NOVEL_WORDS = re.compile(r'小说|有声书|多播|有声剧|穿越|重生|爽文|逆袭|修仙|玄幻|总裁|言情|仙尊|快穿|系统|免费|【|》|《|儿童|童话|宝宝|幼儿|西游记|封神|盗墓|鬼吹灯|斗罗')
 NOVEL_TITLE = re.compile(r'第\s*\d+\s*[章回]|^\s*\d{2,4}\s*第')                     # (an episode that is a chapter of a novel: the show reads a book aloud)
 STYLE_WORDS = (('sleep', re.compile(r'睡前|助眠|晚安|哄睡|入眠')), ('crime', re.compile(r'罪案|案件|侦探|犯罪|刑侦|悬案|凶案')), ('mystery', re.compile(r'怪谈|怪奇|怪事|诡|灵异|鬼|惊悚|悬疑|夜话|都市传说|档案|奇闻')),
-               ('history', re.compile(r'历史|野史|轶事')), ('true', re.compile(r'故事|真实')))
+               ('fun', re.compile(r'段子|脱口秀|搞笑|爆笑|吐槽')), ('history', re.compile(r'历史|野史|轶事')), ('true', re.compile(r'故事|真实')))
 _LOADED = {}
 
 

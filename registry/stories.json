@@ -7,6 +7,7 @@
   {"id": "crime", "name": "真实罪案", "name_en": "True crime"},
   {"id": "true", "name": "真实故事", "name_en": "True stories"},
   {"id": "history", "name": "历史野史", "name_en": "History tales"},
+  {"id": "fun", "name": "轻松段子", "name_en": "Funny talk & jokes"},
   {"id": "sleep", "name": "睡前故事", "name_en": "Bedtime stories"}
  ],
  "shows": [
@@ -27,6 +28,10 @@
   {"id": "gushifm", "name": "故事FM", "name_en": "StoryFM", "platform": "wavpub", "style": "true", "apple_id": 1256399960, "feed": "https://feeds.storyfm.cn/storyfm.xml", "why": "真实的人用自己的声音讲自己的故事，一千期。", "why_en": "Real people tell their own stories in their own voices, a thousand episodes."},
   {"id": "yeshi", "name": "野史下酒", "name_en": "野史下酒", "platform": "wavpub", "style": "history", "apple_id": 877607820, "feed": "https://s1.proxy.wavpub.com/yeshixiajiu.xml", "why": "有趣的历史故事，边喝边听。", "why_en": "Entertaining tales from history, to listen to with a drink."},
   {"id": "shuiqian", "name": "成人睡前故事", "name_en": "成人睡前故事", "platform": "ximalaya", "style": "sleep", "apple_id": 1667557531, "feed": "https://www.ximalaya.com/album/67610333.xml", "why": "成人睡前故事、中式志怪和民间故事，每天更新。", "why_en": "Bedtime stories for adults, Chinese tales of the strange and folk tales, new every day."},
-  {"id": "shuiqian2", "name": "成人睡前故事｜温柔男声", "name_en": "成人睡前故事｜温柔男声", "platform": "ximalaya", "style": "sleep", "apple_id": 1645823973, "feed": "https://www.ximalaya.com/album/71029167.xml", "why": "温柔男声，每晚一个故事哄你入睡。", "why_en": "A soft male voice, one story every night to fall asleep to."}
+  {"id": "shuiqian2", "name": "成人睡前故事｜温柔男声", "name_en": "成人睡前故事｜温柔男声", "platform": "ximalaya", "style": "sleep", "apple_id": 1645823973, "feed": "https://www.ximalaya.com/album/71029167.xml", "why": "温柔男声，每晚一个故事哄你入睡。", "why_en": "A soft male voice, one story every night to fall asleep to."},
+  {"id": "nvwang", "name": "女王有药丨爆笑段子电台", "name_en": "女王有药丨爆笑段子电台", "platform": "ximalaya", "style": "fun", "apple_id": 1089113037, "feed": "http://www.ximalaya.com/album/3545715.xml", "why": "新闻趣事和爆笑段子，七百多期，每天更新。", "why_en": "Odd news and funny stories, over seven hundred episodes, new ones every day."},
+  {"id": "laot", "name": "吐槽脱口秀老T", "name_en": "吐槽脱口秀老T", "platform": "lizhi", "style": "fun", "apple_id": 1430944128, "feed": "http://rss.lizhi.fm/rss/510347.xml", "why": "一个人的吐槽脱口秀，一千多期，天天有。", "why_en": "A one-man comedy talk show, over a thousand episodes, daily."},
+  {"id": "sanyan", "name": "三言两语 | 脱口秀演员闲谈录", "name_en": "三言两语 | 脱口秀演员闲谈录", "platform": "ximalaya", "style": "fun", "apple_id": 1589571397, "feed": "https://www.ximalaya.com/album/51231816.xml", "why": "脱口秀演员聊天，聊段子是怎么写出来的，也聊生活。", "why_en": "Stand-up comedians talk about how jokes are written, and about life."},
+  {"id": "duanzi", "name": "段子来了", "name_en": "段子来了", "platform": "ximalaya", "style": "fun", "apple_id": 693925097, "feed": "http://www.ximalaya.com/album/203355.xml", "why": "一千多期的段子和搞笑故事。", "why_en": "Over a thousand episodes of jokes and funny stories."}
  ]
 }

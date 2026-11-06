@@ -24,6 +24,7 @@ STYLES = [
     {'id': 'story', 'name': '故事悬疑', 'name_en': 'Stories & mystery'},
     {'id': 'fairy', 'name': '童话寓言', 'name_en': 'Fairy tales & fables'},
     {'id': 'guoxue', 'name': '国学经典', 'name_en': 'Chinese classics'},
+    {'id': 'minguo', 'name': '民国往事', 'name_en': 'Republic-era tales'},
 ]
 # (query for the title at LibriVox, name in Chinese, styles). The first recording whose title is the query and that has a sensible number of chapters is taken.
 LIBRIVOX = [
@@ -48,6 +49,15 @@ CHINESE = [
     ('xyj', '西游记', 'Journey to the West', '吴承恩', '男中音朗读', ['guoxue', 'classic'], 1713902335, 'https://www.ximalaya.com/album/78633443.xml', '吴承恩的神魔小说，原著全文。'),
     ('shz', '水浒传', 'Water Margin', '施耐庵', '男中音朗读', ['guoxue', 'classic'], 1713902748, 'https://www.ximalaya.com/album/78661218.xml', '施耐庵的英雄传奇，原著全文。'),
     ('lz', '聊斋志异', 'Strange Tales from a Chinese Studio', '蒲松龄', 'AI 朗读', ['guoxue', 'story'], 1777337891, 'https://www.ximalaya.com/album/84403983.xml', '蒲松龄的志怪短篇，狐仙鬼怪与人间百态。'),
+    # the Republic era: the old novels read in full by their own publishers, and the tales of the time told by storytellers (rights: broadcaster = the recording is the publisher's on its open feed)
+    ('jfsj', '金粉世家', 'The Gilded Family', '张恨水', '金尚熙团队演播', ['minguo', 'classic'], 6801897977, 'https://www.ximalaya.com/album/122375450.xml', '张恨水的长篇小说：北平豪门金家的兴衰，和公子与寒门女子的一段情。全本，一章一集。', 'broadcaster'),
+    ('lts', '骆驼祥子', 'Rickshaw Boy', '老舍', '密斯特老徐', ['minguo', 'classic'], 1838715397, 'https://www.ximalaya.com/album/104880301.xml', '老舍写民国北平洋车夫祥子的一生，完整无删节版。', 'broadcaster'),
+    ('txyy', '啼笑因缘', 'Fate in Tears and Laughter', '张恨水', '布许疏', ['minguo', 'classic'], 1849834993, 'https://www.ximalaya.com/album/95426284.xml', '张恨水的民国言情经典：天桥的相遇、军阀的强权，和一段说不清的缘分。全本。', 'broadcaster'),
+    ('ssty', '四世同堂', 'Four Generations Under One Roof', '老舍', '獅子座麦爸', ['minguo', 'classic'], 1569521818, 'https://www.ximalaya.com/album/29864557.xml', '老舍写抗战时期北平一条胡同里祁家四代人的苦难和坚守。全本。', 'broadcaster'),
+    ('mgfys', '民国风云史', 'A History of the Republic', '博拾斋', '博拾斋', ['minguo'], 1725746426, 'https://www.ximalaya.com/album/77592357.xml', '军阀、政客和文人的恩怨与段子，从孙中山讲到北洋乱局，一集一个人物，持续更新。', 'broadcaster'),
+    ('xhsht', '闲话上海滩', 'Old Shanghai Chats', '闲话上海滩', '闲话上海滩', ['minguo'], 1027785025, 'https://rss.lizhi.fm/rss/1217207.xml', '老上海的街巷、人物和往事，一百多期的闲话。', 'broadcaster'),
+    ('dyx', '乱世枭雄杜月笙', 'Du Yuesheng, Boss of Shanghai', '江湖叨客', '江湖叨客', ['minguo'], 1060639273, 'https://www.ximalaya.com/album/3178593.xml', '从码头小混混到上海滩的“大亨”，杜月笙的一生。', 'broadcaster'),
+    ('mgta', '民国探案大全集', 'Republic-era Detective Cases', '', '', ['minguo', 'story'], 1704604459, 'https://www.ximalaya.com/album/77770934.xml', '民国年间的探案故事，一案一集。', 'broadcaster'),
 ]
 
 
@@ -80,7 +90,7 @@ def feed_info(url):
     items = root.find('channel').findall('item')
     ns = {'it': 'http://www.itunes.com/dtds/podcast-1.0.dtd'}
     secs = sum(secs_of(i.findtext('it:duration', namespaces=ns)) for i in items)
-    return len(items), secs, (items[0].findtext('title') or '')[:30], (items[-1].findtext('title') or '')[:30], (items[0].findtext('pubDate') or '')[:16], (items[-1].findtext('pubDate') or '')[:16]
+    return len(items), secs, (items[0].findtext('title') or '')[:30], (items[-1].findtext('title') or '')[:30], (items[0].findtext('pubDate') or ''), (items[-1].findtext('pubDate') or '')
 
 
 def order_of(first_date, last_date, n):
@@ -128,7 +138,9 @@ def librivox_books():
 
 def chinese_books():
     out = []
-    for cid, zh, en, author, narrator, styles, apple, feed, summary in CHINESE:
+    for row in CHINESE:
+        cid, zh, en, author, narrator, styles, apple, feed, summary = row[:9]
+        rights = row[9] if len(row) > 9 else 'public-domain'
         try:
             n, secs, f1, f2, d1, d2 = feed_info(feed)
         except Exception as e:
@@ -137,11 +149,13 @@ def chinese_books():
         try:
             r = jget('https://itunes.apple.com/lookup?id=%s&country=cn' % apple)['results'][0]
             cover = r.get('artworkUrl600') or ''
+            author = author or r.get('artistName') or ''
+            narrator = narrator or r.get('artistName') or ''
         except Exception:
             pass
         order = order_of(d1, d2, n)
-        print('   %-8s %4d chapters %7.1f h | %s ... %s | %s -> %s | %s' % (zh, n, secs / 3600, f1, f2, d1, d2, order))
-        out.append({'id': 'cn-' + cid, 'title': zh, 'title_en': en, 'author': author, 'narrator': narrator, 'narrator_en': narrator, 'lang': 'zh', 'style': styles, 'rights': 'public-domain', 'net': 'cn', 'source': urllib.parse.urlsplit(feed).hostname,
+        print('   %-8s %4d chapters %7.1f h | %s ... %s | %s -> %s | %s' % (zh, n, secs / 3600, f1, f2, d1[:16], d2[:16], order))
+        out.append({'id': 'cn-' + cid, 'title': zh, 'title_en': en, 'author': author, 'narrator': narrator, 'narrator_en': narrator, 'lang': 'zh', 'style': styles, 'rights': rights, 'net': 'cn', 'source': urllib.parse.urlsplit(feed).hostname,
                     'feed': feed, 'order': order, 'cover': cover, 'summary': summary, 'n': n, 'secs': secs, 'url': ''})
     return out
 

@@ -21,6 +21,11 @@
    "id": "guoxue",
    "name": "国学经典",
    "name_en": "Chinese classics"
+  },
+  {
+   "id": "minguo",
+   "name": "民国往事",
+   "name_en": "Republic-era tales"
   }
  ],
  "books": [
@@ -37,6 +42,7 @@
     "classic"
    ],
    "rights": "public-domain",
+   "net": "cn",
    "source": "www.ximalaya.com",
    "feed": "https://www.ximalaya.com/album/78660042.xml",
    "order": "asc",
@@ -45,8 +51,7 @@
    "n": 120,
    "secs": 187295,
    "url": "",
-   "hot": 1,
-   "net": "cn"
+   "hot": 1
   },
   {
    "id": "cn-xyj",
@@ -61,6 +66,7 @@
     "classic"
    ],
    "rights": "public-domain",
+   "net": "cn",
    "source": "www.ximalaya.com",
    "feed": "https://www.ximalaya.com/album/78633443.xml",
    "order": "asc",
@@ -69,8 +75,7 @@
    "n": 100,
    "secs": 166324,
    "url": "",
-   "hot": 2,
-   "net": "cn"
+   "hot": 2
   },
   {
    "id": "cn-shz",
@@ -85,6 +90,7 @@
     "classic"
    ],
    "rights": "public-domain",
+   "net": "cn",
    "source": "www.ximalaya.com",
    "feed": "https://www.ximalaya.com/album/78661218.xml",
    "order": "asc",
@@ -93,8 +99,7 @@
    "n": 100,
    "secs": 187736,
    "url": "",
-   "hot": 3,
-   "net": "cn"
+   "hot": 3
   },
   {
    "id": "cn-lz",
@@ -109,6 +114,7 @@
     "story"
    ],
    "rights": "public-domain",
+   "net": "cn",
    "source": "www.ximalaya.com",
    "feed": "https://www.ximalaya.com/album/84403983.xml",
    "order": "asc",
@@ -117,8 +123,196 @@
    "n": 151,
    "secs": 38847,
    "url": "",
-   "hot": 4,
-   "net": "cn"
+   "hot": 4
+  },
+  {
+   "id": "cn-jfsj",
+   "title": "金粉世家",
+   "title_en": "The Gilded Family",
+   "author": "张恨水",
+   "narrator": "金尚熙团队演播",
+   "narrator_en": "金尚熙团队演播",
+   "lang": "zh",
+   "style": [
+    "minguo",
+    "classic"
+   ],
+   "rights": "broadcaster",
+   "net": "cn",
+   "source": "www.ximalaya.com",
+   "feed": "https://www.ximalaya.com/album/122375450.xml",
+   "order": "asc",
+   "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ec/21/9f/ec219ff8-c50c-46cb-3af8-1c05ee0f1b33/mza_12769616020769102404.jpeg/600x600bb.jpg",
+   "summary": "张恨水的长篇小说：北平豪门金家的兴衰，和公子与寒门女子的一段情。全本，一章一集。",
+   "n": 159,
+   "secs": 65052,
+   "url": "",
+   "hot": 5
+  },
+  {
+   "id": "cn-lts",
+   "title": "骆驼祥子",
+   "title_en": "Rickshaw Boy",
+   "author": "老舍",
+   "narrator": "密斯特老徐",
+   "narrator_en": "密斯特老徐",
+   "lang": "zh",
+   "style": [
+    "minguo",
+    "classic"
+   ],
+   "rights": "broadcaster",
+   "net": "cn",
+   "source": "www.ximalaya.com",
+   "feed": "https://www.ximalaya.com/album/104880301.xml",
+   "order": "asc",
+   "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0c/c9/4c/0cc94c94-db1e-b7ae-a7a7-fbfbcd360943/mza_10881526654238318619.jpeg/600x600bb.jpg",
+   "summary": "老舍写民国北平洋车夫祥子的一生，完整无删节版。",
+   "n": 78,
+   "secs": 38450,
+   "url": "",
+   "hot": 6
+  },
+  {
+   "id": "cn-txyy",
+   "title": "啼笑因缘",
+   "title_en": "Fate in Tears and Laughter",
+   "author": "张恨水",
+   "narrator": "布许疏",
+   "narrator_en": "布许疏",
+   "lang": "zh",
+   "style": [
+    "minguo",
+    "classic"
+   ],
+   "rights": "broadcaster",
+   "net": "cn",
+   "source": "www.ximalaya.com",
+   "feed": "https://www.ximalaya.com/album/95426284.xml",
+   "order": "asc",
+   "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7e/2f/a5/7e2fa5aa-66a4-04e6-8bdb-cac933bc049a/mza_12688931836494609285.jpeg/600x600bb.jpg",
+   "summary": "张恨水的民国言情经典：天桥的相遇、军阀的强权，和一段说不清的缘分。全本。",
+   "n": 136,
+   "secs": 58936,
+   "url": "",
+   "hot": 7
+  },
+  {
+   "id": "cn-ssty",
+   "title": "四世同堂",
+   "title_en": "Four Generations Under One Roof",
+   "author": "老舍",
+   "narrator": "獅子座麦爸",
+   "narrator_en": "獅子座麦爸",
+   "lang": "zh",
+   "style": [
+    "minguo",
+    "classic"
+   ],
+   "rights": "broadcaster",
+   "net": "cn",
+   "source": "www.ximalaya.com",
+   "feed": "https://www.ximalaya.com/album/29864557.xml",
+   "order": "asc",
+   "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/6b/e6/43/6be643b0-7ebc-02a5-b502-802f3de271d7/mza_5620354976267555968.jpeg/600x600bb.jpg",
+   "summary": "老舍写抗战时期北平一条胡同里祁家四代人的苦难和坚守。全本。",
+   "n": 184,
+   "secs": 198722,
+   "url": "",
+   "hot": 8
+  },
+  {
+   "id": "cn-mgfys",
+   "title": "民国风云史",
+   "title_en": "A History of the Republic",
+   "author": "博拾斋",
+   "narrator": "博拾斋",
+   "narrator_en": "博拾斋",
+   "lang": "zh",
+   "style": [
+    "minguo"
+   ],
+   "rights": "broadcaster",
+   "net": "cn",
+   "source": "www.ximalaya.com",
+   "feed": "https://www.ximalaya.com/album/77592357.xml",
+   "order": "asc",
+   "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c3/6d/ea/c36dea13-cc0c-7684-41de-0d3f90938881/mza_2187974460966246624.jpeg/600x600bb.jpg",
+   "summary": "军阀、政客和文人的恩怨与段子，从孙中山讲到北洋乱局，一集一个人物，持续更新。",
+   "n": 99,
+   "secs": 102724,
+   "url": "",
+   "hot": 9
+  },
+  {
+   "id": "cn-xhsht",
+   "title": "闲话上海滩",
+   "title_en": "Old Shanghai Chats",
+   "author": "闲话上海滩",
+   "narrator": "闲话上海滩",
+   "narrator_en": "闲话上海滩",
+   "lang": "zh",
+   "style": [
+    "minguo"
+   ],
+   "rights": "broadcaster",
+   "net": "cn",
+   "source": "rss.lizhi.fm",
+   "feed": "https://rss.lizhi.fm/rss/1217207.xml",
+   "order": "desc",
+   "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/6a/91/7f/6a917fe5-f7f1-429d-b580-bf6b750da7a0/mza_11674565023871354955.jpg/600x600bb.jpg",
+   "summary": "老上海的街巷、人物和往事，一百多期的闲话。",
+   "n": 112,
+   "secs": 70630,
+   "url": "",
+   "hot": 10
+  },
+  {
+   "id": "cn-dyx",
+   "title": "乱世枭雄杜月笙",
+   "title_en": "Du Yuesheng, Boss of Shanghai",
+   "author": "江湖叨客",
+   "narrator": "江湖叨客",
+   "narrator_en": "江湖叨客",
+   "lang": "zh",
+   "style": [
+    "minguo"
+   ],
+   "rights": "broadcaster",
+   "net": "cn",
+   "source": "www.ximalaya.com",
+   "feed": "https://www.ximalaya.com/album/3178593.xml",
+   "order": "asc",
+   "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/ed/60/cd/ed60cd2b-2682-da57-bc21-10d6eed28e69/mza_16235298050876787461.jpg/600x600bb.jpg",
+   "summary": "从码头小混混到上海滩的“大亨”，杜月笙的一生。",
+   "n": 55,
+   "secs": 47214,
+   "url": "",
+   "hot": 11
+  },
+  {
+   "id": "cn-mgta",
+   "title": "民国探案大全集",
+   "title_en": "Republic-era Detective Cases",
+   "author": "多云下的蛋",
+   "narrator": "多云下的蛋",
+   "narrator_en": "多云下的蛋",
+   "lang": "zh",
+   "style": [
+    "minguo",
+    "story"
+   ],
+   "rights": "broadcaster",
+   "net": "cn",
+   "source": "www.ximalaya.com",
+   "feed": "https://www.ximalaya.com/album/77770934.xml",
+   "order": "asc",
+   "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/84/c1/93/84c1931b-d843-160f-1d0b-8698bcc012a1/mza_11344995891620591443.jpeg/600x600bb.jpg",
+   "summary": "民国年间的探案故事，一案一集。",
+   "n": 294,
+   "secs": 158610,
+   "url": "",
+   "hot": 12
   },
   {
    "id": "lv-200",
@@ -133,6 +327,7 @@
     "classic"
    ],
    "rights": "public-domain",
+   "net": "global",
    "source": "librivox",
    "feed": "https://librivox.org/rss/200",
    "order": "asc",
@@ -141,8 +336,7 @@
    "n": 12,
    "secs": 10731,
    "url": "https://librivox.org/alices-adventures-in-wonderland-by-lewis-carroll/",
-   "hot": 5,
-   "net": "global"
+   "hot": 13
   },
   {
    "id": "lv-314",
@@ -156,6 +350,7 @@
     "story"
    ],
    "rights": "public-domain",
+   "net": "global",
    "source": "librivox",
    "feed": "https://librivox.org/rss/314",
    "order": "asc",
@@ -164,8 +359,7 @@
    "n": 12,
    "secs": 37079,
    "url": "https://librivox.org/the-adventures-of-sherlock-holmes/",
-   "hot": 6,
-   "net": "global"
+   "hot": 14
   },
   {
    "id": "lv-253",
@@ -179,6 +373,7 @@
     "classic"
    ],
    "rights": "public-domain",
+   "net": "global",
    "source": "librivox",
    "feed": "https://librivox.org/rss/253",
    "order": "asc",
@@ -187,8 +382,7 @@
    "n": 37,
    "secs": 47204,
    "url": "https://librivox.org/pride-and-prejudice-by-jane-austen/",
-   "hot": 7,
-   "net": "global"
+   "hot": 15
   },
   {
    "id": "lv-271",
@@ -203,6 +397,7 @@
     "classic"
    ],
    "rights": "public-domain",
+   "net": "global",
    "source": "librivox",
    "feed": "https://librivox.org/rss/271",
    "order": "asc",
@@ -211,8 +406,7 @@
    "n": 27,
    "secs": 59469,
    "url": "https://librivox.org/dracula-by-bram-stoker/",
-   "hot": 8,
-   "net": "global"
+   "hot": 16
   },
   {
    "id": "lv-47",
@@ -227,6 +421,7 @@
     "story"
    ],
    "rights": "public-domain",
+   "net": "global",
    "source": "librivox",
    "feed": "https://librivox.org/rss/47",
    "order": "asc",
@@ -235,8 +430,7 @@
    "n": 128,
    "secs": 178995,
    "url": "https://librivox.org/the-count-of-monte-cristo-by-alexandre-dumas/",
-   "hot": 9,
-   "net": "global"
+   "hot": 17
   },
   {
    "id": "lv-375",
@@ -250,6 +444,7 @@
     "fairy"
    ],
    "rights": "public-domain",
+   "net": "global",
    "source": "librivox",
    "feed": "https://librivox.org/rss/375",
    "order": "asc",
@@ -258,8 +453,7 @@
    "n": 63,
    "secs": 37952,
    "url": "https://librivox.org/fairy-tales-by-the-brothers-grimm/",
-   "hot": 10,
-   "net": "global"
+   "hot": 18
   },
   {
    "id": "lv-133",
@@ -273,6 +467,7 @@
     "classic"
    ],
    "rights": "public-domain",
+   "net": "global",
    "source": "librivox",
    "feed": "https://librivox.org/rss/133",
    "order": "asc",
@@ -281,8 +476,7 @@
    "n": 39,
    "secs": 74196,
    "url": "https://librivox.org/jane-eyre-by-charlotte-bront/",
-   "hot": 11,
-   "net": "global"
+   "hot": 19
   },
   {
    "id": "lv-381",
@@ -297,6 +491,7 @@
     "classic"
    ],
    "rights": "public-domain",
+   "net": "global",
    "source": "librivox",
    "feed": "https://librivox.org/rss/381",
    "order": "asc",
@@ -305,8 +500,7 @@
    "n": 22,
    "secs": 29808,
    "url": "https://librivox.org/frankenstein-or-modern-prometheus-by-mary-w-shelley/",
-   "hot": 12,
-   "net": "global"
+   "hot": 20
   },
   {
    "id": "lv-449",
@@ -321,6 +515,7 @@
     "classic"
    ],
    "rights": "public-domain",
+   "net": "global",
    "source": "librivox",
    "feed": "https://librivox.org/rss/449",
    "order": "asc",
@@ -329,8 +524,7 @@
    "n": 26,
    "secs": 27008,
    "url": "https://librivox.org/treasure-island-by-robert-louis-stevenson/",
-   "hot": 13,
-   "net": "global"
+   "hot": 21
   },
   {
    "id": "lv-193",
@@ -344,6 +538,7 @@
     "fairy"
    ],
    "rights": "public-domain",
+   "net": "global",
    "source": "librivox",
    "feed": "https://librivox.org/rss/193",
    "order": "asc",
@@ -352,8 +547,7 @@
    "n": 24,
    "secs": 1764,
    "url": "https://librivox.org/aesops-fables-volume-3-fables-51-75/",
-   "hot": 14,
-   "net": "global"
+   "hot": 22
   },
   {
    "id": "lv-71",
@@ -367,6 +561,7 @@
     "story"
    ],
    "rights": "public-domain",
+   "net": "global",
    "source": "librivox",
    "feed": "https://librivox.org/rss/71",
    "order": "asc",
@@ -375,8 +570,7 @@
    "n": 7,
    "secs": 4988,
    "url": "https://librivox.org/the-canterville-ghost-by-oscar-wilde/",
-   "hot": 15,
-   "net": "global"
+   "hot": 23
   },
   {
    "id": "lv-140",
@@ -391,6 +585,7 @@
     "classic"
    ],
    "rights": "public-domain",
+   "net": "global",
    "source": "librivox",
    "feed": "https://librivox.org/rss/140",
    "order": "asc",
@@ -399,8 +594,7 @@
    "n": 5,
    "secs": 11669,
    "url": "https://librivox.org/a-christmas-carol-by-charles-dickens/",
-   "hot": 16,
-   "net": "global"
+   "hot": 24
   },
   {
    "id": "lv-417",
@@ -415,6 +609,7 @@
     "classic"
    ],
    "rights": "public-domain",
+   "net": "global",
    "source": "librivox",
    "feed": "https://librivox.org/rss/417",
    "order": "asc",
@@ -423,8 +618,7 @@
    "n": 4,
    "secs": 11305,
    "url": "https://librivox.org/the-strange-case-of-dr-jekyll-mr-hyde-by-robert-louis-stevenson/",
-   "hot": 17,
-   "net": "global"
+   "hot": 25
   },
   {
    "id": "lv-901",
@@ -438,6 +632,7 @@
     "story"
    ],
    "rights": "public-domain",
+   "net": "global",
    "source": "librivox",
    "feed": "https://librivox.org/rss/901",
    "order": "asc",
@@ -446,8 +641,7 @@
    "n": 15,
    "secs": 21179,
    "url": "https://librivox.org/the-hound-of-the-baskervilles-by-arthur-conan-doyle/",
-   "hot": 18,
-   "net": "global"
+   "hot": 26
   }
  ]
 }

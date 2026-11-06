@@ -103,6 +103,7 @@ class Parts(Base):
     def test_the_style_of_a_name(self):
         S = stories.style_of
         self.assertEqual([S('成人睡前故事'), S('松鼠大侦探'), S('鲶鱼夜话'), S('野史下酒'), S('故事FM'), S('搞钱女孩')], ['sleep', 'crime', 'mystery', 'history', 'true', ''])
+        self.assertEqual([S('段子来了'), S('吐槽脱口秀老T'), S('爆笑故事会'), S('民国轶事')], ['fun', 'fun', 'fun', 'history'])          # (a funny story is a funny one, not a "true story")
 
     def test_the_picked_list_leaves_out_what_is_not_valid(self):
         cfg = stories.load()
@@ -357,6 +358,11 @@ class RegistryFiles(unittest.TestCase):
             self.assertTrue(b['style'], b['id'])
             self.assertTrue(b['hot'] > 0, b['id'])
         self.assertTrue({'zh', 'en'} <= {b['lang'] for b in cfg['books']})
+        for st in cfg['styles']:
+            self.assertTrue(any(st['id'] in b['style'] for b in cfg['books']), st['id'])                                          # (no style without a book)
+        minguo = [b for b in cfg['books'] if 'minguo' in b['style']]
+        self.assertGreaterEqual(len(minguo), 6)
+        self.assertTrue(all(b['rights'] == 'broadcaster' and b['net'] == 'cn' for b in minguo))                                  # (the recording is the publisher's own, on an open feed, and it plays in China)
         self.assertTrue(all((b['net'] == 'global') == b['id'].startswith('lv-') for b in cfg['books']))                       # (LibriVox's sounds are on archive.org)
         self.assertEqual(len({b['hot'] for b in cfg['books']}), len(cfg['books']))
 
@@ -374,6 +380,9 @@ class RegistryFiles(unittest.TestCase):
             self.assertEqual(s['platform'], stories.platform_of(s['feed']))
         for p in stories.HOT_PLATFORMS:
             self.assertTrue(any(s['platform'] == p for s in cfg['shows']), p)                                                   # (every platform with a hot list has a show picked)
+        for st in cfg['styles']:
+            self.assertTrue(any(s['style'] == st['id'] for s in cfg['shows']), st['id'])                                       # (no style without a show: its list would not be made)
+        self.assertGreaterEqual(len([s for s in cfg['shows'] if s['style'] == 'fun']), 3)
 
 
 if __name__ == '__main__':
