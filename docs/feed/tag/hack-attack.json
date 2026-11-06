@@ -1,0 +1,37 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "知树阅读-个人图书空间 · #Hack Attack",
+  "home_page_url": "https://adminbook.zhitree.cn/",
+  "feed_url": "https://adminbook.zhitree.cn/feed/tag/hack-attack.json",
+  "description": "个人数字图书馆：在线阅读书籍、电子书、PDF 与 Markdown，整理读书笔记，订阅喜欢的博客（RSS）。这个订阅源是公共目录里新收录的文章、节目与视频。",
+  "_shelf": {
+    "spec": 1
+  },
+  "items": [
+    {
+      "id": "https://www.wired.com/story/polymarket-flagship-platform-hack-traders-lose-money/",
+      "url": "https://www.wired.com/story/polymarket-flagship-platform-hack-traders-lose-money/",
+      "title": "Polymarket Halted International Trading After Hackers Drained Accounts",
+      "content_html": "<p><img src=\"https://media.wired.com/photos/6ae3a1d0b3ee5efdf6d00c9f/master/pass/GettyImages-2259602081.jpg\" alt=\"\" referrerpolicy=\"no-referrer\"></p><p>The company says an unnamed third-party provider was compromised. Trading has resumed, and Polymarket says affected traders will be made whole.</p><p>Source: WIRED · 2026-10-29</p><p>Tags: #Business #Hack Attack #科技 #社会</p><p><a href=\"https://www.wired.com/story/polymarket-flagship-platform-hack-traders-lose-money/\">Read the original →</a></p>",
+      "content_text": "The company says an unnamed third-party provider was compromised. Trading has resumed, and Polymarket says affected traders will be made whole.",
+      "summary": "The company says an unnamed third-party provider was compromised. Trading has resumed, and Polymarket says affected traders will be made whole.",
+      "date_published": "2026-10-29T00:00:00Z",
+      "image": "https://media.wired.com/photos/6ae3a1d0b3ee5efdf6d00c9f/master/pass/GettyImages-2259602081.jpg",
+      "tags": [
+        "Business",
+        "Hack Attack",
+        "科技",
+        "社会"
+      ],
+      "authors": [
+        {
+          "name": "WIRED"
+        }
+      ],
+      "_shelf": {
+        "type": "article",
+        "shelf": "wired-com"
+      }
+    }
+  ]
+}

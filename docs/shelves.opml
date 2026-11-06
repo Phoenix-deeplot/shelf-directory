@@ -5,7 +5,6 @@
     <outline text="知树阅读-个人图书空间" title="知树阅读-个人图书空间">
       <outline type="rss" text="精选图书" title="精选图书" xmlUrl="https://adminbook.zhitree.cn/feed/shelf/books.xml" htmlUrl="https://adminbook.zhitree.cn/"/>
       <outline type="rss" text="6 Minute English" title="6 Minute English" xmlUrl="https://podcasts.files.bbci.co.uk/p02pc9tn.rss" htmlUrl="http://www.bbc.co.uk/programmes/p02pc9tn"/>
-      <outline type="rss" text="FreightWaves" title="FreightWaves" xmlUrl="https://www.freightwaves.com/feed" htmlUrl="https://www.freightwaves.com/"/>
       <outline type="rss" text="Latest Science News -- ScienceDaily" title="Latest Science News -- ScienceDaily" xmlUrl="https://www.sciencedaily.com/rss/top.xml" htmlUrl="https://www.sciencedaily.com"/>
       <outline type="rss" text="Product Hunt — The best new products, every day" title="Product Hunt — The best new products, every day" xmlUrl="https://www.producthunt.com/feed" htmlUrl="https://www.producthunt.com"/>
       <outline type="rss" text="TED Radio Hour" title="TED Radio Hour" xmlUrl="https://feeds.npr.org/510298/podcast.xml" htmlUrl="https://www.npr.org/podcasts/510298/ted-radio-hour"/>
@@ -18,7 +17,6 @@
       <outline type="rss" text="US Top News and Analysis" title="US Top News and Analysis" xmlUrl="https://www.cnbc.com/id/100003114/device/rss/rss.html" htmlUrl="https://www.cnbc.com/"/>
       <outline type="rss" text="Home | IndustryWeek" title="Home | IndustryWeek" xmlUrl="https://www.industryweek.com/__rss/website-scheduled-content.xml?input=%7B%22sectionAlias%22%3A%22home%22%7D" htmlUrl="https://www.industryweek.com/"/>
       <outline type="rss" text="Slate Magazine" title="Slate Magazine" xmlUrl="https://slate.com/feeds/all.rss" htmlUrl="https://slate.com/"/>
-      <outline type="rss" text="top scoring links : popular" title="top scoring links : popular" xmlUrl="https://www.reddit.com/r/popular/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/popular/top/?t=day"/>
       <outline type="rss" text="小宇宙每日观测" title="小宇宙每日观测" xmlUrl="https://bri.so/rss/show/xiaoyuzhou/zh.xml" htmlUrl="https://bri.so/show/xiaoyuzhou/zh"/>
       <outline type="rss" text="Open Culture" title="Open Culture" xmlUrl="https://www.openculture.com/feed" htmlUrl="https://www.openculture.com/"/>
       <outline type="rss" text="人人都是产品经理" title="人人都是产品经理" xmlUrl="https://www.woshipm.com/feed" htmlUrl="https://www.woshipm.com/"/>
@@ -29,8 +27,6 @@
       <outline type="rss" text="GitHub Trending（今日）" title="GitHub Trending（今日）" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=github" htmlUrl="https://github.com/trending"/>
       <outline type="rss" text="Google 热搜 · US" title="Google 热搜 · US" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=gtrends" htmlUrl="https://trends.google.com/trending"/>
       <outline type="rss" text="Hacker News" title="Hacker News" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=hackernews" htmlUrl="https://news.ycombinator.com/"/>
-      <outline type="rss" text="JSTOR Daily" title="JSTOR Daily" xmlUrl="https://daily.jstor.org/feed/" htmlUrl="https://daily.jstor.org/"/>
-      <outline type="rss" text="NASA" title="NASA" xmlUrl="https://www.nasa.gov/feed/" htmlUrl="https://www.nasa.gov/"/>
       <outline type="rss" text="Our World in Data" title="Our World in Data" xmlUrl="https://ourworldindata.org/atom.xml" htmlUrl="https://ourworldindata.org"/>
       <outline type="rss" text="QQ 音乐飙升榜" title="QQ 音乐飙升榜" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=qqmusic" htmlUrl="https://y.qq.com/n/ryqq/toplist/62"/>
       <outline type="rss" text="V2EX 今日热议" title="V2EX 今日热议" xmlUrl="https://adminbook.zhitree.cn/api/hot?n=10&amp;p=v2ex" htmlUrl="https://www.v2ex.com/"/>
