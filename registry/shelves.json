@@ -180,7 +180,9 @@
     "人文"
    ],
    "added": "2026-10-25",
-   "issue": 24
+   "issue": 24,
+   "status": "paused",
+   "rights": "unknown"
   },
   {
    "id": "slate-com",
