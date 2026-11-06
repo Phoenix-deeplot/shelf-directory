@@ -1,6 +1,12 @@
 # “听”的来源适配器、搜索、找整首、歌词、快照（2026-11-04）
 
-状态：规划中（已和用户讨论过方向，待用户确认）；未开发、未推送、未部署
+状态：已确认（2026-11-06 用户说“你先完成跟音乐相关的”，B1 由 Claude 做，Codex 在做视频观看体验）；开发中；未推送、未部署
+
+2026-11-06 补充的做法（Claude）：
+- 现在 `/api/*` 是 Codex 收敛后的单入口（`api/router.py` → `api_routes/listen.py` → `listen.respond`），所以新接口（`resolve`、`search`、`pool`）都只是 `listen.handle` 的新查询参数，不新增文件入口。
+- 新代码放在新模块 `music_sources.py`（波点、抖音热歌榜、搜索、合并、解析、熔断、`pool`、健康记录），`listen.py` 只加几行把它接进 `handle()`、`groups()`、`diag()`；旧字段一个都不改。
+- 抖音热歌榜的歌**没有地址**（地址要现取）：只有前端带 `caps=resolve` 时，榜单里才出现它、每首带 `resolve: true`；不带的旧页面看不到这个榜，也就不会点到放不了的歌。这一条是对接口约定的补充，同步写进前端规划。
+- 搜索用到的各家接口：Deezer `search`、iTunes Search、Audius `tracks/search`、Jamendo（有 key 才问）、波点；解析器各自有正常 / 空 / 坏数据测试。
 
 前端规划和**接口约定**以 `my-archive/docs/work/2026-11-04-music-player.md` 为准（那里的“接口约定”一节）；改动先改那里并通知前端。
 
@@ -49,7 +55,7 @@
 
 | 任务 | 负责 | 分支 / worktree | 会改的文件 | 不许碰 |
 |---|---|---|---|---|
-| B1 来源、接口、快照 | codex（建议；用户可改给 claude） | `codex/music-sources` · `E:\Ztree\wt\codex-music-sources` | `listen.py`、`api/` 里 `listen` 的入口、`tests/test_listen.py`、新测试、README（只在接口 / 环境变量变化时） | 前端仓库；`hotapi.py`；数据库迁移；线上环境变量；用户的 `.gitignore` 修改 |
+| B1 来源、接口、快照 | **claude**（用户 2026-11-06 改给 claude） | `claude/music-sources` · `E:\Ztree\wt\claude-music-sources` | `listen.py`、`api/` 里 `listen` 的入口、`tests/test_listen.py`、新测试、README（只在接口 / 环境变量变化时） | 前端仓库；`hotapi.py`；数据库迁移；线上环境变量；用户的 `.gitignore` 修改 |
 
 ### 验收
 
@@ -58,7 +64,7 @@
 - `resolve`：来源超时 ≤ 8 秒、连续失败熔断、http 地址改写 https、过期地址不进缓存；`search`：部分结果也返回、同一首合并、排除 live / remix。
 - `LISTEN_BODIAN=0` 时 `diag` 和接口里都没有波点；不设 `LISTEN_NETEASE_DIRECT` 时没有网易云。
 - 全部 `tests.test_*` 跑一遍（已知失败：`tests.test_hotdetail … cannot_be_reached_from_here`，在 master 上就失败，知乎的 host 已经变了）。
-- 不联网依赖线上环境，不运行迁移，不改生产配置；使用 8900–8999、9450–9459 端口段。
+- 不联网依赖线上环境，不运行迁移，不改生产配置；（B1 由 Claude 做，用 8800–8899、9440–9449 端口段；单元测试本来不开端口。）
 
 ### 风险和要避开的冲突点
 
