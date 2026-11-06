@@ -76,7 +76,19 @@
 
 ## 3. 进度
 
-### codex
+### claude
+
+2026-11-06 在分支 `claude/music-sources`（worktree `E:\Ztree\wt\claude-music-sources`）里做完，等用户说“合并”。
+
+- 新模块 `music_sources.py`（波点、抖音热歌榜、搜索、合并、解析、熔断、健康记录、`pool`、新目录）；`listen.py` 只加了接线：`handle()` 的 `caps` / `region` / `search` / `resolve` / `pool`，`groups(v2=)`，`fetch_group(v2=)`，`diag.providers`，`pooled()` 数 `STATS['stale']`，Deezer / Audius 歌单的 `COVERS`，`KIND_ORDER` 加 `scene`，`JAMENDO_KINDS` 加 `workout / commute / study`。
+- **旧页面不受影响**：不带 `caps=resolve` 时目录和榜单一字不变（`test_a_page_without_caps_sees_exactly_what_it_saw`）：没有 `region / cover / resolve / cands / hot / market / stale`，没有 `dy-hot`，放松 / 专注 / 助眠仍是 `style`。新形态只给带 `caps=resolve` 的页面。
+- 用真实网络各问了一遍（2026-11-06，中国大陆）后改了的几处（单元测试里都有）：Deezer / Audius 查不到词时回的是空列表，这是回答不是故障，不能计入熔断；Apple 的搜索接口中国店永远返回 0 条，中文读者改问台湾店（歌手是繁体，歌手比较改成“繁简体算同一个”）；波点同一首歌会回好几行，合成一行一个声音；Audius 的歌名常写成“歌手-歌名”，要去掉歌手前缀再比；“live”不能在“Alive”里匹配；词在歌名 / 歌手里的排前面，歌名恰好是词的在“晴天+告白气球”这类串烧前面，一个词也不沾的（来源碰巧返回的）去掉。
+- 真实环境实测：波点搜索 + 详情 + HEAD 约 2 秒，整首 55 MB 的 FLAC（`big: true, size`），歌词 1534 字符的 LRC；抖音热歌榜 65 首约 0.4–1.2 秒；搜索“晴天 周杰伦”约 1.7 秒，把波点和 Apple（台湾店）合成一行。网易云 / Jamendo 没开（没设环境变量）所以没测真实调用；Deezer / Audius 歌单的 `cover` 在真实目录里有了。
+- 测试：新增 `tests/test_music_sources.py`（54 个，固定样本、不联网）；全部 `tests.test_*` 共 829 个通过（原来 775 个）。
+- 前端接上之后又用真实服务走了一遍（`my-archive/devtools/e2e/tests/real_music_smoke.js`）：目录、推荐池、搜索、波点整首（FLAC 269 秒，在浏览器里放出声音）、歌词、抖音榜都通；小尘的接口有时 15 秒都不回（抖音榜因此读不到过一阵），`listen._get` 对 `api.xcvts.cn` 改成最多等 8 秒（`SOURCE_TIMEOUT`）。
+- 选择：快照用“请求时生成 + CDN 长缓存 + 暖实例里的旧存货（最多 36 小时，响应带 `stale: true`）”，没有做定时任务——Vercel 免费档的 cron 一天一次，对“每天一批”够用，但上游挂了以后旧存货才是真正的兜底，定时任务反而多一个要看护的东西。需要时再加。
+- 没做（计划里写了“本期不做”或不属于 B1）：网易云官方 OpenAPI、`lyric` 单独接口（并进 `resolve`）、跨实例的熔断记录。
+- 部署由用户做；`LISTEN_BODIAN` 不设就是开。
 
 ## 4. 合并记录
 

@@ -4,6 +4,8 @@ GET /api/listen              -> the lists there are today (daily picks, charts, 
 GET /api/listen?g=rock       -> the songs of one list (up to 200), each with the address of a sound the page's player plays
                                 `&lang=en` (or zh, the default) is the reader's language: what a list is made of (the daily picks, the podcast categories) and the order of the lists follow it
 GET /api/listen?diag=1       -> for each source whether it answered and how much it gave (nothing secret in it: the keys never leave the server)
+GET /api/listen?caps=resolve ... the lists for a page that can find a whole song by itself (region, scenes, the Douyin chart, `cands` on the songs); `?resolve=1&t=&a=&d=` fresh sounds and lyrics of one song;
+                                `?search=<words>` the songs that match; `?pool=cn|global` the songs of the charts of one side. These are in music_sources.py (Bodian, the Douyin chart, search, merge, resolve, health).
 
 A list is made of one or more sources, asked in parallel (a source that is slow is left out of this answer, not waited for):
   - Deezer      charts of the world and of 10 styles, and play lists; 30-second previews that Deezer publishes for apps (no key).
@@ -35,6 +37,7 @@ import urllib.request
 
 import aggregate as agg
 import hotapi
+import music_sources as ms
 
 DAY_OFFSET = 8 * 3600                       # the day starts at midnight in China
 POOL_SECONDS = 6 * 3600                     # what a source said is kept this long per warm instance
@@ -58,12 +61,16 @@ DEEZER_LIST = 'https://api.deezer.com/playlist/%s/tracks?limit=100'
 AUDIUS = 'https://api.audius.co/v1'
 AUDIUS_APP = 'zhitree-books'
 APPLE_REGIONS = {'cn': ('中国', 'China'), 'us': ('美国', 'US'), 'jp': ('日本', 'Japan'), 'kr': ('韩国', 'Korea'), 'tw': ('台湾', 'Taiwan'), 'hk': ('香港', 'Hong Kong'), 'gb': ('英国', 'UK'), 'de': ('德国', 'Germany'), 'fr': ('法国', 'France')}
-PROVIDERS = {'apple': 'Apple Music', 'apple_genre': 'Apple Music', 'deezer': 'Deezer', 'deezer_pl': 'Deezer', 'audius': 'Audius', 'audius_pl': 'Audius', 'jamendo': 'Jamendo', 'netease': '网易云音乐', 'youtube': 'YouTube', 'podchart': 'Apple Podcasts'}
+PROVIDERS = {'apple': 'Apple Music', 'apple_genre': 'Apple Music', 'deezer': 'Deezer', 'deezer_pl': 'Deezer', 'audius': 'Audius', 'audius_pl': 'Audius', 'jamendo': 'Jamendo', 'netease': '网易云音乐', 'youtube': 'YouTube', 'podchart': 'Apple Podcasts', 'dychart': '抖音热歌榜'}
 _CACHE = {}
+SOURCE_TIMEOUT = {'api.xcvts.cn': 8}                     # a source kept by one person answers in a second or not at all: it is waited for 8 seconds, not 15
+COVERS = {}                                 # list id -> the picture its source gives it (Deezer, Audius play lists)
+STATS = {'stale': 0}                       # how many times an older copy was served because a source did not answer (the answer says `stale` when it grew)
 
 # Jamendo: tags to ask for (and whether only music without singing)
 JAMENDO_KINDS = {'chill': (['chillout', 'lounge', 'ambient', 'downtempo'], False), 'focus': (['piano', 'classical', 'jazz', 'instrumental'], True), 'sleep': (['ambient', 'meditation', 'sleep', 'newage'], True),
-                 'jazz': (['jazz', 'smoothjazz', 'bossanova'], False), 'classical': (['classical', 'orchestral', 'piano'], True), 'acoustic': (['acoustic', 'folk', 'singersongwriter'], False)}
+                 'jazz': (['jazz', 'smoothjazz', 'bossanova'], False), 'classical': (['classical', 'orchestral', 'piano'], True), 'acoustic': (['acoustic', 'folk', 'singersongwriter'], False),
+                 'workout': (['electronic', 'rock', 'dance', 'energetic'], False), 'commute': (['pop', 'indie', 'lounge', 'electronic'], False), 'study': (['piano', 'lofi', 'ambient', 'classical'], True)}
 
 
 def _g(gid, zh, en, kind, sources, policy='mix', count=200, shuffle=True, per_artist=2, net='cn', typ='music', lang=''):
@@ -141,8 +148,8 @@ STATIC = [
 NE_LISTS = [(3778678, '热歌榜', 'Hot songs', 'zh'), (3779629, '新歌榜', 'New songs', 'zh'), (19723756, '飙升榜', 'Rising', 'zh'), (2884035, '原创榜', 'Original', 'zh'), (71384707, '古典榜', 'Classical', ''), (1978921795, '电音榜', 'Electronic', ''),
             (991319590, '说唱榜', 'Rap', 'zh'), (71385702, 'ACG 榜', 'ACG', ''), (745956260, '韩语榜', 'Korean', ''), (2809513713, '欧美热歌榜', 'Western hits', 'en'), (2809577409, '欧美新歌榜', 'Western new songs', 'en'),
             (3812895, 'Beatport 电子舞曲榜', 'Beatport dance', ''), (60198, 'Billboard 榜', 'Billboard', 'en')]
-KIND_ORDER = {'daily': 0, 'chart': 1, 'list': 2, 'style': 3}
-SOURCE_ARGS = {'apple': (str,), 'apple_genre': (str, int), 'deezer': (int,), 'deezer_pl': (int,), 'audius': (str,), 'audius_pl': (str,), 'jamendo': (str,), 'netease': (int,), 'youtube': (), 'podchart': (str, int)}
+KIND_ORDER = {'daily': 0, 'chart': 1, 'list': 2, 'scene': 3, 'style': 4}
+SOURCE_ARGS = {'apple': (str,), 'apple_genre': (str, int), 'deezer': (int,), 'deezer_pl': (int,), 'audius': (str,), 'audius_pl': (str,), 'jamendo': (str,), 'netease': (int,), 'youtube': (), 'podchart': (str, int), 'dychart': ()}
 
 
 # ---------------------------------------------------------------- small helpers
@@ -190,7 +197,7 @@ def shuffled(items, seed):
 
 def _get(url, headers=None):
     """-> the text of an answer. Raises agg.Refused (its words never contain the address, so a key in it stays private)."""
-    final, h, body = agg.fetch(url, 'application/json, */*;q=0.5', 2 * 1024 * 1024, headers={**hotapi.BROWSER, **(headers or {})}, truncate=True)
+    final, h, body = agg.fetch(url, 'application/json, */*;q=0.5', 2 * 1024 * 1024, headers={**hotapi.BROWSER, **(headers or {})}, truncate=True, timeout=SOURCE_TIMEOUT.get(urllib.parse.urlsplit(url).hostname))
     return agg.decode(body, h)
 
 
@@ -213,6 +220,7 @@ def pooled(key, now, make):
             raise agg.Refused('来源的格式变了', 'The format of the source has changed')
     except agg.Refused:
         if hit and now - hit[0] < STALE_SECONDS:
+            STATS['stale'] += 1
             return hit[1]
         raise
     _CACHE[key] = (now, val)
@@ -422,7 +430,10 @@ def deezer_chart_lists(now):
     """-> [(id, title, number of songs)] of the play lists that are on top at Deezer now."""
     def make():
         d = _json(_get(DEEZER_CHART_LISTS))
-        return [(int(r['id']), _t(r.get('title'), 60), _int(r.get('nb_tracks'), 0, 0, 10000)) for r in (d.get('data') or []) if isinstance(r, dict) and re.fullmatch(r'\d{1,14}', str(r.get('id') or '')) and r.get('title')]
+        rows = [r for r in (d.get('data') or []) if isinstance(r, dict) and re.fullmatch(r'\d{1,14}', str(r.get('id') or '')) and r.get('title')]
+        for r in rows:
+            COVERS['dzp-%s' % r['id']] = _https(r.get('picture_medium') or r.get('picture'))
+        return [(int(r['id']), _t(r.get('title'), 60), _int(r.get('nb_tracks'), 0, 0, 10000)) for r in rows]
     return pooled('dzl', now, make)
 
 
@@ -456,8 +467,11 @@ def audius_chart_lists(now):
     """-> [(id, name, number of songs)] of the play lists that are trending on Audius now."""
     def make():
         d = _json(_get('%s/playlists/trending?time=week&limit=8&app_name=%s' % (AUDIUS, AUDIUS_APP)))
-        return [(str(r['id']), _t(r.get('playlist_name'), 60), _int(r.get('track_count'), 0, 0, 10000)) for r in (d.get('data') or [])
-                if isinstance(r, dict) and re.fullmatch(r'[A-Za-z0-9]{3,14}', str(r.get('id') or '')) and r.get('playlist_name')]
+        rows = [r for r in (d.get('data') or []) if isinstance(r, dict) and re.fullmatch(r'[A-Za-z0-9]{3,14}', str(r.get('id') or '')) and r.get('playlist_name')]
+        for r in rows:
+            art = r.get('artwork') if isinstance(r.get('artwork'), dict) else {}
+            COVERS['aup-%s' % r['id']] = _https(art.get('480x480') or art.get('150x150'))
+        return [(str(r['id']), _t(r.get('playlist_name'), 60), _int(r.get('track_count'), 0, 0, 10000)) for r in rows]
     return pooled('aul', now, make)
 
 
@@ -558,13 +572,15 @@ def available(spec, env):
         return bool(str((env or {}).get('YOUTUBE_API_KEY') or '').strip())
     if kind == 'netease':
         return str((env or {}).get('LISTEN_NETEASE_DIRECT') or '') == '1'
+    if kind == 'dychart':
+        return ms.enabled('dychart', env)
     return True
 
 
-def groups(env, now, dynamic=True, lang='zh'):
+def groups(env, now, dynamic=True, lang='zh', v2=False):
     """-> every list of today, with its sources (the index of the page is these without them). dynamic: also the play lists that are on top at Deezer and Audius today (two more questions, asked in parallel and given 2.5 seconds). `lang`: the reader's language (zh or en): the lists of it come first inside their kind."""
     off = {x.strip() for x in str((env or {}).get('LISTEN_DISABLE') or '').lower().split(',') if x.strip()}
-    out = STATIC + extra_groups()
+    out = (ms.v2_static() if v2 else STATIC) + extra_groups()
     dyn = []
     if dynamic:
         ex = concurrent.futures.ThreadPoolExecutor(2)
@@ -586,6 +602,11 @@ def groups(env, now, dynamic=True, lang='zh'):
     out += dyn
     out = [g for g in out if g['id'] not in off and any(available(s, env) for s in srcs(g, lang))]
     return sorted(out, key=lambda g: (KIND_ORDER[g['kind']], 0 if g.get('lang') in (lang, '*') else 1 if not g.get('lang') else 2))          # (a stable sort: inside a kind and a language the order above stays)
+
+
+def catalogue(env, now, lang, side, dynamic=True):
+    """The lists for a page that can ask for a whole song later (`caps=resolve`): every list with the part of the world it is about (`region`), the scenes, the Douyin chart, and the lists of the reader's side first."""
+    return ms.arrange(groups(env, now, dynamic=dynamic, lang=lang, v2=True), side, lang)
 
 
 def fetch_source(spec, env, now):
@@ -614,6 +635,8 @@ def fetch_source(spec, env, now):
         return youtube_pool(env, now)
     if kind == 'podchart':
         return podchart_pool(spec[1], spec[2], now)
+    if kind == 'dychart':
+        return ms.dychart_pool(env, now)
     return None
 
 
@@ -641,7 +664,7 @@ def combine(lists, seed, count, shuffle, per_artist):
     return out
 
 
-def fetch_group(g, env, now, report=None, deadline=None, lang='zh'):
+def fetch_group(g, env, now, report=None, deadline=None, lang='zh', v2=False):
     """-> the songs of a list today. The sources are asked at the same time; one that has not answered in `deadline` seconds is left out. `report` gets a line for each source."""
     deadline = GROUP_SECONDS if deadline is None else deadline
     specs = srcs(g, lang)
@@ -674,12 +697,18 @@ def fetch_group(g, env, now, report=None, deadline=None, lang='zh'):
         got = [p for p in got if p[1]]
         flat = [x for _, l in got for x in l]
         got = [(got[0][0], flat)] + [(name, []) for name, _ in got[1:]] if got else []
-    items = combine([l for _, l in got], '%s|%s' % (g['id'], day), g['count'], g['shuffle'], g['per_artist'])
+    lists = [l for _, l in got]
+    items = combine(lists, '%s|%s' % (g['id'], day), g['count'], g['shuffle'], g['per_artist'])
+    if v2:
+        items = ms.with_sounds(items, lists, g)
     return items, list(dict.fromkeys(x['from'] for x in items))                   # (the sources whose songs are in the list, in the order they first appear)
 
 
-def public(g):
-    return {k: g[k] for k in ('id', 'name', 'name_en', 'kind', 'net', 'type') if k in g} | ({'n': g['n']} if g.get('n') else {}) | ({'lang': g['lang']} if g.get('lang') else {})
+def public(g, v2=False):
+    out = {k: g[k] for k in ('id', 'name', 'name_en', 'kind', 'net', 'type') if k in g} | ({'n': g['n']} if g.get('n') else {}) | ({'lang': g['lang']} if g.get('lang') else {})
+    if v2:
+        out.update(ms.public_extra(g))
+    return out
 
 
 # ---------------------------------------------------------------- the answer
@@ -700,7 +729,7 @@ def diag(env, now, lang='zh'):
         g = next((x for x in gs if x['id'] == gid), None)
         if g:
             sizes[gid] = len(fetch_group(g, env, now, report, lang=lang)[0])
-    return {'keys': keys, 'groups': len(gs), 'songs': sizes, 'sources': report}
+    return {'keys': keys, 'groups': len(gs), 'songs': sizes, 'sources': report, 'providers': ms.providers_report(env)}
 
 
 def handle(query, env, now=None):
@@ -711,17 +740,28 @@ def handle(query, env, now=None):
     lang = _lang((query.get('lang') or [''])[0])
     if (query.get('diag') or [''])[0]:
         return _ok(diag(env, now, lang), 'no-store')
+    v2 = 'resolve' in (query.get('caps') or [''])[0].split(',')            # a page that can find a whole song by itself (resolve) gets the newer lists
+    side = ms.side_of((query.get('region') or [''])[0], lang)
+    if (query.get('search') or [''])[0]:
+        return ms.handle_search((query.get('search') or [''])[0], env, lang, side)
+    if (query.get('resolve') or [''])[0]:
+        return ms.handle_resolve(query, env, lang, side)
+    if (query.get('pool') or [''])[0]:
+        return ms.handle_pool((query.get('pool') or [''])[0], env, now, lang)
     gid = (query.get('g') or [''])[0]
-    gs = groups(env, now, dynamic=not gid or bool(re.match(r'(dzp|aup)-', gid)) and gid not in {g['id'] for g in STATIC}, lang=lang)
+    dynamic = not gid or bool(re.match(r'(dzp|aup)-', gid)) and gid not in {g['id'] for g in STATIC}
+    gs = catalogue(env, now, lang, side, dynamic) if v2 else groups(env, now, dynamic=dynamic, lang=lang)
     if not gid:
-        return _ok({'date': day_text(now), 'updated': int(now), 'lang': lang, 'groups': [public(g) for g in gs]})
+        return _ok({'date': day_text(now), 'updated': int(now), 'lang': lang, **({'region': side} if v2 else {}), 'groups': [public(g, v2) for g in gs]})
     g = next((x for x in gs if x['id'] == gid), None)
     if g is None:
         return _fail(404, 'none', '没有这个榜单', 'No such list')
-    items, names = fetch_group(g, env, now, lang=lang)
+    stale = STATS['stale']
+    items, names = fetch_group(g, env, now, lang=lang, v2=v2)
     if not items:
         return _fail(502, 'empty', '这个榜单现在读不到', 'This list cannot be read right now')
-    return _ok({'date': day_text(now), 'updated': int(now), 'group': {**public(g), 'sub': '来源：' + ' · '.join(names), 'sub_en': 'From ' + ' · '.join(names), 'items': items}})
+    return _ok({'date': day_text(now), 'updated': int(now), **({'stale': True} if v2 and STATS['stale'] > stale else {}),
+                'group': {**public(g, v2), 'sub': '来源：' + ' · '.join(names), 'sub_en': 'From ' + ' · '.join(names), 'items': items}})
 
 
 # ---------------------------------------------------------------- the check to run on your own computer
