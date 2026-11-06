@@ -27,6 +27,7 @@ import aggregate as agg
 import htmlsafe
 import readable
 import submission
+import feedresolver
 from submission import Reply
 
 BODY_LIMIT = 40_000
@@ -136,13 +137,24 @@ def _checked(raw):
     return url
 
 
-def discover(raw):
+def discover(raw, env=None):
     """-> what the address is: {'kind': 'feed', 'feed': address of the feed, ...} (can be subscribed) or {'kind': 'link', ...} (a page: one link, nothing to follow)."""
-    url = _checked(raw)
-    kind = agg.classify(url)
+    url, resolution = feedresolver.resolve(raw, env)
+    url = _checked(url)
+    direct = resolution['method'] in ('apple_lookup', 'github_releases', 'rsshub') or (resolution['platform'] == 'github.com' and agg.feed_like(url))
+    kind = {'kind': 'feed'} if direct else agg.classify(url)
     if kind['kind'] == 'unsupported':
         raise agg.Refused(kind['zh'], kind['en'])
-    entry, pre, warnings = agg.discover(url)
+    entry, pre, warnings = ({'kind': 'feed', 'source': url, 'url': url}, None, []) if direct else agg.discover(url)
+    if entry['kind'] == 'link' and pre:
+        candidate = feedresolver.page_candidate(pre)
+        if candidate:
+            entry, pre, warnings = agg.discover(_checked(candidate))
+            resolution['method'] = 'page_feed'
+            resolution['scope'] = 'site'
+        elif 'json' in pre[1].get('content-type', '').lower():
+            raise Reply(422, 'api_adapter', '这个 JSON 接口不是标准 JSON Feed，需要配置字段映射后才能持续订阅。',
+                        'This JSON API is not a standard JSON Feed; an adapter is required.')
     if entry['kind'] == 'repo':
         raise agg.Refused('GitHub 仓库暂时不能订阅（可以把里面的文章单独存成链接）', 'A GitHub repository cannot be followed yet (save its articles as links)')
     res = agg.read_source(entry, None, pre)
@@ -153,6 +165,10 @@ def discover(raw):
         newest = sorted(items, key=lambda i: i['date'], reverse=True)
         out.update({'kind': 'feed', 'feed': entry['source'], 'image': shelf['image'], 'found': len(items), 'etag': res.get('etag', ''), 'modified': res.get('modified', ''),
                     'items': [_item(i) for i in newest[:DISCOVER_ITEMS]]})
+        out['resolution'] = resolution
+    elif resolution['method'] in ('apple_lookup', 'github_releases', 'rsshub'):
+        raise Reply(422, 'feed_invalid', '已找到候选订阅地址，但没有读到有效 RSS；请稍后重试或提供原生 RSS。',
+                    'A candidate was found but did not return a valid feed. Try later or supply a native RSS URL.')
     else:
         first = items[0]
         out.update({'kind': 'link', 'url': first['url'], 'title': first['title'], 'summary': first['summary'], 'image': first['image'], 'date': first['date'],
@@ -251,7 +267,7 @@ def handle(payload, ip, env, now=None):
                 raise Reply(400, 'request', '请求格式不对', 'Bad request')
             limited(who, 'discover', now)
             with reading():
-                return 200, discover(payload['url'])
+                return 200, discover(payload['url'], env)
         if action == 'read':
             if not isinstance(payload.get('url'), str):
                 raise Reply(400, 'request', '请求格式不对', 'Bad request')
@@ -274,7 +290,8 @@ def handle(payload, ip, env, now=None):
     except readable.Unreadable as e:                                          # a page that is not an article: the reason, so that the page can offer the original instead
         return 422, _unreadable(e)
     except agg.Refused as e:                                                 # an address that cannot be read, or is not a safe one: the same answer the submit function gives a check
-        return 422, {'ok': False, 'error': 'unreachable', 'message': str(e), 'message_en': e.en, 'code': e.code or 0}
+        reason = 'login' if e.code in (401, 402, 407) else 'restricted' if e.code in (403, 429, 451) else 'gone' if e.code in (404, 410) else 'unreachable'
+        return 422, {'ok': False, 'error': 'unreachable', 'reason': reason, 'message': str(e), 'message_en': e.en, 'code': e.code or 0}
 
 
 # ---------------------------------------------------------------- the HTTP side (used by api/feed.py and by the tests)

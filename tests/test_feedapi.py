@@ -75,10 +75,7 @@ class TestDiscover(FeedBase):
         self.assertEqual((st, body['kind'], body['title'], body['summary']), (200, 'link', 'A single article', 'What it is about, in a sentence.'))
         self.assertEqual(body['url'], self.u + '/post/1')                                                  # the kind says it: a page, nothing to follow
 
-    def test_a_github_repository_cannot_be_followed_yet(self):
-        st, body = self.discover('https://github.com/o/r')
-        self.assertEqual((st, body['error']), (422, 'unreachable'))
-        self.assertIn('GitHub', body['message'])
+    def test_a_github_profile_needs_a_repository(self):
         st, body = self.discover('https://github.com/someone')
         self.assertEqual(st, 422)
         self.assertEqual(self.site.hits, [])                                                               # decided from the shape of the address, nothing was requested
