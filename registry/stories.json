@@ -1,0 +1,32 @@
+{
+ "version": 1,
+ "updated": "2026-11-06",
+ "note": "Story podcasts picked by hand: the feed is read, the sound of its newest episode answers, it is being updated (checked with devtools/check_shows.py). `platform` is where the show lives (ximalaya, xiaoyuzhou, lizhi, wavpub, heymeow); `style` is one of the ids in `styles`. The lists of /api/listen add the shows of Apple's China charts whose name says a story (stories.py), so this list is the floor, not the whole.",
+ "styles": [
+  {"id": "mystery", "name": "悬疑怪谈", "name_en": "Mystery & the uncanny"},
+  {"id": "crime", "name": "真实罪案", "name_en": "True crime"},
+  {"id": "true", "name": "真实故事", "name_en": "True stories"},
+  {"id": "history", "name": "历史野史", "name_en": "History tales"},
+  {"id": "sleep", "name": "睡前故事", "name_en": "Bedtime stories"}
+ ],
+ "shows": [
+  {"id": "nianyu", "name": "鲶鱼夜话", "name_en": "鲶鱼夜话", "platform": "ximalaya", "style": "mystery", "apple_id": 1714394532, "feed": "https://www.ximalaya.com/album/66572833.xml", "why": "听友投稿的民间灵异和怪谈，每期几个故事。", "why_en": "Folk ghost stories sent in by listeners, a few in each episode."},
+  {"id": "haluo", "name": "哈喽怪谈", "name_en": "哈喽怪谈", "platform": "wavpub", "style": "mystery", "apple_id": 512426799, "feed": "https://s2.proxy.wavpub.com/helloguaitan.xml", "why": "怪谈和听友来稿，一千多期。", "why_en": "Uncanny tales and stories from listeners, over a thousand episodes."},
+  {"id": "ruye", "name": "入夜电波", "name_en": "入夜电波", "platform": "xiaoyuzhou", "style": "mystery", "apple_id": 1784214454, "feed": "https://feed.xyzfm.space/dwc8l4yrerq8", "why": "凶案还原、灵异故事、都市传说和神话。", "why_en": "Murder cases, ghost stories, urban legends and myths."},
+  {"id": "tsp", "name": "TSP怪奇档案", "name_en": "TSP怪奇档案", "platform": "ximalaya", "style": "mystery", "apple_id": 1488439861, "feed": "http://www.ximalaya.com/album/19206387.xml", "why": "怪奇、野史、神话和都市传说，带科普的脱口秀。", "why_en": "Oddities, hidden history, myths and urban legends told as a talk show with some science."},
+  {"id": "heimao", "name": "黑猫侦探社", "name_en": "黑猫侦探社", "platform": "heymeow", "style": "crime", "apple_id": 1596363758, "feed": "https://feeds.heymeowfm.com/heymeow.xml", "why": "讲述世界各地真实罪案的叙事类播客。", "why_en": "A narrative podcast about real crimes from around the world."},
+  {"id": "shengren", "name": "生人勿近", "name_en": "生人勿近", "platform": "ximalaya", "style": "crime", "apple_id": 1523445987, "feed": "http://www.ximalaya.com/album/38415596.xml", "why": "罪案、悬案和奇闻，每期几个故事。", "why_en": "Crimes, cold cases and strange news, a few stories in each episode."},
+  {"id": "luori", "name": "落日之后", "name_en": "落日之后", "platform": "xiaoyuzhou", "style": "crime", "apple_id": 1697309319, "feed": "https://feed.xyzfm.space/9cpcu49mgt9h", "why": "离奇的谋杀、失踪和难解的犯罪谜团。", "why_en": "Strange murders, disappearances and puzzling crimes."},
+  {"id": "buzhisheng", "name": "不吱声", "name_en": "不吱声", "platform": "xiaoyuzhou", "style": "crime", "apple_id": 1771248028, "feed": "https://feed.xyzfm.space/kqvyjmed9pj9", "why": "两位主播分享真实罪案和悬疑故事。", "why_en": "Two hosts share real crimes and mystery stories."},
+  {"id": "songshu", "name": "松鼠大侦探", "name_en": "松鼠大侦探", "platform": "xiaoyuzhou", "style": "crime", "apple_id": 1708535393, "feed": "https://feed.xyzfm.space/9483yrqbad98", "why": "翻旧报纸、庭审记录和警方档案，把案件的细节找回来。", "why_en": "Old newspapers, court records and police files, the details of a case found again."},
+  {"id": "beike", "name": "贝壳回音", "name_en": "贝壳回音", "platform": "xiaoyuzhou", "style": "crime", "apple_id": 1794059280, "feed": "https://feed.xyzfm.space/m44qtmb4hmhh", "why": "双女主播，带你走进案发现场，配有演绎片段。", "why_en": "Two women hosts take you to the scene, with acted passages."},
+  {"id": "xuanyi", "name": "悬疑案件", "name_en": "悬疑案件", "platform": "wavpub", "style": "crime", "apple_id": 1501849577, "feed": "https://s1.proxy.wavpub.com/yeelokxyaj.xml", "why": "怡楽电台的案件栏目，三位主持人讲案件。", "why_en": "The case programme of Yile Radio, three hosts tell the cases."},
+  {"id": "heisha", "name": "黑鲨诡话", "name_en": "黑鲨诡话", "platform": "lizhi", "style": "mystery", "apple_id": 1603371127, "feed": "http://rss.lizhi.fm/rss/3528895.xml", "why": "网友讲自己遇到的诡异经历。", "why_en": "Listeners tell the strange things that happened to them."},
+  {"id": "huiyingu", "name": "回音谷 | 罪案故事", "name_en": "回音谷 | 罪案故事", "platform": "xiaoyuzhou", "style": "crime", "apple_id": 1772410285, "feed": "https://feed.xyzfm.space/umglrmbkugck", "why": "一期一个罪案故事。", "why_en": "One crime story in each episode."},
+  {"id": "qingshuichi", "name": "清水池丨罪案播客", "name_en": "清水池丨罪案播客", "platform": "xiaoyuzhou", "style": "crime", "apple_id": 6807324457, "feed": "https://feed.xyzfm.space/m9l7qgx8p4du", "why": "小宇宙上更新中的罪案播客。", "why_en": "A true-crime podcast on Xiaoyuzhou that is being updated."},
+  {"id": "gushifm", "name": "故事FM", "name_en": "StoryFM", "platform": "wavpub", "style": "true", "apple_id": 1256399960, "feed": "https://feeds.storyfm.cn/storyfm.xml", "why": "真实的人用自己的声音讲自己的故事，一千期。", "why_en": "Real people tell their own stories in their own voices, a thousand episodes."},
+  {"id": "yeshi", "name": "野史下酒", "name_en": "野史下酒", "platform": "wavpub", "style": "history", "apple_id": 877607820, "feed": "https://s1.proxy.wavpub.com/yeshixiajiu.xml", "why": "有趣的历史故事，边喝边听。", "why_en": "Entertaining tales from history, to listen to with a drink."},
+  {"id": "shuiqian", "name": "成人睡前故事", "name_en": "成人睡前故事", "platform": "ximalaya", "style": "sleep", "apple_id": 1667557531, "feed": "https://www.ximalaya.com/album/67610333.xml", "why": "成人睡前故事、中式志怪和民间故事，每天更新。", "why_en": "Bedtime stories for adults, Chinese tales of the strange and folk tales, new every day."},
+  {"id": "shuiqian2", "name": "成人睡前故事｜温柔男声", "name_en": "成人睡前故事｜温柔男声", "platform": "ximalaya", "style": "sleep", "apple_id": 1645823973, "feed": "https://www.ximalaya.com/album/71029167.xml", "why": "温柔男声，每晚一个故事哄你入睡。", "why_en": "A soft male voice, one story every night to fall asleep to."}
+ ]
+}

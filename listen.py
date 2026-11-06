@@ -38,6 +38,8 @@ import urllib.request
 import aggregate as agg
 import hotapi
 import music_sources as ms
+import stories
+import audiobooks
 
 DAY_OFFSET = 8 * 3600                       # the day starts at midnight in China
 POOL_SECONDS = 6 * 3600                     # what a source said is kept this long per warm instance
@@ -61,7 +63,7 @@ DEEZER_LIST = 'https://api.deezer.com/playlist/%s/tracks?limit=100'
 AUDIUS = 'https://api.audius.co/v1'
 AUDIUS_APP = 'zhitree-books'
 APPLE_REGIONS = {'cn': ('中国', 'China'), 'us': ('美国', 'US'), 'jp': ('日本', 'Japan'), 'kr': ('韩国', 'Korea'), 'tw': ('台湾', 'Taiwan'), 'hk': ('香港', 'Hong Kong'), 'gb': ('英国', 'UK'), 'de': ('德国', 'Germany'), 'fr': ('法国', 'France')}
-PROVIDERS = {'apple': 'Apple Music', 'apple_genre': 'Apple Music', 'deezer': 'Deezer', 'deezer_pl': 'Deezer', 'audius': 'Audius', 'audius_pl': 'Audius', 'jamendo': 'Jamendo', 'netease': '网易云音乐', 'youtube': 'YouTube', 'podchart': 'Apple Podcasts', 'dychart': '抖音热歌榜'}
+PROVIDERS = {'apple': 'Apple Music', 'apple_genre': 'Apple Music', 'deezer': 'Deezer', 'deezer_pl': 'Deezer', 'audius': 'Audius', 'audius_pl': 'Audius', 'jamendo': 'Jamendo', 'netease': '网易云音乐', 'youtube': 'YouTube', 'podchart': 'Apple Podcasts', 'dychart': '抖音热歌榜', 'stories': 'Apple Podcasts'}
 _CACHE = {}
 SOURCE_TIMEOUT = {'api.xcvts.cn': 8}                     # a source kept by one person answers in a second or not at all: it is waited for 8 seconds, not 15
 COVERS = {}                                 # list id -> the picture its source gives it (Deezer, Audius play lists)
@@ -149,7 +151,7 @@ NE_LISTS = [(3778678, '热歌榜', 'Hot songs', 'zh'), (3779629, '新歌榜', 'N
             (991319590, '说唱榜', 'Rap', 'zh'), (71385702, 'ACG 榜', 'ACG', ''), (745956260, '韩语榜', 'Korean', ''), (2809513713, '欧美热歌榜', 'Western hits', 'en'), (2809577409, '欧美新歌榜', 'Western new songs', 'en'),
             (3812895, 'Beatport 电子舞曲榜', 'Beatport dance', ''), (60198, 'Billboard 榜', 'Billboard', 'en')]
 KIND_ORDER = {'daily': 0, 'chart': 1, 'list': 2, 'scene': 3, 'style': 4}
-SOURCE_ARGS = {'apple': (str,), 'apple_genre': (str, int), 'deezer': (int,), 'deezer_pl': (int,), 'audius': (str,), 'audius_pl': (str,), 'jamendo': (str,), 'netease': (int,), 'youtube': (), 'podchart': (str, int), 'dychart': ()}
+SOURCE_ARGS = {'apple': (str,), 'apple_genre': (str, int), 'deezer': (int,), 'deezer_pl': (int,), 'audius': (str,), 'audius_pl': (str,), 'jamendo': (str,), 'netease': (int,), 'youtube': (), 'podchart': (str, int), 'dychart': (), 'stories': (str, str)}
 
 
 # ---------------------------------------------------------------- small helpers
@@ -574,6 +576,8 @@ def available(spec, env):
         return str((env or {}).get('LISTEN_NETEASE_DIRECT') or '') == '1'
     if kind == 'dychart':
         return ms.enabled('dychart', env)
+    if kind == 'stories':
+        return stories.available()
     return True
 
 
@@ -606,7 +610,8 @@ def groups(env, now, dynamic=True, lang='zh', v2=False):
 
 def catalogue(env, now, lang, side, dynamic=True):
     """The lists for a page that can ask for a whole song later (`caps=resolve`): every list with the part of the world it is about (`region`), the scenes, the Douyin chart, and the lists of the reader's side first."""
-    return ms.arrange(groups(env, now, dynamic=dynamic, lang=lang, v2=True), side, lang)
+    gs = [g for g in groups(env, now, dynamic=dynamic, lang=lang, v2=True) if not (lang == 'en' and g['id'].startswith('st-'))]          # (the lists of stories are in Chinese: a reader of English does not get them)
+    return ms.arrange(gs, side, lang)
 
 
 def fetch_source(spec, env, now):
@@ -637,6 +642,8 @@ def fetch_source(spec, env, now):
         return podchart_pool(spec[1], spec[2], now)
     if kind == 'dychart':
         return ms.dychart_pool(env, now)
+    if kind == 'stories':
+        return stories.items(spec[1], spec[2], now)
     return None
 
 
@@ -742,6 +749,10 @@ def handle(query, env, now=None):
         return _ok(diag(env, now, lang), 'no-store')
     v2 = 'resolve' in (query.get('caps') or [''])[0].split(',')            # a page that can find a whole song by itself (resolve) gets the newer lists
     side = ms.side_of((query.get('region') or [''])[0], lang)
+    if (query.get('books') or [''])[0]:
+        return audiobooks.handle_books(lang)
+    if (query.get('book') or [''])[0]:
+        return audiobooks.handle_book((query.get('book') or [''])[0], now, lang)
     if (query.get('search') or [''])[0]:
         return ms.handle_search((query.get('search') or [''])[0], env, lang, side)
     if (query.get('resolve') or [''])[0]:

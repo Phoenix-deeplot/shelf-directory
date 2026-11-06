@@ -676,6 +676,126 @@
    ],
    "added": "2026-11-04",
    "issue": 44
+  },
+  {
+   "id": "ximalaya-com-2",
+   "kind": "feed",
+   "url": "https://www.ximalaya.com/album/66572833.xml",
+   "source": "https://www.ximalaya.com/album/66572833.xml",
+   "name": "鲶鱼夜话",
+   "tags": [
+    "故事",
+    "悬疑"
+   ],
+   "added": "2026-11-06",
+   "topics": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "s2-proxy-wavpub-com",
+   "kind": "feed",
+   "url": "https://s2.proxy.wavpub.com/helloguaitan.xml",
+   "source": "https://s2.proxy.wavpub.com/helloguaitan.xml",
+   "name": "哈喽怪谈",
+   "tags": [
+    "鏁呬簨",
+    "鎮枒鎬皥"
+   ],
+   "added": "2026-11-06",
+   "topics": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "feeds-heymeowfm-com",
+   "kind": "feed",
+   "url": "https://feeds.heymeowfm.com/heymeow.xml",
+   "source": "https://feeds.heymeowfm.com/heymeow.xml",
+   "name": "黑猫侦探社",
+   "tags": [
+    "鏁呬簨",
+    "鐪熷疄缃"
+   ],
+   "added": "2026-11-06",
+   "topics": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "feeds-storyfm-cn",
+   "kind": "feed",
+   "url": "https://feeds.storyfm.cn/storyfm.xml",
+   "source": "https://feeds.storyfm.cn/storyfm.xml",
+   "name": "故事FM",
+   "tags": [
+    "鏁呬簨",
+    "鐪熷疄鏁呬簨"
+   ],
+   "added": "2026-11-06",
+   "topics": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "s1-proxy-wavpub-com",
+   "kind": "feed",
+   "url": "https://s1.proxy.wavpub.com/yeshixiajiu.xml",
+   "source": "https://s1.proxy.wavpub.com/yeshixiajiu.xml",
+   "name": "野史下酒｜有趣的历史故事",
+   "tags": [
+    "鏁呬簨",
+    "鍘嗗彶閲庡彶"
+   ],
+   "added": "2026-11-06",
+   "topics": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "ximalaya-com-3",
+   "kind": "feed",
+   "url": "https://www.ximalaya.com/album/67610333.xml",
+   "source": "https://www.ximalaya.com/album/67610333.xml",
+   "name": "成人睡前故事",
+   "tags": [
+    "鏁呬簨",
+    "鐫″墠鏁呬簨"
+   ],
+   "added": "2026-11-06",
+   "topics": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "feed-xyzfm-space-3",
+   "kind": "feed",
+   "url": "https://feed.xyzfm.space/9483yrqbad98",
+   "source": "https://feed.xyzfm.space/9483yrqbad98",
+   "name": "松鼠大侦探",
+   "tags": [
+    "鏁呬簨",
+    "鐪熷疄缃"
+   ],
+   "added": "2026-11-06",
+   "topics": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "feed-xyzfm-space-4",
+   "kind": "feed",
+   "url": "https://feed.xyzfm.space/9cpcu49mgt9h",
+   "source": "https://feed.xyzfm.space/9cpcu49mgt9h",
+   "name": "落日之后",
+   "tags": [
+    "鏁呬簨",
+    "鐪熷疄缃"
+   ],
+   "added": "2026-11-06",
+   "topics": [
+    "entertainment"
+   ]
   }
  ]
 }

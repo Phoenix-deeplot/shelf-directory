@@ -542,6 +542,8 @@ def v2_static():
         out.append(dict(g, kind='scene') if g['id'] in SCENES else g)
     out += [L._g(gid, zh, en, 'scene', srcs) for gid, zh, en, srcs in SCENE_GROUPS]
     out.append(dict(L._g('dy-hot', '抖音热歌榜', 'Douyin hot songs', 'chart', [('dychart',)], 'first', 100, False, 3, lang='zh'), resolve=True))
+    import stories
+    out += stories.groups()                                               # (the lists of story podcasts: by style and by platform)
     return out
 
 
@@ -551,6 +553,8 @@ def region_of(g):
     gid = g['id']
     if gid in REGION_OF:
         return REGION_OF[gid]
+    if gid.startswith('st-'):
+        return 'cn'
     if gid.startswith('nep-'):
         return {'zh': 'cn', 'en': 'west'}.get(g.get('lang'), 'global')
     return 'global' if gid != 'daily' else ''
